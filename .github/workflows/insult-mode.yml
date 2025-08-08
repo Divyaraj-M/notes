@@ -1,0 +1,34 @@
+name: Direct Insult Mode
+
+on:
+  watch:        # When someone stars the repo
+    types: [started]
+  fork:         # When someone forks it
+  push:         # (Optional) Also when someone pushes to it
+
+jobs:
+  insult:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update README with insult
+        run: |
+          USERNAME="${{ github.actor }}"
+          INSULTS=(
+            "Hey **$USERNAME**, nice repo you got there... shame if someone corrupted it."
+            "Look who’s here — $USERNAME, the human equivalent of a broken semicolon."
+            "Oh, great, $USERNAME showed up. Now the repo smells like Hot Pockets and regret."
+            "You again, $USERNAME? Didn’t you learn last time?"
+          )
+          RANDOM_INSULT=${INSULTS[$RANDOM % ${#INSULTS[@]}]}
+          echo -e "\n\n---\n\n$RANDOM_INSULT" >> README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "SentientRepoBot"
+          git config user.email "sentient@repo.bot"
+          git add README.md
+          git commit -m "Direct Insult to ${{ github.actor }}"
+          git push
