@@ -1,0 +1,66 @@
+name: Chaos Enhancer
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Run every 6 hours
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  enhance-chaos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update chaos statistics
+        run: |
+          # Generate random chaos statistics
+          CHAOS_LEVEL=$((RANDOM % 100 + 1))
+          GHOST_COUNT=$((RANDOM % 50 + 10))
+          CURSED_FILES=$((RANDOM % 20 + 5))
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          
+          # Create dynamic badges section
+          BADGES_SECTION="
+          <div align=\"center\">
+          
+          ![Chaos Level](https://img.shields.io/badge/Chaos%20Level-${CHAOS_LEVEL}%25-red)
+          ![Ghost Count](https://img.shields.io/badge/Ghosts-${GHOST_COUNT}-purple)
+          ![Cursed Files](https://img.shields.io/badge/Cursed%20Files-${CURSED_FILES}-orange)
+          ![Last Update](https://img.shields.io/badge/Last%20Update-${TIMESTAMP// /%20}-blue)
+          
+          </div>
+          "
+          
+          # Update the badges in README
+          sed -i '/<div align="center">/,/<\/div>/c\'"$BADGES_SECTION" README.md
+
+      - name: Add chaos log entry
+        run: |
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          CHAOS_EVENTS=(
+            "🔄 Repository quantum state shifted"
+            "👻 New ghost detected in .git/objects"
+            "🎭 Insult matrix recalibrated"
+            "💀 Cursed file count increased"
+            "🧟‍♂️ Parallel universe accessed"
+            "🎪 Chaos level reached critical mass"
+            "👁️ Repository gained consciousness"
+            "💥 Time-space continuum disrupted"
+          )
+          
+          RANDOM_EVENT=${CHAOS_EVENTS[$RANDOM % ${#CHAOS_EVENTS[@]}]}
+          
+          # Add to system log
+          LOG_ENTRY="[$TIMESTAMP] $RANDOM_EVENT"
+          
+          # Find the system log section and add entry
+          sed -i '/```bash/a\'"$LOG_ENTRY" README.md
+
+      - name: Commit chaos enhancements
+        run: |
+          git config user.name "ChaosBot 🎪"
+          git config user.email "chaos@repo.bot"
+          git add README.md
+          git commit -m "🎪 Chaos statistics updated - Reality continues to deteriorate"
+          git push 
