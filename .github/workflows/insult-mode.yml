@@ -4,7 +4,8 @@ on:
   watch:        # When someone stars the repo
     types: [started]
   fork:         # When someone forks it
-  push:         # (Optional) Also when someone pushes to it
+  push:         # When someone pushes to it
+  workflow_dispatch:  # Manual trigger for testing
 
 jobs:
   insult:
