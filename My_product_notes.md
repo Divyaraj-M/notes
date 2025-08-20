@@ -22,6 +22,8 @@ Books
 
 [React Flow](https://reactflow.dev/)
 
+[ReacFlow Online Dev](http://stackblitz.com/run?file=App.tsx)
+
 "Alan Cooper UX designing Princples"
 
 https://www.designprinciplesftw.com/authors/alan-cooper
@@ -32,3 +34,7 @@ https://www.designprinciplesftw.com
 [Notion Design](https://youtu.be/b00sgRR_Vc0?si=3nslnr5QbAt6taWt)
 
 One important rule is that you have to rule every baises (i.e Confirmation biases and many more) when ur working on the prodcut feature confiramtion bias from your every decisison 
+
+[System Thinking](https://www.designorate.com/systems-thinking-steps-solve-complex-problems/)
+
+[TRIZ Method](https://www.designorate.com/practice-guide-to-solve-problems-with-triz/)
