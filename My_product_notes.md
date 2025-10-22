@@ -38,3 +38,26 @@ One important rule is that you have to rule every baises (i.e Confirmation biase
 [System Thinking](https://www.designorate.com/systems-thinking-steps-solve-complex-problems/)
 
 [TRIZ Method](https://www.designorate.com/practice-guide-to-solve-problems-with-triz/)
+
+[TRIZ method](https://scottburleson.substack.com/p/book-summary-40-principles-triz-keys)
+
+[Allure Automation Testing tool](https://allurereport.org/docs/install/)
+
+
+
+
+Dashboard
+RFP Task view (to review)
+RFP Mapping view (to review)
+Inbox/Task views
+Incorporate instructions specific to each rfp / task
+Incremental Updates to RFP flow
+Check with Kavin on possibility to add rfp manager as a role
+Show sections beforehand
+If none is possible, handling flat role structure
+Check with Kavin on validation
+Possibility to add more fluid mapping (many questions at one go)
+Export screen
+Requirements/ Task screen on RFP
+Validations on questions based on instructions
+Capturi
