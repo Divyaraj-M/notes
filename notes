@@ -1,1 +1,57 @@
-Things to do for 
+Pendo.io
+Vanta
+
+foundation of llms
+
+Must have 
+- Product Docs
+- Pricing Docs
+- Compliance Docs 
+- Case Studies 
+
+Should Have 
+- Competiotrs 
+- LMS
+- Exisiting Customer list 
+- Rules of engagement 
+
+
+https://support.loopio.com/hc/en-us/articles/27627060525843-How-Can-I-Assign-a-Project-Entry-to-Be-Answered
+
+https://support.loopio.com/hc/en-us/articles/360025187553-Using-Project-Plans-to-Monitor-A-Project-s-Timeline - Project plan
+
+
+Loopio 
+- By default the Enteries due dates are project due date
+- If the date is overdue , Can set the due date for the entries later than today 
+- Due date must be less than project Due date
+- Project plan 
+  - Project plan is seeting the timeline for the project , We Can crete template for the project plan
+  - It has Milestones with date 
+  	- Send reminder on Each Due of Milestone 
+  	- Each can be managed hy status like Not satrted, In Progress, Completed 
+
+ Responsive 
+ - Task Templates 
+ -- Where they have Hwo days Beforee the asnwers Should be done 
+
+
+All selected entries share the same due date - That date is pre-filled in the “Due Date” field
+
+Selected entries have different due dates - The “Due Date” field is blank 
+
+After you pick a new due date - That new date replaces the due date for all selected entries - Overwrites
+
+
+
+Is there any Case We have to give a Partner a Create and Delete Access?
+
+If Yes, For Delete Own , team and all can be a problem, 
+
+
+weekly Catch up with QA
+
+Regression Candidates 
+Main test cases 
+
+Grollila 
