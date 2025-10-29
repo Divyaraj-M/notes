@@ -55,3 +55,31 @@ Regression Candidates
 Main test cases 
 
 Grollila 
+Deep testing 
+
+Sanity 
+
+
+
+Key Takeaways from QA Feedback
+1. Requirement Discussions
+ - Share early context and walk QA through the problem you are solving.
+ - Define scope, user scenarios, and acceptance criteria clearly to avoid assumptions.
+ - Call out dependencies and open items so QA can plan coverage early.
+
+2. Story Writing
+ - Write user stories with detailed acceptance criteria and sample data.
+ - Add business rules, validation checks, and edge cases (permissions, data size, etc.).
+ - This helps QA validate faster and prevents missed scenarios.
+
+3. Edge Case Collaboration
+ - Discuss “what-if” cases before development begins.
+ - Cover negative scenarios, existing user impact, and cross-module effects.
+ - A short brainstorming session early avoids last-minute changes later.
+
+4. Sign-Off and Release
+ - Involve QA in demos or review calls before sign-off.
+ - Set clear pass/fail expectations and acceptable deviations to  close stories faster.
+
+
+
