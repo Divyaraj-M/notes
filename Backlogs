@@ -89,7 +89,6 @@ Dropdown Template
 
 Loopoio : https://support.loopio.com/hc/en-us/articles/360020261694-How-Do-Answer-Set-Options-Map-From-a-Project-To-The-Answers-In-My-Library
 
-https://support.loopio.com/hc/en-us/articles/360020260834-How-Do-I-Update-or-Change-my-Library-s-Answer-Sets
 
 Auto RFp : https://learn.autorfp.ai/en/articles/12622701-how-to-use-compliance-dropdowns-in-autorfp
 
@@ -105,3 +104,21 @@ https://help.responsive.io/hc/en-us/articles/19555544803475-Using-drop-downs-as-
 https://help.responsive.io/hc/en-us/articles/19555082200083-Using-multi-column-drop-downs-as-answer-types-in-Excel
 
 https://help.responsive.io/hc/en-us/articles/28731448621203-Working-with-Document-Shredding
+
+
+Requirement Types: https://learn.autorfp.ai/en/articles/12622018-how-to-create-a-project-in-autorfp
+
+Requirement: Any question or statement that will be met with a response (mandatory selection)
+
+Child Requirement: Answered separately but considers parent requirement context when drafting responses
+
+Combined Requirement: Merges multiple cells into one requirement when a single response covers multiple points (horizontally or vertically)
+
+Cmd+ click -select the Cells in the Mapping screen 
+
+https://knowledge.hubspot.com/user-management/hubspot-user-permissions-guide#settings-access
+
+Limit access by teams: toggle the Limit access by teams switch on to let users share assets with other users. Users with this permission have access to all assets no matter what team they're on.
+
+User Management
+
