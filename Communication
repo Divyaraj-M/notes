@@ -1,0 +1,29 @@
+Task Module 
+Here's what i know ?
+- Classifying each task by sections
+- Default opening page will be pending 
+- I can expand Each task and Complete one by one and finish it of without any Problem
+- Pending 
+-- Task which is assigned to me
+--- As author 
+--- As approver 
+--- As both author or reviewer
+- Authored 
+-- task which is completed by me 
+-- As author
+- Reviewed 
+-- As reviwer 
+
+
+Here's What i don't know 
+- Authored 
+-- task which is completed by me 
+-- As approver 
+--- As both author or reviewer
+- Reviewed 
+-- As reviwer 
+
+
+
+
+Active to completed one - even withhout all the quetions marked as completed 
