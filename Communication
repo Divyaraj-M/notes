@@ -27,3 +27,30 @@ Here's What i don't know
 
 
 Active to completed one - even withhout all the quetions marked as completed 
+
+
+
+Teams
+Know what you need, 
+- What Should happen If user x moves from team A to team B 
+- What Should a user do if a two team should have a have access for the resources 
+
+list what you know, 
+There two Types a behaviour how team should Behvae 
+- Resource belongs to the User 
+- Resouce belongs to a team (this can't be applicable in here )
+There are concept of Nested teams 
+- Nested team have Heirachy where each team can be uder other team
+-- Team Which have higher authority can see the resouces of Low authority, but not in the otherway 
+-- 
+User can be in multiple teams 
+- A user can be in one main team and 5 extra team 
+
+
+
+find what you don’t, 
+What Should I decide 
+plan the search, 
+collect facts, 
+compress, 
+decide.
