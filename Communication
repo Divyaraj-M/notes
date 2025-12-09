@@ -28,6 +28,7 @@ Here's What i don't know
 
 Active to completed one - even withhout all the quetions marked as completed 
 
+Needed 
 
 
 Teams
@@ -45,6 +46,7 @@ There are concept of Nested teams
 -- 
 User can be in multiple teams 
 - A user can be in one main team and 5 extra team https://www.youtube.com/watch?v=zt7hlQ3Lv6o(source is 3 years ago content)
+Extra team member
 
 
 
@@ -54,3 +56,309 @@ plan the search,
 collect facts, 
 compress, 
 decide.
+
+
+5.1 Team Management
+-Create team
+-Add/remove members
+-Assign roles (Admin/Editor/Viewer)
+-Set parent team
+
+5.2 Resource Access Logic
+-Grant access to owner
+-Grant access to owner’s team
+-Grant access to parent teams (if hierarchy enabled)
+-Apply collaborative overrides
+-Apply sensitivity restrictions
+-Apply explicit sharing rules
+
+5.3 Team-Based Sharing
+-Share resource with specific teams
+-Choose share role: Viewer/Editor
+
+5.4 Sensitive Resources
+-Restrict default team visibility
+-Allow only direct shares
+-Indicators in UI (e.g., lock icon)
+
+5.5 Section Assignment
+-Assign section to team
+-Auto-assign all team users
+-Auto-carry permissions on reassign/move
+		[KNOWN–UNKNOWN MATRIX (Section Assignment Feature)
+
+I’m breaking it into four buckets:
+
+Known Knowns → clear, decided behavior
+Known Unknowns → we know the problem exists, but need decisions
+Unknown Knowns → behavior that exists elsewhere (Loopio/RFPIO) that we must check
+Unknown Unknowns → edge cases we must proactively surface
+
+This is the strongest way to derisk the feature.
+
+1. KNOWN KNOWNS (Clear rules you’ve already decided)
+
+These are fixed truths based on your current model.
+
+1.1 Section can be assigned to either:
+
+A user
+
+A team
+
+1.2 If assigned to a team:
+
+All team members get Edit permission over the section
+
+Access updates dynamically when team membership changes
+
+1.3 Section permission follows resource rules:
+
+Owner always has full access
+
+Collaborators always override team rules
+
+Sensitive section overrides team access
+
+If owner moves teams, team-based access recalculates
+
+1.4 On reassigning section to another team:
+
+Old team members lose edit access
+
+New team members gain edit access
+
+Collaborators remain the same
+
+1.5 Nested hierarchy (if enabled):
+
+Parent teams may see child-team sections (View)
+
+Sensitive section = no hierarchy visibility
+
+2. KNOWN UNKNOWNS (We know these decisions are pending)
+
+These must be resolved before dev starts.
+
+2.1 What is the default permission when a team is assigned?
+
+Options:
+
+Editor for all team members (current assumption)
+
+Editor for team editors, Viewer for team viewers
+
+Always editor, role ignored
+
+Needs final decision.
+
+2.2 What happens if section owner is in a different team than section-assigned team?
+
+Example:
+
+Section owned by User A (Team X)
+
+Section assigned to Team Y
+
+Should:
+
+Team Y get edit
+
+Team X only get view?
+
+Or both get edit?
+
+This must be explicitly defined.
+
+2.3 Does section assignment persist if owner changes teams?
+
+Owner moves from Team X → Team Z
+
+Should the section still stay assigned to Team Y?
+
+Or return to Team Z?
+
+Or remain independent of owner’s team?
+
+Needs clarity.
+
+2.4 What if a team is deleted?
+
+Behavior options:
+
+Remove assignments
+
+Move assignment to parent team
+
+Mark section unassigned
+Decision required.
+
+2.5 How do you treat sub-teams in assignment?
+
+Assign section to “Sales – APAC”.
+Should parent “Sales” also get access?
+
+Needs explicit definition.
+
+2.6 What happens if a user has multiple teams?
+
+Should the strongest permission across all teams apply?
+
+Or only the assigned team matters?
+
+Needs rule.
+
+3. UNKNOWN KNOWNS (Other RFP tools already solved this, we must check)
+
+These behaviors exist in Loopio / RFPIO that you may or may not want.
+
+3.1 Reassignment notifications
+
+Should Team Y members receive:
+
+“You have been assigned Section 3”?
+Should Team X receive:
+
+“You no longer have access”?
+
+Competitors do this.
+Do you want it?
+
+3.2 Section-level audit logs
+
+Competitors track:
+
+When section was assigned
+
+To which team
+
+By whom
+
+When reassigned
+
+Do you want this?
+
+3.3 Deadline behavior
+
+If a section has a due date:
+
+Should the date apply to the team?
+
+Should assignment change due dates?
+
+RFPIO uses team-level deadlines.
+
+Needs decision.
+
+3.4 Multi-team assignment
+
+Loopio allows ONE assignment per section.
+RFPIO sometimes allows multiple reviewers.
+
+Do you want:
+
+One team per section
+
+OR many teams per section?
+
+Critical to define now.
+
+3.5 Team role filtering in UI
+
+Some tools hide teams with only “Viewer” role from assignment dropdown.
+
+Do you want this?
+
+4. UNKNOWN UNKNOWNS (Potential edge cases that can break your model)
+
+These must be proactively identified.
+
+4.1 What if section is marked sensitive AFTER assignment?
+
+Should sensitive override team assignment?
+(Current model says yes)
+We need to define UI/notification behavior.
+
+4.2 What if owner gets removed from org but section is assigned to a team?
+
+Who becomes owner?
+Team admin?
+Project owner?
+First team member?
+
+Must be defined.
+
+4.3 Team membership change mid-progress
+
+User B joins Team Y → gets access
+User B leaves Team Y → loses access
+
+Need to confirm:
+
+Should existing comments/answers remain visible?
+
+Should they become hidden?
+Loopio hides everything.
+
+4.4 Assignment of empty sections
+
+If a section is empty:
+
+Should assignment do nothing?
+
+Or should assignment mean “this team owns all upcoming work”?
+
+Needs clarity.
+
+4.5 Project-level access conflicting with section assignment
+
+Example:
+User can access Section 3 (assigned to team),
+but cannot access Project (no project-level access).
+
+Do we allow:
+
+Section-only access?
+
+Or require project access to see section?
+
+Must be defined to avoid broken UX.
+
+4.6 Team with no members
+
+Assigning a section to an empty team.
+Should:
+
+System block it?
+
+Allow and warn?
+
+Auto-assign team admin only?
+
+Decision needed.
+
+4.7 Conflicts between explicit sharing and team assignment
+
+If a user is:
+
+Removed from team
+
+But remains in explicit share list
+Should access drop to view?
+Or remain editor?
+
+Must define precedence.
+
+HOW TO USE THIS MATRIX
+
+This matrix helps you:
+
+Build the entire permission engine
+
+Avoid future redesign
+
+Prevent “Patch PRD” syndrome
+
+Give dev and QA a complete ruleset
+
+Catch every possible edge case EARLY]
