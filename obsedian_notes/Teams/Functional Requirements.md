@@ -1,4 +1,4 @@
-1. **Team Management**
+1. **Team creation and  Management**
 	- Create team
 		- User with permission can create a team
 		- Required fields: Team name
@@ -15,17 +15,19 @@
 	- Add Member to Team
 		- Add any user
 		- User may already be in other teams (many-to-many)
-
-Remove Member from Team
-
-Removing a user must recalc:
-
-claims
-
-section visibility
-
-resource visibility
-
-1.6 Allow users to belong to 0+ teams
-
-No restrictions.
+	- Remove Member from Team
+		- Removing a user must recalc:
+			- claims
+			- section visibility
+			- resource visibility
+		- Allow users to belong to 0+ teams
+			- No restrictions.
+2. Team membership and Behaviour
+	-  Multi-Team Membership
+		- A user can be in multiple teams simultaneously.
+	- Team Membership Drives Visibility
+		- Team membership affects only:
+			- What sections/projects the user can see
+			- Which questions they can [[claim]]
+	- Owner Team Determines Resource Visibility
+	- 

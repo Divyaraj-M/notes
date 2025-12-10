@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3fe2476d74dcfba6",
+        "id": "2580ac06bf53191f",
         "type": "tabs",
         "children": [
           {
-            "id": "1513deba92088861",
+            "id": "d3bee2dad7357e50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teams/Functional Requirements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Functional Requirements"
-            }
-          },
-          {
-            "id": "292f4968eeae5b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teams/Functional Requirements.md",
+                "file": "Teams/What Do we need for Teams.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Functional Requirements"
+              "title": "What Do we need for Teams"
+            }
+          },
+          {
+            "id": "59d13685316299bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Genie Journal/2025-12-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-10"
             }
           }
         ],
@@ -207,15 +217,24 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "terminal:Open terminal": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "292f4968eeae5b0b",
+  "active": "59d13685316299bc",
   "lastOpenFiles": [
+    "Genie Journal/2025-12-10.md",
+    "Daily/Routine.md",
+    "Daily/Template.md",
+    "Genie Journal",
+    "Teams/What Do we need for Teams.md",
+    "Daily",
+    "Teams/Dual-Layer Team.md",
+    "Teams/Nested Hierarchy Teams (Nice to have).md",
     "Teams/Functional Requirements.md",
     "Teams/Known Unknown Matrix.md",
+    "Teams/claim.md",
     "Teams/Team Overlap.md",
-    "Teams/claiming.md",
     "Teams/Confidential projects.md",
     "Teams",
     "Welcome.md",
