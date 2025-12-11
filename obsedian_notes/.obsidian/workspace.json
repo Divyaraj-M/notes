@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teams/What Do we need for Teams.md",
+                "file": "Genie Journal/2025-12-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What Do we need for Teams"
+              "title": "2025-12-11"
             }
           },
           {
-            "id": "59d13685316299bc",
+            "id": "9dad4d5414a3161c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Genie Journal/2025-12-10.md",
+                "file": "Help Article/Index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-10"
+              "title": "Index"
+            }
+          },
+          {
+            "id": "d912c1e8f867119f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Help Article/Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapping"
+            }
+          },
+          {
+            "id": "8c8c41d5ded8617b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Help Article/Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Index"
+            }
+          },
+          {
+            "id": "89d2f6b9d9a26b08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Help Article/Index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Index"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -65,6 +137,22 @@
     "id": "05eb6128f86941b0",
     "type": "split",
     "children": [
+      {
+        "id": "382eb59df1d6d631",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59d13685316299bc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
@@ -113,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 620.5
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -129,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teams.md",
+                "file": "Help Article/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +227,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Teams"
+              "title": "Backlinks for Index"
             }
           },
           {
@@ -148,12 +236,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teams.md",
+                "file": "Help Article/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Teams"
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -191,21 +279,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teams.md",
+                "file": "Help Article/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Teams"
+              "title": "Outline of Index"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,21 +309,26 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "59d13685316299bc",
+  "active": "89d2f6b9d9a26b08",
   "lastOpenFiles": [
-    "Genie Journal/2025-12-10.md",
+    "Genie Journal/2025-12-11.md",
+    "Help Article/Index.md",
+    "Help Article/Mapping.md",
+    "Templates/SparrowGenie Help Article Template.md",
+    "Templates",
+    "Teams/What Do we need for Teams.md",
+    "Teams/Known Unknown Matrix.md",
+    "Teams/Assigning to the section.md",
+    "Help Article",
+    "Teams/Sensitive  projects.md",
+    "Teams/claim.md",
+    "Teams/Functional Requirements.md",
+    "Teams/Nested Hierarchy Teams (Nice to have).md",
+    "Teams/Dual-Layer Team.md",
     "Daily/Routine.md",
     "Daily/Template.md",
     "Genie Journal",
-    "Teams/What Do we need for Teams.md",
     "Daily",
-    "Teams/Dual-Layer Team.md",
-    "Teams/Nested Hierarchy Teams (Nice to have).md",
-    "Teams/Functional Requirements.md",
-    "Teams/Known Unknown Matrix.md",
-    "Teams/claim.md",
-    "Teams/Team Overlap.md",
-    "Teams/Confidential projects.md",
     "Teams",
     "Welcome.md",
     "Untitled.base",

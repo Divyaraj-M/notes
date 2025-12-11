@@ -13,4 +13,9 @@
 Team structure in SparrowGenie has **two independent layers**:
 1. [[Nested Hierarchy Teams (Nice to have)]](team level)
 2. [[Dual-Layer Team]](user level)
+3. [[Assigning to the section]]
+
+#### [[Functional Requirements]]
+#### [[Known Unknown Matrix]]
+
 

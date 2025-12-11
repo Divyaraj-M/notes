@@ -31,6 +31,6 @@
     - No
 - Should teams be unique by name?
     - Yes
-- [[Team Overlap]] + Claim Conflict
+- [[Assigning to the section]] + Claim Conflict
 	- We have to handle the Team conflict better
 
