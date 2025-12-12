@@ -32,36 +32,12 @@
             }
           },
           {
-            "id": "9dad4d5414a3161c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Help Article/Index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Index"
-            }
-          },
-          {
             "id": "d912c1e8f867119f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Help Article/Mapping.md",
+                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -85,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Help Article/Index.md",
+                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "Mapping"
             }
           },
           {
@@ -109,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Help Article/Index.md",
+                "file": "sghelparticle/_sidebar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +100,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "_sidebar"
+            }
+          },
+          {
+            "id": "d8c91580f3c43e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mapping"
             }
           }
         ],
@@ -201,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 620.5
+    "width": 551.5
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Help Article/Index.md",
+                "file": "sghelparticle/docs/projects/starting-a-project/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -236,12 +236,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Help Article/Index.md",
+                "file": "sghelparticle/docs/projects/starting-a-project/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Index"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -279,13 +279,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Help Article/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline"
             }
           }
         ],
@@ -293,7 +292,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,30 +309,39 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "89d2f6b9d9a26b08",
+  "active": "59d13685316299bc",
   "lastOpenFiles": [
-    "Help Article/Mapping.md",
-    "Help Article/Index.md",
+    "sghelparticle/README.md",
+    "sghelparticle/docs/projects/fieldmapping/Mapping.md",
+    "sghelparticle/_sidebar.md",
+    "sghelparticle/docs/projects/starting-a-project/README.md",
+    "2025-12-12 - Clickup Teardown.md",
+    "Genie Journal/2025-12-12.md",
+    "Daily/Routine.md",
+    "Daily/Template.md",
     "Genie Journal/2025-12-11.md",
+    "sghelparticle/index.md",
+    "sghelparticle/index.html",
+    "Help Article/Index.md",
+    "sghelparticle/mkdocs.yml",
+    "sghelparticle/docs/projects/fieldmapping",
+    "sghelparticle/docs/projects/starting-a-project",
+    "sghelparticle/docs/projects",
+    "sghelparticle/docs",
     "Templates/SparrowGenie Help Article Template.md",
     "Templates",
     "Teams/What Do we need for Teams.md",
     "Teams/Known Unknown Matrix.md",
     "Teams/Assigning to the section.md",
-    "Help Article",
+    "sghelparticle",
     "Teams/Sensitive  projects.md",
     "Teams/claim.md",
     "Teams/Functional Requirements.md",
     "Teams/Nested Hierarchy Teams (Nice to have).md",
     "Teams/Dual-Layer Team.md",
-    "Daily/Routine.md",
-    "Daily/Template.md",
     "Genie Journal",
     "Daily",
-    "Teams",
     "Welcome.md",
-    "Untitled.base",
-    "Untitled 1.base",
     "2025-12-09.md",
     "Untitled.canvas"
   ]
