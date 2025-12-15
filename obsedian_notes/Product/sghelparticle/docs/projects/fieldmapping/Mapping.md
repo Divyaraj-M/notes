@@ -21,7 +21,5 @@ Use this checklist to align requester templates to SparrowGenie fields so AI and
 - Validate URLs and email addresses where requested.
 - Preview the export to ensure numbering and formatting remain intact.
 
-## Troubleshooting
-- **Columns shifted after import** — re-upload with the correct header row; set the header index during import.
-- **Mismatched numbering** — turn off auto-numbering in the export settings and rely on the template numbering.
-- **AI using old phrasing** — clear stale references from `Trusted sources` or pin the preferred answer in the library.
+
+
