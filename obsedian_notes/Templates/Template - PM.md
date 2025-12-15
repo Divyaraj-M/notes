@@ -1,8 +1,8 @@
 # **SPARROW GENIE DAILY PM TEMPLATE**
 
-## **Date:** ______________________
+## **Date:** 15/12/2025 
 
-## **Feature / Area of Focus:** ______________________
+## **Feature / Area of Focus:** Projects 
 
 ---
 
@@ -10,9 +10,8 @@
 
 Write **two 1-line problems**.
 
-**Problem 1 (What | Who | Why Now):**  
-→ ___________________________________________________________
-
+**Problem  (What | Who | Why Now):**  
+→ Subsections flow and the assigning the question for the sub section is defined properly 
 **Problem 2 (What | Who | Why Now):**  
 → ___________________________________________________________
 

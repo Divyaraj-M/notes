@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3bee2dad7357e50",
+            "id": "08efc1775a216564",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Genie Journal/2025-12-11.md",
+                "file": "Product/Attachments in RFP Response area/Initial Problem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-11"
+              "title": "Initial Problem"
             }
           },
           {
-            "id": "d912c1e8f867119f",
+            "id": "5845831af83907db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
+                "file": "Learning/Product Management - Top Deliverables.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,83 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mapping"
-            }
-          },
-          {
-            "id": "8c8c41d5ded8617b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mapping"
-            }
-          },
-          {
-            "id": "89d2f6b9d9a26b08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sghelparticle/_sidebar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_sidebar"
-            }
-          },
-          {
-            "id": "d8c91580f3c43e23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sghelparticle/docs/projects/fieldmapping/Mapping.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mapping"
+              "title": "Product Management - Top Deliverables"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,24 +65,9 @@
     "type": "split",
     "children": [
       {
-        "id": "382eb59df1d6d631",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "59d13685316299bc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
         "id": "d09f13e4750e076e",
         "type": "tabs",
+        "dimension": 38.053949903660886,
         "children": [
           {
             "id": "0e41dea7c411da32",
@@ -164,7 +76,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -195,6 +107,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d3d6f0a523158713",
+        "type": "tabs",
+        "dimension": 61.946050096339114,
+        "children": [
+          {
+            "id": "c3addcb2feddce96",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -279,12 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Templates/Template - PM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Template - PM"
             }
           }
         ],
@@ -309,40 +239,45 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "59d13685316299bc",
+  "active": "08efc1775a216564",
   "lastOpenFiles": [
-    "sghelparticle/README.md",
-    "sghelparticle/docs/projects/fieldmapping/Mapping.md",
-    "sghelparticle/_sidebar.md",
-    "sghelparticle/docs/projects/starting-a-project/README.md",
-    "2025-12-12 - Clickup Teardown.md",
+    "Learning/Product Management - Top Deliverables.md",
+    "Learning/Screenshot 2025-12-15 at 11.51.50 AM.png",
+    "Product/Attachments in RFP Response area/Initial Problem.md",
+    "Learning",
+    "Product/Teams/Assigning to the section.md",
+    "Product/Teams/What Do we need for Teams.md",
+    "Product/User roles/Project/Question card/Reviewer.md",
+    "Product/competitors/Responsiveio/Responsive.io.md",
+    "Product/competitors/Responsiveio",
+    "Product/competitors/Loopio/Loopio.md",
+    "Product/competitors/Loopio",
+    "Product/Teams/Teams.md",
+    "Product",
     "Genie Journal/2025-12-12.md",
     "Daily/Routine.md",
-    "Daily/Template.md",
-    "Genie Journal/2025-12-11.md",
-    "sghelparticle/index.md",
-    "sghelparticle/index.html",
-    "Help Article/Index.md",
-    "sghelparticle/mkdocs.yml",
-    "sghelparticle/docs/projects/fieldmapping",
-    "sghelparticle/docs/projects/starting-a-project",
-    "sghelparticle/docs/projects",
-    "sghelparticle/docs",
+    "Templates/Template - PM.md",
+    "Product/User roles/Project/Question card",
+    "Product/Internal Share/Share assign and review flow.md",
+    "Teardowns/2025-12-12 - Clickup Teardown.md",
+    "Product/sghelparticle/_sidebar.md",
+    "Product/sghelparticle/docs/projects/fieldmapping/Mapping.md",
+    "Team Visibility Model.md",
+    "Product/Teams/Sensitive  projects.md",
+    "Product/Teams/Dual-Layer Team.md",
+    "Product/Teams/Nested Hierarchy Teams (Nice to have).md",
+    "Product/Teams/Functional Requirements.md",
+    "Product/Teams/claim.md",
+    "Product/Teams/Known Unknown Matrix.md",
     "Templates/SparrowGenie Help Article Template.md",
-    "Templates",
-    "Teams/What Do we need for Teams.md",
-    "Teams/Known Unknown Matrix.md",
-    "Teams/Assigning to the section.md",
-    "sghelparticle",
-    "Teams/Sensitive  projects.md",
-    "Teams/claim.md",
-    "Teams/Functional Requirements.md",
-    "Teams/Nested Hierarchy Teams (Nice to have).md",
-    "Teams/Dual-Layer Team.md",
-    "Genie Journal",
-    "Daily",
-    "Welcome.md",
-    "2025-12-09.md",
+    "Genie Journal/2025-12-15.md",
+    "Product/User roles/Project/Question card/Author.md",
+    "Screenshot 2025-12-12 at 3.55.09 PM.png",
+    "Product/User roles/Project",
+    "Product/User roles",
+    "Product/Internal Share",
+    "Product/competitors",
+    "Product/Attachments in RFP Response area",
     "Untitled.canvas"
   ]
 }
