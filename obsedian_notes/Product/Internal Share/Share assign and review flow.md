@@ -50,7 +50,6 @@ Inside the modal:
 - Required selections before continuing
 
 ---
-
 ### Status Change Logic (Critical Update)
 
 When the user’s role (author or reviewer) changes, the question status must update to protect review integrity.

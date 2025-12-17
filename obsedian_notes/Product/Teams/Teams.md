@@ -5,7 +5,7 @@ TL;DR 
 
 Only the creator of a project determines its visibility. Unless you designate a project as sensitive, everyone on any team you are a part of can view it. You and the individuals you specifically add are the only ones with access to sensitive projects. Only the individual user, not their teams, has access to roles like manager or reviewer. Edit rights are never automatically granted to teams. In the future, if the product requires it, we might facilitate the assignment of sections to teams, the addition of team hierarchies, or the creation of distinct "visibility teams" and "working teams.
 
-## 1. Overview
+## Overview
 
 This document defines how teams influence visibility of resources in the system.  
 Resources include projects, sections, questions, answers, and any future project or proposal-level entities.
@@ -19,7 +19,7 @@ The goal is to maintain predictable, simple visibility rules that avoid permissi
 
   
 
-## 2. Approach
+##  Approach
 
 The system uses a user-centric visibility propagation model:
 
@@ -32,7 +32,15 @@ The system uses a user-centric visibility propagation model:
 
 This approach keeps the system simple, predictable, and secure at early-stage adoption.
 
-## 3. Functional Requirements
+---
+### Impact Areas 
+
+#### Design Changes 
+
+- [ ] Import Screen -  Need to add "Mark as [[Sensitive  projects]]" [Figma](https://www.figma.com/design/ot8PmzrF9xIr6neo8ptCBy/RFP-Projects?node-id=6010-23973&m=dev)
+- [ ] Settings inside Projects -  Need to add "Mark as [[Sensitive  projects]]" [Figma](https://www.figma.com/design/ot8PmzrF9xIr6neo8ptCBy/RFP-Projects?node-id=6260-49249&m=dev)
+- [ ] Sensitive flag or Pill 
+## Functional Requirements
 
 |                                    |                                                                                                                        |           |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------- |
@@ -45,9 +53,10 @@ This approach keeps the system simple, predictable, and secure at early-stage ad
 | Team Membership Changes            | If owner joins or leaves teams, visibility instantly updates: old teams lose, new teams gain (only for non-sensitive). |           |
 | No Team-based Permissions          | Teams never gain edit/manage/delete rights. Teams only gain view visibility through ownership rule.                    |           |
 
+  ---
   
 
-## 4. Acceptance Criteria
+## Acceptance Criteria
 
 - When Owner creates a project (non-sensitive), all members of all the owner’s teams can see it (view-only).
 - Team members cannot edit unless explicitly added as roles.
@@ -61,9 +70,7 @@ This approach keeps the system simple, predictable, and secure at early-stage ad
 
 ---
 
-## 5. Future Scope
-
-  
+##  Future Scope
 
 |                                           |                                                                                                                    |                                                                                                    |          |                                                                                                   |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------- |
@@ -71,9 +78,8 @@ This approach keeps the system simple, predictable, and secure at early-stage ad
 | [[Assigning to the section]]              | Allow a section to be assigned to a team so all team members get view/claim access for that specific section only. | Supports collaborative writing workflows at section level WITHOUT giving project-level visibility. | High     | Section assignments do not affect project visibility. Requires “team-view-only” at section level. |
 | [[Nested Hierarchy Teams (Nice to have)]] | Parent → child visibility for managers                                                                             | Enterprise org modeling                                                                            | Medium   | Complex; requires new rules                                                                       |
 | [[Dual-Layer Team]]                       | Primary vs addtional Teams                                                                                         | Cleaner visibility + scalable control                                                              | Medium   | Only if needed for enterprises                                                                    |
-
-  
-## 6. Summary
+   
+##  Summary
 
 You now have a one-layer, owner-driven visibility model where:
 

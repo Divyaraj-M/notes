@@ -22,4 +22,4 @@ Two things that product specs need to do,
 4. ==Launch plan== 
 5. ==Investigative metics== 
 
-Use the Product spec template for writing any feature - [[Templates/Product Spec]]
+Use the Product spec template for writing any feature - [[Product Spec - Template]]

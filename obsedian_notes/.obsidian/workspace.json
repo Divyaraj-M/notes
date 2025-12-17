@@ -6,7 +6,6 @@
       {
         "id": "70a3dc3f276a2d1a",
         "type": "tabs",
-        "dimension": 29.184322033898308,
         "children": [
           {
             "id": "86026846bcf93cf4",
@@ -14,99 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+                "file": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Attachments in RFP response - Product Spec"
+              "title": "Chrome Extension - Responsive IO"
             }
-          }
-        ]
-      },
-      {
-        "id": "d30e831a94f516b5",
-        "type": "tabs",
-        "dimension": 38.29449152542373,
-        "children": [
+          },
           {
-            "id": "7e885ca9f72118df",
+            "id": "99e4b107d5018d08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Product Spec.md",
+                "file": "Learning/Top Deliverables/Product Strategy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Product Spec"
+              "title": "Product Strategy"
             }
-          }
-        ]
-      },
-      {
-        "id": "ef749bb5137b8845",
-        "type": "split",
-        "dimension": 32.521186440677965,
-        "children": [
-          {
-            "id": "edd11f7d64de2a21",
-            "type": "tabs",
-            "dimension": 46.373456790123456,
-            "children": [
-              {
-                "id": "bfb5989c7abc63c1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Product/competitors/Responsiveio/Attachments - Responsive.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Attachments - Responsive"
-                }
-              }
-            ]
           },
           {
-            "id": "0b2de0e36ddf60c0",
-            "type": "tabs",
-            "dimension": 53.626543209876544,
-            "children": [
-              {
-                "id": "d4734d8c646013da",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Product/competitors/Loopio/Attachments - Loopio.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Attachments - Loopio"
-                }
-              }
-            ]
+            "id": "8ae78af79335e0e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Teams/Teams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Teams"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,33 +118,22 @@
             "id": "469d7e3b01c57e52",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "80c482314ce2bc9c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Top Deliverables/Product Vision.md",
+                "file": "Product/Teams/Teams.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Product Vision"
+              "title": "Teams"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.5124969482422
+    "width": 456.5124969482422
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -307,46 +243,47 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "86026846bcf93cf4",
+  "active": "99e4b107d5018d08",
   "lastOpenFiles": [
-    "Templates/Product Spec.md",
-    "Product/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Learning/Top Deliverables/Product Vision.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Product/competitors/Loopio/Attachments - Loopio.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Learning/Top Deliverables/Rigor of thoughts.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Genie Journal/2025-12-12.md",
-    "Templates/Template - PM.md",
+    "Learning/Top Deliverables/Product Strategy.md",
+    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
+    "Product/Teams/Teams.md",
     "Product/competitors/Responsiveio/Responsive.io.md",
+    "Templates/Product Spec - Template.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Product/competitors/Loopio/Chrome Extension.md",
+    "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Loopio/Loopio.md",
+    "Product/competitors/Loopio/Attachments - Loopio.md",
+    "Product/competitors/Loopio/SmartFill.md",
+    "Product/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/Teams/Sensitive  projects.md",
+    "Product/Teams/Teams.canvas",
+    "Genie Journal/2025-12-12.md",
+    "Teams Wireframe.canvas",
+    "Product/User roles/Project/Watcher.md",
+    "Genie Journal/Demo Important Points.md",
+    "Genie Journal/Resources - Sparrow Genie.md",
+    "Learning/Top Deliverables/Product Vision.md",
+    "Product/Internal Share/Share assign and review flow.md",
+    "Product/User roles/Project/Question card/Reviewer.md",
+    "Product/User roles/Project/Question card/Author.md",
+    "Product/Chrome_extension",
+    "Learning/Top Deliverables/Rigor of thoughts.md",
+    "Templates/Template - PM.md",
     "Check/Check/Welcome.md",
     "Check/Check",
     "Check",
-    "Genie Journal/Demo Important Points.md",
-    "Untitled",
-    "Genie Journal/Resources - Sparrow Genie.md",
-    "Product/Internal Share/Share assign and review flow.md",
-    "Product/User roles/Project/Question card/Author.md",
-    "Daily/Routine.md",
     "Product/Settings",
-    "Untitled.canvas",
     "Learning/Top Deliverables",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "Product/User roles/Project/Question card/Reviewer.md",
     "Learning",
-    "Product/Teams/Assigning to the section.md",
-    "Product/Teams/What Do we need for Teams.md",
     "Product/competitors/Responsiveio",
     "Product/competitors/Loopio",
-    "Product/Teams/Teams.md",
     "Product",
     "Product/User roles/Project/Question card",
-    "Teardowns/2025-12-12 - Clickup Teardown.md",
-    "Product/sghelparticle/_sidebar.md",
-    "Product/sghelparticle/docs/projects/fieldmapping/Mapping.md",
-    "Team Visibility Model.md",
     "Screenshot 2025-12-12 at 3.55.09 PM.png"
   ]
 }

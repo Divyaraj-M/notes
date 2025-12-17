@@ -21,5 +21,4 @@ Default: **OFF**
 ### **UI/UX need**
 
 - A clear toggle in in the import screen and project settings 
-    
 - Tooltip: “Only you and collaborators can see this project. Your teams cannot see it.”
