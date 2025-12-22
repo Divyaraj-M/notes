@@ -1,7 +1,7 @@
-Sales teams don’t struggle because they lack tools.  
-They struggle because selling is fragmented across too many of them.
+- Sales teams don’t struggle because they lack tools. 
+  They struggle because selling is fragmented across too many of them.
 
-A single deal lives across calls, emails, notes, documents, reviews, approvals, and signatures. Each step is handled in a different place, by a different system, with context lost along the way. The result is slow cycles, repeated work, and deals that stall for reasons no one can clearly explain.
+- A single deal lives across calls, emails, notes, documents, reviews, approvals, and signatures. Each step is handled in a different place, by a different system, with context lost along the way. The result is slow cycles, repeated work, and deals that stall for reasons no one can clearly explain.
 
 SparrowGenie exists to help sales teams close more deals, faster, using AI.
 
