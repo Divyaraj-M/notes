@@ -101,15 +101,11 @@ This is the strongest way to derisk the feature.
 These are fixed truths based on your current model.
 
 1.1 Section can be assigned to either:
-
 A user
-
 A team
 
 1.2 If assigned to a team:
-
 All team members get Edit permission over the section
-
 Access updates dynamically when team membership changes
 
 1.3 Section permission follows resource rules:

@@ -10,7 +10,7 @@
     Actionable learnings from customer discovery that directly influence product decisions.
 4. [x] [[Product Roadmap]]  
     A prioritised view of what will be built and when, balancing incremental wins and strategic bets.
-5. [ ] [[Product specs]]
+5. [x] [[Product specs]]
     Written requirements that provide strong context and clear scope to guide design and engineering.
 6. [ ] [[Metrics & Dashboards ]]
     Ongoing measurement of acquisition, engagement, and monetization to track product health.
