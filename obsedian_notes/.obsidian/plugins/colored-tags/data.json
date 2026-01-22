@@ -1,0 +1,27 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "backward": 1,
+    "competitor_analysis": 2,
+    "data_sciece": 3,
+    "delivery": 3,
+    "discovery": 4,
+    "learning": 7,
+    "new_feautre": 8,
+    "p0": 9,
+    "p1": 10,
+    "teardown": 11,
+    "data_sciece/formulas": 1
+  },
+  "tagColors": {},
+  "_version": 4
+}

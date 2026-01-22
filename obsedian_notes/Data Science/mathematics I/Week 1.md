@@ -1,7 +1,4 @@
-#iData_Science
-
-#Formula
-
+#data_sciece/formulas
 # Sets
 ### **1. Union (A ∪ B)**
 
