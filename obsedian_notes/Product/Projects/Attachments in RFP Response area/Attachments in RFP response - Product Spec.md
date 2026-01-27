@@ -1,4 +1,4 @@
-#new_feautre #discovery #p1 
+#new_feature/attachements  #discovery #p1 
 ### TL; DR
 SparrowGenie only supports text answers today, which forces teams to use workarounds to add images and documents, especially in Excel-based RFx responses. This creates manual work and weakens Projects.
 

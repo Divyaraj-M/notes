@@ -16,11 +16,16 @@
     "delivery": 3,
     "discovery": 4,
     "learning": 7,
-    "new_feautre": 8,
+    "mail": 8,
+    "new_feature": 8,
     "p0": 9,
     "p1": 10,
     "teardown": 11,
-    "data_sciece/formulas": 1
+    "data_sciece/formulas": 1,
+    "new_feature/_admin_settings_project": 1,
+    "new_feature/attachements": 2,
+    "new_feature/genie_contribution": 3,
+    "new_feature/go_no_go": 4
   },
   "tagColors": {},
   "_version": 4

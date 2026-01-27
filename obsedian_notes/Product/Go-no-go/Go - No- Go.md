@@ -1,4 +1,5 @@
-# PRD: Go / No-Go Decision Engine for RFPs
+#new_feature/Go_no_go
+# Go / No-Go Decision Engine for RFPs
 
 This document explains **why** the Go / No-Go Decision Engine exists, **who** it is for, and **what** must be built.  
 Its goal is to help SparrowGenie improve deal velocity, response quality, and execution clarity for sales teams by preventing low-probability RFPs from consuming time and resources.
@@ -35,7 +36,6 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 **What work is manual or error-prone**
 
 - Go / No-Go decisions live in:
-    
     - Slack threads
     - Calls
     - Personal judgment
@@ -71,13 +71,10 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 **Expected business impact**
 
 - Improved win rate by focusing effort on qualified deals
-    
 - Reduced sales cycle waste
-    
 - Higher SparrowGenie adoption as a decision system, not just a writing tool
-    
 - Stronger positioning vs point-solution proposal tools
-    
+
 
 ---
 
@@ -86,23 +83,17 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Primary User
 
 - Sales Manager or Deal Owner responsible for deciding whether to pursue an RFP
-    
 
 ### Secondary Users
 
 - Proposal Owners and Contributors who need clarity before committing effort
-    
 - Leadership reviewing pipeline quality and decision rationale
-    
 
 ### Explicitly Out of Scope (v1)
 
 - Legal-only reviewers
-    
 - Finance-only approval workflows
-    
 - Automated final deal approval or blocking
-    
 
 ---
 
@@ -111,42 +102,25 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### How do teams solve this today?
 
 **Current approaches**
-
-- Salesforce opportunity notes
-    
+- Salesforce opportunity notes    
 - Excel or Google Sheets scorecards
-    
 - Informal calls or Slack consensus
-    
 - No decision at all until mid-way through the RFP
-    
 
 **What works**
-
 - Human judgment captures nuance
-    
 - Teams can move fast when confident
-    
 
 **Where it breaks**
-
 - No consistency across deals
-    
 - No historical data or learning
-    
 - Decisions are not visible to contributors
-    
 - AI tools focus on writing, not deciding
-    
 
 **SparrowGenie’s gap**
-
 - Embed decision-making **inside** the proposal workflow
-    
 - Combine system signal + human judgment
-    
 - Make Go / No-Go explicit, structured, and repeatable
-    
 
 ---
 
@@ -155,29 +129,21 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Primary Outcome Metric
 
 - Percentage of RFPs with an explicit Go / No-Go decision recorded before proposal work begins
-    
+
 
 ### Supporting Metrics
 
 - Reduction in abandoned or stalled RFPs mid-process
-    
 - Win rate of RFPs marked “Go”
-    
 - Average time to decision after RFP upload
-    
 - Proposal team effort spent per closed deal
-    
 
 ### Expected Direction
 
 - Go / No-Go coverage ↑
-    
 - Mid-process drop-offs ↓
-    
 - Win rate ↑
-    
 - Effort waste ↓
-    
 
 ---
 
@@ -188,53 +154,26 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Must-Have Functionality
 
 - Go / No-Go entry point on Project Creation screen
-    
 - RFP upload triggers system readiness scan
-    
 - Auto-calculated **Readiness Score (0–100)**
-    
-- User-driven Go / No-Go questionnaire
-    
+- User-driven Go / No-Go questionnaire (Out of box questions)
 - Weighted scoring logic
-    
 - Result states:
-    
     - Go
-        
     - Conditional
-        
     - No-Go
-        
 - Clear distinction between:
-    
     - System-only signal
-        
     - Full decision
-        
 - Decision result screen with rationale
-    
 - Decision persistence at project level
-    
-
-### Nice-to-Have (Time Permitting)
-
-- Team-specific Go / No-Go templates
-    
-- Ability to re-run decision later
-    
-- Comments or notes on decisions
-    
 
 ### Explicit Non-Goals
 
 - Blocking proposal creation
-    
 - Automated approvals
-    
 - AI-only final decisions
-    
 - Revenue forecasting
-    
 
 ---
 
@@ -243,59 +182,37 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Primary User Flow
 
 1. User creates a new project
-    
 2. Beside Project Creation, a **Go / No-Go** decision icon is visible
-    
 3. User uploads the RFP
-    
 4. System runs an **automatic readiness scan**
-    
 5. System shows:
-    
     - Readiness Score
-        
     - Preliminary decision label
-        
     - Confidence disclaimer
-        
 6. User chooses:
-    
     - Proceed with system signal only
-        
     - Run full Go / No-Go evaluation
-        
 7. User answers weighted questions
-    
 8. Final decision is calculated and shown
-    
 9. Decision is saved to the project
-    
 
 ---
 
 ### Key Interactions That Matter
 
 - Clear labeling of “System View” vs “Final Decision”
-    
 - Fast feedback after upload
-    
 - Transparent scoring logic
-    
 - No forced path or blocking
-    
 
 ---
 
 ### Critical Edge Cases
 
 - User skips full evaluation → system marks decision as “Preliminary”
-    
 - User lacks permission → view only, no edit
-    
 - RFP parsing fails → system disables auto score and explains why
-    
 - Template deleted after use → decision remains intact
-    
 
 ---
 
@@ -304,140 +221,77 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Scoring Rules
 
 - Each question has:
-    
     - Weight
-        
     - Scale (e.g., 1–5)
-        
 - Final score normalized to 100
-    
 
 **Decision Thresholds**
 
 - ≥ 70 → Go
-    
 - 55–69 → Conditional
-    
 - < 55 → No-Go
-    
 
 ---
 
 ### Default Go / No-Go Questions
 
 - Relationship and influence strength
-    
 - Deal shaping involvement
-    
 - Competitive advantage or incumbency
-    
 - Buying process clarity
-    
 - Timeline feasibility
-    
 - Team bandwidth
-    
 - Budget alignment
-    
-- Commercial value
-    
+- Commercial value    
 - Delivery complexity
-    
 - Legal, security, or compliance gaps
-    
 
 ---
 
 ### Data Persistence
 
 - All decisions stored at project level
-    
 - Historical decisions remain immutable
-    
 - Re-runs create new versions, not overwrites
-    
 
 ---
 
 ### Permissions
 
 - Only project owners or admins can finalize decisions
-    
 - Contributors can view but not edit
-    
 - Templates editable by admins only
-    
 
 ---
 
 ### System / AI Constraints
 
 - AI readiness scan is advisory only
-    
 - No automated blocking based on score
-    
 - All outputs must be explainable at a high level
-    
+
 
 ---
 
-## 9. Launch Plan
-
-### Rollout
-
-- Phase 1: Internal beta
-    
-- Phase 2: Limited customer rollout
-    
-- Phase 3: General availability
-    
-
-### Target Users at Launch
-
-- Sales-led teams with high RFP volume
-    
-- Proposal-heavy accounts
-    
-
-### Communication
-
-- In-app tooltip on Project Creation
-    
-- Short product walkthrough
-    
-- Internal sales enablement brief
-    
-
----
-
-## 10. Investigative Metrics
+##  Investigative Metrics
 
 ### Early Signals
 
 - % of projects using Go / No-Go
-    
 - Drop-off between system signal and full evaluation
-    
 - Average time spent in decision flow
-    
 
 ### Risk Signals
 
 - Users skipping full evaluation
-    
 - High disagreement between system and user scores
-    
 - Confusion between preliminary vs final decision
-    
 
 ### Key Questions to Answer
 
 - Are teams actually saying No more often?
-    
 - Does Go correlate with higher win rate?
-    
 - Are decisions happening earlier than before?
-    
 
 ---
 
@@ -445,26 +299,18 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 
 ### Key Assumptions
 
-- Teams want guidance, not enforcement
-    
+- Teams want guidance, not enforcement    
 - Decision clarity improves execution quality
-    
-- Structured judgment beats gut feel at scale
-    
+- Structured judgment beats gut feel at scale    
 
 ### Open Questions
 
 - Should Conditional require justification?
-    
 - Should decisions be visible to customers later?
-    
 - How often should re-evaluation be prompted?
-    
 
 ### Dependencies
 
 - RFP parsing reliability
-    
 - Template configuration framework
-    
 - Role and permission model
