@@ -21,6 +21,7 @@
     "p0": 9,
     "p1": 10,
     "teardown": 11,
+    "competitor_analysis/go_no_go": 1,
     "data_sciece/formulas": 1,
     "discovery/go_no_go": 1,
     "new_feature/_admin_settings_project": 1,
