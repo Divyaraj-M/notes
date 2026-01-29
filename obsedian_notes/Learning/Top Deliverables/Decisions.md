@@ -18,37 +18,25 @@ Senior PM performance is judged by **decision quality under uncertainty**, not b
 Characteristics:
 
 - No permanent data change
-    
 - No long-term trust impact
-    
 - Low rollback cost
-    
 - Users can relearn quickly
-    
 
 Examples:
 
 - UI layout changes
-    
 - Copy or wording updates
-    
 - Button placement
-    
 - Default sorting
-    
 - Feature flags
-    
 
 Expectation:
 
 - Decide fast
-    
 - Minimal documentation
-    
 - Bias toward action
-    
 - Learn and iterate
-    
+
 
 ---
 
@@ -59,41 +47,28 @@ Expectation:
 Characteristics:
 
 - Permanent data or schema changes
-    
 - Security or permission model changes
-    
 - Ownership or accountability changes
-    
 - Pricing, contracts, or compliance impact
-    
 - High rollback cost or customer disruption
-    
+
 
 Examples:
 
 - Role-based permission models
-    
 - Ownership rules
-    
 - Audit logs
-    
 - Pricing models
-    
 - Core data schema
-    
 
 Expectation:
 
-- Slow down deliberately
-    
+- Slow down deliberately    
 - Document assumptions
-    
 - Explicitly state tradeoffs
-    
 - Align stakeholders
-    
 - Decide once, confidently
-    
+
 
 ---
 
@@ -153,26 +128,17 @@ Before making any decision, answer these questions:
 ### Two-Way Door
 
 - Decide quickly
-    
 - Ship early
-    
 - Measure impact
-    
 - Roll back if needed
-    
 
 ### One-Way Door
 
 - Write down assumptions
-    
 - Explicitly list tradeoffs
-    
 - Identify risks and blast radius
-    
 - Get alignment where needed
-    
 - Commit once
-    
 
 ---
 
@@ -189,12 +155,8 @@ Great PMs classify correctly — **before** deciding.
 ## How This Document Should Be Used
 
 - Classify every major product decision
-    
 - Move fast on two-way doors
-    
 - Apply rigor only to true one-way doors
-    
 - Use this as a shared language with engineering and leadership
-    
 
 This framework is mandatory for all high-impact product decisions.

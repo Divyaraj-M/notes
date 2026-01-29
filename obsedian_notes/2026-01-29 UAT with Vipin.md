@@ -1,6 +1,6 @@
 #uat/vipin-jan29
 Users & teams -  Must go ,  [[Users tab]]
-Deletion user  
+Deletion user  [[Remove User from Workspace]]
 Changing permission sets
 
 
