@@ -10,21 +10,17 @@ Sign in page- Name removal
 Personalization ![[Screenshot 2026-01-29 at 11.54.14 AM.png]]
 
 Hold this Until name  then trigger this email for the users 
-
 Only admins Will receive this email 
-
 Name should be mandatory 
 Initials should come 
 Admin should be able to change names of the people ![[image (2).png]]
 
+
 Teams should be visible and transparent in personal profile settings 
 Hovering On the project name it should show name when it is truncated 
 Keep filter left 
-
-
-
 Simple view of projects  - needs created by and created date 
-Order columns 
+Configure columns 
 When I land Project Listing I need to see active projects - Default filter should be active , sorted by due date Decending (immediate)
 projects 
 
