@@ -13,10 +13,11 @@ Hold this Until name  then trigger this email for the users
 Only admins Will receive this email 
 Name should be mandatory 
 Initials should come 
-Admin should be able to change names of the people ![[image (2).png]]
+Admin should be able to change names of the people 
+![[image (2).png]]
 
 
-Teams should be visible and transparent in personal profile settings 
+Teams should be visible and transparent in personal profile settings - We have multiple teams  , Only can go with [[Teams Visibility Model]]
 Hovering On the project name it should show name when it is truncated 
 Keep filter left 
 Simple view of projects  - needs created by and created date 
@@ -51,3 +52,4 @@ In Workspace - Filter like Project table view
 Remove the From 
 
 Project health Removal from workspace - 
+
