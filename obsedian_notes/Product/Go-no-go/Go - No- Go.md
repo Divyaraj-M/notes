@@ -17,7 +17,9 @@ Create a shared understanding of why we are building Go / No-Go now and what mus
 
 ### What is broken today in the SparrowGenie sales or proposal workflow?
 
+- RFP's can contain questions that have count of more than 2000 too , 
 Sales teams start RFPs without a structured decision on whether they **should** pursue them.
+
 
 **Who experiences this problem**
 

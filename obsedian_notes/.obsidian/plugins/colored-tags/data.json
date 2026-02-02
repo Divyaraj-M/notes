@@ -21,6 +21,8 @@
     "new_feature": 8,
     "p0": 9,
     "p1": 10,
+    "product_thinking": 11,
+    "simulation_analysis": 12,
     "teardown": 11,
     "uat": 12,
     "competitor_analysis/go_no_go": 1,
