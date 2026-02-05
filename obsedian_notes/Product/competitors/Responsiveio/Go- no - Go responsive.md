@@ -15,7 +15,7 @@
 
 - **Dictionary**  is list of the keywords that help the system, identify the requirements or criteria specified in the document ==Users can create custom dictionaries that tailor their search to meet their specific needs and ensure they identify all of the relevant requirements from a document== 
 	- **Why do responsive do this ?**
-		- 
+		- Responsive adds the dictionary so the software “understands” your RFPs using your own words, and then can organize and analyze them for you instead of you doing it manually.
 	- ##### Creating a new Dictionaries  **(Obvious and Non Obvious truths)**
 		- ###### **Obvious truths** 
 			- I can create a new dictionary from scratch 
@@ -33,6 +33,6 @@
 		- **Inference** 
 			- We can Easily by pass this only for document 
  
-- **Document Shredding matrix Structures** are set of column headers that you can customize to evaluate in the **unique way** to user needs  (how unique?)
-
-	- 
+- **Document Shredding matrix Structures** are set of column headers that you can customize to evaluate in the **unique way** to user needs  (how unique?) 
+	- basically adding custom columns to the each questions 
+- 

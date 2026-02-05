@@ -1,28 +1,86 @@
 {
   "main": {
-    "id": "60a4b15a37089b56",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "194d1d084161e5c2",
+        "id": "db33ed273bc2fcd3",
         "type": "tabs",
         "children": [
           {
-            "id": "679f76f80469531f",
+            "id": "a5150523b1890292",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Responsiveio/Go- no - Go responsive.md",
+                "file": "2026-01-29 UAT with Vipin.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Go- no - Go responsive"
+              "title": "2026-01-29 UAT with Vipin"
+            }
+          },
+          {
+            "id": "7a306fda47dd3e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Knowledge Hub/Knowledge Hub.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge Hub"
+            }
+          },
+          {
+            "id": "fa52d55d199e7283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Obligations/Obligations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obligations"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Loopio/Attachments - Loopio.md",
+                "file": "Product/Settings/Project admin settings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Attachments - Loopio"
+              "title": "Backlinks for Project admin settings"
             }
           },
           {
@@ -115,12 +173,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Loopio/Attachments - Loopio.md",
+                "file": "Product/Settings/Project admin settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Attachments - Loopio"
+              "title": "Outgoing links from Project admin settings"
             }
           },
           {
@@ -200,48 +258,50 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "679f76f80469531f",
+  "active": "fa52d55d199e7283",
   "lastOpenFiles": [
-    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/Obligations/Obligations.md",
+    "Product/Obligations",
+    "2026-01-29 UAT with Vipin.md",
+    "Product/Settings/Project admin settings.md",
+    "Product/Settings/Users and Teams/Roles and Permissions.md",
+    "Product/Projects/Sign up and Onboarding mails.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Chrome_extension/Chrome Extension.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
-    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Product/competitors/Loopio/Attachments - Loopio.md",
-    "Product/competitors/Loopio/Chrome Extension.md",
-    "Learning/Top Deliverables/Metrics & Dashboards.md",
-    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Learning/Top Deliverables/Product thinking.md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Go-No-Go.canvas",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Domain Diagram Questions.md",
-    "Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
-    "Templates/SparrowGenie Help Article Template.md",
-    "2026-01-30.md",
-    "2026-02-02.md",
-    "Learning/Top Deliverables/Decisions.md",
+    "Product/Go-no-go/AI Readiness Score (ARS).md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/competitors/Loopio/Chrome Extension.md",
+    "Product/competitors/Loopio/SmartFill.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
+    "Product/competitors/Loopio/SmartScan.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Google_sheets/Sales.md",
+    "Google_sheets/Steps to create it.md",
+    "Google_sheets/CEO One Pager.md",
+    "Genie Journal/Demo Important Points.md",
+    "Rfp",
+    "Go-No-Go.canvas",
     "Learning/Top Deliverables/Untitled.base",
     "Product/Go-no-go/Untitled.base",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Untitled",
-    "2026-01-29 UAT with Vipin.md",
-    "Scripts for Udemy and Youtube/Udemy.md",
-    "Product/Settings/Users and Teams/Remove User from Workspace.md",
     "Screenshot 2026-01-30 at 1.31.07 PM.png",
-    "Product/Settings/Users and Teams/Teams Visibility Model.md",
     "Screenshot 2026-01-30 at 1.29.09 PM.png",
     "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
     "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.47.56 PM.png",
     "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.31.37 PM.png",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Settings/Project admin settings.md",
-    "Product/User roles/Project/Question card/Reviewer.md",
-    "Product/Projects/Loading screen after finish mapping.md",
     "Product/Settings/Users and Teams",
     "Screenshot 2026-01-29 at 12.18.35 PM.png",
     "image (2).png",
@@ -252,7 +312,6 @@
     "Product Process",
     "Product/Instructions",
     "Books",
-    "Product/Demo",
     "Teams Wireframe.canvas"
   ]
 }

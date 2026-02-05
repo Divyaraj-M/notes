@@ -42,10 +42,8 @@ For more Information  about competitor
 
 - **Excel-first requirement**  
     Does this work **only for Excel export** and not accidentally pull in Word or other formats?
-    
 - **Permission & access safety**  
     Does this respect existing **project, role, and attachment permissions** without introducing leaks?
-    
 - **Knowledge Hub compatibility**  
     Does this fit the current **knowledge hub structure** without creating orphaned or unsearchable assets?
 ## Scope

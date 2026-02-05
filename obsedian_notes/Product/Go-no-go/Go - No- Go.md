@@ -156,23 +156,11 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ### Must-Have Functionality
 
 - Go / No-Go entry point on Project Creation screen
-- RFP upload triggers system readiness scan
-- Auto-calculated **Readiness Score (0–100)**
-- User-driven Go / No-Go questionnaire (Out of box questions)
-- Weighted scoring logic
-- Result states:
-    - Go
-    - Conditional
-    - No-Go
-- Clear distinction between:
-    - System-only signal
-    - Full decision
-- Decision result screen with rationale
-- Decision persistence at project level
+
 
 ### Explicit Non-Goals
 
-- Blocking proposal creation
+- Blocking project Creation
 - Automated approvals
 - AI-only final decisions
 - Revenue forecasting
@@ -180,6 +168,14 @@ Sales teams start RFPs without a structured decision on whether they **should** 
 ---
 
 ## 7. Experience
+
+### Three Levels of Calculation in the Go/No-Go
+1. [[External Questionnaire Score (EQS)]]
+	- Inputs are received from the users by the questionnaires which who ever has access to the Project Setting in the [[Roles and Permissions]]
+2. [[AI Readiness Score (ARS)]]
+	- This is based on the score of the how much questions can be answered right away by the sources present in the Selected Knowledge Hub 
+3. [[Past RFP Similarity Score (PRS)]]
+	- The project is evaluated using two categories to decide whether to proceed with the deal. The evaluation compares the current project against previously won projects. Once at least 10 projects are available, comparisons are weighted more heavily toward recent projects to improve decision accuracy.
 
 ### Primary User Flow
 
