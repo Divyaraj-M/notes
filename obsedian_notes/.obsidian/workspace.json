@@ -59,24 +59,10 @@
             "id": "fa52d55d199e7283",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Obligations/Obligations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obligations"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -264,11 +250,16 @@
   },
   "active": "fa52d55d199e7283",
   "lastOpenFiles": [
-    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/competitors/Loopio/Attachments - Loopio.md",
+    "Product/Settings/Project admin settings.md",
     "Product/Obligations/Obligations.md",
+    "Product/Top Deliverables/Product Vision.md",
+    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Obligations",
     "2026-01-29 UAT with Vipin.md",
-    "Product/Settings/Project admin settings.md",
     "Product/Settings/Users and Teams/Roles and Permissions.md",
     "Product/Projects/Sign up and Onboarding mails.md",
     "Product/Projects/Genie Contribution.md",
@@ -286,11 +277,6 @@
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Google_sheets/Sales.md",
-    "Google_sheets/Steps to create it.md",
-    "Google_sheets/CEO One Pager.md",
-    "Genie Journal/Demo Important Points.md",
     "Rfp",
     "Go-No-Go.canvas",
     "Learning/Top Deliverables/Untitled.base",

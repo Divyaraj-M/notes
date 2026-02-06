@@ -38,4 +38,7 @@
  #### Delete Field 
  - While deleting the project Field user should know the importance of the field , by letting the user know in how many projects that this particular field has been used 
  - The user has to very mindful when deleting a field, they have type **Delete** to Delete a field from the project fields 
- 
+
+ ### Micro Interactions Decisions 
+- Drop downs 
+	- 
