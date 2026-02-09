@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db33ed273bc2fcd3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a5150523b1890292",
+            "id": "5b9aaf970de021a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-01-29 UAT with Vipin.md",
+                "file": "Templates/First-Principles Product Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-29 UAT with Vipin"
+              "title": "First-Principles Product Template"
             }
           },
           {
-            "id": "7a306fda47dd3e93",
+            "id": "ff006c7df223260c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Knowledge Hub/Knowledge Hub.md",
+                "file": "Templates/First-Principles Product Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,21 +52,69 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Knowledge Hub"
+              "title": "First-Principles Product Template"
             }
           },
           {
-            "id": "fa52d55d199e7283",
+            "id": "5cf914540a5ac49a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "markdown",
+              "state": {
+                "file": "Rich text/WYSIWYG editor - First Principle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WYSIWYG editor - First Principle"
+            }
+          },
+          {
+            "id": "affab7866a0834f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rich text/WYSIWYG Editor _ PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WYSIWYG Editor _ PRD"
+            }
+          },
+          {
+            "id": "a895421bacf6907a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,7 +149,7 @@
                 "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -248,56 +296,56 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fa52d55d199e7283",
+  "active": "affab7866a0834f9",
   "lastOpenFiles": [
+    "Rich text/WYSIWYG editor - First Principle.md",
+    "Rich text/WYSIWYG Editor _ PRD.md",
+    "Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
+    "Product/sghelparticle/scripts/generate_sitemap.py",
+    "Product/sghelparticle/scripts",
+    "Product/sghelparticle/robots.txt",
+    "Product/sghelparticle/og-image.svg",
+    "Product/sghelparticle/favicon.svg",
+    "Templates/First-Principles Product Template.md",
+    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
+    "Templates/Product Spec - Template.md",
+    "Not a trash",
+    "Templates/Template - PM.md",
+    "Not a trash/SparrowGenie Help Article Template.md",
+    "Not a trash/2026-02-04.md",
+    "Not a trash/2026-01-30.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
+    "Not a trash/image (2).png",
+    "Just text.md",
+    "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
+    "Product/Settings/Users and Teams/Teams Visibility Model.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Learning/First Principle thinking.md",
+    "Rich text",
+    "Table View/Table view for question card.md",
+    "Table View",
+    "Product/Settings/Users and Teams/Roles and Permissions.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/competitors/Loopio/Attachments - Loopio.md",
     "Product/Settings/Project admin settings.md",
     "Product/Obligations/Obligations.md",
     "Product/Top Deliverables/Product Vision.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Obligations",
-    "2026-01-29 UAT with Vipin.md",
-    "Product/Settings/Users and Teams/Roles and Permissions.md",
     "Product/Projects/Sign up and Onboarding mails.md",
     "Product/Projects/Genie Contribution.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
-    "Product/Go-no-go/Go - No- Go.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Go-no-go/Domain Diagram Questions.md",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/competitors/Loopio/Chrome Extension.md",
-    "Product/competitors/Loopio/SmartFill.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/competitors/Loopio/SmartScan.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Rfp",
     "Go-No-Go.canvas",
     "Learning/Top Deliverables/Untitled.base",
     "Product/Go-no-go/Untitled.base",
-    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Screenshot 2026-01-30 at 1.31.07 PM.png",
-    "Screenshot 2026-01-30 at 1.29.09 PM.png",
+    "Not a trash/Screenshot 2026-01-30 at 1.31.07 PM.png",
+    "Not a trash/Screenshot 2026-01-30 at 1.29.09 PM.png",
     "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
-    "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
-    "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.47.56 PM.png",
-    "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.31.37 PM.png",
-    "Product/Settings/Users and Teams",
-    "Screenshot 2026-01-29 at 12.18.35 PM.png",
-    "image (2).png",
-    "Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Scripts for Udemy and Youtube",
     "Product/Teams/Teams.canvas",
-    "Product/Go-no-go",
-    "Product Process",
-    "Product/Instructions",
-    "Books",
     "Teams Wireframe.canvas"
   ]
 }

@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CoTrashFull",
       "🖇"
     ],
     "recentlyUsedIconsSize": 5,
@@ -29,5 +30,6 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Not a trash": "CoTrashFull"
 }
