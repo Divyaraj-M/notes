@@ -128,30 +128,6 @@
             }
           },
           {
-            "id": "5fcaf09a9e76577b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homepage.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Homepage"
-            }
-          },
-          {
             "id": "436cfda207f1b4b4",
             "type": "leaf",
             "state": {
@@ -184,9 +160,33 @@
               "icon": "lucide-file",
               "title": "First-Principles Product Template"
             }
+          },
+          {
+            "id": "e0692b3fb49f7285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rich text vs RTF"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "attach",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -238,8 +238,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "c9b44404818f969a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -279,12 +290,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Settings/Project admin settings.md",
+                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Project admin settings"
+              "title": "Outgoing links from Rich text vs RTF"
             }
           },
           {
@@ -322,13 +333,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Loopio/Attachments - Loopio.md",
+                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Attachments - Loopio"
+              "title": "Outline of Rich text vs RTF"
             }
           },
           {
@@ -379,17 +390,20 @@
       "banyan:Open dashboard": false,
       "banyan:Add card note": false,
       "banyan:Random open a note - Random review": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "436cfda207f1b4b4",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
     "Homepage.md",
+    "Product/Projects/Rich text/Rich text vs RTF.md",
+    "Not a trash/Top three priorities.md",
+    "Templates/First-Principles Product Template.md",
     "cards/banyan_config/editor_placeholder.md",
     "cards/banyan_config",
     "cards",
     "Books/Read List.md",
-    "Product/Projects/Rich text/Rich text vs RTF.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Product/Projects/Loading screen after finish mapping.md",
@@ -406,7 +420,6 @@
     "Product/Projects/Genie Contribution.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Rich text/Untitled 1.md",
-    "Templates/First-Principles Product Template.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/sghelparticle/scripts/generate_sitemap.py",
     "Product/sghelparticle/scripts",
@@ -420,7 +433,6 @@
     "Not a trash/SparrowGenie Help Article Template.md",
     "Not a trash/2026-02-04.md",
     "Not a trash/2026-01-30.md",
-    "Not a trash/2026-01-29 UAT with Vipin.md",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
