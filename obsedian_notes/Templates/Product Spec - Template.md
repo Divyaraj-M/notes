@@ -94,20 +94,14 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 - Data behavior and persistence rules:
 - Role-based permissions and access control:
 - System or AI behavior notes that cannot be deferred:
+### 9. Impact Areas 
 
-> Include only decisions that must be made now. Avoid over-specifying.
 
----
 
-### 9. Launch Plan
 
-**How does this feature reach users?**
-
-- Rollout approach (beta, phased rollout, full release):
-- Target accounts, roles, or plans at launch:
-- Required internal or external communication:
 
 ---
+
 
 ### 10. Investigative Metrics
 
