@@ -49,7 +49,7 @@ Rules:
 Be concrete.
 
 - What task becomes slow?
-		
+	- 
 - What error increases?
 - What decision becomes risky?
 - What workaround users are forced into?
