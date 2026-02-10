@@ -4,273 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4c7246bbc0cef787",
         "type": "tabs",
         "children": [
           {
-            "id": "a895421bacf6907a",
+            "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WYSIWYG Editor _ PRD"
-            }
-          },
-          {
-            "id": "fec22a5ecd70f07a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WYSIWYG Editor _ PRD"
-            }
-          },
-          {
-            "id": "80942ff8f20a5f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rich text vs RTF"
-            }
-          },
-          {
-            "id": "473d6b9adb556f46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rich text vs RTF"
-            }
-          },
-          {
-            "id": "ad03760e28a1baf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Read List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Read List"
-            }
-          },
-          {
-            "id": "097f8c95c4a083b3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Test.excalidraw.md"
-              },
-              "icon": "lucide-ghost",
-              "title": "excalidraw"
-            }
-          },
-          {
-            "id": "4506b64a6f3be0b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/First-Principles Product Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First-Principles Product Template"
-            }
-          },
-          {
-            "id": "e0692b3fb49f7285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rich text vs RTF"
-            }
-          },
-          {
-            "id": "56a4ed4d7bc55e44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Not a trash/Test.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Test"
-            }
-          },
-          {
-            "id": "210fbae33b6b049d",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
+              "type": "empty",
               "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "09f8a4a84e85bf2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cards/Title.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
               "icon": "lucide-file",
-              "title": "Title"
-            }
-          },
-          {
-            "id": "4813a25275e1f33a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Not a trash/Top three priorities.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Top three priorities"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -476,23 +223,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
-    "Not a trash/Test.md",
+    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Rich text vs RTF.md",
-    "cards/Title.md",
-    "cards/banyan_config/editor_placeholder.md",
-    "Not a trash/Top three priorities.md",
-    "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
-    "Templates/First-Principles Product Template.md",
-    "Not a trash/2026-02-10 19-43-37.md",
     "Excalidraw/Test.excalidraw.md",
+    "Not a trash/Test.md",
+    "Templates/First-Principles Product Template.md",
+    "Excalidraw/Test.excalidraw.restored.md",
     "Books/Read List.md",
+    "cards/Title.md",
+    "Not a trash/Top three priorities.md",
+    "cards/banyan_config/editor_placeholder.md",
+    "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
+    "Not a trash/2026-02-10 19-43-37.md",
     "Excalidraw",
     "Homepage.md",
     "cards/banyan_config",
     "cards",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
@@ -514,7 +262,6 @@
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Templates/Product Spec - Template.md",
     "Not a trash",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
