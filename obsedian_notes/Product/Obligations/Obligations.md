@@ -7,7 +7,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ## Context
 
-Obligation is nothing but a 
+Obligation is nothing but a taks 
 
 ### 1. Problem Statement
 
