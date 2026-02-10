@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "First-Principles Product Template",
+      "path": "Templates/First-Principles Product Template.md"
+    },
+    {
+      "basename": "Title",
+      "path": "cards/Title.md"
+    },
+    {
+      "basename": "editor_placeholder",
+      "path": "cards/banyan_config/editor_placeholder.md"
+    },
+    {
       "basename": "Rich text vs RTF",
       "path": "Product/Projects/Rich text/Rich text vs RTF.md"
+    },
+    {
+      "basename": "Test",
+      "path": "Not a trash/Test.md"
+    },
+    {
+      "basename": "Decisions are the real output of PMs",
+      "path": "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md"
+    },
+    {
+      "basename": "2026-02-10 19-43-37",
+      "path": "Not a trash/2026-02-10 19-43-37.md"
+    },
+    {
+      "basename": "Test.excalidraw",
+      "path": "Excalidraw/Test.excalidraw.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
     },
     {
       "basename": "Homepage",

@@ -2,7 +2,7 @@
   "version": 1,
   "sortType": "created",
   "firstUseDate": "10/02/2026",
-  "randomBrowse": false,
+  "randomBrowse": true,
   "randomReviewFilters": [
     {
       "id": 0,
