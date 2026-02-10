@@ -8,84 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b9aaf970de021a9",
+            "id": "a895421bacf6907a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/First-Principles Product Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First-Principles Product Template"
-            }
-          },
-          {
-            "id": "ff006c7df223260c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/First-Principles Product Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First-Principles Product Template"
-            }
-          },
-          {
-            "id": "5cf914540a5ac49a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rich text/WYSIWYG editor - First Principle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WYSIWYG editor - First Principle"
-            }
-          },
-          {
-            "id": "affab7866a0834f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rich text/WYSIWYG Editor _ PRD.md",
+                "file": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -104,17 +32,161 @@
             }
           },
           {
-            "id": "a895421bacf6907a",
+            "id": "fec22a5ecd70f07a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "WYSIWYG Editor _ PRD"
+            }
+          },
+          {
+            "id": "80942ff8f20a5f6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rich text vs RTF"
+            }
+          },
+          {
+            "id": "473d6b9adb556f46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Rich text/Rich text vs RTF.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rich text vs RTF"
+            }
+          },
+          {
+            "id": "ad03760e28a1baf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
+          },
+          {
+            "id": "5fcaf09a9e76577b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homepage.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Homepage"
+            }
+          },
+          {
+            "id": "436cfda207f1b4b4",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
+          },
+          {
+            "id": "4506b64a6f3be0b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/First-Principles Product Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "First-Principles Product Template"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "attach",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -258,9 +330,19 @@
               "icon": "lucide-list",
               "title": "Outline of Attachments - Loopio"
             }
+          },
+          {
+            "id": "b2aec384d239af07",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -293,20 +375,44 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "banyan:Open dashboard": false,
+      "banyan:Add card note": false,
+      "banyan:Random open a note - Random review": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "affab7866a0834f9",
+  "active": "436cfda207f1b4b4",
   "lastOpenFiles": [
-    "Rich text/WYSIWYG editor - First Principle.md",
-    "Rich text/WYSIWYG Editor _ PRD.md",
-    "Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
+    "Homepage.md",
+    "cards/banyan_config/editor_placeholder.md",
+    "cards/banyan_config",
+    "cards",
+    "Books/Read List.md",
+    "Product/Projects/Rich text/Rich text vs RTF.md",
+    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
+    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
+    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Genie Journal/Resources - Sparrow Genie.md",
+    "Genie Journal/Demo Important Points.md",
+    "Scripts for Udemy and Youtube/Udemy.md",
+    "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
+    "Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Sign up and Onboarding mails.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
+    "Rich text/Untitled 1.md",
+    "Templates/First-Principles Product Template.md",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/sghelparticle/scripts/generate_sitemap.py",
     "Product/sghelparticle/scripts",
     "Product/sghelparticle/robots.txt",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
-    "Templates/First-Principles Product Template.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Templates/Product Spec - Template.md",
     "Not a trash",
@@ -317,34 +423,14 @@
     "Not a trash/2026-01-29 UAT with Vipin.md",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
-    "Just text.md",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Product/Settings/Users and Teams/Teams Visibility Model.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Learning/First Principle thinking.md",
-    "Rich text",
-    "Table View/Table view for question card.md",
+    "Product/Projects/Rich text",
     "Table View",
-    "Product/Settings/Users and Teams/Roles and Permissions.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Product/competitors/Loopio/Attachments - Loopio.md",
-    "Product/Settings/Project admin settings.md",
-    "Product/Obligations/Obligations.md",
-    "Product/Top Deliverables/Product Vision.md",
-    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
     "Product/Obligations",
-    "Product/Projects/Sign up and Onboarding mails.md",
-    "Product/Projects/Genie Contribution.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Rfp",
     "Go-No-Go.canvas",
-    "Learning/Top Deliverables/Untitled.base",
-    "Product/Go-no-go/Untitled.base",
     "Not a trash/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "Not a trash/Screenshot 2026-01-30 at 1.29.09 PM.png",
-    "Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "Product/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
   ]

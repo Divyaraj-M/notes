@@ -29,8 +29,8 @@
     "competitor_analysis/go_no_go": 1,
     "data_sciece/formulas": 1,
     "discovery/go_no_go": 1,
-    "enhancements/rich_text": 1,
     "enhancements/table_view": 1,
+    "enhancements/wysiwyg_editor": 2,
     "learning/first_principle_thinking": 1,
     "new_feature/_admin_settings_project": 1,
     "new_feature/attachements": 2,
@@ -38,7 +38,6 @@
     "new_feature/go_no_go": 4,
     "new_feature/obligations": 5,
     "new_feature/teams": 5,
-    "new_feature/wysiwyg_editor": 6,
     "uat/vipin-jan29": 1,
     "discovery/go_no_go/eqs": 1
   },

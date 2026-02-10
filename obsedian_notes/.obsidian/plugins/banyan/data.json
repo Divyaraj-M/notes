@@ -1,0 +1,15 @@
+{
+  "settingsVersion": 8,
+  "openWhenStartObsidian": true,
+  "cardsDirectory": "cards",
+  "cardsColumns": 1,
+  "titleDisplayMode": "fileOnly",
+  "fontTheme": "normal",
+  "cardContentMaxHeight": "normal",
+  "showBacklinksInCardNote": true,
+  "useCardNote2": false,
+  "useZkPrefixerFormat": true,
+  "showAddNoteRibbonIcon": true,
+  "newNoteLocationMode": "custom",
+  "customNewNoteLocation": "Not a trash"
+}

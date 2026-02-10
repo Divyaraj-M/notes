@@ -1,4 +1,4 @@
-#enhancements/Rich_text 
+#enhancements/WYSIWYG_editor  
 ## How you should actually use this
 
 - **Feature ideation** → Sections 1–3 decide if it’s worth building

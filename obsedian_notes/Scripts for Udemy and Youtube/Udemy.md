@@ -117,8 +117,6 @@ Even with good thinking, beginners don’t own strategy.
     - Translating intent into shippable work
         
 - Domain knowledge is non-negotiable.
-    
-    - Pharma → process, compliance
         
     - Software → Git, GitHub, staging, prod
         
