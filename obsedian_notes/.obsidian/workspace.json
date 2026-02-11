@@ -30,20 +30,14 @@
               "icon": "lucide-file",
               "title": "Table view for question card PRD"
             }
-          }
-        ]
-      },
-      {
-        "id": "e187e3a340ed9edb",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "5441f112046e88de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
+                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -58,9 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "First Principle thinking - Table View"
+              "title": "Final PRD -Rich Text Editor for Project Response Area"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e187e3a340ed9edb",
+        "type": "tabs",
+        "children": [
           {
             "id": "77a0acb18fe0b3dd",
             "type": "leaf",
@@ -155,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
+                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for First Principle thinking - Table View"
+              "title": "Backlinks for Final PRD -Rich Text Editor for Project Response Area"
             }
           },
           {
@@ -174,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
+                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from First Principle thinking - Table View"
+              "title": "Outgoing links from Final PRD -Rich Text Editor for Project Response Area"
             }
           },
           {
@@ -279,8 +280,8 @@
   },
   "active": "5441f112046e88de",
   "lastOpenFiles": [
-    "Rfp/Test",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Rfp/Test",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Templates/Product Spec - Template.md",
@@ -322,7 +323,6 @@
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Product/Projects/Rich text",
-    "Product/Projects/Table View",
     "Go-No-Go.canvas",
     "Not a trash/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "Not a trash/Screenshot 2026-01-30 at 1.29.09 PM.png",
