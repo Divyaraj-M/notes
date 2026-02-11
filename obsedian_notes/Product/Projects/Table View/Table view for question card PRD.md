@@ -8,11 +8,10 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 ## Context
 ### 1. Problem Statement
 
-- User will face a cognitive load when inside the project if the number of the question is beyond 50 , it will be heavy load on the memeory span when owner or manger wants to skim over the answers, the skimming memory can be congitive heavy overload with the question card. 
-
+- When a project crosses 50+ questions, the mental load increases. For an owner or manager trying to skim answers, stacked cards become heavy. They have to scroll, remember previous responses, and compare mentally. This strains memory and slows decision-making.
 ---
 
-### 3. Target Users (Audience)
+### Target Users (Audience)
 
 **Who is this feature primarily for?**
 
@@ -22,10 +21,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 ---
 
 ## Implementation
-
-
-
-### 6. Scope
+###  Scope
 
 **What is included in this release?**
 
@@ -35,7 +31,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 7. Experience
+### Experience
 
 **How should users experience this feature inside SparrowGenie?**
 
