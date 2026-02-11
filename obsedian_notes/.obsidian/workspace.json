@@ -237,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -277,10 +277,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "5441f112046e88de",
   "lastOpenFiles": [
-    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Rfp/Test",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Templates/Product Spec - Template.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
@@ -308,7 +309,6 @@
     "cards",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
-    "Genie Journal/Demo Important Points.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/sghelparticle/scripts/generate_sitemap.py",
