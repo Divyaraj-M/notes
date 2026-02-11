@@ -26,7 +26,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 **What is included in this release?**
 
 - Must-have functionality:
-	- Table stru
+	- Tables 
 - Nice-to-have functionality (time permitting): 
 - Explicit non-goals or exclusions:
 

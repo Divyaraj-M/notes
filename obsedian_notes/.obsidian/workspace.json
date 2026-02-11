@@ -55,9 +55,19 @@
               "icon": "lucide-file",
               "title": "Table view for question card PRD"
             }
+          },
+          {
+            "id": "d1233f69ec93dd54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "e187e3a340ed9edb",
@@ -293,11 +303,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "d1233f69ec93dd54",
   "lastOpenFiles": [
+    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "2026-02-11.md",
     "Not a trash/2026-02-04.md",
     "Genie Journal/Resources - Sparrow Genie.md",
