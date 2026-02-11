@@ -31,8 +31,33 @@
               "icon": "lucide-file",
               "title": "2026-02-11"
             }
+          },
+          {
+            "id": "122f514db03316cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Table View/Table view for question card PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Table view for question card PRD"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e187e3a340ed9edb",
@@ -224,12 +249,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -268,13 +293,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ae33eb6e2a6cb14",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
-    "Not a trash/2026-02-04.md",
-    "2026-02-11.md",
-    "Genie Journal/Resources - Sparrow Genie.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "2026-02-11.md",
+    "Not a trash/2026-02-04.md",
+    "Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
@@ -297,7 +323,6 @@
     "Not a trash/Top three priorities.md",
     "cards/banyan_config/editor_placeholder.md",
     "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
-    "Not a trash/2026-02-10 19-43-37.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
