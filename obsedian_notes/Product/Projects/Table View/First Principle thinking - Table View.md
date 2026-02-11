@@ -58,25 +58,12 @@ Rules:
 
 Be concrete.
 
-- **What task becomes slow?**
-  - Cross-section comparison across many items
-Seeing 2–3 at once ≠ seeing 40 at once.
-Example:
-- Are all export-related answers consistent?
-With stacked cards:
-- You scroll
-- Memory carries the comparison
-- No spatial alignment
-
-So pattern comparison across 20+ items still slows down.
-But for small RFPs (under ~25 questions), this layout is probably enough.
-- **What error increases?**
-  - 
-- **What decision becomes risky?**
-  - 
-- **What workaround users are forced into?**
-  - 
-
+| Question                     | Impact Without Table                    |
+| ---------------------------- | --------------------------------------- |
+| What becomes slow?           | Multi-item comparison & system scanning |
+| What error increases?        | Inconsistency & omission errors         |
+| What decision becomes risky? | Submission readiness & prioritization   |
+| What workaround appears?     | Excel export & parallel trackers        |
 
 
 ---

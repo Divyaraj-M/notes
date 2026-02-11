@@ -37,7 +37,7 @@
       {
         "id": "e187e3a340ed9edb",
         "type": "tabs",
-        "dimension": 49.01960784313725,
+        "dimension": 49.01960784313726,
         "children": [
           {
             "id": "fd4b3c1467179414",
@@ -62,8 +62,19 @@
               "icon": "lucide-file",
               "title": "First Principle thinking - Table View"
             }
+          },
+          {
+            "id": "967817e8c40534e3",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,8 +133,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -224,8 +235,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -263,19 +274,18 @@
       "bases:Create new base": false,
       "random-note:Open random note": false,
       "banyan:Open dashboard": false,
-      "banyan:Add card note": false,
       "banyan:Random open a note - Random review": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fd4b3c1467179414",
+  "active": "967817e8c40534e3",
   "lastOpenFiles": [
     "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Rfp/Test",
     "Product/Projects/Loading screen after finish mapping.md",
     "Templates/Product Spec - Template.md",
