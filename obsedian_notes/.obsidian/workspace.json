@@ -6,6 +6,7 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
+        "dimension": 50.98039215686274,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
@@ -30,14 +31,21 @@
               "icon": "lucide-file",
               "title": "Table view for question card PRD"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "e187e3a340ed9edb",
+        "type": "tabs",
+        "dimension": 49.01960784313725,
+        "children": [
           {
-            "id": "5441f112046e88de",
+            "id": "fd4b3c1467179414",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
+                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,24 +60,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Final PRD -Rich Text Editor for Project Response Area"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e187e3a340ed9edb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "77a0acb18fe0b3dd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "First Principle thinking - Table View"
             }
           }
         ]
@@ -156,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
+                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +157,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Final PRD -Rich Text Editor for Project Response Area"
+              "title": "Backlinks for First Principle thinking - Table View"
             }
           },
           {
@@ -175,12 +166,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
+                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Final PRD -Rich Text Editor for Project Response Area"
+              "title": "Outgoing links from First Principle thinking - Table View"
             }
           },
           {
@@ -278,11 +269,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5441f112046e88de",
+  "active": "fd4b3c1467179414",
   "lastOpenFiles": [
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
+    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
+    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Rfp/Test",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Templates/Product Spec - Template.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
@@ -294,7 +288,6 @@
     "Excalidraw/Test.excalidraw.restored.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Rich text vs RTF.md",
     "Not a trash/Test.md",
     "Templates/First-Principles Product Template.md",
@@ -308,8 +301,6 @@
     "Homepage.md",
     "cards/banyan_config",
     "cards",
-    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
-    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/sghelparticle/scripts/generate_sitemap.py",

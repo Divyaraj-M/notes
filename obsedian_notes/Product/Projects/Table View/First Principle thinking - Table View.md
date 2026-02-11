@@ -59,19 +59,15 @@ Rules:
 Be concrete.
 
 - **What task becomes slow?**
-  - Bulk triage of question cards (assign owner, reviewer, due date, status) remains slow because work must be opened one card at a time.
-  - Weekly operational reviews take longer because there is no single project-level execution view.
+  - 
 - **What error increases?**
-  - Duplicate assignments, unowned questions, stale statuses, and missed due dates increase.
-  - Critical questions look "in progress" even when blocked, creating false completion signals.
+  - 
 - **What decision becomes risky?**
-  - Deal and staffing decisions become risky because leaders cannot trust real completion state.
-  - Submission readiness calls are made with hidden gaps.
+  - 
 - **What workaround users are forced into?**
-  - Teams export data to spreadsheets, maintain parallel trackers, and manually sync changes back.
-  - This creates version drift, rework, and audit gaps.
+  - 
 
-If the answer is "nothing breaks," stop here.
+
 
 ---
 

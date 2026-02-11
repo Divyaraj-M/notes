@@ -65,7 +65,6 @@ that defines the importance of the qualifiers for an RFP which can be reason
 ###  Experience
 
 **How should users experience this feature inside SparrowGenie?**
-**How should users experience this feature inside SparrowGenie?**
 
 ### Primary user flow
 
@@ -92,7 +91,6 @@ The experience should feel:
 ### Key interactions and moments that matter
 
 - **Writing**
-    
     - Formatting actions are immediate and visual.
     - No syntax. No Markdown toggles.
 - **Save**
