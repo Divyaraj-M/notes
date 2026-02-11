@@ -62,25 +62,14 @@ Be concrete.
   - Cross-section comparison across many items
 Seeing 2–3 at once ≠ seeing 40 at once.
 Example:
-
 - Are all export-related answers consistent?
-- Did we mention “auto-translate” everywhere?
-    
-
 With stacked cards:
-
 - You scroll
-    
 - Memory carries the comparison
-    
 - No spatial alignment
-    
 
 So pattern comparison across 20+ items still slows down.
-
-But…
-
-For small RFPs (under ~25 questions), this layout is probably enough.
+But for small RFPs (under ~25 questions), this layout is probably enough.
 - **What error increases?**
   - 
 - **What decision becomes risky?**
