@@ -13,10 +13,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 **What is broken today in the SparrowGenie sales or proposal workflow?**
 
-- Who is experiencing this problem? (sales reps, proposal authors, reviewers, managers)
-- Where does the deal slow down, stall, or break?
-- What work is manual, repetitive, or error-prone?
-- What are the consequences if this problem is not solved?
+
 
 ---
 

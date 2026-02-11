@@ -62,19 +62,8 @@
               "icon": "lucide-file",
               "title": "First Principle thinking - Table View"
             }
-          },
-          {
-            "id": "967817e8c40534e3",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -279,10 +268,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "967817e8c40534e3",
+  "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
