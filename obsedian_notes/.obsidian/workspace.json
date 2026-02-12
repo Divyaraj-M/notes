@@ -57,13 +57,13 @@
             }
           },
           {
-            "id": "d1233f69ec93dd54",
+            "id": "b70d2ab3c4c92a9d",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "dashboard-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "wallet-cards",
+              "title": "Banyan"
             }
           }
         ],
@@ -303,7 +303,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d1233f69ec93dd54",
+  "active": "b70d2ab3c4c92a9d",
   "lastOpenFiles": [
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
