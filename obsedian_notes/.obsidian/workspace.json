@@ -33,12 +33,12 @@
             }
           },
           {
-            "id": "122f514db03316cd",
+            "id": "31da13801fd3931f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Table View/Table view for question card PRD.md",
+                "file": "Books/Read List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,21 +53,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Table view for question card PRD"
+              "title": "Read List"
             }
           },
           {
-            "id": "b70d2ab3c4c92a9d",
+            "id": "95af417942b2cf00",
             "type": "leaf",
             "state": {
-              "type": "dashboard-view",
+              "type": "empty",
               "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e187e3a340ed9edb",
@@ -130,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "obliga",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -303,12 +303,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b70d2ab3c4c92a9d",
+  "active": "31da13801fd3931f",
   "lastOpenFiles": [
+    "Books/Read List.md",
+    "2026-02-11.md",
+    "Product/Obligations/Obligations.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "2026-02-11.md",
     "Not a trash/2026-02-04.md",
     "Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
@@ -319,7 +321,6 @@
     "Templates/Product Spec - Template.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Untitled",
-    "Product/Obligations/Obligations.md",
     "Genie Journal/2025-12-12.md",
     "Excalidraw/Test.excalidraw.md",
     "Excalidraw/Test.excalidraw.restored.md",
@@ -328,7 +329,6 @@
     "Product/Projects/Rich text/Rich text vs RTF.md",
     "Not a trash/Test.md",
     "Templates/First-Principles Product Template.md",
-    "Books/Read List.md",
     "cards/Title.md",
     "Not a trash/Top three priorities.md",
     "cards/banyan_config/editor_placeholder.md",
