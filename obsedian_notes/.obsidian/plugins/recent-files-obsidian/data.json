@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obligations",
+      "path": "Product/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Rigor of thoughts",
+      "path": "Learning/Top Deliverables/Rigor of thoughts.md"
+    },
+    {
       "basename": "2026-01-30",
       "path": "Not a trash/2026-01-30.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Obligations/Obligations.md"
     },
     {
       "basename": "Table view for question card PRD",

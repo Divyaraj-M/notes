@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Not a trash/2026-01-30.md",
+                "file": "Product/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-30"
+              "title": "Obligations"
             }
           },
           {
@@ -304,6 +304,8 @@
   },
   "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
+    "Learning/Top Deliverables/Rigor of thoughts.md",
+    "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
     "Not a trash/2026-02-10 19-43-37.md",
     "2026-02-11.md",
@@ -330,8 +332,6 @@
     "Excalidraw/Test.excalidraw.restored.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Projects/Rich text/Rich text vs RTF.md",
-    "Not a trash/Test.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
