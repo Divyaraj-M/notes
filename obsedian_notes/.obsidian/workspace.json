@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-11.md",
+                "file": "Not a trash/2026-01-30.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,7 +29,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-11"
+              "title": "2026-01-30"
             }
           },
           {
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Template - PM.md",
+                "file": "cards/banyan_config/editor_placeholder.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,7 +53,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Template - PM"
+              "title": "editor_placeholder"
             }
           },
           {
@@ -66,8 +66,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e187e3a340ed9edb",
@@ -303,17 +302,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "31da13801fd3931f",
+  "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
+    "Not a trash/2026-02-04.md",
+    "Not a trash/2026-02-10 19-43-37.md",
+    "2026-02-11.md",
+    "cards/banyan_config/editor_placeholder.md",
+    "Templates/Template - PM.md",
     "Product/sghelparticle/_sidebar.md",
     "Product/sghelparticle/README.md",
     "Books/Read List.md",
-    "2026-02-11.md",
     "Product/Obligations/Obligations.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Not a trash/2026-02-04.md",
     "Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
@@ -330,9 +332,6 @@
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Projects/Rich text/Rich text vs RTF.md",
     "Not a trash/Test.md",
-    "Templates/First-Principles Product Template.md",
-    "cards/Title.md",
-    "Not a trash/Top three priorities.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
