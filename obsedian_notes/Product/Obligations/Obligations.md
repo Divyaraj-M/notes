@@ -7,70 +7,37 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ## Context
 
-Obligation is for the sales people when they gave a commitment and for the specific RFP or proposal 
+Obligation is for the sales people when they gave a commitment for the specific RFP or proposal and they to keep it up. Inside sparrowGenie, We cannot track tasks for specific projects. This makes the user to have a different workaround.
 
 ### 1. Problem Statement
 
 **What is broken today in the SparrowGenie sales or proposal workflow?**
 
+Obligation is for the sales people when they gave a commitment for the specific RFP or proposal and they to keep it up. Inside sparrowGenie, We cannot track tasks for specific projects. This makes the user to have a different workaround.
 
 
 ---
 
-### 2. Opportunity
 
-**Why is this problem worth solving now?**
-
-- How does solving this help sales teams close deals faster?
-- What friction or context loss does this remove?
-- What business impact do we expect? (win rate, cycle time, adoption, revenue)
-
----
-
-### 3. Target Users (Audience)
+### 2. Target Users (Audience)
 
 **Who is this feature primarily for?**
 
-- Primary user:
-- Secondary user (if applicable):
+- Primary user: Project Owner and Manager
 - Who is explicitly out of scope in this version?
+	- Watcher
 
-> Be specific. If the answer is “everyone,” the problem has not been narrowed enough.
-
----
-
-### 4. Competitive Insights
-
-**How do sales teams solve this problem today without SparrowGenie?**
-
-- Tools, workflows, or competitors involved:
-- What do they do well?
-- Where do they introduce friction or break down?
-- What clear gap can SparrowGenie uniquely fill?
-
----
-
-### 5. Success Metrics
-
-**How will we know this feature delivered real value?**
-
-- Primary outcome metric:
-- Supporting metrics:
-- Expected direction of change:
-
-> These metrics should measure outcomes, not feature usage or task completion alone.
 
 ---
 
 ## Implementation
 
-**Purpose:** Define what needs to be built while giving design and engineering teams room to make good decisions.
-
-### 6. Scope
+### 3. Scope
 
 **What is included in this release?**
 
 - Must-have functionality:
+	- Layout for the handling of the tabs 
 - Nice-to-have functionality (time permitting): 
 - Explicit non-goals or exclusions:
 
