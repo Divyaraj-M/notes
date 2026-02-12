@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List.md",
+                "file": "Templates/Template - PM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,7 +53,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "Template - PM"
             }
           },
           {
@@ -305,6 +305,8 @@
   },
   "active": "31da13801fd3931f",
   "lastOpenFiles": [
+    "Product/sghelparticle/_sidebar.md",
+    "Product/sghelparticle/README.md",
     "Books/Read List.md",
     "2026-02-11.md",
     "Product/Obligations/Obligations.md",
@@ -331,8 +333,6 @@
     "Templates/First-Principles Product Template.md",
     "cards/Title.md",
     "Not a trash/Top three priorities.md",
-    "cards/banyan_config/editor_placeholder.md",
-    "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",

@@ -1,8 +1,8 @@
 # **SPARROW GENIE DAILY PM TEMPLATE**
 
-## **Date:** 15/12/2025 
+## **Date:** 
 
-## **Feature / Area of Focus:** Projects 
+## **Feature / Area of Focus:** P
 
 ---
 
