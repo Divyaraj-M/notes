@@ -35,28 +35,28 @@
             "id": "ac32a5c68bc522e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2026-02-13.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/Test.excalidraw.restored.md"
               },
-              "icon": "lucide-file",
-              "title": "2026-02-13"
+              "icon": "excalidraw-icon",
+              "title": "Test.excalidraw.restored"
+            }
+          },
+          {
+            "id": "b7e6b9ef346d9fcd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Second_stream_revenue.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Second_stream_revenue.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-02-13.md",
+                "file": "Excalidraw/Second_stream_revenue.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-02-13"
+              "title": "Backlinks for Second_stream_revenue.excalidraw"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-02-13.md",
+                "file": "Excalidraw/Second_stream_revenue.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-02-13"
+              "title": "Outgoing links from Second_stream_revenue.excalidraw"
             }
           },
           {
@@ -258,10 +258,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ac32a5c68bc522e0",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
-    "Product/Projects/Context Info/Company Info.md",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/Second_stream_revenue.excalidraw.md",
+    "Excalidraw/Test.excalidraw.restored.md",
+    "Untitled 1",
+    "Scripts for Udemy and Youtube/Udemy.md",
+    "Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
+    "Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+    "Books/Read List.md",
+    "Learning/Top Deliverables/Product thinking.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Product/Projects/Rich text/Rich text vs RTF.md",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "2026-02-13.md",
+    "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
@@ -276,31 +290,17 @@
     "Templates/Template - PM.md",
     "Product/sghelparticle/_sidebar.md",
     "Product/sghelparticle/README.md",
-    "Books/Read List.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
-    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Genie Journal/Resources - Sparrow Genie.md",
-    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
-    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Rfp/Test",
-    "Product/Projects/Loading screen after finish mapping.md",
-    "Templates/Product Spec - Template.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Untitled",
-    "Genie Journal/2025-12-12.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
-    "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
-    "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/sghelparticle/scripts/generate_sitemap.py",
     "Product/sghelparticle/scripts",
     "Product/sghelparticle/robots.txt",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Not a trash",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
