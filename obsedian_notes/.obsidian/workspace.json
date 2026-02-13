@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Obligations/Obligations.md",
+                "file": "Not a trash/2026-02-10 19-43-37.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,16 +29,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obligations"
+              "title": "2026-02-10 19-43-37"
             }
           },
           {
-            "id": "31da13801fd3931f",
+            "id": "ac32a5c68bc522e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cards/banyan_config/editor_placeholder.md",
+                "file": "Product/Projects/Context Info/Context Info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,21 +53,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "editor_placeholder"
-            }
-          },
-          {
-            "id": "95af417942b2cf00",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
+              "title": "Context Info"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "e187e3a340ed9edb",
@@ -97,8 +87,19 @@
               "icon": "lucide-file",
               "title": "First Principle thinking - Table View"
             }
+          },
+          {
+            "id": "2013ec00d47cec52",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obliga",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -182,7 +183,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for First Principle thinking - Table View"
+              "title": "Backlinks"
             }
           },
           {
@@ -201,12 +201,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from First Principle thinking - Table View"
+              "title": "Outgoing links"
             }
           },
           {
@@ -264,7 +263,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -303,14 +302,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "95af417942b2cf00",
+  "active": "2013ec00d47cec52",
   "lastOpenFiles": [
-    "cards/banyan_config/editor_placeholder.md",
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Projects/Context Info/Company Info.md",
+    "Not a trash/2026-02-10 19-43-37.md",
+    "Product/Projects/Context Info",
     "Product/Obligations/Obligations.md",
+    "cards/banyan_config/editor_placeholder.md",
     "Learning/Top Deliverables/Rigor of thoughts.md",
     "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
-    "Not a trash/2026-02-10 19-43-37.md",
     "2026-02-11.md",
     "Templates/Template - PM.md",
     "Product/sghelparticle/_sidebar.md",
@@ -330,9 +333,6 @@
     "Untitled",
     "Genie Journal/2025-12-12.md",
     "Excalidraw/Test.excalidraw.md",
-    "Excalidraw/Test.excalidraw.restored.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
@@ -348,7 +348,6 @@
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Product/Projects/Rich text",
     "Go-No-Go.canvas",
     "Not a trash/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "Not a trash/Screenshot 2026-01-30 at 1.29.09 PM.png",
