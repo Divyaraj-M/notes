@@ -6,7 +6,6 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
-        "dimension": 50.98039215686274,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
@@ -38,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Context Info/Context Info.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -53,49 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Context Info"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "e187e3a340ed9edb",
-        "type": "tabs",
-        "dimension": 49.01960784313726,
-        "children": [
-          {
-            "id": "fd4b3c1467179414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Table View/First Principle thinking - Table View.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "First Principle thinking - Table View"
-            }
-          },
-          {
-            "id": "2013ec00d47cec52",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Company Info"
             }
           }
         ],
@@ -201,11 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Company Info"
             }
           },
           {
@@ -296,17 +254,16 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
-      "banyan:Open dashboard": false,
-      "banyan:Random open a note - Random review": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2013ec00d47cec52",
+  "active": "ac32a5c68bc522e0",
   "lastOpenFiles": [
-    "Product/Projects/Context Info/Context Info.md",
-    "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Company Info.md",
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Projects/Context Info/Competitors Info.md",
     "Not a trash/2026-02-10 19-43-37.md",
     "Product/Projects/Context Info",
     "Product/Obligations/Obligations.md",
@@ -320,7 +277,6 @@
     "Product/sghelparticle/README.md",
     "Books/Read List.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
     "Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",

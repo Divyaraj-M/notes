@@ -6,7 +6,22 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "Product",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.1,
@@ -17,6 +32,6 @@
   "repelStrength": 9.66319444444444,
   "linkStrength": 1,
   "linkDistance": 251,
-  "scale": 0.5015130823190167,
+  "scale": 1.1933514736639568,
   "close": true
 }
