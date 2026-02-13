@@ -21,7 +21,11 @@
 **What is included in this release?**
 
 - Must-have functionality:
-		Include the 
+	- Include the AI generated company info 
+	- Let the users to edit it by their way 
+	- Activity log 
+	- 
+- 
 - Nice-to-have functionality (time permitting): 
 - Explicit non-goals or exclusions:
 
