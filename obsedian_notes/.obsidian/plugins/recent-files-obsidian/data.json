@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Company Info",
+      "path": "Product/Projects/Context Info/Company Info.md"
+    },
+    {
+      "basename": "Context Info",
+      "path": "Product/Projects/Context Info/Context Info.md"
+    },
+    {
+      "basename": "Obligations",
+      "path": "Product/Obligations/Obligations.md"
+    },
+    {
+      "basename": "AI Readiness Score (ARS)",
+      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "Learning/First Principle thinking.md"
+    },
+    {
       "basename": "Second_stream_revenue.excalidraw",
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
     },
@@ -61,24 +81,12 @@
       "path": "2026-02-13.md"
     },
     {
-      "basename": "Company Info",
-      "path": "Product/Projects/Context Info/Company Info.md"
-    },
-    {
-      "basename": "Context Info",
-      "path": "Product/Projects/Context Info/Context Info.md"
-    },
-    {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
     },
     {
       "basename": "First Principle thinking - Table View",
       "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Obligations/Obligations.md"
     },
     {
       "basename": "Rigor of thoughts",

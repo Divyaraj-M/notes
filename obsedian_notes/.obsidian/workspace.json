@@ -11,12 +11,24 @@
             "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+                "file": "Product/Projects/Context Info/Company Info.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Second_stream_revenue.excalidraw"
+              "icon": "lucide-file",
+              "title": "Company Info"
             }
           },
           {
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Second_stream_revenue.excalidraw"
+              "title": "Backlinks for Company Info"
             }
           },
           {
@@ -189,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/First-Principles Product Template.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of First-Principles Product Template"
+              "title": "Outline of Company Info"
             }
           },
           {
@@ -208,7 +220,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -247,6 +260,13 @@
   },
   "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Context Info/Company Info.md",
+    "Product/Obligations/Obligations.md",
+    "Product/Go-no-go/AI Readiness Score (ARS).md",
+    "Learning/First Principle thinking.md",
+    "Untitled",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Learning/Top Deliverables/Decisions.md",
     "Books/Read List.md",
     "Excalidraw/Test.excalidraw.restored.md",
@@ -255,8 +275,6 @@
     "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "Untitled",
     "Not a trash/2026-02-10 19-43-37.md",
     "second_stream_revenue/Youtube Scripts",
     "Learning/Top Deliverables/Product thinking.md",
@@ -266,18 +284,13 @@
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "2026-02-13.md",
-    "Product/Projects/Context Info/Company Info.md",
-    "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info",
-    "Product/Obligations/Obligations.md",
     "cards/banyan_config/editor_placeholder.md",
     "Learning/Top Deliverables/Rigor of thoughts.md",
     "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
-    "2026-02-11.md",
-    "Templates/Template - PM.md",
     "Rfp/Test",
     "second_stream_revenue",
     "Excalidraw",
