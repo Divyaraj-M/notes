@@ -21,8 +21,7 @@
 **What is included in this release?**
 
 - Must-have functionality:
-	- Include two text boxes 
-		- 
+		Include the 
 - Nice-to-have functionality (time permitting): 
 - Explicit non-goals or exclusions:
 
