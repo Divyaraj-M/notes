@@ -23,16 +23,27 @@
             "id": "a32dea7f2bf0bc44",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+                "file": "Learning/Top Deliverables/Decisions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Second_stream_revenue.excalidraw"
+              "icon": "lucide-file",
+              "title": "Decisions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,18 +245,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a32dea7f2bf0bc44",
+  "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
-    "Untitled",
+    "Learning/Top Deliverables/Decisions.md",
+    "Books/Read List.md",
     "Excalidraw/Test.excalidraw.restored.md",
-    "Not a trash/2026-02-10 19-43-37.md",
-    "second_stream_revenue/Youtube Scripts",
+    "Excalidraw/Test.excalidraw.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "Books/Read List.md",
+    "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "Untitled",
+    "Not a trash/2026-02-10 19-43-37.md",
+    "second_stream_revenue/Youtube Scripts",
     "Learning/Top Deliverables/Product thinking.md",
     "Learning/Top Deliverables/Product specs.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
@@ -265,7 +278,6 @@
     "Not a trash/2026-02-04.md",
     "2026-02-11.md",
     "Templates/Template - PM.md",
-    "Product/sghelparticle/_sidebar.md",
     "Rfp/Test",
     "second_stream_revenue",
     "Excalidraw",

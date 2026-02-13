@@ -5,20 +5,16 @@
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
     },
     {
+      "basename": "Decisions",
+      "path": "Learning/Top Deliverables/Decisions.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
+    },
+    {
       "basename": "Udemy",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Youtube Scripts",
-      "path": "second_stream_revenue/Youtube Scripts/Youtube Scripts.md"
-    },
-    {
-      "basename": "Test.excalidraw.restored",
-      "path": "Excalidraw/Test.excalidraw.restored.md"
-    },
-    {
-      "basename": "2026-02-10 19-43-37",
-      "path": "Not a trash/2026-02-10 19-43-37.md"
     },
     {
       "basename": "Decisions are the real output of PMs",
@@ -29,8 +25,12 @@
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md"
     },
     {
-      "basename": "Read List",
-      "path": "Books/Read List.md"
+      "basename": "Youtube Scripts",
+      "path": "second_stream_revenue/Youtube Scripts/Youtube Scripts.md"
+    },
+    {
+      "basename": "2026-02-10 19-43-37",
+      "path": "Not a trash/2026-02-10 19-43-37.md"
     },
     {
       "basename": "Product thinking",
@@ -79,10 +79,6 @@
     {
       "basename": "Obligations",
       "path": "Product/Obligations/Obligations.md"
-    },
-    {
-      "basename": "editor_placeholder",
-      "path": "cards/banyan_config/editor_placeholder.md"
     },
     {
       "basename": "Rigor of thoughts",
@@ -151,10 +147,6 @@
     {
       "basename": "2025-12-12",
       "path": "Genie Journal/2025-12-12.md"
-    },
-    {
-      "basename": "Test.excalidraw",
-      "path": "Excalidraw/Test.excalidraw.md"
     },
     {
       "basename": "Multicolumn , check box",
