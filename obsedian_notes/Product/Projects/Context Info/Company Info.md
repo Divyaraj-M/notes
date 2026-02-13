@@ -1,35 +1,17 @@
+#new_feature/conext_info/Company_info
 
 
-### 1. Problem Statement
-
-**What is broken today in the SparrowGenie sales or proposal workflow?**
-
-- Who is experiencing this problem? (sales reps, proposal authors, reviewers, managers)
-- Where does the deal slow down, stall, or break?
-- What work is manual, repetitive, or error-prone?
-- What are the consequences if this problem is not solved?
-
----
-
-### 2. Opportunity
-
-**Why is this problem worth solving now?**
-
-- How does solving this help sales teams close deals faster?
-- What friction or context loss does this remove?
-- What business impact do we expect? (win rate, cycle time, adoption, revenue)
-
----
+![[Context Info]]
 
 ### 3. Target Users (Audience)
 
 **Who is this feature primarily for?**
 
-- Primary user:
-- Secondary user (if applicable):
+- Primary user: **Project Owner**
+- Secondary user (if applicable): Project Manager 
 - Who is explicitly out of scope in this version?
-
-> Be specific. If the answer is “everyone,” the problem has not been narrowed enough.
+	- External User
+	- Prospect
 
 ---
 
