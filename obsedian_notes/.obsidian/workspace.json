@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "2026-02-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company Info"
+              "title": "2026-02-13"
             }
           }
         ],
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "2026-02-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Company Info"
+              "title": "Backlinks for 2026-02-13"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "2026-02-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Company Info"
+              "title": "Outgoing links from 2026-02-13"
             }
           },
           {
@@ -260,9 +260,10 @@
   },
   "active": "ac32a5c68bc522e0",
   "lastOpenFiles": [
+    "Product/Projects/Context Info/Company Info.md",
+    "2026-02-13.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Not a trash/2026-02-10 19-43-37.md",
     "Product/Projects/Context Info",
@@ -288,7 +289,6 @@
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Untitled",
     "Genie Journal/2025-12-12.md",
-    "Excalidraw/Test.excalidraw.md",
     "Excalidraw",
     "cards/banyan_config",
     "cards",
