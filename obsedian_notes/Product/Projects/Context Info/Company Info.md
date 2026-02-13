@@ -3,7 +3,7 @@
 
 ![[Context Info]]
 
-### 3. Target Users (Audience)
+### Target Users (Audience)
 
 **Who is this feature primarily for?**
 
@@ -15,44 +15,20 @@
 
 ---
 
-### 4. Competitive Insights
-
-**How do sales teams solve this problem today without SparrowGenie?**
-
-- Tools, workflows, or competitors involved:
-- What do they do well?
-- Where do they introduce friction or break down?
-- What clear gap can SparrowGenie uniquely fill?
-
----
-
-### 5. Success Metrics
-
-**How will we know this feature delivered real value?**
-
-- Primary outcome metric:
-- Supporting metrics:
-- Expected direction of change:
-
-> These metrics should measure outcomes, not feature usage or task completion alone.
-
----
-
 ## Implementation
-
-**Purpose:** Define what needs to be built while giving design and engineering teams room to make good decisions.
-
-### 6. Scope
+###  Scope
 
 **What is included in this release?**
 
 - Must-have functionality:
+	- Include two text boxes 
+		- 
 - Nice-to-have functionality (time permitting): 
 - Explicit non-goals or exclusions:
 
 ---
 
-### 7. Experience
+### Experience
 
 **How should users experience this feature inside SparrowGenie?**
 
@@ -62,14 +38,14 @@
 
 ---
 
-### 8. Implementation Details
+### Implementation Details
 
 **What rules or constraints must be defined upfront?**
 
 - Data behavior and persistence rules:
 - Role-based permissions and access control:
 - System or AI behavior notes that cannot be deferred:
-### 9. Impact Areas 
+### Impact Areas 
 
 
 
@@ -78,7 +54,7 @@
 ---
 
 
-### 10. Investigative Metrics
+### Investigative Metrics
 
 **What should we closely monitor immediately after launch?**
 

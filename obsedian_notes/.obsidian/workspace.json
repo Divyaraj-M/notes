@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Context Info/Context Info.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Context Info"
+              "title": "Company Info"
             }
           }
         ],
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Context Info/Context Info.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Context Info"
+              "title": "Backlinks for Company Info"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Context Info/Context Info.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Context Info"
+              "title": "Outgoing links from Company Info"
             }
           },
           {
@@ -260,9 +260,9 @@
   },
   "active": "ac32a5c68bc522e0",
   "lastOpenFiles": [
-    "Product/Projects/Context Info/Company Info.md",
-    "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Not a trash/2026-02-10 19-43-37.md",
     "Product/Projects/Context Info",
