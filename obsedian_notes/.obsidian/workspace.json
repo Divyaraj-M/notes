@@ -60,13 +60,14 @@
             "id": "95af417942b2cf00",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "dashboard-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "wallet-cards",
+              "title": "Banyan"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e187e3a340ed9edb",
@@ -302,19 +303,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ae33eb6e2a6cb14",
+  "active": "95af417942b2cf00",
   "lastOpenFiles": [
+    "cards/banyan_config/editor_placeholder.md",
+    "Product/Obligations/Obligations.md",
     "Learning/Top Deliverables/Rigor of thoughts.md",
     "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
     "Not a trash/2026-02-10 19-43-37.md",
     "2026-02-11.md",
-    "cards/banyan_config/editor_placeholder.md",
     "Templates/Template - PM.md",
     "Product/sghelparticle/_sidebar.md",
     "Product/sghelparticle/README.md",
     "Books/Read List.md",
-    "Product/Obligations/Obligations.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",

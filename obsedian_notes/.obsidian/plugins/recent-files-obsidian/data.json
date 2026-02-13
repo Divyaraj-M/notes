@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "editor_placeholder",
+      "path": "cards/banyan_config/editor_placeholder.md"
+    },
+    {
       "basename": "Obligations",
       "path": "Product/Obligations/Obligations.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "2026-02-11",
       "path": "2026-02-11.md"
-    },
-    {
-      "basename": "editor_placeholder",
-      "path": "cards/banyan_config/editor_placeholder.md"
     },
     {
       "basename": "Template - PM",
