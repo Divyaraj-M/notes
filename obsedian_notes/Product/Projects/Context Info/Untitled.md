@@ -110,11 +110,8 @@ This module ensures context exists before answers are written.
 Each project will contain:
 
 - Company Overview (AI + Editable) adn ca
-    
 - Manual Notes (Optional additions)
-    
 - Activity Log
-    
 
 Stored at project level.
 
@@ -127,9 +124,7 @@ Stored at project level.
 Required fields:
 
 - Company Name
-    
 - Company Website / Domain
-    
 
 ---
 
@@ -138,15 +133,12 @@ Required fields:
 System behavior:
 
 1. After project creation:
-    
     - System auto-generates company overview.
         
 2. User sees:
-    
     - “Regenerate Overview” button.
         
 3. Owner / PM can regenerate anytime.
-    
 
 SMEs cannot regenerate.
 
@@ -157,17 +149,11 @@ SMEs cannot regenerate.
 AI must rely on:
 
 - Official company website
-    
 - Annual reports
-    
 - SEC filings (if public)
-    
 - Verified public databases
-    
 - Press releases
-    
 - Public earnings reports
-    
 
 No speculation.  
 No inferred strategy.  
