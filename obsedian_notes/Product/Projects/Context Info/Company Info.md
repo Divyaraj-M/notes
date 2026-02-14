@@ -71,6 +71,16 @@
 
 
 ---
+
+
+### Investigative Metrics
+
+**What should we closely monitor immediately after launch?**
+
+- Early adoption or usage signals:
+- Failure, confusion, or drop-off signals:
+- Key questions this data should help answer:
+
 ---
 
 ## Final Notes

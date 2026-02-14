@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "4bb8613bef8e2a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Context Info/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
             "id": "a32dea7f2bf0bc44",
             "type": "leaf",
             "state": {
@@ -55,7 +79,8 @@
               "title": "Decisions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "Product/Projects/Context Info/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Company Info"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -201,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "Product/Projects/Context Info/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Company Info"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -258,10 +283,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ae33eb6e2a6cb14",
+  "active": "4bb8613bef8e2a5f",
   "lastOpenFiles": [
-    "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Company Info.md",
+    "Product/Projects/Context Info/Untitled.md",
+    "Product/Projects/Context Info/Context Info.md",
     "Product/Obligations/Obligations.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Learning/First Principle thinking.md",
@@ -290,7 +316,6 @@
     "cards/banyan_config/editor_placeholder.md",
     "Learning/Top Deliverables/Rigor of thoughts.md",
     "Not a trash/2026-01-30.md",
-    "Not a trash/2026-02-04.md",
     "Rfp/Test",
     "second_stream_revenue",
     "Excalidraw",
