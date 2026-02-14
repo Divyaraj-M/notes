@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Context Info/Untitled.md",
+                "file": "Product/Projects/Context Info/Context info - PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Context info - PRD"
             }
           },
           {
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Context Info/Untitled.md",
+                "file": "Product/Projects/Context Info/Context info - PRD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Context info - PRD"
             }
           },
           {
@@ -226,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Context Info/Untitled.md",
+                "file": "Product/Projects/Context Info/Context info - PRD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Context info - PRD"
             }
           },
           {
@@ -286,7 +286,7 @@
   "active": "4bb8613bef8e2a5f",
   "lastOpenFiles": [
     "Product/Projects/Context Info/Company Info.md",
-    "Product/Projects/Context Info/Untitled.md",
+    "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Obligations/Obligations.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
