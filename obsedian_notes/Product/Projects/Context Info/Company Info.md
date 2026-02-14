@@ -21,13 +21,29 @@
 **What is included in this release?**
 
 - Must-have functionality:
-	- Include the AI generated company info 
 	- Let the users to edit it by their way 
 	- Activity log 
-	- 
+	- We have to show who updated the company info at last 
+	- We need have let users have wysiwyg editor
+		- Bold 
+		- Italics
+		- Underline
+		- Alignment 
+		- Pointers 
+		- Numberings
+		- hyperlinks
+		- attachments(good to have)
+		- Undo and Redo
+	- The User will have editor in the MD format , so that when ai generates the answer, it will render in the same format 
+	- We will have summarise option 
+		- This will enable the user to have quick summarised version of the Company info 
 - 
 - Nice-to-have functionality (time permitting): 
+	- Attachments 
+		- Let the user attach any important docs, images , excels and much more 
 - Explicit non-goals or exclusions:
+	- 	Include the AI generated company info 
+
 
 ---
 
@@ -55,16 +71,6 @@
 
 
 ---
-
-
-### Investigative Metrics
-
-**What should we closely monitor immediately after launch?**
-
-- Early adoption or usage signals:
-- Failure, confusion, or drop-off signals:
-- Key questions this data should help answer:
-
 ---
 
 ## Final Notes
