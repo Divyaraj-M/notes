@@ -59,24 +59,12 @@
             "id": "c06f661770dd4624",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Youtube video Framework"
+              "icon": "excalidraw-icon",
+              "title": "Second_stream_revenue.excalidraw"
             }
           },
           {
@@ -188,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
+                "file": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Youtube video Framework"
+              "title": "Backlinks for Udemy"
             }
           },
           {
@@ -250,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
+                "file": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Youtube video Framework"
+              "title": "Outline of Udemy"
             }
           },
           {
@@ -307,19 +295,30 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "c06f661770dd4624",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
-    "Product/Projects/Context Info/Context Info.md",
-    "Product/Obligations/Obligations.md",
+    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Sign up and Onboarding mails.md",
+    "Product/Projects/Rich text/Rich text vs RTF.md",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
+    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
+    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
+    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
+    "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
+    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+    "Product/Obligations/Obligations.md",
     "Learning/First Principle thinking.md",
     "Untitled",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Learning/Top Deliverables/Decisions.md",
     "Books/Read List.md",
     "Excalidraw/Test.excalidraw.restored.md",
@@ -327,19 +326,8 @@
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
-    "Not a trash/2026-02-10 19-43-37.md",
     "second_stream_revenue/Youtube Scripts",
-    "Learning/Top Deliverables/Product thinking.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
-    "Product/Projects/Rich text/Rich text vs RTF.md",
-    "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
-    "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
-    "2026-02-13.md",
-    "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info",
-    "cards/banyan_config/editor_placeholder.md",
     "Rfp/Test",
     "second_stream_revenue",
     "Excalidraw",
