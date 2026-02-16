@@ -37,11 +37,6 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ### 7. Experience
 
-**How should users experience this feature inside SparrowGenie?**
-
-- Primary user flow:
-- Key interactions and moments that matter:
-- Critical edge cases (permissions, ownership changes, failure states):
 
 ---
 
