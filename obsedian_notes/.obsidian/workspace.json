@@ -6,7 +6,7 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
-        "dimension": 80.27613412228797,
+        "dimension": 46.44970414201183,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
@@ -66,12 +66,13 @@
               "title": "Decisions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e3ca9e878e1a818",
         "type": "tabs",
-        "dimension": 19.723865877712033,
+        "dimension": 53.55029585798816,
         "children": [
           {
             "id": "c06f661770dd4624",
@@ -79,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work Log 2026-02-16.md",
+                "file": "Product/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -94,7 +95,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Work Log 2026-02-16"
+              "title": "Obligations"
             }
           }
         ]
@@ -129,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#new_feature/obligations",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,7 +161,8 @@
               "title": "recent-files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,6 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Product/Obligations/Obligations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Obligations"
             }
           },
           {
@@ -242,12 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/Obligations/Obligations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Obligations"
             }
           },
           {
@@ -298,15 +302,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ae33eb6e2a6cb14",
+  "active": "c06f661770dd4624",
   "lastOpenFiles": [
     "Work Log 2026-02-16.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Company Info.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Projects/Loading screen after finish mapping.md",

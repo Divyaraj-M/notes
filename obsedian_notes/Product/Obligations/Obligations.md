@@ -1,17 +1,6 @@
 #new_feature/obligations
 
-
-This document clearly explains **why** a feature exists, **who** it is for, and **what** needs to be built. Its goal is to help SparrowGenie consistently improve deal velocity, response quality, and execution clarity for sales teams.
-
----
-
-## Context
-
-Obligation is for the sales people when they gave a commitment for the specific RFP or proposal and they to keep it up. Inside sparrowGenie, We cannot track tasks for specific projects. This makes the user to have a different workaround.
-
-### 1. Problem Statement
-
-**What is broken today in the SparrowGenie sales or proposal workflow?**
+## Problem Statement
 
 Obligation is for the sales people when they gave a commitment for the specific RFP or proposal and they to keep it up. Inside sparrowGenie, We cannot track tasks for specific projects. This makes the user to have a different workaround.
 
@@ -19,7 +8,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 ---
 
 
-### 2. Target Users (Audience)
+### Target Users
 
 **Who is this feature primarily for?**
 
@@ -32,7 +21,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 
 ## Implementation
 
-### 3. Scope
+### Scope
 
 **What is included in this release?**
 
@@ -43,7 +32,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 
 ---
 
-### 7. Experience
+### Experience
 
 **How should users experience this feature inside SparrowGenie?**
 
@@ -53,7 +42,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 
 ---
 
-### 8. Implementation Details
+### Implementation Details
 
 **What rules or constraints must be defined upfront?**
 
@@ -65,7 +54,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 
 ---
 
-### 9. Launch Plan
+### Launch Plan
 
 **How does this feature reach users?**
 
@@ -75,7 +64,7 @@ Obligation is for the sales people when they gave a commitment for the specific 
 
 ---
 
-### 10. Investigative Metrics
+### Investigative Metrics
 
 **What should we closely monitor immediately after launch?**
 
