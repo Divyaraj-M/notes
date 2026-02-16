@@ -59,12 +59,24 @@
             "id": "c06f661770dd4624",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+                "file": "2026-02-16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Second_stream_revenue.excalidraw"
+              "icon": "lucide-file",
+              "title": "2026-02-16"
             }
           },
           {
@@ -176,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+                "file": "2026-02-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Second_stream_revenue.excalidraw"
+              "title": "Backlinks for 2026-02-16"
             }
           },
           {
@@ -238,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+                "file": "2026-02-16.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Second_stream_revenue.excalidraw"
+              "title": "Outline of 2026-02-16"
             }
           },
           {
@@ -295,14 +307,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "c06f661770dd4624",
   "lastOpenFiles": [
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Product/Projects/Context Info/Competitors Info.md",
+    "2026-02-16.md",
+    "Product/Projects/Context Info/Company Info.md",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
-    "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Product/Projects/Genie Contribution.md",
     "Product/Projects/Sign up and Onboarding mails.md",
@@ -325,7 +338,6 @@
     "Excalidraw/Test.excalidraw.restored.md",
     "Excalidraw/Test.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
-    "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
     "Rfp/Test",
