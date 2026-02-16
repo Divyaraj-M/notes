@@ -6,30 +6,16 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
-        "dimension": 55.42406311637082,
+        "dimension": 80.27613412228797,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Context Info/Competitors Info.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Competitors Info"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -85,7 +71,7 @@
       {
         "id": "8e3ca9e878e1a818",
         "type": "tabs",
-        "dimension": 44.57593688362919,
+        "dimension": 19.723865877712033,
         "children": [
           {
             "id": "c06f661770dd4624",
@@ -195,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Context Info/Competitors Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +190,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Competitors Info"
+              "title": "Backlinks"
             }
           },
           {
@@ -257,13 +242,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Context Info/Competitors Info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Competitors Info"
+              "title": "Outline"
             }
           },
           {
@@ -318,6 +302,7 @@
   "lastOpenFiles": [
     "Work Log 2026-02-16.md",
     "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Company Info.md",
@@ -344,7 +329,6 @@
     "Books/Read List.md",
     "Excalidraw/Test.excalidraw.restored.md",
     "Excalidraw/Test.excalidraw.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
     "Rfp/Test",
