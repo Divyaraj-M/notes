@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Udemy"
+              "title": "Backlinks for Second_stream_revenue.excalidraw"
             }
           },
           {
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Udemy"
+              "title": "Outline of Second_stream_revenue.excalidraw"
             }
           },
           {
@@ -295,8 +295,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c06f661770dd4624",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Context Info.md",
@@ -323,7 +324,6 @@
     "Books/Read List.md",
     "Excalidraw/Test.excalidraw.restored.md",
     "Excalidraw/Test.excalidraw.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
     "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
     "second_stream_revenue/Youtube Scripts",
