@@ -16,52 +16,34 @@ No SME should start responding without clear visibility into both.
 
 ### Problem Statement
 
-- Now wihtout this we have problem that 
+- When an RFP project is created, there is no dedicated place to store and structure instructions for SMEs.
+
+- Both prospect-defined requirements and internal team guidance exist, but they live outside the system — in documents, emails, Slack threads, or verbal communication.
+
+- Because there is no permissioned, centralized instruction layer inside the project:
+
+	- SMEs do not have a single source of truth
+	- Critical compliance requirements can be missed
+	- Internal positioning guidance is inconsistently applied
+	- Contributors rely on memory or fragmented context
+	- Rework increases due to avoidable mistakes
+
+- The issue is not availability of instructions.  
+- The issue is the absence of a structured, controlled space to capture and surface them within the RFP workflow.
+
 
 ---
 
-### 2. Opportunity
-
-**Why is this problem worth solving now?**
-
-- How does solving this help sales teams close deals faster?
-- What friction or context loss does this remove?
-- What business impact do we expect? (win rate, cycle time, adoption, revenue)
-
----
-
-### 3. Target Users (Audience)
+### Target Users (Audience)
 
 **Who is this feature primarily for?**
 
-- Primary user:
-- Secondary user (if applicable):
+- Primary user: SME's 
+- Secondary user : Project Owner, Project Manager
 - Who is explicitly out of scope in this version?
+	- External users 
 
-> Be specific. If the answer is “everyone,” the problem has not been narrowed enough.
 
----
-
-### 4. Competitive Insights
-
-**How do sales teams solve this problem today without SparrowGenie?**
-
-- Tools, workflows, or competitors involved:
-- What do they do well?
-- Where do they introduce friction or break down?
-- What clear gap can SparrowGenie uniquely fill?
-
----
-
-### 5. Success Metrics
-
-**How will we know this feature delivered real value?**
-
-- Primary outcome metric:
-- Supporting metrics:
-- Expected direction of change:
-
-> These metrics should measure outcomes, not feature usage or task completion alone.
 
 ---
 
@@ -69,7 +51,7 @@ No SME should start responding without clear visibility into both.
 
 **Purpose:** Define what needs to be built while giving design and engineering teams room to make good decisions.
 
-### 6. Scope
+### Scope
 
 **What is included in this release?**
 
@@ -79,7 +61,7 @@ No SME should start responding without clear visibility into both.
 
 ---
 
-### 7. Experience
+### Experience
 
 **How should users experience this feature inside SparrowGenie?**
 
@@ -89,23 +71,27 @@ No SME should start responding without clear visibility into both.
 
 ---
 
-### 8. Implementation Details
+### Implementation Details
 
 **What rules or constraints must be defined upfront?**
 
 - Data behavior and persistence rules:
 - Role-based permissions and access control:
 - System or AI behavior notes that cannot be deferred:
-### 9. Impact Areas 
+###  Impact Areas 
 
+---
 
+###  Open Ended questions 
 
+---
 
+### What is the trade off for next version ?
 
 ---
 
 
-### 10. Investigative Metrics
+### Investigative Metrics
 
 **What should we closely monitor immediately after launch?**
 
@@ -123,5 +109,3 @@ No SME should start responding without clear visibility into both.
 
 ---
 
-**Reminder**  
-If someone asks, “Why are we building this?” the answer should be obvious from the Context section alone. If not, the spec is incomplete.
