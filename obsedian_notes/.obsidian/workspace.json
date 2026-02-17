@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -283,10 +283,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "a32dea7f2bf0bc44",
   "lastOpenFiles": [
-    "Learning/Top Deliverables/Decisions.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Learning/Top Deliverables/Decisions.md",
     "Product/Projects/Obligations/Obligations.md",
     "Learning/Top Deliverables/Product thinking.md",
     "Product/Projects/Context Info/Competitors Info.md",
