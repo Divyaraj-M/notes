@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+                "file": "Product/Instructions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Attachments in RFP response - Product Spec"
+              "title": "Instructions"
             }
           },
           {
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/attachements",
+                "query": "tag:#new_feature/conext_info/Competitor_info",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -269,11 +269,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ad756bb6d0f4d191",
+  "active": "9791621eb6177032",
   "lastOpenFiles": [
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Instructions.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/Projects/Obligations/Obligations.md",
