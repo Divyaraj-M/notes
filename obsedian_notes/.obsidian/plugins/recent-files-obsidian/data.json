@@ -5,12 +5,12 @@
       "path": "Product/Instructions/Instructions.md"
     },
     {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
-    },
-    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
     },
     {
       "basename": "Product Spec - Template",
