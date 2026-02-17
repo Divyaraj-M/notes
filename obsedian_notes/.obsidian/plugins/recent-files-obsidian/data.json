@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
+      "basename": "WYSIWYG Editor _ PRD",
+      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
+    },
+    {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Go-no-Go - loopio",
@@ -15,10 +23,6 @@
     {
       "basename": "Product Spec - Template",
       "path": "Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
@@ -155,10 +159,6 @@
     {
       "basename": "WYSIWYG editor - First Principle",
       "path": "Product/Projects/Rich text/WYSIWYG editor - First Principle.md"
-    },
-    {
-      "basename": "WYSIWYG Editor _ PRD",
-      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
     },
     {
       "basename": "Screenshot 2026-02-09 at 7.28.33 PM",
