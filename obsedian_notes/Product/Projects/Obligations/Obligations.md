@@ -213,13 +213,20 @@ Watcher will have discussion-only access.
 The following actions must be logged:
 
 - Obligation created
+	- Obligation created by {user_name}
 - Title edited
-- Owner changed
+	-  {user_name} updated the {field_name} (show the diff)
+- Assignee changed
+	- {user_name} reassigned the obligation to {new_assignee_name}
 - Due date changed
+	- {user_name} updated the due date to dd/mm/yyyy
 - Status changed
+	-  {user_name} updated the status {intial_status} to {traget_status}
 - Question attached/detached
+	-  {user_name} updated the {field_name} from {inital_questions} to {final_info}
 - Comment added
-- Tag added
+	- {user_name} commented "{comment}"
+
 
 Activity logs are chronological and immutable.
 
@@ -239,35 +246,26 @@ Activity logs are chronological and immutable.
 ## Key Assumptions
 
 - Sales teams want native commitment tracking
-    
 - Owners will maintain obligations if workflow is simple
-    
 - Linking obligations to questions increases context clarity
-    
 
 ---
 
 ## Open Questions
 
 - Should overdue obligations surface in dashboard?
-    
 - Should stage-based rules enforce obligation creation?
-    
-- Should AI detect commitments in proposal answers (V2)?
-    
+- Should AI detect commitments in proposal answers?
+	- Can be v2 
 - Should notifications trigger on tagging (needs decision)?
-    
-
+- Can obligation be other modules?
+	- if yes do we need to bring it global 
 ---
 
 ## Dependencies
 
 - Project permission system
-    
 - Project comments framework
-    
 - Activity logging framework
-    
 - Question entity mapping
-    
 - Drag-and-drop UI infrastructure

@@ -91,16 +91,6 @@
               "icon": "lucide-file",
               "title": "Obligations"
             }
-          },
-          {
-            "id": "b6cbfcbc1dd4370e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
         "currentTab": 3
@@ -351,11 +341,11 @@
   },
   "active": "61b9dd1ebf5ab96a",
   "lastOpenFiles": [
-    "Product/Email notifications/Email Notifications.md",
-    "Product/Email notifications",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Email notifications/Email Notifications.md",
+    "Product/Email notifications",
     "Product/User roles/Project/Project Owner.md",
     "Learning/Top Deliverables/Decisions.md",
     "Product/User roles/Project/Project Manager.md",

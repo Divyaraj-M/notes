@@ -5,12 +5,16 @@
       "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
-      "basename": "Email Notifications",
-      "path": "Product/Email notifications/Email Notifications.md"
-    },
-    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
+      "path": "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png"
+    },
+    {
+      "basename": "Email Notifications",
+      "path": "Product/Email notifications/Email Notifications.md"
     },
     {
       "basename": "Project Owner",
@@ -195,10 +199,6 @@
     {
       "basename": "_sidebar",
       "path": "Product/sghelparticle/_sidebar.md"
-    },
-    {
-      "basename": "README",
-      "path": "Product/sghelparticle/README.md"
     }
   ],
   "omittedPaths": [],
