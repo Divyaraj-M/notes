@@ -284,11 +284,15 @@
       "time-ruler:Open Time Ruler": false,
       "workspaces:Manage workspace layouts": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "cefed00d0e25114d",
   "lastOpenFiles": [
+    "Untitled.sheet",
+    "Product/Instructions/Instructions.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
@@ -305,7 +309,6 @@
     "Product/Projects/Context Info/Untitled.base",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/Instructions/Instructions.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/User roles/Project/Project Watcher.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
@@ -327,7 +330,6 @@
     "Excalidraw",
     "cards/banyan_config",
     "cards",
-    "Product/sghelparticle/scripts/generate_sitemap.py",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
