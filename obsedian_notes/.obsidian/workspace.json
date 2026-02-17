@@ -71,16 +71,76 @@
             "id": "2b874c983135d65d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
+                "file": "Product/User roles/Project/Question card/Reviewer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
+              "icon": "lucide-file",
+              "title": "Reviewer"
+            }
+          },
+          {
+            "id": "1e31bd6e4a3ff0c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/User roles/Project/Project Owner.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Owner"
+            }
+          },
+          {
+            "id": "61b9dd1ebf5ab96a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/User roles/Project/Project Owner.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Owner"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -283,9 +343,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a32dea7f2bf0bc44",
+  "active": "61b9dd1ebf5ab96a",
   "lastOpenFiles": [
     "Product/SparrowGenie.excalidraw.md",
+    "Product/User roles/Project/Project Manager.md",
+    "Product/User roles/Project/Project Owner.md",
+    "Product/User roles/Project/Question card/Reviewer.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Learning/Top Deliverables/Decisions.md",
     "Product/Projects/Obligations/Obligations.md",
     "Learning/Top Deliverables/Product thinking.md",
@@ -307,12 +373,7 @@
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
     "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
-    "Learning/First Principle thinking.md",
     "Untitled",
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
@@ -325,7 +386,6 @@
     "Product/sghelparticle/scripts",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
-    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",

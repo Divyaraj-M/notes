@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Project Owner",
+      "path": "Product/User roles/Project/Project Owner.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Project Manager",
+      "path": "Product/User roles/Project/Project Manager.md"
+    },
+    {
+      "basename": "Reviewer",
+      "path": "Product/User roles/Project/Question card/Reviewer.md"
+    },
+    {
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Attachments in RFP response - Product Spec",
+      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
+      "path": "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
     },
     {
       "basename": "Decisions",
@@ -175,30 +199,6 @@
     {
       "basename": "Resources - Sparrow Genie",
       "path": "Genie Journal/Resources - Sparrow Genie.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Attachments - Responsive",
-      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
-    },
-    {
-      "basename": "2025-12-12",
-      "path": "Genie Journal/2025-12-12.md"
-    },
-    {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
-    },
-    {
-      "basename": "Attachments in RFP response - Product Spec",
-      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
-    },
-    {
-      "basename": "Test",
-      "path": "Not a trash/Test.md"
     }
   ],
   "omittedPaths": [],
