@@ -6,30 +6,18 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
-        "dimension": 46.44970414201183,
+        "dimension": 79.72199509403107,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/Obligations/Obligations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Obligations"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-16 08.30.15.excalidraw"
             }
           },
           {
@@ -85,7 +73,7 @@
       {
         "id": "8e3ca9e878e1a818",
         "type": "tabs",
-        "dimension": 53.55029585798816,
+        "dimension": 20.27800490596893,
         "children": [
           {
             "id": "c06f661770dd4624",
@@ -195,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Obligations/Obligations.md",
+                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obligations"
+              "title": "Backlinks for Drawing 2026-02-16 08.30.15.excalidraw"
             }
           },
           {
@@ -257,13 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Obligations/Obligations.md",
+                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obligations"
+              "title": "Outline of Drawing 2026-02-16 08.30.15.excalidraw"
             }
           },
           {
@@ -316,9 +304,10 @@
   },
   "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
+    "Product/Obligations/Obligations.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Obligations/Obligations.md",
     "Product/Projects/Context Info/Context Info.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "Learning/Top Deliverables/Product thinking.md",
@@ -341,7 +330,6 @@
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
-    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
     "Learning/First Principle thinking.md",
     "Untitled",
     "Learning/Top Deliverables/Decisions.md",
