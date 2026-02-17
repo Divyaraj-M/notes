@@ -17,6 +17,13 @@
         "type": "FILES_AND_DIRECTORIES",
         "pattern": "",
         "patternType": "WILDCARD"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "Product/SparrowGenie.excalidraw.md",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [
