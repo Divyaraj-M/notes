@@ -78,6 +78,16 @@
               "icon": "lucide-file",
               "title": "Instructions"
             }
+          },
+          {
+            "id": "079a9c76aa5fc249",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 3
@@ -291,9 +301,11 @@
   },
   "active": "cefed00d0e25114d",
   "lastOpenFiles": [
-    "Untitled.sheet",
-    "Product/Instructions/Instructions.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Templates/Product Spec - Template.md",
+    "Product/Instructions/Instructions.md",
+    "Untitled.sheet",
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
@@ -308,7 +320,6 @@
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/User roles/Project/Project Watcher.md",
     "Learning/Top Deliverables/Edge case Analysis.md",

@@ -5,8 +5,16 @@
       "path": "Product/Instructions/Instructions.md"
     },
     {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Product Spec - Template",
+      "path": "Templates/Product Spec - Template.md"
     },
     {
       "basename": "Obligations",
@@ -59,10 +67,6 @@
     {
       "basename": "Competitors Info PRD",
       "path": "Product/Projects/Context Info/Competitors Info PRD.md"
-    },
-    {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
     },
     {
       "basename": "Chrome Extension - Responsive IO",

@@ -1,16 +1,22 @@
 #new_feature/Instructions/v1
 
 ## First principle
-- when a Project for an RFP is created there are set of instructions which should be followed by the SME's who is filling the RFP's. when we break it down there two types types of instruction where it comes from the prospect through the document and from team which they are filling it 
 
-### 1. Problem Statement
+Every RFP project must clearly define the instructions SMEs are expected to follow before response work begins.
 
-**What is broken today in the SparrowGenie sales or proposal workflow?**
+Instructions originate from two distinct sources:
 
-- Who is experiencing this problem? (sales reps, proposal authors, reviewers, managers)
-- Where does the deal slow down, stall, or break?
-- What work is manual, repetitive, or error-prone?
-- What are the consequences if this problem is not solved?
+1. **External Instructions (Prospect-defined)**  
+    These are requirements stated in the RFP document. They include formatting rules, compliance conditions, submission guidelines, mandatory sections, evaluation criteria, and deadlines. These are non-negotiable and must be followed exactly.
+2. **Internal Instructions (Team-defined)**  
+    These are guidelines created by the responding team. They include positioning strategy, win themes, tone guidance, approval workflows, risk flags, and deal-specific notes. These ensure consistency, quality, and alignment with deal strategy.
+
+Both instruction types must be captured in a structured and **visible format within the project**.  
+No SME should start responding without clear visibility into both.
+
+### Problem Statement
+
+- Now wihtout this we have problem that 
 
 ---
 

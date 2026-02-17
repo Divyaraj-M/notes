@@ -7,7 +7,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 **Purpose:** Create a shared understanding of why we are building this feature now and what must be prioritized while building it.
 
-### 1. Problem Statement
+### Problem Statement
 
 **What is broken today in the SparrowGenie sales or proposal workflow?**
 
@@ -18,7 +18,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 2. Opportunity
+### Opportunity
 
 **Why is this problem worth solving now?**
 
@@ -28,7 +28,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 3. Target Users (Audience)
+### Target Users (Audience)
 
 **Who is this feature primarily for?**
 
@@ -40,7 +40,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 4. Competitive Insights
+### Competitive Insights
 
 **How do sales teams solve this problem today without SparrowGenie?**
 
@@ -51,7 +51,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 5. Success Metrics
+### Success Metrics
 
 **How will we know this feature delivered real value?**
 
@@ -67,7 +67,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 **Purpose:** Define what needs to be built while giving design and engineering teams room to make good decisions.
 
-### 6. Scope
+### Scope
 
 **What is included in this release?**
 
@@ -77,7 +77,7 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 7. Experience
+### Experience
 
 **How should users experience this feature inside SparrowGenie?**
 
@@ -87,23 +87,29 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 8. Implementation Details
+### Implementation Details
 
 **What rules or constraints must be defined upfront?**
 
 - Data behavior and persistence rules:
 - Role-based permissions and access control:
 - System or AI behavior notes that cannot be deferred:
-### 9. Impact Areas 
+### Impact Areas 
+
+
+---
+### Open Ended questions 
 
 
 
 
 
 ---
+### What is pushed for next version ?
 
 
-### 10. Investigative Metrics
+
+### Investigative Metrics
 
 **What should we closely monitor immediately after launch?**
 
