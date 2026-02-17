@@ -4,136 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c7246bbc0cef787",
-        "type": "tabs",
-        "dimension": 45.83333333333333,
-        "children": [
-          {
-            "id": "6ae33eb6e2a6cb14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Top Deliverables/Edge case Analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Edge case Analysis"
-            }
-          },
-          {
-            "id": "4bb8613bef8e2a5f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "a32dea7f2bf0bc44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Top Deliverables/Decisions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Decisions"
-            }
-          },
-          {
-            "id": "61b9dd1ebf5ab96a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obligations"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "84383c7037b66d82",
         "type": "tabs",
-        "dimension": 54.166666666666664,
         "children": [
           {
-            "id": "1e31bd6e4a3ff0c1",
+            "id": "a7f9210b3d645482",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Product/SparrowGenie.excalidraw.md"
               },
+              "pinned": true,
               "icon": "excalidraw-icon",
               "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "3733dcdf8a73a295",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/User roles/Project/Project Watcher.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Watcher"
             }
           }
         ]
@@ -168,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "project",
+                "query": "instruc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -339,17 +224,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "61b9dd1ebf5ab96a",
+  "active": "a7f9210b3d645482",
   "lastOpenFiles": [
+    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Obligations/Obligations.md",
+    "Product/User roles/Project/Project Watcher.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Learning/Top Deliverables/Decisions.md",
+    "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Email notifications/Email Notifications.md",
     "Product/Email notifications",
     "Product/User roles/Project/Project Owner.md",
-    "Learning/Top Deliverables/Decisions.md",
     "Product/User roles/Project/Project Manager.md",
-    "Product/User roles/Project/Project Watcher.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Loading screen after finish mapping.md",
@@ -364,7 +251,6 @@
     "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Context Info/Context Info.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Learning/Top Deliverables/Product specs.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Work Log 2026-02-16.md",

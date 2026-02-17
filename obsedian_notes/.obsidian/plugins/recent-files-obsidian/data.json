@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Chrome Extension - Responsive IO",
+      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
+    },
+    {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
+      "basename": "Project Watcher",
+      "path": "Product/User roles/Project/Project Watcher.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "Decisions",
+      "path": "Learning/Top Deliverables/Decisions.md"
     },
     {
       "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
@@ -21,16 +37,8 @@
       "path": "Product/User roles/Project/Project Owner.md"
     },
     {
-      "basename": "Decisions",
-      "path": "Learning/Top Deliverables/Decisions.md"
-    },
-    {
       "basename": "Project Manager",
       "path": "Product/User roles/Project/Project Manager.md"
-    },
-    {
-      "basename": "Project Watcher",
-      "path": "Product/User roles/Project/Project Watcher.md"
     },
     {
       "basename": "Multicolumn , check box",
@@ -87,10 +95,6 @@
     {
       "basename": "PM is not the owner or CEO of the product",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
       "basename": "Product specs",
@@ -195,10 +199,6 @@
     {
       "basename": "Template - PM",
       "path": "Templates/Template - PM.md"
-    },
-    {
-      "basename": "_sidebar",
-      "path": "Product/sghelparticle/_sidebar.md"
     }
   ],
   "omittedPaths": [],

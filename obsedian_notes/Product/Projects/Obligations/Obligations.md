@@ -1,3 +1,4 @@
+[PRD Doc](https://docs.google.com/document/d/1uRluyS83yWG59VunxS0HNHFKeb4myP6AUXIhpoVBfkY/edit?usp=sharing)
 ## Overview
 
 The Obligations module allows sales teams to track commitments made during an RFP or proposal inside SparrowGenie.
@@ -105,7 +106,7 @@ Watcher will have discussion-only access.
 		- ) the tagged user (can be taken from the project comment interaction)
 	  ![[Screenshot 2026-02-17 at 5.30.06 PM.png]]
 	- Able to edit and delete the comment 
-    
+
 - Activity log
 	- Log the Events which the Obligations are tracking 
 
