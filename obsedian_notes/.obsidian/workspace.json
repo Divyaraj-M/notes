@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Instructions.md",
+                "file": "Product/Instructions/Instructions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Loopio/Go-no-Go - loopio.md",
+                "file": "Product/Instructions/Instructions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Go-no-Go - loopio"
+              "title": "Instructions"
             }
           }
         ],
@@ -147,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 522.5
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -290,34 +290,34 @@
   "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "Product/SparrowGenie.excalidraw.md",
-    "Product/Instructions.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/competitors/Responsiveio/Responsive.io.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/Projects/Internal Share/Share assign and review flow.md",
+    "Product/Projects/Context Info/Company Info.md",
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Context Info/Context info - PRD.md",
+    "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
+    "Product/Instructions/Instructions.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/User roles/Project/Project Watcher.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Learning/Top Deliverables/Decisions.md",
-    "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Email notifications/Email Notifications.md",
     "Product/Email notifications",
     "Product/User roles/Project/Project Owner.md",
     "Product/User roles/Project/Project Manager.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Product/Projects/Genie Contribution.md",
     "Product/Projects/Sign up and Onboarding mails.md",
-    "Product/User roles/Project/Question card/Reviewer.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Learning/Top Deliverables/Product thinking.md",
-    "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Projects/Context Info/Context info - PRD.md",
-    "Product/Projects/Context Info/Company Info.md",
-    "Product/Projects/Context Info/Context Info.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "Learning/Top Deliverables/Product specs.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "second_stream_revenue/Youtube Scripts",

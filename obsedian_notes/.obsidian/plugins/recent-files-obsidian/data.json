@@ -1,36 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions.md"
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Product/Projects/Context Info/Untitled.base"
+      "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
+      "path": "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png"
     },
     {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
     },
     {
       "basename": "Attachments in RFP response - Product Spec",
       "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
     },
     {
-      "basename": "Chrome Extension - Responsive IO",
-      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
+      "basename": "Knowledge Hub",
+      "path": "Product/Knowledge Hub/Knowledge Hub.md"
     },
     {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
+      "basename": "Responsive.io",
+      "path": "Product/competitors/Responsiveio/Responsive.io.md"
+    },
+    {
+      "basename": "Attachments - Responsive",
+      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
+    },
+    {
+      "basename": "Share assign and review flow",
+      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
+    },
+    {
+      "basename": "Company Info",
+      "path": "Product/Projects/Context Info/Company Info.md"
+    },
+    {
+      "basename": "Context Info",
+      "path": "Product/Projects/Context Info/Context Info.md"
+    },
+    {
+      "basename": "Context info - PRD",
+      "path": "Product/Projects/Context Info/Context info - PRD.md"
+    },
+    {
+      "basename": "Competitors Info",
+      "path": "Product/Projects/Context Info/Competitors Info.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+    },
+    {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+    },
+    {
+      "basename": "Chrome Extension - Responsive IO",
+      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
     },
     {
       "basename": "Project Watcher",
@@ -45,10 +81,6 @@
       "path": "Learning/Top Deliverables/Decisions.md"
     },
     {
-      "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
-      "path": "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png"
-    },
-    {
       "basename": "Email Notifications",
       "path": "Product/Email notifications/Email Notifications.md"
     },
@@ -59,14 +91,6 @@
     {
       "basename": "Project Manager",
       "path": "Product/User roles/Project/Project Manager.md"
-    },
-    {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
-    },
-    {
-      "basename": "Share assign and review flow",
-      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
     },
     {
       "basename": "Loading screen after finish mapping",
@@ -91,22 +115,6 @@
     {
       "basename": "Product thinking",
       "path": "Learning/Top Deliverables/Product thinking.md"
-    },
-    {
-      "basename": "Competitors Info",
-      "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Context info - PRD",
-      "path": "Product/Projects/Context Info/Context info - PRD.md"
-    },
-    {
-      "basename": "Company Info",
-      "path": "Product/Projects/Context Info/Company Info.md"
-    },
-    {
-      "basename": "Context Info",
-      "path": "Product/Projects/Context Info/Context Info.md"
     },
     {
       "basename": "PM is not the owner or CEO of the product",
@@ -191,14 +199,6 @@
     {
       "basename": "First Principle thinking - Table View",
       "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
-      "basename": "Rigor of thoughts",
-      "path": "Learning/Top Deliverables/Rigor of thoughts.md"
-    },
-    {
-      "basename": "2026-01-30",
-      "path": "Not a trash/2026-01-30.md"
     }
   ],
   "omittedPaths": [],
