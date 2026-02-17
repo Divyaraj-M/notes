@@ -20,8 +20,53 @@
               "icon": "excalidraw-icon",
               "title": "SparrowGenie.excalidraw"
             }
+          },
+          {
+            "id": "9791621eb6177032",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Attachments in RFP response - Product Spec"
+            }
+          },
+          {
+            "id": "fee2698ef0cf2eff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ad756bb6d0f4d191",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -53,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "instruc",
+                "query": "tag:#new_feature/attachements",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -224,10 +269,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a7f9210b3d645482",
+  "active": "ad756bb6d0f4d191",
   "lastOpenFiles": [
-    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Product/Instructions.md",
+    "Product/Projects/Context Info/Competitors Info PRD.md",
+    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/Projects/Obligations/Obligations.md",
     "Product/User roles/Project/Project Watcher.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
@@ -243,7 +291,6 @@
     "Product/Projects/Genie Contribution.md",
     "Product/Projects/Sign up and Onboarding mails.md",
     "Product/User roles/Project/Question card/Reviewer.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Learning/Top Deliverables/Product thinking.md",
     "Product/Projects/Context Info/Competitors Info.md",
@@ -252,9 +299,7 @@
     "Product/Projects/Context Info/Context Info.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "Learning/Top Deliverables/Product specs.md",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
     "Work Log 2026-02-16.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "second_stream_revenue/Youtube Scripts",

@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Attachments in RFP response - Product Spec",
+      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
     },
     {
       "basename": "Chrome Extension - Responsive IO",
@@ -65,10 +77,6 @@
       "path": "Product/User roles/Project/Question card/Reviewer.md"
     },
     {
-      "basename": "Attachments in RFP response - Product Spec",
-      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
-    },
-    {
       "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
       "path": "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
     },
@@ -99,10 +107,6 @@
     {
       "basename": "Product specs",
       "path": "Learning/Top Deliverables/Product specs.md"
-    },
-    {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
     },
     {
       "basename": "Work Log 2026-02-16",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-02-11",
       "path": "2026-02-11.md"
-    },
-    {
-      "basename": "Template - PM",
-      "path": "Templates/Template - PM.md"
     }
   ],
   "omittedPaths": [],
