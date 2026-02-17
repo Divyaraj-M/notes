@@ -42,23 +42,30 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-### 8. Implementation Details
+###  Implementation Details
 
 **What rules or constraints must be defined upfront?**
 
 - Data behavior and persistence rules:
 - Role-based permissions and access control:
 - System or AI behavior notes that cannot be deferred:
-### 9. Impact Areas 
+### Impact Areas 
 
 
 
 
 
 ---
+### Open Ended Questions 
 
 
-### 10. Investigative Metrics
+
+
+### What all feautres have pushed to v2? 
+
+
+
+###  Investigative Metrics
 
 **What should we closely monitor immediately after launch?**
 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/Go - No- Go.md",
+                "file": "Product/Projects/Table View/Table view for question card PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Go - No- Go"
+              "title": "Table view for question card PRD"
             }
           },
           {
@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Loading screen after finish mapping.md",
+                "file": "Templates/Product Spec - Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,11 +182,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Loading screen after finish mapping"
+              "title": "Product Spec - Template"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -395,29 +395,29 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "58ad5bb8c8dabce7",
+  "active": "1bac82ce8ab3aff5",
   "lastOpenFiles": [
-    "Product/Projects/Genie Contribution.md",
-    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Instructions/Instructions.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Go-no-go/Go-no-go.excalidraw.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Go-no-go/Go - No- Go.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Templates/Product Spec - Template.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Go-no-go/Go-no-go.excalidraw.md",
     "Product/Go-no-go/Untitled.md",
     "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
     "Product/Go-no-go/Domain Diagram Questions.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Product/Instructions/Instructions.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Obligations/Obligations.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Templates/Product Spec - Template.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
