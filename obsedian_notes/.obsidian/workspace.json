@@ -6,6 +6,7 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
+        "dimension": 45.83333333333333,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
@@ -92,12 +93,12 @@
             }
           },
           {
-            "id": "1e31bd6e4a3ff0c1",
+            "id": "d8b11f70f5cce2c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/User roles/Project/Project Owner.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +113,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Owner"
+              "title": "Obligations"
             }
           },
           {
@@ -140,7 +141,50 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "84383c7037b66d82",
+        "type": "tabs",
+        "dimension": 54.166666666666664,
+        "children": [
+          {
+            "id": "1e31bd6e4a3ff0c1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/SparrowGenie.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
+            }
+          },
+          {
+            "id": "3733dcdf8a73a295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/User roles/Project/Project Watcher.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Watcher"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5124969482422
+    "width": 350.5
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -343,24 +387,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "61b9dd1ebf5ab96a",
+  "active": "d8b11f70f5cce2c0",
   "lastOpenFiles": [
     "Product/SparrowGenie.excalidraw.md",
     "Product/User roles/Project/Project Manager.md",
     "Product/User roles/Project/Project Owner.md",
-    "Product/User roles/Project/Question card/Reviewer.md",
+    "Product/User roles/Project/Project Watcher.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Internal Share/Share assign and review flow.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Sign up and Onboarding mails.md",
+    "Product/User roles/Project/Question card/Reviewer.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Learning/Top Deliverables/Decisions.md",
-    "Product/Projects/Obligations/Obligations.md",
     "Learning/Top Deliverables/Product thinking.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Context Info/Context Info.md",
-    "Product/Projects/Genie Contribution.md",
-    "Product/Projects/Sign up and Onboarding mails.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Learning/Top Deliverables/Product specs.md",
@@ -368,11 +415,8 @@
     "Work Log 2026-02-16.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "Product/Projects/Loading screen after finish mapping.md",
     "Product/Projects/Rich text/Rich text vs RTF.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
-    "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
-    "Product/Projects/Rich text/WYSIWYG editor - First Principle.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
     "Untitled",
     "second_stream_revenue/Youtube Scripts",

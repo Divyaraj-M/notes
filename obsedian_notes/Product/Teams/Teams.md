@@ -25,7 +25,7 @@ The system uses a user-centric visibility propagation model:
 
 1. Resource visibility is determined by the OWNER, not the teams directly.  
 2. The [[owner]]’s team memberships define who can view the resource.  
-3. Participation roles ([[manager]], [[Author]], [[Reviewer]], [[Watcher]]) provide visibility only to the individual user, never to the user’s teams.  
+3. Participation roles ([[manager]], [[Author]], [[Reviewer]], [[Project Watcher]]) provide visibility only to the individual user, never to the user’s teams.  
 4. A “Mark as [[Sensitive  projects]]” toggle exists to override owner → team visibility and restrict access to only the owner and explicitly added collaborators.  
 5. Since teams do not own resources, it keeps the permission model simple and avoids inheritance complexity.  
 6. Team hierarchy and dual-layer team models remain future enhancements (if scaling or enterprise needs demand them).  

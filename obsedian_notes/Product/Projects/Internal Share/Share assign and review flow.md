@@ -21,7 +21,7 @@
 ##### Dependency 
 Assign modal  → Internal Share
 ###### **Rules** 
-1. If I add users as [[Author]] or [[Reviewer]] in the assign modal , it will automatically add user as [[Watcher]] in the Share modal 
+1. If I add users as [[Author]] or [[Reviewer]] in the assign modal , it will automatically add user as [[Project Watcher]] in the Share modal 
 2. If I remove user from assign modal it should not automatically remove the user from the  Share modal 
 
 ### Core Logic: Removing a User from Share

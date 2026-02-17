@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Project Owner",
-      "path": "Product/User roles/Project/Project Owner.md"
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -13,12 +13,36 @@
       "path": "Product/User roles/Project/Project Manager.md"
     },
     {
-      "basename": "Reviewer",
-      "path": "Product/User roles/Project/Question card/Reviewer.md"
+      "basename": "Project Owner",
+      "path": "Product/User roles/Project/Project Owner.md"
+    },
+    {
+      "basename": "Project Watcher",
+      "path": "Product/User roles/Project/Project Watcher.md"
     },
     {
       "basename": "Multicolumn , check box",
       "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Share assign and review flow",
+      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
+    },
+    {
+      "basename": "Loading screen after finish mapping",
+      "path": "Product/Projects/Loading screen after finish mapping.md"
+    },
+    {
+      "basename": "Genie Contribution",
+      "path": "Product/Projects/Genie Contribution.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/Projects/Sign up and Onboarding mails.md"
+    },
+    {
+      "basename": "Reviewer",
+      "path": "Product/User roles/Project/Question card/Reviewer.md"
     },
     {
       "basename": "Attachments in RFP response - Product Spec",
@@ -31,10 +55,6 @@
     {
       "basename": "Decisions",
       "path": "Learning/Top Deliverables/Decisions.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Product thinking",
@@ -55,14 +75,6 @@
     {
       "basename": "Context Info",
       "path": "Product/Projects/Context Info/Context Info.md"
-    },
-    {
-      "basename": "Genie Contribution",
-      "path": "Product/Projects/Genie Contribution.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/Projects/Sign up and Onboarding mails.md"
     },
     {
       "basename": "PM is not the owner or CEO of the product",
@@ -91,10 +103,6 @@
     {
       "basename": "Udemy",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Loading screen after finish mapping",
-      "path": "Product/Projects/Loading screen after finish mapping.md"
     },
     {
       "basename": "Rich text vs RTF",
@@ -191,14 +199,6 @@
     {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "Learning/Top Deliverables/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Resources - Sparrow Genie",
-      "path": "Genie Journal/Resources - Sparrow Genie.md"
     }
   ],
   "omittedPaths": [],
