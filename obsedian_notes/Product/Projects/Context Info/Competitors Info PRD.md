@@ -303,11 +303,9 @@ User tries to add the 11th column.
 **Behavior:**
 
 - “Add Column” button disabled
-    
 - Tooltip:
-    
-    > Column limit reached 
-    
+
+> Column limit reached 
 
 ---
 

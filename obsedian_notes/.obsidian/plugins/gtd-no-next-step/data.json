@@ -1,0 +1,6 @@
+{
+  "nextStepTag": "#next-step",
+  "waitingForTag": "#waiting-for",
+  "projectsFolderPrefix": "Product/",
+  "projectFileCache": {}
+}

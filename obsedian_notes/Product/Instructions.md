@@ -1,7 +1,7 @@
 #new_feature/Instructions/v1
 
 ## First principle
-- when a Project for an 
+- when a Project for an RFP is created there are set of instructions which should be followed by the SME's who is filling the RFP's. when we break it down there two types types of ins
 
 ### 1. Problem Statement
 

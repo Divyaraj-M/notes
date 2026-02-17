@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions.md"
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Attachments in RFP response - Product Spec",
-      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+      "basename": "Instructions",
+      "path": "Product/Instructions.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Projects/Context Info/Untitled.base"
     },
     {
       "basename": "Competitors Info PRD",
       "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+    },
+    {
+      "basename": "Attachments in RFP response - Product Spec",
+      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
     },
     {
       "basename": "Chrome Extension - Responsive IO",
@@ -191,14 +199,6 @@
     {
       "basename": "2026-01-30",
       "path": "Not a trash/2026-01-30.md"
-    },
-    {
-      "basename": "2026-02-04",
-      "path": "Not a trash/2026-02-04.md"
-    },
-    {
-      "basename": "2026-02-11",
-      "path": "2026-02-11.md"
     }
   ],
   "omittedPaths": [],
