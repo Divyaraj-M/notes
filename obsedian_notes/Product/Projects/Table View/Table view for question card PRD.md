@@ -1,10 +1,6 @@
 #enhancements/table_view/v1
 
 
-This document clearly explains **why** a feature exists, **who** it is for, and **what** needs to be built. Its goal is to help SparrowGenie consistently improve deal velocity, response quality, and execution clarity for sales teams.
-
----
-
 ## Context
 ### 1. Problem Statement
 
@@ -83,6 +79,5 @@ This document clearly explains **why** a feature exists, **who** it is for, and 
 
 ---
 
-**Reminder**  
-If someone asks, “Why are we building this?” the answer should be obvious from the Context section alone. If not, the spec is incomplete.
+
 
