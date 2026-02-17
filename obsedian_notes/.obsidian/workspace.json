@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/obligations",
+                "query": "project",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -283,7 +283,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2b874c983135d65d",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "Learning/Top Deliverables/Decisions.md",
     "Product/SparrowGenie.excalidraw.md",
