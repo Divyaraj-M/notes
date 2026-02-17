@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2026-02-16 08.30.15.excalidraw",
-      "path": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md"
-    },
-    {
       "basename": "Obligations",
-      "path": "Product/Obligations/Obligations.md"
-    },
-    {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
     },
     {
+      "basename": "Context info - PRD",
+      "path": "Product/Projects/Context Info/Context info - PRD.md"
+    },
+    {
+      "basename": "Company Info",
+      "path": "Product/Projects/Context Info/Company Info.md"
+    },
+    {
       "basename": "Context Info",
       "path": "Product/Projects/Context Info/Context Info.md"
     },
     {
+      "basename": "Genie Contribution",
+      "path": "Product/Projects/Genie Contribution.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/Projects/Sign up and Onboarding mails.md"
+    },
+    {
       "basename": "PM is not the owner or CEO of the product",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
       "basename": "Product thinking",
@@ -33,20 +45,16 @@
       "path": "Learning/Top Deliverables/Product specs.md"
     },
     {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+      "basename": "Drawing 2026-02-16 08.30.15.excalidraw",
+      "path": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
     },
     {
       "basename": "Work Log 2026-02-16",
       "path": "Work Log 2026-02-16.md"
-    },
-    {
-      "basename": "Context info - PRD",
-      "path": "Product/Projects/Context Info/Context info - PRD.md"
-    },
-    {
-      "basename": "Company Info",
-      "path": "Product/Projects/Context Info/Company Info.md"
     },
     {
       "basename": "Second_stream_revenue.excalidraw",
@@ -59,14 +67,6 @@
     {
       "basename": "Loading screen after finish mapping",
       "path": "Product/Projects/Loading screen after finish mapping.md"
-    },
-    {
-      "basename": "Genie Contribution",
-      "path": "Product/Projects/Genie Contribution.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/Projects/Sign up and Onboarding mails.md"
     },
     {
       "basename": "Rich text vs RTF",

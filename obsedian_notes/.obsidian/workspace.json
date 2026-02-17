@@ -6,27 +6,15 @@
       {
         "id": "4c7246bbc0cef787",
         "type": "tabs",
-        "dimension": 79.72199509403107,
+        "dimension": 55.2739165985282,
         "children": [
           {
             "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-16 08.30.15.excalidraw"
-            }
-          },
-          {
-            "id": "4bb8613bef8e2a5f",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+                "file": "Learning/Top Deliverables/Edge case Analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -41,7 +29,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PM is not the owner or CEO of the product"
+              "title": "Edge case Analysis"
+            }
+          },
+          {
+            "id": "4bb8613bef8e2a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Obligations/Obligations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obligations"
             }
           },
           {
@@ -68,12 +80,13 @@
               "title": "Decisions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e3ca9e878e1a818",
         "type": "tabs",
-        "dimension": 20.27800490596893,
+        "dimension": 44.72608340147179,
         "children": [
           {
             "id": "c06f661770dd4624",
@@ -183,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +206,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Drawing 2026-02-16 08.30.15.excalidraw"
+              "title": "Backlinks for Obligations"
             }
           },
           {
@@ -245,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-02-16 08.30.15.excalidraw"
+              "title": "Outline of Obligations"
             }
           },
           {
@@ -302,25 +315,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ae33eb6e2a6cb14",
+  "active": "4bb8613bef8e2a5f",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
-    "Product/Obligations/Obligations.md",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Projects/Context Info/Context Info.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "Learning/Top Deliverables/Product thinking.md",
-    "Learning/Top Deliverables/Product specs.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
-    "Work Log 2026-02-16.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Sign up and Onboarding mails.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Learning/Top Deliverables/Product thinking.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Context Info/Competitors Info PRD.md",
+    "Work Log 2026-02-16.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Projects/Loading screen after finish mapping.md",
-    "Product/Projects/Genie Contribution.md",
-    "Product/Projects/Sign up and Onboarding mails.md",
     "Product/Projects/Rich text/Rich text vs RTF.md",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md",
