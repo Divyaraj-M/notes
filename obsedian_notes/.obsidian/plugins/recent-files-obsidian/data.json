@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Product thinking",
+      "path": "Learning/Top Deliverables/Product thinking.md"
+    },
+    {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Decisions",
+      "path": "Learning/Top Deliverables/Decisions.md"
     },
     {
       "basename": "Competitors Info",
@@ -35,10 +43,6 @@
     {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Product thinking",
-      "path": "Learning/Top Deliverables/Product thinking.md"
     },
     {
       "basename": "Product specs",
@@ -107,10 +111,6 @@
     {
       "basename": "First Principle thinking",
       "path": "Learning/First Principle thinking.md"
-    },
-    {
-      "basename": "Decisions",
-      "path": "Learning/Top Deliverables/Decisions.md"
     },
     {
       "basename": "Read List",

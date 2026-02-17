@@ -79,6 +79,16 @@
               "icon": "lucide-file",
               "title": "Decisions"
             }
+          },
+          {
+            "id": "2b874c983135d65d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 1
@@ -196,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "Learning/Top Deliverables/Product thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +216,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obligations"
+              "title": "Backlinks for Product thinking"
             }
           },
           {
@@ -258,13 +268,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "Learning/Top Deliverables/Product thinking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obligations"
+              "title": "Outline of Product thinking"
             }
           },
           {
@@ -315,8 +325,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4bb8613bef8e2a5f",
+  "active": "c06f661770dd4624",
   "lastOpenFiles": [
+    "Product/Projects/Obligations/Obligations.md",
+    "Learning/Top Deliverables/Decisions.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
@@ -328,7 +340,6 @@
     "Learning/Top Deliverables/Product thinking.md",
     "Learning/Top Deliverables/Product specs.md",
     "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Work Log 2026-02-16.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
@@ -345,7 +356,6 @@
     "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
     "Learning/First Principle thinking.md",
     "Untitled",
-    "Learning/Top Deliverables/Decisions.md",
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
     "Rfp/Test",
