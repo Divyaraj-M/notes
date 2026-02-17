@@ -1,8 +1,6 @@
 #new_feature/Go_no_go
 # Go / No-Go Decision Engine for RFPs
 
-This document explains **why** the Go / No-Go Decision Engine exists, **who** it is for, and **what** must be built.  
-Its goal is to help SparrowGenie improve deal velocity, response quality, and execution clarity for sales teams by preventing low-probability RFPs from consuming time and resources.
 
 ---
 

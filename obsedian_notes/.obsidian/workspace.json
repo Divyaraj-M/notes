@@ -22,6 +22,30 @@
             }
           },
           {
+            "id": "1bac82ce8ab3aff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Go-no-go/Go - No- Go.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Go - No- Go"
+            }
+          },
+          {
             "id": "693c59af3d69be6d",
             "type": "leaf",
             "state": {
@@ -112,8 +136,57 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "e48d6ad5ec2e1674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Go-no-go/External Questionnaire Score (EQS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "External Questionnaire Score (EQS)"
+            }
+          },
+          {
+            "id": "58ad5bb8c8dabce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Loading screen after finish mapping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Loading screen after finish mapping"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -145,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#competitor_analysis",
+                "query": "tag:#enhancements/table_view/research",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -279,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -322,10 +395,21 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "58ad5bb8c8dabce7",
   "lastOpenFiles": [
-    "Product/Instructions/Instructions.md",
+    "Product/Projects/Genie Contribution.md",
+    "Product/Projects/Loading screen after finish mapping.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Go-no-go/Go-no-go.excalidraw.md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Product/Go-no-go/Untitled.md",
+    "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
+    "Product/Go-no-go/Domain Diagram Questions.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Product/Instructions/Instructions.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Obligations/Obligations.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
@@ -341,19 +425,8 @@
     "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Context Info/Context Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
-    "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Untitled.base",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
-    "Product/User roles/Project/Project Watcher.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
-    "Learning/Top Deliverables/Decisions.md",
-    "Product/Email notifications/Email Notifications.md",
     "Product/Email notifications",
-    "Product/User roles/Project/Project Owner.md",
-    "Product/User roles/Project/Project Manager.md",
-    "Product/Projects/Loading screen after finish mapping.md",
-    "Product/Projects/Genie Contribution.md",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",

@@ -1,9 +1,5 @@
 #discovery/go_no_go/EQS
 
----
-
-
-
 ## Why this exists
 
 EQS helps sales teams decide **whether a deal is worth pursuing** before they spend time writing a proposal.
