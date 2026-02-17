@@ -5,16 +5,24 @@
       "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
+      "basename": "Email Notifications",
+      "path": "Product/Email notifications/Email Notifications.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Project Manager",
-      "path": "Product/User roles/Project/Project Manager.md"
-    },
-    {
       "basename": "Project Owner",
       "path": "Product/User roles/Project/Project Owner.md"
+    },
+    {
+      "basename": "Decisions",
+      "path": "Learning/Top Deliverables/Decisions.md"
+    },
+    {
+      "basename": "Project Manager",
+      "path": "Product/User roles/Project/Project Manager.md"
     },
     {
       "basename": "Project Watcher",
@@ -51,10 +59,6 @@
     {
       "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
       "path": "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
-    },
-    {
-      "basename": "Decisions",
-      "path": "Learning/Top Deliverables/Decisions.md"
     },
     {
       "basename": "Product thinking",
@@ -195,10 +199,6 @@
     {
       "basename": "README",
       "path": "Product/sghelparticle/README.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
     }
   ],
   "omittedPaths": [],

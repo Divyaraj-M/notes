@@ -62,59 +62,61 @@ Watcher will have discussion-only access.
 **Data Fields (Editable by Owner/Manager)**
 
 - Obligation Title
+	- is required to create a row 
 - Status
-	- Open 
-	- In Progress
-	- Delivered 
-	- Overdue
+	- Drop downs 
+		- Open 
+		- In Progress
+		- Delivered 
+		- Overdue
+	- Once created default should be open 
 - Assignee
 	- User only from inside sparrowGenie should be listed down 
 	- If user assigned who is outside of project shared list added [[Project Watcher]]
-	- If 
-- Questions (attach one or more project questions)
+	- If removed the user as watcher it should be prompted with the modal , and reassign that user 
+- Questions 
+	- attach one or more project questions
+	- Only question number
 - Due date
-- 
+	- Calendar 
 - Type
-- 
+	- Drop downs
+		- legal 
+		- Product 
+		- Security
+		- Feature
+	- **Can edit the Dropdown**
+	- **Can set the color from the color palette** 
+
 
 **Details Pane**
 
 - Opens from left on row click
-    
 - Full obligation details
-    
 - Description field
-    
+	- Plain text - multiline field 
+	- can add text description 
 - Comments section
+	- Able to comment without any formatting 
+	- Able to tag people 
+	- Tag list should show all the people from the System user list
+	- If the user doesn't have access to project , user will be prompted with modal for share access
+		- User can either ignore or can share and notify ([[Email Notifications]]
+		- ) the tagged user (can be taken from the project comment interaction)
+	  ![[Screenshot 2026-02-17 at 5.30.06 PM.png]]
+	- Able to edit and delete the comment 
     
 - Activity log
-    
-
-**Collaboration**
-
-- Tagging allowed only for users already added to the project
-    
-- Activity logging for all actions
-    
+	- Log the Events which the Obligations are tracking 
 
 ---
 
 ### Explicit Non-Goals (V1)
 
 - AI-based summarization
-    
-- Auto-detection of commitments
-    
-- Tamper-proof dropdown locking
-    
 - Custom field builder
-    
-- Watcher structural editing
-    
 - Dashboard-level rollups
-    
 - Stage-based automation
-    
 
 ---
 
@@ -123,46 +125,29 @@ Watcher will have discussion-only access.
 ### Primary User Flow
 
 1. User enters Project
-    
 2. Clicks Obligations tab
-    
 3. Clicks “Add Obligation”
-    
 4. Enters mandatory Title
-    
 5. Row is created
-    
 6. User can:
-    
-    - Assign Owner
-        
+    - 
+    -  Attach related questions
+    - Assign user
+    -  Set Status
     - Set Due Date
-        
-    - Set Status
-        
-    - Attach related questions
-        
     - Open details pane
-        
     - Add description
-        
     - Add comments
-        
     - Tag project members
-        
 
 ---
 
 ### Key Interaction Principles
 
 - No title → No row creation
-    
 - Questions column supports multiple attachments
-    
 - Drag and drop changes order visually
-    
 - Grouping is visual only (does not change data structure)
-    
 - All structural edits generate activity logs
     
 - Details pane accessible from any row
