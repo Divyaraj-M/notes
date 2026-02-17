@@ -71,14 +71,16 @@
             "id": "2b874c983135d65d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/SparrowGenie.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,8 +139,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -281,12 +283,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4bb8613bef8e2a5f",
+  "active": "2b874c983135d65d",
   "lastOpenFiles": [
-    "Product/Projects/Obligations/Obligations.md",
-    "Product/SparrowGenie.excalidraw.md",
-    "Learning/Top Deliverables/Product thinking.md",
     "Learning/Top Deliverables/Decisions.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Learning/Top Deliverables/Product thinking.md",
     "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
