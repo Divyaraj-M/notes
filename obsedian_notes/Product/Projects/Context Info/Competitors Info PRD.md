@@ -15,7 +15,7 @@ The goal is simple:
     
 - Reduce SME back-and-forth
     
-- Increase deal velocity
+- Increase  deal velocity
     
 
 ---

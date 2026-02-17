@@ -12,10 +12,24 @@
             "id": "6ae33eb6e2a6cb14",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Product/Obligations/Obligations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Obligations"
             }
           },
           {
@@ -66,8 +80,7 @@
               "title": "Decisions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e3ca9e878e1a818",
@@ -80,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Obligations/Obligations.md",
+                "file": "Learning/Top Deliverables/Product thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -95,7 +108,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obligations"
+              "title": "Product thinking"
             }
           }
         ]
@@ -161,8 +174,7 @@
               "title": "recent-files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -302,14 +314,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c06f661770dd4624",
+  "active": "6ae33eb6e2a6cb14",
   "lastOpenFiles": [
-    "Work Log 2026-02-16.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
-    "Product/Projects/Context Info/Competitors Info.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/Projects/Context Info/Context info - PRD.md",
+    "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Obligations/Obligations.md",
     "Product/Projects/Context Info/Context Info.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+    "Learning/Top Deliverables/Product thinking.md",
+    "Learning/Top Deliverables/Product specs.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Work Log 2026-02-16.md",
+    "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Company Info.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
@@ -326,13 +342,9 @@
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
     "Excalidraw/Drawing 2026-02-16 08.30.15.excalidraw.md",
-    "Product/Obligations/Obligations.md",
     "Learning/First Principle thinking.md",
     "Untitled",
     "Learning/Top Deliverables/Decisions.md",
-    "Books/Read List.md",
-    "Excalidraw/Test.excalidraw.restored.md",
-    "Excalidraw/Test.excalidraw.md",
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
     "Rfp/Test",
