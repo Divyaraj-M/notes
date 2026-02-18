@@ -164,12 +164,12 @@ No SME should start responding without clear visibility into both.
     
 ### Role-Based Permissions
 
-|Role|View|Edit|Summarize|
-|---|---|---|---|
-|Owner|Yes|Yes|Yes|
-|Project Manager|Yes|Yes|Yes|
-|SME|Yes|No|No|
-|External Users|No|No|No|
+| **Role**        | **View** | **Edit** | **Summarize** |
+| --------------- | -------- | -------- | ------------- |
+| Owner           | Yes      | Yes      | Yes           |
+| Project Manager | Yes      | Yes      | Yes           |
+| Watcher         | Yes      | No       | No            |
+| External Users  | No       | No       | No            |
 
 ---
 
