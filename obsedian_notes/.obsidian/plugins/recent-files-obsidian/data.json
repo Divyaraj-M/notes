@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
+      "basename": "First Principle thinking - Table View",
+      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     },
     {
       "basename": "Multicolumn , check box",
@@ -33,10 +41,6 @@
       "path": "Templates/Product Spec - Template.md"
     },
     {
-      "basename": "First Principle thinking - Table View",
-      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
       "basename": "Loading screen after finish mapping",
       "path": "Product/Projects/Loading screen after finish mapping.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "Domain Diagram Questions",
       "path": "Product/Go-no-go/Domain Diagram Questions.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "WYSIWYG Editor _ PRD",
