@@ -170,8 +170,33 @@
               "icon": "lucide-file",
               "title": "Product Spec - Template"
             }
+          },
+          {
+            "id": "a84fed33cdd27797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Go-no-go/AI Readiness Score (ARS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI Readiness Score (ARS)"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -380,25 +405,26 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "a7f9210b3d645482",
+  "active": "a84fed33cdd27797",
   "lastOpenFiles": [
+    "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Go-no-go/AI Readiness Score (ARS).md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Product/SparrowGenie.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10_0.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10.excalidraw.md",
     "Product/Instructions/Instructions.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Go-no-go/Go - No- Go.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Templates/Product Spec - Template.md",
     "Product/Projects/Loading screen after finish mapping.md",
     "Product/Projects/Genie Contribution.md",
     "Product/Go-no-go/Go-no-go.excalidraw.md",
     "Product/Go-no-go/Untitled.md",
-    "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
     "Product/Go-no-go/Domain Diagram Questions.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Projects/Obligations/Obligations.md",
@@ -409,7 +435,6 @@
     "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
-    "Product/Projects/Context Info/Company Info.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Email notifications",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

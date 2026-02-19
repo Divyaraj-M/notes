@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "AI Readiness Score (ARS)",
+      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
+    },
+    {
+      "basename": "AI can have auto tags for the Past Projects which is created",
+      "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
+    },
+    {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
@@ -25,18 +45,6 @@
       "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
     },
     {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
       "basename": "Product Spec - Template",
       "path": "Templates/Product Spec - Template.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "Genie Contribution",
       "path": "Product/Projects/Genie Contribution.md"
-    },
-    {
-      "basename": "AI can have auto tags for the Past Projects which is created",
-      "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
     },
     {
       "basename": "Domain Diagram Questions",
