@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
-    },
-    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "Table view for question card PRD",
@@ -191,14 +191,6 @@
     {
       "basename": "Screenshot 2026-02-09 at 7.28.33 PM",
       "path": "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png"
-    },
-    {
-      "basename": "AI Readiness Score (ARS)",
-      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
-    },
-    {
-      "basename": "Youtube video Framework",
-      "path": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md"
     }
   ],
   "omittedPaths": [],
