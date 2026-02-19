@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/AI Readiness Score (ARS).md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -192,7 +192,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI Readiness Score (ARS)"
+              "title": "Obligations"
             }
           }
         ],
@@ -407,10 +407,12 @@
   },
   "active": "a84fed33cdd27797",
   "lastOpenFiles": [
+    "Product/Projects/Context Info/Context info - PRD.md",
+    "Product/Projects/Context Info/Competitors Info PRD.md",
+    "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/Go - No- Go.md",
     "Product/SparrowGenie.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10_0.excalidraw.md",
@@ -433,8 +435,6 @@
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/competitors/Responsiveio/Responsive.io.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Email notifications",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

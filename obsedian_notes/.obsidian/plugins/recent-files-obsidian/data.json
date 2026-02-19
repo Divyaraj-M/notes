@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Context info - PRD",
+      "path": "Product/Projects/Context Info/Context info - PRD.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+    },
+    {
       "basename": "AI Readiness Score (ARS)",
       "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
     },
@@ -65,10 +77,6 @@
       "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
     },
     {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
-    },
-    {
       "basename": "Go-no-Go - loopio",
       "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
     },
@@ -101,16 +109,8 @@
       "path": "Product/Projects/Context Info/Context Info.md"
     },
     {
-      "basename": "Context info - PRD",
-      "path": "Product/Projects/Context Info/Context info - PRD.md"
-    },
-    {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
     },
     {
       "basename": "Chrome Extension - Responsive IO",

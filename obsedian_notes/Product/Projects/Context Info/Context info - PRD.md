@@ -14,11 +14,9 @@ Today:
 
 - SMEs manually research prospects.
 - Context is inconsistent across projects.
-    
 - AI answers lack structured company grounding.
-    
 - Time is lost before writing even begins.
-    
+
 
 This feature introduces a structured Company Intelligence section with an AI-generated, evidence-based company overview at project creation.
 
