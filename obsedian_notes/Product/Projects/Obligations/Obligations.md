@@ -80,7 +80,7 @@ Watcher will have discussion-only access.
 - Questions 
 	- attach one or more project questions
 	- Only question number
-- Due date
+- Expected Delivery
 	- Calendar 
 - Type
 	- Drop downs
@@ -88,6 +88,7 @@ Watcher will have discussion-only access.
 		- Product 
 		- Security
 		- Feature
+	- Multi select
 	- **Can edit the Dropdown**
 	- **Can set the color from the color palette** 
 
