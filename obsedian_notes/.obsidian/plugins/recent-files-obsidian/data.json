@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
+    },
+    {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "Learning/First Principle thinking.md"
+    },
+    {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "First Principle thinking - Table View",
+      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     },
     {
       "basename": "Context info - PRD",
@@ -39,14 +55,6 @@
     {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "First Principle thinking - Table View",
-      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     },
     {
       "basename": "Multicolumn , check box",
@@ -191,10 +199,6 @@
     {
       "basename": "WYSIWYG editor - First Principle",
       "path": "Product/Projects/Rich text/WYSIWYG editor - First Principle.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-09 at 7.28.33 PM",
-      "path": "Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png"
     }
   ],
   "omittedPaths": [],

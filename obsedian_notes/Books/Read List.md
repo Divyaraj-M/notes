@@ -3,6 +3,9 @@
 3. Business of belongings
 4. Courage to be disliked 
 5.  Tiny Experiments: How to Live Freely in a Goal-Obsessed World.
+6. The little life
+7. The lean startup 
+8. Hooked : How to Build Habit-Forming Prod
 [Why Multi-Passionate people need to approach mastery differently](https://archeronline.substack.com/p/why-multi-passionate-people-need)
 [Nesslabs](https://nesslabs.com/)
 

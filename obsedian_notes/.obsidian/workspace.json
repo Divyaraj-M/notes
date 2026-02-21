@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "Books/Read List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -192,7 +192,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obligations"
+              "title": "Read List"
             }
           }
         ],
@@ -407,6 +407,10 @@
   },
   "active": "a84fed33cdd27797",
   "lastOpenFiles": [
+    "Product/Projects/Obligations/Obligations.md",
+    "Learning/First Principle thinking.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
@@ -418,8 +422,6 @@
     "Excalidraw/Drawing 2026-02-19 12.12.10_0.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10.excalidraw.md",
     "Product/Instructions/Instructions.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Templates/Product Spec - Template.md",
@@ -429,12 +431,10 @@
     "Product/Go-no-go/Untitled.md",
     "Product/Go-no-go/Domain Diagram Questions.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Knowledge Hub/Knowledge Hub.md",
-    "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Email notifications",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
