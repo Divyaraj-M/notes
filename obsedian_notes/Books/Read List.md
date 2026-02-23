@@ -9,6 +9,7 @@
 9. The little life - Not yet purchased 
 10. The lean startup - Purchased 
 11. Hooked : How to Build Habit-Forming Prod - Not yet purchased 
-12. [Why Multi-Passionate people need to approach mastery differently](https://archeronline.substack.com/p/why-multi-passionate-people-need) 
-13. [Nesslabs](https://nesslabs.com/)
+12. The bullshit jobs
+13. [Why Multi-Passionate people need to approach mastery differently](https://archeronline.substack.com/p/why-multi-passionate-people-need) 
+14. [Nesslabs](https://nesslabs.com/)
 

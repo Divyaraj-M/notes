@@ -165,9 +165,21 @@
             "id": "a84fed33cdd27797",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/SparrowGenie.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
+            }
+          },
+          {
+            "id": "59f60c4d5bded585",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/Routine.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,11 +194,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Routine"
+              "title": "Obligations"
+            }
+          },
+          {
+            "id": "23e0a7caed26ae74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Obligations/UAT - 23022026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UAT - 23022026"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -305,12 +341,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Second_stream_revenue.excalidraw.md",
+                "file": "Product/Projects/Obligations/UAT - 23022026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Second_stream_revenue.excalidraw"
+              "title": "Outgoing links from UAT - 23022026"
             }
           },
           {
@@ -348,13 +384,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
+                "file": "Product/Projects/Obligations/UAT - 23022026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie.excalidraw"
+              "title": "Outline of UAT - 23022026"
             }
           },
           {
@@ -411,20 +447,24 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "a84fed33cdd27797",
+  "active": "23e0a7caed26ae74",
   "lastOpenFiles": [
+    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Obligations/UAT - 23022026.md",
+    "Product/SparrowGenie.excalidraw.md",
     "Books/Read List.md",
     "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
+    "Books/The Metamorphosis.md",
+    "Daily/Routine.md",
     "Books/80,20 principle Richard Koch.md",
     "Books/To Kill the mocking bird.md",
-    "Books/The Metamorphosis.md",
     "Not a trash/2026-02-13.md",
     "Learning/Homepage.md",
     "2026-02-11.md",
     "Not a trash/Work Log 2026-02-16.md",
     "80",
     "Untitled",
-    "Product/Projects/Obligations/Obligations.md",
     "Learning/First Principle thinking.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
@@ -435,12 +475,8 @@
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10_0.excalidraw.md",
     "Excalidraw/Drawing 2026-02-19 12.12.10.excalidraw.md",
-    "Product/Instructions/Instructions.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Context Info/Untitled.base",
