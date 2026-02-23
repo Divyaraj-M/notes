@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
+    },
+    {
       "basename": "UAT - 23022026",
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
     },
     {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "Routine",
+      "path": "Daily/Routine.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Read List",
-      "path": "Books/Read List.md"
+      "basename": "Product Spec - Template",
+      "path": "Product/Templates/Product Spec - Template.md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Tiny Experiments How to Live Freely in a Goal Obsessed World",
@@ -23,10 +47,6 @@
     {
       "basename": "The Metamorphosis",
       "path": "Books/The Metamorphosis.md"
-    },
-    {
-      "basename": "Routine",
-      "path": "Daily/Routine.md"
     },
     {
       "basename": "80,20 principle Richard Koch",
@@ -47,10 +67,6 @@
     {
       "basename": "First Principle thinking",
       "path": "Learning/First Principle thinking.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
     {
       "basename": "First Principle thinking - Table View",
@@ -77,16 +93,8 @@
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     },
     {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "Multicolumn , check box",
@@ -95,10 +103,6 @@
     {
       "basename": "Attachments in RFP response - Product Spec",
       "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
     },
     {
       "basename": "Loading screen after finish mapping",
@@ -195,10 +199,6 @@
     {
       "basename": "Product thinking",
       "path": "Learning/Top Deliverables/Product thinking.md"
-    },
-    {
-      "basename": "PM is not the owner or CEO of the product",
-      "path": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md"
     }
   ],
   "omittedPaths": [],

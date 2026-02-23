@@ -22,6 +22,56 @@
             }
           },
           {
+            "id": "23e0a7caed26ae74",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
+          },
+          {
+            "id": "59f60c4d5bded585",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Obligations/UAT - 23022026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UAT - 23022026"
+            }
+          },
+          {
             "id": "1bac82ce8ab3aff5",
             "type": "leaf",
             "state": {
@@ -46,12 +96,12 @@
             }
           },
           {
-            "id": "481501ee9c399985",
+            "id": "848f022db0c98053",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Instructions/Instructions.md",
+                "file": "Daily/UAT vipin 2026-02-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,163 +116,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Instructions"
-            }
-          },
-          {
-            "id": "cefed00d0e25114d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Instructions/Instructions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Instructions"
-            }
-          },
-          {
-            "id": "079a9c76aa5fc249",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "1eff22ce51129050",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "e48d6ad5ec2e1674",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Go-no-go/External Questionnaire Score (EQS).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "External Questionnaire Score (EQS)"
-            }
-          },
-          {
-            "id": "58ad5bb8c8dabce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product Spec - Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Spec - Template"
-            }
-          },
-          {
-            "id": "a84fed33cdd27797",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "59f60c4d5bded585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obligations"
-            }
-          },
-          {
-            "id": "23e0a7caed26ae74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Obligations/UAT - 23022026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT - 23022026"
+              "title": "UAT vipin 2026-02-23"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -341,12 +239,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Obligations/UAT - 23022026.md",
+                "file": "Books/Read List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UAT - 23022026"
+              "title": "Outgoing links from Read List"
             }
           },
           {
@@ -384,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Obligations/UAT - 23022026.md",
+                "file": "Books/Read List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT - 23022026"
+              "title": "Outline of Read List"
             }
           },
           {
@@ -449,14 +347,19 @@
   },
   "active": "23e0a7caed26ae74",
   "lastOpenFiles": [
-    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/UAT - 23022026.md",
-    "Product/SparrowGenie.excalidraw.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Daily/Routine.md",
     "Books/Read List.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Templates/Product Spec - Template.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Instructions/Instructions.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
     "Books/The Metamorphosis.md",
-    "Daily/Routine.md",
     "Books/80,20 principle Richard Koch.md",
     "Books/To Kill the mocking bird.md",
     "Not a trash/2026-02-13.md",
@@ -466,17 +369,13 @@
     "80",
     "Untitled",
     "Learning/First Principle thinking.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Excalidraw/Drawing 2026-02-19 12.12.10_0.excalidraw.md",
-    "Excalidraw/Drawing 2026-02-19 12.12.10.excalidraw.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Context Info/Untitled.base",
@@ -488,7 +387,6 @@
     "Product/Projects/Context Info",
     "Rfp/Test",
     "second_stream_revenue",
-    "Excalidraw",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
