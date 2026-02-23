@@ -31,6 +31,13 @@
         "type": "FILES",
         "pattern": "Books/Read List.md",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "Product",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

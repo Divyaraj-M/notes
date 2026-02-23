@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Read List",
-      "path": "Books/Read List.md"
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
-      "basename": "UAT - 23022026",
-      "path": "Product/Projects/Obligations/UAT - 23022026.md"
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
     },
     {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     },
     {
       "basename": "UAT vipin 2026-02-23",
@@ -21,20 +21,24 @@
       "path": "Daily/Routine.md"
     },
     {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "UAT - 23022026",
+      "path": "Product/Projects/Obligations/UAT - 23022026.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Product Spec - Template",
       "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "Obligations",
@@ -87,10 +91,6 @@
     {
       "basename": "AI can have auto tags for the Past Projects which is created",
       "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     },
     {
       "basename": "Go - No- Go",
