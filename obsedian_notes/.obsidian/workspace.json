@@ -46,16 +46,6 @@
             }
           },
           {
-            "id": "693c59af3d69be6d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "481501ee9c399985",
             "type": "leaf",
             "state": {
@@ -153,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Product Spec - Template.md",
+                "file": "Product/Templates/Product Spec - Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -177,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List.md",
+                "file": "Daily/Routine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -192,11 +182,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "Routine"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -260,10 +250,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "ac57b231a4fab941",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "693c59af3d69be6d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 511.5
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -407,6 +413,17 @@
   },
   "active": "a84fed33cdd27797",
   "lastOpenFiles": [
+    "Books/Read List.md",
+    "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
+    "Books/80,20 principle Richard Koch.md",
+    "Books/To Kill the mocking bird.md",
+    "Books/The Metamorphosis.md",
+    "Not a trash/2026-02-13.md",
+    "Learning/Homepage.md",
+    "2026-02-11.md",
+    "Not a trash/Work Log 2026-02-16.md",
+    "80",
+    "Untitled",
     "Product/Projects/Obligations/Obligations.md",
     "Learning/First Principle thinking.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
@@ -424,17 +441,8 @@
     "Product/Instructions/Instructions.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Templates/Product Spec - Template.md",
-    "Product/Projects/Loading screen after finish mapping.md",
-    "Product/Projects/Genie Contribution.md",
-    "Product/Go-no-go/Go-no-go.excalidraw.md",
-    "Product/Go-no-go/Untitled.md",
-    "Product/Go-no-go/Domain Diagram Questions.md",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
-    "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Projects/Context Info/Untitled.base",
     "Product/Email notifications",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
@@ -445,8 +453,6 @@
     "Rfp/Test",
     "second_stream_revenue",
     "Excalidraw",
-    "cards/banyan_config",
-    "cards",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",

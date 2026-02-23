@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Routine",
+      "path": "Daily/Routine.md"
+    },
+    {
       "basename": "Read List",
       "path": "Books/Read List.md"
+    },
+    {
+      "basename": "Tiny Experiments How to Live Freely in a Goal Obsessed World",
+      "path": "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md"
+    },
+    {
+      "basename": "80,20 principle Richard Koch",
+      "path": "Books/80,20 principle Richard Koch.md"
+    },
+    {
+      "basename": "To Kill the mocking bird",
+      "path": "Books/To Kill the mocking bird.md"
+    },
+    {
+      "basename": "The Metamorphosis",
+      "path": "Books/The Metamorphosis.md"
+    },
+    {
+      "basename": "2026-02-13",
+      "path": "Not a trash/2026-02-13.md"
+    },
+    {
+      "basename": "Work Log 2026-02-16",
+      "path": "Not a trash/Work Log 2026-02-16.md"
     },
     {
       "basename": "Obligations",
@@ -66,7 +94,7 @@
     },
     {
       "basename": "Product Spec - Template",
-      "path": "Templates/Product Spec - Template.md"
+      "path": "Product/Templates/Product Spec - Template.md"
     },
     {
       "basename": "Loading screen after finish mapping",
@@ -167,38 +195,6 @@
     {
       "basename": "PM is not the owner or CEO of the product",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md"
-    },
-    {
-      "basename": "Product specs",
-      "path": "Learning/Top Deliverables/Product specs.md"
-    },
-    {
-      "basename": "Work Log 2026-02-16",
-      "path": "Work Log 2026-02-16.md"
-    },
-    {
-      "basename": "Second_stream_revenue.excalidraw",
-      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Udemy",
-      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Rich text vs RTF",
-      "path": "Product/Projects/Rich text/Rich text vs RTF.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-09 at 3.57.02 PM",
-      "path": "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png"
-    },
-    {
-      "basename": "Final PRD -Rich Text Editor for Project Response Area",
-      "path": "Product/Projects/Rich text/Final PRD -Rich Text Editor for Project Response Area.md"
-    },
-    {
-      "basename": "WYSIWYG editor - First Principle",
-      "path": "Product/Projects/Rich text/WYSIWYG editor - First Principle.md"
     }
   ],
   "omittedPaths": [],

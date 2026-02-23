@@ -6,8 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "CoTrashFull",
-      "🖇"
+      "LiSquareSplitVertical",
+      "CoMainComponent",
+      "🤹",
+      "LiCalendarPlus",
+      "📚"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,5 +34,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Not a trash": "CoTrashFull"
+  "Not a trash": "CoTrashFull",
+  "Books": "📚",
+  "Daily": "LiCalendarPlus",
+  "Learning": "🤹",
+  "Product": "CoMainComponent",
+  "second_stream_revenue": "LiSquareSplitVertical"
 }
