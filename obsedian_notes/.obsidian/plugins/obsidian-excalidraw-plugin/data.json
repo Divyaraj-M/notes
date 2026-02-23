@@ -115,6 +115,51 @@
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.4",
     "libraryItems": [
       {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "kTaVPX6k",
+            "type": "text",
+            "x": 116.41449307886563,
+            "y": 758.4755557412217,
+            "width": 160.73989868164062,
+            "height": 25,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "b03",
+            "roundness": null,
+            "seed": 824434014,
+            "version": 338,
+            "versionNonce": 2103291102,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1771839317961,
+            "locked": false,
+            "text": "📍Knowledge Hub",
+            "rawText": "[[Knowledge Hub]]",
+            "fontSize": 20,
+            "fontFamily": 5,
+            "textAlign": "left",
+            "verticalAlign": "top",
+            "containerId": null,
+            "originalText": "📍Knowledge Hub",
+            "autoResize": true,
+            "lineHeight": 1.25,
+            "hasTextLink": true
+          }
+        ],
+        "id": "yxItdZ-Kwl80X9A16zG41",
+        "created": 1771839335228
+      },
+      {
         "status": "published",
         "elements": [
           {
