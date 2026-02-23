@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-02-23 -Weekly product Stand up",
+      "path": "2026-02-23 -Weekly product Stand up.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List.md"
+    },
+    {
+      "basename": "UAT - 23022026",
+      "path": "Product/Projects/Obligations/UAT - 23022026.md"
+    },
+    {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
     },
@@ -23,18 +39,6 @@
     {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "UAT - 23022026",
-      "path": "Product/Projects/Obligations/UAT - 23022026.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Product Spec - Template",
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
       "path": "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
-    },
-    {
-      "basename": "Product thinking",
-      "path": "Learning/Top Deliverables/Product thinking.md"
     }
   ],
   "omittedPaths": [],
