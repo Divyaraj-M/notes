@@ -227,12 +227,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SparrowGenie.excalidraw"
+              "title": "Outgoing links"
             }
           },
           {
@@ -270,13 +269,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie.excalidraw"
+              "title": "Outline"
             }
           },
           {
@@ -333,12 +331,12 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "18ae1a7e01034a72",
+  "active": "693c59af3d69be6d",
   "lastOpenFiles": [
+    "Product/SparrowGenie.excalidraw.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Daily/Routine.md",
     "2026-02-23 -Weekly product Stand up.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Books/Read List.md",
     "Product/Projects/Obligations/UAT - 23022026.md",
     "Product/Instructions/Instructions.md",
