@@ -289,7 +289,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +298,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SparrowGenie.excalidraw"
+              "title": "Backlinks"
             }
           },
           {
@@ -308,12 +307,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SparrowGenie.excalidraw"
+              "title": "Outgoing links"
             }
           },
           {
@@ -351,13 +349,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie.excalidraw"
+              "title": "Outline"
             }
           },
           {
@@ -398,27 +395,22 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "random-note:Open random note": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "time-ruler:Open Time Ruler": false,
       "workspaces:Manage workspace layouts": false,
-      "audio-recorder:Start/stop recording": false,
       "markdown-importer:Open format converter": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "spreadsheets:New Spreadsheet": false
     }
   },
   "active": "a7f9210b3d645482",
   "lastOpenFiles": [
     "2026-02-23 -Weekly product Stand up.md",
-    "Daily/UAT vipin 2026-02-23.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Context Info/Context Info.md",
     "Daily/Routine.md",

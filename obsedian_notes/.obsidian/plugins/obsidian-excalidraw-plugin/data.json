@@ -153,7 +153,8 @@
             "originalText": "📍Knowledge Hub",
             "autoResize": true,
             "lineHeight": 1.25,
-            "hasTextLink": true
+            "hasTextLink": true,
+            "link": null
           }
         ],
         "id": "yxItdZ-Kwl80X9A16zG41",
