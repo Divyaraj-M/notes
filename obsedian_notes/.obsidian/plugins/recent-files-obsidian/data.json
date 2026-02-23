@@ -5,6 +5,14 @@
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Context Info",
+      "path": "Product/Projects/Context Info/Context Info.md"
+    },
+    {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "Product Spec - Template",
       "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
     },
     {
       "basename": "Tiny Experiments How to Live Freely in a Goal Obsessed World",
@@ -151,10 +155,6 @@
     {
       "basename": "Company Info",
       "path": "Product/Projects/Context Info/Company Info.md"
-    },
-    {
-      "basename": "Context Info",
-      "path": "Product/Projects/Context Info/Context Info.md"
     },
     {
       "basename": "Competitors Info",
