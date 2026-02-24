@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "மகிழ்ச்சியான பன்றிக்குட்டி",
+      "path": "Books/Read List/மகிழ்ச்சியான பன்றிக்குட்டி.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "The Thirteen Problems",
+      "path": "Books/The Thirteen Problems.md"
+    },
+    {
+      "basename": "Annihilation of Caste",
+      "path": "Books/Annihilation of Caste.md"
+    },
+    {
+      "basename": "Crime and punishment",
+      "path": "Books/Crime and punishment.md"
+    },
+    {
       "basename": "Drawing 2026-02-24 17.54.36.excalidraw",
       "path": "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md"
+    },
+    {
+      "basename": "Thinking fast and slow",
+      "path": "Books/Thinking fast and slow.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -11,10 +35,6 @@
     {
       "basename": "Teams",
       "path": "Product/Teams/Teams.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Product thinking",
@@ -179,26 +199,6 @@
     {
       "basename": "First Principle thinking - Table View",
       "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
-      "basename": "Context info - PRD",
-      "path": "Product/Projects/Context Info/Context info - PRD.md"
-    },
-    {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
-    },
-    {
-      "basename": "AI Readiness Score (ARS)",
-      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
-    },
-    {
-      "basename": "AI can have auto tags for the Past Projects which is created",
-      "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
     }
   ],
   "omittedPaths": [],
