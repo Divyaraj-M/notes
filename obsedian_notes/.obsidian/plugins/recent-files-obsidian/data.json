@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "To Kill a Mocking bird",
+      "path": "Books/To Kill a Mocking bird.md"
+    },
+    {
+      "basename": "The Courage to be Disliked",
+      "path": "Books/The Courage to be Disliked.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
       "basename": "Demo",
       "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -10,19 +26,11 @@
     },
     {
       "basename": "Read List",
-      "path": "Books/Read List.md"
+      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "The Metamorphosis",
       "path": "Books/The Metamorphosis.md"
-    },
-    {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "The Courage to be Disliked",
-      "path": "Books/The Courage to be Disliked.md"
     },
     {
       "basename": "The Business Of Belonging",
@@ -47,10 +55,6 @@
     {
       "basename": "A little life",
       "path": "Books/A little life.md"
-    },
-    {
-      "basename": "To Kill a Mocking bird",
-      "path": "Books/To Kill a Mocking bird.md"
     },
     {
       "basename": "The Design of Everyday things",
@@ -91,10 +95,6 @@
     {
       "basename": "Context Info",
       "path": "Product/Projects/Context Info/Context Info.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "UAT - 23022026",

@@ -4,10 +4,8 @@ author:
   - "[[Harper Lee]]"
 published: 1960-07-11
 tags:
-  - classic
-  - fiction
-  - racism
-  - justice
+  - books/fiction
+  - books/racism
 rating:
 pages: 281
 lists:

@@ -4,10 +4,8 @@ author:
   - "[[Richard Koch]]"
 published: 1997-01-01
 tags:
-  - productivity
-  - strategy
-  - business
-  - leverage
+  - books/business
+  - books/life
 rating:
 pages: 288
 lists:

@@ -29,7 +29,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Books/Read List.md",
+        "pattern": "Books/Read List/Read List.md",
         "patternType": "STRICT"
       },
       {

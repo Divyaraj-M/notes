@@ -5,10 +5,8 @@ author:
   - "[[Fumitake Koga]]"
 published: 2013-12-01
 tags:
-  - psychology
-  - philosophy
-  - self-development
-  - adlerian
+  - books/psychological
+  - books/self-development
 rating:
 pages: 288
 lists:
