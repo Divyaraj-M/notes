@@ -188,8 +188,33 @@
               "icon": "lucide-file",
               "title": "2026-02-23 -Weekly product Stand up"
             }
+          },
+          {
+            "id": "1bdb42a1a1707150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-02-24 - Sprint Planning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-02-24 - Sprint Planning"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -289,6 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2026-02-24 - Sprint Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +324,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2026-02-24 - Sprint Planning"
             }
           },
           {
@@ -367,7 +393,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -388,8 +415,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -406,9 +432,10 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "a7f9210b3d645482",
+  "active": "1bdb42a1a1707150",
   "lastOpenFiles": [
     "2026-02-23 -Weekly product Stand up.md",
+    "2026-02-24 - Sprint Planning.md",
     "Product/SparrowGenie.excalidraw.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Obligations/Obligations.md",
@@ -436,7 +463,6 @@
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Context Info/Untitled.base",
