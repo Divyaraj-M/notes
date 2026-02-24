@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-24 - Sprint Planning.md",
+                "file": "2026-02-23 -Weekly product Stand up.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -210,7 +210,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-24 - Sprint Planning"
+              "title": "2026-02-23 -Weekly product Stand up"
             }
           }
         ],
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-02-24 - Sprint Planning.md",
+                "file": "2026-02-23 -Weekly product Stand up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -324,7 +324,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-02-24 - Sprint Planning"
+              "title": "Backlinks for 2026-02-23 -Weekly product Stand up"
             }
           },
           {
@@ -434,8 +434,8 @@
   },
   "active": "1bdb42a1a1707150",
   "lastOpenFiles": [
-    "2026-02-23 -Weekly product Stand up.md",
     "2026-02-24 - Sprint Planning.md",
+    "2026-02-23 -Weekly product Stand up.md",
     "Product/SparrowGenie.excalidraw.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Obligations/Obligations.md",
