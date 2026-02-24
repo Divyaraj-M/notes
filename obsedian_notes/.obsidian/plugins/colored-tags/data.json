@@ -10,6 +10,7 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "arca_ai": 1,
     "backward": 1,
     "books": 2,
     "competitor_analysis": 2,
@@ -25,6 +26,7 @@
     "p1": 10,
     "teardown": 11,
     "uat": 12,
+    "arca_ai/learning": 1,
     "books/business": 1,
     "books/design": 2,
     "books/fiction": 3,
@@ -53,6 +55,8 @@
     "new_feature/obligations": 6,
     "new_feature/teams": 5,
     "uat/vipin-jan29": 1,
+    "arca_ai/learning/elastic_search": 1,
+    "arca_ai/learning/kibana": 2,
     "discovery/go_no_go/eqs": 1,
     "enhancements/table_view/research": 1,
     "enhancements/table_view/v1": 2,

@@ -70,24 +70,12 @@
             "id": "69091cdda563cb5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2026-02-24.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/SparrowGenie.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "2026-02-24"
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
             }
           },
           {
@@ -113,9 +101,33 @@
               "icon": "lucide-file",
               "title": "Read List"
             }
+          },
+          {
+            "id": "b33d3bdaf08a1fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Teams/Teams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Teams"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "tag:#learning/product_thinking",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -199,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Product/SparrowGenie.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +221,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Read List"
+              "title": "Backlinks for SparrowGenie.excalidraw"
             }
           },
           {
@@ -319,21 +331,23 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "c67da9a553a4c4c5",
+  "active": "69091cdda563cb5c",
   "lastOpenFiles": [
-    "2026-02-24.md",
-    "Product/Instructions/Instructions.md",
-    "Product/SparrowGenie.excalidraw.md",
-    "Books/Read List/Read List.md",
+    "Learning/Top Deliverables/Product thinking.md",
+    "Learning/First Principle thinking.md",
+    "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
     "Learning/ARCA AI/Kiabana/Kibana.md",
     "Learning/ARCA AI/Elastic Search/Elastic Search.md",
-    "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
+    "2026-02-24.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Teams/Teams.md",
+    "Books/Read List/Read List.md",
+    "Product/Instructions/Instructions.md",
     "Learning/ARCA AI/Kiabana",
     "Learning/ARCA AI/Elastic Search",
     "Learning/ARCA AI",
     "Product/UX changes/Sign up and Onboarding mails.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
-    "Learning/Top Deliverables/Product thinking.md",
     "Books/To Kill a Mocking bird.md",
     "Books/The 80'20 Principle.md",
     "Product/Demo/Demo.md",
@@ -349,9 +363,7 @@
     "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
     "Books/To Kill the mocking bird.md",
     "Books/The Design of Everyday things.md",
-    "Books/Tiny Experiments.md",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
-    "Product/Templates/Book shelf.md",
     "Books/Authors",
     "Product/UX changes",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
