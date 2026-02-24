@@ -17,3 +17,4 @@ Multi Language support for RFP
 - Email Notifcation
 - Rich Text for Q&A card in Projects, Tasks, Knowledge Hub, Genie Chat
 - ROI calculator
+  
