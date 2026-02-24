@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2026-02-24 17.54.36.excalidraw",
+      "path": "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Product/Teams/Teams.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Product thinking",
@@ -27,14 +39,6 @@
     {
       "basename": "2026-02-24",
       "path": "2026-02-24.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "Product/Teams/Teams.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Instructions",
@@ -195,10 +199,6 @@
     {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
     }
   ],
   "omittedPaths": [],
