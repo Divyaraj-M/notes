@@ -89,9 +89,33 @@
               "icon": "lucide-file",
               "title": "2026-02-24"
             }
+          },
+          {
+            "id": "c67da9a553a4c4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -175,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-02-24.md",
+                "file": "Books/Read List/Read List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +209,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-02-24"
+              "title": "Backlinks for Read List"
             }
           },
           {
@@ -295,10 +319,10 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "69091cdda563cb5c",
+  "active": "c67da9a553a4c4c5",
   "lastOpenFiles": [
-    "Product/Instructions/Instructions.md",
     "2026-02-24.md",
+    "Product/Instructions/Instructions.md",
     "Product/SparrowGenie.excalidraw.md",
     "Books/Read List/Read List.md",
     "Learning/ARCA AI/Kiabana/Kibana.md",

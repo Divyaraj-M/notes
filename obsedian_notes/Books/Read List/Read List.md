@@ -12,4 +12,5 @@
 12. [[The bullshit jobs]] - Not yet purchased 
 13. [Why Multi-Passionate people need to approach mastery differently](https://archeronline.substack.com/p/why-multi-passionate-people-need) 
 14. [Nesslabs](https://nesslabs.com/)
+15. 
 

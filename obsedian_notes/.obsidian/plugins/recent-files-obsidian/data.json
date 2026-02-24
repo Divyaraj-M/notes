@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
       "basename": "2026-02-24",
       "path": "2026-02-24.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Kibana",
