@@ -1,3 +1,31 @@
+---
+cover: https://i.pinimg.com/736x/cc/60/a9/cc60a9c912e66e0ac9e0b397b4009e5a.jpg
+author:
+  - Archer
+published:
+tags:
+  - mastery
+  - learning
+  - multipotentialite
+  - productivity
+rating:
+pages:
+lists:
+  - Article
+comment: Rethinking mastery for generalists and multipotentialites.
+---
+
+
+
+
+
+
+
+
+
+
+
+
 1. [[Creative Selection]] Not purchased 
 2. [[The Design of Everyday things]] - Not purchased 
 3. [[The Business Of Belonging]] - Not purchased 
