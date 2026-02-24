@@ -20,7 +20,7 @@
     "TQ_show_recurrence_rule": "checkbox",
     "TQ_show_scheduled_date": "checkbox",
     "TQ_show_start_date": "checkbox",
-    "TQ_show_tags": "checkbox",
+    "TQ_show_tags": "text",
     "TQ_show_task_count": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox"

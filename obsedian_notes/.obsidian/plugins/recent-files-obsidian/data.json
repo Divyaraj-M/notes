@@ -1,48 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "Quotes",
-      "path": "Quotes.md"
-    },
-    {
-      "basename": "2026-02-23 -Weekly product Stand up",
-      "path": "2026-02-23 -Weekly product Stand up.md"
-    },
-    {
-      "basename": "2026-02-24 - Sprint Planning",
-      "path": "2026-02-24 - Sprint Planning.md"
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
+      "basename": "Read List",
+      "path": "Books/Read List.md"
     },
     {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
+      "basename": "The Metamorphosis",
+      "path": "Books/The Metamorphosis.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
+      "basename": "The Courage to be Disliked",
+      "path": "Books/The Courage to be Disliked.md"
+    },
+    {
+      "basename": "The Business Of Belonging",
+      "path": "Books/The Business Of Belonging.md"
+    },
+    {
+      "basename": "Creative Selection",
+      "path": "Books/Creative Selection.md"
+    },
+    {
+      "basename": "The bullshit jobs",
+      "path": "Books/The bullshit jobs.md"
+    },
+    {
+      "basename": "Hooked",
+      "path": "Books/Hooked.md"
+    },
+    {
+      "basename": "The lean startup",
+      "path": "Books/The lean startup.md"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
+    },
+    {
+      "basename": "To Kill a Mocking bird",
+      "path": "Books/To Kill a Mocking bird.md"
+    },
+    {
+      "basename": "The Design of Everyday things",
+      "path": "Books/The Design of Everyday things.md"
+    },
+    {
+      "basename": "Tiny Experiments",
+      "path": "Books/Tiny Experiments.md"
+    },
+    {
+      "basename": "Book shelf",
+      "path": "Product/Templates/Book shelf.md"
+    },
+    {
+      "basename": "Product Spec - Template",
+      "path": "Product/Templates/Product Spec - Template.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
+    },
+    {
+      "basename": "Second_stream_revenue.excalidraw",
+      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+    },
+    {
+      "basename": "Teams Visibility Model",
+      "path": "Product/Settings/Users and Teams/Teams Visibility Model.md"
+    },
+    {
+      "basename": "2026-02-24 - Sprint Planning",
+      "path": "2026-02-24 - Sprint Planning.md"
+    },
+    {
+      "basename": "2026-02-23 -Weekly product Stand up",
+      "path": "2026-02-23 -Weekly product Stand up.md"
     },
     {
       "basename": "Context Info",
       "path": "Product/Projects/Context Info/Context Info.md"
     },
     {
-      "basename": "Routine",
-      "path": "Daily/Routine.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List.md"
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "UAT - 23022026",
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Roles and Permissions",
+      "path": "Product/Settings/Users and Teams/Roles and Permissions.md"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "Routine",
+      "path": "Daily/Routine.md"
     },
     {
       "basename": "External Questionnaire Score (EQS)",
@@ -55,26 +127,6 @@
     {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Tiny Experiments How to Live Freely in a Goal Obsessed World",
-      "path": "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md"
-    },
-    {
-      "basename": "The Metamorphosis",
-      "path": "Books/The Metamorphosis.md"
-    },
-    {
-      "basename": "80,20 principle Richard Koch",
-      "path": "Books/80,20 principle Richard Koch.md"
-    },
-    {
-      "basename": "To Kill the mocking bird",
-      "path": "Books/To Kill the mocking bird.md"
     },
     {
       "basename": "2026-02-13",
@@ -147,58 +199,6 @@
     {
       "basename": "Knowledge Hub",
       "path": "Product/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
-      "basename": "Responsive.io",
-      "path": "Product/competitors/Responsiveio/Responsive.io.md"
-    },
-    {
-      "basename": "Attachments - Responsive",
-      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
-    },
-    {
-      "basename": "Share assign and review flow",
-      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
-    },
-    {
-      "basename": "Company Info",
-      "path": "Product/Projects/Context Info/Company Info.md"
-    },
-    {
-      "basename": "Competitors Info",
-      "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Chrome Extension - Responsive IO",
-      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
-    },
-    {
-      "basename": "Project Watcher",
-      "path": "Product/User roles/Project/Project Watcher.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Decisions",
-      "path": "Learning/Top Deliverables/Decisions.md"
-    },
-    {
-      "basename": "Email Notifications",
-      "path": "Product/Email notifications/Email Notifications.md"
-    },
-    {
-      "basename": "Project Owner",
-      "path": "Product/User roles/Project/Project Owner.md"
-    },
-    {
-      "basename": "Project Manager",
-      "path": "Product/User roles/Project/Project Manager.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/Projects/Sign up and Onboarding mails.md"
     }
   ],
   "omittedPaths": [],

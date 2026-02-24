@@ -22,30 +22,6 @@
             }
           },
           {
-            "id": "63526579e8db9ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Obligations"
-            }
-          },
-          {
             "id": "23e0a7caed26ae74",
             "type": "leaf",
             "pinned": true,
@@ -72,12 +48,31 @@
             }
           },
           {
-            "id": "59f60c4d5bded585",
+            "id": "0b29db05af82a65e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "library",
+              "state": {
+                "search": "",
+                "list": null,
+                "status": null,
+                "grouping": "list",
+                "sort": null,
+                "view": "gallery"
+              },
+              "pinned": true,
+              "icon": "library-big",
+              "title": "Bookshelf library"
+            }
+          },
+          {
+            "id": "3e39302bd6c9fde8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Obligations/UAT - 23022026.md",
+                "file": "Product/Demo/Demo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -92,129 +87,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT - 23022026"
-            }
-          },
-          {
-            "id": "848f022db0c98053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Instructions/Instructions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Instructions"
-            }
-          },
-          {
-            "id": "18ae1a7e01034a72",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "3b9edf0bd96c50ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Context Info/Context Info.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context Info"
-            }
-          },
-          {
-            "id": "3e6d4bd561ac8f26",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "5530a42cdd8748bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-02-23 -Weekly product Stand up.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-23 -Weekly product Stand up"
-            }
-          },
-          {
-            "id": "1bdb42a1a1707150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quotes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Quotes"
+              "title": "Demo"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#enhancements/table_view/research",
+                "query": "tag:#books",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -292,33 +169,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "cfe17b7e35928804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quotes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Quotes"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -339,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quotes.md",
+                "file": "Product/Demo/Demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Quotes"
+              "title": "Backlinks for Demo"
             }
           },
           {
@@ -454,40 +306,44 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
-      "spreadsheets:New Spreadsheet": false
+      "spreadsheets:New Spreadsheet": false,
+      "bookshelf:Open Bookshelf library": false,
+      "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "cfe17b7e35928804",
+  "active": "3e39302bd6c9fde8",
   "lastOpenFiles": [
-    "2026-02-23 -Weekly product Stand up.md",
-    "Quotes.md",
-    "2026-02-24 - Sprint Planning.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Daily/UAT vipin 2026-02-23.md",
-    "Product/Projects/Obligations/Obligations.md",
-    "Product/Projects/Context Info/Context Info.md",
-    "Daily/Routine.md",
     "Books/Read List.md",
-    "Product/Projects/Obligations/UAT - 23022026.md",
-    "Product/Instructions/Instructions.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Templates/Product Spec - Template.md",
-    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
-    "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
     "Books/The Metamorphosis.md",
-    "Books/80,20 principle Richard Koch.md",
+    "Books/The 80'20 Principle.md",
+    "Books/The Courage to be Disliked.md",
+    "Books/The Business Of Belonging.md",
+    "Books/Creative Selection.md",
+    "Books/The bullshit jobs.md",
+    "Books/Hooked.md",
+    "Books/The lean startup.md",
+    "Books/A little life.md",
+    "Books/Tiny Experiments How to Live Freely in a Goal Obsessed World.md",
+    "Books/To Kill a Mocking bird.md",
     "Books/To Kill the mocking bird.md",
-    "Not a trash/2026-02-13.md",
-    "Learning/Homepage.md",
-    "2026-02-11.md",
-    "Not a trash/Work Log 2026-02-16.md",
+    "Books/The Design of Everyday things.md",
+    "Books/Tiny Experiments.md",
+    "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
+    "Product/Templates/Book shelf.md",
+    "Product/Templates/Product Spec - Template.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "Books/Authors",
+    "Books/Franz kafka.md",
+    "Product/Settings/Users and Teams/Teams Visibility Model.md",
+    "2026-02-24 - Sprint Planning.md",
+    "2026-02-23 -Weekly product Stand up.md",
+    "Product/Projects/Context Info/Context Info.md",
+    "Product/Instructions/Instructions.md",
+    "Product/UX changes",
+    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "80",
-    "Untitled",
-    "Learning/First Principle thinking.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
-    "Product/Projects/Context Info/Context info - PRD.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Context Info/Untitled.base",
@@ -498,14 +354,12 @@
     "second_stream_revenue/Youtube Scripts",
     "Product/Projects/Context Info",
     "Rfp/Test",
-    "second_stream_revenue",
     "Product/sghelparticle/og-image.svg",
     "Product/sghelparticle/favicon.svg",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Go-No-Go.canvas",
-    "Not a trash/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "Product/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
   ]
