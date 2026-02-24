@@ -1,4 +1,3 @@
-#dumb_user_state  
 
 # 90-Day Objective: Build Sellable Product Thinking  
 *(Cycle 1 of a 5-Year Plan to Become a Full Product Owner)*

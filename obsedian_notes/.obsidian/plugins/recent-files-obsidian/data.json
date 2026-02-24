@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "To Kill a Mocking bird",
-      "path": "Books/To Kill a Mocking bird.md"
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "The Courage to be Disliked",
-      "path": "Books/The Courage to be Disliked.md"
+      "basename": "Kibana",
+      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
+    },
+    {
+      "basename": "Elastic Search",
+      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
+    },
+    {
+      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
+      "path": "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/UX changes/Sign up and Onboarding mails.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "Product thinking",
+      "path": "Learning/Top Deliverables/Product thinking.md"
+    },
+    {
+      "basename": "To Kill a Mocking bird",
+      "path": "Books/To Kill a Mocking bird.md"
     },
     {
       "basename": "The 80'20 Principle",
@@ -17,16 +45,12 @@
       "path": "Product/Demo/Demo.md"
     },
     {
+      "basename": "The Courage to be Disliked",
+      "path": "Books/The Courage to be Disliked.md"
+    },
+    {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "The Metamorphosis",
@@ -175,30 +199,6 @@
     {
       "basename": "Loading screen after finish mapping",
       "path": "Product/Projects/Loading screen after finish mapping.md"
-    },
-    {
-      "basename": "Genie Contribution",
-      "path": "Product/Projects/Genie Contribution.md"
-    },
-    {
-      "basename": "Domain Diagram Questions",
-      "path": "Product/Go-no-go/Domain Diagram Questions.md"
-    },
-    {
-      "basename": "WYSIWYG Editor _ PRD",
-      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
-    },
-    {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-17 at 5.30.06 PM",
-      "path": "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png"
-    },
-    {
-      "basename": "Knowledge Hub",
-      "path": "Product/Knowledge Hub/Knowledge Hub.md"
     }
   ],
   "omittedPaths": [],

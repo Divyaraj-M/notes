@@ -1,4 +1,4 @@
-#product_thinking 
+#learning/product_thinking 
 
 ![[Screenshot 2026-02-02 at 12.16.52 PM.png]]
 
