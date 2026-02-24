@@ -195,7 +195,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-02-23 -Weekly product Stand up.md",
+                "file": "Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -210,7 +210,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-23 -Weekly product Stand up"
+              "title": "Quotes"
             }
           }
         ],
@@ -292,8 +292,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "cfe17b7e35928804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quotes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Quotes"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -314,7 +339,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-02-23 -Weekly product Stand up.md",
+                "file": "Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -324,7 +349,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-02-23 -Weekly product Stand up"
+              "title": "Backlinks for Quotes"
             }
           },
           {
@@ -432,10 +457,11 @@
       "spreadsheets:New Spreadsheet": false
     }
   },
-  "active": "1bdb42a1a1707150",
+  "active": "cfe17b7e35928804",
   "lastOpenFiles": [
-    "2026-02-24 - Sprint Planning.md",
     "2026-02-23 -Weekly product Stand up.md",
+    "Quotes.md",
+    "2026-02-24 - Sprint Planning.md",
     "Product/SparrowGenie.excalidraw.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Obligations/Obligations.md",
@@ -462,7 +488,6 @@
     "Learning/First Principle thinking.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Context Info/Context info - PRD.md",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
     "Untitled.sheet",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Product/Projects/Context Info/Untitled.base",

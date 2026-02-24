@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Quotes",
+      "path": "Quotes.md"
+    },
+    {
       "basename": "2026-02-23 -Weekly product Stand up",
       "path": "2026-02-23 -Weekly product Stand up.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Sign up and Onboarding mails",
       "path": "Product/Projects/Sign up and Onboarding mails.md"
-    },
-    {
-      "basename": "Reviewer",
-      "path": "Product/User roles/Project/Question card/Reviewer.md"
     }
   ],
   "omittedPaths": [],
