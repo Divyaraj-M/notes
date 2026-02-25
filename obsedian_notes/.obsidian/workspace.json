@@ -53,6 +53,16 @@
             }
           },
           {
+            "id": "5166fb16b754b3cd",
+            "type": "leaf",
+            "state": {
+              "type": "statistics",
+              "state": {},
+              "icon": "chart-spline",
+              "title": "Bookshelf statistics"
+            }
+          },
+          {
             "id": "a7f9210b3d645482",
             "type": "leaf",
             "pinned": true,
@@ -65,9 +75,93 @@
               "icon": "excalidraw-icon",
               "title": "SparrowGenie.excalidraw"
             }
+          },
+          {
+            "id": "3d8e5860300b89e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Crime and punishment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Crime and punishment"
+            }
+          },
+          {
+            "id": "9194919678fe4ca5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Tiny Experiments.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tiny Experiments"
+            }
+          },
+          {
+            "id": "f158cffbb6faabe6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/SparrowGenie.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
+            }
+          },
+          {
+            "id": "982669c87ee1cf39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/ARCA AI/Kiabana/Kibana.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Kibana"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -151,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/SparrowGenie.excalidraw.md",
+                "file": "Learning/ARCA AI/Kiabana/Kibana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +255,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SparrowGenie.excalidraw"
+              "title": "Backlinks for Kibana"
             }
           },
           {
@@ -271,18 +365,28 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "0b29db05af82a65e",
+  "active": "982669c87ee1cf39",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
-    "Books/Annihilation of Caste.md",
-    "Books/Read List/மகிழ்ச்சியான பன்றிக்குட்டி.md",
-    "Books/Read List/Read List.md",
-    "Books/The 80'20 Principle.md",
-    "Books/The bullshit jobs.md",
-    "Books/The Thirteen Problems.md",
-    "Books/Crime and punishment.md",
-    "Books/Thinking fast and slow.md",
+    "Learning/ARCA AI/Elastic Search/Elastic Search.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Books/Tiny Experiments.md",
+    "Books/Crime and punishment.md",
+    "Books/Read List/Read List.md",
+    "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
+    "Books/The Thirteen Problems.md",
+    "Books/Annihilation of Caste.md",
+    "Books/Thinking fast and slow.md",
+    "Books/To Kill a Mocking bird.md",
+    "Books/The 80'20 Principle.md",
+    "Books/The Courage to be Disliked.md",
+    "Books/The bullshit jobs.md",
+    "Books/Hooked.md",
+    "Books/The lean startup.md",
+    "Books/A little life.md",
+    "Books/The Business Of Belonging.md",
+    "Books/The Design of Everyday things.md",
+    "Books/Creative Selection.md",
+    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Product/Teams/Teams.md",
@@ -290,21 +394,11 @@
     "Learning/First Principle thinking.md",
     "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
     "Learning/ARCA AI/Kiabana/Kibana.md",
-    "Learning/ARCA AI/Elastic Search/Elastic Search.md",
     "2026-02-24.md",
-    "Product/Instructions/Instructions.md",
     "Learning/ARCA AI/Kiabana",
     "Learning/ARCA AI/Elastic Search",
     "Learning/ARCA AI",
-    "Product/UX changes/Sign up and Onboarding mails.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
-    "Books/To Kill a Mocking bird.md",
-    "Product/Demo/Demo.md",
-    "Books/The Courage to be Disliked.md",
     "Books/Read List",
-    "Books/The Metamorphosis.md",
-    "Books/The Business Of Belonging.md",
-    "Books/Creative Selection.md",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Books/Authors",
     "Product/UX changes",
