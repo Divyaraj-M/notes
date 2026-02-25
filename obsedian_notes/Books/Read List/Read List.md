@@ -15,24 +15,13 @@ lists:
 comment: Rethinking mastery for generalists and multipotentialites.
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 1. [[Creative Selection]] Not purchased 
 2. [[The Design of Everyday things]] - Not purchased 
 3. [[The Business Of Belonging]] - Not purchased 
 4. [[The Courage to be Disliked]] - Not purchased 
 5.  ==[[Tiny Experiments]]. - Reading==
 6. ==[[The 80'20 Principle]] - Reading== 
-7. ==[[To Kill the mocking bird]] - Reading== 
+7. ==[[To Kill a Mocking bird]] - Reading== 
 8. ==[[The Metamorphosis]]  - Reading== 
 9. [[A little life]] - Not yet purchased 
 10. [[The lean startup]] - Purchased 

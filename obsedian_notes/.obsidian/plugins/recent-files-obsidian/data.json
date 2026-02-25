@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "To Kill a Mocking bird",
+      "path": "Books/To Kill a Mocking bird.md"
+    },
+    {
+      "basename": "Tiny Experiments",
+      "path": "Books/Tiny Experiments.md"
+    },
+    {
       "basename": "Drawing 2026-02-24 17.54.36.excalidraw",
       "path": "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md"
     },
@@ -17,16 +29,8 @@
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Tiny Experiments",
-      "path": "Books/Tiny Experiments.md"
-    },
-    {
       "basename": "Crime and punishment",
       "path": "Books/Crime and punishment.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "மகிழ்ச்சியான பன்றிக்குட்டி",
@@ -43,10 +47,6 @@
     {
       "basename": "Thinking fast and slow",
       "path": "Books/Thinking fast and slow.md"
-    },
-    {
-      "basename": "To Kill a Mocking bird",
-      "path": "Books/To Kill a Mocking bird.md"
     },
     {
       "basename": "The 80'20 Principle",
@@ -195,10 +195,6 @@
     {
       "basename": "Work Log 2026-02-16",
       "path": "Not a trash/Work Log 2026-02-16.md"
-    },
-    {
-      "basename": "First Principle thinking - Table View",
-      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     }
   ],
   "omittedPaths": [],

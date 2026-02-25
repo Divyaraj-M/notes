@@ -140,12 +140,24 @@
             "id": "982669c87ee1cf39",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md"
+                "file": "Books/Read List/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-24 17.54.36.excalidraw"
+              "icon": "lucide-file",
+              "title": "Read List"
             }
           }
         ],
@@ -355,17 +367,19 @@
   },
   "active": "982669c87ee1cf39",
   "lastOpenFiles": [
+    "Books/To Kill a Mocking bird.md",
+    "Books/Read List/To Kill the mocking bird.md",
+    "Books/Read List/Read List.md",
+    "Books/Tiny Experiments.md",
+    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Learning/ARCA AI/Kiabana/Kibana.md",
     "Learning/ARCA AI/Elastic Search/Elastic Search.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Books/Tiny Experiments.md",
     "Books/Crime and punishment.md",
-    "Books/Read List/Read List.md",
     "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
     "Books/The Thirteen Problems.md",
     "Books/Annihilation of Caste.md",
     "Books/Thinking fast and slow.md",
-    "Books/To Kill a Mocking bird.md",
     "Books/The 80'20 Principle.md",
     "Books/The Courage to be Disliked.md",
     "Books/The bullshit jobs.md",
@@ -375,14 +389,12 @@
     "Books/The Business Of Belonging.md",
     "Books/The Design of Everyday things.md",
     "Books/Creative Selection.md",
-    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Product/Teams/Teams.md",
     "Learning/Top Deliverables/Product thinking.md",
     "Learning/First Principle thinking.md",
     "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
-    "2026-02-24.md",
     "Learning/ARCA AI/Kiabana",
     "Learning/ARCA AI/Elastic Search",
     "Learning/ARCA AI",
