@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "0cdd0e9d68542bbe",
+            "type": "leaf",
+            "state": {
+              "type": "spreadsheet-view",
+              "state": {
+                "file": "Untitled.sheet"
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
             "id": "4fa2df7db79e9583",
             "type": "leaf",
             "state": {
@@ -308,8 +320,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -452,8 +463,9 @@
   },
   "active": "653564a2dab19546",
   "lastOpenFiles": [
-    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Untitled.sheet",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
     "Product/Audit report/Audit Report R126022026.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
@@ -479,7 +491,6 @@
     "Books/Thinking fast and slow.md",
     "Books/The Courage to be Disliked.md",
     "Books/The bullshit jobs.md",
-    "Books/Hooked.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",
@@ -489,7 +500,6 @@
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Books/Authors",
     "Product/UX changes",
-    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
