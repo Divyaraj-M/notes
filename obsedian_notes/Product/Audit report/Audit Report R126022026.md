@@ -7,6 +7,7 @@ Personal settings
 - Language cannot be edited - Have to implement 
 Users and Teams
 - Users 
+	- I cannot delete the invitation which has been sent 
 	- 
 - Teams  
 	- Can assign people and see the team's resources  but still needs refining 

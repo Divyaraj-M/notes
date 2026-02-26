@@ -183,33 +183,9 @@
               "icon": "lucide-file",
               "title": "Audit Report R126022026"
             }
-          },
-          {
-            "id": "d079ac2cfe91aca9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Audit Report R126022026"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -413,7 +389,7 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "d079ac2cfe91aca9",
+  "active": "38e831206c4be49e",
   "lastOpenFiles": [
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Untitled.md",
