@@ -9,6 +9,6 @@ tags:
 rating:
 pages: 288
 lists:
-  - With aparna
+  - Not Started
 comment: Apply Pareto thinking to life, work, and strategy.
 ---

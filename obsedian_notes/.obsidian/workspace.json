@@ -212,28 +212,38 @@
             "id": "05c53cfeff372ae4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Audit report/Audit report.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Audit report"
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "653564a2dab19546",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
+            }
+          },
+          {
+            "id": "4fa2df7db79e9583",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -437,36 +447,36 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "05c53cfeff372ae4",
+  "active": "4fa2df7db79e9583",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Books/The 80'20 Principle.md",
+    "Books/Read List/Read List.md",
     "Product/Audit report/Audit Report R126022026.md",
+    "Product/Settings/Teams/Teams check.md",
+    "2026-02-25.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Books/Tiny Experiments.md",
+    "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Product/Audit report/Audit report.md",
     "Product/Settings/Teams/Teams.md",
-    "Product/Settings/Teams/Teams check.md",
     "Product/Settings/Teams/Sensitive  projects.md",
-    "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Untitled.md",
     "Product/Audit report",
-    "2026-02-25.md",
-    "Books/Read List/Read List.md",
     "Books/To Kill a Mocking bird.md",
     "Books/Read List/To Kill the mocking bird.md",
-    "Books/Tiny Experiments.md",
-    "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Learning/ARCA AI/Kiabana/Kibana.md",
     "Learning/ARCA AI/Elastic Search/Elastic Search.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Books/Crime and punishment.md",
     "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
     "Books/The Thirteen Problems.md",
     "Books/Annihilation of Caste.md",
     "Books/Thinking fast and slow.md",
-    "Books/The 80'20 Principle.md",
     "Books/The Courage to be Disliked.md",
     "Books/The bullshit jobs.md",
     "Books/Hooked.md",
     "Books/The lean startup.md",
-    "Books/A little life.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",

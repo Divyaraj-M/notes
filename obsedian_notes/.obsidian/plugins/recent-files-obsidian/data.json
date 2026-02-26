@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Audit report",
-      "path": "Product/Audit report/Audit report.md"
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Audit Report R126022026",
       "path": "Product/Audit report/Audit Report R126022026.md"
     },
     {
-      "basename": "Teams",
-      "path": "Product/Settings/Teams/Teams.md"
-    },
-    {
       "basename": "Teams check",
       "path": "Product/Settings/Teams/Teams check.md"
+    },
+    {
+      "basename": "2026-02-25",
+      "path": "2026-02-25.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Tiny Experiments",
+      "path": "Books/Tiny Experiments.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
+      "path": "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png"
+    },
+    {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Product/Settings/Teams/Teams.md"
     },
     {
       "basename": "Sensitive  projects",
@@ -25,32 +53,12 @@
       "path": "Untitled.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
       "basename": "Elastic Search",
       "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
     },
     {
-      "basename": "2026-02-25",
-      "path": "2026-02-25.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
-    },
-    {
       "basename": "To Kill a Mocking bird",
       "path": "Books/To Kill a Mocking bird.md"
-    },
-    {
-      "basename": "Tiny Experiments",
-      "path": "Books/Tiny Experiments.md"
-    },
-    {
-      "basename": "Drawing 2026-02-24 17.54.36.excalidraw",
-      "path": "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md"
     },
     {
       "basename": "Kibana",
@@ -75,10 +83,6 @@
     {
       "basename": "Thinking fast and slow",
       "path": "Books/Thinking fast and slow.md"
-    },
-    {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
     },
     {
       "basename": "The Courage to be Disliked",
@@ -191,14 +195,6 @@
     {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Routine",
-      "path": "Daily/Routine.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
     }
   ],
   "omittedPaths": [],
