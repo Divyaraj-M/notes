@@ -24,7 +24,8 @@ Personal settings
 - Teams  -   [[Teams Visibility Model]] [[Roles and Permissions]]
 	- Can assign people and see the team's resources  but still needs refining 
 	- Multi select is not functional for the Teams 
-	- 
+[[Project admin settings]] 
+- 
 
 
 ![[Screenshot 2026-02-26 at 11.21.15 AM.png]]
