@@ -2,7 +2,7 @@
 
 **
 
-# Team Visibility Model
+# Teams
 
 TL;DR 
 

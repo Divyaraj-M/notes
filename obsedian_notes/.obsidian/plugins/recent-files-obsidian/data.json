@@ -5,6 +5,18 @@
       "path": "Product/Audit report/Audit Report R126022026.md"
     },
     {
+      "basename": "Teams",
+      "path": "Product/Settings/Teams/Teams.md"
+    },
+    {
+      "basename": "Teams check",
+      "path": "Product/Settings/Teams/Teams check.md"
+    },
+    {
+      "basename": "Sensitive  projects",
+      "path": "Product/Settings/Teams/Sensitive  projects.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Untitled.md"
     },
@@ -97,10 +109,6 @@
       "path": "Books/Creative Selection.md"
     },
     {
-      "basename": "Teams",
-      "path": "Product/Teams/Teams.md"
-    },
-    {
       "basename": "Product thinking",
       "path": "Learning/Top Deliverables/Product thinking.md"
     },
@@ -153,10 +161,6 @@
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
     },
     {
-      "basename": "Teams Visibility Model",
-      "path": "Product/Settings/Users and Teams/Teams Visibility Model.md"
-    },
-    {
       "basename": "2026-02-24 - Sprint Planning",
       "path": "Not a trash/2026-02-24 - Sprint Planning.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Past RFP Similarity Score (PRS)",
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
     }
   ],
   "omittedPaths": [],
