@@ -159,9 +159,33 @@
               "icon": "lucide-file",
               "title": "2026-02-25"
             }
+          },
+          {
+            "id": "38e831206c4be49e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Audit Report.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Audit Report"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -365,10 +389,11 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "982669c87ee1cf39",
+  "active": "38e831206c4be49e",
   "lastOpenFiles": [
-    "Books/Read List/Read List.md",
     "2026-02-25.md",
+    "Audit Report.md",
+    "Books/Read List/Read List.md",
     "Books/To Kill a Mocking bird.md",
     "Books/Read List/To Kill the mocking bird.md",
     "Books/Tiny Experiments.md",
@@ -394,7 +419,6 @@
     "Product/Projects/RFP to Proposal",
     "Product/Teams/Teams.md",
     "Learning/Top Deliverables/Product thinking.md",
-    "Learning/First Principle thinking.md",
     "Learning/ARCA AI/Kiabana",
     "Learning/ARCA AI/Elastic Search",
     "Learning/ARCA AI",

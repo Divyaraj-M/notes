@@ -8,11 +8,11 @@
   "canvas-send-to-back",
   "advanced-canvas",
   "obsidian-git",
-  "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
   "obsidian-tasks-plugin",
   "mousewheel-image-zoom",
   "spreadsheets",
   "card-viewer",
-  "bookshelf"
+  "bookshelf",
+  "obsidian-excalidraw-plugin"
 ]
