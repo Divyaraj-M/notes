@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
       "basename": "Audit Report R126022026",
       "path": "Product/Audit report/Audit Report R126022026.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "External Questionnaire Score (EQS)",
       "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     }
   ],
   "omittedPaths": [],
