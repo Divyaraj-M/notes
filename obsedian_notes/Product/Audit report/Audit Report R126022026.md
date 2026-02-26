@@ -23,6 +23,7 @@ Personal settings
 	- Joined via column is missing 
 - Teams  -   [[Teams Visibility Model]] [[Roles and Permissions]]
 	- Can assign people and see the team's resources  but still needs refining 
+	- Multi select is not functional for the Teams 
 	- 
 
 
