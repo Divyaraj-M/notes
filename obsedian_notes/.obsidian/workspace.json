@@ -185,9 +185,21 @@
               "icon": "excalidraw-icon",
               "title": "Proposal Conversion"
             }
+          },
+          {
+            "id": "da543ff0485f94be",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -393,7 +405,7 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "653564a2dab19546",
+  "active": "1e82d0aeeafa1da9",
   "lastOpenFiles": [
     "Product/Settings/Teams/Teams check.md",
     "2026-02-25.md",
