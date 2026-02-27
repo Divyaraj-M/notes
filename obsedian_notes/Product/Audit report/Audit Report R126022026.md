@@ -21,7 +21,7 @@ Teams - Can assign people and see the team's resources  but still needs refining
 	- Account status is missing with colored dot for the better UI 
 	- added by column is missing 
 	- Joined via column is missing 
-- [[Product/Settings/Teams/Teams|Teams]] (category) - [[Roles and Permissions]]
+- [[Teams|Teams]] (category) - [[Roles and Permissions]]
 	- Can assign people and see the team's resources  but still needs refining 
 	- Multi select is not functional for the Teams 
 [[Project admin settings]] 

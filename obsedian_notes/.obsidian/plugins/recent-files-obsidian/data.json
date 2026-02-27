@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled1",
+      "path": "Untitled1.sheet"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.sheet"
+    },
+    {
+      "basename": "Instructions logic",
+      "path": "Product/Instructions/Instructions logic.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
+      "basename": "Instructions from the Document",
+      "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Product/Settings/Teams/Untitled.md"
     },
@@ -17,10 +37,6 @@
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
-      "basename": "Drawing 2026-02-27 12.31.34.excalidraw",
-      "path": "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md"
-    },
-    {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
     },
@@ -33,20 +49,8 @@
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
-      "basename": "Instructions from the Document",
-      "path": "Product/Instructions/Instructions from the Document.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
-    },
-    {
       "basename": "2026-01-29 UAT with Vipin",
       "path": "Not a trash/2026-01-29 UAT with Vipin.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.sheet"
     },
     {
       "basename": "The 80'20 Principle",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-02-23 -Weekly product Stand up",
       "path": "Not a trash/2026-02-23 -Weekly product Stand up.md"
-    },
-    {
-      "basename": "Context Info",
-      "path": "Product/Projects/Context Info/Context Info.md"
     }
   ],
   "omittedPaths": [],

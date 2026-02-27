@@ -178,24 +178,24 @@
             "id": "da815488a768d312",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/Settings/Teams/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Instructions/Instructions logic.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Instructions logic"
+            }
+          },
+          {
+            "id": "3a6ad4e55443f760",
+            "type": "leaf",
+            "state": {
+              "type": "spreadsheet-view",
+              "state": {
+                "file": "Untitled1.sheet"
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Untitled1"
             }
           },
           {
@@ -274,10 +274,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md"
+                "file": "Product/Instructions/Instructions logic.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-27 12.31.34.excalidraw"
+              "title": "Instructions logic"
             }
           },
           {
@@ -291,7 +291,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -495,20 +495,22 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "da815488a768d312",
+  "active": "3a6ad4e55443f760",
   "lastOpenFiles": [
-    "Product/Settings/Teams/Teams check.md",
+    "Untitled.sheet",
+    "Untitled1.sheet",
+    "Product/Instructions/Instructions logic.md",
+    "Product/Instructions/Instructions.md",
+    "Product/Instructions/Instructions from the Document.md",
+    "Product/Untitled",
     "Product/Settings/Teams/Untitled.md",
+    "Product/Settings/Teams/Teams check.md",
     "Product/Audit report/Audit Report R126022026.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md",
     "Books/Read List/Read List.md",
     "2026-02-25.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Product/Instructions/Instructions from the Document.md",
-    "Product/Instructions/Instructions.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
-    "Untitled.sheet",
     "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Books/The 80'20 Principle.md",
     "Books/Tiny Experiments.md",
@@ -525,7 +527,6 @@
     "Books/Crime and punishment.md",
     "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
     "Books/The Thirteen Problems.md",
-    "Books/Annihilation of Caste.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",
@@ -533,8 +534,6 @@
     "Learning/ARCA AI",
     "Books/Read List",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
-    "Books/Authors",
-    "Product/UX changes",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",

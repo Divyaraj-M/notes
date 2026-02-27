@@ -56,7 +56,7 @@ No SME should start responding without clear visibility into both.
 1. **Dual Instruction Sections**
     
     - Two tabs inside Instructions:
-        - From Prospect - Importing from the docuemts 
+        - From Prospect - Importing from the docuemt
         - For Participants
     - Each section stores independent content.
     - Content persists at project level.
