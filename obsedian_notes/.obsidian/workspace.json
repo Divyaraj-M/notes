@@ -224,12 +224,24 @@
             "id": "4fa2df7db79e9583",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+                "file": "Product/Instructions/Instructions from the Document.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Conversion"
+              "icon": "lucide-file",
+              "title": "Instructions from the Document"
             }
           }
         ],
@@ -265,7 +277,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#uat/vipin-jan29",
+                "query": "tag:#excalidraw",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -439,8 +451,10 @@
   },
   "active": "4fa2df7db79e9583",
   "lastOpenFiles": [
-    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Product/Instructions/Instructions.md",
+    "Product/Instructions/Instructions from the Document.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
     "Untitled.sheet",
     "Product/Audit report/Audit Report R126022026.md",
     "Product/SparrowGenie.excalidraw.md",
@@ -466,7 +480,6 @@
     "Books/Annihilation of Caste.md",
     "Books/Thinking fast and slow.md",
     "Books/The Courage to be Disliked.md",
-    "Books/The bullshit jobs.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Instructions from the Document",
+      "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
@@ -141,10 +149,6 @@
       "path": "2026-02-24.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
-    },
-    {
       "basename": "Sign up and Onboarding mails",
       "path": "Product/UX changes/Sign up and Onboarding mails.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
-    },
-    {
-      "basename": "Roles and Permissions",
-      "path": "Product/Settings/Users and Teams/Roles and Permissions.md"
     }
   ],
   "omittedPaths": [],
