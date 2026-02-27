@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Teams check",
+      "path": "Product/Settings/Teams/Teams check.md"
+    },
+    {
+      "basename": "2026-02-25",
+      "path": "2026-02-25.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "Instructions logic",
       "path": "Product/Instructions/Instructions logic.md"
     },
     {
+      "basename": "Audit Report R126022026",
+      "path": "Product/Audit report/Audit Report R126022026.md"
+    },
+    {
       "basename": "Instructions from the Document",
       "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/UX changes/Sign up and Onboarding mails.md"
     },
     {
       "basename": "Untitled1",
@@ -25,28 +53,8 @@
       "path": "Product/Settings/Teams/Untitled.md"
     },
     {
-      "basename": "Teams check",
-      "path": "Product/Settings/Teams/Teams check.md"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "2026-02-25",
-      "path": "2026-02-25.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "2026-01-29 UAT with Vipin",
@@ -161,10 +169,6 @@
       "path": "2026-02-24.md"
     },
     {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/UX changes/Sign up and Onboarding mails.md"
-    },
-    {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2026-02-24 - Sprint Planning",
       "path": "Not a trash/2026-02-24 - Sprint Planning.md"
-    },
-    {
-      "basename": "2026-02-23 -Weekly product Stand up",
-      "path": "Not a trash/2026-02-23 -Weekly product Stand up.md"
     }
   ],
   "omittedPaths": [],

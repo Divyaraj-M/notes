@@ -175,64 +175,6 @@
             }
           },
           {
-            "id": "da815488a768d312",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/Instructions/Instructions logic.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Instructions logic"
-            }
-          },
-          {
-            "id": "3a6ad4e55443f760",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/Instructions/Instructions logic.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Instructions logic"
-            }
-          },
-          {
-            "id": "b8e27abb510024a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Audit Report R126022026"
-            }
-          },
-          {
-            "id": "05c53cfeff372ae4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "653564a2dab19546",
             "type": "leaf",
             "state": {
@@ -243,55 +185,9 @@
               "icon": "excalidraw-icon",
               "title": "Proposal Conversion"
             }
-          },
-          {
-            "id": "4fa2df7db79e9583",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Instructions/Instructions from the Document.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Instructions from the Document"
-            }
-          },
-          {
-            "id": "cac0f1d3717faca3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/Instructions/Instructions logic.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Instructions logic"
-            }
-          },
-          {
-            "id": "dacf154d3eccbc8c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -358,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5024719238281
+    "width": 307.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -476,7 +373,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -495,21 +393,25 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "3a6ad4e55443f760",
+  "active": "653564a2dab19546",
   "lastOpenFiles": [
+    "Product/Settings/Teams/Teams check.md",
+    "2026-02-25.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Instructions/Instructions logic.md",
+    "Product/Audit report/Audit Report R126022026.md",
     "Product/Instructions/Instructions from the Document.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Dossiers/Proposals",
+    "Product/Dossiers",
+    "Product/UX changes/Sign up and Onboarding mails.md",
     "Untitled1.sheet",
     "Untitled.sheet",
-    "Product/Instructions/Instructions logic.md",
     "Product/Instructions/Instructions.md",
     "Product/Untitled",
     "Product/Settings/Teams/Untitled.md",
-    "Product/Settings/Teams/Teams check.md",
-    "Product/Audit report/Audit Report R126022026.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Books/Read List/Read List.md",
-    "2026-02-25.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
     "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Books/The 80'20 Principle.md",
@@ -525,14 +427,10 @@
     "Learning/ARCA AI/Kiabana/Kibana.md",
     "Learning/ARCA AI/Elastic Search/Elastic Search.md",
     "Books/Crime and punishment.md",
-    "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
-    "Books/The Thirteen Problems.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",
     "Learning/ARCA AI/Elastic Search",
-    "Learning/ARCA AI",
-    "Books/Read List",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
