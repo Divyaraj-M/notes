@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Product/Settings/Teams/Untitled.md"
+    },
+    {
       "basename": "Teams check",
       "path": "Product/Settings/Teams/Teams check.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Context Info",
       "path": "Product/Projects/Context Info/Context Info.md"
-    },
-    {
-      "basename": "UAT - 23022026",
-      "path": "Product/Projects/Obligations/UAT - 23022026.md"
     }
   ],
   "omittedPaths": [],
