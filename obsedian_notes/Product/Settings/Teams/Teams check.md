@@ -42,16 +42,16 @@ This approach keeps the system simple, predictable, and secure at early-stage ad
 
   
 
-|   |   |
-|---|---|
-|Requirement Name|Description / Behavior|
-|Owner → Team Visibility|If a project is NOT sensitive, all users in all teams the owner belongs to get view-only visibility. No edit rights.|
-|Role-based Access (No Propagation)|Adding a user as a manager/author/reviewer/watcher gives that user access. It does NOT grant access to their teams.|
-|Sensitive Project Toggle|If Sensitive = ON, only owner + explicit collaborators can see the project. Owner’s teams cannot see.|
-|Sensitive — Team Block|Sensitive blocks visibility for ALL teams owner belongs to. No propagation.|
-|Sensitive — Role Access|Collaborators retain their access (view/edit as per role) but their teams gain nothing.|
-|Team Membership Changes|If owner joins or leaves teams, visibility instantly updates: old teams lose, new teams gain (only for non-sensitive).|
-|No Team-based Permissions|Teams never gain edit/manage/delete rights. Teams only gain view visibility through ownership rule.|
+|                                    |                                                                                                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Requirement Name                   | Description / Behavior                                                                                                 |
+| Owner → Team Visibility            | If a project is NOT sensitive, all users in all teams the owner belongs to get view-only visibility. No edit rights.   |
+| Role-based Access (No Propagation) | Adding a user as a manager/author/reviewer/watcher gives that user access. It does NOT grant access to their teams.    |
+| Sensitive Project Toggle           | If Sensitive = ON, only owner + explicit collaborators can see the project. Owner’s teams cannot see.                  |
+| Sensitive — Team Block             | Sensitive blocks visibility for ALL teams owner belongs to. No propagation.                                            |
+| Sensitive — Role Access            | Collaborators retain their access (view/edit as per role) but their teams gain nothing.                                |
+| Team Membership Changes            | If owner joins or leaves teams, visibility instantly updates: old teams lose, new teams gain (only for non-sensitive). |
+| No Team-based Permissions          | Teams never gain edit/manage/delete rights. Teams only gain view visibility through ownership rule.                    |
 
   
 

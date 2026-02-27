@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Teams check",
+      "path": "Product/Settings/Teams/Teams check.md"
+    },
+    {
+      "basename": "Audit Report R126022026",
+      "path": "Product/Audit report/Audit Report R126022026.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Drawing 2026-02-27 12.31.34.excalidraw",
+      "path": "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "2026-02-25",
+      "path": "2026-02-25.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "Instructions from the Document",
       "path": "Product/Instructions/Instructions from the Document.md"
     },
     {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "2026-01-29 UAT with Vipin",
@@ -21,28 +45,8 @@
       "path": "Untitled.sheet"
     },
     {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
       "basename": "The 80'20 Principle",
       "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Teams check",
-      "path": "Product/Settings/Teams/Teams check.md"
-    },
-    {
-      "basename": "2026-02-25",
-      "path": "2026-02-25.md"
     },
     {
       "basename": "Tiny Experiments",
@@ -195,10 +199,6 @@
     {
       "basename": "UAT - 23022026",
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
     }
   ],
   "omittedPaths": [],

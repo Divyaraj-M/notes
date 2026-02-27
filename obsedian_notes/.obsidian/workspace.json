@@ -157,7 +157,7 @@
               "type": "markdown",
               "state": {
                 "file": "Product/Settings/Teams/Teams check.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -243,9 +243,31 @@
               "icon": "lucide-file",
               "title": "Instructions from the Document"
             }
+          },
+          {
+            "id": "cac0f1d3717faca3",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-27 12.31.34.excalidraw"
+            }
+          },
+          {
+            "id": "dacf154d3eccbc8c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -449,20 +471,21 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "4fa2df7db79e9583",
+  "active": "38e831206c4be49e",
   "lastOpenFiles": [
-    "Product/Instructions/Instructions.md",
-    "Product/Instructions/Instructions from the Document.md",
+    "Product/Audit report/Audit Report R126022026.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Excalidraw/Drawing 2026-02-27 12.31.34.excalidraw.md",
+    "Books/Read List/Read List.md",
+    "2026-02-25.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Instructions/Instructions from the Document.md",
+    "Product/Instructions/Instructions.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
     "Untitled.sheet",
-    "Product/Audit report/Audit Report R126022026.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/RFP to Proposal/Drawing 2026-02-24 17.54.36.excalidraw.md",
     "Books/The 80'20 Principle.md",
-    "Books/Read List/Read List.md",
     "Product/Settings/Teams/Teams check.md",
-    "2026-02-25.md",
     "Books/Tiny Experiments.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Product/Audit report/Audit report.md",
@@ -479,7 +502,6 @@
     "Books/The Thirteen Problems.md",
     "Books/Annihilation of Caste.md",
     "Books/Thinking fast and slow.md",
-    "Books/The Courage to be Disliked.md",
     "Excalidraw",
     "Product/Projects/RFP to Proposal",
     "Learning/ARCA AI/Kiabana",
