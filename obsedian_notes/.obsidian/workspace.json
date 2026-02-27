@@ -190,12 +190,12 @@
             "id": "3a6ad4e55443f760",
             "type": "leaf",
             "state": {
-              "type": "spreadsheet-view",
+              "type": "excalidraw",
               "state": {
-                "file": "Untitled1.sheet"
+                "file": "Product/Instructions/Instructions logic.md"
               },
-              "icon": "lucide-file",
-              "title": "Untitled1"
+              "icon": "excalidraw-icon",
+              "title": "Instructions logic"
             }
           },
           {
@@ -497,11 +497,11 @@
   },
   "active": "3a6ad4e55443f760",
   "lastOpenFiles": [
-    "Untitled.sheet",
+    "Product/Instructions/Instructions from the Document.md",
     "Untitled1.sheet",
+    "Untitled.sheet",
     "Product/Instructions/Instructions logic.md",
     "Product/Instructions/Instructions.md",
-    "Product/Instructions/Instructions from the Document.md",
     "Product/Untitled",
     "Product/Settings/Teams/Untitled.md",
     "Product/Settings/Teams/Teams check.md",
