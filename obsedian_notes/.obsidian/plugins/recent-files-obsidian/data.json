@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "U",
+      "path": "Learning/ARCA AI/U.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Second_stream_revenue.excalidraw",
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "2026-02-24 - Sprint Planning",
-      "path": "Not a trash/2026-02-24 - Sprint Planning.md"
     }
   ],
   "omittedPaths": [],

@@ -190,16 +190,40 @@
             "id": "da543ff0485f94be",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "excalidraw",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
+            }
+          },
+          {
+            "id": "45ceca0611909aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/ARCA AI/U.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "U"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -266,8 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5024719238281,
-    "collapsed": true
+    "width": 307.5024719238281
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -405,12 +428,13 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "1e82d0aeeafa1da9",
+  "active": "45ceca0611909aef",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Learning/ARCA AI/U.md",
     "Product/Settings/Teams/Teams check.md",
     "2026-02-25.md",
     "Product/SparrowGenie.excalidraw.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Instructions/Instructions logic.md",
     "Product/Audit report/Audit Report R126022026.md",
     "Product/Instructions/Instructions from the Document.md",
