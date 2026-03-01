@@ -117,7 +117,7 @@ Kivotos AI Technology proposes a modern, open-source technology stack designed t
 
 #### 1.2 Architecture Overview
 
-![](http://130.131.18.33/uploads/images/drawio/2025-12/uL5Nlsm0RH1XtheW-drawing-11-1766504771.png)
+![[Pasted image 20260301123651.png]]
 
 ### 2. Detailed Scope of Work
 

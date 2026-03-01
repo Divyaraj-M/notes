@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "UTITSL_102 - Tech Doc",
-      "path": "Learning/ARCA AI/UTITSL_102 - Tech Doc.md"
+      "basename": "Drawing 2026-03-01 12.43.42.excalidraw",
+      "path": "Learning/ARCA AI/Drawing 2026-03-01 12.43.42.excalidraw.md"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Elastic Search",
+      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
+    },
+    {
+      "basename": "Logstash",
+      "path": "Learning/ARCA AI/logstash/Logstash.md"
     },
     {
       "basename": "Grafana",
       "path": "Learning/ARCA AI/Grafana/Grafana.md"
     },
     {
-      "basename": "Elastic Search",
-      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
+      "basename": "UTITSL_102 - Tech Doc",
+      "path": "Learning/ARCA AI/UTITSL_102 - Tech Doc.md"
+    },
+    {
+      "basename": "Pasted image 20260301121747",
+      "path": "Learning/ARCA AI/Pasted image 20260301121747.png"
     },
     {
       "basename": "Kibana",
@@ -43,10 +63,6 @@
     {
       "basename": "Instructions from the Document",
       "path": "Product/Instructions/Instructions from the Document.md"
-    },
-    {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "Sign up and Onboarding mails",
@@ -181,24 +197,8 @@
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
-    },
-    {
       "basename": "The Metamorphosis",
       "path": "Books/The Metamorphosis.md"
-    },
-    {
-      "basename": "Book shelf",
-      "path": "Product/Templates/Book shelf.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Udemy",
-      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
     }
   ],
   "omittedPaths": [],
