@@ -220,45 +220,28 @@ It answers:
 ### Proposal Table
 
 - proposal_id (PK)
-    
 - workspace_id (FK)
-    
 - owner_id (FK)
-    
 - title
-    
 - status
-    
 - deadline
-    
 - created_at
-    
 - updated_at
-    
 
 ### Task Table
 
 - task_id (PK)
-    
 - proposal_id (FK)
-    
 - assigned_user_id (FK)
-    
 - due_date
-    
 - status
-    
 
 ### User Table
 
 - user_id (PK)
-    
 - workspace_id (FK)
-    
 - email
-    
 - role_id (FK)
-    
 
 Now we are close to DB design.
 
@@ -305,13 +288,9 @@ Example: Task Management App
 List entities only:
 
 - User
-    
 - Project
-    
 - Task
-    
 - Comment
-    
 
 Draw relationships.
 
@@ -327,15 +306,10 @@ Example:
 Task:
 
 - Title
-    
 - Description
-    
 - Status
-    
 - Priority
-    
 - Due Date
-    
 
 ---
 
@@ -344,13 +318,9 @@ Task:
 Now:
 
 - Add IDs
-    
 - Define FK relationships
-    
 - Decide M:M tables
-    
 - Add audit fields
-    
 
 ---
 
@@ -373,7 +343,6 @@ You don’t need 50 attributes in conceptual phase.
 ### 3. Designing from UI
 
 UI should NOT drive domain.
-
 Business model drives UI.
 
 ---
@@ -383,17 +352,12 @@ Business model drives UI.
 You said your goal is to become end-to-end product owner.
 
 This skill is core.
-
 Because:
 
 - You stop being Jira PM.
-    
 - You think in systems.
-    
 - You challenge dev architecture.
-    
 - You spot scope creep early.
-    
 
 Most PMs cannot do this properly.
 
@@ -404,15 +368,11 @@ Most PMs cannot do this properly.
 Before any major feature:
 
 1. Ask: What new entities are introduced?
-    
 2. Does it belong to existing domain?
-    
 3. Is relationship 1:M or M:M?
-    
 4. What lifecycle states exist?
-    
 5. Who owns this object?
-    
+
 
 Write these before dev starts.
 
@@ -427,47 +387,30 @@ If you build:
 Domain:
 
 - Proposal
-    
 - User
-    
 - Role
-    
 - Message
-    
 - Notification
-    
 
 Conceptual:  
 Message:
 
 - Type
-    
 - Content
-    
 - Trigger Event
-    
 - Sent To Role
-    
 - Timestamp
-    
 
 Logical:  
 Message Table
 
 - message_id
-    
 - proposal_id
-    
 - sender_id
-    
 - receiver_role_id
-    
 - event_type
-    
 - body
-    
 - created_at
-    
 
 Now dev cannot mess it up.
 
@@ -485,8 +428,3 @@ That’s it.
 
 ---
 
-If you want, next:
-
-We can take ONE of your real modules (Workspace / Messages / Tasks / Notification Matrix) and build all three diagrams together.
-
-That’s where learning becomes real.
