@@ -1,44 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Design diagram",
-      "path": "Learning/ARCA AI/Design diagram.md"
+      "basename": "ERD",
+      "path": "Learning/Domain design Diagram/ERD.md"
     },
     {
-      "basename": "Untitled Diagram",
-      "path": "Untitled Diagram.svg"
+      "basename": "Domain diagram",
+      "path": "Learning/Domain design Diagram/Domain diagram.md"
     },
     {
       "basename": "UTITSL_102 - Tech Doc",
-      "path": "Learning/ARCA AI/UTITSL_102 - Tech Doc.md"
-    },
-    {
-      "basename": "Pasted image 20260301121747",
-      "path": "Learning/ARCA AI/Pasted image 20260301121747.png"
-    },
-    {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
+      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
     },
     {
       "basename": "Elastic Search",
       "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
     },
     {
+      "basename": "Kibana",
+      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
+    },
+    {
       "basename": "Logstash",
       "path": "Learning/ARCA AI/logstash/Logstash.md"
     },
     {
-      "basename": "Grafana",
-      "path": "Learning/ARCA AI/Grafana/Grafana.md"
+      "basename": "Pasted image 20260301123651",
+      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
     },
     {
-      "basename": "Kibana",
-      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Untitled Diagram 1",
+      "path": "Untitled Diagram 1.svg"
+    },
+    {
+      "basename": "Design diagram",
+      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
+    },
+    {
+      "basename": "Untitled Diagram",
+      "path": "Untitled Diagram.svg"
+    },
+    {
+      "basename": "Pasted image 20260301121747",
+      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Grafana",
+      "path": "Learning/ARCA AI/Grafana/Grafana.md"
     },
     {
       "basename": "Proposal Conversion",
@@ -183,22 +199,6 @@
     {
       "basename": "Product thinking",
       "path": "Learning/Top Deliverables/Product thinking.md"
-    },
-    {
-      "basename": "First Principle thinking",
-      "path": "Learning/First Principle thinking.md"
-    },
-    {
-      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
-      "path": "Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
-    },
-    {
-      "basename": "2026-02-24",
-      "path": "2026-02-24.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     }
   ],
   "omittedPaths": [],
