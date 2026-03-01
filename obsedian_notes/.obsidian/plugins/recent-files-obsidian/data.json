@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "ERD",
-      "path": "Learning/Domain design Diagram/ERD.md"
-    },
-    {
       "basename": "Domain diagram",
       "path": "Learning/Domain design Diagram/Domain diagram.md"
     },
     {
+      "basename": "ERD",
+      "path": "Learning/Domain design Diagram/ERD.md"
+    },
+    {
       "basename": "UTITSL_102 - Tech Doc",
       "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
+    },
+    {
+      "basename": "Design diagram",
+      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
     },
     {
       "basename": "Elastic Search",
@@ -35,10 +39,6 @@
     {
       "basename": "Untitled Diagram 1",
       "path": "Untitled Diagram 1.svg"
-    },
-    {
-      "basename": "Design diagram",
-      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
     },
     {
       "basename": "Untitled Diagram",
