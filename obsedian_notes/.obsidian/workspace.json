@@ -190,12 +190,24 @@
             "id": "da543ff0485f94be",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+                "file": "Learning/Domain design Diagram/Domain diagram.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Conversion"
+              "icon": "lucide-file",
+              "title": "Domain diagram"
             }
           }
         ],
@@ -363,7 +375,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -384,8 +396,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -404,10 +415,12 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "da543ff0485f94be",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
-    "Learning/Domain design Diagram/Cardinality.jpg",
+    "Learning/Domain design Diagram/Evans03.pdf",
     "Learning/Domain design Diagram/ERD.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/Domain design Diagram/Domain diagram.md",
     "Learning/ARCA AI/UTITSL_102/Domain diagram.md",
     "Learning/ARCA AI/UTITSL_102/Learning.md",
@@ -433,7 +446,6 @@
     "UTITSL_102",
     "Learning/ARCA AI/UTITSL_102.md",
     "Learning/ARCA AI/U.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Settings/Teams/Teams check.md",
     "2026-02-25.md",
     "Product/SparrowGenie.excalidraw.md",
@@ -451,7 +463,6 @@
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
-    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

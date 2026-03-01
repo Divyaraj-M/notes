@@ -9,6 +9,18 @@
       "path": "Learning/Domain design Diagram/ERD.md"
     },
     {
+      "basename": "Evans03",
+      "path": "Learning/Domain design Diagram/Evans03.pdf"
+    },
+    {
+      "basename": "Cardinality",
+      "path": "Learning/Domain design Diagram/Cardinality.jpg"
+    },
+    {
+      "basename": "Formulas Mathematics",
+      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
+    },
+    {
       "basename": "UTITSL_102 - Tech Doc",
       "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
     },
@@ -35,14 +47,6 @@
     {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
-      "basename": "Untitled Diagram 1",
-      "path": "Untitled Diagram 1.svg"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "Untitled Diagram.svg"
     },
     {
       "basename": "Pasted image 20260301121747",
@@ -191,14 +195,6 @@
     {
       "basename": "The Design of Everyday things",
       "path": "Books/The Design of Everyday things.md"
-    },
-    {
-      "basename": "Creative Selection",
-      "path": "Books/Creative Selection.md"
-    },
-    {
-      "basename": "Product thinking",
-      "path": "Learning/Top Deliverables/Product thinking.md"
     }
   ],
   "omittedPaths": [],

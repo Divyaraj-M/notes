@@ -9,45 +9,31 @@ This is a **last‑mile, exam‑ready summary**. No explanations. Only what you 
 ### Sets
 
 - Union: $(A \cup B)$ → all elements in A or B
-    
 - Intersection: $(A \cap B)$ → common elements
-    
 - Difference: $(A - B)$ → in A but not in B
-    
 - Cardinality: (|A|) = number of elements
-    
 
 ### Number systems
 
 - **Integers (Z)** → discrete
-    
 - **Rationals (Q)** → dense
-    
 - **Reals (R)** → uncountable
-    
 
 ### Prime
 
 - Prime = exactly **two factors**
-    
 - **1 is NOT prime**
-    
 
 ### Relations
 
 - Reflexive: (a,a) ∈ R
-    
 - Symmetric: (a,b) ⇒ (b,a)
-    
 - Transitive: (a,b) & (b,c) ⇒ (a,c)
-    
 - Equivalence relation = all three
-    
 
 ### Function
 
 - One input → **exactly one output**
-    
 
 ---
 
@@ -62,18 +48,13 @@ $[ d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} ]$
 $[ m = \frac{y_2-y_1}{x_2-x_1} = \tan\theta ]$
 
 - Horizontal line: slope = 0
-    
 - Vertical line: slope undefined
-    
 
 ### Line forms
 
 - Point–slope: $(y-y_1 = m(x-x_1))$
-    
 - Slope–intercept: (y=mx+c)
-    
 - General: (Ax+By+C=0) (works for vertical lines)
-    
 
 ### Perpendicular lines
 
@@ -90,9 +71,7 @@ $[ f(x)=ax^2+bx+c,; a\neq0 ]$
 ### Vertex
 
 - x‑coordinate: $(x = -\frac{b}{2a})$
-    
 - Vertex gives **max or min**
-    
 
 ### Axis of symmetry
 
@@ -101,20 +80,15 @@ $[ x = -\frac{b}{2a} ]$
 ### Nature of parabola
 
 - a > 0 → opens up → minimum
-    
 - a < 0 → opens down → maximum
-    
 
 ### Discriminant
 
 $[ D=b^2-4ac ]$
 
 - D>0 → two real roots
-    
 - D=0 → one real root
-    
 - D<0 → no real roots
-    
 
 ### Quadratic formula
 
@@ -127,16 +101,12 @@ $[ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} ]$
 ### Degree
 
 - Highest power with non‑zero coefficient
-    
 - Degree n → max turning points = n−1
-    
 
 ### Multiplicity
 
 - Odd → graph **crosses** x‑axis
-    
 - Even → graph **touches & turns back**
-    
 
 ### End behaviour
 
@@ -149,9 +119,7 @@ Depends only on **leading term**
 ### Tests
 
 - Vertical line test → function?
-    
 - Horizontal line test → one‑to‑one?
-    
 
 ### Composite function
 
@@ -159,9 +127,7 @@ $[ (f\circ g)(x)=f(g(x)) ]$
 Domain rules:
 
 1. x ∈ domain of g
-    
 2. g(x) ∈ domain of f
-    
 
 ### Inverse
 
@@ -178,18 +144,13 @@ $[ y=\log_a x \iff a^y=x ]$
 ### Conditions
 
 - a>0, a≠1
-    
 - Argument >0
-    
 
 ### Laws
 
 - Product: $(\log(MN)=\log M+\log N)$
-    
 - Quotient: $(\log(M/N)=\log M-\log N)$
-    
 - Power: $(\log(M^r)=r\log M)$
-    
 
 ### Change of base
 

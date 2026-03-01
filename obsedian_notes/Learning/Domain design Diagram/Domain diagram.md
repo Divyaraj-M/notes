@@ -1,6 +1,6 @@
 You’re building systems now. So this isn’t theory.  
 You need just enough clarity to design properly and talk to devs without confusion.
-
+![[Evans03.pdf]]
 This is your **80/20 guide** to:
 
 - Domain Diagram
