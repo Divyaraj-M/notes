@@ -5,6 +5,18 @@
       "path": "Learning/ARCA AI/UTITSL_102 - Tech Doc.md"
     },
     {
+      "basename": "Grafana",
+      "path": "Learning/ARCA AI/Grafana/Grafana.md"
+    },
+    {
+      "basename": "Elastic Search",
+      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
+    },
+    {
+      "basename": "Kibana",
+      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
@@ -93,16 +105,8 @@
       "path": "Untitled.md"
     },
     {
-      "basename": "Elastic Search",
-      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
-    },
-    {
       "basename": "To Kill a Mocking bird",
       "path": "Books/To Kill a Mocking bird.md"
-    },
-    {
-      "basename": "Kibana",
-      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
     },
     {
       "basename": "Crime and punishment",
@@ -195,10 +199,6 @@
     {
       "basename": "Udemy",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Second_stream_revenue.excalidraw",
-      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
     }
   ],
   "omittedPaths": [],
