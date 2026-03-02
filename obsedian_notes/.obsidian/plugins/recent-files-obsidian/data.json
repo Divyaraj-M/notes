@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
       "path": "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png"
-    },
-    {
-      "basename": "Audit report",
-      "path": "Product/Audit report/Audit report.md"
     }
   ],
   "omittedPaths": [],
