@@ -226,12 +226,24 @@
             "id": "ce327bb6db7249f6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md"
+                "file": "Product/Instructions/Instructions from the Document.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Template flow"
+              "icon": "lucide-file",
+              "title": "Instructions from the Document"
             }
           },
           {
@@ -291,7 +303,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "instruc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -322,7 +334,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -465,10 +478,11 @@
   },
   "active": "ce327bb6db7249f6",
   "lastOpenFiles": [
+    "Product/Instructions/Instructions.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Go-no-go/RFP training.md",
@@ -498,7 +512,6 @@
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
     "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
-    "Learning/ARCA AI/UTITSL_102/Design diagram.md",
     "Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "Learning/ARCA AI/Pasted image 20260301123651.png",

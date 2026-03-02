@@ -1,352 +1,250 @@
-#new_feature/Instructions/v2
+#new_feature/Instructions/v1/
+## First Principle
 
-## First principle
+Prospect-defined instructions must not rely on manual copy-paste.
 
-Every RFP project must clearly define the instructions SMEs are expected to follow before response work begins.
+If the RFP document exists inside the project, the system:
 
-Instructions originate from two distinct sources:
+- Reads mapped instruction fields
+- Extracts structured instruction data
+- Renders them in a controlled table format
+- Reflects compliance status based on mapping state
 
-1. **External Instructions (Prospect-defined)**  
-    These are requirements stated in the RFP document. They include formatting rules, compliance conditions, submission guidelines, mandatory sections, evaluation criteria, and deadlines. These are non-negotiable and must be followed exactly.
-2. **Internal Instructions (Team-defined)**  
-    These are guidelines created by the responding team. They include positioning strategy, win themes, tone guidance, approval workflows, risk flags, and deal-specific notes. These ensure consistency, quality, and alignment with deal strategy.
+SMEs must never depend on manually pasted prospect requirements.
 
-Both instruction types must be captured in a structured and **visible format within the project**.  
-No SME should start responding without clear visibility into both.
-
-### Problem Statement
-
-- When an RFP project is created, there is no dedicated place to store and structure instructions for SMEs.
-
-- Both prospect-defined requirements and internal team guidance exist, but they live outside the system — in documents, emails, Slack threads, or verbal communication.
-
-- Because there is no permissioned, centralized instruction layer inside the project:
-
-	- SMEs do not have a single source of truth
-	- Critical compliance requirements can be missed
-	- Internal positioning guidance is inconsistently applied
-	- Contributors rely on memory or fragmented context
-	- Rework increases due to avoidable mistakes
-
-- The issue is not availability of instructions.  
-- The issue is the absence of a structured, controlled space to capture and surface them within the RFP workflow.
-
+Internal instructions remain editable.
 
 ---
 
-### Target Users (Audience)
+# Updated Instruction Model
 
-**Who is this feature primarily for?**
+Instructions come from two controlled layers.
 
-- Primary user: SME's 
-- Secondary user : Project Owner, Project Manager
-- Who is explicitly out of scope in this version?
-	- External users 
+## 1. From Prospect (System-Rendered)
+
+Source: Document mapping fields
+
+- Instructions are identified during document mapping.
+- Only fields classified as “Instruction” are included.
+- System renders them as a structured table.
+- No manual editing allowed.
+- Data updates automatically when mapping changes.
+- If a mapped instruction field is removed → the corresponding instruction row is immediately removed from the table.
+- If all mapped instruction fields are removed → the entire Prospect block does not render.
 
 
-
----
-
-## Implementation
-
-### Scope
-
-### Must-have functionality
-
-1. **Dual Instruction Sections**
-    
-    - Two tabs inside Instructions:
-        - From Prospect - Importing from the docuemt
-        - For Participants
-    - Each section stores independent content.
-    - Content persists at project level.
-2. **Rich Text Editor (on Edit)**  
-    Clicking Edit opens a full editor with:
-    
-    **Controls**
-    
-    - Undo / Redo
-    - Text format:
-        - Normal Text
-        - Heading 1
-        - Heading 2
-        - Heading 3
-        - Heading 4
-        - Heading 5
-        - Heading 6
-    - Font sizes:  
-        8, 9, 10, 11, 12, 14, 18, 24, 30, 36, 48, 60, 72
-    - Bold
-    - Italic
-    - Underline
-    - Hyperlink
-    - Font color
-    - Alignment:
-        - Left
-        - Center
-        - Right
-1. **Save Behavior**
-    - Clicking Save persists content.
-    - Cancel discards unsaved changes.
-2. **Summarize with Genie AI (Accordion Section)**
-    
-    - Available as an expandable section.
-    - Reads existing editor content.
-    - Generates summarized output.
-    - Reload icon allows regeneration.
-    - Output is not auto-applied to editor.
-
+This is the compliance layer.
 
 ---
 
-### Nice-to-have (Time Permitting)
+## 2. For Participants (Team-Defined)
 
-- Version history
+Source: Manual input
 
----
+- Editable rich text section.
+- Used for positioning, win themes, risk notes, approval logic.
+- Stored at project level.
+- Explicit Save required.
 
-### Explicit Non-Goals
-
-- Importing instructions from document 
-- External collaboration access
-
----
-
-## Experience
-
-### Primary User Flow
-
-1. Project created.
-2. Project Owner / Project Manager navigates to Instructions tab.
-3. Edits From Prospect section (paste RFP rules).
-4. Edits For Participants section (internal guidance).
-5. Saves.
-6. SMEs view instructions before answering questions.
-7. Owner / Project Manager may use Summarize with Genie AI.
-8. Optional regenerate via reload icon.
+This is the strategy layer.
 
 ---
 
-### Key Interactions
+# Problem (Reframed)
 
-- Clear separation between external and internal instructions.
-- Editing is explicit (not inline auto-edit).
-- Summarize is advisory, not destructive.
-- Save confirmation is immediate and visible.
+Before:
 
----
+- Prospect instructions were manually pasted.
+- Structure varied.
+- Compliance items could be missed.
+- No enforcement layer existed.
 
-### Critical Edge Cases
+Now:
 
-**Empty State**
+- Prospect instructions are structured at mapping time.
+- Rendering is consistent.
+- Controlled by system state.
+- Traceable to mapping.
+- Automatically updated on mapping changes.
 
-- If no instructions added → show placeholder:  
-    “No instructions added yet.”
-
-**Permissions**
-
-- watcher cannot edit. 
-- If unauthorized user attempts edit → disable edit button.
-
-**Large Content**
-
-- Editor must support large pasted RFP sections (up to defined system limit).
-
-**Failure States**
-
-- If save fails → inline error + retry. 
-- If AI summarization fails → show:  
-    “Unable to generate summary. Please try again.”
+The risk shifts from missed copy-paste to incorrect mapping classification.
 
 ---
 
-## Implementation Details
-    
-### Role-Based Permissions
+# Scope
 
-| **Role**        | **View** | **Edit** | **Summarize** |
-| --------------- | -------- | -------- | ------------- |
-| Owner           | Yes      | Yes      | Yes           |
-| Project Manager | Yes      | Yes      | Yes           |
-| Watcher         | Yes      | No       | No            |
-| External Users  | No       | No       | No            |
+## Must-Have Functionality
 
 ---
 
-### AI Behavior Rules (Summarize with Genie AI)
+## 1. From Prospect (Structured Table View)
 
-#### Trigger
+### Data Source
 
-User clicks “Summarize”
-System must:
-1. Read existing content in editor.
-2. Extract two most important factual statements.
-3. Return exactly two bullet points.
+- Mapping fields from uploaded RFP documents.
+- Only fields tagged as “Instruction”.
 
----
+### Rendering Logic
 
-### Output Format
+Instructions render as:
 
-- Bullet 1
-- Bullet 2
+| Field               | Value                      |
+| ------------------- | -------------------------- |
+| Submission Deadline | 15 March 2026              |
+| Mandatory Sections  | Executive Summary, Pricing |
+| Page Limit          | 40 pages                   |
+| File Format         | PDF only                   |
 
-No paragraph.  
-No heading.  
-No interpretation.  
-No added insight.
+### Rules
 
-Optional third point is NOT allowed in V1.  
-Always exactly two bullets.
-
-**
-
-# Summarize Output Rules
-
-When user clicks Summarize, system must:
-
-1. Read existing content in editor.
-2. Extract the two most important factual statements.
-3. Output exactly two bullet points.  
-
-Format:
-
-- Fact 1
-- Fact 2
-
-
-No third point.  
-No paragraph.  
-No headings.  
-No adjectives unless originally present.
+- No inline editing. 
+- Empty mapped fields are not rendered.
+- If at least one mapped instruction exists → render Prospect block.
+- If none exist → show empty state: “No prospect instructions mapped.”
+- If a mapped field is deleted → row is removed instantly.
+- If all mapped instruction fields are deleted → entire block disappears.
 
 ---
 
-# What Counts as “Important Fact”
+## 2. For Participants (Editable Section)
 
-Priority order:
-
-1. What the company does (core business)
-2. Revenue scale or public/private status
-3. Industry classification
-4. Primary product category  
-
-
-Never summarize the founding story unless it is the only data present.
-Never summarize regulatory implications unless explicitly written.
+- Rich text editor.
+- Explicit Edit mode.
+- Save / Cancel.
+- Project-level persistence.
 
 ---
 
-# Example
+## 3. Rich Text Editor (Internal Only)
 
-Original Content:
+Controls:
 
-Company X is a publicly traded SaaS company founded in 2012.  
-It provides cloud-based cybersecurity solutions to enterprise customers across North America and Europe.  
-Revenue for 2024 was $2.1B.  
-It operates in the cybersecurity industry.
-
-Summarized Output:
-
-- Publicly traded SaaS company providing cloud-based cybersecurity solutions to enterprise customers.  
-- Reported $2.1B revenue in 2024.  
-
-Nothing else.
-
-No added insight.  
-No interpretation.
+- Undo / Redo
+- Headings 1–6
+- Font sizes (8–72)
+- Bold
+- Italic
+- Underline
+- Hyperlink
+- Font color
+- Alignment (Left / Center / Right)
 
 ---
 
-# Strict Constraints
+## 4. Save Behavior (Internal Only)
 
-Summarize must:
-
-- Use only existing text
-- Preserve factual accuracy
-- Not fabricate numbers
-- Not infer importance
-- Not mention data not present
-- Always return exactly two bullets  
-
-If content is too small:
-
-If only one fact exists:  
-→ Return that fact as the first bullet.  
-→ Second bullet: “No additional factual data available.”
-
-Never leave it blank.
-
-
+- Save persists content.
+- Cancel discards changes.
+- Inline error on failure.
+- Visible success confirmation.
 
 ---
 
-### Hard Rules
+## 5. Summarize with Genie AI (Whole Instructions)
 
-- Use only existing text.
+Summarization now reads:
+
+- Prospect (system-rendered table content)
+- Internal (editor content)
+
+Behavior:
+
+- Reads entire Instructions tab content.
+- Generates exactly two factual bullet points.
+- Output not auto-applied.
+- Stateless generation.
+- Reload icon triggers full re-run.
+- If any instruction is added, edited, removed, or remapped → previously generated summary is invalidated.
+- Summary must be regenerated manually.
+- No memory of previous output.
+
+Strict output rules remain unchanged:
+
+- Exactly two bullets.
+- No paragraph.
+- No heading.
+- No added insight.
 - No fabrication.
-- No inferred data.
-- No assumptions.
-- No added adjectives.
-- No founding story unless it is the only information.
-- No regulatory inference unless explicitly written.
-
----
-
-### Small Content Handling
 
 If only one factual statement exists:
 
-Bullet 1 → That fact  
-Bullet 2 → “No additional factual data available.”
+- Bullet 1 → That fact.
+- Bullet 2 → “No additional factual data available.”
 
 Never return one bullet.  
-Never return empty state.
+Never return empty output.
 
 ---
 
-### Regenerate
+# Role-Based Permissions
 
-- Reload icon triggers full re-run.
-- No memory of previous output.
-- No comparison logic.
-- Always stateless generation.
+|Role|View Prospect|Edit Prospect|View Internal|Edit Internal|Summarize|
+|---|---|---|---|---|---|
+|Owner|Yes|No|Yes|Yes|Yes|
+|Project Manager|Yes|No|Yes|Yes|Yes|
+|Watcher|Yes|No|Yes|No|No|
+|External Users|No|No|No|No|No|
 
----
-
-## Open Questions
-
-- Can We have Ai read the document and find instructions from the document and make it in the Instructions tab?
-- What will happen if there are multiple files are uploaded and each have different instructions ?
+Prospect section is system-controlled.  
+Internal section is permission-controlled.
 
 ---
 
-## Trade-Off for Next Version
+# Primary User Flow
 
-Deferred to V2:
+1. RFP document uploaded.
+2. Mapping completed.
+3. Instruction-type fields identified.
+4. Instructions tab loads.
+5. Prospect section auto-renders.
+6. Owner edits internal section.
+7. Summary optionally generated.
+8. If mapping changes or internal content changes → summary must be regenerated.
+9. SMEs review both layers before responding.
 
-- Version history
-- Import directly from the Documents 
-
-### Key Questions
-
-- Do projects with instructions show fewer compliance issues?
-- Does summarization reduce instruction length?
-- Are SMEs referencing instructions before answering?
+No manual prospect pasting.
 
 ---
 
-## Final Notes
+# Critical Edge Cases
 
-### Key Assumptions
+### Multiple Documents
 
-- SMEs read instructions before responding.
-- Owners will actively maintain instruction clarity.
-- Prospect instructions vary in structure and quality.
+- Aggregate mapped instruction fields.
+- Deduplicate identical field labels.
+- Preserve source reference internally.
+- If conflicting values exist → display both rows.
 
-### Dependencies
+### Empty Mapping
 
-- Rich text editor framework
-- AI summarization service
-- Role-based permission engine
-- Project-level data storage
+- Show: “No prospect instructions mapped.”
+- Do not render empty table.
 
+### Large Instruction Sets
+
+- Table supports scroll.
+- No truncation within system limits.
+
+---
+
+# Non-Goals
+
+- Manual editing of prospect instructions.
+- AI extraction inside Instructions tab.
+- Version history.
+- External collaboration.
+
+---
+
+# Trade-Off
+
+Gain:
+
+- Structured compliance enforcement.
+- Mapping-driven truth.
+- Automatic consistency.
+
+Loss:
+
+- Manual override flexibility.    
+- Quick edits without remapping.
