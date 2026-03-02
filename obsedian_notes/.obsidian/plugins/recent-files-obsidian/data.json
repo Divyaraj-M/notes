@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "WYSIWYG Editor _ PRD",
+      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -33,10 +45,6 @@
       "path": "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov"
     },
     {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "Context info - PRD",
       "path": "Product/Projects/Context Info/Context info - PRD.md"
-    },
-    {
-      "basename": "Proposal",
-      "path": "Product/Dossiers/Proposals/Proposal.md"
     },
     {
       "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-01-29 UAT with Vipin",
       "path": "Not a trash/2026-01-29 UAT with Vipin.md"
-    },
-    {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
     }
   ],
   "omittedPaths": [],
