@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
+      "path": "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
+    },
+    {
+      "basename": "ERD",
+      "path": "Learning/Domain design Diagram/ERD.md"
+    },
+    {
+      "basename": "Evans03",
+      "path": "Learning/Domain design Diagram/Evans03.pdf"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "Proposal",
@@ -19,14 +31,6 @@
     {
       "basename": "Domain diagram",
       "path": "Learning/Domain design Diagram/Domain diagram.md"
-    },
-    {
-      "basename": "Evans03",
-      "path": "Learning/Domain design Diagram/Evans03.pdf"
-    },
-    {
-      "basename": "ERD",
-      "path": "Learning/Domain design Diagram/ERD.md"
     },
     {
       "basename": "Cardinality",
@@ -195,10 +199,6 @@
     {
       "basename": "Crime and punishment",
       "path": "Books/Crime and punishment.md"
-    },
-    {
-      "basename": "மகிழ்ச்சியான பன்றிக்குட்டி",
-      "path": "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md"
     }
   ],
   "omittedPaths": [],
