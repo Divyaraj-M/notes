@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Cardinality",
-      "path": "Learning/Domain design Diagram/Cardinality.jpg"
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
-      "basename": "ERD",
-      "path": "Learning/Domain design Diagram/ERD.md"
-    },
-    {
-      "basename": "Evans03",
-      "path": "Learning/Domain design Diagram/Evans03.pdf"
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Domain diagram",
       "path": "Learning/Domain design Diagram/Domain diagram.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+      "basename": "Evans03",
+      "path": "Learning/Domain design Diagram/Evans03.pdf"
+    },
+    {
+      "basename": "ERD",
+      "path": "Learning/Domain design Diagram/ERD.md"
+    },
+    {
+      "basename": "Cardinality",
+      "path": "Learning/Domain design Diagram/Cardinality.jpg"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "Learning/First Principle thinking.md"
+    },
+    {
+      "basename": "Rigor of thoughts",
+      "path": "Learning/Top Deliverables/Rigor of thoughts.md"
+    },
+    {
+      "basename": "Product Roadmap",
+      "path": "Learning/Top Deliverables/Product Roadmap.md"
+    },
+    {
+      "basename": "Metrics & Dashboards",
+      "path": "Learning/Top Deliverables/Metrics & Dashboards.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "Learning/Top Deliverables/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "Product specs",
+      "path": "Learning/Top Deliverables/Product specs.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
       "basename": "UTITSL_102 - Tech Doc",
@@ -35,10 +67,6 @@
     {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "First Principle thinking",
-      "path": "Learning/First Principle thinking.md"
     },
     {
       "basename": "Formulas Mathematics",
@@ -87,10 +115,6 @@
     {
       "basename": "2026-02-25",
       "path": "2026-02-25.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Instructions logic",
@@ -175,30 +199,6 @@
     {
       "basename": "The Thirteen Problems",
       "path": "Books/The Thirteen Problems.md"
-    },
-    {
-      "basename": "Annihilation of Caste",
-      "path": "Books/Annihilation of Caste.md"
-    },
-    {
-      "basename": "Thinking fast and slow",
-      "path": "Books/Thinking fast and slow.md"
-    },
-    {
-      "basename": "The Courage to be Disliked",
-      "path": "Books/The Courage to be Disliked.md"
-    },
-    {
-      "basename": "The bullshit jobs",
-      "path": "Books/The bullshit jobs.md"
-    },
-    {
-      "basename": "Hooked",
-      "path": "Books/Hooked.md"
-    },
-    {
-      "basename": "The lean startup",
-      "path": "Books/The lean startup.md"
     }
   ],
   "omittedPaths": [],
