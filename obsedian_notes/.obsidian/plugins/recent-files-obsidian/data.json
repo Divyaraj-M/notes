@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Domain diagram",
-      "path": "Learning/Domain design Diagram/Domain diagram.md"
+      "basename": "Cardinality",
+      "path": "Learning/Domain design Diagram/Cardinality.jpg"
     },
     {
       "basename": "ERD",
@@ -13,16 +13,36 @@
       "path": "Learning/Domain design Diagram/Evans03.pdf"
     },
     {
-      "basename": "Cardinality",
-      "path": "Learning/Domain design Diagram/Cardinality.jpg"
+      "basename": "Domain diagram",
+      "path": "Learning/Domain design Diagram/Domain diagram.md"
     },
     {
-      "basename": "Formulas Mathematics",
-      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "UTITSL_102 - Tech Doc",
       "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
+    },
+    {
+      "basename": "Project admin settings",
+      "path": "Product/Settings/Project admin settings.md"
+    },
+    {
+      "basename": "First Principle thinking - Table View",
+      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
+    },
+    {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "Learning/First Principle thinking.md"
+    },
+    {
+      "basename": "Formulas Mathematics",
+      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
     },
     {
       "basename": "Design diagram",
@@ -59,10 +79,6 @@
     {
       "basename": "Grafana",
       "path": "Learning/ARCA AI/Grafana/Grafana.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Teams check",
@@ -183,18 +199,6 @@
     {
       "basename": "The lean startup",
       "path": "Books/The lean startup.md"
-    },
-    {
-      "basename": "A little life",
-      "path": "Books/A little life.md"
-    },
-    {
-      "basename": "The Business Of Belonging",
-      "path": "Books/The Business Of Belonging.md"
-    },
-    {
-      "basename": "The Design of Everyday things",
-      "path": "Books/The Design of Everyday things.md"
     }
   ],
   "omittedPaths": [],
