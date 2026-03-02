@@ -5,6 +5,34 @@
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
+      "basename": "Screen Recording 2026-02-23 at 9.21.26 AM",
+      "path": "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Competitors Info",
+      "path": "Product/Projects/Context Info/Competitors Info.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+    },
+    {
+      "basename": "Context info - PRD",
+      "path": "Product/Projects/Context Info/Context info - PRD.md"
+    },
+    {
+      "basename": "Proposal",
+      "path": "Product/Dossiers/Proposals/Proposal.md"
+    },
+    {
       "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
       "path": "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
     },
@@ -15,14 +43,6 @@
     {
       "basename": "Evans03",
       "path": "Learning/Domain design Diagram/Evans03.pdf"
-    },
-    {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
-      "basename": "Proposal",
-      "path": "Product/Dossiers/Proposals/Proposal.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -179,26 +199,6 @@
     {
       "basename": "Audit report",
       "path": "Product/Audit report/Audit report.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "Product/Settings/Teams/Teams.md"
-    },
-    {
-      "basename": "Sensitive  projects",
-      "path": "Product/Settings/Teams/Sensitive  projects.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "To Kill a Mocking bird",
-      "path": "Books/To Kill a Mocking bird.md"
-    },
-    {
-      "basename": "Crime and punishment",
-      "path": "Books/Crime and punishment.md"
     }
   ],
   "omittedPaths": [],
