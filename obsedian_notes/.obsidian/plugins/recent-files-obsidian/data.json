@@ -5,24 +5,36 @@
       "path": "Product/Instructions/Instructions from the Document.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
+      "basename": "Share assign and review flow",
+      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
     },
     {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+      "basename": "UAT - 23022026",
+      "path": "Product/Projects/Obligations/UAT - 23022026.md"
     },
     {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
-      "basename": "WYSIWYG Editor _ PRD",
-      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
     {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Email Notifications",
+      "path": "Product/Email notifications/Email Notifications.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
+      "basename": "WYSIWYG Editor _ PRD",
+      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -187,18 +199,6 @@
     {
       "basename": "Untitled",
       "path": "Untitled.sheet"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Settings/Teams/Untitled.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "2026-01-29 UAT with Vipin",
-      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
     }
   ],
   "omittedPaths": [],

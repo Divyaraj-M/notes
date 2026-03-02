@@ -303,7 +303,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "instruc",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -334,8 +334,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -478,11 +477,15 @@
   },
   "active": "ce327bb6db7249f6",
   "lastOpenFiles": [
-    "Product/Instructions/Instructions.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Projects/Internal Share/Share assign and review flow.md",
+    "Product/Projects/Obligations/UAT - 23022026.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Email notifications/Email Notifications.md",
+    "Product/Instructions/Instructions from the Document.md",
+    "Product/Instructions/Instructions.md",
+    "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Dossiers/Proposals/Proposal.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Go-no-go/RFP training.md",
@@ -504,13 +507,9 @@
     "Learning/Top Deliverables/Metrics & Dashboards.md",
     "Learning/Top Deliverables/Product Management - Top Deliverables.md",
     "Learning/Top Deliverables/Product specs.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
-    "Learning/ARCA AI/UTITSL_102/Domain diagram.md",
-    "Learning/ARCA AI/UTITSL_102/Learning.md",
     "Learning/Domain design Diagram",
     "Untitled",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
-    "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
     "Untitled Diagram 1.svg",
     "Untitled Diagram.svg",

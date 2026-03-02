@@ -1,4 +1,4 @@
-#new_feature/Instructions/v1/
+#new_feature/Instructions/v1/from_prospect
 ## First Principle
 
 Prospect-defined instructions must not rely on manual copy-paste.
