@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Proposal",
+      "path": "Product/Dossiers/Proposals/Proposal.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -91,10 +99,6 @@
     {
       "basename": "Pasted image 20260301123651",
       "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
-    },
-    {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "Pasted image 20260301121747",
@@ -195,10 +199,6 @@
     {
       "basename": "மகிழ்ச்சியான பன்றிக்குட்டி",
       "path": "Books/மகிழ்ச்சியான பன்றிக்குட்டி.md"
-    },
-    {
-      "basename": "The Thirteen Problems",
-      "path": "Books/The Thirteen Problems.md"
     }
   ],
   "omittedPaths": [],

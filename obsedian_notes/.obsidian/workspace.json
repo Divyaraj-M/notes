@@ -187,6 +187,42 @@
             }
           },
           {
+            "id": "4d07527ccb8a5c3b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
+            }
+          },
+          {
+            "id": "1e504233e222784b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proposal Templates"
+            }
+          },
+          {
             "id": "da543ff0485f94be",
             "type": "leaf",
             "state": {
@@ -199,7 +235,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -403,14 +439,16 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "653564a2dab19546",
+  "active": "1e504233e222784b",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Dossiers/Proposals/Proposal.md",
     "Product/SparrowGenie.excalidraw.md",
     "Learning/Domain design Diagram/Domain diagram.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Learning/Domain design Diagram/ERD.md",
     "Learning/Domain design Diagram/Cardinality.jpg",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Learning/First Principle thinking.md",
     "Learning/Top Deliverables/Rigor of thoughts.md",
     "Learning/Top Deliverables/Product Roadmap.md",
@@ -443,7 +481,6 @@
     "Learning/ARCA AI/UTITSL_102.md",
     "Learning/ARCA AI/U.md",
     "Product/Settings/Teams/Teams check.md",
-    "2026-02-25.md",
     "Product/Dossiers/Proposals",
     "Product/Dossiers",
     "Untitled1.sheet",
