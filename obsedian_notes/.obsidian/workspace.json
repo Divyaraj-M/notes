@@ -216,10 +216,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md"
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
               },
               "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "title": "Proposal Conversion"
             }
           },
           {
@@ -441,8 +441,12 @@
   },
   "active": "6c7444d939bc9105",
   "lastOpenFiles": [
+    "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Product/Dossiers/Proposals/Proposal Templates.md",
@@ -452,8 +456,6 @@
     "Product/Dossiers/Proposals/Proposal.md",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/ERD.md",
-    "Learning/Domain design Diagram/Evans03.pdf",
-    "Product/SparrowGenie.excalidraw.md",
     "Learning/Domain design Diagram/Domain diagram.md",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/First Principle thinking.md",
@@ -475,9 +477,7 @@
     "Untitled Diagram.svg",
     "Learning/ARCA AI/Design diagram.md",
     "Learning/ARCA AI/Drawing 2026-03-01 12.43.42.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-01 12.43.42.excalidraw.md",
     "Learning/ARCA AI/Pasted image 20260301123651.png",
-    "Learning/ARCA AI/logstash/Logstash.md",
     "Learning/ARCA AI/logstash",
     "Learning/ARCA AI/Pasted image 20260301121747.png",
     "Learning/ARCA AI/Grafana",

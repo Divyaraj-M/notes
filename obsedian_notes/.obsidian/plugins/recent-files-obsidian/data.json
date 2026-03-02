@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "RFP training",
       "path": "Product/Go-no-go/RFP training.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
+      "basename": "Evans03",
+      "path": "Learning/Domain design Diagram/Evans03.pdf"
     },
     {
       "basename": "Obligations",
@@ -43,14 +59,6 @@
     {
       "basename": "ERD",
       "path": "Learning/Domain design Diagram/ERD.md"
-    },
-    {
-      "basename": "Evans03",
-      "path": "Learning/Domain design Diagram/Evans03.pdf"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Domain diagram",
@@ -191,14 +199,6 @@
     {
       "basename": "The 80'20 Principle",
       "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "Tiny Experiments",
-      "path": "Books/Tiny Experiments.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
-      "path": "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png"
     }
   ],
   "omittedPaths": [],
