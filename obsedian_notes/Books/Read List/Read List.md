@@ -34,4 +34,5 @@ comment: Rethinking mastery for generalists and multipotentialites.
 17. [[Annihilation of Caste]] - Not Started
 18. [[The Thirteen Problems]] -Not Started
 19. [[மகிழ்ச்சியான பன்றிக்குட்டி]]- Done
-20. 
+20. [Atomic Design](https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/) - Done
+21. 

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "Atomic Design",
+      "path": "Books/Read List/Atomic Design.md"
+    },
+    {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
       "basename": "Chrome Extension",
       "path": "Product/Projects/Chrome_extension/Chrome Extension.md"
     },
@@ -97,10 +109,6 @@
       "path": "Learning/Domain design Diagram/Evans03.pdf"
     },
     {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
-    },
-    {
       "basename": "Screen Recording 2026-02-23 at 9.21.26 AM",
       "path": "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20260301123651",
       "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
-    },
-    {
-      "basename": "Pasted image 20260301121747",
-      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
     }
   ],
   "omittedPaths": [],

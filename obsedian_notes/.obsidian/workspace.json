@@ -276,7 +276,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Chrome_extension/Chrome Extension.md",
+                "file": "Books/Read List/Read List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -291,7 +291,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chrome Extension"
+              "title": "Read List"
             }
           },
           {
@@ -513,6 +513,10 @@
   },
   "active": "bd433c480da42edf",
   "lastOpenFiles": [
+    "Books/Read List/Atomic Design.md",
+    "Books/Read List/Read List.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Go-no-go/RFP training.md",
     "Product/Projects/Context Info/Context info - PRD.md",
@@ -535,13 +539,9 @@
     "Product/Dossiers/Proposals/Proposal.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Go-no-go/Go - No- Go.md",
     "Learning/Domain design Diagram/Evans03.pdf",
-    "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
-    "Product/Projects/Context Info/Competitors Info.md",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "Learning/Domain design Diagram/ERD.md",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/Domain design Diagram",
     "Untitled",
