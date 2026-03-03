@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
@@ -13,20 +21,12 @@
       "path": "Product/Settings/Teams/Teams.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
       "basename": "2026-02-25",
       "path": "2026-02-25.md"
     },
     {
       "basename": "Teams check",
       "path": "Product/Settings/Teams/Teams check.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "SmartFill",

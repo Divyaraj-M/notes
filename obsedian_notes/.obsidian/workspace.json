@@ -70,24 +70,12 @@
             "id": "43ebfbee33a86333",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/SparrowGenie.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Proposal Templates"
+              "icon": "excalidraw-icon",
+              "title": "SparrowGenie.excalidraw"
             }
           }
         ],
@@ -298,12 +286,13 @@
   },
   "active": "43ebfbee33a86333",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Settings/Teams/Teams.md",
     "Product/SparrowGenie.excalidraw.md",
+    "Product/Settings/Teams/Teams.md",
     "2026-02-25.md",
     "Product/Settings/Teams/Teams check.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/competitors/Loopio/SmartFill.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Loopio/Loopio.md",
@@ -324,7 +313,6 @@
     "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Genie Journal/Demo Important Points.md",
-    "Product/Instructions/Instructions logic.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
