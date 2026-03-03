@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Context info - PRD",
+      "path": "Product/Projects/Context Info/Context info - PRD.md"
+    },
+    {
+      "basename": "Competitors Info PRD",
+      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
+    },
+    {
+      "basename": "Proposal to Project",
+      "path": "Product/competitors/Loopio/Proposal to Project.md"
+    },
+    {
+      "basename": "SmartFill",
+      "path": "Product/competitors/Loopio/SmartFill.md"
+    },
+    {
+      "basename": "SmartScan",
+      "path": "Product/competitors/Loopio/SmartScan.md"
+    },
+    {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+    },
+    {
+      "basename": "Demo Important Points",
+      "path": "Product/Genie Journal/Demo Important Points.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Instructions logic",
+      "path": "Product/Instructions/Instructions logic.md"
+    },
+    {
       "basename": "Instructions from the Document",
       "path": "Product/Instructions/Instructions from the Document.md"
     },
@@ -11,10 +47,6 @@
     {
       "basename": "UAT - 23022026",
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Proposal Template flow",
@@ -67,14 +99,6 @@
     {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Competitors Info PRD",
-      "path": "Product/Projects/Context Info/Competitors Info PRD.md"
-    },
-    {
-      "basename": "Context info - PRD",
-      "path": "Product/Projects/Context Info/Context info - PRD.md"
     },
     {
       "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
@@ -175,30 +199,6 @@
     {
       "basename": "Teams check",
       "path": "Product/Settings/Teams/Teams check.md"
-    },
-    {
-      "basename": "2026-02-25",
-      "path": "2026-02-25.md"
-    },
-    {
-      "basename": "Instructions logic",
-      "path": "Product/Instructions/Instructions logic.md"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/UX changes/Sign up and Onboarding mails.md"
-    },
-    {
-      "basename": "Untitled1",
-      "path": "Untitled1.sheet"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.sheet"
     }
   ],
   "omittedPaths": [],

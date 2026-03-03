@@ -223,12 +223,12 @@
             }
           },
           {
-            "id": "ce327bb6db7249f6",
+            "id": "023ce4c45e19f0b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Instructions/Instructions from the Document.md",
+                "file": "Product/competitors/Loopio/SmartScan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -243,19 +243,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Instructions from the Document"
+              "title": "SmartScan"
             }
           },
           {
-            "id": "023ce4c45e19f0b9",
+            "id": "d7fb15c95f6db732",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+                "file": "Product/competitors/Loopio/SmartFill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Conversion"
+              "icon": "lucide-file",
+              "title": "SmartFill"
+            }
+          },
+          {
+            "id": "bd433c480da42edf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Context Info/Context info - PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Context info - PRD"
             }
           },
           {
@@ -271,7 +307,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -475,15 +511,22 @@
       "bookshelf:Open Bookshelf statistics": false
     }
   },
-  "active": "7d5ca5715fbe7b32",
+  "active": "bd433c480da42edf",
   "lastOpenFiles": [
+    "Product/Projects/Context Info/Competitors Info PRD.md",
+    "Product/competitors/Loopio/Proposal to Project.md",
+    "Product/competitors/Loopio/SmartFill.md",
+    "Product/competitors/Loopio/SmartScan.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
+    "Product/Genie Journal/Demo Important Points.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Instructions/Instructions logic.md",
+    "Product/Instructions/Instructions from the Document.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Obligations/UAT - 23022026.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Email notifications/Email Notifications.md",
-    "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions.md",
     "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md",
     "Product/Dossiers/Proposals/Proposal.md",
@@ -495,18 +538,11 @@
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
     "Product/Projects/Context Info/Context info - PRD.md",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/ERD.md",
     "Learning/Domain design Diagram/Domain diagram.md",
     "Learning/Domain design Diagram/Cardinality.jpg",
-    "Learning/First Principle thinking.md",
-    "Learning/Top Deliverables/Rigor of thoughts.md",
-    "Learning/Top Deliverables/Product Roadmap.md",
-    "Learning/Top Deliverables/Metrics & Dashboards.md",
-    "Learning/Top Deliverables/Product Management - Top Deliverables.md",
-    "Learning/Top Deliverables/Product specs.md",
     "Learning/Domain design Diagram",
     "Untitled",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
