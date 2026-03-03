@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Product/Settings/Teams/Teams.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -117,10 +125,6 @@
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
     },
     {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Project admin settings",
       "path": "Product/Settings/Project admin settings.md"
-    },
-    {
-      "basename": "First Principle thinking - Table View",
-      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     }
   ],
   "omittedPaths": [],
