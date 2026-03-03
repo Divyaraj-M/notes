@@ -105,7 +105,7 @@ Watcher will have discussion-only access.
 	- Able to tag people 
 	- Tag list should show all the people from the System user list
 	- If the user doesn't have access to project , user will be prompted with modal for share access
-		- User can either ignore or can share and notify ([[Email Notifications]]
+		- User can either ignore or can share and notify ([[Email notifications]]
 		- ) the tagged user (can be taken from the project comment interaction)
 	  ![[Screenshot 2026-02-17 at 5.30.06 PM.png]]
 	- Able to edit and delete the comment 

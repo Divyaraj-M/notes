@@ -5,8 +5,44 @@
       "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
+      "basename": "Loopio",
+      "path": "Product/competitors/Loopio/Loopio.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
+    },
+    {
+      "basename": "SmartScan",
+      "path": "Product/competitors/Loopio/SmartScan.md"
+    },
+    {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+    },
+    {
+      "basename": "Context Info",
+      "path": "Product/Projects/Context Info/Context Info.md"
+    },
+    {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Tiny Experiments",
+      "path": "Books/Tiny Experiments.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Evans03",
+      "path": "Learning/Domain design Diagram/Evans03.pdf"
     },
     {
       "basename": "Read List",
@@ -49,14 +85,6 @@
       "path": "Product/competitors/Loopio/SmartFill.md"
     },
     {
-      "basename": "SmartScan",
-      "path": "Product/competitors/Loopio/SmartScan.md"
-    },
-    {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
-    },
-    {
       "basename": "Demo Important Points",
       "path": "Product/Genie Journal/Demo Important Points.md"
     },
@@ -85,10 +113,6 @@
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
-      "basename": "Email Notifications",
-      "path": "Product/Email notifications/Email Notifications.md"
-    },
-    {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
     },
@@ -103,10 +127,6 @@
     {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "Evans03",
-      "path": "Learning/Domain design Diagram/Evans03.pdf"
     },
     {
       "basename": "Screen Recording 2026-02-23 at 9.21.26 AM",
@@ -179,26 +199,6 @@
     {
       "basename": "Formulas Mathematics",
       "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
-    },
-    {
-      "basename": "Design diagram",
-      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
-    },
-    {
-      "basename": "Elastic Search",
-      "path": "Learning/ARCA AI/Elastic Search/Elastic Search.md"
-    },
-    {
-      "basename": "Kibana",
-      "path": "Learning/ARCA AI/Kiabana/Kibana.md"
-    },
-    {
-      "basename": "Logstash",
-      "path": "Learning/ARCA AI/logstash/Logstash.md"
-    },
-    {
-      "basename": "Pasted image 20260301123651",
-      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
     }
   ],
   "omittedPaths": [],
