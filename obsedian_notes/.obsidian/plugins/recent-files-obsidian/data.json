@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
     },
@@ -53,10 +61,6 @@
       "path": "Product/Genie Journal/Demo Important Points.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
       "basename": "Instructions logic",
       "path": "Product/Instructions/Instructions logic.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "WYSIWYG Editor _ PRD",
       "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     },
     {
       "basename": "Past RFP Similarity Score (PRS)",
