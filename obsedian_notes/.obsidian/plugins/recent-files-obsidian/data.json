@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "2026-02-25",
+      "path": "2026-02-25.md"
+    },
+    {
+      "basename": "Teams check",
+      "path": "Product/Settings/Teams/Teams check.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "SmartFill",
+      "path": "Product/competitors/Loopio/SmartFill.md"
+    },
+    {
+      "basename": "SmartScan",
+      "path": "Product/competitors/Loopio/SmartScan.md"
     },
     {
       "basename": "Loopio",
@@ -11,10 +35,6 @@
     {
       "basename": "Email notifications",
       "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
-      "basename": "SmartScan",
-      "path": "Product/competitors/Loopio/SmartScan.md"
     },
     {
       "basename": "Go-no-Go - loopio",
@@ -35,10 +55,6 @@
     {
       "basename": "Tiny Experiments",
       "path": "Books/Tiny Experiments.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Evans03",
@@ -81,10 +97,6 @@
       "path": "Product/competitors/Loopio/Proposal to Project.md"
     },
     {
-      "basename": "SmartFill",
-      "path": "Product/competitors/Loopio/SmartFill.md"
-    },
-    {
       "basename": "Demo Important Points",
       "path": "Product/Genie Journal/Demo Important Points.md"
     },
@@ -103,10 +115,6 @@
     {
       "basename": "UAT - 23022026",
       "path": "Product/Projects/Obligations/UAT - 23022026.md"
-    },
-    {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
     {
       "basename": "Proposal Templates",
@@ -191,14 +199,6 @@
     {
       "basename": "First Principle thinking - Table View",
       "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "Formulas Mathematics",
-      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
     }
   ],
   "omittedPaths": [],
