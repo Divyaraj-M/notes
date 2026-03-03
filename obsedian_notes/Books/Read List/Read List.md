@@ -29,7 +29,7 @@ comment: Rethinking mastery for generalists and multipotentialites.
 12. [[The bullshit jobs]] - Not yet purchased 
 13. [Why Multi-Passionate people need to approach mastery differently](https://archeronline.substack.com/p/why-multi-passionate-people-need) 
 14. [Nesslabs](https://nesslabs.com/)
-15. [[Thinking fast and slow]] - Not Started
+15. ==[[Thinking fast and slow]] -Reading==
 16. [[Crime and punishment]] - Not Started
 17. [[Annihilation of Caste]] - Not Started
 18. [[The Thirteen Problems]] -Not Started
