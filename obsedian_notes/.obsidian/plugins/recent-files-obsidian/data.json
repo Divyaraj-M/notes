@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Chrome Extension",
+      "path": "Product/Projects/Chrome_extension/Chrome Extension.md"
+    },
+    {
+      "basename": "Knowledge Hub",
+      "path": "Product/Knowledge Hub/Knowledge Hub.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
       "basename": "Context info - PRD",
       "path": "Product/Projects/Context Info/Context info - PRD.md"
     },
@@ -71,10 +83,6 @@
     {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
     },
     {
       "basename": "Past RFP Similarity Score (PRS)",
@@ -191,14 +199,6 @@
     {
       "basename": "Demo",
       "path": "Product/Demo/Demo.md"
-    },
-    {
-      "basename": "Grafana",
-      "path": "Learning/ARCA AI/Grafana/Grafana.md"
-    },
-    {
-      "basename": "Teams check",
-      "path": "Product/Settings/Teams/Teams check.md"
     }
   ],
   "omittedPaths": [],
