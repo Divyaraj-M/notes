@@ -13,7 +13,8 @@ Largest Column: standard
 
 > [!TODO] Screens needed - High level 
 > Admin level - Template editor
-> Admin level - Template editor
+> Settings screen 
+> 
 
 
 --- column-break ---
