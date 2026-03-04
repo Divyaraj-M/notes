@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
       "basename": "SparrowGenie.excalidraw",
       "path": "Product/SparrowGenie.excalidraw.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "UTITSL_102 - Tech Doc",
       "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
-    },
-    {
-      "basename": "Project admin settings",
-      "path": "Product/Settings/Project admin settings.md"
     }
   ],
   "omittedPaths": [],
