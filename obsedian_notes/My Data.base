@@ -1,0 +1,31 @@
+views:
+  - type: table
+    name: My Books
+    filters:
+      and:
+        - file.inFolder("Books")
+    groupBy:
+      property: lists
+      direction: ASC
+    order:
+      - file.name
+      - author
+      - file.tags
+      - pages
+      - lists
+      - file.basename
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 340
+    image: note.cover
+    imageFit: contain
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Product")
+    sort: []
+  - type: table
+    name: My Work

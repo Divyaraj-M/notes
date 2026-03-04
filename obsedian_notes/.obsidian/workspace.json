@@ -130,17 +130,41 @@
             "id": "793d3136dfbbbbb3",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List/Atomic Design.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Atomic Design"
+            }
+          },
+          {
+            "id": "9109ee3359b1bd65",
+            "type": "leaf",
+            "state": {
               "type": "bases",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "My Data.base",
+                "viewName": "My Work"
               },
               "icon": "lucide-table",
-              "title": "Untitled"
+              "title": "My Data"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -224,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.base",
+                "file": "My Data.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +258,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for My Data"
             }
           },
           {
@@ -243,12 +267,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.base",
+                "file": "My Data.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from My Data"
             }
           },
           {
@@ -326,7 +350,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -346,10 +370,14 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "793d3136dfbbbbb3",
+  "active": "9109ee3359b1bd65",
   "lastOpenFiles": [
+    "Books/Read List/Atomic Design.md",
+    "Books/The Thirteen Problems.md",
+    "Books/Read List/Read List.md",
+    "My Data.base",
+    "Books/Untitled.md",
     "Books/A little life.md",
-    "Untitled.base",
     "Untitled 1.md",
     "Untitled.md",
     "2026-02-25.md",
@@ -357,7 +385,6 @@
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",
     "Product/sghelparticle/_sidebar.md",
-    "Books/Read List/Read List.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/UAT Vipin.md",
     "Product/Settings/Teams/Teams.md",
@@ -375,8 +402,6 @@
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Settings/Teams/Teams check.md",
     "Product/competitors/Loopio/SmartFill.md",
-    "Product/competitors/Loopio/SmartScan.md",
-    "Product/competitors/Loopio/Loopio.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

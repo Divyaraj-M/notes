@@ -14,6 +14,8 @@ lists:
   - Article
 comment: Rethinking mastery for generalists and multipotentialites.
 ---
+![[My Data.base#My Books]]
+
 
 1. [[Creative Selection]] Not purchased 
 2. [[The Design of Everyday things]] - Not purchased 

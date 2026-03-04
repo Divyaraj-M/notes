@@ -11,4 +11,5 @@ pages: 720
 lists:
   - Not Purchased
 comment: Intense literary novel exploring trauma and lifelong friendship.
+excalidraw-plugin:
 ---

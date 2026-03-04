@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
   "pdfExportSettings": {
@@ -12,5 +12,8 @@
   "promptDelete": false,
   "propertiesInDocument": "visible",
   "rightToLeft": false,
-  "tabSize": 4
+  "tabSize": 4,
+  "foldIndent": true,
+  "foldHeading": true,
+  "defaultViewMode": "source"
 }
