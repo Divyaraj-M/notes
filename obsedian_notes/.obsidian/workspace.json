@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Templates/Product Spec - Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Product Spec - Template"
             }
           }
         ],
@@ -310,8 +310,12 @@
   },
   "active": "ee4a5d4b890623db",
   "lastOpenFiles": [
-    "Product/SparrowGenie.excalidraw.md",
+    "Product/Templates/First-Principles Product Template.md",
+    "Product/Templates/Product Spec - Template.md",
+    "Product/Templates/Book shelf.md",
+    "Product/Templates/Template - PM.md",
     "Product/UAT Vipin.md",
+    "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
@@ -333,10 +337,6 @@
     "Product/Projects/Obligations/Obligations.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
-    "Product/Go-no-go/RFP training.md",
-    "Product/Projects/Context Info/Context info - PRD.md",
-    "Product/Projects/Context Info/Competitors Info PRD.md",
-    "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",

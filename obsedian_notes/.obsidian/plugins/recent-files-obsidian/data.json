@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Spec - Template",
+      "path": "Product/Templates/Product Spec - Template.md"
+    },
+    {
+      "basename": "First-Principles Product Template",
+      "path": "Product/Templates/First-Principles Product Template.md"
+    },
+    {
+      "basename": "Book shelf",
+      "path": "Product/Templates/Book shelf.md"
+    },
+    {
+      "basename": "Template - PM",
+      "path": "Product/Templates/Template - PM.md"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Metrics & Dashboards",
       "path": "Learning/Top Deliverables/Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "Learning/Top Deliverables/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Product specs",
-      "path": "Learning/Top Deliverables/Product specs.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "UTITSL_102 - Tech Doc",
-      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
     }
   ],
   "omittedPaths": [],
