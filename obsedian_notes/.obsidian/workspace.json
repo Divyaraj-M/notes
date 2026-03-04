@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Settings/Teams/Assigning to the section.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -123,7 +123,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Assigning to the section"
             }
           }
         ],
@@ -159,7 +159,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "team",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -211,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/ARCA AI/Kiabana/Kibana.md",
+                "file": "Product/Settings/Teams/Assigning to the section.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kibana"
+              "title": "Backlinks for Assigning to the section"
             }
           },
           {
@@ -230,11 +230,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/Settings/Teams/Assigning to the section.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Assigning to the section"
             }
           },
           {
@@ -290,8 +291,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -334,6 +334,10 @@
   },
   "active": "dc80bf06b93f5ae2",
   "lastOpenFiles": [
+    "Product/Settings/Teams/Teams.md",
+    "Product/Settings/Teams/Known Unknown Matrix.md",
+    "Product/Settings/Teams/Assigning to the section.md",
+    "Product/UAT Vipin.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
@@ -342,11 +346,9 @@
     "Product/Templates/Book shelf.md",
     "Product/Templates/First-Principles Product Template.md",
     "Product/Templates/Template - PM.md",
-    "Product/UAT Vipin.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Settings/Teams/Teams.md",
     "2026-02-25.md",
     "Product/Settings/Teams/Teams check.md",
     "Product/competitors/Loopio/SmartFill.md",
@@ -359,8 +361,6 @@
     "Product/Demo/Demo.md",
     "Books/Tiny Experiments.md",
     "Learning/Domain design Diagram/Evans03.pdf",
-    "Books/Read List/Read List.md",
-    "Books/Read List/Atomic Design.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",

@@ -11,13 +11,9 @@ Team assignment affects **only that section**, not the whole project.
 This is a **workflow-level permission**, not a visibility or access propagation feature.
 
 - When a section is assigned to a team, team members get **view-only** access to that section.
-    
 - They may **claim questions** to gain **edit access** to those questions.
-    
 - Teams do **not** get visibility to other sections or the full project.
-    
 - Sensitive projects may block team assignment unless owner explicitly approves.
-    
 
 This keeps the model simple and avoids permission leaks.
 

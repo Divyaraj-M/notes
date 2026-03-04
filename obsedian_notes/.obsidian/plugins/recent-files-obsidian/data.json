@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Assigning to the section",
+      "path": "Product/Settings/Teams/Assigning to the section.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Product/Settings/Teams/Teams.md"
+    },
+    {
+      "basename": "Known Unknown Matrix",
+      "path": "Product/Settings/Teams/Known Unknown Matrix.md"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "Product/Settings/Teams/Teams.md"
     },
     {
       "basename": "2026-02-25",
@@ -191,14 +199,6 @@
     {
       "basename": "First Principle thinking",
       "path": "Learning/First Principle thinking.md"
-    },
-    {
-      "basename": "Rigor of thoughts",
-      "path": "Learning/Top Deliverables/Rigor of thoughts.md"
-    },
-    {
-      "basename": "Product Roadmap",
-      "path": "Learning/Top Deliverables/Product Roadmap.md"
     }
   ],
   "omittedPaths": [],

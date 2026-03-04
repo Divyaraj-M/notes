@@ -10,3 +10,10 @@ Able to map from  header
 Instrutions based on the 
 Instructions to Submissions instructions 
 Label the question with genie filled 
+Navigation from workspace to project 
+  5 Item 
+  Search is for project title
+  Articlautions should be done 
+  Geneie contributon and loading screen 
+  Assignment in the team
+  
