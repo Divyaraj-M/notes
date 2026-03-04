@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/The Radical Art of SelfLove.md",
+                "file": "Books/A little life.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -71,7 +71,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Radical Art of SelfLove"
+              "title": "A little life"
             }
           }
         ],
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/The Radical Art of SelfLove.md",
+                "file": "Books/A little life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Radical Art of SelfLove"
+              "title": "Backlinks for A little life"
             }
           },
           {
@@ -178,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/The Radical Art of SelfLove.md",
+                "file": "Books/A little life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from The Radical Art of SelfLove"
+              "title": "Outgoing links from A little life"
             }
           },
           {
@@ -279,16 +279,17 @@
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
       "obsidiosaurus:Obsidiosaurus": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "card-board:CardBoard": false
     }
   },
   "active": "b8b76567c0e4a129",
   "lastOpenFiles": [
+    "Excalidraw/ExcalidrawStartup.md",
     "Books/A little life.md",
     "Books/The Radical Art of SelfLove.md",
     "Books/Thinking fast and slow.md",
     "Product/Help Article/Mapping.md",
-    "Excalidraw/ExcalidrawStartup.md",
     "Product/sghelparticle/docs/projects/starting-a-project/README.md",
     "Product/Help Article",
     "Product/Help Article/How to Create a project.md",
