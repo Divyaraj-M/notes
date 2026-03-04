@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/Mapping.md",
+                "file": "Books/The Radical Art of SelfLove.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -71,7 +71,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mapping"
+              "title": "The Radical Art of SelfLove"
             }
           }
         ],
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Help Article/Mapping.md",
+                "file": "Books/The Radical Art of SelfLove.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mapping"
+              "title": "Backlinks for The Radical Art of SelfLove"
             }
           },
           {
@@ -178,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Help Article/Mapping.md",
+                "file": "Books/The Radical Art of SelfLove.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mapping"
+              "title": "Outgoing links from The Radical Art of SelfLove"
             }
           },
           {
@@ -278,13 +278,17 @@
       "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidiosaurus:Obsidiosaurus": false
+      "obsidiosaurus:Obsidiosaurus": false,
+      "obsidian-book-search-plugin:Create new book note": false
     }
   },
   "active": "b8b76567c0e4a129",
   "lastOpenFiles": [
-    "Excalidraw/ExcalidrawStartup.md",
+    "Books/A little life.md",
+    "Books/The Radical Art of SelfLove.md",
+    "Books/Thinking fast and slow.md",
     "Product/Help Article/Mapping.md",
+    "Excalidraw/ExcalidrawStartup.md",
     "Product/sghelparticle/docs/projects/starting-a-project/README.md",
     "Product/Help Article",
     "Product/Help Article/How to Create a project.md",
@@ -296,7 +300,6 @@
     "My Data.base",
     "Books/The Thirteen Problems.md",
     "Books/Untitled.md",
-    "Books/A little life.md",
     "Untitled 1.md",
     "Untitled.md",
     "Books/Read List/Untitled.base",
@@ -312,8 +315,6 @@
     "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Templates/Book shelf.md",
-    "Product/Templates/First-Principles Product Template.md",
-    "Product/Templates/Template - PM.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "The Radical Art of SelfLove",
+      "path": "Books/The Radical Art of SelfLove.md"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
+    },
+    {
+      "basename": "Thinking fast and slow",
+      "path": "Books/Thinking fast and slow.md"
+    },
+    {
       "basename": "Mapping",
       "path": "Product/Help Article/Mapping.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "The Thirteen Problems",
       "path": "Books/The Thirteen Problems.md"
-    },
-    {
-      "basename": "A little life",
-      "path": "Books/A little life.md"
     },
     {
       "basename": "UAT Vipin",
@@ -191,10 +199,6 @@
     {
       "basename": "Past RFP Similarity Score (PRS)",
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
     }
   ],
   "omittedPaths": [],
