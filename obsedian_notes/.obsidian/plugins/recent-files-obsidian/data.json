@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Assigning to the section",
-      "path": "Product/Settings/Teams/Assigning to the section.md"
+      "basename": "Untitled",
+      "path": "Untitled.base"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
+    },
+    {
+      "basename": "2026-02-25",
+      "path": "2026-02-25.md"
+    },
+    {
+      "basename": "_sidebar",
+      "path": "Product/sghelparticle/_sidebar.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "Teams",
       "path": "Product/Settings/Teams/Teams.md"
     },
     {
-      "basename": "Known Unknown Matrix",
-      "path": "Product/Settings/Teams/Known Unknown Matrix.md"
+      "basename": "Assigning to the section",
+      "path": "Product/Settings/Teams/Assigning to the section.md"
     },
     {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
+      "basename": "Known Unknown Matrix",
+      "path": "Product/Settings/Teams/Known Unknown Matrix.md"
     },
     {
       "basename": "Proposal Conversion",
@@ -49,20 +73,12 @@
       "path": "Product/Templates/Template - PM.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
-    },
-    {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "2026-02-25",
-      "path": "2026-02-25.md"
     },
     {
       "basename": "Teams check",
@@ -107,10 +123,6 @@
     {
       "basename": "Evans03",
       "path": "Learning/Domain design Diagram/Evans03.pdf"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Atomic Design",
@@ -179,26 +191,6 @@
     {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
-      "path": "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
-    },
-    {
-      "basename": "ERD",
-      "path": "Learning/Domain design Diagram/ERD.md"
-    },
-    {
-      "basename": "Domain diagram",
-      "path": "Learning/Domain design Diagram/Domain diagram.md"
-    },
-    {
-      "basename": "Cardinality",
-      "path": "Learning/Domain design Diagram/Cardinality.jpg"
-    },
-    {
-      "basename": "First Principle thinking",
-      "path": "Learning/First Principle thinking.md"
     }
   ],
   "omittedPaths": [],

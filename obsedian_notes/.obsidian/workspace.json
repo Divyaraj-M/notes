@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Settings/Teams/Assigning to the section.md",
+                "file": "2026-02-25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -123,11 +123,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Assigning to the section"
+              "title": "2026-02-25"
+            }
+          },
+          {
+            "id": "793d3136dfbbbbb3",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -211,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Settings/Teams/Assigning to the section.md",
+                "file": "Untitled.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +234,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Assigning to the section"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -230,12 +243,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Settings/Teams/Assigning to the section.md",
+                "file": "Untitled.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Assigning to the section"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -291,7 +304,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "f9e48eb245bc3a0a",
@@ -332,12 +346,23 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "dc80bf06b93f5ae2",
+  "active": "793d3136dfbbbbb3",
   "lastOpenFiles": [
-    "Product/Settings/Teams/Teams.md",
-    "Product/Settings/Teams/Known Unknown Matrix.md",
-    "Product/Settings/Teams/Assigning to the section.md",
+    "Books/A little life.md",
+    "Untitled.base",
+    "Untitled 1.md",
+    "Untitled.md",
+    "2026-02-25.md",
+    "Books/Read List/Untitled.base",
+    "Untitled1.sheet",
+    "Product/sghelparticle/Untitled.base",
+    "Product/sghelparticle/_sidebar.md",
+    "Books/Read List/Read List.md",
+    "Product/SparrowGenie.excalidraw.md",
     "Product/UAT Vipin.md",
+    "Product/Settings/Teams/Teams.md",
+    "Product/Settings/Teams/Assigning to the section.md",
+    "Product/Settings/Teams/Known Unknown Matrix.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
@@ -346,20 +371,12 @@
     "Product/Templates/Book shelf.md",
     "Product/Templates/First-Principles Product Template.md",
     "Product/Templates/Template - PM.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "2026-02-25.md",
     "Product/Settings/Teams/Teams check.md",
     "Product/competitors/Loopio/SmartFill.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Loopio/Loopio.md",
-    "Product/Email notifications/Email notifications.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/Projects/Context Info/Context Info.md",
-    "Product/Audit report/Audit report.md",
-    "Product/Demo/Demo.md",
-    "Books/Tiny Experiments.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
@@ -374,10 +391,6 @@
     "Learning/ARCA AI/logstash",
     "Learning/ARCA AI/Pasted image 20260301121747.png",
     "Learning/ARCA AI/Grafana",
-    "Learning/ARCA AI/UTITSL_102",
-    "UTITSL_102",
-    "Product/Dossiers/Proposals",
-    "Product/Dossiers",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Go-No-Go.canvas",
