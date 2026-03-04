@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Templates/Product Spec - Template.md",
+                "file": "Product/Knowledge Hub/Knowledge Hub.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,11 +99,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Product Spec - Template"
+              "title": "Knowledge Hub"
+            }
+          },
+          {
+            "id": "dc80bf06b93f5ae2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Training back Projects into Knowledge Hubs"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -308,11 +332,13 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "ee4a5d4b890623db",
+  "active": "dc80bf06b93f5ae2",
   "lastOpenFiles": [
-    "Product/Templates/First-Principles Product Template.md",
-    "Product/Templates/Product Spec - Template.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Templates/Book shelf.md",
+    "Product/Templates/Product Spec - Template.md",
+    "Product/Templates/First-Principles Product Template.md",
     "Product/Templates/Template - PM.md",
     "Product/UAT Vipin.md",
     "Product/SparrowGenie.excalidraw.md",
@@ -335,8 +361,6 @@
     "Books/Read List/Read List.md",
     "Books/Read List/Atomic Design.md",
     "Product/Projects/Obligations/Obligations.md",
-    "Product/Projects/Chrome_extension/Chrome Extension.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
