@@ -36,7 +36,6 @@
           {
             "id": "0b29db05af82a65e",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "library",
               "state": {
@@ -47,44 +46,17 @@
                 "sort": "reading_progress_desc",
                 "view": "gallery"
               },
-              "pinned": true,
               "icon": "library-big",
               "title": "Bookshelf library"
             }
           },
           {
-            "id": "a7f9210b3d645482",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "pinned": true,
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "43ebfbee33a86333",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
-            }
-          },
-          {
-            "id": "ee4a5d4b890623db",
+            "id": "b8b76567c0e4a129",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Knowledge Hub/Knowledge Hub.md",
+                "file": "Product/Help Article/Mapping.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,72 +71,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Knowledge Hub"
-            }
-          },
-          {
-            "id": "dc80bf06b93f5ae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-02-25.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-25"
-            }
-          },
-          {
-            "id": "793d3136dfbbbbb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Read List/Atomic Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Atomic Design"
-            }
-          },
-          {
-            "id": "9109ee3359b1bd65",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "My Data.base",
-                "viewName": "My Work"
-              },
-              "icon": "lucide-table",
-              "title": "My Data"
+              "title": "Mapping"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Data.base",
+                "file": "Product/Help Article/Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My Data"
+              "title": "Backlinks for Mapping"
             }
           },
           {
@@ -267,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Data.base",
+                "file": "Product/Help Article/Mapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My Data"
+              "title": "Outgoing links from Mapping"
             }
           },
           {
@@ -350,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -370,22 +281,28 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "9109ee3359b1bd65",
+  "active": "b8b76567c0e4a129",
   "lastOpenFiles": [
-    "Books/Read List/Atomic Design.md",
-    "Books/The Thirteen Problems.md",
+    "Excalidraw/ExcalidrawStartup.md",
+    "Product/Help Article/Mapping.md",
+    "Product/sghelparticle/docs/projects/starting-a-project/README.md",
+    "Product/Help Article",
+    "Product/Help Article/How to Create a project.md",
     "Books/Read List/Read List.md",
+    "Product/SparrowGenie.excalidraw.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "2026-02-25.md",
+    "Books/Read List/Atomic Design.md",
     "My Data.base",
+    "Books/The Thirteen Problems.md",
     "Books/Untitled.md",
     "Books/A little life.md",
     "Untitled 1.md",
     "Untitled.md",
-    "2026-02-25.md",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",
     "Product/sghelparticle/_sidebar.md",
-    "Product/SparrowGenie.excalidraw.md",
     "Product/UAT Vipin.md",
     "Product/Settings/Teams/Teams.md",
     "Product/Settings/Teams/Assigning to the section.md",
@@ -394,20 +311,14 @@
     "Product/Templates/Product Spec - Template.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Templates/Book shelf.md",
     "Product/Templates/First-Principles Product Template.md",
     "Product/Templates/Template - PM.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Settings/Teams/Teams check.md",
-    "Product/competitors/Loopio/SmartFill.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/Domain design Diagram",
-    "Untitled",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
     "Untitled Diagram 1.svg",

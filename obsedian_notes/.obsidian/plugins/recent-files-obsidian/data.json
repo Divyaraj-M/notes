@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "My Data",
-      "path": "My Data.base"
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
     },
     {
-      "basename": "Atomic Design",
-      "path": "Books/Read List/Atomic Design.md"
+      "basename": "ExcalidrawStartup",
+      "path": "Excalidraw/ExcalidrawStartup.md"
     },
     {
-      "basename": "The Thirteen Problems",
-      "path": "Books/The Thirteen Problems.md"
+      "basename": "How to Create a project",
+      "path": "Product/Help Article/How to Create a project.md"
     },
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
     },
     {
-      "basename": "A little life",
-      "path": "Books/A little life.md"
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Knowledge Hub",
+      "path": "Product/Knowledge Hub/Knowledge Hub.md"
     },
     {
       "basename": "2026-02-25",
       "path": "2026-02-25.md"
     },
     {
-      "basename": "_sidebar",
-      "path": "Product/sghelparticle/_sidebar.md"
+      "basename": "Atomic Design",
+      "path": "Books/Read List/Atomic Design.md"
     },
     {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
+      "basename": "The Thirteen Problems",
+      "path": "Books/The Thirteen Problems.md"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
     },
     {
       "basename": "UAT Vipin",
@@ -63,10 +75,6 @@
     {
       "basename": "Training back Projects into Knowledge Hubs",
       "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Knowledge Hub",
-      "path": "Product/Knowledge Hub/Knowledge Hub.md"
     },
     {
       "basename": "Book shelf",
@@ -187,14 +195,6 @@
     {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "Screen Recording 2026-02-23 at 9.21.26 AM",
-      "path": "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov"
-    },
-    {
-      "basename": "Competitors Info",
-      "path": "Product/Projects/Context Info/Competitors Info.md"
     }
   ],
   "omittedPaths": [],

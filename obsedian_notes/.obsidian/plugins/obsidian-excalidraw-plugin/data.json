@@ -160371,7 +160371,7 @@
   "gridSettings": {
     "DYNAMIC_COLOR": true,
     "COLOR": "#000000",
-    "OPACITY": 50,
+    "OPACITY": 72,
     "GRID_DIRECTION": {
       "horizontal": true,
       "vertical": true
@@ -160395,7 +160395,7 @@
   },
   "markdownNodeOneClickEditing": false,
   "canvasImmersiveEmbed": true,
-  "startupScriptPath": "",
+  "startupScriptPath": "Excalidraw/ExcalidrawStartup",
   "aiEnabled": true,
   "openAIAPIToken": "",
   "openAIDefaultTextModel": "gpt-5-mini",
