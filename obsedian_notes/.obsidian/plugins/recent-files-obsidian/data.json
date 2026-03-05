@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Attachments in RFP response - Product Spec",
+      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+    },
+    {
       "basename": "RFP training",
       "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
     },
     {
       "basename": "Proposal Conversion",
@@ -183,14 +199,6 @@
     {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "WYSIWYG Editor _ PRD",
-      "path": "Product/Projects/Rich text/WYSIWYG Editor _ PRD.md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     }
   ],
   "omittedPaths": [],

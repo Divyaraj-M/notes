@@ -54,12 +54,24 @@
             "id": "b8b76567c0e4a129",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md"
+                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "Multicolumn , check box"
             }
           }
         ],
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md",
+                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFP training"
+              "title": "Backlinks for Multicolumn , check box"
             }
           },
           {
@@ -166,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md",
+                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFP training"
+              "title": "Outgoing links from Multicolumn , check box"
             }
           },
           {
@@ -273,6 +285,12 @@
   },
   "active": "b8b76567c0e4a129",
   "lastOpenFiles": [
+    "Product/Projects/Answers",
+    "Product/Projects/Questions",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Books/A little life.md",
     "2026-03-05.md",
@@ -299,11 +317,6 @@
     "Product/sghelparticle/_sidebar.md",
     "Product/UAT Vipin.md",
     "Product/Settings/Teams/Teams.md",
-    "Product/Settings/Teams/Assigning to the section.md",
-    "Product/Settings/Teams/Known Unknown Matrix.md",
-    "Product/Templates/Product Spec - Template.md",
-    "Product/Projects/Chrome_extension/Chrome Extension.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
@@ -316,7 +329,6 @@
     "Learning/ARCA AI/Pasted image 20260301123651.png",
     "Learning/ARCA AI/logstash",
     "Learning/ARCA AI/Pasted image 20260301121747.png",
-    "Learning/ARCA AI/Grafana",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Go-No-Go.canvas",
