@@ -131,9 +131,45 @@
               "icon": "card-board",
               "title": "CardBoard"
             }
+          },
+          {
+            "id": "167e053ff8a1abe5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
+            }
+          },
+          {
+            "id": "d41f120adc443c5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RFP to Proposal"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -307,7 +343,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -333,11 +369,13 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "4b076409937b247d",
+  "active": "d41f120adc443c5a",
   "lastOpenFiles": [
-    "Product/Projects/Answers/Answers.md",
-    "Product/Projects/Answers/Answer types.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Go-no-go/RFP training.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Projects/Answers/Answers.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
@@ -345,7 +383,6 @@
     "Books/Read List/Read List.md",
     "Product/Projects/Answers",
     "Product/Projects/Questions",
-    "Product/Go-no-go/RFP training.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Books/A little life.md",
@@ -364,7 +401,6 @@
     "My Data.base",
     "Books/The Thirteen Problems.md",
     "Books/Untitled.md",
-    "Untitled 1.md",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",

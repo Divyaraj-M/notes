@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
     },
     {
       "basename": "Answers",
       "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Table view for question card PRD",
@@ -31,10 +39,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
     },
     {
       "basename": "Past RFP Similarity Score (PRS)",
@@ -195,10 +199,6 @@
     {
       "basename": "Demo Important Points",
       "path": "Product/Genie Journal/Demo Important Points.md"
-    },
-    {
-      "basename": "Instructions logic",
-      "path": "Product/Instructions/Instructions logic.md"
     }
   ],
   "omittedPaths": [],
