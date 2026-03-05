@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Answers",
+      "path": "Product/Projects/Answers/Answers.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "First Principle thinking - Table View",
+      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
     },
     {
       "basename": "Attachments in RFP response - Product Spec",
       "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+    },
+    {
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "RFP training",
@@ -19,10 +43,6 @@
     {
       "basename": "External Questionnaire Score (EQS)",
       "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "A little life",
@@ -39,10 +59,6 @@
     {
       "basename": "How to Create a project",
       "path": "Product/Help Article/How to Create a project.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "SparrowGenie.excalidraw",
@@ -183,22 +199,6 @@
     {
       "basename": "Instructions logic",
       "path": "Product/Instructions/Instructions logic.md"
-    },
-    {
-      "basename": "Instructions from the Document",
-      "path": "Product/Instructions/Instructions from the Document.md"
-    },
-    {
-      "basename": "Share assign and review flow",
-      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
-    },
-    {
-      "basename": "UAT - 23022026",
-      "path": "Product/Projects/Obligations/UAT - 23022026.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
     }
   ],
   "omittedPaths": [],

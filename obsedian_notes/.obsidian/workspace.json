@@ -73,9 +73,57 @@
               "icon": "lucide-file",
               "title": "Multicolumn , check box"
             }
+          },
+          {
+            "id": "2d1e2d6cb0e38aad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Answers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Answers"
+            }
+          },
+          {
+            "id": "7bce1fec44f49a9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Answer types.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Answer types"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -159,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+                "file": "Product/Projects/Answers/Answer types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +217,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multicolumn , check box"
+              "title": "Backlinks for Answer types"
             }
           },
           {
@@ -178,12 +226,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+                "file": "Product/Projects/Answers/Answer types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Multicolumn , check box"
+              "title": "Outgoing links from Answer types"
             }
           },
           {
@@ -283,15 +331,21 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "b8b76567c0e4a129",
+  "active": "7bce1fec44f49a9c",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Answers.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Projects/Table View/First Principle thinking - Table View.md",
+    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Books/Read List/Read List.md",
     "Product/Projects/Answers",
     "Product/Projects/Questions",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Go-no-go/RFP training.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Books/A little life.md",
     "2026-03-05.md",
     "Excalidraw/ExcalidrawStartup.md",
@@ -301,7 +355,6 @@
     "Product/sghelparticle/docs/projects/starting-a-project/README.md",
     "Product/Help Article",
     "Product/Help Article/How to Create a project.md",
-    "Books/Read List/Read List.md",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "2026-02-25.md",
@@ -310,13 +363,9 @@
     "Books/The Thirteen Problems.md",
     "Books/Untitled.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",
-    "Product/sghelparticle/_sidebar.md",
-    "Product/UAT Vipin.md",
-    "Product/Settings/Teams/Teams.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
@@ -327,7 +376,6 @@
     "Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "Learning/ARCA AI/Pasted image 20260301123651.png",
-    "Learning/ARCA AI/logstash",
     "Learning/ARCA AI/Pasted image 20260301121747.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
