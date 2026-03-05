@@ -1,13 +1,11 @@
-# RFP Training — Feature Spec
-**Feature:** Knowledge Hub Training Loop
-**Author:** Product
-**Status:** Draft
-**Last Updated:** 2026-03-05
-
+---
+name: feature-spec
+description: Write structured product requirements documents (PRDs) with problem statements, user stories, requirements, and success metrics. Use when speccing a new feature, writing a PRD, defining acceptance criteria, prioritizing requirements, or documenting product decisions.
+tags:
+  - new_feauture/knowledge_hub
 ---
 
 # Context
-**Purpose:** Create a shared understanding of why we are building the RFP Training loop and what must be prioritized while building it.
 
 ## Problem Statement
 SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
@@ -192,13 +190,13 @@ Acceptance criteria:
 | Project feedback trigger rate | 100% of completed projects trigger the feedback pipeline | Event log audit |
 
 ### Lagging Indicators (weeks to months)
-| Metric | Target | Measurement |
-|---|---|---|
-| Proposal creation time reduction | ↓ 30–50% vs baseline | Average time per proposal, before vs after |
-| SME requests per proposal | ↓ 25–40% | Count of SME assignments per project |
-| % of projects contributing back to KH | ≥60% within 90 days | Projects with ≥1 Q&A trained back / total completed projects |
-| Average reuse count per KH entry | ≥3 within 6 months | Mean reuse count across all active KH entries |
-| Redundant retraining rate | <10% | Entries retrained with <30% actual change |
+| Metric                                | Target               | Measurement                                                  |
+| ------------------------------------- | -------------------- | ------------------------------------------------------------ |
+| Proposal creation time reduction      | ↓ 30–50% vs baseline | Average time per proposal, before vs after                   |
+| SME requests per proposal             | ↓ 25–40%             | Count of SME assignments per project                         |
+| % of projects contributing back to KH | ≥60% within 90 days  | Projects with ≥1 Q&A trained back / total completed projects |
+| Average reuse count per KH entry      | ≥3 within 6 months   | Mean reuse count across all active KH entries                |
+| Redundant retraining rate             | <10%                 | Entries retrained with <30% actual change                    |
 
 **Evaluation cadence:** Leading indicators reviewed weekly for first 4 weeks post-launch. Lagging indicators reviewed at 30, 60, 90 days.
 

@@ -9,6 +9,10 @@
       "path": "Product/Go-no-go/RFP training.md"
     },
     {
+      "basename": "Product Spec Template 2",
+      "path": "Product/Templates/Product Spec Template 2.md"
+    },
+    {
       "basename": "Product Spec - Template",
       "path": "Product/Templates/Product Spec - Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Competitors Info PRD",
       "path": "Product/Projects/Context Info/Competitors Info PRD.md"
-    },
-    {
-      "basename": "Proposal to Project",
-      "path": "Product/competitors/Loopio/Proposal to Project.md"
     }
   ],
   "omittedPaths": [],
