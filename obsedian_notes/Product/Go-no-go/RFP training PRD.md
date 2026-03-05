@@ -53,17 +53,6 @@ If SparrowGenie builds a closed-loop pipeline — onboarding uploads seed the KH
 
 **Out of scope:** End customers, procurement teams, external collaborators. This feature focuses only on the **internal knowledge loop — ingestion, retrieval, and retraining.**
 
----
-
-## Competitive Insights
-**How do sales teams solve this today?**
-- **Manual Copy-Paste:** Teams copy answers from old proposals. Time-consuming, hard to find the right answer across multiple past projects.
-- **Content Libraries (Loopio, RFPIO):** Centralized answer libraries. Reusable answers, but require heavy manual curation, content quickly becomes outdated, and no automated feedback from completed proposals.
-
-**SparrowGenie's unique gap:**
-Close the loop between project execution and KH enrichment. Instead of manually curating a library, the system: seeds KH with past RFPs during onboarding, automatically trains human-reviewed answers from completed projects back into the correct KH using BM25-based segregation, retrieves verbatim answers and ranked alternatives for new RFPs via keyword matching, and tracks reuse frequency with change detection to avoid redundant retraining.
-
-This creates a **self-improving knowledge system** where every completed project makes the next one faster and more accurate.
 
 ---
 
@@ -72,15 +61,15 @@ This creates a **self-improving knowledge system** where every completed project
 
 **Supporting metrics:**
 
-| Metric | Direction |
-|---|---|
-| % of answers retrieved verbatim from KH | ↑ |
-| % of projects contributing answers back to KH | ↑ |
-| SME requests per proposal | ↓ |
-| AI answer acceptance rate | ↑ |
-| Proposal completion time | ↓ |
-| Average reuse count per KH entry | ↑ |
-| Redundant retraining rate | ↓ |
+| Metric                                        | Direction |
+| --------------------------------------------- | --------- |
+| % of answers retrieved verbatim from KH       | ↑         |
+| % of projects contributing answers back to KH | ↑         |
+| SME requests per proposal                     | ↓         |
+| AI answer acceptance rate                     | ↑         |
+| Proposal completion time                      | ↓         |
+| Average reuse count per KH entry              | ↑         |
+| Redundant retraining rate                     | ↓         |
 
 ---
 
