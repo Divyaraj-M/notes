@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
       "basename": "A little life",
       "path": "Books/A little life.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "Known Unknown Matrix",
       "path": "Product/Settings/Teams/Known Unknown Matrix.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Product Spec - Template",
@@ -143,10 +147,6 @@
     {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
     },
     {
       "basename": "Context info - PRD",

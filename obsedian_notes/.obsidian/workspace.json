@@ -54,24 +54,12 @@
             "id": "b8b76567c0e4a129",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Books/A little life.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Go-no-go/RFP training.md"
               },
-              "icon": "lucide-file",
-              "title": "A little life"
+              "icon": "excalidraw-icon",
+              "title": "RFP training"
             }
           }
         ],
@@ -159,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/A little life.md",
+                "file": "Product/Go-no-go/RFP training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +157,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for A little life"
+              "title": "Backlinks for RFP training"
             }
           },
           {
@@ -178,12 +166,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/A little life.md",
+                "file": "Product/Go-no-go/RFP training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from A little life"
+              "title": "Outgoing links from RFP training"
             }
           },
           {
@@ -283,11 +271,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "b8b76567c0e4a129",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Books/A little life.md",
     "2026-03-05.md",
     "Excalidraw/ExcalidrawStartup.md",
-    "Books/A little life.md",
     "Books/The Radical Art of SelfLove.md",
     "Books/Thinking fast and slow.md",
     "Product/Help Article/Mapping.md",
@@ -312,7 +301,6 @@
     "Product/Settings/Teams/Teams.md",
     "Product/Settings/Teams/Assigning to the section.md",
     "Product/Settings/Teams/Known Unknown Matrix.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Projects/Chrome_extension/Chrome Extension.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
