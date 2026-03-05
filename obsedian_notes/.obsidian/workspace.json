@@ -354,14 +354,13 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidiosaurus:Obsidiosaurus": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "card-board:CardBoard": false,
       "large-language-models:Ask a question": false
     }
   },
   "active": "161156316efd6e86",
   "lastOpenFiles": [
-    "Product/Go-no-go/RFP training PRD.md",
     "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/RFP training PRD.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
