@@ -148,12 +148,24 @@
             "id": "161156316efd6e86",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md"
+                "file": "Product/Go-no-go/RFP training PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "RFP training PRD"
             }
           }
         ],
@@ -354,7 +366,8 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidiosaurus:Obsidiosaurus": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "large-language-models:Ask a question": false
+      "large-language-models:Ask a question": false,
+      "card-board:CardBoard": false
     }
   },
   "active": "161156316efd6e86",

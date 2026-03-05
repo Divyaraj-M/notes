@@ -53,7 +53,6 @@ If SparrowGenie builds a closed-loop pipeline — onboarding uploads seed the KH
 
 **Out of scope:** End customers, procurement teams, external collaborators. This feature focuses only on the **internal knowledge loop — ingestion, retrieval, and retraining.**
 
-
 ---
 
 ## Success Metrics
@@ -61,15 +60,15 @@ If SparrowGenie builds a closed-loop pipeline — onboarding uploads seed the KH
 
 **Supporting metrics:**
 
-| Metric                                        | Direction |
-| --------------------------------------------- | --------- |
-| % of answers retrieved verbatim from KH       | ↑         |
-| % of projects contributing answers back to KH | ↑         |
-| SME requests per proposal                     | ↓         |
-| AI answer acceptance rate                     | ↑         |
-| Proposal completion time                      | ↓         |
-| Average reuse count per KH entry              | ↑         |
-| Redundant retraining rate                     | ↓         |
+| Metric | Direction |
+|---|---|
+| % of answers retrieved verbatim from KH | ↑ |
+| % of projects contributing answers back to KH | ↑ |
+| SME requests per proposal | ↓ |
+| AI answer acceptance rate | ↑ |
+| Proposal completion time | ↓ |
+| Average reuse count per KH entry | ↑ |
+| Redundant retraining rate | ↓ |
 
 ---
 
@@ -78,26 +77,24 @@ If SparrowGenie builds a closed-loop pipeline — onboarding uploads seed the KH
 
 ## Scope
 ### Must-Have Functionality
-1. **Onboarding KH Seeding** — During onboarding, the product prompts users to upload ~10 past RFPs with answers into one or more Knowledge Hubs. These serve as the initial seed data for answer generation. The UI must clearly indicate these are "Uploaded RFPs" so they can be given appropriate weightage in retrieval ranking vs project-trained answers.
-2. **Project-to-KH Feedback Loop** — When an RFP project is completed and all questions are answered and reviewed by humans, those Q&A pairs are trained back into the Knowledge Hub. Project-level answers carry higher authority than onboarding uploads since they are human-validated.
-3. **BM25-Based Question Segregation** — When a project spans multiple Knowledge Hubs, the system uses BM25 search to identify keyword similarity and route each answered question to the correct KH. This ensures multi-hub projects don't dump all Q&A into a single hub.
+1. **Onboarding KH Seeding (yet to be implemented)** — During onboarding, the product prompts users to upload ~10 past RFPs with answers into one or more Knowledge Hubs. These serve as the initial seed data for answer generation. The uploaded RFP content must be **parsed and structured into Q&A format** before being stored in the KH. The UI must clearly indicate these are "Uploaded RFPs" so they can be given appropriate weightage in retrieval ranking vs project-trained answers.
+2. **Project-to-KH Feedback Loop** — When an RFP project is completed and all questions are answered and reviewed by humans, those Q&A pairs are trained back into the Knowledge Hub. Project-level answers carry higher authority than onboarding uploads since they are human-validated. The feedback path differs based on hub selection:
+   - **Single Hub selected:** All project Q&As are redirected directly to that KH — no segregation needed.
+   - **Multiple Hubs selected:** BM25-based segregation kicks in to route each Q&A to the correct hub (see point 3).
+3. **BM25-Based Question Segregation (multi-hub only)** — When a project spans multiple Knowledge Hubs, the system uses BM25 search to identify keyword similarity and route each answered question to the correct KH. This ensures multi-hub projects don't dump all Q&A into a single hub. Note: Knowledge Hub usage patterns cannot be predicted upfront, so the segregation must be robust to unexpected distributions.
 4. **BM25-Based Answer Retrieval** — When a new RFP is uploaded and the user selects a KH, the BM25 agent searches existing Q&A by keyword:
    - **Single match** → provide verbatim answer
    - **Multiple matches** → provide best match as primary + ranked alternatives (v2) with confidence score; user selects the most apt one
-   - **No match** → question left unanswered for manual input; AI will attempt to generate an answer from KH context
+   - **No match** → AI will attempt to generate an answer from broader KH context
 5. **Reuse Tracking** — Each KH entry maintains a usage stat tracking how many times it has been reused across projects. This surfaces the most valuable answers and informs quality ranking.
 6. **Change Detection & Deduplication** — When a reused question returns from a completed project, an algorithm measures how much the answer changed vs the existing KH entry. If changed >30–40%, it is retrained as an updated entry. If not, the system records provenance (which original answer it came from) and increments reuse count. This prevents redundant retraining.
 
 ### Nice-to-Have
 - Confidence scoring on BM25 matches to help users pick the best alternative
 - Quality scoring of KH entries based on reuse frequency and acceptance rate
-- Win/Loss tagging — linking answers to deal outcomes
-- Auto-archival of low-reuse, stale KH entries
+
 
 ### Explicit Non-Goals
-- Semantic / vector-based search (BM25 keyword matching is the chosen approach for v1)
-- External content ingestion from sources outside SparrowGenie
-- Cross-organization Knowledge Hub sharing
 
 Human review at the project level remains the quality gate before answers flow back to KH.
 
@@ -105,24 +102,29 @@ Human review at the project level remains the quality gate before answers flow b
 
 ## Experience
 ### Primary User Flow
-1. **Onboarding:** User uploads ~10 past RFPs with answers into one or more Knowledge Hubs (seed data).
+1. **Onboarding:** User uploads ~10 past RFPs with answers into one or more Knowledge Hubs. System parses content and structures it into Q&A format (seed data).
 2. **Project Creation:** User creates a new RFP project and selects one or more Knowledge Hubs.
-3. **Answer Retrieval:** BM25 agent searches selected KHs and auto-suggests verbatim answers where keyword matches exist. Multiple matches show ranked alternatives for user selection. No match leaves the question for manual input.
+3. **Answer Retrieval:** BM25 agent searches selected KHs and auto-suggests verbatim answers where keyword matches exist. Multiple matches show ranked alternatives for user selection. No match → AI generates answer from KH context.
 4. **Project Execution:** Proposal team answers remaining questions, reviews AI-suggested answers, finalizes all responses with human validation.
-5. **Feedback to KH:** Upon project completion, reviewed Q&A pairs are automatically segregated by BM25 keyword matching and routed back to the appropriate Knowledge Hubs.
+5. **Feedback to KH:** Upon project completion:
+   - **Single hub:** All reviewed Q&As route directly to the selected KH.
+   - **Multiple hubs:** BM25 keyword matching segregates and routes Q&As to the appropriate Knowledge Hubs.
 6. **Change Detection:** For questions that already exist in KH, system checks answer similarity. If changed >30–40%, entry is retrained. If not, provenance recorded and reuse count incremented.
 
 ### Key Moments
 - **Onboarding Upload** — First-time users seed KH with past RFP data, establishing the baseline for retrieval.
 - **Answer Retrieval on New RFP** — BM25 agent surfaces verbatim matches and alternatives. This is the primary value moment where users experience time savings.
-- **Project Completion Feedback** — Human-reviewed answers flow back to KH automatically, closing the loop.
+- **Project Completion Feedback** — Human-reviewed answers flow back to KH automatically, closing the loop. Single-hub projects route directly; multi-hub projects go through BM25 segregation.
 - **Change Detection Gate** — Prevents redundant retraining while ensuring improved answers update the KH.
 
 ### Edge Cases
+- **Single Hub Redirect:** If only one KH is selected, all project Q&As go directly to that hub — BM25 segregation is bypassed entirely.
 - **Multi-Hub Segregation Ambiguity:** When BM25 cannot confidently assign a question to a single KH (equal keyword similarity across hubs), flag for manual routing by the user.
 - **Multiple Answer Matches:** All alternatives presented with confidence score. User selects the most apt. Non-selected alternatives ranked lower in future retrievals.
 - **Borderline Change Detection (Near 30–40%):** Flag for user review rather than auto-deciding.
 - **Duplicate Content Across Hubs:** If the same Q&A is routed to multiple KHs, track as linked entries to avoid divergence.
+- **Content Parsing Failures:** When uploaded RFPs cannot be cleanly parsed into Q&A format (e.g., unstructured PDFs, images), the system should flag these for manual structuring.
+- **Tagging Issues:** How tags are assigned to parsed Q&A pairs during onboarding and how they map to KH taxonomy is an unresolved challenge that affects segregation accuracy.
 - **Ownership Changes:** Knowledge remains attached to the system regardless of user status. Reuse count and provenance preserved.
 - **Empty/Low-Quality Onboarding Data:** System warns users about sparse Knowledge Hubs that may degrade retrieval accuracy.
 
@@ -138,6 +140,7 @@ Each KH entry stores:
 | Response Text | Final human-reviewed answer |
 | Source | Onboarding upload (flagged) or Project ID |
 | Author | Contributor who reviewed/authored |
+| Tags | Topic/category classification (open issue — see Open Ended Questions) |
 | Reuse Count | Times reused across projects |
 | Provenance Chain | List of project IDs where answer was used/derived from |
 | Change Percentage | Last computed delta vs previous version |
@@ -158,33 +161,36 @@ When a new RFP is loaded and a Knowledge Hub is selected:
 1. BM25 searches KH by keyword similarity against the incoming question
 2. Single strong match → provide verbatim answer
 3. Multiple matches → best match as primary, others as ranked alternatives (v2)
-4. No match → question left for manual input; AI attempts answer from broader KH context
+4. No match → AI generates answer from broader KH context
 
 **Ranking priorities:** Keyword match strength (BM25 score) → Reuse count (higher = more trusted) → Recency of last retraining
 
 ---
 
 ## Impact Areas
-**Product areas affected:** Knowledge Hub (storage model, entry lifecycle, reuse tracking), Onboarding flow (RFP upload prompt and KH seeding), Project creation (KH selection, multi-hub association), RFP answer editor (BM25 retrieval, verbatim suggestions, alternative ranking), Project completion workflow (automatic feedback to KH, change detection).
+**Product areas affected:** Knowledge Hub (storage model, entry lifecycle, reuse tracking), Onboarding flow (RFP upload, content parsing into Q&A, KH seeding), Project creation (KH selection, single vs multi-hub association), RFP answer editor (BM25 retrieval, verbatim suggestions, alternative ranking), Project completion workflow (single-hub direct routing vs multi-hub BM25 segregation, change detection).
 
-**Engineering components:** BM25 search algorithm (segregation + retrieval), KH storage model (extended schema), Question segregation engine (multi-hub routing), Change detection algorithm (30–40% threshold), Retrieval API (verbatim + alternatives response format).
+**Engineering components:** BM25 search algorithm (segregation + retrieval), Content parser (RFP → structured Q&A), KH storage model (extended schema with tags), Question segregation engine (multi-hub routing, single-hub bypass), Change detection algorithm (30–40% threshold), Retrieval API (verbatim + alternatives response format).
 
 ---
 
 ## Open Ended Questions
+- How should tags be assigned to Q&A pairs? Auto-generated from content, user-defined during upload, or inherited from KH taxonomy? (Tagging is a critical open issue that affects segregation and retrieval accuracy.)
+- Need to define the content parsing pipeline — how do we extract and structure Q&A from uploaded RFP documents (PDFs, Word docs, varied formats)?
+- What is the max limit for alternatives shown during retrieval, and how is the cutoff decided? (BM25 score threshold? Fixed cap?)
+- Knowledge Hub usage patterns cannot be predicted — how do we handle hubs that grow unevenly or remain sparse?
 - Should the 30–40% change detection threshold be configurable per KH or global?
 - When BM25 cannot confidently segregate a question to one hub, should it go to all candidate hubs or be held for manual routing?
 - Should win/loss data from deal outcomes influence KH entry ranking?
 - How should the system handle conflicting answers — same question, different answers in two hubs?
 - Should there be a staleness policy that auto-archives KH entries with zero reuse after N months?
-- What is the minimum quality bar for onboarding uploads — should the system reject sparse or incomplete RFPs?
 
 ---
 
 ## What Is Pushed to Next Version
 - **Semantic / Vector Search Upgrade** — Move beyond BM25 to embedding-based semantic search for higher accuracy in retrieval and segregation.
-- **Response Quality Scoring** — Answers ranked by reuse frequency, win rate, SME rating, and change detection history (stable answers ranked higher).
-- **Deal Outcome Learning** — Winning proposals improve KH priority. Answers from won deals boosted in retrieval ranking.
+- **Response Quality Scoring** — Answers ranked by reuse frequency, win rate, SME rating, and change detection history.
+- **Deal Outcome Learning** — Answers from won deals boosted in retrieval ranking.
 - **Cross-Hub Answer Linking** — Auto-detect and link related answers across KHs to maintain consistency when the same topic spans multiple domains.
 
 ---
@@ -194,19 +200,21 @@ When a new RFP is loaded and a Knowledge Hub is selected:
 - Number of KH entries created (onboarding + project feedback)
 - % of completed projects contributing answers back to KH
 - Average number of Knowledge Hubs selected per project
+- Single-hub vs multi-hub project distribution
 
 **Quality signals:**
 - BM25 retrieval hit rate (% of questions with at least one match)
 - Verbatim answer acceptance rate
 - Alternative selection rate (v2 picks over primary)
 - Average reuse count per KH entry
+- Content parsing success rate (% of uploaded RFPs cleanly structured into Q&A)
 
 **Failure/drop-off signals:**
 - Duplicate entries across hubs
 - Segregation conflicts (questions flagged for manual routing)
 - Redundant retraining rate (entries retrained with <30% change)
 - Stale entries (zero reuse over extended period)
-- Low-quality onboarding data leading to poor retrieval
+- Parsing failures on uploaded RFPs
 
 ---
 
@@ -216,11 +224,12 @@ When a new RFP is loaded and a Knowledge Hub is selected:
 - Proposal teams will complete and review all questions within projects before submission.
 - BM25 keyword matching provides sufficient accuracy for both segregation and retrieval in v1.
 - A 30–40% change threshold is a reasonable heuristic for deciding when to retrain.
+- Single-hub projects are the common case; multi-hub segregation is the exception.
 
 **Dependencies:**
-- Knowledge Hub architecture (extended schema for reuse count, provenance, change tracking)
+- Knowledge Hub architecture (extended schema for reuse count, provenance, change tracking, tags)
 - BM25 search engine integration
+- Content parsing pipeline (RFP documents → structured Q&A)
 - Change detection algorithm implementation
 - Project completion event pipeline (to trigger feedback to KH)
 - Onboarding flow update (RFP upload prompt with source tagging)
-
