@@ -145,7 +145,7 @@
             }
           },
           {
-            "id": "d41f120adc443c5a",
+            "id": "161156316efd6e86",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -155,33 +155,9 @@
               "icon": "excalidraw-icon",
               "title": "RFP training"
             }
-          },
-          {
-            "id": "161156316efd6e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Go-no-go/RFP training PRD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RFP training PRD"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -384,8 +360,8 @@
   },
   "active": "161156316efd6e86",
   "lastOpenFiles": [
-    "Product/Go-no-go/RFP training.md",
     "Product/Go-no-go/RFP training PRD.md",
+    "Product/Go-no-go/RFP training.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Answers/Answer types.md",
