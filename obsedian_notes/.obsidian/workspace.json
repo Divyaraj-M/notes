@@ -46,8 +46,8 @@
                 "sort": "reading_progress_desc",
                 "view": "gallery"
               },
-              "icon": "library-big",
-              "title": "Bookshelf library"
+              "icon": "lucide-ghost",
+              "title": "library"
             }
           },
           {
@@ -182,8 +182,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -199,7 +199,6 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 59.61070559610705,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -286,17 +285,9 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "f9e48eb245bc3a0a",
-        "type": "tabs",
-        "dimension": 40.38929440389294,
-        "children": [
+          },
           {
-            "id": "c81eaec4d2a50757",
+            "id": "425971f19e417a0e",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -305,7 +296,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -319,16 +311,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false,
       "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidiosaurus:Obsidiosaurus": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "card-board:CardBoard": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "7bce1fec44f49a9c",
