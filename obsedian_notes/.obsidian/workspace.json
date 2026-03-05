@@ -148,12 +148,24 @@
             "id": "161156316efd6e86",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md"
+                "file": "Product/Go-no-go/RFP training PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "RFP training PRD"
             }
           }
         ],
@@ -360,8 +372,9 @@
   },
   "active": "161156316efd6e86",
   "lastOpenFiles": [
-    "Product/Go-no-go/RFP training PRD.md",
     "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/Templates/Product Spec - Template.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
@@ -389,7 +402,6 @@
     "2026-02-25.md",
     "Books/Read List/Atomic Design.md",
     "My Data.base",
-    "Books/The Thirteen Problems.md",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",

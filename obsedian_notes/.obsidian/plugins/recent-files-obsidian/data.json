@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP training PRD",
+      "path": "Product/Go-no-go/RFP training PRD.md"
+    },
+    {
       "basename": "RFP training",
       "path": "Product/Go-no-go/RFP training.md"
     },
     {
-      "basename": "RFP training PRD",
-      "path": "Product/Go-no-go/RFP training PRD.md"
+      "basename": "Product Spec - Template",
+      "path": "Product/Templates/Product Spec - Template.md"
     },
     {
       "basename": "Past RFP Similarity Score (PRS)",
@@ -107,10 +111,6 @@
     {
       "basename": "Known Unknown Matrix",
       "path": "Product/Settings/Teams/Known Unknown Matrix.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
     },
     {
       "basename": "Chrome Extension",
