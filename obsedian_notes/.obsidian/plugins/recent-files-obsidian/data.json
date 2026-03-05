@@ -9,6 +9,10 @@
       "path": "Product/Go-no-go/RFP training PRD.md"
     },
     {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     },
     {
       "basename": "External Questionnaire Score (EQS)",
