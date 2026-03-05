@@ -121,9 +121,19 @@
               "icon": "lucide-file",
               "title": "Answer types"
             }
+          },
+          {
+            "id": "4b076409937b247d",
+            "type": "leaf",
+            "state": {
+              "type": "card-board-view",
+              "state": {},
+              "icon": "card-board",
+              "title": "CardBoard"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -317,10 +327,13 @@
       "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidiosaurus:Obsidiosaurus": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "7bce1fec44f49a9c",
+  "active": "4b076409937b247d",
   "lastOpenFiles": [
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Answers/Answer types.md",

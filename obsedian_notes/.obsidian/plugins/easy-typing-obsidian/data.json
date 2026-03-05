@@ -1,8 +1,8 @@
 {
   "Tabout": true,
   "SmartPaste": false,
-  "BetterCodeEdit": true,
-  "BetterBackspace": true,
+  "BetterCodeEdit": false,
+  "BetterBackspace": false,
   "AutoFormat": true,
   "ExcludeFiles": "",
   "AutoCapital": false,
