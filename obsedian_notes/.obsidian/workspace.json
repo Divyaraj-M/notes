@@ -148,9 +148,21 @@
             "id": "d41f120adc443c5a",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Product/Go-no-go/RFP training.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "RFP training"
+            }
+          },
+          {
+            "id": "161156316efd6e86",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+                "file": "Product/Go-no-go/RFP training PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -165,11 +177,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RFP to Proposal"
+              "title": "RFP training PRD"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -366,14 +378,16 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidiosaurus:Obsidiosaurus": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "large-language-models:Ask a question": false
     }
   },
-  "active": "d41f120adc443c5a",
+  "active": "161156316efd6e86",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
@@ -400,7 +414,6 @@
     "Books/Read List/Atomic Design.md",
     "My Data.base",
     "Books/The Thirteen Problems.md",
-    "Books/Untitled.md",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",

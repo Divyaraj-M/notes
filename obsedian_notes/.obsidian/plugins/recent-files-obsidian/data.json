@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP training PRD",
+      "path": "Product/Go-no-go/RFP training PRD.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
     },
     {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
     },
     {
       "basename": "Answer types",
@@ -195,10 +199,6 @@
     {
       "basename": "Proposal to Project",
       "path": "Product/competitors/Loopio/Proposal to Project.md"
-    },
-    {
-      "basename": "Demo Important Points",
-      "path": "Product/Genie Journal/Demo Important Points.md"
     }
   ],
   "omittedPaths": [],
