@@ -46,8 +46,8 @@
                 "sort": "reading_progress_desc",
                 "view": "gallery"
               },
-              "icon": "lucide-ghost",
-              "title": "library"
+              "icon": "library-big",
+              "title": "Bookshelf library"
             }
           },
           {
@@ -174,6 +174,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Daily/UAT vipin 2026-02-23.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UAT vipin 2026-02-23"
+            }
+          },
+          {
+            "id": "f3b321f581e8ac7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Product/Go-no-go/RFP training PRD.md",
                 "mode": "source",
                 "source": false,
@@ -193,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -225,7 +249,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "team",
+                "query": "vipin",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -252,8 +276,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -355,9 +379,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "b2ef6f7bdd54a44d",
+            "type": "leaf",
+            "state": {
+              "type": "hinote-view",
+              "state": {},
+              "icon": "highlighter",
+              "title": "HiNote"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "071ce05a61e159f0",
@@ -397,13 +431,31 @@
       "obsidiosaurus:Obsidiosaurus": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "large-language-models:Ask a question": false,
-      "card-board:CardBoard": false
+      "card-board:CardBoard": false,
+      "hi-note:HiNote": false
     }
   },
-  "active": "41a84027065aedd0",
+  "active": "b2ef6f7bdd54a44d",
   "lastOpenFiles": [
-    "Product/Go-no-go/RFP training.md",
+    "2026-02-25.md",
+    "2026-02-24.md",
+    "2026-03-05.md",
+    "My Data.base",
+    "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
+    "Not a trash/SparrowGenie Help Article Template.md",
+    "Not a trash/2026-01-30.md",
+    "Not a trash/2026-02-04.md",
+    "Not a trash/2026-02-10 19-43-37.md",
+    "Not a trash/Test.md",
+    "Not a trash/2026-02-13.md",
+    "Not a trash/Work Log 2026-02-16.md",
+    "Not a trash/2026-02-23 -Weekly product Stand up.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Not a trash/2026-02-24 - Sprint Planning.md",
+    "Product/Settings/Users and Teams/Users tab.md",
+    "Daily/UAT vipin 2026-02-23.md",
     "Product/Go-no-go/RFP training PRD.md",
+    "Product/Go-no-go/RFP training.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
@@ -413,25 +465,9 @@
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/Table View/First Principle thinking - Table View.md",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Books/Read List/Read List.md",
     "Product/Projects/Answers",
     "Product/Projects/Questions",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Books/A little life.md",
-    "2026-03-05.md",
-    "Excalidraw/ExcalidrawStartup.md",
-    "Books/The Radical Art of SelfLove.md",
-    "Books/Thinking fast and slow.md",
-    "Product/Help Article/Mapping.md",
-    "Product/sghelparticle/docs/projects/starting-a-project/README.md",
     "Product/Help Article",
-    "Product/Help Article/How to Create a project.md",
-    "Product/SparrowGenie.excalidraw.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
-    "2026-02-25.md",
-    "My Data.base",
     "Books/Read List/Untitled.base",
     "Untitled1.sheet",
     "Product/sghelparticle/Untitled.base",
@@ -447,7 +483,6 @@
     "Learning/ARCA AI/Pasted image 20260301123651.png",
     "Learning/ARCA AI/Pasted image 20260301121747.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
-    "Books/Screenshot 2026-02-24 at 1.43.01 PM.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
