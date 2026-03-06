@@ -916,9 +916,10 @@
 
       <div class="objection">
         <h4>"Loopio already has SmartScan and SmartFill &mdash; isn't that the same thing?"</h4>
-        <p><strong>What Loopio actually does:</strong> SmartScan is a Chrome Extension feature that scans web portals to extract questions into a Loopio project. SmartFill pushes approved answers back into portal fields. Both are described as "early sneak peek" and "experimental" in their own docs. The extension is a bridge between portals and the web app &mdash; it captures and deploys, but the real work still happens in the web app. They don't have native document upload and AI mapping like Smart Mapping.</p>
-        <p><strong>The key gap:</strong> Loopio's SmartScan only works on web-based portals and questionnaires. If the RFP comes as a Word doc or PDF (which most do), SmartScan can't help. And SmartFill just pastes pre-existing answers &mdash; it doesn't generate new ones with AI from a knowledge base.</p>
-        <p class="response">SmartScan only works on web portals &mdash; not the Word/PDF documents that most RFPs arrive as. SmartFill copies existing library answers, but doesn't generate new answers using AI. SparrowGenie's Smart Mapping handles any document format, and Genie AI generates answers with confidence scores from a Knowledge Hub you actively train, test, and improve.</p>
+        <p><strong>What Loopio actually does:</strong> SmartScan is a Chrome Extension feature that scans web portals to extract questions into a Loopio project. SmartFill pushes approved answers back into portal fields. Both are described as "early sneak peek" and "experimental" in their own docs. The extension is a bridge between portals and the web app &mdash; it captures and deploys, but the real work still happens in the web app.</p>
+        <p><strong>The key gap:</strong> SmartFill just pastes pre-existing library answers &mdash; it doesn't generate new ones with AI. If the answer isn't already in the library, SmartFill can't help. For document-based RFPs (Word/PDF), SmartScan doesn't work at all.</p>
+        <p><strong>SparrowGenie's Chrome Extension:</strong> Right-click any question in a portal &rarr; Genie AI instantly generates an answer from the Knowledge Hub. Not copy-paste from a static library &mdash; actual AI-generated answers grounded in your trained, tested content. Plus, a built-in chat interface lets you interact with the AI directly from the extension for follow-ups or refinements. For portal-based RFPs, this is the fastest path from question to answer.</p>
+        <p class="response">Loopio's SmartFill copies existing library entries &mdash; if it's not in the library, you're on your own. SparrowGenie's extension generates AI answers from your Knowledge Hub on the spot &mdash; right-click a question, get a grounded answer instantly, and chat with the AI for refinements. And for document-based RFPs, we have Smart Mapping on top of that. We cover both portals and documents.</p>
       </div>
 
       <div class="objection">
@@ -933,7 +934,8 @@
         <p><strong>What Responsive actually does:</strong> Responsive LookUp is a Chrome/Edge extension that also works in Google Sheets and PowerPoint. Their "Ask" feature uses AI to scan Google Sheets for questions and generate answers via Bulk AI Draft. They have two modes: near real-time (answers appear inline) and project-based (creates a Guided Project in Responsive). They also have a "Requirements Analysis" feature with keyword dictionaries for document shredding.</p>
         <p><strong>Where Responsive is strong:</strong> Multi-surface (Chrome, Sheets, PowerPoint), real-time answer mode in Google Sheets, document shredding matrix with custom columns, and an SME dictionary that auto-recommends authors/reviewers.</p>
         <p><strong>The key gaps:</strong> Their Requirements Analysis depends on user-created keyword dictionaries &mdash; you have to define the vocabulary before the system can analyze documents. Their own docs admit this has "no particular benefit for Bid/No-Bid" decisions. Content capture in the extension is semi-manual: select text, choose field type, repeat. No native document upload + AI mapping in seconds. No structured Obligations tracking. No Knowledge Hub with Train-Test-Improve cycle.</p>
-        <p class="response">Responsive has breadth across surfaces (Sheets, PowerPoint, Chrome), but their intelligence layer requires manual dictionary setup and semi-manual content capture. SparrowGenie's Smart Mapping is AI-native &mdash; upload a document and questions are structured in seconds, no dictionaries needed. Plus, our Knowledge Hub actively surfaces gaps instead of hoping someone maintains the content library.</p>
+        <p><strong>SparrowGenie's approach:</strong> Our Chrome Extension takes a different angle &mdash; right-click a question in any portal, and Genie AI generates an answer from the Knowledge Hub instantly. Plus a built-in chat interface for follow-ups. No manual text selection, no field type picking. For documents, Smart Mapping handles the heavy lifting.</p>
+        <p class="response">Responsive has breadth across surfaces (Sheets, PowerPoint, Chrome), but their portal experience is semi-manual &mdash; select text, choose field type, repeat. SparrowGenie's extension is AI-native: right-click a question, get an AI answer from your Knowledge Hub, chat to refine. For documents, Smart Mapping structures everything in seconds with no dictionary setup needed.</p>
       </div>
 
       <div class="objection">
@@ -946,8 +948,8 @@
       <div class="objection">
         <h4>"Loopio's Chrome Extension lets us work directly in portals"</h4>
         <p><strong>What Loopio does:</strong> Their new Chrome Extension creates a bridge between web portals and Loopio. SmartScan captures portal questions, SmartFill pushes answers back. Users can search the Library from the extension, create projects, rename sections, reorder items. But &mdash; their own design philosophy states: "Extension = capture + deploy. Web app = author, review, approve."</p>
-        <p><strong>The angle:</strong> Loopio's extension is useful for portal-based RFPs, but it's just a bridge. The real work still happens in their web app. For document-based RFPs (Word, PDF, Excel), the extension doesn't help at all.</p>
-        <p class="response">Loopio's extension bridges portals to their web app &mdash; but the authoring, reviewing, and approving all happens back in the web app anyway. For document-based RFPs (which are the majority), the extension provides zero value. SparrowGenie handles the full workflow natively &mdash; upload, map, answer, collaborate, track obligations &mdash; all in one place.</p>
+        <p><strong>What SparrowGenie does:</strong> Our Chrome Extension is built for portal-based RFPs too &mdash; but instead of just bridging to the web app, it brings AI directly into the portal. Right-click any question, and Genie AI generates an answer from the Knowledge Hub instantly. Need to refine? Chat with the AI right inside the extension. No switching back and forth between extension and web app.</p>
+        <p class="response">Loopio's extension captures questions and pushes back pre-existing answers &mdash; the real thinking happens in their web app. SparrowGenie's extension brings AI generation directly into the portal. Right-click, get an AI answer, chat to refine &mdash; all without leaving the page. And for document-based RFPs, we have Smart Mapping + Genie AI on top.</p>
       </div>
 
       <div class="objection">
@@ -1078,7 +1080,7 @@
           <h4>vs Loopio</h4>
           <p><strong>Their strengths:</strong> SmartScan captures portal questions, SmartFill pushes answers back to portals, Chrome Extension bridges portal-to-app.<br>
           <strong>Their gaps:</strong> SmartScan only works on web portals (not Word/PDF docs). SmartFill copies existing answers &mdash; no AI generation. Library is static search-and-copy &mdash; no Train-Test-Improve cycle, no gap detection, no confidence scoring. Extension = capture + deploy only; authoring happens in web app. No Obligations tracking. Attachments can't embed in exports like Responsive can.<br>
-          <strong>Our edge:</strong> Knowledge Hub with active quality cycle, Smart Mapping on any document format, AI-generated answers with confidence scores, structured Obligations tracking, and Workspace for SME productivity.</p>
+          <strong>Our edge:</strong> Knowledge Hub with active quality cycle, Smart Mapping on any document format, AI-generated answers with confidence scores, Chrome Extension with right-click AI answers + chat (not just copy-paste), structured Obligations tracking, and Workspace for SME productivity.</p>
         </div>
       </div>
       <div class="cheat-item">
@@ -1087,7 +1089,7 @@
           <h4>vs Responsive.io (formerly RFPIO)</h4>
           <p><strong>Their strengths:</strong> Multi-surface LookUp (Chrome, Google Sheets, PowerPoint), Bulk AI Draft in Sheets, Requirements Analysis with keyword dictionaries, auto-recommend SMEs, mature attachment handling (attach/embed/pin options on export).<br>
           <strong>Their gaps:</strong> Requirements Analysis needs manual dictionary setup before the system can work &mdash; no AI-native parsing. Content capture in extension is semi-manual (select text, choose type). No Train-Test-Improve cycle for knowledge quality. Their docs confirm Requirements Analysis has "no particular benefit for Bid/No-Bid." No Obligations tracking inside projects.<br>
-          <strong>Our edge:</strong> AI-native Smart Mapping with zero dictionary setup, Knowledge Hub that proactively surfaces gaps, structured Obligations with owners/deadlines, and a roadmap Go/No-Go engine designed specifically for deal qualification (not just document shredding).</p>
+          <strong>Our edge:</strong> AI-native Smart Mapping with zero dictionary setup, Knowledge Hub that proactively surfaces gaps, Chrome Extension with right-click AI-generated answers + chat (not just select-and-search like LookUp), structured Obligations with owners/deadlines, and a roadmap Go/No-Go engine designed specifically for deal qualification (not just document shredding).</p>
         </div>
       </div>
       <div class="cheat-item">
