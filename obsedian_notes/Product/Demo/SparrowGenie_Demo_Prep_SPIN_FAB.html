@@ -910,13 +910,54 @@
   <div id="objections" class="tab-content">
     <div class="section">
       <h2>Anticipated Objections &amp; Responses</h2>
-      <p class="section-desc">Be ready for these. Frame every response around value, not features.</p>
+      <p class="section-desc">Be ready for these. Competitor objections are backed by real product research &mdash; not generic claims.</p>
+
+      <h3 style="color: #fb923c; margin-bottom: 16px;">Competitor-Specific Objections</h3>
 
       <div class="objection">
-        <h4>"We already use Loopio / RFPIO / Responsive.io"</h4>
-        <p>Those tools are content libraries &mdash; they require heavy manual maintenance. Someone has to constantly update and curate the library or it stagnates. SparrowGenie starts with a Knowledge Hub that you actively train, test, and improve. Plus, we add the full execution layer on top: Smart Mapping, AI answers, collaboration, obligations, and project health.</p>
-        <p class="response">Their library stagnates. Our Knowledge Hub has a Train-Test-Improve cycle that keeps it alive. And we don't stop at content &mdash; we run the entire proposal workflow.</p>
+        <h4>"Loopio already has SmartScan and SmartFill &mdash; isn't that the same thing?"</h4>
+        <p><strong>What Loopio actually does:</strong> SmartScan is a Chrome Extension feature that scans web portals to extract questions into a Loopio project. SmartFill pushes approved answers back into portal fields. Both are described as "early sneak peek" and "experimental" in their own docs. The extension is a bridge between portals and the web app &mdash; it captures and deploys, but the real work still happens in the web app. They don't have native document upload and AI mapping like Smart Mapping.</p>
+        <p><strong>The key gap:</strong> Loopio's SmartScan only works on web-based portals and questionnaires. If the RFP comes as a Word doc or PDF (which most do), SmartScan can't help. And SmartFill just pastes pre-existing answers &mdash; it doesn't generate new ones with AI from a knowledge base.</p>
+        <p class="response">SmartScan only works on web portals &mdash; not the Word/PDF documents that most RFPs arrive as. SmartFill copies existing library answers, but doesn't generate new answers using AI. SparrowGenie's Smart Mapping handles any document format, and Genie AI generates answers with confidence scores from a Knowledge Hub you actively train, test, and improve.</p>
       </div>
+
+      <div class="objection">
+        <h4>"Loopio has a content Library with search and reuse"</h4>
+        <p><strong>What Loopio actually does:</strong> Their Library stores Q&amp;A entries with usage count, attachments, and search. Users can search from the Chrome Extension by selecting text or using the search bar. Results show answer preview, usage count, and attachments. Users can copy answers or generate summaries.</p>
+        <p><strong>The key gap:</strong> Loopio's Library is a static repository. You search it, you find a match, you copy it. There's no Train-Test-Improve cycle. No way to proactively surface knowledge gaps. No confidence scoring. No structured way to feed completed RFP answers back into the library automatically. The library only gets better if someone manually maintains it.</p>
+        <p class="response">Loopio's Library is search-and-copy. SparrowGenie's Knowledge Hub is Train-Test-Improve. We don't just store answers &mdash; we let you test the KB's accuracy before going live, and the Improve module surfaces every gap proactively. Their library waits for you to find problems. Ours shows you the problems.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive.io has LookUp and Bulk AI Draft &mdash; that sounds like what you do"</h4>
+        <p><strong>What Responsive actually does:</strong> Responsive LookUp is a Chrome/Edge extension that also works in Google Sheets and PowerPoint. Their "Ask" feature uses AI to scan Google Sheets for questions and generate answers via Bulk AI Draft. They have two modes: near real-time (answers appear inline) and project-based (creates a Guided Project in Responsive). They also have a "Requirements Analysis" feature with keyword dictionaries for document shredding.</p>
+        <p><strong>Where Responsive is strong:</strong> Multi-surface (Chrome, Sheets, PowerPoint), real-time answer mode in Google Sheets, document shredding matrix with custom columns, and an SME dictionary that auto-recommends authors/reviewers.</p>
+        <p><strong>The key gaps:</strong> Their Requirements Analysis depends on user-created keyword dictionaries &mdash; you have to define the vocabulary before the system can analyze documents. Their own docs admit this has "no particular benefit for Bid/No-Bid" decisions. Content capture in the extension is semi-manual: select text, choose field type, repeat. No native document upload + AI mapping in seconds. No structured Obligations tracking. No Knowledge Hub with Train-Test-Improve cycle.</p>
+        <p class="response">Responsive has breadth across surfaces (Sheets, PowerPoint, Chrome), but their intelligence layer requires manual dictionary setup and semi-manual content capture. SparrowGenie's Smart Mapping is AI-native &mdash; upload a document and questions are structured in seconds, no dictionaries needed. Plus, our Knowledge Hub actively surfaces gaps instead of hoping someone maintains the content library.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive has attachment handling that's more mature"</h4>
+        <p><strong>What they do:</strong> Responsive offers three attachment modes: Attachment (separate folder on export), Embedded (objects inside Word export), and Pinned (image appended to answer on export). They also support attaching documents to responses with embed and attach options.</p>
+        <p><strong>Be honest:</strong> Their attachment handling for exports is more nuanced than what SparrowGenie has today. Acknowledge this, then redirect.</p>
+        <p class="response">Fair point &mdash; their export attachment handling has maturity. But the real question is: how good are the answers being attached? SparrowGenie's strength is the knowledge foundation and AI answer quality. We're building export capabilities on top of answers that are actually generated from a tested knowledge base, not a static library.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Loopio's Chrome Extension lets us work directly in portals"</h4>
+        <p><strong>What Loopio does:</strong> Their new Chrome Extension creates a bridge between web portals and Loopio. SmartScan captures portal questions, SmartFill pushes answers back. Users can search the Library from the extension, create projects, rename sections, reorder items. But &mdash; their own design philosophy states: "Extension = capture + deploy. Web app = author, review, approve."</p>
+        <p><strong>The angle:</strong> Loopio's extension is useful for portal-based RFPs, but it's just a bridge. The real work still happens in their web app. For document-based RFPs (Word, PDF, Excel), the extension doesn't help at all.</p>
+        <p class="response">Loopio's extension bridges portals to their web app &mdash; but the authoring, reviewing, and approving all happens back in the web app anyway. For document-based RFPs (which are the majority), the extension provides zero value. SparrowGenie handles the full workflow natively &mdash; upload, map, answer, collaborate, track obligations &mdash; all in one place.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive has Requirements Analysis &mdash; isn't that like Go/No-Go?"</h4>
+        <p><strong>What Responsive does:</strong> Their Requirements Analysis uses keyword dictionaries to identify requirements in documents, then creates a document shredding matrix. Users pre-create dictionaries with keywords and categories, and can attach auto-recommended authors/reviewers. It's about organizing the RFP into analyzable pieces.</p>
+        <p><strong>The key difference:</strong> Responsive's Requirements Analysis is about document organization, not deal qualification. Their own research notes say there's "no particular benefit for Bid/No-Bid." It's a shredding and tagging tool, not a decision engine. SparrowGenie's roadmap Go/No-Go is fundamentally different &mdash; it's a 3-layer scoring engine (team judgment + AI readiness + past deal similarity) designed specifically to answer "should we pursue this deal?"</p>
+        <p class="response">Responsive's Requirements Analysis organizes documents using keyword dictionaries. Our Go/No-Go is a decision engine that scores deals across three dimensions before you commit a single resource. They help you organize the RFP better. We help you decide whether to work on it at all.</p>
+      </div>
+
+      <h3 style="margin-top: 28px;">General Objections (Non-Competitor)</h3>
 
       <div class="objection">
         <h4>"Can we trust the AI answers?"</h4>
@@ -925,32 +966,14 @@
       </div>
 
       <div class="objection">
-        <h4>"Our team won't adopt another tool"</h4>
-        <p>SparrowGenie doesn't add work &mdash; it replaces the scattered workflow of Google Docs + Slack + spreadsheets + email. Upload an RFP, get AI answers in seconds, collaborate in one place, track obligations inside the project. Workspace gives every SME a personal view of their tasks. The first RFP will be faster than their old process.</p>
-        <p class="response">Adoption is product-led. Teams feel the speed on their very first RFP. Workspace makes it personal. Obligations make it accountable. It's not another tool &mdash; it replaces the broken stack.</p>
-      </div>
-
-      <div class="objection">
-        <h4>"What about our existing content?"</h4>
-        <p>The Knowledge Hub's Train module is designed for exactly this. Upload your existing docs, PDFs, Q&amp;A pairs, even point it at your website. Then use the Test module to see how well it works. Use Improve to fix the gaps. You start with what you have and it gets richer over time.</p>
-        <p class="response">Migration is built into the product. Train ingests what you have. Test validates it. Improve fills the gaps. You're productive on day one.</p>
-      </div>
-
-      <div class="objection">
-        <h4>"How is this different from just using ChatGPT?"</h4>
-        <p>ChatGPT generates from the internet. SparrowGenie generates from your company's curated Knowledge Hub with confidence scores. On top of that, we add Smart Mapping, structured collaboration, Instructions, Context Info, Competitor Info, Obligations, Project Health, and Workspace. ChatGPT is a text generator. SparrowGenie is a proposal operations platform.</p>
-        <p class="response">ChatGPT is a writer. SparrowGenie is the entire proposal operation &mdash; with AI built on your knowledge, not the internet's.</p>
-      </div>
-
-      <div class="objection">
         <h4>"The Go/No-Go and Proposals features aren't built yet"</h4>
-        <p>What's built today &mdash; Knowledge Hub (Train/Test/Improve), Projects (Smart Mapping, AI answers, collaboration, obligations), and Workspace &mdash; solves the core pain right now. Go/No-Go and Proposals are the compounding layer that makes the system self-improving. The value compounds over time, but the first RFP you run through SparrowGenie today is already faster.</p>
+        <p>What's built today &mdash; Knowledge Hub (Train/Test/Improve), Projects (Smart Mapping, AI answers, collaboration, obligations), and Workspace &mdash; solves the core pain right now. Go/No-Go and Proposals are the compounding layer that makes the system self-improving.</p>
         <p class="response">The foundation and execution layer are live and delivering value now. The roadmap features make it compound &mdash; but you don't need them to start winning.</p>
       </div>
 
       <div class="objection">
         <h4>"How do you handle RFPs with 2000+ questions?"</h4>
-        <p>SparrowGenie's Smart Mapping was built for exactly this scale. Upload the full RFP &mdash; the AI maps all questions regardless of volume. Combine that with Genie AI answering from the Knowledge Hub, and your team gets a head start on even the largest RFPs. Workspace lets SMEs manage their assigned portion without being overwhelmed by the full project.</p>
+        <p>SparrowGenie's Smart Mapping was built for exactly this scale. Upload the full RFP &mdash; the AI maps all questions regardless of volume. Combine that with Genie AI answering from the Knowledge Hub, and your team gets a head start on even the largest RFPs. Workspace lets SMEs manage their assigned portion without being overwhelmed.</p>
         <p class="response">We built for scale from day one. 50 questions or 2000 &mdash; same workflow, same speed.</p>
       </div>
     </div>
@@ -1052,22 +1075,33 @@
       <div class="cheat-item">
         <div class="cheat-icon">vs</div>
         <div class="cheat-text">
-          <h4>vs Loopio / RFPIO / Responsive.io</h4>
-          <p>They're static content libraries needing heavy manual maintenance. SparrowGenie has a Train-Test-Improve knowledge cycle plus the full execution layer (mapping, AI, collaboration, obligations). Not just content &mdash; the whole operation.</p>
+          <h4>vs Loopio</h4>
+          <p><strong>Their strengths:</strong> SmartScan captures portal questions, SmartFill pushes answers back to portals, Chrome Extension bridges portal-to-app.<br>
+          <strong>Their gaps:</strong> SmartScan only works on web portals (not Word/PDF docs). SmartFill copies existing answers &mdash; no AI generation. Library is static search-and-copy &mdash; no Train-Test-Improve cycle, no gap detection, no confidence scoring. Extension = capture + deploy only; authoring happens in web app. No Obligations tracking. Attachments can't embed in exports like Responsive can.<br>
+          <strong>Our edge:</strong> Knowledge Hub with active quality cycle, Smart Mapping on any document format, AI-generated answers with confidence scores, structured Obligations tracking, and Workspace for SME productivity.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs Responsive.io (formerly RFPIO)</h4>
+          <p><strong>Their strengths:</strong> Multi-surface LookUp (Chrome, Google Sheets, PowerPoint), Bulk AI Draft in Sheets, Requirements Analysis with keyword dictionaries, auto-recommend SMEs, mature attachment handling (attach/embed/pin options on export).<br>
+          <strong>Their gaps:</strong> Requirements Analysis needs manual dictionary setup before the system can work &mdash; no AI-native parsing. Content capture in extension is semi-manual (select text, choose type). No Train-Test-Improve cycle for knowledge quality. Their docs confirm Requirements Analysis has "no particular benefit for Bid/No-Bid." No Obligations tracking inside projects.<br>
+          <strong>Our edge:</strong> AI-native Smart Mapping with zero dictionary setup, Knowledge Hub that proactively surfaces gaps, structured Obligations with owners/deadlines, and a roadmap Go/No-Go engine designed specifically for deal qualification (not just document shredding).</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs Both &mdash; The Structural Difference</h4>
+          <p>Both Loopio and Responsive are <strong>library-first</strong> products: they store content and help you find/reuse it. SparrowGenie is <strong>knowledge-first</strong>: we make you train, test, and improve your content before AI ever touches a customer response. Their AI searches a library. Our AI answers from a validated knowledge base. That's the fundamental trust gap we solve.</p>
         </div>
       </div>
       <div class="cheat-item">
         <div class="cheat-icon">vs</div>
         <div class="cheat-text">
           <h4>vs ChatGPT / Generic AI</h4>
-          <p>Generic AI generates from the internet. SparrowGenie generates from your curated Knowledge Hub with confidence scores. Plus: structured workflows, Instructions, Context, Competitors, Obligations. It's a platform, not a chatbot.</p>
-        </div>
-      </div>
-      <div class="cheat-item">
-        <div class="cheat-icon">vs</div>
-        <div class="cheat-text">
-          <h4>vs Spreadsheet + Slack + Google Docs</h4>
-          <p>That combo has no knowledge backbone, no AI answering, no ownership tracking, no obligation management, and no audit trail. SparrowGenie replaces the entire fragmented stack.</p>
+          <p>Generic AI generates from the internet with no guardrails. SparrowGenie generates from your curated Knowledge Hub with confidence scores. Plus: structured workflows, Instructions, Context, Competitors, Obligations. It's a platform, not a chatbot.</p>
         </div>
       </div>
 
