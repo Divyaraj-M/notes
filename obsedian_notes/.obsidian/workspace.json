@@ -198,7 +198,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/RFP training PRD.md",
+                "file": "Product/Demo/Demo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -213,7 +213,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RFP training PRD"
+              "title": "Demo"
             }
           }
         ],
@@ -391,7 +391,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "071ce05a61e159f0",
@@ -435,8 +435,10 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b2ef6f7bdd54a44d",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "2026-02-25.md",
     "2026-02-24.md",
     "2026-03-05.md",
@@ -454,7 +456,6 @@
     "Not a trash/2026-02-24 - Sprint Planning.md",
     "Product/Settings/Users and Teams/Users tab.md",
     "Daily/UAT vipin 2026-02-23.md",
-    "Product/Go-no-go/RFP training PRD.md",
     "Product/Go-no-go/RFP training.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product Spec - Template.md",
@@ -464,7 +465,6 @@
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Projects/Table View/First Principle thinking - Table View.md",
     "Product/Projects/Answers",
     "Product/Projects/Questions",
     "Product/Help Article",
@@ -475,7 +475,6 @@
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
-    "Learning/Domain design Diagram",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
     "Untitled Diagram 1.svg",
