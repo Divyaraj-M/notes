@@ -198,7 +198,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Demo/Demo.md",
+                "file": "Product/Go-no-go/RFP training PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -213,11 +213,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Demo"
+              "title": "RFP training PRD"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -391,7 +391,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "071ce05a61e159f0",
@@ -435,8 +435,10 @@
       "hi-note:HiNote": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "b2ef6f7bdd54a44d",
   "lastOpenFiles": [
+    "Product/Go-no-go/RFP training.md",
+    "Product/Demo/Demo.md",
     "Product/Go-no-go/RFP training PRD.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "2026-02-25.md",
@@ -456,7 +458,6 @@
     "Not a trash/2026-02-24 - Sprint Planning.md",
     "Product/Settings/Users and Teams/Users tab.md",
     "Daily/UAT vipin 2026-02-23.md",
-    "Product/Go-no-go/RFP training.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",

@@ -1,7 +1,9 @@
 {
   "version": "2.0",
   "mapping": {
-    "Product/Demo/Demo.md": "product_demo_demo.md.json"
+    "Product/Demo/Demo.md": "product_demo_demo.md.json",
+    "Product/Go-no-go/RFP training.md": "product_go-no-go_rfp_training.md.json",
+    "Product/Go-no-go/RFP training PRD.md": "product_go-no-go_rfp_training_prd.md.json"
   },
-  "lastUpdated": 1772791042582
+  "lastUpdated": 1772793679146
 }
