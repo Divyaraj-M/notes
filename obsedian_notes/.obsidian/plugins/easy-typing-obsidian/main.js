@@ -235,12 +235,13 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian9 = require("obsidian");
-var import_state5 = require("@codemirror/state");
+var import_state6 = require("@codemirror/state");
 
 // src/core.ts
 var import_obsidian = require("obsidian");
 
 // src/utils.ts
+var import_state = require("@codemirror/state");
 var DEBUG = false;
 var print = (message, ...optionalParams) => {
   if (DEBUG) {
@@ -255,30 +256,8 @@ function offsetToPos(doc, offset) {
   return { line: line.number - 1, ch: offset - line.from };
 }
 function getTypeStrOfTransac(tr) {
-  let TransacTypeArray = [
-    "EasyTyping.change",
-    "EasyTyping.paste",
-    "input.type.compose",
-    "input.type",
-    "input.paste",
-    "input.drop",
-    "input.complete",
-    "input",
-    "delete.selection",
-    "delete.forward",
-    "delete.backward",
-    "delete.cut",
-    "delete",
-    "move.drop",
-    "undo",
-    "redo",
-    "select.pointer"
-  ];
-  for (let i = 0; i < TransacTypeArray.length; i++) {
-    if (tr.isUserEvent(TransacTypeArray[i]))
-      return TransacTypeArray[i];
-  }
-  return "none";
+  const event = tr.annotation(import_state.Transaction.userEvent);
+  return event != null ? event : "unknown";
 }
 function string2pairstring(s) {
   let cursorIdx = findFirstPipeNotPrecededByBackslash(s);
@@ -1256,6 +1235,7 @@ var DEFAULT_SETTINGS = {
   BetterCodeEdit: true,
   BetterBackspace: true,
   AutoFormat: true,
+  AutoFormatPaste: true,
   ExcludeFiles: "",
   AutoCapital: false,
   languagePairs: [
@@ -1312,6 +1292,10 @@ var locale = {
     autoFormatting: {
       name: "Auto formatting when typing",
       desc: "Toggle auto-formatting of text while editing the document."
+    },
+    autoFormatPaste: {
+      name: "Auto formatting on paste",
+      desc: "Toggle auto-formatting when pasting. CMD/CTRL+SHIFT+V (paste without formatting) will not trigger this."
     },
     languagePairSpacing: {
       name: "Language Pair Spacing",
@@ -1569,6 +1553,7 @@ var locale = {
     "builtin-del-block-formula": "Delete block formula $$...$$ pair",
     "builtin-del-codeblock": "Quickly delete empty code block",
     "builtin-del-wikilink": "Quickly delete wikilink and embed (![[]])",
+    "builtin-sel-wrap-backtick": "Wrap selection with backticks using \xB7",
     "builtin-sel-wrap-symbols": "Wrap selection with []/$ using \u3010/\xA5/\uFFE5",
     "builtin-sel-wrap-quotes": "Wrap selection with paired full-width quotes",
     "builtin-sel-wrap-cjk-brackets": "Wrap selection with \u300A\u300B or \uFF08\uFF09 brackets",
@@ -1600,6 +1585,10 @@ var locale2 = {
     autoFormatting: {
       name: "\u8F93\u5165\u65F6\u81EA\u52A8\u683C\u5F0F\u5316",
       desc: "\u662F\u5426\u5728\u7F16\u8F91\u6587\u6863\u65F6\u81EA\u52A8\u683C\u5F0F\u5316\u6587\u672C\uFF0C\u81EA\u52A8\u683C\u5F0F\u5316\u7684\u603B\u5F00\u5173"
+    },
+    autoFormatPaste: {
+      name: "\u7C98\u8D34\u65F6\u81EA\u52A8\u683C\u5F0F\u5316",
+      desc: "\u7C98\u8D34\u65F6\u662F\u5426\u81EA\u52A8\u683C\u5F0F\u5316\uFF0CCMD/CTRL+SHIFT+V \u65E0\u683C\u5F0F\u7C98\u8D34\u65F6\u4E0D\u89E6\u53D1\u3002"
     },
     languagePairSpacing: {
       name: "\u8BED\u8A00\u95F4\u7A7A\u683C\u7B56\u7565",
@@ -1858,6 +1847,7 @@ var locale2 = {
     "builtin-del-codeblock": "\u5FEB\u901F\u5220\u9664\u7A7A\u4EE3\u7801\u5757",
     "builtin-del-wikilink": "\u5FEB\u901F\u5220\u9664\u53CC\u94FE\u53CA\u5D4C\u5165\uFF08![[]]\uFF09",
     "builtin-sel-wrap-symbols": "\u9009\u4E2D\u6587\u5B57\u540E\u8F93\u5165 \u3010/\xA5/\uFFE5 \u5305\u88F9\u4E3A []/$$",
+    "builtin-sel-wrap-backtick": "\u9009\u4E2D\u6587\u5B57\u540E\u8F93\u5165 \xB7 \u5305\u88F9\u4E3A\u884C\u5185\u4EE3\u7801",
     "builtin-sel-wrap-quotes": "\u9009\u4E2D\u6587\u5B57\u540E\u8F93\u5165\u5168\u89D2\u5F15\u53F7\uFF0C\u914D\u5BF9\u5F15\u53F7\u5305\u88F9",
     "builtin-sel-wrap-cjk-brackets": "\u9009\u4E2D\u6587\u5B57\u540E\u8F93\u5165\u300A\uFF08\uFF0C\u914D\u5BF9\u62EC\u53F7\u5305\u88F9",
     "builtin-quote-convert": "\u8F93\u5165 > \u6216 \u300B \u8F6C\u4E3A Markdown \u5F15\u7528\u6807\u8BB0",
@@ -1888,6 +1878,10 @@ var locale3 = {
     autoFormatting: {
       name: "\u8F38\u5165\u6642\u81EA\u52D5\u683C\u5F0F\u5316",
       desc: "\u662F\u5426\u5728\u7DE8\u8F2F\u6587\u6A94\u6642\u81EA\u52D5\u683C\u5F0F\u5316\u6587\u672C\uFF0C\u81EA\u52D5\u683C\u5F0F\u5316\u7684\u7E3D\u958B\u95DC"
+    },
+    autoFormatPaste: {
+      name: "\u7C98\u8CBC\u6642\u81EA\u52D5\u683C\u5F0F\u5316",
+      desc: "\u7C98\u8CBC\u6642\u662F\u5426\u81EA\u52D5\u683C\u5F0F\u5316\uFF0CCMD/CTRL+SHIFT+V \u7121\u683C\u5F0F\u7C98\u8CBC\u6642\u4E0D\u89F8\u767C\u3002"
     },
     languagePairSpacing: {
       name: "\u8A9E\u8A00\u9593\u7A7A\u683C\u7B56\u7565",
@@ -2149,6 +2143,7 @@ var locale3 = {
     "builtin-del-block-formula": "\u522A\u9664\u584A\u7D1A\u516C\u5F0F $$...$$ \u914D\u5C0D",
     "builtin-del-codeblock": "\u5FEB\u901F\u522A\u9664\u7A7A\u4EE3\u78BC\u584A",
     "builtin-del-wikilink": "\u5FEB\u901F\u522A\u9664\u96D9\u93C8\u53CA\u5D4C\u5165\uFF08![[]]\uFF09",
+    "builtin-sel-wrap-backtick": "\u9078\u4E2D\u6587\u5B57\u5F8C\u8F38\u5165 \xB7 \u5305\u88F9\u70BA\u884C\u5167\u4EE3\u78BC",
     "builtin-sel-wrap-symbols": "\u9078\u4E2D\u6587\u5B57\u5F8C\u8F38\u5165 \u3010/\xA5/\uFFE5 \u5305\u88F9\u70BA []/$$",
     "builtin-sel-wrap-quotes": "\u9078\u4E2D\u6587\u5B57\u5F8C\u8F38\u5165\u5168\u89D2\u5F15\u865F\uFF0C\u914D\u5C0D\u5F15\u865F\u5305\u88F9",
     "builtin-sel-wrap-cjk-brackets": "\u9078\u4E2D\u6587\u5B57\u5F8C\u8F38\u5165\u300A\uFF08\uFF0C\u914D\u5C0D\u62EC\u865F\u5305\u88F9",
@@ -2180,6 +2175,10 @@ var locale4 = {
     autoFormatting: {
       name: "\u0410\u0432\u0442\u043E\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u0438 \u043D\u0430\u0431\u043E\u0440\u0435 \u0442\u0435\u043A\u0441\u0442\u0430",
       desc: "\u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435/\u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0430\u0432\u0442\u043E\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0442\u0435\u043A\u0441\u0442\u0430 \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430."
+    },
+    autoFormatPaste: {
+      name: "\u0410\u0432\u0442\u043E\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u0440\u0438 \u0432\u0441\u0442\u0430\u0432\u043A\u0435",
+      desc: "\u0412\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435/\u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u0430\u0432\u0442\u043E\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F \u043F\u0440\u0438 \u0432\u0441\u0442\u0430\u0432\u043A\u0435. CMD/CTRL+SHIFT+V (\u0432\u0441\u0442\u0430\u0432\u043A\u0430 \u0431\u0435\u0437 \u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F) \u043D\u0435 \u0432\u044B\u0437\u044B\u0432\u0430\u0435\u0442 \u0441\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u043D\u0438\u0435."
     },
     languagePairSpacing: {
       name: "\u0421\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u044F \u043F\u0440\u043E\u0431\u0435\u043B\u043E\u0432 \u043C\u0435\u0436\u0434\u0443 \u044F\u0437\u044B\u043A\u0430\u043C\u0438",
@@ -2441,6 +2440,7 @@ var locale4 = {
     "builtin-del-block-formula": "\u0423\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u044B \u0431\u043B\u043E\u0447\u043D\u043E\u0439 \u0444\u043E\u0440\u043C\u0443\u043B\u044B $$...$$",
     "builtin-del-codeblock": "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u0443\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u043F\u0443\u0441\u0442\u043E\u0433\u043E \u0431\u043B\u043E\u043A\u0430 \u043A\u043E\u0434\u0430",
     "builtin-del-wikilink": "\u0411\u044B\u0441\u0442\u0440\u043E\u0435 \u0443\u0434\u0430\u043B\u0435\u043D\u0438\u0435 \u0432\u0438\u043A\u0438-\u0441\u0441\u044B\u043B\u043A\u0438 \u0438 \u0432\u0441\u0442\u0430\u0432\u043A\u0438 (![[]])",
+    "builtin-sel-wrap-backtick": "\u041E\u0431\u0435\u0440\u043D\u0443\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0432 \xB7 \u0432 \u043E\u0431\u0440\u0430\u0442\u043D\u044B\u0435 \u043A\u0430\u0432\u044B\u0447\u043A\u0438",
     "builtin-sel-wrap-symbols": "\u041E\u0431\u0435\u0440\u043D\u0443\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0432 []/$ \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u3010/\xA5/\uFFE5",
     "builtin-sel-wrap-quotes": "\u041E\u0431\u0435\u0440\u043D\u0443\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u043F\u0430\u0440\u043D\u044B\u043C\u0438 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u044B\u043C\u0438 \u043A\u0430\u0432\u044B\u0447\u043A\u0430\u043C\u0438",
     "builtin-sel-wrap-cjk-brackets": "\u041E\u0431\u0435\u0440\u043D\u0443\u0442\u044C \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0441\u043A\u043E\u0431\u043A\u0430\u043C\u0438 \u300A\u300B \u0438\u043B\u0438 \uFF08\uFF09",
@@ -2729,6 +2729,7 @@ var locale5 = {
     "builtin-del-block-formula": "\u30D6\u30ED\u30C3\u30AF\u6570\u5F0F $$...$$ \u306E\u30DA\u30A2\u3092\u524A\u9664",
     "builtin-del-codeblock": "\u7A7A\u306E\u30B3\u30FC\u30C9\u30D6\u30ED\u30C3\u30AF\u3092\u3059\u3070\u3084\u304F\u524A\u9664",
     "builtin-del-wikilink": "\u30A6\u30A3\u30AD\u30EA\u30F3\u30AF\u3068\u57CB\u3081\u8FBC\u307F(![[]])\u3092\u3059\u3070\u3084\u304F\u524A\u9664",
+    "builtin-sel-wrap-backtick": "\xB7 \u3067\u9078\u629E\u30C6\u30AD\u30B9\u30C8\u3092\u30D0\u30C3\u30AF\u30AF\u30A9\u30FC\u30C8\u3067\u56F2\u3080",
     "builtin-sel-wrap-symbols": "\u9078\u629E\u30C6\u30AD\u30B9\u30C8\u3092\u3010/\xA5/\uFFE5\u3067 []/$$\u3067\u56F2\u3080",
     "builtin-sel-wrap-quotes": "\u9078\u629E\u30C6\u30AD\u30B9\u30C8\u3092\u5168\u89D2\u5F15\u7528\u7B26\u3067\u56F2\u3080",
     "builtin-sel-wrap-cjk-brackets": "\u9078\u629E\u30C6\u30AD\u30B9\u30C8\u3092\u300A\u300B\u307E\u305F\u306F\uFF08\uFF09\u62EC\u5F27\u3067\u56F2\u3080",
@@ -3017,6 +3018,7 @@ var locale6 = {
     "builtin-del-block-formula": "\uBE14\uB85D \uC218\uC2DD $$...$$ \uC30D \uC0AD\uC81C",
     "builtin-del-codeblock": "\uBE48 \uCF54\uB4DC \uBE14\uB85D \uBE60\uB978 \uC0AD\uC81C",
     "builtin-del-wikilink": "\uC704\uD0A4\uB9C1\uD06C \uBC0F \uC784\uBCA0\uB4DC(![[]])  \uBE60\uB978 \uC0AD\uC81C",
+    "builtin-sel-wrap-backtick": "\xB7 \uB85C \uC120\uD0DD \uD14D\uC2A4\uD2B8\uB97C \uBC31\uD2F1\uC73C\uB85C \uAC10\uC2F8\uAE30",
     "builtin-sel-wrap-symbols": "\uC120\uD0DD\uD55C \uD14D\uC2A4\uD2B8\uB97C \u3010/\xA5/\uFFE5\uB85C []/$$\uB85C \uAC10\uC2F8\uAE30",
     "builtin-sel-wrap-quotes": "\uC120\uD0DD\uD55C \uD14D\uC2A4\uD2B8\uB97C \uC804\uAC01 \uB530\uC634\uD45C\uB85C \uAC10\uC2F8\uAE30",
     "builtin-sel-wrap-cjk-brackets": "\uC120\uD0DD\uD55C \uD14D\uC2A4\uD2B8\uB97C \u300A\u300B \uB610\uB294 \uFF08\uFF09 \uAD04\uD638\uB85C \uAC10\uC2F8\uAE30",
@@ -3596,6 +3598,14 @@ var DEFAULT_BUILTIN_RULES = [
     description: "\u5FEB\u901F\u5220\u9664\u53CC\u94FE\u53CA\u5D4C\u5165\uFF08![[]]\uFF09"
   },
   {
+    id: "builtin-sel-wrap-backtick",
+    trigger: "\xB7",
+    replacement: "`${0:${SEL}}`",
+    options: "s",
+    priority: 40,
+    description: "\u9009\u4E2D\u6587\u5B57\u540E\u8F93\u5165 \xB7 \u5305\u88F9\u4E3A\u884C\u5185\u4EE3\u7801"
+  },
+  {
     id: "builtin-sel-wrap-symbols",
     trigger: `\u3010\xA5\uFFE5`,
     replacement: "const m={'\xA5': ['$', '$'], '\uFFE5': ['$', '$'], '\u3010': ['[', ']']}; \nreturn m[key][0] + '${0:${SEL}}' + m[key][1];",
@@ -3626,7 +3636,7 @@ var DEFAULT_BUILTIN_RULES = [
 // src/settings/rule_edit_modal.ts
 var import_obsidian4 = require("obsidian");
 var import_view = require("@codemirror/view");
-var import_state = require("@codemirror/state");
+var import_state2 = require("@codemirror/state");
 var import_commands = require("@codemirror/commands");
 var JS_KEYWORDS = /* @__PURE__ */ new Set([
   "const",
@@ -3763,13 +3773,13 @@ var fnEditorTheme = import_view.EditorView.theme({
   ".cm-activeLine": { backgroundColor: "transparent" }
 });
 function createJSEditorView(container, initialValue, onChange) {
-  const state = import_state.EditorState.create({
+  const state = import_state2.EditorState.create({
     doc: initialValue,
     extensions: [
       jsHighlightPlugin,
       fnEditorTheme,
       import_view.keymap.of([import_commands.indentWithTab]),
-      import_state.EditorState.tabSize.of(4),
+      import_state2.EditorState.tabSize.of(4),
       import_view.EditorView.updateListener.of((update) => {
         if (update.docChanged) {
           onChange(update.state.doc.toString());
@@ -4132,6 +4142,12 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     const masterSwitch = new import_obsidian5.Setting(el).setName(locale7.settings.autoFormatting.name).setDesc(locale7.settings.autoFormatting.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.AutoFormat).onChange(async (value) => {
         this.plugin.settings.AutoFormat = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian5.Setting(el).setName(locale7.settings.autoFormatPaste.name).setDesc(locale7.settings.autoFormatPaste.desc).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.AutoFormatPaste).onChange(async (value) => {
+        this.plugin.settings.AutoFormatPaste = value;
         await this.plugin.saveSettings();
       });
     });
@@ -4688,11 +4704,11 @@ var import_view5 = require("@codemirror/view");
 
 // src/tabstops_state_field.ts
 var import_view2 = require("@codemirror/view");
-var import_state2 = require("@codemirror/state");
-var addTabstopsEffect = import_state2.StateEffect.define();
-var removeTabstopEffect = import_state2.StateEffect.define();
-var removeAllTabstopsEffect = import_state2.StateEffect.define();
-var tabstopsStateField = import_state2.StateField.define({
+var import_state3 = require("@codemirror/state");
+var addTabstopsEffect = import_state3.StateEffect.define();
+var removeTabstopEffect = import_state3.StateEffect.define();
+var removeAllTabstopsEffect = import_state3.StateEffect.define();
+var tabstopsStateField = import_state3.StateField.define({
   create() {
     return [];
   },
@@ -5415,7 +5431,7 @@ function preFormatOneLine(ctx, editor, lineNumber, ch = -1) {
   }
   const lineType = getPosLineType(state, line.from);
   if (lineType == "text" /* text */ || lineType == "table" /* table */) {
-    let newLineData = ctx.Formater.formatLine(state, lineNumber, ctx.settings, curCh, 0);
+    let newLineData = ctx.Formater.formatLine(state, lineNumber, { ...ctx.settings, AutoCapital: false }, curCh, 0);
     newLine = newLineData[0];
     newCh = newLineData[1];
   }
@@ -5561,7 +5577,7 @@ var import_language4 = require("@codemirror/language");
 var import_obsidian7 = require("obsidian");
 
 // src/tabstop.ts
-var import_state3 = require("@codemirror/state");
+var import_state4 = require("@codemirror/state");
 var import_view3 = require("@codemirror/view");
 var TABSTOP_DECO_CLASS = "easy-typing-tabstops";
 var CURSOR_WIDGET_CLASS = "easy-typing-cursor-widget";
@@ -5581,7 +5597,7 @@ function getMarkerDecoration(from, to) {
 var TabstopGroup = class {
   constructor(tabstopSpecs) {
     const decos = tabstopSpecs.map((spec) => getMarkerDecoration(spec.from, spec.to));
-    this.selections = tabstopSpecs.map((spec) => import_state3.EditorSelection.range(spec.from, spec.to));
+    this.selections = tabstopSpecs.map((spec) => import_state4.EditorSelection.range(spec.from, spec.to));
     this.decos = import_view3.Decoration.set(decos, true);
   }
   select(view, selectEndpoints) {
@@ -5595,7 +5611,7 @@ var TabstopGroup = class {
     return this.selections;
   }
   toEditorSelection() {
-    return import_state3.EditorSelection.create(this.toSelectionRanges());
+    return import_state4.EditorSelection.create(this.toSelectionRanges());
   }
   containsSelection(selection) {
     function rangeLiesWithinSelection(range, sel) {
@@ -5621,7 +5637,7 @@ var TabstopGroup = class {
     this.selections = this.selections.map((range) => {
       let rangeFrom = changes.mapPos(range.from, -1);
       let rangeTo = changes.mapPos(range.to, 1);
-      return import_state3.EditorSelection.range(rangeFrom, rangeTo);
+      return import_state4.EditorSelection.range(rangeFrom, rangeTo);
     });
   }
   getDecoRanges() {
@@ -5658,8 +5674,8 @@ function tabstopSpecsToTabstopGroups(tabstops) {
   return result;
 }
 function getEditorSelectionEndpoints(sel) {
-  const endpoints = sel.ranges.map((range) => import_state3.EditorSelection.range(range.to, range.to));
-  return import_state3.EditorSelection.create(endpoints);
+  const endpoints = sel.ranges.map((range) => import_state4.EditorSelection.range(range.to, range.to));
+  return import_state4.EditorSelection.create(endpoints);
 }
 var CursorWidget = class extends import_view3.WidgetType {
   eq(widget) {
@@ -6316,21 +6332,25 @@ function selectBlockInCursor(ctx, view) {
 }
 
 // src/cm_extensions.ts
-var import_state4 = require("@codemirror/state");
+var import_state5 = require("@codemirror/state");
 var import_obsidian8 = require("obsidian");
 var import_view4 = require("@codemirror/view");
 function createTransactionFilter(ctx) {
-  return import_state4.EditorState.transactionFilter.of((tr) => {
+  return import_state5.EditorState.transactionFilter.of((tr) => {
     const changes = [];
     if (!tr.docChanged)
       return tr;
     let selected = tr.startState.selection.asSingle().main.anchor != tr.startState.selection.asSingle().main.head;
     let changeTypeStr = getTypeStrOfTransac(tr);
     tr.changes.iterChanges((fromA, toA, fromB, toB, inserted) => {
-      var _a, _b, _c;
+      var _a, _b, _c, _d;
       let changedStr = tr.startState.sliceDoc(fromA, toA);
       let changestr_ = changedStr.replace(/\s/g, "0");
       let insertedStr = inserted.sliceString(0);
+      if ((_a = ctx.settings) == null ? void 0 : _a.debug) {
+        console.log("[TransactionFilter] type, fromA, toA, changed, fromB, toB, inserted");
+        console.log(changeTypeStr, fromA, toA, changedStr, fromB, toB, insertedStr);
+      }
       if (getPosLineType(tr.startState, fromA) == "table" /* table */)
         return tr;
       if ((changeTypeStr == "input.type" || changeTypeStr == "input.type.compose") && fromA != toA && (fromB + 1 === toB || insertedStr == "\u2014\u2014" || insertedStr == "\u2026\u2026")) {
@@ -6344,7 +6364,7 @@ function createTransactionFilter(ctx) {
           scopeHint: selScope.scope,
           scopeLanguage: selScope.language,
           key: insertedStr,
-          debug: (_a = ctx.settings) == null ? void 0 : _a.debug
+          debug: (_b = ctx.settings) == null ? void 0 : _b.debug
         };
         const selResult = ctx.ruleEngine.process(selCtx);
         if (selResult) {
@@ -6370,7 +6390,7 @@ function createTransactionFilter(ctx) {
       if (ctx.settings.BetterCodeEdit && changeTypeStr.contains("paste") && fromA == fromB && isCodeBlockInPos(tr.startState, fromA)) {
         print("\u68C0\u6D4B\u5230\u5728\u4EE3\u7801\u5757\u4E2D\u7C98\u8D34");
         let line = tr.startState.doc.lineAt(fromB).text;
-        let base_indent_num = (_b = getCodeBlockInfoInPos(tr.startState, fromA)) == null ? void 0 : _b.indent;
+        let base_indent_num = (_c = getCodeBlockInfoInPos(tr.startState, fromA)) == null ? void 0 : _c.indent;
         let base_indent = base_indent_num == 0 ? "" : " ".repeat(base_indent_num);
         let inserted_lines = insertedStr.split("\n");
         if (inserted_lines.length > 1) {
@@ -6497,7 +6517,7 @@ function createTransactionFilter(ctx) {
           changeType: changeTypeStr,
           scopeHint: delScope.scope,
           scopeLanguage: delScope.language,
-          debug: (_c = ctx.settings) == null ? void 0 : _c.debug
+          debug: (_d = ctx.settings) == null ? void 0 : _d.debug
         };
         const delResult = ctx.ruleEngine.process(delCtx);
         if (delResult) {
@@ -6524,7 +6544,7 @@ function createTransactionFilter(ctx) {
     return tr;
   });
 }
-function tryProcessInput(ctx, update, changeFrom, cursorPos, isCompose) {
+function tryProcessInput(ctx, update, changeFrom, cursorPos, changeType = "input.type") {
   const lineType = getPosLineType(update.view.state, cursorPos);
   if (lineType === "table" /* table */)
     return false;
@@ -6533,6 +6553,8 @@ function tryProcessInput(ctx, update, changeFrom, cursorPos, isCompose) {
   if (!ctx.settings.AutoFormat || isCurrentFileExclude(ctx))
     return false;
   if (lineType !== "text" /* text */)
+    return false;
+  if (changeType.contains("paste"))
     return false;
   const insertedStr = update.view.state.doc.sliceString(changeFrom, cursorPos);
   const changes = ctx.Formater.formatLineOfDoc(update.state, ctx.settings, changeFrom, cursorPos, insertedStr);
@@ -6580,7 +6602,7 @@ function createViewUpdatePlugin(ctx) {
       ctx.compose_need_handle = false;
       const cursor2 = update.view.state.selection.asSingle().main;
       if (cursor2.head === cursor2.anchor) {
-        if (tryProcessInput(ctx, update, ctx.compose_begin_pos, cursor2.anchor, true))
+        if (tryProcessInput(ctx, update, ctx.compose_begin_pos, cursor2.anchor))
           return;
       }
     }
@@ -6608,15 +6630,15 @@ function createViewUpdatePlugin(ctx) {
     const cursor = update.view.state.selection.asSingle().main;
     const notSelected = cursor.anchor === cursor.head;
     if (notSelected && changedStr.length < 1 && !changeType.includes("delete")) {
-      if (tryProcessInput(ctx, update, fromB, cursor.anchor, false))
+      if (tryProcessInput(ctx, update, fromB, cursor.anchor, changeType))
         return;
     }
     const isExcludeFile = isCurrentFileExclude(ctx);
-    if (ctx.settings.AutoFormat && !isExcludeFile && changeType === "input.paste" && !import_obsidian8.Platform.isIosApp) {
+    if (ctx.settings.AutoFormat && ctx.settings.AutoFormatPaste && !isExcludeFile && changeType === "paste" && !import_obsidian8.Platform.isIosApp) {
       let updateLineStart = update.state.doc.lineAt(fromB).number;
       let updateLineEnd = update.state.doc.lineAt(toB).number;
       if (updateLineStart === updateLineEnd && getPosLineType(update.view.state, toB) === "text" /* text */) {
-        let changes = ctx.Formater.formatLineOfDoc(update.state, ctx.settings, fromB, toB, insertedStr);
+        let changes = ctx.Formater.formatLineOfDoc(update.state, { ...ctx.settings, AutoCapital: false }, fromB, toB, insertedStr);
         if (changes) {
           update.view.dispatch(...changes[0]);
           return;
@@ -6627,7 +6649,7 @@ function createViewUpdatePlugin(ctx) {
         let update_start = fromB;
         for (let i = updateLineStart; i <= updateLineEnd; i++) {
           let real_inserted = inserted_array[i - updateLineStart];
-          let changes = ctx.Formater.formatLineOfDoc(update.state, ctx.settings, update_start, update_start + real_inserted.length, real_inserted);
+          let changes = ctx.Formater.formatLineOfDoc(update.state, { ...ctx.settings, AutoCapital: false }, update_start, update_start + real_inserted.length, real_inserted);
           if (changes) {
             all_changes.push(...changes[0]);
           }
@@ -6639,20 +6661,6 @@ function createViewUpdatePlugin(ctx) {
         }
       }
     }
-  });
-}
-async function normalPaste(editor, debug) {
-  let clipboardText = await navigator.clipboard.readText();
-  if (clipboardText === null || clipboardText === "")
-    return;
-  if (debug)
-    console.log("Normal Paste!!");
-  const editorView = editor.cm;
-  let mainSelection = editorView.state.selection.asSingle().main;
-  editorView.dispatch({
-    changes: { from: mainSelection.from, to: mainSelection.to, insert: clipboardText },
-    selection: { anchor: mainSelection.from + clipboardText.length },
-    userEvent: "EasyTyping.paste"
   });
 }
 
@@ -6723,7 +6731,7 @@ var EasyTypingPlugin = class extends import_obsidian9.Plugin {
       createViewUpdatePlugin(this),
       tabstopsStateField.extension
     ]);
-    this.registerEditorExtension(import_state5.Prec.highest(import_view5.keymap.of([
+    this.registerEditorExtension(import_state6.Prec.highest(import_view5.keymap.of([
       {
         key: "Tab",
         run: (v) => handleTabDown(this, v)
@@ -6817,20 +6825,6 @@ var EasyTypingPlugin = class extends import_obsidian9.Plugin {
         modifiers: ["Ctrl"],
         key: "tab"
       }]
-    });
-    this.addCommand({
-      id: "easy-typing-paste-without-format",
-      name: locale7.commands.pasteWithoutFormat,
-      editorCallback: (editor) => {
-        var _a;
-        return normalPaste(editor, (_a = this.settings) == null ? void 0 : _a.debug);
-      },
-      hotkeys: [
-        {
-          modifiers: ["Mod", "Shift"],
-          key: "v"
-        }
-      ]
     });
     this.addCommand({
       id: "easy-typing-toggle-comment",
