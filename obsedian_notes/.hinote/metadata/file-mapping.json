@@ -4,7 +4,9 @@
     "Product/Demo/Demo.md": "product_demo_demo.md.json",
     "Product/Go-no-go/RFP training.md": "product_go-no-go_rfp_training.md.json",
     "Product/Go-no-go/RFP training PRD.md": "product_go-no-go_rfp_training_prd.md.json",
-    "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md": "product_roi_calculator_sparrowgenie_roi_calculator_prd.md.json"
+    "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md": "product_roi_calculator_sparrowgenie_roi_calculator_prd.md.json",
+    "Product/ROI Calculator/ROI Calculator.md": "product_roi_calculator_roi_calculator.md.json",
+    "Product/Instructions/Instructions from the Document.md": "product_instructions_instructions_from_the_document.md.json"
   },
-  "lastUpdated": 1772919644536
+  "lastUpdated": 1772921527046
 }

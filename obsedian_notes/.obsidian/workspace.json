@@ -150,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md",
+                "file": "Product/Instructions/Instructions from the Document.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -165,7 +165,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SparrowGenie_ROI_Calculator_PRD"
+              "title": "Instructions from the Document"
             }
           },
           {
@@ -391,7 +391,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "071ce05a61e159f0",
@@ -438,8 +438,11 @@
   },
   "active": "161156316efd6e86",
   "lastOpenFiles": [
+    "Product/ROI Calculator/ROI Calculator.md",
+    "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
+    "Product/ROI Calculator/sparrowgenie-email-template.html",
+    "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/Go-no-go/RFP training PRD.md",
-    "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator",
     "Product/untitled folder",
@@ -471,10 +474,6 @@
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product Spec - Template.md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Projects/Answers",
-    "Product/Projects/Questions",
-    "Product/Help Article",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",

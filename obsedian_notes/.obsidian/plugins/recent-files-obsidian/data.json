@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "SparrowGenie_ROI_Calculator_PRD",
-      "path": "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md"
+      "basename": "Instructions from the Document",
+      "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
     },
     {
       "basename": "ERD",
@@ -195,10 +199,6 @@
     {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "Product/Settings/Teams/Teams.md"
     }
   ],
   "omittedPaths": [],
