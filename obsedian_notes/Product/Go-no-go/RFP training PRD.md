@@ -31,30 +31,23 @@ Where does the deal slow down?
 Consequences if not solved:
 
 - Knowledge Hubs remain static and degrade in relevance.
-    
 - Proposal teams continue duplicating effort across projects.
-    
 - AI answer quality plateaus instead of compounding with every completed RFP.
-    
 
 ---
 
-Opportunity
+## Opportunity
 
-Why now? 
+### Why now? 
 
 SparrowGenie already has knowledge hubs and project-level execution. The missing piece is the feedback loop — connecting these two so every completed project automatically enriches the knowledge base.
 
 How it helps sales teams close faster:
 
 - Faster proposals: BM25 or any other searching agent instantly retrieves verbatim answers from KH, reducing manual effort from the first question.
-    
 - Better AI responses: KH grows with human-reviewed, project-level answers — the most authoritative data source available.
-    
 - Consistent positioning: Answers centralized per KH, eliminating divergent responses across projects.
-    
 - Institutional memory: Reuse tracking and change detection ensure high-value answers persist and evolve, surviving employee turnover.
-    
 
 Expected business impact:
 
@@ -73,28 +66,19 @@ Expected business impact:
 ## Goals
 
 1. Reduce project answer time by 30–50% by surfacing verbatim answers and ranked alternatives from KH via BM25 or any other search retrieval.
-    
 2. Close the knowledge feedback loop ensure ≥60% of completed projects contribute reviewed Q&A pairs back to the appropriate Knowledge Hub(s) within 90 days of launch.
-    
 3. Prevent knowledge staleness — track reuse count and apply change detection so KH entries stay current without redundant retraining.
-    
 4. Reduce SME burden by 25–40% — by reusing prior answers instead of pulling SMEs into every new proposal.
-    
 5. Establish data authority hierarchy — project-reviewed answers weighted higher than onboarding uploads; source clearly tagged in UI and ranking.
-    
 
 ---
 
 ## Non-Goals
 
 1. External content ingestion — no import from sources outside SparrowGenie (e.g., Confluence, SharePoint). (Rationale: adds integration complexity; internal loop is the priority.)
-    
 2. Cross-organization KH sharing — KH data stays within the org boundary. (Rationale: security/privacy concerns, low demand in v1.)
-    
 3. Fully automated ingestion without human review — project-level human validation remains the quality gate. (Rationale: accuracy trust must be established before removing the human.)
-    
 4. Auto-tagging and taxonomy management — tagging is a known open issue but will not block v1 launch. (Rationale: needs design research; manual tagging is acceptable for now.)
-    
 
 ---
 
@@ -107,9 +91,7 @@ Proposal Owner / Proposal Manager — creates projects, selects Knowledge Hubs, 
 Secondary users:
 
 - SMEs — provide domain-specific answers within projects. Their reviewed contributions are among the highest-authority inputs trained back into KH.
-    
 - Sales Engineers — reuse technical responses across deals, benefit from increasingly accurate AI suggestions as KH grows.
-    
 
 Out of scope: End customers, procurement teams, external collaborators. This feature focuses only on the internal knowledge loop—ingestion, retrieval, and retraining.
 
