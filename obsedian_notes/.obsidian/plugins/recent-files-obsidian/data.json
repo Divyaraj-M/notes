@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie_ROI_Calculator_PRD",
+      "path": "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md"
+    },
+    {
       "basename": "ERD",
       "path": "Learning/ARCA AI/UTITSL_102/ERD.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Teams",
       "path": "Product/Settings/Teams/Teams.md"
-    },
-    {
-      "basename": "Assigning to the section",
-      "path": "Product/Settings/Teams/Assigning to the section.md"
     }
   ],
   "omittedPaths": [],
