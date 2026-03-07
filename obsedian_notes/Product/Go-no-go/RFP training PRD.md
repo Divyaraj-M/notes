@@ -102,32 +102,23 @@ Out of scope: End customers, procurement teams, external collaborators. This fea
 Proposal Owner:
 
 - As a Proposal Owner, I want to upload past RFPs during onboarding so that the Knowledge Hub has seed data for AI to retrieve answers from day one.
-    
 - As a Proposal Owner, I want to select one or more Knowledge Hubs when creating a project so that BM25 or any other search retrieval tool searches the correct domain of answers.
-    
 - As a proposal owner, I want to see verbatim answer suggestions with ranked alternatives when answering RFP questions so that I can accept, edit, or pick the best match without starting from scratch.
-    
-- As a proposal owner, I want reviewed Q&A pairs to automatically flow back to the correct knowledge hub after project completion so that future proposals benefit from my work.
-    
+- As a proposal owner, I want reviewed Q&A pairs to automatically flow back to the correct knowledge hub after project completion so that future proposals benefit from my work.    
 
 SME:
 
 - As an SME, I want my reviewed answers to be reused in future proposals so that I am not repeatedly asked the same questions across deals.
-    
 - As an SME, I want to see how many times my answers have been reused so that I understand the impact of my contributions.
-    
 
 Knowledge Admin:
 
 - As a Knowledge Admin, I want to resolve segregation conflicts when BM25 cannot confidently route a question to a single hub so that Q&A pairs end up in the right place.
-    
 - As a knowledge admin, I want to see which KH entries are stale or unused so that I can archive low-value content and keep hubs clean.
-    
 
 Edge case stories:
 
 - As a Proposal Owner, I want the system to flag when an uploaded RFP cannot be parsed into Q&A format so that I can manually structure the content instead of losing it.
-    
 
 ---
 
@@ -141,32 +132,22 @@ During onboarding, the product prompts users to upload ~10 past RFPs with answer
 Acceptance criteria:
 
 - User can upload RFP documents (XLS, XLSX, CSV, DOC,pdf) during onboarding flow
-    
 - The system parses uploaded RFPs and extracts Q&A pairs
-    
 - If parsing fails (unstructured content, images), has to retry until it is parsed successfully
-    
 
 2. Project-to-KH Feedback Loop  
 When an RFP project is completed and all questions are answered and reviewed by humans, those Q&A pairs are trained back into the Knowledge Hub. The feedback path differs by hub selection:
 
 - Single Hub: All project Q&As redirect directly to that KH — no segregation needed.
-    
 - Multiple Hubs: BM25 or any other search segregation routes each Q&A to the correct hub.
-    
 
 Acceptance criteria:
 
 - Upon project status is set as "Completed," from the projects the system triggers feedback pipeline automatically
-    
 - Single-hub projects: all Q&As route directly to the selected KH
-    
 - Multi-hub projects: BM25 or any other search segregation assigns each Q&A to the best-matching hub
-    
 - Project-sourced entries are tagged with “Project ID” and marked as higher authority than onboarding uploads
-    
 - Feedback does not occur for incomplete projects or unreviewed questions
-    
 
 3. BM25 or any other search-Based Question Segregation (multi-hub only)  
 When a project spans multiple knowledge hubs, BM25 or any other search identifies keyword similarity and routes each answered question to the correct KH. KH usage patterns cannot be predicted, so segregation must handle unexpected distributions.
@@ -174,13 +155,9 @@ When a project spans multiple knowledge hubs, BM25 or any other search identifie
 Acceptance criteria:
 
 - BM25 or any other search assigns each Q&A to the hub with highest keyword similarity
-    
 - If BM25 or any other search cannot confidently assign equal scores across hubs, question is flagged for manual routing
-    
 - Knowledge Admin can resolve flagged segregation conflicts
-    
 - Single-hub projects bypass segregation entirely
-    
 
 4. BM25 or any other search-Based Answer Retrieval  
 When a new RFP is uploaded and the user selects a KH, BM25 or any other search agent, it searches existing Q&A by keyword:
