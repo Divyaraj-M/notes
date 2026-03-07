@@ -150,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Instructions/Instructions from the Document.md",
+                "file": "Product/Go-no-go/RFP training PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -165,7 +165,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Instructions from the Document"
+              "title": "RFP training PRD"
             }
           },
           {
@@ -438,11 +438,18 @@
   },
   "active": "161156316efd6e86",
   "lastOpenFiles": [
+    "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/Instructions/Instructions from the Document.md",
+    "Product/Instructions/Instructions logic.md",
+    "Product/Instructions/Instructions.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/Projects/Answers/Answers.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
-    "Product/Go-no-go/RFP training PRD.md",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator",
     "Product/untitled folder",
@@ -452,7 +459,6 @@
     "Learning/ARCA AI/Cred/Cred.md",
     "Learning/ARCA AI/Cred",
     "2026-03-06.md",
-    "Product/Go-no-go/RFP training.md",
     "Product/Demo/Demo.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "2026-02-25.md",
@@ -469,11 +475,6 @@
     "Not a trash/Work Log 2026-02-16.md",
     "Not a trash/2026-02-23 -Weekly product Stand up.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
-    "Not a trash/2026-02-24 - Sprint Planning.md",
-    "Product/Settings/Users and Teams/Users tab.md",
-    "Daily/UAT vipin 2026-02-23.md",
-    "Product/Templates/Product Spec Template 2.md",
-    "Product/Templates/Product Spec - Template.md",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",

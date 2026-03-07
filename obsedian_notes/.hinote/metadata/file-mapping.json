@@ -6,7 +6,12 @@
     "Product/Go-no-go/RFP training PRD.md": "product_go-no-go_rfp_training_prd.md.json",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md": "product_roi_calculator_sparrowgenie_roi_calculator_prd.md.json",
     "Product/ROI Calculator/ROI Calculator.md": "product_roi_calculator_roi_calculator.md.json",
-    "Product/Instructions/Instructions from the Document.md": "product_instructions_instructions_from_the_document.md.json"
+    "Product/Instructions/Instructions from the Document.md": "product_instructions_instructions_from_the_document.md.json",
+    "Product/Projects/Answers/Answers.md": "product_projects_answers_answers.md.json",
+    "Product/Knowledge Hub/Knowledge Hub.md": "product_knowledge_hub_knowledge_hub.md.json",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md": "product_knowledge_hub_training_back_projects_into_knowledge_hubs.md.json",
+    "Product/Instructions/Instructions.md": "product_instructions_instructions.md.json",
+    "Product/Instructions/Instructions logic.md": "product_instructions_instructions_logic.md.json"
   },
-  "lastUpdated": 1772921527046
+  "lastUpdated": 1772921734525
 }
