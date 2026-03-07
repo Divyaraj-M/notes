@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ERd",
+      "path": "Learning/ARCA AI/UTITSL_102/ERd.md"
+    },
+    {
       "basename": "Design diagram",
       "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Assigning to the section",
       "path": "Product/Settings/Teams/Assigning to the section.md"
-    },
-    {
-      "basename": "Known Unknown Matrix",
-      "path": "Product/Settings/Teams/Known Unknown Matrix.md"
     }
   ],
   "omittedPaths": [],
