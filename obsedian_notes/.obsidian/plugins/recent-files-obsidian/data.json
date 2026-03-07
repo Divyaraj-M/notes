@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Design diagram",
+      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
+    },
+    {
+      "basename": "UTITSL_102 - Tech Doc",
+      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
+    },
+    {
+      "basename": "Pasted image 20260301121747",
+      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
+    },
+    {
       "basename": "Cred",
       "path": "Learning/ARCA AI/Cred/Cred.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Known Unknown Matrix",
       "path": "Product/Settings/Teams/Known Unknown Matrix.md"
-    },
-    {
-      "basename": "Chrome Extension",
-      "path": "Product/Projects/Chrome_extension/Chrome Extension.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Book shelf",
-      "path": "Product/Templates/Book shelf.md"
     }
   ],
   "omittedPaths": [],
