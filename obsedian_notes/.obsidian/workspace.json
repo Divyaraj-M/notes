@@ -18,155 +18,26 @@
               "icon": "search",
               "title": "Home tab"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "43b6a8191e737df7",
+        "type": "tabs",
+        "children": [
           {
             "id": "23e0a7caed26ae74",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Books/Read List/Read List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Go-no-go/RFP training.md"
               },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Read List"
-            }
-          },
-          {
-            "id": "161156316efd6e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/User roles/Project/Project Watcher.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Watcher"
-            }
-          },
-          {
-            "id": "41a84027065aedd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/UAT vipin 2026-02-23.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT vipin 2026-02-23"
-            }
-          },
-          {
-            "id": "f3b321f581e8ac7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Go-no-go/RFP training PRD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RFP training PRD"
-            }
-          },
-          {
-            "id": "c2d1841131a346c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Demo/Demo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Demo"
-            }
-          },
-          {
-            "id": "4fa2e1f718efa1df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/Loopio/SmartScan.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SmartScan"
+              "icon": "excalidraw-icon",
+              "title": "RFP training"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,7 +101,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -260,7 +132,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 41.446808510638306,
+        "dimension": 27.872340425531917,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -296,21 +168,6 @@
             }
           },
           {
-            "id": "3467a05e464d694e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Books/Read List/Atomic Design.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Atomic Design"
-            }
-          },
-          {
             "id": "b2aec384d239af07",
             "type": "leaf",
             "state": {
@@ -331,12 +188,33 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
+      },
+      {
+        "id": "b9811113d47db60d",
+        "type": "tabs",
+        "dimension": 27.872340425531917,
+        "children": [
+          {
+            "id": "3467a05e464d694e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
       },
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 27.319148936170212,
+        "dimension": 18.808510638297875,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -372,7 +250,7 @@
       {
         "id": "366a65c0c7469ae1",
         "type": "tabs",
-        "dimension": 31.234042553191486,
+        "dimension": 25.4468085106383,
         "children": [
           {
             "id": "425971f19e417a0e",
@@ -414,16 +292,27 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "681d9fb88f64f790",
+  "active": "065565bb9e6ac420",
   "lastOpenFiles": [
+    "Product/Go-no-go/RFP training.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Untitled.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/Audit report/Audit report.md",
+    "Product/Audit report/Audit Report R126022026.md",
+    "Books/A little life.md",
+    "2026-02-24.md",
+    "2026-03-06.md",
+    "2026-03-05.md",
+    "2026-02-25.md",
+    "My Data.base",
+    "Books/Read List/Read List.md",
+    "Product/competitors/Loopio/SmartScan.md",
     "Product/User roles/Project/Project Watcher.md",
     "Product/UAT Vipin.md",
-    "Product/Go-no-go/RFP training PRD.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Books/Read List/Read List.md",
-    "Product/competitors/Loopio/SmartScan.md",
     "Books/The Courage to be Disliked.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Product/competitors/Loopio/Proposal to Project.md",
@@ -431,18 +320,7 @@
     "Product/Demo/Demo.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Daily/UAT vipin 2026-02-23.md",
-    "Product/Audit report/Audit report.md",
     "Product/Projects/Answers/Answer types.md",
-    "Books/Read List/Atomic Design.md",
-    "Books/A little life.md",
-    "second_stream_revenue/Google_sheets/CEO One Pager.md",
-    "second_stream_revenue/Google_sheets/Steps to create it.md",
-    "second_stream_revenue/Google_sheets/Sales.md",
-    "second_stream_revenue/Google_sheets/ERP.md",
-    "second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
-    "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
-    "My Data.base",
-    "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",

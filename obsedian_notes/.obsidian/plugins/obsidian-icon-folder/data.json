@@ -36,9 +36,15 @@
   },
   "Not a trash": "CoTrashFull",
   "Books": "📚",
-  "Daily": "LiCalendarPlus",
+  "Daily": {
+    "iconName": "LiCalendarPlus",
+    "iconColor": "#4d96db"
+  },
   "Learning": "🤹",
-  "Product": "CoMainComponent",
+  "Product": {
+    "iconName": "CoMainComponent",
+    "iconColor": "#d150e2"
+  },
   "second_stream_revenue": "LiSquareSplitVertical",
   "My Data.base": {
     "iconName": "LiView",

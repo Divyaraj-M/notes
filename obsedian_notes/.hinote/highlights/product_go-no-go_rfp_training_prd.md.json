@@ -1,10 +1,10 @@
 {
   "version": "2.0",
-  "lastModified": 1772998813367,
+  "lastModified": 1772999270492,
   "highlights": {
     "highlight-780143950-11500": {
       "text": "Cross-Hub Answer Linking — auto-detect and link related answers across KHs for consistency.",
-      "position": 11590,
+      "position": 11586,
       "created": 1772793679145,
       "updated": 1772793679145,
       "backgroundColor": "#ffeb3b",
@@ -14,21 +14,6 @@
           "content": "This has been deffered in official Prd but Have to rethink about it",
           "created": 1772793679145,
           "updated": 1772793679145
-        }
-      ]
-    },
-    "highlight-1100213671-505": {
-      "text": "Problem Statement",
-      "position": 377,
-      "created": 1772998769945,
-      "updated": 1772998769945,
-      "backgroundColor": "#ffeb3b",
-      "comments": [
-        {
-          "id": "comment-1772998769945-aa8nixmxs",
-          "content": "HI",
-          "created": 1772998769945,
-          "updated": 1772998769945
         }
       ]
     }

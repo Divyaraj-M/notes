@@ -2,7 +2,20 @@
   "version": "2.0",
   "mapping": {
     "Product/User roles/Project/Project Watcher.md": "product_user_roles_project_project_watcher.md.json",
-    "Product/competitors/Loopio/SmartScan.md": "product_competitors_loopio_smartscan.md.json"
+    "Product/competitors/Loopio/SmartScan.md": "product_competitors_loopio_smartscan.md.json",
+    "Books/Read List/Read List.md": "books_read_list_read_list.md.json",
+    "My Data.base": "my_data.base.json",
+    "2026-03-06.md": "2026-03-06.md.json",
+    "2026-03-05.md": "2026-03-05.md.json",
+    "2026-02-25.md": "2026-02-25.md.json",
+    "2026-02-24.md": "2026-02-24.md.json",
+    "Books/A little life.md": "books_a_little_life.md.json",
+    "Product/Audit report/Audit Report R126022026.md": "product_audit_report_audit_report_r126022026.md.json",
+    "Product/Audit report/Audit report.md": "product_audit_report_audit_report.md.json",
+    "Product/Go-no-go/RFP training PRD.md": "product_go-no-go_rfp_training_prd.md.json",
+    "Product/Go-no-go/RFP training.md": "product_go-no-go_rfp_training.md.json",
+    "Untitled.md": "untitled.md.json",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md": "product_projects_rfp_to_proposal_proposal_conversion.md.json"
   },
-  "lastUpdated": 1772999029878
+  "lastUpdated": 1772999594359
 }

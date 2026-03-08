@@ -18,5 +18,7 @@
   "defaultViewMode": "source",
   "showUnsupportedFiles": true,
   "readableLineLength": true,
-  "openBehavior": "file:"
+  "openBehavior": "",
+  "focusNewTab": false,
+  "vimMode": false
 }

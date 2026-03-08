@@ -7,7 +7,7 @@ tags:
 
 # Context
 
-## ==Problem Statement==
+## Problem Statement
 
 SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
 
@@ -226,13 +226,13 @@ Acceptance criteria:
 
 ### Leading Indicators (days to weeks)
 
-|   |   |   |
-|---|---|---|
-|Metric|Target|Measurement|
-|BM25 or any other search retrieval hit rate|≥50% of questions get at least one match|% of questions with ≥1 BM25 or any other search result, measured per project|
-|Verbatim answer acceptance rate|≥30% of suggested answers accepted without edit|% of BM25 or any other search suggestions accepted as-is|
-|Content parsing success rate|≥80% of uploaded RFPs cleanly parsed into Q&A|% of onboarding uploads that produce structured Q&A|
-|Project feedback trigger rate|100% of completed projects trigger the feedback pipeline|Event log audit|
+|                                             |                                                          |                                                                              |
+| ------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Metric**                                  | **Target**                                               | **Measurement**                                                              |
+| BM25 or any other search retrieval hit rate | ≥50% of questions get at least one match                 | % of questions with ≥1 BM25 or any other search result, measured per project |
+| Verbatim answer acceptance rate             | ≥30% of suggested answers accepted without edit          | % of BM25 or any other search suggestions accepted as-is                     |
+| Content parsing success rate                | ≥80% of uploaded RFPs cleanly parsed into Q&A            | % of onboarding uploads that produce structured Q&A                          |
+| Project feedback trigger rate               | 100% of completed projects trigger the feedback pipeline | Event log audit                                                              |
 
 ### Lagging Indicators (weeks to months)
 
