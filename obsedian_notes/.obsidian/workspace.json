@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "43b6a8191e737df7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "23e0a7caed26ae74",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/Go-no-go/RFP training.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -201,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Not a trash/2026-02-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2026-02-24"
             }
           }
         ]
@@ -292,16 +275,17 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "065565bb9e6ac420",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
-    "Product/Go-no-go/RFP training.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Untitled.md",
+    "Not a trash/2026-02-24.md",
+    "Product/Go-no-go/RFP training.md",
+    "Product/Go-no-go/Untitled.base",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Go-no-go/RFP training PRD.md",
     "Product/Audit report/Audit report.md",
     "Product/Audit report/Audit Report R126022026.md",
     "Books/A little life.md",
-    "2026-02-24.md",
     "2026-03-06.md",
     "2026-03-05.md",
     "2026-02-25.md",
@@ -320,7 +304,6 @@
     "Product/Demo/Demo.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Daily/UAT vipin 2026-02-23.md",
-    "Product/Projects/Answers/Answer types.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
@@ -329,7 +312,6 @@
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator",
     "Product/untitled folder",
-    "Learning/ARCA AI/Cred",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
