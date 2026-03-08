@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ECHS – Knowledge Transfer (KT) Document",
+      "path": "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md"
+    },
+    {
       "basename": "RFP training PRD",
       "path": "Product/Go-no-go/RFP training PRD.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "How to Create a project",
       "path": "Product/Help Article/How to Create a project.md"
-    },
-    {
-      "basename": "SparrowGenie.excalidraw",
-      "path": "Product/SparrowGenie.excalidraw.md"
     }
   ],
   "omittedPaths": [],
