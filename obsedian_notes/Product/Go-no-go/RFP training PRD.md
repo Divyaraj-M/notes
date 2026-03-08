@@ -61,7 +61,6 @@ Expected business impact:
 
 ---
 
-  
 
 ## Goals
 
