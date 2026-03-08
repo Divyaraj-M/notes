@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Atomic Design",
+      "path": "Books/Read List/Atomic Design.md"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
+    },
+    {
+      "basename": "CEO One Pager",
+      "path": "second_stream_revenue/Google_sheets/CEO One Pager.md"
+    },
+    {
+      "basename": "Steps to create it",
+      "path": "second_stream_revenue/Google_sheets/Steps to create it.md"
+    },
+    {
+      "basename": "Sales",
+      "path": "second_stream_revenue/Google_sheets/Sales.md"
+    },
+    {
+      "basename": "ERP",
+      "path": "second_stream_revenue/Google_sheets/ERP.md"
+    },
+    {
+      "basename": "Youtube video Framework",
+      "path": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md"
+    },
+    {
+      "basename": "Youtube Scripts",
+      "path": "second_stream_revenue/Youtube Scripts/Youtube Scripts.md"
+    },
+    {
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
       "basename": "Attachments in RFP response - Product Spec",
       "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
     },
@@ -149,10 +185,6 @@
       "path": "2026-03-05.md"
     },
     {
-      "basename": "My Data",
-      "path": "My Data.base"
-    },
-    {
       "basename": "Screenshot 2026-01-29 at 11.54.14 AM",
       "path": "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "2026-02-04",
       "path": "Not a trash/2026-02-04.md"
-    },
-    {
-      "basename": "2026-02-10 19-43-37",
-      "path": "Not a trash/2026-02-10 19-43-37.md"
-    },
-    {
-      "basename": "Test",
-      "path": "Not a trash/Test.md"
-    },
-    {
-      "basename": "2026-02-13",
-      "path": "Not a trash/2026-02-13.md"
-    },
-    {
-      "basename": "Work Log 2026-02-16",
-      "path": "Not a trash/Work Log 2026-02-16.md"
-    },
-    {
-      "basename": "2026-02-23 -Weekly product Stand up",
-      "path": "Not a trash/2026-02-23 -Weekly product Stand up.md"
-    },
-    {
-      "basename": "2026-01-29 UAT with Vipin",
-      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
-    },
-    {
-      "basename": "2026-02-24 - Sprint Planning",
-      "path": "Not a trash/2026-02-24 - Sprint Planning.md"
-    },
-    {
-      "basename": "Users tab",
-      "path": "Product/Settings/Users and Teams/Users tab.md"
     }
   ],
   "omittedPaths": [],

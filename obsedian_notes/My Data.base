@@ -21,11 +21,3 @@ views:
     cardSize: 340
     image: note.cover
     imageFit: contain
-  - type: table
-    name: Table
-    filters:
-      and:
-        - file.inFolder("Product")
-    sort: []
-  - type: table
-    name: My Work
