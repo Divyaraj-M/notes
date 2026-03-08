@@ -49,19 +49,16 @@ How it helps sales teams close faster:
 - Consistent positioning: Answers centralized per KH, eliminating divergent responses across projects.
 - Institutional memory: Reuse tracking and change detection ensure high-value answers persist and evolve, surviving employee turnover.
 
-Expected business impact:
+**Expected business impact:**
 
-|   |   |
-|---|---|
-|Metric|Expected Change|
-|Project and Proposal creation time|↓ 30–50%|
-|SME involvement|↓ 25–40%|
-|Response consistency|↑|
-|AI answer quality|↑ (compounds with each completed project)|
+| Metric                             | Expected Change                           |
+| ---------------------------------- | ----------------------------------------- |
+| Project and Proposal creation time | ↓ 30–50%                                  |
+| SME involvement                    | ↓ 25–40%                                  |
+| Response consistency               | ↑                                         |
+| AI answer quality                  | ↑ (compounds with each completed project) |
 
 ---
-
-
 ## Goals
 
 1. Reduce project answer time by 30–50% by surfacing verbatim answers and ranked alternatives from KH via BM25 or any other search retrieval.

@@ -34,95 +34,6 @@
             }
           },
           {
-            "id": "0b29db05af82a65e",
-            "type": "leaf",
-            "state": {
-              "type": "library",
-              "state": {
-                "search": "",
-                "list": null,
-                "status": null,
-                "grouping": null,
-                "sort": "reading_progress_desc",
-                "view": "gallery"
-              },
-              "icon": "lucide-ghost",
-              "title": "library"
-            }
-          },
-          {
-            "id": "b8b76567c0e4a129",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Read List/Atomic Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Atomic Design"
-            }
-          },
-          {
-            "id": "7bce1fec44f49a9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Answer types.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Answer types"
-            }
-          },
-          {
-            "id": "167e053ff8a1abe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Proposal Templates"
-            }
-          },
-          {
             "id": "161156316efd6e86",
             "type": "leaf",
             "state": {
@@ -195,31 +106,17 @@
             }
           },
           {
-            "id": "e2f3825744485561",
+            "id": "51de12726f1d11ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Audit report/Audit report.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Audit report"
+              "type": "ntb-whats-new-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "What's new in Note Toolbar?"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,16 +131,13 @@
         "dimension": 59.63541666666667,
         "children": [
           {
-            "id": "0e41dea7c411da32",
+            "id": "681d9fb88f64f790",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byModifiedTime",
-                "autoReveal": true
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
             }
           },
           {
@@ -272,8 +166,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "0e41dea7c411da32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -447,11 +355,26 @@
       "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidiosaurus:Obsidiosaurus": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "card-board:CardBoard": false,
+      "large-language-models:Ask a question": false,
+      "hi-note:HiNote": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "callout-manager:Insert Callout": false,
+      "markwhen:Create new Markwhen file": false,
+      "companion:Toggle completion": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "7bce1fec44f49a9c",
+  "active": "51de12726f1d11ec",
   "lastOpenFiles": [
+    "Daily/UAT vipin 2026-02-23.md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Audit report/Audit report.md",
+    "Product/Projects/Answers/Answer types.md",
     "Books/Read List/Atomic Design.md",
     "Books/A little life.md",
     "second_stream_revenue/Google_sheets/CEO One Pager.md",
@@ -465,12 +388,7 @@
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Go-no-go/RFP training PRD.md",
-    "Daily/UAT vipin 2026-02-23.md",
-    "Product/Go-no-go/Go - No- Go.md",
-    "Product/Projects/Answers/Answer types.md",
-    "Product/Audit report/Audit report.md",
     "Product/Demo/Demo.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/Instructions/Instructions.md",

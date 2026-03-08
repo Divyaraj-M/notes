@@ -159,5 +159,13 @@
     "options": "r",
     "priority": 50,
     "description": "引用标记 > 后自动补空格"
+  },
+  {
+    "id": "builtin-sel-wrap-backtick",
+    "trigger": "·",
+    "replacement": "`${0:${SEL}}`",
+    "options": "s",
+    "priority": 40,
+    "description": "选中文字后输入 · 包裹为行内代码"
   }
 ]
