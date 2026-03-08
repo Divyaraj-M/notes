@@ -1,7 +1,3 @@
----
-share_link: https://share.note.sx/semlq5it#FwlLlr96jT1wDxzIu78ZyU2ISpIHkBeYgbda6BStTiE
-share_updated: 2026-03-09T00:01:37+05:30
----
 Obligation 
 Genie Actions filter by high confidence 
 Question number in question card 

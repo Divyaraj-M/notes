@@ -7,7 +7,7 @@ tags:
 
 # Context
 
-## Problem Statement
+## ==Problem Statement==
 
 SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
 

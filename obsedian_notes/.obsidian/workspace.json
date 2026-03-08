@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "file": "Product/User roles/Project/Project Watcher.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ROI Calculator"
+              "title": "Project Watcher"
             }
           },
           {
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -230,8 +230,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -252,7 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5024719238281
+    "width": 401.4981155395508
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -269,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Read List/Atomic Design.md",
+                "file": "Product/User roles/Project/Project Watcher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +278,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Atomic Design"
+              "title": "Backlinks for Project Watcher"
             }
           },
           {
@@ -332,7 +331,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -415,10 +414,13 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "681d9fb88f64f790",
   "lastOpenFiles": [
-    "Product/Email notifications/Email notifications.md",
+    "Product/User roles/Project/Project Watcher.md",
     "Product/UAT Vipin.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Product/ROI Calculator/ROI Calculator.md",
+    "Product/Email notifications/Email notifications.md",
     "Product/Go-no-go/Go - No- Go.md",
     "Books/Read List/Read List.md",
     "Product/competitors/Loopio/SmartScan.md",
@@ -428,7 +430,6 @@
     "Product/competitors/Loopio/Loopio.md",
     "Product/Demo/Demo.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Product/Go-no-go/RFP training PRD.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Audit report/Audit report.md",
     "Product/Projects/Answers/Answer types.md",
@@ -442,8 +443,6 @@
     "second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
     "My Data.base",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/ROI Calculator/ROI Calculator.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
