@@ -46,8 +46,8 @@
                 "sort": "reading_progress_desc",
                 "view": "gallery"
               },
-              "icon": "library-big",
-              "title": "Bookshelf library"
+              "icon": "lucide-ghost",
+              "title": "library"
             }
           },
           {
@@ -219,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,7 +231,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 59.635416666666664,
+        "dimension": 59.63541666666667,
         "children": [
           {
             "id": "0e41dea7c411da32",
@@ -278,7 +278,7 @@
       {
         "id": "17f6136d64ebd0ab",
         "type": "tabs",
-        "dimension": 40.36458333333333,
+        "dimension": 40.364583333333336,
         "children": [
           {
             "id": "c9b44404818f969a",
@@ -303,7 +303,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 41.4468085106383,
+        "dimension": 41.446808510638306,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -369,8 +369,8 @@
             "state": {
               "type": "hinote-view",
               "state": {},
-              "icon": "highlighter",
-              "title": "HiNote"
+              "icon": "lucide-ghost",
+              "title": "hinote-view"
             }
           }
         ],
@@ -447,19 +447,13 @@
       "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidiosaurus:Obsidiosaurus": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "large-language-models:Ask a question": false,
-      "card-board:CardBoard": false,
-      "hi-note:HiNote": false,
-      "obsidian-import-json:JSON/CSV Importer": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b8b76567c0e4a129",
+  "active": "7bce1fec44f49a9c",
   "lastOpenFiles": [
-    "Books/A little life.md",
     "Books/Read List/Atomic Design.md",
+    "Books/A little life.md",
     "second_stream_revenue/Google_sheets/CEO One Pager.md",
     "second_stream_revenue/Google_sheets/Steps to create it.md",
     "second_stream_revenue/Google_sheets/Sales.md",

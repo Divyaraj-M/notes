@@ -113,11 +113,16 @@
   "assistants": [],
   "openAIAPIKey": "",
   "claudeAPIKey": "",
+  "mistralAPIKey": "",
   "claudeCodeOAuthToken": "",
   "linearWorkspaces": [],
   "geminiAPIKey": "AIzaSyAjh0aXFaawmpUZXm2Pjc6Xcj20Tsh54kE",
   "GPT4AllStreaming": false,
   "showFAB": false,
+  "showRibbonIcon": true,
   "enableFileContext": false,
-  "defaultModel": ""
+  "defaultModel": "",
+  "ollamaHost": "http://localhost:11434",
+  "ollamaModels": [],
+  "emptyChatAvatar": "llm-gal"
 }

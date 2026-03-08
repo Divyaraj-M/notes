@@ -110,8 +110,14 @@ var claudeCode = "claudeCode";
 var openAI = "openAI";
 var gemini = "gemini";
 var GPT4All = "GPT4All";
+var ollama = "ollama";
+var mistral = "mistral";
 var claudeCodeEndpoint = "claudeCodeAgent";
 var claudeSonnetJuneModel = "claude-3-5-sonnet-20240620";
+var claudeSonnet46Model = "claude-sonnet-4-6";
+var claudeOpus46Model = "claude-opus-4-6";
+var claudeHaiku45Model = "claude-haiku-4-5-20251001";
+var claudeValidationModel = claudeSonnet46Model;
 var geminiModel = "gemini-1.5-flash";
 var gemini2FlashModel = "gemini-2.0-flash-exp";
 var gemini2FlashThinkingModel = "gemini-2.0-flash-thinking-exp-1219";
@@ -138,6 +144,48 @@ var openAIModels = {
   },
   "GPT-4o": {
     model: "gpt-4o",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "GPT-4o-mini": {
+    model: "gpt-4o-mini",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "GPT-4.1": {
+    model: "gpt-4.1",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "GPT-4.1-mini": {
+    model: "gpt-4.1-mini",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "GPT-4.1-nano": {
+    model: "gpt-4.1-nano",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "o3": {
+    model: "o3",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "o3-mini": {
+    model: "o3-mini",
+    type: "openAI",
+    endpoint: chat,
+    url: "/chat/completions"
+  },
+  "o4-mini": {
+    model: "o4-mini",
     type: "openAI",
     endpoint: chat,
     url: "/chat/completions"
@@ -231,6 +279,24 @@ var models = {
     // We will not consume these so can we remove them?
     url: "/v1/messages"
   },
+  "Claude Sonnet 4.6": {
+    model: claudeSonnet46Model,
+    type: claude,
+    endpoint: messages,
+    url: "/v1/messages"
+  },
+  "Claude Opus 4.6": {
+    model: claudeOpus46Model,
+    type: claude,
+    endpoint: messages,
+    url: "/v1/messages"
+  },
+  "Claude Haiku 4.5": {
+    model: claudeHaiku45Model,
+    type: claude,
+    endpoint: messages,
+    url: "/v1/messages"
+  },
   // Gemini Models
   "Gemini-1.5-flash": {
     model: geminiModel,
@@ -305,17 +371,60 @@ var models = {
     endpoint: claudeCodeEndpoint,
     url: ""
   },
-  "DALL\xB7E 3": {
-    model: "dall-e-3",
+  "GPT Image 1": {
+    model: "gpt-image-1",
     type: "openAI",
     endpoint: "images",
     url: "/images/generations"
   },
-  "DALL\xB7E 2": {
-    model: "dall-e-2",
-    type: "openAI",
-    endpoint: "images",
-    url: "/images/generations"
+  // Mistral AI Models
+  "Mistral Large": {
+    model: "mistral-large-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Mistral Medium": {
+    model: "mistral-medium-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Mistral Small": {
+    model: "mistral-small-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Mistral Nemo": {
+    model: "mistral-nemo-12b-24-07",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Magistral Medium": {
+    model: "magistral-medium-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Magistral Small": {
+    model: "magistral-small-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Devstral Small": {
+    model: "devstral-small-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
+  },
+  "Codestral": {
+    model: "codestral-latest",
+    type: mistral,
+    endpoint: chat,
+    url: "/v1/chat/completions"
   }
 };
 var modelNames = {
@@ -334,7 +443,17 @@ var modelNames = {
   "em_german_mistral_v01.Q4_0.gguf": "EM German Mistral",
   "gpt-3.5-turbo": "ChatGPT-3.5 turbo",
   "gpt-4o": "GPT-4o",
+  "gpt-4o-mini": "GPT-4o-mini",
+  "gpt-4.1": "GPT-4.1",
+  "gpt-4.1-mini": "GPT-4.1-mini",
+  "gpt-4.1-nano": "GPT-4.1-nano",
+  "o3": "o3",
+  "o3-mini": "o3-mini",
+  "o4-mini": "o4-mini",
   "claude-3-5-sonnet-20240620": "Claude-3-5-Sonnet-20240620",
+  "claude-sonnet-4-6": "Claude Sonnet 4.6",
+  "claude-opus-4-6": "Claude Opus 4.6",
+  "claude-haiku-4-5-20251001": "Claude Haiku 4.5",
   "gemini-1.5-flash": "Gemini-1.5-flash",
   "gemini-3-pro-preview": "Gemini-3-Pro-Preview",
   "gemini-2.5-pro": "Gemini-2.5-Pro",
@@ -348,9 +467,31 @@ var modelNames = {
   "gemini-2.0-flash-thinking-exp-1219": "Gemini-2.0-flash-thinking-exp",
   "claude-code": "Claude Code",
   // "text-embedding-3-small": "Text Embedding 3 (Small)",
-  "dall-e-3": "DALL\xB7E 3",
-  "dall-e-2": "DALL\xB7E 2"
+  "gpt-image-1": "GPT Image 1",
+  "mistral-large-latest": "Mistral Large",
+  "mistral-medium-latest": "Mistral Medium",
+  "mistral-small-latest": "Mistral Small",
+  "mistral-nemo-12b-24-07": "Mistral Nemo",
+  "magistral-medium-latest": "Magistral Medium",
+  "magistral-small-latest": "Magistral Small",
+  "devstral-small-latest": "Devstral Small",
+  "codestral-latest": "Codestral"
 };
+function buildOllamaModels(ollamaModelNames) {
+  const ollamaModels = {};
+  const ollamaNames = {};
+  for (const name of ollamaModelNames) {
+    const displayName = `Ollama: ${name}`;
+    ollamaModels[displayName] = {
+      model: name,
+      type: ollama,
+      endpoint: chat,
+      url: "/v1/chat/completions"
+    };
+    ollamaNames[name] = displayName;
+  }
+  return { models: ollamaModels, names: ollamaNames };
+}
 
 // src/utils/utils.ts
 var import_obsidian3 = require("obsidian");
@@ -37678,6 +37819,31 @@ if (_origSetMaxListeners) {
     }
   };
 }
+async function retryWithBackoff(fn, maxRetries = 5, baseDelayMs = 1e3) {
+  var _a5, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      const status = (_b = (_a5 = error == null ? void 0 : error.status) != null ? _a5 : error == null ? void 0 : error.httpStatus) != null ? _b : error == null ? void 0 : error.code;
+      if (status === 429 && attempt < maxRetries) {
+        const delay = baseDelayMs * Math.pow(2, attempt);
+        const jitter = Math.random() * delay * 0.5;
+        await new Promise((r3) => setTimeout(r3, delay + jitter));
+        continue;
+      }
+      if (status === 429) {
+        const retryAfter = (_j = (_f = (_d = (_c = error == null ? void 0 : error.headers) == null ? void 0 : _c.get) == null ? void 0 : _d.call(_c, "retry-after")) != null ? _f : (_e = error == null ? void 0 : error.headers) == null ? void 0 : _e["retry-after"]) != null ? _j : (_i = (_h = (_g = error == null ? void 0 : error.errorDetails) == null ? void 0 : _g[0]) == null ? void 0 : _h.metadata) == null ? void 0 : _i.retry_delay;
+        const retryMsg = retryAfter ? `Rate limit exceeded \u2014 retry after ${retryAfter} seconds.` : "Rate limit exceeded \u2014 please wait a moment and try again.";
+        const rateLimitError = new Error(retryMsg);
+        rateLimitError.status = 429;
+        throw rateLimitError;
+      }
+      throw error;
+    }
+  }
+  throw new Error("retryWithBackoff: unreachable");
+}
 function getGpt4AllPath(plugin) {
   const platform = plugin.os.platform();
   const homedir = plugin.os.homedir();
@@ -37694,18 +37860,79 @@ function upperCaseFirst(input) {
   return input.charAt(0).toUpperCase() + input.slice(1);
 }
 async function messageGPT4AllServer(params, url) {
+  const body = {
+    model: params.model,
+    messages: params.messages,
+    temperature: params.temperature
+  };
+  if (params.tokens) body.max_tokens = params.tokens;
   const request = {
     url: `http://localhost:4891${url}`,
     method: "POST",
-    body: JSON.stringify({
-      model: params.model,
-      messages: params.messages,
-      max_tokens: params.tokens,
-      temperature: params.temperature
-    })
+    body: JSON.stringify(body)
   };
   const response = await (0, import_obsidian3.requestUrl)(request).then((res) => res.json);
   return response.choices[0].message;
+}
+async function fetchOllamaModels(host) {
+  const request = {
+    url: `${host}/api/tags`,
+    method: "GET"
+  };
+  const response = await (0, import_obsidian3.requestUrl)(request).then((res) => res.json);
+  return (response.models || []).map((m) => m.name);
+}
+async function ollamaMessage(params, host) {
+  const openai = new OpenAI({
+    apiKey: "ollama",
+    baseURL: `${host}/v1`,
+    dangerouslyAllowBrowser: true
+  });
+  const { model, messages: messages2, tokens, temperature } = params;
+  const stream = await openai.chat.completions.create({
+    model,
+    messages: messages2,
+    ...tokens ? { max_tokens: tokens } : {},
+    temperature,
+    stream: true
+  });
+  return stream;
+}
+async function mistralMessage(params, mistralAPIKey) {
+  const openai = new OpenAI({
+    apiKey: mistralAPIKey,
+    baseURL: "https://api.mistral.ai/v1",
+    dangerouslyAllowBrowser: true,
+    fetch: (url, init) => {
+      if (init == null ? void 0 : init.headers) {
+        if (init.headers instanceof Headers) {
+          const keysToDelete = [];
+          init.headers.forEach((_v, k) => {
+            if (k.toLowerCase().startsWith("x-stainless-")) {
+              keysToDelete.push(k);
+            }
+          });
+          keysToDelete.forEach((k) => init.headers.delete(k));
+        } else if (typeof init.headers === "object") {
+          for (const key of Object.keys(init.headers)) {
+            if (key.toLowerCase().startsWith("x-stainless-")) {
+              delete init.headers[key];
+            }
+          }
+        }
+      }
+      return globalThis.fetch(url, init);
+    }
+  });
+  const { model, messages: messages2, tokens, temperature } = params;
+  const stream = await openai.chat.completions.create({
+    model,
+    messages: messages2,
+    ...tokens ? { max_tokens: tokens } : {},
+    temperature,
+    stream: true
+  });
+  return stream;
 }
 async function getApiKeyValidity(providerKeyPair) {
   try {
@@ -37723,21 +37950,23 @@ async function getApiKeyValidity(providerKeyPair) {
         dangerouslyAllowBrowser: true
       });
       await client.messages.create({
-        model: claudeSonnetJuneModel,
+        model: claudeValidationModel,
         max_tokens: 1,
         messages: [{ role: "user", content: "Reply 'a'" }]
       });
       return { provider, valid: true };
     } else if (provider === gemini) {
       const client = new GoogleGenAI({ apiKey: key });
-      await client.models.generateContent({
-        model: geminiModel,
-        contents: "Reply 'a'",
-        config: {
-          candidateCount: 1,
-          maxOutputTokens: 1
-        }
-      });
+      await retryWithBackoff(
+        () => client.models.generateContent({
+          model: gemini2FlashStableModel,
+          contents: "Reply 'a'",
+          config: {
+            candidateCount: 1,
+            maxOutputTokens: 1
+          }
+        })
+      );
       return { provider, valid: true };
     }
   } catch (error) {
@@ -37764,16 +37993,18 @@ async function geminiMessage(params, Gemini_API_KEY) {
       parts: [{ text: message.content }]
     };
   });
-  const stream = await client.models.generateContentStream({
-    model,
-    contents,
-    config: {
-      candidateCount: 1,
-      maxOutputTokens: tokens,
-      temperature,
-      topP: topP != null ? topP : void 0
-    }
-  });
+  const stream = await retryWithBackoff(
+    () => client.models.generateContentStream({
+      model,
+      contents,
+      config: {
+        candidateCount: 1,
+        ...tokens ? { maxOutputTokens: tokens } : {},
+        temperature,
+        topP: topP != null ? topP : void 0
+      }
+    })
+  );
   return stream;
 }
 function resolveNodePath() {
@@ -37870,7 +38101,7 @@ async function claudeMessage(params, Claude_API_KEY) {
   const stream = client.messages.stream({
     model,
     messages: messages2,
-    max_tokens: tokens,
+    max_tokens: tokens || 4096,
     temperature,
     stream: true
   });
@@ -37888,7 +38119,7 @@ async function openAIMessage(params, OpenAI_API_Key, endpoint, endpointType) {
       {
         model,
         messages: messages2,
-        max_tokens: tokens,
+        ...tokens ? { max_tokens: tokens } : {},
         temperature,
         stream: true
       },
@@ -37902,20 +38133,26 @@ async function openAIMessage(params, OpenAI_API_Key, endpoint, endpointType) {
       model,
       quality,
       size,
-      style,
-      numberOfImages
+      numberOfImages,
+      response_format
     } = params;
+    const validQualities = ["low", "medium", "high", "auto"];
+    const normalizedQuality = validQualities.includes(quality != null ? quality : "") ? quality : "auto";
     const image = await openai.images.generate({
       model,
       prompt,
       size,
-      quality,
+      quality: normalizedQuality,
       n: numberOfImages,
-      style
+      response_format: response_format != null ? response_format : "url"
     });
     let imageURLs = [];
     (_a5 = image.data) == null ? void 0 : _a5.map((image2) => {
-      return imageURLs.push(image2.url);
+      if (image2.b64_json) {
+        imageURLs.push(`data:image/png;base64,${image2.b64_json}`);
+      } else {
+        imageURLs.push(image2.url);
+      }
     });
     return imageURLs;
   }
@@ -37986,8 +38223,7 @@ function getViewInfo(plugin, viewType) {
       numberOfImages: 0,
       response_format: "url",
       size: "1024x1024",
-      style: "natural",
-      quality: "standard"
+      quality: "medium"
     },
     chatSettings: { maxTokens: 0, temperature: 0 },
     model: "",
@@ -38593,6 +38829,9 @@ function errorMessages(error, params) {
   if (error.message.includes("SDK installation failed")) {
     new import_obsidian5.Notice("Claude Code requires a one-time download of the runtime SDK (~69 MB). Please ensure npm is installed and you have an internet connection, then try again.");
   }
+  if (error.status === 429 || error.message.includes("Rate limit exceeded")) {
+    new import_obsidian5.Notice(error.message, 8e3);
+  }
 }
 
 // src/utils/classNames.ts
@@ -38661,6 +38900,18 @@ function assistantLogo() {
 
 // src/assets/LLMgal.svg
 var LLMgal_default = '<svg width="97" height="71" viewBox="0 0 97 71" fill="none" xmlns="http://www.w3.org/2000/svg">\r\n<path fill-rule="evenodd" clip-rule="evenodd" d="M42.0185 0.5H44.6111H47.2037H49.7963H62.7593H65.3519V3.09259H62.7593H49.7963H47.2037H44.6111H42.0185V0.5ZM36.8333 5.68518V3.09259H39.4259H42.0185L42.0185 5.68518H39.4259H36.8333ZM34.2408 8.27778V5.68518H36.8333L36.8333 8.27778H34.2408ZM31.6482 10.8704V8.27778H34.2408V10.8704H31.6482ZM29.0556 13.463V10.8704H31.6482V13.463H29.0556ZM3.12964 18.6481V16.0556H5.72223H8.31483H10.9074H23.8704H26.463V13.463L29.0556 13.463V23.8333H26.463V18.6481H23.8704H10.9074H8.31483H5.72223H3.12964ZM3.12964 21.2407H0.537048V18.6481H3.12964V21.2407ZM5.72223 23.8333L3.12964 23.8333V21.2407H5.72223V23.8333ZM8.31483 26.4259H5.72223V23.8333H8.31483V26.4259ZM13.5 29.0185H10.9074H8.31483V26.4259H10.9074H13.5V29.0185ZM31.6482 34.2037V31.6111H23.8704V29.0185H16.0926H13.5L13.5 31.6111H16.0926H21.2778V34.2037H18.6852V36.7963L10.9074 36.7963H8.31483V39.3889H10.9074V41.9815L13.5 41.9815V44.5741H16.0926H18.6852V47.1667V49.7593L13.5 49.7593V47.1667H5.72223V49.7593L8.31483 49.7593V52.3519H10.9074V54.9444L13.5 54.9444V57.537H16.0926V60.1296H23.8704L23.8704 57.537H26.463V60.1296H29.0556V62.7222V65.3148H34.2408V67.9074H39.4259L44.6111 67.9074V70.5H47.2037H54.9815V67.9074L60.1667 67.9074V65.3148H62.7593L62.7593 62.7222H65.3519V65.3148H67.9445H78.3148V62.7222H80.9074V60.1296H78.3148V57.537H75.7222L75.7222 54.9444H73.1296V52.3518V44.5741H83.5H93.8704L93.8704 41.9815H96.463V39.3889V36.7963H93.8704V34.2037H88.6852V31.6111H86.0926H83.5V29.0185H80.9074V26.4259H78.3148V23.8333H75.7222L75.7222 10.8704H73.1296V8.27778H70.537V5.68518H67.9445V3.09259H65.3519V5.68518H67.9445L67.9445 8.27778H70.537V10.8704H73.1296V31.6111H75.7222L75.7222 26.4259H78.3148V29.0185H80.9074V31.6111H83.5V34.2037H86.0926H88.6852V36.7963L93.8704 36.7963V39.3889V41.9815L83.5 41.9815H73.1296V39.3889H62.7593L62.7593 36.7963H57.5741H49.7963H44.6111V34.2037H36.8333H31.6482ZM31.6482 47.1667V44.5741H34.2408V36.7963L31.6482 36.7963V34.2037H29.0556V41.9815L26.463 41.9815V34.2037H23.8704H21.2778V36.7963V39.3889H13.5L13.5 41.9815H16.0926H18.6852V44.5741H21.2778V47.1667H23.8704V49.7593H21.2778H18.6852V52.3519H13.5L13.5 49.7593H10.9074V52.3519H13.5L13.5 54.9444H16.0926V57.537H23.8704V54.9444L26.463 54.9444V52.3519V49.7593L29.0556 49.7593V52.3519V54.9444V57.537V60.1296H31.6482V62.7222L36.8333 62.7222V65.3148H39.4259H44.6111V67.9074H47.2037L52.3889 67.9074V65.3148H60.1667V62.7222L62.7593 62.7222V60.1296V57.537H65.3519V54.9444V52.3518L62.7593 52.3519V49.7593L62.7593 47.1667H65.3519V41.9815L62.7593 41.9815V44.5741V47.1667H60.1667V44.5741V41.9815V39.3889H57.5741H54.9815L54.9815 49.7593H52.3889V39.3889H49.7963H47.2037V41.9815V44.5741V47.1667H44.6111V52.3519H42.0185H39.4259H36.8333V49.7593H39.4259H42.0185L42.0185 47.1667V44.5741H44.6111V41.9815V39.3889V36.7963H42.0185V41.9815L42.0185 44.5741H39.4259V41.9815V36.7963H36.8333V44.5741L36.8333 49.7593H34.2408V47.1667H31.6482ZM31.6482 47.1667V49.7593H29.0556V47.1667H31.6482ZM36.8333 52.3519L36.8333 54.9444H34.2408V52.3519H36.8333ZM44.6111 52.3519H47.2037V54.9444H44.6111V52.3519ZM54.9815 54.9444V52.3519V49.7593H57.5741V52.3519H60.1667H62.7593L62.7593 54.9444H60.1667H57.5741H54.9815ZM54.9815 54.9444L54.9815 57.537H52.3889V54.9444L54.9815 54.9444ZM23.8704 47.1667L23.8704 41.9815H26.463V47.1667L23.8704 47.1667ZM73.1296 54.9444L70.537 54.9444V52.3518V41.9815H67.9445V52.3518V54.9444V57.537L67.9445 60.1296H65.3519V62.7222L67.9445 62.7222L78.3148 62.7222V60.1296H75.7222V57.537H73.1296V54.9444Z" fill="black"/>\r\n</svg>\r\n';
+
+// src/assets/zen-kid.svg
+var zen_kid_default = '<svg width="29" height="22" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M1 21H3V20H6V21H4V22H0V20H1V21ZM9 18H8V19H9V20H16V19H17V17H18V18H19V19H18V20H17V21H8V20H6V19H7V17H8V16H9V18ZM2 20H1V19H2V20ZM20 14H21V13H27V12H28V13H29V14H22V15H21V16H22V19H21V20H19V19H20V18H21V17H20V15H19V12H20V14ZM3 19H2V18H3V19ZM4 18H3V17H4V18ZM16 14H17V17H16V15H15V16H14V17H13V18H10V16H11V17H12V16H13V15H14V14H15V13H16V14ZM2 14H5V13H6V16H5V17H4V15H0V14H1V13H2V14ZM11 15H10V16H9V14H10V13H11V15ZM4 13H2V12H4V13ZM12 13H11V12H12V13ZM3 9H4V10H6V11H5V12H4V11H3V10H1V9H2V8H3V9ZM22 10H24V11H27V12H23V11H21V8H22V10ZM5 8H3V7H4V6H5V8ZM21 8H20V7H21V8ZM20 7H19V6H20V7ZM6 6H5V5H6V6ZM19 6H18V5H19V6ZM11 5H6V4H10V3H11V5ZM19 3H17V4H18V5H16V4H15V3H16V2H19V3ZM21 1H20V2H19V1H14V2H13V3H11V2H12V1H13V0H21V1Z" fill="black"/>\n</svg>\n';
+
+// src/assets/ninja-cat.svg
+var ninja_cat_default = '<svg width="31" height="44" viewBox="0 0 31 44" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M22 44H17V43H22V44ZM10 42H8V41H7V40H6V38H5V36H4V28H5V34H10V35H23V36H27V37H28V36H29V35H30V37H29V39H28V41H27V42H26V43H22V42H24V41H26V40H27V38H26V37H22V36H9V35H6V37H7V39H8V40H9V41H11V42H17V43H10V42ZM14 1H15V2H21V1H22V0H28V1H23V2H22V3H17V4H15V3H14V2H13V1H12V2H11V5H13V11H12V12H13V14H12V15H11V19H12V20H13V23H12V24H16V23H17V22H16V18H17V20H21V18H22V19H23V22H24V24H27V23H28V22H29V21H28V19H27V14H24V15H23V13H26V12H27V8H26V6H27V7H28V18H29V20H30V24H31V35H30V29H27V33H26V32H25V31H26V29H25V31H24V29H23V33H22V29H19V33H18V34H15V33H14V29H13V28H30V25H29V24H28V25H23V23H22V21H18V24H17V25H11V20H10V21H9V20H8V19H2V18H1V16H0V8H1V7H2V6H6V10H5V13H4V15H6V16H3V12H4V9H5V7H3V8H2V9H1V15H2V17H3V18H9V19H10V17H6V16H10V14H11V10H12V6H10V1H11V0H14V1ZM26 34H23V33H26V34ZM15 32H16V33H17V32H18V31H16V29H15V32ZM17 30H18V29H17V30ZM6 26H9V27H6V28H5V25H6V26ZM13 28H9V27H13V28ZM9 23H8V24H7V25H6V23H7V22H8V21H9V23ZM21 10H22V11H23V12H21V11H20V12H18V11H19V10H20V9H21V10ZM19 8H17V7H16V6H19V8ZM25 7H24V8H22V6H25V7ZM28 6H27V5H28V6ZM29 5H28V1H29V5Z" fill="black"/>\n</svg>\n';
+
+// src/assets/llm-guy.svg
+var llm_guy_default = '<svg width="40" height="38" viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M22 38H17V37H22V38ZM8 32H9V33H10V34H11V35H13V36H17V37H11V36H10V35H9V34H8V33H7V26H8V32ZM28 36H27V37H22V36H26V35H28V36ZM29 35H28V34H29V35ZM30 34H29V33H30V34ZM31 33H30V29H31V33ZM25 22H24V25H22V29H24V30H21V22H19V21H25V22ZM4 16H6V17H9V18H13V19H15V20H13V23H14V22H15V20H19V21H17V28H16V29H13V28H12V19H8V18H7V26H6V18H5V17H3V15H4V16ZM25 29H24V28H25V29ZM36 23H32V29H31V23H26V28H25V22H36V23ZM15 24H13V27H14V28H15V27H16V23H15V24ZM22 24H23V22H22V24ZM28 3H29V5H30V12H32V13H36V14H38V15H39V16H40V22H36V21H39V17H38V16H37V15H35V14H31V13H30V17H29V6H28V4H27V2H28V3ZM3 15H2V14H3V15ZM7 8H9V7H10V9H9V11H8V9H6V8H5V9H2V10H1V12H2V14H1V13H0V9H1V8H4V7H7V8ZM8 13H7V11H8V13ZM11 7H10V5H11V7ZM13 4H12V5H11V3H12V2H13V4ZM26 1H27V2H25V1H15V2H13V1H14V0H26V1Z" fill="black"/>\n</svg>\n';
+
+// src/assets/llm-gal.svg
+var llm_gal_default = '<svg width="37" height="27" viewBox="0 0 37 27" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M23 26H21V27H17V26H20V25H23V26ZM12 24H14V25H17V26H13V25H11V23H12V24ZM24 25H23V24H24V25ZM30 25H25V24H30V25ZM24 15H28V16H36V17H28V21H27V16H26V23H25V24H24V22H25V20H24V21H21V19H22V20H24V18H25V16H24V18H23V15H21V19H20V15H18V18H17V20H14V19H16V17H17V14H24V15ZM31 24H30V23H31V24ZM9 23H6V22H9V23ZM11 23H10V22H9V21H10V19H11V23ZM30 23H29V22H30V23ZM6 22H5V21H6V22ZM21 22H20V21H21V22ZM29 22H28V21H29V22ZM5 21H4V20H5V21ZM14 21H13V20H14V21ZM18 21H17V20H18V21ZM5 19H4V20H3V19H2V18H5V19ZM7 20H5V19H7V20ZM8 18H9V19H7V17H8V18ZM12 19H11V18H12V19ZM17 14H16V17H15V14H14V19H13V18H12V17H13V14H12V13H17V14ZM10 18H9V16H10V18ZM7 17H5V16H7V17ZM8 15H5V16H4V15H3V14H7V13H8V15ZM9 12H12V13H11V16H10V13H8V12H5V11H9V12ZM37 16H36V14H37V16ZM36 14H34V13H36V14ZM34 13H32V12H34V13ZM29 9H30V10H29V12H28V4H29V9ZM32 12H31V11H32V12ZM5 11H3V10H5V11ZM31 11H30V10H31V11ZM3 10H2V9H3V10ZM2 9H1V8H2V9ZM11 9H10V7H1V6H10V5H11V9ZM1 8H0V7H1V8ZM12 5H11V4H12V5ZM13 4H12V3H13V4ZM28 4H27V3H28V4ZM14 3H13V2H14V3ZM27 3H26V2H27V3ZM16 2H14V1H16V2ZM26 2H25V1H26V2ZM25 1H16V0H25V1Z" fill="black"/>\n</svg>\n';
 
 // src/services/ContextBuilder.ts
 var import_obsidian6 = require("obsidian");
@@ -38793,6 +39044,12 @@ var ContextBuilder = class {
 };
 
 // src/Plugin/Components/ChatContainer.ts
+var avatarSvgs = {
+  "llm-gal": llm_gal_default,
+  "llm-guy": llm_guy_default,
+  "zen-kid": zen_kid_default,
+  "ninja-cat": ninja_cat_default
+};
 var ChatContainer = class {
   constructor(plugin, viewType, messageStore) {
     this.plugin = plugin;
@@ -38864,7 +39121,7 @@ var ChatContainer = class {
       return params;
     }
     if (endpoint === chat) {
-      if (modelType === GPT4All) {
+      if (modelType === ollama || modelType === mistral || modelType === GPT4All) {
         const params2 = {
           prompt: this.prompt,
           messages: messagesForParams,
@@ -38909,7 +39166,7 @@ var ChatContainer = class {
     this.handleGenerate();
   }
   async handleGenerate() {
-    var _a5, _b, _c;
+    var _a5, _b, _c, _d, _e, _f, _g;
     this.previewText = "";
     const {
       model,
@@ -38919,7 +39176,7 @@ var ChatContainer = class {
       assistantId,
       modelName
     } = getViewInfo(this.plugin, this.viewType);
-    let shouldHaveAPIKey = modelType !== GPT4All && modelEndpoint !== claudeCodeEndpoint;
+    let shouldHaveAPIKey = modelType !== GPT4All && modelType !== ollama && modelType !== mistral && modelEndpoint !== claudeCodeEndpoint;
     const messagesForParams = this.getMessages();
     if (shouldHaveAPIKey) {
       const API_KEY = this.plugin.settings.openAIAPIKey || this.plugin.settings.claudeAPIKey || this.plugin.settings.geminiAPIKey;
@@ -39146,6 +39403,95 @@ var ChatContainer = class {
       this.historyPush(message_context, this.currentVaultContext);
       return true;
     }
+    if (modelType === ollama) {
+      this.setDiv(true);
+      this.showThinkingAnimation();
+      const stream = await ollamaMessage(
+        params,
+        this.plugin.settings.ollamaHost
+      );
+      let firstChunk = true;
+      for await (const chunk of stream) {
+        if (firstChunk) {
+          this.streamingDiv.empty();
+          firstChunk = false;
+        }
+        this.previewText += ((_c = (_b = chunk.choices[0]) == null ? void 0 : _b.delta) == null ? void 0 : _c.content) || "";
+        this.streamingDiv.textContent = this.previewText;
+        this.historyMessages.scroll(0, 9999);
+      }
+      this.streamingDiv.empty();
+      import_obsidian7.MarkdownRenderer.render(
+        this.plugin.app,
+        this.previewText,
+        this.streamingDiv,
+        "",
+        this.plugin
+      );
+      const copyButton = this.streamingDiv.querySelectorAll(
+        ".copy-code-button"
+      );
+      copyButton.forEach((item) => {
+        item.setAttribute("style", "display: none");
+      });
+      this.messageStore.addMessage({
+        role: assistant,
+        content: this.previewText
+      });
+      const message_context = {
+        ...params,
+        messages: this.getMessages(),
+        modelName
+      };
+      this.historyPush(message_context, this.currentVaultContext);
+      return true;
+    }
+    if (modelType === mistral) {
+      if (!this.plugin.settings.mistralAPIKey) {
+        throw new Error("No Mistral API key");
+      }
+      this.setDiv(true);
+      this.showThinkingAnimation();
+      const stream = await mistralMessage(
+        params,
+        this.plugin.settings.mistralAPIKey
+      );
+      let firstChunk = true;
+      for await (const chunk of stream) {
+        if (firstChunk) {
+          this.streamingDiv.empty();
+          firstChunk = false;
+        }
+        this.previewText += ((_e = (_d = chunk.choices[0]) == null ? void 0 : _d.delta) == null ? void 0 : _e.content) || "";
+        this.streamingDiv.textContent = this.previewText;
+        this.historyMessages.scroll(0, 9999);
+      }
+      this.streamingDiv.empty();
+      import_obsidian7.MarkdownRenderer.render(
+        this.plugin.app,
+        this.previewText,
+        this.streamingDiv,
+        "",
+        this.plugin
+      );
+      const copyButton = this.streamingDiv.querySelectorAll(
+        ".copy-code-button"
+      );
+      copyButton.forEach((item) => {
+        item.setAttribute("style", "display: none");
+      });
+      this.messageStore.addMessage({
+        role: assistant,
+        content: this.previewText
+      });
+      const message_context = {
+        ...params,
+        messages: this.getMessages(),
+        modelName
+      };
+      this.historyPush(message_context, this.currentVaultContext);
+      return true;
+    }
     if (modelType === GPT4All) {
       this.plugin.settings.GPT4AllStreaming = true;
       this.setDiv(false);
@@ -39166,7 +39512,7 @@ var ChatContainer = class {
       );
       this.setDiv(true);
       for await (const chunk of stream) {
-        this.previewText += ((_c = (_b = chunk.choices[0]) == null ? void 0 : _b.delta) == null ? void 0 : _c.content) || "";
+        this.previewText += ((_g = (_f = chunk.choices[0]) == null ? void 0 : _f.delta) == null ? void 0 : _g.content) || "";
         this.streamingDiv.textContent = this.previewText;
         this.historyMessages.scroll(0, 9999);
       }
@@ -39221,7 +39567,7 @@ var ChatContainer = class {
     }
     const settingType = getSettingType(this.viewType);
     const contextSettings = this.plugin.settings[settingType].contextSettings;
-    const maxTokens = this.plugin.settings[settingType].chatSettings.maxTokens;
+    const maxTokens = this.plugin.settings[settingType].chatSettings.maxTokens || 16384;
     const contextTokenBudget = this.contextBuilder.calculateContextTokenBudget(
       maxTokens,
       contextSettings.maxContextTokensPercent
@@ -39270,8 +39616,13 @@ var ChatContainer = class {
           this.streamingDiv.empty();
           let content = "";
           response.map((url) => {
-            content += `![created with prompt ${this.prompt}](${url})`;
+            if (!url.startsWith("data:")) {
+              content += `![created with prompt ${this.prompt}](${url})`;
+            }
           });
+          if (!content) {
+            content = `[Image generated with prompt: ${this.prompt}]`;
+          }
           this.messageStore.addMessage({
             role: assistant,
             content
@@ -39357,8 +39708,10 @@ var ChatContainer = class {
     const llmGal = parentElement.createDiv();
     llmGal.addClass("llm-icon-wrapper");
     llmGal.addClass("llm-icon-new-chat");
+    const selectedAvatar = this.plugin.settings.emptyChatAvatar || "llm-gal";
+    const svgString = avatarSvgs[selectedAvatar] || LLMgal_default;
     const parser = new DOMParser();
-    const svgDoc = parser.parseFromString(LLMgal_default, "image/svg+xml");
+    const svgDoc = parser.parseFromString(svgString, "image/svg+xml");
     const svgElement = svgDoc.documentElement;
     llmGal.appendChild(svgElement);
   }
@@ -40225,12 +40578,9 @@ var SettingsContainer = class {
   generateImageSettings(parentContainer, model) {
     const settingType = getSettingType(this.viewType);
     const viewSettings = this.plugin.settings[settingType];
-    const imageSizes = {
-      dallE2: ["256x256", "512x512", "1024x1024"],
-      dallE3: ["1024x1024", "1792x1024", "1024x1792"]
-    };
+    const imageSizes = ["1024x1024", "1536x1024", "1024x1536", "auto"];
     new import_obsidian11.Setting(parentContainer).setName("Number of images").setDesc(
-      "The number of images generated by the model. Must be between 1 and 10. For Dall-E 3, only 1 image can be generated."
+      "The number of images generated by the model. Must be between 1 and 10."
     ).addText((text) => {
       text.setValue(`${viewSettings.imageSettings.numberOfImages}`);
       text.inputEl.type = "number";
@@ -40251,50 +40601,29 @@ var SettingsContainer = class {
       });
     });
     new import_obsidian11.Setting(parentContainer).setName("Image size").setDesc(
-      "The size of the generated images. Must be one of 256x256, 512x512, or 1024x1024 for dall-e-2. Must be one of 1024x1024, 1792x1024, or 1024x1792 for dall-e-3 models."
+      "The size of the generated images. Must be one of 1024x1024, 1536x1024, 1024x1536, or auto."
     ).addDropdown((dropdown) => {
-      if (model === "dall-e-2") {
-        dropdown.addOption("", "Dall-E 2 sizes");
-        imageSizes["dallE2"].map((size) => {
-          dropdown.addOption(size, size);
-        });
-      }
-      if (model === "dall-e-3") {
-        dropdown.addOption("", "Dall-E 3 sizes");
-        imageSizes["dallE3"].map((size) => {
-          dropdown.addOption(size, size);
-        });
-      }
+      dropdown.addOption("", "Select a size");
+      imageSizes.map((size) => {
+        dropdown.addOption(size, size);
+      });
       dropdown.onChange((change) => {
         viewSettings.imageSettings.size = change;
         this.plugin.saveSettings();
       });
     });
-    if (model === "dall-e-3") {
-      new import_obsidian11.Setting(parentContainer).setName("Image style").setDesc(
-        "Defaults to vivid. Must be one of vivid or natural. Vivid causes the model to lean towards generating hyper-real and dramatic images. Natural causes the model to produce more natural, less hyper-real looking images. This param is only supported for dall-e-3."
-      ).addDropdown((dropdown) => {
-        dropdown.addOption("", "Select style");
-        dropdown.addOption("natural", "Natural");
-        dropdown.addOption("vivid", "Vivid");
-        dropdown.onChange((change) => {
-          viewSettings.imageSettings.style = change;
-          this.plugin.saveSettings();
-        });
+    new import_obsidian11.Setting(parentContainer).setName("Quality").setDesc(
+      "The quality of the image that will be generated. Higher quality takes longer and costs more."
+    ).addDropdown((dropdown) => {
+      dropdown.addOption("", "Select quality");
+      dropdown.addOption("low", "Low");
+      dropdown.addOption("medium", "Medium");
+      dropdown.addOption("high", "High");
+      dropdown.onChange((change) => {
+        viewSettings.imageSettings.quality = change;
+        this.plugin.saveSettings();
       });
-      new import_obsidian11.Setting(parentContainer).setName("Quality").setDesc(
-        "The quality of the image that will be generated. hd creates images with finer details and greater consistency across the image. This param is only supported for dall-e-3."
-      ).addToggle((value) => {
-        value.onChange(async (value2) => {
-          if (value2) {
-            viewSettings.imageSettings.quality = "hd";
-          } else {
-            viewSettings.imageSettings.quality = "standard";
-          }
-          this.plugin.saveSettings();
-        });
-      });
-    }
+    });
   }
   generateChatSettings(parentContainer, modelType) {
     const settingType = getSettingType(this.viewType);
@@ -40309,7 +40638,7 @@ var SettingsContainer = class {
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian11.Setting(parentContainer).setName("Tokens").setDesc("Maximum number of tokens in the response. Higher values allow longer responses. Recommended: 4096-8192 for Gemini models.").addText((text) => {
+    new import_obsidian11.Setting(parentContainer).setName("Tokens").setDesc("Maximum number of tokens in the response. Set to 0 to use the model's default. Higher values allow longer responses.").addText((text) => {
       text.setValue(`${viewSettings.chatSettings.maxTokens}`);
       text.inputEl.type = "number";
       text.onChange((change) => {
@@ -40791,6 +41120,12 @@ var SettingsView = class extends import_obsidian15.PluginSettingTab {
         desc: "OpenAI models require an API key for authentication.",
         key: "openAIAPIKey",
         generateUrl: "https://platform.openai.com/api-keys"
+      },
+      mistral: {
+        name: "Mistral API key",
+        desc: "Mistral AI models require an API key for authentication.",
+        key: "mistralAPIKey",
+        generateUrl: "https://console.mistral.ai/api-keys"
       }
     };
     this.plugin = plugin;
@@ -40821,21 +41156,30 @@ var SettingsView = class extends import_obsidian15.PluginSettingTab {
         modelNames[this.plugin.settings.defaultModel],
         "Select default model"
       );
-      let keys = Object.keys(models);
+      const ollamaBuilt = buildOllamaModels(this.plugin.settings.ollamaModels);
+      const allModels = { ...models, ...ollamaBuilt.models };
+      const allModelNames = { ...modelNames, ...ollamaBuilt.names };
+      let keys = Object.keys(allModels);
       for (let model of keys) {
-        if (models[model].type === GPT4All) {
+        if (allModels[model].type === GPT4All) {
           const gpt4AllPath = getGpt4AllPath(this.plugin);
-          const fullPath = `${gpt4AllPath}/${models[model].model}`;
+          const fullPath = `${gpt4AllPath}/${allModels[model].model}`;
           const exists = this.plugin.fileSystem.existsSync(fullPath);
           if (exists) {
-            dropdown.addOption(models[model].model, model);
+            dropdown.addOption(allModels[model].model, model);
           }
         } else {
-          dropdown.addOption(models[model].model, model);
+          dropdown.addOption(allModels[model].model, model);
         }
       }
       dropdown.onChange((change) => {
+        var _a5;
         valueChanged = true;
+        const name = allModelNames[change];
+        if (name && ((_a5 = allModels[name]) == null ? void 0 : _a5.type) === ollama) {
+          models[name] = allModels[name];
+          modelNames[change] = name;
+        }
         changeDefaultModel(change, this.plugin);
       });
       dropdown.selectEl.addEventListener("blur", () => {
@@ -40846,6 +41190,17 @@ var SettingsView = class extends import_obsidian15.PluginSettingTab {
       });
       dropdown.setValue(this.plugin.settings.modalSettings.model);
     });
+    new import_obsidian15.Setting(containerEl).setName("Empty chat avatar").setDesc("Choose which avatar to display on empty/new chats").addDropdown((dropdown) => {
+      dropdown.addOption("llm-gal", "LLM Gal");
+      dropdown.addOption("llm-guy", "LLM Guy");
+      dropdown.addOption("zen-kid", "Zen Kid");
+      dropdown.addOption("ninja-cat", "Ninja Cat");
+      dropdown.setValue(this.plugin.settings.emptyChatAvatar || "llm-gal");
+      dropdown.onChange(async (value) => {
+        this.plugin.settings.emptyChatAvatar = value;
+        await this.plugin.saveSettings();
+      });
+    });
     new import_obsidian15.Setting(containerEl).setName("Toggle FAB").setDesc("Toggles the LLM floating action button").addToggle((value) => {
       value.setValue(this.plugin.settings.showFAB).onChange(async (value2) => {
         this.fab.removeFab();
@@ -40853,6 +41208,65 @@ var SettingsView = class extends import_obsidian15.PluginSettingTab {
         await this.plugin.saveSettings();
         if (value2) {
           this.fab.regenerateFAB();
+        }
+      });
+    });
+    new import_obsidian15.Setting(containerEl).setName("Show ribbon icon").setDesc("Show the 'Ask a question' icon in the ribbon bar").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.showRibbonIcon).onChange(async (value) => {
+        this.plugin.settings.showRibbonIcon = value;
+        await this.plugin.saveSettings();
+        if (value && !this.plugin.ribbonIconEl) {
+          this.plugin.ribbonIconEl = this.plugin.addRibbonIcon(
+            "bot",
+            "Ask a question",
+            () => {
+              new ChatModal2(this.plugin).open();
+            }
+          );
+        } else if (!value && this.plugin.ribbonIconEl) {
+          this.plugin.ribbonIconEl.remove();
+          this.plugin.ribbonIconEl = null;
+        }
+      });
+    });
+    const ollamaSection = containerEl.createDiv();
+    ollamaSection.createEl("h3", { text: "Ollama" });
+    new import_obsidian15.Setting(ollamaSection).setName("Ollama host").setDesc("URL of your Ollama server (default: http://localhost:11434)").addText((text) => {
+      text.setPlaceholder("http://localhost:11434");
+      text.setValue(this.plugin.settings.ollamaHost);
+      text.onChange((value) => {
+        this.plugin.settings.ollamaHost = value;
+        this.plugin.saveSettings();
+      });
+    });
+    const ollamaModelListEl = ollamaSection.createDiv();
+    if (this.plugin.settings.ollamaModels.length > 0) {
+      ollamaModelListEl.createEl("p", {
+        text: `Discovered models: ${this.plugin.settings.ollamaModels.join(", ")}`,
+        cls: "setting-item-description"
+      });
+    }
+    new import_obsidian15.Setting(ollamaSection).setName("Refresh models").setDesc("Fetch available models from your Ollama server").addButton((button) => {
+      button.setButtonText("Refresh");
+      button.onClick(async () => {
+        try {
+          button.setButtonText("Fetching...");
+          button.setDisabled(true);
+          const foundModels = await fetchOllamaModels(
+            this.plugin.settings.ollamaHost
+          );
+          this.plugin.settings.ollamaModels = foundModels;
+          await this.plugin.saveSettings();
+          this.display();
+        } catch (error) {
+          console.error("Failed to fetch Ollama models:", error);
+          ollamaModelListEl.empty();
+          ollamaModelListEl.createEl("p", {
+            text: "Failed to connect to Ollama. Is it running?",
+            cls: "setting-item-description"
+          });
+          button.setButtonText("Refresh");
+          button.setDisabled(false);
         }
       });
     });
@@ -41081,11 +41495,10 @@ var defaultSettings = {
     numberOfImages: 1,
     response_format: "url",
     size: "1024x1024",
-    style: "vivid",
-    quality: "standard"
+    quality: "medium"
   },
   chatSettings: {
-    maxTokens: 4096,
+    maxTokens: 0,
     temperature: 0.65,
     GPT4All: {},
     openAI: {
@@ -41121,20 +41534,30 @@ var DEFAULT_SETTINGS = {
   assistants: [],
   openAIAPIKey: "",
   claudeAPIKey: "",
+  mistralAPIKey: "",
   claudeCodeOAuthToken: "",
   linearWorkspaces: [],
   geminiAPIKey: "",
   GPT4AllStreaming: false,
   //this setting determines whether or not fab is shown by default
   showFAB: false,
+  showRibbonIcon: true,
   enableFileContext: false,
-  defaultModel: ""
+  defaultModel: "",
+  ollamaHost: "http://localhost:11434",
+  ollamaModels: [],
+  emptyChatAvatar: "llm-gal"
 };
 var LLMPlugin2 = class extends import_obsidian16.Plugin {
+  constructor() {
+    super(...arguments);
+    this.ribbonIconEl = null;
+  }
   async onload() {
     this.fileSystem = import_obsidian16.Platform.isDesktop ? new DesktopFileSystem() : new MobileFileSystem(this);
     this.os = import_obsidian16.Platform.isDesktop ? new DesktopOperatingSystem() : new MobileOperatingSystem();
     await this.loadSettings();
+    this.registerOllamaModels();
     await this.checkForAPIKeyBasedModel();
     this.registerRibbonIcons();
     this.registerCommands();
@@ -41182,10 +41605,19 @@ var LLMPlugin2 = class extends import_obsidian16.Plugin {
       }
     });
   }
+  registerOllamaModels() {
+    if (this.settings.ollamaModels.length > 0) {
+      const built = buildOllamaModels(this.settings.ollamaModels);
+      Object.assign(models, built.models);
+      Object.assign(modelNames, built.names);
+    }
+  }
   registerRibbonIcons() {
-    this.addRibbonIcon("bot", "Ask a question", (evt) => {
-      new ChatModal2(this).open();
-    });
+    if (this.settings.showRibbonIcon) {
+      this.ribbonIconEl = this.addRibbonIcon("bot", "Ask a question", (evt) => {
+        new ChatModal2(this).open();
+      });
+    }
   }
   async activateTab() {
     const { workspace } = this.app;
@@ -41232,7 +41664,10 @@ var LLMPlugin2 = class extends import_obsidian16.Plugin {
         case "claude-code":
           break;
         case claudeSonnetJuneModel:
-          activeClaudeModel = model === claudeSonnetJuneModel;
+        case claudeSonnet46Model:
+        case claudeOpus46Model:
+        case claudeHaiku45Model:
+          activeClaudeModel = true;
           break;
         case geminiModel:
         case gemini2FlashModel:
@@ -41300,9 +41735,15 @@ var LLMPlugin2 = class extends import_obsidian16.Plugin {
       geminiFlashLatestModel,
       geminiFlashLiteLatestModel
     ].includes(model);
-    const fabModelRequiresKey = this.settings.fabSettings.model === openAIModel || this.settings.fabSettings.model === claudeSonnetJuneModel || this.settings.fabSettings.model === "claude-code" || isGeminiModel(this.settings.fabSettings.model);
-    const widgetModelRequresKey = this.settings.widgetSettings.model === openAIModel || this.settings.widgetSettings.model === claudeSonnetJuneModel || this.settings.widgetSettings.model === "claude-code" || isGeminiModel(this.settings.widgetSettings.model);
-    const modalModelRequresKey = this.settings.modalSettings.model === openAIModel || this.settings.modalSettings.model === claudeSonnetJuneModel || this.settings.modalSettings.model === "claude-code" || isGeminiModel(this.settings.modalSettings.model);
+    const isClaudeModel = (model) => [
+      claudeSonnetJuneModel,
+      claudeSonnet46Model,
+      claudeOpus46Model,
+      claudeHaiku45Model
+    ].includes(model);
+    const fabModelRequiresKey = this.settings.fabSettings.model === openAIModel || isClaudeModel(this.settings.fabSettings.model) || this.settings.fabSettings.model === "claude-code" || isGeminiModel(this.settings.fabSettings.model);
+    const widgetModelRequresKey = this.settings.widgetSettings.model === openAIModel || isClaudeModel(this.settings.widgetSettings.model) || this.settings.widgetSettings.model === "claude-code" || isGeminiModel(this.settings.widgetSettings.model);
+    const modalModelRequresKey = this.settings.modalSettings.model === openAIModel || isClaudeModel(this.settings.modalSettings.model) || this.settings.modalSettings.model === "claude-code" || isGeminiModel(this.settings.modalSettings.model);
     const activeModelRequiresKey = fabModelRequiresKey || widgetModelRequresKey || modalModelRequresKey;
     if (activeModelRequiresKey) await this.validateActiveModelsAPIKeys();
   }

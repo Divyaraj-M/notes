@@ -28,5 +28,6 @@
   "hi-note",
   "google-calendar",
   "obsidian-google-lookup",
-  "obsidian-import-json"
+  "obsidian-import-json",
+  "obsidian-plugin-toc"
 ]
