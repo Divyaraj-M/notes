@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
       "basename": "2026-02-24",
       "path": "Not a trash/2026-02-24.md"
     },
     {
       "basename": "RFP training",
       "path": "Product/Go-no-go/RFP training.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Go-no-go/Untitled.base"
     },
     {
       "basename": "Proposal Conversion",
@@ -85,10 +93,6 @@
       "path": "Product/Demo/Demo.md"
     },
     {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
-    },
-    {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "Answers",
       "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
     {
       "basename": "AI Readiness Score (ARS)",

@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "84383c7037b66d82",
-        "type": "tabs",
+        "id": "4051529c0a7dcc30",
+        "type": "split",
         "children": [
           {
-            "id": "065565bb9e6ac420",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "pinned": true,
-              "icon": "search",
-              "title": "Home tab"
-            }
+            "id": "84383c7037b66d82",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "065565bb9e6ac420",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "home-tab-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "search",
+                  "title": "Home tab"
+                }
+              }
+            ]
+          },
+          {
+            "id": "94cc42d48b214d1f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "202663a16bf97186",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Proposal Templates"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -183,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Not a trash/2026-02-24.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-02-24"
+              "title": "Outline of Proposal Templates"
             }
           }
         ]
@@ -275,12 +312,15 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "202663a16bf97186",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Not a trash/2026-02-24.md",
-    "Product/Go-no-go/RFP training.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/Untitled.base",
+    "Not a trash/2026-02-24.md",
+    "Untitled.md",
+    "Product/Go-no-go/RFP training.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Go-no-go/RFP training PRD.md",
     "Product/Audit report/Audit report.md",
@@ -302,8 +342,6 @@
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/competitors/Loopio/Loopio.md",
     "Product/Demo/Demo.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Daily/UAT vipin 2026-02-23.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
