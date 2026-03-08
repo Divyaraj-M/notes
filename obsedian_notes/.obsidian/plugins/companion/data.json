@@ -3,7 +3,7 @@
   "model": "gpt-3.5-turbo-1106",
   "enable_by_default": true,
   "keybind": "Tab",
-  "delay_ms": 2000,
+  "delay_ms": 200,
   "stream": true,
   "accept": {
     "splitter_regex": " ",

@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "065565bb9e6ac420",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "pinned": true,
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
             "id": "23e0a7caed26ae74",
             "type": "leaf",
             "pinned": true,
@@ -106,17 +118,55 @@
             }
           },
           {
-            "id": "51de12726f1d11ec",
+            "id": "c2d1841131a346c7",
             "type": "leaf",
             "state": {
-              "type": "ntb-whats-new-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "What's new in Note Toolbar?"
+              "type": "markdown",
+              "state": {
+                "file": "Product/Demo/Demo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Demo"
+            }
+          },
+          {
+            "id": "4fa2e1f718efa1df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/competitors/Loopio/SmartScan.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SmartScan"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -180,8 +230,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -277,12 +326,12 @@
             "state": {
               "type": "hinote-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "hinote-view"
+              "icon": "highlighter",
+              "title": "HiNote"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -365,14 +414,23 @@
       "callout-manager:Insert Callout": false,
       "markwhen:Create new Markwhen file": false,
       "companion:Toggle completion": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "51de12726f1d11ec",
+  "active": "4fa2e1f718efa1df",
   "lastOpenFiles": [
+    "Books/The Courage to be Disliked.md",
+    "Books/Read List/Read List.md",
+    "Product/competitors/Loopio/SmartScan.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
+    "Product/competitors/Loopio/Proposal to Project.md",
+    "Product/competitors/Loopio/Loopio.md",
+    "Product/Demo/Demo.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Go-no-go/RFP training PRD.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Audit report/Audit report.md",
     "Product/Projects/Answers/Answer types.md",
     "Books/Read List/Atomic Design.md",
@@ -386,17 +444,9 @@
     "My Data.base",
     "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/competitors/Loopio/Proposal to Project.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/Go-no-go/RFP training PRD.md",
-    "Product/Demo/Demo.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/Instructions/Instructions.md",
     "Product/Projects/Answers/Answers.md",
-    "Books/Read List/Read List.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",

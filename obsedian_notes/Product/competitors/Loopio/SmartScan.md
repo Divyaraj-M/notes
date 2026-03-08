@@ -1,4 +1,5 @@
 #competitor_analysis 
+
 ## SmartScan — what the articles say
 
 ### What SmartScan is
