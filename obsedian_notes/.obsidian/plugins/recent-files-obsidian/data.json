@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
+      "basename": "Attachments in RFP response - Product Spec",
+      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
+    },
+    {
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Proposal to Project",
+      "path": "Product/competitors/Loopio/Proposal to Project.md"
+    },
+    {
+      "basename": "Go-no-Go - loopio",
+      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
+    },
+    {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "RFP training PRD",
+      "path": "Product/Go-no-go/RFP training PRD.md"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
+    },
+    {
+      "basename": "Answers",
+      "path": "Product/Projects/Answers/Answers.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "AI Readiness Score (ARS)",
+      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
+    },
+    {
+      "basename": "AI can have auto tags for the Past Projects which is created",
+      "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
+    },
+    {
+      "basename": "Domain Diagram Questions",
+      "path": "Product/Go-no-go/Domain Diagram Questions.md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
+    },
+    {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
       "basename": "RFP training",
       "path": "Product/Go-no-go/RFP training.md"
     },
     {
       "basename": "ECHS – Knowledge Transfer (KT) Document",
       "path": "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md"
-    },
-    {
-      "basename": "RFP training PRD",
-      "path": "Product/Go-no-go/RFP training PRD.md"
     },
     {
       "basename": "Instructions from the Document",
@@ -21,24 +105,12 @@
       "path": "Product/Instructions/Instructions logic.md"
     },
     {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
-    },
-    {
       "basename": "Training back Projects into Knowledge Hubs",
       "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
     },
     {
       "basename": "Knowledge Hub",
       "path": "Product/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
-      "basename": "Answers",
-      "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "ROI Calculator",
-      "path": "Product/ROI Calculator/ROI Calculator.md"
     },
     {
       "basename": "ERD",
@@ -63,10 +135,6 @@
     {
       "basename": "Project admin settings",
       "path": "Product/Settings/Project admin settings.md"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
     },
     {
       "basename": "2026-02-25",
@@ -131,74 +199,6 @@
     {
       "basename": "Users tab",
       "path": "Product/Settings/Users and Teams/Users tab.md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "Product/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "First Principle thinking - Table View",
-      "path": "Product/Projects/Table View/First Principle thinking - Table View.md"
-    },
-    {
-      "basename": "Attachments in RFP response - Product Spec",
-      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
-    },
-    {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "A little life",
-      "path": "Books/A little life.md"
-    },
-    {
-      "basename": "Thinking fast and slow",
-      "path": "Books/Thinking fast and slow.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
-    },
-    {
-      "basename": "How to Create a project",
-      "path": "Product/Help Article/How to Create a project.md"
     }
   ],
   "omittedPaths": [],

@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -71,31 +71,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multicolumn , check box"
-            }
-          },
-          {
-            "id": "2d1e2d6cb0e38aad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Answers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Answers"
+              "title": "Attachments in RFP response - Product Spec"
             }
           },
           {
@@ -123,37 +99,51 @@
             }
           },
           {
-            "id": "4b076409937b247d",
-            "type": "leaf",
-            "state": {
-              "type": "card-board-view",
-              "state": {},
-              "icon": "card-board",
-              "title": "CardBoard"
-            }
-          },
-          {
             "id": "167e053ff8a1abe5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Conversion"
+              "icon": "lucide-file",
+              "title": "Proposal Templates"
             }
           },
           {
             "id": "161156316efd6e86",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Go-no-go/RFP training.md"
+                "file": "Product/Go-no-go/Go - No- Go.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "Go - No- Go"
             }
           },
           {
@@ -203,9 +193,33 @@
               "icon": "lucide-file",
               "title": "RFP training PRD"
             }
+          },
+          {
+            "id": "e2f3825744485561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Audit report/Audit report.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Audit report"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,6 +231,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
+        "dimension": 59.635416666666664,
         "children": [
           {
             "id": "0e41dea7c411da32",
@@ -237,7 +252,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vipin",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -257,7 +272,14 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "17f6136d64ebd0ab",
+        "type": "tabs",
+        "dimension": 40.36458333333333,
+        "children": [
           {
             "id": "c9b44404818f969a",
             "type": "leaf",
@@ -281,6 +303,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
+        "dimension": 41.4468085106383,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -288,7 +311,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Answers/Answer types.md",
+                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +321,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Answer types"
+              "title": "Backlinks for Attachments in RFP response - Product Spec"
             }
           },
           {
@@ -307,14 +330,57 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Answers/Answer types.md",
+                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Answer types"
+              "title": "Outgoing links from Attachments in RFP response - Product Spec"
             }
           },
+          {
+            "id": "3467a05e464d694e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Attachments in RFP response - Product Spec"
+            }
+          },
+          {
+            "id": "b2aec384d239af07",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "b2ef6f7bdd54a44d",
+            "type": "leaf",
+            "state": {
+              "type": "hinote-view",
+              "state": {},
+              "icon": "highlighter",
+              "title": "HiNote"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "3d40ba0f7bb45995",
+        "type": "tabs",
+        "dimension": 27.319148936170212,
+        "children": [
           {
             "id": "7d5ca5715fbe7b32",
             "type": "leaf",
@@ -343,47 +409,13 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "3467a05e464d694e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "b2aec384d239af07",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "b2ef6f7bdd54a44d",
-            "type": "leaf",
-            "state": {
-              "type": "hinote-view",
-              "state": {},
-              "icon": "highlighter",
-              "title": "HiNote"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
-        "id": "071ce05a61e159f0",
+        "id": "366a65c0c7469ae1",
         "type": "tabs",
+        "dimension": 31.234042553191486,
         "children": [
           {
             "id": "425971f19e417a0e",
@@ -399,7 +431,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 339.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -424,45 +456,45 @@
       "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "161156316efd6e86",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/competitors/Loopio/Proposal to Project.md",
+    "Product/competitors/Loopio/Go-no-Go - loopio.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Go-no-go/RFP training PRD.md",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Audit report/Audit report.md",
+    "Product/Demo/Demo.md",
+    "Product/ROI Calculator/ROI Calculator.md",
+    "Product/Instructions/Instructions.md",
+    "Product/Projects/Answers/Answers.md",
+    "Books/Read List/Read List.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Go-no-go/AI Readiness Score (ARS).md",
+    "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md",
+    "Product/Go-no-go/Domain Diagram Questions.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Go-no-go/RFP training.md",
     "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
-    "Product/Go-no-go/RFP training.md",
     "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions logic.md",
-    "Product/Instructions/Instructions.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
-    "Product/Projects/Answers/Answers.md",
-    "Product/ROI Calculator/ROI Calculator.md",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator",
     "Product/untitled folder",
-    "Learning/ARCA AI/UTITSL_102/ERD.md",
-    "Learning/ARCA AI/UTITSL_102/ERd.md",
-    "Learning/ARCA AI/Cred/Cred.md",
     "Learning/ARCA AI/Cred",
-    "2026-03-06.md",
-    "Product/Demo/Demo.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
-    "2026-02-25.md",
-    "2026-02-24.md",
-    "2026-03-05.md",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Not a trash/SparrowGenie Help Article Template.md",
-    "Not a trash/2026-01-30.md",
-    "Not a trash/2026-02-04.md",
-    "Not a trash/2026-02-10 19-43-37.md",
-    "Not a trash/Test.md",
-    "Not a trash/2026-02-13.md",
-    "Not a trash/Work Log 2026-02-16.md",
-    "Not a trash/2026-02-23 -Weekly product Stand up.md",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
     "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",

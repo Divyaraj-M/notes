@@ -1,5 +1,10 @@
 {
-  "accentColor": "#8faaea",
-  "cssTheme": "Obsidianite",
-  "theme": "obsidian"
+  "accentColor": "#c6cfd7",
+  "cssTheme": "Cupertino",
+  "theme": "obsidian",
+  "translucency": true,
+  "textFontFamily": "",
+  "nativeMenus": true,
+  "baseFontSizeAction": false,
+  "showRibbon": true
 }

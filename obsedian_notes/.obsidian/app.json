@@ -16,5 +16,6 @@
   "foldIndent": true,
   "foldHeading": true,
   "defaultViewMode": "source",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "readableLineLength": false
 }
