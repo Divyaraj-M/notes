@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
       "basename": "SmartScan",
       "path": "Product/competitors/Loopio/SmartScan.md"
     },
     {
       "basename": "The Courage to be Disliked",
       "path": "Books/The Courage to be Disliked.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Go-no-Go - loopio",
@@ -39,10 +55,6 @@
     {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
     },
     {
       "basename": "Audit report",
@@ -95,10 +107,6 @@
     {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "ROI Calculator",
-      "path": "Product/ROI Calculator/ROI Calculator.md"
     },
     {
       "basename": "Instructions",
@@ -191,14 +199,6 @@
     {
       "basename": "2026-02-24",
       "path": "2026-02-24.md"
-    },
-    {
-      "basename": "2026-03-05",
-      "path": "2026-03-05.md"
-    },
-    {
-      "basename": "Screenshot 2026-01-29 at 11.54.14 AM",
-      "path": "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png"
     }
   ],
   "omittedPaths": [],

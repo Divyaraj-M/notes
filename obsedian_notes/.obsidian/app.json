@@ -17,5 +17,6 @@
   "foldHeading": true,
   "defaultViewMode": "source",
   "showUnsupportedFiles": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "openBehavior": "file:"
 }

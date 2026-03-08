@@ -1,10 +1,10 @@
 {
   "server": "https://api.note.sx",
   "uid": "355cf7ee807b7e602cc27c1ab9ca4fa1",
-  "apiKey": "",
+  "apiKey": "6a1e4405178775cfd2d882fa368a6cef",
   "yamlField": "share",
   "noteWidth": "",
-  "theme": "",
+  "theme": "Cupertino",
   "themeMode": 0,
   "titleSource": 0,
   "removeYaml": true,

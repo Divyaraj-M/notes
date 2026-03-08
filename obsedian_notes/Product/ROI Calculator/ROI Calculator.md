@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/bqi2mqro#TqWXO7/dIFKo53t3l+HOk6aPTa6Fzt7jCCTSuiVGYGk
+share_updated: 2026-03-09T00:03:16+05:30
+---
 #marketing/roi_calculator/v2 
 
 **Product:** SparrowGenie ROI Calculator & Report Generator
