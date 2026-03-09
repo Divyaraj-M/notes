@@ -106,15 +106,15 @@ The entire ROI model runs on three inputs provided by the prospect or sales rep:
 
 The calculator recommends a pricing tier based on annual RFP volume. Pricing is hardcoded.
 
-| RFP Volume | Plan Cost | Tier Name |
-|---|---|---|
-| ≤ 25 RFPs/year | $10,000/year | Starter |
-| 26 – 50 RFPs/year | $15,000/year | Growth |
-| > 50 RFPs/year | $30,000/year | Scale |
+| RFP Volume        | Plan Cost    | Tier Name |
+| ----------------- | ------------ | --------- |
+| ≤ 40 RFPs/year    | $10,000/year | Starter   |
+| 41 – 50 RFPs/year | $15,000/year | Growth    |
+| > 50 RFPs/year    | $30,000/year | Scale     |
 
 **Formula (Spreadsheet):**
 ```
-Plan Cost = IF(RFPs ≤ 25, $10,000, IF(RFPs ≤ 50, $15,000, $30,000))
+Plan Cost = IF(RFPs ≤ 40, $10,000, IF(RFPs ≤ 50, $15,000, $30,000))
 ```
 
 ### 5.3 Complete Formula Chain (Step-by-Step)
@@ -246,7 +246,7 @@ This is expressed as "12x return" — meaning for every $1 spent on SparrowGenie
 | Expected wins         | `= C2 × C7`                                          | 12 × 30% = **3.6**         |
 | Additional wins       | `= C8 − C6`                                          | 3.6 − 2.4 = **+1.2**       |
 | Incremental revenue   | `= C9 × C3`                                          | 1.2 × $100K = **$120,000** |
-| Plan cost             | `= IF(C2≤25, 10K, IF(C2≤50, 15K, 30K))`              | **$10,000**                |
+| Plan cost             | `= IF(C2≤40, 10K, IF(C2≤50, 15K, 30K))`              | **$10,000**                |
 | ROI (multiplier)      | `= C10 ÷ C11`                                        | $120K ÷ $10K = **12x**     |
 | Verdict               | `= IF(C12≥5, "Strong", IF(C12≥2, "Solid", "Early"))` | **Strong ROI**             |
 

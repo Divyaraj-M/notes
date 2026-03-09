@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
+    },
+    {
+      "basename": "Audit Report R126022026",
+      "path": "Product/Audit report/Audit Report R126022026.md"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
+      "basename": "How to Create a project",
+      "path": "Product/Help Article/How to Create a project.md"
+    },
+    {
+      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
+      "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
+      "path": "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png"
+    },
+    {
       "basename": "9.mar.2026 - Stand up",
-      "path": "9.mar.2026 - Stand up.md"
+      "path": "Product/Meeting Notes/9.mar.2026 - Stand up.md"
+    },
+    {
+      "basename": "sparrowgenie-roi-final",
+      "path": "Product/ROI Calculator/sparrowgenie-roi-final.html"
+    },
+    {
+      "basename": "sparrowgenie-email-template",
+      "path": "Product/ROI Calculator/sparrowgenie-email-template.html"
     },
     {
       "basename": "Product Strategy",
@@ -17,28 +57,8 @@
       "path": "Product/Top Deliverables/Product Vision.md"
     },
     {
-      "basename": "sparrowgenie-email-template",
-      "path": "Product/ROI Calculator/sparrowgenie-email-template.html"
-    },
-    {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
-    },
-    {
-      "basename": "ROI Calculator",
-      "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "sparrowgenie-roi-final",
-      "path": "Product/ROI Calculator/sparrowgenie-roi-final.html"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
-    },
-    {
-      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
-      "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
     },
     {
       "basename": "Proposal Templates",
@@ -67,14 +87,6 @@
     {
       "basename": "RFP training PRD",
       "path": "Product/Go-no-go/RFP training PRD.md"
-    },
-    {
-      "basename": "Audit report",
-      "path": "Product/Audit report/Audit report.md"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
     },
     {
       "basename": "A little life",
@@ -187,10 +199,6 @@
     {
       "basename": "External Questionnaire Score (EQS)",
       "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     }
   ],
   "omittedPaths": [],
