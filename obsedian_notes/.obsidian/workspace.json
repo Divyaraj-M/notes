@@ -4,59 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "4051529c0a7dcc30",
-        "type": "split",
+        "id": "84383c7037b66d82",
+        "type": "tabs",
         "children": [
           {
-            "id": "84383c7037b66d82",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "065565bb9e6ac420",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "home-tab-view",
-                  "state": {},
-                  "pinned": true,
-                  "icon": "search",
-                  "title": "Home tab"
-                }
-              }
-            ]
+            "id": "065565bb9e6ac420",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "pinned": true,
+              "icon": "search",
+              "title": "Home tab"
+            }
           },
           {
-            "id": "94cc42d48b214d1f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "202663a16bf97186",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Product/Dossiers/Proposals/Proposal Templates.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Proposal Templates"
+            "id": "64c92190d94b7699",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Email notifications/Email notifications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
-              }
-            ]
+              },
+              "icon": "lucide-file",
+              "title": "Email notifications"
+            }
+          },
+          {
+            "id": "6ad089bada7978cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Top Deliverables/Product Strategy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Product Strategy"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +80,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 59.63541666666667,
+        "dimension": 60.23993144815767,
         "children": [
           {
             "id": "681d9fb88f64f790",
@@ -126,8 +138,23 @@
       {
         "id": "17f6136d64ebd0ab",
         "type": "tabs",
-        "dimension": 40.364583333333336,
+        "dimension": 39.76006855184233,
         "children": [
+          {
+            "id": "3467a05e464d694e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Product/Top Deliverables/Product Strategy.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Product Strategy"
+            }
+          },
           {
             "id": "c9b44404818f969a",
             "type": "leaf",
@@ -138,7 +165,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +179,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 27.872340425531917,
+        "dimension": 41.255605381165914,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -207,34 +235,12 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "b9811113d47db60d",
-        "type": "tabs",
-        "dimension": 27.872340425531917,
-        "children": [
-          {
-            "id": "3467a05e464d694e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Proposal Templates"
-            }
-          }
-        ]
+        "currentTab": 2
       },
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 18.808510638297875,
+        "dimension": 25,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -270,7 +276,7 @@
       {
         "id": "366a65c0c7469ae1",
         "type": "tabs",
-        "dimension": 25.4468085106383,
+        "dimension": 33.744394618834086,
         "children": [
           {
             "id": "425971f19e417a0e",
@@ -312,10 +318,18 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "202663a16bf97186",
+  "active": "6ad089bada7978cf",
   "lastOpenFiles": [
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Top Deliverables/Product Vision.md",
+    "Product/Email notifications/Email notifications.md",
+    "Product/ROI Calculator/sparrowgenie-email-template.html",
+    "Product/ROI Calculator/sparrowgenie-email-preview.html",
+    "Product/ROI Calculator/ROI Calculator.md",
+    "Product/ROI Calculator/sparrowgenie-roi-final.html",
+    "Product/Demo/Demo.md",
+    "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/Untitled.base",
     "Not a trash/2026-02-24.md",
@@ -334,22 +348,14 @@
     "Product/competitors/Loopio/SmartScan.md",
     "Product/User roles/Project/Project Watcher.md",
     "Product/UAT Vipin.md",
-    "Product/ROI Calculator/ROI Calculator.md",
-    "Product/Email notifications/Email notifications.md",
     "Product/Go-no-go/Go - No- Go.md",
     "Books/The Courage to be Disliked.md",
     "Product/competitors/Loopio/Go-no-Go - loopio.md",
     "Product/competitors/Loopio/Proposal to Project.md",
-    "Product/competitors/Loopio/Loopio.md",
-    "Product/Demo/Demo.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
-    "Product/ROI Calculator/sparrowgenie-email-template.html",
-    "Product/ROI Calculator/sparrowgenie-email-preview.html",
-    "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator",
-    "Product/untitled folder",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",

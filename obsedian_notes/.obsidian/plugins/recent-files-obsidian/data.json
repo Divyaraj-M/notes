@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Strategy",
+      "path": "Product/Top Deliverables/Product Strategy.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "Product/Top Deliverables/Product Vision.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
+    },
+    {
+      "basename": "sparrowgenie-email-template",
+      "path": "Product/ROI Calculator/sparrowgenie-email-template.html"
+    },
+    {
+      "basename": "sparrowgenie-email-preview",
+      "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
+    },
+    {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
+    },
+    {
+      "basename": "sparrowgenie-roi-final",
+      "path": "Product/ROI Calculator/sparrowgenie-roi-final.html"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
+      "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
+    },
+    {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
@@ -61,14 +97,6 @@
       "path": "Product/UAT Vipin.md"
     },
     {
-      "basename": "ROI Calculator",
-      "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "Email notifications",
-      "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
     },
@@ -87,10 +115,6 @@
     {
       "basename": "Loopio",
       "path": "Product/competitors/Loopio/Loopio.md"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
     },
     {
       "basename": "UAT vipin 2026-02-23",
@@ -175,26 +199,6 @@
     {
       "basename": "Instructions logic",
       "path": "Product/Instructions/Instructions logic.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Knowledge Hub",
-      "path": "Product/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
-      "basename": "ERD",
-      "path": "Learning/ARCA AI/UTITSL_102/ERD.md"
-    },
-    {
-      "basename": "Design diagram",
-      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
-    },
-    {
-      "basename": "UTITSL_102 - Tech Doc",
-      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
     }
   ],
   "omittedPaths": [],

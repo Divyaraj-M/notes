@@ -21,7 +21,16 @@
     "Not a trash/2026-02-24.md": "not_a_trash_2026-02-24.md.json",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md": "product_projects_rfp_to_proposal_rfp_to_proposal.md.json",
     "Product/Dossiers/Proposals/Proposal Templates.md": "product_dossiers_proposals_proposal_templates.md.json",
-    "Product/Dossiers/Proposals/Proposal Template flow.md": "product_dossiers_proposals_proposal_template_flow.md.json"
+    "Product/Dossiers/Proposals/Proposal Template flow.md": "product_dossiers_proposals_proposal_template_flow.md.json",
+    "Product/Email notifications/Email notifications.md": "product_email_notifications_email_notifications.md.json",
+    "Product/ROI Calculator/sparrowgenie-email-template.html": "product_roi_calculator_sparrowgenie-email-template.html.json",
+    "Product/ROI Calculator/sparrowgenie-email-preview.html": "product_roi_calculator_sparrowgenie-email-preview.html.json",
+    "Product/ROI Calculator/sparrowgenie-roi-final.html": "product_roi_calculator_sparrowgenie-roi-final.html.json",
+    "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html": "product_demo_sparrowgenie_demo_prep_spin_fab.html.json",
+    "Product/Demo/Demo.md": "product_demo_demo.md.json",
+    "Product/ROI Calculator/ROI Calculator.md": "product_roi_calculator_roi_calculator.md.json",
+    "Product/Top Deliverables/Product Vision.md": "product_top_deliverables_product_vision.md.json",
+    "Product/Top Deliverables/Product Strategy.md": "product_top_deliverables_product_strategy.md.json"
   },
-  "lastUpdated": 1773000670612
+  "lastUpdated": 1773041858771
 }
