@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFP to Proposal"
+              "title": "Outline of Proposal Conversion"
             }
           }
         ]
@@ -34,24 +34,12 @@
             "id": "5b0d246781265cda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
               },
-              "icon": "lucide-file",
-              "title": "RFP to Proposal"
+              "icon": "excalidraw-icon",
+              "title": "Proposal Conversion"
             }
           },
           {
@@ -143,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -181,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +179,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFP to Proposal"
+              "title": "Backlinks for Proposal Conversion"
             }
           },
           {
@@ -200,12 +188,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFP to Proposal"
+              "title": "Outgoing links from Proposal Conversion"
             }
           },
           {
@@ -315,14 +303,15 @@
   },
   "active": "5b0d246781265cda",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Settings/Project admin settings.md",
     "Product/Go-no-go/RFP training PRD.md",
     "Not a trash/2026-02-24.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
     "Daily/Routine.md",
     "Product/Go-no-go/RFP training.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Settings/Teams/Teams.md",
     "Product/Settings/Teams/Assigning to the section.md",
     "Product/Settings/Teams/Untitled.md",
@@ -346,7 +335,6 @@
     "Product/Top Deliverables/Product Vision.md",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Go-no-go/Untitled.base",
     "My Data.base",
     "Learning/ARCA AI/ECHS Data Info",
