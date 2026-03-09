@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+      "basename": "RFP training",
+      "path": "Product/Knowledge Hub/RFP training.md"
+    },
+    {
+      "basename": "RFP training PRD",
+      "path": "Product/Knowledge Hub/RFP training PRD.md"
+    },
+    {
+      "basename": "Training back Projects into Knowledge Hubs",
+      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
+    },
+    {
+      "basename": "Knowledge Hub",
+      "path": "Product/Knowledge Hub/Knowledge Hub.md"
+    },
+    {
+      "basename": "Instructions from the Document",
+      "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
+      "basename": "Instructions",
+      "path": "Product/Instructions/Instructions.md"
     },
     {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
     },
     {
-      "basename": "Project admin settings",
-      "path": "Product/Settings/Project admin settings.md"
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
-      "basename": "RFP training PRD",
-      "path": "Product/Go-no-go/RFP training PRD.md"
+      "basename": "AI Readiness Score (ARS)",
+      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
+      "basename": "Audit report",
+      "path": "Product/Audit report/Audit report.md"
+    },
+    {
+      "basename": "Project admin settings",
+      "path": "Product/Settings/Project admin settings.md"
     },
     {
       "basename": "2026-02-24",
@@ -29,10 +61,6 @@
       "path": "Daily/Routine.md"
     },
     {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
-    },
-    {
       "basename": "Teams",
       "path": "Product/Settings/Teams/Teams.md"
     },
@@ -43,10 +71,6 @@
     {
       "basename": "Untitled",
       "path": "Product/Settings/Teams/Untitled.md"
-    },
-    {
-      "basename": "Instructions from the Document",
-      "path": "Product/Instructions/Instructions from the Document.md"
     },
     {
       "basename": "Mapping",
@@ -71,10 +95,6 @@
     {
       "basename": "Demo",
       "path": "Product/Demo/Demo.md"
-    },
-    {
-      "basename": "Audit report",
-      "path": "Product/Audit report/Audit report.md"
     },
     {
       "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
@@ -141,10 +161,6 @@
       "path": "Product/UAT Vipin.md"
     },
     {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
       "basename": "The Courage to be Disliked",
       "path": "Books/The Courage to be Disliked.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "ERP",
       "path": "second_stream_revenue/Google_sheets/ERP.md"
-    },
-    {
-      "basename": "Youtube video Framework",
-      "path": "second_stream_revenue/Youtube Scripts/Youtube video Framework.md"
-    },
-    {
-      "basename": "Youtube Scripts",
-      "path": "second_stream_revenue/Youtube Scripts/Youtube Scripts.md"
-    },
-    {
-      "basename": "Attachments in RFP response - Product Spec",
-      "path": "Product/Projects/Attachments in RFP Response area/Attachments in RFP response - Product Spec.md"
-    },
-    {
-      "basename": "Multicolumn , check box",
-      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
     }
   ],
   "omittedPaths": [],

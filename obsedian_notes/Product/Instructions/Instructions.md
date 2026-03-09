@@ -6,7 +6,7 @@ Every RFP project must clearly define the instructions SMEs are expected to foll
 
 Instructions originate from two distinct sources:
 
-1. **External Instructions (Prospect-defined)**  
+1. **External Instructions (Prospect-defined)**  [[Instructions from the Document]]
     These are requirements stated in the RFP document. They include formatting rules, compliance conditions, submission guidelines, mandatory sections, evaluation criteria, and deadlines. These are non-negotiable and must be followed exactly.
 2. **Internal Instructions (Team-defined)**  
     These are guidelines created by the responding team. They include positioning strategy, win themes, tone guidance, approval workflows, risk flags, and deal-specific notes. These ensure consistency, quality, and alignment with deal strategy.

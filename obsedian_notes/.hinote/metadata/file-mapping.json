@@ -12,7 +12,6 @@
     "Books/A little life.md": "books_a_little_life.md.json",
     "Product/Audit report/Audit Report R126022026.md": "product_audit_report_audit_report_r126022026.md.json",
     "Product/Audit report/Audit report.md": "product_audit_report_audit_report.md.json",
-    "Product/Go-no-go/RFP training PRD.md": "product_go-no-go_rfp_training_prd.md.json",
     "Product/Go-no-go/RFP training.md": "product_go-no-go_rfp_training.md.json",
     "Untitled.md": "untitled.md.json",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md": "product_projects_rfp_to_proposal_proposal_conversion.md.json",
@@ -50,7 +49,15 @@
     "Product/Settings/Teams/Assigning to the section.md": "product_settings_teams_assigning_to_the_section.md.json",
     "Product/Settings/Teams/Teams.md": "product_settings_teams_teams.md.json",
     "Daily/Routine.md": "daily_routine.md.json",
-    "Not a trash/2026-01-29 UAT with Vipin.md": "not_a_trash_2026-01-29_uat_with_vipin.md.json"
+    "Not a trash/2026-01-29 UAT with Vipin.md": "not_a_trash_2026-01-29_uat_with_vipin.md.json",
+    "Product/Go-no-go/Go - No- Go.md": "product_go-no-go_go_-_no-_go.md.json",
+    "Product/Go-no-go/AI Readiness Score (ARS).md": "product_go-no-go_ai_readiness_score_(ars).md.json",
+    "Product/Instructions/Instructions logic.md": "product_instructions_instructions_logic.md.json",
+    "Product/Instructions/Instructions.md": "product_instructions_instructions.md.json",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md": "product_knowledge_hub_training_back_projects_into_knowledge_hubs.md.json",
+    "Product/Knowledge Hub/Knowledge Hub.md": "product_knowledge_hub_knowledge_hub.md.json",
+    "Product/Knowledge Hub/RFP training PRD.md": "product_knowledge_hub_rfp_training_prd.md.json",
+    "Product/Knowledge Hub/RFP training.md": "product_knowledge_hub_rfp_training.md.json"
   },
-  "lastUpdated": 1773061667202
+  "lastUpdated": 1773066523071
 }
