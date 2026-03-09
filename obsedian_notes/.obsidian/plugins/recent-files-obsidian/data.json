@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "9.mar.2026 - Stand up",
+      "path": "9.mar.2026 - Stand up.md"
+    },
+    {
       "basename": "Product Strategy",
       "path": "Product/Top Deliverables/Product Strategy.md"
     },
     {
-      "basename": "Product Vision",
-      "path": "Product/Top Deliverables/Product Vision.md"
-    },
-    {
       "basename": "Email notifications",
       "path": "Product/Email notifications/Email notifications.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "Product/Top Deliverables/Product Vision.md"
     },
     {
       "basename": "sparrowgenie-email-template",
@@ -187,18 +191,6 @@
     {
       "basename": "Past RFP Similarity Score (PRS)",
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "ECHS – Knowledge Transfer (KT) Document",
-      "path": "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md"
-    },
-    {
-      "basename": "Instructions from the Document",
-      "path": "Product/Instructions/Instructions from the Document.md"
-    },
-    {
-      "basename": "Instructions logic",
-      "path": "Product/Instructions/Instructions logic.md"
     }
   ],
   "omittedPaths": [],

@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "065565bb9e6ac420",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "pinned": true,
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "64c92190d94b7699",
+            "id": "977f7085b28f505c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Email notifications/Email notifications.md",
+                "file": "9.mar.2026 - Stand up.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email notifications"
-            }
-          },
-          {
-            "id": "6ad089bada7978cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Top Deliverables/Product Strategy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Strategy"
+              "title": "9.mar.2026 - Stand up"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +43,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 60.23993144815767,
+        "dimension": 33.908541846419325,
         "children": [
           {
             "id": "681d9fb88f64f790",
@@ -136,9 +99,9 @@
         "currentTab": 3
       },
       {
-        "id": "17f6136d64ebd0ab",
+        "id": "e2054e0ab03fe583",
         "type": "tabs",
-        "dimension": 39.76006855184233,
+        "dimension": 26.31578947368421,
         "children": [
           {
             "id": "3467a05e464d694e",
@@ -146,15 +109,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Top Deliverables/Product Strategy.md",
+                "file": "9.mar.2026 - Stand up.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Strategy"
+              "title": "Outline of 9.mar.2026 - Stand up"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "17f6136d64ebd0ab",
+        "type": "tabs",
+        "dimension": 39.77566867989646,
+        "children": [
           {
             "id": "c9b44404818f969a",
             "type": "leaf",
@@ -165,8 +135,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -315,13 +284,18 @@
       "callout-manager:Insert Callout": false,
       "markwhen:Create new Markwhen file": false,
       "companion:Toggle completion": false,
-      "smart-composer:Open smart composer": false
+      "smart-composer:Open smart composer": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "6ad089bada7978cf",
+  "active": "977f7085b28f505c",
   "lastOpenFiles": [
-    "Product/Top Deliverables/Product Vision.md",
+    "Untitled.md",
+    "9.mar.2026 - Stand up.md",
+    "().md",
+    "Product/Top Deliverables/Product Strategy.md",
     "Product/Email notifications/Email notifications.md",
+    "Product/Top Deliverables/Product Vision.md",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/ROI Calculator.md",
@@ -333,7 +307,6 @@
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/Untitled.base",
     "Not a trash/2026-02-24.md",
-    "Untitled.md",
     "Product/Go-no-go/RFP training.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Go-no-go/RFP training PRD.md",
@@ -349,9 +322,6 @@
     "Product/User roles/Project/Project Watcher.md",
     "Product/UAT Vipin.md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Books/The Courage to be Disliked.md",
-    "Product/competitors/Loopio/Go-no-Go - loopio.md",
-    "Product/competitors/Loopio/Proposal to Project.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",

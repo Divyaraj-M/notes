@@ -17,19 +17,27 @@
       "icon": "strikethrough-glyph"
     },
     {
+      "id": "editor:insert-link",
+      "name": "Insert Markdown link",
+      "icon": "lucide-link",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "K"
+        }
+      ]
+    },
+    {
       "id": "cmenu-plugin:underline",
       "name": "cMenu: Toggle underline",
       "icon": "underline-glyph"
     },
     {
-      "id": "cmenu-plugin:superscript",
-      "name": "cMenu: Toggle superscript",
-      "icon": "superscript-glyph"
-    },
-    {
-      "id": "cmenu-plugin:subscript",
-      "name": "cMenu: Toggle subscript",
-      "icon": "subscript-glyph"
+      "id": "obsidian-link-embed:create-markdown-link",
+      "name": "Link Embed: Create Markdown Link",
+      "icon": "link"
     },
     {
       "id": "cmenu-plugin:editor:toggle-code",
