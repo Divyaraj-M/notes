@@ -80,10 +80,12 @@
     "new_feature/conext_info/company_info": 1,
     "new_feature/conext_info/competitor_info": 2,
     "new_feature/dossiers/proposal_templates": 1,
+    "new_feature/dossiers/rfp_to_proposal": 2,
     "new_feature/instructions/v1": 1,
     "new_feature/obligations/v1": 1,
     "new_feauture/projects_traning_loop/v1": 1,
     "new_feature/dossiers/proposal_templates/v1": 1,
+    "new_feature/dossiers/rfp_to_proposal/v1": 1,
     "new_feature/instructions/v1/from_prospect": 1,
     "new_feature/obligations/v1/uat": 1
   },

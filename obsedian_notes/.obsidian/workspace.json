@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ROI Calculator"
+              "title": "Outline of RFP to Proposal"
             }
           }
         ]
@@ -31,12 +31,12 @@
         "dimension": 81.01644245142003,
         "children": [
           {
-            "id": "cf795a6d6cae9542",
+            "id": "5b0d246781265cda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,17 +51,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ROI Calculator"
+              "title": "RFP to Proposal"
             }
           },
           {
-            "id": "5b0d246781265cda",
+            "id": "e63af70757c8e3f1",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Product/Go-no-go/RFP training PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RFP training PRD"
             }
           }
         ]
@@ -94,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:new_feature/dossiers/proposal_templates",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -129,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "17f6136d64ebd0ab",
@@ -167,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/User roles/Project/Project Watcher.md",
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +191,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project Watcher"
+              "title": "Backlinks for RFP to Proposal"
             }
           },
           {
@@ -186,12 +200,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Read List/Atomic Design.md",
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Atomic Design"
+              "title": "Outgoing links from RFP to Proposal"
             }
           },
           {
@@ -214,8 +228,7 @@
               "title": "HiNote"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -251,7 +264,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "366a65c0c7469ae1",
@@ -299,10 +313,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cf795a6d6cae9542",
+  "active": "5b0d246781265cda",
   "lastOpenFiles": [
-    "Product/Audit report/Audit Report R126022026.md",
+    "Product/Settings/Project admin settings.md",
+    "Product/Go-no-go/RFP training PRD.md",
+    "Not a trash/2026-02-24.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Daily/Routine.md",
+    "Product/Go-no-go/RFP training.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Settings/Teams/Teams.md",
+    "Product/Settings/Teams/Assigning to the section.md",
+    "Product/Settings/Teams/Untitled.md",
+    "Product/Instructions/Instructions from the Document.md",
     "Product/Help Article/Mapping.md",
+    "Product/ROI Calculator/ROI Calculator.md",
+    "Product/Audit report/Audit Report R126022026.md",
     "Product/Help Article/How to Create a project.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Demo/Demo.md",
@@ -310,7 +337,6 @@
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Product/Meeting Notes/9.mar.2026 - Stand up.md",
     "Product/Meeting Notes",
-    "Product/ROI Calculator/ROI Calculator.md",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Untitled.md",
@@ -321,20 +347,8 @@
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/Untitled.base",
-    "Not a trash/2026-02-24.md",
-    "Product/Go-no-go/RFP training.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Go-no-go/RFP training PRD.md",
-    "Books/A little life.md",
-    "2026-03-06.md",
-    "2026-03-05.md",
-    "2026-02-25.md",
     "My Data.base",
-    "Books/Read List/Read List.md",
-    "Product/competitors/Loopio/SmartScan.md",
-    "Product/User roles/Project/Project Watcher.md",
     "Learning/ARCA AI/ECHS Data Info",
     "ECHS Data Info",
     "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",

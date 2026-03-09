@@ -1,16 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Project admin settings",
+      "path": "Product/Settings/Project admin settings.md"
+    },
+    {
+      "basename": "RFP training PRD",
+      "path": "Product/Go-no-go/RFP training PRD.md"
+    },
+    {
+      "basename": "2026-02-24",
+      "path": "Not a trash/2026-02-24.md"
+    },
+    {
+      "basename": "2026-01-29 UAT with Vipin",
+      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
+    },
+    {
+      "basename": "Routine",
+      "path": "Daily/Routine.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Go-no-go/RFP training.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Teams",
+      "path": "Product/Settings/Teams/Teams.md"
+    },
+    {
+      "basename": "Assigning to the section",
+      "path": "Product/Settings/Teams/Assigning to the section.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Settings/Teams/Untitled.md"
+    },
+    {
+      "basename": "Instructions from the Document",
+      "path": "Product/Instructions/Instructions from the Document.md"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
     },
     {
       "basename": "Audit Report R126022026",
       "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
     },
     {
       "basename": "How to Create a project",
@@ -67,26 +115,6 @@
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "2026-02-24",
-      "path": "Not a trash/2026-02-24.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Go-no-go/RFP training.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "RFP training PRD",
-      "path": "Product/Go-no-go/RFP training PRD.md"
     },
     {
       "basename": "A little life",
@@ -171,34 +199,6 @@
     {
       "basename": "Multicolumn , check box",
       "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "Answers",
-      "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "AI Readiness Score (ARS)",
-      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
-    },
-    {
-      "basename": "AI can have auto tags for the Past Projects which is created",
-      "path": "Product/Go-no-go/AI can have auto tags for the Past Projects which is created.md"
-    },
-    {
-      "basename": "Domain Diagram Questions",
-      "path": "Product/Go-no-go/Domain Diagram Questions.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
     }
   ],
   "omittedPaths": [],
