@@ -13,7 +13,6 @@ share_updated: 2026-03-09T01:04:02+05:30
 ---
 
 ## 1. Overview
-
 The SparrowGenie ROI Calculator helps potential buyers quickly estimate the financial impact of using SparrowGenie based on their RFP activity. It collects three simple inputs and produces a clear, CFO-friendly ROI estimate with a verdict classification.
 
 The calculator serves two goals: demonstrate ROI to prospects on the website, and generate a downloadable PDF report that a sales champion can forward to decision-makers (Directors, VPs, CFOs) to justify the purchase.
