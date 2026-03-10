@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product to dev process/PRD Feature Name.md",
+                "file": "Product/Audit report/Audit Report R126022026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PRD Feature Name"
+              "title": "Outline of Audit Report R126022026"
             }
           }
         ]
@@ -132,7 +132,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product to dev process/PRD Feature Name.md",
+                "file": "Product/Audit report/Audit Report R126022026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -147,7 +147,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PRD Feature Name"
+              "title": "Audit Report R126022026"
             }
           },
           {
@@ -278,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product to dev process/PRD Feature Name.md",
+                "file": "Product/Audit report/Audit Report R126022026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +288,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PRD Feature Name"
+              "title": "Backlinks for Audit Report R126022026"
             }
           },
           {
@@ -297,12 +297,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product to dev process/PRD Feature Name.md",
+                "file": "Product/Audit report/Audit Report R126022026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PRD Feature Name"
+              "title": "Outgoing links from Audit Report R126022026"
             }
           },
           {
@@ -409,13 +409,29 @@
       "markwhen:Create new Markwhen file": false,
       "companion:Toggle completion": false,
       "smart-composer:Open smart composer": false,
-      "iconic:Open rulebook": false
+      "iconic:Open rulebook": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false
     }
   },
   "active": "47bb7cdf42c466b6",
   "lastOpenFiles": [
-    "Product/Templates/Product Spec Template 2.md",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views",
+    "TaskNotes",
     "Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product Spec Template 2.md",
     "Product to dev process/Doc Workflow Two-Doc System.md",
     "Product to dev process",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
@@ -434,9 +450,6 @@
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
-    "Markwhen",
-    "Untitled.sheet",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions.md",
@@ -445,12 +458,7 @@
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Audit report/Audit report.md",
-    "Not a trash/2026-02-24.md",
-    "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
-    "Product/Meeting Notes",
-    "Product/ROI Calculator/sparrowgenie-roi-final.html",
-    "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
