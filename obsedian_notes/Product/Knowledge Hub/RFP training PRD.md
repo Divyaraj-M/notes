@@ -226,9 +226,8 @@ Acceptance criteria:
 
 ### Leading Indicators (days to weeks)
 
-|                                             |                                                          |                                                                              |
-| ------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Metric**                                  | **Target**                                               | **Measurement**                                                              |
+| ------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | BM25 or any other search retrieval hit rate | ≥50% of questions get at least one match                 | % of questions with ≥1 BM25 or any other search result, measured per project |
 | Verbatim answer acceptance rate             | ≥30% of suggested answers accepted without edit          | % of BM25 or any other search suggestions accepted as-is                     |
 | Content parsing success rate                | ≥80% of uploaded RFPs cleanly parsed into Q&A            | % of onboarding uploads that produce structured Q&A                          |
@@ -236,14 +235,13 @@ Acceptance criteria:
 
 ### Lagging Indicators (weeks to months)
 
-|   |   |   |
-|---|---|---|
-|Metric|Target|Measurement|
-|Proposal creation time reduction|↓ 30–50% vs baseline|Average time per proposal, before vs after|
-|SME requests per proposal|↓ 25–40%|Count of SME assignments per project|
-|% of projects contributing back to KH|≥60% within 90 days|Projects with ≥1 Q&A trained back / total completed projects|
-|Average reuse count per KH entry|≥3 within 6 months|Mean reuse count across all active KH entries|
-|Redundant retraining rate|<10%|Entries retrained with <30% actual change|
+| Metric                                | Target               | Measurement                                                  |
+| ------------------------------------- | -------------------- | ------------------------------------------------------------ |
+| Proposal creation time reduction      | ↓ 30–50% vs baseline | Average time per proposal, before vs after                   |
+| SME requests per proposal             | ↓ 25–40%             | Count of SME assignments per project                         |
+| % of projects contributing back to KH | ≥60% within 90 days  | Projects with ≥1 Q&A trained back / total completed projects |
+| Average reuse count per KH entry      | ≥3 within 6 months   | Mean reuse count across all active KH entries                |
+| Redundant retraining rate             | <10%                 | Entries retrained with <30% actual change                    |
 
 Evaluation cadence: Leading indicators reviewed weekly for first 4 weeks post-launch. Lagging indicators reviewed at 30, 60, 90 days.
 
@@ -308,29 +306,27 @@ Evaluation cadence: Leading indicators reviewed weekly for first 4 weeks post-la
 
 Each KH entry stores:
 
-|   |   |
-|---|---|
-|Field|Description|
-|Question Text|Original RFP question|
-|Response Text|Final human-reviewed answer|
-|Source|Onboarding upload (flagged) or Project ID|
-|Author|Contributor who reviewed/authored|
-|Tags|Topic/category classification (open issue)|
-|Reuse Count|Times reused across projects|
-|Provenance Chain|List of project IDs where answer was used/derived from|
-|Change Percentage|Last computed delta vs previous version|
-|Last Retrained Date|Timestamp of most recent retraining|
-|Status|Active / Stale / Archived|
+| Field               | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| Question Text       | Original RFP question                                  |
+| Response Text       | Final human-reviewed answer                            |
+| Source              | Onboarding upload (flagged) or Project ID              |
+| Author              | Contributor who reviewed/authored                      |
+| Tags                | Topic/category classification (open issue)             |
+| Reuse Count         | Times reused across projects                           |
+| Provenance Chain    | List of project IDs where answer was used/derived from |
+| Change Percentage   | Last computed delta vs previous version                |
+| Last Retrained Date | Timestamp of most recent retraining                    |
+| Status              | Active / Stale / Archived                              |
 
 ### Role-Based Permissions
 
-|   |   |
-|---|---|
-|Role|Permission|
-|Proposal Owner|Create projects, select KHs, review answers, trigger feedback to KH|
-|SME|Answer questions within projects, review AI suggestions|
-|Knowledge Admin|Manage KH entries, resolve segregation conflicts, archive stale entries|
-|Viewer|Read-only access to KH entries|
+| Role            | Permission                                                              |
+| --------------- | ----------------------------------------------------------------------- |
+| Proposal Owner  | Create projects, select KHs, review answers, trigger feedback to KH     |
+| SME             | Answer questions within projects, review AI suggestions                 |
+| Knowledge Admin | Manage KH entries, resolve segregation conflicts, archive stale entries |
+| Viewer          | Read-only access to KH entries                                          |
 
 ### AI Behavior (BM25 or any other search Retrieval Agent)
 
@@ -357,18 +353,17 @@ Engineering components: BM25 or any other search search algorithm, Content parse
 
 ## Open Ended Questions
 
-|   |   |   |
-|---|---|---|
-|Question|Owner|Blocking?|
-|How should tags be assigned to Q&A pairs? Auto-generated, user-defined, or inherited from KH taxonomy?|Design + Engineering|Non-blocking (manual tagging for v1)|
-|How do we parse Q&A from varied RFP formats (PDF, Word, unstructured)?|Engineering|Blocking|
-|What is the max limit for alternatives shown during retrieval? BM25 or any other search score threshold or fixed cap?|Product + Engineering|Non-blocking|
-|KH usage patterns are unpredictable — how do we handle hubs that grow unevenly or stay sparse?|Product|Non-blocking|
-|Should the 30–40% change threshold be configurable per KH or global?|Product + Engineering|Non-blocking|
-|When BM25 or any other search can't segregate confidently, route to all candidate hubs or hold for manual?|Product|Non-blocking|
-|Should win/loss data influence KH entry ranking?|Product|Non-blocking (v2 consideration)|
-|How to handle conflicting answers — same question, different answers in two hubs?|Product + Design|Non-blocking|
-|Staleness policy — auto-archive KH entries with zero reuse after N months?|Product|Non-blocking|
+| Question                                                                                                              | Owner                 | Blocking?                            |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------ |
+| How should tags be assigned to Q&A pairs? Auto-generated, user-defined, or inherited from KH taxonomy?                | Design + Engineering  | Non-blocking (manual tagging for v1) |
+| How do we parse Q&A from varied RFP formats (PDF, Word, unstructured)?                                                | Engineering           | Blocking                             |
+| What is the max limit for alternatives shown during retrieval? BM25 or any other search score threshold or fixed cap? | Product + Engineering | Non-blocking                         |
+| KH usage patterns are unpredictable — how do we handle hubs that grow unevenly or stay sparse?                        | Product               | Non-blocking                         |
+| Should the 30–40% change threshold be configurable per KH or global?                                                  | Product + Engineering | Non-blocking                         |
+| When BM25 or any other search can't segregate confidently, route to all candidate hubs or hold for manual?            | Product               | Non-blocking                         |
+| Should win/loss data influence KH entry ranking?                                                                      | Product               | Non-blocking (v2 consideration)      |
+| How to handle conflicting answers — same question, different answers in two hubs?                                     | Product + Design      | Non-blocking                         |
+| Staleness policy — auto-archive KH entries with zero reuse after N months?                                            | Product               | Non-blocking                         |
 
 ---
 

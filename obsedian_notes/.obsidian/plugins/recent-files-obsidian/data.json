@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "RFP training",
-      "path": "Product/Knowledge Hub/RFP training.md"
+      "basename": "Markwhen 3-10-2026 13.07.27",
+      "path": "Markwhen/Markwhen 3-10-2026 13.07.27.mw"
+    },
+    {
+      "basename": "Markwhen 3-10-2026 13.11.53",
+      "path": "Markwhen/Markwhen 3-10-2026 13.11.53.mw"
     },
     {
       "basename": "RFP training PRD",
       "path": "Product/Knowledge Hub/RFP training PRD.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Knowledge Hub/RFP training.md"
     },
     {
       "basename": "Training back Projects into Knowledge Hubs",
@@ -27,10 +39,6 @@
     {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "AI Readiness Score (ARS)",
@@ -191,14 +199,6 @@
     {
       "basename": "Steps to create it",
       "path": "second_stream_revenue/Google_sheets/Steps to create it.md"
-    },
-    {
-      "basename": "Sales",
-      "path": "second_stream_revenue/Google_sheets/Sales.md"
-    },
-    {
-      "basename": "ERP",
-      "path": "second_stream_revenue/Google_sheets/ERP.md"
     }
   ],
   "omittedPaths": [],

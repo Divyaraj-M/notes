@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "3c14d4a3bb72f958",
-        "type": "tabs",
-        "dimension": 18.98355754857997,
-        "children": [
-          {
-            "id": "3467a05e464d694e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of RFP training"
-            }
-          }
-        ]
-      },
-      {
         "id": "84383c7037b66d82",
         "type": "tabs",
-        "dimension": 81.01644245142003,
         "children": [
           {
             "id": "5b0d246781265cda",
@@ -82,12 +59,24 @@
             "id": "2a417d041e6b38a5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markwhen-view",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md"
+                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "markwhen-icon",
+              "title": "Markwhen 3-10-2026 13.07.27.mw"
             }
           }
         ],
@@ -121,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:new_feature/dossiers/proposal_templates",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -194,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
+                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +193,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFP training"
+              "title": "Backlinks for Markwhen 3-10-2026 13.07.27"
             }
           },
           {
@@ -213,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
+                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFP training"
+              "title": "Outgoing links from Markwhen 3-10-2026 13.07.27"
             }
           },
           {
@@ -240,8 +229,24 @@
               "icon": "highlighter",
               "title": "HiNote"
             }
+          },
+          {
+            "id": "1825c3febfed2774",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Markwhen 3-10-2026 13.07.27"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -303,6 +308,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -322,21 +328,24 @@
       "callout-manager:Insert Callout": false,
       "markwhen:Create new Markwhen file": false,
       "companion:Toggle completion": false,
-      "smart-composer:Open smart composer": false,
-      "omnisearch:Omnisearch": false
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "2a417d041e6b38a5",
   "lastOpenFiles": [
+    "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
+    "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
     "Product/Knowledge Hub/RFP training PRD.md",
+    "Markwhen",
+    "Untitled.sheet",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Knowledge Hub/RFP training.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions.md",
     "Product/Instructions/Instructions logic.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Knowledge Hub/RFP training.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Audit report/Audit report.md",
@@ -355,16 +364,11 @@
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Demo/Demo.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
-    "Product/Meeting Notes/9.mar.2026 - Stand up.md",
     "Product/Meeting Notes",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/Go-no-go/Untitled.base",
-    "My Data.base",
-    "Learning/ARCA AI/ECHS Data Info",
-    "ECHS Data Info",
-    "Product/ROI Calculator/SparrowGenie_ROI_Calculator_PRD.md.tmp.5.1772920566781",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
