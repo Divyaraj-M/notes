@@ -1,10 +1,9 @@
 ---
-cover:
 author: Divyaraj Murugan
 published:
 type: PRD
 product: SparrowGenie
-feature: 
+feature:
 status: Draft
 priority: High
 owner: Divyaraj Murugan
