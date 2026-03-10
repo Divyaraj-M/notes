@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFP training"
+              "title": "Outline of Training back Projects into Knowledge Hubs"
             }
           }
         ]
@@ -58,12 +58,24 @@
             "id": "08c91b4c8c220aac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md"
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "Training back Projects into Knowledge Hubs"
             }
           }
         ],
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFP training"
+              "title": "Backlinks for Training back Projects into Knowledge Hubs"
             }
           },
           {
@@ -189,12 +201,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training.md",
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFP training"
+              "title": "Outgoing links from Training back Projects into Knowledge Hubs"
             }
           },
           {
@@ -306,9 +318,9 @@
   },
   "active": "08c91b4c8c220aac",
   "lastOpenFiles": [
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/RFP training.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Markwhen/parrowGenie.mw",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
