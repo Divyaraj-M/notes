@@ -2,7 +2,6 @@
 
 # [Chat With the Document  ](https://notebooklm.google.com/notebook/9b549400-b710-4480-98b0-ddbdf5c4f745)
 
-
 ## Problem Statement
 
 SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
@@ -10,9 +9,7 @@ SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answ
 Today in SparrowGenie:
 
 - During onboarding (yet to be implemented), users upload past RFPs with answers into a Knowledge Hub, but this is a one-time seed — it never refreshes.
-    
 - Inside projects, proposal teams answer and review hundreds of RFP questions with high accuracy, but those human-validated answers stay locked inside the project.
-    
 - When a project spans multiple knowledge hubs, there is no mechanism to route answered questions back to the correct hub.
     
 
@@ -21,18 +18,14 @@ Who is experiencing this? Anyone involved in answering or reusing RFP responses 
 Where does the deal slow down?
 
 - Every new RFP starts from scratch because prior answers are trapped in old projects.
-    
 - SMEs get pulled in repeatedly for the same questions.
-    
 - AI suggestions stagnate because the KH never grows beyond the initial onboarding upload.
     
 
 Consequences if not solved:
 
 - Knowledge Hubs remain static and degrade in relevance.
-    
 - Proposal teams continue duplicating effort across projects.
-    
 - AI answer quality plateaus instead of compounding with every completed RFP.
     
 
@@ -47,23 +40,19 @@ SparrowGenie already has knowledge hubs and project-level execution. The missing
 How it helps sales teams close faster:
 
 - Faster proposals: BM25 or any other searching agent instantly retrieves verbatim answers from KH, reducing manual effort from the first question.
-    
 - Better AI responses: KH grows with human-reviewed, project-level answers — the most authoritative data source available.
-    
 - Consistent positioning: Answers centralized per KH, eliminating divergent responses across projects.
-    
 - Institutional memory: Reuse tracking and change detection ensure high-value answers persist and evolve, surviving employee turnover.
     
 
 Expected business impact:
 
-|   |   |
-|---|---|
-|Metric|Expected Change|
-|Project and Proposal creation time|↓ 30–50%|
-|SME involvement|↓ 25–40%|
-|Response consistency|↑|
-|AI answer quality|↑ (compounds with each completed project)|
+| Metric                             | Expected Change                           |
+| ---------------------------------- | ----------------------------------------- |
+| Project and Proposal creation time | ↓ 30–50%                                  |
+| SME involvement                    | ↓ 25–40%                                  |
+| Response consistency               | ↑                                         |
+| AI answer quality                  | ↑ (compounds with each completed project) |
 
 ---
 
@@ -72,13 +61,9 @@ Expected business impact:
 ## Goals
 
 1. Reduce project answer time by 30–50% by surfacing verbatim answers and ranked alternatives from KH via BM25 or any other search retrieval.
-    
 2. Close the knowledge feedback loop ensure ≥60% of completed projects contribute reviewed Q&A pairs back to the appropriate Knowledge Hub(s) within 90 days of launch.
-    
 3. Prevent knowledge staleness — track reuse count and apply change detection so KH entries stay current without redundant retraining.
-    
 4. Reduce SME burden by 25–40% — by reusing prior answers instead of pulling SMEs into every new proposal.
-    
 5. Establish data authority hierarchy — project-reviewed answers weighted higher than onboarding uploads; source clearly tagged in UI and ranking.
     
 
@@ -87,11 +72,8 @@ Expected business impact:
 ## Non-Goals
 
 1. External content ingestion — no import from sources outside SparrowGenie (e.g., Confluence, SharePoint). (Rationale: adds integration complexity; internal loop is the priority.)
-    
 2. Cross-organization KH sharing — KH data stays within the org boundary. (Rationale: security/privacy concerns, low demand in v1.)
-    
 3. Fully automated ingestion without human review — project-level human validation remains the quality gate. (Rationale: accuracy trust must be established before removing the human.)
-    
 4. Auto-tagging and taxonomy management — tagging is a known open issue but will not block v1 launch. (Rationale: needs design research; manual tagging is acceptable for now.)
     
 
@@ -175,11 +157,8 @@ When a project spans multiple knowledge hubs, BM25 or any other search identifie
 Acceptance criteria:
 
 - BM25 or any other search assigns each Q&A to the hub with highest keyword similarity
-    
 - If BM25 or any other search cannot confidently assign equal scores across hubs, question is flagged for manual routing
-    
 - Knowledge Admin can resolve flagged segregation conflicts
-    
 - Single-hub projects bypass segregation entirely
     
 
@@ -187,9 +166,7 @@ Acceptance criteria:
 When a new RFP is uploaded and the user selects a KH, BM25 or any other search agent, it searches existing Q&A by keyword:
 
 - Single match → verbatim answer
-    
 - Multiple matches → best match as primary + ranked alternatives with confidence 
-    
 - No match → AI generates answer from broader KH context
     
 
@@ -198,13 +175,9 @@ Acceptance criteria:
 - BM25 or any other search search executes when RFP questions are loaded against selected KH(s)
     
 - Single match: verbatim answer auto-populated in the answer field
-    
 - Multiple matches: primary answer shown with alternatives listed below, each with confidence score
-    
 - User can select any alternative to replace the primary suggestion
-    
 - No match: AI attempts to generate an answer from KH context
-    
 - The source should be visible on each suggestion
     
 
@@ -214,11 +187,8 @@ Each KH entry maintains a usage stat tracking how many times it has been reused 
 Acceptance criteria:
 
 - Reuse count increments each time an answer is used in a new project
-    
 - Reuse count is visible on the KH entry detail view
-    
 - BM25 or any other search ranking factors in reuse count (higher = more trusted)
-    
 - Track the metadata of the questions for the auto-suggesting authors and reviewers.
     
 
@@ -228,9 +198,7 @@ When a reused question returns from a completed project, an algorithm measures h
 Acceptance criteria:
 
 - The system computes change percentage between returning answer and existing KH entry
-    
 - If change >40%: entry is retrained with the new answer, old version preserved in history
-    
 - If change <40%: provenance recorded (source project ID), reuse count incremented, no retraining
     
 
@@ -242,13 +210,9 @@ Acceptance criteria:
 ### Future Considerations (P2)
 
 - Track the metadata of the questions for the auto-suggesting authors and reviewers.
-    
 - Semantic / Vector Search Upgrade — embedding-based search for higher retrieval and segregation accuracy.
-    
 - Response Quality Scoring — ranking by reuse frequency, win rate, SME rating, and change detection history.
-    
 - "Match score" on BM25 or any other search matches — numeric score displayed alongside alternatives to help users pick the best answer.
-    
 - Cross-Hub Answer Linking — auto-detect and link related answers across KHs for consistency.
     
 
@@ -381,31 +345,22 @@ Engineering components: BM25 or any other search search algorithm, Content parse
 Early adoption signals:
 
 - Number of KH entries created (onboarding + project feedback)
-    
 - % of completed projects contributing answers back to KH
-    
 - Single-hub vs multi-hub project distribution
     
 
 Quality signals:
 
 - BM25 or any other search retrieval hit rate
-    
 - Verbatim answer acceptance rate
-    
 - Alternative selection rate (v2 picks over primary)
-    
 - Content parsing success rate
     
 
 Failure/drop-off signals:
-
 - Segregation conflicts flagged for manual routing
-    
 - Redundant retraining rate (entries retrained with <30% change)
-    
 - Stale entries (zero reuse over extended period)
-    
 - Parsing failures on uploaded RFPs
     
 
@@ -416,30 +371,18 @@ Failure/drop-off signals:
 Key assumptions:
 
 - Users will upload meaningful past RFPs during onboarding.
-    
 - Proposal teams will complete and review all questions before submission.
-    
 - BM25 or any other search keyword matching provides sufficient accuracy for v1.
-    
 - 30–40% change threshold is a reasonable retraining heuristic.
-    
 - Single-hub projects are the common case; multi-hub segregation is the exception.
     
 
 Dependencies:
 
 - Knowledge Hub architecture (extended schema)
-    
 - BM25 or any other search search engine integration
-    
 - Content parsing pipeline (RFP → structured Q&A)
-    
 - Change detection algorithm
-    
 - Project completion event pipeline
-    
 - Onboarding flow update (upload prompt with source tagging)
     
-
-  
-**
