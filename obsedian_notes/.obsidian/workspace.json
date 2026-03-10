@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0aba31c510fdf4bb",
+        "id": "7007713c3f3f8948",
         "type": "tabs",
-        "dimension": 33.408071748878925,
+        "dimension": 20.216606498194945,
         "children": [
           {
-            "id": "2463471c55a9248d",
+            "id": "1825c3febfed2774",
             "type": "leaf",
             "state": {
-              "type": "markwhen-view",
+              "type": "outline",
               "state": {
-                "file": "Markwhen/parrowGenie.mw",
+                "file": "Product/Knowledge Hub/RFP training.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of RFP training"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dc14723fdfc4e338",
+        "type": "tabs",
+        "dimension": 79.78339350180505,
+        "children": [
+          {
+            "id": "470c1bc790e7a4fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +50,12 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "icon": "markwhen-icon",
-              "title": "parrowGenie.mw"
+              "icon": "lucide-file",
+              "title": "Training back Projects into Knowledge Hubs"
             }
-          }
-        ]
-      },
-      {
-        "id": "84383c7037b66d82",
-        "type": "tabs",
-        "dimension": 66.59192825112108,
-        "children": [
+          },
           {
-            "id": "5b0d246781265cda",
+            "id": "08c91b4c8c220aac",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -51,7 +66,8 @@
               "title": "RFP training"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markwhen/parrowGenie.mw",
+                "file": "Product/Knowledge Hub/RFP training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +180,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for parrowGenie"
+              "title": "Backlinks for RFP training"
             }
           },
           {
@@ -173,12 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markwhen/parrowGenie.mw",
+                "file": "Product/Knowledge Hub/RFP training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from parrowGenie"
+              "title": "Outgoing links from RFP training"
             }
           },
           {
@@ -199,21 +215,6 @@
               "state": {},
               "icon": "highlighter",
               "title": "HiNote"
-            }
-          },
-          {
-            "id": "1825c3febfed2774",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Markwhen/parrowGenie.mw",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of parrowGenie"
             }
           }
         ],
@@ -303,16 +304,16 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "2463471c55a9248d",
+  "active": "08c91b4c8c220aac",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Markwhen/parrowGenie.mw",
-    "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training PRD.md",
+    "Product/Knowledge Hub/RFP training.md",
+    "Markwhen/parrowGenie.mw",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
     "Markwhen",
     "Untitled.sheet",
-    "Product/Knowledge Hub/RFP training.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions.md",
