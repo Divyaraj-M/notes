@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+    },
+    {
       "basename": "Audit Report R126022026",
       "path": "Product/Audit report/Audit Report R126022026.md"
     },
     {
       "basename": "PRD Feature Name",
-      "path": "Product to dev process/PRD Feature Name.md"
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
     },
     {
       "basename": "Product Spec Template 2",
       "path": "Product/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product to dev process/Doc Workflow Two-Doc System.md"
     },
     {
       "basename": "Proposal Conversion Flow",
@@ -179,10 +183,6 @@
     {
       "basename": "A little life",
       "path": "Books/A little life.md"
-    },
-    {
-      "basename": "My Data",
-      "path": "My Data.base"
     },
     {
       "basename": "Read List",

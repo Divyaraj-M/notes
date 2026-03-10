@@ -6,5 +6,5 @@
   "textFontFamily": "",
   "nativeMenus": true,
   "baseFontSizeAction": false,
-  "showRibbon": true
+  "showRibbon": false
 }

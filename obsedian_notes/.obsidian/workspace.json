@@ -6,7 +6,7 @@
       {
         "id": "7007713c3f3f8948",
         "type": "tabs",
-        "dimension": 20.216606498194945,
+        "dimension": 23.436196830692243,
         "children": [
           {
             "id": "1825c3febfed2774",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
+                "file": "My Data.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Audit Report R126022026"
+              "title": "Outline of My Data"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "dc14723fdfc4e338",
         "type": "tabs",
-        "dimension": 79.78339350180505,
+        "dimension": 76.56380316930776,
         "children": [
           {
             "id": "470c1bc790e7a4fe",
@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product to dev process/Doc Workflow Two-Doc System.md",
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -130,24 +130,13 @@
             "id": "47bb7cdf42c466b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "My Data.base",
+                "viewName": "My Books"
               },
-              "icon": "lucide-file",
-              "title": "Audit Report R126022026"
+              "icon": "lucide-table",
+              "title": "My Data"
             }
           },
           {
@@ -187,7 +176,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 46.01873536299766,
+        "dimension": 45.43103448275862,
         "children": [
           {
             "id": "681d9fb88f64f790",
@@ -205,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "templates",
+                "query": "[\"rating\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -243,12 +232,12 @@
         "currentTab": 3
       },
       {
-        "id": "17f6136d64ebd0ab",
+        "id": "2baa8948f242f9e0",
         "type": "tabs",
-        "dimension": 53.98126463700235,
+        "dimension": 54.568965517241374,
         "children": [
           {
-            "id": "c9b44404818f969a",
+            "id": "6482f0009bd1ce8d",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -261,7 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.4981155395508
+    "width": 310.5066738128662
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -270,7 +259,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 41.255605381165914,
+        "dimension": 56.4625850340136,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -278,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
+                "file": "My Data.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +277,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Audit Report R126022026"
+              "title": "Backlinks for My Data"
             }
           },
           {
@@ -297,12 +286,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Audit report/Audit Report R126022026.md",
+                "file": "My Data.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Audit Report R126022026"
+              "title": "Outgoing links from My Data"
             }
           },
           {
@@ -331,7 +320,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 25,
+        "dimension": 17.006802721088434,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -366,12 +355,12 @@
         "currentTab": 1
       },
       {
-        "id": "366a65c0c7469ae1",
+        "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 33.744394618834086,
+        "dimension": 26.53061224489796,
         "children": [
           {
-            "id": "425971f19e417a0e",
+            "id": "a88c9309692d7ea4",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -417,11 +406,16 @@
       "tasknotes:Open kanban board": false,
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "47bb7cdf42c466b6",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Audit report/Audit Report R126022026.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
@@ -430,10 +424,9 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product Spec Template 2.md",
-    "Product to dev process/Doc Workflow Two-Doc System.md",
-    "Product to dev process",
+    "Product/Templates/Product to dev process",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Table View/Insert from QnA.md",
     "Product/Help Article/Mapping.md",
@@ -444,7 +437,6 @@
     "Product/Projects/Table View/Save to QnA.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Settings/Project admin settings.md",
-    "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training PRD.md",

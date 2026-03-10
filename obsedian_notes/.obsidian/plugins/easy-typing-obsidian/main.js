@@ -1403,10 +1403,11 @@ var locale = {
       fieldTrigger: "Match Before Cursor",
       fieldTriggerSelectKey: "Trigger Key",
       fieldTriggerRight: "Match After Cursor",
+      hintTriggerEscape: "\\\\: backslash, \\n: newline, \\t: tab",
       fieldReplacement: "Replacement",
       fieldReplacementDescSelectKey: "${SEL}: selected text, ${0:${SEL}}: select the text.",
       fieldReplacementDescInputDelete: "[[0]]: 0th left capture group, [[R1]]: 1st right capture group.",
-      fieldIsRegex: "Is Regex",
+      fieldIsRegex: "Use Regex Matching",
       fieldTriggerMode: "Trigger Mode",
       fieldScope: "Scope",
       fieldScopeLanguage: "Language (optional)",
@@ -1415,10 +1416,14 @@ var locale = {
       fieldDescription: "Description",
       buttonSave: "Save",
       invalidRegex: "Invalid regex",
-      fieldIsFunction: "Is Function",
+      fieldIsFunction: "Use Function Replacement",
       functionHintInputDelete: "Args: leftMatches (string[]), rightMatches (string[]). Return string or undefined to skip.",
       functionHintSelectKey: "Args: selectionText (string), key (string). Return string or undefined to skip.",
-      functionPlaceholder: "// Example:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0: cursor position, $1/$2: Tab jump positions, ${1:text}: jump and select text.",
+      functionPlaceholder: "// Example:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "Match",
+      groupReplacement: "Replacement",
+      groupOther: "Other"
     },
     ruleType: {
       input: "Input",
@@ -1696,10 +1701,11 @@ var locale2 = {
       fieldTrigger: "\u5149\u6807\u524D\u5339\u914D",
       fieldTriggerSelectKey: "\u89E6\u53D1\u6309\u952E\u5B57\u7B26",
       fieldTriggerRight: "\u5149\u6807\u540E\u5339\u914D",
+      hintTriggerEscape: "\\\\\uFF1A\u53CD\u659C\u6760\uFF0C\\n\uFF1A\u6362\u884C\uFF0C\\t\uFF1A\u5236\u8868\u7B26",
       fieldReplacement: "\u66FF\u6362\u5185\u5BB9",
       fieldReplacementDescSelectKey: "${SEL}\uFF1A\u9009\u4E2D\u7684\u6587\u672C\u5185\u5BB9\uFF0C${0:${SEL}}\uFF1A\u5149\u6807\u7EE7\u7EED\u9009\u4E2D\u3002",
       fieldReplacementDescInputDelete: "[[0]]\uFF1A\u5DE6\u4FA7\u7B2C0\u6355\u83B7\u7EC4\uFF0C[[R1]]\uFF1A\u53F3\u4FA7\u7B2C1\u6355\u83B7\u7EC4\u3002",
-      fieldIsRegex: "\u6B63\u5219\u8868\u8FBE\u5F0F",
+      fieldIsRegex: "\u4F7F\u7528\u6B63\u5219\u8868\u8FBE\u5F0F\u5339\u914D",
       fieldTriggerMode: "\u89E6\u53D1\u65B9\u5F0F",
       fieldScope: "\u4F5C\u7528\u57DF",
       fieldScopeLanguage: "\u8BED\u8A00\uFF08\u53EF\u9009\uFF09",
@@ -1708,10 +1714,14 @@ var locale2 = {
       fieldDescription: "\u63CF\u8FF0",
       buttonSave: "\u4FDD\u5B58",
       invalidRegex: "\u6B63\u5219\u8868\u8FBE\u5F0F\u65E0\u6548",
-      fieldIsFunction: "\u51FD\u6570\u5F0F\u66FF\u6362",
+      fieldIsFunction: "\u4F7F\u7528\u51FD\u6570\u5F0F\u66FF\u6362",
       functionHintInputDelete: "\u53C2\u6570\uFF1AleftMatches (string[])\u3001rightMatches (string[])\u3002\u8FD4\u56DE\u5B57\u7B26\u4E32\u6216 undefined \u8DF3\u8FC7\u3002",
       functionHintSelectKey: "\u53C2\u6570\uFF1AselectionText (string)\u3001key (string)\u3002\u8FD4\u56DE\u5B57\u7B26\u4E32\u6216 undefined \u8DF3\u8FC7\u3002",
-      functionPlaceholder: "// \u793A\u4F8B\uFF1A\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0\uFF1A\u5149\u6807\u4F4D\u7F6E\uFF0C$1/$2\uFF1A\u6309 Tab \u8DF3\u8F6C\u7684\u4F4D\u7F6E\uFF0C${1:text}\uFF1A\u8DF3\u8F6C\u5E76\u9009\u4E2D text\u3002",
+      functionPlaceholder: "// \u793A\u4F8B\uFF1A\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "\u5339\u914D\u6761\u4EF6",
+      groupReplacement: "\u66FF\u6362",
+      groupOther: "\u5176\u4ED6"
     },
     ruleType: {
       input: "\u8F93\u5165",
@@ -1993,10 +2003,11 @@ var locale3 = {
       fieldTrigger: "\u6E38\u6A19\u524D\u5339\u914D",
       fieldTriggerSelectKey: "\u89F8\u767C\u6309\u9375\u5B57\u7B26",
       fieldTriggerRight: "\u6E38\u6A19\u5F8C\u5339\u914D",
+      hintTriggerEscape: "\\\\\uFF1A\u53CD\u659C\u7DDA\uFF0C\\n\uFF1A\u63DB\u884C\uFF0C\\t\uFF1A\u5236\u8868\u7B26",
       fieldReplacement: "\u66FF\u63DB\u5167\u5BB9",
       fieldReplacementDescSelectKey: "${SEL}\uFF1A\u9078\u4E2D\u7684\u6587\u672C\u5167\u5BB9\uFF0C${0:${SEL}}\uFF1A\u6E38\u6A19\u7E7C\u7E8C\u9078\u4E2D\u3002",
       fieldReplacementDescInputDelete: "[[0]]\uFF1A\u5DE6\u5074\u7B2C0\u6355\u7372\u7D44\uFF0C[[R1]]\uFF1A\u53F3\u5074\u7B2C1\u6355\u7372\u7D44\u3002",
-      fieldIsRegex: "\u6B63\u5247\u8868\u9054\u5F0F",
+      fieldIsRegex: "\u4F7F\u7528\u6B63\u5247\u8868\u9054\u5F0F\u5339\u914D",
       fieldTriggerMode: "\u89F8\u767C\u65B9\u5F0F",
       fieldScope: "\u4F5C\u7528\u57DF",
       fieldScopeLanguage: "\u8A9E\u8A00\uFF08\u53EF\u9078\uFF09",
@@ -2005,10 +2016,14 @@ var locale3 = {
       fieldDescription: "\u63CF\u8FF0",
       buttonSave: "\u5132\u5B58",
       invalidRegex: "\u6B63\u898F\u8868\u9054\u5F0F\u7121\u6548",
-      fieldIsFunction: "\u51FD\u5F0F\u66FF\u63DB",
+      fieldIsFunction: "\u4F7F\u7528\u51FD\u5F0F\u66FF\u63DB",
       functionHintInputDelete: "\u53C3\u6578\uFF1AleftMatches (string[])\u3001rightMatches (string[])\u3002\u56DE\u50B3\u5B57\u4E32\u6216 undefined \u8DF3\u904E\u3002",
       functionHintSelectKey: "\u53C3\u6578\uFF1AselectionText (string)\u3001key (string)\u3002\u56DE\u50B3\u5B57\u4E32\u6216 undefined \u8DF3\u904E\u3002",
-      functionPlaceholder: "// \u7BC4\u4F8B\uFF1A\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0\uFF1A\u6E38\u6A19\u4F4D\u7F6E\uFF0C$1/$2\uFF1A\u6309 Tab \u8DF3\u8F49\u7684\u4F4D\u7F6E\uFF0C${1:text}\uFF1A\u8DF3\u8F49\u4E26\u9078\u4E2D text\u3002",
+      functionPlaceholder: "// \u7BC4\u4F8B\uFF1A\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "\u5339\u914D\u689D\u4EF6",
+      groupReplacement: "\u66FF\u63DB",
+      groupOther: "\u5176\u4ED6"
     },
     ruleType: {
       input: "\u8F38\u5165",
@@ -2290,10 +2305,11 @@ var locale4 = {
       fieldTrigger: "\u0421\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u043F\u0435\u0440\u0435\u0434 \u043A\u0443\u0440\u0441\u043E\u0440\u043E\u043C",
       fieldTriggerSelectKey: "\u0421\u0438\u043C\u0432\u043E\u043B \u0437\u0430\u043F\u0443\u0441\u043A\u0430",
       fieldTriggerRight: "\u0421\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u043F\u043E\u0441\u043B\u0435 \u043A\u0443\u0440\u0441\u043E\u0440\u0430",
+      hintTriggerEscape: "\\\\: \u043E\u0431\u0440\u0430\u0442\u043D\u0430\u044F \u043A\u043E\u0441\u0430\u044F \u0447\u0435\u0440\u0442\u0430, \\n: \u043D\u043E\u0432\u0430\u044F \u0441\u0442\u0440\u043E\u043A\u0430, \\t: \u0442\u0430\u0431\u0443\u043B\u044F\u0446\u0438\u044F",
       fieldReplacement: "\u0417\u0430\u043C\u0435\u043D\u0430",
       fieldReplacementDescSelectKey: "${SEL}: \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442, ${0:${SEL}}: \u043E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0442\u0435\u043A\u0441\u0442 \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u044B\u043C.",
       fieldReplacementDescInputDelete: "[[0]]: 0-\u044F \u043B\u0435\u0432\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0430 \u0437\u0430\u0445\u0432\u0430\u0442\u0430, [[R1]]: 1-\u044F \u043F\u0440\u0430\u0432\u0430\u044F \u0433\u0440\u0443\u043F\u043F\u0430 \u0437\u0430\u0445\u0432\u0430\u0442\u0430.",
-      fieldIsRegex: "\u0420\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u043E\u0435 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
+      fieldIsRegex: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u0435 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044F",
       fieldTriggerMode: "\u0420\u0435\u0436\u0438\u043C \u0437\u0430\u043F\u0443\u0441\u043A\u0430",
       fieldScope: "\u041E\u0431\u043B\u0430\u0441\u0442\u044C",
       fieldScopeLanguage: "\u042F\u0437\u044B\u043A (\u043D\u0435\u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E)",
@@ -2302,10 +2318,14 @@ var locale4 = {
       fieldDescription: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435",
       buttonSave: "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C",
       invalidRegex: "\u041D\u0435\u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043C\u043E\u0435 \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u043E\u0435 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0435",
-      fieldIsFunction: "\u0424\u0443\u043D\u043A\u0446\u0438\u044F",
+      fieldIsFunction: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u0444\u0443\u043D\u043A\u0446\u0438\u044E \u0437\u0430\u043C\u0435\u043D\u044B",
       functionHintInputDelete: "\u0410\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B: leftMatches (string[]), rightMatches (string[]). \u0412\u0435\u0440\u043D\u0438\u0442\u0435 \u0441\u0442\u0440\u043E\u043A\u0443 \u0438\u043B\u0438 undefined \u0434\u043B\u044F \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430.",
       functionHintSelectKey: "\u0410\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u044B: selectionText (string), key (string). \u0412\u0435\u0440\u043D\u0438\u0442\u0435 \u0441\u0442\u0440\u043E\u043A\u0443 \u0438\u043B\u0438 undefined \u0434\u043B\u044F \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430.",
-      functionPlaceholder: "// \u041F\u0440\u0438\u043C\u0435\u0440:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0: \u043F\u043E\u0437\u0438\u0446\u0438\u044F \u043A\u0443\u0440\u0441\u043E\u0440\u0430, $1/$2: \u043F\u043E\u0437\u0438\u0446\u0438\u0438 \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 Tab, ${1:text}: \u043F\u0435\u0440\u0435\u0439\u0442\u0438 \u0438 \u0432\u044B\u0434\u0435\u043B\u0438\u0442\u044C text.",
+      functionPlaceholder: "// \u041F\u0440\u0438\u043C\u0435\u0440:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "\u0423\u0441\u043B\u043E\u0432\u0438\u044F \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044F",
+      groupReplacement: "\u0417\u0430\u043C\u0435\u043D\u0430",
+      groupOther: "\u041F\u0440\u043E\u0447\u0435\u0435"
     },
     ruleType: {
       input: "\u0412\u0432\u043E\u0434",
@@ -2473,6 +2493,10 @@ var locale5 = {
       name: "\u5165\u529B\u6642\u306E\u81EA\u52D5\u66F8\u5F0F\u8A2D\u5B9A",
       desc: "\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\u7DE8\u96C6\u4E2D\u306E\u30C6\u30AD\u30B9\u30C8\u81EA\u52D5\u66F8\u5F0F\u8A2D\u5B9A\u3092\u5207\u308A\u66FF\u3048\u307E\u3059\u3002"
     },
+    autoFormatPaste: {
+      name: "\u8CBC\u308A\u4ED8\u3051\u6642\u306E\u81EA\u52D5\u66F8\u5F0F\u8A2D\u5B9A",
+      desc: "\u8CBC\u308A\u4ED8\u3051\u6642\u306E\u81EA\u52D5\u66F8\u5F0F\u8A2D\u5B9A\u3092\u5207\u308A\u66FF\u3048\u307E\u3059\u3002CMD/CTRL+SHIFT+V\uFF08\u66F8\u5F0F\u306A\u3057\u8CBC\u308A\u4ED8\u3051\uFF09\u3067\u306F\u30C8\u30EA\u30AC\u30FC\u3055\u308C\u307E\u305B\u3093\u3002"
+    },
     languagePairSpacing: {
       name: "\u8A00\u8A9E\u30DA\u30A2\u30B9\u30DA\u30FC\u30B7\u30F3\u30B0",
       desc: "\u7570\u306A\u308B\u8A00\u8A9E/\u8A18\u53F7\u30DA\u30A2\u9593\u306E\u81EA\u52D5\u30B9\u30DA\u30FC\u30B7\u30F3\u30B0\u30EB\u30FC\u30EB\u3092\u5B9A\u7FA9\u3057\u307E\u3059\u3002"
@@ -2579,10 +2603,11 @@ var locale5 = {
       fieldTrigger: "\u30AB\u30FC\u30BD\u30EB\u524D\u30DE\u30C3\u30C1",
       fieldTriggerSelectKey: "\u30C8\u30EA\u30AC\u30FC\u30AD\u30FC",
       fieldTriggerRight: "\u30AB\u30FC\u30BD\u30EB\u5F8C\u30DE\u30C3\u30C1",
+      hintTriggerEscape: "\\\\: \u30D0\u30C3\u30AF\u30B9\u30E9\u30C3\u30B7\u30E5\u3001\\n: \u6539\u884C\u3001\\t: \u30BF\u30D6",
       fieldReplacement: "\u7F6E\u63DB\u5185\u5BB9",
       fieldReplacementDescSelectKey: "${SEL}: \u9078\u629E\u3055\u308C\u305F\u30C6\u30AD\u30B9\u30C8\u3001${0:${SEL}}: \u30C6\u30AD\u30B9\u30C8\u3092\u9078\u629E\u3057\u307E\u3059\u3002",
       fieldReplacementDescInputDelete: "[[0]]: \u5DE6\u5074\u7B2C0\u30AD\u30E3\u30D7\u30C1\u30E3\u30B0\u30EB\u30FC\u30D7\u3001[[R1]]: \u53F3\u5074\u7B2C1\u30AD\u30E3\u30D7\u30C1\u30E3\u30B0\u30EB\u30FC\u30D7\u3002",
-      fieldIsRegex: "\u6B63\u898F\u8868\u73FE",
+      fieldIsRegex: "\u6B63\u898F\u8868\u73FE\u3067\u30DE\u30C3\u30C1",
       fieldTriggerMode: "\u30C8\u30EA\u30AC\u30FC\u65B9\u5F0F",
       fieldScope: "\u30B9\u30B3\u30FC\u30D7",
       fieldScopeLanguage: "\u8A00\u8A9E\uFF08\u4EFB\u610F\uFF09",
@@ -2591,10 +2616,14 @@ var locale5 = {
       fieldDescription: "\u8AAC\u660E",
       buttonSave: "\u4FDD\u5B58",
       invalidRegex: "\u7121\u52B9\u306A\u6B63\u898F\u8868\u73FE",
-      fieldIsFunction: "\u95A2\u6570\u7F6E\u63DB",
+      fieldIsFunction: "\u95A2\u6570\u3067\u7F6E\u63DB",
       functionHintInputDelete: "\u5F15\u6570: leftMatches (string[])\u3001rightMatches (string[])\u3002\u6587\u5B57\u5217\u307E\u305F\u306F undefined \u3092\u8FD4\u3057\u3066\u30B9\u30AD\u30C3\u30D7\u3002",
       functionHintSelectKey: "\u5F15\u6570: selectionText (string)\u3001key (string)\u3002\u6587\u5B57\u5217\u307E\u305F\u306F undefined \u3092\u8FD4\u3057\u3066\u30B9\u30AD\u30C3\u30D7\u3002",
-      functionPlaceholder: "// \u4F8B:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0: \u30AB\u30FC\u30BD\u30EB\u4F4D\u7F6E\u3001$1/$2: Tab \u30B8\u30E3\u30F3\u30D7\u4F4D\u7F6E\u3001${1:text}: \u30B8\u30E3\u30F3\u30D7\u3057\u3066 text \u3092\u9078\u629E\u3002",
+      functionPlaceholder: "// \u4F8B:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "\u30DE\u30C3\u30C1\u6761\u4EF6",
+      groupReplacement: "\u7F6E\u63DB",
+      groupOther: "\u305D\u306E\u4ED6"
     },
     ruleType: {
       input: "\u5165\u529B",
@@ -2762,6 +2791,10 @@ var locale6 = {
       name: "\uC785\uB825 \uC2DC \uC790\uB3D9 \uC11C\uC2DD",
       desc: "\uBB38\uC11C \uD3B8\uC9D1 \uC911 \uD14D\uC2A4\uD2B8 \uC790\uB3D9 \uC11C\uC2DD \uC9C0\uC815\uC744 \uCF1C\uAC70\uB098 \uB055\uB2C8\uB2E4."
     },
+    autoFormatPaste: {
+      name: "\uBD99\uC5EC\uB123\uAE30 \uC2DC \uC790\uB3D9 \uC11C\uC2DD",
+      desc: "\uBD99\uC5EC\uB123\uAE30 \uC2DC \uC790\uB3D9 \uC11C\uC2DD\uC744 \uCF1C\uAC70\uB098 \uB055\uB2C8\uB2E4. CMD/CTRL+SHIFT+V(\uC11C\uC2DD \uC5C6\uC774 \uBD99\uC5EC\uB123\uAE30)\uC5D0\uC11C\uB294 \uC791\uB3D9\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+    },
     languagePairSpacing: {
       name: "\uC5B8\uC5B4 \uC30D \uAC04\uACA9",
       desc: "\uC11C\uB85C \uB2E4\uB978 \uC5B8\uC5B4/\uAE30\uD638 \uC30D \uC0AC\uC774\uC758 \uC790\uB3D9 \uAC04\uACA9 \uADDC\uCE59\uC744 \uC815\uC758\uD569\uB2C8\uB2E4."
@@ -2868,10 +2901,11 @@ var locale6 = {
       fieldTrigger: "\uCEE4\uC11C \uC55E \uB9E4\uCE6D",
       fieldTriggerSelectKey: "\uD2B8\uB9AC\uAC70 \uD0A4",
       fieldTriggerRight: "\uCEE4\uC11C \uB4A4 \uB9E4\uCE6D",
+      hintTriggerEscape: "\\\\: \uBC31\uC2AC\uB798\uC2DC, \\n: \uC904\uBC14\uAFC8, \\t: \uD0ED",
       fieldReplacement: "\uB300\uCCB4 \uB0B4\uC6A9",
       fieldReplacementDescSelectKey: "${SEL}: \uC120\uD0DD\uB41C \uD14D\uC2A4\uD2B8, ${0:${SEL}}: \uD14D\uC2A4\uD2B8\uB97C \uC120\uD0DD\uD569\uB2C8\uB2E4.",
       fieldReplacementDescInputDelete: "[[0]]: \uC67C\uCABD 0\uBC88\uC9F8 \uCEA1\uCC98 \uADF8\uB8F9, [[R1]]: \uC624\uB978\uCABD 1\uBC88\uC9F8 \uCEA1\uCC98 \uADF8\uB8F9.",
-      fieldIsRegex: "\uC815\uADDC\uC2DD \uC0AC\uC6A9",
+      fieldIsRegex: "\uC815\uADDC\uC2DD\uC73C\uB85C \uB9E4\uCE6D",
       fieldTriggerMode: "\uD2B8\uB9AC\uAC70 \uBC29\uC2DD",
       fieldScope: "\uBC94\uC704",
       fieldScopeLanguage: "\uC5B8\uC5B4 (\uC120\uD0DD\uC0AC\uD56D)",
@@ -2880,10 +2914,14 @@ var locale6 = {
       fieldDescription: "\uC124\uBA85",
       buttonSave: "\uC800\uC7A5",
       invalidRegex: "\uC720\uD6A8\uD558\uC9C0 \uC54A\uC740 \uC815\uADDC\uC2DD",
-      fieldIsFunction: "\uD568\uC218 \uB300\uCCB4",
+      fieldIsFunction: "\uD568\uC218\uB85C \uB300\uCCB4",
       functionHintInputDelete: "\uC778\uC218: leftMatches (string[]), rightMatches (string[]). \uBB38\uC790\uC5F4 \uB610\uB294 undefined\uB97C \uBC18\uD658\uD558\uC5EC \uAC74\uB108\uB701\uB2C8\uB2E4.",
       functionHintSelectKey: "\uC778\uC218: selectionText (string), key (string). \uBB38\uC790\uC5F4 \uB610\uB294 undefined\uB97C \uBC18\uD658\uD558\uC5EC \uAC74\uB108\uB701\uB2C8\uB2E4.",
-      functionPlaceholder: "// \uC608\uC2DC:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';"
+      hintTabstop: "$0: \uCEE4\uC11C \uC704\uCE58, $1/$2: Tab \uC810\uD504 \uC704\uCE58, ${1:text}: \uC810\uD504 \uD6C4 text \uC120\uD0DD.",
+      functionPlaceholder: "// \uC608\uC2DC:\nconst d = new Date();\nreturn d.toISOString().slice(0,10) + '$0';",
+      groupMatch: "\uB9E4\uCE6D \uC870\uAC74",
+      groupReplacement: "\uB300\uCCB4",
+      groupOther: "\uAE30\uD0C0"
     },
     ruleType: {
       input: "\uC785\uB825",
@@ -3103,7 +3141,7 @@ var RuleEngine = class {
     return null;
   }
   static escapeText(text) {
-    return text.replace(/\n/g, "\\n").replace(/\t/g, "\\t").replace(/\r/g, "\\r");
+    return text.replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/\t/g, "\\t").replace(/\r/g, "\\r");
   }
   static unescapeText(text) {
     let result = "";
@@ -3833,44 +3871,100 @@ var RuleEditModal = class extends import_obsidian4.Modal {
   }
   onOpen() {
     const { contentEl } = this;
+    this.modalEl.addClass("et-rule-edit-modal");
     const locale7 = getLocale();
     const title = this.mode === "create" ? locale7.settings.ruleEditModal.addTitle : locale7.settings.ruleEditModal.editTitle;
     contentEl.createEl("h2", { text: title });
-    new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldType).addDropdown((dropdown) => {
-      dropdown.addOption("input" /* Input */, locale7.dropdownOptions.ruleTypeInput);
-      dropdown.addOption("delete" /* Delete */, locale7.dropdownOptions.ruleTypeDelete);
-      dropdown.addOption("selectKey" /* SelectKey */, locale7.dropdownOptions.ruleTypeSelectKey);
-      dropdown.setValue(this.ruleType);
-      dropdown.onChange((v) => {
-        this.ruleType = v;
+    const pillBar = contentEl.createDiv({ cls: "et-pill-bar" });
+    pillBar.createEl("span", {
+      cls: "et-pill-group-label",
+      text: locale7.settings.ruleEditModal.fieldType
+    });
+    const typePills = [
+      { value: "input" /* Input */, label: locale7.dropdownOptions.ruleTypeInput },
+      { value: "delete" /* Delete */, label: locale7.dropdownOptions.ruleTypeDelete },
+      { value: "selectKey" /* SelectKey */, label: locale7.dropdownOptions.ruleTypeSelectKey }
+    ];
+    for (const { value, label } of typePills) {
+      const pill = pillBar.createEl("button", {
+        cls: `et-pill${this.ruleType === value ? " et-pill-active" : ""}`,
+        text: label
+      });
+      pill.dataset.pillGroup = "ruleType";
+      pill.dataset.pillValue = value;
+      pill.addEventListener("click", () => {
+        this.ruleType = value;
         this.refreshVisibility(contentEl);
       });
+    }
+    const triggerModeLabel = pillBar.createEl("span", {
+      cls: "et-pill-group-label",
+      text: locale7.settings.ruleEditModal.fieldTriggerMode
     });
-    const triggerModeSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldTriggerMode).addDropdown((dropdown) => {
-      dropdown.addOption("auto" /* Auto */, locale7.dropdownOptions.triggerModeAuto);
-      dropdown.addOption("tab" /* Tab */, locale7.dropdownOptions.triggerModeTab);
-      dropdown.setValue(this.triggerMode);
-      dropdown.onChange((v) => this.triggerMode = v);
+    triggerModeLabel.dataset.field = "triggerModeLabel";
+    const triggerModePills = [
+      { value: "auto" /* Auto */, label: locale7.dropdownOptions.triggerModeAuto },
+      { value: "tab" /* Tab */, label: locale7.dropdownOptions.triggerModeTab }
+    ];
+    for (const { value, label } of triggerModePills) {
+      const pill = pillBar.createEl("button", {
+        cls: `et-pill${this.triggerMode === value ? " et-pill-active" : ""}`,
+        text: label
+      });
+      pill.dataset.pillGroup = "triggerMode";
+      pill.dataset.pillValue = value;
+      pill.addEventListener("click", () => {
+        this.triggerMode = value;
+        this.refreshVisibility(contentEl);
+      });
+    }
+    const matchGroup = contentEl.createDiv({ cls: "et-modal-group" });
+    const matchHeader = matchGroup.createDiv({ cls: "et-modal-group-header" });
+    matchHeader.createEl("span", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupMatch });
+    const regexChip = matchHeader.createEl("button", {
+      cls: `et-pill-chip${this.isRegex ? " et-pill-chip-active" : ""}`,
+      text: locale7.settings.ruleEditModal.fieldIsRegex
     });
-    triggerModeSetting.settingEl.dataset.field = "triggerMode";
-    const triggerSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldTrigger).addText((text) => {
+    regexChip.dataset.field = "isRegexChip";
+    regexChip.addEventListener("click", () => {
+      this.isRegex = !this.isRegex;
+      this.refreshVisibility(contentEl);
+    });
+    const triggerSetting = new import_obsidian4.Setting(matchGroup).setName(locale7.settings.ruleEditModal.fieldTrigger).setDesc("").addText((text) => {
       text.setValue(this.trigger);
       text.onChange((v) => this.trigger = v);
     });
     triggerSetting.settingEl.dataset.field = "trigger";
-    const triggerRightSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldTriggerRight).addText((text) => {
+    const triggerRightSetting = new import_obsidian4.Setting(matchGroup).setName(locale7.settings.ruleEditModal.fieldTriggerRight).addText((text) => {
       text.setValue(this.triggerRight);
       text.onChange((v) => this.triggerRight = v);
     });
     triggerRightSetting.settingEl.dataset.field = "triggerRight";
-    const replacementSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldReplacement).setDesc("");
-    replacementSetting.settingEl.setAttribute("style", "display: grid; grid-template-columns: 1fr;");
+    const replacementGroup = contentEl.createDiv({ cls: "et-modal-group" });
+    const replHeader = replacementGroup.createDiv({ cls: "et-modal-group-header" });
+    replHeader.createEl("span", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupReplacement });
+    const fnChip = replHeader.createEl("button", {
+      cls: `et-pill-chip${this.isFunction ? " et-pill-chip-active" : ""}`,
+      text: locale7.settings.ruleEditModal.fieldIsFunction
+    });
+    fnChip.dataset.field = "isFunctionChip";
+    fnChip.addEventListener("click", () => {
+      this.isFunction = !this.isFunction;
+      this.refreshVisibility(contentEl);
+    });
+    const replacementSetting = new import_obsidian4.Setting(replacementGroup).setName(locale7.settings.ruleEditModal.fieldReplacement);
+    replacementSetting.settingEl.addClass("et-replacement-setting");
     replacementSetting.settingEl.dataset.field = "replacementTextarea";
     const replacementArea = new import_obsidian4.TextAreaComponent(replacementSetting.controlEl);
-    replacementArea.inputEl.setAttribute("style", "width: 100%; min-height: 60px;");
+    replacementArea.inputEl.addClass("et-replacement-textarea");
     replacementArea.setValue(this.replacement);
     replacementArea.onChange((v) => this.replacement = v);
-    const editorWrapper = contentEl.createDiv();
+    const replacementHint = replacementGroup.createEl("div", {
+      cls: "setting-item-description et-replacement-hint",
+      text: ""
+    });
+    replacementHint.dataset.field = "replacementHint";
+    const editorWrapper = replacementGroup.createDiv();
     editorWrapper.dataset.field = "fnEditor";
     editorWrapper.createEl("label", {
       text: locale7.settings.ruleEditModal.fieldReplacement,
@@ -3880,29 +3974,14 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     this.cmEditor = createJSEditorView(editorContainer, this.replacement, (value) => {
       this.replacement = value;
     });
-    const fnHint = contentEl.createEl("div", {
-      cls: "setting-item-description",
+    const fnHint = replacementGroup.createEl("div", {
+      cls: "setting-item-description et-fn-hint",
       text: ""
     });
     fnHint.dataset.field = "fnHint";
-    fnHint.style.marginTop = "6px";
-    fnHint.style.marginBottom = "10px";
-    fnHint.style.fontSize = "12px";
-    fnHint.style.fontFamily = "var(--font-monospace)";
-    const isRegexSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldIsRegex).addToggle((toggle) => {
-      toggle.setValue(this.isRegex);
-      toggle.onChange((v) => this.isRegex = v);
-    });
-    isRegexSetting.settingEl.dataset.field = "isRegex";
-    const fnSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldIsFunction).addToggle((toggle) => {
-      toggle.setValue(this.isFunction);
-      toggle.onChange((v) => {
-        this.isFunction = v;
-        this.refreshVisibility(contentEl);
-      });
-    });
-    fnSetting.settingEl.dataset.field = "isFunction";
-    new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldScope).addDropdown((dropdown) => {
+    const otherGroup = contentEl.createDiv({ cls: "et-modal-group" });
+    otherGroup.createEl("div", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupOther });
+    new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldScope).addDropdown((dropdown) => {
       dropdown.addOption("all" /* All */, locale7.dropdownOptions.scopeAll);
       dropdown.addOption("text" /* Text */, locale7.dropdownOptions.scopeText);
       dropdown.addOption("formula" /* Formula */, locale7.dropdownOptions.scopeFormula);
@@ -3913,13 +3992,13 @@ var RuleEditModal = class extends import_obsidian4.Modal {
         this.refreshVisibility(contentEl);
       });
     });
-    const scopeLangSetting = new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldScopeLanguage).addText((text) => {
+    const scopeLangSetting = new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldScopeLanguage).addText((text) => {
       text.setPlaceholder("e.g. python, javascript");
       text.setValue(this.scopeLanguage);
       text.onChange((v) => this.scopeLanguage = v.trim().toLowerCase());
     });
     scopeLangSetting.settingEl.dataset.field = "scopeLanguage";
-    new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldPriority).setDesc(locale7.settings.ruleEditModal.fieldPriorityDesc).addText((text) => {
+    new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldPriority).setDesc(locale7.settings.ruleEditModal.fieldPriorityDesc).addText((text) => {
       text.setValue(String(this.priority));
       text.inputEl.type = "number";
       text.onChange((v) => {
@@ -3928,7 +4007,7 @@ var RuleEditModal = class extends import_obsidian4.Modal {
           this.priority = n;
       });
     });
-    new import_obsidian4.Setting(contentEl).setName(locale7.settings.ruleEditModal.fieldDescription).addText((text) => {
+    new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldDescription).addText((text) => {
       text.setValue(this.description);
       text.onChange((v) => this.description = v);
     });
@@ -3950,7 +4029,7 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     const locale7 = getLocale();
     const triggerRightEl = contentEl.querySelector('[data-field="triggerRight"]');
     if (triggerRightEl) {
-      triggerRightEl.style.display = this.ruleType === "selectKey" /* SelectKey */ ? "none" : "";
+      triggerRightEl.classList.toggle("et-hidden", this.ruleType === "selectKey" /* SelectKey */);
     }
     const triggerEl = contentEl.querySelector('[data-field="trigger"]');
     if (triggerEl) {
@@ -3958,33 +4037,63 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       if (nameEl) {
         nameEl.textContent = this.ruleType === "selectKey" /* SelectKey */ ? locale7.settings.ruleEditModal.fieldTriggerSelectKey : locale7.settings.ruleEditModal.fieldTrigger;
       }
-    }
-    const isRegexEl = contentEl.querySelector('[data-field="isRegex"]');
-    if (isRegexEl) {
-      isRegexEl.style.display = this.ruleType === "selectKey" /* SelectKey */ ? "none" : "";
-    }
-    const triggerModeEl = contentEl.querySelector('[data-field="triggerMode"]');
-    if (triggerModeEl) {
-      triggerModeEl.style.display = this.ruleType === "input" /* Input */ ? "" : "none";
-    }
-    const replacementSettingEl = contentEl.querySelector('[data-field="replacementTextarea"]');
-    if (replacementSettingEl) {
-      const descEl = replacementSettingEl.querySelector(".setting-item-description");
+      const descEl = triggerEl.querySelector(".setting-item-description");
       if (descEl) {
-        descEl.textContent = this.ruleType === "selectKey" /* SelectKey */ ? locale7.settings.ruleEditModal.fieldReplacementDescSelectKey : locale7.settings.ruleEditModal.fieldReplacementDescInputDelete;
+        descEl.textContent = this.isRegex ? "" : locale7.settings.ruleEditModal.hintTriggerEscape;
       }
+    }
+    contentEl.querySelectorAll('[data-pill-group="ruleType"]').forEach((el) => {
+      el.classList.toggle("et-pill-active", el.dataset.pillValue === this.ruleType);
+    });
+    const triggerModeLabel = contentEl.querySelector('[data-field="triggerModeLabel"]');
+    if (triggerModeLabel)
+      triggerModeLabel.classList.toggle("et-hidden", this.ruleType !== "input" /* Input */);
+    contentEl.querySelectorAll('[data-pill-group="triggerMode"]').forEach((el) => {
+      const htmlEl = el;
+      htmlEl.classList.toggle("et-hidden", this.ruleType !== "input" /* Input */);
+      htmlEl.classList.toggle("et-pill-active", htmlEl.dataset.pillValue === this.triggerMode);
+    });
+    const regexChip = contentEl.querySelector('[data-field="isRegexChip"]');
+    if (regexChip) {
+      regexChip.classList.toggle("et-pill-chip-active", this.isRegex);
+      regexChip.classList.toggle("et-hidden", this.ruleType === "selectKey" /* SelectKey */);
+    }
+    const fnChip = contentEl.querySelector('[data-field="isFunctionChip"]');
+    if (fnChip)
+      fnChip.classList.toggle("et-pill-chip-active", this.isFunction);
+    const replacementHintEl = contentEl.querySelector('[data-field="replacementHint"]');
+    if (replacementHintEl) {
+      const parts = [];
+      if (this.ruleType === "selectKey" /* SelectKey */) {
+        parts.push(locale7.settings.ruleEditModal.fieldReplacementDescSelectKey);
+      } else if (this.isRegex) {
+        parts.push(locale7.settings.ruleEditModal.fieldReplacementDescInputDelete);
+      }
+      parts.push(locale7.settings.ruleEditModal.hintTabstop);
+      replacementHintEl.textContent = parts.join("\n");
+      replacementHintEl.classList.toggle("et-hidden", this.isFunction);
     }
     const fnHint = contentEl.querySelector('[data-field="fnHint"]');
     if (fnHint) {
-      fnHint.style.display = this.isFunction ? "" : "none";
-      fnHint.textContent = this.ruleType === "selectKey" /* SelectKey */ ? locale7.settings.ruleEditModal.functionHintSelectKey : locale7.settings.ruleEditModal.functionHintInputDelete;
+      fnHint.classList.toggle("et-hidden", !this.isFunction);
+      const parts = [];
+      if (this.ruleType === "selectKey" /* SelectKey */) {
+        parts.push(locale7.settings.ruleEditModal.functionHintSelectKey);
+      } else {
+        parts.push(locale7.settings.ruleEditModal.functionHintInputDelete);
+        if (this.isRegex) {
+          parts.push(locale7.settings.ruleEditModal.fieldReplacementDescInputDelete);
+        }
+      }
+      parts.push(locale7.settings.ruleEditModal.hintTabstop);
+      fnHint.textContent = parts.join("\n");
     }
     const textareaSetting = contentEl.querySelector('[data-field="replacementTextarea"]');
     const editorSetting = contentEl.querySelector('[data-field="fnEditor"]');
     if (textareaSetting && editorSetting) {
+      textareaSetting.classList.toggle("et-hidden", this.isFunction);
+      editorSetting.classList.toggle("et-hidden", !this.isFunction);
       if (this.isFunction) {
-        textareaSetting.style.display = "none";
-        editorSetting.style.display = "";
         if (this.cmEditor) {
           const current = this.cmEditor.state.doc.toString();
           if (current !== this.replacement) {
@@ -3994,8 +4103,6 @@ var RuleEditModal = class extends import_obsidian4.Modal {
           }
         }
       } else {
-        textareaSetting.style.display = "";
-        editorSetting.style.display = "none";
         const textarea = textareaSetting.querySelector("textarea");
         if (textarea && textarea.value !== this.replacement) {
           textarea.value = this.replacement;
@@ -4004,7 +4111,7 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     }
     const scopeLangEl = contentEl.querySelector('[data-field="scopeLanguage"]');
     if (scopeLangEl) {
-      scopeLangEl.style.display = this.ruleScope === "code" /* Code */ ? "" : "none";
+      scopeLangEl.classList.toggle("et-hidden", this.ruleScope !== "code" /* Code */);
     }
   }
   buildSimpleRule() {
@@ -6267,6 +6374,15 @@ function goNewLineAfterCurLine(ctx, view) {
   const selection = state.selection.main;
   const line = doc.lineAt(selection.head);
   const lineContent = line.text;
+  if (/^\s*$/.test(lineContent)) {
+    const insertStr2 = "\n";
+    view.dispatch({
+      changes: { from: line.to, insert: insertStr2 },
+      selection: { anchor: line.to + insertStr2.length },
+      userEvent: "EasyTyping.goNewLineAfterCurLine"
+    });
+    return true;
+  }
   const listMatch = lineContent.match(/^(\s*)([-*+] \[.\]|[-*+]|\d+\.)\s/);
   const quoteMatch = lineContent.match(/^(\s*)(>+ ?)/);
   let changes;
@@ -6284,8 +6400,36 @@ function goNewLineAfterCurLine(ctx, view) {
   } else if (quoteMatch) {
     prefix = quoteMatch[1] + quoteMatch[2];
   }
-  changes = [{ from: line.to, insert: "\n" + prefix }];
-  newCursorPos = line.to + 1 + prefix.length;
+  const strictLineBreaks = ctx.app.vault.config.strictLineBreaks || false;
+  let useStrictBreak = ctx.settings.StrictModeEnter && strictLineBreaks;
+  if (useStrictBreak) {
+    const lineType = getPosLineType2(state, line.from);
+    if (lineType === "codeblock" /* codeblock */ || lineType === "formula" /* formula */ || lineType === "code_block_start" /* code_start */ || lineType === "code_block_end" /* code_end */) {
+      useStrictBreak = false;
+    }
+  }
+  let insertStr;
+  if (!useStrictBreak) {
+    insertStr = "\n" + prefix;
+  } else {
+    const mode = ctx.settings.StrictLineMode;
+    const spaceStr = lineContent.endsWith("  ") ? "" : "  ";
+    if (listMatch) {
+      insertStr = "\n" + prefix;
+    } else if (mode === "two_space" /* TwoSpace */) {
+      insertStr = spaceStr + "\n" + prefix;
+    } else if (quoteMatch) {
+      if (mode === "enter_twice" /* EnterTwice */) {
+        insertStr = "\n" + prefix + "\n" + prefix;
+      } else {
+        insertStr = spaceStr + "\n" + prefix;
+      }
+    } else {
+      insertStr = "\n\n" + prefix;
+    }
+  }
+  changes = [{ from: line.to, insert: insertStr }];
+  newCursorPos = line.to + insertStr.length;
   const tr = state.update({
     changes,
     selection: { anchor: newCursorPos, head: newCursorPos },
@@ -6554,7 +6698,7 @@ function tryProcessInput(ctx, update, changeFrom, cursorPos, changeType = "input
     return false;
   if (lineType !== "text" /* text */)
     return false;
-  if (changeType.contains("paste"))
+  if (changeType.contains("paste") || ctx.pasteDetected)
     return false;
   const insertedStr = update.view.state.doc.sliceString(changeFrom, cursorPos);
   const changes = ctx.Formater.formatLineOfDoc(update.state, ctx.settings, changeFrom, cursorPos, insertedStr);
@@ -6633,8 +6777,13 @@ function createViewUpdatePlugin(ctx) {
       if (tryProcessInput(ctx, update, fromB, cursor.anchor, changeType))
         return;
     }
+    const isPaste = changeType.contains("paste") || ctx.pasteDetected;
+    const isFormattedPaste = isPaste && !ctx.plainPasteInProgress;
+    const isPlainPaste = isPaste && ctx.plainPasteInProgress;
+    if (isPlainPaste)
+      ctx.plainPasteInProgress = false;
     const isExcludeFile = isCurrentFileExclude(ctx);
-    if (ctx.settings.AutoFormat && ctx.settings.AutoFormatPaste && !isExcludeFile && changeType === "paste" && !import_obsidian8.Platform.isIosApp) {
+    if (ctx.settings.AutoFormat && ctx.settings.AutoFormatPaste && !isExcludeFile && isFormattedPaste && !import_obsidian8.Platform.isIosApp) {
       let updateLineStart = update.state.doc.lineAt(fromB).number;
       let updateLineEnd = update.state.doc.lineAt(toB).number;
       if (updateLineStart === updateLineEnd && getPosLineType(update.view.state, toB) === "text" /* text */) {
@@ -6668,6 +6817,7 @@ function createViewUpdatePlugin(ctx) {
 var EasyTypingPlugin = class extends import_obsidian9.Plugin {
   constructor() {
     super(...arguments);
+    this.pasteTimerId = null;
     this.getDefaultIndentChar = () => {
       let useTab = this.app.vault.config.useTab === void 0 ? true : false;
       let tabSize = this.app.vault.config.tabSize == void 0 ? 4 : this.app.vault.config.tabSize;
@@ -6721,6 +6871,8 @@ var EasyTypingPlugin = class extends import_obsidian9.Plugin {
     this.compose_need_handle = false;
     this.Formater = new LineFormater();
     this.onFormatArticle = false;
+    this.plainPasteInProgress = false;
+    this.pasteDetected = false;
     if (!this.settings) {
       console.error("EasyTyping: Settings not loaded properly, using defaults");
       this.settings = Object.assign({}, DEFAULT_SETTINGS);
@@ -6732,6 +6884,20 @@ var EasyTypingPlugin = class extends import_obsidian9.Plugin {
       tabstopsStateField.extension
     ]);
     this.registerEditorExtension(import_state6.Prec.highest(import_view5.keymap.of([
+      {
+        key: "Mod-v",
+        run: () => {
+          this.markPaste(false);
+          return false;
+        }
+      },
+      {
+        key: "Mod-Shift-v",
+        run: () => {
+          this.markPaste(true);
+          return false;
+        }
+      },
       {
         key: "Tab",
         run: (v) => handleTabDown(this, v)
@@ -6858,7 +7024,21 @@ var EasyTypingPlugin = class extends import_obsidian9.Plugin {
     console.log("Easy Typing Plugin loaded.");
   }
   onunload() {
+    if (this.pasteTimerId)
+      clearTimeout(this.pasteTimerId);
     console.log("Easy Typing Plugin unloaded.");
+  }
+  markPaste(plain) {
+    this.pasteDetected = true;
+    if (plain)
+      this.plainPasteInProgress = true;
+    if (this.pasteTimerId)
+      clearTimeout(this.pasteTimerId);
+    this.pasteTimerId = setTimeout(() => {
+      this.pasteDetected = false;
+      this.plainPasteInProgress = false;
+      this.pasteTimerId = null;
+    }, 500);
   }
   isCurrentFileExclude() {
     return isCurrentFileExclude(this);
