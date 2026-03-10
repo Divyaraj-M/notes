@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Templates/Product Spec Template 2.md",
+                "file": "Product to dev process/PRD Feature Name.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Spec Template 2"
+              "title": "Outline of PRD Feature Name"
             }
           }
         ]
@@ -103,6 +103,54 @@
             }
           },
           {
+            "id": "2c694319c5c55553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product to dev process/Doc Workflow Two-Doc System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Doc Workflow Two-Doc System"
+            }
+          },
+          {
+            "id": "47bb7cdf42c466b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product to dev process/PRD Feature Name.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRD Feature Name"
+            }
+          },
+          {
             "id": "f7e4e9f533000055",
             "type": "leaf",
             "state": {
@@ -127,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -230,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Templates/Product Spec Template 2.md",
+                "file": "Product to dev process/PRD Feature Name.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +288,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Product Spec Template 2"
+              "title": "Backlinks for PRD Feature Name"
             }
           },
           {
@@ -249,12 +297,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Templates/Product Spec Template 2.md",
+                "file": "Product to dev process/PRD Feature Name.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Product Spec Template 2"
+              "title": "Outgoing links from PRD Feature Name"
             }
           },
           {
@@ -364,12 +412,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "a9a52a8d4b7ad54b",
+  "active": "47bb7cdf42c466b6",
   "lastOpenFiles": [
+    "Product/Templates/Product Spec Template 2.md",
+    "Product to dev process/PRD Feature Name.md",
+    "Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product to dev process",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Table View/Insert from QnA.md",
     "Product/Help Article/Mapping.md",
-    "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Book shelf.md",
     "Product/Templates/Template - PM.md",
     "Markwhen/SparrowGenie.mw.mw",
@@ -395,14 +446,11 @@
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Audit report/Audit report.md",
     "Not a trash/2026-02-24.md",
-    "Not a trash/2026-01-29 UAT with Vipin.md",
-    "Daily/Routine.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Product/Meeting Notes",
     "Product/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/ROI Calculator/sparrowgenie-email-template.html",
-    "Product/Go-no-go/Untitled.base",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Learning/Domain design Diagram/Cardinality.jpg",
