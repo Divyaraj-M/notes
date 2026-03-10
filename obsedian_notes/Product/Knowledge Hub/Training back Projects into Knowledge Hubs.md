@@ -265,29 +265,28 @@ Acceptance criteria:
 
 Each KH entry stores:
 
-|   |   |
-|---|---|
-|Field|Description|
-|Question Text|Original RFP question|
-|Response Text|Final human-reviewed answer|
-|Source|Onboarding upload (flagged) or Project ID|
-|Author|Contributor who reviewed/authored|
-|Tags|Topic/category classification (open issue)|
-|Reuse Count|Times reused across projects|
-|Provenance Chain|List of project IDs where answer was used/derived from|
-|Change Percentage|Last computed delta vs previous version|
-|Last Retrained Date|Timestamp of most recent retraining|
-|Status|Active / Stale / Archived|
+
+| Field               | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| Question Text       | Original RFP question                                  |
+| Response Text       | Final human-reviewed answer                            |
+| Source              | Onboarding upload (flagged) or Project ID              |
+| Author              | Contributor who reviewed/authored                      |
+| Tags                | Topic/category classification (open issue)             |
+| Reuse Count         | Times reused across projects                           |
+| Provenance Chain    | List of project IDs where answer was used/derived from |
+| Change Percentage   | Last computed delta vs previous version                |
+| Last Retrained Date | Timestamp of most recent retraining                    |
+| Status              | Active / Stale / Archived                              |
 
 ### Role-Based Permissions
 
-|   |   |
-|---|---|
-|Role|Permission|
-|Proposal Owner|Create projects, select KHs, review answers, trigger feedback to KH|
-|SME|Answer questions within projects, review AI suggestions|
-|Knowledge Admin|Manage KH entries, resolve segregation conflicts, archive stale entries|
-|Viewer|Read-only access to KH entries|
+| Role            | Permission                                                              |
+| --------------- | ----------------------------------------------------------------------- |
+| Proposal Owner  | Create projects, select KHs, review answers, trigger feedback to KH     |
+| SME             | Answer questions within projects, review AI suggestions                 |
+| Knowledge Admin | Manage KH entries, resolve segregation conflicts, archive stale entries |
+| Viewer          | Read-only access to KH entries                                          |
 
 ### AI Behavior (BM25 or any other search Retrieval Agent)
 
