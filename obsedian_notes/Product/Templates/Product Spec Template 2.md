@@ -1,8 +1,17 @@
 ---
-name: feature-spec
-description: Write structured product requirements documents (PRDs) with problem statements, user stories, requirements, and success metrics. Use when speccing a new feature, writing a PRD, defining acceptance criteria, prioritizing requirements, or documenting product decisions.
+cover:
+author: Divyaraj Murugan
+published:
+type: PRD
+product: SparrowGenie
+feature: 
+status: Draft
+priority: High
+owner: Divyaraj Murugan
+sprint: Sprint-24
+version: 1
+tags:
 ---
-
 # Feature Spec Skill
 
 You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.

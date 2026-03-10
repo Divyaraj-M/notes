@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Spec Template 2",
+      "path": "Product/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
+    },
+    {
+      "basename": "Insert from QnA",
+      "path": "Product/Projects/Table View/Insert from QnA.md"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
+      "basename": "Book shelf",
+      "path": "Product/Templates/Book shelf.md"
+    },
+    {
+      "basename": "Template - PM",
+      "path": "Product/Templates/Template - PM.md"
+    },
+    {
+      "basename": "SparrowGenie.mw",
+      "path": "Markwhen/SparrowGenie.mw.mw"
+    },
+    {
+      "basename": "Resources - Sparrow Genie",
+      "path": "Product/Genie Journal/Resources - Sparrow Genie.md"
+    },
+    {
+      "basename": "Save to QnA",
+      "path": "Product/Projects/Table View/Save to QnA.md"
+    },
+    {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "Project admin settings",
+      "path": "Product/Settings/Project admin settings.md"
+    },
+    {
+      "basename": "sparrowgenie-email-preview",
+      "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
+    },
+    {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "RFP training",
       "path": "Product/Knowledge Hub/RFP training.md"
-    },
-    {
-      "basename": "parrowGenie",
-      "path": "Markwhen/parrowGenie.mw"
     },
     {
       "basename": "Proposal Conversion",
@@ -57,10 +101,6 @@
       "path": "Product/Audit report/Audit report.md"
     },
     {
-      "basename": "Project admin settings",
-      "path": "Product/Settings/Project admin settings.md"
-    },
-    {
       "basename": "2026-02-24",
       "path": "Not a trash/2026-02-24.md"
     },
@@ -83,10 +123,6 @@
     {
       "basename": "Untitled",
       "path": "Product/Settings/Teams/Untitled.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
     },
     {
       "basename": "Audit Report R126022026",
@@ -133,10 +169,6 @@
       "path": "Product/Top Deliverables/Product Vision.md"
     },
     {
-      "basename": "sparrowgenie-email-preview",
-      "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
-    },
-    {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
-    },
-    {
-      "basename": "The Courage to be Disliked",
-      "path": "Books/The Courage to be Disliked.md"
-    },
-    {
-      "basename": "Go-no-Go - loopio",
-      "path": "Product/competitors/Loopio/Go-no-Go - loopio.md"
-    },
-    {
-      "basename": "Proposal to Project",
-      "path": "Product/competitors/Loopio/Proposal to Project.md"
-    },
-    {
-      "basename": "Loopio",
-      "path": "Product/competitors/Loopio/Loopio.md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Atomic Design",
-      "path": "Books/Read List/Atomic Design.md"
-    },
-    {
-      "basename": "CEO One Pager",
-      "path": "second_stream_revenue/Google_sheets/CEO One Pager.md"
-    },
-    {
-      "basename": "Steps to create it",
-      "path": "second_stream_revenue/Google_sheets/Steps to create it.md"
     }
   ],
   "omittedPaths": [],
