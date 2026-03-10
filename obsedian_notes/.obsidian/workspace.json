@@ -4,6 +4,36 @@
     "type": "split",
     "children": [
       {
+        "id": "0aba31c510fdf4bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2463471c55a9248d",
+            "type": "leaf",
+            "state": {
+              "type": "markwhen-view",
+              "state": {
+                "file": "Markwhen/SparrowGenie.mw",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "markwhen-icon",
+              "title": "SparrowGenie.mw"
+            }
+          }
+        ]
+      },
+      {
         "id": "84383c7037b66d82",
         "type": "tabs",
         "children": [
@@ -61,7 +91,7 @@
             "state": {
               "type": "markwhen-view",
               "state": {
-                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "file": "Markwhen/SparrowGenie.mw",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +106,7 @@
                 }
               },
               "icon": "markwhen-icon",
-              "title": "Markwhen 3-10-2026 13.07.27.mw"
+              "title": "SparrowGenie.mw"
             }
           }
         ],
@@ -183,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "file": "Markwhen/SparrowGenie.mw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +223,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Markwhen 3-10-2026 13.07.27"
+              "title": "Backlinks for SparrowGenie"
             }
           },
           {
@@ -202,12 +232,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "file": "Markwhen/SparrowGenie.mw",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Markwhen 3-10-2026 13.07.27"
+              "title": "Outgoing links from SparrowGenie"
             }
           },
           {
@@ -236,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+                "file": "Markwhen/SparrowGenie.mw",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Markwhen 3-10-2026 13.07.27"
+              "title": "Outline of SparrowGenie"
             }
           }
         ],
@@ -331,10 +361,10 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "2a417d041e6b38a5",
+  "active": "2463471c55a9248d",
   "lastOpenFiles": [
     "Markwhen/Markwhen 3-10-2026 13.11.53.mw",
-    "Markwhen/Markwhen 3-10-2026 13.07.27.mw",
+    "Markwhen/SparrowGenie.mw",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Markwhen",
     "Untitled.sheet",
