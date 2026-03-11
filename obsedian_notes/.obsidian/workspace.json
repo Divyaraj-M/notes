@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+                "file": "Product/competitors/Responsiveio/Answer types templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Doc Workflow Two-Doc System"
+              "title": "Outline of Answer types templates"
             }
           }
         ]
@@ -103,16 +103,55 @@
             }
           },
           {
-            "id": "8e772b7dab8da36c",
+            "id": "62fafe4a7b38cdef",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Product/competitors/Responsiveio/Go- no - Go responsive.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Go- no - Go responsive"
+            }
+          },
+          {
+            "id": "895cba2581df029b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/competitors/Responsiveio/Answer types templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Answer types templates"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:competitor_analysis/Answer_types",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -176,7 +215,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -233,12 +273,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+                "file": "Product/competitors/Responsiveio/Answer types templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Doc Workflow Two-Doc System"
+              "title": "Outgoing links from Answer types templates"
             }
           },
           {
@@ -362,9 +402,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "681d9fb88f64f790",
+  "active": "895cba2581df029b",
   "lastOpenFiles": [
+    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
+    "Product/competitors/Responsiveio/Answer types templates.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Knowledge Hub/Untitled 2.md",
+    "Product/Knowledge Hub/Untitled 1.md",
+    "Product/Projects/Context Info/Competitors Info.md",
+    "Product/Knowledge Hub/Untitled.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Templates/Product to dev process/FRD Template.md",
@@ -382,14 +430,6 @@
     "Not a trash/2026-02-24.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Help Article/Mapping.md",
-    "Product/Help Article/How to Create a project.md",
-    "Product/Projects/Answers/Answer types.md",
-    "Product/Projects/Internal Share/Share assign and review flow.md",
-    "Product/Projects/Questions/Insert from QnA.md",
-    "Product/Projects/Questions/Untitled.md",
-    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",

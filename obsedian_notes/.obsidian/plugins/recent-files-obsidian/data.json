@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+      "basename": "Answer types templates",
+      "path": "Product/competitors/Responsiveio/Answer types templates.md"
+    },
+    {
+      "basename": "Go- no - Go responsive",
+      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
+    },
+    {
+      "basename": "Attachments - Responsive",
+      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
+    },
+    {
+      "basename": "Responsive.io",
+      "path": "Product/competitors/Responsiveio/Responsive.io.md"
     },
     {
       "basename": "Training back Projects into Knowledge Hubs",
       "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
     },
     {
+      "basename": "Untitled 2",
+      "path": "Product/Knowledge Hub/Untitled 2.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Product/Knowledge Hub/Untitled 1.md"
+    },
+    {
+      "basename": "Competitors Info",
+      "path": "Product/Projects/Context Info/Competitors Info.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Knowledge Hub/Untitled.md"
+    },
+    {
       "basename": "PRD Feature Name",
       "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
     },
     {
       "basename": "FRD Template",
@@ -167,38 +199,6 @@
     {
       "basename": "My Data",
       "path": "My Data.base"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "Resources - Sparrow Genie",
-      "path": "Product/Genie Journal/Resources - Sparrow Genie.md"
-    },
-    {
-      "basename": "Project admin settings",
-      "path": "Product/Settings/Project admin settings.md"
-    },
-    {
-      "basename": "sparrowgenie-email-preview",
-      "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
-    },
-    {
-      "basename": "ROI Calculator",
-      "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "Knowledge Hub",
-      "path": "Product/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
-      "basename": "Instructions from the Document",
-      "path": "Product/Instructions/Instructions from the Document.md"
     }
   ],
   "omittedPaths": [],
