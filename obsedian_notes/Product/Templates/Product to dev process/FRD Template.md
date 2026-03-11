@@ -116,10 +116,10 @@
 
 **Table: [table_name]**
 
-|Field|Type|Nullable|Default|Notes|
-|---|---|---|---|---|
-|[status]|enum|No|'draft'|Values: draft, active, archived|
-|[created_by]|uuid|No|—|FK → users.id|
+| Field        | Type | Nullable | Default | Notes                           |
+| ------------ | ---- | -------- | ------- | ------------------------------- |
+| [status]     | enum | No       | 'draft' | Values: draft, active, archived |
+| [created_by] | uuid | No       | —       | FK → users.id                   |
 
 **Indexes:**
 
@@ -179,8 +179,8 @@
 ### Happy Path
 
 - [ ] [Create item with all fields → appears in list]
-- [ ] [Search returns correct results → click result → detail view loads]
-- [ ] [Edit item → changes persist on refresh]
+- [[Search returns correct results → click result → detail view loads]]
+- [[Edit item → changes persist on refresh]]
 
 ### Edge Cases
 

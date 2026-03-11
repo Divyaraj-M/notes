@@ -90,7 +90,11 @@
     "Product/Templates/Product to dev process/Untitled.md": "product_templates_product_to_dev_process_untitled.md.json",
     "Product/Templates/Product to dev process/FRD Template.md": "product_templates_product_to_dev_process_frd_template.md.json",
     "Product/Projects/Obligations/Obligations.md": "product_projects_obligations_obligations.md.json",
-    "Product/Projects/Internal Share/Share assign and review flow.md": "product_projects_internal_share_share_assign_and_review_flow.md.json"
+    "Product/Projects/Internal Share/Share assign and review flow.md": "product_projects_internal_share_share_assign_and_review_flow.md.json",
+    "Product/Templates/Product to dev process/Edit item → changes persist on refresh.md": "product_templates_product_to_dev_process_edit_item_→_changes_persist_on_refresh.md.json",
+    "Product/Templates/First-Principles Product Template.md": "product_templates_first-principles_product_template.md.json",
+    "Product/Templates/Product Spec - Template.md": "product_templates_product_spec_-_template.md.json",
+    "Product/Templates/Product to dev process/Search returns correct results → click result → detail view loads.md": "product_templates_product_to_dev_process_search_returns_correct_results_→_click_result_→_detail_view_loads.md.json"
   },
-  "lastUpdated": 1773217824805
+  "lastUpdated": 1773218823920
 }

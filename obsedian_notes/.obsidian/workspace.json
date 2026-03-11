@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
+                "file": "Product/Projects/Table View/Save to QnA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks-default"
+              "title": "Outline of Save to QnA"
             }
           }
         ]
@@ -154,22 +154,9 @@
             "id": "47bb7cdf42c466b6",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "All Tasks"
-              },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
-            }
-          },
-          {
-            "id": "f7e4e9f533000055",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/Mapping.md",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -184,11 +171,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mapping"
+              "title": "FRD Template"
+            }
+          },
+          {
+            "id": "f7e4e9f533000055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Table View/Save to QnA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Save to QnA"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -291,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
+                "file": "Product/Projects/Table View/Save to QnA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +312,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tasks-default"
+              "title": "Backlinks for Save to QnA"
             }
           },
           {
@@ -310,12 +321,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
+                "file": "Product/Projects/Table View/Save to QnA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tasks-default"
+              "title": "Outgoing links from Save to QnA"
             }
           },
           {
@@ -436,9 +447,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "47bb7cdf42c466b6",
+  "active": "f7e4e9f533000055",
   "lastOpenFiles": [
+    "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Templates/Product to dev process/Search returns correct results → click result → detail view loads.md",
+    "Product/Templates/Product Spec Template 2.md",
+    "Product/Templates/Product to dev process/Edit item → changes persist on refresh.md",
+    "Product/Templates/Template - PM.md",
+    "Product/Templates/Product Spec - Template.md",
+    "Product/Templates/First-Principles Product Template.md",
+    "TaskNotes/Views/tasks-default.base",
+    "Product/Help Article/Mapping.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
@@ -446,10 +466,6 @@
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Obligations/Obligations.md",
-    "Product/Templates/Product to dev process/FRD Template.md",
-    "Product/Templates/Product Spec Template 2.md",
-    "TaskNotes/Views/tasks-default.base",
-    "Product/Help Article/Mapping.md",
     "My Data.base",
     "Product/Audit report/Audit Report R126022026.md",
     "TaskNotes/Views/relationships.base",
@@ -462,18 +478,12 @@
     "Product/Templates/Product to dev process",
     "Product/Projects/Table View/Insert from QnA.md",
     "Product/Templates/Book shelf.md",
-    "Product/Templates/Template - PM.md",
     "Product/Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Table View/Save to QnA.md",
     "Product/Settings/Project admin settings.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/RFP training.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
-    "Product/Instructions/Instructions from the Document.md",
-    "Product/Instructions/Instructions.md",
-    "Product/Instructions/Instructions logic.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
