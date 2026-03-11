@@ -101,6 +101,16 @@
               "icon": "lucide-file",
               "title": "Training back Projects into Knowledge Hubs"
             }
+          },
+          {
+            "id": "8e772b7dab8da36c",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
           }
         ]
       }
@@ -363,10 +373,11 @@
   },
   "active": "f7e4e9f533000055",
   "lastOpenFiles": [
-    "Product/Projects/Questions/Untitled.md",
-    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Projects/Questions/Insert from QnA.md",
+    "Product/Projects/Questions/Untitled.md",
+    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Templates/Product to dev process/FRD Template.md",
@@ -398,7 +409,6 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "Product/Projects/Questions/Insert from QnA.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
