@@ -1,10 +1,10 @@
 
 ## The Two Docs
 
-| Doc     | Who writes it  | When                     | Who reads it        | Jira tickets                        |
-| ------- | -------------- | ------------------------ | ------------------- | ----------------------------------- |
-| **PRD** | PM             | Before design starts     | Designer + everyone | Story Definition + Design sub-tasks |
-| **FRD** | PM + Tech Lead | After design is approved | Devs + QA           | Dev Stories + atomic sub-tasks      |
+| Doc                  | Who writes it  | When                     | Who reads it        | Jira tickets                        |
+| -------------------- | -------------- | ------------------------ | ------------------- | ----------------------------------- |
+| [[PRD Feature Name]] | PM             | Before design starts     | Designer + everyone | Story Definition + Design sub-tasks |
+| [[FRD Template]]     | PM + Tech Lead | After design is approved | Devs + QA           | Dev Stories + atomic sub-tasks      |
 
 ## The Flow
 

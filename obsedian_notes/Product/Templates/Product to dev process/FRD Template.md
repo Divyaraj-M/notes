@@ -1,3 +1,7 @@
+---
+tags:
+---
+
 # FRD: [Feature Name]
 
 > **PRD Reference:** [Link to PRD] **Design Reference:** [Link to Figma] **PM Owner:** [PM Name] **Tech Lead:** [Name] **Status:** Draft / In Review / Approved / In Development **Sprint:** [Sprint number] **Last Updated:** [Date]
@@ -84,29 +88,29 @@
 
 ### Endpoint 1: [Name]
 
-|||
-|---|---|
-|**Method**|[GET / POST / PUT / DELETE]|
-|**Path**|[/api/v1/resource]|
-|**Auth**|[Bearer token / API key / Session]|
-|**Request body**|`{ name: string, type: enum("a","b"), description?: string }`|
-|**Success (200)**|`{ id: string, name: string, created_at: ISO8601 }`|
-|**Error 400**|`{ error: "validation_error", fields: { name: "required" } }`|
-|**Error 401**|`{ error: "unauthorized" }`|
-|**Error 404**|`{ error: "not_found" }`|
-|**Error 500**|`{ error: "internal_error" }`|
-|**Rate limit**|[If applicable]|
+| Field | Details |
+|------|---------|
+| **Method** | GET / POST / PUT / DELETE |
+| **Path** | /api/v1/resource |
+| **Auth** | Bearer token / API key / Session |
+| **Request body** | `{ name: string, type: enum("a","b"), description?: string }` |
+| **Success (200)** | `{ id: string, name: string, created_at: ISO8601 }` |
+| **Error 400** | `{ error: "validation_error", fields: { name: "required" } }` |
+| **Error 401** | `{ error: "unauthorized" }` |
+| **Error 404** | `{ error: "not_found" }` |
+| **Error 500** | `{ error: "internal_error" }` |
+| **Rate limit** | If applicable |
 
 ### Endpoint 2: [Name]
 
-|||
-|---|---|
-|**Method**||
-|**Path**||
-|**Auth**||
-|**Request body**||
-|**Success**||
-|**Errors**||
+| Field | Details |
+|------|---------|
+| **Method** | |
+| **Path** | |
+| **Auth** | |
+| **Request body** | |
+| **Success** | |
+| **Errors** | |
 
 ---
 

@@ -4,10 +4,7 @@ author:
   - Archer
 published:
 tags:
-  - mastery
-  - learning
-  - multipotentialite
-  - productivity
+  - books
 rating:
 pages:
 lists:

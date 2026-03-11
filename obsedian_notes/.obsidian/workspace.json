@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Table View/Save to QnA.md",
+                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Save to QnA"
+              "title": "Outline of Save to QnA PRD"
             }
           }
         ]
@@ -79,30 +79,6 @@
             }
           },
           {
-            "id": "a9a52a8d4b7ad54b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PRD Feature Name"
-            }
-          },
-          {
             "id": "600826d95ae66417",
             "type": "leaf",
             "state": {
@@ -132,30 +108,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Doc Workflow Two-Doc System"
-            }
-          },
-          {
-            "id": "47bb7cdf42c466b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "mode": "source",
                 "source": false,
@@ -180,7 +132,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Table View/Save to QnA.md",
+                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -195,11 +147,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Save to QnA"
+              "title": "Save to QnA PRD"
+            }
+          },
+          {
+            "id": "8404c244c9d3f992",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRD Feature Name"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -229,7 +205,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"rating\"]",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -294,7 +270,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 56.4625850340136,
+        "dimension": 38.03888419273035,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -302,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Table View/Save to QnA.md",
+                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +288,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Save to QnA"
+              "title": "Backlinks for Save to QnA PRD"
             }
           },
           {
@@ -321,12 +297,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Table View/Save to QnA.md",
+                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Save to QnA"
+              "title": "Outgoing links from Save to QnA PRD"
             }
           },
           {
@@ -348,14 +324,26 @@
               "icon": "highlighter",
               "title": "HiNote"
             }
+          },
+          {
+            "id": "d9668e235bb6cf55",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Save to QnA PRD"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 17.006802721088434,
+        "dimension": 35.418427726120036,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -386,13 +374,12 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.53061224489796,
+        "dimension": 26.542688081149617,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -449,8 +436,18 @@
   },
   "active": "f7e4e9f533000055",
   "lastOpenFiles": [
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+    "Product/Projects/Questions/Save to QnA",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/User roles/Project/Question card/Author.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "Product/Templates/Book shelf.md",
+    "Product/Projects/Questions/Untitled.md",
+    "Books/Read List/Read List.md",
+    "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Templates/Product to dev process/Search returns correct results → click result → detail view loads.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product to dev process/Edit item → changes persist on refresh.md",
@@ -461,8 +458,6 @@
     "Product/Help Article/Mapping.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Obligations/Obligations.md",
@@ -475,15 +470,7 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "Product/Templates/Product to dev process",
-    "Product/Projects/Table View/Insert from QnA.md",
-    "Product/Templates/Book shelf.md",
-    "Product/Genie Journal/Resources - Sparrow Genie.md",
-    "Product/Projects/Table View/Save to QnA.md",
-    "Product/Settings/Project admin settings.md",
-    "Product/ROI Calculator/ROI Calculator.md",
-    "Product/Knowledge Hub/RFP training PRD.md",
-    "Product/Knowledge Hub/RFP training.md",
+    "Product/Projects/Questions/Insert from QnA.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

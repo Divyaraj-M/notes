@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Save to QnA",
-      "path": "Product/Projects/Table View/Save to QnA.md"
+      "basename": "Save to QnA PRD",
+      "path": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
     },
     {
       "basename": "FRD Template",
@@ -11,6 +15,34 @@
     {
       "basename": "Doc Workflow Two-Doc System",
       "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Author",
+      "path": "Product/User roles/Project/Question card/Author.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
+    },
+    {
+      "basename": "Book shelf",
+      "path": "Product/Templates/Book shelf.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Projects/Questions/Untitled.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "RFP training PRD",
+      "path": "Product/Knowledge Hub/RFP training PRD.md"
     },
     {
       "basename": "Product Spec Template 2",
@@ -45,14 +77,6 @@
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
     {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
       "basename": "Proposal Conversion Flow",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
     },
@@ -74,11 +98,7 @@
     },
     {
       "basename": "Insert from QnA",
-      "path": "Product/Projects/Table View/Insert from QnA.md"
-    },
-    {
-      "basename": "Book shelf",
-      "path": "Product/Templates/Book shelf.md"
+      "path": "Product/Projects/Questions/Insert from QnA.md"
     },
     {
       "basename": "Resources - Sparrow Genie",
@@ -95,10 +115,6 @@
     {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "RFP training PRD",
-      "path": "Product/Knowledge Hub/RFP training PRD.md"
     },
     {
       "basename": "RFP training",
@@ -183,18 +199,6 @@
     {
       "basename": "sparrowgenie-email-template",
       "path": "Product/ROI Calculator/sparrowgenie-email-template.html"
-    },
-    {
-      "basename": "Product Strategy",
-      "path": "Product/Top Deliverables/Product Strategy.md"
-    },
-    {
-      "basename": "Email notifications",
-      "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
-      "basename": "Product Vision",
-      "path": "Product/Top Deliverables/Product Vision.md"
     }
   ],
   "omittedPaths": [],

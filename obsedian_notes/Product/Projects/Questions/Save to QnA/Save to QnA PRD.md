@@ -1,13 +1,12 @@
 ---
 tags:
+  - "#new_feature/save_to_qna/v1"
 ---
 ## First principle thinking 
 
 
-
 ## 1. Problem Statement
 
-<!-- What problem are we solving? Who has it? What happens if we don't solve it? Ground in evidence: user research, support tickets, metrics, customer quotes. 3-5 sentences. -->
 
 [Write here]
 
@@ -31,10 +30,10 @@ tags:
 
 <!-- What this feature will NOT do. Prevents scope creep. -->
 
-|Non-Goal|Why Out of Scope|
-|---|---|
-|[e.g., Multi-language support]|[Separate initiative planned Q3]|
-|||
+| Non-Goal                       | Why Out of Scope                 |
+| ------------------------------ | -------------------------------- |
+| [e.g., Multi-language support] | [Separate initiative planned Q3] |
+|                                |                                  |
 
 ---
 
@@ -205,7 +204,7 @@ Step 1 → Step 2 → Step 3 → Step 4
 
 ## Changelog
 
-|Date|Author|Changes|
-|---|---|---|
-|[Date]|[Name]|Initial draft|
-||||
+| Date   | Author | Changes       |
+| ------ | ------ | ------------- |
+| [Date] | [Name] | Initial draft |
+|        |        |               |
