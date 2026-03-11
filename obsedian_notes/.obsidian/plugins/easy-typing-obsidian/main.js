@@ -1261,7 +1261,8 @@ var DEFAULT_SETTINGS = {
   FixMacOSContextMenu: false,
   TryFixMSIME: false,
   CollapsePersistentEnter: false,
-  deletedBuiltinRuleIds: []
+  deletedBuiltinRuleIds: [],
+  rulesStoragePath: ""
 };
 
 // src/settings/easy_typing_settings_tab.ts
@@ -1368,6 +1369,14 @@ var locale = {
     printDebugInfo: {
       name: "Print debug info in console",
       desc: "Print debug information in the console."
+    },
+    rulesStoragePath: {
+      name: "Rules Storage Path",
+      desc: "Set the storage path for rule files (relative to vault root). Select default to store in the plugin directory",
+      defaultOption: "Default (plugin directory)",
+      migrateButton: "Migrate",
+      migrateDesc: "Migrate rule files from the previously loaded path to the current path",
+      migrateSuccess: "Rule files migrated successfully"
     },
     selectionReplaceRule: {
       name: "Selection Replace Rule",
@@ -1666,6 +1675,14 @@ var locale2 = {
     printDebugInfo: {
       name: "\u5728\u63A7\u5236\u53F0\u8F93\u51FA\u8C03\u8BD5\u4FE1\u606F",
       desc: "\u5728\u63A7\u5236\u53F0\u8F93\u51FA\u8C03\u8BD5\u4FE1\u606F"
+    },
+    rulesStoragePath: {
+      name: "\u89C4\u5219\u6587\u4EF6\u5B58\u50A8\u8DEF\u5F84",
+      desc: "\u8BBE\u7F6E\u89C4\u5219\u6587\u4EF6\u7684\u5B58\u50A8\u8DEF\u5F84\uFF08\u76F8\u5BF9\u4E8E\u5E93\u6839\u76EE\u5F55\uFF09\uFF0C\u9009\u62E9\u9ED8\u8BA4\u5219\u5B58\u50A8\u5728\u63D2\u4EF6\u76EE\u5F55\u5185",
+      defaultOption: "\u9ED8\u8BA4\uFF08\u63D2\u4EF6\u76EE\u5F55\uFF09",
+      migrateButton: "\u8FC1\u79FB",
+      migrateDesc: "\u5C06\u89C4\u5219\u6587\u4EF6\u4ECE\u4E0A\u6B21\u52A0\u8F7D\u7684\u8DEF\u5F84\u8FC1\u79FB\u5230\u5F53\u524D\u8BBE\u7F6E\u7684\u8DEF\u5F84",
+      migrateSuccess: "\u89C4\u5219\u6587\u4EF6\u8FC1\u79FB\u6210\u529F"
     },
     selectionReplaceRule: {
       name: "\u9009\u4E2D\u66FF\u6362\u89C4\u5219",
@@ -1969,6 +1986,14 @@ var locale3 = {
       name: "\u5728\u63A7\u5236\u53F0\u8F38\u51FA\u8ABF\u8A66\u8CC7\u8A0A",
       desc: "\u5728\u63A7\u5236\u53F0\u8F38\u51FA\u8ABF\u8A66\u8CC7\u8A0A"
     },
+    rulesStoragePath: {
+      name: "\u898F\u5247\u6A94\u6848\u5132\u5B58\u8DEF\u5F91",
+      desc: "\u8A2D\u5B9A\u898F\u5247\u6A94\u6848\u7684\u5132\u5B58\u8DEF\u5F91\uFF08\u76F8\u5C0D\u65BC\u5EAB\u6839\u76EE\u9304\uFF09\uFF0C\u9078\u64C7\u9810\u8A2D\u5247\u5132\u5B58\u5728\u5916\u639B\u76EE\u9304\u5167",
+      defaultOption: "\u9810\u8A2D\uFF08\u5916\u639B\u76EE\u9304\uFF09",
+      migrateButton: "\u9077\u79FB",
+      migrateDesc: "\u5C07\u898F\u5247\u6A94\u6848\u5F9E\u4E0A\u6B21\u8F09\u5165\u7684\u8DEF\u5F91\u9077\u79FB\u5230\u7576\u524D\u8A2D\u5B9A\u7684\u8DEF\u5F91",
+      migrateSuccess: "\u898F\u5247\u6A94\u6848\u9077\u79FB\u6210\u529F"
+    },
     selectionReplaceRule: {
       name: "\u9078\u4E2D\u66FF\u63DB\u898F\u5247",
       desc: "\u7528\u6236\u5B9A\u7FA9\u7684\u9078\u4E2D\u66FF\u63DB\u898F\u5247"
@@ -2271,6 +2296,14 @@ var locale4 = {
       name: "\u0412\u044B\u0432\u043E\u0434 \u043E\u0442\u043B\u0430\u0434\u043E\u0447\u043D\u043E\u0439 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438 \u0432 \u043A\u043E\u043D\u0441\u043E\u043B\u044C",
       desc: "\u0412\u044B\u0432\u043E\u0434 \u043E\u0442\u043B\u0430\u0434\u043E\u0447\u043D\u043E\u0439 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438 \u0432 \u043A\u043E\u043D\u0441\u043E\u043B\u044C."
     },
+    rulesStoragePath: {
+      name: "\u041F\u0443\u0442\u044C \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0444\u0430\u0439\u043B\u043E\u0432 \u043F\u0440\u0430\u0432\u0438\u043B",
+      desc: "\u0423\u043A\u0430\u0436\u0438\u0442\u0435 \u043F\u0443\u0442\u044C \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0444\u0430\u0439\u043B\u043E\u0432 \u043F\u0440\u0430\u0432\u0438\u043B (\u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u043A\u043E\u0440\u043D\u044F \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430). \u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0434\u043B\u044F \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F \u0432 \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0435 \u043F\u043B\u0430\u0433\u0438\u043D\u0430",
+      defaultOption: "\u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E (\u043A\u0430\u0442\u0430\u043B\u043E\u0433 \u043F\u043B\u0430\u0433\u0438\u043D\u0430)",
+      migrateButton: "\u041F\u0435\u0440\u0435\u043D\u0435\u0441\u0442\u0438",
+      migrateDesc: "\u041F\u0435\u0440\u0435\u043D\u0435\u0441\u0442\u0438 \u0444\u0430\u0439\u043B\u044B \u043F\u0440\u0430\u0432\u0438\u043B \u0438\u0437 \u0440\u0430\u043D\u0435\u0435 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043D\u043D\u043E\u0433\u043E \u043F\u0443\u0442\u0438 \u0432 \u0442\u0435\u043A\u0443\u0449\u0438\u0439",
+      migrateSuccess: "\u0424\u0430\u0439\u043B\u044B \u043F\u0440\u0430\u0432\u0438\u043B \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u043F\u0435\u0440\u0435\u043D\u0435\u0441\u0435\u043D\u044B"
+    },
     selectionReplaceRule: {
       name: "\u041F\u0440\u0430\u0432\u0438\u043B\u043E \u0437\u0430\u043C\u0435\u043D\u044B \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0435\u043A\u0441\u0442\u0430",
       desc: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u043E\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u043E \u0437\u0430\u043C\u0435\u043D\u044B \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0435\u043A\u0441\u0442\u0430"
@@ -2569,6 +2602,14 @@ var locale5 = {
       name: "\u30B3\u30F3\u30BD\u30FC\u30EB\u306B\u30C7\u30D0\u30C3\u30B0\u60C5\u5831\u3092\u51FA\u529B",
       desc: "\u30B3\u30F3\u30BD\u30FC\u30EB\u306B\u30C7\u30D0\u30C3\u30B0\u60C5\u5831\u3092\u51FA\u529B\u3057\u307E\u3059\u3002"
     },
+    rulesStoragePath: {
+      name: "\u30EB\u30FC\u30EB\u30D5\u30A1\u30A4\u30EB\u306E\u4FDD\u5B58\u30D1\u30B9",
+      desc: "\u30EB\u30FC\u30EB\u30D5\u30A1\u30A4\u30EB\u306E\u4FDD\u5B58\u30D1\u30B9\u3092\u8A2D\u5B9A\u3057\u307E\u3059\uFF08\u30DC\u30EB\u30C8\u30EB\u30FC\u30C8\u304B\u3089\u306E\u76F8\u5BFE\u30D1\u30B9\uFF09\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u3092\u9078\u629E\u3059\u308B\u3068\u30D7\u30E9\u30B0\u30A4\u30F3\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\u306B\u4FDD\u5B58\u3055\u308C\u307E\u3059",
+      defaultOption: "\u30C7\u30D5\u30A9\u30EB\u30C8\uFF08\u30D7\u30E9\u30B0\u30A4\u30F3\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\uFF09",
+      migrateButton: "\u79FB\u884C",
+      migrateDesc: "\u524D\u56DE\u8AAD\u307F\u8FBC\u3093\u3060\u30D1\u30B9\u304B\u3089\u73FE\u5728\u306E\u30D1\u30B9\u306B\u30EB\u30FC\u30EB\u30D5\u30A1\u30A4\u30EB\u3092\u79FB\u884C\u3057\u307E\u3059",
+      migrateSuccess: "\u30EB\u30FC\u30EB\u30D5\u30A1\u30A4\u30EB\u306E\u79FB\u884C\u304C\u5B8C\u4E86\u3057\u307E\u3057\u305F"
+    },
     selectionReplaceRule: {
       name: "\u9078\u629E\u7F6E\u63DB\u30EB\u30FC\u30EB",
       desc: "\u30E6\u30FC\u30B6\u30FC\u5B9A\u7FA9\u306E\u9078\u629E\u7F6E\u63DB\u30EB\u30FC\u30EB"
@@ -2866,6 +2907,14 @@ var locale6 = {
     printDebugInfo: {
       name: "\uCF58\uC194\uC5D0 \uB514\uBC84\uADF8 \uC815\uBCF4 \uCD9C\uB825",
       desc: "\uCF58\uC194\uC5D0 \uB514\uBC84\uADF8 \uC815\uBCF4\uB97C \uCD9C\uB825\uD569\uB2C8\uB2E4."
+    },
+    rulesStoragePath: {
+      name: "\uADDC\uCE59 \uD30C\uC77C \uC800\uC7A5 \uACBD\uB85C",
+      desc: "\uADDC\uCE59 \uD30C\uC77C\uC758 \uC800\uC7A5 \uACBD\uB85C\uB97C \uC124\uC815\uD569\uB2C8\uB2E4 (\uBCFC\uD2B8 \uB8E8\uD2B8 \uAE30\uC900 \uC0C1\uB300 \uACBD\uB85C). \uAE30\uBCF8\uAC12\uC744 \uC120\uD0DD\uD558\uBA74 \uD50C\uB7EC\uADF8\uC778 \uB514\uB809\uD130\uB9AC\uC5D0 \uC800\uC7A5\uB429\uB2C8\uB2E4",
+      defaultOption: "\uAE30\uBCF8\uAC12 (\uD50C\uB7EC\uADF8\uC778 \uB514\uB809\uD130\uB9AC)",
+      migrateButton: "\uB9C8\uC774\uADF8\uB808\uC774\uC158",
+      migrateDesc: "\uC774\uC804\uC5D0 \uB85C\uB4DC\uD55C \uACBD\uB85C\uC5D0\uC11C \uD604\uC7AC \uACBD\uB85C\uB85C \uADDC\uCE59 \uD30C\uC77C\uC744 \uB9C8\uC774\uADF8\uB808\uC774\uC158\uD569\uB2C8\uB2E4",
+      migrateSuccess: "\uADDC\uCE59 \uD30C\uC77C\uC774 \uC131\uACF5\uC801\uC73C\uB85C \uB9C8\uC774\uADF8\uB808\uC774\uC158\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
     },
     selectionReplaceRule: {
       name: "\uC120\uD0DD \uB300\uCCB4 \uADDC\uCE59",
@@ -4154,6 +4203,27 @@ var RuleEditModal = class extends import_obsidian4.Modal {
 
 // src/settings/easy_typing_settings_tab.ts
 var import_sprintf_js = __toESM(require_sprintf());
+var DEFAULT_PATH_VALUE = "";
+var FolderSuggest = class extends import_obsidian5.AbstractInputSuggest {
+  constructor(app, inputEl, defaultLabel, onSelect) {
+    super(app, inputEl);
+    this.defaultLabel = defaultLabel;
+    this.onSelectCb = onSelect;
+  }
+  getSuggestions(query) {
+    const lowerQuery = query.toLowerCase();
+    const folders = this.app.vault.getAllFolders().map((f) => f.path).filter((p) => p.toLowerCase().includes(lowerQuery));
+    return [DEFAULT_PATH_VALUE, ...folders];
+  }
+  renderSuggestion(path, el) {
+    el.setText(path || this.defaultLabel);
+  }
+  selectSuggestion(path, _evt) {
+    this.setValue(path);
+    this.close();
+    this.onSelectCb(path);
+  }
+};
 function setAttributes(element, attributes) {
   for (let key in attributes) {
     element.setAttribute(key, attributes[key]);
@@ -4796,6 +4866,24 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
+    new import_obsidian5.Setting(el).setName(locale7.settings.rulesStoragePath.name).setDesc(locale7.settings.rulesStoragePath.desc).addText((text) => {
+      text.setPlaceholder(locale7.settings.rulesStoragePath.defaultOption).setValue(this.plugin.settings.rulesStoragePath);
+      new FolderSuggest(this.app, text.inputEl, locale7.settings.rulesStoragePath.defaultOption, async (path) => {
+        this.plugin.settings.rulesStoragePath = path;
+        await this.plugin.saveSettings();
+        await this.plugin.ruleManager.initRuleEngine();
+        this.display();
+      });
+    }).addButton((btn) => {
+      btn.setButtonText(locale7.settings.rulesStoragePath.migrateButton).setTooltip(locale7.settings.rulesStoragePath.migrateDesc).onClick(async () => {
+        const oldPath = this.plugin.ruleManager.previousStoragePath;
+        const newPath = this.plugin.settings.rulesStoragePath;
+        await this.plugin.ruleManager.migrateRulesFiles(oldPath, newPath);
+        await this.plugin.ruleManager.initRuleEngine();
+        new import_obsidian5.Notice(locale7.settings.rulesStoragePath.migrateSuccess);
+        this.display();
+      });
+    });
     new import_obsidian5.Setting(el).setName(locale7.settings.printDebugInfo.name).setDesc(locale7.settings.printDebugInfo.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.debug).onChange(async (value) => {
         this.plugin.settings.debug = value;
@@ -4901,11 +4989,14 @@ var RuleManager = class {
     this.savePluginSettings = savePluginSettings;
     this.cachedBuiltinRules = [];
     this.cachedUserRules = [];
+    this.previousStoragePath = "";
     this.BUILTIN_RULES_FILE = "builtin-rules.json";
     this.USER_RULES_FILE = "user-rules.json";
+    this.previousStoragePath = settings.rulesStoragePath;
   }
   pluginPath(filename) {
-    return `${this.manifest.dir}/${filename}`;
+    const base = this.settings.rulesStoragePath ? this.settings.rulesStoragePath : this.manifest.dir;
+    return `${base}/${filename}`;
   }
   async loadRulesFile(filename) {
     const path = this.pluginPath(filename);
@@ -4931,6 +5022,9 @@ var RuleManager = class {
   }
   async initRuleEngine() {
     this.ruleEngine = new RuleEngine();
+    if (this.settings.rulesStoragePath) {
+      await this.app.vault.adapter.mkdir(this.settings.rulesStoragePath);
+    }
     const builtinPath = this.pluginPath(this.BUILTIN_RULES_FILE);
     const userPath = this.pluginPath(this.USER_RULES_FILE);
     if (!await this.app.vault.adapter.exists(builtinPath)) {
@@ -5073,6 +5167,24 @@ var RuleManager = class {
     rule.options = opts || void 0;
     await this.saveRulesFile(file, cache);
     this.ruleEngine.updateRule(id, { triggerMode: tabMode ? "tab" /* Tab */ : "auto" /* Auto */ });
+  }
+  async migrateRulesFiles(oldPath, newPath) {
+    const oldBase = oldPath || this.manifest.dir;
+    const newBase = newPath || this.manifest.dir;
+    if (oldBase === newBase)
+      return;
+    if (newPath) {
+      await this.app.vault.adapter.mkdir(newPath);
+    }
+    for (const filename of [this.BUILTIN_RULES_FILE, this.USER_RULES_FILE]) {
+      const src = `${oldBase}/${filename}`;
+      try {
+        const content = await this.app.vault.adapter.read(src);
+        await this.app.vault.adapter.write(`${newBase}/${filename}`, content);
+      } catch (e) {
+      }
+    }
+    this.previousStoragePath = newPath;
   }
 };
 

@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Vipin"
+              "title": "Outline of Doc Workflow Two-Doc System"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Doc Workflow Two-Doc System"
             }
           },
           {
@@ -124,7 +124,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 45.43103448275862,
+        "dimension": 45.431034482758626,
         "children": [
           {
             "id": "681d9fb88f64f790",
@@ -176,8 +176,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -207,7 +206,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 17.02127659574468,
+        "dimension": 17.021276595744684,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +224,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UAT Vipin"
+              "title": "Backlinks for Doc Workflow Two-Doc System"
             }
           },
           {
@@ -234,12 +233,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UAT Vipin"
+              "title": "Outgoing links from Doc Workflow Two-Doc System"
             }
           },
           {
@@ -268,10 +267,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/UAT Vipin.md"
+                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for UAT Vipin"
+              "title": "File properties for Doc Workflow Two-Doc System"
             }
           }
         ],
@@ -280,7 +279,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 56.42553191489361,
+        "dimension": 56.42553191489362,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -316,7 +315,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.553191489361698,
+        "dimension": 26.5531914893617,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -346,18 +345,10 @@
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
       "obsidian-git:Open Git source control": false,
-      "spreadsheets:New Spreadsheet": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidiosaurus:Obsidiosaurus": false,
       "hi-note:HiNote": false,
-      "obsidian-import-json:JSON/CSV Importer": false,
-      "callout-manager:Insert Callout": false,
-      "markwhen:Create new Markwhen file": false,
-      "companion:Toggle completion": false,
-      "smart-composer:Open smart composer": false,
-      "iconic:Open rulebook": false,
       "tasknotes:Open mini calendar": false,
       "tasknotes:Open advanced calendar": false,
       "tasknotes:Open task list": false,
@@ -371,8 +362,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f7e4e9f533000055",
+  "active": "681d9fb88f64f790",
   "lastOpenFiles": [
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/UAT Vipin.md",
+    "Product/UX changes/Sign up and Onboarding mails.md",
     "Not a trash/SparrowGenie Help Article Template.md",
     "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
@@ -391,14 +388,8 @@
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Questions/Insert from QnA.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Projects/Questions/Untitled.md",
     "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
-    "Product/Knowledge Hub/RFP training.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
-    "Product/Templates/Product to dev process/FRD Template.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",

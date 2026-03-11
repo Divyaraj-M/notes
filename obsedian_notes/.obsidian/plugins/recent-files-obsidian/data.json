@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+    },
+    {
+      "basename": "Training back Projects into Knowledge Hubs",
+      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "FRD Template",
+      "path": "Product/Templates/Product to dev process/FRD Template.md"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/UX changes/Sign up and Onboarding mails.md"
     },
     {
       "basename": "SparrowGenie Help Article Template",
@@ -77,14 +97,6 @@
       "path": "Product/Projects/Questions/Insert from QnA.md"
     },
     {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Product/Projects/Questions/Untitled.md"
     },
@@ -101,16 +113,8 @@
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
     {
-      "basename": "FRD Template",
-      "path": "Product/Templates/Product to dev process/FRD Template.md"
-    },
-    {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
     },
     {
       "basename": "Author",
@@ -195,10 +199,6 @@
     {
       "basename": "Instructions from the Document",
       "path": "Product/Instructions/Instructions from the Document.md"
-    },
-    {
-      "basename": "Instructions",
-      "path": "Product/Instructions/Instructions.md"
     }
   ],
   "omittedPaths": [],
