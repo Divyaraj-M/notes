@@ -1,6 +1,7 @@
 ---
 tags:
   - "#new_feature/save_to_qna/v1"
+status: Dropped
 ---
 ## First principle thinking 
 

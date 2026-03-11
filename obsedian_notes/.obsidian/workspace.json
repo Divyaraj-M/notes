@@ -31,102 +31,6 @@
         "dimension": 76.56380316930776,
         "children": [
           {
-            "id": "470c1bc790e7a4fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Training back Projects into Knowledge Hubs"
-            }
-          },
-          {
-            "id": "08c91b4c8c220aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Table View/Table view for question card PRD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Table view for question card PRD"
-            }
-          },
-          {
-            "id": "600826d95ae66417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RFP to Proposal"
-            }
-          },
-          {
-            "id": "2c694319c5c55553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FRD Template"
-            }
-          },
-          {
             "id": "f7e4e9f533000055",
             "type": "leaf",
             "state": {
@@ -173,9 +77,32 @@
               "icon": "lucide-file",
               "title": "PRD Feature Name"
             }
+          },
+          {
+            "id": "52c913e80c4ceb9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Training back Projects into Knowledge Hubs"
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -437,11 +364,14 @@
   "active": "f7e4e9f533000055",
   "lastOpenFiles": [
     "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Knowledge Hub/RFP training.md",
     "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/Questions/Save to QnA",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/User roles/Project/Question card/Author.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Templates/Book shelf.md",
@@ -456,8 +386,6 @@
     "Product/Templates/First-Principles Product Template.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Help Article/Mapping.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Internal Share/Share assign and review flow.md",
     "Product/Projects/Obligations/Obligations.md",
