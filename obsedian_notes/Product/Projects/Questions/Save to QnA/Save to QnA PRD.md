@@ -3,209 +3,172 @@ tags:
   - "#new_feature/save_to_qna/v1"
 status: Dropped
 ---
-## First principle thinking 
 
+
+---
 
 ## 1. Problem Statement
 
+Proposal teams repeatedly answer the same RFP questions across projects. Good answers get lost inside completed projects and never become reusable knowledge. The question was whether users need a manual "Save to Knowledge Hub" button so they can push individual Q&A answers into the KH during project work.
 
-[Write here]
-
----
-
-## 2. Goals
-
-<!-- Measurable outcomes. Each answers: "How will we know this worked?" -->
-
-**User Goals**
-
-- [e.g., Reduce time to complete X from 10 min to 2 min]
-
-**Business Goals**
-
-- [e.g., Increase activation rate from 30% to 50% within 60 days]
+After first-principles analysis, the answer is no. The RFP Answer Training Loop (currently in PRD) already solves this problem at a system level. Building a manual save button would create a temporary workaround that teaches users a habit we would later need to undo.
 
 ---
 
-## 3. Non-Goals
+## 2. First Principles Analysis
 
-<!-- What this feature will NOT do. Prevents scope creep. -->
+### The Core Question
 
-| Non-Goal                       | Why Out of Scope                 |
-| ------------------------------ | -------------------------------- |
-| [e.g., Multi-language support] | [Separate initiative planned Q3] |
-|                                |                                  |
+If the RFP training loop automatically pushes all reviewed Q&A pairs to the Knowledge Hub at project completion, what does a manual save button actually solve?
+
+### What the Training Loop Already Covers
+
+|Capability|Handled by Training Loop?|
+|---|---|
+|Capture reviewed Q&A pairs|Yes — at project completion|
+|Route answers to correct KH|Yes — BM25 segregation for multi-hub|
+|Deduplicate against existing entries|Yes — change detection (30–40% threshold)|
+|Track reuse and provenance|Yes — reuse count + provenance chain|
+|Grow KH from real proposal work|Yes — every completed project feeds back|
+
+### What the Save Button Would Add
+
+Only two things the training loop does not cover:
+
+- **Speed:** Users could push answers to KH before project completion instead of waiting weeks.
+- **Curation signal:** Users could mark specific answers as high-value, instead of the system treating all project answers equally.
+
+Neither justifies the cost. Here is why.
+
+#### Why Speed Does Not Justify It
+
+The training loop fires at project completion. Until then, answers live inside the project. A save button would let users push answers to KH mid-project. But this creates a parallel ingestion path that complicates deduplication, change detection, and provenance tracking. The engineering cost of handling two entry points is not worth the marginal speed gain.
+
+#### Why Curation Does Not Justify It
+
+The training loop treats all reviewed answers equally. A save button would let users flag specific answers as reusable. But the reuse tracking system already solves quality differentiation over time: answers that get reused across projects rise in ranking, answers nobody picks stay low. The system learns quality from usage data, not from a user clicking a button once.
+
+### The Real Risk of Building It Now
+
+The training loop is not yet implemented. Building the save button as a stopgap means users learn the manual workflow. When the training loop ships, we face two problems: migrating user behavior away from manual save, and deciding whether to keep or kill a feature people are already using. Shipping a workaround before the real system creates a permanent expectation from a temporary problem.
 
 ---
 
-## 4. User Stories
+## 3. Decision
 
-<!-- "As a [specific user], I want [capability] so that [benefit]." Order by priority. -->
+| Field              | Details                                                                                                                                                          |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Decision**       | **Drop the feature. Do not build the Save to KH button.**                                                                                                        |
+| **Rationale**      | The RFP Answer Training Loop already captures, routes, deduplicates, and tracks all reviewed Q&A pairs. A manual save adds a parallel path with no unique value. |
+| **Instead, build** | The RFP Answer Training Loop (as specified in existing PRD). This is the correct first-principle solution.                                                       |
+| **Revisit if**     | After the training loop ships, user feedback explicitly requests mid-project knowledge capture. Data-driven decision at that point.                              |
 
-|#|User Type|I want to...|So that...|Priority|
+---
+
+## 4. Goals
+
+Not applicable. Feature dropped before goal-setting stage.
+
+The goals this feature would have served are already covered by the RFP Answer Training Loop:
+
+- Reduce proposal writing time by 30–50% (via answer reuse from KH)
+- Achieve 60%+ project-to-KH contribution rate within 90 days of training loop launch
+- Reduce SME burden by 25–40% through knowledge reuse
+
+---
+
+## 5. Non-Goals
+
+|Non-Goal|Why Out of Scope|
+|---|---|
+|Manual Save to KH button|Training loop handles this automatically. Manual save creates parallel path and behavioral debt.|
+|Mid-project knowledge capture|No validated need. Revisit only if post-launch data from training loop shows demand.|
+|User-curated quality signals|Reuse tracking + change detection already differentiate quality over time.|
+
+---
+
+## 6. User Stories
+
+|#|User|I want to...|So that...|Resolution|
 |---|---|---|---|---|
-|US-1|[e.g., Team admin]|[Capability]|[Benefit]|P0|
-|US-2||||P0|
-|US-3||||P1|
+|US-1|SME|Save a high-quality answer to KH immediately|It is reusable in parallel projects|Covered by training loop at project completion|
+|US-2|Proposal Owner|Mark an answer as reusable knowledge|KH library quality stays high|Reuse tracking handles quality over time|
+|US-3|Knowledge Admin|Review manually saved entries|KH stays clean|Training loop includes review gate|
 
 ---
 
-## 5. Requirements
+## 7. Requirements
 
-### Must-Have (P0)
+No requirements. Feature dropped.
 
-<!-- Cannot ship without these. If you cut it, does the feature still solve the problem? If no → P0. -->
+All underlying needs are addressed by the RFP Answer Training Loop PRD, specifically:
 
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P0.1|[Describe behavior]|[Given/When/Then or checklist]|
-|P0.2|||
-
-### Nice-to-Have (P1)
-
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P1.1|[Describe]|[Criteria]|
-
-### Future Considerations (P2)
-
-- [P2.1 — Document so we don't block it architecturally]
+- P0.2 — Project-to-KH Feedback Loop (automatic capture at completion)
+- P0.4 — BM25 Answer Retrieval (reuse of captured knowledge)
+- P0.5 — Reuse Tracking (quality differentiation through usage)
+- P0.6 — Change Detection and Deduplication (prevents stale and duplicate entries)
 
 ---
 
-## 6. User Flows
+## 8. User Flows
 
-<!-- This is what the designer works from. Map each major flow step-by-step. Include decision points and error branches. Entry point → steps → exit point. -->
+No new user flows required. The existing training loop flow handles the complete lifecycle:
 
-### Flow 1: [Primary Happy Path]
-
-> **Entry point:** [How does the user get here?] **Exit point:** [Where do they end up?]
-
-```
-Step 1 → Step 2 → Step 3 → Step 4
-                      ↓ (if error)
-                   Error State
-```
-
-1. [e.g., User clicks "Create New" on dashboard]
-2. [e.g., Modal opens with form: Name, Type, Description]
-3. [e.g., User fills fields → clicks "Save"]
-4. [e.g., Success toast → redirected to detail view]
-
-**Error branch:** [What happens on validation failure / API error?]
-
-### Flow 2: [Secondary / Edge Case Path]
-
-> **Entry point:** [...] **Exit point:** [...]
-
-1. [Steps...]
+**Project Q&A → Human Review → Project Completion → Auto-feedback to KH → Change Detection → KH Updated**
 
 ---
 
-## 7. Screens & Components
+## 9. Screens and Components
 
-<!-- List every screen the designer needs to create. For each: purpose, key elements, states. This section replaces a separate Design Spec. -->
-
-### Screen 1: [Screen Name]
-
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — [One-line description]
-
-| Field | Description |
-|------|-------------|
-| **Purpose** | What is this screen for? |
-| **Entry from** | Which flow step leads here? |
-| **Key elements** | Buttons, inputs, tables, cards — what is on this screen? |
-| **States** | Empty, Loading, Populated, Error — which apply? |
-| **User stories** | US-1, US-2 — which stories does this screen serve? |
-
-
-**Content & copy:**
-
-| Location      | Text                                               | Notes               |
-| ------------- | -------------------------------------------------- | ------------------- |
-| [Page title]  | [e.g., "Your Proposals"]                           |                     |
-| [Empty state] | [e.g., "No proposals yet. Create your first one."] | [Include CTA]       |
-| [Error state] | [e.g., "Something went wrong. Try again."]         | [Show retry button] |
-
-### Screen 2: [Screen Name]
-
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — [One-line description]
-
-| Field | Details |
-|------|---------|
-| **Purpose** | |
-| **Entry from** | |
-| **Key elements** | |
-| **States** | |
-| **User stories** | |
-
-### New / Modified Components
-
-<!-- Only components that are new or changed for this feature. -->
-
-|Component|States|New or Existing?|Used on|
-|---|---|---|---|
-|[e.g., Status Badge]|[Active, Inactive, Pending]|New|Screen 1, Screen 3|
+No new screens or components. No design work required.
 
 ---
 
-## 8. Design Constraints
+## 10. Design Constraints
 
-<!-- Anything that limits the designer's decisions. -->
-
-- [e.g., Must work on mobile down to 375px]
-- [e.g., Must meet WCAG 2.1 AA contrast ratios]
-- [e.g., Reuse existing card component from design system]
-- [e.g., Max 2 new colors — stay within brand palette]
+Not applicable.
 
 ---
 
-## 9. Success Metrics
+## 11. Success Metrics
+
+This feature was dropped, so there are no direct metrics. The training loop metrics serve as the proxy:
 
 |Metric|Target|Measure By|Tool|
 |---|---|---|---|
-|[e.g., Adoption rate]|[50% in 30 days]|[30 days post-launch]|[Mixpanel]|
-|||||
+|KH entries from completed projects|60%+ projects contribute|90 days post-launch|Product analytics|
+|Answer reuse rate|70%+ reuse|120 days post-launch|Product analytics|
+|User requests for manual save|Monitor (revisit trigger)|Ongoing|Support tickets / feedback|
 
 ---
 
-## 10. Open Questions
+## 12. Open Questions
 
 |#|Question|Owner|Blocking?|Status|
 |---|---|---|---|---|
-|Q1|[Question]|[Eng / Design / Legal]|[Yes / No]|Open|
-||||||
+|Q1|After training loop ships, will users request mid-project knowledge capture?|Product|No|Monitor post-launch|
+|Q2|Should KH support answer blocks (reusable fragments) in addition to Q&A pairs?|Product|No|V2 consideration|
 
 ---
 
-## 11. Timeline & Dependencies
+## 13. Timeline and Dependencies
 
-- **Hard deadlines:** [If any]
-- **Dependencies:** [Other teams / features this depends on]
-- **Phasing:** [If too large for one sprint, how to split]
+- **Hard deadlines:** None. Feature dropped.
+- **Dependencies:** RFP Answer Training Loop must ship first. That is the real solution.
+- **Revisit condition:** Only if post-launch user feedback from the training loop shows clear demand for mid-project knowledge capture.
 
 ---
 
-## 12. Jira Tickets — Design Phase
+## 14. Jira Tickets
 
-<!-- One Story Definition ticket per feature. Design sub-tasks under it. -->
+No tickets required. Feature not entering development.
 
-### Story: [PROJ]-XXX — [Feature Name] — Story Definition
-
-> **Type:** Story **Epic:** [Epic name] **Description:** [Links to this PRD]
-
-|Sub-task|Summary|Assignee|Status|Linked Screens|
-|---|---|---|---|---|
-|`[PROJ]-XXX`|Design: [Screen 1 name]|[Designer]|To Do|Screen 1|
-|`[PROJ]-XXX`|Design: [Screen 2 name]|[Designer]|To Do|Screen 2|
-|`[PROJ]-XXX`|Design: Component — [Component name]|[Designer]|To Do|Screen 1, 3|
-|`[PROJ]-XXX`|Design: Flow review + edge cases|[Designer]|To Do|All|
+If revisited in the future, create a spike ticket under the Knowledge Hub epic for discovery research.
 
 ---
 
 ## Changelog
 
-| Date   | Author | Changes       |
-| ------ | ------ | ------------- |
-| [Date] | [Name] | Initial draft |
-|        |        |               |
+| Date       | Author | Changes                                                                                                                     |
+| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| March 2026 | Prod   | Initial analysis. Feature evaluated through first principles and dropped. Training loop identified as the correct solution. |

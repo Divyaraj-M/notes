@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+                "file": "Product/Projects/Questions/Insert from QnA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Save to QnA PRD"
+              "title": "Outline of Insert from QnA"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+                "file": "Product/Projects/Questions/Insert from QnA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Save to QnA PRD"
+              "title": "Insert from QnA"
             }
           },
           {
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+                "file": "Product/Projects/Questions/Insert from QnA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Save to QnA PRD"
+              "title": "Backlinks for Insert from QnA"
             }
           },
           {
@@ -224,12 +224,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+                "file": "Product/Projects/Questions/Insert from QnA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Save to QnA PRD"
+              "title": "Outgoing links from Insert from QnA"
             }
           },
           {
@@ -258,10 +258,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md"
+                "file": "Product/Projects/Questions/Insert from QnA.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Save to QnA PRD"
+              "title": "File properties for Insert from QnA"
             }
           }
         ],
@@ -363,10 +363,11 @@
   },
   "active": "f7e4e9f533000055",
   "lastOpenFiles": [
+    "Product/Projects/Questions/Untitled.md",
+    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training.md",
-    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
@@ -375,7 +376,6 @@
     "Product/User roles/Project/Question card/Author.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Templates/Book shelf.md",
-    "Product/Projects/Questions/Untitled.md",
     "Books/Read List/Read List.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Templates/Product to dev process/Search returns correct results → click result → detail view loads.md",
