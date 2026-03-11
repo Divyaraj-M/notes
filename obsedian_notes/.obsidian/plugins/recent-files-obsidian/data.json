@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "My Data",
-      "path": "My Data.base"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "Product/Audit report/Audit Report R126022026.md"
+      "basename": "FRD Template",
+      "path": "Product/Templates/Product to dev process/FRD Template.md"
     },
     {
       "basename": "PRD Feature Name",
       "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
     },
     {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+    },
+    {
       "basename": "Product Spec Template 2",
       "path": "Product/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
+      "basename": "Audit Report R126022026",
+      "path": "Product/Audit report/Audit Report R126022026.md"
     },
     {
       "basename": "Proposal Conversion Flow",
@@ -27,10 +39,6 @@
     {
       "basename": "Insert from QnA",
       "path": "Product/Projects/Table View/Insert from QnA.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
     },
     {
       "basename": "Book shelf",
@@ -191,14 +199,6 @@
     {
       "basename": "SmartScan",
       "path": "Product/competitors/Loopio/SmartScan.md"
-    },
-    {
-      "basename": "Project Watcher",
-      "path": "Product/User roles/Project/Project Watcher.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     }
   ],
   "omittedPaths": [],

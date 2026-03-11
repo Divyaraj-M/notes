@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Data.base",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of My Data"
+              "title": "Outline of FRD Template"
             }
           }
         ]
@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Templates/Product Spec Template 2.md",
+                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Product Spec Template 2"
+              "title": "PRD Feature Name"
+            }
+          },
+          {
+            "id": "600826d95ae66417",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FRD Template"
             }
           },
           {
@@ -132,11 +156,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "My Data.base",
-                "viewName": "My Books"
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "All Tasks"
               },
-              "icon": "lucide-table",
-              "title": "My Data"
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
             }
           },
           {
@@ -164,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -267,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Data.base",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +301,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My Data"
+              "title": "Backlinks for FRD Template"
             }
           },
           {
@@ -286,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Data.base",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My Data"
+              "title": "Outgoing links from FRD Template"
             }
           },
           {
@@ -412,27 +436,28 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "600826d95ae66417",
   "lastOpenFiles": [
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Templates/Product Spec Template 2.md",
+    "TaskNotes/Views/tasks-default.base",
+    "Product/Help Article/Mapping.md",
+    "My Data.base",
     "Product/Audit report/Audit Report R126022026.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Templates/Product Spec Template 2.md",
     "Product/Templates/Product to dev process",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Table View/Insert from QnA.md",
-    "Product/Help Article/Mapping.md",
     "Product/Templates/Book shelf.md",
     "Product/Templates/Template - PM.md",
-    "Markwhen/SparrowGenie.mw.mw",
     "Product/Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Table View/Save to QnA.md",
     "Product/Projects/Table View/Table view for question card PRD.md",
@@ -449,7 +474,6 @@
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Go-no-go/AI Readiness Score (ARS).md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Product/Audit report/Audit report.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
