@@ -1,275 +1,271 @@
-#new_feature/obligations/v1
+# FRD: [Feature Name]
 
-[PRD Doc](https://docs.google.com/document/d/1uRluyS83yWG59VunxS0HNHFKeb4myP6AUXIhpoVBfkY/edit?usp=sharing)
-## Overview
-
-The Obligations module allows sales teams to track commitments made during an RFP or proposal inside SparrowGenie.
-
-An obligation represents a commitment tied to a specific project.  
-Examples include sharing documents, delivering revisions, confirming feasibility, or providing approvals.
-
-This module ensures commitments are visible, trackable, and accountable within the same system that manages proposal execution.
+> **PRD Reference:** [Link to PRD] **Design Reference:** [Link to Figma] **PM Owner:** [PM Name] **Tech Lead:** [Name] **Status:** Draft / In Review / Approved / In Development **Sprint:** [Sprint number] **Last Updated:** [Date]
 
 ---
 
-## Problem Statement
+<!-- This doc is written AFTER design is approved. It translates Figma screens into implementable specs. Every interaction, every edge case, every API call. If a dev has to guess, this doc failed. -->
 
-Sales teams make explicit commitments during proposal cycles.
+## 1. Overview
 
-Today, SparrowGenie does not provide structured tracking for these commitments at the project level.
+<!-- 3-5 sentences. What problem, what scope, what design decisions are already locked. Link the PRD, don't restate it. -->
 
-As a result:
+[Write here]
 
-- Users maintain external trackers (Excel, Slack, task boards)    
-- Commitments are fragmented
-- Ownership becomes unclear  
-- Deadlines are missed
-- Delivery risk increases
+**Key design decisions already made:**
 
-The system manages proposal content, but not the commitments made around that content.
-
-This creates accountability gaps during critical deal stages.
+- [e.g., Creation flow uses a modal, not a full page]
+- [e.g., List view uses infinite scroll, not pagination]
 
 ---
 
-## Target Users
+## 2. Screen Specifications
 
-### Primary Users
+<!-- For each screen from approved Figma, document every interaction at the granular level. -->
 
-- Project Owner
-- Project Manager
+### Screen 1: [Screen Name]
 
-### Out of Scope (V1)
+> **Figma frame:** [Link to specific frame] 🎟️ **Dev story:** `[PROJ]-XXX` **PRD user stories:** US-1, US-2
 
-- Watcher (structural editing)
+#### Interactions
 
-Watcher will have discussion-only access.
+|#|Trigger|Behavior|Error Handling|
+|---|---|---|---|
+|I-1|[e.g., User clicks "Save"]|[Validate all fields. If valid: POST /api/items, show spinner on button, on success show toast + redirect to list view]|[422: inline field errors. 500: "Something went wrong" toast + retry. Timeout 10s: offline banner]|
+|I-2|[e.g., User types in search]|[Debounce 300ms. GET /api/items?q={query}. Min 2 chars. Show skeleton loader in results area]|[No results: empty state. API error: show last cached results + error banner]|
+|I-3|[e.g., User hovers row]|[Show action icons (edit, delete) on right side of row. Cursor → pointer]|[N/A]|
 
----
+#### Field Validations
 
-## Scope
+|Field|Type|Rules|Error Message|Required|
+|---|---|---|---|---|
+|[Name]|Text input|Max 100 chars, no special chars, trim whitespace|"Name must be under 100 characters"|Yes|
+|[Email]|Email input|RFC 5322 format, max 254 chars|"Enter a valid email address"|Yes|
+|[Type]|Dropdown|Must select one of: [Option A, Option B, Option C]|"Select a type"|Yes|
 
-### Included in V1
+#### States
 
-**Core Structure**
-
-- Obligations tab inside each Project
-- Table-based layout
-- Create new obligation row
-- Obligation Title is mandatory to create a row
-- Drag and drop rows
-- Drag and drop columns
-- Filter (right-side panel)
-- Group by (visual grouping only)
-
-**Data Fields (Editable by Owner/Manager)**
-
-- Obligation Title
-	- is required to create a row 
-- Status
-	- Drop downs 
-		- Open 
-		- In Progress
-		- Delivered 
-		- Overdue
-	- Once created default should be open 
-- Assignee
-	- User only from inside sparrowGenie should be listed down 
-	- If user assigned who is outside of project shared list added [[Project Watcher]]
-	- If removed the user as watcher it should be prompted with the modal , and reassign that user 
-- Questions 
-	- attach one or more project questions
-	- Only question number
-- Expected Delivery
-	- Calendar 
-- Type
-	- Drop downs
-		- legal 
-		- Product 
-		- Security
-		- Feature
-	- Multi select
-	- **Can edit the Dropdown**
-	- **Can set the color from the color palette** 
-
-
-**Details Pane**
-
-- Opens from left on row click
-- Full obligation details
-- Description field
-	- Plain text - multiline field 
-	- can add text description 
-- Comments section
-	- Able to comment without any formatting 
-	- Able to tag people 
-	- Tag list should show all the people from the System user list
-	- If the user doesn't have access to project , user will be prompted with modal for share access
-		- User can either ignore or can share and notify ([[Email notifications]]
-		- ) the tagged user (can be taken from the project comment interaction)
-	  ![[Screenshot 2026-02-17 at 5.30.06 PM.png]]
-	- Able to edit and delete the comment 
-
-- Activity log
-	- Log the Events which the Obligations are tracking 
+|State|What User Sees|Trigger|Exit Condition|
+|---|---|---|---|
+|Loading|Skeleton cards (3 placeholder rows)|Page load / data fetch|API response received|
+|Empty|Illustration + "No items yet" + CTA button|API returns 0 results|User creates first item|
+|Populated|Data table with rows, sort, filter|API returns results|—|
+|Error|Error banner + retry button + last cached data if available|API 5xx or network fail|User clicks retry + API succeeds|
 
 ---
 
-### Explicit Non-Goals (V1)
+### Screen 2: [Screen Name]
 
-- AI-based summarization
-- Custom field builder
-- Dashboard-level rollups
-- Stage-based automation
+> **Figma frame:** [Link] 🎟️ **Dev story:** `[PROJ]-XXX`
 
----
+#### Interactions
 
-## Experience
+|#|Trigger|Behavior|Error Handling|
+|---|---|---|---|
+|I-1||||
 
-### Primary User Flow
+#### Field Validations
 
-1. User enters Project
-2. Clicks Obligations tab
-3. Clicks “Add Obligation”
-4. Enters mandatory Title
-5. Row is created
-6. User can:
-    - 
-    -  Attach related questions
-    - Assign user
-    -  Set Status
-    - Set Due Date
-    - Open details pane
-    - Add description
-    - Add comments
-    - Tag project members
+|Field|Type|Rules|Error Message|Required|
+|---|---|---|---|---|
+||||||
+
+#### States
+
+|State|What User Sees|Trigger|Exit Condition|
+|---|---|---|---|
+|||||
 
 ---
 
-### Key Interaction Principles
+## 3. API Contracts
 
-- No title → No row creation
-- Questions column supports multiple attachments
-- Drag and drop changes order visually
-- Grouping is visual only (does not change data structure)
-- All structural edits generate activity logs
-- Details pane accessible from any row
+<!-- Every endpoint this feature touches. Backend + frontend use this to work in parallel. -->
 
----
+### Endpoint 1: [Name]
 
-### Critical Edge Cases
+|||
+|---|---|
+|**Method**|[GET / POST / PUT / DELETE]|
+|**Path**|[/api/v1/resource]|
+|**Auth**|[Bearer token / API key / Session]|
+|**Request body**|`{ name: string, type: enum("a","b"), description?: string }`|
+|**Success (200)**|`{ id: string, name: string, created_at: ISO8601 }`|
+|**Error 400**|`{ error: "validation_error", fields: { name: "required" } }`|
+|**Error 401**|`{ error: "unauthorized" }`|
+|**Error 404**|`{ error: "not_found" }`|
+|**Error 500**|`{ error: "internal_error" }`|
+|**Rate limit**|[If applicable]|
 
-- If user has no edit permission → read-only mode
-- If project is deleted → all obligations deleted
-- If attached question is deleted → obligation keeps reference marked “Unavailable”
-- If tagged user removed from project → historical mention remains
-- If owner removed from project → reassignment required before removal
+### Endpoint 2: [Name]
 
----
-
-## Implementation Details
-
-### Data Behavior and Persistence
-
-- Obligation belongs to exactly one project
-- One project can have multiple obligations
-- Questions support many-to-many mapping
-- Title cannot be empty
-- Activity logs are immutable
-- Reordering does not change obligation ID
-
+|||
+|---|---|
+|**Method**||
+|**Path**||
+|**Auth**||
+|**Request body**||
+|**Success**||
+|**Errors**||
 
 ---
 
-## Role-Based Permissions
+## 4. Data Model Changes
 
-| Role    | Create | Edit | Comment | Tag | Delete |
-| ------- | ------ | ---- | ------- | --- | ------ |
-| Owner   | Yes    | Yes  | Yes     | Yes | Yes    |
-| Manager | Yes    | Yes  | Yes     | Yes | Yes    |
-| Watcher | No     | No   | Yes     | Yes | No     |
+<!-- New tables, fields, indexes, migrations. If none needed: "No data model changes." -->
 
----
+**Table: [table_name]**
 
-### Permission Rules
+|Field|Type|Nullable|Default|Notes|
+|---|---|---|---|---|
+|[status]|enum|No|'draft'|Values: draft, active, archived|
+|[created_by]|uuid|No|—|FK → users.id|
 
-**Owner**
+**Indexes:**
 
-- Full control
-- Can create, modify, delete, reorder, assign
+- [e.g., idx_items_status on items(status) — for filtered list queries]
 
-**Manager**
+**Migrations:**
 
-- Same structural control as Owner
-
-**Watcher**
-
-- Can view obligations
-- Can open details pane
-- Can comment
-- Can tag project members
-- Cannot modify structure or state
+- [e.g., Add status column with default 'draft', backfill existing rows]
 
 ---
 
-## Activity Logging
+## 5. Blast Radius
 
-The following actions must be logged:
+<!-- What existing stuff does this change touch? Critical for QA and code review. -->
 
-- Obligation created
-	- Obligation created by {user_name}
-- Title edited
-	-  {user_name} updated the {field_name} (show the diff)
-- Assignee changed
-	- {user_name} reassigned the obligation to {new_assignee_name}
-- Due date changed
-	- {user_name} updated the due date to dd/mm/yyyy
-- Status changed
-	-  {user_name} updated the status {intial_status} to {traget_status}
-- Question attached/detached
-	-  {user_name} updated the {field_name} from {inital_questions} to {final_info}
-- Comment added
-	- {user_name} commented "{comment}"
-
-
-Activity logs are chronological and immutable.
-
-
-
+|Affected Area|What Changes|Risk|Regression Test|
+|---|---|---|---|
+|[Dashboard]|[New widget added to grid]|Low — additive|[Verify dashboard loads, existing widgets unaffected]|
+|[User permissions]|[New permission type in RBAC]|Medium — affects all roles|[Verify existing role permissions unchanged]|
+|[Notification system]|[New event type triggers email]|Low|[Verify existing notifications still fire]|
 
 ---
 
-## Key Questions Post-Launch
+## 6. Permissions & Access Control
 
-- Are users replacing external trackers?
-- Are late-stage deals using obligations more?
-- Does obligation usage correlate with faster deal closure?
-
----
-
-## Key Assumptions
-
-- Sales teams want native commitment tracking
-- Owners will maintain obligations if workflow is simple
-- Linking obligations to questions increases context clarity
+|Action|Allowed Roles|Denied Behavior|Notes|
+|---|---|---|---|
+|[Create item]|Admin, Editor|Button hidden in UI. 403 if API called directly|Viewer sees read-only|
+|[Delete item]|Admin only|Button hidden. 403 on API|—|
+|[View list]|All authenticated|401 redirect to login if unauthenticated|—|
 
 ---
 
-## Open Questions
+## 7. Performance Requirements
 
-- Should overdue obligations surface in dashboard?
-- Should stage-based rules enforce obligation creation?
-- Should AI detect commitments in proposal answers?
-	- Can be v2 
-- Should notifications trigger on tagging (needs decision)?
-- Can obligation be other modules?
-	- if yes do we need to bring it global 
+<!-- Only if specific requirements exist beyond normal expectations. -->
+
+- [e.g., List endpoint: < 200ms for up to 1000 items]
+- [e.g., Search: debounce 300ms client-side, API < 500ms]
+- [e.g., Image uploads: max 5MB, client-side compression before upload]
+- [e.g., Caching: list results cached 60s, invalidate on create/update/delete]
+
 ---
 
-## Dependencies
+## 8. Analytics Events
 
-- Project permission system
-- Project comments framework
-- Activity logging framework
-- Question entity mapping
-- Drag-and-drop UI infrastructure
+|Event Name|Properties|Trigger|PRD Metric|
+|---|---|---|---|
+|[item_created]|item_id, item_type, time_to_create_ms|On successful POST|Activation rate|
+|[item_searched]|query_length, result_count, time_to_first_result_ms|On search response|Task completion|
+|[item_deleted]|item_id, item_age_days|On successful DELETE|—|
+
+---
+
+## 9. Testing Checklist
+
+### Happy Path
+
+- [ ] [Create item with all fields → appears in list]
+- [ ] [Search returns correct results → click result → detail view loads]
+- [ ] [Edit item → changes persist on refresh]
+
+### Edge Cases
+
+- [ ] [Submit with max-length values in all fields]
+- [ ] [Create item with special characters in name]
+- [ ] [Rapid successive clicks on submit button]
+- [ ] [Browser back button during creation flow]
+
+### Error Cases
+
+- [ ] [Submit while API is down → error state renders]
+- [ ] [Submit with invalid data → inline validation errors show]
+- [ ] [Session expired mid-flow → redirect to login, preserve draft]
+
+### Regression
+
+- [ ] [Dashboard loads correctly with new widget]
+- [ ] [Existing items unaffected by migration]
+- [ ] [Other features' API calls still work]
+
+### Accessibility
+
+- [ ] [All interactive elements keyboard-navigable]
+- [ ] [Screen reader announces state changes]
+- [ ] [Color contrast meets WCAG 2.1 AA]
+
+---
+
+## 10. Technical Open Questions
+
+|#|Question|Owner|Blocking?|Status|Resolution|
+|---|---|---|---|---|---|
+|TQ-1|[e.g., New DB index needed for search?]|[Backend lead]|Yes|Open||
+|TQ-2|[e.g., WebSocket or polling for real-time updates?]|[Tech lead]|No|Open||
+
+---
+
+## 11. Jira Tickets — Dev Phase
+
+<!-- One Dev Story per logical unit. Atomic sub-tasks under each. Sub-tasks should be completable in < 1 day. -->
+
+### Story: `[PROJ]-XXX` — [Screen / Feature Slice Name]
+
+> **Type:** Story **Epic:** [Epic name] **Points:** [Estimate] **Depends on:** [Other ticket if blocked] **Linked PRD story:** `[PROJ]-XXX` (Story Definition)
+
+|Sub-task|Summary|Assignee|Estimate|Status|Spec Reference|
+|---|---|---|---|---|---|
+|`[PROJ]-XXX`|BE: Create [endpoint] API endpoint|[Dev]|[2h]|To Do|§3 Endpoint 1|
+|`[PROJ]-XXX`|BE: Add [table/field] migration|[Dev]|[1h]|To Do|§4 Data Model|
+|`[PROJ]-XXX`|FE: Build [Screen 1] — populated state|[Dev]|[4h]|To Do|§2 Screen 1|
+|`[PROJ]-XXX`|FE: Build [Screen 1] — empty + error states|[Dev]|[2h]|To Do|§2 Screen 1 States|
+|`[PROJ]-XXX`|FE: Wire [Screen 1] to API + loading state|[Dev]|[2h]|To Do|§2 Screen 1, §3|
+|`[PROJ]-XXX`|FE: Add field validations for [form]|[Dev]|[2h]|To Do|§2 Field Validations|
+|`[PROJ]-XXX`|FE: Add analytics events|[Dev]|[1h]|To Do|§8 Analytics|
+|`[PROJ]-XXX`|QA: Test happy path + edge cases|[QA]|[3h]|To Do|§9 Testing|
+
+### Story: `[PROJ]-XXX` — [Next Screen / Feature Slice]
+
+> **Points:** [Estimate] **Depends on:** [PROJ]-XXX
+
+|Sub-task|Summary|Assignee|Estimate|Status|Spec Reference|
+|---|---|---|---|---|---|
+|`[PROJ]-XXX`||||||
+
+---
+
+## Full Ticket Tracker
+
+<!-- Master view of all tickets across both phases (design from PRD + dev from FRD). -->
+
+|Ticket|Type|Phase|Summary|Assignee|Status|Depends On|Spec Section|
+|---|---|---|---|---|---|---|---|
+|`[PROJ]-XXX`|Story|Definition|[Feature] — Story Definition|[PM]|Done|—|PRD|
+|`[PROJ]-XXX`|Sub-task|Design|Design: [Screen 1]|[Designer]|Done|Story Def|PRD §7|
+|`[PROJ]-XXX`|Sub-task|Design|Design: [Screen 2]|[Designer]|Done|Story Def|PRD §7|
+|`[PROJ]-XXX`|Story|Dev|[Screen 1] — Dev Story|[Dev lead]|In Progress|Design done|FRD §2|
+|`[PROJ]-XXX`|Sub-task|Dev|BE: [endpoint] API|[Dev]|To Do|—|FRD §3|
+|`[PROJ]-XXX`|Sub-task|Dev|FE: [Screen 1] build|[Dev]|To Do|BE endpoint|FRD §2|
+|`[PROJ]-XXX`|Sub-task|Dev|QA: [Screen 1] testing|[QA]|To Do|FE build|FRD §9|
+
+---
+
+## Changelog
+
+| Date   | Author | Changes                           |
+| ------ | ------ | --------------------------------- |
+| [Date] | [Name] | Initial FRD from approved designs |
+|        |        |                                   |

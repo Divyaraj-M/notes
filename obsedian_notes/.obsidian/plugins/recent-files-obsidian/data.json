@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Obligations",
+      "path": "Product/Projects/Obligations/Obligations.md"
+    },
+    {
       "basename": "FRD Template",
       "path": "Product/Templates/Product to dev process/FRD Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "SmartScan",
-      "path": "Product/competitors/Loopio/SmartScan.md"
     }
   ],
   "omittedPaths": [],

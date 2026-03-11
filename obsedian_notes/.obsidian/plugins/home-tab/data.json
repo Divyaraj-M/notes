@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Templates/Product to dev process/Untitled.md",
+      "filepath": "Product/Projects/Obligations/Obligations.md",
+      "timestamp": 1773213957753
+    },
+    {
+      "filepath": "Product/Templates/Product to dev process/FRD Template.md",
       "timestamp": 1773213274742
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Templates/Product Spec Template 2.md",
       "timestamp": 1773213168077
-    },
-    {
-      "filepath": "TaskNotes/Views/tasks-default.base",
-      "timestamp": 1773213165438
     }
   ],
   "bookmarkedFileStore": [

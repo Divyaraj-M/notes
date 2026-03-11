@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FRD Template"
+              "title": "Outline of Obligations"
             }
           }
         ]
@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -123,7 +123,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FRD Template"
+              "title": "Obligations"
             }
           },
           {
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +301,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FRD Template"
+              "title": "Backlinks for Obligations"
             }
           },
           {
@@ -310,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "Product/Projects/Obligations/Obligations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from FRD Template"
+              "title": "Outgoing links from Obligations"
             }
           },
           {
@@ -438,8 +438,8 @@
   },
   "active": "600826d95ae66417",
   "lastOpenFiles": [
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Templates/Product Spec Template 2.md",
     "TaskNotes/Views/tasks-default.base",
