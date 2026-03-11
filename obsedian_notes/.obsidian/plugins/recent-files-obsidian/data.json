@@ -1,6 +1,78 @@
 {
   "recentFiles": [
     {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "SparrowGenie Help Article Template",
+      "path": "Not a trash/SparrowGenie Help Article Template.md"
+    },
+    {
+      "basename": "2026-01-30",
+      "path": "Not a trash/2026-01-30.md"
+    },
+    {
+      "basename": "2026-02-04",
+      "path": "Not a trash/2026-02-04.md"
+    },
+    {
+      "basename": "2026-02-10 19-43-37",
+      "path": "Not a trash/2026-02-10 19-43-37.md"
+    },
+    {
+      "basename": "Test",
+      "path": "Not a trash/Test.md"
+    },
+    {
+      "basename": "2026-02-13",
+      "path": "Not a trash/2026-02-13.md"
+    },
+    {
+      "basename": "Work Log 2026-02-16",
+      "path": "Not a trash/Work Log 2026-02-16.md"
+    },
+    {
+      "basename": "2026-02-23 -Weekly product Stand up",
+      "path": "Not a trash/2026-02-23 -Weekly product Stand up.md"
+    },
+    {
+      "basename": "2026-02-24 - Sprint Planning",
+      "path": "Not a trash/2026-02-24 - Sprint Planning.md"
+    },
+    {
+      "basename": "2026-02-24",
+      "path": "Not a trash/2026-02-24.md"
+    },
+    {
+      "basename": "2026-01-29 UAT with Vipin",
+      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
+    },
+    {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
+      "basename": "How to Create a project",
+      "path": "Product/Help Article/How to Create a project.md"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Share assign and review flow",
+      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
+    },
+    {
       "basename": "Insert from QnA",
       "path": "Product/Projects/Questions/Insert from QnA.md"
     },
@@ -81,16 +153,8 @@
       "path": "TaskNotes/Views/tasks-default.base"
     },
     {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
-    },
-    {
       "basename": "Proposal Conversion Flow",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
-    },
-    {
-      "basename": "Share assign and review flow",
-      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
     },
     {
       "basename": "Obligations",
@@ -135,70 +199,6 @@
     {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "AI Readiness Score (ARS)",
-      "path": "Product/Go-no-go/AI Readiness Score (ARS).md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "Audit report",
-      "path": "Product/Audit report/Audit report.md"
-    },
-    {
-      "basename": "2026-02-24",
-      "path": "Not a trash/2026-02-24.md"
-    },
-    {
-      "basename": "2026-01-29 UAT with Vipin",
-      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
-    },
-    {
-      "basename": "Routine",
-      "path": "Daily/Routine.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "Product/Settings/Teams/Teams.md"
-    },
-    {
-      "basename": "Assigning to the section",
-      "path": "Product/Settings/Teams/Assigning to the section.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Settings/Teams/Untitled.md"
-    },
-    {
-      "basename": "How to Create a project",
-      "path": "Product/Help Article/How to Create a project.md"
-    },
-    {
-      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
-      "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-26 at 11.21.15 AM",
-      "path": "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png"
-    },
-    {
-      "basename": "9.mar.2026 - Stand up",
-      "path": "Product/Meeting Notes/9.mar.2026 - Stand up.md"
-    },
-    {
-      "basename": "sparrowgenie-roi-final",
-      "path": "Product/ROI Calculator/sparrowgenie-roi-final.html"
-    },
-    {
-      "basename": "sparrowgenie-email-template",
-      "path": "Product/ROI Calculator/sparrowgenie-email-template.html"
     }
   ],
   "omittedPaths": [],

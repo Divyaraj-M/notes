@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Questions/Insert from QnA.md",
+                "file": "Product/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Insert from QnA"
+              "title": "Outline of UAT Vipin"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Questions/Insert from QnA.md",
+                "file": "Product/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Insert from QnA"
+              "title": "UAT Vipin"
             }
           },
           {
@@ -207,7 +207,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 38.03888419273035,
+        "dimension": 17.02127659574468,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Questions/Insert from QnA.md",
+                "file": "Product/UAT Vipin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Insert from QnA"
+              "title": "Backlinks for UAT Vipin"
             }
           },
           {
@@ -234,12 +234,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Questions/Insert from QnA.md",
+                "file": "Product/UAT Vipin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Insert from QnA"
+              "title": "Outgoing links from UAT Vipin"
             }
           },
           {
@@ -268,10 +268,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Questions/Insert from QnA.md"
+                "file": "Product/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Insert from QnA"
+              "title": "File properties for UAT Vipin"
             }
           }
         ],
@@ -280,7 +280,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 35.418427726120036,
+        "dimension": 56.42553191489361,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -316,7 +316,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.542688081149617,
+        "dimension": 26.553191489361698,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -373,9 +373,26 @@
   },
   "active": "f7e4e9f533000055",
   "lastOpenFiles": [
+    "Not a trash/SparrowGenie Help Article Template.md",
+    "Not a trash/2026-01-30.md",
+    "Not a trash/2026-02-04.md",
+    "Not a trash/2026-02-10 19-43-37.md",
+    "Not a trash/Test.md",
+    "Not a trash/2026-02-13.md",
+    "Not a trash/Work Log 2026-02-16.md",
+    "Not a trash/2026-02-23 -Weekly product Stand up.md",
+    "Not a trash/2026-02-24 - Sprint Planning.md",
+    "Not a trash/2026-02-24.md",
+    "Not a trash/2026-01-29 UAT with Vipin.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Help Article/Mapping.md",
+    "Product/Help Article/How to Create a project.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Projects/Internal Share/Share assign and review flow.md",
+    "Product/Projects/Questions/Insert from QnA.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Projects/Questions/Insert from QnA.md",
     "Product/Projects/Questions/Untitled.md",
     "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "Product/Knowledge Hub/RFP training.md",
@@ -383,25 +400,8 @@
     "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/Questions/Save to QnA",
-    "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-    "Product/User roles/Project/Question card/Author.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "Product/Templates/Book shelf.md",
-    "Books/Read List/Read List.md",
-    "Product/Knowledge Hub/RFP training PRD.md",
-    "Product/Templates/Product to dev process/Search returns correct results → click result → detail view loads.md",
-    "Product/Templates/Product Spec Template 2.md",
-    "Product/Templates/Product to dev process/Edit item → changes persist on refresh.md",
-    "Product/Templates/Template - PM.md",
-    "Product/Templates/Product Spec - Template.md",
-    "Product/Templates/First-Principles Product Template.md",
     "TaskNotes/Views/tasks-default.base",
-    "Product/Help Article/Mapping.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
-    "Product/Projects/Internal Share/Share assign and review flow.md",
-    "Product/Projects/Obligations/Obligations.md",
     "My Data.base",
-    "Product/Audit report/Audit Report R126022026.md",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",

@@ -1,6 +1,6 @@
 Obligation 
 Genie Actions filter by high confidence 
-Question number in question card 
+Question number in question card  
 Context 
 Differentation between the Question and answer in the question card
 Project health - I need to see the geneie filed answers in the progress 
@@ -16,4 +16,6 @@ Navigation from workspace to project
   Articlautions should be done 
   Geneie contributon and loading screen 
   Assignment in the team
-  
+
+11 March 
+Diagnosis - Copies 

@@ -103,7 +103,20 @@
     "Save to QnA": "save_to_qna.json",
     "Product/Projects/Questions/Save to QnA": "product_projects_questions_save_to_qna.json",
     "Product/Projects/Questions/Save to QnA/Save to QnA.md": "product_projects_questions_save_to_qna_save_to_qna.md.json",
-    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md": "product_projects_questions_save_to_qna_save_to_qna_prd.md.json"
+    "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md": "product_projects_questions_save_to_qna_save_to_qna_prd.md.json",
+    "Product/Projects/Answers/Answer types.md": "product_projects_answers_answer_types.md.json",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md": "product_go-no-go_past_rfp_similarity_score_(prs).md.json",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md": "product_go-no-go_external_questionnaire_score_(eqs).md.json",
+    "Not a trash/2026-02-24 - Sprint Planning.md": "not_a_trash_2026-02-24_-_sprint_planning.md.json",
+    "Not a trash/2026-02-23 -Weekly product Stand up.md": "not_a_trash_2026-02-23_-weekly_product_stand_up.md.json",
+    "Not a trash/Work Log 2026-02-16.md": "not_a_trash_work_log_2026-02-16.md.json",
+    "Not a trash/2026-02-13.md": "not_a_trash_2026-02-13.md.json",
+    "Not a trash/Test.md": "not_a_trash_test.md.json",
+    "Not a trash/2026-02-10 19-43-37.md": "not_a_trash_2026-02-10_19-43-37.md.json",
+    "Not a trash/2026-02-04.md": "not_a_trash_2026-02-04.md.json",
+    "Not a trash/2026-01-30.md": "not_a_trash_2026-01-30.md.json",
+    "Not a trash/SparrowGenie Help Article Template.md": "not_a_trash_sparrowgenie_help_article_template.md.json",
+    "Product/UAT Vipin.md": "product_uat_vipin.md.json"
   },
-  "lastUpdated": 1773220046495
+  "lastUpdated": 1773228169001
 }
