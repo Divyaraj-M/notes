@@ -124,7 +124,7 @@ Once the user is satisfied with the review, they can:
                       │
                       ▼
         ┌──────────────────────────┐
-        │   Choose Proposal Format  │
+        │   Choose Proposal Format │
         │  ┌────────────────────┐  │
         │  │ Exec Summary + Q&A │  │
         │  │ Q&A Verbatim Only  │  │
@@ -151,5 +151,3 @@ Once the user is satisfied with the review, they can:
 ```
 
 ---
-
-*Restructured from the original Excalidraw diagram in `Proposal Conversion.md`*

@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "TaskNotes/Views/tasks-default.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obligations"
+              "title": "Outline of tasks-default"
             }
           }
         ]
@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "Product/Projects/RFP to Proposal/RFP to Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -123,7 +123,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obligations"
+              "title": "RFP to Proposal"
             }
           },
           {
@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -291,7 +291,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "TaskNotes/Views/tasks-default.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +301,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obligations"
+              "title": "Backlinks for tasks-default"
             }
           },
           {
@@ -310,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Obligations/Obligations.md",
+                "file": "TaskNotes/Views/tasks-default.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Obligations"
+              "title": "Outgoing links from tasks-default"
             }
           },
           {
@@ -436,11 +436,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "600826d95ae66417",
+  "active": "47bb7cdf42c466b6",
   "lastOpenFiles": [
-    "Product/Templates/Product to dev process/FRD Template.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Projects/Table View/Table view for question card PRD.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
+    "Product/Projects/Internal Share/Share assign and review flow.md",
+    "Product/Projects/Obligations/Obligations.md",
+    "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Templates/Product Spec Template 2.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Help Article/Mapping.md",
@@ -454,16 +460,13 @@
     "TaskNotes/Views",
     "TaskNotes",
     "Product/Templates/Product to dev process",
-    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Table View/Insert from QnA.md",
     "Product/Templates/Book shelf.md",
     "Product/Templates/Template - PM.md",
     "Product/Genie Journal/Resources - Sparrow Genie.md",
     "Product/Projects/Table View/Save to QnA.md",
-    "Product/Projects/Table View/Table view for question card PRD.md",
     "Product/Settings/Project admin settings.md",
     "Product/ROI Calculator/ROI Calculator.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
@@ -471,9 +474,6 @@
     "Product/Instructions/Instructions from the Document.md",
     "Product/Instructions/Instructions.md",
     "Product/Instructions/Instructions logic.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-    "Product/Go-no-go/AI Readiness Score (ARS).md",
-    "Product/Go-no-go/Go - No- Go.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

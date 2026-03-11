@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
+    },
+    {
+      "basename": "Training back Projects into Knowledge Hubs",
+      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
+    },
+    {
+      "basename": "Table view for question card PRD",
+      "path": "Product/Projects/Table View/Table view for question card PRD.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
+    },
+    {
+      "basename": "Share assign and review flow",
+      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
+    },
+    {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
     },
@@ -9,20 +41,8 @@
       "path": "Product/Templates/Product to dev process/FRD Template.md"
     },
     {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
-    },
-    {
       "basename": "Product Spec Template 2",
       "path": "Product/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
     },
     {
       "basename": "Mapping",
@@ -35,10 +55,6 @@
     {
       "basename": "Audit Report R126022026",
       "path": "Product/Audit report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
     },
     {
       "basename": "Insert from QnA",
@@ -61,10 +77,6 @@
       "path": "Product/Projects/Table View/Save to QnA.md"
     },
     {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
       "basename": "Project admin settings",
       "path": "Product/Settings/Project admin settings.md"
     },
@@ -75,10 +87,6 @@
     {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
     },
     {
       "basename": "RFP training PRD",
@@ -103,10 +111,6 @@
     {
       "basename": "Instructions",
       "path": "Product/Instructions/Instructions.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
     },
     {
       "basename": "AI Readiness Score (ARS)",
@@ -195,10 +199,6 @@
     {
       "basename": "A little life",
       "path": "Books/A little life.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     }
   ],
   "omittedPaths": [],
