@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ROI Calculator"
+              "title": "Outline of Proposal Template flow"
             }
           }
         ]
@@ -150,24 +150,12 @@
             "id": "dacfb88c4d41ef03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md"
               },
-              "icon": "lucide-file",
-              "title": "ROI Calculator"
+              "icon": "excalidraw-icon",
+              "title": "Proposal Template flow"
             }
           }
         ],
@@ -201,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -236,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -293,12 +281,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ROI Calculator"
+              "title": "Outgoing links from Proposal Template flow"
             }
           },
           {
@@ -424,12 +412,13 @@
   },
   "active": "dacfb88c4d41ef03",
   "lastOpenFiles": [
+    "Product/Knowledge Hub/RFP training.md",
+    "Product/ROI Calculator/ROI Calculator.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Knowledge Hub/RFP training.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Knowledge Hub/Untitled.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
@@ -450,7 +439,6 @@
     "Product/UAT Vipin.md",
     "Product/UX changes/Sign up and Onboarding mails.md",
     "Not a trash/SparrowGenie Help Article Template.md",
-    "Not a trash/2026-01-30.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
