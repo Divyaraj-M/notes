@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types templates.md",
+                "file": "Product/competitors/Gamma/Behaviour study.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Answer types templates"
+              "title": "Outline of Behaviour study"
             }
           }
         ]
@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+                "file": "Product/competitors/Gamma/Behaviour study.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Training back Projects into Knowledge Hubs"
+              "title": "Behaviour study"
             }
           },
           {
@@ -151,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:competitor_analysis/Answer_types",
+                "query": "tag:#competitor_analysis/Answer_types",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -216,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
+                "file": "Product/competitors/Gamma/Behaviour study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +264,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Doc Workflow Two-Doc System"
+              "title": "Backlinks for Behaviour study"
             }
           },
           {
@@ -273,12 +273,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types templates.md",
+                "file": "Product/competitors/Gamma/Behaviour study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Answer types templates"
+              "title": "Outgoing links from Behaviour study"
             }
           },
           {
@@ -402,13 +402,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "895cba2581df029b",
+  "active": "0be0d26dff8febf8",
   "lastOpenFiles": [
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/competitors/Gamma/Behaviour study.md",
+    "Product/competitors/Gamma",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/competitors/Responsiveio/Answer types templates.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/competitors/Responsiveio/Responsive.io.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Untitled 2.md",
     "Product/Knowledge Hub/Untitled 1.md",
     "Product/Projects/Context Info/Competitors Info.md",
@@ -429,7 +431,6 @@
     "Not a trash/2026-02-24 - Sprint Planning.md",
     "Not a trash/2026-02-24.md",
     "Not a trash/2026-01-29 UAT with Vipin.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
@@ -439,7 +440,6 @@
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
-    "TaskNotes",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

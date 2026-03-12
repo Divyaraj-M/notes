@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Answer types templates",
-      "path": "Product/competitors/Responsiveio/Answer types templates.md"
+      "basename": "Behaviour study",
+      "path": "Product/competitors/Gamma/Behaviour study.md"
+    },
+    {
+      "basename": "Training back Projects into Knowledge Hubs",
+      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
     },
     {
       "basename": "Go- no - Go responsive",
       "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
+    },
+    {
+      "basename": "Answer types templates",
+      "path": "Product/competitors/Responsiveio/Answer types templates.md"
     },
     {
       "basename": "Attachments - Responsive",
@@ -15,10 +23,6 @@
     {
       "basename": "Responsive.io",
       "path": "Product/competitors/Responsiveio/Responsive.io.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
     },
     {
       "basename": "Untitled 2",
@@ -195,10 +199,6 @@
     {
       "basename": "Obligations",
       "path": "Product/Projects/Obligations/Obligations.md"
-    },
-    {
-      "basename": "My Data",
-      "path": "My Data.base"
     }
   ],
   "omittedPaths": [],
