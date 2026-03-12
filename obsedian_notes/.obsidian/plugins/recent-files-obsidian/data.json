@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
+    },
+    {
       "basename": "Behaviour study",
       "path": "Product/competitors/Gamma/Behaviour study.md"
     },
@@ -149,10 +169,6 @@
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
     {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
       "basename": "Author",
       "path": "Product/User roles/Project/Question card/Author.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Product Spec - Template",
       "path": "Product/Templates/Product Spec - Template.md"
-    },
-    {
-      "basename": "First-Principles Product Template",
-      "path": "Product/Templates/First-Principles Product Template.md"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
-    },
-    {
-      "basename": "Obligations",
-      "path": "Product/Projects/Obligations/Obligations.md"
     }
   ],
   "omittedPaths": [],

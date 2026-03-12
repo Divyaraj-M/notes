@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Gamma/Behaviour study.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Behaviour study"
+              "title": "Outline of Proposal Templates"
             }
           }
         ]
@@ -84,7 +84,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Gamma/Behaviour study.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -99,7 +99,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Behaviour study"
+              "title": "Proposal Templates"
             }
           },
           {
@@ -215,8 +215,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -254,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Gamma/Behaviour study.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +263,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Behaviour study"
+              "title": "Backlinks for Proposal Templates"
             }
           },
           {
@@ -273,12 +272,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Gamma/Behaviour study.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Behaviour study"
+              "title": "Outgoing links from Proposal Templates"
             }
           },
           {
@@ -402,10 +401,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0be0d26dff8febf8",
+  "active": "681d9fb88f64f790",
   "lastOpenFiles": [
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/competitors/Gamma/Behaviour study.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/competitors/Gamma",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/competitors/Responsiveio/Answer types templates.md",
@@ -426,11 +430,6 @@
     "Not a trash/2026-02-10 19-43-37.md",
     "Not a trash/Test.md",
     "Not a trash/2026-02-13.md",
-    "Not a trash/Work Log 2026-02-16.md",
-    "Not a trash/2026-02-23 -Weekly product Stand up.md",
-    "Not a trash/2026-02-24 - Sprint Planning.md",
-    "Not a trash/2026-02-24.md",
-    "Not a trash/2026-01-29 UAT with Vipin.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
