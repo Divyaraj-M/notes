@@ -9,12 +9,40 @@
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+      "basename": "RFP training PRD",
+      "path": "Product/Knowledge Hub/RFP training PRD.md"
+    },
+    {
+      "basename": "Training back Projects into Knowledge Hubs",
+      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Knowledge Hub/RFP training.md"
+    },
+    {
+      "basename": "Knowledge Hub",
+      "path": "Product/Knowledge Hub/Knowledge Hub.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Knowledge Hub/Untitled.md"
+    },
+    {
+      "basename": "Go- no - Go responsive",
+      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
     },
     {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Answer types templates",
+      "path": "Product/competitors/Responsiveio/Answer types templates.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Proposal Conversion Flow",
@@ -23,18 +51,6 @@
     {
       "basename": "Behaviour study",
       "path": "Product/competitors/Gamma/Behaviour study.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Go- no - Go responsive",
-      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
-    },
-    {
-      "basename": "Answer types templates",
-      "path": "Product/competitors/Responsiveio/Answer types templates.md"
     },
     {
       "basename": "Attachments - Responsive",
@@ -55,10 +71,6 @@
     {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Knowledge Hub/Untitled.md"
     },
     {
       "basename": "PRD Feature Name",
@@ -161,10 +173,6 @@
       "path": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md"
     },
     {
-      "basename": "RFP training",
-      "path": "Product/Knowledge Hub/RFP training.md"
-    },
-    {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
     },
@@ -185,20 +193,12 @@
       "path": "Books/Read List/Read List.md"
     },
     {
-      "basename": "RFP training PRD",
-      "path": "Product/Knowledge Hub/RFP training PRD.md"
-    },
-    {
       "basename": "Product Spec Template 2",
       "path": "Product/Templates/Product Spec Template 2.md"
     },
     {
       "basename": "Template - PM",
       "path": "Product/Templates/Template - PM.md"
-    },
-    {
-      "basename": "Product Spec - Template",
-      "path": "Product/Templates/Product Spec - Template.md"
     }
   ],
   "omittedPaths": [],

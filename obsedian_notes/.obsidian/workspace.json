@@ -108,7 +108,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Responsiveio/Go- no - Go responsive.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -123,31 +123,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Go- no - Go responsive"
+              "title": "Proposal Templates"
             }
           },
           {
-            "id": "895cba2581df029b",
+            "id": "a15824c576d8bf52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/Responsiveio/Answer types templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Answer types templates"
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
         ],
@@ -181,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#competitor_analysis/Answer_types",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -215,7 +201,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -401,24 +388,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "681d9fb88f64f790",
+  "active": "52c913e80c4ceb9a",
   "lastOpenFiles": [
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
+    "Product/Knowledge Hub/RFP training PRD.md",
+    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
+    "Product/Knowledge Hub/RFP training.md",
+    "Product/Knowledge Hub/Knowledge Hub.md",
+    "Product/Knowledge Hub/Untitled.md",
+    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
+    "Product/competitors/Responsiveio/Answer types templates.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/competitors/Gamma/Behaviour study.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/competitors/Gamma",
-    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
-    "Product/competitors/Responsiveio/Answer types templates.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/Knowledge Hub/Untitled 2.md",
     "Product/Knowledge Hub/Untitled 1.md",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Knowledge Hub/Untitled.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Templates/Product to dev process/FRD Template.md",
@@ -427,9 +417,6 @@
     "Not a trash/SparrowGenie Help Article Template.md",
     "Not a trash/2026-01-30.md",
     "Not a trash/2026-02-04.md",
-    "Not a trash/2026-02-10 19-43-37.md",
-    "Not a trash/Test.md",
-    "Not a trash/2026-02-13.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
