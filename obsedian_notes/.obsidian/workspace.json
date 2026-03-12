@@ -82,24 +82,10 @@
             "id": "52c913e80c4ceb9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Proposal Templates"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -135,9 +121,33 @@
               "icon": "search",
               "title": "Home tab"
             }
+          },
+          {
+            "id": "868e9be39cc556bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proposal Templates"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -167,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#new_feature",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -202,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -388,10 +398,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "52c913e80c4ceb9a",
+  "active": "868e9be39cc556bf",
   "lastOpenFiles": [
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/RFP training.md",
@@ -416,7 +427,6 @@
     "Product/UX changes/Sign up and Onboarding mails.md",
     "Not a trash/SparrowGenie Help Article Template.md",
     "Not a trash/2026-01-30.md",
-    "Not a trash/2026-02-04.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",

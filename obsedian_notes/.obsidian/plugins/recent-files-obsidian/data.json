@@ -5,6 +5,10 @@
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
+      "basename": "Product Roadmap",
+      "path": "Learning/Top Deliverables/Product Roadmap.md"
+    },
+    {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Product Spec Template 2",
       "path": "Product/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Template - PM",
-      "path": "Product/Templates/Template - PM.md"
     }
   ],
   "omittedPaths": [],
