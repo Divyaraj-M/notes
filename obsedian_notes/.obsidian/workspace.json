@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/ROI Calculator/ROI Calculator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proposal Templates"
+              "title": "Outline of ROI Calculator"
             }
           }
         ]
@@ -145,9 +145,33 @@
               "icon": "lucide-file",
               "title": "Proposal Templates"
             }
+          },
+          {
+            "id": "dacfb88c4d41ef03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/ROI Calculator/ROI Calculator.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ROI Calculator"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -269,12 +293,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/ROI Calculator/ROI Calculator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proposal Templates"
+              "title": "Outgoing links from ROI Calculator"
             }
           },
           {
@@ -398,10 +422,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "868e9be39cc556bf",
+  "active": "dacfb88c4d41ef03",
   "lastOpenFiles": [
-    "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",

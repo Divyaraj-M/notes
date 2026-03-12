@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ROI Calculator",
+      "path": "Product/ROI Calculator/ROI Calculator.md"
+    },
+    {
       "basename": "Proposal Templates",
       "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "Product/Templates/Product Spec Template 2.md"
     }
   ],
   "omittedPaths": [],
