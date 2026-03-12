@@ -27,13 +27,13 @@ Compare what's available in each mode side by side.
 
 ### Placeholder & Variable Fields
 
-|Feature / UI Element|Template Creator|Doc Creator|Both?|Notes|
-|---|---|---|---|---|
-|Placeholder text fields|||||
-|Editable vs locked sections|||||
-|Dynamic / variable fields|||||
-|Required vs optional markers|||||
-|Instructions for template users|||||
+| Feature / UI Element            | Template Creator | Doc Creator | Both? | Notes |
+| ------------------------------- | ---------------- | ----------- | ----- | ----- |
+| Placeholder text fields         |                  |             |       |       |
+| Editable vs locked sections     |                  |             |       |       |
+| Dynamic / variable fields       |                  |             |       |       |
+| Required vs optional markers    |                  |             |       |       |
+| Instructions for template users |                  |             |       |       |
 
 ### Settings & Configuration
 
