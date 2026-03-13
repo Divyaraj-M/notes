@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/Genie Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proposal Templates"
+              "title": "Outline of Genie Templates"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -109,7 +109,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proposal Templates"
+              "title": "My Templates - Proposal"
             }
           },
           {
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -143,7 +143,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proposal Templates"
+              "title": "My Templates - Proposal"
             }
           },
           {
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -167,7 +167,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proposal Templates"
+              "title": "My Templates - Proposal"
+            }
+          },
+          {
+            "id": "5d1470d745c10c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Company Templates - Proposal"
+            }
+          },
+          {
+            "id": "a031d9ef18f16983",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Dossiers/Proposals/Genie Templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Genie Templates"
             }
           },
           {
@@ -195,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -317,12 +365,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/Genie Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proposal Templates"
+              "title": "Outgoing links from Genie Templates"
             }
           },
           {
@@ -446,10 +494,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "dacfb88c4d41ef03",
+  "active": "a031d9ef18f16983",
   "lastOpenFiles": [
+    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
+    "Product/Dossiers/Proposals/Genie Templates.md",
+    "Product/Dossiers/Proposals/My Templates - Proposal.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
@@ -473,8 +523,6 @@
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Templates/Product to dev process/FRD Template.md",
-    "Product/UAT Vipin.md",
-    "Product/UX changes/Sign up and Onboarding mails.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",

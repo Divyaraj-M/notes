@@ -92,7 +92,7 @@ DOC ^GegTRgBh
 
 [[Proposal]] ^8B2vtrYv
 
-[[Proposal Templates]] ^mLhdEfu3
+[[My Templates - Proposal]] ^mLhdEfu3
 
 %%
 ## Drawing
