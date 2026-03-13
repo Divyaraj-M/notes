@@ -36,24 +36,24 @@ Users creating proposals in SparrowGenie today start from a blank page every tim
 
 ## 3. Non-Goals
 
-|Non-Goal|Why Out of Scope|
-|---|---|
-|Template Management (edit, categorise, create from scratch)|Separate story — covers editing templates in editor, categorising by product/use case, and creating blank templates|
-|Template sharing across team members|Future initiative — requires permissions and collaboration model|
-|Template marketplace or community templates|Phase 2 — depends on template management being built first|
-|Template versioning and rollback|Adds complexity — evaluate after core flow is validated|
+| Non-Goal                                                    | Why Out of Scope                                                                                                    |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Template Management (edit, categorise, create from scratch) | Separate story — covers editing templates in editor, categorising by product/use case, and creating blank templates |
+| Template sharing across team members                        | Future initiative — requires permissions and collaboration model                                                    |
+| Template marketplace or community templates                 | Phase 2 — depends on template management being built first                                                          |
+| Template versioning and rollback                            | Adds complexity — evaluate after core flow is validated                                                             |
 
 ---
 
 ## 4. User Stories
 
-|#|User Type|I want to...|So that...|Priority|
-|---|---|---|---|---|
-|US-1|New user|Browse SparrowGenie's default templates when I first arrive|I can pick a proven structure and get started quickly without building from scratch|P0|
-|US-2|New user|Create my first proposal by selecting a default template|I can fill in my content within a ready-made structure and send it faster|P0|
-|US-3|Returning user|Save a completed proposal as a template in "My Templates"|I can reuse that same structure for future proposals without recreating it|P0|
-|US-4|Returning user|Create a new proposal from one of my saved templates|I don't have to start from scratch every time I write a similar proposal|P0|
-|US-5|Any user|See a clear separation between "Default Templates" and "My Templates"|I know which templates are SparrowGenie defaults and which are ones I saved|P1|
+| #    | User Type      | I want to...                                                          | So that...                                                                          | Priority |
+| ---- | -------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------- |
+| US-1 | New user       | Browse SparrowGenie's default templates when I first arrive           | I can pick a proven structure and get started quickly without building from scratch | P0       |
+| US-2 | New user       | Create my first proposal by selecting a default template              | I can fill in my content within a ready-made structure and send it faster           | P0       |
+| US-3 | Returning user | Save a completed proposal as a template in "My Templates"             | I can reuse that same structure for future proposals without recreating it          | P0       |
+| US-4 | Returning user | Create a new proposal from one of my saved templates                  | I don't have to start from scratch every time I write a similar proposal            | P0       |
+| US-5 | Any user       | See a clear separation between "Default Templates" and "My Templates" | I know which templates are SparrowGenie defaults and which are ones I saved         | P1       |
 
 ---
 

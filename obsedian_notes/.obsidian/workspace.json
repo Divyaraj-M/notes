@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Kavin"
+              "title": "Outline of Proposal Templates"
             }
           }
         ]
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -317,12 +317,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UAT Kavin"
+              "title": "Outgoing links from Proposal Templates"
             }
           },
           {
@@ -446,11 +446,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8c2c6554a211b270",
+  "active": "dacfb88c4d41ef03",
   "lastOpenFiles": [
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
