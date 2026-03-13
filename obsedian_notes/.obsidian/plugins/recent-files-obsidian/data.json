@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Proposal Templates",
+      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
+    },
+    {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
-    },
-    {
-      "basename": "Proposal Templates",
-      "path": "Product/Dossiers/Proposals/Proposal Templates.md"
     },
     {
       "basename": "Product Roadmap",

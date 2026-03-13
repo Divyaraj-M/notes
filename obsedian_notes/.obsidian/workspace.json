@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proposal Template flow"
+              "title": "Outline of Proposal Templates"
             }
           }
         ]
@@ -150,12 +150,24 @@
             "id": "dacfb88c4d41ef03",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md"
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Template flow"
+              "icon": "lucide-file",
+              "title": "Proposal Templates"
             }
           }
         ],
@@ -281,12 +293,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
+                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proposal Template flow"
+              "title": "Outgoing links from Proposal Templates"
             }
           },
           {
@@ -412,11 +424,11 @@
   },
   "active": "dacfb88c4d41ef03",
   "lastOpenFiles": [
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
-    "Product/Dossiers/Proposals/Proposal Templates.md",
     "Learning/Top Deliverables/Product Roadmap.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
