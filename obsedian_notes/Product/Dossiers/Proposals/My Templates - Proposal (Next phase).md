@@ -44,17 +44,17 @@ Users who have created proposals in SparrowGenie can't easily reuse their own wo
 
 ## 4. User Stories
 
-|#|User Type|I want to...|So that...|Priority|
-|---|---|---|---|---|
-|US-1|Any user|Save a completed proposal as a My Template|I can reuse that structure for future proposals without rebuilding it|P0|
-|US-2|Any user|Create a new proposal from one of my saved templates|I start with my proven structure and only need to fill in what's different|P0|
-|US-3|Any user|Save a copy of a Genie Template as My Template|I can personalise it (add my sections, remove what I don't need) and reuse my version|P0|
-|US-4|Any user|Save a copy of a Company Template as My Template|I can make a personal version that fits how I write, not just the company standard|P0|
-|US-5|Any user|Preview a My Template before using it|I can check the structure and content before creating a proposal from it|P0|
-|US-6|Any user|Edit a My Template to update its content|I can improve my template as I learn what works better|P1|
-|US-7|Any user|Delete a My Template I no longer need|I keep my library clean and only see templates I actually use|P1|
-|US-8|Any user|Rename a My Template|I can give it a name that makes sense to me as my library grows|P1|
-|US-9|Any user|See My Templates as a distinct section in the Template Picker|I know which templates are mine versus company or Genie defaults|P0|
+| #    | User Type | I want to...                                                  | So that...                                                                            | Priority |
+| ---- | --------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------- |
+| US-1 | Any user  | Save a completed proposal as a My Template                    | I can reuse that structure for future proposals without rebuilding it                 | P0       |
+| US-2 | Any user  | Create a new proposal from one of my saved templates          | I start with my proven structure and only need to fill in what's different            | P0       |
+| US-3 | Any user  | Save a copy of a Genie Template as My Template                | I can personalise it (add my sections, remove what I don't need) and reuse my version | P0       |
+| US-4 | Any user  | Save a copy of a Company Template as My Template              | I can make a personal version that fits how I write, not just the company standard    | P0       |
+| US-5 | Any user  | Preview a My Template before using it                         | I can check the structure and content before creating a proposal from it              | P0       |
+| US-6 | Any user  | Edit a My Template to update its content                      | I can improve my template as I learn what works better                                | P1       |
+| US-7 | Any user  | Delete a My Template I no longer need                         | I keep my library clean and only see templates I actually use                         | P1       |
+| US-8 | Any user  | Rename a My Template                                          | I can give it a name that makes sense to me as my library grows                       | P1       |
+| US-9 | Any user  | See My Templates as a distinct section in the Template Picker | I know which templates are mine versus company or Genie defaults                      | P0       |
 
 ---
 
@@ -74,13 +74,13 @@ Users who have created proposals in SparrowGenie can't easily reuse their own wo
 
 ### Nice-to-Have (P1)
 
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P1.1|User can edit a My Template|Given a user clicks "Edit" on a My Template, then the editor opens with the template's current content. Changes are saved in-place|
-|P1.2|User can delete a My Template|Given a user clicks "Delete" on a My Template, then a confirmation dialog appears. On confirm, the template is removed. Existing proposals created from it are not affected|
-|P1.3|User can rename a My Template|Given a user clicks "Rename" on a My Template, then an inline editable name field appears. On blur or Enter, the name is saved|
-|P1.4|My Templates show template origin (where the template came from)|Given a My Template was created from a Genie Template, Company Template, or proposal, then the card shows origin info (e.g., "From: Sales Proposal — Genie Template")|
-|P1.5|My Templates show last-used date|Given a user created a proposal from a My Template, then the card shows "Last used: [date]"|
+| #    | Requirement                                                      | Acceptance Criteria                                                                                                                                                         |
+| ---- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P1.1 | User can edit a My Template                                      | Given a user clicks "Edit" on a My Template, then the editor opens with the template's current content. Changes are saved in-place                                          |
+| P1.2 | User can delete a My Template                                    | Given a user clicks "Delete" on a My Template, then a confirmation dialog appears. On confirm, the template is removed. Existing proposals created from it are not affected |
+| P1.3 | User can rename a My Template                                    | Given a user clicks "Rename" on a My Template, then an inline editable name field appears. On blur or Enter, the name is saved                                              |
+| P1.4 | My Templates show template origin (where the template came from) | Given a My Template was created from a Genie Template, Company Template, or proposal, then the card shows origin info (e.g., "From: Sales Proposal — Genie Template")       |
+| P1.5 | My Templates show last-used date                                 | Given a user created a proposal from a My Template, then the card shows "Last used: [date]"                                                                                 |
 
 ### Future Considerations (P2)
 

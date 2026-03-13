@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "lastModified": 1773400981515,
+  "highlights": {
+    "highlight-1525223873-5850": {
+      "text": "Given a user is browsing Company Templates, when they click \"Save as My Template\", then the template opens in editor, user optionally modifies it, and saves a copy to My Templates",
+      "position": 5850,
+      "created": 1773400971888,
+      "updated": 1773400981515,
+      "backgroundColor": "#ffeb3b",
+      "comments": [
+        {
+          "id": "comment-1773400971888-590pcfkyj",
+          "content": "Need to rewrite the flow for it",
+          "created": 1773400971888,
+          "updated": 1773400981515
+        }
+      ]
+    }
+  }
+}
