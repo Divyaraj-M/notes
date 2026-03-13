@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "My Templates - Proposal",
-      "path": "Product/Dossiers/Proposals/My Templates - Proposal.md"
-    },
-    {
       "basename": "Genie Templates - Propsals",
       "path": "Product/Dossiers/Proposals/Genie Templates - Propsals.md"
     },
     {
       "basename": "Company Templates - Proposal",
       "path": "Product/Dossiers/Proposals/Company Templates - Proposal.md"
+    },
+    {
+      "basename": "My Templates - Proposal (Next phase)",
+      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
+    },
+    {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "Doc Workflow Two-Doc System",
+      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
     },
     {
       "basename": "UAT Kavin",
@@ -91,14 +99,6 @@
     {
       "basename": "Competitors Info",
       "path": "Product/Projects/Context Info/Competitors Info.md"
-    },
-    {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
     },
     {
       "basename": "FRD Template",

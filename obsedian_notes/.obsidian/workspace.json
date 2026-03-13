@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
+                "file": "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proposal Template flow"
+              "title": "Outline of Genie Templates - Propsals"
             }
           }
         ]
@@ -31,70 +31,12 @@
         "dimension": 76.56380316930776,
         "children": [
           {
-            "id": "f7e4e9f533000055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Doc Workflow Two-Doc System"
-            }
-          },
-          {
-            "id": "8404c244c9d3f992",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PRD Feature Name"
-            }
-          },
-          {
-            "id": "52c913e80c4ceb9a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "62fafe4a7b38cdef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
+                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -109,7 +51,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My Templates - Proposal"
+              "title": "My Templates - Proposal (Next phase)"
             }
           },
           {
@@ -123,60 +65,12 @@
             }
           },
           {
-            "id": "868e9be39cc556bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "My Templates - Proposal"
-            }
-          },
-          {
-            "id": "dacfb88c4d41ef03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "My Templates - Proposal"
-            }
-          },
-          {
             "id": "5d1470d745c10c4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
+                "file": "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -191,7 +85,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company Templates - Proposal"
+              "title": "Genie Templates - Propsals"
             }
           },
           {
@@ -231,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -353,12 +247,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
+                "file": "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proposal Template flow"
+              "title": "Outgoing links from Genie Templates - Propsals"
             }
           },
           {
@@ -482,12 +376,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a031d9ef18f16983",
+  "active": "5d1470d745c10c4e",
   "lastOpenFiles": [
-    "Product/Dossiers/Proposals/My Templates - Proposal.md",
-    "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
+    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+    "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
@@ -508,8 +404,6 @@
     "Product/Knowledge Hub/Untitled 2.md",
     "Product/Knowledge Hub/Untitled 1.md",
     "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
