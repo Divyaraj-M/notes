@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Genie Templates.md",
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Genie Templates"
+              "title": "Outline of Proposal Template flow"
             }
           }
         ]
@@ -198,24 +198,12 @@
             "id": "a031d9ef18f16983",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Product/Dossiers/Proposals/Genie Templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md"
               },
-              "icon": "lucide-file",
-              "title": "Genie Templates"
+              "icon": "excalidraw-icon",
+              "title": "Proposal Template flow"
             }
           },
           {
@@ -365,12 +353,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Genie Templates.md",
+                "file": "Product/Dossiers/Proposals/Proposal Template flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Genie Templates"
+              "title": "Outgoing links from Proposal Template flow"
             }
           },
           {
@@ -496,9 +484,9 @@
   },
   "active": "a031d9ef18f16983",
   "lastOpenFiles": [
-    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
-    "Product/Dossiers/Proposals/Genie Templates.md",
     "Product/Dossiers/Proposals/My Templates - Proposal.md",
+    "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
+    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
     "Product/Knowledge Hub/RFP training.md",
