@@ -297,7 +297,7 @@ Proposals Page (empty) → Template Selection → Pick Default Template → Prop
 
 ## Changelog
 
-|Date|Author|Changes|
-|---|---|---|
-|2026-03-13|Prod|Initial draft — Core proposal template flow (create from default, save as template). Template Management excluded as separate story.|
-||||
+| Date       | Author | Changes                                                                                                                              |
+| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 2026-03-13 | Prod   | Initial draft — Core proposal template flow (create from default, save as template). Template Management excluded as separate story. |
+|            |        |                                                                                                                                      |

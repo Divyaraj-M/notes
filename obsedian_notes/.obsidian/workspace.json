@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proposal Templates"
+              "title": "Outline of UAT Kavin"
             }
           }
         ]
@@ -169,9 +169,33 @@
               "icon": "lucide-file",
               "title": "Proposal Templates"
             }
+          },
+          {
+            "id": "8c2c6554a211b270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UAT Kavin"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -293,12 +317,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proposal Templates"
+              "title": "Outgoing links from UAT Kavin"
             }
           },
           {
@@ -422,10 +446,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "dacfb88c4d41ef03",
+  "active": "8c2c6554a211b270",
   "lastOpenFiles": [
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/Proposal Templates.md",
+    "Product/Dossiers/Proposals/UAT Kavin.md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
@@ -450,7 +475,6 @@
     "Product/Templates/Product to dev process/FRD Template.md",
     "Product/UAT Vipin.md",
     "Product/UX changes/Sign up and Onboarding mails.md",
-    "Not a trash/SparrowGenie Help Article Template.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
