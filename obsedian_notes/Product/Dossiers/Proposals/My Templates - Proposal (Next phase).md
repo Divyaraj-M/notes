@@ -62,15 +62,15 @@ Users who have created proposals in SparrowGenie can't easily reuse their own wo
 
 ### Must-Have (P0)
 
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P0.1|User can save any proposal as a My Template|Given a user is viewing a saved proposal, when they click "Save as My Template", then a copy of the proposal content is saved to their My Templates library|
-|P0.2|User can create a new proposal from a My Template|Given a user opens the Template Picker and selects a My Template, when they click "Use This Template", then a new proposal opens in the editor pre-filled with the template's sections and content|
-|P0.3|User can save a Genie Template as My Template|Given a user is browsing Genie Templates, when they click "Save as My Template", then the template opens in editor, user optionally modifies it, and saves a copy to My Templates|
-|P0.4|User can save a Company Template as My Template|Given a user is browsing Company Templates, when they click "Save as My Template", then the template opens in editor, user optionally modifies it, and saves a copy to My Templates|
-|P0.5|User can preview a My Template before using it|Given a user clicks "Preview" on a My Template, then a preview panel shows the full structure without creating a proposal|
-|P0.6|My Templates section appears in the Template Picker|Given a user opens the Template Picker, then they see a "My Templates" section below Company Templates. If no My Templates exist yet, show an empty state|
-|P0.7|My Templates are private — only the owner can see and use them|Given User A saves a My Template, then User B in the same account cannot see it in their Template Picker|
+| #    | Requirement                                                    | Acceptance Criteria                                                                                                                                                                                |
+| ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P0.1 | User can save any proposal as a My Template                    | Given a user is viewing a saved proposal, when they click "Save as My Template", then a copy of the proposal content is saved to their My Templates library                                        |
+| P0.2 | User can create a new proposal from a My Template              | Given a user opens the Template Picker and selects a My Template, when they click "Use This Template", then a new proposal opens in the editor pre-filled with the template's sections and content |
+| P0.3 | User can save a Genie Template as My Template                  | Given a user is browsing Genie Templates, when they click "Save as My Template", then the template opens in editor, user optionally modifies it, and saves a copy to My Templates                  |
+| P0.4 | User can save a Company Template as My Template                | ==Given a user is browsing Company Templates, when they click "Save as My Template", then the template opens in editor, user optionally modifies it, and saves a copy to My Templates==            |
+| P0.5 | User can preview a My Template before using it                 | Given a user clicks "Preview" on a My Template, then a preview panel shows the full structure without creating a proposal                                                                          |
+| P0.6 | My Templates section appears in the Template Picker            | Given a user opens the Template Picker, then they see a "My Templates" section below Company Templates. If no My Templates exist yet, show an empty state                                          |
+| P0.7 | My Templates are private — only the owner can see and use them | Given User A saves a My Template, then User B in the same account cannot see it in their Template Picker                                                                                           |
 
 ### Nice-to-Have (P1)
 
