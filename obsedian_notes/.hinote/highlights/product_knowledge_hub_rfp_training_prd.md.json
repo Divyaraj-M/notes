@@ -1,10 +1,10 @@
 {
   "version": "2.0",
-  "lastModified": 1773219403109,
+  "lastModified": 1773482009819,
   "highlights": {
     "highlight-780143950-11500": {
       "text": "Cross-Hub Answer Linking — auto-detect and link related answers across KHs for consistency.",
-      "position": 11606,
+      "position": 11610,
       "created": 1772793679145,
       "updated": 1772793679145,
       "backgroundColor": "#ffeb3b",
@@ -14,6 +14,21 @@
           "content": "This has been deffered in official Prd but Have to rethink about it",
           "created": 1772793679145,
           "updated": 1772793679145
+        }
+      ]
+    },
+    "highlight-1372761787-10403": {
+      "text": "Change Detection & Deduplication",
+      "position": 10403,
+      "created": 1773482009819,
+      "updated": 1773482009819,
+      "backgroundColor": "#ffeb3b",
+      "comments": [
+        {
+          "id": "comment-1773482009819-qaohujk9c",
+          "content": "We have to think in the future , can ope the flood gates into the KH",
+          "created": 1773482009819,
+          "updated": 1773482009819
         }
       ]
     }

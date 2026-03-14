@@ -195,7 +195,7 @@ Acceptance criteria:
 - Track the metadata of the questions for the auto-suggesting authors and reviewers.
     
 
-6. Change Detection & Deduplication  
+6. ==Change Detection & Deduplication==  
 When a reused question returns from a completed project, an algorithm measures how much the answer changed vs the existing KH entry. If changed >30–40%, retrain. If not, please record the provenance and increment the reuse count.
 
 Acceptance criteria:

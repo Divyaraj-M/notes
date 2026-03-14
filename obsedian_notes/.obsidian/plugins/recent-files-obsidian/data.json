@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "RFP training PRD",
+      "path": "Product/Knowledge Hub/RFP training PRD.md"
+    },
+    {
+      "basename": "RFP training",
+      "path": "Product/Knowledge Hub/RFP training.md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
+      "basename": "External Questionnaire Score (EQS)",
+      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
+    },
+    {
+      "basename": "Past RFP Similarity Score (PRS)",
+      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
+    },
+    {
+      "basename": "My Templates - Proposal (Next phase)",
+      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
+    },
+    {
+      "basename": "Proposal Template flow",
+      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
       "basename": "கல்வி ஓர் அரசியல்",
       "path": "Books/Read List/கல்வி ஓர் அரசியல்.md"
     },
@@ -15,14 +47,6 @@
     {
       "basename": "Company Templates - Proposal",
       "path": "Product/Dossiers/Proposals/Company Templates - Proposal.md"
-    },
-    {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "My Templates - Proposal (Next phase)",
-      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
     },
     {
       "basename": "Genie Templates - Propsals",
@@ -41,20 +65,12 @@
       "path": "Product/Dossiers/Proposals/UAT Kavin.md"
     },
     {
-      "basename": "RFP training",
-      "path": "Product/Knowledge Hub/RFP training.md"
-    },
-    {
       "basename": "ROI Calculator",
       "path": "Product/ROI Calculator/ROI Calculator.md"
     },
     {
       "basename": "Product Roadmap",
       "path": "Learning/Top Deliverables/Product Roadmap.md"
-    },
-    {
-      "basename": "RFP training PRD",
-      "path": "Product/Knowledge Hub/RFP training PRD.md"
     },
     {
       "basename": "Training back Projects into Knowledge Hubs",
@@ -169,14 +185,6 @@
       "path": "Not a trash/2026-01-29 UAT with Vipin.md"
     },
     {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
       "basename": "Mapping",
       "path": "Product/Help Article/Mapping.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Share assign and review flow",
       "path": "Product/Projects/Internal Share/Share assign and review flow.md"
-    },
-    {
-      "basename": "Insert from QnA",
-      "path": "Product/Projects/Questions/Insert from QnA.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Projects/Questions/Untitled.md"
     }
   ],
   "omittedPaths": [],

@@ -14,12 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/Knowledge Hub/RFP training PRD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of RFP training PRD"
             }
           }
         ]
@@ -74,10 +75,24 @@
             "id": "a15824c576d8bf52",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Books/The 80'20 Principle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The 80'20 Principle"
             }
           },
           {
@@ -108,12 +123,24 @@
             "id": "a031d9ef18f16983",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Template flow.md"
+                "file": "Product/Knowledge Hub/RFP training PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Template flow"
+              "icon": "lucide-file",
+              "title": "RFP training PRD"
             }
           },
           {
@@ -141,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -263,11 +290,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/Knowledge Hub/RFP training PRD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from RFP training PRD"
             }
           },
           {
@@ -295,9 +323,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Product/Knowledge Hub/RFP training PRD.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for RFP training PRD"
             }
           }
         ],
@@ -389,18 +419,22 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a15824c576d8bf52",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Knowledge Hub/RFP training.md",
+    "Product/Go-no-go/Go - No- Go.md",
+    "Product/Go-no-go/External Questionnaire Score (EQS).md",
+    "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
+    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Books/The 80'20 Principle.md",
     "Books/Read List/கல்வி ஓர் அரசியல்.md",
     "Books/Read List/Read List.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
-    "Product/Knowledge Hub/RFP training.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Knowledge Hub/RFP training PRD.md",
@@ -414,10 +448,6 @@
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/competitors/Gamma/Behaviour study.md",
     "Product/competitors/Gamma",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Product/competitors/Responsiveio/Responsive.io.md",
-    "Product/Knowledge Hub/Untitled 2.md",
-    "Product/Knowledge Hub/Untitled 1.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
