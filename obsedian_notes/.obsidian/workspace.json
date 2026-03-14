@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List/கல்வி ஓர் அரசியல்.md",
+                "file": "Books/கல்வி ஓர் அரசியல்.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -291,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/UAT vipin 2026-02-23.md",
+                "file": "Books/Read List/Read List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UAT vipin 2026-02-23"
+              "title": "Outgoing links from Read List"
             }
           },
           {
@@ -325,10 +325,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Daily/UAT vipin 2026-02-23.md"
+                "file": "Books/Read List/Read List.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for UAT vipin 2026-02-23"
+              "title": "File properties for Read List"
             }
           }
         ],
@@ -420,9 +420,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cbee3a04c0eb5807",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "Daily/UAT Kavin.md",
+    "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
     "My Data.base",
@@ -438,7 +439,7 @@
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Books/The 80'20 Principle.md",
-    "Books/Read List/கல்வி ஓர் அரசியல்.md",
+    "Books/கல்வி ஓர் அரசியல்.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
@@ -448,7 +449,6 @@
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Knowledge Hub/Untitled.md",
-    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
