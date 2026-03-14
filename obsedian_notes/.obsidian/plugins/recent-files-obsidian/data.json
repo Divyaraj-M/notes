@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "My Templates - Proposal (Next phase)",
-      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
-    },
-    {
-      "basename": "Genie Templates - Propsals",
-      "path": "Product/Dossiers/Proposals/Genie Templates - Propsals.md"
+      "basename": "Cred",
+      "path": "Learning/ARCA AI/Cred/Cred.md"
     },
     {
       "basename": "Company Templates - Proposal",
@@ -15,6 +11,14 @@
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
+    },
+    {
+      "basename": "My Templates - Proposal (Next phase)",
+      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
+    },
+    {
+      "basename": "Genie Templates - Propsals",
+      "path": "Product/Dossiers/Proposals/Genie Templates - Propsals.md"
     },
     {
       "basename": "PRD Feature Name",
@@ -195,10 +199,6 @@
     {
       "basename": "Table view for question card PRD",
       "path": "Product/Projects/Table View/Table view for question card PRD.md"
-    },
-    {
-      "basename": "Author",
-      "path": "Product/User roles/Project/Question card/Author.md"
     }
   ],
   "omittedPaths": [],

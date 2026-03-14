@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of My Templates - Proposal (Next phase)"
+              "title": "Outline of Company Templates - Proposal"
             }
           }
         ]
@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +51,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My Templates - Proposal (Next phase)"
+              "title": "Company Templates - Proposal"
             }
           },
           {
@@ -246,12 +246,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My Templates - Proposal (Next phase)"
+              "title": "Outgoing links from Company Templates - Proposal"
             }
           },
           {
@@ -280,10 +280,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
+                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for My Templates - Proposal (Next phase)"
+              "title": "File properties for Company Templates - Proposal"
             }
           }
         ],
@@ -377,10 +377,10 @@
   },
   "active": "62fafe4a7b38cdef",
   "lastOpenFiles": [
+    "Product/Dossiers/Proposals/Proposal Template flow.md",
+    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
-    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
