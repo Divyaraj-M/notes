@@ -3,7 +3,7 @@ cover: https://bradfrost.com/wp-content/uploads/2019/06/atomic-design-product.jp
 author:
 published: 2001-11-12
 tags:
-  - learning/product_thinking
+  - learning/fiction
   - books/UX
 rating:
 lists:

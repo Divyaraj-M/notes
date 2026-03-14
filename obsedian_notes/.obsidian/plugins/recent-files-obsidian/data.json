@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Atomic Design",
+      "path": "Books/Atomic Design.md"
+    },
+    {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
     },
     {
       "basename": "UAT Kavin",
@@ -63,10 +71,6 @@
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
     },
     {
       "basename": "கல்வி ஓர் அரசியல்",
@@ -195,10 +199,6 @@
     {
       "basename": "Work Log 2026-02-16",
       "path": "Not a trash/Work Log 2026-02-16.md"
-    },
-    {
-      "basename": "2026-02-23 -Weekly product Stand up",
-      "path": "Not a trash/2026-02-23 -Weekly product Stand up.md"
     }
   ],
   "omittedPaths": [],

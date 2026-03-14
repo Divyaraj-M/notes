@@ -102,7 +102,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Books/Atomic Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -117,7 +117,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "Atomic Design"
             }
           },
           {
@@ -199,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#learning/fiction",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -234,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -264,7 +264,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 38.46153846153847,
+        "dimension": 38.461538461538474,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -291,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Books/Atomic Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Read List"
+              "title": "Outgoing links from Atomic Design"
             }
           },
           {
@@ -325,10 +325,25 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Books/Read List/Read List.md"
+                "file": "Books/Atomic Design.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Read List"
+              "title": "File properties for Atomic Design"
+            }
+          },
+          {
+            "id": "1c8e9327128725b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Books/Atomic Design.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Atomic Design"
             }
           }
         ],
@@ -373,7 +388,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.542688081149617,
+        "dimension": 26.54268808114962,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -420,15 +435,16 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "eb61e999624953f5",
   "lastOpenFiles": [
+    "Books/Read List/Read List.md",
+    "Books/The 80'20 Principle.md",
     "Daily/UAT Kavin.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
     "My Data.base",
     "Books/Read List/Untitled.md",
-    "Books/Read List/Read List.md",
     "Books/The Courage to be Disliked.md",
     "Books/Hooked.md",
     "Product/Knowledge Hub/RFP training PRD.md",
@@ -438,7 +454,6 @@
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Books/The 80'20 Principle.md",
     "Books/கல்வி ஓர் அரசியல்.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
