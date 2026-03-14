@@ -4,7 +4,7 @@ author:
   - "[[David Spinks]]"
 published: 2021-03-16
 tags:
-  - Books/business
+  - Books/business/david
 rating:
 pages: 416
 lists:

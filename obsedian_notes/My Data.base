@@ -5,7 +5,7 @@ views:
       and:
         - file.inFolder("Books")
     groupBy:
-      property: lists
+      property: file.folder
       direction: ASC
     order:
       - file.name
@@ -16,8 +16,8 @@ views:
       - file.basename
       - file.mtime
     sort:
-      - property: file.mtime
-        direction: DESC
+      - property: file.tags
+        direction: ASC
     cardSize: 340
     image: note.cover
     imageFit: contain

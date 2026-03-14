@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Company Info",
+      "path": "Product/Projects/Context Info/Company Info.md"
+    },
+    {
+      "basename": "The Business Of Belonging",
+      "path": "Books/The Business Of Belonging.md"
+    },
+    {
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Books/Read List/Untitled.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "The Courage to be Disliked",
+      "path": "Books/The Courage to be Disliked.md"
+    },
+    {
+      "basename": "Hooked",
+      "path": "Books/Hooked.md"
+    },
+    {
       "basename": "RFP training PRD",
       "path": "Product/Knowledge Hub/RFP training PRD.md"
     },
@@ -35,10 +63,6 @@
     {
       "basename": "கல்வி ஓர் அரசியல்",
       "path": "Books/Read List/கல்வி ஓர் அரசியல்.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "Cred",
@@ -175,30 +199,6 @@
     {
       "basename": "2026-02-24 - Sprint Planning",
       "path": "Not a trash/2026-02-24 - Sprint Planning.md"
-    },
-    {
-      "basename": "2026-02-24",
-      "path": "Not a trash/2026-02-24.md"
-    },
-    {
-      "basename": "2026-01-29 UAT with Vipin",
-      "path": "Not a trash/2026-01-29 UAT with Vipin.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
-    },
-    {
-      "basename": "How to Create a project",
-      "path": "Product/Help Article/How to Create a project.md"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Share assign and review flow",
-      "path": "Product/Projects/Internal Share/Share assign and review flow.md"
     }
   ],
   "omittedPaths": [],

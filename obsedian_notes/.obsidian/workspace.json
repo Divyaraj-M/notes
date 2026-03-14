@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "7007713c3f3f8948",
-        "type": "tabs",
-        "dimension": 23.436196830692243,
-        "children": [
-          {
-            "id": "1825c3febfed2774",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Product/Knowledge Hub/RFP training PRD.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of RFP training PRD"
-            }
-          }
-        ]
-      },
-      {
         "id": "dc14723fdfc4e338",
         "type": "tabs",
-        "dimension": 76.56380316930776,
         "children": [
           {
             "id": "62fafe4a7b38cdef",
@@ -125,7 +102,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training PRD.md",
+                "file": "Books/Read List/Read List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -140,7 +117,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RFP training PRD"
+              "title": "Read List"
             }
           },
           {
@@ -166,9 +143,33 @@
               "icon": "lucide-file",
               "title": "UAT Kavin"
             }
+          },
+          {
+            "id": "cbee3a04c0eb5807",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Context Info/Company Info.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Company Info"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -290,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training PRD.md",
+                "file": "Product/Projects/Context Info/Company Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RFP training PRD"
+              "title": "Outgoing links from Company Info"
             }
           },
           {
@@ -324,14 +325,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Knowledge Hub/RFP training PRD.md"
+                "file": "Product/Projects/Context Info/Company Info.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for RFP training PRD"
+              "title": "File properties for Company Info"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -421,6 +422,14 @@
   },
   "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Projects/Context Info/Company Info.md",
+    "Books/The Business Of Belonging.md",
+    "My Data.base",
+    "Books/Read List/Untitled.md",
+    "Books/Read List/Read List.md",
+    "Books/The Courage to be Disliked.md",
+    "Books/Hooked.md",
+    "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
@@ -429,7 +438,6 @@
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Books/The 80'20 Principle.md",
     "Books/Read List/கல்வி ஓர் அரசியல்.md",
-    "Books/Read List/Read List.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
@@ -437,20 +445,13 @@
     "Product/Dossiers/Proposals/UAT Kavin.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
-    "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/Knowledge Hub/Knowledge Hub.md",
     "Product/Knowledge Hub/Untitled.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-    "Product/competitors/Responsiveio/Answer types templates.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
-    "Product/competitors/Gamma/Behaviour study.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
-    "My Data.base",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
