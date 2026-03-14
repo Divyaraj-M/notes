@@ -126,7 +126,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/UAT Kavin.md",
+                "file": "Daily/UAT Kavin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -150,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "Daily/UAT vipin 2026-02-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -165,7 +165,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company Info"
+              "title": "UAT vipin 2026-02-23"
             }
           }
         ],
@@ -291,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md",
+                "file": "Daily/UAT vipin 2026-02-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Company Info"
+              "title": "Outgoing links from UAT vipin 2026-02-23"
             }
           },
           {
@@ -325,10 +325,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Context Info/Company Info.md"
+                "file": "Daily/UAT vipin 2026-02-23.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Company Info"
+              "title": "File properties for UAT vipin 2026-02-23"
             }
           }
         ],
@@ -420,8 +420,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "cbee3a04c0eb5807",
   "lastOpenFiles": [
+    "Daily/UAT Kavin.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
     "My Data.base",
@@ -442,7 +443,6 @@
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-    "Product/Dossiers/Proposals/UAT Kavin.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",

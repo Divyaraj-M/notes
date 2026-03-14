@@ -641,6 +641,7 @@ Proceed
 Persistence
 Prospect
 Pointers
+Paticipants
 Before
 Blast
 BM
@@ -1034,6 +1035,7 @@ saying
 scale
 summarise
 summarised
+summarize
 everyone
 exactly
 each
@@ -1140,6 +1142,7 @@ explained
 explicitly
 enable
 excels
+enhancements
 Story
 Stories
 Should
@@ -1560,6 +1563,7 @@ Flag
 Functionality
 Fast
 Framework
+Fioter
 Goes
 Goals
 Gate
@@ -1753,6 +1757,7 @@ Relationship
 Re
 Risk
 Redo
+Remove
 need
 needing
 nested
@@ -1926,6 +1931,7 @@ Handling
 HIGH
 Higher
 Historical
+Headers
 call
 could
 context
@@ -2204,6 +2210,7 @@ observed
 override
 offs
 overwrites
+obligations
 flows
 from
 full
@@ -2587,6 +2594,7 @@ unclear
 understanding
 unsolved
 unlikely
+uat
 phases
 problem
 placeholder
@@ -2749,6 +2757,7 @@ products
 psychological
 psychology
 property
+pop
 goals
 give
 generates
@@ -2850,6 +2859,7 @@ Insights
 Informal
 Interactions
 Italics
+Instructions
 you
 yet
 your
