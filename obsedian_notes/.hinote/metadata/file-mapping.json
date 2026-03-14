@@ -3,7 +3,9 @@
   "mapping": {
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md": "product_dossiers_proposals_my_templates_-_proposal_(next_phase).md.json",
     "Product/Dossiers/Proposals/Proposal Template flow.md": "product_dossiers_proposals_proposal_template_flow.md.json",
-    "Product/Dossiers/Proposals/Company Templates - Proposal.md": "product_dossiers_proposals_company_templates_-_proposal.md.json"
+    "Product/Dossiers/Proposals/Company Templates - Proposal.md": "product_dossiers_proposals_company_templates_-_proposal.md.json",
+    "Books/Read List/Read List.md": "books_read_list_read_list.md.json",
+    "Books/Read List/கல்வி ஓர் அரசியல்.md": "books_read_list_கல்வி_ஓர்_அரசியல்.md.json"
   },
-  "lastUpdated": 1773401388452
+  "lastUpdated": 1773477234138
 }

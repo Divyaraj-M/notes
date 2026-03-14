@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "கல்வி ஓர் அரசியல்",
+      "path": "Books/Read List/கல்வி ஓர் அரசியல்.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
       "basename": "Cred",
       "path": "Learning/ARCA AI/Cred/Cred.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Untitled",
       "path": "Product/Projects/Questions/Untitled.md"
-    },
-    {
-      "basename": "Save to QnA PRD",
-      "path": "Product/Projects/Questions/Save to QnA/Save to QnA PRD.md"
-    },
-    {
-      "basename": "Table view for question card PRD",
-      "path": "Product/Projects/Table View/Table view for question card PRD.md"
     }
   ],
   "omittedPaths": [],

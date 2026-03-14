@@ -36,3 +36,5 @@ comment: Rethinking mastery for generalists and multipotentialites.
 20. [Atomic Design](https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/) - Done
 21. https://airfocus.com/glossary/what-is-a-product-backlog/
 22. https://airfocus.com/glossary/what-is-weighted-shortest-job-first/
+23. [[கல்வி ஓர் அரசியல்]]
+24. 

@@ -14,13 +14,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Company Templates - Proposal"
+              "title": "Outline"
             }
           }
         ]
@@ -36,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
+                "file": "Books/Read List/கல்வி ஓர் அரசியல்.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -51,7 +50,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Company Templates - Proposal"
+              "title": "கல்வி ஓர் அரசியல்"
+            }
+          },
+          {
+            "id": "0e3980d34ee8c9ba",
+            "type": "leaf",
+            "state": {
+              "type": "library",
+              "state": {
+                "search": "",
+                "list": null,
+                "status": null,
+                "grouping": null,
+                "sort": null,
+                "view": "gallery"
+              },
+              "icon": "library-big",
+              "title": "Bookshelf library"
             }
           },
           {
@@ -124,7 +140,8 @@
               "title": "UAT Kavin"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -246,12 +263,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Company Templates - Proposal"
+              "title": "Outgoing links"
             }
           },
           {
@@ -279,11 +295,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/Dossiers/Proposals/Company Templates - Proposal.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Company Templates - Proposal"
+              "title": "File properties"
             }
           }
         ],
@@ -375,12 +389,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "62fafe4a7b38cdef",
+  "active": "a15824c576d8bf52",
   "lastOpenFiles": [
+    "Books/Read List/கல்வி ஓர் அரசியல்.md",
+    "Books/Read List/Read List.md",
+    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
-    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/Dossiers/Proposals/UAT Kavin.md",
@@ -402,8 +418,6 @@
     "Product/competitors/Responsiveio/Responsive.io.md",
     "Product/Knowledge Hub/Untitled 2.md",
     "Product/Knowledge Hub/Untitled 1.md",
-    "Product/Projects/Context Info/Competitors Info.md",
-    "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/tasks-default.base",
     "My Data.base",
