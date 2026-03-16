@@ -16,7 +16,6 @@
   "cmenu-plugin",
   "obsidian-html-plugin",
   "omnisearch",
-  "tasknotes",
   "obsidian-icon-folder",
   "obsidian-link-embed",
   "emoji-shortcodes",
@@ -26,5 +25,6 @@
   "recent-files-obsidian",
   "pdf-plus",
   "calendar",
-  "obsidian-completr"
+  "obsidian-completr",
+  "tasknotes"
 ]

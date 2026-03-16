@@ -100,24 +100,13 @@
             "id": "a031d9ef18f16983",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Books/Atomic Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "All Tasks"
               },
-              "icon": "lucide-file",
-              "title": "Atomic Design"
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
             }
           },
           {
@@ -234,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -337,13 +326,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Atomic Design.md",
+                "file": "TaskNotes/Views/tasks-default.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Atomic Design"
+              "title": "Outline of tasks-default"
             }
           }
         ],
@@ -435,15 +424,18 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "eb61e999624953f5",
+  "active": "a031d9ef18f16983",
   "lastOpenFiles": [
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "My Data.base",
+    "Books/Atomic Design.md",
     "Books/Read List/Read List.md",
     "Books/The 80'20 Principle.md",
     "Daily/UAT Kavin.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
-    "My Data.base",
     "Books/Read List/Untitled.md",
     "Books/The Courage to be Disliked.md",
     "Books/Hooked.md",
@@ -462,14 +454,10 @@
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/Knowledge Hub/Knowledge Hub.md",
-    "Product/Knowledge Hub/Untitled.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",

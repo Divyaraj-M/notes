@@ -24,6 +24,18 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "TaskNotes/Views/tasks-default.base",
+      "timestamp": 1773647913933
+    },
+    {
+      "filepath": "TaskNotes/Views/calendar-default.base",
+      "timestamp": 1773647904555
+    },
+    {
+      "filepath": "My Data.base",
+      "timestamp": 1773508473534
+    },
+    {
       "filepath": "Books/Atomic Design.md",
       "timestamp": 1773497523254
     }
