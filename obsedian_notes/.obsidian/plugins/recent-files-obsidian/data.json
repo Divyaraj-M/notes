@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
+      "basename": "Share first principle",
+      "path": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md"
     },
     {
       "basename": "My Data",
       "path": "My Data.base"
+    },
+    {
+      "basename": "ECHS – Knowledge Transfer (KT) Document",
+      "path": "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md"
+    },
+    {
+      "basename": "UTITSL_102 - Tech Doc",
+      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
+    },
+    {
+      "basename": "Pasted image 20260301123651",
+      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
+    },
+    {
+      "basename": "Pasted image 20260301121747",
+      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
+    },
+    {
+      "basename": "ERD",
+      "path": "Learning/ARCA AI/UTITSL_102/ERD.md"
+    },
+    {
+      "basename": "Design diagram",
+      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
+    },
+    {
+      "basename": "My Templates - Proposal (Next phase)",
+      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
+    },
+    {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "UAT Kavin",
+      "path": "Daily/UAT Kavin.md"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
     },
     {
       "basename": "Atomic Design",
@@ -23,14 +63,6 @@
     {
       "basename": "The 80'20 Principle",
       "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "UAT Kavin",
-      "path": "Daily/UAT Kavin.md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
     },
     {
       "basename": "Company Info",
@@ -71,10 +103,6 @@
     {
       "basename": "Past RFP Similarity Score (PRS)",
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "My Templates - Proposal (Next phase)",
-      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
     },
     {
       "basename": "Proposal Template flow",
@@ -171,34 +199,6 @@
     {
       "basename": "FRD Template",
       "path": "Product/Templates/Product to dev process/FRD Template.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/UX changes/Sign up and Onboarding mails.md"
-    },
-    {
-      "basename": "SparrowGenie Help Article Template",
-      "path": "Not a trash/SparrowGenie Help Article Template.md"
-    },
-    {
-      "basename": "2026-01-30",
-      "path": "Not a trash/2026-01-30.md"
-    },
-    {
-      "basename": "2026-02-04",
-      "path": "Not a trash/2026-02-04.md"
-    },
-    {
-      "basename": "2026-02-10 19-43-37",
-      "path": "Not a trash/2026-02-10 19-43-37.md"
-    },
-    {
-      "basename": "Test",
-      "path": "Not a trash/Test.md"
     }
   ],
   "omittedPaths": [],

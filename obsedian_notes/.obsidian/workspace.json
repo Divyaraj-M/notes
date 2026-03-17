@@ -76,9 +76,22 @@
             "id": "5d1470d745c10c4e",
             "type": "leaf",
             "state": {
+              "type": "bases",
+              "state": {
+                "file": "My Data.base",
+                "viewName": "My Books"
+              },
+              "icon": "lucide-table",
+              "title": "My Data"
+            }
+          },
+          {
+            "id": "a21f01acf0a35b14",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+                "file": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -93,7 +106,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My Templates - Proposal (Next phase)"
+              "title": "Share first principle"
             }
           },
           {
@@ -107,30 +120,6 @@
               },
               "icon": "tasknotes-simple",
               "title": "tasks-default"
-            }
-          },
-          {
-            "id": "8c2c6554a211b270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/UAT Kavin.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT Kavin"
             }
           },
           {
@@ -188,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#learning/fiction",
+                "query": "[\"name\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -326,13 +315,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
+                "file": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks-default"
+              "title": "Outline of Share first principle"
             }
           }
         ],
@@ -372,7 +361,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9140aa1d3d409719",
@@ -424,16 +414,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a031d9ef18f16983",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
-    "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/tasks-default.base",
     "My Data.base",
+    "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
+    "Product/Dossiers/Proposals/Share for the proposal",
+    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
+    "TaskNotes/Views/tasks-default.base",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Daily/UAT Kavin.md",
+    "TaskNotes/Views/calendar-default.base",
     "Books/Atomic Design.md",
     "Books/Read List/Read List.md",
     "Books/The 80'20 Principle.md",
-    "Daily/UAT Kavin.md",
-    "Daily/UAT vipin 2026-02-23.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
     "Books/Read List/Untitled.md",
@@ -444,7 +437,6 @@
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Books/கல்வி ஓர் அரசியல்.md",
     "Product/Dossiers/Proposals/Company Templates - Proposal.md",
@@ -453,14 +445,12 @@
     "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
     "Product/ROI Calculator/ROI Calculator.md",
     "Learning/Top Deliverables/Product Roadmap.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Views",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
