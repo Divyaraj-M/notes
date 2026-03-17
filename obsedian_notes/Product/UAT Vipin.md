@@ -26,3 +26,10 @@ Mark high confidence as reviwed
 Animations and navigations 
 Loading screen 
 
+
+High Confidence and source 
+filter 
+navigation
+rich text 
+attachments 
+

@@ -25,7 +25,11 @@
   "recentFilesStore": [
     {
       "filepath": "Product/UAT Vipin.md",
-      "timestamp": 1773749348555
+      "timestamp": 1773750356903
+    },
+    {
+      "filepath": "Daily/UAT vipin 2026-02-23.md",
+      "timestamp": 1773750352371
     },
     {
       "filepath": "TaskNotes/Views/tasks-default.base",
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
       "timestamp": 1773749340339
-    },
-    {
-      "filepath": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
-      "timestamp": 1773748390650
     }
   ],
   "bookmarkedFileStore": [

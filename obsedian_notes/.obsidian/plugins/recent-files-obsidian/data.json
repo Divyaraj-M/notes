@@ -5,6 +5,10 @@
       "path": "Product/UAT Vipin.md"
     },
     {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
       "basename": "tasks-default",
       "path": "TaskNotes/Views/tasks-default.base"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "My Templates - Proposal (Next phase)",
       "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
     },
     {
       "basename": "UAT Kavin",

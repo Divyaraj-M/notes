@@ -228,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -396,12 +396,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of UAT Vipin"
             }
           }
         ],
@@ -493,8 +494,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8c081c97cb254242",
+  "active": "a031d9ef18f16983",
   "lastOpenFiles": [
+    "Daily/UAT vipin 2026-02-23.md",
     "Product/UAT Vipin.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Projects/Answers/Untitled.md",
@@ -513,7 +515,6 @@
     "My Data.base",
     "Product/Dossiers/Proposals/Share for the proposal",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
-    "Daily/UAT vipin 2026-02-23.md",
     "Daily/UAT Kavin.md",
     "TaskNotes/Views/calendar-default.base",
     "Books/Atomic Design.md",
