@@ -20,3 +20,9 @@ Navigation from workspace to project
 11 March 
 Diagnosis - Copies 
 Mark high confidence as reviwed 
+
+
+17 March 
+Animations and navigations 
+Loading screen 
+

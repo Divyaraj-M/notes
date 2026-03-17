@@ -137,6 +137,18 @@
             "id": "b1384d2d827fcf01",
             "type": "leaf",
             "state": {
+              "type": "html-view",
+              "state": {
+                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html"
+              },
+              "icon": "code-glyph",
+              "title": "SparrowGenie_Answer_Actions_Dark"
+            }
+          },
+          {
+            "id": "a648c4e33012b16e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
@@ -161,13 +173,24 @@
             "id": "a031d9ef18f16983",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "All Tasks"
+                "file": "Product/UAT Vipin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "icon": "lucide-file",
+              "title": "UAT Vipin"
             }
           },
           {
@@ -193,9 +216,19 @@
               "icon": "lucide-file",
               "title": "UAT vipin 2026-02-23"
             }
+          },
+          {
+            "id": "8c081c97cb254242",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -363,13 +396,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Genie Actions inside the Questions card"
+              "title": "Outline"
             }
           }
         ],
@@ -461,10 +493,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b1384d2d827fcf01",
+  "active": "8c081c97cb254242",
   "lastOpenFiles": [
-    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/UAT Vipin.md",
+    "TaskNotes/Views/tasks-default.base",
+    "Product/Projects/Answers/Untitled.md",
     "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Projects/Answers/Genie Actions",
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Answers/Answer types.md",
@@ -478,7 +513,6 @@
     "My Data.base",
     "Product/Dossiers/Proposals/Share for the proposal",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
-    "TaskNotes/Views/tasks-default.base",
     "Daily/UAT vipin 2026-02-23.md",
     "Daily/UAT Kavin.md",
     "TaskNotes/Views/calendar-default.base",
@@ -495,7 +529,6 @@
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
-    "Product/Dossiers/Proposals/Proposal Template flow.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/relationships.base",

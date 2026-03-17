@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Projects/Answers/Untitled.md"
+    },
+    {
       "basename": "Genie Actions inside the Questions card",
       "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
     },
@@ -67,10 +79,6 @@
     {
       "basename": "My Templates - Proposal (Next phase)",
       "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
     },
     {
       "basename": "UAT vipin 2026-02-23",
@@ -191,14 +199,6 @@
     {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Answer types templates",
-      "path": "Product/competitors/Responsiveio/Answer types templates.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     }
   ],
   "omittedPaths": [],
