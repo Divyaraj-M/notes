@@ -2,48 +2,51 @@
 name: Genie Actions inside the Questions card
 tags:
   - new_feature/question_card/Genie_actions
-Wireframe: " [[SparrowGenie_Answer_Actions_Dark.html]]"
+Wireframe: https://69b967ad31b14d2fe9e1ab17--cerulean-daifuku-1dedf0.netlify.app/
 author: Divyaraj Murugan
 published:
 type: PRD
 product: SparrowGenie
 feature:
-status: Draft
+status: Done
 priority: Medium
 owner: Divyaraj Murugan
 sprint:
 version: 1
 ---
+## Answer Actions — Regenerate, Expand, Shorten & Ask GenieAI
+
+---
+
 ## 1. Problem statement
 
-When SparrowGenie generates an RFP answer, users frequently need to adjust it before submission — the answer may be too short, too verbose, sourced from the wrong knowledge base, or missing key context. Currently there is no structured way to refine a generated answer without manually editing or starting from scratch.
+When SparrowGenie generates an RFP answer, users frequently need to adjust it before submission  the answer may be too short, too verbose, sourced from the wrong knowledge base, or missing key context. Currently there is no structured way to refine a generated answer without manually editing or starting from scratch.
 
 This problem affects proposal managers, compliance teams, and sales teams who work with SparrowGenie daily across 5+ Knowledge Hubs per project. The cost of not solving it is significant: users default to copy-pasting into external tools, breaking the feedback loop that improves future answers. In competitive RFP scenarios, slow iteration directly impacts win rates.
 
 ---
 
-
 ## 2. Goals
 
-| #   | Goal                                                        | Metric                                                                             |
-| --- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 1   | Reduce time from generated answer to final submitted answer | Decrease average answer refinement time by 40% within 60 days of launch            |
-| 2   | Increase user confidence in source attribution              | 80%+ of regenerations via KH source picker include at least one source change      |
-| 3   | Reduce manual answer editing                                | 30% reduction in post-generation text edits measured by character-level diff       |
-| 4   | Drive Knowledge Hub engagement                              | 15% increase in KH source additions via the "With my source" upload flow           |
-| 5   | Improve answer training loop quality                        | Uploaded documents saved to KH via the attachment flow increase KH coverage by 10% |
+| #   | Goal                                                        | Metric                                                                                 |
+| --- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| 1   | Reduce time from generated answer to final submitted answer | Decrease average answer refinement time by 40% within 60 days of launch                |
+| 2   | Increase user confidence in source attribution              | 80%+ of regenerations via KH source picker include at least one source change          |
+| 3   | Reduce manual answer editing                                | 30% reduction in post-generation text edits measured by character-level diff           |
+| 4   | Enable ad-hoc regeneration with user's own documents        | 15% of regenerations use the Upload source flow within 60 days                         |
+| 5   | Enable ad-hoc document usage without KH clutter             | Uploaded documents are ephemeral — used for regeneration only, not persisted to any KH |
 
 ---
 
 ## 3. Non-goals
 
-| Non-goal                                                                           | Reason                                                                                                  |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Bulk answer actions (apply expand/shorten to multiple answers at once)             | Too complex for v1; requires batch job architecture. Revisit after single-answer adoption is validated. |
-| Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread) | Separate initiative. v1 Ask GenieAI is a single-turn prompt.                                            |
-| Answer version history / diff view                                                 | Valuable but separate feature. Out of scope to keep the dropdown lightweight.                           |
-| Source-level confidence scoring (showing match %)                                  | Requires ML pipeline changes. Can be layered on later without changing the UI structure.                |
-| Auto-suggesting optimal word count based on RFP question type                      | Premature optimization. Need usage data from manual word count selection first.                         |
+| Non-goal                                                                           | Reason                                                                                                   |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Bulk answer actions (apply expand/shorten to multiple answers at once)             | Too complex for v 1; requires batch job architecture. Revisit after single-answer adoption is validated. |
+| Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread) | Separate initiative. v 1 Ask GenieAI is a single-turn prompt.                                            |
+| Answer version history / diff view                                                 | Valuable but separate feature. Out of scope to keep the dropdown lightweight.                            |
+| Source-level confidence scoring (showing match %)                                  | Requires ML pipeline changes. Can be layered on later without changing the UI structure.                 |
+| Auto-suggesting optimal word count based on RFP question type                      | Premature optimization. Need usage data from manual word count selection first.                          |
 
 ---
 
@@ -61,9 +64,9 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 **As a proposal manager**, I want to search across all sources by name or keyword so that I do not have to manually browse through every Knowledge Hub.
 
-**As a compliance team member**, I want to regenerate an answer using my own uploaded document so that I can incorporate the latest policy update that has not been added to the Knowledge Hub yet.
+**As a compliance team member**, I want to regenerate an answer using my own uploaded document so that I can incorporate the latest policy update without needing to add it to the Knowledge Hub first.
 
-**As a compliance team member**, I want uploaded documents to be saved to a selected Knowledge Hub so that the team benefits from the new source material going forward, not just for this one answer.
+**As a compliance team member**, I understand that uploaded documents are used for this regeneration only and are not saved to any Knowledge Hub, so that KHs remain clean and curated with only intentionally added sources.
 
 ### Expand answer
 
@@ -85,7 +88,7 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 ## 5. Requirements
 
-### 5.1 Must-have (P0)
+### 5.1 Must-have (P 0)
 
 #### 5.1.1 Main dropdown menu
 
@@ -106,19 +109,20 @@ Clicking "Regenerate" (first option in the regenerate sub-menu) regenerates the 
 - Given the user clicks Regenerate, when the generation completes, then the previous answer is replaced with the new one.
 - Given a regeneration is in progress, when the user views the answer area, then a loading state is shown.
 
-#### 5.1.3 Regenerate — with KH source
+#### 5.1.3 Regenerate — pick sources
 
-A multi-KH, multi-source-type picker panel that lets users control which sources feed the regeneration.
+A multi-KH, multi-source-type picker panel (labeled "Pick sources") that lets users control which sources feed the regeneration. The panel uses progressive disclosure: it first shows only the sources used for the current answer, with an "Add more sources" trigger to expand the full browse experience.
 
 **Acceptance criteria:**
 
-- Given the KH source panel is open, when the user views "Sources used for this answer", then all sources from the previous generation are listed and pre-checked.
+- Given the Pick sources panel is open, when the user views "Sources used for this answer", then all sources from the previous generation are listed and pre-checked.
 - Given any source is checked, when the user unchecks it, then it is excluded from the next regeneration.
-- Given the user wants to add sources, when they scroll to "Add more sources", then all available sources across all KHs are listed.
-- Given multiple KHs exist, when the user taps a KH pill filter (e.g. "Compliance"), then only sources from that KH are shown.
-- Given the type tabs are visible, when the user taps a type tab (Files / Websites / Q&A / Integrations), then only sources of that type are shown.
-- Given both KH filter and type tab are active, when viewing the list, then both filters are applied (AND logic).
-- Given the user types in the search bar, when results update, then sources matching by name or KH name are shown.
+- Given the user wants to add new sources, when they click the "Add more sources" trigger, then the search bar (auto-focused), KH pill filters, source type tabs, and available sources list are revealed.
+- Given the add more section is open, when the user clicks "Close", then the browse experience collapses back to just the used sources and the trigger.
+- Given the add more section is open and multiple KHs exist, when the user taps a KH pill filter (e.g. "Compliance"), then only sources from that KH are shown in the browse list.
+- Given the type tabs are visible, when the user taps a type tab (Files / Websites / Q&A / Integrations), then only sources of that type are shown in the browse list.
+- Given both KH filter and type tab are active, when viewing the browse list, then both filters are applied (AND logic). Filters do not affect the "Sources used" list.
+- Given the user types in the search bar, when results update, then sources matching by name or KH name are shown in the browse list only.
 - Given N sources are selected, when the user views the CTA button, then it reads "Regenerate with N sources" and updates dynamically.
 - Given 0 sources are selected, when the user views the CTA, then the button is disabled (opacity reduced).
 
@@ -128,18 +132,20 @@ A multi-KH, multi-source-type picker panel that lets users control which sources
 - Each source item requires: source ID, name, type (file/website/qna/integration), parent KH ID, and a flag indicating whether it was used in the current answer.
 - KH pill filters and type tabs should be client-side filtering on the already-fetched list, not separate API calls.
 
-#### 5.1.4 Regenerate — with my source (attachment upload)
+#### 5.1.4 Regenerate — upload source
 
-A panel that lets users upload their own document, use it for regeneration, and optionally save it to a Knowledge Hub.
+A panel that lets users upload their own document and use it for regeneration. Uploaded files are used for the current regeneration only and are not persisted to any Knowledge Hub. This keeps the upload flow lightweight and avoids polluting KHs with one-off documents (e.g. draft RFP responses, competitor PDFs, or client-specific materials that do not belong in a shared knowledge base).
 
 **Acceptance criteria:**
 
 - Given the upload panel is open, when the user drags a file onto the dropzone or clicks to browse, then the file is uploaded and shown in the "Uploaded files" list.
 - Given a file is uploaded, when the user views it in the list, then the filename, file size, and a remove (X) button are shown.
 - Given a file is uploaded, when the user clicks the remove button, then the file is removed from the list.
-- Given files are uploaded, when the user selects a Knowledge Hub from the "Save uploaded files to" dropdown, then uploaded files will be persisted to that KH after regeneration.
-- Given no KH is selected in the dropdown, when the files are used for regeneration, then they are used for this regeneration only and not persisted.
+- Given files are uploaded and the user clicks "Regenerate with my source", when the regeneration completes, then the uploaded files are discarded and not saved to any Knowledge Hub.
+- Given the user navigates away from the upload panel without regenerating, when they return, then the uploaded files are cleared.
 - Supported file types: PDF, DOCX, XLSX, TXT. Maximum file size: 25 MB.
+
+**Important:** There is no "Save to Knowledge Hub" option in this flow. If users want to add a document to a KH permanently, they should use the Knowledge Hub management interface directly. This separation is intentional — the upload source flow is for ad-hoc, one-time regeneration with ephemeral documents.
 
 #### 5.1.5 Expand answer
 
@@ -166,7 +172,7 @@ A panel that lets users specify a target word count and optional prompt describi
 - Given the optional prompt textarea is visible, when the user types instructions, then those instructions guide which content to preserve or remove.
 - Given the user leaves the prompt textarea empty, when they click the CTA, then the answer is shortened based on word count alone.
 
-### 5.2 Nice-to-have (P1)
+### 5.2 Nice-to-have (P 1)
 
 #### 5.2.1 Ask GenieAI
 
@@ -189,7 +195,7 @@ Each source shows a colored pill tag indicating which Knowledge Hub it belongs t
 
 When a user opens the KH source picker for a second regeneration in the same session, the previous source selection (including any changes they made) is remembered.
 
-### 5.3 Future considerations (P2)
+### 5.3 Future considerations (P 2)
 
 #### 5.3.1 Bulk answer actions
 
@@ -217,13 +223,13 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 
 ### Leading indicators (1–2 weeks post-launch)
 
-| Metric                                                  | Target                                             | Stretch | Measurement                                                    |
-| ------------------------------------------------------- | -------------------------------------------------- | ------- | -------------------------------------------------------------- |
-| Feature adoption (% of users who use any answer action) | 40% of active users                                | 60%     | Product analytics — action dropdown open events                |
-| Regenerate with KH source usage                         | 25% of all regenerations use the KH picker         | 40%     | Event tracking — regeneration events with source changes       |
-| Expand/Shorten usage                                    | 20% of generated answers are expanded or shortened | 35%     | Event tracking — expand/shorten CTA clicks                     |
-| Attachment upload rate                                  | 10% of regenerations use "With my source"          | 20%     | Event tracking — file upload events in attach panel            |
-| Describe how you want prompt usage                      | 30% of expand/shorten actions include a prompt     | 50%     | Event tracking — CTA clicks where prompt textarea is non-empty |
+|Metric|Target|Stretch|Measurement|
+|---|---|---|---|
+|Feature adoption (% of users who use any answer action)|40% of active users|60%|Product analytics — action dropdown open events|
+|Regenerate with Pick sources usage|25% of all regenerations use the source picker|40%|Event tracking — regeneration events with source changes|
+|Expand/Shorten usage|20% of generated answers are expanded or shortened|35%|Event tracking — expand/shorten CTA clicks|
+|Upload source usage|10% of regenerations use "Upload source"|20%|Event tracking — file upload events in upload panel|
+|Describe how you want prompt usage|30% of expand/shorten actions include a prompt|50%|Event tracking — CTA clicks where prompt textarea is non-empty|
 
 ### Lagging indicators (4–8 weeks post-launch)
 
@@ -231,7 +237,7 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 |---|---|---|---|
 |Answer refinement time reduction|40% faster from generation to final submission|55%|Time delta between answer generation and answer lock/submit|
 |Manual edit reduction|30% fewer character-level edits post-generation|45%|Diff analysis on answer text between generation and submission|
-|KH coverage growth from uploads|10% increase in total KH source count|20%|KH source count before vs after launch|
+|Upload source adoption|10% of regenerations use uploaded documents|20%|Event tracking — regeneration events with file uploads|
 |Support ticket reduction (answer quality complaints)|15% reduction|25%|Support ticket tagging|
 |User satisfaction (in-app survey)|4.0/5.0 for answer action usefulness|4.5/5.0|Post-action micro-survey (sampled)|
 
@@ -244,7 +250,7 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 |1|What is the maximum number of sources that can be selected for a single regeneration? Is there an API/LLM context window limit?|Engineering|Yes|
 |2|Should the word count target be an approximate guideline or a hard constraint? (LLMs rarely hit exact counts.)|Product + Engineering|Yes|
 |3|How do we handle regeneration when the user has unsaved edits to the current answer? Warn and overwrite, or offer to save a copy?|Design|Yes|
-|4|For "With my source" uploads, should the file be processed/indexed before regeneration starts, or can we stream-process? What is the expected latency?|Engineering|No|
+|4|For "Upload source", since files are ephemeral and not saved to KH, can we process them in-memory without indexing? What is the expected latency?|Engineering|No|
 |5|Should Ask GenieAI have access to the same sources as the original answer, or should it use a broader context?|Product|No|
 |6|Do we need to enforce per-KH access permissions in the source picker (i.e. can a user see sources from a KH they do not have access to)?|Product + Engineering|Yes|
 |7|What analytics events do we need to fire for each action? Do we need to capture the prompt text for internal quality analysis?|Data + Legal|No|
@@ -256,13 +262,13 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 **Dependencies:**
 
 - KH source listing API must support returning source type metadata (file/website/qna/integration) — confirm with backend team.
-- File upload endpoint must support the "save to KH" parameter — may require API extension.
+- File upload endpoint must support temporary/ephemeral file processing for regeneration without persisting to KH.
 - LLM prompt templates for expand/shorten with word count targeting need to be authored and tested by the AI team.
 
 **Suggested phasing:**
 
-- **Phase 1 (v1 launch):** All P0 requirements — main dropdown, regenerate (normal + KH source + attachment), expand, shorten.
-- **Phase 2 (fast follow, 2–3 weeks post-launch):** P1 items — Ask GenieAI, source icons, KH color tags, session memory.
-- **Phase 3 (next quarter):** P2 items based on usage data — bulk actions, diff view, confidence scores.
+- **Phase 1 (v 1 launch):** All P 0 requirements — main dropdown, regenerate (normal + KH source + attachment), expand, shorten.
+- **Phase 2 (fast follow, 2–3 weeks post-launch):** P 1 items — Ask GenieAI, source icons, KH color tags, session memory.
+- **Phase 3 (next quarter):** P 2 items based on usage data — bulk actions, diff view, confidence scores.
 
 **Hard deadlines:** None identified. This is a product-driven initiative, not tied to a contractual commitment.

@@ -161,12 +161,24 @@
             "id": "a031d9ef18f16983",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
+                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "code-glyph",
-              "title": "SparrowGenie_Answer_Actions_Dark"
+              "icon": "lucide-file",
+              "title": "Genie Actions inside the Questions card"
             }
           },
           {
@@ -372,13 +384,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie_Answer_Actions_Dark"
+              "title": "Outline of Genie Actions inside the Questions card"
             }
           }
         ],
