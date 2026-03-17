@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Five Differentiators/Untitled.md",
+                "file": "Product/Projects/Answers/Answers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -130,7 +130,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Answers"
+            }
+          },
+          {
+            "id": "b1384d2d827fcf01",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html"
+              },
+              "icon": "code-glyph",
+              "title": "SparrowGenie_Answer_Actions_Dark"
             }
           },
           {
@@ -171,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -201,7 +213,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"name\"]",
+                "query": "tag:#new_feature/question_card/Genie_actions",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -339,13 +351,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Five Differentiators/Untitled.md",
+                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of SparrowGenie_Answer_Actions_Dark"
             }
           }
         ],
@@ -385,8 +397,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -438,15 +449,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8e700072ea6dbc70",
+  "active": "b1384d2d827fcf01",
   "lastOpenFiles": [
-    "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
+    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/Projects/Answers/Answers.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "Product/competitors/Gamma/Behaviour study.md",
-    "Product/competitors/Five Differentiators/Untitled.md",
+    "Product/competitors/Five Differentiators/Differentiator.md",
+    "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/competitors/Five Differentiators",
-    "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "My Data.base",
     "Product/Dossiers/Proposals/Share for the proposal",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
@@ -468,14 +483,10 @@
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/Go-no-go/Past RFP Similarity Score (PRS).md",
     "Product/Dossiers/Proposals/Proposal Template flow.md",
-    "Books/கல்வி ஓர் அரசியல்.md",
-    "Product/Dossiers/Proposals/Company Templates - Proposal.md",
-    "Product/Dossiers/Proposals/Genie Templates - Propsals.md",
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/kanban-default.base",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
@@ -485,7 +496,6 @@
     "Untitled Diagram 1.svg",
     "Untitled Diagram.svg",
     "Learning/ARCA AI/Pasted image 20260301123651.png",
-    "Learning/ARCA AI/Pasted image 20260301121747.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

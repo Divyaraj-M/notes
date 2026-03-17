@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Product/competitors/Five Differentiators/Untitled.md"
+      "basename": "SparrowGenie_Answer_Actions_Dark",
+      "path": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Answers",
+      "path": "Product/Projects/Answers/Answers.md"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Share first principle",
+      "path": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md"
     },
     {
       "basename": "Behaviour study",
       "path": "Product/competitors/Gamma/Behaviour study.md"
+    },
+    {
+      "basename": "Differentiator",
+      "path": "Product/competitors/Five Differentiators/Differentiator.md"
     },
     {
       "basename": "Second_stream_revenue.excalidraw",
@@ -15,10 +35,6 @@
     {
       "basename": "Udemy",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Share first principle",
-      "path": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md"
     },
     {
       "basename": "My Data",
@@ -183,22 +199,6 @@
     {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
-    },
-    {
-      "basename": "Attachments - Responsive",
-      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
-    },
-    {
-      "basename": "Responsive.io",
-      "path": "Product/competitors/Responsiveio/Responsive.io.md"
-    },
-    {
-      "basename": "Untitled 2",
-      "path": "Product/Knowledge Hub/Untitled 2.md"
     }
   ],
   "omittedPaths": [],

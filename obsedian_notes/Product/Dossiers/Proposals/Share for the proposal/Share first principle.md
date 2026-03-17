@@ -1,5 +1,5 @@
 ---
 name: Share for the Proposal
 tags:
-  - " #first_principle_thinking/Share_Proposal "
+  - new_feature/dossiers/Share/first_principle
 ---
