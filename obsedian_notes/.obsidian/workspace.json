@@ -163,10 +163,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html"
+                "file": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
               },
               "icon": "code-glyph",
-              "title": "SparrowGenie_Answer_Actions_Dark 1"
+              "title": "SparrowGenie_Answer_Actions_Dark"
             }
           },
           {
@@ -372,13 +372,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
+                "file": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie_Answer_Actions_Dark 1"
+              "title": "Outline of SparrowGenie_Answer_Actions_Dark"
             }
           }
         ],
@@ -472,15 +472,16 @@
   },
   "active": "a031d9ef18f16983",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Untitled.md",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
-    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/Answers.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/UAT Vipin.md",
     "TaskNotes/Views/tasks-default.base",
-    "Product/Projects/Answers/Untitled.md",
     "Product/Projects/Answers/Genie Actions",
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "Product/competitors/Gamma/Behaviour study.md",
@@ -507,7 +508,6 @@
     "Product/Go-no-go/Go - No- Go.md",
     "Product/Go-no-go/External Questionnaire Score (EQS).md",
     "Product/competitors/Gamma",
-    "Product/Projects/Questions/Save to QnA",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
