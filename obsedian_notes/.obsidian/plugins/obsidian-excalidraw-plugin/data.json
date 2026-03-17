@@ -113,7 +113,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.21.0",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -15859,7 +15859,7 @@
             "lastCommittedPoint": null,
             "startBinding": null,
             "endBinding": null,
-            "startArrowhead": "dot",
+            "startArrowhead": "circle",
             "endArrowhead": "arrow",
             "index": "a0",
             "frameId": null,
@@ -74597,7 +74597,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -75136,7 +75136,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -75661,7 +75661,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -76213,7 +76213,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -76676,7 +76676,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -77256,7 +77256,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -77926,7 +77926,7 @@
             "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
-            "endArrowhead": "dot",
+            "endArrowhead": "circle",
             "points": [
               [
                 0,
@@ -78772,7 +78772,7 @@
               ]
             },
             "lastCommittedPoint": null,
-            "startArrowhead": "dot",
+            "startArrowhead": "circle",
             "endArrowhead": null,
             "points": [
               [
