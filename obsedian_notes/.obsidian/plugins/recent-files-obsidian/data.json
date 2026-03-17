@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
+      "basename": "SparrowGenie_Answer_Actions_Dark 1",
+      "path": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Answers",
+      "path": "Product/Projects/Answers/Answers.md"
     },
     {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "tasks-default",
@@ -15,22 +31,6 @@
     {
       "basename": "Untitled",
       "path": "Product/Projects/Answers/Untitled.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "Answers",
-      "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/Projects/Answers/Answer types.md"
     },
     {
       "basename": "Share first principle",
@@ -195,10 +195,6 @@
     {
       "basename": "Go- no - Go responsive",
       "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
     }
   ],
   "omittedPaths": [],

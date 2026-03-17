@@ -216,12 +216,12 @@ select {
     </div>
     <div class="row sep" onclick="go('kh-panel')">
       <svg class="ico" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="3" stroke="var(--text-primary)" stroke-width="1.3" fill="none"/><path d="M6 6h6M6 9h4M6 12h5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
-      <div style="flex:1"><span class="lbl">With KH source</span><p class="sub-text">Pick from Knowledge Hub</p></div>
+      <div style="flex:1"><span class="lbl">Pick sources</span><p class="sub-text">Include or exclude specific sources</p></div>
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
     </div>
     <div class="row" onclick="go('attach-panel')">
       <svg class="ico" viewBox="0 0 18 18" fill="none"><path d="M9 3v9M6 8l3 3 3-3" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 13v2a1 1 0 001 1h10a1 1 0 001-1v-2" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
-      <div style="flex:1"><span class="lbl">With my source</span><p class="sub-text">Upload your own documents</p></div>
+      <div style="flex:1"><span class="lbl">Upload source</span><p class="sub-text">Attach a document and regenerate</p></div>
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
     </div>
   </div>
@@ -279,20 +279,39 @@ select {
   <div id="kh-panel" class="hidden">
     <div class="back-row" onclick="go('regen-sub')">
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
-      <span>With KH source</span>
+      <span>Pick sources</span>
     </div>
-    <div style="padding:10px 18px;border-bottom:0.5px solid var(--border)">
-      <div style="position:relative">
-        <input type="text" id="src-search" placeholder="Search all sources..." oninput="renderSources()" class="search-input"/>
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);pointer-events:none"><circle cx="6" cy="6" r="4.5" stroke="var(--text-tertiary)" stroke-width="1.2"/><path d="M9.5 9.5L12 12" stroke="var(--text-tertiary)" stroke-width="1.2" stroke-linecap="round"/></svg>
-      </div>
-    </div>
-    <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;flex-wrap:wrap" id="kh-filters"></div>
-    <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;background:var(--bg-surface);flex-wrap:wrap" id="type-tabs"></div>
+
     <div class="sec-label" id="used-label">Sources used for this answer</div>
     <div id="used-list"></div>
-    <div class="sec-label" id="add-label">Add more sources</div>
-    <div class="srclist" id="add-list"></div>
+
+    <div id="add-trigger" style="padding:0 18px 12px">
+      <div onclick="openAddMore()" style="display:flex;align-items:center;gap:10px;padding:12px 14px;border:0.5px dashed var(--border-hover);border-radius:var(--radius-md);cursor:pointer;transition:all 0.15s" onmouseenter="this.style.borderColor='var(--accent)';this.style.background='rgba(55,138,221,0.04)'" onmouseleave="this.style.borderColor='var(--border-hover)';this.style.background='transparent'">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex-shrink:0"><circle cx="9" cy="9" r="7" stroke="var(--accent-text)" stroke-width="1.3" fill="none"/><path d="M9 6v6M6 9h6" stroke="var(--accent-text)" stroke-width="1.3" stroke-linecap="round"/></svg>
+        <div>
+          <span style="font-size:13px;font-weight:500;color:var(--accent-text)">Add more sources</span>
+          <p style="font-size:11px;color:var(--text-tertiary);margin-top:1px">Search and browse your Knowledge Hubs</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="add-more-section" style="display:none">
+      <div style="padding:10px 18px;border-top:0.5px solid var(--border);border-bottom:0.5px solid var(--border)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <span style="font-size:12px;font-weight:500;color:var(--text-primary)">Add more sources</span>
+          <span onclick="closeAddMore()" style="font-size:11px;color:var(--text-tertiary);cursor:pointer;padding:2px 6px;border-radius:4px;transition:all 0.12s" onmouseenter="this.style.color='var(--text-primary)';this.style.background='var(--bg-hover)'" onmouseleave="this.style.color='var(--text-tertiary)';this.style.background='transparent'">Close</span>
+        </div>
+        <div style="position:relative">
+          <input type="text" id="src-search" placeholder="Search all sources..." oninput="renderSources()" class="search-input"/>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);pointer-events:none"><circle cx="6" cy="6" r="4.5" stroke="var(--text-tertiary)" stroke-width="1.2"/><path d="M9.5 9.5L12 12" stroke="var(--text-tertiary)" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;flex-wrap:wrap" id="kh-filters"></div>
+      <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;background:var(--bg-surface);flex-wrap:wrap" id="type-tabs"></div>
+      <div class="sec-label" id="add-label">Available sources</div>
+      <div class="srclist" id="add-list"></div>
+    </div>
+
     <div style="padding:12px 18px;border-top:0.5px solid var(--border)">
       <button class="cta-btn" id="kh-cta">Regenerate with 4 sources</button>
     </div>
@@ -301,7 +320,7 @@ select {
   <div id="attach-panel" class="hidden">
     <div class="back-row" onclick="go('regen-sub')">
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
-      <span>With my source</span>
+      <span>Upload source</span>
     </div>
     <div style="padding:16px 18px;border-bottom:0.5px solid var(--border)">
       <div class="dropzone">
@@ -337,7 +356,19 @@ select {
 
 <script>
 var P=['main-menu','regen-sub','expand-sub','shorten-sub','kh-panel','attach-panel'];
-function go(id){P.forEach(function(p){document.getElementById(p).classList.add('hidden')});document.getElementById(id).classList.remove('hidden');if(id==='kh-panel')renderSources();}
+function go(id){P.forEach(function(p){document.getElementById(p).classList.add('hidden')});document.getElementById(id).classList.remove('hidden');if(id==='kh-panel'){closeAddMore();renderSources();}}
+
+function openAddMore(){
+  document.getElementById('add-trigger').style.display='none';
+  document.getElementById('add-more-section').style.display='block';
+  renderFilters();
+  renderSources();
+  var s=document.getElementById('src-search');s.value='';s.focus();
+}
+function closeAddMore(){
+  document.getElementById('add-trigger').style.display='block';
+  document.getElementById('add-more-section').style.display='none';
+}
 
 function setExp(v){var ps=document.querySelectorAll('#exp-presets .preset');ps.forEach(function(p){p.classList.remove('on')});if(v===0){ps[3].classList.add('on');return}ps.forEach(function(p){if(p.textContent==v)p.classList.add('on')});document.getElementById('exp-slider').value=v;updExp(v)}
 function updExp(v){v=Math.round(v);document.getElementById('exp-val').textContent=v+' words';document.getElementById('exp-target').textContent='~'+v+' words';document.getElementById('exp-cta').textContent='Expand to ~'+v+' words';var ps=document.querySelectorAll('#exp-presets .preset'),m=false;ps.forEach(function(p){p.classList.remove('on');if(p.textContent==v){p.classList.add('on');m=true}});if(!m)ps[3].classList.add('on')}
@@ -359,7 +390,7 @@ function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 function renderFilters(){var kf=document.getElementById('kh-filters');kf.innerHTML='';KHS.forEach(function(k){var p=document.createElement('span');p.className='pill'+(aKH===k?' on':'');p.textContent=k==='All'?'All KHs':k;p.onclick=function(){aKH=k;renderFilters();renderSources()};kf.appendChild(p)});var tf=document.getElementById('type-tabs');tf.innerHTML='';TYPES.forEach(function(t){var b=document.createElement('span');b.className='type-tab'+(aType===t?' on':'');b.textContent=t;b.onclick=function(){aType=t;renderFilters();renderSources()};tf.appendChild(b)})}
 function mf(s){var q=document.getElementById('src-search').value.toLowerCase();if(q&&s.name.toLowerCase().indexOf(q)===-1&&s.kh.toLowerCase().indexOf(q)===-1)return false;if(aKH!=='All'&&s.kh!==aKH)return false;if(aType!=='All'&&tk(s.type)!==aType)return false;return true}
 function sh(s){var ck=sel[s.id]?'on':'off';var csv=sel[s.id]?'<svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';return'<div class="row" onclick="tgl('+s.id+')" style="padding:9px 18px"><div class="chk '+ck+'">'+csv+'</div><div class="ico" style="color:var(--text-secondary)">'+(TI[s.type]||TI.file)+'</div><div style="flex:1;min-width:0"><div class="src-name">'+s.name+'</div><div class="src-meta">'+cap(s.type)+'</div></div><span class="'+tc(s.kh)+'">'+s.kh+'</span></div>'}
-function renderSources(){var u=SRC.filter(function(s){return s.used&&mf(s)});var a=SRC.filter(function(s){return!s.used&&mf(s)});document.getElementById('used-list').innerHTML=u.map(sh).join('');document.getElementById('add-list').innerHTML=a.map(sh).join('');document.getElementById('used-label').style.display=u.length?'':'none';document.getElementById('add-label').style.display=a.length?'':'none';updCTA()}
+function renderSources(){var u=SRC.filter(function(s){return s.used});document.getElementById('used-list').innerHTML=u.map(sh).join('');document.getElementById('used-label').style.display=u.length?'':'none';var addOpen=document.getElementById('add-more-section').style.display!=='none';if(addOpen){var a=SRC.filter(function(s){return!s.used&&mf(s)});document.getElementById('add-list').innerHTML=a.map(sh).join('');document.getElementById('add-label').style.display=a.length?'':'none'}updCTA()}
 function tgl(id){sel[id]=!sel[id];renderSources()}
 function updCTA(){var n=Object.keys(sel).filter(function(k){return sel[k]}).length;var b=document.getElementById('kh-cta');b.textContent='Regenerate with '+n+' source'+(n!==1?'s':'');b.style.opacity=n===0?'0.5':'1'}
 renderFilters();
