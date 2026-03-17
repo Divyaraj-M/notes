@@ -243,6 +243,7 @@ Display
 DROPDOWN
 DCAA
 DETAIL
+Describe
 Who
 When
 What
@@ -882,6 +883,7 @@ regen
 rect
 renderSources
 renderFilters
+resize
 Jira
 Jdjxj
 JIvrU
@@ -1141,6 +1143,8 @@ tagClass
 toLowerCase
 toUpperCase
 toggleSrc
+textarea
+tgl
 PM
 PRD
 Problem
@@ -1934,6 +1938,10 @@ setShorten
 script
 slice
 srcHTML
+setExp
+setShr
+sel
+sh
 everyone
 exactly
 each
@@ -2301,6 +2309,7 @@ SUB
 Shortening
 Sources
 Support
+SRC
 Lead
 Loop
 Linking
@@ -2738,6 +2747,8 @@ activeKH
 activeType
 appendChild
 addArr
+aKH
+aType
 QA
 Question
 Quality
@@ -3116,6 +3127,7 @@ bottleneck
 bg
 bottom
 btn
+borderColor
 Requirements
 Radius
 Rules
@@ -4054,6 +4066,8 @@ opacity
 onclick
 openPanel
 oninput
+onfocus
+onblur
 flows
 from
 full
@@ -4897,6 +4911,9 @@ updateExpand
 updateShorten
 usedArr
 updateCTA
+updExp
+updShr
+updCTA
 phases
 problem
 placeholder
@@ -5819,6 +5836,7 @@ middle
 mdash
 matched
 matchFilter
+mf
 Owners
 Opportunity
 Owner

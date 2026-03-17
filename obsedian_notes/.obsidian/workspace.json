@@ -137,12 +137,24 @@
             "id": "b1384d2d827fcf01",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html"
+                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "code-glyph",
-              "title": "SparrowGenie_Answer_Actions_Dark"
+              "icon": "lucide-file",
+              "title": "Genie Actions inside the Questions card"
             }
           },
           {
@@ -351,13 +363,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
+                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie_Answer_Actions_Dark"
+              "title": "Outline of Genie Actions inside the Questions card"
             }
           }
         ],
@@ -451,8 +463,9 @@
   },
   "active": "b1384d2d827fcf01",
   "lastOpenFiles": [
-    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+    "Product/Projects/Answers/Genie Actions",
     "Product/Projects/Answers/Answers.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
@@ -486,7 +499,6 @@
     "Product/competitors/Gamma",
     "Product/Projects/Questions/Save to QnA",
     "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/agenda-default.base",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
