@@ -14,9 +14,7 @@ owner: Divyaraj Murugan
 sprint:
 version: 1
 ---
-# PRD: Answer Actions — Regenerate, Expand, Shorten & Ask GenieAI
 
-**Product:** SparrowGenie (RFP/Proposal Automation) **Author:** Product Team **Status:** Draft **Last Updated:** March 17, 2026 **Version:** 1.0
 
 ---
 

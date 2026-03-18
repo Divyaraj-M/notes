@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Filter inside the projects screen for the question cards",
-      "path": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md"
-    },
-    {
-      "basename": "Replace Email-Based User Display with Name and Team",
-      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/UX changes/Sign up and Onboarding mails.md"
+      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
+      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     },
     {
       "basename": "PRD Feature Name",
       "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
     },
     {
-      "basename": "Untitled 1",
-      "path": "Product/Projects/Answers/Untitled 1.md"
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
+      "basename": "Replace Email-Based User Display with Name and Team",
+      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Screenshot 2026-03-18 at 3.14.25 PM",
+      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png"
+    },
+    {
+      "basename": "Screenshot 2026-03-18 at 3.15.01 PM",
+      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png"
+    },
+    {
+      "basename": "Screenshot 2026-03-18 at 3.28.01 PM",
+      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png"
+    },
+    {
+      "basename": "Screenshot 2026-03-18 at 3.28.01 PM 1",
+      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png"
+    },
+    {
+      "basename": "Filter inside the projects screen for the question cards",
+      "path": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md"
+    },
+    {
+      "basename": "Sign up and Onboarding mails",
+      "path": "Product/UX changes/Sign up and Onboarding mails.md"
     },
     {
       "basename": "SparrowGenie_Answer_Actions_Dark",
@@ -31,14 +55,6 @@
     {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "Answers",
-      "path": "Product/Projects/Answers/Answers.md"
     },
     {
       "basename": "Behaviour study",
@@ -79,14 +95,6 @@
     {
       "basename": "Udemy",
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Projects/Answers/Untitled.md"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/Projects/Answers/Answer types.md"
     },
     {
       "basename": "tasks-default",
@@ -187,18 +195,6 @@
     {
       "basename": "Cred",
       "path": "Learning/ARCA AI/Cred/Cred.md"
-    },
-    {
-      "basename": "Company Templates - Proposal",
-      "path": "Product/Dossiers/Proposals/Company Templates - Proposal.md"
-    },
-    {
-      "basename": "Genie Templates - Propsals",
-      "path": "Product/Dossiers/Proposals/Genie Templates - Propsals.md"
-    },
-    {
-      "basename": "Doc Workflow Two-Doc System",
-      "path": "Product/Templates/Product to dev process/Doc Workflow Two-Doc System.md"
     }
   ],
   "omittedPaths": [],
