@@ -1,4 +1,5 @@
-#enhacnements/mail 
+#enhancements/mail
+
 ### sign-up  Invitation mail
 
 

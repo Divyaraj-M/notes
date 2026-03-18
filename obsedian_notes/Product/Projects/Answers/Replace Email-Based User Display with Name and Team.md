@@ -1,6 +1,6 @@
 ---
 tags:
-  - enhacnements/drop_down
+  - enhancements/drop_down
 ---
 ## 1. Summary
 

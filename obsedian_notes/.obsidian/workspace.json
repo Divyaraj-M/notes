@@ -114,9 +114,67 @@
               "icon": "lucide-file",
               "title": "Edge case Analysis"
             }
+          },
+          {
+            "id": "86598d500bb67d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PRD Feature Name"
+            }
+          },
+          {
+            "id": "e7cb14ce0537f607",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "9034dc0ec62fa4c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Filter inside the projects screen for the question cards"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:enhacnements",
+                "query": "tag:#product/flow",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -174,14 +232,14 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -272,10 +330,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Books/Atomic Design.md"
+                "file": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Atomic Design"
+              "title": "File properties for Filter inside the projects screen for the question cards"
             }
           },
           {
@@ -284,17 +342,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+                "file": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Replace Email-Based User Display with Name and Team"
+              "title": "Outline of Filter inside the projects screen for the question cards"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -382,8 +440,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ba233d3bcb8378cc",
+  "active": "9034dc0ec62fa4c7",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+    "Product/UX changes/Sign up and Onboarding mails.md",
+    "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
+    "Product/Projects/Questions/Filters for project",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
@@ -394,7 +457,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Untitled 1.md",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/User names and Team",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
     "Product/UAT Vipin.md",
@@ -421,15 +483,11 @@
     "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Product/competitors/Five Differentiators",
-    "Product/Dossiers/Proposals/Share for the proposal",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Daily/UAT Kavin.md",
     "Books/Atomic Design.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
-    "Books/Read List/Untitled.md",
-    "Books/The Courage to be Disliked.md",
-    "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
