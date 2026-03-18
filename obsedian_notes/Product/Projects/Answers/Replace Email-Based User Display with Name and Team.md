@@ -1,5 +1,6 @@
 ---
 tags:
+  - enhacnements/drop_down
 ---
 ## 1. Summary
 
@@ -63,6 +64,8 @@ All user selection dropdowns must adopt the new format. Below is the complete li
 - Author dropdown
 - Reviewer dropdown
 
+![[Screenshot 2026-03-18 at 3.14.25 PM.png]]
+
 
 **Context:** This is the most granular assignment point. Users assign author/reviewer per question while reviewing RFP content.
 
@@ -76,6 +79,7 @@ All user selection dropdowns must adopt the new format. Below is the complete li
 
 - Author dropdown
 - Reviewer dropdown
+![[Screenshot 2026-03-18 at 3.20.56 PM.png]]
 
 **Context:** Used for quick assignment without opening the full question card. Must stay lightweight and fast.
 
@@ -85,7 +89,7 @@ All user selection dropdowns must adopt the new format. Below is the complete li
 
 The assignee modal supports multiple assignment modes. Each mode contains user selection dropdowns that need updating.
 
-#### 3a — By Section → Multi-select (Checkboxes) → Author/Reviewer Dropdown
+#### 3a — By Section → Multi-select (Checkboxes) , and single select → Author/Reviewer Dropdown
 
 **Location:** Assignee modal → "By Section" tab → select sections via checkboxes → assign author/reviewer.
 
@@ -93,6 +97,12 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 
 - Author dropdown (appears after section selection)
 - Reviewer dropdown (appears after section selection)
+
+![[Screenshot 2026-03-18 at 3.23.38 PM.png]]
+
+
+![[Screenshot 2026-03-18 at 3.16.47 PM.png]]
+
 
 **Context:** Bulk assignment by section. Users select one or more sections, then pick a single author/reviewer to apply.
 
@@ -107,6 +117,10 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 - Author dropdown (appears after question selection)
 - Reviewer dropdown (appears after question selection)
 
+
+
+![[Screenshot 2026-03-18 at 3.18.13 PM.png]]
+
 **Context:** Bulk assignment by question. Same interaction pattern as 3a but at question-level granularity.
 
 ---
@@ -119,6 +133,10 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 
 - Author dropdown (per question row)
 - Reviewer dropdown (per question row)
+  
+  
+![[Screenshot 2026-03-18 at 3.16.47 PM 1.png]]
+
 
 **Context:** Inline per-question assignment. Multiple dropdowns visible simultaneously — consistency and scannability are critical here.
 
@@ -131,8 +149,10 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 **Dropdowns affected:**
 
 - Participant selection dropdown
+![[Screenshot 2026-03-18 at 3.15.01 PM.png]]
 
-**Context:** Adding users to a project. No author/reviewer distinction — just user selection. Team info is especially useful here to find the right person across departments.
+
+**Context:** Adding users to a project. Team info is especially useful here to find the right person across departments.
 
 ---
 
@@ -147,6 +167,9 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 - Author dropdown (left pane)
 - Reviewer dropdown (left pane)
 
+![[Screenshot 2026-03-18 at 3.28.01 PM.png]]
+
+
 **Context:** Same as Screens 1 and 2, but within the workspace-level view. Must maintain identical format for consistency.
 
 ---
@@ -158,6 +181,9 @@ The assignee modal supports multiple assignment modes. Each mode contains user s
 **Dropdowns affected:**
 
 - Assignee dropdown
+
+![[Screenshot 2026-03-18 at 3.28.01 PM 1.png]]
+
 
 **Context:** Assigning ownership of obligations. Single-user selection with no author/reviewer split.
 

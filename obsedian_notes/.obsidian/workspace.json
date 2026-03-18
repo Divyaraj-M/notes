@@ -146,7 +146,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/question_card/Genie_actions",
+                "query": "tag:enhacnements",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -384,6 +384,15 @@
   },
   "active": "ba233d3bcb8378cc",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
+    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Untitled 1.md",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/User names and Team",
@@ -420,16 +429,7 @@
     "Books/The Business Of Belonging.md",
     "Books/Read List/Untitled.md",
     "Books/The Courage to be Disliked.md",
-    "Books/Hooked.md",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
-    "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "Learning/Domain design Diagram/Cardinality.jpg",
-    "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
-    "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
-    "Untitled Diagram 1.svg",
-    "Untitled Diagram.svg",
-    "Learning/ARCA AI/Pasted image 20260301123651.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
