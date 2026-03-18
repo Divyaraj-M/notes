@@ -237,7 +237,6 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 ### Screen 6: Filter Panel — Answered By (Level 2, single-select)
 
 
-
 |Field|Description|
 |---|---|
 |**Purpose**|Filter by whether the question was answered by Genie AI or manually.|
@@ -247,6 +246,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 |**User stories**|US-7|
 
 ### Screen 7: Filter Panel — Genie AI Confidence (Level 2, multi-select)
+
 
 
 |Field|Description|
@@ -292,9 +292,9 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 ## 8. Design Constraints
 
 - Must reuse the existing toolbar icon row (search, filter, sort, view toggle icons) — pills render below the toolbar, above the question cards.
-- Dropdown width should be consistent across Level 1 and Level 2 panels to avoid jarring resizes on transition.
+- Dropdown width should be consistent across Level 1 and Level 2 panels (~240–280px) to avoid jarring resizes on transition.
 - Author/Reviewer panels must support scrolling for projects with > 6 participants; the search field remains pinned at top.
-- Pill bar must not push question cards below the fold on standard viewport heights ; wrap to a second row if needed rather than expanding indefinitely.
+- Pill bar must not push question cards below the fold on standard viewport heights (1080px); wrap to a second row if needed rather than expanding indefinitely.
 - Truncation on pill values should kick in at ~20 characters to prevent excessive pill width.
 - Filter dropdown positioning: anchored to the filter icon, right-aligned, floating above content.
 - Must follow existing colour conventions: accent/teal for Apply and clear links, muted grey for Cancel.
@@ -302,33 +302,10 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ---
 
-## 9. Success Metrics
-
-|Metric|Target|Measure By|Tool|
-|---|---|---|---|
-|Filter feature adoption (% of active projects using filters)|+30% within 60 days|60 days post-launch|Mixpanel|
-|"Missing questions" support tickets|–50% within 30 days|30 days post-launch|Freshdesk / Intercom|
-|Avg. filter-related actions per session|Increase from baseline|30 days post-launch|Mixpanel|
-|Filter reset rate (clear-all as % of total filter actions)|Decrease from baseline|30 days post-launch|Mixpanel|
-|Task completion time (find & answer a specific question)|–20%|Usability test pre/post|User testing|
-
 ---
 
-## 10. Open Questions
+## 9. Timeline & Dependencies
 
-|#|Question|Owner|Blocking?|Status|
-|---|---|---|---|---|
-|Q1|Should the Section filter show a flat list or a nested tree matching the left sidebar hierarchy?|Design|No|Open|
-|Q2|For "Due date" → "Custom", what date picker component do we use? Existing design system date picker or a new range picker? (Note: preset options and calculation logic are now defined in Appendix A.)|Design|Yes|Open|
-|Q3|When a filter has multiple values selected (e.g., Author: Anand, Zoya), does the pill show "Author: 2 selected" or one pill per value?|PM / Design|Yes|Open|
-|Q4|Should the filter dropdown close automatically when Apply is clicked, or stay open for stacking multiple filters?|Design|No|Open|
-|Q5|Is "Genie AI confidence" filter visible to all users or only when AI answering is enabled on the project?|Eng|No|Open|
-
----
-
-## 11. Timeline & Dependencies
-
-- **Hard deadlines:** None identified.
 - **Dependencies:**
     - Existing filter API must support all filter types listed (Author, Reviewer, Question status, Section, Author due date, Reviewer due date, Answered by, Genie AI confidence).
     - Participant list API (for Author/Reviewer filter panels).
@@ -339,25 +316,13 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ---
 
-## 12. Jira Tickets — Design Phase
+## 10. Jira Tickets
 
-### Story: [PROJ]-XXX — Question List Filtering & Filter Pills — Story Definition
+### Story: [Jira](https://surveysparrow.atlassian.net/browse/SGE-2716?atlOrigin=eyJpIjoiNWQ1NjM2YjYyZTllNGYxNDk0NTVkOWM5NDQzMmViMjciLCJwIjoiaiJ9) — Story Definition
 
 > **Type:** Story  
-> **Epic:** RFP Question Management  
+> **Epic:** [Usability enhancements for Projects](https://surveysparrow.atlassian.net/browse/SGE-2702?atlOrigin=eyJpIjoiZjZmOTBmYzlmOWY4NGM3MGJlNDczMTNhNmFhNDA2Y2YiLCJwIjoiaiJ9)
 > **Description:** Links to this PRD. Implements two-level filter dropdown and persistent filter pills on the question list view.
-
-|Sub-task|Summary|Assignee|Status|Linked Screens|
-|---|---|---|---|---|
-|`[PROJ]-XXX`|Design: Filter Pill Bar (pills, +, ↺)|[Designer]|To Do|Screen 1|
-|`[PROJ]-XXX`|Design: Filter Dropdown — Level 1|[Designer]|To Do|Screen 2|
-|`[PROJ]-XXX`|Design: Filter Panel — Author & Reviewer (multi-select + search)|[Designer]|To Do|Screen 3|
-|`[PROJ]-XXX`|Design: Filter Panel — Question Status|[Designer]|To Do|Screen 4|
-|`[PROJ]-XXX`|Design: Filter Panel — Due Date (Author & Reviewer)|[Designer]|To Do|Screen 5|
-|`[PROJ]-XXX`|Design: Filter Panel — Answered By|[Designer]|To Do|Screen 6|
-|`[PROJ]-XXX`|Design: Filter Panel — Genie AI Confidence|[Designer]|To Do|Screen 7|
-|`[PROJ]-XXX`|Design: No Results Empty State|[Designer]|To Do|Screen 8|
-|`[PROJ]-XXX`|Design: Flow review + edge cases (truncation, overflow, rapid changes)|[Designer]|To Do|All|
 
 ---
 
@@ -369,11 +334,11 @@ All due date presets are computed dynamically relative to the user's current dat
 
 ### Due today
 
-| Field      | Value                |
-| ---------- | -------------------- |
-| **Anchor** | Today's date         |
-| **Start**  | 12 Feb 2026 00:00:00 |
-| **End**    | 12 Feb 2026 23:59:59 |
+|Field|Value|
+|---|---|
+|**Anchor**|Today's date|
+|**Start**|12 Feb 2026 00:00:00|
+|**End**|12 Feb 2026 23:59:59|
 
 - Due on 12 Feb 2026 at 18:30 → **Included**
 - Due on 13 Feb 2026 → **Not included**
@@ -485,7 +450,7 @@ All due date presets are computed dynamically relative to the user's current dat
 
 ## Changelog
 
-|Date|Author|Changes|
-|---|---|---|
-|2026-03-18|Prod|Initial draft|
-|2026-03-18|Prod|Added Appendix A — Due date filter calculation logic with preset definitions, examples, and implementation notes. Updated due date options from original design (Overdue, Due today, Due this week, Due this month, Custom) to expanded set (Due today, Due tomorrow, This week, Next week, Last week, This month, Next month, Last month, Custom).|
+| Date       | Author | Changes                                                                                                                                                                                                                                                                                                                                             |
+| ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-03-18 | Prod   | Initial draft                                                                                                                                                                                                                                                                                                                                       |
+| 2026-03-18 | Prod   | Added Appendix A — Due date filter calculation logic with preset definitions, examples, and implementation notes. Updated due date options from original design (Overdue, Due today, Due this week, Due this month, Custom) to expanded set (Due today, Due tomorrow, This week, Next week, Last week, This month, Next month, Last month, Custom). |
