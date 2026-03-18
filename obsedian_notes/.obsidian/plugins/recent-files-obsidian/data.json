@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "Replace Email-Based User Display with Name and Team",
+      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Product/Projects/Answers/Untitled 1.md"
+    },
+    {
+      "basename": "SparrowGenie_Answer_Actions_Dark",
+      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Answers",
+      "path": "Product/Projects/Answers/Answers.md"
+    },
+    {
+      "basename": "Behaviour study",
+      "path": "Product/competitors/Gamma/Behaviour study.md"
+    },
+    {
+      "basename": "My Data",
+      "path": "My Data.base"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "கல்வி ஓர் அரசியல்",
+      "path": "Books/கல்வி ஓர் அரசியல்.md"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
+      "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
+    },
+    {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
     },
@@ -13,36 +69,12 @@
       "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
     },
     {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Product/Projects/Answers/Untitled 1.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions inside the Questions card.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Product/Projects/Answers/Untitled.md"
     },
     {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Answers",
-      "path": "Product/Projects/Answers/Answers.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "tasks-default",
@@ -53,16 +85,8 @@
       "path": "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md"
     },
     {
-      "basename": "Behaviour study",
-      "path": "Product/competitors/Gamma/Behaviour study.md"
-    },
-    {
       "basename": "Differentiator",
       "path": "Product/competitors/Five Differentiators/Differentiator.md"
-    },
-    {
-      "basename": "My Data",
-      "path": "My Data.base"
     },
     {
       "basename": "ECHS – Knowledge Transfer (KT) Document",
@@ -103,10 +127,6 @@
     {
       "basename": "Atomic Design",
       "path": "Books/Atomic Design.md"
-    },
-    {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
     },
     {
       "basename": "Company Info",
@@ -153,10 +173,6 @@
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     },
     {
-      "basename": "கல்வி ஓர் அரசியல்",
-      "path": "Books/கல்வி ஓர் அரசியல்.md"
-    },
-    {
       "basename": "Cred",
       "path": "Learning/ARCA AI/Cred/Cred.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Product Roadmap",
       "path": "Learning/Top Deliverables/Product Roadmap.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Knowledge Hub",
-      "path": "Product/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Knowledge Hub/Untitled.md"
-    },
-    {
-      "basename": "Go- no - Go responsive",
-      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
     }
   ],
   "omittedPaths": [],

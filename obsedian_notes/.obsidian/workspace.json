@@ -8,211 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62fafe4a7b38cdef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/கல்வி ஓர் அரசியல்.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "கல்வி ஓர் அரசியல்"
-            }
-          },
-          {
-            "id": "0e3980d34ee8c9ba",
-            "type": "leaf",
-            "state": {
-              "type": "library",
-              "state": {
-                "search": "",
-                "list": null,
-                "status": null,
-                "grouping": null,
-                "sort": null,
-                "view": "gallery"
-              },
-              "icon": "library-big",
-              "title": "Bookshelf library"
-            }
-          },
-          {
-            "id": "a15824c576d8bf52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/The 80'20 Principle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "The 80'20 Principle"
-            }
-          },
-          {
-            "id": "5d1470d745c10c4e",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "My Data.base",
-                "viewName": "My Books"
-              },
-              "icon": "lucide-table",
-              "title": "My Data"
-            }
-          },
-          {
-            "id": "a21f01acf0a35b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/Gamma/Behaviour study.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Behaviour study"
-            }
-          },
-          {
-            "id": "8e700072ea6dbc70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Answers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Answers"
-            }
-          },
-          {
-            "id": "a648c4e33012b16e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Genie Actions inside the Questions card"
-            }
-          },
-          {
-            "id": "a031d9ef18f16983",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Genie Actions inside the Questions card"
-            }
-          },
-          {
-            "id": "cbee3a04c0eb5807",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/UAT vipin 2026-02-23.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT vipin 2026-02-23"
-            }
-          },
-          {
             "id": "8c081c97cb254242",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Untitled 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "ba233d3bcb8378cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Replace Email-Based User Display with Name and Team"
             }
           },
           {
@@ -233,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Product/Demo/Demo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -248,11 +88,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "Demo"
+            }
+          },
+          {
+            "id": "5297581afc1a5796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning/Top Deliverables/Edge case Analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Edge case Analysis"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -420,17 +284,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Read List"
+              "title": "Outline of Replace Email-Based User Display with Name and Team"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -518,45 +382,45 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6999e74e7eaec684",
+  "active": "ba233d3bcb8378cc",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Untitled 1.md",
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+    "Product/User names and Team",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/UAT Vipin.md",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+    "Product/Projects/Answers/Answers.md",
+    "Product/competitors/Gamma/Behaviour study.md",
+    "My Data.base",
+    "Books/The 80'20 Principle.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Books/கல்வி ஓர் அரசியல்.md",
+    "Product/Demo/Demo.md",
+    "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
+    "Books/Read List/Read List.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "Daily/UAT vipin 2026-02-23.md",
-    "Product/Projects/Answers/Untitled 1.md",
-    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/Untitled.md",
-    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/Projects/Answers/Answers.md",
-    "Product/UAT Vipin.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Projects/Answers/Genie Actions",
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
-    "Product/competitors/Gamma/Behaviour study.md",
     "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Product/competitors/Five Differentiators",
-    "My Data.base",
     "Product/Dossiers/Proposals/Share for the proposal",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Daily/UAT Kavin.md",
-    "TaskNotes/Views/calendar-default.base",
     "Books/Atomic Design.md",
-    "Books/Read List/Read List.md",
-    "Books/The 80'20 Principle.md",
     "Product/Projects/Context Info/Company Info.md",
     "Books/The Business Of Belonging.md",
     "Books/Read List/Untitled.md",
     "Books/The Courage to be Disliked.md",
     "Books/Hooked.md",
-    "Product/Knowledge Hub/RFP training PRD.md",
-    "Product/Knowledge Hub/RFP training.md",
-    "Product/Go-no-go/Go - No- Go.md",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "Product/competitors/Gamma",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
