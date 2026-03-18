@@ -14,13 +14,15 @@ owner: Divyaraj Murugan
 sprint:
 version: 1
 ---
-## Answer Actions — Regenerate, Expand, Shorten & Ask GenieAI
+# PRD: Answer Actions — Regenerate, Expand, Shorten & Ask GenieAI
+
+**Product:** SparrowGenie (RFP/Proposal Automation) **Author:** Product Team **Status:** Draft **Last Updated:** March 17, 2026 **Version:** 1.0
 
 ---
 
 ## 1. Problem statement
 
-When SparrowGenie generates an RFP answer, users frequently need to adjust it before submission  the answer may be too short, too verbose, sourced from the wrong knowledge base, or missing key context. Currently there is no structured way to refine a generated answer without manually editing or starting from scratch.
+When SparrowGenie generates an RFP answer, users frequently need to adjust it before submission — the answer may be too short, too verbose, sourced from the wrong knowledge base, or missing key context. Currently there is no structured way to refine a generated answer without manually editing or starting from scratch.
 
 This problem affects proposal managers, compliance teams, and sales teams who work with SparrowGenie daily across 5+ Knowledge Hubs per project. The cost of not solving it is significant: users default to copy-pasting into external tools, breaking the feedback loop that improves future answers. In competitive RFP scenarios, slow iteration directly impacts win rates.
 
@@ -28,25 +30,25 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 ## 2. Goals
 
-| #   | Goal                                                        | Metric                                                                                 |
-| --- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| 1   | Reduce time from generated answer to final submitted answer | Decrease average answer refinement time by 40% within 60 days of launch                |
-| 2   | Increase user confidence in source attribution              | 80%+ of regenerations via KH source picker include at least one source change          |
-| 3   | Reduce manual answer editing                                | 30% reduction in post-generation text edits measured by character-level diff           |
-| 4   | Enable ad-hoc regeneration with user's own documents        | 15% of regenerations use the Upload source flow within 60 days                         |
-| 5   | Enable ad-hoc document usage without KH clutter             | Uploaded documents are ephemeral — used for regeneration only, not persisted to any KH |
+|#|Goal|Metric|
+|---|---|---|
+|1|Reduce time from generated answer to final submitted answer|Decrease average answer refinement time by 40% within 60 days of launch|
+|2|Increase user confidence in source attribution|80%+ of regenerations via KH source picker include at least one source change|
+|3|Reduce manual answer editing|30% reduction in post-generation text edits measured by character-level diff|
+|4|Enable ad-hoc regeneration with user's own documents|15% of regenerations use the Upload source flow within 60 days|
+|5|Enable ad-hoc document usage without KH clutter|Uploaded documents are ephemeral — used for regeneration only, not persisted to any KH|
 
 ---
 
 ## 3. Non-goals
 
-| Non-goal                                                                           | Reason                                                                                                   |
-| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Bulk answer actions (apply expand/shorten to multiple answers at once)             | Too complex for v 1; requires batch job architecture. Revisit after single-answer adoption is validated. |
-| Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread) | Separate initiative. v 1 Ask GenieAI is a single-turn prompt.                                            |
-| Answer version history / diff view                                                 | Valuable but separate feature. Out of scope to keep the dropdown lightweight.                            |
-| Source-level confidence scoring (showing match %)                                  | Requires ML pipeline changes. Can be layered on later without changing the UI structure.                 |
-| Auto-suggesting optimal word count based on RFP question type                      | Premature optimization. Need usage data from manual word count selection first.                          |
+|Non-goal|Reason|
+|---|---|
+|Bulk answer actions (apply expand/shorten to multiple answers at once)|Too complex for v 1; requires batch job architecture. Revisit after single-answer adoption is validated.|
+|Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread)|Separate initiative. v 1 Ask GenieAI is a single-turn prompt.|
+|Answer version history / diff view|Valuable but separate feature. Out of scope to keep the dropdown lightweight.|
+|Source-level confidence scoring (showing match %)|Requires ML pipeline changes. Can be layered on later without changing the UI structure.|
+|Auto-suggesting optimal word count based on RFP question type|Premature optimization. Need usage data from manual word count selection first.|
 
 ---
 

@@ -214,9 +214,45 @@
               "icon": "search",
               "title": "Home tab"
             }
+          },
+          {
+            "id": "2e1187ac5a5d87ab",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Second_stream_revenue.excalidraw"
+            }
+          },
+          {
+            "id": "6999e74e7eaec684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -384,13 +420,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions inside the Questions card.md",
+                "file": "Books/Read List/Read List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Genie Actions inside the Questions card"
+              "title": "Outline of Read List"
             }
           }
         ],
@@ -482,16 +518,19 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a031d9ef18f16983",
+  "active": "6999e74e7eaec684",
   "lastOpenFiles": [
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Product/Projects/Answers/Untitled 1.md",
+    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/Untitled.md",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/Projects/Answers/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Projects/Answers/Answers.md",
-    "Daily/UAT vipin 2026-02-23.md",
     "Product/UAT Vipin.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Projects/Answers/Genie Actions",
@@ -499,8 +538,6 @@
     "Product/competitors/Gamma/Behaviour study.md",
     "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/competitors/Five Differentiators",
     "My Data.base",
     "Product/Dossiers/Proposals/Share for the proposal",

@@ -37,4 +37,4 @@ comment: Rethinking mastery for generalists and multipotentialites.
 21. https://airfocus.com/glossary/what-is-a-product-backlog/
 22. https://airfocus.com/glossary/what-is-weighted-shortest-job-first/
 23. [[கல்வி ஓர் அரசியல்]]
-24. 
+24. [21 Product Management Frameworks - Productfolio](https://productfolio.com/21-product-management-frameworks/#:~:text=This%20is%20a%20popular%20prioritization,these%20criteria%20and%20ranked%20accordingly.)
