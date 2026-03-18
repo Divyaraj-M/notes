@@ -148,7 +148,6 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 1: Question List — Filter Pills Bar
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Filter pills bar on question list
 
 |Field|Description|
 |---|---|
@@ -168,7 +167,6 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 2: Filter Dropdown — Level 1 (Category List)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Filter dropdown first level
 
 |Field|Description|
 |---|---|
@@ -188,7 +186,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 3: Filter Panel — Author / Reviewer (Level 2, multi-select with search)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Author & Reviewer filter panels
+
 
 |Field|Description|
 |---|---|
@@ -208,7 +206,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 4: Filter Panel — Question Status (Level 2, multi-select checkboxes)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Question status filter panel
+
 
 |Field|Description|
 |---|---|
@@ -220,7 +218,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 5: Filter Panel — Due Date (Level 2, single-select preset or custom)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Due date filter panels (Author & Reviewer)
+
 
 |Field|Description|
 |---|---|
@@ -238,7 +236,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 6: Filter Panel — Answered By (Level 2, single-select)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Answered by filter panel
+
 
 |Field|Description|
 |---|---|
@@ -250,7 +248,6 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 7: Filter Panel — Genie AI Confidence (Level 2, multi-select)
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Genie AI confidence filter panel
 
 |Field|Description|
 |---|---|
@@ -262,7 +259,7 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 
 ### Screen 8: No Results State
 
-> 🎟️ **Design ticket:** `[PROJ]-XXX` — Filtered no-results empty state
+
 
 |Field|Description|
 |---|---|
@@ -295,9 +292,9 @@ Click filter icon → Filter dropdown (Level 1) → Click filter type → Filter
 ## 8. Design Constraints
 
 - Must reuse the existing toolbar icon row (search, filter, sort, view toggle icons) — pills render below the toolbar, above the question cards.
-- Dropdown width should be consistent across Level 1 and Level 2 panels (~240–280px) to avoid jarring resizes on transition.
+- Dropdown width should be consistent across Level 1 and Level 2 panels to avoid jarring resizes on transition.
 - Author/Reviewer panels must support scrolling for projects with > 6 participants; the search field remains pinned at top.
-- Pill bar must not push question cards below the fold on standard viewport heights (1080px); wrap to a second row if needed rather than expanding indefinitely.
+- Pill bar must not push question cards below the fold on standard viewport heights ; wrap to a second row if needed rather than expanding indefinitely.
 - Truncation on pill values should kick in at ~20 characters to prevent excessive pill width.
 - Filter dropdown positioning: anchored to the filter icon, right-aligned, floating above content.
 - Must follow existing colour conventions: accent/teal for Apply and clear links, muted grey for Cancel.
@@ -372,11 +369,11 @@ All due date presets are computed dynamically relative to the user's current dat
 
 ### Due today
 
-|Field|Value|
-|---|---|
-|**Anchor**|Today's date|
-|**Start**|12 Feb 2026 00:00:00|
-|**End**|12 Feb 2026 23:59:59|
+| Field      | Value                |
+| ---------- | -------------------- |
+| **Anchor** | Today's date         |
+| **Start**  | 12 Feb 2026 00:00:00 |
+| **End**    | 12 Feb 2026 23:59:59 |
 
 - Due on 12 Feb 2026 at 18:30 → **Included**
 - Due on 13 Feb 2026 → **Not included**
