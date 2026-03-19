@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Formulas Mathematics",
+      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
+    },
+    {
+      "basename": "Cred",
+      "path": "Learning/ARCA AI/Cred/Cred.md"
+    },
+    {
       "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
       "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Proposal Template flow",
       "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
-    },
-    {
-      "basename": "Cred",
-      "path": "Learning/ARCA AI/Cred/Cred.md"
     }
   ],
   "omittedPaths": [],
