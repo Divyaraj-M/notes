@@ -8,52 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c081c97cb254242",
-            "type": "leaf",
-            "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-              },
-              "icon": "code-glyph",
-              "title": "SparrowGenie_Answer_Actions_Dark"
-            }
-          },
-          {
-            "id": "ba233d3bcb8378cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Replace Email-Based User Display with Name and Team"
-            }
-          },
-          {
-            "id": "9034dc0ec62fa4c7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "ae6192b7f5c31b30",
             "type": "leaf",
             "state": {
@@ -76,9 +30,57 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
+          },
+          {
+            "id": "6c79342c1a5652e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
+          },
+          {
+            "id": "06d02cabba6ddd45",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://airfocus.com/glossary/what-is-weighted-shortest-job-first/"
+              },
+              "icon": "lucide-file",
+              "title": "What is Weighted Shortest Job First (WSJF)? Definition & FAQs | airfocus | airfocus"
+            }
+          },
+          {
+            "id": "21c4546ed273b20c",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://airfocus.com/resources/guides/roadmaps/#2/"
+              },
+              "icon": "lucide-file",
+              "title": "The Ultimate Guide to Roadmaps | airfocus"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#product/flow",
+                "query": "tag:#new_feature/Go_no_go",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -342,17 +344,20 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9034dc0ec62fa4c7",
+  "active": "21c4546ed273b20c",
   "lastOpenFiles": [
+    "Books/Read List/Read List.md",
+    "Product/UAT Vipin.md",
+    "Product/Untitled.md",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+    "Product/Go-no-go/Go - No- Go.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/Demo/Demo.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/UAT Vipin.md",
     "Product/laundry List/laundry list.md",
     "Product/laundry List",
     "Learning/Data Science/mathematics I/Formulas Mathematics.md",
@@ -380,7 +385,6 @@
     "Books/The 80'20 Principle.md",
     "Books/கல்வி ஓர் அரசியல்.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
-    "Books/Read List/Read List.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
     "TaskNotes/Views/tasks-default.base",
@@ -388,7 +392,6 @@
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
-    "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

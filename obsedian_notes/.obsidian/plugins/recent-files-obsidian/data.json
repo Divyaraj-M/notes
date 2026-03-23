@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "SparrowGenie_Answer_Actions_Dark",
+      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
+    },
+    {
+      "basename": "Replace Email-Based User Display with Name and Team",
+      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
+    },
+    {
+      "basename": "Go - No- Go",
+      "path": "Product/Go-no-go/Go - No- Go.md"
+    },
+    {
       "basename": "PRD Feature Name",
       "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
     },
@@ -23,18 +43,6 @@
     {
       "basename": "Second_stream_revenue.excalidraw",
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Replace Email-Based User Display with Name and Team",
-      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
-    },
-    {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "laundry list",
@@ -103,10 +111,6 @@
     {
       "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
       "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "tasks-default",
@@ -189,16 +193,8 @@
       "path": "Product/Knowledge Hub/RFP training.md"
     },
     {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
       "basename": "External Questionnaire Score (EQS)",
       "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
-    },
-    {
-      "basename": "Past RFP Similarity Score (PRS)",
-      "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
     }
   ],
   "omittedPaths": [],
