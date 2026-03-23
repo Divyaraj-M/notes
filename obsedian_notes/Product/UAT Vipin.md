@@ -49,7 +49,7 @@ These are table stakes items, infact they are not just table stakes but baseline
 7. Learn from past completed RFPs within SparrowGenie  
 
 **RFP ingestion & mapping**  
-8. AI Mapping for Word documents  
+8. AI Mapping for Word documents  - in testing (UAT pending)
 9. Support mapping for question types such as multi-column, dates, description, etc.  
 10. Ability to map by clicking from the header  
 11. Automatically populate instructions from file  
