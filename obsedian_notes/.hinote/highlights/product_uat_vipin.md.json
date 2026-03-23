@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastModified": 1774250370552,
+  "lastModified": 1774250812609,
   "highlights": {
     "highlight-2036172962-1201": {
       "text": "Clearly show Genie answers vs human answers",
@@ -14,6 +14,21 @@
           "content": "Design needed",
           "created": 1774250370551,
           "updated": 1774250370551
+        }
+      ]
+    },
+    "highlight-496906085-1254": {
+      "text": "Character count for answers",
+      "position": 1254,
+      "created": 1774250812609,
+      "updated": 1774250812609,
+      "backgroundColor": "#ffeb3b",
+      "comments": [
+        {
+          "id": "comment-1774250812609-bgrh68wkc",
+          "content": "Sprint ready",
+          "created": 1774250812609,
+          "updated": 1774250812609
         }
       ]
     }

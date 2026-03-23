@@ -44,7 +44,7 @@ These are table stakes items, infact they are not just table stakes but baseline
 2. Confidence score in answers , Sources in answers
 3. Filter high/low confidence answers quickly  
 4. ==Clearly show Genie answers vs human answers==  
-5. Character count for answers  
+5. ==Character count for answers==  
 6. Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
 7. Learn from past completed RFPs within SparrowGenie  
 
