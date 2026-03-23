@@ -44,90 +44,6 @@
             }
           },
           {
-            "id": "2e1187ac5a5d87ab",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Second_stream_revenue.excalidraw"
-            }
-          },
-          {
-            "id": "6999e74e7eaec684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Demo/Demo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Demo"
-            }
-          },
-          {
-            "id": "5297581afc1a5796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Top Deliverables/Edge case Analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Edge case Analysis"
-            }
-          },
-          {
-            "id": "86598d500bb67d35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/PRD Feature Name.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PRD Feature Name"
-            }
-          },
-          {
             "id": "9034dc0ec62fa4c7",
             "type": "leaf",
             "state": {
@@ -162,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -317,11 +233,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/UAT Vipin.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for UAT Vipin"
+              "title": "File properties"
             }
           },
           {
@@ -428,15 +342,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ae6192b7f5c31b30",
+  "active": "9034dc0ec62fa4c7",
   "lastOpenFiles": [
-    "Learning/Data Science/mathematics I/Formulas Mathematics.md",
-    "Product/UAT Vipin.md",
-    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Daily/UAT vipin 2026-02-23.md",
+    "Product/Demo/Demo.md",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/UAT Vipin.md",
+    "Product/laundry List/laundry list.md",
+    "Product/laundry List",
+    "Learning/Data Science/mathematics I/Formulas Mathematics.md",
+    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/Answers.md",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/Untitled.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
@@ -453,18 +375,12 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/User names and Team",
-    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
-    "Daily/UAT vipin 2026-02-23.md",
     "Product/competitors/Gamma/Behaviour study.md",
     "My Data.base",
     "Books/The 80'20 Principle.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Books/கல்வி ஓர் அரசியல்.md",
-    "Product/Demo/Demo.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Books/Read List/Read List.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
     "TaskNotes/Views/tasks-default.base",
@@ -472,10 +388,7 @@
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
-    "Product/competitors/Five Differentiators",
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
-    "Daily/UAT Kavin.md",
-    "Books/Atomic Design.md",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

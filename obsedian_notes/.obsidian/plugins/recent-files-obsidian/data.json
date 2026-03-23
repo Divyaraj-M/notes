@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "UAT vipin 2026-02-23",
+      "path": "Daily/UAT vipin 2026-02-23.md"
+    },
+    {
+      "basename": "Demo",
+      "path": "Product/Demo/Demo.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
+    },
+    {
+      "basename": "Second_stream_revenue.excalidraw",
+      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
+    },
+    {
+      "basename": "Replace Email-Based User Display with Name and Team",
+      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
+    },
+    {
+      "basename": "SparrowGenie_Answer_Actions_Dark",
+      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "laundry list",
+      "path": "Product/laundry List/laundry list.md"
     },
     {
       "basename": "Formulas Mathematics",
@@ -17,16 +53,8 @@
       "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     },
     {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Replace Email-Based User Display with Name and Team",
-      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
     },
     {
       "basename": "Genie Actions inside the Questions card",
@@ -57,14 +85,6 @@
       "path": "Product/UX changes/Sign up and Onboarding mails.md"
     },
     {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
       "basename": "Behaviour study",
       "path": "Product/competitors/Gamma/Behaviour study.md"
     },
@@ -77,16 +97,8 @@
       "path": "Books/The 80'20 Principle.md"
     },
     {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
       "basename": "கல்வி ஓர் அரசியல்",
       "path": "Books/கல்வி ஓர் அரசியல்.md"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
     },
     {
       "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
@@ -95,14 +107,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Second_stream_revenue.excalidraw",
-      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Udemy",
-      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
     },
     {
       "basename": "tasks-default",
@@ -195,10 +199,6 @@
     {
       "basename": "Past RFP Similarity Score (PRS)",
       "path": "Product/Go-no-go/Past RFP Similarity Score (PRS).md"
-    },
-    {
-      "basename": "Proposal Template flow",
-      "path": "Product/Dossiers/Proposals/Proposal Template flow.md"
     }
   ],
   "omittedPaths": [],

@@ -4096,6 +4096,7 @@ Function
 FTC
 FINAL
 Floyd
+Fri
 Goes
 Goals
 Gate
@@ -5955,6 +5956,7 @@ fTu
 fDv
 forms
 functions
+fri
 live
 links
 locked
@@ -8556,6 +8558,7 @@ MST
 MINUTE
 MINDSET
 Missed
+Mon
 UI
 Users
 User

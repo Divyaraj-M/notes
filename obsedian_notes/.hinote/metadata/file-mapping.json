@@ -2,7 +2,20 @@
   "version": "2.0",
   "mapping": {
     "Product/UAT Vipin.md": "product_uat_vipin.md.json",
-    "Learning/Data Science/mathematics I/Formulas Mathematics.md": "learning_data_science_mathematics_i_formulas_mathematics.md.json"
+    "Learning/Data Science/mathematics I/Formulas Mathematics.md": "learning_data_science_mathematics_i_formulas_mathematics.md.json",
+    "Untitled": "untitled.json",
+    "laundry List": "laundry_list.json",
+    "Product/laundry List": "product_laundry_list.json",
+    "Product/laundry List/Untitled.md": "product_laundry_list_untitled.md.json",
+    "Product/laundry List/laundry list.md": "product_laundry_list_laundry_list.md.json",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html": "product_projects_answers_genie_actions_sparrowgenie_answer_actions_dark.html.json",
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md": "product_projects_answers_replace_email-based_user_display_with_name_and_team.md.json",
+    "second_stream_revenue/Second_stream_revenue.excalidraw.md": "second_stream_revenue_second_stream_revenue.excalidraw.md.json",
+    "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md": "second_stream_revenue_scripts_for_udemy_and_youtube_udemy.md.json",
+    "Product/Demo/Demo.md": "product_demo_demo.md.json",
+    "Daily/UAT vipin 2026-02-23.md": "daily_uat_vipin_2026-02-23.md.json",
+    "Learning/Top Deliverables/Edge case Analysis.md": "learning_top_deliverables_edge_case_analysis.md.json",
+    "Product/Templates/Product to dev process/PRD Feature Name.md": "product_templates_product_to_dev_process_prd_feature_name.md.json"
   },
-  "lastUpdated": 1774255093509
+  "lastUpdated": 1774263446728
 }
