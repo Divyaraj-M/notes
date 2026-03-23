@@ -160,30 +160,6 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
-          },
-          {
-            "id": "bad63dc4d0522e53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning/Data Science/mathematics I/Formulas Mathematics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Formulas Mathematics"
-            }
           }
         ],
         "currentTab": 7
@@ -455,6 +431,7 @@
   "active": "ae6192b7f5c31b30",
   "lastOpenFiles": [
     "Learning/Data Science/mathematics I/Formulas Mathematics.md",
+    "Product/UAT Vipin.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Projects/Answers/Answer types.md",
@@ -477,7 +454,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/User names and Team",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/UAT Vipin.md",
     "Daily/UAT vipin 2026-02-23.md",
     "Product/competitors/Gamma/Behaviour study.md",
     "My Data.base",

@@ -1,10 +1,10 @@
 {
   "version": "2.0",
-  "lastModified": 1774253615140,
+  "lastModified": 1774260962006,
   "highlights": {
     "highlight-2036172962-1201": {
       "text": "Clearly show Genie answers vs human answers",
-      "position": 1210,
+      "position": 1224,
       "created": 1774250370551,
       "updated": 1774250370551,
       "backgroundColor": "#ffeb3b",
@@ -19,7 +19,7 @@
     },
     "highlight-496906085-1254": {
       "text": "Character count for answers",
-      "position": 1263,
+      "position": 1277,
       "created": 1774250812609,
       "updated": 1774250812609,
       "backgroundColor": "#ffeb3b",
@@ -34,7 +34,7 @@
     },
     "highlight-1651912969-2056": {
       "text": "Multi-language support",
-      "position": 2132,
+      "position": 2189,
       "created": 1774251129278,
       "updated": 1774251129278,
       "backgroundColor": "#ffeb3b",
@@ -49,7 +49,7 @@
     },
     "highlight-1618759677-2758": {
       "text": "Project to Proposal",
-      "position": 2834,
+      "position": 2891,
       "created": 1774251161016,
       "updated": 1774251161016,
       "backgroundColor": "#ffeb3b",
@@ -64,7 +64,7 @@
     },
     "highlight-1146990167-2788": {
       "text": "Go/No-Go module",
-      "position": 2864,
+      "position": 2921,
       "created": 1774251166471,
       "updated": 1774251166471,
       "backgroundColor": "#ffeb3b",
@@ -79,7 +79,7 @@
     },
     "highlight-2082191209-1805": {
       "text": "Rich text editor for answers in questions",
-      "position": 1805,
+      "position": 1856,
       "created": 1774253508692,
       "updated": 1774253508692,
       "backgroundColor": "#ffeb3b",
@@ -94,7 +94,7 @@
     },
     "highlight-1404745949-1856": {
       "text": "Attachments in Answers",
-      "position": 1856,
+      "position": 1908,
       "created": 1774253513696,
       "updated": 1774253513696,
       "backgroundColor": "#ffeb3b",
@@ -109,7 +109,7 @@
     },
     "highlight-334343984-1939": {
       "text": "After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.",
-      "position": 1939,
+      "position": 1991,
       "created": 1774253615140,
       "updated": 1774253615140,
       "backgroundColor": "#ffeb3b",

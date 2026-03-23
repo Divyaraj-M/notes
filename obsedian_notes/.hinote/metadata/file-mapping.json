@@ -1,7 +1,8 @@
 {
   "version": "2.0",
   "mapping": {
-    "Product/UAT Vipin.md": "product_uat_vipin.md.json"
+    "Product/UAT Vipin.md": "product_uat_vipin.md.json",
+    "Learning/Data Science/mathematics I/Formulas Mathematics.md": "learning_data_science_mathematics_i_formulas_mathematics.md.json"
   },
-  "lastUpdated": 1774250364314
+  "lastUpdated": 1774255093509
 }
