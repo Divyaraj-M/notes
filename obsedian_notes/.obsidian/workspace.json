@@ -141,10 +141,24 @@
             "id": "ae6192b7f5c31b30",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Product/UAT Vipin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UAT Vipin"
             }
           },
           {
@@ -172,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -328,10 +342,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
+                "file": "Product/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Formulas Mathematics"
+              "title": "File properties for UAT Vipin"
             }
           },
           {
@@ -438,8 +452,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "bad63dc4d0522e53",
+  "active": "ae6192b7f5c31b30",
   "lastOpenFiles": [
+    "Learning/Data Science/mathematics I/Formulas Mathematics.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Projects/Answers/Answer types.md",
@@ -485,7 +500,6 @@
     "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md",
     "Daily/UAT Kavin.md",
     "Books/Atomic Design.md",
-    "Product/Projects/Context Info/Company Info.md",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"
