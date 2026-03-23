@@ -57,27 +57,27 @@ These are table stakes items, infact they are not just table stakes but baseline
 11. Automatically populate instructions from file  
   
 **Answering workflow**  
-12. ==Rich text editor for answers in questions==  
-13. ==Attachments in Answers==
-14. Ability to send nudges to authors & reviewers  
-15. ==After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.==   Fri 
-16. ==Multi-language support==  
+8. ==Rich text editor for answers in questions==  -  next fri
+9. ==Attachments in Answers==  - Next fri 
+10. Ability to send nudges to authors & reviewers  
+11. ==After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.==   Fri 
+12. ==Multi-language support==  
   
 **Knowledge quality / content governance**  
-17. Support multiple file types in Knowledge Hub  
-18. Expiry and tags for files  
-19. Request review of outdated files  
-20. Ensure all admin settings corresponding to each module work  
-21. Conflicts inside Knowledge Hub  
-22. Global search functionality  
-23. Pull from more third-party sources so users do not have to manually upload content, basically systems where prospect/customers existing knowledge lies  
+13. Support multiple file types in Knowledge Hub  
+14. Expiry and tags for files  
+15. Request review of outdated files  
+16. Ensure all admin settings corresponding to each module work  
+17. Conflicts inside Knowledge Hub  
+18. Global search functionality  
+19. Pull from more third-party sources so users do not have to manually upload content, basically systems where prospect/customers existing knowledge lies  
   
 **Important workflow enhancers & differentiators. These improve  efficiency & maturity of the product**  
   
-24. Implement the Articles-related capability done in SparrowDesk  
-25. New Home dashboard  
-26. ==Project to Proposal==  
-27. ==Go/No-Go module==  
+20. Implement the Articles-related capability done in SparrowDesk  
+21. New Home dashboard  
+22. ==Project to Proposal==  
+23. ==Go/No-Go module==  
   
   
   
