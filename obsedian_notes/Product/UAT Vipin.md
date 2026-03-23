@@ -48,7 +48,7 @@ These are table stakes items, infact they are not just table stakes but baseline
 6. Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
 7. Learn from past completed RFPs within SparrowGenie  
 8. Multiple Documents - needed to picked 
-
+	
 **RFP ingestion & mapping**  
 8. AI Mapping for Word documents  - in testing (UAT pending) - Mon
 	1. Improvements 
