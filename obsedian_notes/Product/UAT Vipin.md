@@ -33,7 +33,7 @@ navigation
 rich text 
 attachments 
 
-
+23 March 
 
 Priority List 
 
@@ -59,7 +59,7 @@ These are table stakes items, infact they are not just table stakes but baseline
 13. Attachments in Answers
 14. Ability to send nudges to authors & reviewers  
 15. After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.  
-16. Multi-language support  
+16. ==Multi-language support==  
   
 **Knowledge quality / content governance**  
 17. Support multiple file types in Knowledge Hub  
@@ -74,8 +74,8 @@ These are table stakes items, infact they are not just table stakes but baseline
   
 24. Implement the Articles-related capability done in SparrowDesk  
 25. New Home dashboard  
-26. Project to Proposal  
-27. Go/No-Go module  
+26. ==Project to Proposal==  
+27. ==Go/No-Go module==  
   
   
   
