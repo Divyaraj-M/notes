@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -127,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662,
-    "collapsed": true
+    "width": 310.5066738128662
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -321,13 +320,13 @@
   },
   "active": "1065513b9a5a326e",
   "lastOpenFiles": [
+    "Product/UAT Vipin.md",
     "Product/Users/Sep2.security.md",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/Untitled.md",
     "Product/laundry List/laundry list.md",
     "Product/Users",
     "Product/Email notifications/Email notifications.md",
-    "Product/UAT Vipin.md",
     "Books/Read List/Read List.md",
     "Product/Untitled.md",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",

@@ -5,6 +5,10 @@
       "path": "Product/Users/Sep2.security.md"
     },
     {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Email notifications",
       "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "Read List",
