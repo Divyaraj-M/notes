@@ -12,7 +12,7 @@ Zipy status : No
 24-Mar-2026
 Initial fixes : 
 - Search for project title - need to be indexed 
-- 
+- Help article for the SSO
 - Profile Picture upload - not yet done 
--  users and teams 
-- 
+-  users and teams  - remove from workspace 
+-  
