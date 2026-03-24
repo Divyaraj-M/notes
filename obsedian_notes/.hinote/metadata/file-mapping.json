@@ -27,7 +27,9 @@
     "Product/Users/Untitled.md": "product_users_untitled.md.json",
     "Product/Users/Scp.md": "product_users_scp.md.json",
     "Product/Users/Sep2.security.md": "product_users_sep2.security.md.json",
-    "TaskNotes/Views/tasks-default.base": "tasknotes_views_tasks-default.base.json"
+    "TaskNotes/Views/tasks-default.base": "tasknotes_views_tasks-default.base.json",
+    "Product/UAT Shihab.md": "product_uat_shihab.md.json",
+    "Daily/UAT Kavin.md": "daily_uat_kavin.md.json"
   },
-  "lastUpdated": 1774343471141
+  "lastUpdated": 1774345890417
 }

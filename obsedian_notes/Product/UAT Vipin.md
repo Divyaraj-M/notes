@@ -84,6 +84,4 @@ These are table stakes items, infact they are not just table stakes but baseline
 **Backend/Billing**  
 Area51 equivalent for SparrowGenie to manage backend operations without this we can get self serve billing (edited) 
 
-  
-Project 
-
+24-Mar-2026

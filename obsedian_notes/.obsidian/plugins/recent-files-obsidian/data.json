@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
+      "basename": "UAT Shihab",
+      "path": "Product/UAT Shihab.md"
     },
     {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "UAT Kavin",
+      "path": "Daily/UAT Kavin.md"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "tasks-default",
@@ -165,10 +173,6 @@
       "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
     },
     {
-      "basename": "UAT Kavin",
-      "path": "Daily/UAT Kavin.md"
-    },
-    {
       "basename": "calendar-default",
       "path": "TaskNotes/Views/calendar-default.base"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hooked",
       "path": "Books/Hooked.md"
-    },
-    {
-      "basename": "RFP training PRD",
-      "path": "Product/Knowledge Hub/RFP training PRD.md"
     }
   ],
   "omittedPaths": [],
