@@ -9,6 +9,10 @@
       "path": "Product/UAT Vipin.md"
     },
     {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
       "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
     },
     {
       "basename": "Share first principle",

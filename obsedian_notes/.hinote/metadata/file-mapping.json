@@ -26,7 +26,8 @@
     "Product/ROI Calculator/sparrowgenie-email-preview.html": "product_roi_calculator_sparrowgenie-email-preview.html.json",
     "Product/Users/Untitled.md": "product_users_untitled.md.json",
     "Product/Users/Scp.md": "product_users_scp.md.json",
-    "Product/Users/Sep2.security.md": "product_users_sep2.security.md.json"
+    "Product/Users/Sep2.security.md": "product_users_sep2.security.md.json",
+    "TaskNotes/Views/tasks-default.base": "tasknotes_views_tasks-default.base.json"
   },
-  "lastUpdated": 1774338246790
+  "lastUpdated": 1774343471141
 }

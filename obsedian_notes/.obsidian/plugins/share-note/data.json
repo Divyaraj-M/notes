@@ -1,7 +1,7 @@
 {
   "server": "https://api.note.sx",
   "uid": "355cf7ee807b7e602cc27c1ab9ca4fa1",
-  "apiKey": "6a1e4405178775cfd2d882fa368a6cef",
+  "apiKey": "2db9484c8a022e54caf06f0b8910eb99",
   "yamlField": "share",
   "noteWidth": "",
   "theme": "Cupertino",
@@ -13,6 +13,6 @@
   "expiry": "",
   "clipboard": true,
   "shareUnencrypted": false,
-  "authRedirect": null,
+  "authRedirect": "share",
   "debug": 0
 }

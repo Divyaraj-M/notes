@@ -25,11 +25,15 @@
   "recentFilesStore": [
     {
       "filepath": "Product/Users/Sep2.security.md",
-      "timestamp": 1774341830362
+      "timestamp": 1774343559423
     },
     {
       "filepath": "Product/UAT Vipin.md",
-      "timestamp": 1774341391344
+      "timestamp": 1774343491493
+    },
+    {
+      "filepath": "TaskNotes/Views/tasks-default.base",
+      "timestamp": 1774343471140
     },
     {
       "filepath": "Product/ROI Calculator/sparrowgenie-email-preview.html",
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/laundry List/laundry list.md",
       "timestamp": 1774336307291
-    },
-    {
-      "filepath": "Product/Email notifications/Email notifications.md",
-      "timestamp": 1774336298801
     }
   ],
   "bookmarkedFileStore": [

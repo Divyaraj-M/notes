@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "767a7476be21ada0",
+        "id": "72614b0ff58bbb31",
         "type": "tabs",
         "children": [
           {
-            "id": "1065513b9a5a326e",
+            "id": "e2da0cdbea9c9fc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Users/Sep2.security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sep2.security"
+            }
+          },
+          {
+            "id": "a0df8eb454c184e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +55,8 @@
               "title": "Sep2.security"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -318,10 +343,11 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "1065513b9a5a326e",
+  "active": "a0df8eb454c184e0",
   "lastOpenFiles": [
-    "Product/UAT Vipin.md",
     "Product/Users/Sep2.security.md",
+    "Product/UAT Vipin.md",
+    "TaskNotes/Views/tasks-default.base",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/Untitled.md",
     "Product/laundry List/laundry list.md",
@@ -361,10 +387,8 @@
     "Product/User names and Team",
     "Product/competitors/Gamma/Behaviour study.md",
     "My Data.base",
-    "Books/The 80'20 Principle.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
-    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",

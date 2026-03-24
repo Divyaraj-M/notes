@@ -9,7 +9,6 @@
   "obsidian-auto-link-title",
   "hi-note",
   "pretty-properties",
-  "share-note",
   "vertical-tabs",
   "obsidian-jira-issue",
   "home-tab",
@@ -31,5 +30,6 @@
   "highlightr-plugin",
   "obsidian-checklist-plugin",
   "notebook-navigator",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "share-note"
 ]

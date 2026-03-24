@@ -1,3 +1,7 @@
+---
+share_link: https://share.note.sx/38z3w8r3#kBREvH3KnR/eF1jOzyA6C8CH9mgMd2NuWLHNE0tSaHY
+share_updated: 2026-03-24T14:44:37+05:30
+---
 #product/user/sep2_security
 
 | Onboarded Date | 24-Mar-2026  |
@@ -10,36 +14,68 @@ DC : EU
 Zipy status : No 
 
 24-Mar-2026
-Initial fixes : 
-- Search for project title - need to be indexed 
-- Help article for the SSO
-- Profile Picture upload - not yet done 
--  users and teams  - remove from workspace 
--  transferring ownership 
-- Project Editor 
-- personal setting  
-	- Profile picture  
-	- remove phone number 
-Users & Teams  
-- Ability to transfer ownership  
-- sort by columns  
-- ability to decative users  
-- edit user details  
-- Show full name in users table  
-- [ ] Obligation Settings  
-KB Settings  
-Knowledge Hub icon doesnot appear  
-Missing Search  
-  
-RFP  
-Confidence score in answers  
-Filter high/low confidence answers quickly  
-Character count for answers  
-Attachments in Answers  
-Sources in answers  
-Rich text editor for answers in questions  
-Ability to edit custom fields  
-  
-  
-  
-if no data in Hub do not generate with AI, should say not enough data.. when data is present questions should be related to the data in train - Dev will get the design
+
+## Tasks which will make the Sep 2.Security Happy 
+---
+
+## SSO
+
+| Task                              | Type    | Dev |
+| --------------------------------- | ------- | --- |
+| Create help article for SSO setup | Feature |     |
+
+---
+
+## Profile & Personal Settings
+
+| Task                                 | Type        | Dev |
+| ------------------------------------ | ----------- | --- |
+| Profile picture upload               | Feature     |     |
+| Profile picture in personal settings | Feature     |     |
+| Remove phone number field            | Improvement |     |
+| IP Whitelisting                      | Feature     |     |
+
+---
+
+## Users & Teams
+
+| Task                             | Type        | Dev |
+| -------------------------------- | ----------- | --- |
+| Transfer ownership between users | Feature     |     |
+| Sort users by columns            | Improvement |     |
+| Deactivate users                 | Feature     |     |
+| Edit user details                | Feature     |     |
+| Show full name in users table    | Improvement |     |
+
+---
+
+## Obligation
+
+| Task                       | Type    | Dev |
+| -------------------------- | ------- | --- |
+| Obligation Settings module | Feature |     |
+
+---
+
+## Knowledge Hub
+
+| Task                                                      | Type        | Dev |
+| --------------------------------------------------------- | ----------- | --- |
+| Knowledge Hub icon not appearing                          | Bug         |     |
+| Missing search in Knowledge Hub                           | Bug         |     |
+| Prevent AI generation if no data (show “Not enough data”) | Improvement |     |
+| Ensure generated questions are based on trained data      | Improvement |     |
+
+---
+
+## RFP
+
+| Task                                    | Type    | Dev |
+| --------------------------------------- | ------- | --- |
+| Show confidence score in answers        | Feature |     |
+| Filter answers by confidence (high/low) | Feature |     |
+| Show character count for answers        | Feature |     |
+| Add attachments support in answers      | Feature |     |
+| Show sources in answers                 | Feature |     |
+| Rich text editor for answers            | Feature |     |
+| Edit custom fields                      | Feature |     |
