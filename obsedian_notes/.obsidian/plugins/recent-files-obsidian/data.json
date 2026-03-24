@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-W13",
+      "path": "2026-W13.md"
+    },
+    {
+      "basename": "Product Review system",
+      "path": "Product/Product Sync system/Product Review system.md"
+    },
+    {
       "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
       "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
+    },
+    {
+      "basename": "202603",
+      "path": "2026/202603.md"
     },
     {
       "basename": "Product Vision",
@@ -187,18 +199,6 @@
     {
       "basename": "calendar-default",
       "path": "TaskNotes/Views/calendar-default.base"
-    },
-    {
-      "basename": "Atomic Design",
-      "path": "Books/Atomic Design.md"
-    },
-    {
-      "basename": "Company Info",
-      "path": "Product/Projects/Context Info/Company Info.md"
-    },
-    {
-      "basename": "The Business Of Belonging",
-      "path": "Books/The Business Of Belonging.md"
     }
   ],
   "omittedPaths": [],

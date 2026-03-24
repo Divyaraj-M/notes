@@ -169,6 +169,7 @@ THEORY
 Topological
 TOPICS
 Transfer
+Tuesday
 Docs
 Doc
 Designer
@@ -358,6 +359,7 @@ Decide
 DIVIDER
 DOWNLOAD
 Deactivate
+Daily
 Who
 When
 What
@@ -499,6 +501,8 @@ WEEK
 Warshall
 Want
 Whitelisting
+Wednesday
+Weekly
 writes
 we
 work
@@ -919,6 +923,7 @@ iff
 infact
 img
 interpolation
+intel
 reads
 references
 requirements
@@ -1816,6 +1821,7 @@ Pull
 PixelsPerInch
 Picture
 Pulling
+Patterns
 Before
 Blast
 BM
@@ -1963,6 +1969,7 @@ BIG
 BUTTON
 BBBBBB
 Bug
+Bring
 design
 does
 do
@@ -2701,6 +2708,8 @@ struggle
 signatures
 stall
 salespeople
+sync
+sentence
 everyone
 exactly
 each
@@ -3360,6 +3369,7 @@ Limit
 LAST
 Learn
 Logo
+Log
 After
 API
 All
@@ -4150,6 +4160,8 @@ Fri
 FAFB
 FAE
 FOOTER
+Friction
+Friday
 Goes
 Goals
 Gate
@@ -4689,6 +4701,7 @@ Reachability
 Ready
 Roboto
 Roman
+Relevant
 need
 needing
 nested
@@ -4843,6 +4856,7 @@ nudges
 noscript
 nbsp
 nav
+noticed
 Constraints
 Contracts
 Completable
@@ -8671,6 +8685,7 @@ MINDSET
 Missed
 Mon
 Marking
+Monday
 UI
 Users
 User
