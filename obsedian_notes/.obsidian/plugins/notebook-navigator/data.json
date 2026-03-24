@@ -445,7 +445,14 @@
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderTreeSortOverrides": {},
-  "folderAppearances": {},
+  "folderAppearances": {
+    "Product/Users": {
+      "titleRows": 1
+    },
+    "Product/ROI Calculator": {
+      "titleRows": 1
+    }
+  },
   "tagIcons": {},
   "tagColors": {},
   "tagBackgroundColors": {},

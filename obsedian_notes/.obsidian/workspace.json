@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dc14723fdfc4e338",
+        "id": "767a7476be21ada0",
         "type": "tabs",
         "children": [
           {
-            "id": "ae6192b7f5c31b30",
+            "id": "1065513b9a5a326e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/laundry List/laundry list.md",
+                "file": "Product/Users/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,43 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "laundry list"
-            }
-          },
-          {
-            "id": "6c79342c1a5652e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Read List/Read List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Read List"
-            }
-          },
-          {
-            "id": "21c4546ed273b20c",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://airfocus.com/resources/guides/roadmaps/#2/"
-              },
-              "icon": "lucide-file",
-              "title": "The Ultimate Guide to Roadmaps | airfocus"
+              "title": "Untitled"
             }
           }
         ]
@@ -132,7 +96,7 @@
             }
           },
           {
-            "id": "995456ea6972f0ed",
+            "id": "eddcc803fccfaf81",
             "type": "leaf",
             "state": {
               "type": "notebook-navigator",
@@ -233,10 +197,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/laundry List/laundry list.md"
+                "file": "Product/Users/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for laundry list"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -245,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/laundry List/laundry list.md",
+                "file": "Product/Users/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of laundry list"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -354,8 +318,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "995456ea6972f0ed",
+  "active": "1065513b9a5a326e",
   "lastOpenFiles": [
+    "Product/Users/Untitled.md",
+    "Product/ROI Calculator/sparrowgenie-email-preview.html",
+    "Product/ROI Calculator/Untitled.md",
+    "Product/laundry List/laundry list.md",
+    "Product/Users",
     "Product/Email notifications/Email notifications.md",
     "Product/UAT Vipin.md",
     "Books/Read List/Read List.md",
@@ -369,7 +338,6 @@
     "Product/Demo/Demo.md",
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "Product/laundry List/laundry list.md",
     "Product/laundry List",
     "Learning/Data Science/mathematics I/Formulas Mathematics.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
@@ -394,13 +362,9 @@
     "Product/competitors/Gamma/Behaviour study.md",
     "My Data.base",
     "Books/The 80'20 Principle.md",
-    "Books/கல்வி ஓர் அரசியல்.md",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark.html",
-    "TaskNotes/Views/tasks-default.base",
-    "Product/Projects/Answers/Genie Actions",
-    "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",

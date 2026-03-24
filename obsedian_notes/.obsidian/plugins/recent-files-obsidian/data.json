@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Product/Users/Untitled.md"
+    },
+    {
+      "basename": "sparrowgenie-email-preview",
+      "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
+    },
+    {
       "basename": "laundry list",
       "path": "Product/laundry List/laundry list.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "RFP training PRD",
       "path": "Product/Knowledge Hub/RFP training PRD.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "Product/Knowledge Hub/RFP training.md"
-    },
-    {
-      "basename": "External Questionnaire Score (EQS)",
-      "path": "Product/Go-no-go/External Questionnaire Score (EQS).md"
     }
   ],
   "omittedPaths": [],
