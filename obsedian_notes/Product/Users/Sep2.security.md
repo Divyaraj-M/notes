@@ -15,4 +15,4 @@ Initial fixes :
 - Help article for the SSO
 - Profile Picture upload - not yet done 
 -  users and teams  - remove from workspace 
--  
+-  transferring ownership 
