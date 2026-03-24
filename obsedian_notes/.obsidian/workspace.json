@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/laundry List/laundry list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "laundry list"
             }
           },
           {
@@ -56,30 +56,6 @@
             }
           },
           {
-            "id": "d4f54e59c437a6c9",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://airfocus.com/glossary/what-is-a-product-backlog/"
-              },
-              "icon": "lucide-file",
-              "title": "What Is a Product Backlog? Definition and FAQ | airfocus"
-            }
-          },
-          {
-            "id": "06d02cabba6ddd45",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://airfocus.com/glossary/what-is-weighted-shortest-job-first/"
-              },
-              "icon": "lucide-file",
-              "title": "What is Weighted Shortest Job First (WSJF)? Definition & FAQs | airfocus | airfocus"
-            }
-          },
-          {
             "id": "21c4546ed273b20c",
             "type": "leaf",
             "state": {
@@ -91,8 +67,7 @@
               "title": "The Ultimate Guide to Roadmaps | airfocus"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,9 +130,19 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
+          },
+          {
+            "id": "995456ea6972f0ed",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -247,9 +232,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Product/laundry List/laundry list.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for laundry list"
             }
           },
           {
@@ -258,12 +245,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/laundry List/laundry list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of laundry list"
             }
           },
           {
@@ -362,13 +350,15 @@
       "tasknotes:Create new task": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "21c4546ed273b20c",
+  "active": "995456ea6972f0ed",
   "lastOpenFiles": [
-    "Books/Read List/Read List.md",
+    "Product/Email notifications/Email notifications.md",
     "Product/UAT Vipin.md",
+    "Books/Read List/Read List.md",
     "Product/Untitled.md",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
@@ -411,7 +401,6 @@
     "TaskNotes/Views/tasks-default.base",
     "Product/Projects/Answers/Genie Actions",
     "Product/Dossiers/Proposals/Share for the proposal/Share first principle.md",
-    "Product/competitors/Five Differentiators/Differentiator.md",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",

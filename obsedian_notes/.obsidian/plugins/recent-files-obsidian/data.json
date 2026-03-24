@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
+      "basename": "laundry list",
+      "path": "Product/laundry List/laundry list.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
     },
     {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
     },
     {
       "basename": "SparrowGenie_Answer_Actions_Dark",
@@ -43,10 +51,6 @@
     {
       "basename": "Second_stream_revenue.excalidraw",
       "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "laundry list",
-      "path": "Product/laundry List/laundry list.md"
     },
     {
       "basename": "Formulas Mathematics",
