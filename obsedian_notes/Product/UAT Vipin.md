@@ -85,3 +85,5 @@ These are table stakes items, infact they are not just table stakes but baseline
 Area51 equivalent for SparrowGenie to manage backend operations without this we can get self serve billing (edited) 
 
 24-Mar-2026
+
+Pulling the past win rfp answers 

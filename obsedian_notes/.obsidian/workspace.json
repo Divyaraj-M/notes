@@ -283,10 +283,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/UAT Shihab.md"
+                "file": "Product/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for UAT Shihab"
+              "title": "File properties for UAT Vipin"
             }
           },
           {
@@ -295,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/UAT Shihab.md",
+                "file": "Product/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Shihab"
+              "title": "Outline of UAT Vipin"
             }
           },
           {
@@ -404,11 +404,11 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "4c777b52bd52efc0",
+  "active": "a0df8eb454c184e0",
   "lastOpenFiles": [
+    "Product/UAT Shihab.md",
     "Product/UAT Vipin.md",
     "Daily/UAT Kavin.md",
-    "Product/UAT Shihab.md",
     "Product/Users/Sep2.security.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
