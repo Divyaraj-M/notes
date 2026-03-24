@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
+      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
+    },
+    {
       "basename": "Product Vision",
       "path": "Product/Top Deliverables/Product Vision.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "Cred",
       "path": "Learning/ARCA AI/Cred/Cred.md"
-    },
-    {
-      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
-      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     },
     {
       "basename": "Answer types",

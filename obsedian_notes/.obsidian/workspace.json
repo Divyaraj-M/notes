@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Top Deliverables/Product Vision.md",
+                "file": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Product Vision"
+              "title": "Auto-Mark High Confidence Answers as Reviewed in Import Flow"
             }
           }
         ],
@@ -294,10 +294,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Top Deliverables/Product Vision.md"
+                "file": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Product Vision"
+              "title": "File properties for Auto-Mark High Confidence Answers as Reviewed in Import Flow"
             }
           },
           {
@@ -306,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Top Deliverables/Product Vision.md",
+                "file": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Vision"
+              "title": "Outline of Auto-Mark High Confidence Answers as Reviewed in Import Flow"
             }
           },
           {
@@ -415,8 +415,10 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2ae3066e6116bc87",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Top Deliverables/Product Vision.md",
+    "Product/Product Sync system",
     "Product/UAT Vipin.md",
     "Product/Untitled.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
@@ -451,7 +453,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
-    "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
     "Product/Projects/Questions/Filters for project",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png",
@@ -461,7 +462,6 @@
     "Product/User names and Team",
     "My Data.base",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
-    "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",
     "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
