@@ -54,9 +54,57 @@
               "icon": "lucide-file",
               "title": "Sep2.security"
             }
+          },
+          {
+            "id": "b1ff531dd141a978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Users/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ea45209a11483f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Genie Actions inside the Questions card"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -222,10 +270,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Users/Sep2.security.md"
+                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Sep2.security"
+              "title": "File properties for Genie Actions inside the Questions card"
             }
           },
           {
@@ -234,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Users/Sep2.security.md",
+                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sep2.security"
+              "title": "Outline of Genie Actions inside the Questions card"
             }
           },
           {
@@ -343,12 +391,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "a0df8eb454c184e0",
+  "active": "ea45209a11483f70",
   "lastOpenFiles": [
+    "Product/Users/Untitled.md",
+    "Product/Users/Sep2.security.md",
     "Product/UAT Vipin.md",
     "Product/UAT Shihab.md",
     "Daily/UAT Kavin.md",
-    "Product/Users/Sep2.security.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/Untitled.md",
@@ -386,7 +435,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/User names and Team",
-    "Product/competitors/Gamma/Behaviour study.md",
     "My Data.base",
     "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "Product/Projects/Answers/SparrowGenie_Answer_Actions_Dark 1.html",

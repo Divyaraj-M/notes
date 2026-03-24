@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Users/Untitled.md"
+    },
+    {
       "basename": "Sep2.security",
       "path": "Product/Users/Sep2.security.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
     {
       "basename": "Screenshot 2026-03-18 at 3.14.25 PM",
@@ -195,10 +199,6 @@
     {
       "basename": "The Courage to be Disliked",
       "path": "Books/The Courage to be Disliked.md"
-    },
-    {
-      "basename": "Hooked",
-      "path": "Books/Hooked.md"
     }
   ],
   "omittedPaths": [],
