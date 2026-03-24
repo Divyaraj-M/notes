@@ -28,12 +28,11 @@ Zipy status : No
 
 ## Profile & Personal Settings
 
-| Task                                 | Type        | Dev |
-| ------------------------------------ | ----------- | --- |
-| Profile picture upload               | Feature     |     |
-| Profile picture in personal settings | Feature     |     |
-| Remove phone number field            | Improvement |     |
-| IP Whitelisting                      | Feature     |     |
+| Task                      | Type        | Dev |
+| ------------------------- | ----------- | --- |
+| Profile picture upload    | Feature     |     |
+| Remove phone number field | Improvement |     |
+| IP Whitelisting           | Feature     |     |
 
 ---
 
@@ -76,6 +75,5 @@ Zipy status : No
 | Filter answers by confidence (high/low) | Feature |     |
 | Show character count for answers        | Feature |     |
 | Add attachments support in answers      | Feature |     |
-| Show sources in answers                 | Feature |     |
 | Rich text editor for answers            | Feature |     |
 | Edit custom fields                      | Feature |     |

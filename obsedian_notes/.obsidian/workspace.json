@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Users/Sep2.security.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,71 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Sep2.security"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "7b893fe8611a724e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4c777b52bd52efc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/UAT Shihab.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT Shihab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b008995a522c2f7c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "78fe2b1197422719",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/UAT Kavin.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT Kavin"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -212,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662,
-    "collapsed": true
+    "width": 310.5066738128662
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -283,10 +222,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/UAT Vipin.md"
+                "file": "Product/Users/Sep2.security.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for UAT Vipin"
+              "title": "File properties for Sep2.security"
             }
           },
           {
@@ -295,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/UAT Vipin.md",
+                "file": "Product/Users/Sep2.security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Vipin"
+              "title": "Outline of Sep2.security"
             }
           },
           {
@@ -406,8 +345,8 @@
   },
   "active": "a0df8eb454c184e0",
   "lastOpenFiles": [
-    "Product/UAT Shihab.md",
     "Product/UAT Vipin.md",
+    "Product/UAT Shihab.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
     "TaskNotes/Views/tasks-default.base",

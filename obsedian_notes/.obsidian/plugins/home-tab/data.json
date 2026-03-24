@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Product/Users/Sep2.security.md",
+      "timestamp": 1774349234352
+    },
+    {
       "filepath": "Product/UAT Vipin.md",
       "timestamp": 1774348309883
     },
@@ -34,10 +38,6 @@
     {
       "filepath": "Daily/UAT Kavin.md",
       "timestamp": 1774345890303
-    },
-    {
-      "filepath": "Product/Users/Sep2.security.md",
-      "timestamp": 1774343559423
     },
     {
       "filepath": "TaskNotes/Views/tasks-default.base",
