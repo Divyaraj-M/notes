@@ -30,7 +30,8 @@
     "TaskNotes/Views/tasks-default.base": "tasknotes_views_tasks-default.base.json",
     "Product/UAT Shihab.md": "product_uat_shihab.md.json",
     "Daily/UAT Kavin.md": "daily_uat_kavin.md.json",
-    "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md": "product_projects_answers_genie_actions_genie_actions_inside_the_questions_card.md.json"
+    "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md": "product_projects_answers_genie_actions_genie_actions_inside_the_questions_card.md.json",
+    "Product/Top Deliverables/Product Vision.md": "product_top_deliverables_product_vision.md.json"
   },
-  "lastUpdated": 1774355664736
+  "lastUpdated": 1774360458826
 }

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Vision",
+      "path": "Product/Top Deliverables/Product Vision.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Untitled.md"
+    },
+    {
       "basename": "Genie Actions inside the Questions card",
       "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Sep2.security",
       "path": "Product/Users/Sep2.security.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "UAT Shihab",
@@ -191,14 +199,6 @@
     {
       "basename": "The Business Of Belonging",
       "path": "Books/The Business Of Belonging.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Books/Read List/Untitled.md"
-    },
-    {
-      "basename": "The Courage to be Disliked",
-      "path": "Books/The Courage to be Disliked.md"
     }
   ],
   "omittedPaths": [],

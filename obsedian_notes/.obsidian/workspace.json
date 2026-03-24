@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
+                "file": "Product/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Genie Actions inside the Questions card"
+              "title": "UAT Vipin"
+            }
+          },
+          {
+            "id": "2ae3066e6116bc87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Top Deliverables/Product Vision.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Product Vision"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -270,10 +294,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+                "file": "Product/Top Deliverables/Product Vision.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Genie Actions inside the Questions card"
+              "title": "File properties for Product Vision"
             }
           },
           {
@@ -282,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
+                "file": "Product/Top Deliverables/Product Vision.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Genie Actions inside the Questions card"
+              "title": "Outline of Product Vision"
             }
           },
           {
@@ -391,11 +415,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "ea45209a11483f70",
+  "active": "2ae3066e6116bc87",
   "lastOpenFiles": [
+    "Product/UAT Vipin.md",
+    "Product/Untitled.md",
+    "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Users/Untitled.md",
     "Product/Users/Sep2.security.md",
-    "Product/UAT Vipin.md",
     "Product/UAT Shihab.md",
     "Daily/UAT Kavin.md",
     "TaskNotes/Views/tasks-default.base",
@@ -419,7 +445,6 @@
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/Answers.md",
-    "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Projects/Answers/Untitled.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Untitled 1.md",
@@ -427,7 +452,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
     "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
-    "Product/UX changes/Sign up and Onboarding mails.md",
     "Product/Projects/Questions/Filters for project",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png",

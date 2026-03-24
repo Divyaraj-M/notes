@@ -666,6 +666,7 @@ wzf
 wNA
 wrapper
 walk
+wherever
 it
 is
 interaction
@@ -1253,6 +1254,8 @@ relation
 roots
 rspace
 roundrect
+repeated
+repetitive
 Jira
 Jdjxj
 JIvrU
@@ -1812,6 +1815,7 @@ Push
 Pull
 PixelsPerInch
 Picture
+Pulling
 Before
 Blast
 BM
@@ -2693,6 +2697,10 @@ small
 schemas
 shadow
 strokecolor
+struggle
+signatures
+stall
+salespeople
 everyone
 exactly
 each
@@ -2948,6 +2956,9 @@ equiv
 exploring
 experts
 estimates
+explain
+expands
+evolves
 Story
 Stories
 Should
@@ -3870,6 +3881,8 @@ assumption
 arcsize
 anchorlock
 appearing
+along
+administrative
 QA
 Question
 Quality
@@ -4467,6 +4480,8 @@ bicubic
 bold
 bull
 book
+beginning
+begin
 Requirements
 Radius
 Rules
@@ -5069,6 +5084,7 @@ Connects
 Character
 Conflicts
 Compatible
+Customers
 How
 Hubs
 Hub
@@ -5605,6 +5621,9 @@ cell
 cellpadding
 cellspacing
 crunched
+capturing
+coordinating
+closing
 on
 owns
 one
@@ -6021,6 +6040,8 @@ functions
 fri
 ffffff
 fillcolor
+fragmented
+forgettable
 live
 links
 locked
@@ -7341,6 +7362,8 @@ picked
 party
 presentation
 phone
+preparing
+partner
 goals
 give
 generates
