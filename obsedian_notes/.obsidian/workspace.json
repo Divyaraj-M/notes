@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Users/Untitled.md",
+                "file": "Product/Users/Sep2.security.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Sep2.security"
             }
           }
         ]
@@ -56,12 +56,22 @@
             }
           },
           {
+            "id": "eddcc803fccfaf81",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          },
+          {
             "id": "eb61e999624953f5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/Go_no_go",
+                "query": "tag:#product/user",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,19 +104,9 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "eddcc803fccfaf81",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -127,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662
+    "width": 310.5066738128662,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -197,10 +198,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Users/Untitled.md"
+                "file": "Product/Users/Sep2.security.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Sep2.security"
             }
           },
           {
@@ -209,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Users/Untitled.md",
+                "file": "Product/Users/Sep2.security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Sep2.security"
             }
           },
           {
@@ -320,7 +321,7 @@
   },
   "active": "1065513b9a5a326e",
   "lastOpenFiles": [
-    "Product/Users/Untitled.md",
+    "Product/Users/Sep2.security.md",
     "Product/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/ROI Calculator/Untitled.md",
     "Product/laundry List/laundry list.md",
