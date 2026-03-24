@@ -554,7 +554,7 @@ function applyLanguagePairSpacing(ctx, languagePairs, prefixDict, customCategori
   return { ...ctx, content, curCh };
 }
 function detectBoundarySpaceState(content, leftSymbols, rightSymbols) {
-  const builtInSymbols = "\u3010\u3011\uFF08\uFF09\u300A\u300B\uFF0C\u3002\u3001\uFF1F\uFF1A\uFF1B\u2018\u2019\u201C\u201D\u300C\u300E\u300F\u300D\uFF01";
+  const builtInSymbols = '\u3010\u3011\uFF08\uFF09\u300A\u300B\uFF0C\u3002\u3001\uFF1F\uFF1A\uFF1B\u2018\u2019\u201C\u201D\u300C\u300E\u300F\u300D\uFF01"';
   const escapedLeft = escapeForCharClass(leftSymbols + builtInSymbols);
   const escapedRight = escapeForCharClass(rightSymbols + builtInSymbols);
   const regStrictSpaceStart = /^\0?\s/;
@@ -1308,9 +1308,9 @@ var locale = {
     },
     softSpaceSymbols: {
       leftName: "Custom Extra Left Soft Space Symbols",
-      leftDesc: "Common full-width punctuations are built-in. Add extra symbols here (like -).",
+      leftDesc: 'Common full-width punctuation and the ASCII double quote (") are built in. Add extra symbols here (such as -).',
       rightName: "Custom Extra Right Soft Space Symbols",
-      rightDesc: "Common full-width punctuations are built-in. Add extra symbols here (like -)."
+      rightDesc: 'Common full-width punctuation and the ASCII double quote (") are built in. Add extra symbols here (such as -).'
     },
     customScriptCategories: {
       name: "Custom Script Categories",
@@ -1420,6 +1420,8 @@ var locale = {
       fieldTriggerMode: "Trigger Mode",
       fieldScope: "Scope",
       fieldScopeLanguage: "Language (optional)",
+      fieldRegexFlags: "Regex Flags",
+      fieldRegexFlagsDesc: "Supports i / m / u only, e.g. im",
       fieldPriority: "Priority",
       fieldPriorityDesc: "Lower number = higher priority, default 100",
       fieldDescription: "Description",
@@ -1470,10 +1472,6 @@ var locale = {
     aboutRegexp: {
       header: "For knowledge about regular expressions, see ",
       text: "Yifeng Nguyen: A Concise Tutorial on Regular Expressions"
-    },
-    instructionsRegexp: {
-      header: "Instructions and examples for using regular expression rules: ",
-      text: "Customizing Regular Expression Rules"
     },
     customizeSelectionRule: "Customize Selection Replace Rule",
     customizeDeleteRule: "Customize Delete Rule",
@@ -1614,9 +1612,9 @@ var locale2 = {
     },
     softSpaceSymbols: {
       leftName: "\u81EA\u5B9A\u4E49\u5DE6\u4FA7\u8F6F\u7A7A\u683C\u989D\u5916\u7B26\u53F7",
-      leftDesc: "\u5E38\u89C1\u7684\u5168\u89D2\u6807\u70B9\u5DF2\u5185\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u989D\u5916\u7684\u7B26\u53F7\uFF08\u5982-\uFF09",
+      leftDesc: '\u5E38\u89C1\u7684\u5168\u89D2\u6807\u70B9\u53CA\u82F1\u6587\u53CC\u5F15\u53F7\uFF08"\uFF09\u5DF2\u5185\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u989D\u5916\u7684\u7B26\u53F7\uFF08\u5982 -\uFF09',
       rightName: "\u81EA\u5B9A\u4E49\u53F3\u4FA7\u8F6F\u7A7A\u683C\u989D\u5916\u7B26\u53F7",
-      rightDesc: "\u5E38\u89C1\u7684\u5168\u89D2\u6807\u70B9\u5DF2\u5185\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u989D\u5916\u7684\u7B26\u53F7\uFF08\u5982-\uFF09"
+      rightDesc: '\u5E38\u89C1\u7684\u5168\u89D2\u6807\u70B9\u53CA\u82F1\u6587\u53CC\u5F15\u53F7\uFF08"\uFF09\u5DF2\u5185\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u989D\u5916\u7684\u7B26\u53F7\uFF08\u5982 -\uFF09'
     },
     customScriptCategories: {
       name: "\u81EA\u5B9A\u4E49\u8BED\u8A00/\u7B26\u53F7\u96C6",
@@ -1726,6 +1724,8 @@ var locale2 = {
       fieldTriggerMode: "\u89E6\u53D1\u65B9\u5F0F",
       fieldScope: "\u4F5C\u7528\u57DF",
       fieldScopeLanguage: "\u8BED\u8A00\uFF08\u53EF\u9009\uFF09",
+      fieldRegexFlags: "\u6B63\u5219\u6807\u5FD7",
+      fieldRegexFlagsDesc: "\u4EC5\u652F\u6301 i / m / u\uFF0C\u4F8B\u5982 im",
       fieldPriority: "\u4F18\u5148\u7EA7",
       fieldPriorityDesc: "\u6570\u503C\u8D8A\u5C0F\uFF0C\u4F18\u5148\u7EA7\u8D8A\u9AD8\uFF0C\u9ED8\u8BA4 100",
       fieldDescription: "\u63CF\u8FF0",
@@ -1776,10 +1776,6 @@ var locale2 = {
     aboutRegexp: {
       header: "\u6B63\u5219\u8868\u8FBE\u5F0F\u76F8\u5173\u77E5\u8BC6\uFF0C\u89C1 ",
       text: "\u300A\u962E\u4E00\u5CF0\uFF1A\u6B63\u5219\u8868\u8FBE\u5F0F\u7B80\u660E\u6559\u7A0B\u300B"
-    },
-    instructionsRegexp: {
-      header: "\u6B63\u5219\u8868\u8FBE\u5F0F\u89C4\u5219\u4F7F\u7528\u8BF4\u660E\u4E0E\u793A\u4F8B\uFF1A ",
-      text: "\u81EA\u5B9A\u4E49\u6B63\u5219\u8868\u8FBE\u5F0F\u89C4\u5219"
     },
     customizeSelectionRule: "\u81EA\u5B9A\u4E49\u9009\u4E2D\u6587\u672C\u7F16\u8F91\u589E\u5F3A\u89C4\u5219",
     customizeDeleteRule: "\u81EA\u5B9A\u4E49\u5220\u9664\u7F16\u8F91\u589E\u5F3A\u89C4\u5219",
@@ -1920,9 +1916,9 @@ var locale3 = {
     },
     softSpaceSymbols: {
       leftName: "\u81EA\u5B9A\u7FA9\u5DE6\u5074\u8EDF\u7A7A\u683C\u984D\u5916\u7B26\u865F",
-      leftDesc: "\u5E38\u898B\u7684\u5168\u89D2\u6A19\u9EDE\u5DF2\u5167\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u984D\u5916\u7684\u7B26\u865F\uFF08\u5982-\uFF09",
+      leftDesc: '\u5E38\u898B\u7684\u5168\u89D2\u6A19\u9EDE\u53CA\u82F1\u6587\u96D9\u5F15\u865F\uFF08"\uFF09\u5DF2\u5167\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u984D\u5916\u7684\u7B26\u865F\uFF08\u5982 -\uFF09',
       rightName: "\u81EA\u5B9A\u7FA9\u53F3\u5074\u8EDF\u7A7A\u683C\u984D\u5916\u7B26\u865F",
-      rightDesc: "\u5E38\u898B\u7684\u5168\u89D2\u6A19\u9EDE\u5DF2\u5167\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u984D\u5916\u7684\u7B26\u865F\uFF08\u5982-\uFF09"
+      rightDesc: '\u5E38\u898B\u7684\u5168\u89D2\u6A19\u9EDE\u53CA\u82F1\u6587\u96D9\u5F15\u865F\uFF08"\uFF09\u5DF2\u5167\u7F6E\u652F\u6301\u3002\u5728\u6B64\u6DFB\u52A0\u984D\u5916\u7684\u7B26\u865F\uFF08\u5982 -\uFF09'
     },
     customScriptCategories: {
       name: "\u81EA\u5B9A\u7FA9\u8A9E\u8A00/\u7B26\u865F\u96C6",
@@ -2036,6 +2032,8 @@ var locale3 = {
       fieldTriggerMode: "\u89F8\u767C\u65B9\u5F0F",
       fieldScope: "\u4F5C\u7528\u57DF",
       fieldScopeLanguage: "\u8A9E\u8A00\uFF08\u53EF\u9078\uFF09",
+      fieldRegexFlags: "\u6B63\u5247\u6A19\u8A8C",
+      fieldRegexFlagsDesc: "\u50C5\u652F\u63F4 i / m / u\uFF0C\u4F8B\u5982 im",
       fieldPriority: "\u512A\u5148\u7D1A",
       fieldPriorityDesc: "\u6578\u503C\u8D8A\u5C0F\uFF0C\u512A\u5148\u7D1A\u8D8A\u9AD8\uFF0C\u9810\u8A2D 100",
       fieldDescription: "\u63CF\u8FF0",
@@ -2086,10 +2084,6 @@ var locale3 = {
     aboutRegexp: {
       header: "\u6B63\u5247\u8868\u9054\u5F0F\u76F8\u95DC\u77E5\u8B58\uFF0C\u898B ",
       text: "\u300A\u962E\u4E00\u5CF0\uFF1A\u6B63\u5247\u8868\u9054\u5F0F\u7C21\u660E\u6559\u7A0B\u300B"
-    },
-    instructionsRegexp: {
-      header: "\u6B63\u5247\u8868\u9054\u5F0F\u898F\u5247\u4F7F\u7528\u8AAA\u660E\u8207\u793A\u4F8B\uFF1A ",
-      text: "\u81EA\u5B9A\u7FA9\u6B63\u5247\u8868\u9054\u5F0F\u898F\u5247"
     },
     customizeSelectionRule: "\u81EA\u5B9A\u7FA9\u9078\u4E2D\u6587\u672C\u7DE8\u8F2F\u589E\u5F3A\u898F\u5247",
     customizeDeleteRule: "\u81EA\u5B9A\u7FA9\u522A\u9664\u7DE8\u8F2F\u589E\u5F3A\u898F\u5247",
@@ -2230,9 +2224,9 @@ var locale4 = {
     },
     softSpaceSymbols: {
       leftName: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u043C\u044F\u0433\u043A\u043E\u0433\u043E \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u0441\u043B\u0435\u0432\u0430",
-      leftDesc: "\u041E\u0431\u0449\u0435\u043F\u0440\u0438\u043D\u044F\u0442\u044B\u0435 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u044B\u0435 \u0437\u043D\u0430\u043A\u0438 \u043F\u0440\u0435\u043F\u0438\u043D\u0430\u043D\u0438\u044F \u0432\u0441\u0442\u0440\u043E\u0435\u043D\u044B. \u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u0437\u0434\u0435\u0441\u044C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, -).",
+      leftDesc: '\u041E\u0431\u0449\u0435\u043F\u0440\u0438\u043D\u044F\u0442\u044B\u0435 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u044B\u0435 \u0437\u043D\u0430\u043A\u0438 \u043F\u0440\u0435\u043F\u0438\u043D\u0430\u043D\u0438\u044F \u0438 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0430\u044F \u0434\u0432\u043E\u0439\u043D\u0430\u044F \u043A\u0430\u0432\u044B\u0447\u043A\u0430 (") \u0443\u0436\u0435 \u0432\u0441\u0442\u0440\u043E\u0435\u043D\u044B. \u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u0437\u0434\u0435\u0441\u044C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, -).',
       rightName: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u043C\u044F\u0433\u043A\u043E\u0433\u043E \u043F\u0440\u043E\u0431\u0435\u043B\u0430 \u0441\u043F\u0440\u0430\u0432\u0430",
-      rightDesc: "\u041E\u0431\u0449\u0435\u043F\u0440\u0438\u043D\u044F\u0442\u044B\u0435 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u044B\u0435 \u0437\u043D\u0430\u043A\u0438 \u043F\u0440\u0435\u043F\u0438\u043D\u0430\u043D\u0438\u044F \u0432\u0441\u0442\u0440\u043E\u0435\u043D\u044B. \u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u0437\u0434\u0435\u0441\u044C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, -)."
+      rightDesc: '\u041E\u0431\u0449\u0435\u043F\u0440\u0438\u043D\u044F\u0442\u044B\u0435 \u043F\u043E\u043B\u043D\u043E\u0448\u0438\u0440\u0438\u043D\u043D\u044B\u0435 \u0437\u043D\u0430\u043A\u0438 \u043F\u0440\u0435\u043F\u0438\u043D\u0430\u043D\u0438\u044F \u0438 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0430\u044F \u0434\u0432\u043E\u0439\u043D\u0430\u044F \u043A\u0430\u0432\u044B\u0447\u043A\u0430 (") \u0443\u0436\u0435 \u0432\u0441\u0442\u0440\u043E\u0435\u043D\u044B. \u0414\u043E\u0431\u0430\u0432\u044C\u0442\u0435 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u043C\u0432\u043E\u043B\u044B \u0437\u0434\u0435\u0441\u044C (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, -).'
     },
     customScriptCategories: {
       name: "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0435 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438 \u0441\u043A\u0440\u0438\u043F\u0442\u043E\u0432",
@@ -2346,6 +2340,8 @@ var locale4 = {
       fieldTriggerMode: "\u0420\u0435\u0436\u0438\u043C \u0437\u0430\u043F\u0443\u0441\u043A\u0430",
       fieldScope: "\u041E\u0431\u043B\u0430\u0441\u0442\u044C",
       fieldScopeLanguage: "\u042F\u0437\u044B\u043A (\u043D\u0435\u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E)",
+      fieldRegexFlags: "\u0424\u043B\u0430\u0433\u0438 regex",
+      fieldRegexFlagsDesc: "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E i / m / u, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440 im",
       fieldPriority: "\u041F\u0440\u0438\u043E\u0440\u0438\u0442\u0435\u0442",
       fieldPriorityDesc: "\u0427\u0435\u043C \u043C\u0435\u043D\u044C\u0448\u0435 \u0447\u0438\u0441\u043B\u043E, \u0442\u0435\u043C \u0432\u044B\u0448\u0435 \u043F\u0440\u0438\u043E\u0440\u0438\u0442\u0435\u0442, \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E 100",
       fieldDescription: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435",
@@ -2396,10 +2392,6 @@ var locale4 = {
     aboutRegexp: {
       header: "\u0414\u043B\u044F \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438 \u043E \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u0445 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044F\u0445 \u0441\u043C. ",
       text: "Yifeng Nguyen: \u041A\u0440\u0430\u0442\u043A\u043E\u0435 \u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E \u043F\u043E \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u043C \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044F\u043C"
-    },
-    instructionsRegexp: {
-      header: "\u0418\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438 \u0438 \u043F\u0440\u0438\u043C\u0435\u0440\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043F\u0440\u0430\u0432\u0438\u043B \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u0445 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0439: ",
-      text: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445 \u043F\u0440\u0430\u0432\u0438\u043B \u0440\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u044B\u0445 \u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u0439"
     },
     customizeSelectionRule: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u0437\u0430\u043C\u0435\u043D\u044B \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u043D\u043E\u0433\u043E \u0442\u0435\u043A\u0441\u0442\u0430",
     customizeDeleteRule: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u0443\u0434\u0430\u043B\u0435\u043D\u0438\u044F",
@@ -2540,9 +2532,9 @@ var locale5 = {
     },
     softSpaceSymbols: {
       leftName: "\u30AB\u30B9\u30BF\u30E0\u5DE6\u5074\u30BD\u30D5\u30C8\u30B9\u30DA\u30FC\u30B9\u8A18\u53F7",
-      leftDesc: "\u4E00\u822C\u7684\u306A\u5168\u89D2\u53E5\u8AAD\u70B9\u306F\u5185\u8535\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u3053\u3053\u306B\u8FFD\u52A0\u306E\u8A18\u53F7\u3092\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\uFF08\u4F8B\uFF1A-\uFF09\u3002",
+      leftDesc: '\u4E00\u822C\u7684\u306A\u5168\u89D2\u53E5\u8AAD\u70B9\u3068\u82F1\u8A9E\u306E\u4E8C\u91CD\u5F15\u7528\u7B26\uFF08"\uFF09\u306F\u5185\u8535\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u3053\u3053\u306B\u8FFD\u52A0\u306E\u8A18\u53F7\u3092\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\uFF08\u4F8B\uFF1A-\uFF09\u3002',
       rightName: "\u30AB\u30B9\u30BF\u30E0\u53F3\u5074\u30BD\u30D5\u30C8\u30B9\u30DA\u30FC\u30B9\u8A18\u53F7",
-      rightDesc: "\u4E00\u822C\u7684\u306A\u5168\u89D2\u53E5\u8AAD\u70B9\u306F\u5185\u8535\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u3053\u3053\u306B\u8FFD\u52A0\u306E\u8A18\u53F7\u3092\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\uFF08\u4F8B\uFF1A-\uFF09\u3002"
+      rightDesc: '\u4E00\u822C\u7684\u306A\u5168\u89D2\u53E5\u8AAD\u70B9\u3068\u82F1\u8A9E\u306E\u4E8C\u91CD\u5F15\u7528\u7B26\uFF08"\uFF09\u306F\u5185\u8535\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u3053\u3053\u306B\u8FFD\u52A0\u306E\u8A18\u53F7\u3092\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\uFF08\u4F8B\uFF1A-\uFF09\u3002'
     },
     customScriptCategories: {
       name: "\u30AB\u30B9\u30BF\u30E0\u6587\u5B57\u30AB\u30C6\u30B4\u30EA",
@@ -2652,6 +2644,8 @@ var locale5 = {
       fieldTriggerMode: "\u30C8\u30EA\u30AC\u30FC\u65B9\u5F0F",
       fieldScope: "\u30B9\u30B3\u30FC\u30D7",
       fieldScopeLanguage: "\u8A00\u8A9E\uFF08\u4EFB\u610F\uFF09",
+      fieldRegexFlags: "\u6B63\u898F\u8868\u73FE\u30D5\u30E9\u30B0",
+      fieldRegexFlagsDesc: "i / m / u \u306E\u307F\u5BFE\u5FDC\u3002\u4F8B: im",
       fieldPriority: "\u512A\u5148\u5EA6",
       fieldPriorityDesc: "\u6570\u5024\u304C\u5C0F\u3055\u3044\u307B\u3069\u512A\u5148\u5EA6\u304C\u9AD8\u3044\u3001\u30C7\u30D5\u30A9\u30EB\u30C8100",
       fieldDescription: "\u8AAC\u660E",
@@ -2702,10 +2696,6 @@ var locale5 = {
     aboutRegexp: {
       header: "\u6B63\u898F\u8868\u73FE\u306B\u3064\u3044\u3066\u306E\u8A73\u7D30\u306F\u4EE5\u4E0B\u3092\u53C2\u7167\u3057\u3066\u304F\u3060\u3055\u3044\uFF1A",
       text: "\u6B63\u898F\u8868\u73FE\u306E\u7C21\u6F54\u306A\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB"
-    },
-    instructionsRegexp: {
-      header: "\u6B63\u898F\u8868\u73FE\u30EB\u30FC\u30EB\u306E\u4F7F\u7528\u65B9\u6CD5\u3068\u4F8B\uFF1A",
-      text: "\u6B63\u898F\u8868\u73FE\u30EB\u30FC\u30EB\u306E\u30AB\u30B9\u30BF\u30DE\u30A4\u30BA"
     },
     customizeSelectionRule: "\u9078\u629E\u7F6E\u63DB\u30EB\u30FC\u30EB\u306E\u30AB\u30B9\u30BF\u30DE\u30A4\u30BA",
     customizeDeleteRule: "\u524A\u9664\u30EB\u30FC\u30EB\u306E\u30AB\u30B9\u30BF\u30DE\u30A4\u30BA",
@@ -2846,9 +2836,9 @@ var locale6 = {
     },
     softSpaceSymbols: {
       leftName: "\uC0AC\uC6A9\uC790 \uC815\uC758 \uC67C\uCABD \uC18C\uD504\uD2B8 \uC2A4\uD398\uC774\uC2A4 \uAE30\uD638",
-      leftDesc: "\uC77C\uBC18\uC801\uC778 \uC804\uAC01 \uBB38\uC7A5\uBD80\uD638\uB294 \uB0B4\uC7A5\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uCD94\uAC00 \uAE30\uD638\uB97C \uCD94\uAC00\uD558\uC138\uC694 (\uC608: -).",
+      leftDesc: '\uC77C\uBC18\uC801\uC778 \uC804\uAC01 \uBB38\uC7A5\uBD80\uD638\uC640 \uC601\uBB38 \uD070\uB530\uC634\uD45C (") \uAC00 \uB0B4\uC7A5\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uCD94\uAC00 \uAE30\uD638\uB97C \uCD94\uAC00\uD558\uC138\uC694 (\uC608: -).',
       rightName: "\uC0AC\uC6A9\uC790 \uC815\uC758 \uC624\uB978\uCABD \uC18C\uD504\uD2B8 \uC2A4\uD398\uC774\uC2A4 \uAE30\uD638",
-      rightDesc: "\uC77C\uBC18\uC801\uC778 \uC804\uAC01 \uBB38\uC7A5\uBD80\uD638\uB294 \uB0B4\uC7A5\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uCD94\uAC00 \uAE30\uD638\uB97C \uCD94\uAC00\uD558\uC138\uC694 (\uC608: -)."
+      rightDesc: '\uC77C\uBC18\uC801\uC778 \uC804\uAC01 \uBB38\uC7A5\uBD80\uD638\uC640 \uC601\uBB38 \uD070\uB530\uC634\uD45C (") \uAC00 \uB0B4\uC7A5\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4. \uC5EC\uAE30\uC5D0 \uCD94\uAC00 \uAE30\uD638\uB97C \uCD94\uAC00\uD558\uC138\uC694 (\uC608: -).'
     },
     customScriptCategories: {
       name: "\uC0AC\uC6A9\uC790 \uC815\uC758 \uBB38\uC790 \uBC94\uC8FC",
@@ -2958,6 +2948,8 @@ var locale6 = {
       fieldTriggerMode: "\uD2B8\uB9AC\uAC70 \uBC29\uC2DD",
       fieldScope: "\uBC94\uC704",
       fieldScopeLanguage: "\uC5B8\uC5B4 (\uC120\uD0DD\uC0AC\uD56D)",
+      fieldRegexFlags: "\uC815\uADDC\uC2DD \uD50C\uB798\uADF8",
+      fieldRegexFlagsDesc: "i / m / u \uB9CC \uC9C0\uC6D0, \uC608: im",
       fieldPriority: "\uC6B0\uC120\uC21C\uC704",
       fieldPriorityDesc: "\uC22B\uC790\uAC00 \uC791\uC744\uC218\uB85D \uC6B0\uC120\uC21C\uC704\uAC00 \uB192\uC74C, \uAE30\uBCF8\uAC12 100",
       fieldDescription: "\uC124\uBA85",
@@ -3008,10 +3000,6 @@ var locale6 = {
     aboutRegexp: {
       header: "\uC815\uADDC\uC2DD\uC5D0 \uB300\uD55C \uC790\uC138\uD55C \uB0B4\uC6A9\uC740 \uB2E4\uC74C\uC744 \uCC38\uC870\uD558\uC138\uC694: ",
       text: "\uC815\uADDC\uC2DD \uAC04\uACB0 \uD29C\uD1A0\uB9AC\uC5BC"
-    },
-    instructionsRegexp: {
-      header: "\uC815\uADDC\uC2DD \uADDC\uCE59 \uC0AC\uC6A9 \uC548\uB0B4 \uBC0F \uC608\uC2DC: ",
-      text: "\uC815\uADDC\uC2DD \uADDC\uCE59 \uC0AC\uC6A9\uC790 \uC815\uC758"
     },
     customizeSelectionRule: "\uC120\uD0DD \uB300\uCCB4 \uADDC\uCE59 \uC0AC\uC6A9\uC790 \uC815\uC758",
     customizeDeleteRule: "\uC0AD\uC81C \uADDC\uCE59 \uC0AC\uC6A9\uC790 \uC815\uC758",
@@ -3166,31 +3154,40 @@ var RuleEngine = class {
     }
     return { type, triggerMode, isRegex, isFunctionReplacement, scope };
   }
+  static normalizeRegexFlags(flags = "") {
+    const normalized = flags.toLowerCase().replace(/[^imu]/g, "");
+    return Array.from(new Set(normalized.split(""))).sort((a, b) => "imu".indexOf(a) - "imu".indexOf(b)).join("");
+  }
   static validateRegex(rule) {
     var _a;
     const opts = RuleEngine.parseOptions(rule.options);
     if (!opts.isRegex)
       return null;
+    const regexFlags = RuleEngine.normalizeRegexFlags(rule.regex_flags);
     const leftPattern = rule.trigger;
     const rightPattern = (_a = rule.trigger_right) != null ? _a : "";
     if (leftPattern) {
       try {
-        new RegExp("(?:" + leftPattern + ")$");
+        new RegExp("(?:" + leftPattern + ")", regexFlags);
       } catch (e) {
         return `trigger: ${e.message}`;
       }
     }
     if (rightPattern) {
       try {
-        new RegExp("^(?:" + rightPattern + ")");
+        new RegExp("(?:" + rightPattern + ")", regexFlags);
       } catch (e) {
         return `trigger_right: ${e.message}`;
       }
     }
     return null;
   }
-  static escapeText(text) {
-    return text.replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/\t/g, "\\t").replace(/\r/g, "\\r");
+  static escapeText(text, preserveBackslashes = false) {
+    let result = text;
+    if (!preserveBackslashes) {
+      result = result.replace(/\\/g, "\\\\");
+    }
+    return result.replace(/\n/g, "\\n").replace(/\t/g, "\\t").replace(/\r/g, "\\r");
   }
   static unescapeText(text) {
     let result = "";
@@ -3261,6 +3258,7 @@ var RuleEngine = class {
         triggerKeys: RuleEngine.parseSelectKeyRuleTriggerKeys(simple.trigger),
         scope: opts.scope,
         scopeLanguage: simple.scope_language,
+        regexFlags: void 0,
         priority: (_e = simple.priority) != null ? _e : 100,
         match: { left: "", right: "", isRegex: false },
         replacement
@@ -3275,6 +3273,7 @@ var RuleEngine = class {
       triggerKeys: void 0,
       scope: opts.scope,
       scopeLanguage: simple.scope_language,
+      regexFlags: opts.isRegex ? RuleEngine.normalizeRegexFlags(simple.regex_flags) : void 0,
       priority: (_h = simple.priority) != null ? _h : 100,
       match: {
         left: simple.trigger,
@@ -3327,7 +3326,7 @@ var RuleEngine = class {
     const existing = this.rulesById.get(id);
     if (!existing)
       return false;
-    if (patch.match !== void 0 || patch.type !== void 0) {
+    if (patch.match !== void 0 || patch.type !== void 0 || patch.regexFlags !== void 0) {
       this.regexCache.delete(id);
     }
     const priorityChanged = patch.priority !== void 0 && patch.priority !== existing.priority;
@@ -3370,10 +3369,11 @@ var RuleEngine = class {
       return existing;
     const leftPattern = rule.match.isRegex ? rule.match.left : escapeRegex(rule.match.left);
     const rightPattern = rule.match.isRegex ? rule.match.right : escapeRegex(rule.match.right);
+    const regexFlags = rule.match.isRegex ? RuleEngine.normalizeRegexFlags(rule.regexFlags) : "";
     try {
       const cached2 = {
-        left: leftPattern ? new RegExp("(?:" + leftPattern + ")$") : null,
-        right: rightPattern ? new RegExp("^(?:" + rightPattern + ")") : null
+        left: leftPattern ? new RegExp("(?:" + leftPattern + ")(?![\\s\\S])", regexFlags) : null,
+        right: rightPattern ? new RegExp("(?:" + rightPattern + ")", regexFlags) : null
       };
       this.regexCache.set(rule.id, cached2);
       return cached2;
@@ -3496,7 +3496,7 @@ var RuleEngine = class {
         continue;
       if (ctx.scopeHint !== "all" /* All */ && !rule.scope.includes("all" /* All */) && !rule.scope.includes(ctx.scopeHint))
         continue;
-      if (rule.scopeLanguage && ctx.scopeLanguage !== rule.scopeLanguage)
+      if (rule.scopeLanguage && ctx.scopeHint === "code" /* Code */ && rule.scope.includes("code" /* Code */) && ctx.scopeLanguage !== rule.scopeLanguage)
         continue;
       switch (ctx.kind) {
         case "selectKey" /* SelectKey */: {
@@ -3532,8 +3532,8 @@ var RuleEngine = class {
       return null;
     const leftRegex = cached2.left;
     const rightRegex = cached2.right;
-    const leftMatch = leftRegex ? leftDoc.match(leftRegex) : [""];
-    const rightMatch = rightRegex ? rightDoc.match(rightRegex) : [""];
+    const leftMatch = leftRegex ? leftRegex.exec(leftDoc) : [""];
+    const rightMatch = rightRegex ? this.matchAtStart(rightDoc, rightRegex) : [""];
     if (!leftMatch || !rightMatch)
       return null;
     const matchFrom = from - leftMatch[0].length;
@@ -3543,6 +3543,13 @@ var RuleEngine = class {
       rightMatches: [...rightMatch],
       matchRange: { from: matchFrom, to: matchTo }
     }, ctx);
+  }
+  matchAtStart(doc, regex) {
+    regex.lastIndex = 0;
+    const match = regex.exec(doc);
+    if (!match || match.index !== 0)
+      return null;
+    return match;
   }
   applySelectKeyRule(rule, ctx) {
     const selectionText = ctx.docText.slice(ctx.selection.from, ctx.selection.to);
@@ -3885,12 +3892,13 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     this.triggerRight = "";
     this.replacement = "";
     this.isRegex = false;
-    this.ruleScope = "all" /* All */;
+    this.regexFlags = "";
     this.scopeLanguage = "";
     this.priority = 100;
     this.description = "";
     this.enabled = true;
     this.isFunction = false;
+    this.ruleScopes = ["all" /* All */];
     this.cmEditor = null;
     this.mode = mode;
     this.initial = initial;
@@ -3901,14 +3909,16 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       this.triggerMode = opts.triggerMode;
       this.isRegex = opts.isRegex;
       this.isFunction = opts.isFunctionReplacement;
-      this.ruleScope = opts.scope[0] || "all" /* All */;
+      this.ruleScopes = opts.scope.length > 0 ? [...opts.scope] : ["all" /* All */];
     }
     if (initial.trigger !== void 0)
-      this.trigger = RuleEngine.escapeText(initial.trigger);
+      this.trigger = RuleEngine.escapeText(initial.trigger, this.isRegex);
     if (initial.trigger_right !== void 0)
-      this.triggerRight = RuleEngine.escapeText(initial.trigger_right);
+      this.triggerRight = RuleEngine.escapeText(initial.trigger_right, this.isRegex);
     if (typeof initial.replacement === "string")
       this.replacement = initial.replacement;
+    if (initial.regex_flags !== void 0)
+      this.regexFlags = RuleEngine.normalizeRegexFlags(initial.regex_flags);
     if (initial.priority !== void 0)
       this.priority = initial.priority;
     if (initial.description !== void 0)
@@ -3921,21 +3931,25 @@ var RuleEditModal = class extends import_obsidian4.Modal {
   onOpen() {
     const { contentEl } = this;
     this.modalEl.addClass("et-rule-edit-modal");
+    contentEl.addClass("et-rule-edit-modal-content");
     const locale7 = getLocale();
     const title = this.mode === "create" ? locale7.settings.ruleEditModal.addTitle : locale7.settings.ruleEditModal.editTitle;
-    contentEl.createEl("h2", { text: title });
+    const headerEl = contentEl.createDiv({ cls: "et-rule-edit-header" });
+    const titleEl = headerEl.createEl("h2", { text: title, cls: "et-rule-edit-title" });
     const pillBar = contentEl.createDiv({ cls: "et-pill-bar" });
-    pillBar.createEl("span", {
+    const typeSection = pillBar.createDiv({ cls: "et-pill-section" });
+    typeSection.createEl("span", {
       cls: "et-pill-group-label",
       text: locale7.settings.ruleEditModal.fieldType
     });
+    const typeOptions = typeSection.createDiv({ cls: "et-pill-options" });
     const typePills = [
       { value: "input" /* Input */, label: locale7.dropdownOptions.ruleTypeInput },
       { value: "delete" /* Delete */, label: locale7.dropdownOptions.ruleTypeDelete },
       { value: "selectKey" /* SelectKey */, label: locale7.dropdownOptions.ruleTypeSelectKey }
     ];
     for (const { value, label } of typePills) {
-      const pill = pillBar.createEl("button", {
+      const pill = typeOptions.createEl("button", {
         cls: `et-pill${this.ruleType === value ? " et-pill-active" : ""}`,
         text: label
       });
@@ -3946,17 +3960,20 @@ var RuleEditModal = class extends import_obsidian4.Modal {
         this.refreshVisibility(contentEl);
       });
     }
-    const triggerModeLabel = pillBar.createEl("span", {
+    const triggerModeSection = pillBar.createDiv({ cls: "et-pill-section" });
+    triggerModeSection.dataset.field = "triggerModeSection";
+    const triggerModeLabel = triggerModeSection.createEl("span", {
       cls: "et-pill-group-label",
       text: locale7.settings.ruleEditModal.fieldTriggerMode
     });
     triggerModeLabel.dataset.field = "triggerModeLabel";
+    const triggerModeOptions = triggerModeSection.createDiv({ cls: "et-pill-options" });
     const triggerModePills = [
       { value: "auto" /* Auto */, label: locale7.dropdownOptions.triggerModeAuto },
       { value: "tab" /* Tab */, label: locale7.dropdownOptions.triggerModeTab }
     ];
     for (const { value, label } of triggerModePills) {
-      const pill = pillBar.createEl("button", {
+      const pill = triggerModeOptions.createEl("button", {
         cls: `et-pill${this.triggerMode === value ? " et-pill-active" : ""}`,
         text: label
       });
@@ -3989,6 +4006,12 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       text.onChange((v) => this.triggerRight = v);
     });
     triggerRightSetting.settingEl.dataset.field = "triggerRight";
+    const regexFlagsSetting = new import_obsidian4.Setting(matchGroup).setName(locale7.settings.ruleEditModal.fieldRegexFlags).setDesc(locale7.settings.ruleEditModal.fieldRegexFlagsDesc).addText((text) => {
+      text.setPlaceholder("imu");
+      text.setValue(this.regexFlags);
+      text.onChange((v) => this.regexFlags = RuleEngine.normalizeRegexFlags(v));
+    });
+    regexFlagsSetting.settingEl.dataset.field = "regexFlags";
     const replacementGroup = contentEl.createDiv({ cls: "et-modal-group" });
     const replHeader = replacementGroup.createDiv({ cls: "et-modal-group-header" });
     replHeader.createEl("span", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupReplacement });
@@ -4001,11 +4024,12 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       this.isFunction = !this.isFunction;
       this.refreshVisibility(contentEl);
     });
-    const replacementSetting = new import_obsidian4.Setting(replacementGroup).setName(locale7.settings.ruleEditModal.fieldReplacement);
+    const replacementSetting = new import_obsidian4.Setting(replacementGroup);
     replacementSetting.settingEl.addClass("et-replacement-setting");
     replacementSetting.settingEl.dataset.field = "replacementTextarea";
     const replacementArea = new import_obsidian4.TextAreaComponent(replacementSetting.controlEl);
     replacementArea.inputEl.addClass("et-replacement-textarea");
+    replacementArea.inputEl.setAttribute("aria-label", locale7.settings.ruleEditModal.fieldReplacement);
     replacementArea.setValue(this.replacement);
     replacementArea.onChange((v) => this.replacement = v);
     const replacementHint = replacementGroup.createEl("div", {
@@ -4015,11 +4039,8 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     replacementHint.dataset.field = "replacementHint";
     const editorWrapper = replacementGroup.createDiv();
     editorWrapper.dataset.field = "fnEditor";
-    editorWrapper.createEl("label", {
-      text: locale7.settings.ruleEditModal.fieldReplacement,
-      cls: "et-fn-editor-label"
-    });
     const editorContainer = editorWrapper.createDiv({ cls: "et-fn-editor-container" });
+    editorContainer.setAttribute("aria-label", locale7.settings.ruleEditModal.fieldReplacement);
     this.cmEditor = createJSEditorView(editorContainer, this.replacement, (value) => {
       this.replacement = value;
     });
@@ -4029,18 +4050,30 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     });
     fnHint.dataset.field = "fnHint";
     const otherGroup = contentEl.createDiv({ cls: "et-modal-group" });
-    otherGroup.createEl("div", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupOther });
-    new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldScope).addDropdown((dropdown) => {
-      dropdown.addOption("all" /* All */, locale7.dropdownOptions.scopeAll);
-      dropdown.addOption("text" /* Text */, locale7.dropdownOptions.scopeText);
-      dropdown.addOption("formula" /* Formula */, locale7.dropdownOptions.scopeFormula);
-      dropdown.addOption("code" /* Code */, locale7.dropdownOptions.scopeCode);
-      dropdown.setValue(this.ruleScope);
-      dropdown.onChange((v) => {
-        this.ruleScope = v;
+    const otherHeader = otherGroup.createDiv({ cls: "et-modal-group-header" });
+    otherHeader.createEl("span", { cls: "et-modal-group-title", text: locale7.settings.ruleEditModal.groupOther });
+    const scopeSetting = new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldScope);
+    scopeSetting.settingEl.dataset.field = "scopeSetting";
+    scopeSetting.settingEl.addClass("et-scope-setting");
+    const scopeControls = scopeSetting.controlEl.createDiv({ cls: "et-scope-options" });
+    const scopeOptions = [
+      { value: "all" /* All */, label: locale7.dropdownOptions.scopeAll },
+      { value: "text" /* Text */, label: locale7.dropdownOptions.scopeText },
+      { value: "formula" /* Formula */, label: locale7.dropdownOptions.scopeFormula },
+      { value: "code" /* Code */, label: locale7.dropdownOptions.scopeCode }
+    ];
+    for (const { value, label } of scopeOptions) {
+      const chip = scopeControls.createEl("button", {
+        cls: `et-pill-chip${this.ruleScopes.includes(value) ? " et-pill-chip-active" : ""}`,
+        text: label,
+        attr: { type: "button" }
+      });
+      chip.dataset.scopeValue = value;
+      chip.addEventListener("click", () => {
+        this.toggleRuleScope(value);
         this.refreshVisibility(contentEl);
       });
-    });
+    }
     const scopeLangSetting = new import_obsidian4.Setting(otherGroup).setName(locale7.settings.ruleEditModal.fieldScopeLanguage).addText((text) => {
       text.setPlaceholder("e.g. python, javascript");
       text.setValue(this.scopeLanguage);
@@ -4060,25 +4093,47 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       text.setValue(this.description);
       text.onChange((v) => this.description = v);
     });
-    new import_obsidian4.Setting(contentEl).addButton((btn) => {
-      btn.setButtonText(locale7.settings.ruleEditModal.buttonSave).setCta().onClick(() => {
-        const rule = this.buildSimpleRule();
-        const regexError = RuleEngine.validateRegex(rule);
-        if (regexError) {
-          new import_obsidian4.Notice(`[EasyTyping] ${locale7.settings.ruleEditModal.invalidRegex}: ${regexError}`);
-          return;
-        }
-        this.close();
-        this.onSubmit(rule);
-      });
+    const footerEl = contentEl.createDiv({ cls: "et-rule-edit-footer" });
+    const saveButton = footerEl.createEl("button", {
+      cls: "mod-cta et-rule-edit-save",
+      text: locale7.settings.ruleEditModal.buttonSave
+    });
+    saveButton.addEventListener("click", () => {
+      const rule = this.buildSimpleRule();
+      const regexError = RuleEngine.validateRegex(rule);
+      if (regexError) {
+        new import_obsidian4.Notice(`[EasyTyping] ${locale7.settings.ruleEditModal.invalidRegex}: ${regexError}`);
+        return;
+      }
+      this.close();
+      this.onSubmit(rule);
     });
     this.refreshVisibility(contentEl);
+    this.setInitialFocus(contentEl, titleEl);
+  }
+  setInitialFocus(contentEl, titleEl) {
+    window.requestAnimationFrame(() => {
+      if (this.mode === "create") {
+        const triggerInput = contentEl.querySelector('[data-field="trigger"] input');
+        if (!triggerInput)
+          return;
+        triggerInput.focus();
+        triggerInput.setSelectionRange(triggerInput.value.length, triggerInput.value.length);
+        return;
+      }
+      titleEl.tabIndex = -1;
+      titleEl.focus();
+    });
   }
   refreshVisibility(contentEl) {
     const locale7 = getLocale();
     const triggerRightEl = contentEl.querySelector('[data-field="triggerRight"]');
     if (triggerRightEl) {
       triggerRightEl.classList.toggle("et-hidden", this.ruleType === "selectKey" /* SelectKey */);
+    }
+    const regexFlagsEl = contentEl.querySelector('[data-field="regexFlags"]');
+    if (regexFlagsEl) {
+      regexFlagsEl.classList.toggle("et-hidden", this.ruleType === "selectKey" /* SelectKey */ || !this.isRegex);
     }
     const triggerEl = contentEl.querySelector('[data-field="trigger"]');
     if (triggerEl) {
@@ -4094,9 +4149,9 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     contentEl.querySelectorAll('[data-pill-group="ruleType"]').forEach((el) => {
       el.classList.toggle("et-pill-active", el.dataset.pillValue === this.ruleType);
     });
-    const triggerModeLabel = contentEl.querySelector('[data-field="triggerModeLabel"]');
-    if (triggerModeLabel)
-      triggerModeLabel.classList.toggle("et-hidden", this.ruleType !== "input" /* Input */);
+    const triggerModeSection = contentEl.querySelector('[data-field="triggerModeSection"]');
+    if (triggerModeSection)
+      triggerModeSection.classList.toggle("et-hidden", this.ruleType !== "input" /* Input */);
     contentEl.querySelectorAll('[data-pill-group="triggerMode"]').forEach((el) => {
       const htmlEl = el;
       htmlEl.classList.toggle("et-hidden", this.ruleType !== "input" /* Input */);
@@ -4160,8 +4215,12 @@ var RuleEditModal = class extends import_obsidian4.Modal {
     }
     const scopeLangEl = contentEl.querySelector('[data-field="scopeLanguage"]');
     if (scopeLangEl) {
-      scopeLangEl.classList.toggle("et-hidden", this.ruleScope !== "code" /* Code */);
+      scopeLangEl.classList.toggle("et-hidden", !this.ruleScopes.includes("code" /* Code */));
     }
+    contentEl.querySelectorAll("[data-scope-value]").forEach((el) => {
+      const htmlEl = el;
+      htmlEl.classList.toggle("et-pill-chip-active", this.ruleScopes.includes(htmlEl.dataset.scopeValue));
+    });
   }
   buildSimpleRule() {
     let options = "";
@@ -4175,22 +4234,41 @@ var RuleEditModal = class extends import_obsidian4.Modal {
       options += "r";
     if (this.isFunction)
       options += "F";
-    if (this.ruleScope === "text" /* Text */)
-      options += "t";
-    else if (this.ruleScope === "formula" /* Formula */)
-      options += "f";
-    else if (this.ruleScope === "code" /* Code */)
-      options += "c";
+    const normalizedScopes = this.getNormalizedRuleScopes();
+    if (!normalizedScopes.includes("all" /* All */)) {
+      if (normalizedScopes.includes("text" /* Text */))
+        options += "t";
+      if (normalizedScopes.includes("formula" /* Formula */))
+        options += "f";
+      if (normalizedScopes.includes("code" /* Code */))
+        options += "c";
+    }
     return {
-      trigger: RuleEngine.unescapeText(this.trigger),
-      trigger_right: RuleEngine.unescapeText(this.triggerRight) || void 0,
+      trigger: this.isRegex ? this.trigger : RuleEngine.unescapeText(this.trigger),
+      trigger_right: (this.isRegex ? this.triggerRight : RuleEngine.unescapeText(this.triggerRight)) || void 0,
       replacement: this.replacement,
       options: options || void 0,
       priority: this.priority,
       description: this.description || void 0,
       enabled: this.enabled,
-      scope_language: this.ruleScope === "code" /* Code */ && this.scopeLanguage ? this.scopeLanguage : void 0
+      scope_language: normalizedScopes.includes("code" /* Code */) && this.scopeLanguage ? this.scopeLanguage : void 0,
+      regex_flags: this.isRegex ? RuleEngine.normalizeRegexFlags(this.regexFlags) || void 0 : void 0
     };
+  }
+  toggleRuleScope(scope) {
+    if (scope === "all" /* All */) {
+      this.ruleScopes = ["all" /* All */];
+      return;
+    }
+    const nextScopes = this.ruleScopes.filter((item) => item !== "all" /* All */);
+    const hasScope = nextScopes.includes(scope);
+    this.ruleScopes = hasScope ? nextScopes.filter((item) => item !== scope) : [...nextScopes, scope];
+    if (this.ruleScopes.length === 0) {
+      this.ruleScopes = ["all" /* All */];
+    }
+  }
+  getNormalizedRuleScopes() {
+    return this.ruleScopes.length > 0 ? this.ruleScopes : ["all" /* All */];
   }
   onClose() {
     if (this.cmEditor) {
@@ -4224,11 +4302,6 @@ var FolderSuggest = class extends import_obsidian5.AbstractInputSuggest {
     this.onSelectCb(path);
   }
 };
-function setAttributes(element, attributes) {
-  for (let key in attributes) {
-    element.setAttribute(key, attributes[key]);
-  }
-}
 var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -4240,13 +4313,22 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     const { containerEl } = this;
     const locale7 = getLocale();
     containerEl.empty();
-    containerEl.createEl("h1", { text: locale7.headers.main });
-    containerEl.createEl("p", { text: locale7.headers.githubDetail }).createEl("a", {
+    const shellEl = containerEl.createDiv({ cls: "et-settings-shell" });
+    const heroEl = shellEl.createDiv({ cls: "et-settings-hero" });
+    const heroMainEl = heroEl.createDiv({ cls: "et-settings-hero-main" });
+    heroMainEl.createEl("h1", { text: locale7.headers.main });
+    const heroMetaEl = heroMainEl.createDiv({ cls: "et-settings-hero-meta" });
+    heroMetaEl.createSpan({ text: locale7.headers.githubDetail, cls: "et-settings-hero-label" });
+    heroMetaEl.createEl("a", {
       text: "easy-typing-obsidian",
-      href: "https://github.com/Yaozhuwa/easy-typing-obsidian"
+      href: "https://github.com/Yaozhuwa/easy-typing-obsidian",
+      cls: "et-settings-hero-link"
     });
-    const navEl = containerEl.createEl("nav", { cls: "et-settings-nav" });
-    const contentEl = containerEl.createEl("div", { cls: "et-settings-content" });
+    const navEl = shellEl.createEl("nav", {
+      cls: "et-settings-nav",
+      attr: { role: "tablist", "aria-orientation": "horizontal" }
+    });
+    const contentEl = shellEl.createEl("div", { cls: "et-settings-content" });
     const tabs = [
       { id: "edit-enhance", label: locale7.headers.tabs.editEnhance },
       { id: "auto-format", label: locale7.headers.tabs.autoFormat },
@@ -4256,23 +4338,78 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     ];
     const tabPanels = {};
     const tabButtons = [];
+    const activateTab = (tabId, focusButton = false) => {
+      this.activeTab = tabId;
+      tabs.forEach((tab, index) => {
+        const button = tabButtons[index];
+        const panel = tabPanels[tab.id];
+        const isActive = tab.id === tabId;
+        button.toggleClass("et-settings-tab-active", isActive);
+        button.setAttribute("aria-selected", isActive ? "true" : "false");
+        button.tabIndex = isActive ? 0 : -1;
+        panel.toggleClass("et-settings-tab-hidden", !isActive);
+        panel.setAttribute("aria-hidden", isActive ? "false" : "true");
+        if (focusButton && isActive) {
+          button.focus();
+        }
+      });
+    };
     tabs.forEach((tab) => {
       const isActive = tab.id === this.activeTab;
+      const buttonId = `easy-typing-settings-tab-${tab.id}`;
+      const panelId = `easy-typing-settings-panel-${tab.id}`;
       const btn = navEl.createEl("button", {
-        text: tab.label,
-        cls: `et-settings-tab-btn ${isActive ? "et-settings-tab-active" : ""}`
+        cls: `et-settings-tab-btn ${isActive ? "et-settings-tab-active" : ""}`,
+        attr: {
+          id: buttonId,
+          role: "tab",
+          type: "button",
+          "aria-selected": isActive ? "true" : "false",
+          "aria-controls": panelId
+        }
       });
+      btn.tabIndex = isActive ? 0 : -1;
+      btn.setText(tab.label);
       tabButtons.push(btn);
-      const panel = contentEl.createEl("div", {
-        cls: `et-settings-tab-panel ${isActive ? "" : "et-settings-tab-hidden"}`
+      const panel = contentEl.createEl("section", {
+        cls: `et-settings-tab-panel ${isActive ? "" : "et-settings-tab-hidden"}`,
+        attr: {
+          id: panelId,
+          role: "tabpanel",
+          "data-tab-id": tab.id,
+          "aria-labelledby": buttonId,
+          "aria-hidden": isActive ? "false" : "true"
+        }
       });
       tabPanels[tab.id] = panel;
       btn.addEventListener("click", () => {
-        this.activeTab = tab.id;
-        tabButtons.forEach((b) => b.removeClass("et-settings-tab-active"));
-        Object.values(tabPanels).forEach((p) => p.addClass("et-settings-tab-hidden"));
-        btn.addClass("et-settings-tab-active");
-        panel.removeClass("et-settings-tab-hidden");
+        activateTab(tab.id);
+      });
+      btn.addEventListener("keydown", (evt) => {
+        const currentIndex = tabs.findIndex((item) => item.id === tab.id);
+        if (currentIndex === -1)
+          return;
+        let targetIndex = null;
+        switch (evt.key) {
+          case "ArrowRight":
+          case "ArrowDown":
+            targetIndex = (currentIndex + 1) % tabs.length;
+            break;
+          case "ArrowLeft":
+          case "ArrowUp":
+            targetIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+            break;
+          case "Home":
+            targetIndex = 0;
+            break;
+          case "End":
+            targetIndex = tabs.length - 1;
+            break;
+        }
+        if (targetIndex !== null) {
+          evt.preventDefault();
+          activateTab(tabs[targetIndex].id, true);
+        }
       });
     });
     this.buildEditEnhanceTab(tabPanels["edit-enhance"]);
@@ -4281,33 +4418,60 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     this.buildUserRulesSection(tabPanels["user-rules"]);
     this.buildOtherTab(tabPanels["other"]);
   }
+  createSection(container, title, description, actionsBuilder, extraCls = "") {
+    const sectionEl = container.createDiv({ cls: `et-settings-section ${extraCls}`.trim() });
+    if (title || description || actionsBuilder) {
+      const headerEl = sectionEl.createDiv({ cls: "et-settings-section-header" });
+      const headingEl = headerEl.createDiv({ cls: "et-settings-section-heading" });
+      if (title) {
+        headingEl.createEl("h3", { text: title });
+      }
+      if (description) {
+        headingEl.createDiv({ text: description, cls: "et-settings-section-desc setting-item-description" });
+      }
+      if (actionsBuilder) {
+        const actionsEl = headerEl.createDiv({ cls: "et-settings-section-actions" });
+        actionsBuilder(actionsEl);
+      }
+    }
+    const bodyEl = sectionEl.createDiv({ cls: "et-settings-section-body" });
+    return { sectionEl, bodyEl };
+  }
+  setInteractiveDisabled(element, disabled) {
+    element.toggleClass("et-settings-disabled", disabled);
+    element.setAttribute("aria-disabled", disabled ? "true" : "false");
+    element.querySelectorAll("button, input, textarea, select").forEach((node) => {
+      node.disabled = disabled;
+    });
+  }
   buildEditEnhanceTab(el) {
     const locale7 = getLocale();
-    new import_obsidian5.Setting(el).setName(locale7.settings.codeblockEdit.name).setDesc(locale7.settings.codeblockEdit.desc).addToggle((toggle) => {
+    const section = this.createSection(el, locale7.headers.enhancedEditing);
+    new import_obsidian5.Setting(section.bodyEl).setName(locale7.settings.codeblockEdit.name).setDesc(locale7.settings.codeblockEdit.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.BetterCodeEdit).onChange(async (value) => {
         this.plugin.settings.BetterCodeEdit = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.backspaceEdit.name).setDesc(locale7.settings.backspaceEdit.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(section.bodyEl).setName(locale7.settings.backspaceEdit.name).setDesc(locale7.settings.backspaceEdit.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.BetterBackspace).onChange(async (value) => {
         this.plugin.settings.BetterBackspace = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.tabOut.name).setDesc(locale7.settings.tabOut.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(section.bodyEl).setName(locale7.settings.tabOut.name).setDesc(locale7.settings.tabOut.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.Tabout).onChange(async (value) => {
         this.plugin.settings.Tabout = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.enhanceModA.name).setDesc(locale7.settings.enhanceModA.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(section.bodyEl).setName(locale7.settings.enhanceModA.name).setDesc(locale7.settings.enhanceModA.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.EnhanceModA).onChange(async (value) => {
         this.plugin.settings.EnhanceModA = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.smartPaste.name).setDesc(locale7.settings.smartPaste.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(section.bodyEl).setName(locale7.settings.smartPaste.name).setDesc(locale7.settings.smartPaste.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.SmartPaste).onChange(async (value) => {
         this.plugin.settings.SmartPaste = value;
         await this.plugin.saveSettings();
@@ -4316,29 +4480,30 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
   }
   buildAutoFormatTab(el) {
     const locale7 = getLocale();
-    const masterSwitch = new import_obsidian5.Setting(el).setName(locale7.settings.autoFormatting.name).setDesc(locale7.settings.autoFormatting.desc).addToggle((toggle) => {
+    const overviewSection = this.createSection(el, locale7.headers.autoformatSetting);
+    new import_obsidian5.Setting(overviewSection.bodyEl).setName(locale7.settings.autoFormatting.name).setDesc(locale7.settings.autoFormatting.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.AutoFormat).onChange(async (value) => {
         this.plugin.settings.AutoFormat = value;
         await this.plugin.saveSettings();
+        syncAutoFormatState(value);
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.autoFormatPaste.name).setDesc(locale7.settings.autoFormatPaste.desc).addToggle((toggle) => {
+    const pasteSetting = new import_obsidian5.Setting(overviewSection.bodyEl).setName(locale7.settings.autoFormatPaste.name).setDesc(locale7.settings.autoFormatPaste.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.AutoFormatPaste).onChange(async (value) => {
         this.plugin.settings.AutoFormatPaste = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.capitalizeFirstLetter.name).setDesc(locale7.settings.capitalizeFirstLetter.desc).addToggle((toggle) => {
+    const autoCapitalSetting = new import_obsidian5.Setting(overviewSection.bodyEl).setName(locale7.settings.capitalizeFirstLetter.name).setDesc(locale7.settings.capitalizeFirstLetter.desc).addToggle((toggle) => {
       toggle.setTooltip(locale7.toolTip.switch);
       toggle.setValue(this.plugin.settings.AutoCapital).onChange(async (value) => {
         this.plugin.settings.AutoCapital = value;
         await this.plugin.saveSettings();
       });
     });
-    el.createEl("h3", { text: locale7.headers.languagePairSection });
-    el.createEl("p", { text: locale7.settings.languagePairSpacing.desc, cls: "setting-item-description" });
-    const scriptListContainer = el.createDiv({ cls: "et-custom-scripts", attr: { style: "margin-bottom: 15px;" } });
-    const capsuleContainer = el.createDiv({ cls: "et-lang-pair-capsules" });
+    const languageSection = this.createSection(el, locale7.headers.languagePairSection, locale7.settings.languagePairSpacing.desc);
+    const scriptListContainer = languageSection.bodyEl.createDiv({ cls: "et-custom-scripts" });
+    const capsuleContainer = languageSection.bodyEl.createDiv({ cls: "et-lang-pair-capsules" });
     const renderCapsules = () => {
       capsuleContainer.empty();
       for (let idx = 0; idx < this.plugin.settings.languagePairs.length; idx++) {
@@ -4347,7 +4512,14 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         const labelA = locale7.scriptCategoryLabels[pair.a] || pair.a;
         const labelB = locale7.scriptCategoryLabels[pair.b] || pair.b;
         capsule.createSpan({ text: `${labelA} \u2194 ${labelB}` });
-        const removeBtn = capsule.createSpan({ cls: "et-capsule-remove", text: "\xD7" });
+        const removeBtn = capsule.createEl("button", {
+          cls: "et-capsule-remove",
+          text: "\xD7",
+          attr: {
+            type: "button",
+            "aria-label": locale7.toolTip.removeRule
+          }
+        });
         removeBtn.addEventListener("click", async () => {
           this.plugin.settings.languagePairs.splice(idx, 1);
           await this.plugin.saveSettings();
@@ -4374,7 +4546,8 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     };
     renderScripts();
     renderCapsules();
-    const addScriptRow = new import_obsidian5.Setting(el);
+    const addScriptRow = new import_obsidian5.Setting(languageSection.bodyEl);
+    addScriptRow.settingEl.addClass("et-inline-form-setting");
     let newScriptName = "";
     let newScriptPattern = "";
     addScriptRow.setName(locale7.headers.customScriptSection).addText((text) => {
@@ -4403,11 +4576,12 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         this.display();
       });
     });
-    const addRow = el.createDiv({ cls: "et-pair-selector-row" });
+    const addRow = languageSection.bodyEl.createDiv({ cls: "et-pair-selector-row" });
     const allCategories = this.getAllScriptCategories();
     let selectedA = allCategories[0] || "";
     let selectedB = allCategories[1] || "";
     const selectorSetting = new import_obsidian5.Setting(addRow);
+    selectorSetting.settingEl.addClass("et-inline-form-setting");
     selectorSetting.setName(locale7.headers.addLanguagePair).addDropdown((dd) => {
       for (const cat of allCategories) {
         dd.addOption(cat, locale7.scriptCategoryLabels[cat] || cat);
@@ -4436,11 +4610,10 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         renderCapsules();
       });
     });
-    el.createEl("h3", { text: locale7.headers.detailedSetting });
-    const introDiv = el.createDiv({ cls: "et-space-strategy-intro setting-item-description" });
-    introDiv.setAttribute("style", "white-space: pre-wrap; margin-bottom: 20px;");
+    const detailSection = this.createSection(el, locale7.headers.detailedSetting);
+    const introDiv = detailSection.bodyEl.createDiv({ cls: "et-settings-note et-space-strategy-intro setting-item-description" });
     introDiv.innerText = locale7.headers.spaceStrategyIntro || "\u7A7A\u683C\u7B56\u7565\u8BF4\u660E\uFF1A\n\u65E0\u8981\u6C42\uFF1A\u5BF9\u76F8\u5173\u533A\u5757\u4E0E\u5DE6\u53F3\u6587\u672C\u6CA1\u6709\u7A7A\u683C\u8981\u6C42\u3002\n\u8F6F\u7A7A\u683C\uFF1A\u53EA\u8981\u6C42\u6709\u8F6F\u7A7A\u683C\u3002\n\u4E25\u683C\u7A7A\u683C\uFF1A\u4E25\u683C\u6DFB\u52A0\u771F\u5B9E\u7A7A\u683C\u3002";
-    new import_obsidian5.Setting(el).setName(locale7.settings.spaceStrategyInlineCode.name).setDesc(locale7.settings.spaceStrategyInlineCode.desc).addDropdown((dropdown) => {
+    new import_obsidian5.Setting(detailSection.bodyEl).setName(locale7.settings.spaceStrategyInlineCode.name).setDesc(locale7.settings.spaceStrategyInlineCode.desc).addDropdown((dropdown) => {
       dropdown.addOption(String(0 /* none */), locale7.dropdownOptions.noRequire);
       dropdown.addOption(String(1 /* soft */), locale7.dropdownOptions.softSpace);
       dropdown.addOption(String(2 /* strict */), locale7.dropdownOptions.strictSpace);
@@ -4450,7 +4623,7 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.spaceStrategyInlineFormula.name).setDesc(locale7.settings.spaceStrategyInlineFormula.desc).addDropdown((dropdown) => {
+    new import_obsidian5.Setting(detailSection.bodyEl).setName(locale7.settings.spaceStrategyInlineFormula.name).setDesc(locale7.settings.spaceStrategyInlineFormula.desc).addDropdown((dropdown) => {
       dropdown.addOption(String(0 /* none */), locale7.dropdownOptions.noRequire);
       dropdown.addOption(String(1 /* soft */), locale7.dropdownOptions.softSpace);
       dropdown.addOption(String(2 /* strict */), locale7.dropdownOptions.strictSpace);
@@ -4460,7 +4633,7 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.spaceStrategyLinkText.name).setDesc(locale7.settings.spaceStrategyLinkText.desc).addDropdown((dropdown) => {
+    new import_obsidian5.Setting(detailSection.bodyEl).setName(locale7.settings.spaceStrategyLinkText.name).setDesc(locale7.settings.spaceStrategyLinkText.desc).addDropdown((dropdown) => {
       dropdown.addOption("dummy", locale7.dropdownOptions.dummy);
       dropdown.addOption("smart", locale7.dropdownOptions.smart);
       dropdown.setValue(this.plugin.settings.InlineLinkSmartSpace ? "smart" : "dummy");
@@ -4478,60 +4651,78 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.softSpaceSymbols.leftName).setDesc(locale7.settings.softSpaceSymbols.leftDesc).addText((text) => {
+    new import_obsidian5.Setting(detailSection.bodyEl).setName(locale7.settings.softSpaceSymbols.leftName).setDesc(locale7.settings.softSpaceSymbols.leftDesc).addText((text) => {
       text.setValue(this.plugin.settings.SoftSpaceLeftSymbols).onChange(async (value) => {
         this.plugin.settings.SoftSpaceLeftSymbols = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.softSpaceSymbols.rightName).setDesc(locale7.settings.softSpaceSymbols.rightDesc).addText((text) => {
+    new import_obsidian5.Setting(detailSection.bodyEl).setName(locale7.settings.softSpaceSymbols.rightName).setDesc(locale7.settings.softSpaceSymbols.rightDesc).addText((text) => {
       text.setValue(this.plugin.settings.SoftSpaceRightSymbols).onChange(async (value) => {
         this.plugin.settings.SoftSpaceRightSymbols = value;
         await this.plugin.saveSettings();
       });
     });
-    el.createEl("h3", { text: locale7.headers.prefixDictSection });
-    const prefixSetting = new import_obsidian5.Setting(el);
-    prefixSetting.settingEl.setAttribute("style", "display: grid; grid-template-columns: 1fr;");
-    prefixSetting.setName(locale7.settings.prefixDictionary.name).setDesc(locale7.settings.prefixDictionary.desc);
+    const prefixSection = this.createSection(el, locale7.headers.prefixDictSection, locale7.settings.prefixDictionary.desc);
+    const prefixSetting = new import_obsidian5.Setting(prefixSection.bodyEl);
+    prefixSetting.settingEl.addClass("et-setting-full-width");
     const prefixArea = new import_obsidian5.TextAreaComponent(prefixSetting.controlEl);
-    setAttributes(prefixArea.inputEl, { style: "margin-top: 8px; width: 100%; height: 12vh;" });
+    prefixArea.inputEl.addClass("et-settings-textarea", "et-settings-textarea-compact");
     prefixArea.setValue(this.plugin.settings.PrefixDictionary).onChange(async (value) => {
       this.plugin.settings.PrefixDictionary = value;
       this.plugin.saveSettings();
     });
-    el.createEl("h3", { text: locale7.headers.customRegexpBlock });
-    const regexInfoDiv = el.createDiv({ cls: "setting-item-description" });
-    regexInfoDiv.style.marginBottom = "10px";
+    const regexSection = this.createSection(el, locale7.headers.customRegexpBlock);
+    const regexInfoDiv = regexSection.bodyEl.createDiv({ cls: "setting-item-description et-settings-section-desc" });
     regexInfoDiv.appendChild(createFragment((frag) => {
       frag.appendText(locale7.headers.aboutRegexp.header);
-      const a1 = frag.createEl("a", { text: locale7.headers.aboutRegexp.text, href: "https://javascript.ruanyifeng.com/stdlib/regexp.html#" });
-      frag.createEl("br");
-      frag.appendText(locale7.headers.instructionsRegexp.header);
-      const a2 = frag.createEl("a", { text: locale7.headers.instructionsRegexp.text, href: "https://github.com/Yaozhuwa/easy-typing-obsidian/blob/master/UserDefinedRegExp.md" });
+      frag.createEl("a", { text: locale7.headers.aboutRegexp.text, href: "https://javascript.ruanyifeng.com/stdlib/regexp.html#" });
     }));
-    new import_obsidian5.Setting(el).setName(locale7.settings.userDefinedRegexpSwitch.name).setDesc(locale7.settings.userDefinedRegexpSwitch.desc).addToggle((toggle) => {
+    const regSwitchSetting = new import_obsidian5.Setting(regexSection.bodyEl).setName(locale7.settings.userDefinedRegexpSwitch.name).setDesc(locale7.settings.userDefinedRegexpSwitch.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.UserDefinedRegSwitch).onChange(async (value) => {
         this.plugin.settings.UserDefinedRegSwitch = value;
         await this.plugin.saveSettings();
+        syncRegexContentState();
       });
     });
-    const regContentAreaSetting = new import_obsidian5.Setting(el);
-    regContentAreaSetting.settingEl.setAttribute("style", "display: grid; grid-template-columns: 1fr;");
+    const regContentAreaSetting = new import_obsidian5.Setting(regexSection.bodyEl);
+    regContentAreaSetting.settingEl.addClass("et-setting-full-width");
     regContentAreaSetting.setName(locale7.settings.userDefinedRegexp.name).setDesc(locale7.settings.userDefinedRegexp.desc);
     const regContentArea = new import_obsidian5.TextAreaComponent(regContentAreaSetting.controlEl);
-    setAttributes(regContentArea.inputEl, {
-      style: "margin-top: 12px; width: 100%;  height: 30vh;"
-    });
+    regContentArea.inputEl.addClass("et-settings-textarea", "et-settings-textarea-tall");
     regContentArea.setValue(this.plugin.settings.UserDefinedRegExp).onChange(async (value) => {
       this.plugin.settings.UserDefinedRegExp = value;
       this.plugin.saveSettings();
     });
-    el.createEl("h3", { text: locale7.headers.excludeFoldersFiles });
-    new import_obsidian5.Setting(el).setName(locale7.settings.excludeFoldersFiles.name).setDesc(locale7.settings.excludeFoldersFiles.desc).addTextArea((text) => text.setValue(this.plugin.settings.ExcludeFiles).onChange(async (value) => {
-      this.plugin.settings.ExcludeFiles = value;
-      this.plugin.saveSettings();
-    }));
+    const excludeSection = this.createSection(el, locale7.headers.excludeFoldersFiles, locale7.settings.excludeFoldersFiles.desc);
+    const excludeSetting = new import_obsidian5.Setting(excludeSection.bodyEl);
+    excludeSetting.settingEl.addClass("et-setting-full-width");
+    excludeSetting.addTextArea((text) => {
+      text.setValue(this.plugin.settings.ExcludeFiles);
+      text.inputEl.addClass("et-settings-textarea");
+      text.onChange(async (value) => {
+        this.plugin.settings.ExcludeFiles = value;
+        this.plugin.saveSettings();
+      });
+    });
+    const advancedSections = [
+      languageSection.sectionEl,
+      detailSection.sectionEl,
+      prefixSection.sectionEl,
+      regexSection.sectionEl,
+      excludeSection.sectionEl
+    ];
+    const syncRegexContentState = () => {
+      this.setInteractiveDisabled(regContentAreaSetting.settingEl, !this.plugin.settings.AutoFormat || !this.plugin.settings.UserDefinedRegSwitch);
+    };
+    const syncAutoFormatState = (enabled) => {
+      this.setInteractiveDisabled(pasteSetting.settingEl, !enabled);
+      this.setInteractiveDisabled(autoCapitalSetting.settingEl, !enabled);
+      advancedSections.forEach((sectionEl) => this.setInteractiveDisabled(sectionEl, !enabled));
+      this.setInteractiveDisabled(regSwitchSetting.settingEl, !enabled);
+      syncRegexContentState();
+    };
+    syncAutoFormatState(this.plugin.settings.AutoFormat);
   }
   getAllScriptCategories() {
     const builtin = [
@@ -4548,25 +4739,23 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
   }
   buildBuiltinRulesSection(el) {
     const locale7 = getLocale();
-    const headerEl = el.createDiv({ cls: "setting-item" });
-    const infoEl = headerEl.createDiv({ cls: "setting-item-info" });
-    infoEl.createEl("h3", { text: locale7.headers.builtinRulesSection });
-    const controlEl = headerEl.createDiv({ cls: "setting-item-control" });
-    const resetBtn = controlEl.createEl("button", {
-      text: locale7.toolTip.resetAllRules,
-      cls: "et-reset-btn"
-    });
-    resetBtn.addEventListener("click", async () => {
-      await this.plugin.ruleManager.resetAllBuiltinRules();
-      new import_obsidian5.Notice(locale7.toolTip.resetSuccess);
-      this.display();
-    });
+    const section = this.createSection(el, locale7.headers.builtinRulesSection, void 0, (actionsEl) => {
+      const resetBtn = actionsEl.createEl("button", {
+        text: locale7.toolTip.resetAllRules,
+        cls: "et-reset-btn et-section-action-btn"
+      });
+      resetBtn.addEventListener("click", async () => {
+        await this.plugin.ruleManager.resetAllBuiltinRules();
+        new import_obsidian5.Notice(locale7.toolTip.resetSuccess);
+        this.display();
+      });
+    }, "et-builtin-rules-section");
     for (const rule of this.plugin.ruleManager.cachedBuiltinRules) {
-      this.buildRuleItem(el, rule, true);
+      this.buildRuleItem(section.bodyEl, rule, true);
     }
     const deletedIds = this.plugin.settings.deletedBuiltinRuleIds || [];
     if (deletedIds.length > 0) {
-      const details = el.createEl("details", { cls: "et-deleted-rules" });
+      const details = section.bodyEl.createEl("details", { cls: "et-deleted-rules" });
       details.createEl("summary", { text: `${locale7.headers.deletedRulesSection} (${deletedIds.length})` });
       for (const id of deletedIds) {
         const defaultRule = DEFAULT_BUILTIN_RULES.find((r) => r.id === id);
@@ -4575,7 +4764,7 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         const opts = RuleEngine.parseOptions(defaultRule.options);
         const typeLabel = this.getRuleTypeLabel(opts.type);
         const typeCls = this.getRuleTypeCls(opts.type);
-        const preview = defaultRule.id && locale7.builtinRuleDescriptions[defaultRule.id] || defaultRule.description || `${RuleEngine.escapeText(defaultRule.trigger)} \u2192 ${typeof defaultRule.replacement === "string" ? defaultRule.replacement : "(fn)"}`;
+        const preview = defaultRule.id && locale7.builtinRuleDescriptions[defaultRule.id] || defaultRule.description || `${RuleEngine.escapeText(defaultRule.trigger, opts.isRegex)} \u2192 ${typeof defaultRule.replacement === "string" ? defaultRule.replacement : "(fn)"}`;
         new import_obsidian5.Setting(details).setName(createFragment((f) => {
           f.createSpan({ cls: `et-rule-type-tag ${typeCls}`, text: typeLabel });
           f.createSpan({ text: preview });
@@ -4590,79 +4779,80 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
   }
   buildUserRulesSection(el) {
     const locale7 = getLocale();
-    const headerEl = el.createDiv({ cls: "setting-item" });
-    const infoEl = headerEl.createDiv({ cls: "setting-item-info" });
-    infoEl.createEl("h3", { text: locale7.headers.userRulesSection });
-    const controlEl = headerEl.createDiv({ cls: "setting-item-control" });
-    const addBtn = controlEl.createEl("button", { text: "+" });
-    addBtn.addEventListener("click", () => {
-      new RuleEditModal(this.app, "create", {}, async (rule) => {
-        await this.plugin.ruleManager.addUserRule(rule);
-        this.display();
-      }).open();
-    });
-    const exportBtn = controlEl.createEl("button", { cls: "clickable-icon" });
-    exportBtn.setAttribute("aria-label", locale7.toolTip.exportRules);
-    (0, import_obsidian5.setIcon)(exportBtn, "arrow-up-from-line");
-    exportBtn.addEventListener("click", () => {
-      const rules = this.plugin.ruleManager.cachedUserRules;
-      if (rules.length === 0) {
-        new import_obsidian5.Notice(locale7.toolTip.noRulesToExport);
-        return;
-      }
-      const json = JSON.stringify(rules, null, 2);
-      const blob = new Blob([json], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "easy-typing-user-rules.json";
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-    });
-    const importBtn = controlEl.createEl("button", { cls: "clickable-icon" });
-    importBtn.setAttribute("aria-label", locale7.toolTip.importRules);
-    (0, import_obsidian5.setIcon)(importBtn, "arrow-down-to-line");
-    importBtn.addEventListener("click", () => {
-      const input = document.createElement("input");
-      input.type = "file";
-      input.accept = ".json";
-      input.style.display = "none";
-      input.addEventListener("change", async () => {
-        var _a;
-        const file = (_a = input.files) == null ? void 0 : _a[0];
-        if (!file)
-          return;
-        try {
-          const text = await file.text();
-          let parsed;
-          try {
-            parsed = JSON.parse(text);
-          } catch (e) {
-            new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importInvalidJson}`);
-            return;
-          }
-          if (!Array.isArray(parsed) || parsed.length === 0) {
-            new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importNoRules}`);
-            return;
-          }
-          const { imported, skipped } = await this.plugin.ruleManager.importUserRules(parsed);
-          if (imported === 0 && skipped > 0) {
-            new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importNoRules}`);
-          } else {
-            new import_obsidian5.Notice(`[EasyTyping] ${(0, import_sprintf_js.sprintf)(locale7.toolTip.importSuccess, imported, skipped)}`);
-          }
-          this.display();
-        } finally {
-          input.remove();
-        }
+    const section = this.createSection(el, locale7.headers.userRulesSection, void 0, (actionsEl) => {
+      const addBtn = actionsEl.createEl("button", {
+        text: "+",
+        cls: "mod-cta et-section-action-btn"
       });
-      document.body.appendChild(input);
-      input.click();
-    });
+      addBtn.addEventListener("click", () => {
+        new RuleEditModal(this.app, "create", {}, async (rule) => {
+          await this.plugin.ruleManager.addUserRule(rule);
+          this.display();
+        }).open();
+      });
+      const exportBtn = actionsEl.createEl("button", { cls: "clickable-icon et-section-icon-btn" });
+      exportBtn.setAttribute("aria-label", locale7.toolTip.exportRules);
+      (0, import_obsidian5.setIcon)(exportBtn, "arrow-up-from-line");
+      exportBtn.addEventListener("click", () => {
+        const rules = this.plugin.ruleManager.cachedUserRules;
+        if (rules.length === 0) {
+          new import_obsidian5.Notice(locale7.toolTip.noRulesToExport);
+          return;
+        }
+        const json = JSON.stringify(rules, null, 2);
+        const blob = new Blob([json], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "easy-typing-user-rules.json";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+      const importBtn = actionsEl.createEl("button", { cls: "clickable-icon et-section-icon-btn" });
+      importBtn.setAttribute("aria-label", locale7.toolTip.importRules);
+      (0, import_obsidian5.setIcon)(importBtn, "arrow-down-to-line");
+      importBtn.addEventListener("click", () => {
+        const input = document.createElement("input");
+        input.type = "file";
+        input.accept = ".json";
+        input.style.display = "none";
+        input.addEventListener("change", async () => {
+          var _a;
+          const file = (_a = input.files) == null ? void 0 : _a[0];
+          if (!file)
+            return;
+          try {
+            const text = await file.text();
+            let parsed;
+            try {
+              parsed = JSON.parse(text);
+            } catch (e) {
+              new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importInvalidJson}`);
+              return;
+            }
+            if (!Array.isArray(parsed) || parsed.length === 0) {
+              new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importNoRules}`);
+              return;
+            }
+            const { imported, skipped } = await this.plugin.ruleManager.importUserRules(parsed);
+            if (imported === 0 && skipped > 0) {
+              new import_obsidian5.Notice(`[EasyTyping] ${locale7.toolTip.importNoRules}`);
+            } else {
+              new import_obsidian5.Notice(`[EasyTyping] ${(0, import_sprintf_js.sprintf)(locale7.toolTip.importSuccess, imported, skipped)}`);
+            }
+            this.display();
+          } finally {
+            input.remove();
+          }
+        });
+        document.body.appendChild(input);
+        input.click();
+      });
+    }, "et-user-rules-section");
     this.plugin.ruleManager.cachedUserRules.forEach((rule, index) => {
-      this.buildRuleItem(el, rule, false, index);
+      this.buildRuleItem(section.bodyEl, rule, false, index);
     });
   }
   buildRuleItem(container, rule, isBuiltin, ruleIndex) {
@@ -4673,20 +4863,20 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
     const enabled = rule.enabled !== false;
     const isTab = opts.triggerMode === "tab" /* Tab */;
     const isFn = opts.isFunctionReplacement;
+    const scopeBadges = this.getRuleScopeBadges(opts.scope, rule.scope_language, locale7);
     let preview;
-    const localeDesc = rule.id ? locale7.builtinRuleDescriptions[rule.id] : void 0;
-    if (localeDesc) {
-      preview = localeDesc;
-    } else if (rule.description) {
+    if (rule.description) {
       preview = rule.description;
     } else {
       const repl = typeof rule.replacement === "string" ? rule.replacement : "(fn)";
-      preview = `${RuleEngine.escapeText(rule.trigger)}${rule.trigger_right ? " \u2026 " + RuleEngine.escapeText(rule.trigger_right) : ""} \u2192 ${repl}`;
+      const renderMatch = (text) => RuleEngine.escapeText(text, opts.isRegex);
+      preview = `${renderMatch(rule.trigger)}${rule.trigger_right ? " \u2026 " + renderMatch(rule.trigger_right) : ""} \u2192 ${repl}`;
     }
-    if (preview.length > 60)
-      preview = preview.substring(0, 57) + "...";
     const setting = new import_obsidian5.Setting(container).setClass("et-rule-item").setName(createFragment((f) => {
       f.createSpan({ cls: `et-rule-type-tag ${typeCls}`, text: typeLabel });
+      scopeBadges.forEach((badge) => {
+        f.createSpan({ cls: `et-rule-scope-tag ${badge.cls}`, text: badge.text });
+      });
       if (opts.type === "input" /* Input */) {
         const modeTag = f.createSpan({
           cls: `et-rule-trigger-mode ${isTab ? "et-trigger-mode-tab" : "et-trigger-mode-auto"}`,
@@ -4703,7 +4893,7 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
       if (isFn) {
         f.createSpan({ cls: "et-rule-type-tag et-rule-type-fn", text: "Fn" });
       }
-      f.createSpan({ text: preview });
+      f.createSpan({ cls: "et-rule-preview-text", text: preview });
     })).addToggle((toggle) => {
       toggle.setValue(enabled).setTooltip(locale7.toolTip.enableRule).onChange(async (value) => {
         setting.settingEl.style.opacity = value ? "" : "0.5";
@@ -4809,6 +4999,22 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
       });
     }
   }
+  getRuleScopeBadges(scopes, scopeLanguage, locale7 = getLocale()) {
+    const badges = [];
+    if (scopes.includes("code" /* Code */)) {
+      badges.push({
+        text: `<${scopeLanguage || locale7.dropdownOptions.scopeCode}>`,
+        cls: "et-rule-scope-code"
+      });
+    }
+    if (scopes.includes("formula" /* Formula */)) {
+      badges.push({
+        text: "\u0192x",
+        cls: "et-rule-scope-formula"
+      });
+    }
+    return badges;
+  }
   getRuleTypeLabel(type) {
     const locale7 = getLocale();
     switch (type) {
@@ -4832,8 +5038,8 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
   }
   buildOtherTab(el) {
     const locale7 = getLocale();
-    el.createEl("h3", { text: locale7.headers.experimentalFeatures });
-    new import_obsidian5.Setting(el).setName(locale7.settings.strictLineBreaks.name).setDesc(locale7.settings.strictLineBreaks.desc).addDropdown((dropdown) => {
+    const experimentalSection = this.createSection(el, locale7.headers.experimentalFeatures);
+    new import_obsidian5.Setting(experimentalSection.bodyEl).setName(locale7.settings.strictLineBreaks.name).setDesc(locale7.settings.strictLineBreaks.desc).addDropdown((dropdown) => {
       dropdown.addOption("enter_twice" /* EnterTwice */, locale7.dropdownOptions.enterTwice);
       dropdown.addOption("two_space" /* TwoSpace */, locale7.dropdownOptions.twoSpace);
       dropdown.addOption("mix_mode" /* Mix */, locale7.dropdownOptions.mixMode);
@@ -4848,25 +5054,26 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.collapsePersistentEnter.name).setDesc(locale7.settings.collapsePersistentEnter.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(experimentalSection.bodyEl).setName(locale7.settings.collapsePersistentEnter.name).setDesc(locale7.settings.collapsePersistentEnter.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.CollapsePersistentEnter).onChange(async (value) => {
         this.plugin.settings.CollapsePersistentEnter = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.fixMicrosoftIME.name).setDesc(locale7.settings.fixMicrosoftIME.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(experimentalSection.bodyEl).setName(locale7.settings.fixMicrosoftIME.name).setDesc(locale7.settings.fixMicrosoftIME.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.TryFixMSIME).onChange(async (value) => {
         this.plugin.settings.TryFixMSIME = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.fixMacOSContextMenu.name).setDesc(locale7.settings.fixMacOSContextMenu.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(experimentalSection.bodyEl).setName(locale7.settings.fixMacOSContextMenu.name).setDesc(locale7.settings.fixMacOSContextMenu.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.FixMacOSContextMenu).onChange(async (value) => {
         this.plugin.settings.FixMacOSContextMenu = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.rulesStoragePath.name).setDesc(locale7.settings.rulesStoragePath.desc).addText((text) => {
+    const miscSection = this.createSection(el);
+    new import_obsidian5.Setting(miscSection.bodyEl).setName(locale7.settings.rulesStoragePath.name).setDesc(locale7.settings.rulesStoragePath.desc).addText((text) => {
       text.setPlaceholder(locale7.settings.rulesStoragePath.defaultOption).setValue(this.plugin.settings.rulesStoragePath);
       new FolderSuggest(this.app, text.inputEl, locale7.settings.rulesStoragePath.defaultOption, async (path) => {
         this.plugin.settings.rulesStoragePath = path;
@@ -4884,7 +5091,7 @@ var EasyTypingSettingTab = class extends import_obsidian5.PluginSettingTab {
         this.display();
       });
     });
-    new import_obsidian5.Setting(el).setName(locale7.settings.printDebugInfo.name).setDesc(locale7.settings.printDebugInfo.desc).addToggle((toggle) => {
+    new import_obsidian5.Setting(miscSection.bodyEl).setName(locale7.settings.printDebugInfo.name).setDesc(locale7.settings.printDebugInfo.desc).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.debug).onChange(async (value) => {
         this.plugin.settings.debug = value;
         setDebug(value);
@@ -4994,6 +5201,22 @@ var RuleManager = class {
     this.USER_RULES_FILE = "user-rules.json";
     this.previousStoragePath = settings.rulesStoragePath;
   }
+  getLocalizedBuiltinRules(rules = DEFAULT_BUILTIN_RULES) {
+    const localeDescMap = getLocale().builtinRuleDescriptions;
+    return rules.map((rule) => {
+      var _a;
+      return {
+        ...rule,
+        description: (_a = localeDescMap[rule.id]) != null ? _a : rule.description
+      };
+    });
+  }
+  getImportDedupKey(rule) {
+    var _a, _b;
+    const isRegex = ((_a = rule.options) != null ? _a : "").includes("r");
+    const normalizedFlags = isRegex ? RuleEngine.normalizeRegexFlags(rule.regex_flags) : "";
+    return `${rule.trigger}\0${(_b = rule.trigger_right) != null ? _b : ""}\0${isRegex}\0${normalizedFlags}`;
+  }
   pluginPath(filename) {
     const base = this.settings.rulesStoragePath ? this.settings.rulesStoragePath : this.manifest.dir;
     return `${base}/${filename}`;
@@ -5018,7 +5241,7 @@ var RuleManager = class {
     const newRules = DEFAULT_BUILTIN_RULES.filter((r) => !existingIds.has(r.id) && !deletedIds.has(r.id));
     if (newRules.length === 0)
       return;
-    await this.saveRulesFile(this.BUILTIN_RULES_FILE, [...currentRules, ...newRules]);
+    await this.saveRulesFile(this.BUILTIN_RULES_FILE, [...currentRules, ...this.getLocalizedBuiltinRules(newRules)]);
   }
   async initRuleEngine() {
     this.ruleEngine = new RuleEngine();
@@ -5028,7 +5251,7 @@ var RuleManager = class {
     const builtinPath = this.pluginPath(this.BUILTIN_RULES_FILE);
     const userPath = this.pluginPath(this.USER_RULES_FILE);
     if (!await this.app.vault.adapter.exists(builtinPath)) {
-      await this.saveRulesFile(this.BUILTIN_RULES_FILE, DEFAULT_BUILTIN_RULES);
+      await this.saveRulesFile(this.BUILTIN_RULES_FILE, this.getLocalizedBuiltinRules());
     } else {
       await this.mergeBuiltinRules();
     }
@@ -5052,14 +5275,15 @@ var RuleManager = class {
     const defaultRule = DEFAULT_BUILTIN_RULES.find((r) => r.id === id);
     if (!defaultRule)
       return;
-    this.ruleEngine.addSimpleRule(defaultRule);
-    this.cachedBuiltinRules.push(defaultRule);
+    const localizedRule = this.getLocalizedBuiltinRules([defaultRule])[0];
+    this.ruleEngine.addSimpleRule(localizedRule);
+    this.cachedBuiltinRules.push(localizedRule);
     await this.saveRulesFile(this.BUILTIN_RULES_FILE, this.cachedBuiltinRules);
     this.settings.deletedBuiltinRuleIds = this.settings.deletedBuiltinRuleIds.filter((i) => i !== id);
     await this.savePluginSettings();
   }
   async resetAllBuiltinRules() {
-    this.cachedBuiltinRules = [...DEFAULT_BUILTIN_RULES];
+    this.cachedBuiltinRules = this.getLocalizedBuiltinRules();
     await this.saveRulesFile(this.BUILTIN_RULES_FILE, this.cachedBuiltinRules);
     this.settings.deletedBuiltinRuleIds = [];
     await this.savePluginSettings();
@@ -5074,12 +5298,8 @@ var RuleManager = class {
     return id;
   }
   async importUserRules(incoming) {
-    var _a, _b, _c;
-    const existingSet = new Set(this.cachedUserRules.map((r) => {
-      var _a2, _b2;
-      const isRegex = ((_a2 = r.options) != null ? _a2 : "").includes("r");
-      return `${r.trigger}\0${(_b2 = r.trigger_right) != null ? _b2 : ""}\0${isRegex}`;
-    }));
+    var _a;
+    const existingSet = new Set(this.cachedUserRules.map((r) => this.getImportDedupKey(r)));
     let imported = 0;
     let skipped = 0;
     for (const rule of incoming) {
@@ -5087,8 +5307,7 @@ var RuleManager = class {
         skipped++;
         continue;
       }
-      const isRegex = ((_a = rule.options) != null ? _a : "").includes("r");
-      const key = `${rule.trigger}\0${(_b = rule.trigger_right) != null ? _b : ""}\0${isRegex}`;
+      const key = this.getImportDedupKey(rule);
       if (existingSet.has(key)) {
         skipped++;
         continue;
@@ -5096,7 +5315,7 @@ var RuleManager = class {
       existingSet.add(key);
       const id = `user-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
       rule.id = id;
-      rule.enabled = (_c = rule.enabled) != null ? _c : true;
+      rule.enabled = (_a = rule.enabled) != null ? _a : true;
       this.cachedUserRules.push(rule);
       this.ruleEngine.addSimpleRule(rule);
       imported++;
@@ -5670,7 +5889,16 @@ function deleteBlankLines(ctx, editor) {
   const RE_QUOTE = /^\s*>/;
   const RE_BLOCKID = /\s\^[\w-]+\s*$/;
   const RE_HR = /^\s*(?:---+|\*\*\*+|___+)\s*$/;
-  const needsTrailingBlank = (text) => RE_LIST.test(text) || RE_QUOTE.test(text) || RE_BLOCKID.test(text);
+  const getTrailingBlankType = (text) => {
+    if (RE_LIST.test(text))
+      return "list";
+    if (RE_QUOTE.test(text))
+      return "quote";
+    if (RE_BLOCKID.test(text))
+      return "blockid";
+    return null;
+  };
+  const needsTrailingBlank = (text) => getTrailingBlankType(text) !== null;
   let start_line = 1;
   let end_line = doc.lines;
   let line_num = doc.lines;
@@ -5689,11 +5917,14 @@ function deleteBlankLines(ctx, editor) {
   }
   let delete_index = [];
   let remain_next_blank = false;
+  let remain_next_blank_type = null;
   let consecutiveBlanks = 0;
   if (start_line != 1) {
     const prevText = doc.line(start_line - 1).text;
-    if (needsTrailingBlank(prevText)) {
+    const prevType = getTrailingBlankType(prevText);
+    if (prevType) {
       remain_next_blank = true;
+      remain_next_blank_type = prevType;
     }
   }
   if (end_line != line_num && !RE_BLANK.test(doc.line(end_line + 1).text)) {
@@ -5705,18 +5936,19 @@ function deleteBlankLines(ctx, editor) {
     if (RE_BLANK.test(text)) {
       consecutiveBlanks++;
       if (remain_next_blank) {
-        let nextNonBlankIsBlock = false;
+        let nextNonBlankType = null;
         for (let j = i + 1; j <= end_line; j++) {
           const jText = doc.line(j).text;
           if (!RE_BLANK.test(jText)) {
-            nextNonBlankIsBlock = needsTrailingBlank(jText);
+            nextNonBlankType = getTrailingBlankType(jText);
             break;
           }
         }
-        if (nextNonBlankIsBlock) {
+        if (remain_next_blank_type && nextNonBlankType === remain_next_blank_type) {
           delete_index.push(i);
         }
         remain_next_blank = false;
+        remain_next_blank_type = null;
         continue;
       }
       if (strictLineBreaks && consecutiveBlanks === 1) {
@@ -5730,8 +5962,10 @@ function deleteBlankLines(ctx, editor) {
       delete_index.pop();
     } else if (needsTrailingBlank(text)) {
       remain_next_blank = true;
+      remain_next_blank_type = getTrailingBlankType(text);
     } else {
       remain_next_blank = false;
+      remain_next_blank_type = null;
     }
   }
   let newContent = "";
@@ -6810,7 +7044,7 @@ function tryProcessInput(ctx, update, changeFrom, cursorPos, changeType = "input
     return false;
   if (lineType !== "text" /* text */)
     return false;
-  if (changeType.contains("paste") || ctx.pasteDetected)
+  if (changeType.includes("paste") || changeType === "unknown" || ctx.pasteDetected)
     return false;
   const insertedStr = update.view.state.doc.sliceString(changeFrom, cursorPos);
   const changes = ctx.Formater.formatLineOfDoc(update.state, ctx.settings, changeFrom, cursorPos, insertedStr);
@@ -6857,7 +7091,7 @@ function createViewUpdatePlugin(ctx) {
     if (ctx.compose_need_handle) {
       ctx.compose_need_handle = false;
       const cursor2 = update.view.state.selection.asSingle().main;
-      if (cursor2.head === cursor2.anchor) {
+      if (cursor2.head === cursor2.anchor && cursor2.anchor > ctx.compose_begin_pos) {
         if (tryProcessInput(ctx, update, ctx.compose_begin_pos, cursor2.anchor))
           return;
       }

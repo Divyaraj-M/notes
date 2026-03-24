@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "d4f54e59c437a6c9",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://airfocus.com/glossary/what-is-a-product-backlog/"
+              },
+              "icon": "lucide-file",
+              "title": "What Is a Product Backlog? Definition and FAQ | airfocus"
+            }
+          },
+          {
             "id": "06d02cabba6ddd45",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -246,17 +258,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Data Science/mathematics I/Formulas Mathematics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Formulas Mathematics"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "674e2914c6aaa177",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "3d40ba0f7bb45995",
