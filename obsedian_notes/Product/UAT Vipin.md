@@ -87,3 +87,16 @@ Area51 equivalent for SparrowGenie to manage backend operations without this we 
 24-Mar-2026
 
 Pulling the past win rfp answers 
+
+25-Mar-2026
+
+Discussion with vipin
+- What is next directions that we are going ?
+- What happened to the checklist we made ?
+- What is next thing I should focus on ?
+- Low hanging fruits will be pushed , what is next big thing after proposal ?
+- Once the user is closed , how we move from there, what will be velocity from there ?
+	- Kavin said whatever the user says we will be doing it 
+	- There are miscommunications between the devs an product , now the prioritisation has to be solid from now on , there are thing that will be broken 
+	- How often do we change the design 
+	- Mapping screen is too difficult to understand for the users , need to prioritise that first - are we aligning on that ?
