@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-W13.md",
+                "file": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-W13"
+              "title": "Atomic Habits and deliberate practice applied to product management"
             }
           }
         ],
@@ -294,10 +294,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2026-W13.md"
+                "file": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-W13"
+              "title": "File properties for Atomic Habits and deliberate practice applied to product management"
             }
           },
           {
@@ -306,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-W13.md",
+                "file": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-W13"
+              "title": "Outline of Atomic Habits and deliberate practice applied to product management"
             }
           },
           {
@@ -417,9 +417,12 @@
   },
   "active": "2ae3066e6116bc87",
   "lastOpenFiles": [
+    "Learning/Product Process/Pasted image 20260325102320.png",
+    "Learning/Product Process/Pasted image 20260325102236.png",
+    "2026-W13.md",
+    "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
     "Product/Product Sync system/Product Review system.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
-    "2026-W13.md",
     "2026/202603.md",
     "2026",
     "Product/Top Deliverables/Product Vision.md",
@@ -448,8 +451,6 @@
     "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
     "second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "Product/laundry List",
-    "Learning/Data Science/mathematics I/Formulas Mathematics.md",
-    "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
@@ -462,7 +463,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/User names and Team",
     "My Data.base",
-    "Product/competitors/Five Differentiators/Pasted image 20260317163352.png",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

@@ -2,9 +2,10 @@
   "accentColor": "#c6cfd7",
   "cssTheme": "Cupertino",
   "theme": "obsidian",
-  "translucency": false,
+  "translucency": true,
   "textFontFamily": "",
   "nativeMenus": true,
   "baseFontSizeAction": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "baseFontSize": 17
 }

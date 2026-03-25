@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Atomic Habits and deliberate practice applied to product management",
+      "path": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
+    },
+    {
       "basename": "2026-W13",
       "path": "2026-W13.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "My Templates - Proposal (Next phase)",
       "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
     }
   ],
   "omittedPaths": [],
