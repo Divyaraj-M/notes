@@ -97,6 +97,7 @@ Discussion with vipin
 - Low hanging fruits will be pushed , what is next big thing after proposal ?
 - Once the user is closed , how we move from there, what will be velocity from there ?
 	- Kavin said whatever the user says we will be doing it 
-	- There are miscommunications between the devs an product , now the prioritisation has to be solid from now on , there are thing that will be broken 
+	- There are miscommunications between the devs an product , 
+	- Now the prioritisation has to be solid from now on , there are thing that will be broken 
 	- How often do we change the design 
 	- Mapping screen is too difficult to understand for the users , need to prioritise that first - are we aligning on that ?
