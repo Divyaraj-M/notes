@@ -101,3 +101,8 @@ Discussion with vipin
 	- Now the prioritisation has to be solid from now on , there are thing that will be broken 
 	- How often do we change the design 
 	- Mapping screen is too difficult to understand for the users , need to prioritise that first - are we aligning on that ?
+- Four thigns 
+	- User 50
+	- Competitons 20
+	- Shihab 20
+	- Innovation 10
