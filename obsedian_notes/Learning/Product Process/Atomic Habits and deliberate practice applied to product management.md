@@ -29,12 +29,12 @@ Three bodies of work form the intellectual backbone of how top PMs think and wor
 
 **Shreyas Doshi** (former PM leader at Stripe, Twitter, and Google) contributes a toolkit of mental models that operate at a different altitude. His **LNO Framework** classifies every task as Leverage (quality of effort creates 10 x–100 x impact), Neutral (adequate execution suffices), or Overhead (just get it done). Most PMs burn out doing everything at an A+ level; the LNO framework redirects energy toward the work that actually compounds. His **pre-mortem** practice — imagining a project has already failed and asking "what went wrong?" — surfaces hidden risks with psychological safety. His **thinking-in-bets** model frames product decisions as wagers with expected value rather than binary right/wrong calls, paired with a **decision journal** to track predictions against outcomes. Doshi is emphatic: "The most underrated PM skill is not prioritization, not strategy, not data analysis. It's taste."
 
-|Dimension|Torres|Cagan|Doshi|
-|---|---|---|---|
-|Core unit of work|Opportunities → solutions → assumption tests|Ideas evaluated against 4 risks|Bets with expected value|
-|Primary cadence|Weekly interviews, OST updates, experiments|Weekly prototype tests, continuous customer exposure|Continuous mental models applied daily|
-|Key artifact|Opportunity Solution Tree|Validated product backlog|Decision journal, LNO-categorized task list|
-|How instinct builds|Rich customer mental models from weekly interviews|Deep immersion in customer, data, business, market|Structured reflection, studying great products, fast feedback loops|
+| Dimension           | Torres                                             | Cagan                                                | Doshi                                                               |
+| ------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
+| Core unit of work   | Opportunities → solutions → assumption tests       | Ideas evaluated against 4 risks                      | Bets with expected value                                            |
+| Primary cadence     | Weekly interviews, OST updates, experiments        | Weekly prototype tests, continuous customer exposure | Continuous mental models applied daily                              |
+| Key artifact        | Opportunity Solution Tree                          | Validated product backlog                            | Decision journal, LNO-categorized task list                         |
+| How instinct builds | Rich customer mental models from weekly interviews | Deep immersion in customer, data, business, market   | Structured reflection, studying great products, fast feedback loops |
 
 ---
 

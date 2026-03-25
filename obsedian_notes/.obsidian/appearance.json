@@ -2,7 +2,7 @@
   "accentColor": "#c6cfd7",
   "cssTheme": "Cupertino",
   "theme": "obsidian",
-  "translucency": true,
+  "translucency": false,
   "textFontFamily": "",
   "nativeMenus": true,
   "baseFontSizeAction": false,

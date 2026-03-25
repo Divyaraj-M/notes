@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Atomic Habits and deliberate practice applied to product management",
-      "path": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
-    },
-    {
       "basename": "2026-W13",
       "path": "2026-W13.md"
     },
@@ -13,12 +9,32 @@
       "path": "Product/Product Sync system/Product Review system.md"
     },
     {
-      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
-      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
-    },
-    {
       "basename": "202603",
       "path": "2026/202603.md"
+    },
+    {
+      "basename": "The 80'20 Principle",
+      "path": "Books/The 80'20 Principle.md"
+    },
+    {
+      "basename": "A little life",
+      "path": "Books/A little life.md"
+    },
+    {
+      "basename": "Atomic Design",
+      "path": "Books/Atomic Design.md"
+    },
+    {
+      "basename": "கல்வி ஓர் அரசியல்",
+      "path": "Books/கல்வி ஓர் அரசியல்.md"
+    },
+    {
+      "basename": "Atomic Habits and deliberate practice applied to product management",
+      "path": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
+    },
+    {
+      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
+      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     },
     {
       "basename": "Product Vision",
@@ -153,14 +169,6 @@
       "path": "My Data.base"
     },
     {
-      "basename": "The 80'20 Principle",
-      "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "கல்வி ஓர் அரசியல்",
-      "path": "Books/கல்வி ஓர் அரசியல்.md"
-    },
-    {
       "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
       "path": "Product/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "ERD",
       "path": "Learning/ARCA AI/UTITSL_102/ERD.md"
-    },
-    {
-      "basename": "Design diagram",
-      "path": "Learning/ARCA AI/UTITSL_102/Design diagram.md"
-    },
-    {
-      "basename": "My Templates - Proposal (Next phase)",
-      "path": "Product/Dossiers/Proposals/My Templates - Proposal (Next phase).md"
     }
   ],
   "omittedPaths": [],
