@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Review system",
+      "path": "Product/Product Sync system/Product Review system.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
+    },
+    {
+      "basename": "Home page",
+      "path": "Product/Users/Home page.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Users/Untitled.base"
+    },
+    {
       "basename": "2026-W13",
       "path": "Product/Templates/2026-W13.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
-    },
-    {
-      "basename": "Product Review system",
-      "path": "Product/Product Sync system/Product Review system.md"
     },
     {
       "basename": "202603",
@@ -51,14 +67,6 @@
     {
       "basename": "Genie Actions inside the Questions card",
       "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Users/Untitled.md"
-    },
-    {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "UAT Shihab",
@@ -103,10 +111,6 @@
     {
       "basename": "PRD Feature Name",
       "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
       "basename": "UAT vipin 2026-02-23",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20260301121747",
       "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
-    },
-    {
-      "basename": "ERD",
-      "path": "Learning/ARCA AI/UTITSL_102/ERD.md"
     }
   ],
   "omittedPaths": [],
