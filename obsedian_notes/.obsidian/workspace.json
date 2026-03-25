@@ -104,36 +104,12 @@
             }
           },
           {
-            "id": "2ae3066e6116bc87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/The 80'20 Principle.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "The 80'20 Principle"
-            }
-          },
-          {
             "id": "a02c29fddac44841",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-W13.md",
+                "file": "Product/Templates/2026-W13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -150,9 +126,19 @@
               "icon": "lucide-file",
               "title": "2026-W13"
             }
+          },
+          {
+            "id": "e4b41aedbfe057ea",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -441,6 +427,9 @@
   },
   "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Books/The 80'20 Principle.md",
+    "Product/UAT Vipin.md",
+    "Product/Templates/2026-W13.md",
     "Product/Product Sync system/Product Review system.md",
     "2026/202603.md",
     "Books/A little life.md",
@@ -449,12 +438,10 @@
     "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
-    "2026-W13.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "2026",
     "Product/Top Deliverables/Product Vision.md",
     "Product/Product Sync system",
-    "Product/UAT Vipin.md",
     "Product/Untitled.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Users/Untitled.md",
@@ -474,7 +461,6 @@
     "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Daily/UAT vipin 2026-02-23.md",
-    "Product/Demo/Demo.md",
     "Product/laundry List",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
