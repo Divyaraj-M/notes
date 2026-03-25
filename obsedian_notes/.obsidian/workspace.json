@@ -160,9 +160,57 @@
               "icon": "search",
               "title": "Home tab"
             }
+          },
+          {
+            "id": "293e8eac6bede59f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Users/Sep2.security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sep2.security"
+            }
+          },
+          {
+            "id": "7057456e50bc5b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Genie Actions inside the Questions card"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -449,16 +497,19 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "a02c29fddac44841",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
+    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
+    "Product/Users/Sep2.security.md",
+    "Product/Users/Untitled.md",
+    "Product/UAT Vipin.md",
     "Product/Product Sync system/Product Review system.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
-    "Product/Users/Sep2.security.md",
     "Product/Users/Home page.md",
     "Product/Users/Untitled.base",
     "Product/Templates/2026-W13.md",
     "Books/The 80'20 Principle.md",
-    "Product/UAT Vipin.md",
     "2026/202603.md",
     "Books/A little life.md",
     "Books/Atomic Design.md",
@@ -481,10 +532,7 @@
     "Product/Users",
     "Product/Email notifications/Email notifications.md",
     "Books/Read List/Read List.md",
-    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/Go-no-go/Go - No- Go.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/laundry List",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",

@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Replace Email-Based User Display with Name and Team",
+      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
+    },
+    {
+      "basename": "SparrowGenie_Answer_Actions_Dark",
+      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Users/Untitled.md"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT Vipin.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "Home page",
@@ -65,10 +81,6 @@
       "path": "Product/Untitled.md"
     },
     {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
       "basename": "UAT Shihab",
       "path": "Product/UAT Shihab.md"
     },
@@ -95,14 +107,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "Replace Email-Based User Display with Name and Team",
-      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
     },
     {
       "basename": "Go - No- Go",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20260301123651",
       "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
-    },
-    {
-      "basename": "Pasted image 20260301121747",
-      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png"
     }
   ],
   "omittedPaths": [],
