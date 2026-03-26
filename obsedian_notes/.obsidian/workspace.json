@@ -192,7 +192,7 @@
               "type": "markdown",
               "state": {
                 "file": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -244,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -340,7 +340,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662
+    "width": 310.5066738128662,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -531,7 +532,7 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2e69f130d0e10e2c",
+  "active": "7057456e50bc5b71",
   "lastOpenFiles": [
     "UAT Arya.md",
     "Product/UAT Vipin.md",
