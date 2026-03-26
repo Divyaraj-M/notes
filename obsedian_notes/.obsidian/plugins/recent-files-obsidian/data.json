@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "UAT Arya",
+      "path": "UAT Arya.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
       "basename": "Genie Actions inside the Questions card",
       "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "Untitled",
       "path": "Product/Users/Untitled.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "Product Review system",
@@ -195,10 +199,6 @@
     {
       "basename": "UTITSL_102 - Tech Doc",
       "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
-    },
-    {
-      "basename": "Pasted image 20260301123651",
-      "path": "Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png"
     }
   ],
   "omittedPaths": [],
