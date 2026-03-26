@@ -2,7 +2,7 @@
 name: Genie Actions inside the Questions card
 tags:
   - new_feature/question_card/Genie_actions
-Wireframe: https://69b967ad31b14d2fe9e1ab17--cerulean-daifuku-1dedf0.netlify.app/
+Wireframe: https://stunning-froyo-2bbc4c.netlify.app/
 author: Divyaraj Murugan
 published:
 type: PRD
@@ -16,10 +16,6 @@ version: 1
 share_link: https://share.note.sx/gqpeuwat#6s8xbn+EvYbrNH1s40sjIC311wLiIsgvWxUhq980Ng4
 share_updated: 2026-03-25T23:19:00+05:30
 ---
-
-
----
-
 ## 1. Problem statement
 
 When SparrowGenie generates an RFP answer, users frequently need to adjust it before submission — the answer may be too short, too verbose, sourced from the wrong knowledge base, or missing key context. Currently there is no structured way to refine a generated answer without manually editing or starting from scratch.
@@ -44,11 +40,11 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 |Non-goal|Reason|
 |---|---|
-|Bulk answer actions (apply expand/shorten to multiple answers at once)|Too complex for v 1; requires batch job architecture. Revisit after single-answer adoption is validated.|
-|Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread)|Separate initiative. v 1 Ask GenieAI is a single-turn prompt.|
+|Bulk answer actions (apply expand/shorten to multiple answers at once)|Too complex for v1; requires batch job architecture. Revisit after single-answer adoption is validated.|
+|Custom prompt-based regeneration with full LLM chat (Ask GenieAI as a chat thread)|Separate initiative. v1 Ask GenieAI is a single-turn prompt.|
 |Answer version history / diff view|Valuable but separate feature. Out of scope to keep the dropdown lightweight.|
 |Source-level confidence scoring (showing match %)|Requires ML pipeline changes. Can be layered on later without changing the UI structure.|
-|Auto-suggesting optimal word count based on RFP question type|Premature optimization. Need usage data from manual word count selection first.|
+|Auto-suggesting expansion/shortening strategies based on RFP question type|Premature optimization. Need usage data from free-text prompts first to understand common patterns.|
 
 ---
 
@@ -72,15 +68,11 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 ### Expand answer
 
-**As a sales team member**, I want to expand a generated answer to a specific word count so that it meets the RFP's minimum length requirement.
-
-**As a sales team member**, I want to describe how I want the answer expanded (e.g. "add more technical detail about our security certifications") so that the expansion is targeted rather than generic padding.
+**As a sales team member**, I want to expand a generated answer by describing what to add (e.g. "include more technical detail about our security certifications") so that the expansion is targeted and relevant rather than generic padding.
 
 ### Shorten answer
 
-**As a proposal manager**, I want to shorten a generated answer to a specific word count so that it fits within the RFP's character or word limit.
-
-**As a proposal manager**, I want to describe how I want the answer shortened (e.g. "keep only the pricing points, remove implementation details") so that the most relevant content is preserved.
+**As a proposal manager**, I want to shorten a generated answer by describing what to keep or remove (e.g. "keep only the pricing points, remove implementation details") so that the most relevant content is preserved.
 
 ### Ask GenieAI
 
@@ -90,7 +82,7 @@ This problem affects proposal managers, compliance teams, and sales teams who wo
 
 ## 5. Requirements
 
-### 5.1 Must-have (P 0)
+### 5.1 Must-have (P0)
 
 #### 5.1.1 Main dropdown menu
 
@@ -151,30 +143,31 @@ A panel that lets users upload their own document and use it for regeneration. U
 
 #### 5.1.5 Expand answer
 
-A panel that lets users specify a target word count and optional prompt describing how they want the answer expanded.
+A panel with a single prompt box where users describe how they want the answer expanded. There are no word count controls, presets, or sliders — the user communicates their intent in natural language, giving them full flexibility over what kind of expansion they want.
 
 **Acceptance criteria:**
 
-- Given the Expand panel is open, when the user views the preset chips, then options of 200, 300, 500, and Custom are available.
-- Given the user taps a preset chip (e.g. 300), then the slider moves to 300, the target display updates to "~300 words", and the CTA reads "Expand to ~300 words".
-- Given the user drags the slider to a custom value, then the Custom chip becomes active and all displays update to the slider value.
-- Given the slider range, then the minimum is 150 and maximum is 800 words, with a step of 10.
-- Given the optional prompt textarea is visible, when the user types instructions, then those instructions are sent alongside the word count to guide the expansion.
-- Given the user leaves the prompt textarea empty, when they click the CTA, then the answer is expanded based on word count alone.
+- Given the Expand panel is open, when the user views it, then a text area with the label "Describe how you want it expanded" and a placeholder (e.g. "Add more technical detail, include examples, focus on compliance section, elaborate on pricing...") is displayed.
+- Given the user types a description, when they click "Expand answer", then the answer is expanded according to their instructions.
+- Given the user leaves the prompt empty, when they click "Expand answer", then the answer is expanded with general additional detail (default behavior).
+- Given the expansion completes, when the user views the answer area, then the previous answer is replaced with the expanded version.
+
+**Design rationale:** Word count controls were removed because LLMs rarely hit exact targets, and the preset/slider UI added complexity without proportional value. A free-text prompt gives users more meaningful control — they can say "add two more paragraphs about security" or "double the length with examples" which communicates intent better than a number.
 
 #### 5.1.6 Shorten answer
 
-A panel that lets users specify a target word count and optional prompt describing how they want the answer shortened.
+A panel with a single prompt box where users describe how they want the answer shortened. Same pattern as Expand — no word count controls, just a free-text prompt for maximum flexibility.
 
 **Acceptance criteria:**
 
-- Given the Shorten panel is open, when the user views the preset chips, then options of 100, 200, 300, and Custom are available.
-- Given the user taps a preset chip, then the slider, target display, and CTA all update accordingly.
-- Given the slider range, then the minimum is 50 and maximum is 400 words, with a step of 10.
-- Given the optional prompt textarea is visible, when the user types instructions, then those instructions guide which content to preserve or remove.
-- Given the user leaves the prompt textarea empty, when they click the CTA, then the answer is shortened based on word count alone.
+- Given the Shorten panel is open, when the user views it, then a text area with the label "Describe how you want it shortened" and a placeholder (e.g. "Keep only the key points, remove examples, focus on pricing, make it concise...") is displayed.
+- Given the user types a description, when they click "Shorten answer", then the answer is shortened according to their instructions.
+- Given the user leaves the prompt empty, when they click "Shorten answer", then the answer is shortened with general trimming (default behavior — removes redundancy, tightens language).
+- Given the shortening completes, when the user views the answer area, then the previous answer is replaced with the shortened version.
 
-### 5.2 Nice-to-have (P 1)
+**Design rationale:** Same reasoning as Expand — a prompt like "keep only pricing and compliance points" communicates what to preserve far better than a target word count. Users care about which content survives, not the exact number of words.
+
+### 5.2 Nice-to-have (P1)
 
 #### 5.2.1 Ask GenieAI
 
@@ -197,7 +190,7 @@ Each source shows a colored pill tag indicating which Knowledge Hub it belongs t
 
 When a user opens the KH source picker for a second regeneration in the same session, the previous source selection (including any changes they made) is remembered.
 
-### 5.3 Future considerations (P 2)
+### 5.3 Future considerations (P2)
 
 #### 5.3.1 Bulk answer actions
 
@@ -211,9 +204,9 @@ Show a visual diff between the original and regenerated/expanded/shortened answe
 
 Display a relevance/confidence score next to each source in the KH picker so users can make more informed inclusion/exclusion decisions.
 
-#### 5.3.4 Smart word count suggestions
+#### 5.3.4 Prompt suggestions / quick actions
 
-Auto-suggest target word counts based on the RFP question type, section requirements, or historical patterns for similar questions.
+Offer pre-built prompt suggestions (e.g. "Add examples", "Focus on compliance", "Make executive-friendly") as quick-tap chips above the prompt box to help users who are unsure what to type. Based on usage data from the free-text prompts.
 
 #### 5.3.5 Multi-turn Ask GenieAI
 
@@ -231,7 +224,7 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 |Regenerate with Pick sources usage|25% of all regenerations use the source picker|40%|Event tracking — regeneration events with source changes|
 |Expand/Shorten usage|20% of generated answers are expanded or shortened|35%|Event tracking — expand/shorten CTA clicks|
 |Upload source usage|10% of regenerations use "Upload source"|20%|Event tracking — file upload events in upload panel|
-|Describe how you want prompt usage|30% of expand/shorten actions include a prompt|50%|Event tracking — CTA clicks where prompt textarea is non-empty|
+|Expand/Shorten prompt usage|60% of expand/shorten actions include a description|80%|Event tracking — CTA clicks where prompt textarea is non-empty|
 
 ### Lagging indicators (4–8 weeks post-launch)
 
@@ -250,7 +243,7 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 |#|Question|Owner|Blocking?|
 |---|---|---|---|
 |1|What is the maximum number of sources that can be selected for a single regeneration? Is there an API/LLM context window limit?|Engineering|Yes|
-|2|Should the word count target be an approximate guideline or a hard constraint? (LLMs rarely hit exact counts.)|Product + Engineering|Yes|
+|2|For expand/shorten with an empty prompt (no user description), what should the default behavior be? Should the LLM use a general heuristic, or should we require the user to type something?|Product + Design|Yes|
 |3|How do we handle regeneration when the user has unsaved edits to the current answer? Warn and overwrite, or offer to save a copy?|Design|Yes|
 |4|For "Upload source", since files are ephemeral and not saved to KH, can we process them in-memory without indexing? What is the expected latency?|Engineering|No|
 |5|Should Ask GenieAI have access to the same sources as the original answer, or should it use a broader context?|Product|No|
@@ -265,12 +258,12 @@ Upgrade Ask GenieAI from a single-turn prompt to a conversational thread with co
 
 - KH source listing API must support returning source type metadata (file/website/qna/integration) — confirm with backend team.
 - File upload endpoint must support temporary/ephemeral file processing for regeneration without persisting to KH.
-- LLM prompt templates for expand/shorten with word count targeting need to be authored and tested by the AI team.
+- LLM prompt templates for expand/shorten need to handle both descriptive user prompts and empty prompts (default behavior) — to be authored and tested by the AI team.
 
 **Suggested phasing:**
 
-- **Phase 1 (v 1 launch):** All P 0 requirements — main dropdown, regenerate (normal + KH source + attachment), expand, shorten.
-- **Phase 2 (fast follow, 2–3 weeks post-launch):** P 1 items — Ask GenieAI, source icons, KH color tags, session memory.
-- **Phase 3 (next quarter):** P 2 items based on usage data — bulk actions, diff view, confidence scores.
+- **Phase 1 (v1 launch):** All P0 requirements — main dropdown, regenerate (normal + KH source + attachment), expand, shorten.
+- **Phase 2 (fast follow, 2–3 weeks post-launch):** P1 items — Ask GenieAI, source icons, KH color tags, session memory.
+- **Phase 3 (next quarter):** P2 items based on usage data — bulk actions, diff view, confidence scores.
 
 **Hard deadlines:** None identified. This is a product-driven initiative, not tied to a contractual commitment.
