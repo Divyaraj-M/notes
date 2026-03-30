@@ -1,4 +1,5 @@
 
+If u have nothing to do go to [[Friction points]]
 30-Mar-2026
 - [ ] Progress Bar Recalculation
 - [ ] Navigation inside the Project Editor Screen

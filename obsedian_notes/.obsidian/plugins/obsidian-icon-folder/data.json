@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "😞",
       "LiExcalidrawIcon",
       "LiView",
       "LiSquareSplitVertical",
-      "CoMainComponent",
-      "🤹"
+      "CoMainComponent"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,6 @@
     "iconName": "LiView",
     "iconColor": "#3ca4be"
   },
-  "Excalidraw": "LiExcalidrawIcon"
+  "Excalidraw": "LiExcalidrawIcon",
+  "Friction points.md": "😞"
 }

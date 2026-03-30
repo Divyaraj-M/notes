@@ -267,6 +267,7 @@ THE
 TRIAD
 Testable
 TESTING
+Toast
 Docs
 Doc
 Designer
@@ -569,6 +570,8 @@ Deduction
 Drag
 DESIGN
 Dynamically
+Drafted
+Dim
 Who
 When
 What
@@ -1065,6 +1068,8 @@ willingness
 wouldn
 warn
 wireframe
+wise
+warningEl
 it
 is
 interaction
@@ -1433,6 +1438,7 @@ investigate
 ignore
 infinite
 insightEl
+instruction
 reads
 references
 requirements
@@ -1869,6 +1875,8 @@ reinforcement
 rel
 red
 rPct
+restores
+realDraft
 Jira
 Jdjxj
 JIvrU
@@ -2400,6 +2408,8 @@ trim
 tap
 translateX
 titleProperty
+tiering
+touched
 PM
 PRD
 Problem
@@ -2936,6 +2946,7 @@ Breaks
 BFA
 Bars
 Board
+BAR
 design
 does
 do
@@ -3317,6 +3328,12 @@ dominance
 dPct
 dataset
 dayGridMonth
+dimmed
+dim
+deselect
+draftCount
+drPct
+delegation
 starts
 sub
 screens
@@ -3900,6 +3917,10 @@ stylesheet
 seg
 segment
 startDateProperty
+serar
+segments
+striped
+syncSliders
 everyone
 exactly
 each
@@ -4278,6 +4299,8 @@ ellipse
 ecologist
 economist
 excludes
+exceed
+enriching
 Story
 Stories
 Should
@@ -4630,6 +4653,10 @@ Signal
 SCENARIO
 Scenarios
 Subtasks
+Showing
+Simpler
+Simplest
+Sliders
 Lead
 Loop
 Linking
@@ -5162,6 +5189,8 @@ Accent
 Annotation
 Apr
 Agenda
+Actually
+Activate
 approved
 atomic
 and
@@ -5572,6 +5601,12 @@ animation
 annotation
 animate
 asLink
+activeCompFilter
+activeConfFilter
+answeredDraft
+applyCompFilter
+applyConfFilter
+addEventListener
 QA
 Question
 Quality
@@ -6529,6 +6564,8 @@ beautiful
 bezier
 banner
 btns
+brightness
+banners
 Requirements
 Radius
 Rules
@@ -6849,6 +6886,10 @@ REFERENCE
 Recalculation
 RULES
 Relationships
+Remind
+Recalc
+Reset
+Release
 need
 needing
 nested
@@ -7098,6 +7139,7 @@ nba
 nbaIcon
 nbaLabel
 nbaText
+nPct
 Constraints
 Contracts
 Completable
@@ -7433,6 +7475,8 @@ CONFIDENCE
 Corp
 Conf
 Clamp
+Changing
+Clickable
 How
 Hubs
 Hub
@@ -8187,6 +8231,14 @@ checking
 comp
 clamp
 columnWidth
+currentData
+coverageEl
+coveragePct
+clearCompFilter
+clearConfFilter
+countKey
+confFilterConfig
+config
 on
 owns
 one
@@ -8787,6 +8839,9 @@ flowing
 formal
 frame
 fade
+fine
+filterConfig
+filterKey
 live
 links
 locked
@@ -9372,6 +9427,7 @@ horse
 heuristics
 hPct
 hideEmptyColumns
+highConf
 Every
 Engineers
 Expected
@@ -10326,6 +10382,8 @@ unproven
 urban
 uncertainty
 updateFromSliders
+urgent
+uPct
 phases
 problem
 placeholder
@@ -10780,6 +10838,7 @@ percent
 pct
 pPct
 parseInt
+pillClass
 goals
 give
 generates
@@ -11272,6 +11331,7 @@ Induction
 INFINITY
 INSIGHT
 Init
+Insight
 you
 yet
 your

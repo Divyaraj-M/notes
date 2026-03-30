@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SparrowGenie — Progress Wireframe</title>
+<title>SparrowGenie — Progress Wireframe v4</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -18,29 +18,19 @@
     --text-2: #9196A8;
     --text-3: #5A5F72;
 
-    /* Completion palette */
     --reviewed: #34D399;
-    --reviewed-bg: rgba(52,211,153,0.07);
-    --reviewed-border: rgba(52,211,153,0.18);
     --pending: #FBBF24;
-    --pending-bg: rgba(251,191,36,0.07);
-    --pending-border: rgba(251,191,36,0.18);
     --draft: #64748B;
-    --draft-bg: rgba(100,116,139,0.07);
-    --draft-border: rgba(100,116,139,0.18);
+    --unanswered: #EF4444;
+    --unanswered-bg: rgba(239,68,68,0.07);
+    --unanswered-border: rgba(239,68,68,0.18);
 
-    /* Confidence palette — muted, clearly different from completion */
-    --high: #818CF8;
-    --high-bg: rgba(129,140,248,0.06);
-    --high-border: rgba(129,140,248,0.15);
-    --medium: #A78BFA;
-    --medium-bg: rgba(167,139,250,0.06);
-    --medium-border: rgba(167,139,250,0.15);
-    --low: #F472B6;
-    --low-bg: rgba(244,114,182,0.06);
-    --low-border: rgba(244,114,182,0.15);
+    --conf-high: #818CF8;
+    --conf-low: #F472B6;
+    --conf-low-bg: rgba(244,114,182,0.06);
+    --conf-low-border: rgba(244,114,182,0.15);
+    --conf-unanswered: #3B3F4E;
 
-    /* Accent */
     --action-red: #F87171;
     --action-red-bg: rgba(248,113,113,0.08);
     --action-red-border: rgba(248,113,113,0.2);
@@ -59,12 +49,8 @@
     align-items: center;
   }
 
-  .wrapper {
-    width: 100%;
-    max-width: 720px;
-  }
+  .wrapper { width: 100%; max-width: 720px; }
 
-  /* ─── Wireframe label ─── */
   .wireframe-badge {
     display: inline-flex;
     align-items: center;
@@ -83,8 +69,7 @@
 
   .wireframe-badge::before {
     content: '';
-    width: 6px;
-    height: 6px;
+    width: 6px; height: 6px;
     border-radius: 50%;
     background: var(--action-red);
     animation: pulse-dot 2s ease infinite;
@@ -96,9 +81,7 @@
   }
 
   /* ─── Project header ─── */
-  .project-header {
-    margin-bottom: 32px;
-  }
+  .project-header { margin-bottom: 32px; }
 
   .project-name {
     font-size: 24px;
@@ -115,9 +98,7 @@
     color: var(--text-2);
   }
 
-  .meta-sep {
-    color: var(--text-3);
-  }
+  .meta-sep { color: var(--text-3); }
 
   /* ─── NBA Card ─── */
   .nba-card {
@@ -140,7 +121,6 @@
     position: absolute;
     left: 0; top: 0; bottom: 0;
     width: 3px;
-    transition: background 0.3s;
   }
 
   .nba-card[data-state="action"]::before { background: var(--action-red); }
@@ -154,8 +134,7 @@
   }
 
   .nba-icon {
-    width: 38px;
-    height: 38px;
+    width: 38px; height: 38px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -164,18 +143,9 @@
     font-size: 16px;
   }
 
-  .nba-card[data-state="action"] .nba-icon {
-    background: var(--action-red-bg);
-    border: 1px solid var(--action-red-border);
-  }
-  .nba-card[data-state="review"] .nba-icon {
-    background: var(--pending-bg);
-    border: 1px solid var(--pending-border);
-  }
-  .nba-card[data-state="done"] .nba-icon {
-    background: var(--reviewed-bg);
-    border: 1px solid var(--reviewed-border);
-  }
+  .nba-card[data-state="action"] .nba-icon { background: var(--action-red-bg); border: 1px solid var(--action-red-border); }
+  .nba-card[data-state="review"] .nba-icon { background: rgba(251,191,36,0.07); border: 1px solid rgba(251,191,36,0.18); }
+  .nba-card[data-state="done"] .nba-icon { background: rgba(52,211,153,0.07); border: 1px solid rgba(52,211,153,0.18); }
 
   .nba-content { flex: 1; }
 
@@ -205,7 +175,7 @@
   }
   .nba-card:hover .nba-arrow { transform: translateX(3px); }
 
-  /* ─── Card container ─── */
+  /* ─── Card ─── */
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -215,11 +185,8 @@
     transition: border-color 0.2s;
   }
 
-  .card:hover {
-    border-color: var(--border-hover);
-  }
+  .card:hover { border-color: var(--border-hover); }
 
-  /* ─── COMPLETION — the hero ─── */
   .section-header {
     display: flex;
     justify-content: space-between;
@@ -241,6 +208,30 @@
     color: var(--text-3);
   }
 
+  /* ─── Click hint ─── */
+  .click-hint {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-3);
+    margin-bottom: 12px;
+  }
+
+  .click-hint-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: var(--surface-3);
+    border: 1px solid var(--border-hover);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    color: var(--text-2);
+  }
+
+  /* ─── COMPLETION BAR (36px, 4 segments) ─── */
   .completion-bar-track {
     width: 100%;
     height: 36px;
@@ -257,81 +248,83 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: width 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-    position: relative;
+    transition: width 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s, filter 0.2s;
     min-width: 0;
     overflow: hidden;
+    cursor: pointer;
+    position: relative;
   }
+
+  .bar-seg:hover { filter: brightness(1.15); }
+
+  .bar-seg.dimmed { opacity: 0.25; filter: brightness(0.8); }
 
   .bar-seg-label {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
     font-weight: 600;
-    color: rgba(255,255,255,0.9);
     white-space: nowrap;
     opacity: 0;
     transition: opacity 0.3s;
+    pointer-events: none;
   }
 
   .bar-seg:hover .bar-seg-label,
-  .bar-seg.show-label .bar-seg-label {
-    opacity: 1;
-  }
+  .bar-seg.show-label .bar-seg-label { opacity: 1; }
 
   .seg-reviewed { background: var(--reviewed); }
-  .seg-pending { background: var(--pending); }
-  .seg-draft { background: var(--draft); }
-
   .seg-reviewed .bar-seg-label { color: #064E3B; }
+  .seg-pending { background: var(--pending); }
   .seg-pending .bar-seg-label { color: #78350F; }
+  .seg-draft { background: var(--draft); }
   .seg-draft .bar-seg-label { color: rgba(255,255,255,0.7); }
-
-  /* Legend row */
-  .legend-row {
-    display: flex;
-    gap: 8px;
+  .seg-unanswered {
+    background: var(--unanswered);
+    opacity: 0.45;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 3px,
+      rgba(255,255,255,0.06) 3px,
+      rgba(255,255,255,0.06) 6px
+    );
   }
+  .seg-unanswered .bar-seg-label { color: rgba(255,255,255,0.85); }
+  .seg-unanswered:hover { opacity: 0.6; }
+
+  /* Legend */
+  .legend-row { display: flex; gap: 8px; }
 
   .legend-item {
     flex: 1;
     background: var(--surface-2);
     border: 1px solid var(--border);
     border-radius: 10px;
-    padding: 14px 16px;
-    cursor: pointer;
+    padding: 12px 14px;
     transition: all 0.2s ease;
+    cursor: pointer;
   }
 
-  .legend-item:hover {
-    border-color: var(--border-hover);
-    background: var(--surface-3);
-  }
+  .legend-item:hover { border-color: var(--border-hover); background: var(--surface-3); }
+  .legend-item.active { border-color: rgba(255,255,255,0.2); background: var(--surface-3); }
 
-  .legend-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 3px;
-    margin-bottom: 10px;
-  }
+  .legend-dot { width: 8px; height: 8px; border-radius: 3px; margin-bottom: 8px; }
 
-  .legend-item.reviewed .legend-dot { background: var(--reviewed); box-shadow: 0 0 8px var(--reviewed); }
-  .legend-item.pending .legend-dot { background: var(--pending); box-shadow: 0 0 8px var(--pending); }
-  .legend-item.draft .legend-dot { background: var(--draft); }
+  .legend-item.l-reviewed .legend-dot { background: var(--reviewed); box-shadow: 0 0 8px var(--reviewed); }
+  .legend-item.l-pending .legend-dot { background: var(--pending); box-shadow: 0 0 8px var(--pending); }
+  .legend-item.l-draft .legend-dot { background: var(--draft); }
+  .legend-item.l-unanswered .legend-dot { background: var(--unanswered); opacity: 0.6; }
 
   .legend-count {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--text-1);
     line-height: 1;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
 
-  .legend-label {
-    font-size: 12px;
-    color: var(--text-2);
-    font-weight: 500;
-  }
+  .legend-label { font-size: 11px; color: var(--text-2); font-weight: 500; }
 
   .legend-percent {
     font-family: 'JetBrains Mono', monospace;
@@ -340,15 +333,73 @@
     margin-top: 2px;
   }
 
-  /* ─── CONFIDENCE — the quiet support ─── */
+  /* ─── Filter Preview Toast ─── */
+  .filter-toast {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: var(--surface-3);
+    border: 1px solid var(--border-hover);
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.25s ease;
+  }
+
+  .filter-toast.visible { display: flex; }
+
+  .filter-toast-icon {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    background: var(--surface-2);
+    border: 1px solid var(--border-hover);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+
+  .filter-toast-content { flex: 1; }
+
+  .filter-toast-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 2px;
+  }
+
+  .filter-toast-text {
+    font-size: 13px;
+    color: var(--text-1);
+    font-weight: 500;
+  }
+
+  .filter-toast-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .filter-toast-pill.ft-reviewed { background: rgba(52,211,153,0.12); color: var(--reviewed); }
+  .filter-toast-pill.ft-pending { background: rgba(251,191,36,0.12); color: var(--pending); }
+  .filter-toast-pill.ft-draft { background: rgba(100,116,139,0.15); color: var(--draft); }
+  .filter-toast-pill.ft-unanswered { background: rgba(239,68,68,0.12); color: var(--unanswered); }
+  .filter-toast-pill.ft-high { background: rgba(129,140,248,0.12); color: var(--conf-high); }
+  .filter-toast-pill.ft-low { background: rgba(244,114,182,0.12); color: var(--conf-low); }
+  .filter-toast-pill.ft-conf-unanswered { background: rgba(59,63,78,0.2); color: var(--text-2); }
+
+  /* ─── CONFIDENCE BAR (14px, 3 segments) ─── */
   .confidence-section {
     opacity: 0.85;
     transition: opacity 0.2s;
   }
-
-  .confidence-section:hover {
-    opacity: 1;
-  }
+  .confidence-section:hover { opacity: 1; }
 
   .confidence-bar-track {
     width: 100%;
@@ -363,71 +414,88 @@
 
   .conf-seg {
     height: 100%;
-    transition: width 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: width 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s, filter 0.2s;
     min-width: 0;
+    cursor: pointer;
   }
 
-  .conf-high { background: var(--high); }
-  .conf-medium { background: var(--medium); opacity: 0.6; }
-  .conf-low { background: var(--low); opacity: 0.5; }
+  .conf-seg:hover { filter: brightness(1.2); }
+  .conf-seg.dimmed { opacity: 0.2; filter: brightness(0.7); }
+
+  .conf-seg-high { background: var(--conf-high); }
+  .conf-seg-low { background: var(--conf-low); opacity: 0.55; }
+  .conf-seg-unanswered {
+    background: var(--conf-unanswered);
+    opacity: 0.4;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 3px,
+      rgba(255,255,255,0.03) 3px,
+      rgba(255,255,255,0.03) 6px
+    );
+  }
 
   .conf-legend {
     display: flex;
-    gap: 24px;
+    gap: 20px;
+    flex-wrap: wrap;
   }
 
   .conf-legend-item {
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: background 0.15s;
   }
 
-  .conf-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 2px;
-  }
+  .conf-legend-item:hover { background: var(--surface-3); }
+  .conf-legend-item.active { background: var(--surface-3); }
 
-  .conf-dot.c-high { background: var(--high); }
-  .conf-dot.c-medium { background: var(--medium); opacity: 0.6; }
-  .conf-dot.c-low { background: var(--low); opacity: 0.5; }
+  .conf-dot { width: 6px; height: 6px; border-radius: 2px; }
+  .conf-dot.d-high { background: var(--conf-high); }
+  .conf-dot.d-low { background: var(--conf-low); opacity: 0.55; }
+  .conf-dot.d-unanswered { background: var(--conf-unanswered); opacity: 0.5; }
 
-  .conf-label {
-    font-size: 12px;
-    color: var(--text-2);
-  }
-
+  .conf-label { font-size: 12px; color: var(--text-2); }
   .conf-val {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
     color: var(--text-3);
   }
 
-  /* ─── Cross-bar insight ─── */
+  /* ─── Insight banners ─── */
   .insight-banner {
     display: none;
     align-items: center;
     gap: 10px;
     padding: 12px 16px;
-    background: var(--low-bg);
-    border: 1px solid var(--low-border);
     border-radius: 10px;
     margin-top: 14px;
     font-size: 13px;
-    color: var(--low);
     line-height: 1.4;
   }
 
-  .insight-banner.visible {
-    display: flex;
+  .insight-banner.visible { display: flex; }
+
+  .insight-banner.warning {
+    background: var(--conf-low-bg);
+    border: 1px solid var(--conf-low-border);
+    color: var(--conf-low);
   }
 
-  .insight-icon {
-    font-size: 16px;
-    flex-shrink: 0;
+  .insight-banner.coverage {
+    background: rgba(239,68,68,0.05);
+    border: 1px solid rgba(239,68,68,0.15);
+    color: var(--text-2);
   }
 
-  /* ─── Scenario Controls ─── */
+  .insight-icon { font-size: 16px; flex-shrink: 0; }
+
+  /* ─── Controls ─── */
   .controls {
     background: var(--surface);
     border: 1px dashed rgba(255,255,255,0.08);
@@ -443,9 +511,6 @@
     text-transform: uppercase;
     color: var(--text-3);
     margin-bottom: 18px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
   }
 
   .scenario-btns {
@@ -468,16 +533,8 @@
     transition: all 0.15s;
   }
 
-  .scenario-btn:hover {
-    background: var(--surface-3);
-    color: var(--text-1);
-  }
-
-  .scenario-btn.active {
-    background: var(--surface-3);
-    border-color: var(--high);
-    color: var(--high);
-  }
+  .scenario-btn:hover { background: var(--surface-3); color: var(--text-1); }
+  .scenario-btn.active { background: var(--surface-3); border-color: var(--conf-high); color: var(--conf-high); }
 
   .slider-group {
     display: grid;
@@ -485,16 +542,11 @@
     gap: 12px 24px;
   }
 
-  .slider-row {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
+  .slider-row { display: flex; flex-direction: column; gap: 6px; }
 
   .slider-label {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-size: 12px;
     color: var(--text-2);
   }
@@ -508,7 +560,6 @@
 
   input[type="range"] {
     -webkit-appearance: none;
-    appearance: none;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -518,8 +569,7 @@
 
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 14px;
-    height: 14px;
+    width: 14px; height: 14px;
     border-radius: 50%;
     background: var(--text-1);
     cursor: pointer;
@@ -545,11 +595,7 @@
     margin-bottom: 12px;
   }
 
-  .rule-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
+  .rule-list { display: flex; flex-direction: column; gap: 8px; }
 
   .rule {
     display: flex;
@@ -560,24 +606,17 @@
     line-height: 1.45;
   }
 
-  .rule-icon {
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
-
+  .rule-icon { flex-shrink: 0; margin-top: 1px; }
   .rule-icon.do { color: var(--reviewed); }
   .rule-icon.dont { color: var(--action-red); }
+  .rule-icon.new { color: var(--conf-high); }
 
-  /* ─── Load animation ─── */
   @keyframes fade-up {
     from { opacity: 0; transform: translateY(12px); }
     to { opacity: 1; transform: translateY(0); }
   }
 
-  .animate-in {
-    animation: fade-up 0.5s ease both;
-  }
-
+  .animate-in { animation: fade-up 0.5s ease both; }
   .delay-1 { animation-delay: 0.1s; }
   .delay-2 { animation-delay: 0.2s; }
   .delay-3 { animation-delay: 0.3s; }
@@ -589,227 +628,322 @@
 
 <div class="wrapper">
 
-  <div class="wireframe-badge animate-in">Wireframe — Progress Bars</div>
+  <div class="wireframe-badge animate-in">Wireframe v4 — Clickable Filters</div>
 
-  <!-- Project Header -->
   <div class="project-header animate-in delay-1">
     <div class="project-name">Acme Corp — Security Questionnaire</div>
     <div class="project-meta">
-      <span id="meta-total">120 questions</span>
+      <span id="meta-total">100 questions</span>
       <span class="meta-sep">·</span>
       <span>Due Apr 14</span>
       <span class="meta-sep">·</span>
-      <span id="meta-genie">GenieAI: 96 answered</span>
+      <span id="meta-genie">GenieAI answered 50 of 100</span>
     </div>
   </div>
 
-  <!-- NBA Card -->
+  <!-- NBA -->
   <div class="nba-card animate-in delay-2" id="nba-card" data-state="action">
     <div class="nba-icon" id="nba-icon">⚡</div>
     <div class="nba-content">
       <div class="nba-label" id="nba-label">Next best action</div>
-      <div class="nba-text" id="nba-text">Assign 30 draft questions to your team</div>
+      <div class="nba-text" id="nba-text">50 questions unanswered — assign to your team</div>
     </div>
     <div class="nba-arrow">→</div>
   </div>
 
-  <!-- ═══ COMPLETION (Hero) ═══ -->
-  <div class="card animate-in delay-3">
+  <!-- ═══ COMPLETION (Hero — 4 segments) ═══ -->
+  <div class="card animate-in delay-3" id="completion-card">
     <div class="section-header">
       <span class="section-label">Completion Progress</span>
-      <span class="section-count" id="completion-summary">48 / 120 reviewed</span>
+      <span class="section-count" id="completion-summary">20 / 100 reviewed</span>
     </div>
 
-    <div class="completion-bar-track">
-      <div class="bar-seg seg-reviewed show-label" id="seg-reviewed">
-        <span class="bar-seg-label" id="lbl-reviewed">40%</span>
+    <div class="click-hint">
+      <div class="click-hint-icon">↗</div>
+      Click any segment to filter question list
+    </div>
+
+    <div class="completion-bar-track" id="completion-bar">
+      <div class="bar-seg seg-reviewed show-label" id="seg-reviewed" data-filter="reviewed">
+        <span class="bar-seg-label" id="lbl-reviewed">20%</span>
       </div>
-      <div class="bar-seg seg-pending show-label" id="seg-pending">
-        <span class="bar-seg-label" id="lbl-pending">35%</span>
+      <div class="bar-seg seg-pending show-label" id="seg-pending" data-filter="pending">
+        <span class="bar-seg-label" id="lbl-pending">15%</span>
       </div>
-      <div class="bar-seg seg-draft show-label" id="seg-draft">
-        <span class="bar-seg-label" id="lbl-draft">25%</span>
+      <div class="bar-seg seg-draft show-label" id="seg-draft" data-filter="draft">
+        <span class="bar-seg-label" id="lbl-draft">15%</span>
+      </div>
+      <div class="bar-seg seg-unanswered show-label" id="seg-unanswered" data-filter="unanswered">
+        <span class="bar-seg-label" id="lbl-unanswered">50%</span>
       </div>
     </div>
 
     <div class="legend-row">
-      <div class="legend-item reviewed">
+      <div class="legend-item l-reviewed" data-filter="reviewed">
         <div class="legend-dot"></div>
-        <div class="legend-count" id="count-reviewed">48</div>
+        <div class="legend-count" id="count-reviewed">20</div>
         <div class="legend-label">Reviewed</div>
-        <div class="legend-percent" id="pct-reviewed">40%</div>
+        <div class="legend-percent" id="pct-reviewed">20%</div>
       </div>
-      <div class="legend-item pending">
+      <div class="legend-item l-pending" data-filter="pending">
         <div class="legend-dot"></div>
-        <div class="legend-count" id="count-pending">42</div>
+        <div class="legend-count" id="count-pending">15</div>
         <div class="legend-label">Pending Review</div>
-        <div class="legend-percent" id="pct-pending">35%</div>
+        <div class="legend-percent" id="pct-pending">15%</div>
       </div>
-      <div class="legend-item draft">
+      <div class="legend-item l-draft" data-filter="draft">
         <div class="legend-dot"></div>
-        <div class="legend-count" id="count-draft">30</div>
+        <div class="legend-count" id="count-draft">15</div>
         <div class="legend-label">In Draft</div>
-        <div class="legend-percent" id="pct-draft">25%</div>
+        <div class="legend-percent" id="pct-draft">15%</div>
       </div>
+      <div class="legend-item l-unanswered" data-filter="unanswered">
+        <div class="legend-dot"></div>
+        <div class="legend-count" id="count-unanswered">50</div>
+        <div class="legend-label">Unanswered</div>
+        <div class="legend-percent" id="pct-unanswered">50%</div>
+      </div>
+    </div>
+
+    <!-- Filter preview toast for completion -->
+    <div class="filter-toast" id="comp-filter-toast">
+      <div class="filter-toast-icon">⚡</div>
+      <div class="filter-toast-content">
+        <div class="filter-toast-label">Filter applied</div>
+        <div class="filter-toast-text" id="comp-filter-text">Showing: Reviewed questions</div>
+      </div>
+      <div class="filter-toast-pill" id="comp-filter-pill">20 items</div>
     </div>
   </div>
 
-  <!-- ═══ CONFIDENCE (Support Signal) ═══ -->
-  <div class="card confidence-section animate-in delay-4">
+  <!-- ═══ CONFIDENCE (Support — 3 segments, clickable) ═══ -->
+  <div class="card confidence-section animate-in delay-4" id="confidence-card">
     <div class="section-header">
-      <span class="section-label" style="font-size:11px; color: var(--text-3);">AI Confidence <span style="opacity:0.5">·</span> Genie answers only</span>
-      <span class="section-count" id="conf-summary">96 answers</span>
+      <span class="section-label" style="font-size:11px; color: var(--text-3);">GenieAI Confidence</span>
+      <span class="section-count" id="conf-summary">50 answered · 50 unanswered</span>
     </div>
 
-    <div class="confidence-bar-track">
-      <div class="conf-seg conf-high" id="conf-high"></div>
-      <div class="conf-seg conf-medium" id="conf-medium"></div>
-      <div class="conf-seg conf-low" id="conf-low"></div>
+    <div class="click-hint">
+      <div class="click-hint-icon">↗</div>
+      Click to filter by confidence level
     </div>
 
-    <div class="conf-legend">
-      <div class="conf-legend-item">
-        <div class="conf-dot c-high"></div>
-        <span class="conf-label">High</span>
-        <span class="conf-val" id="conf-high-val">29 (30%)</span>
+    <div class="confidence-bar-track" id="confidence-bar">
+      <div class="conf-seg conf-seg-high" id="conf-high" data-filter="conf-high"></div>
+      <div class="conf-seg conf-seg-low" id="conf-low" data-filter="conf-low"></div>
+      <div class="conf-seg conf-seg-unanswered" id="conf-unanswered" data-filter="conf-unanswered"></div>
+    </div>
+
+    <div class="conf-legend" id="conf-legend">
+      <div class="conf-legend-item" data-filter="conf-high">
+        <div class="conf-dot d-high"></div>
+        <span class="conf-label">High confidence</span>
+        <span class="conf-val" id="conf-high-val">10</span>
       </div>
-      <div class="conf-legend-item">
-        <div class="conf-dot c-medium"></div>
-        <span class="conf-label">Medium</span>
-        <span class="conf-val" id="conf-medium-val">48 (50%)</span>
+      <div class="conf-legend-item" data-filter="conf-low">
+        <div class="conf-dot d-low"></div>
+        <span class="conf-label">Low confidence</span>
+        <span class="conf-val" id="conf-low-val">40</span>
       </div>
-      <div class="conf-legend-item">
-        <div class="conf-dot c-low"></div>
-        <span class="conf-label">Low</span>
-        <span class="conf-val" id="conf-low-val">19 (20%)</span>
+      <div class="conf-legend-item" data-filter="conf-unanswered">
+        <div class="conf-dot d-unanswered"></div>
+        <span class="conf-label">Unanswered</span>
+        <span class="conf-val" id="conf-unanswered-val">50</span>
       </div>
     </div>
 
-    <!-- Cross-bar insight -->
-    <div class="insight-banner" id="insight-banner">
+    <!-- Filter preview toast for confidence -->
+    <div class="filter-toast" id="conf-filter-toast">
+      <div class="filter-toast-icon">⚡</div>
+      <div class="filter-toast-content">
+        <div class="filter-toast-label">Filter applied</div>
+        <div class="filter-toast-text" id="conf-filter-text">Showing: Low confidence answers</div>
+      </div>
+      <div class="filter-toast-pill" id="conf-filter-pill">40 items</div>
+    </div>
+
+    <!-- Insights -->
+    <div class="insight-banner warning" id="insight-warning">
       <span class="insight-icon">⚠</span>
-      <span id="insight-text">12 reviewed answers have low AI confidence — consider re-checking</span>
+      <span id="insight-warning-text"></span>
+    </div>
+
+    <div class="insight-banner coverage" id="insight-coverage">
+      <span class="insight-icon">💡</span>
+      <span id="insight-coverage-text"></span>
     </div>
   </div>
 
-  <!-- ═══ SCENARIO CONTROLS ═══ -->
+  <!-- ═══ CONTROLS ═══ -->
   <div class="controls animate-in delay-5">
     <div class="controls-title">🎛 Test Scenarios</div>
 
-    <div class="scenario-btns">
-      <button class="scenario-btn active" onclick="loadScenario('default')">Default</button>
-      <button class="scenario-btn" onclick="loadScenario('high-comp-low-conf')">High completion, low confidence</button>
-      <button class="scenario-btn" onclick="loadScenario('low-comp-high-conf')">Low completion, high confidence</button>
-      <button class="scenario-btn" onclick="loadScenario('all-done')">All done</button>
-      <button class="scenario-btn" onclick="loadScenario('early-stage')">Early stage</button>
+    <div class="scenario-btns" id="scenario-btns">
+      <button class="scenario-btn active" data-key="default">Default (your example)</button>
+      <button class="scenario-btn" data-key="genie-strong">Genie strong</button>
+      <button class="scenario-btn" data-key="genie-weak">Genie weak</button>
+      <button class="scenario-btn" data-key="high-comp-low-conf">High comp, low conf</button>
+      <button class="scenario-btn" data-key="all-done">All reviewed</button>
+      <button class="scenario-btn" data-key="early">Early stage</button>
     </div>
 
     <div class="slider-group">
       <div class="slider-row">
-        <div class="slider-label">Reviewed <span class="slider-val" id="sv-reviewed">48</span></div>
-        <input type="range" id="sl-reviewed" min="0" max="120" value="48" oninput="onSlider()">
+        <div class="slider-label">Total Questions <span class="slider-val" id="sv-total">100</span></div>
+        <input type="range" id="sl-total" min="10" max="300" value="100">
       </div>
       <div class="slider-row">
-        <div class="slider-label">Pending Review <span class="slider-val" id="sv-pending">42</span></div>
-        <input type="range" id="sl-pending" min="0" max="120" value="42" oninput="onSlider()">
+        <div class="slider-label">Genie Answered <span class="slider-val" id="sv-genie">50</span></div>
+        <input type="range" id="sl-genie" min="0" max="300" value="50">
       </div>
       <div class="slider-row">
-        <div class="slider-label">High Conf (of Genie) <span class="slider-val" id="sv-high">29</span></div>
-        <input type="range" id="sl-high" min="0" max="120" value="29" oninput="onSlider()">
+        <div class="slider-label">High Confidence <span class="slider-val" id="sv-high">10</span></div>
+        <input type="range" id="sl-high" min="0" max="300" value="10">
       </div>
       <div class="slider-row">
-        <div class="slider-label">Medium Conf <span class="slider-val" id="sv-medium">48</span></div>
-        <input type="range" id="sl-medium" min="0" max="120" value="48" oninput="onSlider()">
+        <div class="slider-label">Reviewed <span class="slider-val" id="sv-reviewed">20</span></div>
+        <input type="range" id="sl-reviewed" min="0" max="300" value="20">
+      </div>
+      <div class="slider-row">
+        <div class="slider-label">Pending Review <span class="slider-val" id="sv-pending">15</span></div>
+        <input type="range" id="sl-pending" min="0" max="300" value="15">
       </div>
     </div>
   </div>
 
-  <!-- ═══ DESIGN RULES ═══ -->
+  <!-- ═══ RULES ═══ -->
   <div class="annotation animate-in delay-5">
-    <div class="annotation-title">Design Rules</div>
+    <div class="annotation-title">Design Rules — v4</div>
     <div class="rule-list">
-      <div class="rule"><span class="rule-icon do">✓</span> Completion bar is 2.5× the height of confidence bar — visual dominance</div>
-      <div class="rule"><span class="rule-icon do">✓</span> Confidence uses a different color family (purple) to prevent confusion</div>
-      <div class="rule"><span class="rule-icon do">✓</span> Confidence scoped to "Genie answers only" — not total questions</div>
-      <div class="rule"><span class="rule-icon do">✓</span> Cross-bar insight links both bars without merging logic</div>
-      <div class="rule"><span class="rule-icon dont">✗</span> Never let confidence change completion percentage</div>
-      <div class="rule"><span class="rule-icon dont">✗</span> Never show confidence for human-edited answers</div>
-      <div class="rule"><span class="rule-icon dont">✗</span> Never merge both bars into one</div>
+      <div class="rule"><span class="rule-icon new">★</span> Completion bar now has 4 segments: Reviewed / Pending / Draft / Unanswered</div>
+      <div class="rule"><span class="rule-icon new">★</span> Every segment and legend item is clickable → applies filter to question list</div>
+      <div class="rule"><span class="rule-icon new">★</span> Click shows filter preview toast with count + pill badge</div>
+      <div class="rule"><span class="rule-icon new">★</span> Non-selected segments dim to 25% — visual focus on active filter</div>
+      <div class="rule"><span class="rule-icon do">✓</span> Unanswered uses red + striped pattern — most urgent state, visually distinct</div>
+      <div class="rule"><span class="rule-icon do">✓</span> Completion is still 2.5× height of confidence — hero vs support</div>
+      <div class="rule"><span class="rule-icon do">✓</span> Click to deselect (toggle) clears filter and restores all segments</div>
+      <div class="rule"><span class="rule-icon dont">✗</span> Confidence never changes completion %</div>
+      <div class="rule"><span class="rule-icon dont">✗</span> Don't merge bars</div>
     </div>
   </div>
 
 </div>
 
 <script>
-const T = 120; // Total questions
-
 const scenarios = {
-  'default': { reviewed: 48, pending: 42, high: 29, medium: 48 },
-  'high-comp-low-conf': { reviewed: 96, pending: 18, high: 10, medium: 25 },
-  'low-comp-high-conf': { reviewed: 24, pending: 60, high: 65, medium: 20 },
-  'all-done': { reviewed: 120, pending: 0, high: 55, medium: 35 },
-  'early-stage': { reviewed: 6, pending: 14, high: 8, medium: 6 },
+  'default':             { total: 100, genie: 50, highConf: 10, reviewed: 20, pending: 15 },
+  'genie-strong':        { total: 100, genie: 90, highConf: 60, reviewed: 45, pending: 40 },
+  'genie-weak':          { total: 100, genie: 20, highConf: 5,  reviewed: 10, pending: 10 },
+  'high-comp-low-conf':  { total: 100, genie: 80, highConf: 8,  reviewed: 85, pending: 10 },
+  'all-done':            { total: 100, genie: 75, highConf: 55, reviewed: 100, pending: 0 },
+  'early':               { total: 150, genie: 20, highConf: 8,  reviewed: 5,  pending: 15 },
 };
 
-function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+let activeCompFilter = null;
+let activeConfFilter = null;
+let currentData = {};
 
-function render(reviewed, pending, high, medium) {
-  // Completion
-  const draft = Math.max(0, T - reviewed - pending);
-  const rPct = (reviewed / T * 100);
-  const pPct = (pending / T * 100);
-  const dPct = (draft / T * 100);
+function render(total, genie, highConf, reviewed, pending) {
+  total = Math.max(1, total);
+  genie = Math.min(genie, total);
+  highConf = Math.min(highConf, genie);
+  reviewed = Math.min(reviewed, total);
+  pending = Math.min(pending, total - reviewed);
+
+  const draft = Math.max(0, genie - reviewed - pending);
+  const unanswered = total - genie;
+  const realDraft = Math.max(0, total - reviewed - pending - unanswered);
+  const lowConf = genie - highConf;
+
+  // Recalc: total = reviewed + pending + draft(genie-answered but not reviewed/pending) + unanswered
+  // Actually let's keep it clean:
+  // Genie answered = genie questions. Of those genie, some are reviewed, some are pending, rest are "answered but not yet touched" (draft)
+  // Remaining = unanswered
+  const answeredDraft = Math.max(0, genie - Math.min(reviewed, genie) - Math.min(pending, Math.max(0, genie - Math.min(reviewed, genie))));
+  
+  // Simpler model:
+  // reviewed + pending can exceed genie (humans can review questions genie didn't answer too)
+  // So: 
+  // Completion segments over T:
+  //   Reviewed = reviewed
+  //   Pending = pending
+  //   Draft (answered, not reviewed/pending) = max(0, T - reviewed - pending - unanswered) but this gets complex
+  // 
+  // Simplest correct model:
+  //   Reviewed, Pending, Draft, Unanswered where Draft = T - reviewed - pending - unanswered
+  //   But draft could go negative if reviewed+pending > genie... that's fine, draft = 0 then
+  
+  const draftCount = Math.max(0, total - reviewed - pending - unanswered);
+  
+  currentData = { total, genie, highConf, reviewed, pending, draft: draftCount, unanswered, lowConf };
+
+  const rPct = reviewed / total * 100;
+  const pPct = pending / total * 100;
+  const drPct = draftCount / total * 100;
+  const uPct = unanswered / total * 100;
 
   document.getElementById('seg-reviewed').style.width = rPct + '%';
   document.getElementById('seg-pending').style.width = pPct + '%';
-  document.getElementById('seg-draft').style.width = dPct + '%';
+  document.getElementById('seg-draft').style.width = drPct + '%';
+  document.getElementById('seg-unanswered').style.width = uPct + '%';
 
   document.getElementById('lbl-reviewed').textContent = Math.round(rPct) + '%';
   document.getElementById('lbl-pending').textContent = Math.round(pPct) + '%';
-  document.getElementById('lbl-draft').textContent = Math.round(dPct) + '%';
+  document.getElementById('lbl-draft').textContent = Math.round(drPct) + '%';
+  document.getElementById('lbl-unanswered').textContent = Math.round(uPct) + '%';
 
-  // Hide label if segment too small
-  document.getElementById('seg-reviewed').classList.toggle('show-label', rPct > 8);
-  document.getElementById('seg-pending').classList.toggle('show-label', pPct > 8);
-  document.getElementById('seg-draft').classList.toggle('show-label', dPct > 8);
+  ['reviewed','pending','draft','unanswered'].forEach(k => {
+    const el = document.getElementById('seg-' + k);
+    const pct = k === 'reviewed' ? rPct : k === 'pending' ? pPct : k === 'draft' ? drPct : uPct;
+    el.classList.toggle('show-label', pct > 7);
+  });
 
   document.getElementById('count-reviewed').textContent = reviewed;
   document.getElementById('count-pending').textContent = pending;
-  document.getElementById('count-draft').textContent = draft;
+  document.getElementById('count-draft').textContent = draftCount;
+  document.getElementById('count-unanswered').textContent = unanswered;
   document.getElementById('pct-reviewed').textContent = Math.round(rPct) + '%';
   document.getElementById('pct-pending').textContent = Math.round(pPct) + '%';
-  document.getElementById('pct-draft').textContent = Math.round(dPct) + '%';
-  document.getElementById('completion-summary').textContent = reviewed + ' / ' + T + ' reviewed';
+  document.getElementById('pct-draft').textContent = Math.round(drPct) + '%';
+  document.getElementById('pct-unanswered').textContent = Math.round(uPct) + '%';
+  document.getElementById('completion-summary').textContent = reviewed + ' / ' + total + ' reviewed';
 
-  // Confidence — only over Genie answers
-  const genieTotal = reviewed + pending; // Genie answered = reviewed + pending (drafts have no Genie answer)
-  const G = Math.max(1, high + medium + Math.max(0, genieTotal - high - medium));
-  const lowConf = Math.max(0, G - high - medium);
-
-  const hPct = (high / G * 100);
-  const mPct = (medium / G * 100);
-  const lPct = (lowConf / G * 100);
+  // Confidence
+  const hPct = highConf / total * 100;
+  const lPct = lowConf / total * 100;
+  const nPct = unanswered / total * 100;
 
   document.getElementById('conf-high').style.width = hPct + '%';
-  document.getElementById('conf-medium').style.width = mPct + '%';
   document.getElementById('conf-low').style.width = lPct + '%';
+  document.getElementById('conf-unanswered').style.width = nPct + '%';
 
-  document.getElementById('conf-high-val').textContent = high + ' (' + Math.round(hPct) + '%)';
-  document.getElementById('conf-medium-val').textContent = medium + ' (' + Math.round(mPct) + '%)';
-  document.getElementById('conf-low-val').textContent = lowConf + ' (' + Math.round(lPct) + '%)';
-  document.getElementById('conf-summary').textContent = G + ' answers';
-  document.getElementById('meta-genie').textContent = 'GenieAI: ' + G + ' answered';
-  document.getElementById('meta-total').textContent = T + ' questions';
+  document.getElementById('conf-high-val').textContent = highConf;
+  document.getElementById('conf-low-val').textContent = lowConf;
+  document.getElementById('conf-unanswered-val').textContent = unanswered;
+  document.getElementById('conf-summary').textContent = genie + ' answered · ' + unanswered + ' unanswered';
 
-  // Cross-bar insight
+  document.getElementById('meta-total').textContent = total + ' questions';
+  document.getElementById('meta-genie').textContent = 'GenieAI answered ' + genie + ' of ' + total;
+
+  // Insights
+  const warningEl = document.getElementById('insight-warning');
   const lowReviewed = Math.min(lowConf, reviewed);
-  const insightEl = document.getElementById('insight-banner');
   if (lowConf > 0 && reviewed > 0 && lowReviewed > 2) {
-    insightEl.classList.add('visible');
-    document.getElementById('insight-text').textContent =
+    warningEl.classList.add('visible');
+    document.getElementById('insight-warning-text').textContent =
       lowReviewed + ' reviewed answers have low AI confidence — consider re-checking';
   } else {
-    insightEl.classList.remove('visible');
+    warningEl.classList.remove('visible');
+  }
+
+  const coverageEl = document.getElementById('insight-coverage');
+  const coveragePct = genie / total * 100;
+  if (unanswered > 0 && coveragePct < 40) {
+    coverageEl.classList.add('visible');
+    document.getElementById('insight-coverage-text').textContent =
+      'GenieAI left ' + unanswered + ' questions unanswered (' + Math.round(nPct) + '%) — consider enriching your Knowledge Hub';
+  } else {
+    coverageEl.classList.remove('visible');
   }
 
   // NBA
@@ -818,11 +952,16 @@ function render(reviewed, pending, high, medium) {
   const nbaLabel = document.getElementById('nba-label');
   const nbaText = document.getElementById('nba-text');
 
-  if (draft > 0) {
+  if (unanswered > 0) {
     nba.dataset.state = 'action';
     nbaIcon.textContent = '⚡';
     nbaLabel.textContent = 'Next best action';
-    nbaText.textContent = 'Assign ' + draft + ' draft question' + (draft > 1 ? 's' : '') + ' to your team';
+    nbaText.textContent = unanswered + ' question' + (unanswered > 1 ? 's' : '') + ' unanswered — assign to your team';
+  } else if (draftCount > 0) {
+    nba.dataset.state = 'action';
+    nbaIcon.textContent = '⚡';
+    nbaLabel.textContent = 'Next best action';
+    nbaText.textContent = draftCount + ' drafted answer' + (draftCount > 1 ? 's' : '') + ' need review';
   } else if (pending > 0) {
     nba.dataset.state = 'review';
     nbaIcon.textContent = '👁';
@@ -834,59 +973,158 @@ function render(reviewed, pending, high, medium) {
     nbaLabel.textContent = 'All clear';
     nbaText.textContent = 'All questions reviewed — ready to submit';
   }
+
+  // Reset filters on data change
+  clearCompFilter();
+  clearConfFilter();
 }
 
-function loadScenario(key) {
-  const s = scenarios[key];
+// ── Filter logic: Completion ──
+const filterConfig = {
+  'reviewed':   { label: 'Reviewed questions',          pillClass: 'ft-reviewed',   countKey: 'reviewed' },
+  'pending':    { label: 'Pending review',              pillClass: 'ft-pending',    countKey: 'pending' },
+  'draft':      { label: 'Drafted answers (not reviewed)', pillClass: 'ft-draft',   countKey: 'draft' },
+  'unanswered': { label: 'Unanswered questions',        pillClass: 'ft-unanswered', countKey: 'unanswered' },
+};
+
+const confFilterConfig = {
+  'conf-high':        { label: 'High confidence Genie answers', pillClass: 'ft-high',           countKey: 'highConf' },
+  'conf-low':         { label: 'Low confidence Genie answers',  pillClass: 'ft-low',            countKey: 'lowConf' },
+  'conf-unanswered':  { label: 'Unanswered by GenieAI',        pillClass: 'ft-conf-unanswered', countKey: 'unanswered' },
+};
+
+function clearCompFilter() {
+  activeCompFilter = null;
+  document.querySelectorAll('#completion-bar .bar-seg').forEach(s => s.classList.remove('dimmed'));
+  document.querySelectorAll('#completion-card .legend-item').forEach(l => l.classList.remove('active'));
+  document.getElementById('comp-filter-toast').classList.remove('visible');
+}
+
+function clearConfFilter() {
+  activeConfFilter = null;
+  document.querySelectorAll('#confidence-bar .conf-seg').forEach(s => s.classList.remove('dimmed'));
+  document.querySelectorAll('#conf-legend .conf-legend-item').forEach(l => l.classList.remove('active'));
+  document.getElementById('conf-filter-toast').classList.remove('visible');
+}
+
+function applyCompFilter(filterKey) {
+  if (activeCompFilter === filterKey) {
+    clearCompFilter();
+    return;
+  }
+
+  activeCompFilter = filterKey;
+  const config = filterConfig[filterKey];
+
+  // Dim non-selected segments
+  document.querySelectorAll('#completion-bar .bar-seg').forEach(s => {
+    s.classList.toggle('dimmed', s.dataset.filter !== filterKey);
+  });
+
+  // Activate legend
+  document.querySelectorAll('#completion-card .legend-item').forEach(l => {
+    l.classList.toggle('active', l.dataset.filter === filterKey);
+  });
+
+  // Show toast
+  const toast = document.getElementById('comp-filter-toast');
+  toast.classList.add('visible');
+  document.getElementById('comp-filter-text').textContent = 'Showing: ' + config.label;
+  
+  const pill = document.getElementById('comp-filter-pill');
+  pill.className = 'filter-toast-pill ' + config.pillClass;
+  pill.textContent = currentData[config.countKey] + ' items';
+}
+
+function applyConfFilter(filterKey) {
+  if (activeConfFilter === filterKey) {
+    clearConfFilter();
+    return;
+  }
+
+  activeConfFilter = filterKey;
+  const config = confFilterConfig[filterKey];
+
+  document.querySelectorAll('#confidence-bar .conf-seg').forEach(s => {
+    s.classList.toggle('dimmed', s.dataset.filter !== filterKey);
+  });
+
+  document.querySelectorAll('#conf-legend .conf-legend-item').forEach(l => {
+    l.classList.toggle('active', l.dataset.filter === filterKey);
+  });
+
+  const toast = document.getElementById('conf-filter-toast');
+  toast.classList.add('visible');
+  document.getElementById('conf-filter-text').textContent = 'Showing: ' + config.label;
+  
+  const pill = document.getElementById('conf-filter-pill');
+  pill.className = 'filter-toast-pill ' + config.pillClass;
+  pill.textContent = currentData[config.countKey] + ' items';
+}
+
+// ── Event delegation ──
+document.getElementById('completion-card').addEventListener('click', function(e) {
+  const seg = e.target.closest('[data-filter]');
+  if (!seg) return;
+  const key = seg.dataset.filter;
+  if (filterConfig[key]) applyCompFilter(key);
+});
+
+document.getElementById('confidence-card').addEventListener('click', function(e) {
+  const seg = e.target.closest('[data-filter]');
+  if (!seg) return;
+  const key = seg.dataset.filter;
+  if (confFilterConfig[key]) applyConfFilter(key);
+});
+
+// ── Scenarios ──
+document.getElementById('scenario-btns').addEventListener('click', function(e) {
+  const btn = e.target.closest('.scenario-btn');
+  if (!btn) return;
+  const s = scenarios[btn.dataset.key];
+  if (!s) return;
+
+  document.getElementById('sl-total').value = s.total;
+  document.getElementById('sl-genie').value = s.genie;
+  document.getElementById('sl-high').value = s.highConf;
   document.getElementById('sl-reviewed').value = s.reviewed;
   document.getElementById('sl-pending').value = s.pending;
-  document.getElementById('sl-high').value = s.high;
-  document.getElementById('sl-medium').value = s.medium;
 
   document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  btn.classList.add('active');
+  syncSliders();
+});
 
-  updateFromSliders();
-}
+// ── Sliders ──
+document.querySelectorAll('input[type="range"]').forEach(sl => {
+  sl.addEventListener('input', function() {
+    document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
+    syncSliders();
+  });
+});
 
-function updateFromSliders() {
-  let reviewed = parseInt(document.getElementById('sl-reviewed').value);
-  let pending = parseInt(document.getElementById('sl-pending').value);
+function syncSliders() {
+  const total = Math.max(1, parseInt(document.getElementById('sl-total').value));
+  const genie = Math.min(parseInt(document.getElementById('sl-genie').value), total);
+  const highConf = Math.min(parseInt(document.getElementById('sl-high').value), genie);
+  const reviewed = Math.min(parseInt(document.getElementById('sl-reviewed').value), total);
+  const pending = Math.min(parseInt(document.getElementById('sl-pending').value), total - reviewed);
 
-  // Clamp so reviewed + pending <= T
-  if (reviewed + pending > T) {
-    pending = T - reviewed;
-    document.getElementById('sl-pending').value = pending;
-  }
+  document.getElementById('sl-genie').max = total;
+  document.getElementById('sl-high').max = genie;
+  document.getElementById('sl-reviewed').max = total;
+  document.getElementById('sl-pending').max = total;
 
-  let high = parseInt(document.getElementById('sl-high').value);
-  let medium = parseInt(document.getElementById('sl-medium').value);
-  const genieMax = reviewed + pending;
-
-  if (high + medium > genieMax) {
-    medium = Math.max(0, genieMax - high);
-    document.getElementById('sl-medium').value = medium;
-  }
-  if (high > genieMax) {
-    high = genieMax;
-    document.getElementById('sl-high').value = high;
-  }
-
+  document.getElementById('sv-total').textContent = total;
+  document.getElementById('sv-genie').textContent = genie;
+  document.getElementById('sv-high').textContent = highConf;
   document.getElementById('sv-reviewed').textContent = reviewed;
   document.getElementById('sv-pending').textContent = pending;
-  document.getElementById('sv-high').textContent = high;
-  document.getElementById('sv-medium').textContent = medium;
 
-  render(reviewed, pending, high, medium);
+  render(total, genie, highConf, reviewed, pending);
 }
 
-function onSlider() {
-  document.querySelectorAll('.scenario-btn').forEach(b => b.classList.remove('active'));
-  updateFromSliders();
-}
-
-// Init
-updateFromSliders();
+syncSliders();
 </script>
 
 </body>

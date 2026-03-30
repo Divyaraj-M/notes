@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6b68d236c349bd",
+        "id": "fd912214bdb53250",
         "type": "tabs",
         "children": [
           {
-            "id": "95049c962516b51f",
+            "id": "a3b9a4951d1f9ee9",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "code-glyph",
-              "title": "progress-wireframe"
+              "icon": "lucide-file",
+              "title": "Decision-State Progress Bars"
             }
           }
         ]
@@ -197,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of progress-wireframe"
+              "title": "Outline of Decision-State Progress Bars"
             }
           },
           {
@@ -222,7 +234,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO List.md",
+                "file": "TO DO List - today.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -237,7 +249,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TO DO List"
+              "title": "TO DO List - today"
             }
           }
         ],
@@ -276,8 +288,33 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "0cb49de0e84002f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Friction points.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Friction points"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "9140aa1d3d409719",
@@ -330,31 +367,32 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "95049c962516b51f",
+  "active": "a3b9a4951d1f9ee9",
   "lastOpenFiles": [
-    "TO DO List.md",
+    "Product/Projects/Progress bar/progress-wireframe.html",
+    "TO DO List - today.md",
+    "Product/UAT",
+    "Product/Untitled.md",
+    "Friction points.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "Product/Projects/Progress bar/progress-wireframe.html",
-    "Product/Projects/Progress bar/Untitled.md",
+    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
     "Product/Projects/Progress bar",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
-    "Product/Untitled.md",
     "Untitled 1.md",
-    "UAT Arya.md",
+    "Product/UAT/UAT Arya.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Users/Sep2.security.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
-    "Product/UAT Vipin.md",
+    "Product/UAT/UAT Vipin.md",
     "Product/Users/Untitled.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-product-framework.html",
     "Books/Read List/Read List.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
@@ -369,7 +407,6 @@
     "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
-    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",

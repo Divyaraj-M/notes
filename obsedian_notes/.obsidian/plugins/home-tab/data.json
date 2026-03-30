@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Projects/Progress bar/progress-wireframe.html",
-      "timestamp": 1774868511100
+      "filepath": "Product/Projects/Progress bar/Untitled.md",
+      "timestamp": 1774870290679
     },
     {
-      "filepath": "TO DO List.md",
-      "timestamp": 1774868486803
+      "filepath": "Product/Projects/Progress bar/progress-wireframe.html",
+      "timestamp": 1774870286149
+    },
+    {
+      "filepath": "TO DO List - today.md",
+      "timestamp": 1774870170223
+    },
+    {
+      "filepath": "Friction points.md",
+      "timestamp": 1774870047243
     },
     {
       "filepath": "TaskNotes/Views/kanban-default.base",
       "timestamp": 1774868485652
-    },
-    {
-      "filepath": "TaskNotes/Views/calendar-default.base",
-      "timestamp": 1774868484708
-    },
-    {
-      "filepath": "TaskNotes/Views/agenda-default.base",
-      "timestamp": 1774868484188
     }
   ],
   "bookmarkedFileStore": [
