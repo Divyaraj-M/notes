@@ -4,6 +4,28 @@
     "type": "split",
     "children": [
       {
+        "id": "2fb1514bb01e6ec8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "572e6843aea43f47",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/Read List/Analogy vs Analogical thinking.pdf",
+                "page": 7,
+                "left": -14,
+                "top": 241,
+                "zoom": 1.1446078431372548
+              },
+              "icon": "lucide-file-text",
+              "title": "Analogy vs Analogical thinking"
+            }
+          }
+        ]
+      },
+      {
         "id": "72614b0ff58bbb31",
         "type": "tabs",
         "children": [
@@ -155,10 +177,36 @@
             "id": "e4b41aedbfe057ea",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "type": "markdown",
+              "state": {
+                "file": "Books/Read List/Read List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Read List"
+            }
+          },
+          {
+            "id": "4aa015780db0017e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://plato.stanford.edu/entries/reasoning-analogy/#AnaArg"
+              },
+              "icon": "lucide-file",
+              "title": "Analogy and Analogical Reasoning (Stanford Encyclopedia of Philosophy)"
             }
           },
           {
@@ -244,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -532,15 +580,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "a02c29fddac44841",
+  "active": "572e6843aea43f47",
   "lastOpenFiles": [
+    "Books/Read List/Read List.md",
+    "Books/Read List/Analogy vs Analogical thinking.pdf",
     "Books/Read List/Screenshot_20260316-101854.png",
-    "Untitled 1.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Product/Users/Sep2.security.md",
+    "Learning/Top Deliverables/Edge case Analysis.md",
+    "Product/UAT Vipin.md",
+    "Untitled 1.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "UAT Arya.md",
-    "Product/UAT Vipin.md",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Users/Untitled.md",
@@ -568,7 +618,6 @@
     "Product/ROI Calculator/Untitled.md",
     "Product/laundry List/laundry list.md",
     "Product/Users",
-    "Product/Email notifications/Email notifications.md",
     "Product/laundry List",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
@@ -578,8 +627,6 @@
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM.png",
-    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png",
-    "Product/User names and Team",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "Teams Wireframe.canvas"

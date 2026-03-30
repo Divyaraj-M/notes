@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
+      "basename": "Analogy vs Analogical thinking",
+      "path": "Books/Read List/Analogy vs Analogical thinking.pdf"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "Screenshot_20260316-101854",
+      "path": "Books/Read List/Screenshot_20260316-101854.png"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
     {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
     },
     {
       "basename": "Genie Actions inside the Questions card",
@@ -109,10 +121,6 @@
       "path": "Product/Email notifications/Email notifications.md"
     },
     {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
-    },
-    {
       "basename": "Go - No- Go",
       "path": "Product/Go-no-go/Go - No- Go.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Differentiator",
       "path": "Product/competitors/Five Differentiators/Differentiator.md"
-    },
-    {
-      "basename": "ECHS – Knowledge Transfer (KT) Document",
-      "path": "Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md"
-    },
-    {
-      "basename": "UTITSL_102 - Tech Doc",
-      "path": "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md"
     }
   ],
   "omittedPaths": [],

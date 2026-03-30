@@ -38,5 +38,7 @@ comment: Rethinking mastery for generalists and multipotentialites.
 22. https://airfocus.com/glossary/what-is-weighted-shortest-job-first/
 23. [[கல்வி ஓர் அரசியல்]]
 24. [21 Product Management Frameworks - Productfolio](https://productfolio.com/21-product-management-frameworks/#:~:text=This%20is%20a%20popular%20prioritization,these%20criteria%20and%20ranked%20accordingly.)
-
-- [ ] 
+25. [Analogy and Analogical Reasoning (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/reasoning-analogy/)
+26. [iiisci.org/journal/PDV/sci/pdfs/SA584PX25.pdf](https://www.iiisci.org/journal/PDV/sci/pdfs/SA584PX25.pdf)
+27. [[Analogy vs Analogical thinking.pdf]]
+28. 
