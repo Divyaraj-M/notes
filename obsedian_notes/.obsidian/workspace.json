@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+                "file": "Friction points.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Decision-State Progress Bars"
+              "title": "Outline of Friction points"
             }
           },
           {
@@ -367,11 +367,11 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "a3b9a4951d1f9ee9",
+  "active": "0cb49de0e84002f1",
   "lastOpenFiles": [
+    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Users/Sep2.security.md",
     "TO DO List - today.md",
-    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/UAT",
     "Product/Untitled.md",

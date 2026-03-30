@@ -4,4 +4,5 @@
 - [ ] User needs a way to upload attachments inside instruction
 - [ ] Remind collaborators section wise 
 - [ ] Release notes 
+- [ ] Auto assign people -  @Mohammed Adil 
 - [ ] 

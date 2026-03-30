@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Friction points",
+      "path": "Friction points.md"
+    },
+    {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "progress-wireframe",
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
-    },
-    {
-      "basename": "Friction points",
-      "path": "Friction points.md"
     },
     {
       "basename": "kanban-default",
