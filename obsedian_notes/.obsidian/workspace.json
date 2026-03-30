@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline of Decision-State Progress Bars"
             }
           },
           {
@@ -367,11 +367,12 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "a3b9a4951d1f9ee9",
   "lastOpenFiles": [
+    "Product/Users/Sep2.security.md",
+    "TO DO List - today.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "TO DO List - today.md",
     "Product/UAT",
     "Product/Untitled.md",
     "Friction points.md",
@@ -388,7 +389,6 @@
     "Untitled 1.md",
     "Product/UAT/UAT Arya.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
-    "Product/Users/Sep2.security.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Users/Untitled.md",

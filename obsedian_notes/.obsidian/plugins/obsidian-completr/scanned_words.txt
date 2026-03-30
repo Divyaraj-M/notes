@@ -572,6 +572,8 @@ DESIGN
 Dynamically
 Drafted
 Dim
+Derived
+Denominator
 Who
 When
 What
@@ -1070,6 +1072,8 @@ warn
 wireframe
 wise
 warningEl
+whose
+widths
 it
 is
 interaction
@@ -1439,6 +1443,7 @@ ignore
 infinite
 insightEl
 instruction
+independent
 reads
 references
 requirements
@@ -1877,6 +1882,9 @@ red
 rPct
 restores
 realDraft
+respectively
+restore
+reloads
 Jira
 Jdjxj
 JIvrU
@@ -2410,6 +2418,7 @@ translateX
 titleProperty
 tiering
 touched
+taken
 PM
 PRD
 Problem
@@ -2718,6 +2727,7 @@ PLAYBOOK
 Practice
 Progressive
 Progress
+Principles
 Before
 Blast
 BM
@@ -3334,6 +3344,11 @@ deselect
 draftCount
 drPct
 delegation
+dominant
+denominators
+deselects
+destination
+distinguish
 starts
 sub
 screens
@@ -3921,6 +3936,9 @@ serar
 segments
 striped
 syncSliders
+sums
+segmented
+subordinate
 everyone
 exactly
 each
@@ -4657,6 +4675,8 @@ Showing
 Simpler
 Simplest
 Sliders
+Segments
+Segment
 Lead
 Loop
 Linking
@@ -5607,6 +5627,9 @@ answeredDraft
 applyCompFilter
 applyConfFilter
 addEventListener
+audiences
+awaiting
+association
 QA
 Question
 Quality
@@ -8239,6 +8262,9 @@ clearConfFilter
 countKey
 confFilterConfig
 config
+conflates
+couldn
+cutoff
 on
 owns
 one
@@ -8516,6 +8542,7 @@ observe
 operates
 orient
 onSlider
+overrides
 flows
 from
 full
@@ -9428,6 +9455,7 @@ heuristics
 hPct
 hideEmptyColumns
 highConf
+horizontal
 Every
 Engineers
 Expected
@@ -10384,6 +10412,7 @@ uncertainty
 updateFromSliders
 urgent
 uPct
+unassigned
 phases
 problem
 placeholder
@@ -10839,6 +10868,8 @@ pct
 pPct
 parseInt
 pillClass
+proportional
+pink
 goals
 give
 generates
@@ -11507,6 +11538,7 @@ yJJ
 yGbcC
 yxok
 yYnb
+yellow
 Knowledge
 KH
 KHs
@@ -12889,6 +12921,7 @@ Mechanism
 Meperidine
 Morphine
 Mono
+Modifying
 UI
 Users
 User
@@ -13475,6 +13508,8 @@ Validates
 VII
 VISUALIZATION
 VALIDATION
+Values
+Visually
 zero
 zDBSSQvc
 zphvsd

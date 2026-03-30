@@ -1,6 +1,6 @@
 ---
 share_link: https://share.note.sx/38z3w8r3#kBREvH3KnR/eF1jOzyA6C8CH9mgMd2NuWLHNE0tSaHY
-share_updated: 2026-03-24T14:44:37+05:30
+share_updated: 2026-03-30T17:39:34+05:30
 ---
 #product/user/sep2_security
 
@@ -28,11 +28,11 @@ Zipy status : No
 
 ## Profile & Personal Settings
 
-| Task                      | Type        | Dev |
-| ------------------------- | ----------- | --- |
-| Profile picture upload    | Feature     |     |
-| Remove phone number field | Improvement |     |
-| IP Whitelisting           | Feature     |     |
+| Task                      | Type        | Dev                               |
+| ------------------------- | ----------- | --------------------------------- |
+| Profile picture upload    | Feature     | In progress - For prod 30/03/2026 |
+| Remove phone number field | Improvement | Done                              |
+| IP Whitelisting           | Feature     |                                   |
 
 ---
 
@@ -50,9 +50,9 @@ Zipy status : No
 
 ## Obligation
 
-| Task                       | Type    | Dev |
-| -------------------------- | ------- | --- |
-| Obligation Settings module | Feature |     |
+| Task                       | Type    | Dev     |
+| -------------------------- | ------- | ------- |
+| Obligation Settings module | Feature | Not now |
 
 ---
 
@@ -69,11 +69,11 @@ Zipy status : No
 
 ## RFP
 
-| Task                                    | Type    | Dev |
-| --------------------------------------- | ------- | --- |
-| Show confidence score in answers        | Feature |     |
-| Filter answers by confidence (high/low) | Feature |     |
-| Show character count for answers        | Feature |     |
-| Add attachments support in answers      | Feature |     |
-| Rich text editor for answers            | Feature |     |
-| Edit custom fields                      | Feature |     |
+| Task                                    | Type    | Dev     |
+| --------------------------------------- | ------- | ------- |
+| Show confidence score in answers        | Feature | Done    |
+| Filter answers by confidence (high/low) | Feature | in beta |
+| Show character count for answers        | Feature | In dev  |
+| Add attachments support in answers      | Feature |         |
+| Rich text editor for answers            | Feature |         |
+| Edit custom fields                      | Feature |         |

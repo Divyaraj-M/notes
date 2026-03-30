@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
-    },
-    {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
+    },
+    {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
     },
     {
       "basename": "progress-wireframe",
@@ -59,10 +63,6 @@
     {
       "basename": "Genie Actions inside the Questions card",
       "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "Edge case Analysis",
