@@ -4,28 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "2fb1514bb01e6ec8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "572e6843aea43f47",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/Read List/Analogy vs Analogical thinking.pdf",
-                "page": 7,
-                "left": -14,
-                "top": 241,
-                "zoom": 1.1446078431372548
-              },
-              "icon": "lucide-file-text",
-              "title": "Analogy vs Analogical thinking"
-            }
-          }
-        ]
-      },
-      {
         "id": "72614b0ff58bbb31",
         "type": "tabs",
         "children": [
@@ -179,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Read List/Read List.md",
+                "file": "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -194,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "Hybrid Thinking — Discovery Cycle Worksheet"
             }
           },
           {
@@ -203,7 +181,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://plato.stanford.edu/entries/reasoning-analogy/#AnaArg"
+                "url": "https://plato.stanford.edu/entries/reasoning-analogy/#schema4"
               },
               "icon": "lucide-file",
               "title": "Analogy and Analogical Reasoning (Stanford Encyclopedia of Philosophy)"
@@ -332,7 +310,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pss",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -388,8 +366,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662,
-    "collapsed": true
+    "width": 310.5066738128662
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -580,9 +557,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "572e6843aea43f47",
+  "active": "e4b41aedbfe057ea",
   "lastOpenFiles": [
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-product-framework.html",
+    "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
+    "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.xlsx",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.docx",
     "Books/Read List/Read List.md",
+    "Learning/Analogical thinking vs Logical thinking",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Product/Users/Sep2.security.md",
@@ -612,18 +597,10 @@
     "Product/Product Sync system",
     "Product/Untitled.md",
     "Product/UAT Shihab.md",
-    "Daily/UAT Kavin.md",
-    "TaskNotes/Views/tasks-default.base",
-    "Product/ROI Calculator/sparrowgenie-email-preview.html",
-    "Product/ROI Calculator/Untitled.md",
-    "Product/laundry List/laundry list.md",
-    "Product/Users",
-    "Product/laundry List",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
-    "Product/Projects/Questions/Filters for project",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.16.47 PM.png",

@@ -41,4 +41,3 @@ comment: Rethinking mastery for generalists and multipotentialites.
 25. [Analogy and Analogical Reasoning (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/reasoning-analogy/)
 26. [iiisci.org/journal/PDV/sci/pdfs/SA584PX25.pdf](https://www.iiisci.org/journal/PDV/sci/pdfs/SA584PX25.pdf)
 27. [[Analogy vs Analogical thinking.pdf]]
-28. 
