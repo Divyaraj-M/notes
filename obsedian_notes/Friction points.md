@@ -3,6 +3,6 @@
 - [ ] User needs to have global comment or even sections wise since it is too tiering 
 - [ ] User needs a way to upload attachments inside instruction
 - [ ] Remind collaborators section wise 
-- [ ] Release notes 
+- [ ] Release notes @nagendrian 
 - [ ] Auto assign people -  @Mohammed Adil 
 - [ ] 

@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Friction points.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Friction points"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -367,15 +367,15 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "0cb49de0e84002f1",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Friction points.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Users/Sep2.security.md",
     "TO DO List - today.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/UAT",
     "Product/Untitled.md",
-    "Friction points.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/agenda-default.base",
