@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "progress-wireframe",
+      "path": "Product/Projects/Progress bar/progress-wireframe.html"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Projects/Progress bar/Untitled.md"
+    },
+    {
+      "basename": "hybrid-thinking-worksheet",
+      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html"
+    },
+    {
+      "basename": "hybrid-thinking-worksheet",
+      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md"
+    },
+    {
+      "basename": "Hybrid thinking product framework",
+      "path": "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md"
+    },
+    {
+      "basename": "Analogy vs Analogical thinking",
+      "path": "Books/Read List/Analogy vs Analogical thinking.pdf"
+    },
+    {
       "basename": "TO DO List",
       "path": "TO DO List.md"
     },
@@ -17,10 +41,6 @@
       "path": "Product/Users/Sep2.security.md"
     },
     {
-      "basename": "Hybrid thinking product framework",
-      "path": "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md"
-    },
-    {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
     },
@@ -33,14 +53,6 @@
       "path": "Product/Users/Untitled.md"
     },
     {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html"
-    },
-    {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md"
-    },
-    {
       "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
       "path": "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "Read List",
       "path": "Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Analogy vs Analogical thinking",
-      "path": "Books/Read List/Analogy vs Analogical thinking.pdf"
     },
     {
       "basename": "Screenshot_20260316-101854",
@@ -191,10 +199,6 @@
     {
       "basename": "Screenshot 2026-03-18 at 3.28.01 PM 1",
       "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png"
-    },
-    {
-      "basename": "Filter inside the projects screen for the question cards",
-      "path": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md"
     }
   ],
   "omittedPaths": [],

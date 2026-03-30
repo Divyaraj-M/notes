@@ -567,6 +567,7 @@ Deductive
 DOI
 Deduction
 Drag
+DESIGN
 Who
 When
 What
@@ -1062,6 +1063,7 @@ water
 willingness
 wouldn
 warn
+wireframe
 it
 is
 interaction
@@ -1428,6 +1430,8 @@ ingenuity
 intuition
 investigate
 ignore
+infinite
+insightEl
 reads
 references
 requirements
@@ -1861,6 +1865,9 @@ refX
 refY
 reductionist
 reinforcement
+rel
+red
+rPct
 Jira
 Jdjxj
 JIvrU
@@ -2023,6 +2030,7 @@ JJJr
 JSON
 JSCI
 Justified
+JetBrains
 tickets
 tasks
 this
@@ -2389,6 +2397,7 @@ triad
 toggleDetail
 trim
 tap
+translateX
 PM
 PRD
 Problem
@@ -2696,6 +2705,7 @@ PATTERNS
 PLAYBOOK
 Practice
 Progressive
+Progress
 Before
 Blast
 BM
@@ -2921,6 +2931,8 @@ Biological
 Borrow
 BOX
 Breaks
+BFA
+Bars
 design
 does
 do
@@ -3295,6 +3307,12 @@ defs
 decouple
 dynamic
 descriptive
+discussion
+dot
+dont
+dominance
+dPct
+dataset
 starts
 sub
 screens
@@ -3874,6 +3892,9 @@ succeeds
 stepEl
 shortening
 strategies
+stylesheet
+seg
+segment
 everyone
 exactly
 each
@@ -4599,6 +4620,10 @@ SVG
 SECTION
 Shortcut
 SELF
+Sans
+Signal
+SCENARIO
+Scenarios
 Lead
 Loop
 Linking
@@ -4826,6 +4851,7 @@ LTV
 LOOP
 Labels
 Latency
+Legend
 After
 API
 All
@@ -5126,6 +5152,9 @@ Aspirational
 ANTI
 ANALOGY
 Arrows
+Accent
+Annotation
+Apr
 approved
 atomic
 and
@@ -5532,6 +5561,9 @@ arrowWarm
 arrowCool
 anchoring
 abandon
+animation
+annotation
+animate
 QA
 Question
 Quality
@@ -5988,6 +6020,7 @@ Failed
 Falsifiable
 Framing
 Fires
+FBBF
 Goes
 Goals
 Gate
@@ -6485,6 +6518,9 @@ brainstorm
 borrowing
 biological
 beautiful
+bezier
+banner
+btns
 Requirements
 Radius
 Rules
@@ -6802,6 +6838,8 @@ Running
 Retention
 RESPONSIVE
 REFERENCE
+Recalculation
+RULES
 need
 needing
 nested
@@ -7047,6 +7085,10 @@ net
 niche
 niches
 nothing
+nba
+nbaIcon
+nbaLabel
+nbaText
 Constraints
 Contracts
 Completable
@@ -7377,6 +7419,11 @@ CORE
 CYBERNETIC
 CONJECTURE
 CHECK
+COMPLETION
+CONFIDENCE
+Corp
+Conf
+Clamp
 How
 Hubs
 Hub
@@ -7595,6 +7642,8 @@ Hypotheses
 Heuristics
 HERO
 HEURISTIC
+Hero
+Hide
 call
 could
 context
@@ -8123,6 +8172,11 @@ conclusion
 cheatsheet
 conjectures
 crossing
+cubic
+conf
+checking
+comp
+clamp
 on
 owns
 one
@@ -8399,6 +8453,7 @@ optimizes
 observe
 operates
 orient
+onSlider
 flows
 from
 full
@@ -8721,6 +8776,7 @@ formulates
 flowing
 formal
 frame
+fade
 live
 links
 locked
@@ -9027,6 +9083,10 @@ looked
 leveling
 landing
 leap
+loadScenario
+lowConf
+lPct
+lowReviewed
 here
 has
 how
@@ -9298,6 +9358,7 @@ held
 hybrid
 horse
 heuristics
+hPct
 Every
 Engineers
 Expected
@@ -9551,6 +9612,7 @@ EXAMPLE
 Extends
 Experiments
 Ephemeral
+EDEEF
 validation
 visuals
 validated
@@ -9980,6 +10042,7 @@ NBt
 NII
 Natural
 Navigating
+NBA
 under
 users
 upload
@@ -10249,6 +10312,7 @@ unknown
 unproven
 urban
 uncertainty
+updateFromSliders
 phases
 problem
 placeholder
@@ -10698,6 +10762,11 @@ passed
 pole
 plain
 pressing
+pulse
+percent
+pct
+pPct
+parseInt
 goals
 give
 generates
@@ -10937,6 +11006,9 @@ gaming
 generalize
 general
 generalizable
+group
+genieTotal
+genieMax
 It
 If
 Inside
@@ -11186,6 +11258,7 @@ III
 Induction
 INFINITY
 INSIGHT
+Init
 you
 yet
 your
@@ -11731,6 +11804,7 @@ kqE
 kGN
 kGGKKK
 kYV
+keyframes
 questions
 quality
 question
@@ -11921,6 +11995,7 @@ qrQ
 qiu
 qVi
 querySelector
+quiet
 multiple
 mechanism
 missing
@@ -12247,6 +12322,10 @@ markerWidth
 markerHeight
 metaphors
 maybe
+monospace
+merging
+merge
+mPct
 Owners
 Opportunity
 Owner
@@ -12735,6 +12814,7 @@ Meta
 Mechanism
 Meperidine
 Morphine
+Mono
 UI
 Users
 User

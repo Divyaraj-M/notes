@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2b94707dde202fec",
+        "id": "13f384e038226ec9",
         "type": "tabs",
         "children": [
           {
-            "id": "69f7801f7838bba6",
+            "id": "2d8e2e7731cd7cba",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "eb4af261a65f93e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "html-view",
               "state": {
-                "file": "TO DO List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
               },
-              "icon": "lucide-file",
-              "title": "TO DO List"
+              "icon": "code-glyph",
+              "title": "progress-wireframe"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List"
+              "title": "Outline of progress-wireframe"
             }
           },
           {
@@ -238,9 +215,33 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "eb4af261a65f93e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TO DO List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TO DO List"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -329,27 +330,30 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "674e2914c6aaa177",
+  "active": "2d8e2e7731cd7cba",
   "lastOpenFiles": [
+    "Product/Projects/Progress bar/Untitled.md",
+    "Product/Projects/Progress bar/progress-wireframe.html",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
+    "Product/Projects/Progress bar",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
+    "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
+    "Books/Read List/Analogy vs Analogical thinking.pdf",
     "TO DO List.md",
     "Product/Untitled.md",
     "Untitled 1.md",
     "UAT Arya.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Product/Users/Sep2.security.md",
-    "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
     "Product/UAT Vipin.md",
     "Product/Users/Untitled.md",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-product-framework.html",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.xlsx",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.docx",
     "Books/Read List/Read List.md",
     "Learning/Analogical thinking vs Logical thinking",
-    "Books/Read List/Analogy vs Analogical thinking.pdf",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
@@ -366,10 +370,6 @@
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
-    "2026",
-    "Product/Top Deliverables/Product Vision.md",
-    "Product/Product Sync system",
-    "Product/UAT Shihab.md",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
