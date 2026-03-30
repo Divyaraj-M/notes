@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "TO DO List",
+      "path": "TO DO List.md"
+    },
+    {
+      "basename": "UAT Arya",
+      "path": "UAT Arya.md"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
+    },
+    {
       "basename": "Hybrid thinking product framework",
       "path": "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT Vipin.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Users/Untitled.md"
     },
     {
       "basename": "hybrid-thinking-worksheet",
@@ -33,36 +61,12 @@
       "path": "Books/Read List/Screenshot_20260316-101854.png"
     },
     {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT Vipin.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "UAT Arya",
-      "path": "UAT Arya.md"
-    },
-    {
       "basename": "Replace Email-Based User Display with Name and Team",
       "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
     },
     {
       "basename": "SparrowGenie_Answer_Actions_Dark",
       "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Users/Untitled.md"
     },
     {
       "basename": "Product Review system",
@@ -111,10 +115,6 @@
     {
       "basename": "Product Vision",
       "path": "Product/Top Deliverables/Product Vision.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Untitled.md"
     },
     {
       "basename": "UAT Shihab",
@@ -195,10 +195,6 @@
     {
       "basename": "Filter inside the projects screen for the question cards",
       "path": "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md"
-    },
-    {
-      "basename": "Sign up and Onboarding mails",
-      "path": "Product/UX changes/Sign up and Onboarding mails.md"
     }
   ],
   "omittedPaths": [],

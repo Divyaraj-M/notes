@@ -566,6 +566,7 @@ Discovery
 Deductive
 DOI
 Deduction
+Drag
 Who
 When
 What
@@ -1060,6 +1061,7 @@ wildly
 water
 willingness
 wouldn
+warn
 it
 is
 interaction
@@ -2385,6 +2387,8 @@ thin
 thesis
 triad
 toggleDetail
+trim
+tap
 PM
 PRD
 Problem
@@ -2691,6 +2695,7 @@ POLES
 PATTERNS
 PLAYBOOK
 Practice
+Progressive
 Before
 Blast
 BM
@@ -3289,6 +3294,7 @@ discover
 defs
 decouple
 dynamic
+descriptive
 starts
 sub
 screens
@@ -3866,6 +3872,8 @@ speak
 switchTab
 succeeds
 stepEl
+shortening
+strategies
 everyone
 exactly
 each
@@ -4243,6 +4251,7 @@ experiments
 ellipse
 ecologist
 economist
+excludes
 Story
 Stories
 Should
@@ -4816,6 +4825,7 @@ Lacks
 LTV
 LOOP
 Labels
+Latency
 After
 API
 All
@@ -5977,6 +5987,7 @@ Fitness
 Failed
 Falsifiable
 Framing
+Fires
 Goes
 Goals
 Gate
@@ -9539,6 +9550,7 @@ Epistemologically
 EXAMPLE
 Extends
 Experiments
+Ephemeral
 validation
 visuals
 validated
@@ -9967,6 +9979,7 @@ NqlDV
 NBt
 NII
 Natural
+Navigating
 under
 users
 upload
@@ -10684,6 +10697,7 @@ perfectly
 passed
 pole
 plain
+pressing
 goals
 give
 generates
@@ -12932,6 +12946,8 @@ UJMMM
 UVE
 URW
 Unproven
+Unchecking
+Unsupported
 XLS
 XLSX
 XXX
