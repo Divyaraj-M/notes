@@ -568,6 +568,7 @@ DOI
 Deduction
 Drag
 DESIGN
+Dynamically
 Who
 When
 What
@@ -2398,6 +2399,7 @@ toggleDetail
 trim
 tap
 translateX
+titleProperty
 PM
 PRD
 Problem
@@ -2933,6 +2935,7 @@ BOX
 Breaks
 BFA
 Bars
+Board
 design
 does
 do
@@ -3313,6 +3316,7 @@ dont
 dominance
 dPct
 dataset
+dayGridMonth
 starts
 sub
 screens
@@ -3895,6 +3899,7 @@ strategies
 stylesheet
 seg
 segment
+startDateProperty
 everyone
 exactly
 each
@@ -4624,6 +4629,7 @@ Sans
 Signal
 SCENARIO
 Scenarios
+Subtasks
 Lead
 Loop
 Linking
@@ -5155,6 +5161,7 @@ Arrows
 Accent
 Annotation
 Apr
+Agenda
 approved
 atomic
 and
@@ -5564,6 +5571,7 @@ abandon
 animation
 annotation
 animate
+asLink
 QA
 Question
 Quality
@@ -6840,6 +6848,7 @@ RESPONSIVE
 REFERENCE
 Recalculation
 RULES
+Relationships
 need
 needing
 nested
@@ -8177,6 +8186,7 @@ conf
 checking
 comp
 clamp
+columnWidth
 on
 owns
 one
@@ -9087,6 +9097,8 @@ loadScenario
 lowConf
 lPct
 lowReviewed
+listWeek
+listDayCount
 here
 has
 how
@@ -9359,6 +9371,7 @@ hybrid
 horse
 heuristics
 hPct
+hideEmptyColumns
 Every
 Engineers
 Expected
@@ -11603,6 +11616,7 @@ KJJ
 Ktt
 KHH
 KEY
+Kanban
 keep
 knowledge
 known

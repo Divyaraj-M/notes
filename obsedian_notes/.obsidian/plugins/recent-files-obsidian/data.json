@@ -5,6 +5,30 @@
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
+      "basename": "TO DO List",
+      "path": "TO DO List.md"
+    },
+    {
+      "basename": "kanban-default",
+      "path": "TaskNotes/Views/kanban-default.base"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
+    },
+    {
+      "basename": "agenda-default",
+      "path": "TaskNotes/Views/agenda-default.base"
+    },
+    {
+      "basename": "tasks-default",
+      "path": "TaskNotes/Views/tasks-default.base"
+    },
+    {
+      "basename": "relationships",
+      "path": "TaskNotes/Views/relationships.base"
+    },
+    {
       "basename": "Untitled",
       "path": "Product/Projects/Progress bar/Untitled.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "Analogy vs Analogical thinking",
       "path": "Books/Read List/Analogy vs Analogical thinking.pdf"
-    },
-    {
-      "basename": "TO DO List",
-      "path": "TO DO List.md"
     },
     {
       "basename": "UAT Arya",
@@ -133,10 +153,6 @@
       "path": "Daily/UAT Kavin.md"
     },
     {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/ROI Calculator/sparrowgenie-email-preview.html"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Answer types",
       "path": "Product/Projects/Answers/Answer types.md"
-    },
-    {
-      "basename": "Screenshot 2026-03-18 at 3.14.25 PM",
-      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png"
-    },
-    {
-      "basename": "Screenshot 2026-03-18 at 3.15.01 PM",
-      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png"
-    },
-    {
-      "basename": "Screenshot 2026-03-18 at 3.28.01 PM",
-      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png"
-    },
-    {
-      "basename": "Screenshot 2026-03-18 at 3.28.01 PM 1",
-      "path": "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png"
     }
   ],
   "omittedPaths": [],

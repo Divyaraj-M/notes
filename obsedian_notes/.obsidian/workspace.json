@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "13f384e038226ec9",
+        "id": "2e6b68d236c349bd",
         "type": "tabs",
         "children": [
           {
-            "id": "2d8e2e7731cd7cba",
+            "id": "95049c962516b51f",
             "type": "leaf",
             "state": {
               "type": "html-view",
@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -298,7 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -330,16 +330,21 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2d8e2e7731cd7cba",
+  "active": "95049c962516b51f",
   "lastOpenFiles": [
-    "Product/Projects/Progress bar/Untitled.md",
+    "TO DO List.md",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
     "Product/Projects/Progress bar/progress-wireframe.html",
+    "Product/Projects/Progress bar/Untitled.md",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
     "Product/Projects/Progress bar",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
-    "TO DO List.md",
     "Product/Untitled.md",
     "Untitled 1.md",
     "UAT Arya.md",
@@ -350,16 +355,11 @@
     "Product/Users/Untitled.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-product-framework.html",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.xlsx",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.docx",
     "Books/Read List/Read List.md",
-    "Learning/Analogical thinking vs Logical thinking",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-    "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html",
     "Product/Product Sync system/Product Review system.md",
     "Product/Users/Home page.md",
-    "Product/Users/Untitled.base",
     "Product/Templates/2026-W13.md",
     "Books/The 80'20 Principle.md",
     "2026/202603.md",
