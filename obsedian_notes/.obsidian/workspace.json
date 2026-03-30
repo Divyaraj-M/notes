@@ -209,13 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Decision-State Progress Bars"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -367,8 +367,9 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "a3b9a4951d1f9ee9",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "TO DO List - today.md",
     "Product/UAT",
@@ -379,7 +380,6 @@
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/relationships.base",
-    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
     "Product/Projects/Progress bar",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
