@@ -14,11 +14,11 @@
       "periodicNotesFolder": "",
       "shortcuts": [],
       "navRainbow": {
-        "mode": "none",
+        "mode": "foreground",
         "balanceHueLuminance": true,
-        "separateThemeColors": false,
+        "separateThemeColors": true,
         "shortcuts": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -26,7 +26,7 @@
           "transitionStyle": "rgb"
         },
         "recent": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#ef4444",
@@ -43,7 +43,7 @@
           "scope": "root"
         },
         "tags": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#fb7185",
@@ -52,7 +52,7 @@
           "scope": "root"
         },
         "properties": {
-          "enabled": false,
+          "enabled": true,
           "firstColor": "#ef4444",
           "lastColor": "#8b5cf6",
           "darkFirstColor": "#fb7185",
@@ -89,15 +89,15 @@
     "featureImagePixelSize": "synced",
     "uiScale": "synced"
   },
-  "createNewNotesInNewTab": false,
+  "createNewNotesInNewTab": true,
   "autoRevealActiveFile": true,
   "autoRevealShortestPath": true,
   "autoRevealIgnoreRightSidebar": true,
   "paneTransitionDuration": 150,
   "multiSelectModifier": "cmdCtrl",
-  "enterToOpenFiles": false,
-  "shiftEnterOpenContext": "tab",
-  "cmdCtrlEnterOpenContext": "split",
+  "enterToOpenFiles": true,
+  "shiftEnterOpenContext": "split",
+  "cmdCtrlEnterOpenContext": "window",
   "startView": "files",
   "showInfoButtons": true,
   "homepage": null,
@@ -150,7 +150,7 @@
   "collapseBehavior": "all",
   "smartCollapse": true,
   "autoSelectFirstFileOnFocusChange": false,
-  "autoExpandNavItems": false,
+  "autoExpandNavItems": true,
   "springLoadedFolders": true,
   "springLoadedFoldersInitialDelay": 0.5,
   "springLoadedFoldersSubsequentDelay": 0.5,
@@ -179,6 +179,7 @@
   "showTagIcons": true,
   "showAllTagsFolder": true,
   "showUntagged": true,
+  "scopeTagsToCurrentContext": false,
   "tagSortOrder": "alpha-asc",
   "inheritTagColors": true,
   "keepEmptyTagsProperty": false,
@@ -187,6 +188,7 @@
   "inheritPropertyColors": true,
   "propertySortOrder": "alpha-asc",
   "showAllPropertiesFolder": true,
+  "scopePropertiesToCurrentContext": false,
   "defaultListMode": "standard",
   "includeDescendantNotes": false,
   "defaultFolderSort": "modified-desc",
@@ -449,7 +451,7 @@
     "Product/Users": {
       "titleRows": 1
     },
-    "Product/ROI Calculator": {
+    "Product/Marketing/ROI Calculator": {
       "titleRows": 1
     }
   },
@@ -490,7 +492,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "2.5.3",
+  "lastShownVersion": "2.5.4",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []

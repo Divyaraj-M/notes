@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fd912214bdb53250",
+        "id": "fabbe3d8b2106457",
         "type": "tabs",
         "children": [
           {
-            "id": "a3b9a4951d1f9ee9",
+            "id": "eb5d8c20b0d63893",
             "type": "leaf",
             "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
-              },
-              "icon": "code-glyph",
-              "title": "progress-wireframe"
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
             }
           }
         ]
@@ -197,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline"
             }
           },
           {
@@ -355,12 +352,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "eddcc803fccfaf81",
   "lastOpenFiles": [
+    "Product/Marketing",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "Friction points.md",
-    "TO DO List - today.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+    "TO DO List - today.md",
+    "Friction points.md",
     "Product/Users/Sep2.security.md",
     "Product/UAT",
     "Product/Untitled.md",
