@@ -11,24 +11,12 @@
             "id": "a3b9a4951d1f9ee9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "html-view",
               "state": {
-                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
               },
-              "icon": "lucide-file",
-              "title": "Decision-State Progress Bars"
+              "icon": "code-glyph",
+              "title": "progress-wireframe"
             }
           }
         ]
@@ -369,11 +357,11 @@
   },
   "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/Projects/Progress bar/progress-wireframe.html",
     "Friction points.md",
+    "TO DO List - today.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Users/Sep2.security.md",
-    "TO DO List - today.md",
-    "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/UAT",
     "Product/Untitled.md",
     "TaskNotes/Views/kanban-default.base",

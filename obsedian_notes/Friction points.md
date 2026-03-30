@@ -5,4 +5,4 @@
 - [ ] Remind collaborators section wise 
 - [ ] Release notes @nagendrian 
 - [ ] Auto assign people -  @Mohammed Adil 
-- [ ] 
+- [ ] Instructions V 2 - @vipin

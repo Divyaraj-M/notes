@@ -5,6 +5,10 @@
       "path": "TO DO List - today.md"
     },
     {
+      "basename": "progress-wireframe",
+      "path": "Product/Projects/Progress bar/progress-wireframe.html"
+    },
+    {
       "basename": "Friction points",
       "path": "Friction points.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Sep2.security",
       "path": "Product/Users/Sep2.security.md"
-    },
-    {
-      "basename": "progress-wireframe",
-      "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
       "basename": "kanban-default",
