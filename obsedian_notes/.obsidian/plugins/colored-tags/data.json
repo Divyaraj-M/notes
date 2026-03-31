@@ -91,6 +91,7 @@
     "marketing/roi_calculator/v2": 1,
     "new_feature/conext_info/company_info": 1,
     "new_feature/conext_info/competitor_info": 2,
+    "new_feature/dossiers/permissions": 4,
     "new_feature/dossiers/proposal_templates": 1,
     "new_feature/dossiers/rfp_to_proposal": 2,
     "new_feature/dossiers/share": 3,

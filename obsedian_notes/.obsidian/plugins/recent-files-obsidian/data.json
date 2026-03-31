@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Project Permissions - RFx and Proposal",
+      "path": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
+    },
+    {
       "basename": "progress-wireframe",
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "Friction points",
@@ -183,18 +199,6 @@
     {
       "basename": "Demo",
       "path": "Product/Demo/Demo.md"
-    },
-    {
-      "basename": "Udemy",
-      "path": "second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Second_stream_revenue.excalidraw",
-      "path": "second_stream_revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Formulas Mathematics",
-      "path": "Learning/Data Science/mathematics I/Formulas Mathematics.md"
     }
   ],
   "omittedPaths": [],
