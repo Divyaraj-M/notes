@@ -258,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Permissions.excalidraw.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Permissions.excalidraw"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -312,7 +312,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -372,7 +372,8 @@
               "title": "Friction points"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "9140aa1d3d409719",
@@ -425,15 +426,15 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "549ccc61e61acf82",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
-    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "Friction points.md",
     "Excalidraw/Permissions.excalidraw.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
-    "Friction points.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "TO DO List - today.md",
