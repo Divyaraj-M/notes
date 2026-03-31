@@ -6,3 +6,6 @@
 - [ ] Release notes @nagendrian 
 - [ ] Auto assign people -  @Mohammed Adil 
 - [ ] Instructions V 2 - @vipin
+
+31-Mar-2026
+- [ ] Saving the current progress inside the mapping while going back for editing the project details 

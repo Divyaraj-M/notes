@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+                "file": "Friction points.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Project Permissions - RFx and Proposal"
+              "title": "Outline of Friction points"
             }
           },
           {
@@ -380,17 +380,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "9dc1825ca9378c09",
+  "active": "0cb49de0e84002f1",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "Friction points.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "TO DO List - today.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Marketing",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-    "Friction points.md",
     "Product/Users/Sep2.security.md",
     "Product/UAT",
     "Product/Untitled.md",
