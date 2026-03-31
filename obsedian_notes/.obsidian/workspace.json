@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Project Permissions - RFx and Proposal"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -380,11 +380,11 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "9dc1825ca9378c09",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
     "TO DO List - today.md",
     "Friction points.md",
-    "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
     "Untitled.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",

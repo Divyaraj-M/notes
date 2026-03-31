@@ -10,4 +10,5 @@ If u have nothing to do go to [[Friction points]]
 31-Mar-2026
 - [ ] Proposal Permission 
 - [ ] Competitor info by ai 
-- [ ] Prioirtise 
+- [ ] Prioritise the issues with madhan for this week 
+- [ ] 
