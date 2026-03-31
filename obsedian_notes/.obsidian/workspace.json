@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
+                "file": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
               },
               "icon": "excalidraw-icon",
               "title": "Proposal Conversion"
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,9 +42,45 @@
               "icon": "lucide-file",
               "title": "Project Permissions - RFx and Proposal"
             }
+          },
+          {
+            "id": "8483e97d88f79283",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Permissions - RFx and Proposal"
+            }
+          },
+          {
+            "id": "1a024f87f1f04c5f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Permissions.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Permissions.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -222,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Excalidraw/Permissions.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline of Permissions.excalidraw"
             }
           },
           {
@@ -264,9 +300,19 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
+          },
+          {
+            "id": "3b4bf7d5b847a9ce",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -326,8 +372,7 @@
               "title": "Friction points"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -380,18 +425,23 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "549ccc61e61acf82",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
-    "TO DO List - today.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "Excalidraw/Permissions.excalidraw.md",
+    "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
+    "Product/Projects/Proposals/Genie Templates - Propsals.md",
+    "Product/Projects/Proposals/Company Templates - Proposal.md",
+    "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Friction points.md",
-    "Untitled.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/RFP to Proposal/RFP to Proposal.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
-    "Product/Marketing",
-    "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+    "Product/Projects/Progress bar/progress-wireframe.html",
+    "TO DO List - today.md",
+    "Untitled.md",
+    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
+    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
+    "Product/Marketing",
     "Product/Users/Sep2.security.md",
     "Product/UAT",
     "Product/Untitled.md",
@@ -414,11 +464,6 @@
     "Books/Read List/Read List.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-    "Product/Product Sync system/Product Review system.md",
-    "Product/Users/Home page.md",
-    "Product/Templates/2026-W13.md",
-    "Books/The 80'20 Principle.md",
-    "2026/202603.md",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",

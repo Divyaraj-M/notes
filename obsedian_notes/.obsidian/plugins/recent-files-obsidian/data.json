@@ -1,36 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
+      "basename": "Permissions.excalidraw",
+      "path": "Excalidraw/Permissions.excalidraw.md"
     },
     {
       "basename": "Project Permissions - RFx and Proposal",
-      "path": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md"
+      "path": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md"
+    },
+    {
+      "basename": "Share first principle",
+      "path": "Product/Projects/Proposals/Share for the proposal/Share first principle.md"
+    },
+    {
+      "basename": "Genie Templates - Propsals",
+      "path": "Product/Projects/Proposals/Genie Templates - Propsals.md"
+    },
+    {
+      "basename": "Company Templates - Proposal",
+      "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
+    },
+    {
+      "basename": "My Templates - Proposal (Next phase)",
+      "path": "Product/Projects/Proposals/My Templates - Proposal (Next phase).md"
     },
     {
       "basename": "Friction points",
       "path": "Friction points.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md"
+      "basename": "Decision-State Progress Bars",
+      "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
     },
     {
       "basename": "progress-wireframe",
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
-      "basename": "Decision-State Progress Bars",
-      "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md"
     },
     {
       "basename": "Sep2.security",
@@ -179,22 +199,6 @@
     {
       "basename": "laundry list",
       "path": "Product/laundry List/laundry list.md"
-    },
-    {
-      "basename": "Email notifications",
-      "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
-      "basename": "Go - No- Go",
-      "path": "Product/Go-no-go/Go - No- Go.md"
-    },
-    {
-      "basename": "PRD Feature Name",
-      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "Daily/UAT vipin 2026-02-23.md"
     }
   ],
   "omittedPaths": [],
