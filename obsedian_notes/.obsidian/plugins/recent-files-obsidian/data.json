@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Friction points",
-      "path": "Friction points.md"
-    },
-    {
       "basename": "Project Permissions - RFx and Proposal",
       "path": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md"
     },
     {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
       "basename": "TO DO List - today",
       "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "Friction points",
+      "path": "Friction points.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "RFP to Proposal",
@@ -195,10 +195,6 @@
     {
       "basename": "UAT vipin 2026-02-23",
       "path": "Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "Demo",
-      "path": "Product/Demo/Demo.md"
     }
   ],
   "omittedPaths": [],

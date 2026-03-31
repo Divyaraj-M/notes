@@ -7,3 +7,7 @@ If u have nothing to do go to [[Friction points]]
 - [ ] Navigation inside the Project Editor Screen
 - [ ] Genie AI Added as a user
 - [ ] Rich Text and Attachments discussion
+31-Mar-2026
+- [ ] Proposal Permission 
+- [ ] Competitor info by ai 
+- [ ] Prioirtise 

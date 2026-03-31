@@ -69,22 +69,12 @@
             }
           },
           {
-            "id": "eddcc803fccfaf81",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
-            }
-          },
-          {
             "id": "eb61e999624953f5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#product/flow",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,9 +107,19 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
+          },
+          {
+            "id": "549ccc61e61acf82",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Friction points.md",
+                "file": "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Friction points"
+              "title": "Outline of Project Permissions - RFx and Proposal"
             }
           },
           {
@@ -380,12 +380,13 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "0cb49de0e84002f1",
+  "active": "9dc1825ca9378c09",
   "lastOpenFiles": [
-    "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
-    "Friction points.md",
-    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "TO DO List - today.md",
+    "Friction points.md",
+    "Product/Projects/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "Untitled.md",
+    "Product/Projects/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/RFP to Proposal/RFP to Proposal.md",
     "Product/Projects/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Marketing",
@@ -418,7 +419,6 @@
     "Product/Templates/2026-W13.md",
     "Books/The 80'20 Principle.md",
     "2026/202603.md",
-    "Books/A little life.md",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",
