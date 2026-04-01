@@ -11,24 +11,10 @@
             "id": "8483e97d88f79283",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Share - RFx and Proposal"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -263,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -401,15 +387,15 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "0cb49de0e84002f1",
+  "active": "8483e97d88f79283",
   "lastOpenFiles": [
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "TO DO List - today.md",
     "Friction points.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "TO DO List - today.md",
     "Excalidraw/Permissions.excalidraw.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
