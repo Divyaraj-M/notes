@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/dossiers/permissions",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -348,7 +348,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "9140aa1d3d409719",
@@ -401,7 +401,7 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "c6727febc1419723",
+  "active": "0cb49de0e84002f1",
   "lastOpenFiles": [
     "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",

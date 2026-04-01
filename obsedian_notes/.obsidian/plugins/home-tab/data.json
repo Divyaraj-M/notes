@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-      "timestamp": 1775036528058
+      "filepath": "Friction points.md",
+      "timestamp": 1775038240856
     },
     {
       "filepath": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
-      "timestamp": 1775036389107
+      "timestamp": 1775037701705
+    },
+    {
+      "filepath": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+      "timestamp": 1775036528058
     },
     {
       "filepath": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
       "timestamp": 1775030147975
-    },
-    {
-      "filepath": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-      "timestamp": 1775030136427
     }
   ],
   "bookmarkedFileStore": [
