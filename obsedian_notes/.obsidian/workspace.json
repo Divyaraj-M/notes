@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Project Share - RFx and Proposal"
             }
           }
         ]
@@ -401,13 +401,13 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "8483e97d88f79283",
   "lastOpenFiles": [
-    "Product/UAT/UAT Vipin.md",
-    "Product/Users/Sep2.security.md",
-    "Friction points.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "TO DO List - today.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "Product/Users/Sep2.security.md",
+    "Product/UAT/UAT Vipin.md",
+    "Friction points.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
