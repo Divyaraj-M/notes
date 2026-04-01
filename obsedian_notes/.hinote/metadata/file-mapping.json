@@ -3,7 +3,8 @@
   "mapping": {
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md": "product_projects_proposals_rfp_to_proposal_thinking.md.json",
     "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md": "product_projects_proposals_rfp_to_proposal_project_permissions_-_rfx_and_proposal.md.json",
-    "Friction points.md": "friction_points.md.json"
+    "Friction points.md": "friction_points.md.json",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md": "product_projects_proposals_rfp_to_proposal_project_share_-_rfx_and_proposal.md.json"
   },
-  "lastUpdated": 1775038240909
+  "lastUpdated": 1775040486841
 }

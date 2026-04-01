@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Permissions - RFx and Proposal"
+              "title": "Project Share - RFx and Proposal"
             }
           }
         ]
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#new_feature/dossiers/permissions",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -403,12 +403,12 @@
   },
   "active": "0cb49de0e84002f1",
   "lastOpenFiles": [
-    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "Friction points.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "Friction points.md",
     "TO DO List - today.md",
     "Excalidraw/Permissions.excalidraw.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
