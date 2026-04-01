@@ -16,4 +16,7 @@
 		- Document type 
 		- Progress
 
-	- 
+	- Only Proposal 
+	- RFx with proposal 
+	- Only RFP
+- 
