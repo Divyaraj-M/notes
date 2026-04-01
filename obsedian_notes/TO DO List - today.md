@@ -8,7 +8,12 @@ If u have nothing to do go to [[Friction points]]
 - [ ] Genie AI Added as a user
 - [ ] Rich Text and Attachments discussion
 31-Mar-2026
-- [x] Proposal Permission 
+- [x] Proposal Permission - Ideation 
 - [ ] Competitor info by ai  
 - [ ] 5 help articles  
-- [ ] Prioritise the issues with madhan for this week
+- [x] Prioritise the issues with madhan for this week
+01-Apr-2026
+- [ ] Proposal Changes PRD 
+- [ ] Competitor info by ai  PRD
+- [ ] 5 help articles  
+- [ ] Get the design from joel for Proposal 

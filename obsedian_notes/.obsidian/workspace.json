@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb5d8c20b0d63893",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Proposal Conversion"
-            }
-          },
-          {
             "id": "9dc1825ca9378c09",
             "type": "leaf",
             "state": {
@@ -66,21 +54,8 @@
               "icon": "lucide-file",
               "title": "Project Permissions - RFx and Proposal"
             }
-          },
-          {
-            "id": "1a024f87f1f04c5f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Permissions.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Permissions.excalidraw"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,19 +118,9 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "549ccc61e61acf82",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -226,8 +191,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -307,8 +272,8 @@
             "state": {
               "type": "excalidraw-sidepanel",
               "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
+              "icon": "lucide-ghost",
+              "title": "excalidraw-sidepanel"
             }
           }
         ],
@@ -398,7 +363,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -407,37 +371,28 @@
       "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
       "bookshelf:Open Bookshelf library": false,
       "bookshelf:Open Bookshelf statistics": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "hi-note:HiNote": false,
-      "tasknotes:Open mini calendar": false,
-      "tasknotes:Open advanced calendar": false,
-      "tasknotes:Open task list": false,
-      "tasknotes:Open agenda": false,
-      "tasknotes:Open kanban board": false,
-      "tasknotes:Open pomodoro": false,
-      "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "notebook-navigator:Notebook Navigator": false
+      "notebook-navigator:Notebook Navigator": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
+    "TO DO List - today.md",
     "Friction points.md",
     "Excalidraw/Permissions.excalidraw.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "TO DO List - today.md",
     "Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
