@@ -45,14 +45,15 @@ Additionally, the existing role names (Owner / Manager / Participant / Watcher) 
 
 ## 4. User Stories
 
-|#|User Type|I want to...|So that...|Priority|
-|---|---|---|---|---|
-|US-1|Project Owner|Invite a user once and have them access both questions and proposal|I don't manage two separate share lists|P0|
-|US-2|Legal Reviewer|Comment on both the proposal and questions without editing content|I can flag issues without accidentally changing answers|P0|
-|US-3|Editor|Edit proposal content/layout, add/remove sections, and export|I can build and finalize the proposal document|P0|
-|US-4|Owner|Publish/share the proposal externally|The finalized proposal reaches the client|P0|
-|US-5|Viewer|See the full project and proposal in read-only mode|I stay informed without disrupting the workflow|P1|
-|US-6|Any user with Create permission|Create a standalone proposal not linked to an RFP|I can build proposals from scratch for non-RFP deals|P0|
+| #    | User Type                       | I want to...                                                        | So that...                                              | Priority |
+| ---- | ------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | -------- |
+| US-1 | Project Owner                   | Invite a user once and have them access both questions and proposal | I don't manage two separate share lists                 | P0       |
+| US-2 | Legal Reviewer                  | Comment on both the proposal and questions without editing content  | I can flag issues without accidentally changing answers | P0       |
+| US-3 | Editor                          | Edit proposal content/layout, add/remove sections, and export       | I can build and finalize the proposal document          | P0       |
+| US-4 | Owner                           | Publish/share the proposal externally                               | The finalized proposal reaches the client               | P0       |
+| US-5 | Viewer                          | See the full project and proposal in read-only mode                 | I stay informed without disrupting the workflow         | P1       |
+| US-6 | Any user with Create permission | Create a standalone proposal not linked to an RFP                   | I can build proposals from scratch for non-RFP deals    | P0       |
+
 
 ---
 
@@ -62,10 +63,10 @@ Additionally, the existing role names (Owner / Manager / Participant / Watcher) 
 
 #### Role Rename
 
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P0.1|Rename project-level roles: Owner (unchanged), Manager → Editor, Participant → Commenter (new behavior), Watcher → Viewer|Given any project, When roles are displayed in share modal / collaborator list / activity log, Then the new role names appear. Old role names do not appear anywhere in the UI.|
-|P0.2|Migrate all existing role assignments: Manager → Editor, Participant → Editor (preserve edit rights), Watcher → Viewer|Given existing projects with assigned roles, When the migration runs, Then no user loses capabilities they previously had. Existing Participants become Editors (not Commenters) to preserve backward compatibility.|
+| #    | Requirement                                                                                                               | Acceptance Criteria                                                                                                                                                                                                  |
+| ---- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P0.1 | Rename project-level roles: Owner (unchanged), Manager → Editor, Participant → Commenter (new behavior), Watcher → Viewer | Given any project, When roles are displayed in share modal / collaborator list / activity log, Then the new role names appear. Old role names do not appear anywhere in the UI.                                      |
+| P0.2 | Migrate all existing role assignments: Manager → Editor, Participant → Editor (preserve edit rights), Watcher → Viewer    | Given existing projects with assigned roles, When the migration runs, Then no user loses capabilities they previously had. Existing Participants become Editors (not Commenters) to preserve backward compatibility. |
 
 #### Commenter Role
 

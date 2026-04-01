@@ -268,6 +268,7 @@ TRIAD
 Testable
 TESTING
 Toast
+Types
 Docs
 Doc
 Designer
@@ -575,6 +576,7 @@ Dim
 Derived
 Denominator
 Desgin
+Demote
 Who
 When
 What
@@ -803,6 +805,7 @@ Worksheet
 Worked
 WALKTHROUGH
 WORKED
+WCAG
 writes
 we
 work
@@ -1445,6 +1448,11 @@ infinite
 insightEl
 instruction
 independent
+invite
+invites
+initiate
+intrusive
+incidents
 reads
 references
 requirements
@@ -1886,6 +1894,17 @@ realDraft
 respectively
 restore
 reloads
+refactor
+reaches
+rights
+reply
+reopen
+reassign
+resolved
+resolves
+revalidates
+refresh
+restriction
 Jira
 Jdjxj
 JIvrU
@@ -2049,6 +2068,7 @@ JSON
 JSCI
 Justified
 JetBrains
+Joel
 tickets
 tasks
 this
@@ -2420,6 +2440,7 @@ titleProperty
 tiering
 touched
 taken
+tries
 PM
 PRD
 Problem
@@ -2733,6 +2754,10 @@ Prioirtise
 Prioritise
 Porgress
 PRoject
+Principle
+Planned
+Participate
+Posts
 Before
 Blast
 BM
@@ -2962,6 +2987,8 @@ BFA
 Bars
 Board
 BAR
+Banner
+Baseline
 design
 does
 do
@@ -3355,6 +3382,10 @@ deselects
 destination
 distinguish
 divyaraj
+discuss
+distinguishes
+downgraded
+dismissible
 starts
 sub
 screens
@@ -3945,6 +3976,10 @@ syncSliders
 sums
 segmented
 subordinate
+stickiness
+sessions
+scopes
+stable
 everyone
 exactly
 each
@@ -4325,6 +4360,9 @@ economist
 excludes
 exceed
 enriching
+enabling
+externally
+escalation
 Story
 Stories
 Should
@@ -4683,6 +4721,8 @@ Simplest
 Sliders
 Segments
 Segment
+Standalone
+Sentry
 Lead
 Loop
 Linking
@@ -5220,6 +5260,8 @@ Actually
 Activate
 Adil
 Artifacts
+Additionally
+Architect
 approved
 atomic
 and
@@ -5644,6 +5686,11 @@ artifacts
 ability
 artifact
 alinged
+accidentally
+anywhere
+activities
+attempt
+addressed
 QA
 Question
 Quality
@@ -6293,6 +6340,8 @@ Gather
 Generative
 Generates
 Generation
+Granular
+Gated
 build
 break
 back
@@ -6603,6 +6652,8 @@ banner
 btns
 brightness
 banners
+backward
+bugs
 Requirements
 Radius
 Rules
@@ -6927,6 +6978,10 @@ Remind
 Recalc
 Reset
 Release
+Reopen
+Reassign
+Rerun
+Renamed
 need
 needing
 nested
@@ -7178,6 +7233,7 @@ nbaLabel
 nbaText
 nPct
 nagendrian
+notification
 Constraints
 Contracts
 Completable
@@ -7516,6 +7572,10 @@ Clamp
 Changing
 Clickable
 Commenter
+Comment
+Commenters
+Collaborator
+Contextual
 How
 Hubs
 Hub
@@ -8282,6 +8342,12 @@ conflates
 couldn
 cutoff
 collaborate
+collaborator
+compatibility
+commenting
+conditional
+cascading
+collapsible
 on
 owns
 one
@@ -8560,6 +8626,7 @@ operates
 orient
 onSlider
 overrides
+opened
 flows
 from
 full
@@ -8886,6 +8953,8 @@ fade
 fine
 filterConfig
 filterKey
+finance
+finalized
 live
 links
 locked
@@ -9198,6 +9267,8 @@ lPct
 lowReviewed
 listWeek
 listDayCount
+leadership
+loses
 here
 has
 how
@@ -9727,6 +9798,8 @@ Extends
 Experiments
 Ephemeral
 EDEEF
+Editors
+Externally
 validation
 visuals
 validated
@@ -10157,6 +10230,8 @@ NII
 Natural
 Navigating
 NBA
+Notification
+Navigates
 under
 users
 upload
@@ -10887,6 +10962,10 @@ parseInt
 pillClass
 proportional
 pink
+preventing
+participation
+posts
+posted
 goals
 give
 generates
@@ -11130,6 +11209,8 @@ group
 genieTotal
 genieMax
 google
+granted
+glance
 It
 If
 Inside
@@ -11383,6 +11464,8 @@ Init
 Insight
 Ideation
 Impacting
+Invited
+Insufficient
 you
 yet
 your
@@ -12453,6 +12536,8 @@ merging
 merge
 mPct
 madhan
+migration
+migrate
 Owners
 Opportunity
 Owner
@@ -12673,6 +12758,8 @@ OLLLt
 OFqb
 OJJ
 Operational
+Own
+Ongoing
 Metric
 Manager
 Must
@@ -12944,6 +13031,9 @@ Morphine
 Mono
 Modifying
 Mohammed
+Migrate
+Migration
+Merge
 UI
 Users
 User
@@ -13157,6 +13247,7 @@ URW
 Unproven
 Unchecking
 Unsupported
+Unify
 XLS
 XLSX
 XXX
