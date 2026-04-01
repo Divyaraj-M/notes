@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9dc1825ca9378c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Permissions - RFx and Proposal"
-            }
-          },
-          {
             "id": "8483e97d88f79283",
             "type": "leaf",
             "state": {
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#product/flow",
+                "query": "tag:#new_feature/dossiers/permissions",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,9 +94,19 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
+          },
+          {
+            "id": "9a55d6d184d2f001",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -277,7 +263,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -336,9 +322,33 @@
               "icon": "lucide-file",
               "title": "Friction points"
             }
+          },
+          {
+            "id": "c6727febc1419723",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thinking"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "9140aa1d3d409719",
@@ -378,14 +388,28 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "notebook-navigator:Notebook Navigator": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro timer": false,
+      "tasknotes:Open pomodoro statistics": false,
+      "tasknotes:Create new task": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "8483e97d88f79283",
   "lastOpenFiles": [
+    "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md",
-    "TO DO List - today.md",
+    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
+    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
+    "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "Friction points.md",
+    "TO DO List - today.md",
     "Excalidraw/Permissions.excalidraw.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
@@ -394,9 +418,6 @@
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Untitled.md",
-    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "Product/Marketing",
     "Product/Users/Sep2.security.md",
     "Product/UAT",
@@ -419,7 +440,6 @@
     "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
     "Books/Read List/Read List.md",
     "Books/Read List/Screenshot_20260316-101854.png",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png",

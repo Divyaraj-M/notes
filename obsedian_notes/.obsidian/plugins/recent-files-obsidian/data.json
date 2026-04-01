@@ -5,12 +5,28 @@
       "path": "Product/Projects/Proposals/RFP to Proposal/Project Permissions - RFx and Proposal.md"
     },
     {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
+      "basename": "Thinking",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
+      "basename": "Proposal Conversion Flow",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md"
+    },
+    {
+      "basename": "RFP to Proposal",
+      "path": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
     },
     {
       "basename": "Friction points",
       "path": "Friction points.md"
+    },
+    {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
     },
     {
       "basename": "Permissions.excalidraw",
@@ -39,18 +55,6 @@
     {
       "basename": "progress-wireframe",
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md"
     },
     {
       "basename": "Sep2.security",
@@ -195,10 +199,6 @@
     {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
-    },
-    {
-      "basename": "laundry list",
-      "path": "Product/laundry List/laundry list.md"
     }
   ],
   "omittedPaths": [],

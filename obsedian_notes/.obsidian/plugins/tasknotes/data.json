@@ -48,6 +48,7 @@
     "enableTimeblocking": false,
     "defaultShowTimeblocks": true,
     "defaultTimeblockColor": "#6366f1",
+    "timeblockAttachmentSearchOrder": "name-asc",
     "nowIndicator": true,
     "selectMirror": true,
     "weekNumbers": false,
@@ -148,7 +149,8 @@
     "icsEventId": "icsEventId",
     "icsEventTag": "ics_event",
     "googleCalendarEventId": "googleCalendarEventId",
-    "reminders": "reminders"
+    "reminders": "reminders",
+    "sortOrder": "tasknotes_manual_order"
   },
   "customStatuses": [
     {
@@ -328,7 +330,7 @@
     "includeObsidianLink": true,
     "defaultReminderMinutes": null
   },
-  "lastSeenVersion": "4.4.0",
+  "lastSeenVersion": "4.5.1",
   "modalFieldsConfig": {
     "version": 1,
     "fields": [
@@ -486,5 +488,6 @@
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-03-15"
+  "lastPomodoroDate": "2026-03-15",
+  "enableDebugLogging": false
 }
