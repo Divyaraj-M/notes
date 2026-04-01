@@ -17,3 +17,4 @@ If u have nothing to do go to [[Friction points]]
 - [ ] Competitor info by ai  PRD
 - [ ] 5 help articles  
 - [ ] Get the design from joel for Proposal 
+- [ ] 

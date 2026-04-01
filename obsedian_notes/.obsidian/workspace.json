@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Users/Sep2.security.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sep2.security"
+              "title": "UAT Vipin"
             }
           }
         ]
@@ -401,8 +401,10 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "8483e97d88f79283",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/UAT/UAT Vipin.md",
+    "Product/Users/Sep2.security.md",
     "Friction points.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "TO DO List - today.md",
@@ -419,7 +421,6 @@
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Untitled.md",
     "Product/Marketing",
-    "Product/Users/Sep2.security.md",
     "Product/UAT",
     "Product/Untitled.md",
     "TaskNotes/Views/kanban-default.base",
@@ -435,7 +436,6 @@
     "Product/UAT/UAT Arya.md",
     "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
     "Learning/Top Deliverables/Edge case Analysis.md",
-    "Product/UAT/UAT Vipin.md",
     "Product/Users/Untitled.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md",
     "Books/Read List/Read List.md",
