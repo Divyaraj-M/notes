@@ -18,3 +18,6 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ] 5 help articles  
 - [x] Get the design from joel for Proposal 
 02-Apr-2026
+- [ ] 10 Articles
+- [ ] 
+- [ ] 
