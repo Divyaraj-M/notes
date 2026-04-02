@@ -96,10 +96,10 @@ Additionally, the existing role names (Owner / Manager / Participant / Watcher) 
 
 #### Standalone Proposal Creation
 
-|#|Requirement|Acceptance Criteria|
-|---|---|---|
-|P0.14|Users with "Create" system-level permission can create standalone proposals (not linked to an RFP)|Given a user with Create permission, When they initiate proposal creation, Then they can create a blank proposal. The creator becomes Owner by default.|
-|P0.15|Standalone proposals follow the same role and share model as RFP-linked proposals|Given a standalone proposal, When shared via the share modal, Then Owner/Editor/Commenter/Viewer roles apply identically to RFP-linked proposals.|
+| #     | Requirement                                                                                        | Acceptance Criteria                                                                                                                                     |
+| ----- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P0.14 | Users with "Create" system-level permission can create standalone proposals (not linked to an RFP) | Given a user with Create permission, When they initiate proposal creation, Then they can create a blank proposal. The creator becomes Owner by default. |
+| P0.15 | Standalone proposals follow the same role and share model as RFP-linked proposals                  | Given a standalone proposal, When shared via the share modal, Then Owner/Editor/Commenter/Viewer roles apply identically to RFP-linked proposals.       |
 
 ### Nice-to-Have (P1)
 
@@ -167,30 +167,30 @@ _This replaces the previous matrix from v1. Changes: Manager → Editor, Partici
 
 ### Questions Workspace Actions
 
-|Action|Owner|Editor|Commenter|Viewer|
-|---|---|---|---|---|
-|View project (all questions)|✓|✓|✓|✓|
-|View activities tab|✓|✓|✓|✓|
-|Comment in discussions|✓|✓|✓|—|
-|View Knowledge Sources|✓|✓|✓|✓|
-|Write / Edit assigned answer|✓|✓|—|—|
-|Run Genie on question(s)|✓|✓|—|—|
-|Approve assigned question|✓|✓|—|—|
-|Reopen approved question (assigned)|✓|✓|—|—|
-|Change status (assigned questions)|✓|✓|—|—|
-|Bulk actions (assigned only)|✓|✓|—|—|
-|Reassign questions (assigned only)|✓|✓|—|—|
-|Write / Edit unassigned questions|✓|✓|—|—|
-|Rerun Genie|✓|✓|—|—|
-|Approve unassigned question|✓|✓|—|—|
-|Edit project metadata|✓|✓|—|—|
-|Remove collaborator|✓|✓|—|—|
-|Assign Author / Approver|✓|✓|—|—|
-|Promote Viewer → Editor|✓|✓|—|—|
-|Delete project|✓|✓*|—|—|
-|Export project|✓|✓|—|—|
-|Contextual Mapping / Instructions / KS|✓|✓|—|—|
-|Demote Editor → Viewer|✓|—|—|—|
+| Action                                 | Owner | Editor | Commenter | Viewer |
+| -------------------------------------- | ----- | ------ | --------- | ------ |
+| View project (all questions)           | ✓     | ✓      | ✓         | ✓      |
+| View activities tab                    | ✓     | ✓      | ✓         | ✓      |
+| Comment in discussions                 | ✓     | ✓      | ✓         | —      |
+| View Knowledge Sources                 | ✓     | ✓      | ✓         | ✓      |
+| Write / Edit assigned answer           | ✓     | ✓      | —         | —      |
+| Run Genie on question(s)               | ✓     | ✓      | —         | —      |
+| Approve assigned question              | ✓     | ✓      | —         | —      |
+| Reopen approved question (assigned)    | ✓     | ✓      | —         | —      |
+| Change status (assigned questions)     | ✓     | ✓      | —         | —      |
+| Bulk actions (assigned only)           | ✓     | ✓      | —         | —      |
+| Reassign questions (assigned only)     | ✓     | ✓      | —         | —      |
+| Write / Edit unassigned questions      | ✓     | ✓      | —         | —      |
+| Rerun Genie                            | ✓     | ✓      | —         | —      |
+| Approve unassigned question            | ✓     | ✓      | —         | —      |
+| Edit project metadata                  | ✓     | ✓      | —         | —      |
+| Remove collaborator                    | ✓     | ✓      | —         | —      |
+| Assign Author / Approver               | ✓     | ✓      | —         | —      |
+| Promote Viewer → Editor                | ✓     | ✓      | —         | —      |
+| Delete project                         | ✓     | ✓*     | —         | —      |
+| Export project                         | ✓     | ✓      | —         | —      |
+| Contextual Mapping / Instructions / KS | ✓     | ✓      | —         | —      |
+| Demote Editor → Viewer                 | ✓     | —      | —         | —      |
 
 _* Editor delete is conditional on global system policy + project-level settings._
 
