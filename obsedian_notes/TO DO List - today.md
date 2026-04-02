@@ -17,4 +17,4 @@ If u have nothing to do go to [[Friction points]]
 - [ ] Competitor info by ai  PRD
 - [ ] 5 help articles  
 - [x] Get the design from joel for Proposal 
-- [ ] 
+02-Apr-2026
