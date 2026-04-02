@@ -142,8 +142,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -164,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662,
-    "collapsed": true
+    "width": 310.5066738128662
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -440,12 +438,12 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "2658908dbf330066",
+  "active": "681d9fb88f64f790",
   "lastOpenFiles": [
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Product/UAT/UAT Vipin.md",
     "TO DO List - today.md",
     "Friction points.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",

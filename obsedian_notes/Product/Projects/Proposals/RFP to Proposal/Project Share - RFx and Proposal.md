@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#new_feature/dossiers/permissions"
+  - "#new_feature/dossiers/permissions/v2"
 ---
 ## First Principle
 
