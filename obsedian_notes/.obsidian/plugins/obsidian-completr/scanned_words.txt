@@ -1905,6 +1905,7 @@ resolves
 revalidates
 refresh
 restriction
+rfps
 Jira
 Jdjxj
 JIvrU
@@ -4363,6 +4364,8 @@ enriching
 enabling
 externally
 escalation
+escape
+excel
 Story
 Stories
 Should
@@ -4723,6 +4726,7 @@ Segments
 Segment
 Standalone
 Sentry
+Sequential
 Lead
 Loop
 Linking
@@ -5691,6 +5695,7 @@ anywhere
 activities
 attempt
 addressed
+altogether
 QA
 Question
 Quality
@@ -6982,6 +6987,7 @@ Reopen
 Reassign
 Rerun
 Renamed
+Reviewers
 need
 needing
 nested
@@ -9544,6 +9550,7 @@ hPct
 hideEmptyColumns
 highConf
 horizontal
+hatch
 Every
 Engineers
 Expected

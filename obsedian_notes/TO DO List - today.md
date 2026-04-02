@@ -1,5 +1,5 @@
 
-If u have nothing to do go to [[Friction points]]
+If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 30-Mar-2026
 - [x] Progress Bar Recalculation
 - [ ]  RFP to Proposal PRD  

@@ -5,16 +5,20 @@
       "path": "TO DO List - today.md"
     },
     {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT/UAT Vipin.md"
+    },
+    {
       "basename": "Project Share - RFx and Proposal",
       "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
     },
     {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
+      "basename": "UAT Kavin",
+      "path": "Daily/UAT Kavin.md"
     },
     {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT/UAT Vipin.md"
+      "basename": "Sep2.security",
+      "path": "Product/Users/Sep2.security.md"
     },
     {
       "basename": "Friction points",
@@ -191,10 +195,6 @@
     {
       "basename": "UAT Shihab",
       "path": "Product/UAT/UAT Shihab.md"
-    },
-    {
-      "basename": "UAT Kavin",
-      "path": "Daily/UAT Kavin.md"
     },
     {
       "basename": "sparrowgenie-email-preview",
