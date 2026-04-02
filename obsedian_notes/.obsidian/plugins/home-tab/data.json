@@ -24,6 +24,14 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Help articles /01-MASTER-INDEX.md",
+      "timestamp": 1775150970639
+    },
+    {
+      "filepath": "Help articles /03-WRITING-SCHEDULE.md",
+      "timestamp": 1775150968055
+    },
+    {
       "filepath": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
       "timestamp": 1775140835320
     },
@@ -34,10 +42,6 @@
     {
       "filepath": "TaskNotes/Views/kanban-default.base",
       "timestamp": 1775137779851
-    },
-    {
-      "filepath": "Product/Projects/Proposals/RFP to Proposal/wireframe.html",
-      "timestamp": 1775137592671
     }
   ],
   "bookmarkedFileStore": [

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+                "file": "Help articles /01-MASTER-INDEX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Share - RFx and Proposal"
+              "title": "01-MASTER-INDEX"
             }
           },
           {
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -501,11 +501,23 @@
   },
   "active": "2658908dbf330066",
   "lastOpenFiles": [
+    "Help articles /03-WRITING-SCHEDULE.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "Help articles /projects/tracking",
+    "Help articles /projects/reviewing",
+    "Help articles /projects/mapping",
+    "Help articles /projects/importing",
+    "Help articles /projects/exporting",
+    "Help articles /projects/creating",
+    "Help articles /projects/collaborating",
+    "Help articles /projects/ai-answer-fill",
+    "Help articles /projects",
+    "Help articles /knowledge-hub",
+    "Help articles /02-ARTICLE-TEMPLATE.md",
+    "Help articles /01-MASTER-INDEX.md",
+    "Help articles /00-SYSTEM-DESIGN.md",
     "TO DO List - today.md",
     "Untitled.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "TaskNotes/Views/kanban-default.base",
-    "Product/Projects/Proposals/RFP to Proposal/wireframe.html",
     "Product/Projects/Proposals/RFP to Proposal/SparrowGenie_Internal_Collaboration_v2_PRD.md",
     "Product/UAT/UAT Vipin.md",
     "Friction points.md",
@@ -521,21 +533,9 @@
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-    "Product/Projects/Progress bar/progress-wireframe.html",
-    "Product/Marketing",
-    "Product/UAT",
     "Product/Untitled.md",
-    "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/tasks-default.base",
-    "TaskNotes/Views/relationships.base",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html",
     "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
     "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
-    "Untitled 1.md",
-    "Product/UAT/UAT Arya.md",
-    "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
-    "Learning/Top Deliverables/Edge case Analysis.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

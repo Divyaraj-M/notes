@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "01-MASTER-INDEX",
+      "path": "Help articles /01-MASTER-INDEX.md"
+    },
+    {
+      "basename": "03-WRITING-SCHEDULE",
+      "path": "Help articles /03-WRITING-SCHEDULE.md"
+    },
+    {
       "basename": "Project Share - RFx and Proposal",
       "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
       "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
-    },
-    {
-      "basename": "Product Vision",
-      "path": "Product/Top Deliverables/Product Vision.md"
     }
   ],
   "omittedPaths": [],

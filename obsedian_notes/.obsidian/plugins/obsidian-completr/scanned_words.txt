@@ -271,6 +271,7 @@ Toast
 Types
 Toggle
 TOPBAR
+Troubleshooting
 Docs
 Doc
 Designer
@@ -587,6 +588,10 @@ Downloading
 DIALOG
 DATA
 Drafts
+Duration
+Day
+Delegation
+Dashboard
 Who
 When
 What
@@ -816,6 +821,7 @@ Worked
 WALKTHROUGH
 WORKED
 WCAG
+Writing
 writes
 we
 work
@@ -1088,6 +1094,7 @@ wise
 warningEl
 whose
 widths
+weird
 it
 is
 interaction
@@ -1472,6 +1479,8 @@ idx
 isSheetActive
 isActive
 isOpen
+importing
+imported
 reads
 references
 requirements
@@ -1943,6 +1952,11 @@ roleBadgeClass
 removeEventListener
 requestAnimationFrame
 renderProjects
+redo
+referenced
+reminders
+random
+remind
 Jira
 Jdjxj
 JIvrU
@@ -2108,6 +2122,7 @@ Justified
 JetBrains
 Joel
 Jane
+Just
 tickets
 tasks
 this
@@ -2494,6 +2509,8 @@ tryRemoveCollab
 titleLabel
 toggleExpandAll
 toggleTreeNode
+troubleshoot
+troubleshooting
 PM
 PRD
 Problem
@@ -2818,6 +2835,8 @@ Pagination
 Participating
 Pitney
 PARTICIPANTS
+Pace
+Peer
 Before
 Blast
 BM
@@ -3051,6 +3070,8 @@ Banner
 Baseline
 BBFABBA
 Bowes
+Bridges
+Backlink
 design
 does
 do
@@ -3465,6 +3486,10 @@ demotionBlocked
 dtab
 docExpanded
 dividers
+desk
+delegate
+dollar
+descriptions
 starts
 sub
 screens
@@ -4101,6 +4126,11 @@ setupScrollSpy
 scrollArea
 scrollTop
 spySection
+signed
+screenshots
+sibling
+stuff
+stuck
 everyone
 exactly
 each
@@ -4488,6 +4518,8 @@ escape
 excel
 elsewhere
 eef
+encounters
+entering
 Story
 Stories
 Should
@@ -4861,6 +4893,8 @@ Simulated
 Switched
 SCROLL
 SPY
+Scheduling
+Starts
 Lead
 Loop
 Linking
@@ -5093,6 +5127,8 @@ Lisitng
 Loss
 LISTING
 Lost
+Literal
+Lists
 After
 API
 All
@@ -5413,6 +5449,7 @@ Accepted
 Access
 Assets
 AVATARS
+Approving
 approved
 atomic
 and
@@ -5857,6 +5894,7 @@ activeDetailTab
 assigneeTag
 assigneeLabel
 assignedBadge
+amount
 QA
 Question
 Quality
@@ -6319,6 +6357,8 @@ FFB
 Force
 FILTERS
 Flat
+Folder
+Finish
 Goes
 Goals
 Gate
@@ -6515,6 +6555,7 @@ Granular
 Gated
 Gains
 GLOBAL
+Gateway
 build
 break
 back
@@ -7165,6 +7206,9 @@ RFx
 ROLES
 RFI
 Rendered
+Referenced
+Recovery
+Reminders
 need
 needing
 nested
@@ -7769,6 +7813,12 @@ Chris
 CONFIRM
 Collapse
 CLOSE
+Clarifies
+Completes
+Consistency
+Clean
+Collaborating
+Comments
 How
 Hubs
 Hub
@@ -7991,6 +8041,7 @@ Hero
 Hide
 Hold
 History
+Heavily
 call
 could
 context
@@ -8571,6 +8622,8 @@ canEditProposal
 construction
 currentSec
 currentTarget
+communication
+configure
 on
 owns
 one
@@ -9195,6 +9248,8 @@ fileTree
 flatMap
 findIndex
 formatDate
+folders
+foundational
 live
 links
 locked
@@ -10047,6 +10102,8 @@ Editors
 Externally
 EBA
 Exported
+Exporting
+Estimated
 validation
 visuals
 validated
@@ -10755,6 +10812,8 @@ uPct
 unassigned
 unintended
 unassignment
+undo
+unfamiliar
 phases
 problem
 placeholder
@@ -11229,6 +11288,8 @@ pointerEvents
 permBanner
 proposalPermBanner
 passive
+phrased
+prefs
 goals
 give
 generates
@@ -11479,6 +11540,8 @@ grants
 ghost
 getAssignmentCounts
 getFullYear
+gateway
+grouped
 It
 If
 Inside
@@ -11739,6 +11802,9 @@ Inviting
 Intentional
 Indicator
 INIT
+Immediate
+Import
+Importing
 you
 yet
 your
@@ -12288,6 +12354,7 @@ kGN
 kGGKKK
 kYV
 keyframes
+knows
 questions
 quality
 question
@@ -12818,6 +12885,10 @@ mark
 merged
 mike
 modals
+mentions
+mess
+methods
+messed
 Owners
 Opportunity
 Owner
@@ -13042,6 +13113,7 @@ Own
 Ongoing
 Owned
 Opening
+Organize
 Metric
 Manager
 Must
@@ -13321,6 +13393,8 @@ Mike
 MODAL
 MENUS
 MODALS
+Method
+Master
 UI
 Users
 User
@@ -13536,6 +13610,8 @@ Unchecking
 Unsupported
 Unify
 Unlike
+Understanding
+Using
 XLS
 XLSX
 XXX
