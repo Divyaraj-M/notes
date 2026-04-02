@@ -1,20 +1,36 @@
-# SparrowGenie
+# SparrowGenie — Internal Collaboration v2 + Proposal Merge
 
-## Internal Collaboration v 2 + Proposal Merge  
-### Product Requirements Document
+**Product Requirements Document**
 
-**Version 2.1 | April 2026**  
-**Status:** Draft | **Author:** Product Team
+Version 2.1 | April 2026 | Status: Draft | Author: Product Team
 
 ---
 
 ## Table of Contents
 
+1. [First Principle](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#1-first-principle)
+2. [Problem Statement](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#2-problem-statement)
+3. [Goals](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#3-goals)
+4. [Non-Goals](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#4-non-goals)
+5. [Role Model](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#5-role-model)
+6. [User Stories](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#6-user-stories)
+7. [Requirements](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#7-requirements)
+8. [Role-Action Matrix](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#8-role-action-matrix)
+9. [Global Permission → Project Role Mapping](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#9-global-permission--project-role-mapping)
+10. [Edge Cases & Resolved Decisions](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#10-edge-cases--resolved-decisions)
+11. [User Flows](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#11-user-flows)
+12. [Screens & Components](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#12-screens--components)
+13. [Design Constraints](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#13-design-constraints)
+14. [Success Metrics](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#14-success-metrics)
+15. [Open Questions](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#15-open-questions)
+16. [Timeline & Dependencies](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#16-timeline--dependencies)
+17. [Jira Tickets — Design Phase](https://claude.ai/local_sessions/local_c33e4a6d-0e15-4048-923a-458b9e9f8470#17-jira-tickets--design-phase)
+
 ---
 
 ## 1. First Principle
 
-Users should be able to share and collaborate with internal people on both RFP questions and proposals through a single, unified permission model.
+> Users should be able to share and collaborate with internal people on both RFP questions and proposals through a single, unified permission model.
 
 ---
 
@@ -22,35 +38,37 @@ Users should be able to share and collaborate with internal people on both RFP q
 
 SparrowGenie is merging the Proposal artifact into the existing project structure. Currently, internal collaboration only covers the questions workspace. With proposals becoming a first-class object inside projects (either generated from RFP answers or created standalone), the permission model needs to extend to cover both artifacts under one share flow.
 
-The existing role names (Owner / Manager / Participant / Watcher) don't map cleanly to proposal collaboration patterns. The roles have been restructured to: Owner, Editor, Participant, and Viewer. The Participant role introduces scoped, assignment-based edit access — a user who can view and comment on everything but can only edit content they are specifically assigned to (questions or proposal sections).
+The existing role names (Owner / Manager / Participant / Watcher) don't map cleanly to proposal collaboration patterns. The roles have been restructured to: **Owner, Editor, Participant, and Viewer**. The Participant role introduces scoped, assignment-based edit access — a user who can view and comment on everything but can only edit content they are specifically assigned to (questions or proposal sections).
 
 ---
 
 ## 3. Goals
 
 ### User Goals
+
 - Single invite gives access to both questions workspace and proposal — no duplicate sharing.
 - Clear role boundaries: users know exactly what they can and cannot do.
 - Scoped edit access via Participant role allows focused contribution without risk of unintended edits elsewhere.
 - Viewers can contribute feedback (comments) without edit risk.
 
 ### Business Goals
+
 - Increase per-project collaborator count by enabling low-friction Viewer invites to stakeholders (legal, finance, leadership).
 - Drive platform stickiness by making the proposal a first-class collaborative artifact inside SparrowGenie.
 - Unify permission model before external sharing ships, preventing a later refactor.
-- Enable scoped assignment model (Participant) to support future per-section granularity (P 2).
+- Enable scoped assignment model (Participant) to support future per-section granularity (P2).
 
 ---
 
 ## 4. Non-Goals
 
-| Non-Goal | Why Out of Scope |
-|----------|----------------|
-| External (client-facing) proposal sharing | Separate initiative; this PRD covers internal collaboration only. |
-| Granular per-section proposal permissions | v 2 scope; single Participant role covers assigned sections. Full per-section ACL is P 2. |
-| Proposal version history / diff | Planned as a follow-up feature. |
-| Template-level permission controls | Separate template governance initiative. |
-| Pure read-only role (no comments) | Intentionally merged into Viewer. Not required for current use cases. |
+|Non-Goal|Why Out of Scope|
+|---|---|
+|External (client-facing) proposal sharing|Separate initiative; this PRD covers internal collaboration only.|
+|Granular per-section proposal permissions|v2 scope; single Participant role covers assigned sections. Full per-section ACL is P2.|
+|Proposal version history / diff|Planned as a follow-up feature.|
+|Template-level permission controls|Separate template governance initiative.|
+|Pure read-only role (no comments)|Intentionally merged into Viewer. Not required for current use cases.|
 
 ---
 
@@ -58,166 +76,150 @@ The existing role names (Owner / Manager / Participant / Watcher) don't map clea
 
 ### 5.1 Role Hierarchy
 
-| Role | Description | Scope |
-|------|------------|-------|
-| Owner | Full control over project, questions, proposal, collaborators, and settings. | Global — all content |
-| Editor | Edit all questions and proposal sections. Comment, export, manage collaborators (with restrictions). | Global — all content |
-| Participant | View and comment on everything. Edit only content specifically assigned to them (questions and/or proposal sections). | Scoped — assigned content only for edits |
-| Viewer | View and comment on the entire project. No edit access. | Global — read + comment only |
-
----
+|Role|Description|Scope|
+|---|---|---|
+|**Owner**|Full control over project, questions, proposal, collaborators, and settings.|Global — all content|
+|**Editor**|Edit all questions and proposal sections. Comment, export, manage collaborators (with restrictions).|Global — all content|
+|**Participant**|View and comment on everything. Edit only content specifically assigned to them (questions and/or proposal sections).|Scoped — assigned content only for edits|
+|**Viewer**|View and comment on the entire project. No edit access.|Global — read + comment only|
 
 ### 5.2 Role Rename Migration
 
-| Old Role (v 1) | New Role (v 2) | Migration Rule |
-|--------------|--------------|----------------|
-| Owner | Owner | No change. |
-| Manager | Editor | Direct rename. All capabilities preserved. |
-| Participant | Editor | Promoted to Editor to preserve backward-compatible edit rights. |
-| Watcher | Viewer | Renamed. Gains comment access (previously read-only). |
+|Old Role (v1)|New Role (v2)|Migration Rule|
+|---|---|---|
+|Owner|Owner|No change.|
+|Manager|Editor|Direct rename. All capabilities preserved.|
+|Participant|Editor|Promoted to Editor to preserve backward-compatible edit rights.|
+|Watcher|Viewer|Renamed. Gains comment access (previously read-only).|
 
-**Important:** Existing Participants become Editors (not the new Participant role) to ensure no user loses capabilities they previously had.
-
----
+> **Important:** Existing Participants become Editors (not the new Participant role) to ensure no user loses capabilities they previously had.
 
 ### 5.3 Participant Role — Deep Dive
 
-The Participant role is the key addition in v 2. Unlike other roles, a Participant’s edit permissions are scoped to their assignments. They can view and comment on the entire project, but can only edit questions or proposal sections explicitly assigned to them.
+The Participant role is the key addition in v2. Unlike other roles, a Participant's edit permissions are _**scoped to their assignments**_. They can view and comment on the entire project, but can only edit questions or proposal sections explicitly assigned to them.
 
----
+#### 5.3.1 Auto-Promotion: Viewer → Participant
 
-### 5.3.1 Auto-Promotion: Viewer → Participant
+When an Owner or Editor assigns a question or proposal section to a user who currently has the Viewer role, the system auto-promotes that user to Participant.
 
-| Rule | Detail |
-|------|--------|
-| Trigger | Owner or Editor assigns a question or proposal section to a Viewer. |
-| Confirmation | A confirmation dialog is shown to the assigner: “This user is currently a Viewer. Assigning them will promote them to Participant, giving them edit access on this item. Continue?” |
-| Who can trigger | Both Owner and Editor can trigger auto-promotion via assignment. |
-| Notification to promoted user | Silent. No notification is sent to the promoted user. |
-| Audit trail | The activity log records: “[Assigner name] assigned [Question/Section] to [User], promoting them from Viewer to Participant.” |
-| System permission check | If the Viewer lacks the required system-level permission (“Participate in Projects”), the assignment fails with a caution message: “This user does not have the required system-level access.” |
+|Rule|Detail|
+|---|---|
+|**Trigger**|Owner or Editor assigns a question or proposal section to a Viewer.|
+|**Confirmation**|A confirmation dialog is shown to the assigner: "This user is currently a Viewer. Assigning them will promote them to Participant, giving them edit access on this item. Continue?"|
+|**Who can trigger**|Both Owner and Editor can trigger auto-promotion via assignment.|
+|**Notification to promoted user**|Silent. No notification is sent to the promoted user.|
+|**Audit trail**|The activity log records: "[Assigner name] assigned [Question/Section] to [User], promoting them from Viewer to Participant."|
+|**System permission check**|If the Viewer lacks the required system-level permission ("Participate in Projects"), the assignment fails with a caution message: "This user does not have the required system-level access."|
 
----
+#### 5.3.2 Demotion Rules
 
-### 5.3.2 Demotion Rules
+Demotion from Participant to Viewer is blocked while the user has any active assignments (questions or proposal sections). The Viewer option in the role dropdown will be greyed out.
 
-| Rule | Detail |
-|------|--------|
-| Demotion blocked condition | Participant has one or more assignments (questions and/or proposal sections). |
-| UI treatment | Viewer option in role dropdown is greyed out with tooltip: “Assigned to [X] question(s) and [Y] proposal section(s). Reassign to another user to demote.” |
-| Tooltip specificity | Must show both assignment types (questions AND proposal sections) with counts. |
-| Zero assignments | A Participant with zero assignments stays as Participant. No auto-demotion. Manual demotion to Viewer is allowed. |
-| Work state irrelevant | Demotion is blocked regardless of whether assigned work is in-progress, draft, or any other state. |
-| Force demote | Not supported. Owner/Editor must reassign all items to another user before demoting. |
-| Editor → Participant demotion | If an Editor is assigned to specific questions and is demoted, they become a Participant. All other (unassigned) edit access is stripped. Only their assigned items remain editable. |
+|Rule|Detail|
+|---|---|
+|**Demotion blocked condition**|Participant has one or more assignments (questions and/or proposal sections).|
+|**UI treatment**|Viewer option in role dropdown is greyed out with tooltip: "Assigned to [X] question(s) and [Y] proposal section(s). Reassign to another user to demote."|
+|**Tooltip specificity**|Must show both assignment types (questions AND proposal sections) with counts.|
+|**Zero assignments**|A Participant with zero assignments stays as Participant. No auto-demotion. Manual demotion to Viewer is allowed.|
+|**Work state irrelevant**|Demotion is blocked regardless of whether assigned work is in-progress, draft, or any other state.|
+|**Force demote**|Not supported. Owner/Editor must reassign all items to another user before demoting.|
+|**Editor → Participant demotion**|If an Editor is assigned to specific questions and is demoted, they become a Participant. All other (unassigned) edit access is stripped. Only their assigned items remain editable.|
 
----
+#### 5.3.3 Removal Rules
 
-### 5.3.3 Removal Rules
+Removing a Participant (or any user with active assignments) from a project is blocked until their assignments are reassigned.
 
-| Rule | Detail |
-|------|--------|
-| Removal blocked condition | User has one or more assignments (questions and/or proposal sections). |
-| UI treatment | Remove button triggers a prompt: “This user is assigned to [X] question(s) and [Y] proposal section(s). Reassign these to another user before removing.” |
-| Cascade behavior | No automatic unassignment. Owner/Editor must explicitly reassign all items. |
+|Rule|Detail|
+|---|---|
+|**Removal blocked condition**|User has one or more assignments (questions and/or proposal sections).|
+|**UI treatment**|Remove button triggers a prompt: "This user is assigned to [X] question(s) and [Y] proposal section(s). Reassign these to another user before removing."|
+|**Cascade behavior**|No automatic unassignment. Owner/Editor must explicitly reassign all items.|
 
 ---
 
 ## 6. User Stories
 
-| # | User Type | I want to… | So that… | Priority |
-|---|----------|------------|----------|----------|
-| US-1 | Project Owner | Invite a user once and have them access both questions workspace and proposal | I don’t manage two separate share lists | P 0 |
-| US-2 | Viewer | View and comment on both the proposal and questions without editing | I can flag issues without accidentally changing anything | P 0 |
-| US-3 | Editor | Edit proposal content/layout, add/remove sections, and export | I can build and finalize the proposal document | P 0 |
-| US-4 | Owner/Editor | Publish/share the proposal externally | The finalized proposal reaches the client | P 0 |
-| US-5 | Participant | Edit only the questions and proposal sections assigned to me | I contribute focused work without affecting other content | P 0 |
-| US-6 | Owner/Editor | Assign a Viewer to a question and have them auto-promoted | I can onboard contributors without manual role changes | P 0 |
-| US-7 | Any user with Create permission | Create a standalone proposal not linked to an RFP | I can build proposals from scratch for non-RFP deals | P 0 |
-| US-8 | Owner | See which Participants are assigned to what | I know who is responsible for which content | P 1 |
+|#|User Type|I want to…|So that…|Priority|
+|---|---|---|---|---|
+|US-1|Project Owner|Invite a user once and have them access both questions and proposal|I don't manage two separate share lists|P0|
+|US-2|Viewer|View and comment on both the proposal and questions without editing|I can flag issues without accidentally changing anything|P0|
+|US-3|Editor|Edit proposal content/layout, add/remove sections, and export|I can build and finalize the proposal document|P0|
+|US-4|Owner/Editor|Publish/share the proposal externally|The finalized proposal reaches the client|P0|
+|US-5|Participant|Edit only the questions and proposal sections assigned to me|I contribute focused work without affecting other content|P0|
+|US-6|Owner/Editor|Assign a Viewer to a question and have them auto-promoted|I can onboard contributors without manual role changes|P0|
+|US-7|Any user with Create permission|Create a standalone proposal not linked to an RFP|I can build proposals from scratch for non-RFP deals|P0|
+|US-8|Owner|See which Participants are assigned to what|I know who is responsible for which content|P1|
 
 ---
 
 ## 7. Requirements
 
-### 7.1 Must-Have (P 0) — Role Rename
+### 7.1 Must-Have (P0) — Role Rename
 
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.1 | Rename project-level roles | All UI surfaces display new role names. Old names do not appear. |
-| P 0.2 | Migrate all existing role assignments | No user loses capabilities. Migration verified. |
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.1|Rename project-level roles: Owner (unchanged), Manager → Editor, Participant → Participant (new behavior), Watcher → Viewer|All UI surfaces (share modal, collaborator list, activity log) display new role names. Old names do not appear.|
+|P0.2|Migrate all existing role assignments: Manager → Editor, Participant → Editor (preserve edit rights), Watcher → Viewer|No user loses capabilities. Existing Participants become Editors. Migration is verified against production data.|
 
----
+### 7.2 Must-Have (P0) — Participant Role
 
-### 7.2 Must-Have (P 0) — Participant Role
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.3|Participant can view the entire project (all questions + proposal)|All questions, proposal content, activities tab, and knowledge sources are visible in read-only mode.|
+|P0.4|Participant can add comments/discussions on questions AND proposal|Comment/discussion areas are active on all questions and all proposal sections.|
+|P0.5|Participant can edit only assigned questions and assigned proposal sections|Edit controls are enabled only on assigned items. All other items show disabled controls with tooltip: "You need to be assigned to edit this."|
+|P0.6|Participant is blocked from non-assigned edit actions|Attempting to: edit unassigned answers, run Genie AI on unassigned questions, review unassigned questions, reassign, bulk actions on unassigned items, export, or edit project metadata — shows tooltip: "You need Editor or higher access."|
+|P0.7|Participant can be a reviewer on assigned questions|Participant can review questions assigned to them. Review of unassigned questions is blocked.|
+|P0.8|Auto-promotion: assigning a Viewer auto-promotes to Participant with confirmation|Confirmation dialog shown to assigner. On confirm, Viewer role changes to Participant. Activity log records the promotion.|
+|P0.9|Demotion blocking: Participant with assignments cannot be demoted to Viewer|Viewer option is greyed out in dropdown with tooltip showing assignment counts (questions + sections).|
+|P0.10|Removal blocking: user with assignments cannot be removed from project|Remove action shows prompt with assignment counts. Removal is blocked until all assignments are reassigned.|
+|P0.11|Participant requires minimum "Participate in Projects" system-level permission|If user lacks this permission, assignment fails with caution: "This user does not have the required system-level access."|
 
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.3 | Participant can view entire project | All content visible read-only |
-| P 0.4 | Participant can comment | Comment areas active |
-| P 0.5 | Participant can edit only assigned | Edit controls only on assigned |
-| P 0.6 | Participant blocked from other edits | Tooltip shown |
-| P 0.7 | Participant can approve assigned | Only assigned |
-| P 0.8 | Auto-promotion works | Confirmation + activity log |
-| P 0.9 | Demotion blocked | Viewer greyed |
-| P 0.10 | Removal blocked | Prompt shown |
-| P 0.11 | Permission dependency | Error if missing |
+### 7.3 Must-Have (P0) — Viewer Role
 
----
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.12|Viewer can view the entire project (all questions + proposal)|All content is visible in read-only mode.|
+|P0.13|Viewer can add comments/discussions on questions AND proposal|Comment/discussion areas are active.|
+|P0.14|Viewer is blocked from all edit actions|All edit controls are disabled with tooltip: "You need Editor or higher access."|
 
-### 7.3 Must-Have (P 0) — Viewer Role
+### 7.4 Must-Have (P0) — Unified Share
 
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.12 | View all | Read-only |
-| P 0.13 | Comment | Enabled |
-| P 0.14 | No edit | Disabled |
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.15|Single share modal covers both questions workspace and proposal|Inviting a user with a role grants access to both artifacts. No separate sharing needed.|
+|P0.16|Role assignment in share modal offers: Owner, Editor, Participant, Viewer|Exactly four options appear in order. Each has a descriptive tooltip.|
+|P0.17|Existing collaborator role can be changed from the share modal|Role change takes effect within 2s across all active sessions. Demotion rules (7.2) apply.|
 
----
+### 7.5 Must-Have (P0) — Proposal Permissions by Role
 
-### 7.4 Must-Have (P 0) — Unified Share
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.18|Owner and Editor can: edit proposal content/layout, add/remove sections, comment, export/download|All editing, section management, commenting, and export controls are enabled.|
+|P0.19|Only Owner and Editor can publish/share proposal externally|Publish/Share Externally button is hidden or disabled for Participant and Viewer.|
+|P0.20|Participant can edit only assigned proposal sections; comment on all sections|Edit controls active only on assigned sections. Comment active everywhere.|
+|P0.21|Viewer can view and comment on proposal but cannot edit|No edit controls visible. Comment interface is active.|
 
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.15 | Single share modal | Covers both |
-| P 0.16 | Role options | 4 roles |
-| P 0.17 | Role change | Real-time |
+### 7.6 Must-Have (P0) — Standalone Proposal Creation
 
----
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P0.22|Users with "Create" system-level permission can create standalone proposals (not linked to an RFP)|Blank proposal editor opens. Creator becomes Owner by default.|
+|P0.23|Standalone proposals follow the same role and share model as RFP-linked proposals|Owner/Editor/Participant/Viewer roles apply identically.|
 
-### 7.5 Must-Have (P 0) — Proposal Permissions
+### 7.7 Nice-to-Have (P1)
 
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.18 | Owner/Editor full access | Enabled |
-| P 0.19 | Only Owner/Editor publish | Restricted |
-| P 0.20 | Participant scoped edit | Only assigned |
-| P 0.21 | Viewer view/comment | No edit |
+|#|Requirement|Acceptance Criteria|
+|---|---|---|
+|P1.1|Activity log distinguishes comment-only actions from edit actions with role context|Log entries show user's role alongside the action.|
+|P1.2|Notification when a Participant's or Viewer's feedback is addressed or resolved|Commenter receives a notification when their comment is resolved.|
+|P1.3|Assignment counts visible in project health / collaborator summary|Participant assignment counts (questions + sections) surfaced for Owner visibility.|
 
----
+### 7.8 Future Considerations (P2)
 
-### 7.6 Must-Have (P 0) — Standalone Proposal
-
-| # | Requirement | Acceptance Criteria |
-|---|------------|--------------------|
-| P 0.22 | Create standalone | Owner default |
-| P 0.23 | Same role model | Consistent |
-
----
-
-### 7.7 Nice-to-Have (P 1)
-
-- Activity log role context
-- Comment resolution notifications
-- Assignment counts visibility
-
----
-
-### 7.8 Future Considerations (P 2)
-
-- Per-section permissions
-- Version history
-- External sharing
+- P2.1 — Per-section proposal permissions (e.g., Editor on pricing section only). Current Participant model should not block this.
+- P2.2 — Proposal version history with diff view and role-based restore rights.
+- P2.3 — External (client-facing) proposal sharing with separate permission layer.
 
 ---
 
@@ -225,97 +227,262 @@ The Participant role is the key addition in v 2. Unlike other roles, a Participa
 
 ### 8.1 Questions Workspace Actions
 
-(kept as-is table format)
+| Action                                 | Owner |    Editor    | Participant | Viewer |
+| -------------------------------------- | :---: | :----------: | :---------: | :----: |
+| View project (all questions)           |   ✓   |      ✓       |      ✓      |   ✓    |
+| View activities tab                    |   ✓   |      ✓       |      ✓      |   ✓    |
+| Comment in discussions                 |   ✓   |      ✓       |      ✓      |   ✓    |
+| View Knowledge Sources                 |   ✓   |      ✓       |      ✓      |   ✓    |
+| Write / Edit assigned answer           |   ✓   |      ✓       |      ✓      |   —    |
+| Write / Edit unassigned answer         |   ✓   |      ✓       |      —      |   —    |
+| Run Genie on assigned question(s)      |   ✓   |      ✓       |      ✓      |   —    |
+| Run Genie on unassigned question(s)    |   ✓   |      ✓       |      —      |   —    |
+| Review assigned question               |   ✓   |      ✓       |      ✓      |   —    |
+| Review unassigned question             |   ✓   |      ✓       |      —      |   —    |
+| Reopen reviewed question (assigned)    |   ✓   |      ✓       |      ✓      |   —    |
+| Change status (assigned questions)     |   ✓   |      ✓       |      ✓      |   —    |
+| Bulk actions (assigned only)           |   ✓   |      ✓       |      ✓      |   —    |
+| Reassign questions                     |   ✓   |      ✓       |      —      |   —    |
+| Edit project metadata                  |   ✓   |      ✓       |      —      |   —    |
+| Remove collaborator                    |   ✓   |      ✓       |      —      |   —    |
+| Assign Author / Reviewer               |   ✓   |      ✓       |      —      |   —    |
+| Export project                         |   ✓   |      ✓       |      ✓      |   ✓    |
+| Contextual Mapping / Instructions / KS |   ✓   |      ✓       |      —      |   —    |
+| Delete project                         |   ✓   | Conditional* |      —      |   —    |
+| Demote Editor → Viewer                 |   ✓   |      —       |      —      |   —    |
+
+* Editor delete is conditional on global system policy + project-level settings.
 
 ### 8.2 Proposal Actions
 
-(kept as-is table format)
+| Action                                     | Owner | Editor | Participant | Viewer |
+| ------------------------------------------ | :---: | :----: | :---------: | :----: |
+| View proposal                              |   ✓   |   ✓    |      ✓      |   ✓    |
+| Comment on proposal (all sections)         |   ✓   |   ✓    |      ✓      |   ✓    |
+| Edit assigned proposal sections(whole doc) |   ✓   |   ✓    |      ✓      |   —    |
+| Edit unassigned proposal sections          |   ✓   |   ✓    |      —      |   —    |
+| Add / remove proposal sections             |   ✓   |   ✓    |      —      |   —    |
+| Export / download proposal                 |   ✓   |   ✓    |      ✓      |   ✓    |
+| Publish / share proposal externally        |   ✓   |   ✓    |      ✓      |   ✓    |
+
+
+
 
 ---
 
 ## 9. Global Permission → Project Role Mapping
 
-| Role | Permission | Change |
-|------|-----------|--------|
-| Owner | Create + Manage | No change |
-| Editor | Manage | Rename |
-| Participant | Participate | New |
-| Viewer | Participate | Rename |
+|Project Role|Min System-Level Permission|Change from v1|
+|---|---|---|
+|Owner|Create (Own) + Manage (Own)|No change|
+|Editor|Manage (Own)|Renamed from Manager|
+|Participant|Participate in Projects|New role|
+|Viewer|Participate in Projects|Renamed from Watcher; gains comment access|
+
+All checkbox behavior rules from v1 (cascading logic, auto-check/uncheck, dependency hierarchy) remain unchanged.
 
 ---
 
 ## 10. Edge Cases & Resolved Decisions
 
-(kept as table format)
+The following edge cases were identified during design review and have been resolved:
+
+|#|Edge Case|Decision|Risk|
+|---|---|---|---|
+|EC-1|Auto-promotion confirmation|Show confirmation dialog to the assigner (Owner or Editor). Both can trigger.|Low|
+|EC-2|Editor overrides Owner's intentional Viewer restriction via assignment|Accepted. Both Owner and Editor can assign and trigger promotion.|Medium|
+|EC-3|Promoted user notification|Silent. No notification sent to the promoted user.|Low|
+|EC-4|Audit trail for implicit role changes|Activity log records who made the assignment that triggered promotion.|Low|
+|EC-5|Force-demote for urgent access revocation|Not supported. Must reassign all items first.|Medium|
+|EC-6|In-progress work on demotion|Demotion is blocked regardless of work state as long as assignments exist.|Low|
+|EC-7|Zero-assignment Participant (ghost state)|User stays as Participant. No auto-demotion.|Low|
+|EC-8|Editor → Participant demotion with assignments|Editor becomes Participant; unassigned edit access is stripped. Only assigned items remain editable.|Medium|
+|EC-9|Participant visibility scope|Participant sees the entire project. View + comment on everything. Edit only assigned items.|Low|
+|EC-10|Bulk actions removing Participant's assignments|Access is silently removed. No special warning for bulk operations.|Medium|
+|EC-11|Proposal section structural changes|Not a concern for v2. Section assignment is handled by Owner/Editor in proposal editor.|Low|
+|EC-12|Tooltip for demotion blocking|Must show both assignment types: "Assigned to X question(s) and Y section(s)."|Low|
+|EC-13|Loss of pure read-only role|Intentional. Viewer includes comment access. No separate read-only role.|Low|
+|EC-14|System-level permission conflict on auto-promotion|Assignment fails with caution message if user lacks required permission.|Low|
+|EC-15|Concurrent auto-promotion race condition|Last write wins. System uses idempotent promotion check.|Low|
+|EC-16|Removing user with active assignments|Blocked. Prompt shows assignment counts. Owner/Editor must reassign before removing.|Low|
 
 ---
 
 ## 11. User Flows
 
-### Flow 1: Invite Collaborator
-(steps preserved)
+### Flow 1: Invite Collaborator (Unified Share)
 
-### Flow 2: Assign Question
-(steps preserved)
+**Entry point:** Owner/Editor clicks "Share" button on project header. **Exit point:** Collaborator receives invite and sees project + proposal.
+
+1. Owner/Editor opens the Share modal from project header.
+2. Types user name or email in the search field.
+3. Selects a role from dropdown: Owner / Editor / Participant / Viewer.
+4. System validates: (a) target user has minimum system-level permission for the selected role, (b) inviter has invite rights (global + project settings).
+5. If validation passes → user is added to collaborator list with the selected role. Both questions workspace and proposal access are granted.
+6. If validation fails → tooltip explains the reason (e.g., "User does not have Manage permission required for Editor role").
+7. Invited user receives notification and can open the project immediately.
+
+> **Error branch:** If the inviter's own session has stale permissions (e.g., they were downgraded), the system revalidates on submit and shows "Your permissions have changed. Please refresh."
+
+### Flow 2: Assign Question to Viewer (Auto-Promotion)
+
+**Entry point:** Owner/Editor assigns a question to a Viewer. **Exit point:** Viewer is promoted to Participant with edit access on assigned item.
+
+1. Owner/Editor selects a question and opens the assignment dropdown.
+2. Selects a user who currently has Viewer role.
+3. System shows confirmation: "This user is currently a Viewer. Assigning them will promote them to Participant, giving them edit access on this item. Continue?"
+4. On confirm → User's role changes to Participant. Assignment is created. Activity log records: "[Assigner] assigned [Question] to [User], promoting them from Viewer to Participant."
+5. On cancel → No changes made.
+6. If user lacks system-level permission → Assignment fails with caution: "This user does not have the required system-level access."
 
 ### Flow 3: Demote Participant
-(steps preserved)
 
-### Flow 4: Create Proposal
-(steps preserved)
+**Entry point:** Owner opens collaborator list and wants to change Participant to Viewer.
+
+1. Owner opens the collaborator list / share modal.
+2. Clicks the role dropdown next to the Participant's name.
+3. If Participant has active assignments → Viewer option is greyed out with tooltip: "Assigned to [X] question(s) and [Y] proposal section(s). Reassign to another user to demote."
+4. Owner navigates to the assigned questions/sections and reassigns them to another user.
+5. Returns to collaborator list. Viewer option is now available.
+6. Selects Viewer. Role change takes effect immediately.
+
+### Flow 4: Create Standalone Proposal
+
+**Entry point:** User with Create permission clicks "New Proposal" (outside an RFP project). **Exit point:** Blank proposal created, user is Owner.
+
+1. User clicks "New Proposal" from dashboard or proposals list.
+2. System checks Create system-level permission.
+3. If permitted → blank proposal editor opens. User is auto-assigned as Owner.
+4. User can share via the same share modal (Owner / Editor / Participant / Viewer).
+5. If not permitted → tooltip: "Insufficient permission to create project."
 
 ---
 
 ## 12. Screens & Components
 
-### Screen 1: Share Modal
-(details preserved)
+### Screen 1: Updated Share Modal
 
-### Screen 2: Proposal View
-(details preserved)
+|Field|Details|
+|---|---|
+|**Design ticket**|[SG]-XXX — Updated Share Modal with Participant role|
+|**Purpose**|Unified invite flow for project + proposal collaboration|
+|**Entry from**|"Share" button on project header (accessible by Owner and Editor)|
+|**Key elements**|User search input, role dropdown (Owner / Editor / Participant / Viewer), existing collaborator list with role badges, remove button, role change dropdown per user, demotion-blocked state for Participants with assignments|
+|**States**|Empty (no collaborators), Populated, Validation error (inline), Permission mismatch warning, Demotion blocked (greyed Viewer option)|
+|**User stories**|US-1, US-5, US-6|
+
+**Screen 1 — Copy:**
+
+|Location|Text|Notes|
+|---|---|---|
+|Modal title|"Share Project"||
+|Role dropdown hint|"Select access level"||
+|Validation error|"User does not have the required system permissions for this role."|Inline below search|
+|Viewer tooltip|"Can view and comment on questions and proposal. Cannot edit."|On hover over role badge|
+|Participant tooltip|"Can view and comment on everything. Can edit assigned questions and proposal sections."|On hover over role badge|
+|Demotion blocked tooltip|"Assigned to [X] question(s) and [Y] section(s). Reassign to another user to demote."|On greyed Viewer option|
+|Auto-promotion confirm|"This user is currently a Viewer. Assigning them will promote them to Participant. Continue?"|Dialog on assignment|
+
+### Screen 2: Proposal View (Role-Gated)
+
+|Field|Details|
+|---|---|
+|**Design ticket**|[SG]-XXX — Proposal View with role-gated states|
+|**Purpose**|Display proposal with controls gated by project role and assignment|
+|**Entry from**|Project navigation tab ("Proposal")|
+|**Key elements**|Proposal content area, section list, comment thread, edit toolbar (gated), export button (gated), publish button (gated), assignment indicators per section|
+|**States**|Empty (no proposal yet), Editable (Owner/Editor), Scoped Edit (Participant — assigned sections editable, others read-only), View + Comment (Viewer)|
+|**User stories**|US-2, US-3, US-4, US-5|
+
+**Screen 2 — Copy:**
+
+|Location|Text|Notes|
+|---|---|---|
+|Empty state|"No proposal yet. Click 'Create Proposal' to get started."|Owner/Editor see CTA button|
+|Participant banner|"You have comment access on all sections. You can edit sections assigned to you."|Subtle info banner at top|
+|Viewer banner|"You have view and comment access."|Subtle info banner at top|
+|Disabled edit tooltip|"You need to be assigned to edit this section."|Participant on unassigned section|
+|Disabled export tooltip|"You need Editor or higher access to export."|Participant/Viewer on export button|
+
+### New / Modified Components
+
+|Component|States|New / Existing?|Used On|
+|---|---|---|---|
+|Role Badge|Owner, Editor, Participant, Viewer|Modified (new labels)|Share Modal, Collaborator List|
+|Role Dropdown|4 options with tooltips + greyed demotion state|Modified (Participant added, demotion blocking)|Share Modal|
+|Permission Info Banner|Participant, Viewer|New|Proposal View, Questions Workspace|
+|Assignment Indicator|Assigned / Unassigned per section|New|Proposal View|
+|Auto-Promotion Confirm Dialog|Confirm / Cancel|New|Question Assignment, Section Assignment|
 
 ---
 
 ## 13. Design Constraints
 
-- Reuse share modal
-- Non-intrusive banners
-- Tooltips for disabled states
-- WCAG compliant colors
-- No new navigation
-- Subtle assignment indicators
+- Reuse the existing share modal component; extend with Participant role option, demotion-blocked state, and role tooltips.
+- Permission info banners must be non-intrusive (collapsible or dismissible after first view).
+- Disabled controls must show contextual tooltips explaining the restriction reason and what role/assignment is needed.
+- Role badge colors must be distinct enough to differentiate at a glance (WCAG 2.1 AA contrast).
+- No new navigation patterns — proposal tab sits alongside existing project tabs.
+- Assignment indicators on proposal sections should be subtle but discoverable.
+- Proposal section assignment UI lives inside the proposal editor (Owner/Editor only). Not in the share modal.
 
 ---
 
 ## 14. Success Metrics
 
-| Metric | Target | Measure By | Tool |
-|--------|--------|------------|------|
-| Collaborators | +30% | 60 days | Mixpanel |
-| Participant usage | >15% | 30 days | Mixpanel |
-| Viewer usage | >25% | 30 days | Mixpanel |
-| Comments | Baseline | 30 days | Mixpanel |
-| Auto-promotion | Track | 30 days | Mixpanel |
-| Bugs | 0 | Ongoing | Sentry |
+|Metric|Target|Measure By|Tool|
+|---|---|---|---|
+|Avg collaborators per project|+30% within 60 days|60 days post-launch|Mixpanel|
+|Participant role adoption|>15% of invites use Participant|30 days post-launch|Mixpanel|
+|Viewer role adoption|>25% of invites use Viewer|30 days post-launch|Mixpanel|
+|Comment volume on proposals|Baseline established|30 days post-launch|Mixpanel|
+|Auto-promotion usage|Track frequency|30 days post-launch|Mixpanel|
+|Zero permission escalation bugs|0 incidents|Ongoing|Sentry / QA|
 
 ---
 
 ## 15. Open Questions
 
-(kept as table)
+|#|Question|Owner|Blocking?|Status|
+|---|---|---|---|---|
+|Q1|Should existing Participants (v1) migrate to Editor or Commenter?|PM + Eng|Yes|Resolved → Editor|
+|Q2|Can a Participant resolve their own comments, or only the Editor/Owner?|PM + Design|No|Open|
+|Q3|Does the Proposal tab appear for projects that don't have a proposal yet, or only after one is created?|Design|No|Open|
+|Q4|Should bulk actions warn when removing assignments from Participants?|PM + Eng|No|Resolved → No warning (silent removal)|
+|Q5|Should collaborator list show assignment count per Participant?|PM + Design|No|Resolved → Shown in project health, not collaborator list|
 
 ---
 
 ## 16. Timeline & Dependencies
 
-Phases:
-- Phase 1: Role rename
-- Phase 2: Participant role
-- Phase 3: Proposal integration
-- Phase 4: Standalone proposals
+**Hard deadlines:** None specified.
+
+**Dependencies:**
+
+- Proposal editor component must support per-section assignment UI and role-gated rendering.
+- v1 collaboration (existing permission model) must be stable in production.
+- Migration script for role rename must be tested against production data.
+- Auto-promotion logic must be idempotent (handles concurrent assignments safely).
+
+**Phasing:**
+
+1. Phase 1: Role rename + Viewer role (merged view+comment) + unified share modal.
+2. Phase 2: Participant role with scoped assignment + auto-promotion + demotion blocking.
+3. Phase 3: Proposal artifact integration with role-gated and assignment-gated controls.
+4. Phase 4: Standalone proposal creation flow.
 
 ---
 
 ## 17. Jira Tickets — Design Phase
 
-(kept as table)
+**Story:** [SG]-XXX — Internal Collaboration v2 + Proposal Merge — Story Definition **Type:** Story | **Epic:** Internal Collaboration | **Description:** Links to this PRD
+
+| Sub-task | Summary                                                               | Assignee | Status | Linked Screens |
+| -------- | --------------------------------------------------------------------- | -------- | ------ | -------------- |
+| [SG]-XXX | Design: Updated Share Modal with Participant role + demotion blocking | Joel     | To Do  | Screen 1       |
+| [SG]-XXX | Design: Proposal View (role-gated + assignment-gated states)          | Joel     | To Do  | Screen 2       |
+| [SG]-XXX | Design: Permission Info Banner component                              | Joel     | To Do  | Screen 1, 2    |
+| [SG]-XXX | Design: Role Badge update (labels + colors)                           | Joel     | To Do  | Screen 1       |
+| [SG]-XXX | Design: Auto-Promotion Confirmation Dialog                            | Joel     | To Do  | Screen 1       |
+| [SG]-XXX | Design: Assignment Indicator for Proposal Sections                    | Joel     | To Do  | Screen 2       |
+| [SG]-XXX | Design: Flow review + edge cases (all 16 resolved decisions)          | Joel     | To Do  | All            |
