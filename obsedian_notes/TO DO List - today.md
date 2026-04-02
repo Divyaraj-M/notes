@@ -19,5 +19,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [x] Get the design from joel for Proposal 
 02-Apr-2026
 - [ ] 10 Articles
-- [ ] Project Share Simulation analysis
+- [x] Project Share Simulation analysis
 - [ ] multi-column

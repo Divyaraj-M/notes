@@ -30,5 +30,7 @@
   "obsidian-style-settings",
   "obsidian-plugin-toc",
   "tasknotes",
-  "better-word-count"
+  "better-word-count",
+  "obsidian-core-search-assistant-plugin",
+  "cards-view"
 ]
