@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
+          },
+          {
+            "id": "80349be5bddf852a",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///Users/divyaraj.murugan/Library/Application%20Support/Claude/local-agent-mode-sessions/6929680a-500b-4580-8254-4a6b29fc0556/0ce561b6-2129-4221-b6ae-7c54c0374462/local_eaa9fd0c-7fb0-44bf-97f2-5f489ac4afeb/outputs/wireframe.html"
+              },
+              "icon": "lucide-file",
+              "title": "Project Management Wireframe"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662
+    "width": 310.5066738128662,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -369,7 +383,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 375.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -401,14 +416,14 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "8483e97d88f79283",
+  "active": "80349be5bddf852a",
   "lastOpenFiles": [
     "TO DO List - today.md",
+    "Friction points.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
-    "Friction points.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
