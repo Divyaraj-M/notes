@@ -80,32 +80,12 @@
             }
           },
           {
-            "id": "f29196114b1ec303",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
-            "id": "015caca0a4f21c0a",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
             "id": "2c0c58d9d7341e69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "TO DO List - today.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -120,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "TO DO List - today"
             }
           },
           {
@@ -148,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -519,15 +499,15 @@
       "cards-view:Card view": false
     }
   },
-  "active": "015caca0a4f21c0a",
+  "active": "2658908dbf330066",
   "lastOpenFiles": [
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "TO DO List - today.md",
+    "Untitled.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "TaskNotes/Views/kanban-default.base",
     "Product/Projects/Proposals/RFP to Proposal/wireframe.html",
     "Product/Projects/Proposals/RFP to Proposal/SparrowGenie_Internal_Collaboration_v2_PRD.md",
     "Product/UAT/UAT Vipin.md",
-    "Untitled.md",
     "Friction points.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
