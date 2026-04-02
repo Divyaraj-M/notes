@@ -4729,6 +4729,7 @@ Segment
 Standalone
 Sentry
 Sequential
+Simulation
 Lead
 Loop
 Linking

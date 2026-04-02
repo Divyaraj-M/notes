@@ -66,9 +66,53 @@
               "icon": "lucide-file",
               "title": "Project Share - RFx and Proposal"
             }
+          },
+          {
+            "id": "f29196114b1ec303",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "015caca0a4f21c0a",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "2c0c58d9d7341e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -133,7 +177,7 @@
             }
           },
           {
-            "id": "9a55d6d184d2f001",
+            "id": "89242e637de0308a",
             "type": "leaf",
             "state": {
               "type": "notebook-navigator",
@@ -142,7 +186,8 @@
               "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -405,8 +450,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
-    "collapsed": true
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -438,11 +482,12 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "681d9fb88f64f790",
+  "active": "2c0c58d9d7341e69",
   "lastOpenFiles": [
+    "Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "Product/UAT/UAT Vipin.md",
     "TO DO List - today.md",
+    "Product/UAT/UAT Vipin.md",
     "Friction points.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
@@ -457,7 +502,6 @@
     "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "Untitled.md",
     "Product/Marketing",
     "Product/UAT",
     "Product/Untitled.md",
