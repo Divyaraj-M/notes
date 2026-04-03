@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Getting Started",
+      "path": "Product/Help Article/Getting Started.md"
+    },
+    {
       "basename": "SparrowGenie - Help Articles",
       "path": "Product/Help Article/SparrowGenie - Help Articles.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "A little life",
       "path": "Books/A little life.md"
-    },
-    {
-      "basename": "Atomic Design",
-      "path": "Books/Atomic Design.md"
     }
   ],
   "omittedPaths": [],

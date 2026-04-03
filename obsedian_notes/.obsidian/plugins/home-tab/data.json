@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Help Article/Home page.md",
+      "filepath": "Product/Help Article/Getting Started.md",
+      "timestamp": 1775211991224
+    },
+    {
+      "filepath": "Product/Help Article/SparrowGenie - Help Articles.md",
       "timestamp": 1775211263003
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Projects/Proposals/Company Templates - Proposal.md",
       "timestamp": 1775202362229
-    },
-    {
-      "filepath": "Product/Email notifications/Email notifications.md",
-      "timestamp": 1775201706724
     }
   ],
   "bookmarkedFileStore": [
