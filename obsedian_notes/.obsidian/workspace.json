@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Proposals/Untitled.md",
+                "file": "Product/Projects/Proposals/My Digital Garden.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "My Digital Garden"
             }
           }
         ],
@@ -313,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Proposals/Untitled.md",
+                "file": "Product/Projects/Proposals/My Digital Garden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for My Digital Garden"
             }
           },
           {
@@ -332,12 +332,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Proposals/Untitled.md",
+                "file": "Product/Projects/Proposals/My Digital Garden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from My Digital Garden"
             }
           },
           {
@@ -366,10 +366,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Proposals/Untitled.md"
+                "file": "Product/Projects/Proposals/My Digital Garden.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for My Digital Garden"
             }
           },
           {
@@ -378,13 +378,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Proposals/Untitled.md",
+                "file": "Product/Projects/Proposals/My Digital Garden.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of My Digital Garden"
             }
           },
           {
@@ -566,7 +566,7 @@
   "active": "5ad709f775cae103",
   "lastOpenFiles": [
     "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Projects/Proposals/Untitled.md",
+    "Product/Projects/Proposals/My Digital Garden.md",
     "Product/Help Article/Home page.md",
     "Product/Help Article/How to Create a project.md",
     "Product/Email notifications/Email notifications.md",

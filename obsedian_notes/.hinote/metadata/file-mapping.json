@@ -2,7 +2,8 @@
   "version": "2.0",
   "mapping": {
     "Product/Projects/Proposals/Company Templates - Proposal.md": "product_projects_proposals_company_templates_-_proposal.md.json",
-    "Product/Projects/Proposals/Untitled.md": "product_projects_proposals_untitled.md.json"
+    "Product/Projects/Proposals/Untitled.md": "product_projects_proposals_untitled.md.json",
+    "Product/Projects/Proposals/My Digital Garden.md": "product_projects_proposals_my_digital_garden.md.json"
   },
-  "lastUpdated": 1775207633441
+  "lastUpdated": 1775207642509
 }
