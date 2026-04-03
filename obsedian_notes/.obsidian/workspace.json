@@ -198,9 +198,33 @@
               "icon": "lucide-file",
               "title": "SparrowGenie - Help Articles"
             }
+          },
+          {
+            "id": "277fbb09f91b2816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Getting started  with SparrowGenie"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -313,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
+                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SparrowGenie - Help Articles"
+              "title": "Backlinks for Getting started  with SparrowGenie"
             }
           },
           {
@@ -332,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
+                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SparrowGenie - Help Articles"
+              "title": "Outgoing links from Getting started  with SparrowGenie"
             }
           },
           {
@@ -366,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Help Article/SparrowGenie - Help Articles.md"
+                "file": "Product/Help Article/Getting started  with SparrowGenie.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for SparrowGenie - Help Articles"
+              "title": "File properties for Getting started  with SparrowGenie"
             }
           },
           {
@@ -378,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
+                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowGenie - Help Articles"
+              "title": "Outline of Getting started  with SparrowGenie"
             }
           },
           {
@@ -563,10 +587,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "5ad709f775cae103",
+  "active": "277fbb09f91b2816",
   "lastOpenFiles": [
-    "Product/Help Article/Getting Started.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
+    "Product/Help Article/Getting started  with SparrowGenie.md",
+    "Product/Help Article/Getting Started.md",
+    "Product/Help Article/Untitled.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
     "Product/Help Article/How to Create a project.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
@@ -599,8 +625,6 @@
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
-    "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "Excalidraw/Permissions.excalidraw.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

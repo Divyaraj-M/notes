@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Getting started  with SparrowGenie",
+      "path": "Product/Help Article/Getting started  with SparrowGenie.md"
+    },
+    {
       "basename": "SparrowGenie - Help Articles",
       "path": "Product/Help Article/SparrowGenie - Help Articles.md"
     },
     {
       "basename": "Getting Started",
       "path": "Product/Help Article/Getting Started.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/Help Article/Untitled.md"
     },
     {
       "basename": "Thinking Nodes",
@@ -191,14 +199,6 @@
     {
       "basename": "The 80'20 Principle",
       "path": "Books/The 80'20 Principle.md"
-    },
-    {
-      "basename": "202603",
-      "path": "2026/202603.md"
-    },
-    {
-      "basename": "A little life",
-      "path": "Books/A little life.md"
     }
   ],
   "omittedPaths": [],
