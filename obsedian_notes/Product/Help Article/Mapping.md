@@ -1,3 +1,6 @@
+---
+state: "[[Drafting]]"
+---
 # Field mapping
 
 Use this checklist to align requester templates to SparrowGenie fields so AI and reporting work correctly.

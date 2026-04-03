@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "01-MASTER-INDEX",
-      "path": "Help articles /01-MASTER-INDEX.md"
+      "basename": "Home page",
+      "path": "Product/Help Article/Home page.md"
     },
     {
-      "basename": "03-WRITING-SCHEDULE",
-      "path": "Help articles /03-WRITING-SCHEDULE.md"
+      "basename": "How to Create a project",
+      "path": "Product/Help Article/How to Create a project.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
+    },
+    {
+      "basename": "Mapping",
+      "path": "Product/Help Article/Mapping.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT/UAT Vipin.md"
     },
     {
       "basename": "Project Share - RFx and Proposal",
@@ -17,20 +29,16 @@
       "path": "TO DO List - today.md"
     },
     {
+      "basename": "Friction points",
+      "path": "Friction points.md"
+    },
+    {
       "basename": "kanban-default",
       "path": "TaskNotes/Views/kanban-default.base"
     },
     {
       "basename": "wireframe",
       "path": "Product/Projects/Proposals/RFP to Proposal/wireframe.html"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT/UAT Vipin.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "Friction points.md"
     },
     {
       "basename": "UAT Kavin",
@@ -191,14 +199,6 @@
     {
       "basename": "கல்வி ஓர் அரசியல்",
       "path": "Books/கல்வி ஓர் அரசியல்.md"
-    },
-    {
-      "basename": "Atomic Habits and deliberate practice applied to product management",
-      "path": "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
-    },
-    {
-      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
-      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
     }
   ],
   "omittedPaths": [],

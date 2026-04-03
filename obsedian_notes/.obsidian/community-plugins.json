@@ -32,5 +32,9 @@
   "tasknotes",
   "better-word-count",
   "obsidian-core-search-assistant-plugin",
-  "cards-view"
+  "cards-view",
+  "folder-navigator",
+  "project-browser",
+  "auto-card-link",
+  "pretty-properties"
 ]

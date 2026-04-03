@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Help articles /01-MASTER-INDEX.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01-MASTER-INDEX"
+              "title": "Project Share - RFx and Proposal"
             }
           },
           {
-            "id": "2c0c58d9d7341e69",
+            "id": "a8147277983e71f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,16 +100,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TO DO List - today"
+              "title": "UAT Vipin"
             }
           },
           {
-            "id": "77cb7893a3892a2a",
+            "id": "4baf2e77f7f07de7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TO DO List - today"
+              "title": "UAT Vipin"
+            }
+          },
+          {
+            "id": "f9925ede477faa5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Help Article/How to Create a project.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "How to Create a project"
+            }
+          },
+          {
+            "id": "5c66c3c9df3c81bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Help Article/Home page.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home page"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -203,7 +251,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -348,16 +396,6 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
-          },
-          {
-            "id": "3b4bf7d5b847a9ce",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "excalidraw-sidepanel"
-            }
           }
         ],
         "currentTab": 7
@@ -496,13 +534,25 @@
       "tasknotes:Open pomodoro timer": false,
       "tasknotes:Open pomodoro statistics": false,
       "tasknotes:Create new task": false,
-      "cards-view:Card view": false
+      "cards-view:Card view": false,
+      "project-browser:Open project browser": false
     }
   },
-  "active": "2658908dbf330066",
+  "active": "5c66c3c9df3c81bc",
   "lastOpenFiles": [
-    "Help articles /03-WRITING-SCHEDULE.md",
+    "Product/Help Article/How to Create a project.md",
+    "Product/Help Article/Home page.md",
+    "Product/Email notifications/Email notifications.md",
+    "Product/Help Article/Mapping.md",
+    "Product/UAT/UAT Vipin.md",
+    "Help articles /Untitled.md",
+    "Product/UAT/Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "TO DO List - today.md",
+    "Friction points.md",
+    "Help articles /02-ARTICLE-TEMPLATE.md",
+    "Help articles /03-WRITING-SCHEDULE.md",
+    "Help articles /01-MASTER-INDEX.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",
@@ -513,14 +563,9 @@
     "Help articles /projects/ai-answer-fill",
     "Help articles /projects",
     "Help articles /knowledge-hub",
-    "Help articles /02-ARTICLE-TEMPLATE.md",
-    "Help articles /01-MASTER-INDEX.md",
     "Help articles /00-SYSTEM-DESIGN.md",
-    "TO DO List - today.md",
     "Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/SparrowGenie_Internal_Collaboration_v2_PRD.md",
-    "Product/UAT/UAT Vipin.md",
-    "Friction points.md",
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
@@ -531,11 +576,6 @@
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
-    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-    "Product/Untitled.md",
-    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
-    "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

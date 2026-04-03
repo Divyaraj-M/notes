@@ -93,11 +93,13 @@
   "autoRevealActiveFile": true,
   "autoRevealShortestPath": true,
   "autoRevealIgnoreRightSidebar": true,
+  "autoRevealIgnoreOtherWindows": true,
   "paneTransitionDuration": 150,
   "multiSelectModifier": "cmdCtrl",
   "enterToOpenFiles": true,
   "shiftEnterOpenContext": "split",
   "cmdCtrlEnterOpenContext": "window",
+  "mouseBackForwardAction": "history",
   "startView": "files",
   "showInfoButtons": true,
   "homepage": null,
@@ -492,7 +494,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "2.5.4",
+  "lastShownVersion": "2.5.5",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []
