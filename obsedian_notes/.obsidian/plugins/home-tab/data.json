@@ -24,8 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Projects/Proposals/Untitled.md",
-      "timestamp": 1775207633310
+      "filepath": "Product/Projects/Proposals/Thinking Nodes.md",
+      "timestamp": 1775209833196
+    },
+    {
+      "filepath": "Product/Help Article/How to Create a project.md",
+      "timestamp": 1775209831345
     },
     {
       "filepath": "Product/Projects/Proposals/Company Templates - Proposal.md",
@@ -34,10 +38,6 @@
     {
       "filepath": "Product/Help Article/Home page.md",
       "timestamp": 1775201720422
-    },
-    {
-      "filepath": "Product/Help Article/How to Create a project.md",
-      "timestamp": 1775201709684
     },
     {
       "filepath": "Product/Email notifications/Email notifications.md",

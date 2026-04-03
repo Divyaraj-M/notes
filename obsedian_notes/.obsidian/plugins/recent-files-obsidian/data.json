@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "My Digital Garden",
-      "path": "Product/Projects/Proposals/My Digital Garden.md"
+      "basename": "Thinking Nodes",
+      "path": "Product/Projects/Proposals/Thinking Nodes.md"
+    },
+    {
+      "basename": "How to Create a project",
+      "path": "Product/Help Article/How to Create a project.md"
     },
     {
       "basename": "Company Templates - Proposal",
@@ -11,10 +15,6 @@
     {
       "basename": "Home page",
       "path": "Product/Help Article/Home page.md"
-    },
-    {
-      "basename": "How to Create a project",
-      "path": "Product/Help Article/How to Create a project.md"
     },
     {
       "basename": "Email notifications",

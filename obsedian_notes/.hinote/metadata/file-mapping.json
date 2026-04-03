@@ -3,7 +3,9 @@
   "mapping": {
     "Product/Projects/Proposals/Company Templates - Proposal.md": "product_projects_proposals_company_templates_-_proposal.md.json",
     "Product/Projects/Proposals/Untitled.md": "product_projects_proposals_untitled.md.json",
-    "Product/Projects/Proposals/My Digital Garden.md": "product_projects_proposals_my_digital_garden.md.json"
+    "Product/Projects/Proposals/My Digital Garden.md": "product_projects_proposals_my_digital_garden.md.json",
+    "Product/Projects/Proposals/Thinking Nodes.md": "product_projects_proposals_thinking_nodes.md.json",
+    "Product/Help Article/How to Create a project.md": "product_help_article_how_to_create_a_project.md.json"
   },
-  "lastUpdated": 1775207642509
+  "lastUpdated": 1775209831444
 }

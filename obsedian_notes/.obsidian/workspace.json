@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Proposals/My Digital Garden.md",
+                "file": "Product/Projects/Proposals/Thinking Nodes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My Digital Garden"
+              "title": "Thinking Nodes"
             }
           }
         ],
@@ -313,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Proposals/My Digital Garden.md",
+                "file": "Product/Projects/Proposals/Thinking Nodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for My Digital Garden"
+              "title": "Backlinks for Thinking Nodes"
             }
           },
           {
@@ -332,12 +332,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Proposals/My Digital Garden.md",
+                "file": "Product/Projects/Proposals/Thinking Nodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from My Digital Garden"
+              "title": "Outgoing links from Thinking Nodes"
             }
           },
           {
@@ -366,10 +366,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Proposals/My Digital Garden.md"
+                "file": "Product/Projects/Proposals/Thinking Nodes.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for My Digital Garden"
+              "title": "File properties for Thinking Nodes"
             }
           },
           {
@@ -378,13 +378,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Proposals/My Digital Garden.md",
+                "file": "Product/Projects/Proposals/Thinking Nodes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of My Digital Garden"
+              "title": "Outline of Thinking Nodes"
             }
           },
           {
@@ -565,10 +565,10 @@
   },
   "active": "5ad709f775cae103",
   "lastOpenFiles": [
-    "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Projects/Proposals/My Digital Garden.md",
-    "Product/Help Article/Home page.md",
     "Product/Help Article/How to Create a project.md",
+    "Product/Projects/Proposals/Thinking Nodes.md",
+    "Product/Projects/Proposals/Company Templates - Proposal.md",
+    "Product/Help Article/Home page.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",
     "Product/UAT/UAT Vipin.md",
