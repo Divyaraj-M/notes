@@ -174,9 +174,33 @@
               "icon": "lucide-file",
               "title": "Company Templates - Proposal"
             }
+          },
+          {
+            "id": "5ad709f775cae103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Proposals/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -289,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
+                "file": "Product/Projects/Proposals/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +323,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Company Templates - Proposal"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -308,12 +332,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
+                "file": "Product/Projects/Proposals/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Company Templates - Proposal"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -342,10 +366,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Proposals/Company Templates - Proposal.md"
+                "file": "Product/Projects/Proposals/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Company Templates - Proposal"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -354,13 +378,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
+                "file": "Product/Projects/Proposals/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Company Templates - Proposal"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -539,8 +563,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "5ad709f775cae103",
   "lastOpenFiles": [
+    "Product/Projects/Proposals/Company Templates - Proposal.md",
+    "Product/Projects/Proposals/Untitled.md",
     "Product/Help Article/Home page.md",
     "Product/Help Article/How to Create a project.md",
     "Product/Email notifications/Email notifications.md",
@@ -575,8 +601,6 @@
     "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "Excalidraw/Permissions.excalidraw.md",
     "Product/Projects/Proposals/Share for the proposal/Share first principle.md",
-    "Product/Projects/Proposals/Genie Templates - Propsals.md",
-    "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Product/Projects/Proposals/Untitled.md"
+    },
+    {
       "basename": "Company Templates - Proposal",
       "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Atomic Design",
       "path": "Books/Atomic Design.md"
-    },
-    {
-      "basename": "கல்வி ஓர் அரசியல்",
-      "path": "Books/கல்வி ஓர் அரசியல்.md"
     }
   ],
   "omittedPaths": [],
