@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Help Article/Untitled.md",
+      "filepath": "Product/Projects/Proposals/Company Templates - Proposal.md",
+      "timestamp": 1775202362229
+    },
+    {
+      "filepath": "Product/Help Article/Home page.md",
       "timestamp": 1775201720422
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Help Article/Mapping.md",
       "timestamp": 1775201693325
-    },
-    {
-      "filepath": "Product/UAT/UAT Vipin.md",
-      "timestamp": 1775201690792
     }
   ],
   "bookmarkedFileStore": [

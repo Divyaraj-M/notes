@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/Home page.md",
+                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home page"
+              "title": "Company Templates - Proposal"
             }
           }
         ],
@@ -289,7 +289,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Dossiers/Proposals/Proposal Templates.md",
+                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +299,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Proposal Templates"
+              "title": "Backlinks for Company Templates - Proposal"
             }
           },
           {
@@ -308,12 +308,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Atomic Design.md",
+                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Atomic Design"
+              "title": "Outgoing links from Company Templates - Proposal"
             }
           },
           {
@@ -322,8 +322,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -342,10 +342,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Books/The 80'20 Principle.md"
+                "file": "Product/Projects/Proposals/Company Templates - Proposal.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for The 80'20 Principle"
+              "title": "File properties for Company Templates - Proposal"
             }
           },
           {
@@ -354,13 +354,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline of Company Templates - Proposal"
             }
           },
           {
@@ -398,7 +398,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -535,13 +535,14 @@
       "tasknotes:Open pomodoro statistics": false,
       "tasknotes:Create new task": false,
       "cards-view:Card view": false,
-      "project-browser:Open project browser": false
+      "project-browser:Open project browser": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "5c66c3c9df3c81bc",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
-    "Product/Help Article/How to Create a project.md",
     "Product/Help Article/Home page.md",
+    "Product/Help Article/How to Create a project.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",
     "Product/UAT/UAT Vipin.md",
