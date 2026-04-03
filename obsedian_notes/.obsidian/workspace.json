@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/Getting Started.md",
+                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Getting Started"
+              "title": "SparrowGenie - Help Articles"
             }
           }
         ],
@@ -313,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Help Article/Getting Started.md",
+                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +323,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Getting Started"
+              "title": "Backlinks for SparrowGenie - Help Articles"
             }
           },
           {
@@ -332,12 +332,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Help Article/Getting Started.md",
+                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Getting Started"
+              "title": "Outgoing links from SparrowGenie - Help Articles"
             }
           },
           {
@@ -366,10 +366,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Help Article/Getting Started.md"
+                "file": "Product/Help Article/SparrowGenie - Help Articles.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Getting Started"
+              "title": "File properties for SparrowGenie - Help Articles"
             }
           },
           {
@@ -378,13 +378,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Help Article/Getting Started.md",
+                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Getting Started"
+              "title": "Outline of SparrowGenie - Help Articles"
             }
           },
           {
@@ -565,8 +565,8 @@
   },
   "active": "5ad709f775cae103",
   "lastOpenFiles": [
-    "Product/Help Article/SparrowGenie - Help Articles.md",
     "Product/Help Article/Getting Started.md",
+    "Product/Help Article/SparrowGenie - Help Articles.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
     "Product/Help Article/How to Create a project.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
