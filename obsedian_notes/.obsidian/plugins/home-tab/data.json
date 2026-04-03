@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Product/Help Article/Home page.md",
+      "timestamp": 1775211263003
+    },
+    {
       "filepath": "Product/Projects/Proposals/Thinking Nodes.md",
       "timestamp": 1775209833196
     },
@@ -34,10 +38,6 @@
     {
       "filepath": "Product/Projects/Proposals/Company Templates - Proposal.md",
       "timestamp": 1775202362229
-    },
-    {
-      "filepath": "Product/Help Article/Home page.md",
-      "timestamp": 1775201720422
     },
     {
       "filepath": "Product/Email notifications/Email notifications.md",

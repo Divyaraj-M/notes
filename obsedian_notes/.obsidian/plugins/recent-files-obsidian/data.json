@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie - Help Articles",
+      "path": "Product/Help Article/SparrowGenie - Help Articles.md"
+    },
+    {
       "basename": "Thinking Nodes",
       "path": "Product/Projects/Proposals/Thinking Nodes.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Company Templates - Proposal",
       "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
-    },
-    {
-      "basename": "Home page",
-      "path": "Product/Help Article/Home page.md"
     },
     {
       "basename": "Email notifications",
