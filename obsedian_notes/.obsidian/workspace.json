@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/How to Create a project.md",
+                "file": "Product/Help Article/Create a project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to Create a project"
+              "title": "Create a project"
             }
           },
           {
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
+                "file": "Product/Help Article/Create a project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Getting started  with SparrowGenie"
+              "title": "Create a project"
             }
           }
         ],
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
+                "file": "Product/Help Article/Create a project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Getting started  with SparrowGenie"
+              "title": "Backlinks for Create a project"
             }
           },
           {
@@ -356,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
+                "file": "Product/Help Article/Create a project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Getting started  with SparrowGenie"
+              "title": "Outgoing links from Create a project"
             }
           },
           {
@@ -390,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Help Article/Getting started  with SparrowGenie.md"
+                "file": "Product/Help Article/Create a project.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Getting started  with SparrowGenie"
+              "title": "File properties for Create a project"
             }
           },
           {
@@ -402,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Help Article/Getting started  with SparrowGenie.md",
+                "file": "Product/Help Article/Create a project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Getting started  with SparrowGenie"
+              "title": "Outline of Create a project"
             }
           },
           {
@@ -446,7 +446,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -587,14 +587,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0be0d26dff8febf8",
+  "active": "277fbb09f91b2816",
   "lastOpenFiles": [
     "Product/Help Article/SparrowGenie - Help Articles.md",
-    "Product/Help Article/Getting started  with SparrowGenie.md",
+    "Product/Help Article/Create a project.md",
     "Product/Help Article/Getting Started.md",
+    "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
-    "Product/Help Article/How to Create a project.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",

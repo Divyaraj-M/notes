@@ -69,7 +69,7 @@ Side projects around content creation and teaching.
 
 ## Help Articles
 
-→ [[How to Create a project]] → [[Mapping]] → [[Home page]]
+→ [[Create a project]] → [[Mapping]] → [[Home page]]
 
 ---
 
