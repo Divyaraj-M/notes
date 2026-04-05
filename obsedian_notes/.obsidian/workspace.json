@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Help Article/Create a project.md",
+                "file": "Friction points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Create a project"
+              "title": "Backlinks for Friction points"
             }
           },
           {
@@ -356,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Help Article/Create a project.md",
+                "file": "Friction points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Create a project"
+              "title": "Outgoing links from Friction points"
             }
           },
           {
@@ -390,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Help Article/Create a project.md"
+                "file": "Friction points.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Create a project"
+              "title": "File properties for Friction points"
             }
           },
           {
@@ -402,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Help Article/Create a project.md",
+                "file": "Friction points.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Create a project"
+              "title": "Outline of Friction points"
             }
           },
           {
@@ -446,7 +446,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -587,10 +587,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "277fbb09f91b2816",
+  "active": "0cb49de0e84002f1",
   "lastOpenFiles": [
-    "Product/Help Article/SparrowGenie - Help Articles.md",
+    "TO DO List - today.md",
     "Product/Help Article/Create a project.md",
+    "Product/Help Article/SparrowGenie - Help Articles.md",
     "Product/Help Article/Getting Started.md",
     "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
@@ -602,7 +603,6 @@
     "Help articles /Untitled.md",
     "Product/UAT/Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "TO DO List - today.md",
     "Friction points.md",
     "Help articles /02-ARTICLE-TEMPLATE.md",
     "Help articles /03-WRITING-SCHEDULE.md",
