@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md",
+                "file": "Product/competitors/Responsiveio/Multi column.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi column"
+              "title": "Answer types"
             }
           }
         ],
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multi column"
+              "title": "Backlinks for Answer types"
             }
           },
           {
@@ -356,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Multi column"
+              "title": "Outgoing links from Answer types"
             }
           },
           {
@@ -390,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md"
+                "file": "Product/competitors/Responsiveio/Answer types.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Multi column"
+              "title": "File properties for Answer types"
             }
           },
           {
@@ -402,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Loopio/Multi column.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Multi column"
+              "title": "Outline of Answer types"
             }
           },
           {
@@ -588,13 +588,13 @@
   },
   "active": "b2ace781e0bd552f",
   "lastOpenFiles": [
+    "Product/competitors/Responsiveio/Multi column.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/competitors/Responsiveio/Answer types templates.md",
     "Product/competitors/Responsiveio/Answer types.md",
-    "Product/competitors/Loopio/Multi column.md",
     "Product/competitors/Untitled.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Brand kit/Brand Kit.md",

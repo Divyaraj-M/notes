@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/competitors/Loopio/Multi column.md",
+      "filepath": "Product/competitors/Responsiveio/Answer types.md",
+      "timestamp": 1775562733447
+    },
+    {
+      "filepath": "Product/competitors/Responsiveio/Multi column.md",
       "timestamp": 1775562676415
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/competitors/Responsiveio/Attachments - Responsive.md",
       "timestamp": 1775562672238
-    },
-    {
-      "filepath": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
-      "timestamp": 1775562670801
     }
   ],
   "bookmarkedFileStore": [
