@@ -26,7 +26,9 @@
     "Product/Projects/Progress bar/progress-wireframe.html": "product_projects_progress_bar_progress-wireframe.html.json",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md": "product_projects_progress_bar_decision-state_progress_bars.md.json",
     "Product/competitors/RRM_Competitive_Analysis.md": "product_competitors_rrm_competitive_analysis.md.json",
-    "Product/Email notifications/Email notifications.md": "product_email_notifications_email_notifications.md.json"
+    "Product/Email notifications/Email notifications.md": "product_email_notifications_email_notifications.md.json",
+    "Product/Product Sync system/SME Operating system.md": "product_product_sync_system_sme_operating_system.md.json",
+    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md": "auto-mark_high_confidence_answers_as_reviewed_in_import_flow.md.json"
   },
-  "lastUpdated": 1775559873774
+  "lastUpdated": 1775560203782
 }

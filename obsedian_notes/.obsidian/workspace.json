@@ -128,108 +128,12 @@
             }
           },
           {
-            "id": "f9925ede477faa5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Help Article/Create a project.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Create a project"
-            }
-          },
-          {
-            "id": "5c66c3c9df3c81bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/Company Templates - Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Company Templates - Proposal"
-            }
-          },
-          {
-            "id": "5ad709f775cae103",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Help Article/SparrowGenie - Help Articles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SparrowGenie - Help Articles"
-            }
-          },
-          {
-            "id": "277fbb09f91b2816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Help Article/Create a project.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Create a project"
-            }
-          },
-          {
             "id": "2b90ca11a47c8b06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Product Sync system/Untitled.md",
+                "file": "Product/Product Sync system/SME Operating system.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "SME Operating system"
             }
           },
           {
-            "id": "f0a05f3de7c71a7f",
+            "id": "49cf17d6a3011080",
             "type": "leaf",
             "state": {
               "type": "card-browser-view",
@@ -258,93 +162,9 @@
               "icon": "align-vertical-justify-start",
               "title": "Browse"
             }
-          },
-          {
-            "id": "857cfbba2c4bc6a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Find Analogies.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Find Analogies"
-            }
-          },
-          {
-            "id": "a0255408d200bce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/RRM_Competitive_Analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RRM_Competitive_Analysis"
-            }
-          },
-          {
-            "id": "72e5d4a66202cd59",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://docs.google.com/spreadsheets/d/1YfXBKMnfzv6Nu3scPDthGYDGAo_h5Ptk/edit?gid=647645677#gid=647645677"
-              },
-              "icon": "lucide-file",
-              "title": "Surfing"
-            }
-          },
-          {
-            "id": "6ad88aa6021f4340",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Decision-State Progress Bars"
-            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -440,7 +260,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662
+    "width": 310.5066738128662,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -561,7 +382,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -702,24 +523,25 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "72e5d4a66202cd59",
+  "active": "49cf17d6a3011080",
   "lastOpenFiles": [
+    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
+    "Friction points.md",
+    "Product/Product Sync system/SME Operating system.md",
+    "Product/UAT/UAT Vipin.md",
+    "Product/Help Article/Create a project.md",
+    "Product/Projects/Proposals/Company Templates - Proposal.md",
+    "Product/Help Article/SparrowGenie - Help Articles.md",
+    "TO DO List - today.md",
+    "Find Analogies.md",
+    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/competitors/RRM_Competitive_Analysis.md",
     "Product/Email notifications/Email notifications.md",
     "Product/competitors/QorusDocs.md",
     "Product/competitors/Arphie.ai.md",
-    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "Find Analogies.md",
-    "Product/UAT/UAT Vipin.md",
-    "TO DO List - today.md",
-    "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Help Article/SparrowGenie - Help Articles.md",
-    "Product/Help Article/Create a project.md",
-    "Product/Product Sync system/Untitled.md",
     "Product/Product Sync system/Product Review system.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "Friction points.md",
     "Product/Help Article/Getting Started.md",
     "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
@@ -739,7 +561,6 @@
     "Help articles /projects/collaborating",
     "Help articles /projects/ai-answer-fill",
     "Help articles /projects",
-    "Help articles /00-SYSTEM-DESIGN.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

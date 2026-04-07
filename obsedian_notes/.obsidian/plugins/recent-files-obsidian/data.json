@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
+      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
+    },
+    {
+      "basename": "Friction points",
+      "path": "Friction points.md"
+    },
+    {
+      "basename": "SME Operating system",
+      "path": "Product/Product Sync system/SME Operating system.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "Product/UAT/UAT Vipin.md"
+    },
+    {
+      "basename": "Create a project",
+      "path": "Product/Help Article/Create a project.md"
+    },
+    {
+      "basename": "Company Templates - Proposal",
+      "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
+    },
+    {
+      "basename": "SparrowGenie - Help Articles",
+      "path": "Product/Help Article/SparrowGenie - Help Articles.md"
+    },
+    {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "Find Analogies",
+      "path": "Find Analogies.md"
+    },
+    {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
     },
@@ -25,44 +61,12 @@
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
-      "basename": "Find Analogies",
-      "path": "Find Analogies.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT/UAT Vipin.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
-    },
-    {
-      "basename": "Company Templates - Proposal",
-      "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
-    },
-    {
-      "basename": "SparrowGenie - Help Articles",
-      "path": "Product/Help Article/SparrowGenie - Help Articles.md"
-    },
-    {
-      "basename": "Create a project",
-      "path": "Product/Help Article/Create a project.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Product Sync system/Untitled.md"
-    },
-    {
       "basename": "Product Review system",
       "path": "Product/Product Sync system/Product Review system.md"
     },
     {
       "basename": "Project Share - RFx and Proposal",
       "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "Friction points.md"
     },
     {
       "basename": "Getting Started",
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot_20260316-101854",
       "path": "Books/Read List/Screenshot_20260316-101854.png"
-    },
-    {
-      "basename": "Replace Email-Based User Display with Name and Team",
-      "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
     }
   ],
   "omittedPaths": [],

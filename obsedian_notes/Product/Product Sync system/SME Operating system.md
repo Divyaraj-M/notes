@@ -1,5 +1,5 @@
 ---
-state: "[[Idea]]"
+state: "[[Focus]]"
 tags:
   - learning/product_thinking/SME-operating
 ---
