@@ -29,5 +29,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 07-Apr-2026
 - [ ] Brand Templates
 - [ ] 20 Articles 
-- [ ] 2 Competitor Analysis 
-- [ ] 
+- [x] 2 Competitor Analysis 
+- [ ] Ablity to multi-column. Dates and Description
