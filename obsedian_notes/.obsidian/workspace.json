@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Brand kit/Untitled.md",
+                "file": "Product/Brand kit/Brand Kit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +172,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Brand Kit"
+            }
+          },
+          {
+            "id": "1492b695a2ebb83f",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "Product/competitors"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -289,7 +301,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Brand kit/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +310,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
@@ -308,12 +319,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Brand kit/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
@@ -341,11 +351,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/Brand kit/Untitled.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties"
             }
           },
           {
@@ -354,13 +362,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Brand kit/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           },
           {
@@ -539,9 +546,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "49cf17d6a3011080",
+  "active": "1492b695a2ebb83f",
   "lastOpenFiles": [
-    "Product/Brand kit/Untitled.md",
+    "Product/competitors/Untitled.md",
+    "Product/competitors/Loopio/Proposal to Project.md",
+    "Product/Brand kit/Brand Kit.md",
     "Product/Untitled.md",
     "Product/Brand kit",
     "TO DO List - today.md",
@@ -567,8 +576,6 @@
     "Product/Projects/Proposals/Thinking Nodes.md",
     "Product/Help Article/Mapping.md",
     "Help articles /Untitled.md",
-    "Product/UAT/Untitled.md",
-    "Help articles /02-ARTICLE-TEMPLATE.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",

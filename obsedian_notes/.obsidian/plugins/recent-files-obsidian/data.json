@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Product/Brand kit/Untitled.md"
+      "basename": "Proposal to Project",
+      "path": "Product/competitors/Loopio/Proposal to Project.md"
+    },
+    {
+      "basename": "Brand Kit",
+      "path": "Product/Brand kit/Brand Kit.md"
     },
     {
       "basename": "TO DO List - today",
@@ -191,14 +195,6 @@
     {
       "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
       "path": "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md"
-    },
-    {
-      "basename": "hybrid-thinking-product-framework",
-      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-product-framework.html"
-    },
-    {
-      "basename": "Read List",
-      "path": "Books/Read List/Read List.md"
     }
   ],
   "omittedPaths": [],

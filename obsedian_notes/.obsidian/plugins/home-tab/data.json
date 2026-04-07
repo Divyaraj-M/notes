@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/Brand kit/Untitled.md",
+      "filepath": "Product/competitors/Loopio/Proposal to Project.md",
+      "timestamp": 1775561424601
+    },
+    {
+      "filepath": "Product/Brand kit/Brand Kit.md",
       "timestamp": 1775560568920
     },
     {
@@ -34,14 +38,6 @@
     {
       "filepath": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
       "timestamp": 1775560203683
-    },
-    {
-      "filepath": "Friction points.md",
-      "timestamp": 1775560196380
-    },
-    {
-      "filepath": "Product/Product Sync system/SME Operating system.md",
-      "timestamp": 1775560182449
     }
   ],
   "bookmarkedFileStore": [
