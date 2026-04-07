@@ -258,9 +258,21 @@
               "icon": "code-glyph",
               "title": "progress-wireframe"
             }
+          },
+          {
+            "id": "15b3301cd05a2b34",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -373,7 +385,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -383,7 +394,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for progress-wireframe"
+              "title": "Backlinks"
             }
           },
           {
@@ -392,12 +403,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from progress-wireframe"
+              "title": "Outgoing links"
             }
           },
           {
@@ -425,11 +435,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for progress-wireframe"
+              "title": "File properties"
             }
           },
           {
@@ -438,13 +446,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of progress-wireframe"
+              "title": "Outline"
             }
           },
           {
@@ -622,10 +629,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "bed0bd9a4a493693",
+  "active": "15b3301cd05a2b34",
   "lastOpenFiles": [
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/UAT/UAT Vipin.md",
+    "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/competitors/Responsiveio/Answer types.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
@@ -650,8 +658,6 @@
     "Product/Email notifications/Email notifications.md",
     "Product/competitors/QorusDocs.md",
     "Product/competitors/Arphie.ai.md",
-    "Product/Projects/Progress bar/progress-wireframe.html",
-    "Product/Product Sync system/Product Review system.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",
