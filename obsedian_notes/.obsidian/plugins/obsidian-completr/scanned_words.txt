@@ -277,6 +277,8 @@ Take
 Tomasz
 Tunguz
 Teach
+Tone
+Themes
 Docs
 Doc
 Designer
@@ -601,6 +603,7 @@ Deduplicate
 DPAs
 Demos
 David
+Drafting
 Who
 When
 What
@@ -831,6 +834,7 @@ WALKTHROUGH
 WORKED
 WCAG
 Writing
+Works
 writes
 we
 work
@@ -1495,6 +1499,9 @@ isOpen
 importing
 imported
 inventory
+ingest
+improvements
+instance
 reads
 references
 requirements
@@ -2550,6 +2557,9 @@ teardown
 timestamps
 tiny
 tweet
+transcript
+tombstones
+typography
 PM
 PRD
 Problem
@@ -2881,6 +2891,8 @@ Proposify
 Presales
 Procurement
 Perplexity
+Primarily
+Powered
 Before
 Blast
 BM
@@ -3117,6 +3129,9 @@ Bowes
 Bridges
 Backlink
 Builds
+Bias
+Beyond
+Branding
 design
 does
 do
@@ -3546,6 +3561,8 @@ deep
 dive
 deliberately
 definitive
+database
+deck
 starts
 sub
 screens
@@ -4205,6 +4222,9 @@ study
 streaming
 standup
 simply
+standing
+strips
+salesperson
 everyone
 exactly
 each
@@ -4604,6 +4624,7 @@ employees
 exercise
 engineers
 eval
+encryption
 Story
 Stories
 Should
@@ -4989,6 +5010,7 @@ Sit
 Superhuman
 Skok
 Strategic
+Stacks
 Lead
 Loop
 Linking
@@ -5229,6 +5251,10 @@ LangChain
 LlamaIndex
 Lemkin
 Lenny
+Legacy
+Libraries
+London
+Layouts
 After
 API
 All
@@ -5554,6 +5580,10 @@ Anticipate
 Alerts
 Anthropic
 Artifact
+Arphie
+Another
+Adjustment
+Asset
 approved
 atomic
 and
@@ -6006,6 +6036,8 @@ annoying
 almost
 ambiguous
 acumen
+arphieai
+automating
 QA
 Question
 Quality
@@ -6179,6 +6211,7 @@ QUICK
 Qualification
 Qvidian
 QorusDocs
+QPilot
 Flow
 Flows
 FRD
@@ -6674,6 +6707,9 @@ GLOBAL
 Gateway
 Gap
 GTM
+Golden
+Grammar
+GDPR
 build
 break
 back
@@ -6997,6 +7033,8 @@ biggest
 buys
 buying
 baselines
+bio
+bios
 Requirements
 Radius
 Rules
@@ -7342,6 +7380,7 @@ Reducing
 RAG
 Rank
 Reflection
+Readability
 need
 needing
 nested
@@ -7965,6 +8004,8 @@ Clunky
 Chunk
 Calculate
 Cursor
+Categories
+Consolidation
 How
 Hubs
 Hub
@@ -8188,6 +8229,7 @@ Hide
 Hold
 History
 Heavily
+Healing
 call
 could
 context
@@ -8784,6 +8826,10 @@ categorize
 channel
 craft
 certificate
+cluttering
+constant
+connected
+contradict
 on
 owns
 one
@@ -9742,6 +9788,8 @@ lookups
 lockClass
 lastSectionId
 literacy
+legacy
+libraries
 here
 has
 how
@@ -10023,6 +10071,8 @@ hesitate
 hallucination
 hallucinated
 hands
+having
+hate
 Every
 Engineers
 Expected
@@ -11488,6 +11538,10 @@ playback
 pixel
 payback
 produced
+proposes
+performs
+professional
+populates
 goals
 give
 generates
@@ -11742,6 +11796,7 @@ gateway
 grouped
 grain
 groups
+glove
 It
 If
 Inside
@@ -12353,6 +12408,7 @@ KEY
 Kanban
 Kim
 Know
+Killer
 keep
 knowledge
 known
@@ -12557,6 +12613,7 @@ kYV
 keyframes
 knows
 killed
+killer
 questions
 quality
 question
@@ -13097,6 +13154,7 @@ mappings
 morning
 miss
 muscle
+mentioned
 Owners
 Opportunity
 Owner
@@ -13829,6 +13887,8 @@ Understanding
 Using
 URLs
 Unit
+Upland
+Updates
 XLS
 XLSX
 XXX

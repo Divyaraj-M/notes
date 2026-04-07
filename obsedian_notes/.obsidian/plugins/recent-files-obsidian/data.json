@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "RRM_Competitive_Analysis",
+      "path": "Product/competitors/RRM_Competitive_Analysis.md"
+    },
+    {
+      "basename": "QorusDocs",
+      "path": "Product/competitors/QorusDocs.md"
+    },
+    {
+      "basename": "Arphie.ai",
+      "path": "Product/competitors/Arphie.ai.md"
+    },
+    {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
     },
@@ -9,16 +21,8 @@
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
-      "basename": "QorusDocs",
-      "path": "Product/competitors/QorusDocs.md"
-    },
-    {
       "basename": "Find Analogies",
       "path": "Find Analogies.md"
-    },
-    {
-      "basename": "Arphie.ai",
-      "path": "Product/competitors/Arphie.ai.md"
     },
     {
       "basename": "UAT Vipin",
@@ -195,10 +199,6 @@
     {
       "basename": "Replace Email-Based User Display with Name and Team",
       "path": "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md"
-    },
-    {
-      "basename": "SparrowGenie_Answer_Actions_Dark",
-      "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
     }
   ],
   "omittedPaths": [],
