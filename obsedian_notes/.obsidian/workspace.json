@@ -227,16 +227,28 @@
             "id": "0a158a874b6dc74f",
             "type": "leaf",
             "state": {
-              "type": "card-browser-view",
+              "type": "markdown",
               "state": {
-                "path": "Product/competitors"
+                "file": "Product/UAT/UAT Vipin.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-file",
+              "title": "UAT Vipin"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -349,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -359,7 +371,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multi-column"
+              "title": "Backlinks for UAT Vipin"
             }
           },
           {
@@ -368,12 +380,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Multi-column"
+              "title": "Outgoing links from UAT Vipin"
             }
           },
           {
@@ -402,10 +414,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md"
+                "file": "Product/UAT/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Multi-column"
+              "title": "File properties for UAT Vipin"
             }
           },
           {
@@ -414,13 +426,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Multi-column"
+              "title": "Outline of UAT Vipin"
             }
           },
           {
@@ -598,7 +610,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b2ace781e0bd552f",
+  "active": "0a158a874b6dc74f",
   "lastOpenFiles": [
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/competitors/Responsiveio/Answer types.md",
