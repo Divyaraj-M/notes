@@ -248,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -361,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md",
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +371,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UAT Vipin"
+              "title": "Backlinks for Multi-column"
             }
           },
           {
@@ -380,12 +380,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md",
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UAT Vipin"
+              "title": "Outgoing links from Multi-column"
             }
           },
           {
@@ -414,10 +414,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md"
+                "file": "Product/competitors/Responsiveio/Multi-column.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for UAT Vipin"
+              "title": "File properties for Multi-column"
             }
           },
           {
@@ -426,13 +426,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md",
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Vipin"
+              "title": "Outline of Multi-column"
             }
           },
           {
@@ -610,8 +610,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0a158a874b6dc74f",
+  "active": "b2ace781e0bd552f",
   "lastOpenFiles": [
+    "Product/UAT/UAT Vipin.md",
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/competitors/Responsiveio/Answer types.md",
     "Product/competitors/Loopio/SmartScan.md",
@@ -628,7 +629,6 @@
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Friction points.md",
     "Product/Product Sync system/SME Operating system.md",
-    "Product/UAT/UAT Vipin.md",
     "Product/Help Article/Create a project.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
