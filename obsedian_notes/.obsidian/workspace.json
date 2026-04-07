@@ -311,12 +311,24 @@
             "id": "6ad88aa6021f4340",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "code-glyph",
-              "title": "progress-wireframe"
+              "icon": "lucide-file",
+              "title": "Decision-State Progress Bars"
             }
           }
         ],
@@ -433,7 +445,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -443,7 +455,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for progress-wireframe"
+              "title": "Backlinks for Decision-State Progress Bars"
             }
           },
           {
@@ -452,12 +464,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from progress-wireframe"
+              "title": "Outgoing links from Decision-State Progress Bars"
             }
           },
           {
@@ -486,10 +498,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for progress-wireframe"
+              "title": "File properties for Decision-State Progress Bars"
             }
           },
           {
@@ -498,13 +510,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html",
+                "file": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of progress-wireframe"
+              "title": "Outline of Decision-State Progress Bars"
             }
           },
           {
@@ -685,6 +697,7 @@
   },
   "active": "6ad88aa6021f4340",
   "lastOpenFiles": [
+    "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/competitors/QorusDocs.md",
     "Find Analogies.md",
     "Product/competitors/Arphie.ai.md",
@@ -720,7 +733,6 @@
     "Help articles /knowledge-hub",
     "Help articles /00-SYSTEM-DESIGN.md",
     "Product/Projects/Proposals/RFP to Proposal/SparrowGenie_Internal_Collaboration_v2_PRD.md",
-    "Daily/UAT Kavin.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
