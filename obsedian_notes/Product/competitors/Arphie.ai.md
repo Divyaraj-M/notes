@@ -1,7 +1,7 @@
 ---
 state: "[[Final]]"
 tags:
-  - competitor_analysis/arphieai
+  - competitor_analysis/RRM_Competitive_Analysis/arphieai
 website: https://www.arphie.ai/features#:~:text=Make%20content%20management%20a%20breeze,grammar%20and%20readability%2C%20and%20more.
 ---
 ### **1. Data Migration & Competitor Tools**

@@ -1982,8 +1982,8 @@ var require_logger = __commonJS({
   "node_modules/js-logger/src/logger.js"(exports, module2) {
     (function(global2) {
       "use strict";
-      var Logger12 = {};
-      Logger12.VERSION = "1.6.1";
+      var Logger13 = {};
+      Logger13.VERSION = "1.6.1";
       var logHandler;
       var contextualLoggersByNameMap = {};
       var bind2 = function(scope, func) {
@@ -2005,13 +2005,13 @@ var require_logger = __commonJS({
       var defineLogLevel = function(value, name) {
         return { value, name };
       };
-      Logger12.TRACE = defineLogLevel(1, "TRACE");
-      Logger12.DEBUG = defineLogLevel(2, "DEBUG");
-      Logger12.INFO = defineLogLevel(3, "INFO");
-      Logger12.TIME = defineLogLevel(4, "TIME");
-      Logger12.WARN = defineLogLevel(5, "WARN");
-      Logger12.ERROR = defineLogLevel(8, "ERROR");
-      Logger12.OFF = defineLogLevel(99, "OFF");
+      Logger13.TRACE = defineLogLevel(1, "TRACE");
+      Logger13.DEBUG = defineLogLevel(2, "DEBUG");
+      Logger13.INFO = defineLogLevel(3, "INFO");
+      Logger13.TIME = defineLogLevel(4, "TIME");
+      Logger13.WARN = defineLogLevel(5, "WARN");
+      Logger13.ERROR = defineLogLevel(8, "ERROR");
+      Logger13.OFF = defineLogLevel(99, "OFF");
       var ContextualLogger = function(defaultContext) {
         this.context = defaultContext;
         this.setLevel(defaultContext.filterLevel);
@@ -2034,28 +2034,28 @@ var require_logger = __commonJS({
           return lvl.value >= filterLevel.value;
         },
         trace: function() {
-          this.invoke(Logger12.TRACE, arguments);
+          this.invoke(Logger13.TRACE, arguments);
         },
         debug: function() {
-          this.invoke(Logger12.DEBUG, arguments);
+          this.invoke(Logger13.DEBUG, arguments);
         },
         info: function() {
-          this.invoke(Logger12.INFO, arguments);
+          this.invoke(Logger13.INFO, arguments);
         },
         warn: function() {
-          this.invoke(Logger12.WARN, arguments);
+          this.invoke(Logger13.WARN, arguments);
         },
         error: function() {
-          this.invoke(Logger12.ERROR, arguments);
+          this.invoke(Logger13.ERROR, arguments);
         },
         time: function(label) {
           if (typeof label === "string" && label.length > 0) {
-            this.invoke(Logger12.TIME, [label, "start"]);
+            this.invoke(Logger13.TIME, [label, "start"]);
           }
         },
         timeEnd: function(label) {
           if (typeof label === "string" && label.length > 0) {
-            this.invoke(Logger12.TIME, [label, "end"]);
+            this.invoke(Logger13.TIME, [label, "end"]);
           }
         },
         // Invokes the logger callback if it's not being filtered.
@@ -2065,9 +2065,9 @@ var require_logger = __commonJS({
           }
         }
       };
-      var globalLogger = new ContextualLogger({ filterLevel: Logger12.OFF });
+      var globalLogger = new ContextualLogger({ filterLevel: Logger13.OFF });
       (function() {
-        var L = Logger12;
+        var L = Logger13;
         L.enabledFor = bind2(globalLogger, globalLogger.enabledFor);
         L.trace = bind2(globalLogger, globalLogger.trace);
         L.debug = bind2(globalLogger, globalLogger.debug);
@@ -2078,10 +2078,10 @@ var require_logger = __commonJS({
         L.error = bind2(globalLogger, globalLogger.error);
         L.log = L.info;
       })();
-      Logger12.setHandler = function(func) {
+      Logger13.setHandler = function(func) {
         logHandler = func;
       };
-      Logger12.setLevel = function(level) {
+      Logger13.setLevel = function(level) {
         globalLogger.setLevel(level);
         for (var key in contextualLoggersByNameMap) {
           if (contextualLoggersByNameMap.hasOwnProperty(key)) {
@@ -2089,13 +2089,13 @@ var require_logger = __commonJS({
           }
         }
       };
-      Logger12.getLevel = function() {
+      Logger13.getLevel = function() {
         return globalLogger.getLevel();
       };
-      Logger12.get = function(name) {
+      Logger13.get = function(name) {
         return contextualLoggersByNameMap[name] || (contextualLoggersByNameMap[name] = new ContextualLogger(merge3({ name }, globalLogger.context)));
       };
-      Logger12.createDefaultHandler = function(options) {
+      Logger13.createDefaultHandler = function(options) {
         options = options || {};
         options.formatter = options.formatter || function defaultMessageFormatter(messages, context) {
           if (context.name) {
@@ -2114,7 +2114,7 @@ var require_logger = __commonJS({
           messages = Array.prototype.slice.call(messages);
           var hdlr = console.log;
           var timerLabel;
-          if (context.level === Logger12.TIME) {
+          if (context.level === Logger13.TIME) {
             timerLabel = (context.name ? "[" + context.name + "] " : "") + messages[0];
             if (messages[1] === "start") {
               if (console.time) {
@@ -2130,15 +2130,15 @@ var require_logger = __commonJS({
               }
             }
           } else {
-            if (context.level === Logger12.WARN && console.warn) {
+            if (context.level === Logger13.WARN && console.warn) {
               hdlr = console.warn;
-            } else if (context.level === Logger12.ERROR && console.error) {
+            } else if (context.level === Logger13.ERROR && console.error) {
               hdlr = console.error;
-            } else if (context.level === Logger12.INFO && console.info) {
+            } else if (context.level === Logger13.INFO && console.info) {
               hdlr = console.info;
-            } else if (context.level === Logger12.DEBUG && console.debug) {
+            } else if (context.level === Logger13.DEBUG && console.debug) {
               hdlr = console.debug;
-            } else if (context.level === Logger12.TRACE && console.trace) {
+            } else if (context.level === Logger13.TRACE && console.trace) {
               hdlr = console.trace;
             }
             options.formatter(messages, context);
@@ -2146,22 +2146,22 @@ var require_logger = __commonJS({
           }
         };
       };
-      Logger12.useDefaults = function(options) {
-        Logger12.setLevel(options && options.defaultLevel || Logger12.DEBUG);
-        Logger12.setHandler(Logger12.createDefaultHandler(options));
+      Logger13.useDefaults = function(options) {
+        Logger13.setLevel(options && options.defaultLevel || Logger13.DEBUG);
+        Logger13.setHandler(Logger13.createDefaultHandler(options));
       };
-      Logger12.setDefaults = Logger12.useDefaults;
+      Logger13.setDefaults = Logger13.useDefaults;
       if (typeof define === "function" && define.amd) {
-        define(Logger12);
+        define(Logger13);
       } else if (typeof module2 !== "undefined" && module2.exports) {
-        module2.exports = Logger12;
+        module2.exports = Logger13;
       } else {
-        Logger12._prevLogger = global2.Logger;
-        Logger12.noConflict = function() {
-          global2.Logger = Logger12._prevLogger;
-          return Logger12;
+        Logger13._prevLogger = global2.Logger;
+        Logger13.noConflict = function() {
+          global2.Logger = Logger13._prevLogger;
+          return Logger13;
         };
-        global2.Logger = Logger12;
+        global2.Logger = Logger13;
       }
     })(exports);
   }
@@ -9358,12 +9358,12 @@ var require_lib = __commonJS({
         return dur;
       return dur.shiftToAll().normalize();
     }
-    function getFileTitle(path) {
-      if (path.includes("/"))
-        path = path.substring(path.lastIndexOf("/") + 1);
-      if (path.endsWith(".md"))
-        path = path.substring(0, path.length - 3);
-      return path;
+    function getFileTitle(path2) {
+      if (path2.includes("/"))
+        path2 = path2.substring(path2.lastIndexOf("/") + 1);
+      if (path2.endsWith(".md"))
+        path2 = path2.substring(0, path2.length - 3);
+      return path2;
     }
     parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_min.exports.regex(/[0-9\p{Letter}_-]+/u).map((str) => str.toLocaleLowerCase()), parsimmon_umd_min.exports.whitespace.map((_) => "-"), parsimmon_umd_min.exports.any.map((_) => "")).many().map((result) => result.join(""));
     var HEADER_CANONICALIZER = parsimmon_umd_min.exports.alt(parsimmon_umd_min.exports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_min.exports.regex(/[0-9\p{Letter}_-]+/u), parsimmon_umd_min.exports.whitespace.map((_) => " "), parsimmon_umd_min.exports.any.map((_) => " ")).many().map((result) => {
@@ -9690,9 +9690,9 @@ var require_lib = __commonJS({
         Object.assign(this, fields);
       }
       /** Create a link to a specific file. */
-      static file(path, embed = false, display) {
+      static file(path2, embed = false, display) {
         return new _Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: void 0,
@@ -9710,9 +9710,9 @@ var require_lib = __commonJS({
           return _Link.file(linkpath, embed, display);
       }
       /** Create a link to a specific file and header in that file. */
-      static header(path, header, embed, display) {
+      static header(path2, header, embed, display) {
         return new _Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: normalizeHeaderForLink(header),
@@ -9720,9 +9720,9 @@ var require_lib = __commonJS({
         });
       }
       /** Create a link to a specific file and block in that file. */
-      static block(path, blockId, embed, display) {
+      static block(path2, blockId, embed, display) {
         return new _Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: blockId,
@@ -9748,8 +9748,8 @@ var require_lib = __commonJS({
       }
       /** Update this link with a new path. */
       //@ts-ignore; error appeared after updating Obsidian to 0.15.4; it also updated other packages but didn't say which
-      withPath(path) {
-        return new _Link(Object.assign({}, this, { path }));
+      withPath(path2) {
+        return new _Link(Object.assign({}, this, { path: path2 }));
       }
       /** Return a new link which points to the same location but with a new display value. */
       withDisplay(display) {
@@ -9920,8 +9920,8 @@ var require_lib = __commonJS({
         return { type: "tag", tag: tag2 };
       }
       Sources2.tag = tag;
-      function csv(path) {
-        return { type: "csv", path };
+      function csv(path2) {
+        return { type: "csv", path: path2 };
       }
       Sources2.csv = csv;
       function folder(prefix) {
@@ -10108,7 +10108,7 @@ var require_lib = __commonJS({
       rawNull: (_) => parsimmon_umd_min.exports.string("null"),
       // Source parsing.
       tagSource: (q) => q.tag.map((tag) => Sources.tag(tag)),
-      csvSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("csv(").skip(parsimmon_umd_min.exports.optWhitespace), q.string, parsimmon_umd_min.exports.string(")"), (_1, path, _2) => Sources.csv(path)),
+      csvSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("csv(").skip(parsimmon_umd_min.exports.optWhitespace), q.string, parsimmon_umd_min.exports.string(")"), (_1, path2, _2) => Sources.csv(path2)),
       linkIncomingSource: (q) => q.link.map((link) => Sources.link(link.path, true)),
       linkOutgoingSource: (q) => parsimmon_umd_min.exports.seqMap(parsimmon_umd_min.exports.string("outgoing(").skip(parsimmon_umd_min.exports.optWhitespace), q.link, parsimmon_umd_min.exports.string(")"), (_1, link, _2) => Sources.link(link.path, false)),
       folderSource: (q) => q.string.map((str) => Sources.folder(str)),
@@ -10326,22 +10326,22 @@ var generateGardenSnapshot_exports = {};
 __export(generateGardenSnapshot_exports, {
   generateGardenSnapshot: () => generateGardenSnapshot
 });
-var import_obsidian18, import_promises, SNAPSHOT_PATH, generateGardenSnapshot;
+var import_obsidian19, import_promises2, SNAPSHOT_PATH, generateGardenSnapshot;
 var init_generateGardenSnapshot = __esm({
   "src/test/snapshot/generateGardenSnapshot.ts"() {
     "use strict";
-    import_obsidian18 = require("obsidian");
-    import_promises = __toESM(require("fs/promises"));
+    import_obsidian19 = require("obsidian");
+    import_promises2 = __toESM(require("fs/promises"));
     SNAPSHOT_PATH = "src/test/snapshot/snapshot.md";
     generateGardenSnapshot = (settings, publisher) => __async(void 0, null, function* () {
       const devPluginPath = settings.devPluginPath;
       if (!devPluginPath) {
-        new import_obsidian18.Notice("devPluginPath missing, run generateGardenSettings.mjs");
+        new import_obsidian19.Notice("devPluginPath missing, run generateGardenSettings.mjs");
         return;
       }
       const marked = yield publisher.getFilesMarkedForPublishing();
       let fileString = "IMAGES: \n";
-      fileString += marked.images.map((path) => `${path}
+      fileString += marked.images.map((path2) => `${path2}
 `);
       const assetPaths = /* @__PURE__ */ new Set();
       for (const file of marked.notes) {
@@ -10353,16 +10353,16 @@ var init_generateGardenSnapshot = __esm({
         assets.images.map((image) => assetPaths.add(image.path));
         fileString += `${content}
 `;
-        fileString += Array.from(assetPaths).map((path) => `${path}
+        fileString += Array.from(assetPaths).map((path2) => `${path2}
 `);
       }
       fileString += "==========\n";
       const fullSnapshotPath = `${devPluginPath}/${SNAPSHOT_PATH}`;
-      if (import_obsidian18.Platform.isDesktop) {
-        yield import_promises.default.writeFile(fullSnapshotPath, fileString);
+      if (import_obsidian19.Platform.isDesktop) {
+        yield import_promises2.default.writeFile(fullSnapshotPath, fileString);
       }
-      new import_obsidian18.Notice(`Snapshot written to ${fullSnapshotPath}`);
-      new import_obsidian18.Notice(`Check snapshot to make sure nothing has accidentally changed`);
+      new import_obsidian19.Notice(`Snapshot written to ${fullSnapshotPath}`);
+      new import_obsidian19.Notice(`Check snapshot to make sure nothing has accidentally changed`);
     });
   }
 });
@@ -10373,7 +10373,7 @@ __export(main_exports, {
   default: () => DigitalGarden
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian19 = require("obsidian");
+var import_obsidian20 = require("obsidian");
 
 // src/publisher/Publisher.ts
 var import_obsidian6 = require("obsidian");
@@ -10631,7 +10631,7 @@ function sanitizePermalink(permalink) {
 
 // src/publishFile/Validator.ts
 var import_obsidian = require("obsidian");
-var hasPublishFlag = (frontMatter) => !!(frontMatter == null ? void 0 : frontMatter["dg-publish"]);
+var hasPublishFlag = (frontMatter) => !!(frontMatter == null ? void 0 : frontMatter["dg-publish"]) && (frontMatter == null ? void 0 : frontMatter["dg-publish"]) !== "false";
 function isPublishFrontmatterValid(frontMatter) {
   if (!hasPublishFlag(frontMatter)) {
     new import_obsidian.Notice(
@@ -10733,16 +10733,16 @@ var RepositoryConnection = class {
       }
     });
   }
-  getFile(path, branch) {
+  getFile(path2, branch) {
     return __async(this, null, function* () {
       logger.info(
-        `Getting file ${path} from repository ${this.getRepositoryName()}`
+        `Getting file ${path2} from repository ${this.getRepositoryName()}`
       );
       try {
         const response = yield this.octokit.request(
           "GET /repos/{owner}/{repo}/contents/{path}",
           __spreadProps(__spreadValues({}, this.getBasePayload()), {
-            path,
+            path: path2,
             ref: branch
           })
         );
@@ -10751,24 +10751,24 @@ var RepositoryConnection = class {
         }
       } catch (error) {
         throw new Error(
-          `Could not get file ${path} from repository ${this.getRepositoryName()}`
+          `Could not get file ${path2} from repository ${this.getRepositoryName()}`
         );
       }
     });
   }
   deleteFile(_0, _1) {
-    return __async(this, arguments, function* (path, { branch, sha }) {
+    return __async(this, arguments, function* (path2, { branch, sha }) {
       try {
-        sha != null ? sha : sha = yield this.getFile(path, branch).then((file) => file == null ? void 0 : file.sha);
+        sha != null ? sha : sha = yield this.getFile(path2, branch).then((file) => file == null ? void 0 : file.sha);
         if (!sha) {
           console.error(
-            `cannot find file ${path} on github, not removing`
+            `cannot find file ${path2} on github, not removing`
           );
           return false;
         }
         const payload = __spreadProps(__spreadValues({}, this.getBasePayload()), {
-          path,
-          message: `Delete content ${path}`,
+          path: path2,
+          message: `Delete content ${path2}`,
           sha,
           branch
         });
@@ -10777,7 +10777,7 @@ var RepositoryConnection = class {
           payload
         );
         import_js_logger.default.info(
-          `Deleted file ${path} from repository ${this.getRepositoryName()}`
+          `Deleted file ${path2} from repository ${this.getRepositoryName()}`
         );
         return result;
       } catch (error) {
@@ -10820,10 +10820,10 @@ var RepositoryConnection = class {
     });
   }
   updateFile(_0) {
-    return __async(this, arguments, function* ({ path, sha, content, branch, message }) {
+    return __async(this, arguments, function* ({ path: path2, sha, content, branch, message }) {
       const payload = __spreadProps(__spreadValues({}, this.getBasePayload()), {
-        path,
-        message: message != null ? message : `Update file ${path}`,
+        path: path2,
+        message: message != null ? message : `Update file ${path2}`,
         content,
         sha,
         branch
@@ -10848,12 +10848,12 @@ var RepositoryConnection = class {
         logger.error("Could not get latest commit");
         return;
       }
-      const normalizePath = (path) => path.startsWith("/") ? path.slice(1) : path;
-      const filesToDelete = filePaths.map((path) => {
-        if (path.endsWith(".md")) {
-          return `${NOTE_PATH_BASE}${normalizePath(path)}`;
+      const normalizePath = (path2) => path2.startsWith("/") ? path2.slice(1) : path2;
+      const filesToDelete = filePaths.map((path2) => {
+        if (path2.endsWith(".md")) {
+          return `${NOTE_PATH_BASE}${normalizePath(path2)}`;
         }
-        return `${IMAGE_PATH_BASE}${normalizePath(path)}`;
+        return `${IMAGE_PATH_BASE}${normalizePath(path2)}`;
       });
       const repoDataPromise = this.octokit.request(
         "GET /repos/{owner}/{repo}",
@@ -10915,7 +10915,7 @@ var RepositoryConnection = class {
       );
       const latestCommitSha = latestCommit.sha;
       const baseTreeSha = latestCommit.commit.tree.sha;
-      const normalizePath = (path) => path.startsWith("/") ? path.slice(1) : path;
+      const normalizePath = (path2) => path2.startsWith("/") ? path2.slice(1) : path2;
       const treePromises = files.map((file) => __async(this, null, function* () {
         const [text2, _] = file.compiledFile;
         try {
@@ -11032,8 +11032,8 @@ var TemplateUpdateChecker = class {
     this.baseGardenConnection = baseGardenConnection;
     this.userGardenConnection = userGardenConnection;
   }
-  getFileInfoFromContent(content, path) {
-    const file = content == null ? void 0 : content.tree.find((x) => x.path === path);
+  getFileInfoFromContent(content, path2) {
+    const file = content == null ? void 0 : content.tree.find((x) => x.path === path2);
     if (!file) {
       return null;
     }
@@ -12121,6 +12121,72 @@ var PublishPlatformConnectionFactory = class {
   }
 };
 
+// src/utils/envSettings.ts
+function generateEnvValues(settings) {
+  var _a2, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p;
+  const theme = JSON.parse(settings.theme);
+  let gardenBaseUrl = "";
+  if (settings.gardenBaseUrl && !settings.gardenBaseUrl.startsWith("ghp_") && !settings.gardenBaseUrl.startsWith("github_pat") && settings.gardenBaseUrl.includes(".")) {
+    gardenBaseUrl = settings.gardenBaseUrl;
+  }
+  const envValues = __spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues({
+    SITE_NAME_HEADER: settings.siteName,
+    SITE_MAIN_LANGUAGE: settings.mainLanguage,
+    SITE_BASE_URL: gardenBaseUrl,
+    SHOW_CREATED_TIMESTAMP: settings.showCreatedTimestamp,
+    TIMESTAMP_FORMAT: settings.timestampFormat,
+    SHOW_UPDATED_TIMESTAMP: settings.showUpdatedTimestamp,
+    NOTE_ICON_DEFAULT: settings.defaultNoteIcon,
+    NOTE_ICON_TITLE: settings.showNoteIconOnTitle,
+    NOTE_ICON_FILETREE: settings.showNoteIconInFileTree,
+    NOTE_ICON_INTERNAL_LINKS: settings.showNoteIconOnInternalLink,
+    NOTE_ICON_BACK_LINKS: settings.showNoteIconOnBackLink,
+    STYLE_SETTINGS_CSS: settings.styleSettingsCss,
+    STYLE_SETTINGS_BODY_CLASSES: settings.styleSettingsBodyClasses,
+    USE_FULL_RESOLUTION_IMAGES: settings.useFullResolutionImages
+  }, ((_a2 = settings.uiStrings) == null ? void 0 : _a2.backlinkHeader) && {
+    UI_BACKLINK_HEADER: settings.uiStrings.backlinkHeader
+  }), ((_b = settings.uiStrings) == null ? void 0 : _b.noBacklinksMessage) && {
+    UI_NO_BACKLINKS_MESSAGE: settings.uiStrings.noBacklinksMessage
+  }), ((_c = settings.uiStrings) == null ? void 0 : _c.searchButtonText) && {
+    UI_SEARCH_BUTTON_TEXT: settings.uiStrings.searchButtonText
+  }), ((_d = settings.uiStrings) == null ? void 0 : _d.searchPlaceholder) && {
+    UI_SEARCH_PLACEHOLDER: settings.uiStrings.searchPlaceholder
+  }), ((_e = settings.uiStrings) == null ? void 0 : _e.searchNotStarted) && {
+    UI_SEARCH_NOT_STARTED_TEXT: settings.uiStrings.searchNotStarted
+  }), ((_f = settings.uiStrings) == null ? void 0 : _f.searchEnterHotkey) && {
+    UI_SEARCH_ENTER_HOTKEY: settings.uiStrings.searchEnterHotkey
+  }), ((_g = settings.uiStrings) == null ? void 0 : _g.searchEnterHint) && {
+    UI_SEARCH_ENTER_HINT: settings.uiStrings.searchEnterHint
+  }), ((_h = settings.uiStrings) == null ? void 0 : _h.searchNavigateHotkey) && {
+    UI_SEARCH_NAVIGATE_HOTKEY: settings.uiStrings.searchNavigateHotkey
+  }), ((_i = settings.uiStrings) == null ? void 0 : _i.searchNavigateHint) && {
+    UI_SEARCH_NAVIGATE_HINT: settings.uiStrings.searchNavigateHint
+  }), ((_j = settings.uiStrings) == null ? void 0 : _j.searchCloseHotkey) && {
+    UI_SEARCH_CLOSE_HOTKEY: settings.uiStrings.searchCloseHotkey
+  }), ((_k = settings.uiStrings) == null ? void 0 : _k.searchCloseHint) && {
+    UI_SEARCH_CLOSE_HINT: settings.uiStrings.searchCloseHint
+  }), ((_l = settings.uiStrings) == null ? void 0 : _l.searchNoResults) && {
+    UI_SEARCH_NO_RESULTS: settings.uiStrings.searchNoResults
+  }), ((_m = settings.uiStrings) == null ? void 0 : _m.searchPreviewPlaceholder) && {
+    UI_SEARCH_PREVIEW_PLACEHOLDER: settings.uiStrings.searchPreviewPlaceholder
+  }), ((_n = settings.uiStrings) == null ? void 0 : _n.canvasDragHint) && {
+    UI_CANVAS_DRAG_HINT: settings.uiStrings.canvasDragHint
+  }), ((_o = settings.uiStrings) == null ? void 0 : _o.canvasZoomHint) && {
+    UI_CANVAS_ZOOM_HINT: settings.uiStrings.canvasZoomHint
+  }), ((_p = settings.uiStrings) == null ? void 0 : _p.canvasResetHint) && {
+    UI_CANVAS_RESET_HINT: settings.uiStrings.canvasResetHint
+  });
+  if (theme.name !== "default") {
+    envValues["THEME"] = theme.cssUrl;
+    envValues["BASE_THEME"] = settings.baseTheme;
+  }
+  return __spreadValues(__spreadValues({}, envValues), settings.defaultNoteSettings);
+}
+function serializeEnvValues(values) {
+  return Object.entries(values).map(([key, value]) => `${key}=${value}`).join("\n");
+}
+
 // src/repositoryConnection/DigitalGardenSiteManager.ts
 var logger3 = import_js_logger4.default.get("digital-garden-site-manager");
 var DigitalGardenSiteManager = class {
@@ -12159,68 +12225,10 @@ var DigitalGardenSiteManager = class {
   }
   updateEnv() {
     return __async(this, null, function* () {
-      var _a2, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p;
-      const theme = JSON.parse(this.settings.theme);
-      const baseTheme = this.settings.baseTheme;
-      const siteName = this.settings.siteName;
-      const mainLanguage = this.settings.mainLanguage;
-      let gardenBaseUrl = "";
-      if (this.settings.gardenBaseUrl && !this.settings.gardenBaseUrl.startsWith("ghp_") && !this.settings.gardenBaseUrl.startsWith("github_pat") && this.settings.gardenBaseUrl.contains(".")) {
-        gardenBaseUrl = this.settings.gardenBaseUrl;
-      }
-      const envValues = __spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues(__spreadValues({
-        SITE_NAME_HEADER: siteName,
-        SITE_MAIN_LANGUAGE: mainLanguage,
-        SITE_BASE_URL: gardenBaseUrl,
-        SHOW_CREATED_TIMESTAMP: this.settings.showCreatedTimestamp,
-        TIMESTAMP_FORMAT: this.settings.timestampFormat,
-        SHOW_UPDATED_TIMESTAMP: this.settings.showUpdatedTimestamp,
-        NOTE_ICON_DEFAULT: this.settings.defaultNoteIcon,
-        NOTE_ICON_TITLE: this.settings.showNoteIconOnTitle,
-        NOTE_ICON_FILETREE: this.settings.showNoteIconInFileTree,
-        NOTE_ICON_INTERNAL_LINKS: this.settings.showNoteIconOnInternalLink,
-        NOTE_ICON_BACK_LINKS: this.settings.showNoteIconOnBackLink,
-        STYLE_SETTINGS_CSS: this.settings.styleSettingsCss,
-        STYLE_SETTINGS_BODY_CLASSES: this.settings.styleSettingsBodyClasses,
-        USE_FULL_RESOLUTION_IMAGES: this.settings.useFullResolutionImages
-      }, ((_a2 = this.settings.uiStrings) == null ? void 0 : _a2.backlinkHeader) && {
-        UI_BACKLINK_HEADER: this.settings.uiStrings.backlinkHeader
-      }), ((_b = this.settings.uiStrings) == null ? void 0 : _b.noBacklinksMessage) && {
-        UI_NO_BACKLINKS_MESSAGE: this.settings.uiStrings.noBacklinksMessage
-      }), ((_c = this.settings.uiStrings) == null ? void 0 : _c.searchButtonText) && {
-        UI_SEARCH_BUTTON_TEXT: this.settings.uiStrings.searchButtonText
-      }), ((_d = this.settings.uiStrings) == null ? void 0 : _d.searchPlaceholder) && {
-        UI_SEARCH_PLACEHOLDER: this.settings.uiStrings.searchPlaceholder
-      }), ((_e = this.settings.uiStrings) == null ? void 0 : _e.searchNotStarted) && {
-        UI_SEARCH_NOT_STARTED_TEXT: this.settings.uiStrings.searchNotStarted
-      }), ((_f = this.settings.uiStrings) == null ? void 0 : _f.searchEnterHotkey) && {
-        UI_SEARCH_ENTER_HOTKEY: this.settings.uiStrings.searchEnterHotkey
-      }), ((_g = this.settings.uiStrings) == null ? void 0 : _g.searchEnterHint) && {
-        UI_SEARCH_ENTER_HINT: this.settings.uiStrings.searchEnterHint
-      }), ((_h = this.settings.uiStrings) == null ? void 0 : _h.searchNavigateHotkey) && {
-        UI_SEARCH_NAVIGATE_HOTKEY: this.settings.uiStrings.searchNavigateHotkey
-      }), ((_i = this.settings.uiStrings) == null ? void 0 : _i.searchNavigateHint) && {
-        UI_SEARCH_NAVIGATE_HINT: this.settings.uiStrings.searchNavigateHint
-      }), ((_j = this.settings.uiStrings) == null ? void 0 : _j.searchCloseHotkey) && {
-        UI_SEARCH_CLOSE_HOTKEY: this.settings.uiStrings.searchCloseHotkey
-      }), ((_k = this.settings.uiStrings) == null ? void 0 : _k.searchCloseHint) && {
-        UI_SEARCH_CLOSE_HINT: this.settings.uiStrings.searchCloseHint
-      }), ((_l = this.settings.uiStrings) == null ? void 0 : _l.searchNoResults) && {
-        UI_SEARCH_NO_RESULTS: this.settings.uiStrings.searchNoResults
-      }), ((_m = this.settings.uiStrings) == null ? void 0 : _m.canvasDragHint) && {
-        UI_CANVAS_DRAG_HINT: this.settings.uiStrings.canvasDragHint
-      }), ((_n = this.settings.uiStrings) == null ? void 0 : _n.canvasZoomHint) && {
-        UI_CANVAS_ZOOM_HINT: this.settings.uiStrings.canvasZoomHint
-      }), ((_o = this.settings.uiStrings) == null ? void 0 : _o.canvasResetHint) && {
-        UI_CANVAS_RESET_HINT: this.settings.uiStrings.canvasResetHint
-      });
-      if (theme.name !== "default") {
-        envValues["THEME"] = theme.cssUrl;
-        envValues["BASE_THEME"] = baseTheme;
-      }
-      const keysToSet = __spreadValues(__spreadValues({}, envValues), this.settings.defaultNoteSettings);
+      var _a2;
+      const keysToSet = generateEnvValues(this.settings);
       const currentFile = yield (yield this.getUserGardenConnection()).getFile(".env");
-      const decodedCurrentFile = gBase64.decode((_p = currentFile == null ? void 0 : currentFile.content) != null ? _p : "");
+      const decodedCurrentFile = gBase64.decode((_a2 = currentFile == null ? void 0 : currentFile.content) != null ? _a2 : "");
       const existingSettings = {};
       for (const line of decodedCurrentFile.split("\n")) {
         const trimmedLine = line.trim();
@@ -12232,7 +12240,7 @@ var DigitalGardenSiteManager = class {
         }
       }
       const mergedSettings = __spreadValues(__spreadValues({}, existingSettings), keysToSet);
-      const envSettings = Object.entries(mergedSettings).map(([key, value]) => `${key}=${value}`).join("\n");
+      const envSettings = serializeEnvValues(mergedSettings);
       const base64Settings = gBase64.encode(envSettings);
       if (decodedCurrentFile === envSettings) {
         logger3.info("No changes to .env file");
@@ -12270,12 +12278,12 @@ var DigitalGardenSiteManager = class {
     }
     return `${baseUrl}${urlPath}`;
   }
-  getNoteContent(path) {
+  getNoteContent(path2) {
     return __async(this, null, function* () {
-      if (path.startsWith("/")) {
-        path = path.substring(1);
+      if (path2.startsWith("/")) {
+        path2 = path2.substring(1);
       }
-      const response = yield (yield this.getUserGardenConnection()).getFile(NOTE_PATH_BASE2 + path);
+      const response = yield (yield this.getUserGardenConnection()).getFile(NOTE_PATH_BASE2 + path2);
       if (!response) {
         return "";
       }
@@ -13169,7 +13177,7 @@ var CanvasCompiler = class {
       const hasArrowTo = edge.toEnd !== "none";
       const fromSide = edge.fromSide || "right";
       const toSide = edge.toSide || "left";
-      const { path, cp1, cp2 } = this.createBezierPath(
+      const { path: path2, cp1, cp2 } = this.createBezierPath(
         fromPoint,
         toPoint,
         fromSide,
@@ -13177,7 +13185,7 @@ var CanvasCompiler = class {
       );
       const markerStart = hasArrowFrom ? `marker-start="url(#arrow-${colorId}-start)"` : "";
       const markerEnd = hasArrowTo ? `marker-end="url(#arrow-${colorId})"` : "";
-      let edgeHtml = `<path d="${path}" fill="none" stroke="${color}" stroke-width="2" class="canvas-edge" data-edge-id="${edge.id}" ${markerStart} ${markerEnd} />`;
+      let edgeHtml = `<path d="${path2}" fill="none" stroke="${color}" stroke-width="2" class="canvas-edge" data-edge-id="${edge.id}" ${markerStart} ${markerEnd} />`;
       if (edge.label) {
         const midX = (fromPoint.x + 3 * cp1.x + 3 * cp2.x + toPoint.x) / 8;
         const midY = (fromPoint.y + 3 * cp1.y + 3 * cp2.y + toPoint.y) / 8;
@@ -19679,7 +19687,7 @@ ${headerSection}
             fileText = withDvCompiledText;
             transcludedText = transcludedText.replace(
               transclusionMatch,
-              fileText
+              () => fileText
             );
           }
         } catch (error) {
@@ -20474,18 +20482,18 @@ var Publisher = class {
   }
   deleteNote(vaultFilePath, sha) {
     return __async(this, null, function* () {
-      const path = `${NOTE_PATH_BASE2}${vaultFilePath}`;
-      return yield this.delete(path, sha);
+      const path2 = `${NOTE_PATH_BASE2}${vaultFilePath}`;
+      return yield this.delete(path2, sha);
     });
   }
   deleteImage(vaultFilePath, sha) {
     return __async(this, null, function* () {
-      const path = `${IMAGE_PATH_BASE2}${vaultFilePath}`;
-      return yield this.delete(path, sha);
+      const path2 = `${IMAGE_PATH_BASE2}${vaultFilePath}`;
+      return yield this.delete(path2, sha);
     });
   }
   /** If provided with sha, garden connection does not need to get it seperately! */
-  delete(path, sha) {
+  delete(path2, sha) {
     return __async(this, null, function* () {
       this.validateSettings();
       const userGardenConnection = new RepositoryConnection(
@@ -20493,7 +20501,7 @@ var Publisher = class {
           this.settings
         )
       );
-      const deleted = yield userGardenConnection.deleteFile(path, {
+      const deleted = yield userGardenConnection.deleteFile(path2, {
         sha
       });
       return !!deleted;
@@ -20585,27 +20593,27 @@ var Publisher = class {
       return siteManager.getImageHashes(contentTree);
     });
   }
-  uploadToGithub(path, content, remoteFileHash) {
+  uploadToGithub(path2, content, remoteFileHash) {
     return __async(this, null, function* () {
       this.validateSettings();
-      let message = `Update content ${path}`;
+      let message = `Update content ${path2}`;
       const userGardenConnection = new RepositoryConnection(
         yield PublishPlatformConnectionFactory.createPublishPlatformConnection(
           this.settings
         )
       );
       if (!remoteFileHash) {
-        const file = yield userGardenConnection.getFile(path).catch(() => {
-          import_js_logger7.default.info(`File ${path} does not exist, adding`);
+        const file = yield userGardenConnection.getFile(path2).catch(() => {
+          import_js_logger7.default.info(`File ${path2} does not exist, adding`);
         });
         remoteFileHash = file == null ? void 0 : file.sha;
         if (!remoteFileHash) {
-          message = `Add content ${path}`;
+          message = `Add content ${path2}`;
         }
       }
       return yield userGardenConnection.updateFile({
         content,
-        path,
+        path: path2,
         message,
         sha: remoteFileHash
       });
@@ -20614,14 +20622,14 @@ var Publisher = class {
   uploadText(filePath, content, sha) {
     return __async(this, null, function* () {
       content = gBase64.encode(content);
-      const path = `${NOTE_PATH_BASE2}${filePath}`;
-      yield this.uploadToGithub(path, content, sha);
+      const path2 = `${NOTE_PATH_BASE2}${filePath}`;
+      yield this.uploadToGithub(path2, content, sha);
     });
   }
   uploadImage(filePath, content, sha) {
     return __async(this, null, function* () {
-      const path = `src/site${filePath}`;
-      yield this.uploadToGithub(path, content, sha);
+      const path2 = `src/site${filePath}`;
+      yield this.uploadToGithub(path2, content, sha);
     });
   }
   uploadAssets(_0) {
@@ -24475,8 +24483,8 @@ function instance4($$self, $$props, $$invalidate) {
     const unpublishedPaths = traverseTree(unpublishedNoteTree);
     const changedPaths = traverseTree(changedNotesTree);
     $$invalidate(5, pathsToDelete = traverseTree(deletedNoteTree));
-    const notesToDelete = pathsToDelete.filter((path) => publishStatus.deletedNotePaths.some((p) => p.path === path));
-    const imagesToDelete = pathsToDelete.filter((path) => publishStatus.deletedImagePaths.some((p) => p.path === path));
+    const notesToDelete = pathsToDelete.filter((path2) => publishStatus.deletedNotePaths.some((p) => p.path === path2));
+    const imagesToDelete = pathsToDelete.filter((path2) => publishStatus.deletedImagePaths.some((p) => p.path === path2));
     $$invalidate(3, unpublishedToPublish = (_a2 = publishStatus.unpublishedNotes.filter((note) => unpublishedPaths.includes(note.getPath()))) !== null && _a2 !== void 0 ? _a2 : []);
     $$invalidate(4, changedToPublish = (_b = publishStatus === null || publishStatus === void 0 ? void 0 : publishStatus.changedNotes.filter((note) => changedPaths.includes(note.getPath()))) !== null && _b !== void 0 ? _b : []);
     $$invalidate(7, showPublishingView = true);
@@ -24485,17 +24493,17 @@ function instance4($$self, $$props, $$invalidate) {
     yield publisher.publishBatch(allNotesToPublish);
     $$invalidate(6, publishedPaths = [...processingPaths]);
     $$invalidate(11, processingPaths = []);
-    for (const path of notesToDelete) {
-      $$invalidate(11, processingPaths = [...processingPaths, path]);
-      yield publisher.deleteNote(path);
-      $$invalidate(11, processingPaths = processingPaths.filter((p) => p !== path));
-      $$invalidate(6, publishedPaths = [...publishedPaths, path]);
+    for (const path2 of notesToDelete) {
+      $$invalidate(11, processingPaths = [...processingPaths, path2]);
+      yield publisher.deleteNote(path2);
+      $$invalidate(11, processingPaths = processingPaths.filter((p) => p !== path2));
+      $$invalidate(6, publishedPaths = [...publishedPaths, path2]);
     }
-    for (const path of imagesToDelete) {
-      $$invalidate(11, processingPaths = [...processingPaths, path]);
-      yield publisher.deleteImage(path);
-      $$invalidate(11, processingPaths = processingPaths.filter((p) => p !== path));
-      $$invalidate(6, publishedPaths = [...publishedPaths, path]);
+    for (const path2 of imagesToDelete) {
+      $$invalidate(11, processingPaths = [...processingPaths, path2]);
+      yield publisher.deleteImage(path2);
+      $$invalidate(11, processingPaths = processingPaths.filter((p) => p !== path2));
+      $$invalidate(6, publishedPaths = [...publishedPaths, path2]);
     }
     $$invalidate(6, publishedPaths = [...publishedPaths, ...processingPaths]);
     $$invalidate(11, processingPaths = []);
@@ -24531,7 +24539,7 @@ function instance4($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty[0] & /*publishStatus*/
     4) {
       $:
-        $$invalidate(12, deletedNoteTree = publishStatus && filePathsToTree([...publishStatus.deletedNotePaths, ...publishStatus.deletedImagePaths].map((path) => path.path), "Deleted Notes"));
+        $$invalidate(12, deletedNoteTree = publishStatus && filePathsToTree([...publishStatus.deletedNotePaths, ...publishStatus.deletedImagePaths].map((path2) => path2.path), "Deleted Notes"));
     }
     if ($$self.$$.dirty[0] & /*publishStatus*/
     4) {
@@ -24704,7 +24712,7 @@ function create_if_block_23(ctx) {
       t = text(t_value);
       set_style(pre, "display", "block");
       set_style(pre, "background-color", "rgba(255, 170, 170, 0.5)");
-      set_style(pre, "color", "var(--text-on-accent)");
+      set_style(pre, "color", "var(--text-normal)");
       attr(pre, "class", "svelte-vhnwb7");
     },
     m(target, anchor) {
@@ -24737,7 +24745,7 @@ function create_if_block_13(ctx) {
       t = text(t_value);
       set_style(pre, "display", "block");
       set_style(pre, "background-color", "rgba(170, 255, 170, 0.5)");
-      set_style(pre, "color", "var(--text-on-accent)");
+      set_style(pre, "color", "var(--text-normal)");
       attr(pre, "class", "svelte-vhnwb7");
     },
     m(target, anchor) {
@@ -25067,10 +25075,10 @@ function buildValues(diff2, components, newString, oldString, useLongestToken) {
   }
   return components;
 }
-function clonePath(path) {
+function clonePath(path2) {
   return {
-    newPos: path.newPos,
-    components: path.components.slice(0)
+    newPos: path2.newPos,
+    components: path2.components.slice(0)
   };
 }
 var characterDiff = new Diff();
@@ -25336,10 +25344,10 @@ var PublishStatusManager = class {
     const deletedPaths = Object.keys(remoteNoteHashes).filter(
       (key) => !isJsFile(key) && !isMarkedForPublish(key)
     );
-    const pathsWithSha = deletedPaths.map((path) => {
+    const pathsWithSha = deletedPaths.map((path2) => {
       return {
-        path,
-        sha: remoteNoteHashes[path]
+        path: path2,
+        sha: remoteNoteHashes[path2]
       };
     });
     return pathsWithSha;
@@ -25845,10 +25853,10 @@ function isVisitable(thing) {
 function removeBrackets(key) {
   return utils_default.endsWith(key, "[]") ? key.slice(0, -2) : key;
 }
-function renderKey(path, key, dots) {
-  if (!path)
+function renderKey(path2, key, dots) {
+  if (!path2)
     return key;
-  return path.concat(key).map(function each(token, i) {
+  return path2.concat(key).map(function each(token, i) {
     token = removeBrackets(token);
     return !dots && i ? "[" + token + "]" : token;
   }).join(dots ? "." : "");
@@ -25894,9 +25902,9 @@ function toFormData(obj, formData, options) {
     }
     return value;
   }
-  function defaultVisitor(value, key, path) {
+  function defaultVisitor(value, key, path2) {
     let arr = value;
-    if (value && !path && typeof value === "object") {
+    if (value && !path2 && typeof value === "object") {
       if (utils_default.endsWith(key, "{}")) {
         key = metaTokens ? key : key.slice(0, -2);
         value = JSON.stringify(value);
@@ -25915,7 +25923,7 @@ function toFormData(obj, formData, options) {
     if (isVisitable(value)) {
       return true;
     }
-    formData.append(renderKey(path, key, dots), convertValue(value));
+    formData.append(renderKey(path2, key, dots), convertValue(value));
     return false;
   }
   const stack = [];
@@ -25924,11 +25932,11 @@ function toFormData(obj, formData, options) {
     convertValue,
     isVisitable
   });
-  function build(value, path) {
+  function build(value, path2) {
     if (utils_default.isUndefined(value))
       return;
     if (stack.indexOf(value) !== -1) {
-      throw Error("Circular reference detected in " + path.join("."));
+      throw Error("Circular reference detected in " + path2.join("."));
     }
     stack.push(value);
     utils_default.forEach(value, function each(el, key) {
@@ -25936,11 +25944,11 @@ function toFormData(obj, formData, options) {
         formData,
         el,
         utils_default.isString(key) ? key.trim() : key,
-        path,
+        path2,
         exposedHelpers
       );
       if (result === true) {
-        build(el, path ? path.concat(key) : [key]);
+        build(el, path2 ? path2.concat(key) : [key]);
       }
     });
     stack.pop();
@@ -26119,7 +26127,7 @@ var browser_default = {
 // node_modules/axios/lib/helpers/toURLEncodedForm.js
 function toURLEncodedForm(data, options) {
   return toFormData_default(data, new browser_default.classes.URLSearchParams(), Object.assign({
-    visitor: function(value, key, path, helpers) {
+    visitor: function(value, key, path2, helpers) {
       if (browser_default.isNode && utils_default.isBuffer(value)) {
         this.append(key, value.toString("base64"));
         return false;
@@ -26148,10 +26156,10 @@ function arrayToObject(arr) {
   return obj;
 }
 function formDataToJSON(formData) {
-  function buildPath(path, value, target, index) {
-    let name = path[index++];
+  function buildPath(path2, value, target, index) {
+    let name = path2[index++];
     const isNumericKey = Number.isFinite(+name);
-    const isLast = index >= path.length;
+    const isLast = index >= path2.length;
     name = !name && utils_default.isArray(target) ? target.length : name;
     if (isLast) {
       if (utils_default.hasOwnProp(target, name)) {
@@ -26164,7 +26172,7 @@ function formDataToJSON(formData) {
     if (!target[name] || !utils_default.isObject(target[name])) {
       target[name] = [];
     }
-    const result = buildPath(path, value, target[name], index);
+    const result = buildPath(path2, value, target[name], index);
     if (result && utils_default.isArray(target[name])) {
       target[name] = arrayToObject(target[name]);
     }
@@ -26602,14 +26610,14 @@ var cookies_default = browser_default.isStandardBrowserEnv ? (
   // Standard browser envs support document.cookie
   function standardBrowserEnv() {
     return {
-      write: function write2(name, value, expires, path, domain, secure) {
+      write: function write2(name, value, expires, path2, domain, secure) {
         const cookie = [];
         cookie.push(name + "=" + encodeURIComponent(value));
         if (utils_default.isNumber(expires)) {
           cookie.push("expires=" + new Date(expires).toGMTString());
         }
-        if (utils_default.isString(path)) {
-          cookie.push("path=" + path);
+        if (utils_default.isString(path2)) {
+          cookie.push("path=" + path2);
         }
         if (utils_default.isString(domain)) {
           cookie.push("domain=" + domain);
@@ -29381,7 +29389,7 @@ var GithubSettings = class {
     desc.createEl("span", void 0, (span) => {
       span.innerText = "A GitHub token with contents permissions. You can see how to generate it ";
       span.createEl("a", void 0, (link) => {
-        link.href = "https://dg-docs.ole.dev/advanced/fine-grained-access-token/";
+        link.href = "https://docs.forestry.md/advanced/fine-grained-access-token/";
         link.innerText = "here!";
       });
     });
@@ -29970,7 +29978,7 @@ function instance7($$self, $$props, $$invalidate) {
     $$invalidate(4, saveDisabled = false);
     $$invalidate(2, newPathRewriteRules = event.currentTarget.value);
     const paths = yield getPathsForRewriteRules(newPathRewriteRules, settings.pathRewriteRules);
-    $$invalidate(3, diff2 = paths.map((path) => diffLines(path.oldPath, path.newPath)).filter((diff3) => diff3.length > 1));
+    $$invalidate(3, diff2 = paths.map((path2) => diffLines(path2.oldPath, path2.newPath)).filter((diff3) => diff3.length > 1));
   });
   const getPathsForRewriteRules = (newRules, oldRules) => __awaiter(void 0, void 0, void 0, function* () {
     const newRewriteRules = getRewriteRules(newRules);
@@ -31148,7 +31156,7 @@ var SettingView = class {
       });
       linkDiv.createEl("a", {
         text: "here.",
-        href: "https://dg-docs.ole.dev/getting-started/01-getting-started/"
+        href: "https://docs.forestry.md/getting-started/01-getting-started/"
       });
       new import_obsidian15.Setting(this.settingsRootElement).setName("Publish Platform").addDropdown((dd) => {
         dd.addOption("SelfHosted" /* SelfHosted */, "GitHub/Self Hosted");
@@ -31208,6 +31216,17 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
+      this.settingsRootElement.createEl("h3", { text: "Local Export" }).prepend(this.getIcon("folder-output"));
+      new import_obsidian15.Setting(this.settingsRootElement).setName("Local garden folder path").setDesc(
+        "Absolute path to your local digital garden folder. Used by the 'Export Garden to Local Folder' command."
+      ).addText((text2) => {
+        var _a2;
+        text2.setPlaceholder("/path/to/your/digitalgarden").setValue((_a2 = this.settings.localExportPath) != null ? _a2 : "").onChange((value) => __async(this, null, function* () {
+          this.settings.localExportPath = value;
+          yield this.saveSettings();
+        }));
+        text2.inputEl.style.width = "300px";
+      });
       prModal.titleEl.createEl("h1", "Site template settings");
     });
   }
@@ -31242,7 +31261,7 @@ var SettingView = class {
       linkDiv.createEl("span", { text: "Note Setting Docs is available " });
       linkDiv.createEl("a", {
         text: "here.",
-        href: "https://dg-docs.ole.dev/getting-started/03-note-settings/"
+        href: "https://docs.forestry.md/getting-started/03-note-settings/"
       });
       new import_obsidian15.Setting(this.settingsRootElement).setName("Global Note Settings").setDesc(
         `Default settings for each published note. These can be overwritten per note via frontmatter.`
@@ -32207,7 +32226,7 @@ var SettingView = class {
       noteIconsSection.createEl("h3", { text: "Note icons Settings" }).prepend(this.getIcon("image"));
       noteIconsSection.createEl("div", { cls: "dg-docs-link" }).createEl("a", {
         text: "Documentation on note icons",
-        href: "https://dg-docs.ole.dev/advanced/note-specific-settings/#note-icons"
+        href: "https://docs.forestry.md/advanced/note-specific-settings/#note-icons"
       });
       new import_obsidian15.Setting(noteIconsSection).setName("Note icon Frontmatter Key").setDesc("Key to get the note icon value from the frontmatter").addText(
         (text2) => text2.setValue(this.settings.noteIconKey).onChange((value) => __async(this, null, function* () {
@@ -32889,7 +32908,175 @@ var DigitalGardenSettingTab = class extends import_obsidian17.PluginSettingTab {
 };
 
 // main.ts
+var import_js_logger12 = __toESM(require_logger());
+
+// src/localExport/LocalExporter.ts
+var import_obsidian18 = require("obsidian");
+var import_promises = __toESM(require("fs/promises"));
+var import_path = __toESM(require("path"));
 var import_js_logger11 = __toESM(require_logger());
+var PRESERVED_FILES = /* @__PURE__ */ new Set(["notes.json", "notes.11tydata.js"]);
+var IMG_USER_PREFIX = "/img/user/";
+var LocalExporter = class {
+  constructor(vault, publisher, settings) {
+    this.vault = vault;
+    this.publisher = publisher;
+    this.settings = settings;
+  }
+  export() {
+    return __async(this, null, function* () {
+      const targetPath = this.settings.localExportPath;
+      if (!targetPath) {
+        new import_obsidian18.Notice(
+          "Set a local garden folder path in plugin settings first."
+        );
+        throw new Error("localExportPath is not configured");
+      }
+      yield this.validateTargetPath(targetPath);
+      yield this.writeEnvFile(targetPath);
+      const marked = yield this.publisher.getFilesMarkedForPublishing();
+      const notesDir = import_path.default.join(targetPath, NOTE_PATH_BASE2);
+      const imagesDir = import_path.default.join(targetPath, IMAGE_PATH_BASE2);
+      yield import_promises.default.mkdir(notesDir, { recursive: true });
+      yield import_promises.default.mkdir(imagesDir, { recursive: true });
+      const writtenNotePaths = /* @__PURE__ */ new Set();
+      const writtenImagePaths = /* @__PURE__ */ new Set();
+      let notesWritten = 0;
+      let imagesWritten = 0;
+      let failed = 0;
+      for (const file of marked.notes) {
+        try {
+          const [content, assets] = yield this.publisher.compiler.generateMarkdown(file);
+          const notePath = import_path.default.join(notesDir, file.getPath());
+          yield import_promises.default.mkdir(import_path.default.dirname(notePath), { recursive: true });
+          yield import_promises.default.writeFile(notePath, content, "utf-8");
+          writtenNotePaths.add(file.getPath());
+          notesWritten++;
+          for (const image of assets.images) {
+            const imagePath = import_path.default.join(
+              targetPath,
+              "src",
+              "site",
+              image.path
+            );
+            yield import_promises.default.mkdir(import_path.default.dirname(imagePath), {
+              recursive: true
+            });
+            const buffer = Buffer.from(image.content, "base64");
+            yield import_promises.default.writeFile(imagePath, buffer);
+            const relativeImagePath = image.path.startsWith(
+              IMG_USER_PREFIX
+            ) ? image.path.slice(IMG_USER_PREFIX.length) : image.path;
+            writtenImagePaths.add(relativeImagePath);
+            imagesWritten++;
+          }
+        } catch (e) {
+          import_js_logger11.default.error(`Failed to export ${file.getPath()}`, e);
+          failed++;
+        }
+      }
+      for (const imagePath of marked.images) {
+        if (writtenImagePaths.has(imagePath)) {
+          continue;
+        }
+        try {
+          const imageFile = this.vault.getFileByPath(imagePath);
+          if (!imageFile) {
+            import_js_logger11.default.warn(`Image not found in vault: ${imagePath}`);
+            continue;
+          }
+          const binary = yield this.vault.readBinary(imageFile);
+          const destPath = import_path.default.join(imagesDir, imagePath);
+          yield import_promises.default.mkdir(import_path.default.dirname(destPath), { recursive: true });
+          yield import_promises.default.writeFile(destPath, Buffer.from(binary));
+          writtenImagePaths.add(imagePath);
+          imagesWritten++;
+        } catch (e) {
+          import_js_logger11.default.error(`Failed to export image ${imagePath}`, e);
+        }
+      }
+      yield this.cleanStaleFiles(notesDir, writtenNotePaths, PRESERVED_FILES);
+      yield this.cleanStaleFiles(imagesDir, writtenImagePaths, /* @__PURE__ */ new Set());
+      return { notes: notesWritten, images: imagesWritten, failed };
+    });
+  }
+  validateTargetPath(targetPath) {
+    return __async(this, null, function* () {
+      try {
+        yield import_promises.default.access(targetPath);
+      } catch (e) {
+        new import_obsidian18.Notice(`Local garden folder not found: ${targetPath}`);
+        throw new Error(`Target path does not exist: ${targetPath}`);
+      }
+      try {
+        yield import_promises.default.access(import_path.default.join(targetPath, "src", "site"));
+      } catch (e) {
+        new import_obsidian18.Notice(
+          "Folder doesn't look like a digital garden \u2014 expected src/site/ directory at " + targetPath
+        );
+        throw new Error(
+          `Target path missing src/site/ directory: ${targetPath}`
+        );
+      }
+    });
+  }
+  writeEnvFile(targetPath) {
+    return __async(this, null, function* () {
+      const envValues = generateEnvValues(this.settings);
+      const envContent = serializeEnvValues(envValues);
+      yield import_promises.default.writeFile(import_path.default.join(targetPath, ".env"), envContent, "utf-8");
+    });
+  }
+  cleanStaleFiles(dir, writtenPaths, preservedFiles) {
+    return __async(this, null, function* () {
+      try {
+        const existingFiles = yield this.listFilesRecursive(dir);
+        for (const filePath of existingFiles) {
+          const relativePath = import_path.default.relative(dir, filePath);
+          const fileName = import_path.default.basename(filePath);
+          if (preservedFiles.has(fileName)) {
+            continue;
+          }
+          if (!writtenPaths.has(relativePath)) {
+            yield import_promises.default.unlink(filePath);
+            import_js_logger11.default.debug(`Cleaned stale file: ${filePath}`);
+            let parent = import_path.default.dirname(filePath);
+            while (parent !== dir && parent.startsWith(dir)) {
+              try {
+                yield import_promises.default.rmdir(parent);
+              } catch (e) {
+                break;
+              }
+              parent = import_path.default.dirname(parent);
+            }
+          }
+        }
+      } catch (e) {
+        import_js_logger11.default.warn("Failed to clean stale files", e);
+      }
+    });
+  }
+  listFilesRecursive(dir) {
+    return __async(this, null, function* () {
+      const files = [];
+      try {
+        const entries = yield import_promises.default.readdir(dir, { withFileTypes: true });
+        for (const entry of entries) {
+          const fullPath = import_path.default.join(dir, entry.name);
+          if (entry.isDirectory()) {
+            files.push(...yield this.listFilesRecursive(fullPath));
+          } else {
+            files.push(fullPath);
+          }
+        }
+      } catch (e) {
+      }
+      return files;
+    });
+  }
+};
+
+// main.ts
 var defaultTheme = {
   name: "Red Graphite",
   author: "SeanWcom",
@@ -32968,16 +33155,17 @@ var DEFAULT_SETTINGS = {
     canvasZoomHint: "",
     canvasResetHint: ""
   },
-  logLevel: void 0
+  logLevel: void 0,
+  localExportPath: ""
 };
-import_js_logger11.default.useDefaults({
-  defaultLevel: import_js_logger11.default.WARN,
+import_js_logger12.default.useDefaults({
+  defaultLevel: import_js_logger12.default.WARN,
   formatter: function(messages, _context) {
     messages.unshift((/* @__PURE__ */ new Date()).toUTCString());
     messages.unshift("DG: ");
   }
 });
-var DigitalGarden = class extends import_obsidian19.Plugin {
+var DigitalGarden = class extends import_obsidian20.Plugin {
   constructor() {
     super(...arguments);
     this.isPublishing = false;
@@ -32987,13 +33175,13 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
       this.appVersion = this.manifest.version;
       console.log("Initializing DigitalGarden plugin v" + this.appVersion);
       yield this.loadSettings();
-      this.settings.logLevel && import_js_logger11.default.setLevel(this.settings.logLevel);
-      import_js_logger11.default.info(
-        "Digital garden log level set to " + import_js_logger11.default.getLevel().name
+      this.settings.logLevel && import_js_logger12.default.setLevel(this.settings.logLevel);
+      import_js_logger12.default.info(
+        "Digital garden log level set to " + import_js_logger12.default.getLevel().name
       );
       this.addSettingTab(new DigitalGardenSettingTab(this.app, this));
       yield this.addCommands();
-      (0, import_obsidian19.addIcon)("digital-garden-icon", seedling);
+      (0, import_obsidian20.addIcon)("digital-garden-icon", seedling);
       this.addRibbonIcon(
         "digital-garden-icon",
         "Digital Garden Publication Center",
@@ -33025,7 +33213,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
         id: "quick-publish-and-share-note",
         name: "Quick Publish And Share Note",
         callback: () => __async(this, null, function* () {
-          new import_obsidian19.Notice("Adding publish flag to note and publishing it.");
+          new import_obsidian20.Notice("Adding publish flag to note and publishing it.");
           yield this.setPublishFlagValue(true);
           const activeFile = this.app.workspace.getActiveFile();
           const event = this.app.metadataCache.on(
@@ -33052,8 +33240,8 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
           yield this.publishSingleNote();
         })
       });
-      if (this.settings["ENABLE_DEVELOPER_TOOLS"] && import_obsidian19.Platform.isDesktop) {
-        import_js_logger11.default.info("Developer tools enabled");
+      if (this.settings["ENABLE_DEVELOPER_TOOLS"] && import_obsidian20.Platform.isDesktop) {
+        import_js_logger12.default.info("Developer tools enabled");
         const publisher = new Publisher(
           this.app.vault,
           this.app.metadataCache,
@@ -33071,7 +33259,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
             })
           });
         }).catch((e) => {
-          import_js_logger11.default.error("Unable to load generateGardenSnapshot", e);
+          import_js_logger12.default.error("Unable to load generateGardenSnapshot", e);
         });
       }
       this.addCommand({
@@ -33080,7 +33268,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
         // TODO: move to publisher?
         callback: () => __async(this, null, function* () {
           if (this.isPublishing) {
-            new import_obsidian19.Notice(
+            new import_obsidian20.Notice(
               "A publish operation is already in progress. Please wait for it to complete."
             );
             return;
@@ -33088,7 +33276,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
           this.isPublishing = true;
           const statusBarItem = this.addStatusBarItem();
           try {
-            new import_obsidian19.Notice("Processing files to publish...");
+            new import_obsidian20.Notice("Processing files to publish...");
             const { vault, metadataCache } = this.app;
             const publisher = new Publisher(
               vault,
@@ -33112,7 +33300,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
             const imagesToDelete = publishStatus.deletedImagePaths;
             const totalItems = filesToPublish.length + filesToDelete.length + imagesToDelete.length;
             if (totalItems === 0) {
-              new import_obsidian19.Notice("Garden is already fully synced!");
+              new import_obsidian20.Notice("Garden is already fully synced!");
               statusBarItem.remove();
               this.isPublishing = false;
               return;
@@ -33121,7 +33309,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
               statusBarItem,
               filesToPublish.length + filesToDelete.length + imagesToDelete.length
             );
-            new import_obsidian19.Notice(
+            new import_obsidian20.Notice(
               `Publishing ${filesToPublish.length} notes, deleting ${filesToDelete.length} notes and ${imagesToDelete.length} images. See the status bar in lower right corner for progress.`,
               8e3
             );
@@ -33136,16 +33324,16 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
               statusBar.increment();
             }
             statusBar.finish(8e3);
-            new import_obsidian19.Notice(
+            new import_obsidian20.Notice(
               `Successfully published ${filesToPublish.length} notes to your garden.`
             );
             if (filesToDelete.length > 0) {
-              new import_obsidian19.Notice(
+              new import_obsidian20.Notice(
                 `Successfully deleted ${filesToDelete.length} notes from your garden.`
               );
             }
             if (imagesToDelete.length > 0) {
-              new import_obsidian19.Notice(
+              new import_obsidian20.Notice(
                 `Successfully deleted ${imagesToDelete.length} images from your garden.`
               );
             }
@@ -33158,7 +33346,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
               return;
             }
             console.error(e);
-            new import_obsidian19.Notice(
+            new import_obsidian20.Notice(
               "Unable to publish multiple notes, something went wrong."
             );
           }
@@ -33206,12 +33394,48 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
           yield this.setAsHomePage();
         })
       });
+      if (import_obsidian20.Platform.isDesktop) {
+        this.addCommand({
+          id: "export-garden-to-local-folder",
+          name: "Export Garden to Local Folder",
+          callback: () => __async(this, null, function* () {
+            try {
+              new import_obsidian20.Notice("Exporting garden to local folder...");
+              const { vault, metadataCache } = this.app;
+              const publisher = new Publisher(
+                vault,
+                metadataCache,
+                this.settings
+              );
+              const exporter = new LocalExporter(
+                vault,
+                publisher,
+                this.settings
+              );
+              const result = yield exporter.export();
+              if (result.failed > 0) {
+                new import_obsidian20.Notice(
+                  `Exported ${result.notes} notes and ${result.images} images (${result.failed} failed). Check console for details.`,
+                  8e3
+                );
+              } else {
+                new import_obsidian20.Notice(
+                  `Exported ${result.notes} notes and ${result.images} images to ${this.settings.localExportPath}`,
+                  8e3
+                );
+              }
+            } catch (e) {
+              import_js_logger12.default.error("Local export failed", e);
+            }
+          })
+        });
+      }
     });
   }
   getActiveFile(workspace) {
     const activeFile = workspace.getActiveFile();
     if (!activeFile) {
-      new import_obsidian19.Notice(
+      new import_obsidian20.Notice(
         "No file is open/active. Please open a file and try again."
       );
       return null;
@@ -33232,10 +33456,10 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
         );
         const fullUrl = siteManager.getNoteUrl(activeFile);
         yield navigator.clipboard.writeText(fullUrl);
-        new import_obsidian19.Notice(`Note URL copied to clipboard`);
+        new import_obsidian20.Notice(`Note URL copied to clipboard`);
       } catch (e) {
         console.log(e);
-        new import_obsidian19.Notice(
+        new import_obsidian20.Notice(
           "Unable to copy note URL to clipboard, something went wrong."
         );
       }
@@ -33251,12 +33475,12 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
           return;
         }
         if (activeFile.extension !== "md" && activeFile.extension !== "canvas") {
-          new import_obsidian19.Notice(
+          new import_obsidian20.Notice(
             "The current file is not a markdown or canvas file. Please open a supported file and try again."
           );
           return;
         }
-        new import_obsidian19.Notice("Publishing note...");
+        new import_obsidian20.Notice("Publishing note...");
         const publisher = new Publisher(
           vault,
           metadataCache,
@@ -33272,9 +33496,9 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
         }).compile();
         const publishSuccessful = yield publisher.publish(publishFile);
         if (publishSuccessful) {
-          new import_obsidian19.Notice(`Successfully published note to your garden.`);
+          new import_obsidian20.Notice(`Successfully published note to your garden.`);
         } else {
-          new import_obsidian19.Notice("Unable to publish note, something went wrong.");
+          new import_obsidian20.Notice("Unable to publish note, something went wrong.");
         }
         return publishSuccessful;
       } catch (e) {
@@ -33283,7 +33507,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
           return false;
         }
         console.error(e);
-        new import_obsidian19.Notice("Unable to publish note, something went wrong.");
+        new import_obsidian20.Notice("Unable to publish note, something went wrong.");
         return false;
       }
     });
@@ -33325,7 +33549,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
       }
       const currentFileCache = this.app.metadataCache.getFileCache(activeFile);
       if ((_a2 = currentFileCache == null ? void 0 : currentFileCache.frontmatter) == null ? void 0 : _a2["dg-home" /* HOME */]) {
-        new import_obsidian19.Notice("This note is already set as the garden home page.");
+        new import_obsidian20.Notice("This note is already set as the garden home page.");
         return;
       }
       const existingHomePages = [];
@@ -33343,7 +33567,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
             frontmatter["dg-publish" /* PUBLISH */] = true;
           }
         );
-        new import_obsidian19.Notice(
+        new import_obsidian20.Notice(
           `${activeFile.basename} is now your garden's home page and has been marked for publishing.`
         );
       } else {
@@ -33366,7 +33590,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
                   frontmatter["dg-publish" /* PUBLISH */] = true;
                 }
               );
-              new import_obsidian19.Notice(
+              new import_obsidian20.Notice(
                 `${activeFile.basename} is now your garden's home page and has been marked for publishing.`
               );
             }
@@ -33380,12 +33604,12 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
     if (error.errorType === "build_limit_reached") {
       const used = (_a2 = error.buildsUsed) != null ? _a2 : 0;
       const limit = (_b = error.monthlyLimit) != null ? _b : 0;
-      new import_obsidian19.Notice(
+      new import_obsidian20.Notice(
         `Publishing blocked: You've used all ${used}/${limit} builds this month. Upgrade to Pro for 1000 builds/month at dashboard.forestry.md/settings`,
         1e4
       );
     } else {
-      new import_obsidian19.Notice(
+      new import_obsidian20.Notice(
         `Publishing blocked: Storage limit exceeded. Free up space or upgrade at dashboard.forestry.md/settings`,
         1e4
       );
@@ -33415,7 +33639,7 @@ var DigitalGarden = class extends import_obsidian19.Plugin {
     this.publishModal.open();
   }
 };
-var HomePageConfirmationModal = class extends import_obsidian19.Modal {
+var HomePageConfirmationModal = class extends import_obsidian20.Modal {
   constructor(app, newHomeFile, existingHomeFile, onConfirm) {
     super(app);
     this.newHomeFile = newHomeFile;

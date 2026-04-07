@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Product/competitors/Untitled.md",
-      "timestamp": 1775559658210
+      "filepath": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
+      "timestamp": 1775560018219
+    },
+    {
+      "filepath": "Product/competitors/RRM_Competitive_Analysis.md",
+      "timestamp": 1775559878872
+    },
+    {
+      "filepath": "Product/Email notifications/Email notifications.md",
+      "timestamp": 1775559873569
     },
     {
       "filepath": "Product/competitors/QorusDocs.md",
-      "timestamp": 1775559598659
+      "timestamp": 1775559814903
     },
     {
       "filepath": "Product/competitors/Arphie.ai.md",
-      "timestamp": 1775559569028
-    },
-    {
-      "filepath": "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-      "timestamp": 1775558846832
-    },
-    {
-      "filepath": "Product/Projects/Progress bar/progress-wireframe.html",
-      "timestamp": 1775558488321
+      "timestamp": 1775559813874
     }
   ],
   "bookmarkedFileStore": [

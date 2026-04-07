@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Decision-State Progress Bars",
+      "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
+    },
+    {
       "basename": "RRM_Competitive_Analysis",
       "path": "Product/competitors/RRM_Competitive_Analysis.md"
+    },
+    {
+      "basename": "Email notifications",
+      "path": "Product/Email notifications/Email notifications.md"
     },
     {
       "basename": "QorusDocs",
@@ -11,10 +19,6 @@
     {
       "basename": "Arphie.ai",
       "path": "Product/competitors/Arphie.ai.md"
-    },
-    {
-      "basename": "Decision-State Progress Bars",
-      "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
     },
     {
       "basename": "progress-wireframe",
@@ -75,10 +79,6 @@
     {
       "basename": "Thinking Nodes",
       "path": "Product/Projects/Proposals/Thinking Nodes.md"
-    },
-    {
-      "basename": "Email notifications",
-      "path": "Product/Email notifications/Email notifications.md"
     },
     {
       "basename": "Mapping",

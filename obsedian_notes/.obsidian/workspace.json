@@ -308,6 +308,18 @@
             }
           },
           {
+            "id": "72e5d4a66202cd59",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://docs.google.com/spreadsheets/d/1YfXBKMnfzv6Nu3scPDthGYDGAo_h5Ptk/edit?gid=647645677#gid=647645677"
+              },
+              "icon": "lucide-file",
+              "title": "Surfing"
+            }
+          },
+          {
             "id": "6ad88aa6021f4340",
             "type": "leaf",
             "state": {
@@ -332,7 +344,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -445,7 +457,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/RRM_Competitive_Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -455,7 +466,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RRM_Competitive_Analysis"
+              "title": "Backlinks"
             }
           },
           {
@@ -464,12 +475,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/RRM_Competitive_Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from RRM_Competitive_Analysis"
+              "title": "Outgoing links"
             }
           },
           {
@@ -497,11 +507,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/competitors/RRM_Competitive_Analysis.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for RRM_Competitive_Analysis"
+              "title": "File properties"
             }
           },
           {
@@ -510,13 +518,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/RRM_Competitive_Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RRM_Competitive_Analysis"
+              "title": "Outline"
             }
           },
           {
@@ -695,9 +702,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a0255408d200bce7",
+  "active": "72e5d4a66202cd59",
   "lastOpenFiles": [
     "Product/competitors/RRM_Competitive_Analysis.md",
+    "Product/Email notifications/Email notifications.md",
     "Product/competitors/QorusDocs.md",
     "Product/competitors/Arphie.ai.md",
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
@@ -716,7 +724,6 @@
     "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
-    "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",
     "Help articles /Untitled.md",
     "Product/UAT/Untitled.md",
