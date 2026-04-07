@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Product/Projects/Progress bar/progress-wireframe.html",
+      "timestamp": 1775558488321
+    },
+    {
       "filepath": "Product/competitors/QorusDocs.md",
       "timestamp": 1775558037517
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/UAT/UAT Vipin.md",
       "timestamp": 1775550983197
-    },
-    {
-      "filepath": "TO DO List - today.md",
-      "timestamp": 1775550948788
     }
   ],
   "bookmarkedFileStore": [

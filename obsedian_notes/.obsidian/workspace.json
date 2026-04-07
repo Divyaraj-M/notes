@@ -306,9 +306,21 @@
               "icon": "lucide-file",
               "title": "QorusDocs"
             }
+          },
+          {
+            "id": "6ad88aa6021f4340",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
+              },
+              "icon": "code-glyph",
+              "title": "progress-wireframe"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -421,7 +433,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/QorusDocs.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -431,7 +443,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for QorusDocs"
+              "title": "Backlinks for progress-wireframe"
             }
           },
           {
@@ -440,12 +452,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/QorusDocs.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QorusDocs"
+              "title": "Outgoing links from progress-wireframe"
             }
           },
           {
@@ -474,10 +486,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/QorusDocs.md"
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
               },
               "icon": "lucide-info",
-              "title": "File properties for QorusDocs"
+              "title": "File properties for progress-wireframe"
             }
           },
           {
@@ -486,13 +498,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/QorusDocs.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QorusDocs"
+              "title": "Outline of progress-wireframe"
             }
           },
           {
@@ -671,10 +683,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a0255408d200bce7",
+  "active": "6ad88aa6021f4340",
   "lastOpenFiles": [
-    "Find Analogies.md",
     "Product/competitors/QorusDocs.md",
+    "Find Analogies.md",
     "Product/competitors/Arphie.ai.md",
     "Product/UAT/UAT Vipin.md",
     "TO DO List - today.md",

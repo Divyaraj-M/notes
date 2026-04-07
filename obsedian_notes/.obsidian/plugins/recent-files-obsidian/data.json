@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "progress-wireframe",
+      "path": "Product/Projects/Progress bar/progress-wireframe.html"
+    },
+    {
       "basename": "QorusDocs",
       "path": "Product/competitors/QorusDocs.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "Decision-State Progress Bars",
       "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
-    },
-    {
-      "basename": "progress-wireframe",
-      "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
       "basename": "calendar-default",
