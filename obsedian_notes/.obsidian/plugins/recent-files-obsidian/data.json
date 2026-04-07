@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Product/competitors/Untitled.md"
+    },
+    {
+      "basename": "Find Analogies",
+      "path": "Find Analogies.md"
+    },
+    {
       "basename": "UAT Vipin",
       "path": "Product/UAT/UAT Vipin.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Home page",
       "path": "Product/Users/Home page.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Users/Untitled.base"
-    },
-    {
-      "basename": "2026-W13",
-      "path": "Product/Templates/2026-W13.md"
     }
   ],
   "omittedPaths": [],
