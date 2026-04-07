@@ -222,9 +222,21 @@
               "icon": "lucide-file",
               "title": "Create a project"
             }
+          },
+          {
+            "id": "2b90ca11a47c8b06",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -337,7 +349,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO DO List - today.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +358,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TO DO List - today"
+              "title": "Backlinks"
             }
           },
           {
@@ -356,12 +367,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO DO List - today.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TO DO List - today"
+              "title": "Outgoing links"
             }
           },
           {
@@ -389,11 +399,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "TO DO List - today.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for TO DO List - today"
+              "title": "File properties"
             }
           },
           {
@@ -402,13 +410,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline"
             }
           },
           {
@@ -587,23 +594,23 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "2b90ca11a47c8b06",
   "lastOpenFiles": [
-    "Friction points.md",
-    "TO DO List - today.md",
-    "Product/Help Article/Create a project.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
+    "Product/Help Article/Create a project.md",
+    "TO DO List - today.md",
+    "Friction points.md",
     "Product/Help Article/Getting Started.md",
     "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
-    "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",
     "Product/UAT/UAT Vipin.md",
     "Help articles /Untitled.md",
     "Product/UAT/Untitled.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Help articles /02-ARTICLE-TEMPLATE.md",
     "Help articles /03-WRITING-SCHEDULE.md",
     "Help articles /01-MASTER-INDEX.md",
