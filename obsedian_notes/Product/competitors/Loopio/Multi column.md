@@ -1,6 +1,6 @@
 ---
 state: "[[Focus]]"
 tags:
-  - competitor_analysis/loopio/multicolumn
+  - competitor_analysis/responsive/Answer_types/multicolumn
 website:
 ---

@@ -1,4 +1,7 @@
-#competitor_analysis/Go_no_go #discovery/go_no_go 
+---
+state: "[[Final]]"
+---
+#competitor_analysis/responsive/Go_no_go #discovery/go_no_go 
 
 
 ##### Article 1 : [Getting started with Requirements Analysis](https://help.responsive.io/en-US/responsive/article/6gpSEeSX-getting-started-with-requirements-analysis)

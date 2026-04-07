@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Answer types",
-      "path": "Product/competitors/Loopio/Answer types.md"
-    },
-    {
       "basename": "Multi column",
       "path": "Product/competitors/Loopio/Multi column.md"
+    },
+    {
+      "basename": "SmartScan",
+      "path": "Product/competitors/Loopio/SmartScan.md"
+    },
+    {
+      "basename": "Go- no - Go responsive",
+      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
+    },
+    {
+      "basename": "Attachments - Responsive",
+      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
+    },
+    {
+      "basename": "Chrome Extension - Responsive IO",
+      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
+    },
+    {
+      "basename": "Answer types templates",
+      "path": "Product/competitors/Responsiveio/Answer types templates.md"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/competitors/Responsiveio/Answer types.md"
     },
     {
       "basename": "Untitled",
@@ -179,26 +199,6 @@
     {
       "basename": "hybrid-thinking-worksheet",
       "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md"
-    },
-    {
-      "basename": "Hybrid thinking product framework",
-      "path": "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md"
-    },
-    {
-      "basename": "Analogy vs Analogical thinking",
-      "path": "Books/Read List/Analogy vs Analogical thinking.pdf"
-    },
-    {
-      "basename": "UAT Arya",
-      "path": "Product/UAT/UAT Arya.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "Learning/Top Deliverables/Edge case Analysis.md"
     }
   ],
   "omittedPaths": [],

@@ -1,7 +1,8 @@
 ---
 tags:
-  - competitor_analysis/Answer_types/templates
-link: https://help.responsive.io/en-US/responsive/article/vtVwMeSs-working-with-answer-type-templates
+  - competitor_analysis/responsive/Answer_types/templates
+website: https://help.responsive.io/en-US/responsive/article/vtVwMeSs-working-with-answer-type-templates
+state: "[[Final]]"
 ---
 
 

@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Loopio/Answer types.md",
+                "file": "Product/competitors/Loopio/Multi column.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Answer types"
+              "title": "Multi column"
             }
           }
         ],
@@ -254,7 +254,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://help.responsive.io/en-US/responsive/article/8PCBdDb5-understanding-the-different-answer-types",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -299,7 +299,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Loopio/Answer types.md",
+                "file": "Product/competitors/Loopio/Multi column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Answer types"
+              "title": "Backlinks for Multi column"
             }
           },
           {
@@ -356,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Loopio/Answer types.md",
+                "file": "Product/competitors/Loopio/Multi column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Answer types"
+              "title": "Outgoing links from Multi column"
             }
           },
           {
@@ -390,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Loopio/Answer types.md"
+                "file": "Product/competitors/Loopio/Multi column.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Answer types"
+              "title": "File properties for Multi column"
             }
           },
           {
@@ -402,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Loopio/Answer types.md",
+                "file": "Product/competitors/Loopio/Multi column.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Answer types"
+              "title": "Outline of Multi column"
             }
           },
           {
@@ -530,8 +530,7 @@
               "title": "Thinking"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -589,8 +588,13 @@
   },
   "active": "b2ace781e0bd552f",
   "lastOpenFiles": [
+    "Product/competitors/Loopio/SmartScan.md",
+    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
+    "Product/competitors/Responsiveio/Attachments - Responsive.md",
+    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
+    "Product/competitors/Responsiveio/Answer types templates.md",
+    "Product/competitors/Responsiveio/Answer types.md",
     "Product/competitors/Loopio/Multi column.md",
-    "Product/competitors/Loopio/Answer types.md",
     "Product/competitors/Untitled.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Brand kit/Brand Kit.md",
@@ -612,11 +616,6 @@
     "Product/competitors/Arphie.ai.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/Product Sync system/Product Review system.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "Product/Help Article/Getting Started.md",
-    "Product/Help Article/Getting started  with SparrowGenie.md",
-    "Product/Help Article/Untitled.md",
-    "Product/Projects/Proposals/Thinking Nodes.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",
