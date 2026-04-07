@@ -246,9 +246,21 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
+          },
+          {
+            "id": "bed0bd9a4a493693",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
+              },
+              "icon": "code-glyph",
+              "title": "progress-wireframe"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -361,7 +373,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +383,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multi-column"
+              "title": "Backlinks for progress-wireframe"
             }
           },
           {
@@ -380,12 +392,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Multi-column"
+              "title": "Outgoing links from progress-wireframe"
             }
           },
           {
@@ -414,10 +426,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md"
+                "file": "Product/Projects/Progress bar/progress-wireframe.html"
               },
               "icon": "lucide-info",
-              "title": "File properties for Multi-column"
+              "title": "File properties for progress-wireframe"
             }
           },
           {
@@ -426,13 +438,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "Product/Projects/Progress bar/progress-wireframe.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Multi-column"
+              "title": "Outline of progress-wireframe"
             }
           },
           {
@@ -610,10 +622,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b2ace781e0bd552f",
+  "active": "bed0bd9a4a493693",
   "lastOpenFiles": [
-    "Product/UAT/UAT Vipin.md",
     "Product/competitors/Responsiveio/Multi-column.md",
+    "Product/UAT/UAT Vipin.md",
     "Product/competitors/Responsiveio/Answer types.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",

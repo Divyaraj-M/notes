@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "progress-wireframe",
+      "path": "Product/Projects/Progress bar/progress-wireframe.html"
+    },
+    {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "Arphie.ai",
       "path": "Product/competitors/Arphie.ai.md"
-    },
-    {
-      "basename": "progress-wireframe",
-      "path": "Product/Projects/Progress bar/progress-wireframe.html"
     },
     {
       "basename": "Product Review system",
