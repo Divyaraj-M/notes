@@ -24,7 +24,9 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 
 03-Apr-2026
 - [ ]  20 Articles 
-- [ ] multi-column
+- [ ] Ablity to multi-column
 - [ ] Provide a feature to manually create projects without mapping and download in a standard format as an escape hatch to avoid the problem of very complex excel or doc rfps
 07-Apr-2026
+- [ ] Brand Templates
+- [ ] 20 Articles 
 - [ ] 

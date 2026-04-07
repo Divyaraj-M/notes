@@ -247,8 +247,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -361,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Product Sync system/Untitled.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +370,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for UAT Vipin"
             }
           },
           {
@@ -380,12 +379,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Product Sync system/Untitled.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from UAT Vipin"
             }
           },
           {
@@ -414,10 +413,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Product Sync system/Untitled.md"
+                "file": "Product/UAT/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for UAT Vipin"
             }
           },
           {
@@ -426,13 +425,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Product Sync system/Untitled.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of UAT Vipin"
             }
           },
           {
@@ -611,16 +610,16 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "2b90ca11a47c8b06",
+  "active": "8483e97d88f79283",
   "lastOpenFiles": [
-    "Product/Product Sync system/Untitled.md",
-    "Product/Product Sync system/Product Review system.md",
-    "Product/UAT/UAT Vipin.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "TO DO List - today.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
     "Product/Help Article/Create a project.md",
-    "TO DO List - today.md",
+    "Product/UAT/UAT Vipin.md",
+    "Product/Product Sync system/Untitled.md",
+    "Product/Product Sync system/Product Review system.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Friction points.md",
     "Product/Help Article/Getting Started.md",
     "Product/Help Article/Getting started  with SparrowGenie.md",
