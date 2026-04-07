@@ -45,7 +45,7 @@
       {
         "name": "Focus",
         "link": true,
-        "defaultViewMode": "Simple Cards",
+        "defaultViewMode": "Detailed Cards",
         "defaultViewOrder": "AliasOrFilename",
         "defaultViewPriorityVisibility": true,
         "defaultViewPriorityGrouping": true

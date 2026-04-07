@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Answer types",
+      "path": "Product/competitors/Loopio/Answer types.md"
+    },
+    {
+      "basename": "Multi column",
+      "path": "Product/competitors/Loopio/Multi column.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Product/competitors/Untitled.md"
+    },
+    {
       "basename": "Proposal to Project",
       "path": "Product/competitors/Loopio/Proposal to Project.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "Edge case Analysis",
       "path": "Learning/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Users/Untitled.md"
-    },
-    {
-      "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
-      "path": "Learning/Analogical thinking vs Logical thinking/Hybrid Thinking — Discovery Cycle Worksheet.md"
     }
   ],
   "omittedPaths": [],

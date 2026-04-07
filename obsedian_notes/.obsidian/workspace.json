@@ -176,19 +176,55 @@
             }
           },
           {
-            "id": "1492b695a2ebb83f",
+            "id": "4193753dcf0c5d56",
             "type": "leaf",
             "state": {
-              "type": "card-browser-view",
+              "type": "markdown",
               "state": {
-                "path": "Product/competitors"
+                "file": "Product/competitors/Loopio/Multi column.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-file",
+              "title": "Multi column"
+            }
+          },
+          {
+            "id": "b2ace781e0bd552f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/competitors/Loopio/Answer types.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Answer types"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -218,7 +254,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new_feature/dossiers/permissions",
+                "query": "https://help.responsive.io/en-US/responsive/article/8PCBdDb5-understanding-the-different-answer-types",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -263,7 +299,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -301,6 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Product/competitors/Loopio/Answer types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Answer types"
             }
           },
           {
@@ -319,11 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/competitors/Loopio/Answer types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Answer types"
             }
           },
           {
@@ -351,9 +389,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Product/competitors/Loopio/Answer types.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Answer types"
             }
           },
           {
@@ -362,12 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/competitors/Loopio/Answer types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Answer types"
             }
           },
           {
@@ -546,8 +587,10 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "1492b695a2ebb83f",
+  "active": "b2ace781e0bd552f",
   "lastOpenFiles": [
+    "Product/competitors/Loopio/Answer types.md",
+    "Product/competitors/Loopio/Multi column.md",
     "Product/competitors/Untitled.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Brand kit/Brand Kit.md",
@@ -574,8 +617,6 @@
     "Product/Help Article/Getting started  with SparrowGenie.md",
     "Product/Help Article/Untitled.md",
     "Product/Projects/Proposals/Thinking Nodes.md",
-    "Product/Help Article/Mapping.md",
-    "Help articles /Untitled.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",
