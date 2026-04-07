@@ -289,7 +289,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Untitled.md",
+                "file": "Product/competitors/QorusDocs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -304,7 +304,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "QorusDocs"
             }
           }
         ],
@@ -421,7 +421,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Untitled.md",
+                "file": "Product/competitors/QorusDocs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -431,7 +431,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for QorusDocs"
             }
           },
           {
@@ -440,12 +440,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Untitled.md",
+                "file": "Product/competitors/QorusDocs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from QorusDocs"
             }
           },
           {
@@ -474,10 +474,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Untitled.md"
+                "file": "Product/competitors/QorusDocs.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for QorusDocs"
             }
           },
           {
@@ -486,13 +486,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Untitled.md",
+                "file": "Product/competitors/QorusDocs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of QorusDocs"
             }
           },
           {
@@ -673,7 +673,7 @@
   },
   "active": "a0255408d200bce7",
   "lastOpenFiles": [
-    "Product/competitors/Untitled.md",
+    "Product/competitors/QorusDocs.md",
     "Product/competitors/Arphie.ai.md",
     "Find Analogies.md",
     "Product/UAT/UAT Vipin.md",
