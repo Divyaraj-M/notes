@@ -227,14 +227,16 @@
             "id": "0a158a874b6dc74f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "card-browser-view",
+              "state": {
+                "path": "Product/competitors"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -347,6 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -356,7 +359,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Multi-column"
             }
           },
           {
@@ -365,11 +368,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Multi-column"
             }
           },
           {
@@ -397,9 +401,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Product/competitors/Responsiveio/Multi-column.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Multi-column"
             }
           },
           {
@@ -408,12 +414,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Multi-column"
             }
           },
           {
@@ -591,7 +598,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0a158a874b6dc74f",
+  "active": "b2ace781e0bd552f",
   "lastOpenFiles": [
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/competitors/Responsiveio/Answer types.md",
