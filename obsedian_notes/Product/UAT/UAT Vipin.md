@@ -40,7 +40,7 @@ attachments
 
 Priority List 
 
-These are table stakes items, infact they are not just table stakes but baseline readiness, these have to be ensured that we make them 100% sprint ready and pass to engineering  
+These are table stakes items, infact they are nxot just table stakes but baseline readiness, these have to be ensured that we make them 100% sprint ready and pass to engineering  
   
 **Response quality & trust**  
 1. <mark style="background: #BBFABBA6;">Quality of responses for RFPs & Genie Chat  </mark>
