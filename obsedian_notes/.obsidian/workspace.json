@@ -337,7 +337,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Friction points.md",
+                "file": "TO DO List - today.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +347,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Friction points"
+              "title": "Backlinks for TO DO List - today"
             }
           },
           {
@@ -356,12 +356,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Friction points.md",
+                "file": "TO DO List - today.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Friction points"
+              "title": "Outgoing links from TO DO List - today"
             }
           },
           {
@@ -390,10 +390,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Friction points.md"
+                "file": "TO DO List - today.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Friction points"
+              "title": "File properties for TO DO List - today"
             }
           },
           {
@@ -402,13 +402,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Friction points.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Friction points"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -587,8 +587,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0cb49de0e84002f1",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Friction points.md",
     "TO DO List - today.md",
     "Product/Help Article/Create a project.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
@@ -603,7 +604,6 @@
     "Help articles /Untitled.md",
     "Product/UAT/Untitled.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "Friction points.md",
     "Help articles /02-ARTICLE-TEMPLATE.md",
     "Help articles /03-WRITING-SCHEDULE.md",
     "Help articles /01-MASTER-INDEX.md",
