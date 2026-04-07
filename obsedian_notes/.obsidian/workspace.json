@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
+                "file": "Product/competitors/Responsiveio/Multi-column.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +220,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Answer types"
+              "title": "Multi-column"
+            }
+          },
+          {
+            "id": "0a158a874b6dc74f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -337,7 +347,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -347,7 +356,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Answer types"
+              "title": "Backlinks"
             }
           },
           {
@@ -356,12 +365,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Answer types"
+              "title": "Outgoing links"
             }
           },
           {
@@ -389,11 +397,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Answer types"
+              "title": "File properties"
             }
           },
           {
@@ -402,13 +408,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Answer types"
+              "title": "Outline"
             }
           },
           {
@@ -586,7 +591,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b2ace781e0bd552f",
+  "active": "0a158a874b6dc74f",
   "lastOpenFiles": [
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/competitors/Responsiveio/Answer types.md",
