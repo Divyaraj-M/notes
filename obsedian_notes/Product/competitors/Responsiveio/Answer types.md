@@ -8,29 +8,58 @@ In Responsive, "Answer Types" define how a response is formatted and what kind o
 
 ### **List of Answer Types**
 
-- **Standard (Text):** The most common type, used for general text-based answers. It supports rich text formatting (bold, italics, lists) and is the default for most RFP questions.
-    
-- **Mergeable (Reusable) Answer:** These are used for content that needs to be updated in one place and reflected across multiple projects. If you update the "source" answer in the Content Library, all instances using that merge tag will update automatically.
-    
-- **Multiple Choice (Radio Buttons):** Used when a question requires exactly one selection from a predefined list of options.
-    
-- **Checkbox (Multi-Select):** Used for questions where the respondent can select one or more applicable options from a list.
-    
-- **Dropdown:** Similar to multiple choice but used for longer lists of options to save space on the screen.
-    
-- **Date:** A specialized field that forces a specific date format, ensuring consistency for "Effective Date" or "Expiration Date" questions.
-    
-- **Numeric / Currency:** Restricts the answer to numbers only. This is often used for financial tables or technical specifications to prevent text from being entered where data is expected.
-    
-- **File Attachment / Image:** Allows you to upload a document or image as the answer. During export, these can be embedded directly into the document or provided as an appendix.
-    
-- **Multi-Line / Plain Text:** Used specifically for systems or exports that do not support rich text (like basic CSV or certain Excel imports), stripping away bolding or hyperlinking to ensure data integrity.
-    
+## Key change
 
-### **Summary of Benefits**
+- **Plain Text** → deprecated
+- Existing ones stay, but new/edited answers should use **Rich Text variants**
 
-1. **Automation:** Using specific types (like Date or Multiple Choice) allows the platform to "Auto-Respond" more accurately.
-    
-2. **Consistency:** It prevents Subject Matter Experts (SMEs) from entering data in the wrong format.
-    
-3. **Export Readiness:** It ensures that when you click "Export," the data fits perfectly back into the client's original Excel cells or Word tables.
+---
+
+## Answer types (quick breakdown)
+
+### 1. Text-based
+
+- **Basic Rich Text**
+    - Simple text + basic formatting (bold, font, bullets, etc.)
+- **Full Rich Text**
+    - Everything in Basic + advanced features
+    - Tables, images, links, alignment, spacing, annotations
+
+---
+
+### 2. Non-editable
+
+- **Label**
+    - Static text
+    - Used for guidance or grouping (not user input)
+
+---
+
+### 3. Date input
+
+- **Date**
+    - Select from calendar
+
+---
+
+### 4. Single-select options
+
+- **Drop-down**
+    - Pick one option from list
+- **Radio**
+    - Same as drop-down, just different UI (buttons)
+
+---
+
+### 5. [[Multi-column]] (structured inputs from Excel)
+
+- **Multi-Column Drop-down**
+- **Multi-Column Radio**
+    - Used when Excel has multiple related columns
+
+---
+
+### 6. Multi-select
+
+- **Checkbox**
+    - Select one, many, or none

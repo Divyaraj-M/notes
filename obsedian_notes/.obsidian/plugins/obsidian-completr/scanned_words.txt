@@ -279,6 +279,7 @@ Tunguz
 Teach
 Tone
 Themes
+Tables
 Docs
 Doc
 Designer
@@ -3142,6 +3143,7 @@ Builds
 Bias
 Beyond
 Branding
+Basic
 design
 does
 do
@@ -3574,6 +3576,7 @@ definitive
 database
 deck
 decks
+deprecated
 starts
 sub
 screens
@@ -5030,6 +5033,7 @@ Selecting
 Subsections
 Subsection
 Scans
+Simple
 Lead
 Loop
 Linking
@@ -6062,6 +6066,7 @@ appendix
 accurately
 assistance
 algorithms
+annotations
 QA
 Question
 Quality
@@ -7060,6 +7065,7 @@ baselines
 bio
 bios
 bolding
+bullets
 Requirements
 Radius
 Rules
@@ -8043,6 +8049,7 @@ Checkbox
 Currency
 Capturing
 Configure
+Column
 How
 Hubs
 Hub
