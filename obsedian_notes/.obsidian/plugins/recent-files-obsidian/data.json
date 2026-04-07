@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Product/competitors/Untitled.md"
+    },
+    {
       "basename": "Arphie.ai",
       "path": "Product/competitors/Arphie.ai.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SparrowGenie_Answer_Actions_Dark",
       "path": "Product/Projects/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html"
-    },
-    {
-      "basename": "Home page",
-      "path": "Product/Users/Home page.md"
     }
   ],
   "omittedPaths": [],

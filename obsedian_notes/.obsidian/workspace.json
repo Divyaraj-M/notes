@@ -289,7 +289,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Arphie.ai.md",
+                "file": "Product/competitors/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -304,7 +304,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Arphie.ai"
+              "title": "Untitled"
             }
           }
         ],
@@ -421,7 +421,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Arphie.ai.md",
+                "file": "Product/competitors/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -431,7 +431,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Arphie.ai"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -440,12 +440,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Arphie.ai.md",
+                "file": "Product/competitors/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Arphie.ai"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -474,10 +474,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Arphie.ai.md"
+                "file": "Product/competitors/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Arphie.ai"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -486,13 +486,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Arphie.ai.md",
+                "file": "Product/competitors/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Arphie.ai"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -673,6 +673,7 @@
   },
   "active": "a0255408d200bce7",
   "lastOpenFiles": [
+    "Product/competitors/Untitled.md",
     "Product/competitors/Arphie.ai.md",
     "Find Analogies.md",
     "Product/UAT/UAT Vipin.md",
@@ -708,7 +709,6 @@
     "Help articles /00-SYSTEM-DESIGN.md",
     "Product/Projects/Proposals/RFP to Proposal/SparrowGenie_Internal_Collaboration_v2_PRD.md",
     "Daily/UAT Kavin.md",
-    "Product/Users/Sep2.security.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
