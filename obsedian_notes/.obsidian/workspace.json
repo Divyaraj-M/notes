@@ -227,12 +227,24 @@
             "id": "2b90ca11a47c8b06",
             "type": "leaf",
             "state": {
-              "type": "card-browser-view",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "Product/Product Sync system/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -349,6 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Product/Product Sync system/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +371,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -367,11 +380,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Product/Product Sync system/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -399,9 +413,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Product/Product Sync system/Untitled.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -410,12 +426,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Product/Product Sync system/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -596,6 +613,9 @@
   },
   "active": "2b90ca11a47c8b06",
   "lastOpenFiles": [
+    "Product/Product Sync system/Untitled.md",
+    "Product/Product Sync system/Product Review system.md",
+    "Product/UAT/UAT Vipin.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
@@ -608,7 +628,6 @@
     "Product/Projects/Proposals/Thinking Nodes.md",
     "Product/Email notifications/Email notifications.md",
     "Product/Help Article/Mapping.md",
-    "Product/UAT/UAT Vipin.md",
     "Help articles /Untitled.md",
     "Product/UAT/Untitled.md",
     "Help articles /02-ARTICLE-TEMPLATE.md",
@@ -630,8 +649,6 @@
     "Daily/UAT Kavin.md",
     "Product/Users/Sep2.security.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
-    "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
