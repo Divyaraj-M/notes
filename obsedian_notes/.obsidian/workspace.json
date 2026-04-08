@@ -263,28 +263,52 @@
             "id": "15b3301cd05a2b34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "html-view",
               "state": {
-                "file": "Product/Brand kit/Brand Kit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Wireframe/wireframe.html"
               },
-              "icon": "lucide-file",
-              "title": "Brand Kit"
+              "icon": "code-glyph",
+              "title": "wireframe"
+            }
+          },
+          {
+            "id": "92d63a2aba3df67a",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
+          },
+          {
+            "id": "444665fd8c0cf0cb",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
+          },
+          {
+            "id": "135ff2343f263891",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "Product/Wireframe/wireframe.html"
+              },
+              "icon": "code-glyph",
+              "title": "wireframe"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -359,7 +383,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -397,7 +421,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Wireframe/wireframe.html",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -407,7 +431,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TO DO List - today"
+              "title": "Backlinks for wireframe"
             }
           },
           {
@@ -416,12 +440,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Wireframe/wireframe.html",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TO DO List - today"
+              "title": "Outgoing links from wireframe"
             }
           },
           {
@@ -450,10 +474,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TO DO List - today.md"
+                "file": "Product/Wireframe/wireframe.html"
               },
               "icon": "lucide-info",
-              "title": "File properties for TO DO List - today"
+              "title": "File properties for wireframe"
             }
           },
           {
@@ -462,13 +486,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Wireframe/wireframe.html",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline of wireframe"
             }
           },
           {
@@ -646,9 +670,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "135ff2343f263891",
   "lastOpenFiles": [
+    "Product/Wireframe/wireframe.html",
     "Product/Brand kit/Brand Kit.md",
+    "Product/Wireframe",
+    "Product/competitors/Untitled.md",
+    "TO DO List - today.md",
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
@@ -658,11 +686,9 @@
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
     "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
     "Product/competitors/Responsiveio/Answer types templates.md",
-    "Product/competitors/Untitled.md",
     "Product/competitors/Loopio/Proposal to Project.md",
     "Product/Untitled.md",
     "Product/Brand kit",
-    "TO DO List - today.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Friction points.md",
     "Product/Product Sync system/SME Operating system.md",
@@ -681,8 +707,6 @@
     "Help articles /projects/importing",
     "Help articles /projects/exporting",
     "Help articles /projects/creating",
-    "Help articles /projects/collaborating",
-    "Help articles /projects/ai-answer-fill",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",

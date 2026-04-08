@@ -1,0 +1,3029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Management Wireframe</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
+
+  /* Sidebar */
+  .sidebar { position: fixed; left: 0; top: 0; bottom: 0; width: 56px; background: #1a1a2e; display: flex; flex-direction: column; align-items: center; padding: 12px 0; gap: 8px; z-index: 100; }
+  .sidebar-icon { width: 36px; height: 36px; border-radius: 8px; background: #2a2a4a; display: flex; align-items: center; justify-content: center; color: #888; font-size: 14px; cursor: pointer; transition: all 0.15s; }
+  .sidebar-icon:hover, .sidebar-icon.active { background: #3a3a5a; color: #fff; }
+  .sidebar-logo { width: 36px; height: 36px; border-radius: 8px; background: #00b894; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 16px; margin-bottom: 12px; }
+
+  .main { margin-left: 56px; min-height: 100vh; }
+
+  /* ===== LISTING ===== */
+  #listing-screen { display: block; }
+  .listing-header { background: #fff; padding: 24px 32px 0; border-bottom: 1px solid #e0e0e0; }
+  .listing-header h1 { font-size: 22px; font-weight: 600; margin-bottom: 16px; }
+  .listing-tabs { display: flex; gap: 0; }
+  .listing-tab { padding: 8px 16px; font-size: 14px; border: 1px solid #ccc; background: #fff; cursor: pointer; color: #555; transition: all 0.15s; user-select: none; }
+  .listing-tab:first-child { border-radius: 6px 0 0 6px; }
+  .listing-tab:last-child { border-radius: 0 6px 6px 0; }
+  .listing-tab.active { background: #f0f0f0; font-weight: 600; color: #333; }
+  .listing-toolbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: #fff; }
+  .filter-toggle-btn { width: 32px; height: 32px; border: 1px solid #ccc; border-radius: 6px; display: flex; align-items: center; justify-content: center; cursor: pointer; color: #888; font-size: 14px; background: #fff; transition: all 0.15s; }
+  .filter-toggle-btn:hover, .filter-toggle-btn.active { background: #e8f5e9; border-color: #00b894; color: #00b894; }
+  .listing-toolbar .right-actions { display: flex; align-items: center; gap: 12px; }
+  .search-box { padding: 6px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; width: 200px; outline: none; transition: border-color 0.15s; }
+  .search-box:focus { border-color: #00b894; }
+  .view-toggle { display: flex; gap: 0; }
+  .view-btn { width: 32px; height: 32px; border: 1px solid #ccc; background: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 12px; color: #888; transition: all 0.15s; user-select: none; }
+  .view-btn:first-child { border-radius: 6px 0 0 6px; }
+  .view-btn:last-child { border-radius: 0 6px 6px 0; }
+  .view-btn.active { background: #f0f0f0; color: #333; }
+  .add-btn { width: 48px; height: 48px; border-radius: 50%; background: #00b894; border: none; color: #fff; font-size: 28px; cursor: pointer; position: fixed; bottom: 32px; right: 32px; box-shadow: 0 4px 12px rgba(0,184,148,0.4); z-index: 50; transition: transform 0.2s, background 0.15s; }
+  .add-btn:hover { background: #00a382; transform: scale(1.08); }
+
+  /* Filter bar */
+  .filter-bar { display: none; background: #fff; padding: 12px 32px; border-bottom: 1px solid #e0e0e0; gap: 12px; align-items: center; flex-wrap: wrap; animation: slideDown 0.2s ease; }
+  .filter-bar.show { display: flex; }
+  @keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .filter-chip { display: flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid #ccc; border-radius: 20px; font-size: 12px; cursor: pointer; background: #fff; user-select: none; transition: all 0.15s; position: relative; }
+  .filter-chip:hover { border-color: #00b894; }
+  .filter-chip.active { background: #e8f5e9; border-color: #00b894; color: #00b894; }
+  .filter-dropdown { position: absolute; top: 100%; left: 0; margin-top: 4px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); min-width: 180px; z-index: 200; padding: 6px 0; display: none; }
+  .filter-dropdown.show { display: block; animation: slideDown 0.15s ease; }
+  .filter-dropdown-item { padding: 8px 14px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: background 0.1s; }
+  .filter-dropdown-item:hover { background: #f5f5f5; }
+  .filter-dropdown-item .fd-check { width: 16px; height: 16px; border: 2px solid #ccc; border-radius: 3px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; transition: all 0.15s; flex-shrink: 0; }
+  .filter-dropdown-item .fd-check.checked { background: #00b894; border-color: #00b894; }
+
+  /* Progress bar in table */
+  .progress-cell { display: flex; align-items: center; gap: 8px; min-width: 100px; }
+  .progress-bar { flex: 1; height: 6px; background: #e8e8e8; border-radius: 3px; overflow: hidden; min-width: 60px; }
+  .progress-fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
+  .progress-pct { font-size: 12px; color: #888; white-space: nowrap; min-width: 32px; text-align: right; }
+
+  /* RFx type badge */
+  .rfx-badge { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; }
+  .rfx-rfp { background: #eef0fb; color: #5b6abf; }
+  .rfx-rfi { background: #e8f5e9; color: #2e7d32; }
+  .rfx-sq { background: #fef4e8; color: #c47a1a; }
+
+  /* Project status badge */
+  .project-status-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+
+  /* Assets tag chips */
+  .contains-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+  .tag { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; letter-spacing: 0.3px; }
+  .tag-rfp { background: #eef0fb; color: #5b6abf; border: 1px solid #d0d5f0; }
+  .tag-proposal { background: #fef4e8; color: #c47a1a; border: 1px solid #f0dbb8; }
+  .tag-icon { font-size: 10px; }
+
+  /* Quick-filter pills (above table) */
+  .quick-filters { display: flex; gap: 6px; padding: 0 32px 12px; background: #fff; }
+  .qf-pill { padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 500; cursor: pointer; border: 1px solid #e0e0e0; background: #fff; color: #666; transition: all 0.15s; user-select: none; display: flex; align-items: center; gap: 5px; }
+  .qf-pill:hover { border-color: #bbb; }
+  .qf-pill.active { font-weight: 600; }
+  .qf-pill[data-qf="all"].active { background: #f0f0f0; border-color: #bbb; color: #333; }
+  .qf-pill[data-qf="rfp"].active { background: #eef0fb; border-color: #b8bfe8; color: #5b6abf; }
+  .qf-pill[data-qf="proposal"].active { background: #fef4e8; border-color: #e8cea0; color: #c47a1a; }
+  .qf-pill[data-qf="both"].active { background: #e8f8f0; border-color: #a0d8c0; color: #00875a; }
+  .qf-count { font-size: 10px; background: rgba(0,0,0,0.08); padding: 1px 6px; border-radius: 8px; }
+
+  /* Table */
+  .project-table { width: 100%; border-collapse: collapse; background: #fff; }
+  .project-table th { text-align: left; padding: 12px 16px; font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; border-bottom: 2px solid #e0e0e0; white-space: nowrap; cursor: pointer; user-select: none; transition: color 0.15s; }
+  .project-table th:hover { color: #333; }
+  .project-table th .sort { font-size: 10px; margin-left: 4px; color: #bbb; transition: color 0.15s; }
+  .project-table th:hover .sort { color: #00b894; }
+  .project-table td { padding: 12px 14px; font-size: 13px; border-bottom: 1px solid #eee; vertical-align: middle; white-space: nowrap; }
+  .project-table tr { cursor: pointer; transition: background 0.1s; }
+  .project-table tbody tr:hover { background: #f8f8f8; }
+  .project-table tbody tr.selected { background: #e8f5e9; }
+  .cb { width: 16px; height: 16px; border: 2px solid #ccc; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.15s; flex-shrink: 0; user-select: none; }
+  .cb:hover { border-color: #00b894; }
+  .cb.checked { background: #00b894; border-color: #00b894; }
+  .cb.checked::after { content: "✓"; color: #fff; font-size: 11px; font-weight: 700; }
+  .cb-header { width: 16px; height: 16px; border: 2px solid #ccc; border-radius: 3px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.15s; }
+  .cb-header:hover { border-color: #00b894; }
+  .cb-header.checked { background: #00b894; border-color: #00b894; }
+  .cb-header.checked::after { content: "✓"; color: #fff; font-size: 11px; font-weight: 700; }
+  .cb-header.partial { background: #00b894; border-color: #00b894; }
+  .cb-header.partial::after { content: "−"; color: #fff; font-size: 14px; font-weight: 700; }
+
+  /* Bulk bar */
+  .bulk-bar { display: none; background: #1a1a2e; color: #fff; padding: 10px 32px; align-items: center; gap: 16px; font-size: 13px; animation: slideDown 0.2s ease; }
+  .bulk-bar.show { display: flex; }
+  .bulk-bar .bulk-count { font-weight: 600; }
+  .bulk-bar button { padding: 5px 12px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.3); background: transparent; color: #fff; font-size: 12px; cursor: pointer; transition: all 0.15s; }
+  .bulk-bar button:hover { background: rgba(255,255,255,0.15); }
+  .bulk-bar .bulk-close { margin-left: auto; cursor: pointer; font-size: 16px; opacity: 0.7; background: none; border: none; color: #fff; }
+
+  .prospect-cell { display: flex; align-items: center; gap: 8px; }
+  .prospect-avatar { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #fff; flex-shrink: 0; }
+  .stage-badge { padding: 4px 0; font-size: 13px; display: flex; align-items: center; gap: 6px; }
+  .stage-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .more-icon { color: #bbb; cursor: pointer; font-size: 18px; position: relative; }
+
+  .row-menu { position: absolute; right: 0; top: 100%; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); min-width: 160px; z-index: 200; padding: 6px 0; display: none; }
+  .row-menu.show { display: block; animation: slideDown 0.15s ease; }
+  .row-menu-item { padding: 8px 14px; font-size: 13px; cursor: pointer; color: #333; transition: background 0.1s; }
+  .row-menu-item:hover { background: #f5f5f5; }
+  .row-menu-item.danger { color: #e74c3c; }
+
+  /* ===== DETAIL ===== */
+  #detail-screen { display: none; }
+  .detail-topbar { background: #fff; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e0e0e0; }
+  .detail-topbar-left { display: flex; align-items: center; gap: 12px; }
+  .back-btn { background: none; border: none; font-size: 20px; cursor: pointer; color: #555; padding: 4px 8px; border-radius: 4px; transition: background 0.15s; }
+  .back-btn:hover { background: #f0f0f0; }
+  .detail-topbar-left .project-icon { width: 32px; height: 32px; border-radius: 8px; background: #e8e8e8; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+  .detail-topbar-left h2 { font-size: 16px; font-weight: 600; }
+  .detail-topbar-left .detail-tags { display: flex; gap: 4px; margin-left: 4px; }
+  .detail-topbar-right { display: flex; align-items: center; gap: 12px; }
+  .topbar-avatars { display: flex; }
+  .topbar-avatar { width: 28px; height: 28px; border-radius: 50%; background: #ccc; border: 2px solid #fff; margin-left: -8px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; font-weight: 600; }
+  .topbar-avatar:first-child { margin-left: 0; }
+  .status-dropdown { padding: 6px 14px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; background: #fff; cursor: pointer; display: flex; align-items: center; gap: 6px; position: relative; user-select: none; transition: border-color 0.15s; }
+  .status-dropdown:hover { border-color: #00b894; }
+  .status-menu { position: absolute; top: 100%; right: 0; margin-top: 4px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); min-width: 160px; z-index: 200; padding: 6px 0; display: none; }
+  .status-menu.show { display: block; animation: slideDown 0.15s ease; }
+  .status-menu-item { padding: 8px 14px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: background 0.1s; }
+  .status-menu-item:hover { background: #f5f5f5; }
+  .status-menu-item .sm-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .download-btn { padding: 8px 18px; background: #00b894; color: #fff; border: none; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; transition: background 0.15s; }
+  .download-btn:hover { background: #00a382; }
+
+  /* Detail tabs */
+  .detail-tabs { display: flex; gap: 0; background: #fff; padding: 0 24px; border-bottom: 1px solid #e0e0e0; }
+  .detail-tab { padding: 12px 16px; font-size: 14px; color: #888; cursor: pointer; border-bottom: 2px solid transparent; display: flex; align-items: center; gap: 6px; transition: all 0.15s; user-select: none; }
+  .detail-tab:hover { color: #555; }
+  .detail-tab.active { color: #00b894; border-bottom-color: #00b894; font-weight: 600; }
+  .detail-tab .tab-icon { font-size: 14px; }
+  .detail-tab.disabled { opacity: 0.35; cursor: not-allowed; }
+  .overdue-badge { color: #e74c3c; font-size: 13px; margin-left: auto; padding: 0 24px; display: flex; align-items: center; gap: 16px; line-height: 48px; }
+  .progress-text { color: #888; font-size: 13px; }
+  .progress-mini { width: 120px; height: 6px; background: #e0e0e0; border-radius: 3px; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: 8px; }
+  .progress-mini-fill { height: 100%; background: #f0a830; border-radius: 3px; }
+
+  /* Detail body */
+  .detail-body { display: flex; height: calc(100vh - 120px); overflow: hidden; }
+
+  /* Left panel — fixed/sticky, scrolls independently */
+  .detail-left-panel { width: 280px; background: #fff; border-right: 1px solid #e0e0e0; flex-shrink: 0; overflow-y: auto; height: 100%; transition: width 0.25s ease, opacity 0.2s; }
+  .detail-left-panel.collapsed { width: 0; overflow: hidden; opacity: 0; border-right: none; }
+  .panel-section-tabs { display: flex; border-bottom: 1px solid #e0e0e0; }
+  .panel-section-tab { flex: 1; text-align: center; padding: 10px 0; font-size: 13px; cursor: pointer; color: #888; border-bottom: 2px solid transparent; transition: all 0.15s; user-select: none; }
+  .panel-section-tab:hover { color: #555; }
+  .panel-section-tab.active { color: #333; font-weight: 600; border-bottom-color: #00b894; }
+  .filter-row { display: flex; align-items: center; gap: 8px; padding: 10px 16px; border-bottom: 1px solid #eee; }
+  .collapse-btn { width: 24px; height: 24px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; font-size: 10px; display: flex; align-items: center; justify-content: center; color: #888; transition: all 0.15s; }
+  .collapse-btn:hover { border-color: #00b894; color: #00b894; }
+  .filter-row span { font-size: 13px; color: #888; }
+  .left-nav-item { padding: 10px 16px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 8px; border-left: 3px solid transparent; transition: all 0.1s; white-space: nowrap; overflow: hidden; }
+  .left-nav-item:hover { background: #f8f8f8; }
+  .left-nav-item.active { background: #f0faf7; border-left-color: #00b894; font-weight: 600; }
+  .left-nav-item .count { margin-left: auto; font-size: 12px; color: #aaa; }
+  .sheet-label { background: #e8f5e9; color: #2e7d32; font-size: 10px; padding: 2px 6px; border-radius: 3px; font-weight: 600; margin-left: auto; }
+  .section-badges { display: flex; gap: 4px; margin-left: auto; }
+  .section-badge { width: 18px; height: 18px; border-radius: 50%; font-size: 9px; display: flex; align-items: center; justify-content: center; font-weight: 600; }
+  .nav-section-header { padding: 10px 16px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; user-select: none; transition: background 0.1s; }
+  .nav-section-header:hover { background: #f8f8f8; }
+  .nav-section-header .arrow { font-size: 10px; transition: transform 0.2s; color: #888; }
+  .nav-section-header .arrow.open { transform: rotate(90deg); }
+  .nav-section-children { overflow: hidden; transition: max-height 0.3s ease; }
+  .nav-section-children.collapsed { max-height: 0 !important; }
+
+  /* Right content — scrolls independently */
+  .detail-content { flex: 1; padding: 24px; overflow-y: auto; height: 100%; }
+  .content-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .content-header h3 { font-size: 18px; font-weight: 600; }
+  .content-header .count-badge { color: #888; font-weight: 400; }
+  .content-actions { display: flex; gap: 8px; }
+  .icon-btn { width: 32px; height: 32px; border: 1px solid #e0e0e0; border-radius: 6px; background: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #888; transition: all 0.15s; }
+  .icon-btn:hover { border-color: #00b894; color: #00b894; }
+
+  .q-filter-dropdown { position: absolute; top: 100%; left: 0; margin-top: 4px; background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); min-width: 200px; z-index: 200; padding: 6px 0; display: none; }
+  .q-filter-dropdown.show { display: block; animation: slideDown 0.15s ease; }
+  .q-filter-dropdown-item { padding: 8px 14px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: background 0.1s; }
+  .q-filter-dropdown-item:hover { background: #f5f5f5; }
+  .q-filter-dropdown-item .qfd-check { width: 16px; height: 16px; border: 2px solid #ccc; border-radius: 3px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #fff; transition: all 0.15s; }
+  .q-filter-dropdown-item .qfd-check.checked { background: #00b894; border-color: #00b894; }
+
+  /* Question cards */
+  .question-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; margin-bottom: 16px; overflow: hidden; transition: box-shadow 0.2s, border-color 0.2s; }
+  .question-card:hover { border-color: #ccc; }
+  .question-card.expanded { border-color: #bbb; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  .question-card-top { padding: 20px 24px; cursor: pointer; }
+  .question-header { display: flex; align-items: flex-start; gap: 8px; }
+  .question-number { font-size: 13px; color: #888; font-weight: 600; white-space: nowrap; }
+  .question-status-icon { width: 18px; height: 18px; border-radius: 50%; border: 2px solid #ccc; flex-shrink: 0; margin-top: 1px; cursor: pointer; transition: all 0.15s; }
+  .question-status-icon:hover { border-color: #00b894; }
+  .question-status-icon.draft { border-color: #f0a830; background: #fef3d0; }
+  .question-status-icon.done { border-color: #00b894; background: #00b894; }
+  .question-status-icon.done::after { content: "✓"; color: #fff; font-size: 10px; display: flex; align-items: center; justify-content: center; height: 100%; }
+  .question-text { font-size: 14px; line-height: 1.5; flex: 1; }
+  .expand-btn { background: none; border: none; font-size: 16px; cursor: pointer; color: #888; padding: 0 4px; flex-shrink: 0; transition: transform 0.25s; }
+  .expand-btn.open { transform: rotate(180deg); }
+  .question-meta { font-size: 12px; color: #aaa; margin-top: 4px; padding-left: 26px; }
+  .question-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.25s ease; padding: 0 24px; }
+  .question-body.open { max-height: 600px; padding: 0 24px 20px; }
+  .add-answer-link { color: #00b894; font-size: 13px; font-weight: 600; cursor: pointer; padding-left: 26px; transition: color 0.15s; }
+  .add-answer-link:hover { color: #00a382; text-decoration: underline; }
+  .answer-body { padding-left: 26px; font-size: 14px; line-height: 1.6; color: #444; margin-bottom: 8px; }
+  .confidence-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: #00b894; font-weight: 600; padding-left: 26px; }
+  .confidence-badge::before { content: "✦"; }
+  .draft-label { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #888; padding-left: 26px; margin-top: 4px; }
+  .draft-label .edit-link { color: #6c5ce7; cursor: pointer; font-weight: 600; transition: color 0.15s; }
+  .draft-label .edit-link:hover { text-decoration: underline; }
+  .question-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-left: 26px; }
+  .footer-avatars { display: flex; align-items: center; gap: 4px; }
+  .footer-avatar { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #fff; font-weight: 600; }
+  .footer-actions { display: flex; align-items: center; gap: 8px; }
+  .save-draft-btn { padding: 6px 16px; background: #00b894; color: #fff; border: none; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: background 0.15s; }
+  .save-draft-btn:hover { background: #00a382; }
+  .draft-status-btn { padding: 6px 16px; border: 1px solid #e0e0e0; background: #fff; border-radius: 6px; font-size: 13px; color: #888; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: border-color 0.15s; }
+  .draft-status-btn:hover { border-color: #ccc; }
+  .draft-dot { width: 8px; height: 8px; border-radius: 50%; background: #ccc; }
+  .more-dots { color: #bbb; cursor: pointer; letter-spacing: 2px; transition: color 0.15s; }
+  .more-dots:hover { color: #555; }
+
+  /* Proposal placeholder content */
+  .proposal-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 80px 40px; text-align: center; color: #888; }
+  .proposal-placeholder .ph-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.5; }
+  .proposal-placeholder h3 { font-size: 18px; color: #555; margin-bottom: 8px; }
+  .proposal-placeholder p { font-size: 14px; max-width: 400px; line-height: 1.6; }
+  .proposal-placeholder .ph-btn { margin-top: 20px; padding: 10px 24px; background: #00b894; color: #fff; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.15s; }
+  .proposal-placeholder .ph-btn:hover { background: #00a382; }
+
+  /* Tab content panels */
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* Pagination */
+  .pagination { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; border-top: 1px solid #eee; margin-top: 8px; font-size: 13px; color: #888; }
+  .pagination .pg-info { display: flex; align-items: center; gap: 8px; }
+  .pagination .pg-info select { padding: 3px 6px; border: 1px solid #ccc; border-radius: 4px; font-size: 12px; outline: none; }
+  .pagination .pg-controls { display: flex; align-items: center; gap: 4px; }
+  .pg-btn { width: 30px; height: 30px; border: 1px solid #e0e0e0; border-radius: 6px; background: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #555; transition: all 0.15s; }
+  .pg-btn:hover:not(.disabled) { border-color: #00b894; color: #00b894; }
+  .pg-btn.disabled { opacity: 0.35; cursor: not-allowed; }
+  .pg-btn.active { background: #00b894; color: #fff; border-color: #00b894; }
+  .pg-text { font-size: 13px; color: #888; padding: 0 8px; }
+
+  /* Section breadcrumb */
+  .section-breadcrumb { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #888; margin-bottom: 4px; }
+  .section-breadcrumb .bc-link { color: #00b894; cursor: pointer; font-weight: 500; }
+  .section-breadcrumb .bc-link:hover { text-decoration: underline; }
+  .section-breadcrumb .bc-sep { color: #ccc; }
+
+  /* Active section highlight in tree */
+  .section-tree-item { padding: 8px 16px 8px 40px; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.1s; border-left: 3px solid transparent; }
+  .section-tree-item:hover { background: #f8f8f8; }
+  .section-tree-item.active { background: #f0faf7; border-left-color: #00b894; font-weight: 600; }
+  .section-tree-item .stc { margin-left: auto; font-size: 11px; color: #aaa; background: #f0f0f0; padding: 1px 7px; border-radius: 8px; }
+
+  /* ===== COLLABORATION / ROLES ===== */
+  /* Role switcher (dev tool) */
+  .role-switcher { display: flex; align-items: center; gap: 6px; padding: 4px 8px; background: #fffbe6; border: 1px solid #f0d860; border-radius: 6px; font-size: 11px; color: #8a6d00; }
+  .role-switcher select { font-size: 11px; padding: 2px 4px; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+  /* Share button */
+  .share-btn { padding: 8px 18px; background: #fff; color: #333; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; display: flex; align-items: center; gap: 6px; }
+  .share-btn:hover { border-color: #00b894; color: #00b894; }
+  /* Modal overlay */
+  .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.4); z-index: 500; display: none; align-items: center; justify-content: center; animation: fadeIn 0.15s; }
+  .modal-overlay.show { display: flex; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .modal { background: #fff; border-radius: 12px; box-shadow: 0 16px 48px rgba(0,0,0,0.2); width: 520px; max-height: 80vh; overflow-y: auto; animation: slideDown 0.2s ease; }
+  .modal-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px 12px; border-bottom: 1px solid #eee; }
+  .modal-header h3 { font-size: 18px; font-weight: 600; }
+  .modal-close { width: 28px; height: 28px; border: none; background: #f0f0f0; border-radius: 6px; font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; color: #555; transition: background 0.15s; }
+  .modal-close:hover { background: #e0e0e0; }
+  .modal-body { padding: 16px 24px 24px; }
+  /* Share modal search */
+  .share-search-row { display: flex; gap: 8px; margin-bottom: 16px; }
+  .share-search-input { flex: 1; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.15s; }
+  .share-search-input:focus { border-color: #00b894; }
+  .share-search-input::placeholder { color: #bbb; }
+  /* Collaborator row */
+  .collab-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+  .collab-row:last-child { border-bottom: none; }
+  .collab-avatar { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: #fff; flex-shrink: 0; }
+  .collab-info { flex: 1; min-width: 0; }
+  .collab-name { font-size: 14px; font-weight: 600; }
+  .collab-meta { font-size: 12px; color: #888; display: flex; align-items: center; gap: 6px; }
+  .collab-assignments { font-size: 11px; color: #6c5ce7; }
+  .collab-role-select { padding: 5px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; background: #fff; cursor: pointer; font-weight: 600; transition: border-color 0.15s; }
+  .collab-role-select:hover { border-color: #00b894; }
+  .collab-role-select:disabled { opacity: 0.5; cursor: not-allowed; }
+  .collab-remove-btn { width: 24px; height: 24px; border: none; background: none; color: #ccc; font-size: 16px; cursor: pointer; border-radius: 4px; transition: all 0.15s; }
+  .collab-remove-btn:hover { color: #e74c3c; background: #fef0f0; }
+  /* Role badge */
+  .role-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.3px; text-transform: uppercase; }
+  .role-owner { background: #1a1a2e; color: #fff; }
+  .role-editor { background: #0984e3; color: #fff; }
+  .role-participant { background: #6c5ce7; color: #fff; }
+  .role-viewer { background: #e0e0e0; color: #555; }
+  /* Permission banner */
+  .perm-banner { padding: 8px 16px; border-radius: 8px; font-size: 13px; display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+  .perm-banner.info { background: #eef0fb; color: #5b6abf; border: 1px solid #d0d5f0; }
+  .perm-banner.warn { background: #fef4e8; color: #c47a1a; border: 1px solid #f0dbb8; }
+  /* Disabled edit overlay on question cards */
+  .question-card.locked .question-body { opacity: 0.7; }
+  .question-card.locked .save-draft-btn, .question-card.locked .draft-status-btn { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
+  .locked-tooltip { font-size: 11px; color: #e74c3c; font-style: italic; padding-left: 26px; margin-top: 4px; }
+  /* Confirm dialog */
+  .confirm-dialog { background: #fff; border-radius: 12px; box-shadow: 0 16px 48px rgba(0,0,0,0.25); width: 400px; padding: 24px; text-align: center; }
+  .confirm-dialog h4 { font-size: 16px; margin-bottom: 12px; }
+  .confirm-dialog p { font-size: 14px; color: #555; line-height: 1.5; margin-bottom: 20px; }
+  .confirm-dialog .confirm-actions { display: flex; gap: 8px; justify-content: center; }
+  .confirm-dialog .confirm-btn { padding: 8px 20px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+  .confirm-dialog .confirm-btn.primary { background: #00b894; color: #fff; }
+  .confirm-dialog .confirm-btn.primary:hover { background: #00a382; }
+  .confirm-dialog .confirm-btn.secondary { background: #f0f0f0; color: #333; }
+  .confirm-dialog .confirm-btn.secondary:hover { background: #e0e0e0; }
+  /* Authors & Reviewers section in share modal */
+  .share-section-label { font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin: 16px 0 8px; padding-top: 12px; border-top: 1px solid #eee; }
+
+  /* ===== SETTINGS SCREEN ===== */
+  #settings-screen { display: none; }
+  .settings-layout { display: flex; min-height: calc(100vh - 0px); }
+  .settings-sidebar { width: 240px; background: #fff; border-right: 1px solid #e0e0e0; padding: 24px 0; flex-shrink: 0; }
+  .settings-sidebar h2 { font-size: 20px; font-weight: 700; padding: 0 24px 20px; }
+  .settings-sidebar .ss-section { font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.8px; padding: 16px 24px 6px; }
+  .settings-sidebar .ss-item { padding: 9px 24px; font-size: 14px; color: #444; cursor: pointer; border-left: 3px solid transparent; transition: all 0.12s; display: block; text-decoration: none; }
+  .settings-sidebar .ss-item:hover { background: #f8f8f8; color: #333; }
+  .settings-sidebar .ss-item.active { background: #f0faf7; border-left-color: #00b894; color: #00b894; font-weight: 600; }
+  .settings-content { flex: 1; padding: 32px 48px; background: #f5f5f5; overflow-y: auto; max-height: 100vh; }
+  .settings-card { background: #fff; border-radius: 12px; border: 1px solid #e0e0e0; padding: 28px 32px; margin-bottom: 24px; }
+  .settings-card h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .settings-card .sc-desc { font-size: 13px; color: #888; margin-bottom: 20px; }
+  .settings-field { margin-bottom: 18px; }
+  .settings-field label { display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 6px; }
+  .settings-field input[type="text"], .settings-field input[type="email"], .settings-field input[type="password"], .settings-field input[type="url"], .settings-field input[type="number"] { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.15s; }
+  .settings-field input:focus { border-color: #00b894; }
+  .settings-field select { width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none; background: #fff; }
+  .settings-row { display: flex; gap: 20px; }
+  .settings-row > .settings-field { flex: 1; }
+  .settings-btn { padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+  .settings-btn.primary { background: #00b894; color: #fff; }
+  .settings-btn.primary:hover { background: #00a382; }
+  .settings-btn.secondary { background: #f0f0f0; color: #333; border: 1px solid #ddd; }
+  .settings-btn.secondary:hover { background: #e0e0e0; }
+  .settings-btn.danger { background: #fff; color: #e74c3c; border: 1px solid #e74c3c; }
+  .settings-btn.danger:hover { background: #fef0f0; }
+  .settings-actions { display: flex; gap: 10px; margin-top: 4px; }
+  /* Profile pic */
+  .profile-pic-area { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+  .profile-pic-circle { width: 64px; height: 64px; border-radius: 50%; background: #e0e0e0; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 700; color: #888; position: relative; }
+  .profile-pic-circle .pic-edit { position: absolute; bottom: -2px; left: -2px; width: 24px; height: 24px; border-radius: 50%; background: #00b894; color: #fff; border: 2px solid #fff; display: flex; align-items: center; justify-content: center; font-size: 11px; cursor: pointer; }
+  .profile-pic-info { font-size: 13px; color: #888; }
+  /* Toggle switch */
+  .toggle-switch { position: relative; width: 44px; height: 24px; display: inline-block; }
+  .toggle-switch input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background: #ccc; border-radius: 24px; transition: 0.2s; }
+  .toggle-slider::before { content: ""; position: absolute; width: 18px; height: 18px; border-radius: 50%; background: #fff; top: 3px; left: 3px; transition: 0.2s; }
+  .toggle-switch input:checked + .toggle-slider { background: #00b894; }
+  .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+  .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f0f0f0; }
+  .toggle-row:last-child { border-bottom: none; }
+  .toggle-label { font-size: 14px; }
+  .toggle-desc { font-size: 12px; color: #888; }
+  /* Users table */
+  .users-table { width: 100%; border-collapse: collapse; }
+  .users-table th { text-align: left; padding: 10px 12px; font-size: 12px; font-weight: 600; color: #888; text-transform: uppercase; border-bottom: 2px solid #e0e0e0; }
+  .users-table td { padding: 12px; font-size: 14px; border-bottom: 1px solid #f0f0f0; }
+  .users-table tr:hover { background: #f8f8f8; }
+  .user-status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 6px; }
+  /* Audit log table */
+  .audit-row { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f0f0f0; }
+  .audit-icon { width: 32px; height: 32px; border-radius: 50%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; font-size: 14px; flex-shrink: 0; }
+  .audit-text { font-size: 14px; line-height: 1.5; }
+  .audit-time { font-size: 12px; color: #aaa; margin-top: 2px; }
+
+  /* Section divider in question list */
+  .section-divider { position: sticky; top: 0; background: #f5f5f5; z-index: 5; }
+
+  /* Toast */
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px); background: #1a1a2e; color: #fff; padding: 10px 24px; border-radius: 8px; font-size: 13px; z-index: 999; opacity: 0; transition: all 0.3s ease; pointer-events: none; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  [data-tooltip] { position: relative; }
+  [data-tooltip]:hover::after { content: attr(data-tooltip); position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 11px; white-space: nowrap; z-index: 300; margin-bottom: 6px; animation: slideDown 0.1s ease; }
+
+  /* ===== NEW PROJECT CREATION FLOW ===== */
+  .np-overlay { display:none; position:fixed; inset:0; background:#fff; z-index:500; flex-direction:column; }
+  .np-overlay.show { display:flex; }
+  .np-topbar { display:flex; align-items:center; justify-content:center; padding:12px 24px; border-bottom:1px solid #e0e0e0; position:relative; background:#fff; }
+  .np-topbar .np-close { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:32px; height:32px; border:1px solid #ddd; border-radius:6px; background:#fff; cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; color:#888; transition:all 0.15s; }
+  .np-topbar .np-close:hover { background:#f5f5f5; color:#333; }
+  .np-breadcrumb { display:flex; align-items:center; gap:12px; font-size:14px; }
+  .np-breadcrumb .np-bc-step { color:#888; cursor:default; font-weight:500; }
+  .np-breadcrumb .np-bc-step.active { color:#00897B; font-weight:600; }
+  .np-breadcrumb .np-bc-step.clickable { cursor:pointer; }
+  .np-breadcrumb .np-bc-step.clickable:hover { text-decoration:underline; }
+  .np-breadcrumb .np-bc-arrow { color:#bbb; font-size:12px; }
+  .np-body { flex:1; overflow-y:auto; display:flex; justify-content:center; }
+  .np-content { width:100%; max-width:640px; padding:40px 24px 60px; }
+
+  /* Upload area */
+  .np-upload-zone { border:2px dashed #ccc; border-radius:16px; background:#f8fafb; padding:60px 40px; text-align:center; cursor:pointer; transition:all 0.2s; margin-top:20px; }
+  .np-upload-zone:hover { border-color:#00897B; background:#f0f8f7; }
+  .np-upload-zone .np-upload-icon { width:56px; height:56px; border:2px solid #ccc; border-radius:12px; margin:0 auto 16px; display:flex; align-items:center; justify-content:center; font-size:24px; color:#aaa; }
+  .np-upload-zone p { font-size:14px; color:#888; }
+
+  /* Uploaded file chip */
+  .np-file-chip { display:inline-flex; align-items:center; gap:10px; padding:10px 16px; background:#f0f8f7; border:1px solid #d0e0dc; border-radius:10px; font-size:14px; color:#333; margin-bottom:20px; }
+  .np-file-chip .np-fc-icon { font-size:16px; color:#00897B; }
+  .np-file-chip .np-fc-remove { width:24px; height:24px; border:none; background:none; cursor:pointer; font-size:14px; color:#aaa; display:flex; align-items:center; justify-content:center; border-radius:4px; transition:all 0.15s; }
+  .np-file-chip .np-fc-remove:hover { background:#fde; color:#e74c3c; }
+
+  /* Form fields */
+  .np-form-group { margin-bottom:20px; }
+  .np-form-group label { display:block; font-size:13px; font-weight:500; color:#555; margin-bottom:6px; }
+  .np-form-group label .np-req { color:#e74c3c; }
+  .np-form-row { display:flex; gap:16px; }
+  .np-form-row .np-form-group { flex:1; }
+  .np-input { width:100%; padding:10px 14px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; transition:border-color 0.15s; background:#fff; }
+  .np-input:focus { border-color:#00897B; }
+  .np-select { width:100%; padding:10px 14px; border:1px solid #ddd; border-radius:8px; font-size:14px; outline:none; background:#fff; cursor:pointer; appearance:auto; }
+  .np-deal-input { position:relative; }
+  .np-deal-input .np-currency { position:absolute; right:14px; top:50%; transform:translateY(-50%); font-size:13px; color:#888; font-weight:500; }
+  .np-more-link { font-size:13px; color:#888; cursor:pointer; display:flex; align-items:center; gap:4px; }
+  .np-more-link:hover { color:#555; }
+
+  /* Genie toggle */
+  .np-genie-row { display:flex; align-items:center; gap:10px; padding:16px 0; margin:8px 0; }
+  .np-genie-row .np-genie-label { font-size:14px; color:#333; }
+  .np-genie-row .np-genie-label strong { font-weight:600; }
+  .np-genie-row .np-genie-sparkle { font-size:16px; }
+
+  /* Next button */
+  .np-next-btn { width:100%; padding:16px; background:#00897B; color:#fff; border:none; border-radius:10px; font-size:16px; font-weight:600; cursor:pointer; transition:background 0.15s; margin-top:24px; }
+  .np-next-btn:hover { background:#00796B; }
+
+  /* ===== SMART MAPPING SCREEN ===== */
+  .sm-body { flex:1; display:flex; overflow:hidden; }
+  .sm-spreadsheet { flex:1; overflow:auto; background:#fff; position:relative; }
+  .sm-table { border-collapse:collapse; width:100%; font-size:12px; }
+  .sm-table th { background:#f5f5f5; padding:6px 10px; border:1px solid #ddd; font-weight:600; color:#555; text-align:center; position:sticky; top:0; z-index:2; font-size:11px; min-width:60px; }
+  .sm-table th.col-a { min-width:100px; }
+  .sm-table th.col-b { min-width:100px; }
+  .sm-table th.col-c { min-width:480px; }
+  .sm-table th.col-d { min-width:100px; }
+  .sm-table td { padding:5px 8px; border:1px solid #e0e0e0; vertical-align:top; font-size:12px; line-height:1.4; color:#333; position:relative; cursor:pointer; transition:background 0.1s; }
+  .sm-table td:hover { background:#f0f8f7; }
+  .sm-table td.selected { background:#e0f2f1; outline:2px solid #00897B; outline-offset:-2px; z-index:1; }
+  .sm-table .sm-row-num { background:#f8f8f8; color:#999; font-size:11px; text-align:center; width:36px; cursor:default; font-weight:500; }
+  .sm-table .sm-row-num:hover { background:#f8f8f8; }
+  .sm-table td .sm-cell-tag { position:absolute; right:2px; top:2px; font-size:9px; font-weight:700; padding:1px 5px; border-radius:3px; letter-spacing:0.3px; pointer-events:none; }
+  .sm-tag-section { background:#FF7043; color:#fff; }
+  .sm-tag-question { background:#66BB6A; color:#fff; }
+  .sm-tag-answer { background:#42A5F5; color:#fff; }
+  .sm-tag-instruction { background:#78909C; color:#fff; }
+  .sm-tag-subsection { background:#FDD835; color:#333; }
+  .sm-tag-textinput { background:#4FC3F7; color:#fff; }
+  .sm-tag-dropdown { background:#AB47BC; color:#fff; }
+
+  /* Section markers on column A */
+  .sm-section-marker { display:inline-flex; align-items:center; justify-content:center; width:28px; height:20px; border-radius:4px; font-size:10px; font-weight:700; color:#fff; background:#FF7043; margin-right:4px; }
+
+  /* Sheet tabs */
+  .sm-sheet-tabs { display:flex; border-top:1px solid #ddd; background:#f5f5f5; }
+  .sm-sheet-tab { padding:8px 20px; font-size:13px; cursor:pointer; border-right:1px solid #ddd; color:#555; transition:all 0.15s; user-select:none; }
+  .sm-sheet-tab:hover { background:#e8e8e8; }
+  .sm-sheet-tab.active { background:#fff; font-weight:600; color:#333; border-bottom:2px solid #fff; margin-bottom:-1px; }
+
+  /* Mapping panel */
+  .sm-panel { width:320px; background:#fff; flex-shrink:0; display:flex; flex-direction:column; overflow-y:auto; padding:20px; border-right:1px solid #e0e0e0; }
+  .sm-panel h3 { font-size:18px; font-weight:700; margin-bottom:4px; display:flex; align-items:center; gap:8px; }
+  .sm-panel .sm-help { font-size:12px; color:#00897B; cursor:pointer; display:flex; align-items:center; gap:4px; }
+  .sm-panel .sm-desc { font-size:13px; color:#888; line-height:1.5; margin-bottom:16px; }
+  .sm-toggle-row { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+  .sm-toggle-row .sm-tl { font-size:13px; color:#333; }
+  .sm-genie-btn { display:inline-flex; align-items:center; gap:6px; padding:8px 16px; background:#e0f2f1; border:1px solid #b2dfdb; border-radius:8px; font-size:13px; color:#00796B; cursor:pointer; font-weight:600; transition:all 0.15s; margin-bottom:12px; }
+  .sm-genie-btn:hover { background:#b2dfdb; }
+  .sm-genie-btn .sm-beta { font-size:9px; background:#00897B; color:#fff; padding:1px 5px; border-radius:3px; font-weight:700; letter-spacing:0.5px; }
+  .sm-mapped-count { font-size:14px; color:#333; font-weight:600; margin-bottom:12px; }
+  .sm-tools-row { display:flex; align-items:center; gap:6px; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid #eee; }
+  .sm-tool-btn { width:30px; height:30px; border:1px solid #ddd; border-radius:6px; background:#fff; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:13px; color:#888; transition:all 0.15s; }
+  .sm-tool-btn:hover { border-color:#00897B; color:#00897B; }
+  .sm-unmap-select { padding:4px 10px; border:1px solid #ddd; border-radius:6px; font-size:12px; background:#fff; cursor:pointer; }
+
+  /* Mapping categories */
+  .sm-cat { margin-bottom:12px; }
+  .sm-cat-header { display:flex; align-items:center; gap:10px; padding:10px 12px; background:#f8f8f8; border-radius:8px; cursor:pointer; transition:background 0.15s; user-select:none; }
+  .sm-cat-header:hover { background:#f0f0f0; }
+  .sm-cat-icon { width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#fff; flex-shrink:0; }
+  .sm-cat-icon.sm-ci-section { background:#FF7043; }
+  .sm-cat-icon.sm-ci-subsection { background:#FDD835; color:#333; }
+  .sm-cat-icon.sm-ci-qa { background:#66BB6A; }
+  .sm-cat-icon.sm-ci-a { background:#42A5F5; }
+  .sm-cat-name { flex:1; font-size:14px; font-weight:600; }
+  .sm-cat-count { font-size:14px; font-weight:700; color:#FF7043; }
+  .sm-cat-count.green { color:#66BB6A; }
+  .sm-cat-arrow { font-size:12px; color:#aaa; transition:transform 0.2s; }
+  .sm-cat-arrow.open { transform:rotate(90deg); }
+  .sm-cat-body { padding:8px 12px; display:none; }
+  .sm-cat-body.show { display:block; }
+  .sm-cat-body .sm-cat-search { width:100%; padding:6px 10px; border:1px solid #ddd; border-radius:6px; font-size:12px; outline:none; margin-bottom:8px; }
+  .sm-cat-body .sm-cat-item { padding:6px 0; font-size:13px; color:#333; border-bottom:1px solid #f0f0f0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+  /* Finish mapping button */
+  .sm-finish-btn { width:100%; padding:14px; background:#00897B; color:#fff; border:none; border-radius:10px; font-size:15px; font-weight:600; cursor:pointer; transition:background 0.15s; margin-top:auto; }
+  .sm-finish-btn:hover { background:#00796B; }
+  .sm-warning { text-align:center; margin-top:10px; font-size:12px; color:#e74c3c; line-height:1.5; }
+  .sm-warning a { color:#00897B; cursor:pointer; font-weight:600; text-decoration:none; }
+  .sm-warning a:hover { text-decoration:underline; }
+
+  /* Cell type context menu */
+  .sm-ctx-menu { display:none; position:fixed; background:#fff; border:1px solid #e0e0e0; border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.15); padding:8px 0; z-index:600; min-width:180px; }
+  .sm-ctx-menu.show { display:block; animation:slideDown 0.12s ease; }
+  .sm-ctx-item { padding:10px 16px; font-size:14px; cursor:pointer; display:flex; align-items:center; gap:10px; transition:background 0.1s; }
+  .sm-ctx-item:hover { background:#f5f5f5; }
+  .sm-ctx-dot { width:14px; height:14px; border-radius:50%; flex-shrink:0; }
+
+  /* Tree arrows */
+  .sm-tree-arrow { font-size:12px; color:#aaa; transition:transform 0.2s; display:inline-block; width:12px; text-align:center; flex-shrink:0; }
+  .sm-tree-arrow.open { transform:rotate(90deg); }
+  .sm-tree-node:hover { background:#f8f8f8; border-radius:4px; }
+  .sm-tree-leaf:hover { background:#f0f8f7; border-radius:4px; }
+</style>
+</head>
+<body>
+
+<div class="toast" id="toast"></div>
+
+<!-- ===================== NEW PROJECT OVERLAY ===================== -->
+<div class="np-overlay" id="np-overlay">
+  <div class="np-topbar">
+    <div class="np-breadcrumb" id="np-breadcrumb">
+      <span class="np-bc-step active clickable" data-npstep="details" onclick="goToNpStep('details')">Project details</span>
+      <span class="np-bc-arrow">→</span>
+      <span class="np-bc-step" data-npstep="mapping">Smart Mapping</span>
+    </div>
+    <button class="np-close" onclick="closeNewProject()">✕</button>
+  </div>
+
+  <!-- Step 1: Upload / Step 2: Details (combined view) -->
+  <div class="np-body" id="np-step-details" style="display:flex;">
+    <div class="np-content" id="np-details-content">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+
+  <!-- Step 3: Smart Mapping -->
+  <div class="sm-body" id="np-step-mapping" style="display:none;">
+    <!-- Mapping panel (LEFT) -->
+    <div class="sm-panel" id="sm-panel">
+      <!-- Rendered by JS -->
+    </div>
+    <!-- Spreadsheet area (RIGHT) -->
+    <div class="sm-spreadsheet" id="sm-spreadsheet-wrap">
+      <table class="sm-table" id="sm-table">
+        <!-- Rendered by JS -->
+      </table>
+      <div class="sm-sheet-tabs" id="sm-sheet-tabs">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cell type context menu -->
+<div class="sm-ctx-menu" id="sm-ctx-menu">
+  <div class="sm-ctx-item" onclick="mapCellAs('instruction')"><div class="sm-ctx-dot" style="background:#78909C;"></div> Instruction</div>
+  <div class="sm-ctx-item" onclick="mapCellAs('section')"><div class="sm-ctx-dot" style="background:#FF7043;"></div> Section</div>
+  <div class="sm-ctx-item" onclick="mapCellAs('subsection')"><div class="sm-ctx-dot" style="background:#FDD835;"></div> SubSection</div>
+  <div class="sm-ctx-item" onclick="mapCellAs('question')"><div class="sm-ctx-dot" style="background:#66BB6A;"></div> Question</div>
+  <div class="sm-ctx-item" onclick="mapCellAs('textinput')"><div class="sm-ctx-dot" style="background:#4FC3F7;"></div> Text Input</div>
+  <div class="sm-ctx-item" onclick="mapCellAs('dropdown')"><div class="sm-ctx-dot" style="background:#AB47BC;"></div> Dropdown</div>
+</div>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="sidebar-logo" data-tooltip="SparrowGenie">S</div>
+  <div class="sidebar-icon" data-tooltip="Home">⌂</div>
+  <div class="sidebar-icon" data-tooltip="Messages">✉</div>
+  <div class="sidebar-icon active" data-tooltip="Projects" onclick="showListingFromSettings()">☰</div>
+  <div class="sidebar-icon" data-tooltip="Proposals" onclick="showToast('Proposals view coming soon')">📄</div>
+  <div class="sidebar-icon" data-tooltip="Tasks">📋</div>
+  <div class="sidebar-icon" data-tooltip="Files">📁</div>
+  <div class="sidebar-icon" style="margin-top:auto;" data-tooltip="Settings" onclick="showSettings()">⚙</div>
+</div>
+
+<div class="main">
+
+  <!-- ===================== LISTING SCREEN ===================== -->
+  <div id="listing-screen">
+    <div class="listing-header">
+      <h1>Your Projects</h1>
+      <div class="listing-tabs" id="listing-tabs">
+        <div class="listing-tab active" data-tab="all">All</div>
+        <div class="listing-tab" data-tab="owned">Owned (25)</div>
+        <div class="listing-tab" data-tab="participating">Participating (6)</div>
+      </div>
+    </div>
+    <div class="listing-toolbar">
+      <button class="filter-toggle-btn" id="filter-toggle" data-tooltip="Toggle filters">▼</button>
+      <div class="right-actions">
+        <input class="search-box" type="text" placeholder="🔍 Search Projects" id="search-input">
+        <div class="view-toggle" id="view-toggle">
+          <div class="view-btn active" data-view="list" data-tooltip="List view">≡</div>
+          <div class="view-btn" data-view="grid" data-tooltip="Grid view">⊞</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar" id="filter-bar">
+      <span style="font-size:12px; color:#888; font-weight:600;">FILTERS:</span>
+      <div class="filter-chip" onclick="toggleFilterDropdown('stage-dropdown')">
+        Deal Stage ▾
+        <div class="filter-dropdown" id="stage-dropdown">
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Lead</div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Discovery</div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Qualification</div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Closed Won</div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Closed Lost</div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)"><div class="fd-check"></div> Hold</div>
+        </div>
+      </div>
+      <div class="filter-chip" onclick="toggleFilterDropdown('contains-dropdown')">
+        Contains
+         ▾
+        <div class="filter-dropdown" id="contains-dropdown">
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)" data-contains="questionnaire"><div class="fd-check"></div> <span class="tag tag-rfp" style="font-size:11px;">📋 Questionnaire</span></div>
+          <div class="filter-dropdown-item" onclick="toggleFilterCheck(this, event)" data-contains="proposal"><div class="fd-check"></div> <span class="tag tag-proposal" style="font-size:11px;">📝 Proposal</span></div>
+        </div>
+      </div>
+      <div class="filter-chip" onclick="clearAllFilters()">✕ Clear all</div>
+    </div>
+
+    <!-- Quick-filter pills for Assets -->
+    <div class="quick-filters" id="quick-filters">
+      <div class="qf-pill active" data-qf="all" onclick="setQuickFilter('all')">All <span class="qf-count" id="qf-count-all">11</span></div>
+      <div class="qf-pill" data-qf="rfp" onclick="setQuickFilter('rfp')"><span style="font-size:11px;">📋</span> Questionnaire <span class="qf-count" id="qf-count-rfp">0</span></div>
+      <div class="qf-pill" data-qf="proposal" onclick="setQuickFilter('proposal')"><span style="font-size:11px;">📝</span> Proposal <span class="qf-count" id="qf-count-proposal">0</span></div>
+      <div class="qf-pill" data-qf="both" onclick="setQuickFilter('both')"><span style="font-size:11px;">📋📝</span> Both <span class="qf-count" id="qf-count-both">0</span></div>
+    </div>
+
+    <!-- Bulk actions bar -->
+    <div class="bulk-bar" id="bulk-bar">
+      <span class="bulk-count" id="bulk-count">0 selected</span>
+      <button onclick="showToast('Exported selected projects')">Export</button>
+      <button onclick="showToast('Assigned selected projects')">Assign</button>
+      <button style="color:#ff7675;" onclick="showToast('Deleted selected projects')">Delete</button>
+      <button class="bulk-close" onclick="deselectAll()">✕</button>
+    </div>
+
+    <div style="overflow-x:auto;">
+    <table class="project-table">
+      <thead>
+        <tr>
+          <th style="width:40px;"><div class="cb-header" id="select-all" onclick="toggleSelectAll()"></div></th>
+          <th onclick="sortTable('name')">Project Name <span class="sort">⇅</span></th>
+          <th onclick="sortTable('prospect')">Prospect Name <span class="sort">⇅</span></th>
+          <th>Contains</th>
+          <th onclick="sortTable('rfx')">RFx Type <span class="sort">⇅</span></th>
+          <th onclick="sortTable('progress')">Progress <span class="sort">⇅</span></th>
+          <th onclick="sortTable('stage')">Deal Stage <span class="sort">⇅</span></th>
+          <th onclick="sortTable('value')">Deal Value <span class="sort">⇅</span></th>
+          <th onclick="sortTable('projectStatus')">Status <span class="sort">⇅</span></th>
+          <th onclick="sortTable('dueDate')">Due Date <span class="sort">⇅</span></th>
+          <th onclick="sortTable('createdBy')">Created By <span class="sort">⇅</span></th>
+          <th onclick="sortTable('createdDate')">Created <span class="sort">⇅</span></th>
+          <th onclick="sortTable('lastUpdated')">Last Updated <span class="sort">⇅</span></th>
+          <th style="width:40px;"></th>
+        </tr>
+      </thead>
+      <tbody id="project-list"></tbody>
+    </table>
+    </div>
+
+    <button class="add-btn" title="Add Project" onclick="openNewProject()">+</button>
+  </div>
+
+  <!-- ===================== DETAIL SCREEN ===================== -->
+  <div id="detail-screen">
+    <div class="detail-topbar">
+      <div class="detail-topbar-left">
+        <button class="back-btn" onclick="showListing()">←</button>
+        <div class="project-icon">📋</div>
+        <h2 id="detail-title">Pitney Bowes – RFI (1)</h2>
+        <div class="detail-tags" id="detail-tags"></div>
+      </div>
+      <div class="detail-topbar-right">
+        <div class="role-switcher" data-tooltip="Simulate role (dev only)">
+          🔧 View as:
+          <select id="role-switcher" onchange="switchCurrentRole(this.value)">
+            <option value="owner">Owner</option>
+            <option value="editor">Editor</option>
+            <option value="participant">Participant</option>
+            <option value="viewer">Viewer</option>
+          </select>
+        </div>
+        <div class="topbar-avatars" id="topbar-avatars">
+          <!-- Rendered by JS -->
+        </div>
+        <button class="share-btn" id="share-btn" onclick="openShareModal()">🔗 Share</button>
+        <div class="status-dropdown" id="status-dropdown" onclick="toggleStatusMenu()">
+          <span id="status-text">◉ Completed</span> ▾
+          <div class="status-menu" id="status-menu">
+            <div class="status-menu-item" onclick="setStatus('Completed','#00b894',event)"><span class="sm-dot" style="background:#00b894;"></span> Completed</div>
+            <div class="status-menu-item" onclick="setStatus('In Progress','#f0a830',event)"><span class="sm-dot" style="background:#f0a830;"></span> In Progress</div>
+            <div class="status-menu-item" onclick="setStatus('On Hold','#e74c3c',event)"><span class="sm-dot" style="background:#e74c3c;"></span> On Hold</div>
+            <div class="status-menu-item" onclick="setStatus('Draft','#888',event)"><span class="sm-dot" style="background:#888;"></span> Draft</div>
+          </div>
+        </div>
+        <button class="download-btn" onclick="showToast('Downloading project...')">⬇ Download</button>
+      </div>
+    </div>
+
+    <!-- Detail tabs — dynamically rendered -->
+    <div class="detail-tabs" id="detail-tabs"></div>
+
+    <!-- Detail body -->
+    <div class="detail-body">
+      <!-- Left panel -->
+      <div class="detail-left-panel" id="left-panel">
+        <div class="panel-section-tabs" id="panel-tabs">
+          <div class="panel-section-tab active" data-ptab="questions">Questions</div>
+          <div class="panel-section-tab" data-ptab="participants">Participants</div>
+        </div>
+        <div class="filter-row">
+          <div class="collapse-btn" id="collapse-panel-btn" onclick="toggleLeftPanel()">‹</div>
+          <span>~</span>
+        </div>
+
+        <div id="panel-questions-content">
+          <!-- Status filters -->
+          <div id="status-filters">
+            <div class="left-nav-item active" data-status="all" onclick="setStatusFilter('all')"><span class="nav-icon" style="color:#00b894;">◉</span> All <span class="count" id="sc-all"></span></div>
+            <div class="left-nav-item" data-status="unassigned" onclick="setStatusFilter('unassigned')"><span class="nav-icon">👤</span> Unassigned <span class="count" id="sc-unassigned"></span></div>
+            <div class="left-nav-item" data-status="unanswered" onclick="setStatusFilter('unanswered')"><span class="nav-icon">○</span> Unanswered <span class="count" id="sc-unanswered"></span></div>
+            <div class="left-nav-item" data-status="draft" onclick="setStatusFilter('draft')"><span class="nav-icon" style="color:#f0a830;">◐</span> Draft <span class="count" id="sc-draft"></span></div>
+            <div class="left-nav-item" data-status="pending_review" onclick="setStatusFilter('pending_review')"><span class="nav-icon" style="color:#6c5ce7;">◷</span> Pending Review <span class="count" id="sc-pending_review"></span></div>
+            <div class="left-nav-item" data-status="reviewed" onclick="setStatusFilter('reviewed')"><span class="nav-icon" style="color:#00b894;">✓</span> Reviewed <span class="count" id="sc-reviewed"></span></div>
+          </div>
+
+          <!-- File tree — rendered by JS: Document > Sheet > Section -->
+          <div style="border-top:1px solid #eee; margin-top:8px; padding-top:8px;">
+            <div id="file-tree-root">
+              <!-- Rendered by renderFileTree() -->
+            </div>
+          </div>
+        </div>
+
+        <div id="panel-participants-content" style="display:none; padding:16px;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+            <input type="text" placeholder="Search participants..." style="flex:1; padding:6px 10px; border:1px solid #ccc; border-radius:6px; font-size:12px; outline:none;">
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #eee;">
+            <div style="width:28px;height:28px;border-radius:50%;background:#6c5ce7;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">C</div>
+            <div><div style="font-size:13px;font-weight:600;">Chris M.</div><div style="font-size:11px;color:#888;">Owner</div></div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #eee;">
+            <div style="width:28px;height:28px;border-radius:50%;background:#e17055;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">J</div>
+            <div><div style="font-size:13px;font-weight:600;">Jane D.</div><div style="font-size:11px;color:#888;">Contributor</div></div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #eee;">
+            <div style="width:28px;height:28px;border-radius:50%;background:#00b894;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;">K</div>
+            <div><div style="font-size:13px;font-weight:600;">Kim L.</div><div style="font-size:11px;color:#888;">Reviewer</div></div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; padding:8px 0;">
+            <div style="width:28px;height:28px;border-radius:50%;background:#ddd;display:flex;align-items:center;justify-content:center;color:#555;font-size:11px;font-weight:700;">M</div>
+            <div><div style="font-size:13px;font-weight:600;">Mike R.</div><div style="font-size:11px;color:#888;">Contributor</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right content -->
+      <div class="detail-content" id="detail-right-content">
+        <!-- Populated by JS depending on active tab -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SETTINGS SCREEN ===================== -->
+  <div id="settings-screen">
+    <div class="settings-layout">
+      <div class="settings-sidebar">
+        <h2>Settings</h2>
+        <div class="ss-section">Your Preference</div>
+        <div class="ss-item active" data-stab="personal" onclick="switchSettingsTab('personal', this)">Personal</div>
+        <div class="ss-section">Account Management</div>
+        <div class="ss-item" data-stab="users" onclick="switchSettingsTab('users', this)">Users & Teams</div>
+        <div class="ss-item" data-stab="sso" onclick="switchSettingsTab('sso', this)">Single Sign On</div>
+        <div class="ss-item" data-stab="password" onclick="switchSettingsTab('password', this)">Password Policy</div>
+        <div class="ss-item" data-stab="domain" onclick="switchSettingsTab('domain', this)">Custom Domain</div>
+        <div class="ss-section">Modules</div>
+        <div class="ss-item" data-stab="projects" onclick="switchSettingsTab('projects', this)">Projects</div>
+        <div class="ss-item" data-stab="brandkit" onclick="switchSettingsTab('brandkit', this)">Brand Kit</div>
+        <div class="ss-section">Logs</div>
+        <div class="ss-item" data-stab="audit" onclick="switchSettingsTab('audit', this)">Audit Logs</div>
+      </div>
+      <div class="settings-content" id="settings-content">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===================== SHARE MODAL ===================== -->
+<div class="modal-overlay" id="share-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3>Share Project</h3>
+      <button class="modal-close" onclick="closeShareModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="share-search-row">
+        <input class="share-search-input" type="text" placeholder="Invite participants by name or email" id="share-search">
+        <select id="share-invite-role" class="collab-role-select" style="width:auto;">
+          <option value="editor">Editor</option>
+          <option value="participant">Participant</option>
+          <option value="viewer" selected>Viewer</option>
+        </select>
+      </div>
+      <div id="share-collab-list">
+        <!-- Rendered by JS -->
+      </div>
+      <div class="share-section-label">Authors and Reviewers</div>
+      <div style="font-size:13px; color:#888; padding:8px 0;">Who is responsible for individual responses?</div>
+      <button class="share-btn" style="width:100%; justify-content:center; margin-top:4px;" onclick="showToast('Opening assignment panel...')">Assign</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== CONFIRM DIALOG (auto-promotion, removal block) ===================== -->
+<div class="modal-overlay" id="confirm-modal">
+  <div class="confirm-dialog" id="confirm-dialog-content">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<script>
+  // ==================== DATA ====================
+  const projects = [
+    { name: "Pitney Bowes – RFI (1)", prospect: "Pitney Bowes", color: "#6c5ce7", rfx: "RFI", hasProposal: true, progress: 14, stage: "Lead", stageColor: "#e74c3c", value: 123000, projectStatus: "In Progress", dueDate: "2026-04-15", createdBy: "Chris M.", createdDate: "2026-02-10", lastUpdated: "2026-04-01" },
+    { name: "test", prospect: "Microsoft", color: "#00a8ff", rfx: "RFP", hasProposal: false, progress: 0, stage: "Closed Lost", stageColor: "#e74c3c", value: 488000, projectStatus: "Cancelled", dueDate: "2026-03-01", createdBy: "Jane D.", createdDate: "2026-01-05", lastUpdated: "2026-03-02" },
+    { name: "request-for-proposal-template-01", prospect: "kumparan", color: "#636e72", rfx: "RFP", hasProposal: false, progress: 100, stage: "Closed Won", stageColor: "#00b894", value: 8500, projectStatus: "Completed", dueDate: "2026-01-20", createdBy: "Chris M.", createdDate: "2025-11-15", lastUpdated: "2026-01-20" },
+    { name: "_RFP-final (1)", prospect: "sf", color: "#0984e3", rfx: "RFI", hasProposal: true, progress: 72, stage: "Closed Won", stageColor: "#00b894", value: 2400, projectStatus: "Completed", dueDate: "2026-02-28", createdBy: "Kim L.", createdDate: "2025-12-01", lastUpdated: "2026-02-28" },
+    { name: "j", prospect: "Stripe", color: "#6c5ce7", rfx: "RFP", hasProposal: true, progress: 45, stage: "Discovery", stageColor: "#6c5ce7", value: 23000, projectStatus: "In Progress", dueDate: "2026-05-10", createdBy: "Jane D.", createdDate: "2026-03-01", lastUpdated: "2026-03-30" },
+    { name: "_RFP-final (1)", prospect: "Genie", color: "#0984e3", rfx: "SQ", hasProposal: false, progress: 30, stage: "Qualification", stageColor: "#f0a830", value: 232000, projectStatus: "In Progress", dueDate: "2026-04-30", createdBy: "Mike R.", createdDate: "2026-02-20", lastUpdated: "2026-03-28" },
+    { name: "request-for-proposal-template-01", prospect: "Microsoft", color: "#00a8ff", rfx: "RFP", hasProposal: false, progress: 0, stage: "Closed Lost", stageColor: "#e74c3c", value: 9000, projectStatus: "Cancelled", dueDate: "2026-02-15", createdBy: "Chris M.", createdDate: "2025-12-10", lastUpdated: "2026-02-16" },
+    { name: "6", prospect: "BHP", color: "#d63031", rfx: "RFP", hasProposal: true, progress: 60, stage: "Discovery", stageColor: "#6c5ce7", value: 234000, projectStatus: "In Progress", dueDate: "2026-05-20", createdBy: "Jane D.", createdDate: "2026-03-05", lastUpdated: "2026-04-01" },
+    { name: "newww-1", prospect: "Kompas", color: "#6c5ce7", rfx: "RFI", hasProposal: true, progress: 8, stage: "Lead", stageColor: "#e74c3c", value: 900909, projectStatus: "Draft", dueDate: "2026-06-01", createdBy: "Kim L.", createdDate: "2026-03-20", lastUpdated: "2026-03-25" },
+    { name: "Google CX", prospect: "Google", color: "#34a853", rfx: "RFP", hasProposal: false, progress: 0, stage: "Lead", stageColor: "#e74c3c", value: 45000, projectStatus: "Draft", dueDate: "2026-05-15", createdBy: "Mike R.", createdDate: "2026-03-28", lastUpdated: "2026-03-29" },
+    { name: "request-for-proposal-template-03", prospect: "Facebook", color: "#0984e3", rfx: "RFP", hasProposal: true, progress: 88, stage: "Hold", stageColor: "#e74c3c", value: 54000, projectStatus: "On Hold", dueDate: "2026-04-05", createdBy: "Chris M.", createdDate: "2026-01-12", lastUpdated: "2026-03-15" },
+  ];
+
+  // File tree: Document > Sheet > Sections
+  const fileTree = {
+    document: "Pitney Bowes – RFI (1).xlsx",
+    sheets: [
+      {
+        id: "sheet1",
+        name: "Sheet 1",
+        sections: [
+          { id: "11.0", name: "11.0 Survey Formatting and Layout" },
+          { id: "12.0", name: "12.0 Survey Appearance" },
+          { id: "13.0", name: "13.0 Analysis" },
+          { id: "14.0", name: "14.0 Reporting" },
+          { id: "15.0", name: "15.0 Usability" },
+          { id: "16.0", name: "16.0 Integrations" },
+          { id: "17.0", name: "17.0 Collaboration" },
+          { id: "18.0", name: "18.0 Security" },
+          { id: "19.0", name: "19.0 Text Analytics" },
+          { id: "20.0", name: "20.0 Web Integration" },
+          { id: "21.0", name: "21.0 Administration" },
+          { id: "22.0", name: "22.0 Cost" },
+        ]
+      }
+    ]
+  };
+
+  // Flat sections helper (for lookups)
+  const allSections = fileTree.sheets.flatMap(sh => sh.sections);
+
+  // Questions — expanded with varied statuses and sections
+  const questions = [
+    { id: "1.1.0.1",  sectionId: "11.0", text: "What question types are available? Can we add images to answers or questions? Can we colour code specific answers?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.1.0.2",  sectionId: "11.0", text: "How easy is it to apply logic to surveys? Can we use one-click and add conditions or are there a sequence or procedures to follow?", status: "draft", assignee: "Chris M.", answer: "Applying logic is straightforward. You can build smart surveys with logic branches using conditional branching such as skip logic and display logic to ensure respondents only see relevant questions. For response-based automations, you configure Workflows after adding questions.", confidence: "High confidence (6 sources)" },
+    { id: "1.1.0.3",  sectionId: "11.0", text: "Can we capture embedded or background variables? Can we put questions into blocks to be able to move blocks up and down?", status: "unanswered", assignee: "Jane D.", answer: null },
+    { id: "1.1.0.4",  sectionId: "11.0", text: "Does the platform support multi-language surveys? How many languages are available out of the box?", status: "pending_review", assignee: "Chris M.", answer: "Yes, the platform supports 86 languages out of the box with RTL support for Arabic and Hebrew.", confidence: "High confidence (4 sources)" },
+    { id: "1.1.0.5",  sectionId: "11.0", text: "Can we customise the look and feel of surveys with our brand colours, logos and fonts?", status: "reviewed", assignee: "Kim L.", answer: "Full white-labelling is supported including custom CSS, brand colours, logos, fonts, and custom URL domains.", confidence: "High confidence (5 sources)" },
+    { id: "1.1.0.6",  sectionId: "11.0", text: "Is there a library of pre-built survey templates we can start from?", status: "draft", assignee: "Chris M.", answer: "Yes, the template library includes 250+ templates across CX, employee engagement, market research, and event feedback.", confidence: "Medium confidence (3 sources)" },
+    { id: "1.1.0.7",  sectionId: "11.0", text: "Can surveys be embedded directly into emails or shown as pop-ups on websites?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.2.0.1",  sectionId: "12.0", text: "What survey themes and visual customisation options are available?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.2.0.2",  sectionId: "12.0", text: "Can we preview surveys on different devices before publishing?", status: "draft", assignee: "Jane D.", answer: "Yes, the live preview mode supports desktop, tablet, and mobile views with pixel-accurate rendering.", confidence: "Medium confidence (2 sources)" },
+    { id: "1.2.0.3",  sectionId: "12.0", text: "Does the platform support accessibility standards (WCAG 2.1)?", status: "pending_review", assignee: "Mike R.", answer: "WCAG 2.1 AA compliance is supported with keyboard navigation, screen reader tags, and high contrast modes.", confidence: "High confidence (4 sources)" },
+    { id: "1.3.0.1",  sectionId: "13.0", text: "What statistical analysis tools are built into the platform?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.3.0.2",  sectionId: "13.0", text: "Can we run cross-tabulation and significance testing?", status: "reviewed", assignee: "Kim L.", answer: "Cross-tabulation with Chi-Square significance testing is available in the analysis module with export to SPSS.", confidence: "High confidence (5 sources)" },
+    { id: "1.3.0.3",  sectionId: "13.0", text: "Is there AI-powered text and sentiment analysis for open-ended responses?", status: "draft", assignee: "Chris M.", answer: "Built-in NLP engine categorises open-text responses and provides sentiment scoring on a 5-point scale.", confidence: "Medium confidence (3 sources)" },
+    { id: "1.4.0.1",  sectionId: "14.0", text: "What reporting and analytics dashboards are included? Can we create custom reports?", status: "draft", assignee: "Jane D.", answer: "Pre-built dashboards for NPS, CSAT, and CES. Custom report builder with drag-and-drop fields. Scheduled delivery via email.", confidence: "Medium confidence (3 sources)" },
+    { id: "1.4.0.2",  sectionId: "14.0", text: "Can reports be scheduled and automatically emailed to stakeholders?", status: "reviewed", assignee: "Kim L.", answer: "Yes, reports can be scheduled daily, weekly, or monthly with automated PDF or Excel delivery.", confidence: "High confidence (4 sources)" },
+    { id: "1.4.0.3",  sectionId: "14.0", text: "What export formats are supported for data and reports?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.5.0.1",  sectionId: "15.0", text: "How intuitive is the survey builder for non-technical users?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.5.0.2",  sectionId: "15.0", text: "Is there a mobile app for survey creation and response viewing?", status: "pending_review", assignee: "Mike R.", answer: "Native iOS and Android apps are available for viewing results. Survey creation is web-only but fully responsive.", confidence: "Medium confidence (2 sources)" },
+    { id: "1.6.0.1",  sectionId: "16.0", text: "Can we integrate with Salesforce and HubSpot natively?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.6.0.2",  sectionId: "16.0", text: "Is there an open API for custom integrations?", status: "draft", assignee: "Chris M.", answer: "RESTful API with OAuth 2.0 authentication. SDKs available for Python, Node.js, and Java.", confidence: "High confidence (5 sources)" },
+    { id: "1.6.0.3",  sectionId: "16.0", text: "Does the platform support webhooks for real-time event notifications?", status: "unanswered", assignee: "Jane D.", answer: null },
+    { id: "1.7.0.1",  sectionId: "17.0", text: "Can multiple team members collaborate on the same survey simultaneously?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.7.0.2",  sectionId: "17.0", text: "Is there role-based access control for different user types?", status: "reviewed", assignee: "Kim L.", answer: "RBAC with predefined roles (Admin, Editor, Viewer, Analyst) plus custom role creation.", confidence: "High confidence (6 sources)" },
+    { id: "1.8.0.1",  sectionId: "18.0", text: "How does the platform handle data privacy and GDPR compliance?", status: "pending_review", assignee: "Mike R.", answer: "GDPR compliant with DPA, data residency in EU/US/APAC, automatic PII redaction, and consent management.", confidence: "High confidence (6 sources)" },
+    { id: "1.8.0.2",  sectionId: "18.0", text: "What data encryption standards are used at rest and in transit?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.8.0.3",  sectionId: "18.0", text: "Is the platform SOC 2 Type II certified?", status: "reviewed", assignee: "Kim L.", answer: "SOC 2 Type II certified with annual audits. ISO 27001 also held.", confidence: "High confidence (5 sources)" },
+    { id: "1.9.0.1",  sectionId: "19.0", text: "What text analytics capabilities are available for open-ended responses?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.9.0.2",  sectionId: "19.0", text: "Can we create custom categories and taxonomies for text classification?", status: "draft", assignee: "Chris M.", answer: "Custom taxonomies can be created and trained on your data for domain-specific classification.", confidence: "Medium confidence (2 sources)" },
+    { id: "1.10.0.1", sectionId: "20.0", text: "Can surveys be embedded on our website as inline widgets?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.10.0.2", sectionId: "20.0", text: "Is there a JavaScript SDK for triggering surveys based on user behaviour?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.11.0.1", sectionId: "21.0", text: "What admin tools are available for managing users and permissions?", status: "draft", assignee: "Jane D.", answer: "Admin console with user provisioning, SSO setup, usage analytics, and audit trails.", confidence: "Medium confidence (3 sources)" },
+    { id: "1.11.0.2", sectionId: "21.0", text: "Does the platform support SSO via SAML or OIDC?", status: "reviewed", assignee: "Kim L.", answer: "SAML 2.0 and OpenID Connect supported with all major IdPs (Okta, Azure AD, OneLogin).", confidence: "High confidence (5 sources)" },
+    { id: "1.12.0.1", sectionId: "22.0", text: "What is the pricing model — per user, per response, or per survey?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.12.0.2", sectionId: "22.0", text: "Are there volume discounts for enterprise-level response counts?", status: "unanswered", assignee: null, answer: null },
+    { id: "1.12.0.3", sectionId: "22.0", text: "What is included in the standard support plan vs premium support?", status: "unanswered", assignee: null, answer: null },
+  ];
+
+  // ==================== COLLABORATION DATA ====================
+  const collaborators = [
+    { id: "chris", name: "Chris M.", email: "chris@sparrowgenie.com", avatar: "C", color: "#6c5ce7", role: "owner", assignedQuestions: ["1.1.0.2","1.1.0.4","1.1.0.6","1.3.0.3","1.6.0.2","1.9.0.2"], assignedSections: [] },
+    { id: "jane", name: "Jane D.", email: "jane@sparrowgenie.com", avatar: "J", color: "#e17055", role: "editor", assignedQuestions: ["1.1.0.3","1.2.0.2","1.4.0.1","1.11.0.1"], assignedSections: ["pricing"] },
+    { id: "kim", name: "Kim L.", email: "kim@sparrowgenie.com", avatar: "K", color: "#00b894", role: "participant", assignedQuestions: ["1.1.0.5","1.3.0.2","1.4.0.2","1.7.0.2","1.8.0.3","1.11.0.2"], assignedSections: ["executive_summary"] },
+    { id: "mike", name: "Mike R.", email: "mike@sparrowgenie.com", avatar: "M", color: "#ddd", textColor: "#555", role: "participant", assignedQuestions: ["1.2.0.3","1.5.0.2","1.8.0.1"], assignedSections: [] },
+    { id: "sarah", name: "Sarah T.", email: "sarah@sparrowgenie.com", avatar: "S", color: "#fd79a8", role: "viewer", assignedQuestions: [], assignedSections: [] },
+  ];
+
+  let currentUserRole = "owner"; // Simulated via role-switcher
+
+  function switchCurrentRole(role) {
+    currentUserRole = role;
+    renderDetailContent();
+    renderTopbarAvatars();
+    renderParticipantsPanel();
+    // Gate topbar controls
+    const shareBtn = document.getElementById("share-btn");
+    const statusDd = document.getElementById("status-dropdown");
+    if (role === "viewer" || role === "participant") {
+      shareBtn.style.display = "none";
+      statusDd.style.opacity = "0.4";
+      statusDd.style.pointerEvents = "none";
+    } else {
+      shareBtn.style.display = "";
+      statusDd.style.opacity = "";
+      statusDd.style.pointerEvents = "";
+    }
+  }
+
+  function getAssignmentCounts(collab) {
+    return { questions: collab.assignedQuestions.length, sections: collab.assignedSections.length };
+  }
+
+  function isAssignedToQuestion(questionId) {
+    // Check if the "current user" (simulated) is assigned to this question
+    const currentCollab = collaborators.find(c => {
+      if (currentUserRole === "owner") return c.role === "owner";
+      if (currentUserRole === "editor") return c.role === "editor";
+      if (currentUserRole === "participant") return c.id === "kim"; // simulate as Kim
+      if (currentUserRole === "viewer") return c.id === "sarah";
+      return false;
+    });
+    return currentCollab ? currentCollab.assignedQuestions.includes(questionId) : false;
+  }
+
+  function canEditQuestion(questionId) {
+    if (currentUserRole === "owner" || currentUserRole === "editor") return true;
+    if (currentUserRole === "participant") return isAssignedToQuestion(questionId);
+    return false;
+  }
+
+  // ==================== SHARE MODAL ====================
+  function openShareModal() {
+    renderShareCollabList();
+    document.getElementById("share-modal").classList.add("show");
+  }
+
+  function closeShareModal() {
+    document.getElementById("share-modal").classList.remove("show");
+  }
+
+  function renderShareCollabList() {
+    const container = document.getElementById("share-collab-list");
+    container.innerHTML = collaborators.map(c => {
+      const counts = getAssignmentCounts(c);
+      const totalAssignments = counts.questions + counts.sections;
+      const isOwner = c.role === "owner";
+      const canDemoteToViewer = c.role !== "viewer" && totalAssignments === 0 && !isOwner;
+      const demotionBlocked = c.role === "participant" && totalAssignments > 0;
+
+      return `
+        <div class="collab-row">
+          <div class="collab-avatar" style="background:${c.color};${c.textColor ? 'color:'+c.textColor : ''}">${c.avatar}</div>
+          <div class="collab-info">
+            <div class="collab-name">${c.name} ${isOwner ? '<span class="role-badge role-owner">Owner</span>' : ''}</div>
+            <div class="collab-meta">
+              ${c.email}
+              ${totalAssignments > 0 ? `<span class="collab-assignments">· ${counts.questions} question(s), ${counts.sections} section(s)</span>` : ''}
+            </div>
+          </div>
+          ${isOwner ? '' : `
+            <select class="collab-role-select" onchange="changeCollabRole('${c.id}', this.value, this)" ${isOwner ? 'disabled' : ''}>
+              <option value="editor" ${c.role==='editor'?'selected':''}>Editor</option>
+              <option value="participant" ${c.role==='participant'?'selected':''}>Participant</option>
+              <option value="viewer" ${c.role==='viewer'?'selected':''} ${demotionBlocked?'disabled':''}>Viewer ${demotionBlocked ? '(blocked)' : ''}</option>
+            </select>
+            <button class="collab-remove-btn" onclick="tryRemoveCollab('${c.id}')" title="Remove from project">✕</button>
+          `}
+        </div>
+      `;
+    }).join("");
+  }
+
+  function changeCollabRole(collabId, newRole, selectEl) {
+    const collab = collaborators.find(c => c.id === collabId);
+    if (!collab) return;
+
+    const counts = getAssignmentCounts(collab);
+    const totalAssignments = counts.questions + counts.sections;
+
+    // Demotion blocking: Participant with assignments → cannot become Viewer
+    if (newRole === "viewer" && totalAssignments > 0) {
+      selectEl.value = collab.role; // revert
+      showToast(`Cannot demote: assigned to ${counts.questions} question(s) and ${counts.sections} section(s). Reassign first.`);
+      return;
+    }
+
+    collab.role = newRole;
+    renderShareCollabList();
+    renderParticipantsPanel();
+    renderTopbarAvatars();
+    showToast(`${collab.name} is now ${newRole.charAt(0).toUpperCase() + newRole.slice(1)}`);
+  }
+
+  function tryRemoveCollab(collabId) {
+    const collab = collaborators.find(c => c.id === collabId);
+    if (!collab) return;
+    const counts = getAssignmentCounts(collab);
+    const total = counts.questions + counts.sections;
+
+    if (total > 0) {
+      showConfirmDialog(
+        'Cannot Remove User',
+        `<strong>${collab.name}</strong> is assigned to <strong>${counts.questions} question(s)</strong> and <strong>${counts.sections} proposal section(s)</strong>.<br><br>Reassign these to another user before removing.`,
+        'OK',
+        null
+      );
+      return;
+    }
+    showConfirmDialog(
+      'Remove Collaborator',
+      `Remove <strong>${collab.name}</strong> from this project? They will lose all access.`,
+      'Remove',
+      () => {
+        const idx = collaborators.findIndex(c => c.id === collabId);
+        if (idx > -1) collaborators.splice(idx, 1);
+        renderShareCollabList();
+        renderParticipantsPanel();
+        renderTopbarAvatars();
+        showToast(`${collab.name} removed from project`);
+        closeConfirmModal();
+      }
+    );
+  }
+
+  // Auto-promotion: assign question to a Viewer
+  function simulateAutoPromotion(collabId) {
+    const collab = collaborators.find(c => c.id === collabId);
+    if (!collab || collab.role !== "viewer") return;
+
+    showConfirmDialog(
+      'Auto-Promotion',
+      `<strong>${collab.name}</strong> is currently a <span class="role-badge role-viewer">Viewer</span>.<br><br>Assigning them will promote them to <span class="role-badge role-participant">Participant</span>, giving them edit access on this item. Continue?`,
+      'Continue',
+      () => {
+        collab.role = "participant";
+        renderShareCollabList();
+        renderParticipantsPanel();
+        renderTopbarAvatars();
+        showToast(`${collab.name} promoted to Participant`);
+        closeConfirmModal();
+      }
+    );
+  }
+
+  // ==================== CONFIRM DIALOG ====================
+  function showConfirmDialog(title, message, confirmText, onConfirm) {
+    const dialog = document.getElementById("confirm-dialog-content");
+    dialog.innerHTML = `
+      <h4>${title}</h4>
+      <p>${message}</p>
+      <div class="confirm-actions">
+        <button class="confirm-btn secondary" onclick="closeConfirmModal()">Cancel</button>
+        ${onConfirm ? `<button class="confirm-btn primary" id="confirm-action-btn">${confirmText}</button>` : `<button class="confirm-btn primary" onclick="closeConfirmModal()">${confirmText}</button>`}
+      </div>
+    `;
+    document.getElementById("confirm-modal").classList.add("show");
+    if (onConfirm) {
+      document.getElementById("confirm-action-btn").onclick = onConfirm;
+    }
+  }
+
+  function closeConfirmModal() {
+    document.getElementById("confirm-modal").classList.remove("show");
+  }
+
+  // ==================== TOPBAR AVATARS ====================
+  function renderTopbarAvatars() {
+    const container = document.getElementById("topbar-avatars");
+    if (!container) return;
+    const shown = collaborators.slice(0, 3);
+    const extra = collaborators.length - 3;
+    container.innerHTML = shown.map(c =>
+      `<div class="topbar-avatar" style="background:${c.color};${c.textColor ? 'color:'+c.textColor : ''}" data-tooltip="${c.name} (${c.role})">${c.avatar}</div>`
+    ).join("") + (extra > 0 ? `<div class="topbar-avatar" style="background:#888;">+${extra}</div>` : '');
+  }
+
+  // ==================== PARTICIPANTS PANEL ====================
+  function renderParticipantsPanel() {
+    const container = document.getElementById("panel-participants-content");
+    if (!container) return;
+    let html = `
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+        <input type="text" placeholder="Search participants..." style="flex:1; padding:6px 10px; border:1px solid #ccc; border-radius:6px; font-size:12px; outline:none;">
+      </div>
+    `;
+    collaborators.forEach(c => {
+      const counts = getAssignmentCounts(c);
+      const roleBadgeClass = 'role-' + c.role;
+      html += `
+        <div style="display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #eee;">
+          <div style="width:28px;height:28px;border-radius:50%;background:${c.color};display:flex;align-items:center;justify-content:center;color:${c.textColor||'#fff'};font-size:11px;font-weight:700;">${c.avatar}</div>
+          <div style="flex:1;">
+            <div style="font-size:13px;font-weight:600; display:flex; align-items:center; gap:6px;">${c.name} <span class="role-badge ${roleBadgeClass}">${c.role}</span></div>
+            <div style="font-size:11px;color:#888;">${counts.questions > 0 ? counts.questions + ' question(s)' : ''}${counts.questions > 0 && counts.sections > 0 ? ', ' : ''}${counts.sections > 0 ? counts.sections + ' section(s)' : ''}${counts.questions === 0 && counts.sections === 0 ? 'No assignments' : ''}</div>
+          </div>
+          ${c.role === 'viewer' ? `<button style="padding:4px 10px; border:1px solid #6c5ce7; border-radius:4px; background:none; color:#6c5ce7; font-size:11px; font-weight:600; cursor:pointer;" onclick="simulateAutoPromotion('${c.id}')">Assign</button>` : ''}
+        </div>
+      `;
+    });
+    container.innerHTML = html;
+  }
+
+  let selectedRows = new Set();
+  let sortKey = null;
+  let sortAsc = true;
+  let expandedQuestions = new Set();
+  let activeQuickFilter = "all";
+  let currentProject = null;
+  let activeDetailTab = "questions";
+
+  // Navigation state for question detail view
+  let activeStatusFilter = "all";   // global filter — independent of file tree
+  let activeSheet = null;           // selected sheet id, null = show all questions
+  let treeExpanded = { doc: true }; // track which tree nodes are expanded
+
+  // ==================== HELPERS ====================
+  function formatDate(dateStr) {
+    if (!dateStr) return '—';
+    const d = new Date(dateStr + 'T00:00:00');
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    setTimeout(() => t.classList.remove("show"), 2000);
+  }
+
+  // Compute "contains" dynamically from rfx type + hasProposal flag
+  // Rules:
+  //   SQ → always has both Questionnaire + Proposal
+  //   RFP / RFI → has Questionnaire; Proposal only if hasProposal is true
+  function getContains(p) {
+    const result = [];
+    if (p.rfx === "SQ") {
+      result.push("questionnaire", "proposal");
+    } else {
+      // RFP, RFI, etc. always have a questionnaire
+      result.push("questionnaire");
+      if (p.hasProposal) result.push("proposal");
+    }
+    return result;
+  }
+
+  function renderContainsTags(containsArr) {
+    return containsArr.map(t => {
+      if (t === "questionnaire") return '<span class="tag tag-rfp"><span class="tag-icon">📋</span> Questionnaire</span>';
+      if (t === "proposal") return '<span class="tag tag-proposal"><span class="tag-icon">📝</span> Proposal</span>';
+      return '';
+    }).join('');
+  }
+
+  // ==================== LISTING: TABS ====================
+  document.getElementById("listing-tabs").addEventListener("click", (e) => {
+    const tab = e.target.closest(".listing-tab");
+    if (!tab) return;
+    document.querySelectorAll(".listing-tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    showToast(`Switched to "${tab.textContent.trim()}" tab`);
+  });
+
+  document.getElementById("view-toggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".view-btn");
+    if (!btn) return;
+    document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+  });
+
+  // ==================== LISTING: FILTER BAR ====================
+  document.getElementById("filter-toggle").addEventListener("click", () => {
+    document.getElementById("filter-bar").classList.toggle("show");
+    document.getElementById("filter-toggle").classList.toggle("active");
+  });
+
+  function toggleFilterDropdown(id) {
+    event.stopPropagation();
+    const dd = document.getElementById(id);
+    document.querySelectorAll(".filter-dropdown").forEach(d => { if (d.id !== id) d.classList.remove("show"); });
+    dd.classList.toggle("show");
+  }
+
+  function toggleFilterCheck(item, e) {
+    e.stopPropagation();
+    item.querySelector(".fd-check").classList.toggle("checked");
+    renderProjects();
+  }
+
+  function clearAllFilters() {
+    document.querySelectorAll(".fd-check").forEach(c => c.classList.remove("checked"));
+    activeQuickFilter = "all";
+    document.querySelectorAll(".qf-pill").forEach(p => p.classList.remove("active"));
+    document.querySelector('.qf-pill[data-qf="all"]').classList.add("active");
+    showToast("All filters cleared");
+    renderProjects();
+  }
+
+  // ==================== LISTING: QUICK FILTERS ====================
+  function setQuickFilter(qf) {
+    activeQuickFilter = qf;
+    document.querySelectorAll(".qf-pill").forEach(p => p.classList.remove("active"));
+    document.querySelector(`.qf-pill[data-qf="${qf}"]`).classList.add("active");
+    renderProjects();
+  }
+
+  function updateQuickFilterCounts() {
+    const all = projects.length;
+    const rfp = projects.filter(p => getContains(p).includes("questionnaire")).length;
+    const proposal = projects.filter(p => getContains(p).includes("proposal")).length;
+    const both = projects.filter(p => { const c = getContains(p); return c.includes("questionnaire") && c.includes("proposal"); }).length;
+    document.getElementById("qf-count-all").textContent = all;
+    document.getElementById("qf-count-rfp").textContent = rfp;
+    document.getElementById("qf-count-proposal").textContent = proposal;
+    document.getElementById("qf-count-both").textContent = both;
+  }
+
+  // ==================== LISTING: SEARCH & SORT ====================
+  document.getElementById("search-input").addEventListener("input", () => renderProjects());
+
+  function sortTable(key) {
+    if (sortKey === key) sortAsc = !sortAsc; else { sortKey = key; sortAsc = true; }
+    renderProjects();
+  }
+
+  // ==================== LISTING: CHECKBOXES ====================
+  function toggleSelectAll() {
+    const rows = document.querySelectorAll("#project-list tr");
+    if (selectedRows.size === rows.length && rows.length > 0) selectedRows.clear();
+    else rows.forEach((_, i) => selectedRows.add(i));
+    updateCheckboxes();
+  }
+
+  function toggleRow(idx, e) {
+    e.stopPropagation();
+    if (selectedRows.has(idx)) selectedRows.delete(idx); else selectedRows.add(idx);
+    updateCheckboxes();
+  }
+
+  function deselectAll() { selectedRows.clear(); updateCheckboxes(); }
+
+  function updateCheckboxes() {
+    const rows = document.querySelectorAll("#project-list tr");
+    const allCb = document.getElementById("select-all");
+    rows.forEach((row, i) => {
+      const cb = row.querySelector(".cb");
+      if (selectedRows.has(i)) { cb.classList.add("checked"); row.classList.add("selected"); }
+      else { cb.classList.remove("checked"); row.classList.remove("selected"); }
+    });
+    allCb.classList.remove("checked", "partial");
+    if (selectedRows.size > 0 && selectedRows.size === rows.length) allCb.classList.add("checked");
+    else if (selectedRows.size > 0) allCb.classList.add("partial");
+
+    const bulkBar = document.getElementById("bulk-bar");
+    if (selectedRows.size > 0) {
+      bulkBar.classList.add("show");
+      document.getElementById("bulk-count").textContent = selectedRows.size + " selected";
+    } else bulkBar.classList.remove("show");
+  }
+
+  // ==================== LISTING: ROW MENU ====================
+  let openRowMenu = null;
+  function toggleRowMenu(idx, e) {
+    e.stopPropagation();
+    const menu = document.getElementById("row-menu-" + idx);
+    if (openRowMenu && openRowMenu !== menu) openRowMenu.classList.remove("show");
+    menu.classList.toggle("show");
+    openRowMenu = menu.classList.contains("show") ? menu : null;
+  }
+
+  // ==================== LISTING: RENDER ====================
+  function renderProjects() {
+    updateQuickFilterCounts();
+    const search = document.getElementById("search-input").value.toLowerCase();
+    let filtered = projects.filter(p =>
+      p.name.toLowerCase().includes(search) || p.prospect.toLowerCase().includes(search)
+    );
+
+    // Quick filter
+    if (activeQuickFilter === "rfp") filtered = filtered.filter(p => getContains(p).includes("questionnaire"));
+    else if (activeQuickFilter === "proposal") filtered = filtered.filter(p => getContains(p).includes("proposal"));
+    else if (activeQuickFilter === "both") filtered = filtered.filter(p => { const c = getContains(p); return c.includes("questionnaire") && c.includes("proposal"); });
+
+    // Filter chips
+    const stageChecks = Array.from(document.querySelectorAll("#stage-dropdown .fd-check.checked"));
+    if (stageChecks.length > 0) {
+      const stages = stageChecks.map(c => c.parentElement.textContent.trim());
+      filtered = filtered.filter(p => stages.includes(p.stage));
+    }
+    const containsChecks = Array.from(document.querySelectorAll("#contains-dropdown .fd-check.checked"));
+    if (containsChecks.length > 0) {
+      const types = containsChecks.map(c => c.parentElement.dataset.contains);
+      filtered = filtered.filter(p => { const c = getContains(p); return types.some(t => c.includes(t)); });
+    }
+
+    if (sortKey) {
+      filtered.sort((a, b) => {
+        let va = a[sortKey], vb = b[sortKey];
+        if (typeof va === "string") { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+        if (va < vb) return sortAsc ? -1 : 1;
+        if (va > vb) return sortAsc ? 1 : -1;
+        return 0;
+      });
+    }
+
+    const tbody = document.getElementById("project-list");
+    selectedRows.clear();
+    tbody.innerHTML = filtered.map((p, i) => {
+      const progressColor = p.progress >= 80 ? '#00b894' : p.progress >= 40 ? '#f0a830' : '#e74c3c';
+      const statusColor = { 'In Progress': '#0984e3', 'Completed': '#00b894', 'Draft': '#888', 'On Hold': '#f0a830', 'Cancelled': '#e74c3c' }[p.projectStatus] || '#888';
+      const isOverdue = new Date(p.dueDate) < new Date() && p.projectStatus !== 'Completed' && p.projectStatus !== 'Cancelled';
+      return `
+      <tr onclick="showDetail(${projects.indexOf(p)})">
+        <td><div class="cb" onclick="toggleRow(${i}, event)"></div></td>
+        <td><span style="font-weight:500;">${p.name}</span></td>
+        <td>
+          <div class="prospect-cell">
+            <div class="prospect-avatar" style="background:${p.color};">${p.prospect[0]}</div>
+            ${p.prospect}
+          </div>
+        </td>
+        <td><div class="contains-tags">${renderContainsTags(getContains(p))}</div></td>
+        <td><span class="rfx-badge rfx-${p.rfx.toLowerCase()}">${p.rfx}</span></td>
+        <td>
+          <div class="progress-cell">
+            <div class="progress-bar"><div class="progress-fill" style="width:${p.progress}%; background:${progressColor};"></div></div>
+            <span class="progress-pct">${p.progress}%</span>
+          </div>
+        </td>
+        <td><div class="stage-badge"><span class="stage-dot" style="background:${p.stageColor};"></span> ${p.stage}</div></td>
+        <td>$${p.value.toLocaleString()}</td>
+        <td><span class="project-status-badge" style="background:${statusColor}15; color:${statusColor}; border:1px solid ${statusColor}30;">${p.projectStatus}</span></td>
+        <td style="${isOverdue ? 'color:#e74c3c; font-weight:600;' : ''}">${formatDate(p.dueDate)}${isOverdue ? ' ⚠' : ''}</td>
+        <td>${p.createdBy}</td>
+        <td>${formatDate(p.createdDate)}</td>
+        <td>${formatDate(p.lastUpdated)}</td>
+        <td style="position:relative;">
+          <span class="more-icon" onclick="toggleRowMenu(${i}, event)">⋮</span>
+          <div class="row-menu" id="row-menu-${i}">
+            <div class="row-menu-item" onclick="event.stopPropagation(); showToast('Opening...')">Open</div>
+            <div class="row-menu-item" onclick="event.stopPropagation(); showToast('Duplicated')">Duplicate</div>
+            <div class="row-menu-item" onclick="event.stopPropagation(); showToast('Archived')">Archive</div>
+            <div class="row-menu-item danger" onclick="event.stopPropagation(); showToast('Deleted')">Delete</div>
+          </div>
+        </td>
+      </tr>
+    `}).join("");
+    updateCheckboxes();
+  }
+
+  // ==================== DETAIL: SHOW/HIDE ====================
+  function showDetail(idx) {
+    currentProject = projects[idx];
+    // Reset navigation state
+    activeStatusFilter = "all";
+    activeSheet = null;
+    treeExpanded = { doc: true };
+    expandedQuestions.clear();
+
+    document.getElementById("listing-screen").style.display = "none";
+    document.getElementById("detail-screen").style.display = "block";
+    document.getElementById("detail-title").textContent = currentProject.name;
+    const projectContains = getContains(currentProject);
+    document.getElementById("detail-tags").innerHTML = renderContainsTags(projectContains);
+    activeDetailTab = projectContains.includes("questionnaire") ? "questions" : "proposal";
+
+    // Reset status filter active state in sidebar
+    document.querySelectorAll("#status-filters .left-nav-item").forEach(el => {
+      el.classList.toggle("active", el.dataset.status === "all");
+    });
+
+    // Reset role switcher to Owner
+    currentUserRole = "owner";
+    document.getElementById("role-switcher").value = "owner";
+
+    renderFileTree();
+    renderStatusCounts();
+    renderDetailTabs();
+    renderDetailContent();
+    renderTopbarAvatars();
+    renderParticipantsPanel();
+
+    // Ensure share button is visible
+    document.getElementById("share-btn").style.display = "";
+    document.getElementById("status-dropdown").style.opacity = "";
+    document.getElementById("status-dropdown").style.pointerEvents = "";
+  }
+
+  function showListing() {
+    document.getElementById("detail-screen").style.display = "none";
+    document.getElementById("listing-screen").style.display = "block";
+  }
+
+  // ==================== DETAIL: TABS (dynamic) ====================
+  function renderDetailTabs() {
+    const c = getContains(currentProject);
+    const hasRfp = c.includes("questionnaire");
+    const hasProposal = c.includes("proposal");
+
+    let html = '';
+    if (hasRfp) {
+      html += `<div class="detail-tab ${activeDetailTab === 'questions' ? 'active' : ''}" data-dtab="questions" onclick="switchDetailTab('questions')"><span class="tab-icon">◉</span> Questions</div>`;
+    }
+    if (hasProposal) {
+      html += `<div class="detail-tab ${activeDetailTab === 'proposal' ? 'active' : ''}" data-dtab="proposal" onclick="switchDetailTab('proposal')"><span class="tab-icon">📝</span> Proposal</div>`;
+    }
+    html += `
+      <div class="detail-tab ${activeDetailTab === 'health' ? 'active' : ''}" data-dtab="health" onclick="switchDetailTab('health')"><span class="tab-icon">📊</span> Project Health</div>
+      <div class="detail-tab ${activeDetailTab === 'instructions' ? 'active' : ''}" data-dtab="instructions" onclick="switchDetailTab('instructions')"><span class="tab-icon">⚠</span> Instructions</div>
+      <div class="detail-tab ${activeDetailTab === 'context' ? 'active' : ''}" data-dtab="context" onclick="switchDetailTab('context')"><span class="tab-icon">📄</span> Context</div>
+      <div class="detail-tab ${activeDetailTab === 'obligations' ? 'active' : ''}" data-dtab="obligations" onclick="switchDetailTab('obligations')"><span class="tab-icon">📌</span> Obligations</div>
+      <div class="overdue-badge">
+        <span style="color:#e74c3c;">Overdue by 60d</span>
+        <span class="progress-text">0% completed <span class="progress-mini"><span class="progress-mini-fill" style="width:8%;"></span></span></span>
+      </div>
+    `;
+    document.getElementById("detail-tabs").innerHTML = html;
+  }
+
+  function switchDetailTab(tab) {
+    activeDetailTab = tab;
+    renderDetailTabs();
+    renderDetailContent();
+  }
+
+  function renderDetailContent() {
+    const content = document.getElementById("detail-right-content");
+    const leftPanel = document.getElementById("left-panel");
+
+    if (activeDetailTab === "questions") {
+      leftPanel.style.display = "";
+      const visible = getVisibleQuestions();
+
+      // Build breadcrumb: All > Sheet
+      let bcParts = [];
+      if (activeSheet) {
+        bcParts.push(`<span class="bc-link" onclick="clearFileTreeSelection()">All</span>`);
+        const sheetName = fileTree.sheets.find(s => s.id === activeSheet)?.name || 'Sheet';
+        bcParts.push(`<span>${sheetName}</span>`);
+      }
+      const breadcrumbHtml = bcParts.length > 0
+        ? `<div class="section-breadcrumb">${bcParts.join('<span class="bc-sep">›</span>')}</div>`
+        : '';
+
+      const titleLabel = activeSheet
+        ? (fileTree.sheets.find(s => s.id === activeSheet)?.name || 'Sheet')
+        : 'All Questions';
+
+      // Permission banner
+      let permBanner = '';
+      if (currentUserRole === 'participant') {
+        permBanner = '<div class="perm-banner info">🔒 You have comment access on all questions. You can edit questions assigned to you.</div>';
+      } else if (currentUserRole === 'viewer') {
+        permBanner = '<div class="perm-banner warn">👁 You have view and comment access. You cannot edit questions.</div>';
+      }
+
+      // Gate toolbar actions
+      const canAssign = currentUserRole === 'owner' || currentUserRole === 'editor';
+
+      content.innerHTML = `
+        ${permBanner}
+        ${breadcrumbHtml}
+        <div class="content-header">
+          <h3>${titleLabel} <span class="count-badge">(${visible.length})</span></h3>
+          <div class="content-actions" style="position:relative;">
+            ${canAssign ? '<button class="icon-btn" data-tooltip="Assign questions" onclick="showToast(\'Opening assignment panel...\')">👤</button>' : ''}
+            <button class="icon-btn" onclick="toggleExpandAll()" data-tooltip="Expand / Collapse all">⇕</button>
+          </div>
+        </div>
+        <div id="questions-container"></div>
+      `;
+      renderQuestions();
+      setupScrollSpy();
+    } else if (activeDetailTab === "proposal") {
+      leftPanel.style.display = "";
+      // Permission banner for proposal
+      let proposalPermBanner = '';
+      const canEditProposal = currentUserRole === 'owner' || currentUserRole === 'editor';
+      const isParticipant = currentUserRole === 'participant';
+      if (isParticipant) {
+        proposalPermBanner = '<div class="perm-banner info">🔒 You have comment access on all sections. You can edit sections assigned to you.</div>';
+      } else if (currentUserRole === 'viewer') {
+        proposalPermBanner = '<div class="perm-banner warn">👁 You have view and comment access.</div>';
+      }
+
+      // Proposal sections mock data
+      const proposalSections = [
+        { id: "executive_summary", name: "Executive Summary", assignee: "Kim L.", status: "draft" },
+        { id: "approach", name: "Technical Approach", assignee: null, status: "empty" },
+        { id: "pricing", name: "Pricing", assignee: "Jane D.", status: "draft" },
+        { id: "team", name: "Team & Resources", assignee: null, status: "empty" },
+        { id: "timeline", name: "Implementation Timeline", assignee: null, status: "empty" },
+      ];
+
+      const sectionCards = proposalSections.map(sec => {
+        const isAssigned = isParticipant && (sec.assignee === "Kim L."); // simulate Kim
+        const canEdit = canEditProposal || isAssigned;
+        const lockClass = !canEdit ? 'locked' : '';
+        const assigneeTag = sec.assignee ? `<span style="font-size:12px; color:#6c5ce7;">👤 ${sec.assignee}</span>` : '<span style="font-size:12px; color:#aaa;">Unassigned</span>';
+        return `
+          <div class="question-card ${lockClass}" style="margin-bottom:12px;">
+            <div style="padding:16px 20px; display:flex; align-items:center; justify-content:space-between;">
+              <div>
+                <div style="font-size:14px; font-weight:600;">${sec.name}</div>
+                <div style="font-size:12px; color:#888; margin-top:2px;">${assigneeTag} · <span style="text-transform:capitalize;">${sec.status}</span></div>
+              </div>
+              <div style="display:flex; gap:8px; align-items:center;">
+                ${canEdit
+                  ? `<button class="save-draft-btn" onclick="showToast('Editing ${sec.name}...')" style="font-size:12px; padding:5px 12px;">✎ Edit</button>`
+                  : `<span style="font-size:11px; color:#e74c3c; font-style:italic;">${currentUserRole === 'viewer' ? 'View only' : 'Not assigned'}</span>`
+                }
+                <button class="icon-btn" style="width:28px; height:28px;" onclick="showToast('Comment on ${sec.name}')" data-tooltip="Comment">💬</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      content.innerHTML = `
+        ${proposalPermBanner}
+        <div class="content-header">
+          <h3>Proposal <span class="count-badge">– Draft</span></h3>
+          <div class="content-actions">
+            <button class="icon-btn" data-tooltip="Preview">👁</button>
+            <button class="icon-btn" data-tooltip="History">🕐</button>
+            ${canEditProposal ? `<button class="save-draft-btn" onclick="showToast('Proposal saved')">💾 Save</button>` : ''}
+            ${canEditProposal ? `<button class="save-draft-btn" onclick="showToast('Publishing proposal...')" style="background:#6c5ce7;">🚀 Publish</button>` : ''}
+          </div>
+        </div>
+        <div style="margin-bottom:16px;">
+          ${canEditProposal ? `<button class="share-btn" style="font-size:12px; padding:6px 14px;" onclick="showToast('Adding section...')">+ Add Section</button>` : ''}
+        </div>
+        ${sectionCards}
+      `;
+    } else {
+      leftPanel.style.display = "none";
+      content.innerHTML = `
+        <div class="proposal-placeholder">
+          <div class="ph-icon">${activeDetailTab === 'health' ? '📊' : activeDetailTab === 'instructions' ? '⚠' : activeDetailTab === 'context' ? '📄' : '📌'}</div>
+          <h3>${activeDetailTab.charAt(0).toUpperCase() + activeDetailTab.slice(1)}</h3>
+          <p>This section is under construction. Content for "${activeDetailTab}" will appear here.</p>
+        </div>
+      `;
+    }
+  }
+
+  // ==================== DETAIL: PANEL TABS ====================
+  document.getElementById("panel-tabs").addEventListener("click", (e) => {
+    const tab = e.target.closest(".panel-section-tab");
+    if (!tab) return;
+    document.querySelectorAll(".panel-section-tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    const which = tab.dataset.ptab;
+    document.getElementById("panel-questions-content").style.display = which === "questions" ? "block" : "none";
+    document.getElementById("panel-participants-content").style.display = which === "participants" ? "block" : "none";
+  });
+
+  function toggleLeftPanel() {
+    const panel = document.getElementById("left-panel");
+    const btn = document.getElementById("collapse-panel-btn");
+    panel.classList.toggle("collapsed");
+    btn.textContent = panel.classList.contains("collapsed") ? "›" : "‹";
+  }
+
+  // ==================== DETAIL: STATUS FILTER (global) ====================
+  function setStatusFilter(status) {
+    activeStatusFilter = status;
+    document.querySelectorAll("#status-filters .left-nav-item").forEach(el => {
+      el.classList.toggle("active", el.dataset.status === status);
+    });
+    // Global filter — just re-render questions, file tree stays independent
+    renderDetailContent();
+  }
+
+  // ==================== DETAIL: FILE TREE (independent) ====================
+  function clearFileTreeSelection() {
+    activeSheet = null;
+    renderFileTree();
+    renderDetailContent();
+  }
+
+  function selectSheet(sheetId) {
+    activeSheet = sheetId;
+    treeExpanded["sheet_" + sheetId] = true;
+    renderFileTree();
+    renderDetailContent();
+  }
+
+  function selectSection(sectionId) {
+    // Find which sheet this section belongs to
+    const parentSheet = fileTree.sheets.find(sh => sh.sections.some(s => s.id === sectionId));
+    if (parentSheet && activeSheet !== parentSheet.id) {
+      // If the sheet isn't loaded yet, load it first
+      activeSheet = parentSheet.id;
+      treeExpanded["sheet_" + parentSheet.id] = true;
+      renderFileTree();
+      renderDetailContent();
+      // Wait for DOM to render, then scroll
+      requestAnimationFrame(() => scrollToSection(sectionId));
+    } else {
+      scrollToSection(sectionId);
+    }
+  }
+
+  function scrollToSection(sectionId) {
+    const anchor = document.getElementById("sec-anchor-" + sectionId);
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    // Highlight in tree immediately
+    document.querySelectorAll(".section-tree-item").forEach(el => {
+      el.classList.toggle("active", el.dataset.section === sectionId);
+    });
+  }
+
+  function toggleTreeNode(key, e) {
+    e.stopPropagation();
+    treeExpanded[key] = !treeExpanded[key];
+    renderFileTree();
+  }
+
+  function renderFileTree() {
+    const root = document.getElementById("file-tree-root");
+    if (!root) return;
+
+    const docExpanded = treeExpanded.doc !== false;
+    let html = `
+      <div class="nav-section-header" onclick="toggleTreeNode('doc', event)">
+        <span class="arrow ${docExpanded ? 'open' : ''}">▸</span>
+        <span class="nav-icon">📁</span> ${fileTree.document}
+      </div>`;
+
+    if (docExpanded) {
+      html += `<div class="nav-section-children" style="max-height:2000px;">`;
+      fileTree.sheets.forEach(sheet => {
+        const sheetKey = "sheet_" + sheet.id;
+        const sheetExpanded = treeExpanded[sheetKey] !== false;
+        const sheetQCount = questions.filter(q => sheet.sections.some(s => s.id === q.sectionId)).length;
+        const isSheetActive = activeSheet === sheet.id;
+
+        html += `
+          <div class="section-tree-item ${isSheetActive ? 'active' : ''}" style="padding-left:32px; font-weight:600;" onclick="selectSheet('${sheet.id}')">
+            <span class="arrow ${sheetExpanded ? 'open' : ''}" onclick="toggleTreeNode('${sheetKey}', event)" style="font-size:10px; cursor:pointer; color:#888;">▸</span>
+            <span>📊 ${sheet.name}</span>
+            <span class="stc">${sheetQCount}</span>
+          </div>`;
+
+        if (sheetExpanded) {
+          sheet.sections.forEach(sec => {
+            const secCount = questions.filter(q => q.sectionId === sec.id).length;
+            const isActive = false; // scroll-spy handles highlighting
+            html += `
+              <div class="section-tree-item ${isActive ? 'active' : ''}" data-section="${sec.id}" onclick="selectSection('${sec.id}')" style="padding-left:52px;">
+                <span>📄 ${sec.name}</span>
+                <span class="stc">${secCount}</span>
+              </div>`;
+          });
+        }
+      });
+      html += `</div>`;
+    }
+
+    root.innerHTML = html;
+  }
+
+  // ==================== DETAIL: STATUS COUNTS (always global) ====================
+  function renderStatusCounts() {
+    // Counts are always GLOBAL — across all questions, not scoped by file tree selection
+    const all = questions;
+    const counts = {
+      all: all.length,
+      unassigned: all.filter(q => !q.assignee).length,
+      unanswered: all.filter(q => q.status === "unanswered").length,
+      draft: all.filter(q => q.status === "draft").length,
+      pending_review: all.filter(q => q.status === "pending_review").length,
+      reviewed: all.filter(q => q.status === "reviewed").length,
+    };
+    Object.keys(counts).forEach(k => {
+      const el = document.getElementById("sc-" + k);
+      if (el) el.textContent = counts[k];
+    });
+  }
+
+  // Helper: get questions for current view
+  // Step 1: scope by file tree selection (sheet or section)
+  // Step 2: apply global status filter
+  function getVisibleQuestions() {
+    let list = questions;
+    // File tree scoping — only by sheet (sections are scroll targets, not filters)
+    if (activeSheet) {
+      const sheet = fileTree.sheets.find(s => s.id === activeSheet);
+      if (sheet) {
+        const sectionIds = sheet.sections.map(s => s.id);
+        list = list.filter(q => sectionIds.includes(q.sectionId));
+      }
+    }
+    // Global status filter
+    if (activeStatusFilter && activeStatusFilter !== "all") {
+      if (activeStatusFilter === "unassigned") list = list.filter(q => !q.assignee);
+      else list = list.filter(q => q.status === activeStatusFilter);
+    }
+    return list;
+  }
+
+  function toggleStatusMenu() { document.getElementById("status-menu").classList.toggle("show"); }
+  function setStatus(label, color, e) {
+    e.stopPropagation();
+    document.getElementById("status-text").innerHTML = `<span style="color:${color};">◉</span> ${label}`;
+    document.getElementById("status-menu").classList.remove("show");
+    showToast(`Status set to "${label}"`);
+  }
+
+  function toggleQFilter() { document.getElementById("q-filter-menu").classList.toggle("show"); }
+  function toggleQCheck(item) { item.querySelector(".qfd-check").classList.toggle("checked"); }
+
+  // ==================== DETAIL: QUESTIONS ACCORDION ====================
+  function toggleQuestion(id) {
+    if (expandedQuestions.has(id)) expandedQuestions.delete(id); else expandedQuestions.add(id);
+    renderQuestions();
+  }
+
+  function toggleQuestionStatus(id, e) {
+    e.stopPropagation();
+    const q = questions.find(q => q.id === id);
+    // Cycle: unanswered → draft → pending_review → reviewed → unanswered
+    const cycle = ["unanswered", "draft", "pending_review", "reviewed"];
+    const idx = cycle.indexOf(q.status);
+    q.status = cycle[(idx + 1) % cycle.length];
+    renderStatusCounts();
+    renderQuestions();
+    showToast(`Question ${id} → ${q.status.replace('_',' ')}`);
+  }
+
+  let allExpanded = false;
+  function toggleExpandAll() {
+    allExpanded = !allExpanded;
+    const visible = getVisibleQuestions();
+    if (allExpanded) visible.forEach(q => expandedQuestions.add(q.id)); else expandedQuestions.clear();
+    renderQuestions();
+  }
+
+  function renderQuestions() {
+    const container = document.getElementById("questions-container");
+    if (!container) return;
+
+    const visible = getVisibleQuestions();
+
+    if (visible.length === 0) {
+      container.innerHTML = `
+        <div class="proposal-placeholder" style="padding:40px;">
+          <div class="ph-icon">🔍</div>
+          <h3>No questions found</h3>
+          <p>No questions match the current filter. Try changing the status filter or selecting a different section.</p>
+        </div>`;
+      return;
+    }
+
+    // Group questions by section for section headers
+    let html = '';
+    let lastSectionId = null;
+    visible.forEach(q => {
+      // Insert section divider when section changes
+      if (q.sectionId !== lastSectionId) {
+        const sec = allSections.find(s => s.id === q.sectionId);
+        html += `<div class="section-divider" data-spy-section="${q.sectionId}" id="sec-anchor-${q.sectionId}" style="padding:12px 0 6px; margin-top:${lastSectionId ? '16px' : '0'}; border-bottom:1px solid #eee; font-size:13px; font-weight:600; color:#555; display:flex; align-items:center; gap:6px;">
+          <span style="color:#00b894;">§</span> ${sec ? sec.name : q.sectionId}
+          <span style="margin-left:auto; font-size:11px; color:#aaa; font-weight:400;">${visible.filter(x => x.sectionId === q.sectionId).length} questions</span>
+        </div>`;
+        lastSectionId = q.sectionId;
+      }
+
+      const isOpen = expandedQuestions.has(q.id);
+      const statusClass = q.status === "draft" ? "draft" : (q.status === "reviewed" ? "done" : (q.status === "pending_review" ? "draft" : ""));
+      const sectionName = allSections.find(s => s.id === q.sectionId)?.name || q.sectionId;
+      const assigneeLabel = q.assignee || "Unassigned";
+      const canEdit = canEditQuestion(q.id);
+      const lockClass = !canEdit ? 'locked' : '';
+      const assignedToMe = isAssignedToQuestion(q.id);
+      const assignedBadge = assignedToMe && currentUserRole === 'participant' ? '<span style="font-size:10px; background:#6c5ce7; color:#fff; padding:1px 6px; border-radius:3px; margin-left:6px;">ASSIGNED TO YOU</span>' : '';
+      html += `
+        <div class="question-card ${isOpen ? 'expanded' : ''} ${lockClass}" data-section-id="${q.sectionId}">
+          <div class="question-card-top" onclick="toggleQuestion('${q.id}')">
+            <div class="question-header">
+              <span class="question-number">${q.id}</span>
+              ${canEdit ? `<div class="question-status-icon ${statusClass}" onclick="toggleQuestionStatus('${q.id}', event)" title="Click to toggle status"></div>` : `<div class="question-status-icon ${statusClass}" style="cursor:default;" title="View only"></div>`}
+              <span class="question-text">${q.text}</span>
+              <button class="expand-btn ${isOpen ? 'open' : ''}">▾</button>
+            </div>
+            <div class="question-meta">Sheet 1 › ${sectionName} · ${assigneeLabel} · <span style="text-transform:capitalize;">${q.status.replace('_',' ')}</span>${assignedBadge}</div>
+          </div>
+          <div class="question-body ${isOpen ? 'open' : ''}">
+            ${q.answer
+              ? `<div class="answer-body">${q.answer}</div>
+                 <div class="confidence-badge">${q.confidence || ''}</div>
+                 ${canEdit ? `<div class="draft-label">◎ ${q.status.replace('_',' ')} · <span class="edit-link" onclick="event.stopPropagation(); showToast('Edit mode for ${q.id}')">Edit</span></div>` : ''}`
+              : (canEdit
+                  ? `<div class="add-answer-link" onclick="event.stopPropagation(); showToast('Add answer to ${q.id}')">+ Add answer</div>`
+                  : `<div class="locked-tooltip">${currentUserRole === 'viewer' ? 'You need Editor or higher access.' : 'You need to be assigned to edit this.'}</div>`)
+            }
+            <div class="question-footer">
+              <div class="footer-avatars">
+                <div class="footer-avatar" style="background:#e74c3c;">⚡</div>
+                <div class="footer-avatar" style="background:#ddd; color:#555;">K M</div>
+                <div class="footer-avatar" style="background:#00b894;">✦</div>
+              </div>
+              <div class="footer-actions">
+                <button class="icon-btn" style="width:28px; height:28px; font-size:12px;" onclick="event.stopPropagation(); showToast('Comment on ${q.id}')" data-tooltip="Comment">💬</button>
+                <span class="more-dots" onclick="event.stopPropagation(); showToast('More options for ${q.id}')">···</span>
+                ${canEdit ? (q.answer
+                  ? `<button class="draft-status-btn" onclick="event.stopPropagation();"><span class="draft-dot"></span> ${q.status.replace('_',' ')} ▾</button>`
+                  : `<button class="save-draft-btn" onclick="event.stopPropagation(); showToast('Saved ${q.id} to drafts')">▽ Save to Drafts ▾</button>`)
+                : ''}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  }
+
+  // ==================== SCROLL-SPY: highlight section in tree as user scrolls ====================
+  let scrollSpyRaf = null;
+  function setupScrollSpy() {
+    const scrollArea = document.getElementById("detail-right-content");
+    if (!scrollArea) return;
+    scrollArea.removeEventListener("scroll", onScrollSpy);
+    scrollArea.addEventListener("scroll", onScrollSpy, { passive: true });
+  }
+
+  function onScrollSpy() {
+    if (scrollSpyRaf) return;
+    scrollSpyRaf = requestAnimationFrame(() => {
+      scrollSpyRaf = null;
+      const scrollArea = document.getElementById("detail-right-content");
+      if (!scrollArea) return;
+      const dividers = scrollArea.querySelectorAll("[data-spy-section]");
+      let currentSec = null;
+      const scrollTop = scrollArea.scrollTop + 80; // offset for header
+
+      dividers.forEach(div => {
+        if (div.offsetTop <= scrollTop) currentSec = div.dataset.spySection;
+      });
+
+      // Highlight in tree
+      if (currentSec) {
+        document.querySelectorAll(".section-tree-item").forEach(el => {
+          el.classList.toggle("active", el.dataset.section === currentSec);
+        });
+      }
+    });
+  }
+
+  // ==================== GLOBAL: CLOSE MENUS & MODALS ====================
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".more-icon")) { document.querySelectorAll(".row-menu.show").forEach(m => m.classList.remove("show")); openRowMenu = null; }
+    if (!e.target.closest(".filter-chip")) document.querySelectorAll(".filter-dropdown.show").forEach(d => d.classList.remove("show"));
+    if (!e.target.closest(".status-dropdown")) document.querySelectorAll(".status-menu.show").forEach(m => m.classList.remove("show"));
+    if (!e.target.closest("#q-filter-btn") && !e.target.closest(".q-filter-dropdown")) document.querySelectorAll(".q-filter-dropdown.show").forEach(m => m.classList.remove("show"));
+  });
+  // Close modals on overlay click
+  document.getElementById("share-modal").addEventListener("click", (e) => { if (e.target === e.currentTarget) closeShareModal(); });
+  document.getElementById("confirm-modal").addEventListener("click", (e) => { if (e.target === e.currentTarget) closeConfirmModal(); });
+
+  // ==================== SETTINGS ====================
+  let activeSettingsTab = "personal";
+
+  function showSettings() {
+    document.getElementById("listing-screen").style.display = "none";
+    document.getElementById("detail-screen").style.display = "none";
+    document.getElementById("settings-screen").style.display = "block";
+    // Activate sidebar icon
+    document.querySelectorAll(".sidebar-icon").forEach(i => i.classList.remove("active"));
+    document.querySelector('.sidebar-icon[data-tooltip="Settings"]').classList.add("active");
+    renderSettingsTab();
+  }
+
+  function showListingFromSettings() {
+    document.getElementById("settings-screen").style.display = "none";
+    document.getElementById("listing-screen").style.display = "block";
+    document.querySelectorAll(".sidebar-icon").forEach(i => i.classList.remove("active"));
+    document.querySelector('.sidebar-icon[data-tooltip="Projects"]').classList.add("active");
+  }
+
+  function switchSettingsTab(tab, el) {
+    activeSettingsTab = tab;
+    document.querySelectorAll(".settings-sidebar .ss-item").forEach(i => i.classList.remove("active"));
+    if (el) el.classList.add("active");
+    renderSettingsTab();
+  }
+
+  function renderSettingsTab() {
+    const c = document.getElementById("settings-content");
+    const tabs = {
+      personal: renderPersonalSettings,
+      users: renderUsersSettings,
+      sso: renderSSOSettings,
+      password: renderPasswordPolicy,
+      domain: renderCustomDomain,
+      projects: renderProjectsModule,
+      brandkit: renderBrandKit,
+      audit: renderAuditLogs,
+    };
+    (tabs[activeSettingsTab] || tabs.personal)(c);
+  }
+
+  // ---- Personal Settings ----
+  function renderPersonalSettings(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Personal Settings</h3>
+        <p class="sc-desc">Manage your personal details. These preferences only apply to you.</p>
+        <div class="profile-pic-area">
+          <div class="profile-pic-circle">D <div class="pic-edit" onclick="showToast('Upload photo...')">📷</div></div>
+          <div class="profile-pic-info"><strong>Profile Picture</strong><br>Supported file types: jpeg, jpg, png</div>
+        </div>
+        <div class="settings-row">
+          <div class="settings-field"><label>First Name</label><input type="text" value="Divyaraj"></div>
+          <div class="settings-field"><label>Last Name</label><input type="text" value=""></div>
+        </div>
+        <div class="settings-row">
+          <div class="settings-field"><label>Email</label><input type="email" value="divyaraj.murugan@surveysparrow.com" disabled style="background:#f8f8f8; color:#888;"></div>
+          <div class="settings-field"><label>Language</label><select><option selected>English</option><option>Spanish</option><option>French</option><option>German</option><option>Japanese</option></select></div>
+        </div>
+        <div class="settings-actions" style="margin-top:12px;">
+          <button class="settings-btn primary" onclick="showToast('Profile saved!')">Save Changes</button>
+        </div>
+      </div>
+      <div class="settings-card">
+        <h3>Password</h3>
+        <p class="sc-desc">Update your password. You'll be logged out of other sessions.</p>
+        <div class="settings-field"><label>Current Password</label><input type="password" placeholder="Enter current password"></div>
+        <div class="settings-field"><label>New Password</label><input type="password" placeholder="Enter new password"></div>
+        <div class="settings-field"><label>Confirm New Password</label><input type="password" placeholder="Confirm new password"></div>
+        <div class="settings-actions">
+          <button class="settings-btn primary" onclick="showToast('Password updated!')">Change Password</button>
+        </div>
+      </div>
+      <div class="settings-card">
+        <h3>Notifications</h3>
+        <p class="sc-desc">Control how you receive notifications.</p>
+        <div class="toggle-row"><div><div class="toggle-label">Email Notifications</div><div class="toggle-desc">Receive project updates via email</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Assignment Alerts</div><div class="toggle-desc">Notify when questions are assigned to you</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Comment Mentions</div><div class="toggle-desc">Notify when someone mentions you in a comment</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Weekly Digest</div><div class="toggle-desc">Receive a weekly summary of project activity</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+      </div>
+    `;
+  }
+
+  // ---- Users & Teams ----
+  function renderUsersSettings(c) {
+    const users = [
+      { name: "Divyaraj Murugan", email: "divyaraj.murugan@surveysparrow.com", role: "Admin", status: "Active", color: "#6c5ce7", lastActive: "2 min ago" },
+      { name: "Chris M.", email: "chris@sparrowgenie.com", role: "Admin", status: "Active", color: "#0984e3", lastActive: "1h ago" },
+      { name: "Jane D.", email: "jane@sparrowgenie.com", role: "Member", status: "Active", color: "#e17055", lastActive: "3h ago" },
+      { name: "Kim L.", email: "kim@sparrowgenie.com", role: "Member", status: "Active", color: "#00b894", lastActive: "1d ago" },
+      { name: "Mike R.", email: "mike@sparrowgenie.com", role: "Member", status: "Active", color: "#ddd", lastActive: "2d ago" },
+      { name: "Sarah T.", email: "sarah@sparrowgenie.com", role: "Viewer", status: "Invited", color: "#fd79a8", lastActive: "Pending" },
+    ];
+    c.innerHTML = `
+      <div class="settings-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div><h3 style="margin-bottom:0;">Users & Teams</h3><p class="sc-desc" style="margin-bottom:0;">Manage who has access to your workspace.</p></div>
+          <button class="settings-btn primary" onclick="showToast('Invite user dialog...')">+ Invite User</button>
+        </div>
+        <div style="display:flex; gap:12px; margin-bottom:16px;">
+          <input type="text" placeholder="Search users..." style="flex:1; padding:8px 14px; border:1px solid #ddd; border-radius:8px; font-size:13px; outline:none;">
+          <select style="padding:8px 12px; border:1px solid #ddd; border-radius:8px; font-size:13px;">
+            <option>All Roles</option><option>Admin</option><option>Member</option><option>Viewer</option>
+          </select>
+        </div>
+        <table class="users-table">
+          <thead><tr><th>User</th><th>Role</th><th>Status</th><th>Last Active</th><th></th></tr></thead>
+          <tbody>
+            ${users.map(u => `
+              <tr>
+                <td><div style="display:flex; align-items:center; gap:10px;">
+                  <div style="width:32px;height:32px;border-radius:50%;background:${u.color};display:flex;align-items:center;justify-content:center;color:${u.color==='#ddd'?'#555':'#fff'};font-size:12px;font-weight:700;">${u.name[0]}</div>
+                  <div><div style="font-weight:600;">${u.name}</div><div style="font-size:12px;color:#888;">${u.email}</div></div>
+                </div></td>
+                <td><select class="collab-role-select" onchange="showToast('Role changed to '+this.value)">
+                  <option ${u.role==='Admin'?'selected':''}>Admin</option>
+                  <option ${u.role==='Member'?'selected':''}>Member</option>
+                  <option ${u.role==='Viewer'?'selected':''}>Viewer</option>
+                </select></td>
+                <td><span class="user-status-dot" style="background:${u.status==='Active'?'#00b894':'#f0a830'};"></span>${u.status}</td>
+                <td style="color:#888; font-size:13px;">${u.lastActive}</td>
+                <td><button class="collab-remove-btn" onclick="showToast('Remove ${u.name}...')">✕</button></td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+      <div class="settings-card">
+        <h3>Teams</h3>
+        <p class="sc-desc">Organize users into teams for easier project assignment.</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          ${["Engineering","Sales","Legal","Leadership"].map(t => `
+            <div style="border:1px solid #e0e0e0; border-radius:10px; padding:16px 20px; min-width:180px; cursor:pointer; transition:border-color 0.15s;" onmouseover="this.style.borderColor='#00b894'" onmouseout="this.style.borderColor='#e0e0e0'">
+              <div style="font-weight:600; font-size:14px;">${t}</div>
+              <div style="font-size:12px; color:#888; margin-top:4px;">${Math.floor(Math.random()*5+2)} members</div>
+            </div>
+          `).join("")}
+          <div style="border:2px dashed #ddd; border-radius:10px; padding:16px 20px; min-width:180px; cursor:pointer; display:flex; align-items:center; justify-content:center; color:#888; font-size:14px;" onclick="showToast('Create team...')">+ New Team</div>
+        </div>
+      </div>
+    `;
+  }
+
+  // ---- Single Sign On ----
+  function renderSSOSettings(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Single Sign-On (SSO)</h3>
+        <p class="sc-desc">Configure SSO to allow users to sign in with your identity provider.</p>
+        <div class="toggle-row" style="margin-bottom:20px;"><div><div class="toggle-label">Enable SSO</div><div class="toggle-desc">Require SSO for all users in your workspace</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+        <div class="settings-field"><label>SSO Protocol</label><select><option>SAML 2.0</option><option>OpenID Connect (OIDC)</option></select></div>
+        <div class="settings-field"><label>Identity Provider</label><select><option>Select provider...</option><option>Okta</option><option>Azure AD</option><option>OneLogin</option><option>Google Workspace</option><option>Custom</option></select></div>
+        <div class="settings-field"><label>Entity ID / Issuer URL</label><input type="url" placeholder="https://your-idp.com/entity-id"></div>
+        <div class="settings-field"><label>SSO Login URL</label><input type="url" placeholder="https://your-idp.com/sso/login"></div>
+        <div class="settings-field"><label>X.509 Certificate</label><textarea style="width:100%; padding:10px 14px; border:1px solid #ddd; border-radius:8px; font-size:13px; font-family:monospace; height:100px; resize:vertical; outline:none;" placeholder="Paste your certificate here..."></textarea></div>
+        <div style="background:#f8f8f8; border-radius:8px; padding:14px 16px; margin-bottom:16px; font-size:13px; color:#555;">
+          <strong>Service Provider Details</strong><br>
+          ACS URL: <code style="background:#e8e8e8; padding:2px 6px; border-radius:3px;">https://app.sparrowgenie.com/sso/acs</code><br>
+          Entity ID: <code style="background:#e8e8e8; padding:2px 6px; border-radius:3px;">https://app.sparrowgenie.com</code>
+        </div>
+        <div class="settings-actions">
+          <button class="settings-btn primary" onclick="showToast('SSO configuration saved!')">Save Configuration</button>
+          <button class="settings-btn secondary" onclick="showToast('Testing SSO connection...')">Test Connection</button>
+        </div>
+      </div>
+    `;
+  }
+
+  // ---- Password Policy ----
+  function renderPasswordPolicy(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Password Policy</h3>
+        <p class="sc-desc">Set password requirements for all users in your workspace.</p>
+        <div class="settings-row">
+          <div class="settings-field"><label>Minimum Length</label><input type="number" value="8" min="6" max="128"></div>
+          <div class="settings-field"><label>Maximum Age (days)</label><input type="number" value="90" min="0" placeholder="0 = never expires"></div>
+        </div>
+        <div class="toggle-row"><div><div class="toggle-label">Require Uppercase Letter</div><div class="toggle-desc">At least one uppercase character (A–Z)</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Require Lowercase Letter</div><div class="toggle-desc">At least one lowercase character (a–z)</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Require Number</div><div class="toggle-desc">At least one digit (0–9)</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Require Special Character</div><div class="toggle-desc">At least one special character (!@#$...)</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Prevent Password Reuse</div><div class="toggle-desc">Users cannot reuse their last 5 passwords</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Two-Factor Authentication (2FA)</div><div class="toggle-desc">Require 2FA for all users</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+        <div class="settings-actions" style="margin-top:16px;">
+          <button class="settings-btn primary" onclick="showToast('Password policy saved!')">Save Policy</button>
+        </div>
+      </div>
+    `;
+  }
+
+  // ---- Custom Domain ----
+  function renderCustomDomain(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Custom Domain</h3>
+        <p class="sc-desc">Use your own domain for SparrowGenie (e.g., rfp.yourcompany.com).</p>
+        <div class="settings-field"><label>Custom Domain</label><input type="url" placeholder="rfp.yourcompany.com"></div>
+        <div style="background:#fef4e8; border:1px solid #f0dbb8; border-radius:8px; padding:14px 16px; margin-bottom:16px; font-size:13px; color:#8a6d00;">
+          <strong>DNS Configuration Required</strong><br>
+          Add a CNAME record pointing your domain to: <code style="background:#f0dbb8; padding:2px 6px; border-radius:3px;">cname.sparrowgenie.com</code>
+        </div>
+        <div class="toggle-row"><div><div class="toggle-label">Force HTTPS</div><div class="toggle-desc">Automatically redirect HTTP to HTTPS</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Auto-renew SSL Certificate</div><div class="toggle-desc">Automatically provision and renew Let's Encrypt certificates</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div style="margin-top:16px; padding:12px 16px; background:#f8f8f8; border-radius:8px; font-size:13px;">
+          <strong>Current Status:</strong> <span style="color:#f0a830;">● Not configured</span>
+        </div>
+        <div class="settings-actions" style="margin-top:16px;">
+          <button class="settings-btn primary" onclick="showToast('Verifying DNS...')">Verify & Save</button>
+        </div>
+      </div>
+    `;
+  }
+
+  // ---- Projects Module ----
+  function renderProjectsModule(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Projects Module Settings</h3>
+        <p class="sc-desc">Configure default behaviors and permissions for the Projects module.</p>
+        <div class="toggle-row"><div><div class="toggle-label">Enable Proposal Artifact</div><div class="toggle-desc">Allow users to create proposals within projects</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Enable AI Auto-Draft (Genie)</div><div class="toggle-desc">Allow AI to generate draft answers for RFP questions</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Require Review Before Submit</div><div class="toggle-desc">All answers must be reviewed before project can be marked complete</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Allow Standalone Proposals</div><div class="toggle-desc">Users can create proposals without an RFP/RFI questionnaire</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Editor Can Delete Projects</div><div class="toggle-desc">Allow Editors to delete projects (not just Owners)</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+      </div>
+      <div class="settings-card">
+        <h3>Default Role for New Collaborators</h3>
+        <p class="sc-desc">When a user is invited to a project, what role should they get by default?</p>
+        <div class="settings-field"><select><option>Viewer</option><option>Participant</option><option selected>Editor</option></select></div>
+      </div>
+      <div class="settings-card">
+        <h3>Project Lifecycle Stages</h3>
+        <p class="sc-desc">Customize the deal stages available in your projects.</p>
+        ${["Lead","Discovery","Qualification","Closed Won","Closed Lost","Hold"].map((s, i) => `
+          <div style="display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid #f0f0f0;">
+            <span style="color:#bbb; cursor:grab;">⋮⋮</span>
+            <span class="stage-dot" style="background:${['#e74c3c','#6c5ce7','#f0a830','#00b894','#e74c3c','#888'][i]}; width:10px; height:10px; border-radius:50; display:inline-block;"></span>
+            <input type="text" value="${s}" style="flex:1; padding:6px 10px; border:1px solid #eee; border-radius:6px; font-size:13px; outline:none;">
+            <button class="collab-remove-btn" onclick="showToast('Remove stage...')">✕</button>
+          </div>
+        `).join("")}
+        <button class="settings-btn secondary" style="margin-top:12px; font-size:13px;" onclick="showToast('Add stage...')">+ Add Stage</button>
+      </div>
+    `;
+  }
+
+  // ---- Brand Kit ----
+  function renderBrandKit(c) {
+    c.innerHTML = `
+      <div class="settings-card">
+        <h3>Brand Kit</h3>
+        <p class="sc-desc">Configure your brand identity for proposals and exported documents.</p>
+
+        <!-- Logo -->
+        <div style="margin-bottom:24px;">
+          <label style="font-size:13px; font-weight:600; color:#555; display:block; margin-bottom:8px;">Company Logo</label>
+          <div style="display:flex; gap:20px; align-items:flex-start;">
+            <div style="width:120px; height:120px; border:2px dashed #ddd; border-radius:12px; display:flex; flex-direction:column; align-items:center; justify-content:center; cursor:pointer; transition:border-color 0.15s; color:#888; font-size:13px; text-align:center; gap:6px;" onmouseover="this.style.borderColor='#00b894'" onmouseout="this.style.borderColor='#ddd'" onclick="showToast('Upload logo...')">
+              <span style="font-size:28px;">🖼</span>
+              Upload Logo
+            </div>
+            <div style="font-size:12px; color:#888; line-height:1.6;">
+              <strong>Primary Logo</strong><br>
+              Recommended: 400×100px, PNG or SVG<br>
+              Used in proposal headers and cover pages<br><br>
+              <strong>Favicon / Icon</strong><br>
+              <div style="width:40px; height:40px; border:2px dashed #ddd; border-radius:8px; display:flex; align-items:center; justify-content:center; cursor:pointer; margin-top:4px; font-size:16px;" onclick="showToast('Upload favicon...')">+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colors -->
+      <div class="settings-card">
+        <h3>Brand Colors</h3>
+        <p class="sc-desc">Set your brand palette. These colors are used in proposals, exports, and email templates.</p>
+        <div style="display:flex; gap:16px; flex-wrap:wrap; margin-bottom:16px;">
+          ${[
+            { label: "Primary", color: "#00b894" },
+            { label: "Secondary", color: "#6c5ce7" },
+            { label: "Accent", color: "#0984e3" },
+            { label: "Dark / Text", color: "#1a1a2e" },
+            { label: "Light / BG", color: "#f5f5f5" },
+          ].map(b => `
+            <div style="text-align:center;">
+              <div style="width:64px; height:64px; border-radius:12px; background:${b.color}; border:2px solid #e0e0e0; cursor:pointer; position:relative; transition:transform 0.15s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'" onclick="showToast('Color picker for ${b.label}...')"></div>
+              <div style="font-size:11px; font-weight:600; color:#555; margin-top:6px;">${b.label}</div>
+              <div style="font-size:10px; color:#aaa; font-family:monospace;">${b.color}</div>
+            </div>
+          `).join("")}
+          <div style="text-align:center;">
+            <div style="width:64px; height:64px; border-radius:12px; border:2px dashed #ddd; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:24px; color:#bbb; transition:border-color 0.15s;" onmouseover="this.style.borderColor='#00b894'" onmouseout="this.style.borderColor='#ddd'" onclick="showToast('Add custom color...')">+</div>
+            <div style="font-size:11px; font-weight:600; color:#888; margin-top:6px;">Add Color</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typography -->
+      <div class="settings-card">
+        <h3>Typography</h3>
+        <p class="sc-desc">Choose fonts for your proposal documents and exports.</p>
+        <div class="settings-row">
+          <div class="settings-field">
+            <label>Heading Font</label>
+            <select>
+              <option selected>Inter</option><option>Roboto</option><option>Open Sans</option><option>Lato</option><option>Montserrat</option><option>Poppins</option><option>Playfair Display</option><option>Georgia</option>
+            </select>
+          </div>
+          <div class="settings-field">
+            <label>Body Font</label>
+            <select>
+              <option selected>Inter</option><option>Roboto</option><option>Open Sans</option><option>Lato</option><option>Source Sans Pro</option><option>Nunito</option><option>Georgia</option><option>Times New Roman</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top:8px; padding:16px 20px; background:#f8f8f8; border-radius:10px;">
+          <div style="font-size:11px; font-weight:600; color:#888; text-transform:uppercase; margin-bottom:10px;">Preview</div>
+          <div style="font-size:24px; font-weight:700; margin-bottom:6px;">Heading Text Example</div>
+          <div style="font-size:14px; line-height:1.6; color:#555;">This is what your body text will look like in proposals and exported documents. The quick brown fox jumps over the lazy dog.</div>
+        </div>
+      </div>
+
+      <!-- Cover Page Template -->
+      <div class="settings-card">
+        <h3>Proposal Cover Page</h3>
+        <p class="sc-desc">Customize the default cover page for exported proposals.</p>
+        <div style="display:flex; gap:16px; flex-wrap:wrap;">
+          ${["Classic", "Modern", "Minimal"].map((t, i) => `
+            <div style="width:160px; border:2px solid ${i===1 ? '#00b894' : '#e0e0e0'}; border-radius:10px; overflow:hidden; cursor:pointer; transition:border-color 0.15s;" onmouseover="this.style.borderColor='#00b894'" onmouseout="this.style.borderColor='${i===1 ? '#00b894' : '#e0e0e0'}'" onclick="showToast('Selected ${t} template')">
+              <div style="height:100px; background:${['linear-gradient(135deg, #1a1a2e, #3a3a5a)', 'linear-gradient(135deg, #00b894, #0984e3)', 'linear-gradient(135deg, #fff, #f0f0f0)'][i]}; display:flex; align-items:center; justify-content:center;">
+                <div style="width:60%; height:4px; background:rgba(255,255,255,0.4); border-radius:2px;"></div>
+              </div>
+              <div style="padding:8px 10px; text-align:center;">
+                <div style="font-size:12px; font-weight:600;">${t}</div>
+                ${i===1 ? '<div style="font-size:10px; color:#00b894;">Active</div>' : '<div style="font-size:10px; color:#aaa;">Select</div>'}
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      <!-- Boilerplate Content -->
+      <div class="settings-card">
+        <h3>Boilerplate Content</h3>
+        <p class="sc-desc">Default text blocks that can be inserted into proposals.</p>
+        ${["Company Overview", "Legal Disclaimer", "Confidentiality Notice", "About Us"].map((item, i) => `
+          <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 0; border-bottom:1px solid #f0f0f0;">
+            <div>
+              <div style="font-size:14px; font-weight:600;">${item}</div>
+              <div style="font-size:12px; color:#888;">${[142, 88, 56, 210][i]} words · Last edited ${['2d ago', '1w ago', '3w ago', '5d ago'][i]}</div>
+            </div>
+            <div style="display:flex; gap:6px;">
+              <button class="icon-btn" style="width:28px; height:28px; font-size:12px;" onclick="showToast('Edit ${item}...')" data-tooltip="Edit">✎</button>
+              <button class="collab-remove-btn" onclick="showToast('Delete ${item}...')">✕</button>
+            </div>
+          </div>
+        `).join("")}
+        <button class="settings-btn secondary" style="margin-top:12px; font-size:13px;" onclick="showToast('Add boilerplate block...')">+ Add Block</button>
+      </div>
+
+      <!-- Email Template Branding -->
+      <div class="settings-card">
+        <h3>Email Template</h3>
+        <p class="sc-desc">Customize how shared proposals and notifications look when sent via email.</p>
+        <div class="toggle-row"><div><div class="toggle-label">Include Company Logo</div><div class="toggle-desc">Show your logo in email header</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Use Brand Colors</div><div class="toggle-desc">Apply your brand colors to email buttons and links</div></div><label class="toggle-switch"><input type="checkbox" checked><span class="toggle-slider"></span></label></div>
+        <div class="toggle-row"><div><div class="toggle-label">Include Footer Disclaimer</div><div class="toggle-desc">Add legal/confidentiality notice to email footer</div></div><label class="toggle-switch"><input type="checkbox"><span class="toggle-slider"></span></label></div>
+        <div class="settings-field" style="margin-top:12px;"><label>Reply-To Email</label><input type="email" placeholder="proposals@yourcompany.com"></div>
+      </div>
+
+      <div class="settings-actions">
+        <button class="settings-btn primary" onclick="showToast('Brand Kit saved!')">Save All Changes</button>
+        <button class="settings-btn secondary" onclick="showToast('Previewing proposal with brand kit...')">Preview in Proposal</button>
+      </div>
+    `;
+  }
+
+  // ---- Audit Logs ----
+  function renderAuditLogs(c) {
+    const logs = [
+      { icon: "👤", action: "Divyaraj Murugan invited Sarah T. as Viewer", time: "Today, 2:15 PM", type: "user" },
+      { icon: "🔑", action: "Chris M. changed Kim L.'s role from Viewer to Participant (auto-promoted via assignment)", time: "Today, 11:30 AM", type: "role" },
+      { icon: "📋", action: "Jane D. created project 'Google CX'", time: "Yesterday, 4:45 PM", type: "project" },
+      { icon: "🔒", action: "SSO configuration updated by Divyaraj Murugan", time: "Yesterday, 2:00 PM", type: "security" },
+      { icon: "📝", action: "Mike R. submitted 3 answers for review on 'Pitney Bowes – RFI (1)'", time: "Apr 5, 10:20 AM", type: "answer" },
+      { icon: "✅", action: "Kim L. reviewed and approved 5 questions on 'Pitney Bowes – RFI (1)'", time: "Apr 4, 3:15 PM", type: "review" },
+      { icon: "🗑", action: "Chris M. archived project 'Old RFP Template'", time: "Apr 3, 9:00 AM", type: "project" },
+      { icon: "📤", action: "Jane D. exported proposal from 'BHP Discovery' as PDF", time: "Apr 2, 5:30 PM", type: "export" },
+      { icon: "🔑", action: "Password policy updated: minimum length changed from 6 to 8", time: "Apr 1, 11:00 AM", type: "security" },
+      { icon: "👤", action: "Divyaraj Murugan removed Alex K. from workspace", time: "Mar 30, 2:45 PM", type: "user" },
+    ];
+    c.innerHTML = `
+      <div class="settings-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div><h3 style="margin-bottom:0;">Audit Logs</h3><p class="sc-desc" style="margin-bottom:0;">Track all important actions in your workspace.</p></div>
+          <button class="settings-btn secondary" onclick="showToast('Exporting logs...')" style="font-size:13px;">⬇ Export CSV</button>
+        </div>
+        <div style="display:flex; gap:12px; margin-bottom:16px;">
+          <input type="text" placeholder="Search logs..." style="flex:1; padding:8px 14px; border:1px solid #ddd; border-radius:8px; font-size:13px; outline:none;">
+          <select style="padding:8px 12px; border:1px solid #ddd; border-radius:8px; font-size:13px;">
+            <option>All Types</option><option>User</option><option>Role</option><option>Project</option><option>Security</option><option>Export</option>
+          </select>
+          <select style="padding:8px 12px; border:1px solid #ddd; border-radius:8px; font-size:13px;">
+            <option>Last 7 days</option><option>Last 30 days</option><option>Last 90 days</option><option>All time</option>
+          </select>
+        </div>
+        ${logs.map(l => `
+          <div class="audit-row">
+            <div class="audit-icon">${l.icon}</div>
+            <div style="flex:1;">
+              <div class="audit-text">${l.action}</div>
+              <div class="audit-time">${l.time}</div>
+            </div>
+          </div>
+        `).join("")}
+        <div style="text-align:center; padding:16px 0; color:#888; font-size:13px;">Showing 10 of 248 entries · <span style="color:#00b894; cursor:pointer;" onclick="showToast('Loading more...')">Load more</span></div>
+      </div>
+    `;
+  }
+
+  // ==================== NEW PROJECT CREATION FLOW ====================
+
+  // --- Spreadsheet mock data for Smart Mapping ---
+  const smSheets = [
+    { name: "Company", rows: [
+      { n:1, a:"Category", b:"Sub - Category", c:"Requirement", d:"Response", isHeader:true },
+      { n:2, a:"", b:"", c:"Provide your organization's full legal entity name exactly as registered with government authorities. Include any alternate names, DBAs, trade names, or legacy names used historically. Explain if your operational brand differs from your legal name and why. Clarify your legal entity type (Private Ltd, LLC, Corporation, Partnership, etc.). This information will be used for due diligence, contract preparation, and vendor onboarding validation.", d:"" },
+      { n:3, a:"", b:"Basic Info", c:"State the year your organization was incorporated and describe the circumstances under which it was founded. Summarize key milestones such as expansions, acquisitions, leadership transitions, or major product developments since inception. This will help us assess historical stability, growth maturity, and consistency in strategic direction.", d:"" },
+      { n:4, a:"", b:"", c:"Provide your registered business address and any additional legal addresses. Explain whether your mailing, operational, or billing addresses differ from your registered address. If you maintain virtual or regional offices, disclose these as well.", d:"" },
+      { n:5, a:"", b:"Ownership", c:"Describe your company's ownership structure, including shareholders, parent companies, and subsidiaries. Explain whether your company is public, private, family-held, or investor-funded. If venture-funded, specify major investors and board control.", d:"" },
+      { n:6, a:"", b:"", c:"Disclose any mergers, acquisitions, divestitures, or ownership changes in the last ten years. Explain the reason for these changes and their impact on your organization's governance, financial structure, and service delivery commitments.", d:"" },
+      { n:7, a:"", b:"", c:"Provide profiles of key leadership members such as CEO, CTO, COO, CISO, and heads of product, engineering, and compliance. Highlight professional background, experience, and tenure. Share how leadership oversees operational governance.", d:"" },
+      { n:8, a:"Company Profile", b:"Leadership", c:"Describe your internal governance structure, including committees, oversight bodies, and decision-making hierarchy. Explain how compliance, quality, and risk management are supervised within leadership.", d:"" },
+      { n:9, a:"", b:"", c:"Provide your company's revenue for the past three financial years. If exact figures cannot be disclosed, provide revenue range, percentage growth, or other indicators demonstrating financial stability and long-term sustainability.", d:"" },
+      { n:10, a:"", b:"Performance", c:"Provide your EBITDA or profitability trends for the past three years. Highlight major financial changes, investments, or restructures. Clarify how financial health supports long-term commitments to enterprise clients.", d:"" },
+      { n:11, a:"Financial Stability", b:"Audits", c:"State whether your financial statements are audited annually. If yes, specify the audit firm and provide the latest available audit summary. If no, explain why audited statements are unavailable.", d:"" },
+      { n:12, a:"", b:"Funding", c:"If your company has raised external funding, specify the total amount raised, investor names, funding stages, and how these investments influence roadmap and stability.", d:"" },
+      { n:13, a:"", b:"", c:"List all security and compliance certifications held, including ISO 27001, SOC 2, GDPR alignment, HIPAA, PCI-DSS, or industry-specific standards. Provide certificate validity and renewal timelines.", d:"" },
+      { n:14, a:"", b:"Certifications", c:"Confirm whether your organization maintains ISO 27001 certification. If yes, provide scope statement; if no, outline alternative security frameworks you follow.", d:"" },
+      { n:15, a:"", b:"", c:"Confirm whether you maintain SOC 2 Type II compliance. If yes, specify audit period; if no, share expected timeline or compensating controls.", d:"" },
+      { n:16, a:"Compliance", b:"", c:"Disclose any ongoing, pending, or past legal disputes involving your organization. Provide a high-level description of issues, jurisdictions, and whether they impact service obligations or financial risk.", d:"" },
+      { n:17, a:"", b:"Legal", c:"State whether your company has ever faced regulatory penalties or compliance violations. Provide context, remediation actions, and measures taken to prevent recurrence.", d:"" },
+      { n:18, a:"Geographic Presence", b:"Offices", c:"Provide a list of all physical office locations, including HQ, regional offices, R&D centers, and support hubs. Describe the function of each location and distribution of staff across regions.", d:"" },
+      { n:19, a:"", b:"Regional Support", c:"Confirm whether your organization has local or regional presence in our operating geography. If yes, describe the team, coverage hours, and type of support offered.", d:"" },
+      { n:20, a:"", b:"", c:"Describe your understanding of the business problem this project aims to address. Explain how your solution aligns with our objectives, reduces operational risk, and supports measurable business outcomes.", d:"" },
+      { n:21, a:"", b:"Business Need", c:"Describe key KPIs your solution typically improves for clients. Include measurable outcomes such as cost reduction, operational efficiency, compliance improvement, or accuracy gains.", d:"" },
+      { n:22, a:"", b:"", c:"Describe the proposed scope of work for this engagement. Include activities, responsibilities, deliverables, required resources, and dependencies. Clarify boundaries of what is out-of-scope.", d:"" },
+      { n:23, a:"", b:"Scope", c:"State whether custom development will be required to meet project objectives. If yes, explain expected timelines, cost implications, and ongoing maintenance requirements.", d:"" },
+      { n:24, a:"", b:"", c:"Provide a detailed list of implementation deliverables such as documentation, training, configurations, integrations, and acceptance criteria.", d:"" },
+      { n:25, a:"", b:"Deliverables", c:"Confirm whether you provide user documentation, technical documentation, and admin guides as part of your standard delivery.", d:"" },
+      { n:26, a:"", b:"", c:"Provide estimated timeline for project phases including discovery, configuration, integration, testing, UAT, rollout, and stabilization.", d:"" },
+      { n:27, a:"Project Overview", b:"Timeline", c:"Confirm whether you can meet accelerated or fixed timelines if required. Explain risks or limitations.", d:"" },
+      { n:28, a:"", b:"", c:"Describe your proposed project team structure, roles, and responsibilities. Include project managers, technical leads, engineers, SMEs, and onboarding specialists.", d:"" },
+      { n:29, a:"", b:"", c:"Confirm whether a dedicated project manager will be assigned. If yes, describe their role and authority.", d:"" },
+    ]},
+    { name: "Data Management", rows: [] },
+    { name: "Data Security", rows: [] },
+  ];
+
+  // --- Mapping state ---
+  let npStep = "upload"; // upload | details | mapping
+  let npFileUploaded = false;
+  let npFileName = "";
+  let smActiveSheet = 0;
+  let smCellMappings = {}; // key: "row-col" → { type, tag }
+  let smSelectedCell = null; // { row, col }
+  let smAutoMap = true;
+  let smSectionCount = 0;
+  let smSubsectionCount = 0;
+  let smQuestionCount = 0;
+  let smAnswerCount = 0;
+  let smMappingState = "initial"; // initial | partial | full
+
+  function openNewProject() {
+    npStep = "upload";
+    npFileUploaded = false;
+    npFileName = "";
+    smCellMappings = {};
+    smSelectedCell = null;
+    smSectionCount = 0;
+    smSubsectionCount = 0;
+    smQuestionCount = 0;
+    smAnswerCount = 0;
+    smMappingState = "initial";
+    document.getElementById("np-overlay").classList.add("show");
+    renderNpDetails();
+    showNpStep("details");
+    updateNpBreadcrumb();
+  }
+
+  function closeNewProject() {
+    document.getElementById("np-overlay").classList.remove("show");
+    closeCtxMenu();
+  }
+
+  function showNpStep(step) {
+    document.getElementById("np-step-details").style.display = step === "details" ? "flex" : "none";
+    document.getElementById("np-step-mapping").style.display = step === "mapping" ? "flex" : "none";
+    npStep = step === "details" ? (npFileUploaded ? "details" : "upload") : "mapping";
+    updateNpBreadcrumb();
+  }
+
+  function updateNpBreadcrumb() {
+    const steps = document.querySelectorAll(".np-bc-step");
+    steps.forEach(s => {
+      const sn = s.dataset.npstep;
+      s.classList.remove("active","clickable");
+      if (sn === "details" && (npStep === "upload" || npStep === "details")) s.classList.add("active");
+      if (sn === "mapping" && npStep === "mapping") s.classList.add("active");
+      if (sn === "details" && npStep === "mapping") s.classList.add("clickable");
+    });
+  }
+
+  function goToNpStep(step) {
+    if (step === "details" && npStep === "mapping") {
+      showNpStep("details");
+    }
+  }
+
+  // --- Render Upload / Details ---
+  function renderNpDetails() {
+    const c = document.getElementById("np-details-content");
+    if (!npFileUploaded) {
+      c.innerHTML = `
+        <h2 style="text-align:center; font-size:26px; font-weight:700; margin-bottom:8px;">New Project</h2>
+        <p style="text-align:center; color:#888; font-size:15px; line-height:1.6;">Got an RFP, RFI, DDQ, or questionnaire from a prospect?<br>Upload it to get started.</p>
+        <div class="np-upload-zone" id="np-drop-zone" onclick="simulateUpload()">
+          <div class="np-upload-icon">↑</div>
+          <p>Only XLSX, XLS, CSV, DOCX files – Upto 10MB max.</p>
+        </div>
+      `;
+    } else {
+      c.innerHTML = `
+        <div class="np-file-chip">
+          <span class="np-fc-icon">📁</span>
+          <span>${npFileName}</span>
+          <button class="np-fc-remove" onclick="removeUploadedFile()" data-tooltip="Remove">🗑</button>
+        </div>
+
+        <div class="np-form-group">
+          <label>Project title</label>
+          <input class="np-input" type="text" value="${npFileName.replace(/\.\w+$/, '')} (7)" id="np-title">
+        </div>
+
+        <div class="np-form-row">
+          <div class="np-form-group">
+            <label>Type</label>
+            <select class="np-select" id="np-type">
+              <option selected>RFP (Request For Proposal)</option>
+              <option>RFI (Request For Information)</option>
+              <option>DDQ (Due Diligence Questionnaire)</option>
+              <option>Security Questionnaire</option>
+            </select>
+          </div>
+          <div class="np-form-group">
+            <label>Prospect</label>
+            <select class="np-select" id="np-prospect">
+              <option value="" disabled selected>e.g. Acme Corp.</option>
+              <option>Pitney Bowes</option>
+              <option>Google</option>
+              <option>BHP</option>
+              <option>Salesforce</option>
+              <option>Microsoft</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="np-form-row">
+          <div class="np-form-group">
+            <label>Deal size</label>
+            <div class="np-deal-input">
+              <input class="np-input" type="text" placeholder="" id="np-deal-size" style="padding-right:44px;">
+              <span class="np-currency">USD</span>
+            </div>
+          </div>
+          <div class="np-form-group">
+            <label>Deal Stage</label>
+            <select class="np-select" id="np-deal-stage">
+              <option value="" disabled selected>Select deal stage</option>
+              <option>Lead</option>
+              <option>Discovery</option>
+              <option>Qualification</option>
+              <option>Closed Won</option>
+              <option>Closed Lost</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="np-form-row" style="align-items:flex-end;">
+          <div class="np-form-group" style="flex:4;">
+            <label>Project due by <span class="np-req">*</span></label>
+            <div style="position:relative;">
+              <input class="np-input" type="text" placeholder="dd/mm/ yyyy" id="np-due-date" style="padding-right:40px;">
+              <span style="position:absolute; right:12px; top:50%; transform:translateY(-50%); font-size:16px; color:#aaa; cursor:pointer;">📅</span>
+            </div>
+          </div>
+          <div class="np-form-group" style="flex:0 0 auto;">
+            <div class="np-more-link" onclick="showToast('More options...')">More <span style="font-size:18px;">···</span></div>
+          </div>
+        </div>
+
+        <div class="np-genie-row">
+          <label class="toggle-switch"><input type="checkbox" checked id="np-genie-toggle"><span class="toggle-slider"></span></label>
+          <span class="np-genie-label">Auto fill answers with <strong>Genie AI</strong></span>
+          <span class="np-genie-sparkle">✨</span>
+        </div>
+
+        <div class="np-form-group">
+          <label>Knowledge Hub <span style="font-size:11px; color:#aaa; cursor:pointer;" data-tooltip="Select a knowledge source">ⓘ</span></label>
+          <select class="np-select" id="np-knowledge-hub">
+            <option value="" disabled selected>Select knowledge hub</option>
+            <option>Company Knowledge Base</option>
+            <option>Product Documentation</option>
+            <option>Security Responses</option>
+          </select>
+        </div>
+
+        <div class="np-form-group">
+          <label>Test Field <span class="np-req">*</span></label>
+          <input class="np-input" type="text" placeholder="Enter test field" id="np-test-field">
+        </div>
+
+        <div class="np-form-group">
+          <label>Number <span class="np-req">*</span></label>
+          <input class="np-input" type="text" placeholder="Enter number" id="np-number">
+        </div>
+
+        <button class="np-next-btn" onclick="goToSmartMapping()">Next, map questions</button>
+      `;
+    }
+  }
+
+  function simulateUpload() {
+    npFileUploaded = true;
+    npFileName = "Data_Security_questionaire.xlsx";
+    npStep = "details";
+    renderNpDetails();
+  }
+
+  function removeUploadedFile() {
+    npFileUploaded = false;
+    npFileName = "";
+    npStep = "upload";
+    renderNpDetails();
+  }
+
+  // --- Smart Mapping ---
+  function goToSmartMapping() {
+    smMappingState = "initial";
+    smCellMappings = {};
+    smSectionCount = 0;
+    smSubsectionCount = 0;
+    smQuestionCount = 0;
+    smAnswerCount = 0;
+    showNpStep("mapping");
+    renderSmSpreadsheet();
+    renderSmPanel();
+    renderSmSheetTabs();
+  }
+
+  function renderSmSheetTabs() {
+    const wrap = document.getElementById("sm-sheet-tabs");
+    wrap.innerHTML = smSheets.map((sh, i) => `
+      <div class="sm-sheet-tab ${i === smActiveSheet ? 'active' : ''}" onclick="switchSmSheet(${i})">${sh.name}</div>
+    `).join("");
+  }
+
+  function switchSmSheet(idx) {
+    smActiveSheet = idx;
+    renderSmSpreadsheet();
+    renderSmSheetTabs();
+  }
+
+  function renderSmSpreadsheet() {
+    const table = document.getElementById("sm-table");
+    const sheet = smSheets[smActiveSheet];
+    if (!sheet.rows.length) {
+      table.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:60px; color:#aaa; font-size:14px;">No data in this sheet</td></tr>';
+      return;
+    }
+    let html = '<thead><tr><th style="width:36px;"></th><th class="col-a">A</th><th class="col-b">B</th><th class="col-c">C</th><th class="col-d">D</th></tr></thead><tbody>';
+    sheet.rows.forEach(r => {
+      const isH = r.isHeader;
+      html += '<tr>';
+      html += '<td class="sm-row-num">' + r.n + '</td>';
+      ["a","b","c","d"].forEach(col => {
+        const key = r.n + "-" + col;
+        const mapping = smCellMappings[key];
+        const isSel = smSelectedCell && smSelectedCell.row === r.n && smSelectedCell.col === col;
+        const cellStyle = isH ? 'style="font-weight:700; background:#f0f0f0;"' : '';
+        const selClass = isSel ? ' selected' : '';
+        let tagHtml = '';
+        if (mapping) {
+          const tagClass = 'sm-tag-' + mapping.type;
+          tagHtml = '<span class="sm-cell-tag ' + tagClass + '">' + mapping.tag + '</span>';
+        }
+        let sectionMarker = '';
+        if (col === "a" && mapping && mapping.type === "section") {
+          sectionMarker = '<span class="sm-section-marker">' + mapping.tag + '</span>';
+        }
+        html += '<td class="' + selClass + '" ' + cellStyle + ' data-row="' + r.n + '" data-col="' + col + '" onclick="selectSmCell(' + r.n + ',\'' + col + '\', event)" oncontextmenu="openCellCtxMenu(event, ' + r.n + ', \'' + col + '\')">';
+        if (col === "a" && sectionMarker) {
+          html += sectionMarker;
+        }
+        html += (r[col] || '') + tagHtml + '</td>';
+      });
+      html += '</tr>';
+    });
+    html += '</tbody>';
+    table.innerHTML = html;
+  }
+
+  function selectSmCell(row, col, e) {
+    if (e) e.stopPropagation();
+    closeCtxMenu();
+    smSelectedCell = { row, col };
+    renderSmSpreadsheet();
+  }
+
+  function openCellCtxMenu(e, row, col) {
+    e.preventDefault();
+    e.stopPropagation();
+    smSelectedCell = { row, col };
+    renderSmSpreadsheet();
+    const menu = document.getElementById("sm-ctx-menu");
+    menu.style.left = Math.min(e.clientX, window.innerWidth - 200) + "px";
+    menu.style.top = Math.min(e.clientY, window.innerHeight - 260) + "px";
+    menu.classList.add("show");
+  }
+
+  function closeCtxMenu() {
+    document.getElementById("sm-ctx-menu").classList.remove("show");
+  }
+
+  document.addEventListener("click", function(e) {
+    if (!e.target.closest(".sm-ctx-menu")) closeCtxMenu();
+  });
+
+  function mapCellAs(type) {
+    if (!smSelectedCell) return;
+    closeCtxMenu();
+    const key = smSelectedCell.row + "-" + smSelectedCell.col;
+    let tag = "";
+    if (type === "section") {
+      smSectionCount++;
+      tag = "S" + smSectionCount;
+    } else if (type === "subsection") {
+      smSubsectionCount++;
+      tag = "SS" + smSubsectionCount;
+    } else if (type === "question") {
+      smQuestionCount++;
+      const sc = smSectionCount || 1;
+      const ssc = smSubsectionCount || 0;
+      tag = "Q" + sc + "." + ssc + "." + smQuestionCount;
+    } else if (type === "textinput" || type === "dropdown") {
+      smAnswerCount++;
+      const sc = smSectionCount || 1;
+      const ssc = smSubsectionCount || 0;
+      tag = "A" + sc + "." + ssc + "." + smAnswerCount;
+    } else if (type === "instruction") {
+      tag = "INST";
+    }
+    smCellMappings[key] = { type, tag };
+
+    // Auto-map similar cells (top-down, same column)
+    if (smAutoMap) {
+      autoMapSimilarCells(smSelectedCell.row, smSelectedCell.col, type);
+    }
+
+    smMappingState = "partial";
+    renderSmSpreadsheet();
+    renderSmPanel();
+  }
+
+  function autoMapSimilarCells(startRow, col, type) {
+    const sheet = smSheets[smActiveSheet];
+    // Look at the formatting/content pattern of the source cell
+    const sourceRow = sheet.rows.find(r => r.n === startRow);
+    if (!sourceRow) return;
+    const sourceVal = sourceRow[col] || "";
+    const sourceHasContent = sourceVal.length > 0;
+    const isCategory = col === "a" || col === "b";
+
+    // For bold/category cells in A/B, map similar bold category cells
+    // For content cells in C, map similar content cells
+    // For D column, map as answer if C is question
+    if (col === "d" && type !== "question") return; // only auto-map D for answers
+
+    sheet.rows.forEach(r => {
+      if (r.n <= startRow || r.isHeader) return;
+      const k = r.n + "-" + col;
+      if (smCellMappings[k]) return; // already mapped
+
+      const val = r[col] || "";
+      if (!val && !sourceHasContent) return;
+
+      if (isCategory && val && sourceHasContent) {
+        // Same column, has content — might be similar
+        // Only auto-map a few to simulate the behavior
+      } else if (col === "c" && val.length > 50 && sourceVal.length > 50 && type === "question") {
+        smQuestionCount++;
+        const sc = smSectionCount || 1;
+        const ssc = smSubsectionCount || 0;
+        smCellMappings[k] = { type: "question", tag: "Q" + sc + "." + ssc + "." + smQuestionCount };
+        // Also auto-map D column as answer
+        const dk = r.n + "-d";
+        if (!smCellMappings[dk]) {
+          smAnswerCount++;
+          smCellMappings[dk] = { type: "textinput", tag: "A" + sc + "." + ssc + "." + smAnswerCount };
+        }
+      }
+    });
+  }
+
+  function mapWithGenie() {
+    // Simulate full mapping by GenieAI
+    smCellMappings = {};
+    smSectionCount = 0;
+    smSubsectionCount = 0;
+    smQuestionCount = 0;
+    smAnswerCount = 0;
+
+    const sheet = smSheets[smActiveSheet];
+    const sections = ["Company Profile", "Financial Stability", "Compliance", "Geographic Presence", "Project Overview"];
+    let currentSection = 0;
+
+    sheet.rows.forEach(r => {
+      if (r.isHeader) return;
+
+      // Map category cells as sections
+      if (r.a && sections.includes(r.a)) {
+        currentSection++;
+        smSectionCount = currentSection;
+        smCellMappings[r.n + "-a"] = { type: "section", tag: "S" + currentSection };
+      }
+
+      // Map requirement cells as questions
+      if (r.c && r.c.length > 30 && !r.isHeader) {
+        smQuestionCount++;
+        const sc = smSectionCount || 1;
+        smCellMappings[r.n + "-c"] = { type: "question", tag: "Q" + sc + ".0." + smQuestionCount };
+        // Map response column as answer
+        smAnswerCount++;
+        smCellMappings[r.n + "-d"] = { type: "textinput", tag: "A" + sc + ".0." + smAnswerCount };
+      }
+    });
+
+    smMappingState = "full";
+    renderSmSpreadsheet();
+    renderSmPanel();
+    showToast("GenieAI mapped " + Object.keys(smCellMappings).length + " cells");
+  }
+
+  function undoMapping() {
+    // Remove last mapping
+    const keys = Object.keys(smCellMappings);
+    if (keys.length) {
+      delete smCellMappings[keys[keys.length - 1]];
+      recountMappings();
+      renderSmSpreadsheet();
+      renderSmPanel();
+    }
+  }
+
+  function clearAllMappings() {
+    smCellMappings = {};
+    smSectionCount = 0;
+    smSubsectionCount = 0;
+    smQuestionCount = 0;
+    smAnswerCount = 0;
+    smMappingState = "initial";
+    renderSmSpreadsheet();
+    renderSmPanel();
+  }
+
+  function recountMappings() {
+    smSectionCount = 0; smSubsectionCount = 0; smQuestionCount = 0; smAnswerCount = 0;
+    Object.values(smCellMappings).forEach(m => {
+      if (m.type === "section") smSectionCount++;
+      else if (m.type === "subsection") smSubsectionCount++;
+      else if (m.type === "question") smQuestionCount++;
+      else if (m.type === "textinput" || m.type === "dropdown") smAnswerCount++;
+    });
+  }
+
+  function getTotalMapped() {
+    return Object.keys(smCellMappings).length;
+  }
+
+  // Build a tree: Section → Subsections → Questions/Answers
+  function getMappingTree() {
+    const sheet = smSheets[smActiveSheet];
+    const tree = []; // [{ type, tag, name, row, children: [{ type, tag, text, row }] }]
+    let currentSection = null;
+    let currentSub = null;
+
+    // Sort all mappings by row number
+    const sorted = Object.entries(smCellMappings)
+      .map(([key, val]) => { const [r, c] = key.split("-"); return { row: parseInt(r), col: c, ...val }; })
+      .sort((a, b) => a.row - b.row || a.col.localeCompare(b.col));
+
+    sorted.forEach(m => {
+      const r = sheet.rows.find(rr => rr.n === m.row);
+      if (!r) return;
+
+      if (m.type === "section") {
+        currentSection = { type: "section", tag: m.tag, name: r.a || r.b || "Section", row: m.row, children: [], subsections: [] };
+        tree.push(currentSection);
+        currentSub = null;
+      } else if (m.type === "subsection") {
+        const sub = { type: "subsection", tag: m.tag, name: r.b || r.a || "Subsection", row: m.row, children: [] };
+        if (currentSection) { currentSection.subsections.push(sub); }
+        currentSub = sub;
+      } else if (m.type === "question") {
+        const item = { type: "question", tag: m.tag, text: (r.c || r[m.col] || "").substring(0, 55), row: m.row };
+        if (currentSub) currentSub.children.push(item);
+        else if (currentSection) currentSection.children.push(item);
+        else tree.push(item);
+      } else if (m.type === "textinput" || m.type === "dropdown") {
+        const item = { type: "answer", tag: m.tag, text: "Answer for row " + m.row, row: m.row };
+        if (currentSub) currentSub.children.push(item);
+        else if (currentSection) currentSection.children.push(item);
+      } else if (m.type === "instruction") {
+        // instructions don't appear in tree
+      }
+    });
+    return tree;
+  }
+
+  let smTreeExpanded = {}; // key: tag → boolean
+
+  function toggleSmTreeNode(tag) {
+    smTreeExpanded[tag] = !smTreeExpanded[tag];
+    renderSmPanel();
+  }
+
+  function renderSmPanel() {
+    const panel = document.getElementById("sm-panel");
+    const totalMapped = getTotalMapped();
+    const qaTotal = smQuestionCount + smAnswerCount;
+    const tree = getMappingTree();
+
+    // Build tree HTML
+    function renderTreeSection(sec) {
+      const isOpen = smTreeExpanded[sec.tag] !== false; // default open
+      const qCount = sec.children.filter(c => c.type === "question").length;
+      const subCount = sec.subsections ? sec.subsections.length : 0;
+      let childHtml = '';
+
+      // Subsections
+      if (sec.subsections) {
+        sec.subsections.forEach(sub => {
+          const subOpen = smTreeExpanded[sub.tag] !== false;
+          const subQCount = sub.children.filter(c => c.type === "question").length;
+          childHtml += '<div style="margin-left:12px;">';
+          childHtml += '<div class="sm-tree-node" onclick="toggleSmTreeNode(\'' + sub.tag + '\')" style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:5px 0;">';
+          childHtml += '<span class="sm-tree-arrow ' + (subOpen ? 'open' : '') + '">›</span>';
+          childHtml += '<span class="sm-section-marker" style="background:#FDD835; color:#333; width:24px; height:18px; font-size:9px;">' + sub.tag + '</span>';
+          childHtml += '<span style="font-size:12px; font-weight:600; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">' + sub.name + '</span>';
+          childHtml += '<span style="font-size:11px; color:#aaa;">' + subQCount + '</span>';
+          childHtml += '</div>';
+          if (subOpen) {
+            sub.children.forEach(q => {
+              if (q.type === "question") {
+                childHtml += '<div class="sm-tree-leaf" style="margin-left:24px; display:flex; align-items:flex-start; gap:6px; padding:3px 0;" onclick="selectSmCell(' + q.row + ', \'c\', event)">';
+                childHtml += '<span style="font-size:9px; font-weight:700; color:#66BB6A; white-space:nowrap; margin-top:2px;">' + q.tag + '</span>';
+                childHtml += '<span style="font-size:11px; color:#555; line-height:1.3; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">' + q.text + '</span>';
+                childHtml += '</div>';
+              }
+            });
+          }
+          childHtml += '</div>';
+        });
+      }
+
+      // Direct children (questions not under a subsection)
+      if (isOpen) {
+        sec.children.forEach(q => {
+          if (q.type === "question") {
+            childHtml += '<div class="sm-tree-leaf" style="margin-left:24px; display:flex; align-items:flex-start; gap:6px; padding:3px 0; cursor:pointer;" onclick="selectSmCell(' + q.row + ', \'c\', event)">';
+            childHtml += '<span style="font-size:9px; font-weight:700; color:#66BB6A; white-space:nowrap; margin-top:2px;">' + q.tag + '</span>';
+            childHtml += '<span style="font-size:11px; color:#555; line-height:1.3; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">' + q.text + '</span>';
+            childHtml += '</div>';
+          }
+        });
+      }
+
+      const totalInSec = qCount + (sec.subsections ? sec.subsections.reduce((s, sub) => s + sub.children.filter(c => c.type === "question").length, 0) : 0);
+
+      return '<div style="margin-bottom:4px;">' +
+        '<div class="sm-tree-node" onclick="toggleSmTreeNode(\'' + sec.tag + '\')" style="cursor:pointer; display:flex; align-items:center; gap:6px; padding:6px 0; border-bottom:1px solid #f0f0f0;">' +
+          '<span class="sm-tree-arrow ' + (isOpen ? 'open' : '') + '">›</span>' +
+          '<span class="sm-section-marker">' + sec.tag + '</span>' +
+          '<span style="font-size:13px; font-weight:600; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">' + sec.name + '</span>' +
+          '<span style="font-size:11px; color:#888;">' + totalInSec + ' Q</span>' +
+        '</div>' +
+        (isOpen ? '<div style="margin-left:8px;">' + childHtml + '</div>' : '') +
+      '</div>';
+    }
+
+    let treeHtml = '';
+    if (tree.length === 0) {
+      treeHtml = '<div style="font-size:12px; color:#aaa; padding:12px 0; text-align:center;">No mappings yet.<br>Click a cell or use Map with GenieAI.</div>';
+    } else {
+      tree.forEach(node => {
+        if (node.type === "section") {
+          treeHtml += renderTreeSection(node);
+        }
+      });
+      // Orphan questions (no section parent)
+      const orphans = tree.filter(n => n.type === "question");
+      if (orphans.length) {
+        treeHtml += '<div style="margin-top:8px; padding-top:8px; border-top:1px solid #eee;">';
+        treeHtml += '<div style="font-size:11px; font-weight:600; color:#aaa; margin-bottom:4px;">Unmapped to section</div>';
+        orphans.forEach(q => {
+          treeHtml += '<div class="sm-tree-leaf" style="display:flex; align-items:flex-start; gap:6px; padding:3px 0; cursor:pointer;" onclick="selectSmCell(' + q.row + ', \'c\', event)">';
+          treeHtml += '<span style="font-size:9px; font-weight:700; color:#66BB6A; white-space:nowrap; margin-top:2px;">' + q.tag + '</span>';
+          treeHtml += '<span style="font-size:11px; color:#555; line-height:1.3;">' + q.text + '</span>';
+          treeHtml += '</div>';
+        });
+        treeHtml += '</div>';
+      }
+    }
+
+    // Summary counts bar
+    const summaryHtml = `
+      <div style="display:flex; gap:12px; margin-bottom:12px; padding:8px 10px; background:#f8f8f8; border-radius:8px; font-size:12px;">
+        <span style="display:flex; align-items:center; gap:4px;"><span class="sm-section-marker" style="width:20px; height:16px; font-size:8px;">S</span> ${smSectionCount}</span>
+        <span style="display:flex; align-items:center; gap:4px;"><span class="sm-section-marker" style="background:#FDD835; color:#333; width:20px; height:16px; font-size:8px;">SS</span> ${smSubsectionCount}</span>
+        <span style="display:flex; align-items:center; gap:4px;"><span class="sm-section-marker" style="background:#66BB6A; width:20px; height:16px; font-size:8px;">Q</span> ${smQuestionCount}</span>
+        <span style="display:flex; align-items:center; gap:4px;"><span class="sm-section-marker" style="background:#42A5F5; width:20px; height:16px; font-size:8px;">A</span> ${smAnswerCount}</span>
+      </div>
+    `;
+
+    panel.innerHTML = `
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+        <h3>Mapping</h3>
+        <span class="sm-help" onclick="showToast('Mapping help...')">⚙ Help</span>
+      </div>
+      <p class="sm-desc">Accurate mapping helps GenieAI to organize sections and auto-fill responses, speeding up your RFP.</p>
+
+      <div class="sm-toggle-row">
+        <span class="sm-tl">Auto map similar cells</span>
+        <label class="toggle-switch"><input type="checkbox" ${smAutoMap ? 'checked' : ''} onchange="smAutoMap=this.checked"><span class="toggle-slider"></span></label>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+        <button class="sm-genie-btn" onclick="mapWithGenie()"><span class="sm-beta">BETA</span> Map with GenieAI</button>
+      </div>
+
+      <div class="sm-mapped-count">${totalMapped} cells mapped</div>
+
+      <div class="sm-tools-row">
+        <button class="sm-tool-btn" onclick="undoMapping()" data-tooltip="Undo">↩</button>
+        <button class="sm-tool-btn" onclick="undoMapping()" data-tooltip="Redo">↪</button>
+        <select class="sm-unmap-select" onchange="if(this.value==='all'){clearAllMappings();this.value='unmap';}">
+          <option value="unmap">⊘ Unmap</option>
+          <option value="all">Clear all</option>
+        </select>
+        <button class="sm-tool-btn" onclick="showToast('Search cells...')" data-tooltip="Search">🔍</button>
+      </div>
+
+      ${summaryHtml}
+
+      <!-- Mapping Tree -->
+      <div style="flex:1; overflow-y:auto; margin-bottom:16px;">
+        <input class="sm-cat-search" type="text" placeholder="Search mappings..." style="margin-bottom:8px;">
+        ${treeHtml}
+      </div>
+
+      <button class="sm-finish-btn" onclick="finishMapping()">Finish mapping</button>
+      ${smMappingState === 'full' ? '<div class="sm-warning">⚠ Genie found some issues in your mapping.<br>Fix them in <a onclick="showToast(\'Opening diagnosis...\')">🔍 Diagnosis</a> to finish mapping</div>' : ''}
+    `;
+  }
+
+  function toggleSmCat(header) {
+    const body = header.nextElementSibling;
+    const arrow = header.querySelector(".sm-cat-arrow");
+    body.classList.toggle("show");
+    arrow.classList.toggle("open");
+  }
+
+  function finishMapping() {
+    closeNewProject();
+    // Navigate to the project detail screen (question editor)
+    showDetail(0);
+    showToast("Project created! Landing in question editor...");
+  }
+
+  // ==================== INIT ====================
+  renderProjects();
+</script>
+</body>
+</html>
