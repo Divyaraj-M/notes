@@ -306,9 +306,33 @@
               "icon": "code-glyph",
               "title": "wireframe"
             }
+          },
+          {
+            "id": "35c0b7d86862c54d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/competitors/Responsiveio/Answer types.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Answer types"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -421,7 +445,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -431,7 +455,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Thinking"
+              "title": "Backlinks for Answer types"
             }
           },
           {
@@ -440,12 +464,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Thinking"
+              "title": "Outgoing links from Answer types"
             }
           },
           {
@@ -474,10 +498,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
+                "file": "Product/competitors/Responsiveio/Answer types.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Thinking"
+              "title": "File properties for Answer types"
             }
           },
           {
@@ -486,13 +510,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "Product/competitors/Responsiveio/Answer types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Thinking"
+              "title": "Outline of Answer types"
             }
           },
           {
@@ -671,17 +695,20 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c6727febc1419723",
+  "active": "35c0b7d86862c54d",
   "lastOpenFiles": [
+    "Product/competitors/Responsiveio/Multi-column.md",
+    "Product/competitors/Responsiveio/Answer types.md",
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
+    "Product/Projects/Answers/Answer types.md",
+    "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "TO DO List - today.md",
     "Product/Wireframe/wireframe.html",
     "Product/Brand kit/Brand Kit.md",
     "Product/Wireframe",
     "Product/competitors/Untitled.md",
-    "Product/competitors/Responsiveio/Multi-column.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
-    "Product/competitors/Responsiveio/Answer types.md",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
     "Product/competitors/Responsiveio/Attachments - Responsive.md",
@@ -700,8 +727,6 @@
     "Product/Projects/Progress bar/Decision-State Progress Bars.md",
     "Product/competitors/RRM_Competitive_Analysis.md",
     "Product/Email notifications/Email notifications.md",
-    "Product/competitors/QorusDocs.md",
-    "Product/competitors/Arphie.ai.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",

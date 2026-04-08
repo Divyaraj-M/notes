@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Answer types",
+      "path": "Product/competitors/Responsiveio/Answer types.md"
+    },
+    {
+      "basename": "Multi-column",
+      "path": "Product/competitors/Responsiveio/Multi-column.md"
+    },
+    {
+      "basename": "Multicolumn , check box",
+      "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
+    },
+    {
+      "basename": "Answer types",
+      "path": "Product/Projects/Answers/Answer types.md"
+    },
+    {
       "basename": "Thinking",
       "path": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
     },
@@ -17,20 +33,12 @@
       "path": "Product/Brand kit/Brand Kit.md"
     },
     {
-      "basename": "Multi-column",
-      "path": "Product/competitors/Responsiveio/Multi-column.md"
-    },
-    {
       "basename": "UAT Vipin",
       "path": "Product/UAT/UAT Vipin.md"
     },
     {
       "basename": "progress-wireframe",
       "path": "Product/Projects/Progress bar/progress-wireframe.html"
-    },
-    {
-      "basename": "Answer types",
-      "path": "Product/competitors/Responsiveio/Answer types.md"
     },
     {
       "basename": "SmartScan",
@@ -191,14 +199,6 @@
     {
       "basename": "relationships",
       "path": "TaskNotes/Views/relationships.base"
-    },
-    {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.html"
-    },
-    {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md"
     }
   ],
   "omittedPaths": [],
