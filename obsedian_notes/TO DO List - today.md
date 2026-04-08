@@ -32,4 +32,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [x] 2 Competitor Analysis 
 - [ ] Ablity to multi-column. Dates and Description
 08-Apr-2026
-  - [ ] 
+  - [ ] Brand Templates
+  - [ ] Ablity to multi-column. Dates and Description
