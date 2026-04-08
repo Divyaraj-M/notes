@@ -47,4 +47,4 @@ Impact Areas
 - Mapping screen - How to show multiple documents with different formats 
 -  Download Preview screen
 - Download options 
-- Project Health Screen =-
+- Project Health Screen
