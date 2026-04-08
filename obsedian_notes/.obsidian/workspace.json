@@ -356,7 +356,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -469,7 +469,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "TO DO List - today.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -479,7 +479,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FRD Template"
+              "title": "Backlinks for TO DO List - today"
             }
           },
           {
@@ -488,12 +488,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "TO DO List - today.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from FRD Template"
+              "title": "Outgoing links from TO DO List - today"
             }
           },
           {
@@ -522,10 +522,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md"
+                "file": "TO DO List - today.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for FRD Template"
+              "title": "File properties for TO DO List - today"
             }
           },
           {
@@ -534,13 +534,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FRD Template"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -719,10 +719,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "e3cadedc551c8961",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/UAT/UAT Vipin.md",
     "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
     "Product/Templates/Product Spec - Template.md",
     "Product/Templates/Product Spec Template 2.md",
     "Product/competitors/Responsiveio/Answer types.md",
@@ -735,7 +736,6 @@
     "Product/Brand kit/Brand Kit.md",
     "Product/Wireframe",
     "Product/competitors/Untitled.md",
-    "Product/UAT/UAT Vipin.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
     "Product/competitors/Loopio/SmartScan.md",
     "Product/competitors/Responsiveio/Go- no - Go responsive.md",
