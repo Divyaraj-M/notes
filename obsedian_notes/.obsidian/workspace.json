@@ -330,9 +330,33 @@
               "icon": "lucide-file",
               "title": "Answer types"
             }
+          },
+          {
+            "id": "e3cadedc551c8961",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FRD Template"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -445,7 +469,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -455,7 +479,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Answer types"
+              "title": "Backlinks for FRD Template"
             }
           },
           {
@@ -464,12 +488,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Answer types"
+              "title": "Outgoing links from FRD Template"
             }
           },
           {
@@ -498,10 +522,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md"
+                "file": "Product/Templates/Product to dev process/FRD Template.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Answer types"
+              "title": "File properties for FRD Template"
             }
           },
           {
@@ -510,13 +534,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
+                "file": "Product/Templates/Product to dev process/FRD Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Answer types"
+              "title": "Outline of FRD Template"
             }
           },
           {
@@ -695,10 +719,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "35c0b7d86862c54d",
+  "active": "e3cadedc551c8961",
   "lastOpenFiles": [
-    "Product/competitors/Responsiveio/Multi-column.md",
+    "Product/Templates/Product to dev process/PRD Feature Name.md",
+    "Product/Templates/Product to dev process/FRD Template.md",
+    "Product/Templates/Product Spec - Template.md",
+    "Product/Templates/Product Spec Template 2.md",
     "Product/competitors/Responsiveio/Answer types.md",
+    "Product/competitors/Responsiveio/Multi-column.md",
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
@@ -723,10 +751,6 @@
     "Product/Help Article/Create a project.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
     "Product/Help Article/SparrowGenie - Help Articles.md",
-    "Find Analogies.md",
-    "Product/Projects/Progress bar/Decision-State Progress Bars.md",
-    "Product/competitors/RRM_Competitive_Analysis.md",
-    "Product/Email notifications/Email notifications.md",
     "Help articles /projects/tracking",
     "Help articles /projects/reviewing",
     "Help articles /projects/mapping",

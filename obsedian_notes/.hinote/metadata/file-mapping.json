@@ -49,7 +49,11 @@
     "Product/Wireframe/wireframe.html": "product_wireframe_wireframe.html.json",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md": "product_projects_proposals_rfp_to_proposal_thinking.md.json",
     "Product/Projects/Answers/Answer types.md": "product_projects_answers_answer_types.md.json",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md": "product_projects_attachments_in_rfp_response_area_multicolumn_,_check_box.md.json"
+    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md": "product_projects_attachments_in_rfp_response_area_multicolumn_,_check_box.md.json",
+    "Product/Templates/Product Spec Template 2.md": "product_templates_product_spec_template_2.md.json",
+    "Product/Templates/Product Spec - Template.md": "product_templates_product_spec_-_template.md.json",
+    "Product/Templates/Product to dev process/FRD Template.md": "product_templates_product_to_dev_process_frd_template.md.json",
+    "Product/Templates/Product to dev process/PRD Feature Name.md": "product_templates_product_to_dev_process_prd_feature_name.md.json"
   },
-  "lastUpdated": 1775643088179
+  "lastUpdated": 1775643798433
 }

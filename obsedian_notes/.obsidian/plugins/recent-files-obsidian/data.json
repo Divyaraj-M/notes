@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "FRD Template",
+      "path": "Product/Templates/Product to dev process/FRD Template.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "Product/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "Product Spec - Template",
+      "path": "Product/Templates/Product Spec - Template.md"
+    },
+    {
+      "basename": "Product Spec Template 2",
+      "path": "Product/Templates/Product Spec Template 2.md"
+    },
+    {
       "basename": "Answer types",
       "path": "Product/competitors/Responsiveio/Answer types.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "My Templates - Proposal (Next phase)",
       "path": "Product/Projects/Proposals/My Templates - Proposal (Next phase).md"
-    },
-    {
-      "basename": "calendar-default",
-      "path": "TaskNotes/Views/calendar-default.base"
-    },
-    {
-      "basename": "agenda-default",
-      "path": "TaskNotes/Views/agenda-default.base"
-    },
-    {
-      "basename": "tasks-default",
-      "path": "TaskNotes/Views/tasks-default.base"
-    },
-    {
-      "basename": "relationships",
-      "path": "TaskNotes/Views/relationships.base"
     }
   ],
   "omittedPaths": [],
