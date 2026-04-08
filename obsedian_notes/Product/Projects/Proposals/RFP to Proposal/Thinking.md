@@ -43,3 +43,8 @@
 -     - I mean there here is a cover page can have conslusion appecides and something more on kidna that 
 - 
 - Can admins save blocks to a shared block library that can be reused across templates? Like "Legal Disclaimer block" — create once, insert into any template? Or is every block template-specific? no reaured for v1
+Impact Areas
+- Mapping screen - How to show multiple documents with different formats 
+-  Download Preview screen
+- Download options 
+- Project Health Screen =-

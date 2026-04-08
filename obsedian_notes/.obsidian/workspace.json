@@ -469,7 +469,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -479,7 +479,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TO DO List - today"
+              "title": "Backlinks for Thinking"
             }
           },
           {
@@ -488,12 +488,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TO DO List - today"
+              "title": "Outgoing links from Thinking"
             }
           },
           {
@@ -522,10 +522,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TO DO List - today.md"
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for TO DO List - today"
+              "title": "File properties for Thinking"
             }
           },
           {
@@ -534,13 +534,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO DO List - today.md",
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TO DO List - today"
+              "title": "Outline of Thinking"
             }
           },
           {
@@ -719,8 +719,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "eb4af261a65f93e8",
+  "active": "c6727febc1419723",
   "lastOpenFiles": [
+    "TO DO List - today.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Templates/Product to dev process/FRD Template.md",
     "Product/Templates/Product to dev process/PRD Feature Name.md",
@@ -731,7 +732,6 @@
     "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
     "Product/Projects/Answers/Answer types.md",
     "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-    "TO DO List - today.md",
     "Product/Wireframe/wireframe.html",
     "Product/Brand kit/Brand Kit.md",
     "Product/Wireframe",
