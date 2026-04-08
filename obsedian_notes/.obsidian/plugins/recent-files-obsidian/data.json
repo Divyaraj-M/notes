@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "Brand Kit",
+      "path": "Product/Brand kit/Brand Kit.md"
+    },
+    {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "Proposal to Project",
       "path": "Product/competitors/Loopio/Proposal to Project.md"
-    },
-    {
-      "basename": "Brand Kit",
-      "path": "Product/Brand kit/Brand Kit.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",

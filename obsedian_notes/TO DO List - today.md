@@ -31,3 +31,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ] 20 Articles 
 - [x] 2 Competitor Analysis 
 - [ ] Ablity to multi-column. Dates and Description
+08-Apr-2026
+  - [ ] 

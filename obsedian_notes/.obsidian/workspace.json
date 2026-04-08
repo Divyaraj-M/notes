@@ -263,12 +263,24 @@
             "id": "15b3301cd05a2b34",
             "type": "leaf",
             "state": {
-              "type": "card-browser-view",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "Product/Brand kit/Brand Kit.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-file",
+              "title": "Brand Kit"
             }
           }
         ],
@@ -385,6 +397,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TO DO List - today.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -394,7 +407,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for TO DO List - today"
             }
           },
           {
@@ -403,11 +416,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TO DO List - today.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from TO DO List - today"
             }
           },
           {
@@ -435,9 +449,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "TO DO List - today.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for TO DO List - today"
             }
           },
           {
@@ -446,12 +462,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
@@ -629,8 +646,9 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "15b3301cd05a2b34",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/Brand kit/Brand Kit.md",
     "Product/competitors/Responsiveio/Multi-column.md",
     "Product/UAT/UAT Vipin.md",
     "Product/Projects/Progress bar/progress-wireframe.html",
@@ -642,7 +660,6 @@
     "Product/competitors/Responsiveio/Answer types templates.md",
     "Product/competitors/Untitled.md",
     "Product/competitors/Loopio/Proposal to Project.md",
-    "Product/Brand kit/Brand Kit.md",
     "Product/Untitled.md",
     "Product/Brand kit",
     "TO DO List - today.md",
