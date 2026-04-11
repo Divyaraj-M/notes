@@ -11372,6 +11372,7 @@ vibes
 vibe
 voice
 victims
+verifcation
 No
 Non
 Nice
@@ -14101,6 +14102,7 @@ monster
 metaphorically
 mutation
 memorable
+miro
 Owners
 Opportunity
 Owner

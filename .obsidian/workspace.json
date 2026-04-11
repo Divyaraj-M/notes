@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "fa5766d8e837e200",
-            "type": "leaf",
-            "state": {
-              "type": "card-browser-view",
-              "state": {
-                "path": "/"
-              },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
-            }
-          },
-          {
-            "id": "e8252954d22a427d",
+            "id": "29fedc935bf2d4f3",
             "type": "leaf",
             "state": {
               "type": "pm-project-view",
@@ -44,43 +32,18 @@
             }
           },
           {
-            "id": "1dc4d104a99c4adc",
+            "id": "0061ed12b869a9e6",
             "type": "leaf",
             "state": {
               "type": "pm-project-view",
               "state": {
-                "filePath": "Projects/Rich text.md"
+                "filePath": "Projects/Rich Text.md"
               },
               "icon": "chart-gantt",
               "title": "Rich text"
             }
-          },
-          {
-            "id": "fe424c681c30e496",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsedian_notes/Product/competitors/QorusDocs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "QorusDocs"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,11 +208,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "obsedian_notes/TO DO List - today.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for TO DO List - today"
+              "title": "File properties"
             }
           },
           {
@@ -436,14 +397,19 @@
       "project-manager:Project Manager": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "0c17385b07d55853",
   "lastOpenFiles": [
+    "MyMail.md",
+    "Mirosignup.md",
+    "obsedian_notes/Product/Projects/Progress bar/Decision-State Progress Bars.md",
+    "obsedian_notes/TO DO List - today.md",
+    "Projects/Rich Text.md",
+    "Projects/Rich Text_tasks",
     "obsedian_notes/Product/competitors/QorusDocs.md",
     "obsedian_notes/Product/competitors/RRM_Competitive_Analysis.md",
     "obsedian_notes/Product/competitors/Arphie.ai.md",
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "obsedian_notes/Friction points.md",
-    "obsedian_notes/TO DO List - today.md",
     "obsedian_notes/second_stream_revenue/Google_sheets/CEO One Pager.md",
     "Projects/Rich text.md",
     "obsedian_notes/Product/Knowledge Hub/RFP training PRD.md",
@@ -469,11 +435,6 @@
     "obsedian_notes/TaskNotes/Views/tasks-default.base",
     "obsedian_notes/TaskNotes/Views/relationships.base",
     "obsedian_notes/TaskNotes/Views/mini-calendar-default.base",
-    "obsedian_notes/TaskNotes/Views/kanban-default.base",
-    "obsedian_notes/Product/User roles/Project/Question card/Reviewer.md",
-    "obsedian_notes/Product/User roles/Project/Question card/Author.md",
-    "obsedian_notes/Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
-    "obsedian_notes/Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
