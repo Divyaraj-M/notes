@@ -145,14 +145,24 @@
             "state": {
               "type": "card-browser-view",
               "state": {
-                "path": "product-manager-prompts-main/vibes"
+                "path": "product-manager-prompts-main"
               },
               "icon": "align-vertical-justify-start",
               "title": "Browse"
             }
+          },
+          {
+            "id": "8679264995df7f70",
+            "type": "leaf",
+            "state": {
+              "type": "rss-dashboard-view",
+              "state": {},
+              "icon": "rss",
+              "title": "RSS dashboard"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -514,10 +524,11 @@
       "cards-view:Card view": false,
       "project-browser:Open project browser": false,
       "digitalgarden:Digital Garden Publication Center": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "838e105f3c66feff",
+  "active": "8679264995df7f70",
   "lastOpenFiles": [
     "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
     "product-manager-prompts-main/prompting-style-guide.md",
