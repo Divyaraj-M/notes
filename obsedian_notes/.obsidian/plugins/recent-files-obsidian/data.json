@@ -5,16 +5,28 @@
       "path": "Product/UAT/UAT Vipin.md"
     },
     {
-      "basename": "Happyflow breakdown inputs",
-      "path": "Happyflow breakdown inputs.png"
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
+      "basename": "Project Share - RFx and Proposal",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
+    },
+    {
+      "basename": "SME Operating system",
+      "path": "Product/Product Sync system/SME Operating system.md"
+    },
+    {
+      "basename": "Multi-column",
+      "path": "Product/competitors/Responsiveio/Multi-column.md"
+    },
+    {
+      "basename": "Brand Kit",
+      "path": "Product/Brand kit/Brand Kit.md"
     },
     {
       "basename": "Thinking",
       "path": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "FRD Template",
@@ -37,10 +49,6 @@
       "path": "Product/competitors/Responsiveio/Answer types.md"
     },
     {
-      "basename": "Multi-column",
-      "path": "Product/competitors/Responsiveio/Multi-column.md"
-    },
-    {
       "basename": "Multicolumn , check box",
       "path": "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "wireframe",
       "path": "Product/Wireframe/wireframe.html"
-    },
-    {
-      "basename": "Brand Kit",
-      "path": "Product/Brand kit/Brand Kit.md"
     },
     {
       "basename": "progress-wireframe",
@@ -85,18 +89,6 @@
       "path": "Product/competitors/Loopio/Proposal to Project.md"
     },
     {
-      "basename": "Auto-Mark High Confidence Answers as Reviewed in Import Flow",
-      "path": "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "Friction points.md"
-    },
-    {
-      "basename": "SME Operating system",
-      "path": "Product/Product Sync system/SME Operating system.md"
-    },
-    {
       "basename": "Create a project",
       "path": "Product/Help Article/Create a project.md"
     },
@@ -107,10 +99,6 @@
     {
       "basename": "SparrowGenie - Help Articles",
       "path": "Product/Help Article/SparrowGenie - Help Articles.md"
-    },
-    {
-      "basename": "Find Analogies",
-      "path": "Find Analogies.md"
     },
     {
       "basename": "Decision-State Progress Bars",
@@ -135,10 +123,6 @@
     {
       "basename": "Product Review system",
       "path": "Product/Product Sync system/Product Review system.md"
-    },
-    {
-      "basename": "Project Share - RFx and Proposal",
-      "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
     },
     {
       "basename": "Getting Started",
@@ -191,14 +175,6 @@
     {
       "basename": "Permissions.excalidraw",
       "path": "Excalidraw/Permissions.excalidraw.md"
-    },
-    {
-      "basename": "Share first principle",
-      "path": "Product/Projects/Proposals/Share for the proposal/Share first principle.md"
-    },
-    {
-      "basename": "Genie Templates - Propsals",
-      "path": "Product/Projects/Proposals/Genie Templates - Propsals.md"
     }
   ],
   "omittedPaths": [],

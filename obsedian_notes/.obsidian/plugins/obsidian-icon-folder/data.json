@@ -46,10 +46,5 @@
     "iconColor": "#d150e2"
   },
   "second_stream_revenue": "LiSquareSplitVertical",
-  "My Data.base": {
-    "iconName": "LiView",
-    "iconColor": "#3ca4be"
-  },
-  "Excalidraw": "LiExcalidrawIcon",
-  "Friction points.md": "😞"
+  "Excalidraw": "LiExcalidrawIcon"
 }

@@ -56,30 +56,6 @@
             }
           },
           {
-            "id": "2658908dbf330066",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Share - RFx and Proposal"
-            }
-          },
-          {
             "id": "a8147277983e71f2",
             "type": "leaf",
             "state": {
@@ -152,30 +128,6 @@
             }
           },
           {
-            "id": "49cf17d6a3011080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Brand kit/Brand Kit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Brand Kit"
-            }
-          },
-          {
             "id": "4193753dcf0c5d56",
             "type": "leaf",
             "state": {
@@ -198,197 +150,9 @@
               "icon": "lucide-file",
               "title": "Multi-column"
             }
-          },
-          {
-            "id": "b2ace781e0bd552f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multi-column"
-            }
-          },
-          {
-            "id": "0a158a874b6dc74f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/UAT/UAT Vipin.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT Vipin"
-            }
-          },
-          {
-            "id": "bed0bd9a4a493693",
-            "type": "leaf",
-            "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Projects/Progress bar/progress-wireframe.html"
-              },
-              "icon": "lucide-ghost",
-              "title": "html-view"
-            }
-          },
-          {
-            "id": "15b3301cd05a2b34",
-            "type": "leaf",
-            "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Wireframe/wireframe.html"
-              },
-              "icon": "lucide-ghost",
-              "title": "html-view"
-            }
-          },
-          {
-            "id": "92d63a2aba3df67a",
-            "type": "leaf",
-            "state": {
-              "type": "card-browser-view",
-              "state": {
-                "path": "/"
-              },
-              "icon": "lucide-ghost",
-              "title": "card-browser-view"
-            }
-          },
-          {
-            "id": "444665fd8c0cf0cb",
-            "type": "leaf",
-            "state": {
-              "type": "card-browser-view",
-              "state": {
-                "path": "/"
-              },
-              "icon": "lucide-ghost",
-              "title": "card-browser-view"
-            }
-          },
-          {
-            "id": "135ff2343f263891",
-            "type": "leaf",
-            "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Wireframe/wireframe.html"
-              },
-              "icon": "lucide-ghost",
-              "title": "html-view"
-            }
-          },
-          {
-            "id": "35c0b7d86862c54d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/competitors/Responsiveio/Answer types.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Answer types"
-            }
-          },
-          {
-            "id": "e3cadedc551c8961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Templates/Product to dev process/FRD Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FRD Template"
-            }
-          },
-          {
-            "id": "5405fd78e878ceee",
-            "type": "leaf",
-            "state": {
-              "type": "cards-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "cards-view"
-            }
-          },
-          {
-            "id": "c7b1b2eaa86127bb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Happyflow breakdown inputs.png"
-              },
-              "icon": "lucide-image",
-              "title": "Happyflow breakdown inputs"
-            }
-          },
-          {
-            "id": "aa1e4ba20bdee2cb",
-            "type": "leaf",
-            "state": {
-              "type": "cards-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Cards View"
-            }
           }
         ],
-        "currentTab": 19
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -462,7 +226,8 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -533,8 +298,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -543,8 +308,8 @@
             "state": {
               "type": "hinote-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "hinote-view"
+              "icon": "highlighter",
+              "title": "HiNote"
             }
           },
           {
@@ -565,23 +330,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "mail.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Thinking"
-            }
-          },
-          {
-            "id": "674e2914c6aaa177",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "todo"
+              "title": "Outline of mail"
             }
           },
           {
@@ -607,29 +362,9 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
-          },
-          {
-            "id": "24af15170daf88c2",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
-            "id": "9f0b8ea9de089915",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -666,30 +401,6 @@
             }
           },
           {
-            "id": "0cb49de0e84002f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Friction points.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Friction points"
-            }
-          },
-          {
             "id": "c6727febc1419723",
             "type": "leaf",
             "state": {
@@ -714,7 +425,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "9140aa1d3d409719",
@@ -765,11 +476,41 @@
       "tasknotes:Open pomodoro timer": false,
       "tasknotes:Open pomodoro statistics": false,
       "tasknotes:Create new task": false,
-      "cards-view:Card view": false
+      "cards-view:Card view": false,
+      "project-browser:Open project browser": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "aa1e4ba20bdee2cb",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "Projects/Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
+    "Not a trash/Sparrow Genie Notes.md",
+    "Not a trash/salesforce_integration.md",
+    "Not a trash/README.md",
+    "Not a trash/notification.md",
+    "Not a trash/notes.md",
+    "Not a trash/MyMail.md",
+    "Not a trash/My_product_notes.md",
+    "Not a trash/My Data.base",
+    "Not a trash/Mirosignup.md",
+    "Not a trash/mails.md",
+    "Not a trash/mail.md",
+    "Not a trash/Integrations.md",
+    "Not a trash/Happyflow breakdown inputs.png",
+    "Not a trash/Friction points.md",
+    "Not a trash/Find Analogies.md",
+    "Not a trash/external_share.md",
+    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
+    "Friction points.md",
+    "Find Analogies.md",
+    "TO DO List - today.md",
+    "salesforce_integration.md",
+    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "onboarding.md",
+    "Product/UAT/UAT Vipin.md",
+    "Product/Product Sync system/SME Operating system.md",
+    "Product/competitors/Responsiveio/Multi-column.md",
+    "Product/Brand kit/Brand Kit.md",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Context Info",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Books/Authors",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Users",
@@ -779,13 +520,6 @@
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Table View",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Learning/ARCA AI/UTITSL_102",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Product Sync system",
-    "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Email notifications",
-    "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Proposals/RFP to Proposal",
-    "obsedian_notes/obsedian_notes/Find Analogies.md",
-    "obsedian_notes/obsedian_notes/Daily/UAT Kavin.md",
-    "obsedian_notes/obsedian_notes/Books/Read List/Untitled.md",
-    "obsedian_notes/obsedian_notes/2026/202603.md",
-    "Projects/Rich Text.md",
     "obsedian_notes/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "obsedian_notes/Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "obsedian_notes/Books/Read List/Screenshot_20260316-101854.png",
@@ -795,27 +529,6 @@
     "obsedian_notes/Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
     "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
-    "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
-    "obsedian_notes/Product/SparrowGenie.excalidraw.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
-    "obsedian_notes/Product/Knowledge Hub/RFP training.md",
-    "obsedian_notes/Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "obsedian_notes/Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
-    "obsedian_notes/Product/Knowledge Hub/RFP training PRD.md",
-    "obsedian_notes/Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
-    "obsedian_notes/Product/Marketing/ROI Calculator/ROI Calculator.md",
-    "obsedian_notes/Product/Projects/Proposals/Company Templates - Proposal.md",
-    "obsedian_notes/Product/Projects/Proposals/Genie Templates - Propsals.md",
-    "obsedian_notes/Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "obsedian_notes/Product/competitors/Five Differentiators/Differentiator.md",
-    "obsedian_notes/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
-    "obsedian_notes/second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "obsedian_notes/Product/Product Sync system/SME Operating system.md",
-    "obsedian_notes/Product/Projects/Proposals/Proposal Template flow.md",
-    "obsedian_notes/Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-    "obsedian_notes/Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
-    "obsedian_notes/Product/Go-no-go/External Questionnaire Score (EQS).md",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",
     "Product/Settings/Teams/Teams.canvas",
