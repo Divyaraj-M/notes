@@ -66,9 +66,19 @@
               "icon": "chart-gantt",
               "title": "PM"
             }
+          },
+          {
+            "id": "fe424c681c30e496",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -372,8 +382,12 @@
       "project-manager:Project Manager": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "fe424c681c30e496",
   "lastOpenFiles": [
+    "obsedian_notes/Product/Knowledge Hub/RFP training PRD.md",
+    "obsedian_notes/Product/Email notifications/Email Notifications.md",
+    "obsedian_notes/Product/Brand kit/Brand Kit.md",
+    "Untitled.base",
     "test.csv",
     "salesforce_integration.md",
     "onboarding.md",
@@ -395,8 +409,6 @@
     "obsedian_notes/TaskNotes/Views/relationships.base",
     "obsedian_notes/TaskNotes/Views/mini-calendar-default.base",
     "obsedian_notes/TaskNotes/Views/kanban-default.base",
-    "obsedian_notes/TaskNotes/Views/calendar-default.base",
-    "obsedian_notes/TaskNotes/Views/agenda-default.base",
     "obsedian_notes/TO DO List - today.md",
     "obsedian_notes/Product/User roles/Project/Question card/Reviewer.md",
     "obsedian_notes/Product/User roles/Project/Question card/Author.md",
@@ -408,8 +420,6 @@
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "obsedian_notes/Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
-    "obsedian_notes/Product/competitors/Responsiveio/Responsive.io.md",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
