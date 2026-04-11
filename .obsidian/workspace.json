@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsedian_notes/Product/competitors/Arphie.ai.md",
+                "file": "obsedian_notes/Product/competitors/QorusDocs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,19 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Arphie.ai"
-            }
-          },
-          {
-            "id": "b739fe80be9a351a",
-            "type": "leaf",
-            "state": {
-              "type": "pm-project-view",
-              "state": {
-                "filePath": ""
-              },
-              "icon": "chart-gantt",
-              "title": "PM"
+              "title": "QorusDocs"
             }
           }
         ],
@@ -258,10 +246,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
+                "file": "obsedian_notes/TO DO List - today.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Thinking"
+              "title": "File properties for TO DO List - today"
             }
           },
           {
@@ -280,13 +268,27 @@
             }
           },
           {
-            "id": "674e2914c6aaa177",
+            "id": "77344ee7ef9a7139",
             "type": "leaf",
             "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "type": "markdown",
+              "state": {
+                "file": "obsedian_notes/TO DO List - today.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TO DO List - today"
             }
           }
         ],
@@ -327,13 +329,51 @@
             }
           },
           {
-            "id": "0cb49de0e84002f1",
+            "id": "95a5b86bc73ce0bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "obsedian_notes/Friction points.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Friction points"
+            }
+          },
+          {
+            "id": "0883e17e737fb0a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thinking"
             }
           }
         ],
@@ -396,10 +436,14 @@
       "project-manager:Project Manager": false
     }
   },
-  "active": "fe424c681c30e496",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
-    "obsedian_notes/Product/competitors/RRM_Competitive_Analysis.md",
     "obsedian_notes/Product/competitors/QorusDocs.md",
+    "obsedian_notes/Product/competitors/RRM_Competitive_Analysis.md",
+    "obsedian_notes/Product/competitors/Arphie.ai.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+    "obsedian_notes/Friction points.md",
+    "obsedian_notes/TO DO List - today.md",
     "obsedian_notes/second_stream_revenue/Google_sheets/CEO One Pager.md",
     "Projects/Rich text.md",
     "obsedian_notes/Product/Knowledge Hub/RFP training PRD.md",
@@ -426,14 +470,10 @@
     "obsedian_notes/TaskNotes/Views/relationships.base",
     "obsedian_notes/TaskNotes/Views/mini-calendar-default.base",
     "obsedian_notes/TaskNotes/Views/kanban-default.base",
-    "obsedian_notes/TO DO List - today.md",
     "obsedian_notes/Product/User roles/Project/Question card/Reviewer.md",
     "obsedian_notes/Product/User roles/Project/Question card/Author.md",
     "obsedian_notes/Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
     "obsedian_notes/Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
-    "obsedian_notes/Product/Projects/Proposals/Share for the proposal/Share first principle.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
