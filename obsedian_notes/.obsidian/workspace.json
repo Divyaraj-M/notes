@@ -160,9 +160,19 @@
               "icon": "rss",
               "title": "RSS dashboard"
             }
+          },
+          {
+            "id": "37505cb68cf72270",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -382,9 +392,19 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "f9cac0a8aa3e5022",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -525,10 +545,13 @@
       "project-browser:Open project browser": false,
       "digitalgarden:Digital Garden Publication Center": false,
       "obsidian42-brat:BRAT": false,
-      "rss-dashboard:RSS dashboard": false
+      "rss-dashboard:RSS dashboard": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "8679264995df7f70",
+  "active": "f9cac0a8aa3e5022",
   "lastOpenFiles": [
     "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
     "product-manager-prompts-main/prompting-style-guide.md",
