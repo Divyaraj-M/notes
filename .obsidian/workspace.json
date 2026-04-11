@@ -1,0 +1,429 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fabbe3d8b2106457",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c17385b07d55853",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
+          },
+          {
+            "id": "fa5766d8e837e200",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
+          },
+          {
+            "id": "e8252954d22a427d",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project-view",
+              "state": {
+                "filePath": ""
+              },
+              "icon": "chart-gantt",
+              "title": "PM"
+            }
+          },
+          {
+            "id": "1dc4d104a99c4adc",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project-view",
+              "state": {
+                "filePath": "Projects/Rich text.md"
+              },
+              "icon": "chart-gantt",
+              "title": "Rich text"
+            }
+          },
+          {
+            "id": "80b92cccdd39b7e0",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project-view",
+              "state": {
+                "filePath": ""
+              },
+              "icon": "chart-gantt",
+              "title": "PM"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05eb6128f86941b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d09f13e4750e076e",
+        "type": "tabs",
+        "dimension": 45.431034482758626,
+        "children": [
+          {
+            "id": "681d9fb88f64f790",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
+          },
+          {
+            "id": "eb61e999624953f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a2269e0f0941a745",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "0e41dea7c411da32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "89242e637de0308a",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "2baa8948f242f9e0",
+        "type": "tabs",
+        "dimension": 54.568965517241374,
+        "children": [
+          {
+            "id": "6482f0009bd1ce8d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 310.5066738128662
+  },
+  "right": {
+    "id": "a32b24e9510952aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc24eff042669935",
+        "type": "tabs",
+        "dimension": 38.46153846153847,
+        "children": [
+          {
+            "id": "cbbd0ff4a78bcc10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Thinking"
+            }
+          },
+          {
+            "id": "0be0d26dff8febf8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Thinking"
+            }
+          },
+          {
+            "id": "b2aec384d239af07",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "b2ef6f7bdd54a44d",
+            "type": "leaf",
+            "state": {
+              "type": "hinote-view",
+              "state": {},
+              "icon": "highlighter",
+              "title": "HiNote"
+            }
+          },
+          {
+            "id": "d9668e235bb6cf55",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Thinking"
+            }
+          },
+          {
+            "id": "1c8e9327128725b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Thinking"
+            }
+          },
+          {
+            "id": "674e2914c6aaa177",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "3d40ba0f7bb45995",
+        "type": "tabs",
+        "dimension": 34.99577345731191,
+        "children": [
+          {
+            "id": "7d5ca5715fbe7b32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a5d14674ea070c8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0cb49de0e84002f1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "9140aa1d3d409719",
+        "type": "tabs",
+        "dimension": 26.542688081149617,
+        "children": [
+          {
+            "id": "a88c9309692d7ea4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false,
+      "markdown-importer:Open format converter": false,
+      "bookshelf:Open Bookshelf library": false,
+      "bookshelf:Open Bookshelf statistics": false,
+      "hi-note:HiNote": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro timer": false,
+      "tasknotes:Open pomodoro statistics": false,
+      "tasknotes:Create new task": false,
+      "project-browser:Open project browser": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "canvas:Create new canvas": false,
+      "task-board:Open task board": false,
+      "obsidian42-brat:BRAT": false,
+      "project-manager:Project Manager": false
+    }
+  },
+  "active": "0e41dea7c411da32",
+  "lastOpenFiles": [
+    "test.csv",
+    "salesforce_integration.md",
+    "onboarding.md",
+    "obsedian_notes/second_stream_revenue/Youtube Scripts/Youtube video Framework.md",
+    "obsedian_notes/second_stream_revenue/Youtube Scripts/Youtube Scripts.md",
+    "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md",
+    "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md",
+    "obsedian_notes/second_stream_revenue/Google_sheets/Steps to create it.md",
+    "obsedian_notes/second_stream_revenue/Google_sheets/Sales.md",
+    "obsedian_notes/second_stream_revenue/Google_sheets/ERP.md",
+    "obsedian_notes/second_stream_revenue/Google_sheets/CEO One Pager.md",
+    "obsedian_notes/second_stream_revenue/Youtube Scripts",
+    "obsedian_notes/second_stream_revenue/Second_stream_revenue.excalidraw.md",
+    "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube",
+    "obsedian_notes/second_stream_revenue/Google_sheets",
+    "obsedian_notes/second_stream_revenue",
+    "obsedian_notes/TaskNotes/Views/tasks-default.base",
+    "obsedian_notes/TaskNotes/Views/relationships.base",
+    "obsedian_notes/TaskNotes/Views/mini-calendar-default.base",
+    "obsedian_notes/TaskNotes/Views/kanban-default.base",
+    "obsedian_notes/TaskNotes/Views/calendar-default.base",
+    "obsedian_notes/TaskNotes/Views/agenda-default.base",
+    "obsedian_notes/TO DO List - today.md",
+    "obsedian_notes/Product/User roles/Project/Question card/Reviewer.md",
+    "obsedian_notes/Product/User roles/Project/Question card/Author.md",
+    "obsedian_notes/Product/Projects/Questions/Save to QnA/Save to QnA PRD.md",
+    "obsedian_notes/Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
+    "obsedian_notes/Product/Projects/Proposals/Share for the proposal/Share first principle.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+    "obsedian_notes/Product/Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md",
+    "obsedian_notes/Product/competitors/Responsiveio/Responsive.io.md",
+    "obsedian_notes/Product/Settings/Teams/Teams.canvas",
+    "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
+    "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
+    "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.47.56 PM.png",
+    "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.31.37 PM.png",
+    "obsedian_notes/Product/Projects/Rich text/Screenshot 2026-02-09 at 7.28.33 PM.png",
+    "obsedian_notes/Product/Projects/Rich text/Screenshot 2026-02-09 at 3.57.02 PM.png",
+    "obsedian_notes/Product/Projects/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png",
+    "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
+    "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
+    "obsedian_notes/Product/Projects/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png",
+    "Untitled.canvas",
+    "Go-No-Go.canvas",
+    "Product/Settings/Teams/Teams.canvas",
+    "Teams Wireframe.canvas"
+  ]
+}
