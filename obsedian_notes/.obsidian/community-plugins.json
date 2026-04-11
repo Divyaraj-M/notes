@@ -15,7 +15,6 @@
   "cmenu-plugin",
   "colored-tags",
   "obsidian-html-plugin",
-  "home-tab",
   "obsidian-jira-issue",
   "notebook-navigator",
   "obsidian-excalidraw-plugin",
@@ -42,5 +41,6 @@
   "rainbow-colored-sidebar",
   "rss-dashboard",
   "obsidian-charts",
-  "smart-connections"
+  "smart-connections",
+  "file-tree-alternative"
 ]
