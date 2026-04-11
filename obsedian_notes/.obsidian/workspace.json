@@ -107,24 +107,12 @@
             "id": "2b90ca11a47c8b06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Product/Product Sync system/SME Operating system.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Books/Read List/Screenshot_20260316-101854.png"
               },
-              "icon": "lucide-file",
-              "title": "SME Operating system"
+              "icon": "lucide-image",
+              "title": "Screenshot_20260316-101854"
             }
           },
           {
@@ -152,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,12 +210,12 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "notebook-navigator"
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -330,13 +318,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mail.md",
+                "file": "Product/UAT/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mail"
+              "title": "Outline of UAT Vipin"
             }
           },
           {
@@ -362,9 +350,19 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
+          },
+          {
+            "id": "59381badd4cee037",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -481,9 +479,19 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "89242e637de0308a",
   "lastOpenFiles": [
-    "Projects/Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
+    "Books/Read List/Untitled.md",
+    "Books/Read List/Read List.md",
+    "2026/202603.md",
+    "Books/The bullshit jobs.md",
+    "Books/The lean startup.md",
+    "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md",
+    "Product/Product Sync system/SME Operating system.md",
+    "TO DO List - today.md",
+    "Product/UAT/UAT Vipin.md",
+    "mail.md",
+    "Not a trash/Projects/Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Not a trash/Sparrow Genie Notes.md",
     "Not a trash/salesforce_integration.md",
     "Not a trash/README.md",
@@ -501,16 +509,6 @@
     "Not a trash/Find Analogies.md",
     "Not a trash/external_share.md",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
-    "Friction points.md",
-    "Find Analogies.md",
-    "TO DO List - today.md",
-    "salesforce_integration.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "onboarding.md",
-    "Product/UAT/UAT Vipin.md",
-    "Product/Product Sync system/SME Operating system.md",
-    "Product/competitors/Responsiveio/Multi-column.md",
-    "Product/Brand kit/Brand Kit.md",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Context Info",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Books/Authors",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Users",

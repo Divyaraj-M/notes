@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "UAT Vipin",
-      "path": "Product/UAT/UAT Vipin.md"
+      "basename": "Screenshot_20260316-101854",
+      "path": "Books/Read List/Screenshot_20260316-101854.png"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Books/Read List/Untitled.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "Books/Read List/Read List.md"
+    },
+    {
+      "basename": "202603",
+      "path": "2026/202603.md"
+    },
+    {
+      "basename": "The bullshit jobs",
+      "path": "Books/The bullshit jobs.md"
+    },
+    {
+      "basename": "The lean startup",
+      "path": "Books/The lean startup.md"
+    },
+    {
+      "basename": "hybrid-thinking-worksheet",
+      "path": "Learning/Analogical thinking vs Logical thinking/hybrid-thinking-worksheet.md"
+    },
+    {
+      "basename": "SME Operating system",
+      "path": "Product/Product Sync system/SME Operating system.md"
     },
     {
       "basename": "TO DO List - today",
       "path": "TO DO List - today.md"
     },
     {
-      "basename": "Project Share - RFx and Proposal",
-      "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
+      "basename": "UAT Vipin",
+      "path": "Product/UAT/UAT Vipin.md"
     },
     {
-      "basename": "SME Operating system",
-      "path": "Product/Product Sync system/SME Operating system.md"
+      "basename": "Project Share - RFx and Proposal",
+      "path": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
     },
     {
       "basename": "Multi-column",
@@ -145,10 +173,6 @@
       "path": "Product/Help Article/Mapping.md"
     },
     {
-      "basename": "kanban-default",
-      "path": "TaskNotes/Views/kanban-default.base"
-    },
-    {
       "basename": "wireframe",
       "path": "Product/Projects/Proposals/RFP to Proposal/wireframe.html"
     },
@@ -171,10 +195,6 @@
     {
       "basename": "RFP to Proposal",
       "path": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "Permissions.excalidraw",
-      "path": "Excalidraw/Permissions.excalidraw.md"
     }
   ],
   "omittedPaths": [],

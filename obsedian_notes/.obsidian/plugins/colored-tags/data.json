@@ -53,7 +53,6 @@
     "discovery/go_no_go": 1,
     "enhancements/drop_down": 6,
     "enhancements/filter": 7,
-    "enhancements/high_confidence_as_review": 5,
     "enhancements/mail": 8,
     "enhancements/progress_bar": 9,
     "enhancements/table_view": 10,
