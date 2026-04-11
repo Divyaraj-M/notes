@@ -55,7 +55,8 @@
         "render_markdown": true,
         "show_full_path": false
       }
-    }
+    },
+    "expanded_view": false
   },
   "context_items": {
     "template_preset": "xml_structured",
