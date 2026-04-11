@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "passive": true,
+    "illusion": true,
+    "so": true,
+    "thereIs": true,
+    "weasel": true,
+    "adverb": true,
+    "tooWordy": true,
+    "cliches": true,
+    "eprime": false
+  },
+  "fileChecksState": {},
+  "enableChecksByDefault": true
+}

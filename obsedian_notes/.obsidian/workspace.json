@@ -145,7 +145,7 @@
             "state": {
               "type": "card-browser-view",
               "state": {
-                "path": "Books"
+                "path": "product-manager-prompts-main/vibes"
               },
               "icon": "align-vertical-justify-start",
               "title": "Browse"
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -519,6 +519,8 @@
   },
   "active": "838e105f3c66feff",
   "lastOpenFiles": [
+    "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
+    "product-manager-prompts-main/prompting-style-guide.md",
     "product-manager-prompts-main/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
     "product-manager-prompts-main/flows",
     "product-manager-prompts-main/AGENTS.md",
@@ -545,7 +547,6 @@
     "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
     "product-manager-prompts-main/prompts/README.md",
-    "product-manager-prompts-main/prompts/Nightmares of Product Management Movie Title Generator Prompt.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
@@ -554,7 +555,6 @@
     "product-manager-prompts-main/storytelling/Dataset - Bedtime Story Types and Characteristics.json",
     "product-manager-prompts-main/storytelling",
     "product-manager-prompts-main/vibes",
-    "product-manager-prompts-main/skeletons",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Not a trash/Happyflow breakdown inputs.png",
     "obsedian_notes/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

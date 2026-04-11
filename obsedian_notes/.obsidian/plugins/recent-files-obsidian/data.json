@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vibe.prd-generated-via-search-and-agentic-simulation",
+      "path": "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md"
+    },
+    {
+      "basename": "prompting-style-guide",
+      "path": "product-manager-prompts-main/prompting-style-guide.md"
+    },
+    {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Proposal Conversion",
       "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
     }
   ],
   "omittedPaths": [],
