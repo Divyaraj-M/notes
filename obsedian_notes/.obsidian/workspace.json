@@ -255,8 +255,8 @@
               "state": {
                 "file": "Product/Projects/Progress bar/progress-wireframe.html"
               },
-              "icon": "code-glyph",
-              "title": "progress-wireframe"
+              "icon": "lucide-ghost",
+              "title": "html-view"
             }
           },
           {
@@ -267,8 +267,8 @@
               "state": {
                 "file": "Product/Wireframe/wireframe.html"
               },
-              "icon": "code-glyph",
-              "title": "wireframe"
+              "icon": "lucide-ghost",
+              "title": "html-view"
             }
           },
           {
@@ -279,8 +279,8 @@
               "state": {
                 "path": "/"
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-ghost",
+              "title": "card-browser-view"
             }
           },
           {
@@ -291,8 +291,8 @@
               "state": {
                 "path": "/"
               },
-              "icon": "align-vertical-justify-start",
-              "title": "Browse"
+              "icon": "lucide-ghost",
+              "title": "card-browser-view"
             }
           },
           {
@@ -303,8 +303,8 @@
               "state": {
                 "file": "Product/Wireframe/wireframe.html"
               },
-              "icon": "code-glyph",
-              "title": "wireframe"
+              "icon": "lucide-ghost",
+              "title": "html-view"
             }
           },
           {
@@ -354,9 +354,19 @@
               "icon": "lucide-file",
               "title": "FRD Template"
             }
+          },
+          {
+            "id": "5405fd78e878ceee",
+            "type": "leaf",
+            "state": {
+              "type": "cards-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Cards View"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -426,12 +436,12 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -502,8 +512,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -512,8 +522,8 @@
             "state": {
               "type": "hinote-view",
               "state": {},
-              "icon": "highlighter",
-              "title": "HiNote"
+              "icon": "lucide-ghost",
+              "title": "hinote-view"
             }
           },
           {
@@ -549,8 +559,8 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "lucide-ghost",
+              "title": "todo"
             }
           },
           {
@@ -576,9 +586,19 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
+          },
+          {
+            "id": "24af15170daf88c2",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -696,12 +716,12 @@
       "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
-      "bookshelf:Open Bookshelf library": false,
-      "bookshelf:Open Bookshelf statistics": false,
       "hi-note:HiNote": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
+      "bookshelf:Open Bookshelf library": false,
+      "bookshelf:Open Bookshelf statistics": false,
       "notebook-navigator:Notebook Navigator": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
@@ -719,44 +739,45 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "c6727febc1419723",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
-    "TO DO List - today.md",
-    "Product/UAT/UAT Vipin.md",
-    "Product/Templates/Product to dev process/FRD Template.md",
-    "Product/Templates/Product to dev process/PRD Feature Name.md",
-    "Product/Templates/Product Spec - Template.md",
-    "Product/Templates/Product Spec Template 2.md",
-    "Product/competitors/Responsiveio/Answer types.md",
-    "Product/competitors/Responsiveio/Multi-column.md",
-    "Product/Projects/Attachments in RFP Response area/Multicolumn , check box.md",
-    "Product/Projects/Answers/Answer types.md",
-    "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-    "Product/Wireframe/wireframe.html",
-    "Product/Brand kit/Brand Kit.md",
-    "Product/Wireframe",
-    "Product/competitors/Untitled.md",
-    "Product/Projects/Progress bar/progress-wireframe.html",
-    "Product/competitors/Loopio/SmartScan.md",
-    "Product/competitors/Responsiveio/Go- no - Go responsive.md",
-    "Product/competitors/Responsiveio/Attachments - Responsive.md",
-    "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md",
-    "Product/competitors/Responsiveio/Answer types templates.md",
-    "Product/competitors/Loopio/Proposal to Project.md",
-    "Product/Untitled.md",
-    "Product/Brand kit",
-    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
-    "Friction points.md",
-    "Product/Product Sync system/SME Operating system.md",
-    "Product/Help Article/Create a project.md",
-    "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Help Article/SparrowGenie - Help Articles.md",
-    "Help articles /projects/tracking",
-    "Help articles /projects/reviewing",
-    "Help articles /projects/mapping",
-    "Help articles /projects/importing",
-    "Help articles /projects/exporting",
-    "Help articles /projects/creating",
+    "obsedian_notes/Product/Settings/Users and Teams/Remove User from Workspace.md",
+    "obsedian_notes/Books/The Courage to be Disliked.md",
+    "obsedian_notes/Learning/Top Deliverables/Product thinking.md",
+    "obsedian_notes/Books/Thinking fast and slow.md",
+    "obsedian_notes/Books/The Metamorphosis.md",
+    "obsedian_notes/Product/competitors/RRM_Competitive_Analysis.md",
+    "obsedian_notes/Books/Annihilation of Caste.md",
+    "obsedian_notes/Books/The Design of Everyday things.md",
+    "obsedian_notes/Books/Creative Selection.md",
+    "obsedian_notes/Books/Crime and punishment.md",
+    "obsedian_notes/Books/A little life.md",
+    "obsedian_notes/Books/Hooked.md",
+    "obsedian_notes/Books/To Kill a Mocking bird.md",
+    "obsedian_notes/Books/The Thirteen Problems.md",
+    "obsedian_notes/Books/The Business Of Belonging.md",
+    "obsedian_notes/Books/The 80'20 Principle.md",
+    "obsedian_notes/Books/The bullshit jobs.md",
+    "obsedian_notes/Books/The lean startup.md",
+    "obsedian_notes/Books/மகிழ்ச்சியான பன்றிக்குட்டி.md",
+    "Mirosignup.md",
+    "obsedian_notes/Daily/UAT vipin 2026-02-23.md",
+    "obsedian_notes/Books/கல்வி ஓர் அரசியல்.md",
+    "mails.md",
+    "obsedian_notes/Books/Atomic Design.md",
+    "obsedian_notes/Not a trash/Work Log 2026-02-16.md",
+    "external_share.md",
+    "obsedian_notes/Product/Users/Untitled.base",
+    "obsedian_notes/Product/Settings/Teams/Teams.canvas",
+    "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube",
+    "obsedian_notes/Product/Projects/Proposals/Share for the proposal",
+    "obsedian_notes/Product/Projects/Attachments in RFP Response area",
+    "obsedian_notes/Learning/Analogical thinking vs Logical thinking",
+    "obsedian_notes/Product/Projects/Questions/Filters for project",
+    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal",
+    "obsedian_notes/Product/User roles/Project/Question card",
+    "obsedian_notes/Product/competitors/Five Differentiators",
+    "obsedian_notes/Product/Templates/Product to dev process",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Learning/Product Process/Pasted image 20260325102320.png",
     "Learning/Product Process/Pasted image 20260325102236.png",
