@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Happyflow breakdown inputs.png",
+      "timestamp": 1775925773086
+    },
+    {
       "filepath": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
       "timestamp": 1775646374757
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "Product/Templates/Product to dev process/FRD Template.md",
       "timestamp": 1775643841468
-    },
-    {
-      "filepath": "Product/Templates/Product to dev process/PRD Feature Name.md",
-      "timestamp": 1775643798315
     }
   ],
   "bookmarkedFileStore": [

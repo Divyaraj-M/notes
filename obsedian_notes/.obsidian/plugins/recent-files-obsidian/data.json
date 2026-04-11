@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Happyflow breakdown inputs",
+      "path": "Happyflow breakdown inputs.png"
+    },
+    {
       "basename": "Thinking",
       "path": "Product/Projects/Proposals/RFP to Proposal/Thinking.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Genie Templates - Propsals",
       "path": "Product/Projects/Proposals/Genie Templates - Propsals.md"
-    },
-    {
-      "basename": "My Templates - Proposal (Next phase)",
-      "path": "Product/Projects/Proposals/My Templates - Proposal (Next phase).md"
     }
   ],
   "omittedPaths": [],
