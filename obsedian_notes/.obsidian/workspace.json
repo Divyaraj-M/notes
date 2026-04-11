@@ -361,8 +361,8 @@
             "state": {
               "type": "cards-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Cards View"
+              "icon": "lucide-ghost",
+              "title": "cards-view"
             }
           },
           {
@@ -376,9 +376,19 @@
               "icon": "lucide-image",
               "title": "Happyflow breakdown inputs"
             }
+          },
+          {
+            "id": "aa1e4ba20bdee2cb",
+            "type": "leaf",
+            "state": {
+              "type": "cards-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Cards View"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -448,12 +458,11 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -608,9 +617,19 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "9f0b8ea9de089915",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -746,12 +765,10 @@
       "tasknotes:Open pomodoro timer": false,
       "tasknotes:Open pomodoro statistics": false,
       "tasknotes:Create new task": false,
-      "cards-view:Card view": false,
-      "project-browser:Open project browser": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "cards-view:Card view": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "aa1e4ba20bdee2cb",
   "lastOpenFiles": [
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Context Info",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Books/Authors",

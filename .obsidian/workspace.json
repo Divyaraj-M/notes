@@ -40,7 +40,7 @@
                 "filePath": "Projects/Rich Text.md"
               },
               "icon": "chart-gantt",
-              "title": "Rich text"
+              "title": "PM"
             }
           }
         ]
@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "2baa8948f242f9e0",
@@ -397,8 +397,9 @@
       "project-manager:Project Manager": false
     }
   },
-  "active": "6482f0009bd1ce8d",
+  "active": "89242e637de0308a",
   "lastOpenFiles": [
+    "Projects",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Context Info",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Books/Authors",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Users",
@@ -409,7 +410,6 @@
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Learning/ARCA AI/UTITSL_102",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Product Sync system",
     "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Email notifications",
-    "obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/obsedian_notes/Product/Projects/Proposals/RFP to Proposal",
     "Learning/Top Deliverables/Product Roadmap.md",
     "Product/laundry List/laundry list.md",
     "Product/Projects/Obligations/UAT - 23022026.md",
