@@ -11,7 +11,7 @@ lists:
   - Reading
 comment: Replace rigid goals with small experiments. Iterative life design.
 ---
-
+w
 
 ## Reading Journey
 
