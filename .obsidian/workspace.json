@@ -56,7 +56,31 @@
             }
           },
           {
-            "id": "80b92cccdd39b7e0",
+            "id": "fe424c681c30e496",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsedian_notes/Product/competitors/Arphie.ai.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Arphie.ai"
+            }
+          },
+          {
+            "id": "b739fe80be9a351a",
             "type": "leaf",
             "state": {
               "type": "pm-project-view",
@@ -66,19 +90,9 @@
               "icon": "chart-gantt",
               "title": "PM"
             }
-          },
-          {
-            "id": "fe424c681c30e496",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -384,6 +398,10 @@
   },
   "active": "fe424c681c30e496",
   "lastOpenFiles": [
+    "obsedian_notes/Product/competitors/RRM_Competitive_Analysis.md",
+    "obsedian_notes/Product/competitors/QorusDocs.md",
+    "obsedian_notes/second_stream_revenue/Google_sheets/CEO One Pager.md",
+    "Projects/Rich text.md",
     "obsedian_notes/Product/Knowledge Hub/RFP training PRD.md",
     "obsedian_notes/Product/Email notifications/Email Notifications.md",
     "obsedian_notes/Product/Brand kit/Brand Kit.md",
@@ -399,7 +417,6 @@
     "obsedian_notes/second_stream_revenue/Google_sheets/Steps to create it.md",
     "obsedian_notes/second_stream_revenue/Google_sheets/Sales.md",
     "obsedian_notes/second_stream_revenue/Google_sheets/ERP.md",
-    "obsedian_notes/second_stream_revenue/Google_sheets/CEO One Pager.md",
     "obsedian_notes/second_stream_revenue/Youtube Scripts",
     "obsedian_notes/second_stream_revenue/Second_stream_revenue.excalidraw.md",
     "obsedian_notes/second_stream_revenue/Scripts for Udemy and Youtube",
@@ -417,9 +434,6 @@
     "obsedian_notes/Product/Projects/Proposals/Share for the proposal/Share first principle.md",
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Thinking.md",
     "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
-    "obsedian_notes/Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "obsedian_notes/Product/Settings/Users and Teams/Screenshot 2026-01-29 at 7.48.28 PM.png",
