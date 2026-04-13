@@ -5,6 +5,10 @@
       "path": "product-manager-prompts-main/prompts/eol-for-a-product-message.md"
     },
     {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
       "basename": "backlog-epic-hypothesis",
       "path": "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "Tiny Experiments",

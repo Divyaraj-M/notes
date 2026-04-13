@@ -21,7 +21,7 @@ If required keys are missing, ask at most 3 targeted questions, one at a time:
 Then proceed with clearly labeled assumptions.
 
 ## Instructions:
-1. Preserve the canonical EOL message structure exactly.
+1. Preserve the canonical EOL message structure exactly
 2. Keep language empathetic, specific, and action-oriented.
 3. Avoid defensiveness; focus on customer continuity and support.
 4. Unless instructed otherwise, render output in Markdown in a code block.

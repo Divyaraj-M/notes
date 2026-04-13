@@ -191,16 +191,6 @@
               "icon": "notebook-navigator",
               "title": "Notebook Navigator"
             }
-          },
-          {
-            "id": "6eb8fd1f61e5c4cb",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "File Tree"
-            }
           }
         ],
         "currentTab": 3
@@ -347,16 +337,6 @@
               },
               "icon": "lucide-file",
               "title": "TO DO List - today"
-            }
-          },
-          {
-            "id": "59381badd4cee037",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
             }
           }
         ],
@@ -505,11 +485,13 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
   "active": "4193753dcf0c5d56",
   "lastOpenFiles": [
+    "TO DO List - today.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
@@ -519,7 +501,6 @@
     "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md",
     "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md",
     "Product/competitors/Responsiveio/Multi-column.md",
-    "TO DO List - today.md",
     "Projects/Sparrow Genie - Project Phase II.md",
     "Projects/Sparrow Genie - Project Phase II_tasks",
     "Books/Tiny Experiments.md",

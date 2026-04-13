@@ -11,7 +11,6 @@
   "vertical-tabs",
   "bookshelf",
   "obsidian-auto-link-title",
-  "obsidian-checklist-plugin",
   "cmenu-plugin",
   "colored-tags",
   "obsidian-html-plugin",
@@ -29,18 +28,15 @@
   "obsidian-style-settings",
   "obsidian-plugin-toc",
   "better-word-count",
-  "obsidian-core-search-assistant-plugin",
   "folder-navigator",
   "auto-card-link",
   "pretty-properties",
   "digitalgarden",
   "obsidian42-brat",
   "project-manager",
-  "write-good",
   "project-browser",
   "rainbow-colored-sidebar",
-  "rss-dashboard",
   "obsidian-charts",
   "smart-connections",
-  "file-tree-alternative"
+  "smart-lookup"
 ]
