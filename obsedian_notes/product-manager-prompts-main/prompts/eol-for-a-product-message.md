@@ -1,5 +1,5 @@
 # eol-for-a-product-message.md
-<!--
+
 ## Description:
 Creates a clear, empathetic End-of-Life (EOL) communication using a stable
 template that balances transparency, customer impact, and transition support.

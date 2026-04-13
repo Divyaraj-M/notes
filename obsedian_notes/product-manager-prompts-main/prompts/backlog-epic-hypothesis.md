@@ -1,5 +1,5 @@
 # backlog-epic-hypothesis.md
-<!-- 
+
 ## Description:
 Creates backlog epics in hypothesis format so teams can connect solution intent,
 expected outcomes, and validation criteria with consistent structure.

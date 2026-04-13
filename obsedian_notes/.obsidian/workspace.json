@@ -99,7 +99,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/competitors/Responsiveio/Multi-column.md",
+                "file": "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -114,35 +114,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi-column"
-            }
-          },
-          {
-            "id": "9ea17d6949d04ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TO DO List - today.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TO DO List - today"
+              "title": "eol-for-a-product-message"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -532,14 +508,22 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "9ea17d6949d04ee2",
+  "active": "4193753dcf0c5d56",
   "lastOpenFiles": [
+    "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
+    "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
+    "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
+    "product-manager-prompts-main/prompts/Nightmares of Product Management Movie Title Generator Prompt.md",
+    "product-manager-prompts-main/prompts/Dangerous Animals of Product Management Beast Generator.md",
+    "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md",
+    "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md",
+    "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md",
     "Product/competitors/Responsiveio/Multi-column.md",
+    "TO DO List - today.md",
     "Projects/Sparrow Genie - Project Phase II.md",
     "Projects/Sparrow Genie - Project Phase II_tasks",
     "Books/Tiny Experiments.md",
     "Product/UAT/UAT Shihab.md",
-    "TO DO List - today.md",
     "Not a trash/Friction points.md",
     "Product/UAT/UAT Vipin.md",
     "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
@@ -555,14 +539,6 @@
     "product-manager-prompts-main/prompts/strategic-scrum-team-session-kickoff.md",
     "product-manager-prompts-main/prompts/storyboard-storytelling-prompt.md",
     "product-manager-prompts-main/prompts/reverse-engineer-ISO29148-to-PRD-prompt-template.md",
-    "product-manager-prompts-main/prompts/reverse-engineer-IEEE830srs-to-PRD-prompt-template.md",
-    "product-manager-prompts-main/prompts/recommendation-canvas-template.md",
-    "product-manager-prompts-main/prompts/proto-persona-profile.md",
-    "product-manager-prompts-main/prompts/positioning-statement.md",
-    "product-manager-prompts-main/prompts/pestel-analysis-prompt-template.md",
-    "product-manager-prompts-main/prompts/jobs-to-be-done.md",
-    "product-manager-prompts-main/prompts/howto.md",
-    "product-manager-prompts-main/prompts/futuristic-product-faq.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",

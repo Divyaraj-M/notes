@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
+      "basename": "eol-for-a-product-message",
+      "path": "product-manager-prompts-main/prompts/eol-for-a-product-message.md"
+    },
+    {
+      "basename": "backlog-epic-hypothesis",
+      "path": "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md"
+    },
+    {
+      "basename": "a-generative-AI-prompt-builder-for-product-professionals",
+      "path": "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md"
+    },
+    {
+      "basename": "Nightmares of Product Management Movie Title Generator Prompt",
+      "path": "product-manager-prompts-main/prompts/Nightmares of Product Management Movie Title Generator Prompt.md"
+    },
+    {
+      "basename": "Dangerous Animals of Product Management Beast Generator",
+      "path": "product-manager-prompts-main/prompts/Dangerous Animals of Product Management Beast Generator.md"
+    },
+    {
+      "basename": "artifact-first-context-intake",
+      "path": "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md"
+    },
+    {
+      "basename": "a-generative-AI-prompt-builder-for-product-professionals",
+      "path": "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md"
+    },
+    {
+      "basename": "Memo of AI Existential Corporate Dread — Prompt Generator Prompt",
+      "path": "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md"
     },
     {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
+    },
+    {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
     },
     {
       "basename": "Tiny Experiments",
@@ -167,38 +199,6 @@
     {
       "basename": "Product Review system",
       "path": "Product/Product Sync system/Product Review system.md"
-    },
-    {
-      "basename": "Getting Started",
-      "path": "Product/Help Article/Getting Started.md"
-    },
-    {
-      "basename": "Getting started  with SparrowGenie",
-      "path": "Product/Help Article/Getting started  with SparrowGenie.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Product/Help Article/Untitled.md"
-    },
-    {
-      "basename": "Thinking Nodes",
-      "path": "Product/Projects/Proposals/Thinking Nodes.md"
-    },
-    {
-      "basename": "Mapping",
-      "path": "Product/Help Article/Mapping.md"
-    },
-    {
-      "basename": "wireframe",
-      "path": "Product/Projects/Proposals/RFP to Proposal/wireframe.html"
-    },
-    {
-      "basename": "UAT Kavin",
-      "path": "Daily/UAT Kavin.md"
-    },
-    {
-      "basename": "Sep2.security",
-      "path": "Product/Users/Sep2.security.md"
     }
   ],
   "omittedPaths": [],

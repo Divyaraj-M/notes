@@ -59,13 +59,13 @@ Let's begin by defining the creatures according to the rules and the template ab
 
 Would you like to make any modifications to this session starter prompt, or are you satisfied with it?
 
-<!-- 
+
 
 ## Attribution:
 
-- **Prompt Name**: product-management-creature-session-starter.md
+- **Prompt Name**: product-management-creature-session-starter
 - **Prompt Description**: Sets the context for a session to explore product management challenges using a creative exercise with imaginary creatures, providing clear rules, a template, and objectives.
 - **Attribution**: Created by Dean Peters, September 2024
 - **Licensing**: Licensed under the MIT License, permitting free use, modification, and distribution with proper attribution.
 
--->
+

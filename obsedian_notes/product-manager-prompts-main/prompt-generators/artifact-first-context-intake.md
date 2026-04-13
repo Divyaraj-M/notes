@@ -1,6 +1,6 @@
 # Artifact-First Context Intake (AFCI)
 
-<!--
+
 ## Description:
 Canonical method for context collection in prompt workflows. AFCI prioritizes
 artifacts and existing session context before asking users additional questions.
@@ -19,7 +19,7 @@ Created in collaboration with Dean Peters and Codex, March 2, 2026.
 MIT License
 
 Date: March 2, 2026
--->
+
 
 ## What Is AFCI?
 
