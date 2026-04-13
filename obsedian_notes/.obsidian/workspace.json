@@ -154,7 +154,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 45.431034482758626,
+        "dimension": 83.515625,
         "children": [
           {
             "id": "681d9fb88f64f790",
@@ -222,7 +222,7 @@
       {
         "id": "2baa8948f242f9e0",
         "type": "tabs",
-        "dimension": 54.568965517241374,
+        "dimension": 16.484375,
         "children": [
           {
             "id": "6482f0009bd1ce8d",
@@ -513,7 +513,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "4193753dcf0c5d56",
+  "active": "6482f0009bd1ce8d",
   "lastOpenFiles": [
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",

@@ -7,14 +7,18 @@ product: SparrowGenie
 ---
 
 ### 1. Problem Statement
-- While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no prems in today's implementation to resolve this 
+- While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no premsis  in today's implementation to resolve this 
 
 ### 2. Goals
-- Ability to add one or more documents
-- Ability to map all the documents one by one
-- Abiltity to save hte mapping once the diagnoiss have zero issues 
-- Abilty 
-
+- Ability to add one or more documents upto 5 
+- Ability to map all the documents one by one by clicking "next". 
+- Abiltity to save hte mapping once the diagnoiss have zero issues by two ways 
+	- If the user clicks the ne
+- Abilty to add more files during mapping before finish mapping 
+- Ability to remove the files during mapping before finish mapping 
+- Ability to map with genie ai  in the file level 
+- Abiltity to upload different formats of file at the same time (XLSX , XLS, CSV and DOCX)
+- Abilty to save the
 ### 3. Non-Goals
 - 3-5 things this feature explicitly will NOT do
 - Adjacent capabilities that are out of scope for this version
