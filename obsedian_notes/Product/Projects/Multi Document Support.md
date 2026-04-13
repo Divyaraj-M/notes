@@ -7,7 +7,7 @@ product: SparrowGenie
 ---
 
 ### 1. Problem Statement
-- While receiving the  RFx  users mioght have 
+- While receiving the  RFx  users will have 
 
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
