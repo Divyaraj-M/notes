@@ -1,9 +1,9 @@
 {
-  "enabled": false,
+  "enabled": true,
   "suggestionControl": {
     "acceptanceHotkey": "Tab",
     "splitStrategy": "sentence",
-    "manualActivationKey": "",
+    "manualActivationKey": "Meta-L",
     "outputLimit": {
       "enabled": true,
       "sentences": 1
@@ -20,12 +20,12 @@
       "integration": "openai",
       "name": "Open AI",
       "description": "Use OpenAI APIs to generate text.",
-      "apiKey": "",
+      "apiKey": "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",
       "models": [
         "gpt-5",
         "gpt-5-nano"
       ],
-      "configured": false,
+      "configured": true,
       "temperature_range": {
         "min": 1,
         "max": 1

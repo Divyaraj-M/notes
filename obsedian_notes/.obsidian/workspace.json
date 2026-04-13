@@ -116,9 +116,33 @@
               "icon": "lucide-file",
               "title": "eol-for-a-product-message"
             }
+          },
+          {
+            "id": "1f8d869fba78d14d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Multi Document Support.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi Document Support"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -489,10 +513,11 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "4193753dcf0c5d56",
+  "active": "1f8d869fba78d14d",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "Product/Projects/Multi Document Support.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
+    "TO DO List - today.md",
     "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
     "product-manager-prompts-main/prompts/Nightmares of Product Management Movie Title Generator Prompt.md",
@@ -519,7 +544,6 @@
     "product-manager-prompts-main/prompts/user-story-mapping.md",
     "product-manager-prompts-main/prompts/strategic-scrum-team-session-kickoff.md",
     "product-manager-prompts-main/prompts/storyboard-storytelling-prompt.md",
-    "product-manager-prompts-main/prompts/reverse-engineer-ISO29148-to-PRD-prompt-template.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
