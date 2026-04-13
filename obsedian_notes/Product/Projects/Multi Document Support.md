@@ -22,13 +22,13 @@ product: SparrowGenie
 - Abiltity to upload different formats of file at the same time (XLSX , XLS, CSV and DOCX)
 - Abilty to unmap the mappings in file level
 - Ability to undo and redo in file level 
-- 
+- Ability to See the Insturctions , sections and sub section ,question and answer 
+- Ability to navigate fro files to files , using the navigation tabs and naviagtion numbers 
 ### 3. Non-Goals
-- 3-5 things this feature explicitly will NOT do
-- Adjacent capabilities that are out of scope for this version
-- For each non-goal, briefly explain why it is out of scope (not enough impact, too complex, separate initiative, premature)
-- Non-goals prevent scope creep during implementation and set expectations with stakeholders
-
+- Ability to auto save the mapping by variosu method caching or storing in the backend 
+- Ability to view the summarized version of all mapping how many Insturctions , sections and sub section ,question and answer  mapped 
+- Ability to delete the files  after mapping 
+- Ablility to add files after mapping
 ### 4. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
