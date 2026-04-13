@@ -116,9 +116,21 @@
               "icon": "lucide-file",
               "title": "Multi-column"
             }
+          },
+          {
+            "id": "9ea17d6949d04ee2",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -508,13 +520,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "f1c16909e06c4cfd",
+  "active": "9ea17d6949d04ee2",
   "lastOpenFiles": [
+    "Product/competitors/Responsiveio/Multi-column.md",
     "Projects/Sparrow Genie - Project Phase II.md",
     "Projects/Sparrow Genie - Project Phase II_tasks",
     "Books/Tiny Experiments.md",
     "Product/UAT/UAT Shihab.md",
-    "Product/competitors/Responsiveio/Multi-column.md",
     "TO DO List - today.md",
     "Not a trash/Friction points.md",
     "Product/UAT/UAT Vipin.md",
