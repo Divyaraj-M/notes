@@ -1,6 +1,6 @@
 # Persona-First Decision Facilitation Loop (PDF Loop)
 
-<!--
+
 ## Description:
 Canonical operating model for multi-turn prompt facilitation in this repository.
 This defines how to run expert-guidance conversations that reduce user burden,

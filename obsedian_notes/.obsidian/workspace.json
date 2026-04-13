@@ -99,7 +99,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
+                "file": "Product/Projects/Multi Document Support.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -114,7 +114,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "eol-for-a-product-message"
+              "title": "Multi Document Support"
             }
           },
           {
@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md",
+                "file": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -138,11 +138,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "memo-of-AI-existential-corporate-dread_prompt-generator-prompt"
+              "title": "customer-journey-mapping-prompt-generator"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -513,12 +513,15 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "1f8d869fba78d14d",
+  "active": "4193753dcf0c5d56",
   "lastOpenFiles": [
+    "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
+    "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
+    "product-manager-prompts-main/prompt-generators/persona-first-decision-facilitation-loop.md",
+    "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md",
     "product-manager-prompts-main/prompt-generators/market-requirements-generator-prompt.md",
     "product-manager-prompts-main/prompt-generators/jobs-to-be-done customer circle.md",
     "product-manager-prompts-main/prompt-generators/daci-chart-prompt-generator.md",
-    "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
     "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md",
     "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md",
     "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md",
@@ -526,7 +529,6 @@
     "product-manager-prompts-main/skeletons/prompt-generator-prompt.md",
     "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md",
     "Product/Projects/Multi Document Support.md",
-    "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "TO DO List - today.md",
     "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
@@ -542,8 +544,6 @@
     "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
     "product-manager-prompts-main/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
     "product-manager-prompts-main/flows",
-    "product-manager-prompts-main/AGENTS.md",
-    "product-manager-prompts-main/prompts/visionary-press-release.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",

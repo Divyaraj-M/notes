@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Multi Document Support",
+      "path": "Product/Projects/Multi Document Support.md"
+    },
+    {
+      "basename": "eol-for-a-product-message",
+      "path": "product-manager-prompts-main/prompts/eol-for-a-product-message.md"
+    },
+    {
+      "basename": "customer-journey-mapping-prompt-generator",
+      "path": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md"
+    },
+    {
+      "basename": "persona-first-decision-facilitation-loop",
+      "path": "product-manager-prompts-main/prompt-generators/persona-first-decision-facilitation-loop.md"
+    },
+    {
       "basename": "memo-of-AI-existential-corporate-dread_prompt-generator-prompt",
       "path": "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "daci-chart-prompt-generator",
       "path": "product-manager-prompts-main/prompt-generators/daci-chart-prompt-generator.md"
-    },
-    {
-      "basename": "customer-journey-mapping-prompt-generator",
-      "path": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md"
     },
     {
       "basename": "a-generative-AI-prompt-builder-for-product-professionals",
@@ -43,14 +55,6 @@
     {
       "basename": "A Prompt Skeleton Analysis Toolkit",
       "path": "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md"
-    },
-    {
-      "basename": "Multi Document Support",
-      "path": "Product/Projects/Multi Document Support.md"
-    },
-    {
-      "basename": "eol-for-a-product-message",
-      "path": "product-manager-prompts-main/prompts/eol-for-a-product-message.md"
     },
     {
       "basename": "TO DO List - today",
@@ -195,10 +199,6 @@
     {
       "basename": "Proposal to Project",
       "path": "Product/competitors/Loopio/Proposal to Project.md"
-    },
-    {
-      "basename": "Create a project",
-      "path": "Product/Help Article/Create a project.md"
     }
   ],
   "omittedPaths": [],
