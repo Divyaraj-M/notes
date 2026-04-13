@@ -10,7 +10,7 @@ product: SparrowGenie
 - While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no ermiis in today's implementation to resolve this 
 
 ### 2. Goals
-	
+- Abilty to add one or more 
 
 ### 3. Non-Goals
 - 3-5 things this feature explicitly will NOT do
