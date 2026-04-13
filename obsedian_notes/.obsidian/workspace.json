@@ -513,8 +513,9 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "6482f0009bd1ce8d",
+  "active": "eb4af261a65f93e8",
   "lastOpenFiles": [
+    "Product/Projects/Multi Document Support.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
     "product-manager-prompts-main/prompt-generators/persona-first-decision-facilitation-loop.md",
@@ -528,7 +529,6 @@
     "product-manager-prompts-main/prompting-style-guide.md",
     "product-manager-prompts-main/skeletons/prompt-generator-prompt.md",
     "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md",
-    "Product/Projects/Multi Document Support.md",
     "TO DO List - today.md",
     "product-manager-prompts-main/prompts/backlog-epic-hypothesis.md",
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",

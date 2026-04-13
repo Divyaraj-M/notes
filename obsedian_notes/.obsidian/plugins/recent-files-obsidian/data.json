@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
       "basename": "Multi Document Support",
       "path": "Product/Projects/Multi Document Support.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "A Prompt Skeleton Analysis Toolkit",
       "path": "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "backlog-epic-hypothesis",

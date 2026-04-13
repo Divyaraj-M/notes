@@ -33,7 +33,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ] Ablity to multi-column. Dates and Description
 08-Apr-2026
   - [x] Brand Templates
-  - [ ] Ability to multi-column-text , dropdown . Dates and
+  - [ ] Ability to multi-column-text , dropdown .Dates and
   - [ ] Description
   - [ ] 20 Articles
   - [ ] Multiple Document Support
