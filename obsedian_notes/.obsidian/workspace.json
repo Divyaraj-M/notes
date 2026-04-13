@@ -82,6 +82,18 @@
             }
           },
           {
+            "id": "a0770ca03f415dd5",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project-view",
+              "state": {
+                "filePath": "Projects/Sparrow Genie - Project Phase II.md"
+              },
+              "icon": "chart-gantt",
+              "title": "Sparrow G…"
+            }
+          },
+          {
             "id": "4193753dcf0c5d56",
             "type": "leaf",
             "state": {
@@ -106,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -498,6 +510,8 @@
   },
   "active": "f1c16909e06c4cfd",
   "lastOpenFiles": [
+    "Projects/Sparrow Genie - Project Phase II.md",
+    "Projects/Sparrow Genie - Project Phase II_tasks",
     "Books/Tiny Experiments.md",
     "Product/UAT/UAT Shihab.md",
     "Product/competitors/Responsiveio/Multi-column.md",
@@ -525,7 +539,6 @@
     "product-manager-prompts-main/prompts/jobs-to-be-done.md",
     "product-manager-prompts-main/prompts/howto.md",
     "product-manager-prompts-main/prompts/futuristic-product-faq.md",
-    "product-manager-prompts-main/prompts/framing-the-problem-statement.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
@@ -533,7 +546,6 @@
     "product-manager-prompts-main/storytelling/code-generate-scenes",
     "product-manager-prompts-main/storytelling/Dataset - Bedtime Story Types and Characteristics.json",
     "product-manager-prompts-main/storytelling",
-    "product-manager-prompts-main/vibes",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Not a trash/Happyflow breakdown inputs.png",
     "obsedian_notes/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
