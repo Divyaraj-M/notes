@@ -507,3 +507,4 @@
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":77,"first_at":1775932324255,"last_at":1776091894522,"class_name":"EventLog","event_sources":{"process_embed_queue":77}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":25,"first_at":1775932358279,"last_at":1776091894522,"class_name":"EventLog","event_sources":{"process_embed_queue":25}},
 "event_logs:sources:reimport_completed": {"key":"sources:reimport_completed","ct":26,"first_at":1775932854432,"last_at":1776091894538,"class_name":"EventLog","event_sources":{"run_re_import":26}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":41,"first_at":1775932412004,"last_at":1776095132370,"class_name":"EventLog","event_sources":{"active-leaf-change":39,"open_source":2}},
