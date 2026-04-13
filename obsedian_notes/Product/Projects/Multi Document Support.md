@@ -13,12 +13,16 @@ product: SparrowGenie
 - Ability to add one or more documents upto 5 
 - Ability to map all the documents one by one by clicking "next". 
 - Abiltity to save hte mapping once the diagnoiss have zero issues by two ways 
-	- If the user clicks the ne
+	- If the user clicks the Another file 
+	- If the user clicks the "Next"
 - Abilty to add more files during mapping before finish mapping 
 - Ability to remove the files during mapping before finish mapping 
+	- Given that if user map and delete the then show the delete caution modal 
 - Ability to map with genie ai  in the file level 
 - Abiltity to upload different formats of file at the same time (XLSX , XLS, CSV and DOCX)
-- Abilty to save the
+- Abilty to unmap the mappings in file level
+- Ability to undo and redo in file level 
+- 
 ### 3. Non-Goals
 - 3-5 things this feature explicitly will NOT do
 - Adjacent capabilities that are out of scope for this version
