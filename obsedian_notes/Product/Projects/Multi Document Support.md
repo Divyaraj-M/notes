@@ -5,19 +5,9 @@ tags:
 version: 1
 product: SparrowGenie
 ---
-# Feature Spec Skill
-
-You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
-
-## PRD Structure
-
-A well-structured PRD follows this template:
 
 ### 1. Problem Statement
-- Describe the user problem in 2-3 sentences
-- Who experiences this problem and how often
-- What is the cost of not solving it (user pain, business impact, competitive risk)
-- Ground this in evidence: user research, support data, metrics, or customer feedback
+- While receiving the  RFx  users mioght have 
 
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
