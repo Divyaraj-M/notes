@@ -24,11 +24,18 @@ product: SparrowGenie
 - Ability to undo and redo in file level 
 - Ability to See the Insturctions , sections and sub section ,question and answer 
 - Ability to navigate fro files to files , using the navigation tabs and naviagtion numbers 
+- Abitlty to view the mapped muilt docuemts in the files pane in the left side nav bar 
+- Ability to filter the All questions , Unassinged questions , unandwered quesrtions , drafts , Pending review, Reviewed 
+- Ability to Download the filled answered files , by two options
+	- Downlaod as zip all the files max 5
+	- Separate files 
 ### 3. Non-Goals
 - Ability to auto save the mapping by variosu method caching or storing in the backend 
 - Ability to view the summarized version of all mapping how many Insturctions , sections and sub section ,question and answer  mapped 
 - Ability to delete the files  after mapping 
 - Ablility to add files after mapping
+- Abilty to view the recent downloads 
+- 
 ### 4. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
