@@ -7,13 +7,10 @@ product: SparrowGenie
 ---
 
 ### 1. Problem Statement
-- While receiving the  RFx  users will have 
+- While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no ermiis in today's implementation to resolve this 
 
 ### 2. Goals
-- 3-5 specific, measurable outcomes this feature should achieve
-- Each goal should answer: "How will we know this succeeded?"
-- Distinguish between user goals (what users get) and business goals (what the company gets)
-- Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
+	
 
 ### 3. Non-Goals
 - 3-5 things this feature explicitly will NOT do
