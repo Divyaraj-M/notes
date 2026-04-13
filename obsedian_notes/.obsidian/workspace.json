@@ -123,7 +123,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product/Projects/Multi Document Support.md",
+                "file": "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -138,7 +138,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi Document Support"
+              "title": "memo-of-AI-existential-corporate-dread_prompt-generator-prompt"
             }
           }
         ],
@@ -449,7 +449,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "9140aa1d3d409719",
@@ -515,6 +515,16 @@
   },
   "active": "1f8d869fba78d14d",
   "lastOpenFiles": [
+    "product-manager-prompts-main/prompt-generators/market-requirements-generator-prompt.md",
+    "product-manager-prompts-main/prompt-generators/jobs-to-be-done customer circle.md",
+    "product-manager-prompts-main/prompt-generators/daci-chart-prompt-generator.md",
+    "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
+    "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md",
+    "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md",
+    "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md",
+    "product-manager-prompts-main/prompting-style-guide.md",
+    "product-manager-prompts-main/skeletons/prompt-generator-prompt.md",
+    "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md",
     "Product/Projects/Multi Document Support.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "TO DO List - today.md",
@@ -522,9 +532,6 @@
     "product-manager-prompts-main/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
     "product-manager-prompts-main/prompts/Nightmares of Product Management Movie Title Generator Prompt.md",
     "product-manager-prompts-main/prompts/Dangerous Animals of Product Management Beast Generator.md",
-    "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md",
-    "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md",
-    "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md",
     "Product/competitors/Responsiveio/Multi-column.md",
     "Projects/Sparrow Genie - Project Phase II.md",
     "Projects/Sparrow Genie - Project Phase II_tasks",
@@ -533,17 +540,10 @@
     "Not a trash/Friction points.md",
     "Product/UAT/UAT Vipin.md",
     "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
-    "product-manager-prompts-main/prompting-style-guide.md",
     "product-manager-prompts-main/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
     "product-manager-prompts-main/flows",
     "product-manager-prompts-main/AGENTS.md",
     "product-manager-prompts-main/prompts/visionary-press-release.md",
-    "product-manager-prompts-main/prompts/user-story_ai-enhanced_prompt-template.md",
-    "product-manager-prompts-main/prompts/user-story-splitting-prompt-template.md",
-    "product-manager-prompts-main/prompts/user-story-prompt-template.md",
-    "product-manager-prompts-main/prompts/user-story-mapping.md",
-    "product-manager-prompts-main/prompts/strategic-scrum-team-session-kickoff.md",
-    "product-manager-prompts-main/prompts/storyboard-storytelling-prompt.md",
     "product-manager-prompts-main/prompts",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",

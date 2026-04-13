@@ -1,5 +1,5 @@
 # customer-journey-mapping-prompt-generator.md
-<!--
+
 ## Description:
 Generates a custom customer-journey-mapping prompt using the Persona-First
 Decision Facilitation Loop. Designed to reduce setup burden and produce a

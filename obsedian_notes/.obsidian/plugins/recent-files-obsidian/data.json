@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "memo-of-AI-existential-corporate-dread_prompt-generator-prompt",
+      "path": "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md"
+    },
+    {
+      "basename": "market-requirements-generator-prompt",
+      "path": "product-manager-prompts-main/prompt-generators/market-requirements-generator-prompt.md"
+    },
+    {
+      "basename": "jobs-to-be-done customer circle",
+      "path": "product-manager-prompts-main/prompt-generators/jobs-to-be-done customer circle.md"
+    },
+    {
+      "basename": "daci-chart-prompt-generator",
+      "path": "product-manager-prompts-main/prompt-generators/daci-chart-prompt-generator.md"
+    },
+    {
+      "basename": "customer-journey-mapping-prompt-generator",
+      "path": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md"
+    },
+    {
+      "basename": "a-generative-AI-prompt-builder-for-product-professionals",
+      "path": "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md"
+    },
+    {
+      "basename": "Memo of AI Existential Corporate Dread — Prompt Generator Prompt",
+      "path": "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md"
+    },
+    {
+      "basename": "artifact-first-context-intake",
+      "path": "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md"
+    },
+    {
+      "basename": "prompting-style-guide",
+      "path": "product-manager-prompts-main/prompting-style-guide.md"
+    },
+    {
+      "basename": "prompt-generator-prompt",
+      "path": "product-manager-prompts-main/skeletons/prompt-generator-prompt.md"
+    },
+    {
+      "basename": "A Prompt Skeleton Analysis Toolkit",
+      "path": "product-manager-prompts-main/skeletons/A Prompt Skeleton Analysis Toolkit.md"
+    },
+    {
       "basename": "Multi Document Support",
       "path": "Product/Projects/Multi Document Support.md"
     },
@@ -29,18 +73,6 @@
       "path": "product-manager-prompts-main/prompts/Dangerous Animals of Product Management Beast Generator.md"
     },
     {
-      "basename": "artifact-first-context-intake",
-      "path": "product-manager-prompts-main/prompt-generators/artifact-first-context-intake.md"
-    },
-    {
-      "basename": "a-generative-AI-prompt-builder-for-product-professionals",
-      "path": "product-manager-prompts-main/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md"
-    },
-    {
-      "basename": "Memo of AI Existential Corporate Dread — Prompt Generator Prompt",
-      "path": "product-manager-prompts-main/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md"
-    },
-    {
       "basename": "Multi-column",
       "path": "Product/competitors/Responsiveio/Multi-column.md"
     },
@@ -63,10 +95,6 @@
     {
       "basename": "vibe.prd-generated-via-search-and-agentic-simulation",
       "path": "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md"
-    },
-    {
-      "basename": "prompting-style-guide",
-      "path": "product-manager-prompts-main/prompting-style-guide.md"
     },
     {
       "basename": "Screenshot_20260316-101854",
@@ -171,34 +199,6 @@
     {
       "basename": "Create a project",
       "path": "Product/Help Article/Create a project.md"
-    },
-    {
-      "basename": "Company Templates - Proposal",
-      "path": "Product/Projects/Proposals/Company Templates - Proposal.md"
-    },
-    {
-      "basename": "SparrowGenie - Help Articles",
-      "path": "Product/Help Article/SparrowGenie - Help Articles.md"
-    },
-    {
-      "basename": "Decision-State Progress Bars",
-      "path": "Product/Projects/Progress bar/Decision-State Progress Bars.md"
-    },
-    {
-      "basename": "RRM_Competitive_Analysis",
-      "path": "Product/competitors/RRM_Competitive_Analysis.md"
-    },
-    {
-      "basename": "Email notifications",
-      "path": "Product/Email notifications/Email notifications.md"
-    },
-    {
-      "basename": "QorusDocs",
-      "path": "Product/competitors/QorusDocs.md"
-    },
-    {
-      "basename": "Arphie.ai",
-      "path": "Product/competitors/Arphie.ai.md"
     }
   ],
   "omittedPaths": [],

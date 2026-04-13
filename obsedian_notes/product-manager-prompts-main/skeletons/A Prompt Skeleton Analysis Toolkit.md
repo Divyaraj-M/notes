@@ -1,4 +1,4 @@
-<!-- A Prompt Skeleton Analysis Toolkit.md
+ A Prompt Skeleton Analysis Toolkit.md
 
 This toolkit can be used to breakdown the structure of a prompt. This is best used on large complex prompts that do scary things you want to learn.
 
@@ -6,7 +6,7 @@ This is still very experimental. Feedback is welcome.
 
 /dp
 
--->
+
 
 <!-- - - - - - - - - - BEGIN STEP 0 - new GAI session starter prompt - - - - - - - - - -->
 
