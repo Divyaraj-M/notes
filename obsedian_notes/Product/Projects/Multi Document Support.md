@@ -7,11 +7,13 @@ product: SparrowGenie
 ---
 
 ### 1. Problem Statement
-- While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no ermiis in today's implementation to resolve this 
+- While receiving the  RFx  users will receive more than one documents that needs to be answered , there's no prems in today's implementation to resolve this 
 
 ### 2. Goals
 - Ability to add one or more documents
-- Ability to map all the documents 
+- Ability to map all the documents one by one
+- Abiltity to save hte mapping once the diagnoiss have zero issues 
+- Abilty 
 
 ### 3. Non-Goals
 - 3-5 things this feature explicitly will NOT do
