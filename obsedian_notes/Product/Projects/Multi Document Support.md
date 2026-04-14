@@ -5,8 +5,11 @@ tags:
 version: 1
 product: SparrowGenie
 ---
+# PRD: Multi-Document RFx Mapping
 
+**Author:** Product Team — Sparrow Genie **Date:** April 13, 2026 **Status:** Draft **Target Release:** Sprint — 2-3 weeks
 
+---
 
 ## 1. Problem Statement
 
@@ -97,6 +100,19 @@ Example:
 
 ## 5. Requirements
 
+Must-Have (P 0): The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: "If we cut this, does the feature still solve the core problem?" If no, it is P 0.
+
+Nice-to-Have (P 1): Significantly improves the experience but the core use case works without them. These often become fast follow-ups after launch.
+
+Future Considerations (P 2): Explicitly out of scope for v 1 but we want to design in a way that supports them later. Documenting these prevents accidental architectural decisions that make them hard later.
+
+For each requirement:
+
+- Write a clear, unambiguous description of the expected behavior
+- Include acceptance criteria (see below)
+- Note any technical considerations or constraints
+- Flag dependencies on other teams or systems
+
 ### Must-Have (P 0)
 
 **P 0-1: Multi-file upload (1–5 documents)**
@@ -107,13 +123,6 @@ Technical considerations: The upload service must handle concurrent multi-file p
 
 Dependencies: Backend upload service, file parsing libraries.
 
-#### Acceptance Criteria — P 0-1
-
-- [ ] Given the user is on the RFx upload screen, when they select 1 to 5 files in supported formats, then all files are uploaded and listed with their filenames and format icons
-- [ ] Given the user has already uploaded 5 files, when they attempt to add a 6 th file, then the system displays an error message indicating the 5-file limit
-- [ ] Given the user selects a file in an unsupported format (e.g., PDF, TXT), when they confirm the upload, then the system rejects the file and displays a clear error listing accepted formats
-- [ ] Given the user selects a mix of XLSX, XLS, CSV, and DOCX files, when uploading, then each file is accepted and parsed according to its format
-
 ---
 
 **P 0-2: Sequential mapping via "Next"**
@@ -122,12 +131,6 @@ Description: Users can map documents one by one in sequence. Clicking "Next" adv
 
 Technical considerations: The "Next" action must trigger diagnosis validation before proceeding.
 
-#### Acceptance Criteria — P 0-2
-
-- [ ] Given the user has uploaded multiple files, when they complete mapping on the current file and click "Next," then the system moves to the next unmapped file in order
-- [ ] Given the user is on the last file in the sequence, when they click "Next," then the button label changes to "Finish Mapping" and clicking it completes the workflow
-- [ ] Given the user has not completed mapping on the current file, when they click "Next" and the diagnosis shows issues, then navigation is blocked and the issues are displayed
-
 ---
 
 **P 0-3: Save mapping on zero-issue diagnosis**
@@ -135,13 +138,6 @@ Technical considerations: The "Next" action must trigger diagnosis validation be
 Description: The mapping is automatically saved when the user clicks "Another File" or "Next," provided the file diagnosis shows zero issues.
 
 Technical considerations: Diagnosis validation must run synchronously before the save action is committed.
-
-#### Acceptance Criteria — P 0-3
-
-- [ ] Given the current file's diagnosis shows zero issues, when the user clicks "Another File," then the mapping is saved and a new file picker opens
-- [ ] Given the current file's diagnosis shows zero issues, when the user clicks "Next," then the mapping is saved and the next file is loaded
-- [ ] Given the current file's diagnosis has issues, when the user clicks "Another File" or "Next," then the save is blocked, and the issues are displayed inline
-- [ ] Given the mapping is saved, when the user navigates back to that file, then the saved mappings are visible and intact
 
 ---
 
@@ -153,13 +149,6 @@ Technical considerations: CSV files lack native hierarchy; the system may need a
 
 Dependencies: Engineering — confirm CSV structure-detection approach.
 
-#### Acceptance Criteria — P 0-4
-
-- [ ] Given the user uploads an XLSX file, when parsing completes, then the system extracts and displays the correct hierarchical structure
-- [ ] Given the user uploads a CSV file, when parsing completes, then the system maps rows/columns to the expected structure (Sections, Questions, etc.)
-- [ ] Given the user uploads a DOCX file, when parsing completes, then headings are mapped to Sections/Sub-sections and body content is mapped to Questions/Answers
-- [ ] Given a file is corrupted or unreadable, when parsing fails, then the system displays a clear error for that specific file without affecting other uploaded files
-
 ---
 
 **P 0-5: File-level Genie AI mapping**
@@ -168,24 +157,11 @@ Description: Users can trigger Genie AI to auto-map questions and answers at the
 
 Dependencies: AI Team — Genie AI endpoint must support a `file_id` scope parameter to restrict mapping to a single document.
 
-#### Acceptance Criteria — P 0-5
-
-- [ ] Given the user is on a specific file's mapping view, when they trigger "Map with Genie AI," then the AI maps only that file's questions
-- [ ] Given Genie AI is running on File A, when the user switches to File B, then File B's mappings are unaffected
-- [ ] Given Genie AI completes mapping, when the user reviews results, then each mapped question shows the AI-suggested answer with a "Draft" status
-- [ ] Given Genie AI fails or times out, when the error occurs, then a clear error message is shown and existing manual mappings are preserved
-
 ---
 
 **P 0-6: View document structure**
 
 Description: For each uploaded file, users can see the full hierarchical structure: Instructions, Sections, Sub-sections, Questions, and Answers.
-
-#### Acceptance Criteria — P 0-6
-
-- [ ] Given a file is uploaded and parsed, when the user views that file, then they see a hierarchical tree of Instructions, Sections, Sub-sections, Questions, and Answers
-- [ ] Given a file has no Instructions section, when the user views the structure, then the Instructions section is omitted (not shown as empty)
-- [ ] Given a file has deeply nested sub-sections, when the user views the structure, then all levels of nesting are displayed correctly
 
 ---
 
@@ -193,24 +169,11 @@ Description: For each uploaded file, users can see the full hierarchical structu
 
 Description: Users can navigate between uploaded files using labeled tabs and numbered indicators.
 
-#### Acceptance Criteria — P 0-7
-
-- [ ] Given multiple files are uploaded, when the mapping view loads, then a tab bar shows all files with their names and numbered indicators (1, 2, 3, etc.)
-- [ ] Given the user clicks a file tab, when the view updates, then the selected tab is visually highlighted and the corresponding file's mapping is displayed
-- [ ] Given the user clicks a numbered navigation indicator, when the view updates, then it navigates to the corresponding file
-- [ ] Given a file has been fully mapped, when the user views the tabs, then that file's tab shows a visual "completed" indicator (e.g., checkmark)
-
 ---
 
 **P 0-8: Left sidebar Files pane**
 
 Description: The left sidebar displays a Files pane showing all uploaded documents with their mapping status.
-
-#### Acceptance Criteria — P 0-8
-
-- [ ] Given the user is in the mapping workflow, when they open the left sidebar, then they see all uploaded files listed with filename, format icon, and mapping status (unmapped, in-progress, mapped)
-- [ ] Given a file's mapping status changes, when the user views the sidebar, then the status indicator updates in real time
-- [ ] Given the user clicks a file in the sidebar, when the view updates, then the main panel navigates to that file's mapping view
 
 ---
 
@@ -218,38 +181,17 @@ Description: The left sidebar displays a Files pane showing all uploaded documen
 
 Description: Users can filter questions within a file by status: All Questions, Unassigned, Unanswered, Drafts, Pending Review, Reviewed.
 
-#### Acceptance Criteria — P 0-9
-
-- [ ] Given the user is viewing a file's questions, when they select "All Questions," then all questions for that file are displayed
-- [ ] Given the user selects "Unassigned," when the filter is applied, then only questions with no assignee are shown
-- [ ] Given the user selects "Unanswered," when the filter is applied, then only questions without any answer (manual or AI-drafted) are shown
-- [ ] Given the user selects "Drafts," when the filter is applied, then only questions with draft answers are shown
-- [ ] Given the user selects "Pending Review," when the filter is applied, then only questions awaiting review are shown
-- [ ] Given the user selects "Reviewed," when the filter is applied, then only questions marked as reviewed are shown
-- [ ] Given any filter is active, when the user views the filter bar, then a count of matching questions is displayed next to each filter option
-
 ---
 
 **P 0-10: Download as ZIP**
 
 Description: Users can download all answered files as a single ZIP archive.
 
-#### Acceptance Criteria — P 0-10
-
-- [ ] Given all files have completed mappings, when the user clicks "Download All as ZIP," then a ZIP archive containing all answered files (up to 5) is downloaded
-- [ ] Given the ZIP is downloaded, when the user extracts it, then each file is in its original format (XLSX, XLS, CSV, or DOCX) with answers populated
-- [ ] Given some files are not fully mapped, when the user clicks "Download All as ZIP," then only fully mapped files are included, and a warning indicates which files were excluded
-
 ---
 
 **P 0-11: Download individual files**
 
 Description: Users can download individual answered files separately.
-
-#### Acceptance Criteria — P 0-11
-
-- [ ] Given a file has a completed mapping, when the user clicks "Download" on that specific file, then the answered file is downloaded in its original format
-- [ ] Given a file is not fully mapped, when the user attempts to download it, then the system warns the user that the file is incomplete and asks for confirmation before downloading
 
 ---
 
@@ -259,24 +201,11 @@ Description: Users can download individual answered files separately.
 
 Description: Users can add additional files (up to the 5-file limit) while in the mapping workflow, without losing existing mappings.
 
-#### Acceptance Criteria — P 1-1
-
-- [ ] Given the user is in the mapping workflow and has fewer than 5 files, when they click "Add File," then a file picker opens
-- [ ] Given the user selects a valid file, when the upload completes, then the new file is appended to the file list and tabs without affecting existing mappings
-- [ ] Given the user already has 5 files, when they click "Add File," then the button is disabled or shows a tooltip explaining the limit
-
 ---
 
 **P 1-2: Remove files during mapping (with caution modal)**
 
 Description: Users can remove files during the mapping workflow. If the file has existing mappings, a caution modal is shown before deletion.
-
-#### Acceptance Criteria — P 1-2
-
-- [ ] Given the user clicks "Remove" on a file with existing mappings, when the modal appears, then it warns that all mappings for this file will be lost and asks for confirmation
-- [ ] Given the user confirms deletion in the modal, when the action completes, then the file and its mappings are removed and the tab bar updates
-- [ ] Given the user cancels deletion in the modal, when the modal closes, then the file and mappings remain unchanged
-- [ ] Given the user clicks "Remove" on a file with no mappings, when the action completes, then the file is removed immediately without a modal
 
 ---
 
@@ -284,25 +213,11 @@ Description: Users can remove files during the mapping workflow. If the file has
 
 Description: Users can clear all mappings for a specific file, resetting it to an unmapped state without affecting other files.
 
-#### Acceptance Criteria — P 1-3
-
-- [ ] Given a file has completed or partial mappings, when the user clicks "Unmap All" on that file, then all mappings for that file are cleared
-- [ ] Given the user unmaps a file, when the status updates, then the file returns to "unmapped" status in the sidebar and tabs
-- [ ] Given the user unmaps File A, when they view File B, then File B's mappings are completely unaffected
-
 ---
 
 **P 1-4: File-level undo/redo**
 
 Description: Users can undo and redo mapping actions scoped to the individual file level.
-
-#### Acceptance Criteria — P 1-4
-
-- [ ] Given the user has made mapping changes on a file, when they click "Undo," then the last mapping action on that file is reversed
-- [ ] Given the user has undone an action, when they click "Redo," then the reversed action is reapplied
-- [ ] Given the user switches from File A to File B and back to File A, when they click "Undo," then the undo applies to File A's action history
-- [ ] Given no actions have been performed on the current file, when the user views the toolbar, then the "Undo" button is disabled
-- [ ] Given no actions have been undone on the current file, when the user views the toolbar, then the "Redo" button is disabled
 
 ---
 
@@ -414,4 +329,133 @@ The download action should log metadata (timestamp, files included, format) to s
 
 ---
 
-_Document version: 1.0 — Draft_ _Last updated: April 13, 2026_
+## 9. Acceptance Criteria (UAT Checklist)
+
+This section consolidates all acceptance criteria from the requirements above into a single checklist, classified by priority. Use this as a UAT sign-off sheet — each item is independently testable.
+
+### Must-Have (P 0)
+
+**P 0-1: Multi-file upload (1–5 documents)**
+
+- [ ] Given the user is on the RFx upload screen, when they select 1 to 5 files in supported formats, then all files are uploaded and listed with their filenames and format icons
+- [ ] Given the user has already uploaded 5 files, when they attempt to add a 6 th file, then the system displays an error message indicating the 5-file limit
+- [ ] Given the user selects a file in an unsupported format (e.g., PDF, TXT), when they confirm the upload, then the system rejects the file and displays a clear error listing accepted formats
+- [ ] Given the user selects a mix of XLSX, XLS, CSV, and DOCX files, when uploading, then each file is accepted and parsed according to its format
+
+**P 0-2: Sequential mapping via "Next"**
+
+- [ ] Given the user has uploaded multiple files, when they complete mapping on the current file and click "Next," then the system moves to the next unmapped file in order
+- [ ] Given the user is on the last file in the sequence, when they click "Next," then the button label changes to "Finish Mapping" and clicking it completes the workflow
+- [ ] Given the user has not completed mapping on the current file, when they click "Next" and the diagnosis shows issues, then navigation is blocked and the issues are displayed
+
+**P 0-3: Save mapping on zero-issue diagnosis**
+
+- [ ] Given the current file's diagnosis shows zero issues, when the user clicks "Another File," then the mapping is saved and a new file picker opens
+- [ ] Given the current file's diagnosis shows zero issues, when the user clicks "Next," then the mapping is saved and the next file is loaded
+- [ ] Given the current file's diagnosis has issues, when the user clicks "Another File" or "Next," then the save is blocked, and the issues are displayed inline
+- [ ] Given the mapping is saved, when the user navigates back to that file, then the saved mappings are visible and intact
+
+**P 0-4: Mixed format support**
+
+- [ ] Given the user uploads an XLSX file, when parsing completes, then the system extracts and displays the correct hierarchical structure
+- [ ] Given the user uploads a CSV file, when parsing completes, then the system maps rows/columns to the expected structure (Sections, Questions, etc.)
+- [ ] Given the user uploads a DOCX file, when parsing completes, then headings are mapped to Sections/Sub-sections and body content is mapped to Questions/Answers
+- [ ] Given a file is corrupted or unreadable, when parsing fails, then the system displays a clear error for that specific file without affecting other uploaded files
+
+**P 0-5: File-level Genie AI mapping**
+
+- [ ] Given the user is on a specific file's mapping view, when they trigger "Map with Genie AI," then the AI maps only that file's questions
+- [ ] Given Genie AI is running on File A, when the user switches to File B, then File B's mappings are unaffected
+- [ ] Given Genie AI completes mapping, when the user reviews results, then each mapped question shows the AI-suggested answer with a "Draft" status
+- [ ] Given Genie AI fails or times out, when the error occurs, then a clear error message is shown and existing manual mappings are preserved
+
+**P 0-6: View document structure**
+
+- [ ] Given a file is uploaded and parsed, when the user views that file, then they see a hierarchical tree of Instructions, Sections, Sub-sections, Questions, and Answers
+- [ ] Given a file has no Instructions section, when the user views the structure, then the Instructions section is omitted (not shown as empty)
+- [ ] Given a file has deeply nested sub-sections, when the user views the structure, then all levels of nesting are displayed correctly
+
+**P 0-7: File navigation tabs**
+
+- [ ] Given multiple files are uploaded, when the mapping view loads, then a tab bar shows all files with their names and numbered indicators (1, 2, 3, etc.)
+- [ ] Given the user clicks a file tab, when the view updates, then the selected tab is visually highlighted and the corresponding file's mapping is displayed
+- [ ] Given the user clicks a numbered navigation indicator, when the view updates, then it navigates to the corresponding file
+- [ ] Given a file has been fully mapped, when the user views the tabs, then that file's tab shows a visual "completed" indicator (e.g., checkmark)
+
+**P 0-8: Left sidebar Files pane**
+
+- [ ] Given the user is in the mapping workflow, when they open the left sidebar, then they see all uploaded files listed with filename, format icon, and mapping status (unmapped, in-progress, mapped)
+- [ ] Given a file's mapping status changes, when the user views the sidebar, then the status indicator updates in real time
+- [ ] Given the user clicks a file in the sidebar, when the view updates, then the main panel navigates to that file's mapping view
+
+**P 0-9: Question status filter**
+
+- [ ] Given the user is viewing a file's questions, when they select "All Questions," then all questions for that file are displayed
+- [ ] Given the user selects "Unassigned," when the filter is applied, then only questions with no assignee are shown
+- [ ] Given the user selects "Unanswered," when the filter is applied, then only questions without any answer (manual or AI-drafted) are shown
+- [ ] Given the user selects "Drafts," when the filter is applied, then only questions with draft answers are shown
+- [ ] Given the user selects "Pending Review," when the filter is applied, then only questions awaiting review are shown
+- [ ] Given the user selects "Reviewed," when the filter is applied, then only questions marked as reviewed are shown
+- [ ] Given any filter is active, when the user views the filter bar, then a count of matching questions is displayed next to each filter option
+
+**P 0-10: Download as ZIP**
+
+- [ ] Given all files have completed mappings, when the user clicks "Download All as ZIP," then a ZIP archive containing all answered files (up to 5) is downloaded
+- [ ] Given the ZIP is downloaded, when the user extracts it, then each file is in its original format (XLSX, XLS, CSV, or DOCX) with answers populated
+- [ ] Given some files are not fully mapped, when the user clicks "Download All as ZIP," then only fully mapped files are included, and a warning indicates which files were excluded
+
+**P 0-11: Download individual files**
+
+- [ ] Given a file has a completed mapping, when the user clicks "Download" on that specific file, then the answered file is downloaded in its original format
+- [ ] Given a file is not fully mapped, when the user attempts to download it, then the system warns the user that the file is incomplete and asks for confirmation before downloading
+
+### Nice-to-Have (P 1)
+
+**P 1-1: Add files during mapping**
+
+- [ ] Given the user is in the mapping workflow and has fewer than 5 files, when they click "Add File," then a file picker opens
+- [ ] Given the user selects a valid file, when the upload completes, then the new file is appended to the file list and tabs without affecting existing mappings
+- [ ] Given the user already has 5 files, when they click "Add File," then the button is disabled or shows a tooltip explaining the limit
+
+**P 1-2: Remove files during mapping (with caution modal)**
+
+- [ ] Given the user clicks "Remove" on a file with existing mappings, when the modal appears, then it warns that all mappings for this file will be lost and asks for confirmation
+- [ ] Given the user confirms deletion in the modal, when the action completes, then the file and its mappings are removed and the tab bar updates
+- [ ] Given the user cancels deletion in the modal, when the modal closes, then the file and mappings remain unchanged
+- [ ] Given the user clicks "Remove" on a file with no mappings, when the action completes, then the file is removed immediately without a modal
+
+**P 1-3: File-level unmap**
+
+- [ ] Given a file has completed or partial mappings, when the user clicks "Unmap All" on that file, then all mappings for that file are cleared
+- [ ] Given the user unmaps a file, when the status updates, then the file returns to "unmapped" status in the sidebar and tabs
+- [ ] Given the user unmaps File A, when they view File B, then File B's mappings are completely unaffected
+
+**P 1-4: File-level undo/redo**
+
+- [ ] Given the user has made mapping changes on a file, when they click "Undo," then the last mapping action on that file is reversed
+- [ ] Given the user has undone an action, when they click "Redo," then the reversed action is reapplied
+- [ ] Given the user switches from File A to File B and back to File A, when they click "Undo," then the undo applies to File A's action history
+- [ ] Given no actions have been performed on the current file, when the user views the toolbar, then the "Undo" button is disabled
+- [ ] Given no actions have been undone on the current file, when the user views the toolbar, then the "Redo" button is disabled
+
+### Future Considerations (P 2)
+
+**P 2-1: Auto-save with caching/backend persistence**
+
+- [ ] To be defined when feature is scoped for implementation
+
+**P 2-2: Cross-document mapping summary**
+
+- [ ] To be defined when feature is scoped for implementation
+
+**P 2-3: Post-mapping file management (add/delete)**
+
+- [ ] To be defined when feature is scoped for implementation
+
+**P 2-4: Recent downloads history**
+
+- [ ] To be defined when feature is scoped for implementation
+
+---
+
+_Document version: 1.1 — Draft_ _Last updated: April 14, 2026_
