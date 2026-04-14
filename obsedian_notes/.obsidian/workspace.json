@@ -97,24 +97,12 @@
             "id": "4193753dcf0c5d56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "html-view",
               "state": {
-                "file": "Product/Projects/Multi Document Support.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
               },
-              "icon": "lucide-file",
-              "title": "Multi Document Support"
+              "icon": "code-glyph",
+              "title": "sparrowgenie-roi-final"
             }
           },
           {
@@ -515,8 +503,10 @@
   },
   "active": "4193753dcf0c5d56",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "Product/Marketing/ROI Calculator/sparrowgenie-email-template.html",
+    "Product/Marketing/ROI Calculator/ROI Calculator.md",
     "Product/Projects/Multi Document Support.md",
+    "TO DO List - today.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
     "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
     "product-manager-prompts-main/prompt-generators/persona-first-decision-facilitation-loop.md",
@@ -540,8 +530,6 @@
     "Books/Tiny Experiments.md",
     "Product/UAT/UAT Shihab.md",
     "Not a trash/Friction points.md",
-    "Product/UAT/UAT Vipin.md",
-    "product-manager-prompts-main/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md",
     "product-manager-prompts-main/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
     "product-manager-prompts-main/flows",
     "product-manager-prompts-main/prompts",

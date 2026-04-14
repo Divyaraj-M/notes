@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "sparrowgenie-roi-final",
+      "path": "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
+    },
+    {
+      "basename": "sparrowgenie-email-template",
+      "path": "Product/Marketing/ROI Calculator/sparrowgenie-email-template.html"
+    },
+    {
+      "basename": "ROI Calculator",
+      "path": "Product/Marketing/ROI Calculator/ROI Calculator.md"
+    },
+    {
       "basename": "Multi Document Support",
       "path": "Product/Projects/Multi Document Support.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Attachments - Responsive",
       "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
-    },
-    {
-      "basename": "Chrome Extension - Responsive IO",
-      "path": "Product/competitors/Responsiveio/Chrome Extension - Responsive IO.md"
-    },
-    {
-      "basename": "Answer types templates",
-      "path": "Product/competitors/Responsiveio/Answer types templates.md"
-    },
-    {
-      "basename": "Proposal to Project",
-      "path": "Product/competitors/Loopio/Proposal to Project.md"
     }
   ],
   "omittedPaths": [],
