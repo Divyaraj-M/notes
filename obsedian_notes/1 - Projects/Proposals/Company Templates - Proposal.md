@@ -4,7 +4,7 @@ tags:
 ---
 ## First principle thinking
 
-Company Templates exist because every organisation develops its own way of selling. Genie Templates give you a starting structure, but over time a company's proposals converge on a house style — specific sections, approved language, branded layouts. Company Templates capture that institutional knowledge at the account level so it survives employee turnover and stays consistent across the team. This is Tier 2 in the 3-tier template model — account-level, permission-gated, sitting between SparrowGenie's curated defaults (Tier 1) and each user's personal library (Tier 3).
+Company Templates exist because every organisation develops its own way of selling. [[Genie Templates - Propsals|Genie Templates]] give you a starting structure, but over time a company's proposals converge on a house style — specific sections, approved language, branded layouts. Company Templates capture that institutional knowledge at the account level so it survives employee turnover and stays consistent across the team. This is Tier 2 in the 3-tier template model — account-level, permission-gated, sitting between SparrowGenie's curated defaults (Tier 1) and each user's personal library ([[My Templates - Proposal (Next phase)|Tier 3]]).
 
 ## 1. Problem Statement
 
@@ -37,7 +37,7 @@ Teams using SparrowGenie today have no shared place to store approved proposal s
 |Cross-account template sharing|Each account's templates are private to that account|
 |Template analytics (usage dashboards, adoption tracking)|Phase 2 — depends on tracking template_id on proposals first|
 |Editing Genie Templates in-place|Genie Templates are read-only. Users save copies as Company Templates — covered here|
-|My Templates management|Separate PRD (Tier 3)|
+|My Templates management|Separate PRD ([[My Templates - Proposal (Next phase)|Tier 3]])|
 
 ---
 

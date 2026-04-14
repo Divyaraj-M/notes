@@ -44,9 +44,33 @@
               "icon": "chart-gantt",
               "title": "PM"
             }
+          },
+          {
+            "id": "7794ae2189b6f7e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Multi Document Support.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi Document Support"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#teardown",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,16 +109,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "a2269e0f0941a745",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           },
           {
@@ -121,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "2baa8948f242f9e0",
@@ -368,10 +382,10 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "eb61e999624953f5",
+  "active": "7794ae2189b6f7e3",
   "lastOpenFiles": [
-    "1 - Projects/Multi Document Support.md",
     "TO DO List - today.md",
+    "1 - Projects/Multi Document Support.md",
     "Projects",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/SparrowGenie.excalidraw.md",

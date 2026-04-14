@@ -4,7 +4,7 @@ tags:
 ---
 ## First principle thinking
 
-Genie Templates are the starting line. A new user should never face a blank page. By shipping a curated set of ready-made proposal structures, SparrowGenie removes the cold-start problem entirely. The user's first interaction with proposals becomes "pick and fill" instead of "figure out what goes in a proposal." This is Tier 1 in the 3-tier template model — product-level, read-only, available to every SparrowGenie user. Genie Templates feed both Company Templates (Tier 2) and My Templates (Tier 3) — they are the seed that the entire template ecosystem grows from.
+Genie Templates are the starting line. A new user should never face a blank page. By shipping a curated set of ready-made proposal structures, SparrowGenie removes the cold-start problem entirely. The user's first interaction with proposals becomes "pick and fill" instead of "figure out what goes in a proposal." This is Tier 1 in the 3-tier template model — product-level, read-only, available to every SparrowGenie user. Genie Templates feed both [[Company Templates - Proposal|Company Templates]] (Tier 2) and [[My Templates - Proposal (Next phase)|My Templates]] (Tier 3) — they are the seed that the entire template ecosystem grows from.
 
 ## 1. Problem Statement
 
@@ -33,7 +33,7 @@ New users signing up for SparrowGenie have no starting point for creating propos
 |Non-Goal|Why Out of Scope|
 |---|---|
 |Editing Genie Templates directly|Genie Templates are read-only. Users open in editor and save as Company or My Template — that's a separate story (Template Management)|
-|User-created templates|Covered by My Templates (Tier 3) and Company Templates (Tier 2) PRDs|
+|User-created templates|Covered by [[My Templates - Proposal (Next phase)|My Templates (Tier 3)]] and [[Company Templates - Proposal|Company Templates (Tier 2)]] PRDs|
 |Template categorisation, tagging, or search|Part of Template Management story|
 |Template analytics (which Genie Templates are most used)|Phase 2 — track template_id on proposals first, then build dashboards|
 |Custom Genie Templates per account|All accounts get the same Genie Templates. Customisation happens at Company Template level|

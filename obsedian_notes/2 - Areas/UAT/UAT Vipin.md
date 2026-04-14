@@ -1,24 +1,24 @@
 ---
 state: "[[Idea]]"
 ---
-Obligation -  Modal flow 
-Genie Actions filter by high confidence 
+[[Obligations|Obligation]] -  Modal flow 
+[[Genie Actions inside the Questions card|Genie Actions]] filter by high confidence 
 Question number in question card  
-Context 
+[[Context Info|Context]] 
 Differentation between the Question and answer in the question card
-Project health - I need to see the geneie filed answers in the progress 
+[[Decision-State Progress Bars|Project health]] - I need to see the geneie filed answers in the progress 
 Same Color as genei ai and rerun
 Double click should be working 
 Able to map from  header 
-Instrutions based on the 
+[[Instructions|Instrutions]] based on the 
 Instructions to Submissions instructions 
 Label the question with genie filled 
 Navigation from workspace to project 
   5 Item 
   Search is for project title
   Articlautions should be done 
-  Geneie contributon and loading screen 
-  Assignment in the team
+  [[Genie Contribution|Geneie contributon]] and [[Loading screen after finish mapping|loading screen]] 
+  Assignment in the [[Teams|team]]
 
 11 March 
 Diagnosis - Copies 
@@ -33,8 +33,8 @@ Loading screen
 High Confidence and source 
 filter 
 navigation
-rich text 
-attachments 
+[[Final PRD -Rich Text Editor for Project Response Area|rich text]] 
+[[Attachments in RFP response - Product Spec|attachments]] 
 
 23 March 
 
@@ -51,7 +51,7 @@ These are table stakes items, infact they are nxot just table stakes but baselin
 5. ==Character count for answers==  - Fri 
 6. <mark style="background: #BBFABBA6;">Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
 7. Learn from past completed RFPs within SparrowGenie  </mark>
-8. Multiple Documents - needed to picked 
+8. [[Multi Document Support|Multiple Documents]] - needed to picked 
 	
 **RFP ingestion & mapping**  
 1. <mark style="background: #BBFABBA6;">AI Mapping for Word documents  - in testing (UAT pending) - Mon</mark>
@@ -80,8 +80,8 @@ These are table stakes items, infact they are nxot just table stakes but baselin
   
 13. Implement the Articles-related capability done in SparrowDesk  
 14. New Home dashboard  
-15. ==Project to Proposal==  
-16. ==Go/No-Go module==  
+15. ==[[RFP to Proposal|Project to Proposal]]==  
+16. ==[[Go - No- Go|Go/No-Go module]]==  
   
   
   
