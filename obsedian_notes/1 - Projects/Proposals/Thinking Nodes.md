@@ -23,13 +23,13 @@ Proposals are just the beginning. The long-term vision is to become the AI layer
 
 The working notes behind SparrowGenie — specs, teardowns, decisions, and everything in between.
 
-**Projects** → [[Rich text/Final PRD -Rich Text Editor for Project Response Area|Rich Text Editor PRD]] → [[Context Info/Context info - PRD|Context Info PRD]] → [[Obligations/Obligations|Obligations]] → [[Table View/Table view for question card PRD|Table View PRD]] → [[Proposals/Proposal Template flow|Proposal Templates]] → [[Chrome_extension/Chrome Extension|Chrome Extension]] → [[Progress bar/Decision-State Progress Bars|Progress Bars]] → [[Attachments in RFP Response area/Attachments in RFP response - Product Spec|Attachments in RFP Responses]] → [[Questions/Insert from QnA|Insert from QnA]] → [[Internal Share/Share assign and review flow|Share, Assign & Review Flow]]
+**Projects** → [[Final PRD -Rich Text Editor for Project Response Area|Rich Text Editor PRD]] → [[Context info - PRD|Context Info PRD]] → [[Obligations|Obligations]] → [[Table view for question card PRD|Table View PRD]] → [[Proposal Template flow|Proposal Templates]] → [[Chrome Extension|Chrome Extension]] → [[Decision-State Progress Bars|Progress Bars]] → [[Attachments in RFP response - Product Spec|Attachments in RFP Responses]] → [[Insert from QnA|Insert from QnA]] → [[Share assign and review flow|Share, Assign & Review Flow]]
 
 **Knowledge Hub** → [[Knowledge Hub]] → [[RFP training PRD]] → [[Training back Projects into Knowledge Hubs]]
 
 **Go / No-Go Decision Framework** → [[Go - No- Go]] → [[Past RFP Similarity Score (PRS)]] → [[AI Readiness Score (ARS)]] → [[External Questionnaire Score (EQS)]]
 
-**Competitors** → [[Loopio/Loopio|Loopio]] → [[Responsiveio/Attachments - Responsive|Responsive.io]] → [[Gamma/Behaviour study|Gamma — Behaviour Study]] → [[Five Differentiators/Differentiator|Five Differentiators]]
+**Competitors** → [[Loopio|Loopio]] → [[Attachments - Responsive|Responsive.io]] → [[Behaviour study|Gamma — Behaviour Study]] → [[Differentiator|Five Differentiators]]
 
 **Settings & Roles** → [[Project admin settings]] → [[Roles and Permissions]] → [[Teams]] → [[Project Owner]] · [[Project Manager]] · [[Project Watcher]]
 

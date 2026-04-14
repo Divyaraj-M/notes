@@ -22,54 +22,6 @@
             }
           },
           {
-            "id": "80349be5bddf852a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project Share - RFx and Proposal"
-            }
-          },
-          {
-            "id": "a8147277983e71f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/UAT/UAT Vipin.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UAT Vipin"
-            }
-          },
-          {
             "id": "f1c16909e06c4cfd",
             "type": "leaf",
             "state": {
@@ -90,28 +42,16 @@
                 "filePath": "Projects/Sparrow Genie - Project Phase II.md"
               },
               "icon": "chart-gantt",
-              "title": "Sparrow G…"
+              "title": "PM"
             }
           },
           {
-            "id": "4193753dcf0c5d56",
-            "type": "leaf",
-            "state": {
-              "type": "html-view",
-              "state": {
-                "file": "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
-              },
-              "icon": "code-glyph",
-              "title": "sparrowgenie-email-preview"
-            }
-          },
-          {
-            "id": "1f8d869fba78d14d",
+            "id": "9d632bcf3304985e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
+                "file": "1 - Projects/Multi Document Support.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -126,23 +66,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "customer-journey-mapping-prompt-generator"
-            }
-          },
-          {
-            "id": "9d632bcf3304985e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Product/SparrowGenie.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "SparrowGenie.excalidraw"
+              "title": "Multi Document Support"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -399,54 +327,6 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "8483e97d88f79283",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Not a trash/Friction points.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Friction points"
-            }
-          },
-          {
-            "id": "c6727febc1419723",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Thinking"
-            }
           }
         ],
         "currentTab": 1
@@ -513,54 +393,54 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "9d632bcf3304985e",
   "lastOpenFiles": [
+    "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
+    "Product/SparrowGenie.excalidraw.md",
+    "Projects",
+    "4 - Archive/Daily/UAT Kavin.md",
+    "4 - Archive/Daily/UAT vipin 2026-02-23.md",
+    "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
+    "4 - Archive/Screenshots/image (2).png",
+    "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png",
+    "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.29.09 PM.png",
+    "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png",
+    "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png",
+    "4 - Archive/Misc/My Data.base",
+    "4 - Archive/Misc/README.md",
+    "4 - Archive/Misc/Test.md",
+    "4 - Archive/Misc/external_share.md",
+    "4 - Archive/Misc/mail.md",
+    "4 - Archive/Misc/MyMail.md",
+    "4 - Archive/Misc/Mirosignup.md",
+    "4 - Archive/Meeting Notes/Work Log 2026-02-16.md",
+    "4 - Archive/Meeting Notes/9.mar.2026 - Stand up.md",
+    "4 - Archive/Meeting Notes/2026-02-24.md",
+    "4 - Archive/Meeting Notes/2026-02-24 - Sprint Planning.md",
+    "4 - Archive/Meeting Notes/2026-02-23 -Weekly product Stand up.md",
+    "4 - Archive/Meeting Notes/2026-02-13.md",
+    "4 - Archive/Meeting Notes/2026-02-10 19-43-37.md",
+    "4 - Archive/Meeting Notes/2026-02-04.md",
+    "4 - Archive/Meeting Notes/2026-01-30.md",
+    "4 - Archive/Meeting Notes/2026-01-29 UAT with Vipin.md",
     "3 - Resources/Genie Journal/Resources - Sparrow Genie.md",
     "3 - Resources/Genie Journal/Demo Important Points.md",
     "3 - Resources/Genie Journal/2025-12-12.md",
     "3 - Resources/SparrowGenie.excalidraw.md",
     "3 - Resources/Product Notes (Why Sales Needs Better Tools).md",
     "3 - Resources/My Product Notes.md",
-    "3 - Resources/Find Analogies.md",
-    "3 - Resources/Notification Strategy.md",
-    "3 - Resources/Onboarding Emails Reference.md",
-    "3 - Resources/Sparrow Genie Notes.md",
-    "3 - Resources/Help Article Template.md",
-    "3 - Resources/Teardowns/2025-12-12 - Clickup Teardown.md",
-    "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
-    "3 - Resources/Templates/Product to dev process/FRD Template.md",
-    "3 - Resources/Templates/Product to dev process/Doc Workflow Two-Doc System.md",
-    "3 - Resources/Templates/Template - PM.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "3 - Resources/Templates/Product Spec - Template.md",
-    "3 - Resources/Templates/First-Principles Product Template.md",
-    "3 - Resources/Templates/Book shelf.md",
-    "3 - Resources/Templates/2026-W13.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
-    "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md",
-    "3 - Resources/Learning/Product Process/Jira Process.md",
-    "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "3 - Resources/Learning/Top Deliverables/Rigor of thoughts.md",
-    "3 - Resources/Learning/Top Deliverables/Product thinking.md",
     "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.html",
     "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-product-framework.html",
     "3 - Resources/Learning/Domain Design/Evans03.pdf",
-    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
-    "3 - Resources/Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png",
-    "3 - Resources/Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png",
     "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
     "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/generate_scenes.py",
     "3 - Resources/PM Prompts Library/storytelling/Dataset - Bedtime Story Types and Characteristics.json",
     "3 - Resources/PM Prompts Library/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
-    "3 - Resources/Books/Read List/Screenshot_20260316-101854.png",
-    "3 - Resources/Books/Read List/Analogy vs Analogical thinking.pdf",
-    "2 - Areas/Wireframe/wireframe.html",
-    "2 - Areas/Audit Report/Screenshot 2026-02-26 at 11.21.15 AM.png",
-    "1 - Projects/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.48.54 PM.png",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",

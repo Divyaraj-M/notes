@@ -2,4 +2,4 @@
 ~
 ---
 
-![[Product/Users/Untitled.base]]
+![[Untitled.base]]

@@ -33,17 +33,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "Not a trash": "CoTrashFull",
-  "Books": "📚",
-  "Daily": {
-    "iconName": "LiCalendarPlus",
-    "iconColor": "#4d96db"
-  },
-  "Learning": "🤹",
-  "Product": {
-    "iconName": "CoMainComponent",
-    "iconColor": "#d150e2"
-  },
-  "second_stream_revenue": "LiSquareSplitVertical"
+  }
 }
