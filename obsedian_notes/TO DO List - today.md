@@ -43,7 +43,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ] Finalising proposal creation flow
 14-Apr-2026
   - [ ]  Help article 
-  - [ ] Finalising proposal creation flow
-  - [ ] Roles and Permissions - Proposals
+  - [x] Finalising proposal creation flow
+  - [x] Roles and Permissions - Proposals
   - [ ] Priotization of the feautres based on impact
   - [ ] Ability to send nudges to authors & reviewers  
