@@ -52,5 +52,7 @@ Impact Areas
 [[Proposal Creation Flow]]
 Action
 - Create the proposal using ai
-	- With themes , default KH , or all hubs selected with ablity to wiret promts iwht all th ecommunicaitona nd 
-	- 
+	- With themes , default KH , or all hubs selected with ablity to wiret promts iwht all th communication  and RFPs and attachments 
+	- Templates - Just have the templates and creat with ai 
+- Start with blank 
+	- Templates 
