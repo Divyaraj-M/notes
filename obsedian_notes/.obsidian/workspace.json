@@ -111,6 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "RFP to Proposal"
+            }
+          },
+          {
+            "id": "9d126bec563c36df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "2 - Areas/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
@@ -130,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -442,13 +466,13 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "e24c73b9b11632b8",
+  "active": "9d126bec563c36df",
   "lastOpenFiles": [
     "TO DO List - today.md",
-    "2 - Areas/UAT/UAT Vipin.md",
-    "1 - Projects/Multi Document Support.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
+    "2 - Areas/UAT/UAT Vipin.md",
+    "1 - Projects/Multi Document Support.md",
     "1 - Projects/Table View/First Principle thinking - Table View.md",
     "Projects",
     "2 - Areas/Integrations.md",
