@@ -252,8 +252,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -318,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -418,7 +418,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "31122521cc96bb12",
+  "active": "b2aec384d239af07",
   "lastOpenFiles": [
     "1 - Projects/Sparrow Genie - Project Phase II.md",
     "Projects",
