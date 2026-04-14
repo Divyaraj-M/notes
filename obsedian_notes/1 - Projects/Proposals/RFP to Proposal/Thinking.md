@@ -48,3 +48,9 @@ Impact Areas
 -  Download Preview screen
 - Download options 
 - Project Health Screen
+
+[[Proposal Creation Flow]]
+Action
+- Create the proposal using ai
+	- With themes , default KH , or all hubs selected with ablity to wiret promts iwht all th ecommunicaitona nd 
+	- 
