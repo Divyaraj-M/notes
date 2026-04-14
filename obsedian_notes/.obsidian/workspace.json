@@ -128,9 +128,33 @@
               "icon": "lucide-file",
               "title": "customer-journey-mapping-prompt-generator"
             }
+          },
+          {
+            "id": "9d632bcf3304985e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product/Projects/Multi Document Support.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi Document Support"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -501,15 +525,16 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "4193753dcf0c5d56",
+  "active": "9d632bcf3304985e",
   "lastOpenFiles": [
+    "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
+    "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "Product/Marketing/ROI Calculator/ROI Calculator.md",
     "Product/Projects/Multi Document Support.md",
     "TO DO List - today.md",
     "product-manager-prompts-main/prompts/eol-for-a-product-message.md",
-    "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md",
     "product-manager-prompts-main/prompt-generators/persona-first-decision-facilitation-loop.md",
     "product-manager-prompts-main/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md",
     "product-manager-prompts-main/prompt-generators/market-requirements-generator-prompt.md",
@@ -537,7 +562,6 @@
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/generate_scenes.py",
-    "product-manager-prompts-main/storytelling/code-generate-scenes",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Not a trash/Happyflow breakdown inputs.png",
     "obsedian_notes/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

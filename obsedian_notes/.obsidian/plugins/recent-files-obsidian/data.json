@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Multi Document Support",
+      "path": "Product/Projects/Multi Document Support.md"
+    },
+    {
+      "basename": "customer-journey-mapping-prompt-generator",
+      "path": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md"
+    },
+    {
       "basename": "sparrowgenie-email-preview",
       "path": "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
     },
@@ -17,20 +25,12 @@
       "path": "Product/Marketing/ROI Calculator/ROI Calculator.md"
     },
     {
-      "basename": "Multi Document Support",
-      "path": "Product/Projects/Multi Document Support.md"
-    },
-    {
       "basename": "TO DO List - today",
       "path": "TO DO List - today.md"
     },
     {
       "basename": "eol-for-a-product-message",
       "path": "product-manager-prompts-main/prompts/eol-for-a-product-message.md"
-    },
-    {
-      "basename": "customer-journey-mapping-prompt-generator",
-      "path": "product-manager-prompts-main/prompt-generators/customer-journey-mapping-prompt-generator.md"
     },
     {
       "basename": "persona-first-decision-facilitation-loop",
