@@ -81,7 +81,7 @@ These are table stakes items, infact they are nxot just table stakes but baselin
 26. Implement the Articles-related capability done in SparrowDesk  
 27. New Home dashboard  
 28. ==[[RFP to Proposal|Project to Proposal]]==  
-29. Create a propsoal
+29. Create a proposal 
 30. ==[[Go - No- Go|Go/No-Go module]]==  
   
   
