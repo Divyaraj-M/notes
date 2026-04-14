@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Multi Document Support.md",
+                "file": "1 - Projects/Sparrow Genie - Project Phase II.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,11 +66,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi Document Support"
+              "title": "Sparrow Genie - Project Phase II"
+            }
+          },
+          {
+            "id": "01eac66625fedcbb",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project-view",
+              "state": {
+                "filePath": "1 - Projects/Sparrow Genie - Project Phase II.md"
+              },
+              "icon": "chart-gantt",
+              "title": "Sparrow G…"
+            }
+          },
+          {
+            "id": "31122521cc96bb12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Table View/First Principle thinking - Table View.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "First Principle thinking - Table View"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -382,12 +418,13 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "7794ae2189b6f7e3",
+  "active": "31122521cc96bb12",
   "lastOpenFiles": [
-    "2 - Areas/Integrations.md",
-    "1 - Projects/Multi Document Support.md",
-    "TO DO List - today.md",
+    "1 - Projects/Sparrow Genie - Project Phase II.md",
     "Projects",
+    "1 - Projects/Multi Document Support.md",
+    "2 - Areas/Integrations.md",
+    "TO DO List - today.md",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/SparrowGenie.excalidraw.md",
     "4 - Archive/Daily/UAT Kavin.md",
@@ -418,7 +455,6 @@
     "3 - Resources/Genie Journal/Resources - Sparrow Genie.md",
     "3 - Resources/Genie Journal/Demo Important Points.md",
     "3 - Resources/Genie Journal/2025-12-12.md",
-    "3 - Resources/SparrowGenie.excalidraw.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
