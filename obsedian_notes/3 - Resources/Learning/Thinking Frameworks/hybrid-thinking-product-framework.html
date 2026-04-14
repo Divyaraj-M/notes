@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hybrid Thinking Engine — Product Discovery Framework</title>
+<style>
+  :root {
+    --warm: #C4652A;
+    --warm-light: #F4E8DF;
+    --warm-bg: #FDF8F4;
+    --cool: #1B3A5C;
+    --cool-light: #E0E8F0;
+    --cool-bg: #F4F7FA;
+    --bg: #FAFAF8;
+    --text: #2A2A2A;
+    --muted: #6B7280;
+    --border: #E5E5E0;
+    --card: #FFFFFF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+  /* HERO */
+  .hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 32px 60px;
+    text-align: center;
+  }
+  .hero-label {
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--warm);
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  .hero h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--cool);
+    margin-bottom: 20px;
+  }
+  .hero h1 em { font-style: italic; color: var(--warm); }
+  .hero p {
+    font-size: 18px;
+    color: var(--muted);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  /* CORE THESIS */
+  .thesis {
+    max-width: 780px;
+    margin: 0 auto 60px;
+    padding: 0 32px;
+  }
+  .thesis-box {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--warm);
+    padding: 32px 36px;
+    background: var(--card);
+    border-radius: 4px;
+  }
+  .thesis-box p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+  .thesis-box p + p { margin-top: 16px; }
+  .thesis-box strong { color: var(--cool); }
+
+  /* SECTIONS */
+  .section {
+    max-width: 860px;
+    margin: 0 auto 72px;
+    padding: 0 32px;
+  }
+  .section-num {
+    font-family: -apple-system, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--warm);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .section h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--cool);
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  .section p { font-size: 16px; margin-bottom: 16px; }
+
+  /* TWO POLES */
+  .poles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 32px 0;
+  }
+  .pole {
+    padding: 28px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+  .pole-analogy { background: var(--warm-bg); border-left: 4px solid var(--warm); }
+  .pole-logic { background: var(--cool-bg); border-left: 4px solid var(--cool); }
+  .pole h3 {
+    font-family: -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .pole-analogy h3 { color: var(--warm); }
+  .pole-logic h3 { color: var(--cool); }
+  .pole p { font-size: 15px; line-height: 1.65; }
+  .pole .tag {
+    display: inline-block;
+    font-family: -apple-system, sans-serif;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .pole-analogy .tag { background: #E8D5C4; color: var(--warm); }
+  .pole-logic .tag { background: #C8D6E5; color: var(--cool); }
+
+  /* LOOP VISUALIZATION */
+  .loop-container {
+    margin: 40px 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .loop-header {
+    padding: 24px 28px 0;
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .loop-svg {
+    width: 100%;
+    padding: 20px 28px 28px;
+  }
+  .loop-svg svg { width: 100%; height: auto; }
+
+  /* STEPS — Playbook */
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 32px 0;
+    position: relative;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .step:last-child { border-bottom: none; }
+  .step:hover { background: rgba(0,0,0,0.015); padding-left: 8px; }
+  .step-num {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .step-analogy .step-num { background: var(--warm-light); color: var(--warm); }
+  .step-logic .step-num { background: var(--cool-light); color: var(--cool); }
+  .step-bridge .step-num { background: #E8E0D8; color: #8B6F47; }
+  .step h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: -apple-system, sans-serif;
+  }
+  .step-analogy h3 { color: var(--warm); }
+  .step-logic h3 { color: var(--cool); }
+  .step-bridge h3 { color: #8B6F47; }
+  .step .subtitle {
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .step p { font-size: 15px; }
+  .step-detail {
+    display: none;
+    margin-top: 14px;
+    padding: 16px 20px;
+    background: var(--bg);
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: -apple-system, sans-serif;
+  }
+  .step-detail.open { display: block; }
+  .step-detail strong { color: var(--cool); }
+
+  /* EXAMPLE WALKTHROUGH */
+  .example-box {
+    margin: 32px 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .example-header {
+    background: var(--cool);
+    color: white;
+    padding: 16px 24px;
+    font-family: -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .example-body { padding: 24px; }
+  .example-step {
+    padding: 16px 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .example-step:last-child { border-bottom: none; }
+  .example-step .label {
+    font-family: -apple-system, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+  }
+  .label-warm { color: var(--warm); }
+  .label-cool { color: var(--cool); }
+  .label-bridge { color: #8B6F47; }
+  .example-step p { font-size: 15px; }
+
+  /* ANTI-PATTERNS */
+  .antipatterns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 28px 0;
+  }
+  .antipattern {
+    padding: 24px;
+    border-radius: 6px;
+    border: 1px solid #E8D0D0;
+    background: #FDF6F6;
+  }
+  .antipattern h4 {
+    font-family: -apple-system, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #A03030;
+    margin-bottom: 10px;
+  }
+  .antipattern p { font-size: 14px; line-height: 1.65; }
+
+  /* CHEAT SHEET */
+  .cheatsheet {
+    margin: 40px 0;
+    border: 2px solid var(--cool);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .cheatsheet-header {
+    background: var(--cool);
+    color: white;
+    padding: 18px 24px;
+    font-family: -apple-system, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .cheatsheet-body { padding: 0; }
+  .cs-row {
+    display: grid;
+    grid-template-columns: 180px 1fr 1fr;
+    border-bottom: 1px solid var(--border);
+    font-family: -apple-system, sans-serif;
+    font-size: 14px;
+  }
+  .cs-row:last-child { border-bottom: none; }
+  .cs-row > div { padding: 14px 18px; }
+  .cs-row-header {
+    background: #F7F7F5;
+    font-weight: 700;
+    color: var(--muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .cs-label {
+    background: #F7F7F5;
+    font-weight: 600;
+    color: var(--text);
+    border-right: 1px solid var(--border);
+  }
+  .cs-warm { border-right: 1px solid var(--border); }
+
+  /* TABS */
+  .tab-container { margin: 32px 0; }
+  .tab-nav {
+    display: flex;
+    border-bottom: 2px solid var(--border);
+    gap: 0;
+  }
+  .tab-btn {
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    background: none;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    letter-spacing: 0.5px;
+    transition: all 0.2s;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--cool); border-bottom-color: var(--cool); }
+  .tab-panel { display: none; padding: 24px 0; }
+  .tab-panel.active { display: block; }
+
+  /* FOOTER */
+  .footer {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 32px 80px;
+    text-align: center;
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  .footer a { color: var(--cool); text-decoration: none; }
+
+  /* RESPONSIVE */
+  @media (max-width: 700px) {
+    .poles, .antipatterns { grid-template-columns: 1fr; }
+    .cs-row { grid-template-columns: 1fr; }
+    .cs-row > div { border-right: none !important; }
+    .hero h1 { font-size: 30px; }
+    .step { grid-template-columns: 48px 1fr; }
+  }
+
+  /* INFINITY LOOP SVG */
+  .infinity-wrap {
+    margin: 36px 0;
+    text-align: center;
+    padding: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .infinity-wrap svg { max-width: 700px; width: 100%; }
+
+  /* KEY INSIGHT BOX */
+  .insight {
+    margin: 28px 0;
+    padding: 24px 28px;
+    background: linear-gradient(135deg, var(--warm-bg) 0%, var(--cool-bg) 100%);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .insight p { font-size: 16px; font-style: italic; }
+  .insight .attr {
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    color: var(--muted);
+    font-style: normal;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-label">A Product Discovery Framework</div>
+  <h1>The Hybrid Thinking Engine<br><em>Analogy generates. Logic validates.</em></h1>
+  <p>A framework for hypothesis-driven product discovery that pairs the creative leap of analogical thinking with the structural rigor of logical validation.</p>
+</div>
+
+<!-- CORE THESIS -->
+<div class="thesis">
+  <div class="thesis-box">
+    <p>Most product teams default to one mode: they either brainstorm wildly without validation, or optimize within existing data without generating new ideas. <strong>The Hybrid Thinking Engine</strong> treats these as two poles of a single cognitive system.</p>
+    <p><strong>Analogy</strong> maps relational structures from known domains to unknown problems, generating novel hypotheses. <strong>Logic</strong> subjects those hypotheses to rigorous testing, producing justified knowledge. The loop between them is where real product discovery happens.</p>
+  </div>
+</div>
+
+<!-- SECTION 1: THE TWO POLES -->
+<div class="section">
+  <div class="section-num">Part I</div>
+  <h2>The Two Poles of Product Thinking</h2>
+  <p>Logic without analogy is sterile — capable of ordering what you already know, but incapable of generating novelty. Analogy without logic is fragile — producing creative hypotheses but lacking epistemological validation. They are not competitors. They are polar opposites that generate the movement of product discovery.</p>
+
+  <div class="poles">
+    <div class="pole pole-analogy">
+      <h3>Analogical Thinking</h3>
+      <p>The generative engine. It extends knowledge beyond what is explicitly given by mapping relational structures from a familiar source domain to an unknown target domain.</p>
+      <div style="margin-top: 14px;">
+        <span class="tag">Generates novelty</span>
+        <span class="tag">Cross-domain mapping</span>
+        <span class="tag">Ampliative</span>
+        <span class="tag">Extends beyond premises</span>
+      </div>
+      <p style="margin-top: 14px; font-size: 13px; color: var(--muted); font-family: -apple-system, sans-serif;"><strong style="color: var(--warm);">Product translation:</strong> "What if we structured onboarding like a game tutorial?" — borrowing relational patterns from gaming to solve an activation problem.</p>
+    </div>
+    <div class="pole pole-logic">
+      <h3>Logical Thinking</h3>
+      <p>The validation engine. It takes the raw, unproven inputs generated by analogy and subjects them to rigorous structuring and verification, transforming them into justified knowledge.</p>
+      <div style="margin-top: 14px;">
+        <span class="tag">Validates & structures</span>
+        <span class="tag">Deduction</span>
+        <span class="tag">Induction</span>
+        <span class="tag">Abduction</span>
+      </div>
+      <p style="margin-top: 14px; font-size: 13px; color: var(--muted); font-family: -apple-system, sans-serif;"><strong style="color: var(--cool);">Product translation:</strong> "We A/B tested the game-tutorial onboarding. Activation rose 18%. The analogy held." — testing transforms conjecture into knowledge.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 2: THE CYBERNETIC TRIAD -->
+<div class="section">
+  <div class="section-num">Part II</div>
+  <h2>The Cybernetic Triad: How Analogies Become Hypotheses</h2>
+  <p>Analogies do not become knowledge instantly. They pass through two intermediate stages — heuristics and conjectures — before they are ready for logical validation. This triad forms a self-reinforcing feedback loop that pre-dates modern science and operates in every product decision you make.</p>
+
+  <div class="infinity-wrap">
+    <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg">
+      <!-- Analogy circle (warm side) -->
+      <ellipse cx="220" cy="160" rx="170" ry="120" fill="none" stroke="#C4652A" stroke-width="2" opacity="0.3"/>
+      <!-- Logic circle (cool side) -->
+      <ellipse cx="480" cy="160" rx="170" ry="120" fill="none" stroke="#1B3A5C" stroke-width="2" opacity="0.3"/>
+
+      <!-- Flow arrows - top (analogy to logic) -->
+      <path d="M 220 45 Q 350 20 480 45" fill="none" stroke="#C4652A" stroke-width="2.5" marker-end="url(#arrowWarm)"/>
+      <!-- Flow arrows - bottom (logic to analogy) -->
+      <path d="M 480 275 Q 350 300 220 275" fill="none" stroke="#1B3A5C" stroke-width="2.5" marker-end="url(#arrowCool)"/>
+
+      <!-- Labels -->
+      <text x="130" y="110" font-family="-apple-system, sans-serif" font-size="11" fill="#C4652A" font-weight="700" text-anchor="middle" letter-spacing="1.5">ANALOGY</text>
+      <text x="130" y="126" font-family="Georgia, serif" font-size="12" fill="#C4652A" text-anchor="middle" font-style="italic">Generative Seed</text>
+
+      <text x="220" y="200" font-family="-apple-system, sans-serif" font-size="11" fill="#8B6F47" font-weight="700" text-anchor="middle" letter-spacing="1.5">HEURISTIC</text>
+      <text x="220" y="216" font-family="Georgia, serif" font-size="12" fill="#8B6F47" text-anchor="middle" font-style="italic">Operational Shortcut</text>
+
+      <text x="350" y="155" font-family="-apple-system, sans-serif" font-size="11" fill="#8B6F47" font-weight="700" text-anchor="middle" letter-spacing="1.5">CONJECTURE</text>
+      <text x="350" y="171" font-family="Georgia, serif" font-size="12" fill="#8B6F47" text-anchor="middle" font-style="italic">Testable Hypothesis</text>
+
+      <text x="540" y="110" font-family="-apple-system, sans-serif" font-size="11" fill="#1B3A5C" font-weight="700" text-anchor="middle" letter-spacing="1.5">TESTING</text>
+      <text x="540" y="126" font-family="Georgia, serif" font-size="12" fill="#1B3A5C" text-anchor="middle" font-style="italic">Experiments & Data</text>
+
+      <text x="570" y="200" font-family="-apple-system, sans-serif" font-size="11" fill="#1B3A5C" font-weight="700" text-anchor="middle" letter-spacing="1.5">VALIDATION</text>
+      <text x="570" y="216" font-family="Georgia, serif" font-size="12" fill="#1B3A5C" text-anchor="middle" font-style="italic">Justified Knowledge</text>
+
+      <!-- Center crossing label -->
+      <text x="350" y="30" font-family="-apple-system, sans-serif" font-size="10" fill="#C4652A" text-anchor="middle" letter-spacing="1">Unproven hypothesis feeds logic →</text>
+      <text x="350" y="308" font-family="-apple-system, sans-serif" font-size="10" fill="#1B3A5C" text-anchor="middle" letter-spacing="1">← Validated knowledge seeds new analogies</text>
+
+      <!-- Arrows defs -->
+      <defs>
+        <marker id="arrowWarm" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#C4652A"/></marker>
+        <marker id="arrowCool" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#1B3A5C"/></marker>
+      </defs>
+    </svg>
+  </div>
+
+  <div class="insight">
+    <p>"Analogies do not become knowledge instantly. They seed heuristics, which inspire conjectures. This continuous feedback loop is the survival mechanism of human ingenuity."</p>
+    <div class="attr">— Callaos & Horne, Systemics, Cybernetics and Informatics (2025)</div>
+  </div>
+</div>
+
+<!-- SECTION 3: THE PLAYBOOK -->
+<div class="section">
+  <div class="section-num">Part III</div>
+  <h2>The Hybrid Thinking Playbook for Product Discovery</h2>
+  <p>Four steps that move from creative intuition to justified product knowledge. Click each step to expand the details.</p>
+
+  <div class="steps">
+    <div class="step step-analogy" onclick="toggleDetail(this)">
+      <div><div class="step-num">1</div></div>
+      <div>
+        <div class="subtitle">Analogical Thinking</div>
+        <h3>Frame via Natural Language</h3>
+        <p>State your product problem conceptually, stripping away domain-specific jargon. Describe the structural relationship you're trying to solve, not the feature.</p>
+        <div class="step-detail">
+          <strong>What to do:</strong> Instead of "we need to improve our checkout conversion," ask "how do we reduce friction in a commitment sequence?" This abstraction opens the door to analogies from completely different domains.<br><br>
+          <strong>Product prompt:</strong> "What is this problem <em>really</em> about, structurally? Where else has this structural pattern been solved?"<br><br>
+          <strong>Why it matters:</strong> Natural language predates disciplinary jargon. Framing problems in plain structural terms is what allows cross-domain transfer. An ecologist can explain a complex system to an economist when both speak in shared structural metaphors.
+        </div>
+      </div>
+    </div>
+
+    <div class="step step-analogy" onclick="toggleDetail(this)">
+      <div><div class="step-num">2</div></div>
+      <div>
+        <div class="subtitle">Analogical Thinking</div>
+        <h3>Generate Analogies</h3>
+        <p>Identify a familiar source domain that shares structural, relational similarities with your unknown problem. Map the relationships, not the surface features.</p>
+        <div class="step-detail">
+          <strong>What to do:</strong> Search for domains where the <em>relational structure</em> of your problem has already been solved. The key is structural mapping — not surface resemblance.<br><br>
+          <strong>Example:</strong> A 1934 pharmacologist noticed Meperidine's structural similarity to Morphine. Not that they looked alike — that their <em>relational molecular structures</em> were similar. This is the quality of analogy you want.<br><br>
+          <strong>Sources for product analogies:</strong> Adjacent industries, historical precedents, biological systems, game mechanics, urban planning, behavioral economics, military strategy. The further the source domain, the more novel the insight — but the more it needs validation.
+        </div>
+      </div>
+    </div>
+
+    <div class="step step-bridge" onclick="toggleDetail(this)">
+      <div><div class="step-num">3</div></div>
+      <div>
+        <div class="subtitle">The Bridge</div>
+        <h3>Extract Heuristics & Conjectures</h3>
+        <p>Create a rule-of-thumb (heuristic) based on the analogy, and formulate it into a provisional, testable hypothesis (conjecture).</p>
+        <div class="step-detail">
+          <strong>Heuristic</strong> = the operational shortcut. A practical, adaptive strategy built from the analogy to navigate uncertainty.<br>
+          Example: "Treat electricity like flowing water" → "Treat user onboarding like game-level progression."<br><br>
+          <strong>Conjecture</strong> = the testable hypothesis. A provisional epistemic claim that provides formal logic with something to validate.<br>
+          Example: "If we add progressive difficulty tiers to onboarding (easy → medium → hard tasks), users who complete tier 1 will activate at 2x the current rate."<br><br>
+          <strong>The discipline:</strong> Every analogy must produce at least one falsifiable conjecture. If it can't, the analogy is decorative, not generative.
+        </div>
+      </div>
+    </div>
+
+    <div class="step step-logic" onclick="toggleDetail(this)">
+      <div><div class="step-num">4</div></div>
+      <div>
+        <div class="subtitle">Logical Thinking</div>
+        <h3>Apply Logical Validation</h3>
+        <p>Subject the conjecture to rigorous, domain-specific testing to crystallize it into justified knowledge.</p>
+        <div class="step-detail">
+          <strong>Deduction:</strong> "If progressive onboarding works like game leveling, then users who skip tiers should have lower retention." → Test this prediction.<br><br>
+          <strong>Induction:</strong> Run the experiment. Observe patterns across cohorts. Do the results generalize?<br><br>
+          <strong>Abduction:</strong> The data shows activation rose 18% but only for mobile users. What's the best explanation? Abductive reasoning generates a new hypothesis — which feeds back into the loop.<br><br>
+          <strong>The feedback:</strong> Validated knowledge becomes source material for new analogies. Failed hypotheses also generate insight — they reveal where the structural mapping broke down, which is itself a discovery.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 4: WORKED EXAMPLE -->
+<div class="section">
+  <div class="section-num">Part IV</div>
+  <h2>Worked Example: Applying the Framework</h2>
+  <p>Here's the full loop applied to a real product discovery problem.</p>
+
+  <div class="tab-container">
+    <div class="tab-nav">
+      <button class="tab-btn active" onclick="switchTab(event, 'ex1')">Retention Problem</button>
+      <button class="tab-btn" onclick="switchTab(event, 'ex2')">Pricing Discovery</button>
+      <button class="tab-btn" onclick="switchTab(event, 'ex3')">Platform Expansion</button>
+    </div>
+
+    <div id="ex1" class="tab-panel active">
+      <div class="example-box">
+        <div class="example-header">Problem: "Users drop off after day 3"</div>
+        <div class="example-body">
+          <div class="example-step">
+            <div class="label label-warm">Step 1 — Frame</div>
+            <p>"We have a commitment decay problem. Users make an initial investment but fail to build enough accumulated value to justify continued engagement."</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-warm">Step 2 — Analogy</div>
+            <p><strong>Source domain: Fitness habits.</strong> People who join gyms also drop off after the first week — unless they experience early, visible progress. The structural pattern: commitment sustains when accumulated evidence of value becomes visible fast enough to outpace the natural decay of initial motivation.</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-bridge">Step 3 — Heuristic & Conjecture</div>
+            <p><strong>Heuristic:</strong> "Make accumulated value visible before motivation decays."<br>
+            <strong>Conjecture:</strong> "If we surface a 'progress dashboard' showing cumulative actions by day 2, 7-day retention will increase by at least 10%."</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-cool">Step 4 — Validate</div>
+            <p><strong>Test:</strong> A/B test the progress dashboard against control. Measure 7-day and 14-day retention by cohort. <strong>Result:</strong> If it works, it becomes justified product knowledge. If it fails, investigate <em>where</em> the analogy broke — maybe the problem isn't motivation decay but value confusion. That insight seeds the next cycle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ex2" class="tab-panel">
+      <div class="example-box">
+        <div class="example-header">Problem: "We can't find the right pricing model"</div>
+        <div class="example-body">
+          <div class="example-step">
+            <div class="label label-warm">Step 1 — Frame</div>
+            <p>"We have a value-capture timing problem. Users receive value continuously but we're asking them to commit payment upfront."</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-warm">Step 2 — Analogy</div>
+            <p><strong>Source domain: Insurance.</strong> Insurance solved the "pay-before-you-need-it" problem by pricing against risk pools and perceived future value, not current consumption. The structural pattern: decouple payment from immediate consumption by anchoring price to anticipated value.</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-bridge">Step 3 — Heuristic & Conjecture</div>
+            <p><strong>Heuristic:</strong> "Price against anticipated value, not current consumption."<br>
+            <strong>Conjecture:</strong> "If we offer outcome-based pricing (pay when you hit a milestone), conversion will increase and churn will decrease vs. flat monthly subscription."</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-cool">Step 4 — Validate</div>
+            <p><strong>Test:</strong> Run a pricing experiment with a cohort on milestone-based pricing vs. monthly flat. Measure LTV, conversion rate, and net revenue at 90 days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ex3" class="tab-panel">
+      <div class="example-box">
+        <div class="example-header">Problem: "Should we expand into an adjacent market?"</div>
+        <div class="example-body">
+          <div class="example-step">
+            <div class="label label-warm">Step 1 — Frame</div>
+            <p>"We have a structural transferability question. Can our core value mechanism operate in a different context with different constraints?"</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-warm">Step 2 — Analogy</div>
+            <p><strong>Source domain: Biological niche expansion.</strong> Species expand into adjacent ecological niches when (a) their core adaptation is general enough and (b) the new niche has lower competition. The structural pattern: expansion succeeds when core capabilities are general and competitive pressure in the target is low.</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-bridge">Step 3 — Heuristic & Conjecture</div>
+            <p><strong>Heuristic:</strong> "Expand where your core adaptation is general and competition is thin."<br>
+            <strong>Conjecture:</strong> "Our workflow engine (core adaptation) will achieve faster adoption in the legal-ops market (thin competition) than in project management (saturated)."</p>
+          </div>
+          <div class="example-step">
+            <div class="label label-cool">Step 4 — Validate</div>
+            <p><strong>Test:</strong> Run a 30-day demand test with targeted landing pages for both markets. Measure sign-up rate, activation rate, and willingness-to-pay signals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 5: ANTI-PATTERNS -->
+<div class="section">
+  <div class="section-num">Part V</div>
+  <h2>Anti-Patterns: When the Loop Breaks</h2>
+  <p>The framework fails when teams collapse into one pole and ignore the other.</p>
+
+  <div class="antipatterns">
+    <div class="antipattern">
+      <h4>Logic Without Analogy</h4>
+      <p>The team optimizes relentlessly within existing data. Every decision is "data-driven" but nothing novel emerges. The product becomes a local maximum — perfectly optimized for a shrinking market. You can A/B test your way to a faster horse, but you'll never discover the automobile.</p>
+    </div>
+    <div class="antipattern">
+      <h4>Analogy Without Logic</h4>
+      <p>The team generates exciting ideas from adjacent domains but never subjects them to rigorous testing. The roadmap is full of "wouldn't it be cool if" features. Creativity without validation produces beautiful hypotheses that never become justified knowledge.</p>
+    </div>
+  </div>
+
+  <div class="insight">
+    <p>"We must abandon reductionist views. Logic and Analogy exist in a dynamic area of co-reinforcement. Analogies provide the source material; Logic provides the verification."</p>
+  </div>
+</div>
+
+<!-- SECTION 6: QUICK REFERENCE -->
+<div class="section">
+  <div class="section-num">Part VI</div>
+  <h2>Quick Reference: The Translation Table</h2>
+  <p>How each concept from the Hybrid Thinking Engine maps to product discovery practice.</p>
+
+  <div class="cheatsheet">
+    <div class="cheatsheet-header">Cognitive Concept → Product Practice</div>
+    <div class="cheatsheet-body">
+      <div class="cs-row cs-row-header">
+        <div>Concept</div>
+        <div>Cognitive Role</div>
+        <div>Product Discovery Translation</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Analogy</div>
+        <div class="cs-warm">Generative seed — maps relational structures from known to unknown</div>
+        <div>Borrow structural patterns from adjacent domains to frame novel product hypotheses</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Heuristic</div>
+        <div class="cs-warm">Operational shortcut — practical rule-of-thumb</div>
+        <div>Product principle or design pattern extracted from the analogy (e.g., "progressive disclosure")</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Conjecture</div>
+        <div class="cs-warm">Aspirational hypothesis — provisional testable claim</div>
+        <div>Falsifiable product hypothesis with a predicted metric outcome</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Deduction</div>
+        <div class="cs-warm" style="border-right-color: var(--border);">If premises are true, conclusion must be true</div>
+        <div>Predict specific outcomes from the hypothesis ("if X then Y must follow")</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Induction</div>
+        <div class="cs-warm">Observe patterns, generalize</div>
+        <div>Run experiments, observe cohort behavior, look for generalizable patterns</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Abduction</div>
+        <div class="cs-warm">Best explanation for surprising data</div>
+        <div>When results surprise you, generate the best explanation — this seeds the next analogy cycle</div>
+      </div>
+      <div class="cs-row">
+        <div class="cs-label">Justified Knowledge</div>
+        <div class="cs-warm">Epistemologically validated belief</div>
+        <div>Validated product insight that informs strategy, roadmap, and future hypothesis generation</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 7: SELF-CHECK -->
+<div class="section">
+  <div class="section-num">Part VII</div>
+  <h2>Self-Check: Am I Running the Full Loop?</h2>
+  <p>Use these prompts before every major product decision.</p>
+
+  <div style="margin: 24px 0; padding: 28px; background: var(--card); border: 1px solid var(--border); border-radius: 8px;">
+    <div style="font-family: -apple-system, sans-serif; font-size: 14px; line-height: 2.2;">
+      <div style="padding: 8px 0; border-bottom: 1px solid var(--border);"><span style="color: var(--warm); font-weight: 700;">Analogy check:</span> What domain outside my own has solved a structurally similar problem?</div>
+      <div style="padding: 8px 0; border-bottom: 1px solid var(--border);"><span style="color: var(--warm); font-weight: 700;">Mapping check:</span> Am I mapping relational structure, or just surface features?</div>
+      <div style="padding: 8px 0; border-bottom: 1px solid var(--border);"><span style="color: #8B6F47; font-weight: 700;">Heuristic check:</span> Can I state a concise rule-of-thumb from this analogy?</div>
+      <div style="padding: 8px 0; border-bottom: 1px solid var(--border);"><span style="color: #8B6F47; font-weight: 700;">Conjecture check:</span> Have I turned this into a falsifiable hypothesis with a predicted outcome?</div>
+      <div style="padding: 8px 0; border-bottom: 1px solid var(--border);"><span style="color: var(--cool); font-weight: 700;">Validation check:</span> What experiment would prove or disprove this in under 2 weeks?</div>
+      <div style="padding: 8px 0;"><span style="color: var(--cool); font-weight: 700;">Feedback check:</span> Whether it passed or failed, what does the result tell me that seeds the next analogy?</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Built from: <a href="#">"The Hybrid Thinking Engine"</a> (presentation) & <a href="https://doi.org/10.54808/JSCI.23.07.1">Callaos & Horne, JSCI Vol. 23 No. 7 (2025)</a></p>
+  <p style="margin-top: 8px;">A personal reference framework for hypothesis-driven product discovery.</p>
+</div>
+
+<script>
+function toggleDetail(stepEl) {
+  const detail = stepEl.querySelector('.step-detail');
+  if (detail) detail.classList.toggle('open');
+}
+
+function switchTab(e, id) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  e.target.classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
+</script>
+</body>
+</html>

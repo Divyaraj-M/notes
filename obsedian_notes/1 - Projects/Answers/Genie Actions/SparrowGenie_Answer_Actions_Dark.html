@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SparrowGenie - Answer Actions</title>
+<style>
+:root {
+  --bg-card: #2C2C2E;
+  --bg-surface: #3A3A3C;
+  --bg-hover: #48484A;
+  --bg-input: #1C1C1E;
+  --bg-page: #1C1C1E;
+  --text-primary: #F2F2F7;
+  --text-secondary: #AEAEB2;
+  --text-tertiary: #636366;
+  --border: rgba(255,255,255,0.08);
+  --border-hover: rgba(255,255,255,0.15);
+  --accent: #378ADD;
+  --accent-light: rgba(55,138,221,0.15);
+  --accent-text: #6AB4F7;
+  --purple: #C062D6;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font);
+  background: var(--bg-page);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+}
+.panel {
+  background: var(--bg-card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  width: 380px;
+}
+.row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 18px; cursor: pointer; transition: background 0.12s;
+}
+.row:hover { background: var(--bg-hover); }
+.sep { border-bottom: 0.5px solid var(--border); }
+.lbl { font-size: 15px; color: var(--text-primary); }
+.lbl500 { font-size: 15px; font-weight: 500; color: var(--text-primary); }
+.sub-text { font-size: 12px; color: var(--text-tertiary); margin: 2px 0 0 0; }
+.back-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 18px; cursor: pointer;
+  border-bottom: 0.5px solid var(--border); transition: background 0.12s;
+}
+.back-row:hover { background: var(--bg-hover); }
+.back-row span { font-size: 13px; font-weight: 500; color: var(--text-secondary); }
+.ico { width: 18px; height: 18px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.hidden { display: none !important; }
+.sec-label {
+  font-size: 11px; font-weight: 600; color: var(--text-tertiary);
+  letter-spacing: 0.5px; padding: 10px 18px 6px; text-transform: uppercase;
+}
+.search-input {
+  width: 100%; box-sizing: border-box; padding: 0 12px 0 34px;
+  font-size: 13px; height: 36px; border: 0.5px solid var(--border-hover);
+  border-radius: var(--radius-md); background: var(--bg-input);
+  color: var(--text-primary); outline: none; font-family: var(--font);
+}
+.search-input::placeholder { color: var(--text-tertiary); }
+.search-input:focus { border-color: var(--accent); }
+.pill {
+  font-size: 11px; padding: 5px 11px; border-radius: 99px;
+  border: 0.5px solid var(--border-hover); color: var(--text-secondary);
+  cursor: pointer; white-space: nowrap; transition: all 0.12s; background: transparent;
+}
+.pill:hover { background: var(--bg-hover); }
+.pill.on { background: var(--accent-light); border-color: rgba(55,138,221,0.4); color: var(--accent-text); }
+.type-tab {
+  font-size: 12px; padding: 5px 12px; border-radius: 99px;
+  cursor: pointer; color: var(--text-secondary); transition: all 0.12s;
+  white-space: nowrap; border: none; background: none;
+}
+.type-tab.on {
+  background: var(--bg-card); color: var(--text-primary);
+  font-weight: 500; border: 0.5px solid var(--border-hover);
+}
+.chk {
+  width: 16px; height: 16px; border-radius: 3px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; cursor: pointer; transition: all 0.12s;
+}
+.chk.on { border: 1.5px solid var(--accent); background: var(--accent); }
+.chk.off { border: 1.5px solid var(--text-tertiary); background: transparent; }
+.tag { font-size: 10px; padding: 2px 8px; border-radius: 99px; white-space: nowrap; flex-shrink: 0; }
+.tag-product { background: rgba(120,95,220,0.2); color: #B8A9F0; }
+.tag-compliance { background: rgba(93,202,165,0.15); color: #5DCAA5; }
+.tag-sales { background: rgba(250,199,117,0.15); color: #FAC775; }
+.tag-engineering { background: rgba(133,183,235,0.15); color: #85B7EB; }
+.tag-marketing { background: rgba(237,147,177,0.15); color: #ED93B1; }
+.tag-support { background: rgba(240,153,123,0.15); color: #F0997B; }
+.src-name { font-size: 13px; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.src-meta { font-size: 11px; color: var(--text-tertiary); margin-top: 1px; }
+.srclist { max-height: 220px; overflow-y: auto; }
+.cta-btn {
+  width: 100%; background: var(--accent); color: #fff; border: none;
+  border-radius: var(--radius-md); padding: 11px; font-size: 13px;
+  font-weight: 500; cursor: pointer; font-family: var(--font); transition: opacity 0.12s;
+}
+.cta-btn:hover { opacity: 0.9; }
+.ctrl-section { padding: 18px; }
+.ctrl-label {
+  font-size: 11px; font-weight: 600; color: var(--text-tertiary);
+  letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 10px;
+}
+.info-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; background: var(--bg-surface);
+  border-radius: var(--radius-md); margin-bottom: 16px;
+}
+.info-bar .il { font-size: 12px; color: var(--text-secondary); }
+.info-bar .iv { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+.preset-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.preset {
+  font-size: 12px; padding: 6px 14px; border-radius: 99px;
+  border: 0.5px solid var(--border-hover); color: var(--text-secondary);
+  cursor: pointer; transition: all 0.12s; background: transparent;
+}
+.preset:hover { background: var(--bg-hover); }
+.preset.on { background: var(--accent-light); border-color: rgba(55,138,221,0.4); color: var(--accent-text); }
+.slider-row { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.slider-row input[type=range] {
+  flex: 1; height: 4px; -webkit-appearance: none; appearance: none;
+  background: var(--bg-surface); border-radius: 2px; outline: none;
+}
+.slider-row input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--accent); cursor: pointer; border: 2px solid var(--bg-card);
+}
+.slider-val { font-size: 14px; font-weight: 500; color: var(--text-primary); min-width: 65px; text-align: right; }
+.range-labels { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-tertiary); margin-bottom: 16px; padding: 0 2px; }
+.target-box {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px; border: 0.5px solid var(--border-hover);
+  border-radius: var(--radius-md); margin-bottom: 16px;
+}
+.target-box .tl { font-size: 12px; color: var(--text-secondary); }
+.target-box .tv { font-size: 16px; font-weight: 500; color: var(--accent-text); }
+.tone-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.tone {
+  font-size: 12px; padding: 6px 12px; border-radius: 99px;
+  border: 0.5px solid var(--border-hover); color: var(--text-secondary);
+  cursor: pointer; transition: all 0.12s; background: transparent;
+}
+.tone:hover { background: var(--bg-hover); }
+.tone.on { background: rgba(93,202,165,0.12); border-color: rgba(93,202,165,0.35); color: #5DCAA5; }
+.note-box {
+  font-size: 12px; color: var(--text-tertiary); line-height: 1.5;
+  padding: 10px 14px; background: var(--bg-surface);
+  border-radius: var(--radius-md); margin-bottom: 16px;
+}
+.dropzone {
+  border: 1.5px dashed var(--text-tertiary); border-radius: var(--radius-md);
+  padding: 24px 16px; text-align: center; cursor: pointer; transition: all 0.12s;
+}
+.dropzone:hover { border-color: var(--accent); background: rgba(55,138,221,0.04); }
+.file-chip {
+  display: flex; align-items: center; gap: 8px; padding: 8px;
+  border-radius: var(--radius-md); background: var(--bg-surface); margin-bottom: 6px;
+}
+select {
+  width: 100%; box-sizing: border-box; font-size: 13px; height: 36px;
+  border: 0.5px solid var(--border-hover); border-radius: var(--radius-md);
+  background: var(--bg-input); color: var(--text-primary); padding: 0 10px;
+  font-family: var(--font); outline: none;
+}
+</style>
+</head>
+<body>
+
+<div class="panel">
+
+  <div id="main-menu">
+    <div class="row sep" onclick="go('regen-sub')">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><path d="M3 9a6 6 0 0110.6-3.8H10.5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 9a6 6 0 01-10.6 3.8H7.5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14,2 14,5.2 10.8,5.2" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/><polyline points="4,16 4,12.8 7.2,12.8" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      <span class="lbl500" style="flex:1">Regenerate answer</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </div>
+    <div class="row sep" onclick="go('expand-sub')">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="3" stroke="var(--text-primary)" stroke-width="1.3" fill="none"/><path d="M6 9h6M9 6v6" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span class="lbl500" style="flex:1">Expand answer</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </div>
+    <div class="row sep" onclick="go('shorten-sub')">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="3" stroke="var(--text-primary)" stroke-width="1.3" fill="none"/><path d="M6 9h6" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span class="lbl500" style="flex:1">Shorten answer</span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </div>
+    <div class="row">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7" stroke="var(--purple)" stroke-width="1.3" fill="none"/><path d="M7 7.5c0-1.1.9-2 2-2s2 .9 2 2c0 .7-.4 1.3-.9 1.6-.3.2-.6.5-.6.9v.5" stroke="var(--purple)" stroke-width="1.3" stroke-linecap="round" fill="none"/><circle cx="9" cy="13.5" r=".6" fill="var(--purple)"/></svg>
+      <span class="lbl500">Ask GenieAI</span>
+    </div>
+  </div>
+
+  <div id="regen-sub" class="hidden">
+    <div class="back-row" onclick="go('main-menu')">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span>Regenerate answer</span>
+    </div>
+    <div class="row sep">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><path d="M3 9a6 6 0 0110.6-3.8H10.5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 9a6 6 0 01-10.6 3.8H7.5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div style="flex:1"><span class="lbl">Regenerate</span><p class="sub-text">Same sources, fresh answer</p></div>
+    </div>
+    <div class="row sep" onclick="go('kh-panel')">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="3" stroke="var(--text-primary)" stroke-width="1.3" fill="none"/><path d="M6 6h6M6 9h4M6 12h5" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <div style="flex:1"><span class="lbl">Pick sources</span><p class="sub-text">Include or exclude specific sources</p></div>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </div>
+    <div class="row" onclick="go('attach-panel')">
+      <svg class="ico" viewBox="0 0 18 18" fill="none"><path d="M9 3v9M6 8l3 3 3-3" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 13v2a1 1 0 001 1h10a1 1 0 001-1v-2" stroke="var(--text-primary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <div style="flex:1"><span class="lbl">Upload source</span><p class="sub-text">Attach a document and regenerate</p></div>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 3l4 4-4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </div>
+  </div>
+
+  <div id="expand-sub" class="hidden">
+    <div class="back-row" onclick="go('main-menu')">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span>Expand answer</span>
+    </div>
+    <div class="ctrl-section">
+      <div class="ctrl-label">Expand to</div>
+      <div class="preset-row" id="exp-presets">
+        <span class="preset" onclick="setExp(200)">200</span>
+        <span class="preset on" onclick="setExp(300)">300</span>
+        <span class="preset" onclick="setExp(500)">500</span>
+        <span class="preset" onclick="setExp(0)">Custom</span>
+      </div>
+      <div class="slider-row">
+        <input type="range" min="150" max="800" value="300" step="10" id="exp-slider" oninput="updExp(this.value)"/>
+        <span class="slider-val" id="exp-val">300 words</span>
+      </div>
+      <div class="range-labels"><span>150</span><span>500</span><span>800</span></div>
+      <div class="target-box"><span class="tl">Target output</span><span class="tv" id="exp-target">~300 words</span></div>
+      <div class="ctrl-label">Describe how you want? <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-tertiary)">(optional)</span></div>
+      <textarea id="exp-prompt" placeholder="e.g. Add more technical detail, include examples, focus on compliance section..." style="width:100%;box-sizing:border-box;min-height:72px;padding:10px 12px;font-size:13px;font-family:var(--font);border:0.5px solid var(--border-hover);border-radius:var(--radius-md);background:var(--bg-input);color:var(--text-primary);outline:none;resize:vertical;line-height:1.5;margin-bottom:16px" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border-hover)'"></textarea>
+      <button class="cta-btn" id="exp-cta">Expand to ~300 words</button>
+    </div>
+  </div>
+
+  <div id="shorten-sub" class="hidden">
+    <div class="back-row" onclick="go('main-menu')">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span>Shorten answer</span>
+    </div>
+    <div class="ctrl-section">
+      <div class="ctrl-label">Shorten to</div>
+      <div class="preset-row" id="shr-presets">
+        <span class="preset" onclick="setShr(100)">100</span>
+        <span class="preset on" onclick="setShr(200)">200</span>
+        <span class="preset" onclick="setShr(300)">300</span>
+        <span class="preset" onclick="setShr(0)">Custom</span>
+      </div>
+      <div class="slider-row">
+        <input type="range" min="50" max="400" value="200" step="10" id="shr-slider" oninput="updShr(this.value)"/>
+        <span class="slider-val" id="shr-val">200 words</span>
+      </div>
+      <div class="range-labels"><span>50</span><span>225</span><span>400</span></div>
+      <div class="target-box"><span class="tl">Target output</span><span class="tv" id="shr-target">~200 words</span></div>
+      <div class="ctrl-label">Describe how you want? <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-tertiary)">(optional)</span></div>
+      <textarea id="shr-prompt" placeholder="e.g. Keep only the key points, remove examples, focus on pricing..." style="width:100%;box-sizing:border-box;min-height:72px;padding:10px 12px;font-size:13px;font-family:var(--font);border:0.5px solid var(--border-hover);border-radius:var(--radius-md);background:var(--bg-input);color:var(--text-primary);outline:none;resize:vertical;line-height:1.5;margin-bottom:16px" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border-hover)'"></textarea>
+      <button class="cta-btn" id="shr-cta">Shorten to ~200 words</button>
+    </div>
+  </div>
+
+  <div id="kh-panel" class="hidden">
+    <div class="back-row" onclick="go('regen-sub')">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span>Pick sources</span>
+    </div>
+
+    <div class="sec-label" id="used-label">Sources used for this answer</div>
+    <div id="used-list"></div>
+
+    <div id="add-trigger" style="padding:0 18px 12px">
+      <div onclick="openAddMore()" style="display:flex;align-items:center;gap:10px;padding:12px 14px;border:0.5px dashed var(--border-hover);border-radius:var(--radius-md);cursor:pointer;transition:all 0.15s" onmouseenter="this.style.borderColor='var(--accent)';this.style.background='rgba(55,138,221,0.04)'" onmouseleave="this.style.borderColor='var(--border-hover)';this.style.background='transparent'">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="flex-shrink:0"><circle cx="9" cy="9" r="7" stroke="var(--accent-text)" stroke-width="1.3" fill="none"/><path d="M9 6v6M6 9h6" stroke="var(--accent-text)" stroke-width="1.3" stroke-linecap="round"/></svg>
+        <div>
+          <span style="font-size:13px;font-weight:500;color:var(--accent-text)">Add more sources</span>
+          <p style="font-size:11px;color:var(--text-tertiary);margin-top:1px">Search and browse your Knowledge Hubs</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="add-more-section" style="display:none">
+      <div style="padding:10px 18px;border-top:0.5px solid var(--border);border-bottom:0.5px solid var(--border)">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <span style="font-size:12px;font-weight:500;color:var(--text-primary)">Add more sources</span>
+          <span onclick="closeAddMore()" style="font-size:11px;color:var(--text-tertiary);cursor:pointer;padding:2px 6px;border-radius:4px;transition:all 0.12s" onmouseenter="this.style.color='var(--text-primary)';this.style.background='var(--bg-hover)'" onmouseleave="this.style.color='var(--text-tertiary)';this.style.background='transparent'">Close</span>
+        </div>
+        <div style="position:relative">
+          <input type="text" id="src-search" placeholder="Search all sources..." oninput="renderSources()" class="search-input"/>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="position:absolute;left:12px;top:50%;transform:translateY(-50%);pointer-events:none"><circle cx="6" cy="6" r="4.5" stroke="var(--text-tertiary)" stroke-width="1.2"/><path d="M9.5 9.5L12 12" stroke="var(--text-tertiary)" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+      <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;flex-wrap:wrap" id="kh-filters"></div>
+      <div style="padding:8px 14px;border-bottom:0.5px solid var(--border);display:flex;gap:5px;background:var(--bg-surface);flex-wrap:wrap" id="type-tabs"></div>
+      <div class="sec-label" id="add-label">Available sources</div>
+      <div class="srclist" id="add-list"></div>
+    </div>
+
+    <div style="padding:12px 18px;border-top:0.5px solid var(--border)">
+      <button class="cta-btn" id="kh-cta">Regenerate with 4 sources</button>
+    </div>
+  </div>
+
+  <div id="attach-panel" class="hidden">
+    <div class="back-row" onclick="go('regen-sub')">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 3L5 7l4 4" stroke="var(--text-secondary)" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <span>Upload source</span>
+    </div>
+    <div style="padding:16px 18px;border-bottom:0.5px solid var(--border)">
+      <div class="dropzone">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="margin:0 auto 8px;display:block"><path d="M12 16V4m0 0l-4 4m4-4l4 4" stroke="var(--text-tertiary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 17v2a1 1 0 001 1h14a1 1 0 001-1v-2" stroke="var(--text-tertiary)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <p style="font-size:13px;color:var(--text-primary);font-weight:500">Drop files here or click to browse</p>
+        <p style="font-size:11px;color:var(--text-tertiary);margin-top:4px">PDF, DOCX, XLSX, TXT up to 25 MB</p>
+      </div>
+    </div>
+    <div style="padding:12px 18px;border-bottom:0.5px solid var(--border)">
+      <div class="ctrl-label" style="margin-bottom:8px">Uploaded files</div>
+      <div class="file-chip">
+        <div style="width:28px;height:28px;border-radius:4px;background:#E24B4A;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span style="font-size:9px;font-weight:600;color:#fff">PDF</span></div>
+        <div style="flex:1;min-width:0">
+          <p style="font-size:12px;color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">RFP_Response_Draft.pdf</p>
+          <p style="font-size:10px;color:var(--text-tertiary);margin-top:1px">2.4 MB</p>
+        </div>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="cursor:pointer;flex-shrink:0"><path d="M3 3l8 8M11 3l-8 8" stroke="var(--text-tertiary)" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </div>
+    </div>
+    <div style="padding:12px 18px">
+      <button class="cta-btn">Regenerate</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+var P=['main-menu','regen-sub','expand-sub','shorten-sub','kh-panel','attach-panel'];
+function go(id){P.forEach(function(p){document.getElementById(p).classList.add('hidden')});document.getElementById(id).classList.remove('hidden');if(id==='kh-panel'){closeAddMore();renderSources();}}
+
+function openAddMore(){
+  document.getElementById('add-trigger').style.display='none';
+  document.getElementById('add-more-section').style.display='block';
+  renderFilters();
+  renderSources();
+  var s=document.getElementById('src-search');s.value='';s.focus();
+}
+function closeAddMore(){
+  document.getElementById('add-trigger').style.display='block';
+  document.getElementById('add-more-section').style.display='none';
+}
+
+function setExp(v){var ps=document.querySelectorAll('#exp-presets .preset');ps.forEach(function(p){p.classList.remove('on')});if(v===0){ps[3].classList.add('on');return}ps.forEach(function(p){if(p.textContent==v)p.classList.add('on')});document.getElementById('exp-slider').value=v;updExp(v)}
+function updExp(v){v=Math.round(v);document.getElementById('exp-val').textContent=v+' words';document.getElementById('exp-target').textContent='~'+v+' words';document.getElementById('exp-cta').textContent='Expand to ~'+v+' words';var ps=document.querySelectorAll('#exp-presets .preset'),m=false;ps.forEach(function(p){p.classList.remove('on');if(p.textContent==v){p.classList.add('on');m=true}});if(!m)ps[3].classList.add('on')}
+
+function setShr(v){var ps=document.querySelectorAll('#shr-presets .preset');ps.forEach(function(p){p.classList.remove('on')});if(v===0){ps[3].classList.add('on');return}ps.forEach(function(p){if(p.textContent==v)p.classList.add('on')});document.getElementById('shr-slider').value=v;updShr(v)}
+function updShr(v){v=Math.round(v);document.getElementById('shr-val').textContent=v+' words';document.getElementById('shr-target').textContent='~'+v+' words';document.getElementById('shr-cta').textContent='Shorten to ~'+v+' words';var ps=document.querySelectorAll('#shr-presets .preset'),m=false;ps.forEach(function(p){p.classList.remove('on');if(p.textContent==v){p.classList.add('on');m=true}});if(!m)ps[3].classList.add('on')}
+
+function setTone(g,el){document.querySelectorAll('#'+g+' .tone').forEach(function(t){t.classList.remove('on')});el.classList.add('on')}
+
+var KHS=['All','Product','Compliance','Sales','Engineering','Marketing','Support'];
+var TYPES=['All','Files','Websites','Q&A','Integrations'];
+var TI={file:'<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 1h5l4 4v9a1 1 0 01-1 1H4a1 1 0 01-1-1V2a1 1 0 011-1z" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M9 1v4h4" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>',website:'<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2"/><path d="M2 8h12M8 2c-2 2-2 10 0 12M8 2c2 2 2 10 0 12" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>',qna:'<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="9" rx="2" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M5 13l3-2 3 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="5.5" cy="6.5" r=".7" fill="currentColor"/><circle cx="8" cy="6.5" r=".7" fill="currentColor"/><circle cx="10.5" cy="6.5" r=".7" fill="currentColor"/></svg>',integration:'<svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M6 2v3a1 1 0 01-1 1H2M14 6h-3a1 1 0 01-1-1V2M10 14v-3a1 1 0 011-1h3M2 10h3a1 1 0 011 1v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>'};
+var SRC=[{id:1,name:'Product_Overview.pdf',type:'file',kh:'Product',used:true},{id:2,name:'docs.sparrowgenie.com/api',type:'website',kh:'Product',used:true},{id:3,name:'How does the pricing model work?',type:'qna',kh:'Sales',used:true},{id:4,name:'Salesforce CRM',type:'integration',kh:'Sales',used:true},{id:5,name:'Security_Compliance_FAQ.docx',type:'file',kh:'Compliance',used:false},{id:6,name:'SOC2_Type_II_Report.pdf',type:'file',kh:'Compliance',used:false},{id:7,name:'compliance.sparrowgenie.com',type:'website',kh:'Compliance',used:false},{id:8,name:'What certifications do we hold?',type:'qna',kh:'Compliance',used:false},{id:9,name:'Pricing_Sheet_Q1.xlsx',type:'file',kh:'Sales',used:false},{id:10,name:'What is our enterprise discount?',type:'qna',kh:'Sales',used:false},{id:11,name:'Jira',type:'integration',kh:'Engineering',used:false},{id:12,name:'GitHub',type:'integration',kh:'Engineering',used:false},{id:13,name:'Architecture_Decisions.md',type:'file',kh:'Engineering',used:false},{id:14,name:'Brand_Guidelines.pdf',type:'file',kh:'Marketing',used:false},{id:15,name:'blog.sparrowgenie.com',type:'website',kh:'Marketing',used:false},{id:16,name:'How do we handle data residency?',type:'qna',kh:'Compliance',used:false},{id:17,name:'Onboarding_Playbook.pdf',type:'file',kh:'Product',used:false},{id:18,name:'help.sparrowgenie.com',type:'website',kh:'Support',used:false},{id:19,name:'Zendesk',type:'integration',kh:'Support',used:false},{id:20,name:'What is the SLA for enterprise?',type:'qna',kh:'Support',used:false}];
+var sel={};SRC.forEach(function(s){if(s.used)sel[s.id]=true});
+var aKH='All',aType='All';
+function tk(t){return{file:'Files',website:'Websites',qna:'Q&A',integration:'Integrations'}[t]||t}
+function tc(k){return'tag tag-'+k.toLowerCase()}
+function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
+function renderFilters(){var kf=document.getElementById('kh-filters');kf.innerHTML='';KHS.forEach(function(k){var p=document.createElement('span');p.className='pill'+(aKH===k?' on':'');p.textContent=k==='All'?'All KHs':k;p.onclick=function(){aKH=k;renderFilters();renderSources()};kf.appendChild(p)});var tf=document.getElementById('type-tabs');tf.innerHTML='';TYPES.forEach(function(t){var b=document.createElement('span');b.className='type-tab'+(aType===t?' on':'');b.textContent=t;b.onclick=function(){aType=t;renderFilters();renderSources()};tf.appendChild(b)})}
+function mf(s){var q=document.getElementById('src-search').value.toLowerCase();if(q&&s.name.toLowerCase().indexOf(q)===-1&&s.kh.toLowerCase().indexOf(q)===-1)return false;if(aKH!=='All'&&s.kh!==aKH)return false;if(aType!=='All'&&tk(s.type)!==aType)return false;return true}
+function sh(s){var ck=sel[s.id]?'on':'off';var csv=sel[s.id]?'<svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>':'';return'<div class="row" onclick="tgl('+s.id+')" style="padding:9px 18px"><div class="chk '+ck+'">'+csv+'</div><div class="ico" style="color:var(--text-secondary)">'+(TI[s.type]||TI.file)+'</div><div style="flex:1;min-width:0"><div class="src-name">'+s.name+'</div><div class="src-meta">'+cap(s.type)+'</div></div><span class="'+tc(s.kh)+'">'+s.kh+'</span></div>'}
+function renderSources(){var u=SRC.filter(function(s){return s.used});document.getElementById('used-list').innerHTML=u.map(sh).join('');document.getElementById('used-label').style.display=u.length?'':'none';var addOpen=document.getElementById('add-more-section').style.display!=='none';if(addOpen){var a=SRC.filter(function(s){return!s.used&&mf(s)});document.getElementById('add-list').innerHTML=a.map(sh).join('');document.getElementById('add-label').style.display=a.length?'':'none'}updCTA()}
+function tgl(id){sel[id]=!sel[id];renderSources()}
+function updCTA(){var n=Object.keys(sel).filter(function(k){return sel[k]}).length;var b=document.getElementById('kh-cta');b.textContent='Regenerate with '+n+' source'+(n!==1?'s':'');b.style.opacity=n===0?'0.5':'1'}
+renderFilters();
+</script>
+</body>
+</html>

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SparrowGenie Demo Prep — SPIN Selling + FAB Framework</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: #0f0f13;
+    color: #e4e4e7;
+    line-height: 1.6;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 48px 32px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .hero h1 { font-size: 2.2rem; font-weight: 800; color: #fff; margin-bottom: 8px; }
+  .hero .subtitle { color: #a1a1aa; font-size: 1rem; }
+  .hero .badge {
+    display: inline-block;
+    background: rgba(99, 102, 241, 0.2);
+    color: #818cf8;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.3);
+  }
+  .hero .badge-roadmap {
+    display: inline-block;
+    background: rgba(249, 115, 22, 0.2);
+    color: #fb923c;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 6px;
+    border: 1px solid rgba(249, 115, 22, 0.3);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+
+  /* Tab navigation */
+  .tabs {
+    display: flex;
+    gap: 4px;
+    background: #18181b;
+    padding: 4px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    border: 1px solid #27272a;
+    overflow-x: auto;
+  }
+  .tab {
+    flex: 1;
+    padding: 12px 16px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: #71717a;
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  .tab:hover { color: #d4d4d8; background: rgba(255,255,255,0.04); }
+  .tab.active { background: #6366f1; color: #fff; }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Section styles */
+  .section {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 24px;
+  }
+  .section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .section h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #c4b5fd;
+    margin: 20px 0 10px;
+  }
+  .section-desc { color: #a1a1aa; font-size: 0.9rem; margin-bottom: 20px; }
+
+  /* SPIN cards */
+  .spin-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+  .spin-s { background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); }
+  .spin-p { background: rgba(249, 115, 22, 0.15); color: #fb923c; border: 1px solid rgba(249, 115, 22, 0.3); }
+  .spin-i { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+  .spin-n { background: rgba(99, 102, 241, 0.15); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
+
+  .spin-card {
+    background: rgba(255,255,255, 0.02);
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .spin-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .spin-card-header h3 { margin: 0; color: #fff; font-size: 1.05rem; }
+  .spin-card-header span { color: #71717a; font-size: 0.8rem; margin-left: auto; }
+
+  .question-list { list-style: none; padding: 0; }
+  .question-list li {
+    padding: 10px 14px;
+    border-left: 3px solid #3f3f46;
+    margin-bottom: 8px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92rem;
+  }
+  .question-list li strong { color: #c4b5fd; display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+
+  /* Before/After */
+  .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  .ba-card {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #27272a;
+  }
+  .ba-before { background: rgba(239, 68, 68, 0.05); border-color: rgba(239, 68, 68, 0.2); }
+  .ba-after { background: rgba(34, 197, 94, 0.05); border-color: rgba(34, 197, 94, 0.2); }
+  .ba-card h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+  .ba-before h4 { color: #f87171; }
+  .ba-after h4 { color: #4ade80; }
+  .ba-card ul { list-style: none; padding: 0; }
+  .ba-card li { padding: 6px 0; font-size: 0.9rem; color: #d4d4d8; border-bottom: 1px solid rgba(255,255,255,0.04); }
+  .ba-card li:last-child { border-bottom: none; }
+
+  /* FAB table */
+  .fab-table { width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 16px; }
+  .fab-table th {
+    background: #1e1e24;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #a1a1aa;
+    border-bottom: 1px solid #27272a;
+  }
+  .fab-table th:first-child { border-radius: 8px 0 0 0; }
+  .fab-table th:last-child { border-radius: 0 8px 0 0; }
+  .fab-table td {
+    padding: 14px 16px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #1e1e24;
+    vertical-align: top;
+  }
+  .fab-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .fab-f { color: #93c5fd; font-weight: 600; }
+  .fab-a { color: #fbbf24; }
+  .fab-b { color: #4ade80; font-weight: 500; }
+
+  /* Roadmap badge in table */
+  .roadmap-tag {
+    display: inline-block;
+    background: rgba(249, 115, 22, 0.15);
+    color: #fb923c;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  /* Demo flow */
+  .flow-step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .flow-step::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 44px;
+    bottom: -20px;
+    width: 2px;
+    background: #27272a;
+  }
+  .flow-step:last-child::before { display: none; }
+  .flow-num {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .flow-num.roadmap {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+  }
+  .flow-body { flex: 1; padding-top: 6px; }
+  .flow-body h4 { color: #fff; font-size: 1rem; margin-bottom: 4px; }
+  .flow-body p { color: #a1a1aa; font-size: 0.9rem; }
+  .flow-body .talk-track {
+    background: rgba(99, 102, 241, 0.08);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-top: 8px;
+    font-size: 0.88rem;
+    color: #c4b5fd;
+    font-style: italic;
+  }
+  .flow-body .talk-track::before { content: '\201C'; font-size: 1.4rem; margin-right: 4px; opacity: 0.5; }
+  .flow-body .talk-track::after { content: '\201D'; font-size: 1.4rem; margin-left: 4px; opacity: 0.5; }
+
+  /* Objection cards */
+  .objection {
+    background: rgba(249, 115, 22, 0.05);
+    border: 1px solid rgba(249, 115, 22, 0.15);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 14px;
+  }
+  .objection h4 { color: #fb923c; font-size: 0.9rem; margin-bottom: 8px; }
+  .objection p { color: #d4d4d8; font-size: 0.9rem; }
+  .objection .response { color: #4ade80; margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.06); }
+  .objection .response::before { content: '\2192 '; font-weight: 700; }
+
+  /* Metrics pill */
+  .metric-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 16px; }
+  .metric-pill {
+    background: rgba(99, 102, 241, 0.08);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .metric-pill .num { font-size: 1.6rem; font-weight: 800; color: #818cf8; }
+  .metric-pill .label { font-size: 0.8rem; color: #a1a1aa; margin-top: 4px; }
+
+  /* Cheat sheet */
+  .cheat-item {
+    display: flex;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid #1e1e24;
+  }
+  .cheat-item:last-child { border-bottom: none; }
+  .cheat-icon {
+    width: 32px; height: 32px;
+    background: rgba(99, 102, 241, 0.15);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+  .cheat-text h4 { color: #fff; font-size: 0.92rem; margin-bottom: 2px; }
+  .cheat-text p { color: #a1a1aa; font-size: 0.85rem; }
+
+  /* Product map */
+  .product-map {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .pm-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    padding: 14px;
+  }
+  .pm-card h4 { font-size: 0.85rem; color: #818cf8; margin-bottom: 8px; font-weight: 700; }
+  .pm-card.roadmap-card { border-color: rgba(249, 115, 22, 0.3); }
+  .pm-card.roadmap-card h4 { color: #fb923c; }
+  .pm-card ul { list-style: none; padding: 0; }
+  .pm-card li { font-size: 0.82rem; color: #a1a1aa; padding: 3px 0; }
+
+  @media (max-width: 768px) {
+    .ba-grid { grid-template-columns: 1fr; }
+    .product-map { grid-template-columns: 1fr; }
+    .tabs { flex-wrap: nowrap; }
+    .tab { font-size: 0.75rem; padding: 10px 12px; }
+    .hero h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>SparrowGenie Demo Prep</h1>
+  <div class="subtitle">SPIN Selling + FAB Framework &mdash; Demo for Vipin Thomas, SurveySparrow</div>
+  <div class="badge">Product Demo</div>
+  <div class="badge-roadmap">Built + Roadmap Story</div>
+</div>
+
+<div class="container">
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('spin')">SPIN Framework</button>
+    <button class="tab" onclick="showTab('before-after')">Before &rarr; After</button>
+    <button class="tab" onclick="showTab('fab')">FAB Matrix</button>
+    <button class="tab" onclick="showTab('demo-flow')">Demo Flow</button>
+    <button class="tab" onclick="showTab('objections')">Objections</button>
+    <button class="tab" onclick="showTab('cheat')">Cheat Sheet</button>
+  </div>
+
+  <!-- ===================== SPIN FRAMEWORK ===================== -->
+  <div id="spin" class="tab-content active">
+
+    <div class="section">
+      <h2>SPIN Selling Framework for SparrowGenie</h2>
+      <p class="section-desc">Use these questions to guide the conversation from pain discovery to value realization. The demo story starts with Knowledge Hub (the foundation), then Projects (the execution layer), then the Roadmap vision (Go/No-Go, Proposals, RFP-to-Proposals).</p>
+
+      <h3>Product Map &mdash; What's Built vs Roadmap</h3>
+      <div class="product-map">
+        <div class="pm-card">
+          <h4>Knowledge Hub (Built)</h4>
+          <ul>
+            <li>Train &mdash; Upload websites, files (docs, PDFs), Q&amp;A pairs, Integrations</li>
+            <li>Test &mdash; Test answers from external search or domain sources</li>
+            <li>Improve &mdash; Knowledge Gaps (low confidence + unanswered) for fixes</li>
+          </ul>
+        </div>
+        <div class="pm-card">
+          <h4>Projects (Built)</h4>
+          <ul>
+            <li>Smart Mapping &mdash; Upload RFP, AI maps questions in seconds</li>
+            <li>Genie AI Answers &mdash; AI generates from Knowledge Hub</li>
+            <li>Collaboration &mdash; Author/Reviewer/Watcher flow</li>
+            <li>Project Health &mdash; Track completion status</li>
+            <li>Instructions &mdash; Prospect + Internal guidance</li>
+            <li>Context Info &mdash; Company info for prospect</li>
+            <li>Competitor Info &mdash; Competitive intelligence per project</li>
+            <li>Obligations &mdash; Track commitments (legal, product, security)</li>
+          </ul>
+        </div>
+        <div class="pm-card roadmap-card">
+          <h4>Roadmap (Coming Next)</h4>
+          <ul>
+            <li>Go/No-Go &mdash; 3-layer decision engine (EQS + ARS + PRS)</li>
+            <li>Proposals &mdash; Proposal templates and generation</li>
+            <li>RFP to Proposals &mdash; Auto-feed best answers back to Knowledge Hub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- S - Situation -->
+    <div class="spin-card">
+      <div class="spin-card-header">
+        <div class="spin-letter spin-s">S</div>
+        <h3>Situation Questions</h3>
+        <span>Understand their current world</span>
+      </div>
+      <p style="color:#a1a1aa; font-size:0.88rem; margin-bottom:14px;">Goal: Map how the customer currently handles RFPs. Don't sell here &mdash; just listen and understand their workflow end to end.</p>
+      <ul class="question-list">
+        <li>
+          <strong>Knowledge management</strong>
+          Where does your team's institutional knowledge live today? Is it in docs, spreadsheets, someone's head, or scattered across tools?
+        </li>
+        <li>
+          <strong>Content quality</strong>
+          When your AI or team generates an answer, how do you know it's accurate? Is there a process to validate and improve your knowledge base?
+        </li>
+        <li>
+          <strong>RFP intake process</strong>
+          When a new RFP lands, how long does it take to break it down into answerable questions? Who does that work?
+        </li>
+        <li>
+          <strong>Collaboration model</strong>
+          How do your SMEs, proposal owners, and reviewers coordinate today? What tools do they use to hand off work?
+        </li>
+        <li>
+          <strong>Tracking commitments</strong>
+          During a proposal cycle, your team makes commitments &mdash; share a document, confirm feasibility, get legal sign-off. How are those tracked today?
+        </li>
+        <li>
+          <strong>Reuse &amp; compounding</strong>
+          After an RFP is submitted, what happens to the good answers? Can you reuse them in the next deal?
+        </li>
+      </ul>
+    </div>
+
+    <!-- P - Problem -->
+    <div class="spin-card">
+      <div class="spin-card-header">
+        <div class="spin-letter spin-p">P</div>
+        <h3>Problem Questions</h3>
+        <span>Surface the pain</span>
+      </div>
+      <p style="color:#a1a1aa; font-size:0.88rem; margin-bottom:14px;">Goal: Get the customer to articulate frustrations. These emotional triggers create urgency to act.</p>
+      <ul class="question-list">
+        <li>
+          <strong>Knowledge trust deficit</strong>
+          When your team reuses old answers, how confident are they that those answers are still accurate? Has outdated content ever made it into a submission?
+        </li>
+        <li>
+          <strong>AI without a foundation</strong>
+          If you've tried using AI for proposals, did it hallucinate or give generic answers because there was no curated knowledge base behind it?
+        </li>
+        <li>
+          <strong>Mapping chaos</strong>
+          When a 200-question RFP comes in, how long does it take just to organize and map those questions before anyone starts writing?
+        </li>
+        <li>
+          <strong>SME bottleneck</strong>
+          How often do your SMEs answer the same questions across different RFPs? Do they feel like they're repeating themselves?
+        </li>
+        <li>
+          <strong>Invisible commitments</strong>
+          Have you ever had an obligation &mdash; like sharing a security doc or confirming a feature &mdash; fall through the cracks because it was tracked in Slack or someone's memory?
+        </li>
+        <li>
+          <strong>No learning loop</strong>
+          After submitting an RFP, does your team systematically capture what worked? Or does every new RFP feel like starting from zero?
+        </li>
+      </ul>
+    </div>
+
+    <!-- I - Implication -->
+    <div class="spin-card">
+      <div class="spin-card-header">
+        <div class="spin-letter spin-i">I</div>
+        <h3>Implication Questions</h3>
+        <span>Amplify the cost of inaction</span>
+      </div>
+      <p style="color:#a1a1aa; font-size:0.88rem; margin-bottom:14px;">Goal: Make the customer quantify the business impact. This is where real urgency builds.</p>
+      <ul class="question-list">
+        <li>
+          <strong>Knowledge quality ceiling</strong>
+          If your AI answers are only as good as the content you feed it, and that content is stale or scattered &mdash; what does that mean for every proposal you generate?
+        </li>
+        <li>
+          <strong>Speed to response</strong>
+          If it takes 2-3 days just to map and assign an RFP before anyone starts writing, how many deadlines are you burning through?
+        </li>
+        <li>
+          <strong>SME cost</strong>
+          If your SMEs spend 30-40% of their time re-answering the same questions, what strategic work are they not doing?
+        </li>
+        <li>
+          <strong>Deal risk from missed obligations</strong>
+          When a commitment falls through the cracks &mdash; like a missed legal document or unconfirmed feature &mdash; what happens to the deal?
+        </li>
+        <li>
+          <strong>Scale problem</strong>
+          If your RFP volume doubles, can your current process handle it without doubling your headcount?
+        </li>
+        <li>
+          <strong>Compounding waste</strong>
+          If every completed RFP doesn't make the next one better, you're paying the same cost repeatedly. Over a year, what does that add up to?
+        </li>
+      </ul>
+    </div>
+
+    <!-- N - Need-Payoff -->
+    <div class="spin-card">
+      <div class="spin-card-header">
+        <div class="spin-letter spin-n">N</div>
+        <h3>Need-Payoff Questions</h3>
+        <span>Let them see the solution</span>
+      </div>
+      <p style="color:#a1a1aa; font-size:0.88rem; margin-bottom:14px;">Goal: Get the customer to describe the value <em>in their own words</em>. Then transition into the demo.</p>
+      <ul class="question-list">
+        <li>
+          <strong>Trusted AI foundation</strong>
+          What if your AI could only generate answers from a curated, tested, continuously-improving knowledge base &mdash; not the open internet? How would that change your trust in AI-generated proposals?
+        </li>
+        <li>
+          <strong>Instant RFP setup</strong>
+          If uploading an RFP automatically mapped and structured every question in seconds, and AI instantly generated answers from your knowledge base &mdash; how much faster could your team start the real work?
+        </li>
+        <li>
+          <strong>SME liberation</strong>
+          What if your SMEs only got pulled in for genuinely new questions &mdash; and every answer they wrote was automatically available for future RFPs?
+        </li>
+        <li>
+          <strong>Commitment visibility</strong>
+          If every commitment your team makes during a proposal cycle was tracked inside the project with clear owners and deadlines &mdash; how many dropped balls would that prevent?
+        </li>
+        <li>
+          <strong>Self-improving system</strong>
+          Imagine every completed RFP automatically strengthens your knowledge base &mdash; the best answers flow back in, the gaps get flagged, and the AI gets smarter. How would that compound over 6 months?
+        </li>
+        <li>
+          <strong>Transition to demo</strong>
+          Let me show you exactly how SparrowGenie does all of this. I'll start with the Knowledge Hub &mdash; the foundation that makes everything else work...
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===================== BEFORE AFTER ===================== -->
+  <div id="before-after" class="tab-content">
+    <div class="section">
+      <h2>Before SparrowGenie &rarr; After SparrowGenie</h2>
+      <p class="section-desc">Use this framing throughout the demo. For every feature you show, anchor it to "how they used to do it" vs "how SparrowGenie fixes it."</p>
+
+      <h3>1. Building the Knowledge Base &mdash; The Foundation</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>Before (The Old Way)</h4>
+          <ul>
+            <li>Answers scattered across Google Docs, emails, old proposals</li>
+            <li>No way to test if your content actually answers questions well</li>
+            <li>Stale content gets reused without anyone knowing it's outdated</li>
+            <li>No process to find and fix knowledge gaps</li>
+            <li>AI tools hallucinate because there's no curated source of truth</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after">
+          <h4>After (Knowledge Hub)</h4>
+          <ul>
+            <li><strong>Train:</strong> Upload websites, files (docs, PDFs), Q&amp;A pairs, integrations</li>
+            <li><strong>Test:</strong> Ask questions and see how well the KB answers them (external search or domain)</li>
+            <li><strong>Improve:</strong> Knowledge Gaps module surfaces low-confidence and unanswered items for fixing</li>
+            <li>AI only generates from your curated, approved sources</li>
+            <li>The KB is a living system &mdash; it gets tested, gaps get filled, quality goes up</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>2. RFP Arrives &mdash; Getting Started</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>Before (The Old Way)</h4>
+          <ul>
+            <li>RFP document emailed around the team</li>
+            <li>Someone manually reads 100-200+ questions</li>
+            <li>Questions extracted into a spreadsheet by hand</li>
+            <li>Mapping takes days before anyone starts answering</li>
+            <li>No structured way to assign sections to people</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after">
+          <h4>After (Smart Mapping)</h4>
+          <ul>
+            <li>Upload RFP document directly into SparrowGenie</li>
+            <li>AI parses and maps all questions in seconds</li>
+            <li>Field mapping auto-suggests categories and structure</li>
+            <li>Genie AI immediately generates answers from Knowledge Hub</li>
+            <li>Team can start collaborating within minutes of upload</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>3. Answering Questions &mdash; The Core Work</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>Before (The Old Way)</h4>
+          <ul>
+            <li>Copy-paste answers from old proposals hoping they're still relevant</li>
+            <li>SMEs get pinged repeatedly for the same questions across deals</li>
+            <li>No context about the prospect or competitors while writing</li>
+            <li>Compliance instructions buried in email threads</li>
+            <li>Answers are generic &mdash; not tailored to who you're writing for</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after">
+          <h4>After (Genie AI + Context)</h4>
+          <ul>
+            <li>Genie AI drafts answers from the Knowledge Hub with confidence scores</li>
+            <li><strong>Instructions:</strong> Two tabs &mdash; "From Prospect" (RFP rules) + "For Participants" (internal strategy) with AI summarization</li>
+            <li><strong>Context Info:</strong> Prospect company info available inside the project</li>
+            <li><strong>Competitor Info:</strong> Competitive intelligence per project for targeted answers</li>
+            <li>SMEs focus on low-confidence items only &mdash; the hard 30%</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>4. Collaboration, Ownership &amp; Commitments</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>Before (The Old Way)</h4>
+          <ul>
+            <li>Reviews happen in email or Google Doc comments</li>
+            <li>No clear status: is it drafted, reviewed, or approved?</li>
+            <li>Removing a team member orphans their assigned work</li>
+            <li>Commitments (legal docs, feature confirmations) tracked in Slack or memory</li>
+            <li>Deadlines get missed, obligations fall through the cracks</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after">
+          <h4>After (Collaboration + Obligations)</h4>
+          <ul>
+            <li><strong>Assign/Review flow:</strong> Draft &rarr; For Review &rarr; Approved lifecycle per question</li>
+            <li>Role-based permissions: Author, Reviewer, Watcher with clear access rules</li>
+            <li>Reassignment protection &mdash; system blocks removal until work is reassigned</li>
+            <li><strong>Obligations module:</strong> Track commitments (legal, product, security, feature) with owners, deadlines, and status</li>
+            <li><strong>Project Health:</strong> See overall completion status and what's blocked</li>
+            <li>Email notifications keep everyone in the loop automatically</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>5. Workspace &mdash; Individual Productivity</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>Before (The Old Way)</h4>
+          <ul>
+            <li>SMEs juggle multiple RFPs and lose track of their assigned questions</li>
+            <li>No single view to see "what do I need to do today?"</li>
+            <li>Switching between projects wastes time finding your tasks</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after">
+          <h4>After (Workspace)</h4>
+          <ul>
+            <li>Personal workspace shows all questions assigned to you across projects</li>
+            <li>Answer directly from Workspace without navigating to each project</li>
+            <li>Focus on your work &mdash; not on finding your work</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="color: #fb923c;">6. What's Coming Next &mdash; The Vision (Roadmap)</h3>
+      <div class="ba-grid">
+        <div class="ba-card ba-before">
+          <h4>The Remaining Gaps</h4>
+          <ul>
+            <li>No structured way to decide if an RFP is worth pursuing</li>
+            <li>Good answers from completed RFPs stay locked in the project</li>
+            <li>Knowledge base doesn't automatically learn from real deal work</li>
+            <li>No way to generate polished proposals from RFP responses</li>
+          </ul>
+        </div>
+        <div class="ba-card ba-after" style="border-color: rgba(249, 115, 22, 0.3);">
+          <h4 style="color: #fb923c;">Coming on Roadmap</h4>
+          <ul>
+            <li><strong>Go/No-Go:</strong> 3-layer scoring (EQS + AI Readiness + Past RFP Similarity) before committing resources</li>
+            <li><strong>RFP to Proposals:</strong> Best answers flow back into Knowledge Hub automatically &mdash; system self-improves</li>
+            <li><strong>Proposals:</strong> Generate polished, templated proposals from RFP responses</li>
+            <li>The vision: every completed deal makes the entire system smarter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Impact Metrics to Reference</h2>
+      <div class="metric-grid">
+        <div class="metric-pill">
+          <div class="num">30-50%</div>
+          <div class="label">Faster proposal creation</div>
+        </div>
+        <div class="metric-pill">
+          <div class="num">25-40%</div>
+          <div class="label">Less SME involvement needed</div>
+        </div>
+        <div class="metric-pill">
+          <div class="num">Minutes</div>
+          <div class="label">RFP mapped &amp; AI-answered (not days)</div>
+        </div>
+        <div class="metric-pill">
+          <div class="num">Zero</div>
+          <div class="label">Orphaned work or missed obligations</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== FAB MATRIX ===================== -->
+  <div id="fab" class="tab-content">
+    <div class="section">
+      <h2>FAB Matrix &mdash; Features, Advantages, Benefits</h2>
+      <p class="section-desc">For each feature, connect it to an advantage over the old way, then tie it to a business benefit. <span style="color:#fb923c;">(Orange = Roadmap items)</span></p>
+
+      <table class="fab-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Advantage</th>
+            <th>Benefit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fab-f">Knowledge Hub &mdash; Train</td>
+            <td class="fab-a">Upload websites, docs, PDFs, Q&amp;A pairs, and integrations into a centralized knowledge base that AI retrieves from</td>
+            <td class="fab-b">AI answers come from YOUR curated content &mdash; not the open internet. No hallucinations. Institutional knowledge in one place that survives employee turnover.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Knowledge Hub &mdash; Test</td>
+            <td class="fab-a">Ask test questions and see how well the Knowledge Hub answers them &mdash; via external search or from domain sources</td>
+            <td class="fab-b">Before you use it on a real RFP, you can validate that your knowledge base actually works. Confidence before execution.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Knowledge Hub &mdash; Improve</td>
+            <td class="fab-a">Knowledge Gaps module surfaces all low-confidence and unanswered items in one place for targeted fixes</td>
+            <td class="fab-b">You always know exactly where your content is weak. Fix gaps proactively instead of discovering them mid-RFP under deadline pressure.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Smart Mapping</td>
+            <td class="fab-a">Upload an RFP and AI parses, structures, and maps all questions in seconds &mdash; not days of manual spreadsheet work</td>
+            <td class="fab-b">Teams start responding in minutes. Eliminates the "setup chaos" that burns 2-3 days on every RFP before real work begins.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Genie AI Answers</td>
+            <td class="fab-a">AI generates answers from Knowledge Hub sources with confidence scores showing reliability per answer</td>
+            <td class="fab-b">SMEs stop re-answering the same questions. AI handles the 60-70% of repeat content; humans focus on the genuinely new 30%.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Instructions Module</td>
+            <td class="fab-a">Two-tab system: "From Prospect" (RFP rules/compliance) + "For Participants" (internal strategy/win themes) with Genie AI summarization</td>
+            <td class="fab-b">Every SME sees exactly what's expected before writing. Fewer compliance misses, consistent positioning, and dramatically less rework.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Context Info</td>
+            <td class="fab-a">Prospect company information available inside the project workspace with WYSIWYG editor and AI summarization</td>
+            <td class="fab-b">Answers become tailored to who you're writing for. No more generic responses that sound copy-pasted.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Competitor Info</td>
+            <td class="fab-a">Competitive intelligence maintained per project so SMEs know the competitive landscape while writing</td>
+            <td class="fab-b">Answers position against competitors specifically. Win themes are backed by real competitive awareness.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Author/Reviewer Workflow</td>
+            <td class="fab-a">Clear ownership per question: Draft &rarr; For Review &rarr; Approved lifecycle with reassignment protection</td>
+            <td class="fab-b">No orphaned questions, no missed sections. System prevents accountability gaps &mdash; even when people leave mid-project.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Obligations Module</td>
+            <td class="fab-a">Track deal commitments (legal, product, security, feature) inside the project with owners, deadlines, comments, and activity logs</td>
+            <td class="fab-b">No more obligations tracked in Slack or someone's memory. Commitments are visible, accountable, and auditable.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Project Health</td>
+            <td class="fab-a">Real-time visibility into project completion status, bottlenecks, and what's blocking progress</td>
+            <td class="fab-b">Managers see the full picture without chasing updates. Identify risks before they become deal-breakers.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Workspace</td>
+            <td class="fab-a">Personal view of all assigned questions across all projects &mdash; answer directly from one place</td>
+            <td class="fab-b">SMEs focus on answering, not on navigating. Find your work instantly instead of hunting across projects.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Role-Based Permissions</td>
+            <td class="fab-a">Owner, Project Manager, Watcher, External &mdash; each with appropriate access levels</td>
+            <td class="fab-b">Sensitive projects stay secure. Right people see right things. Compliance teams are satisfied.</td>
+          </tr>
+          <tr>
+            <td class="fab-f">Email Notifications</td>
+            <td class="fab-a">Automated alerts for assignments, reviews, status changes &mdash; no more Slack chasing</td>
+            <td class="fab-b">People respond faster because they know when it's their turn. Reduces the "waiting on someone" bottleneck.</td>
+          </tr>
+          <tr style="background: rgba(249,115,22,0.04);">
+            <td class="fab-f">Go/No-Go Decision Engine <span class="roadmap-tag">ROADMAP</span></td>
+            <td class="fab-a">Three-layer scoring: External Questionnaire (EQS) + AI Readiness (ARS) + Past RFP Similarity (PRS) before work starts</td>
+            <td class="fab-b">Stop wasting resources on low-fit RFPs. Teams get decision discipline &mdash; pursue deals you can win, skip the rest.</td>
+          </tr>
+          <tr style="background: rgba(249,115,22,0.04);">
+            <td class="fab-f">RFP to Proposals <span class="roadmap-tag">ROADMAP</span></td>
+            <td class="fab-a">Best answers from completed proposals automatically flow back into Knowledge Hub with metadata and approval gates</td>
+            <td class="fab-b">The system self-improves with every deal. Proposal quality compounds over time instead of starting from zero. Living knowledge system.</td>
+          </tr>
+          <tr style="background: rgba(249,115,22,0.04);">
+            <td class="fab-f">Proposals <span class="roadmap-tag">ROADMAP</span></td>
+            <td class="fab-a">Generate polished, templated proposals directly from RFP responses &mdash; branded and structured</td>
+            <td class="fab-b">Go from answered RFP to client-ready proposal without manual formatting. Ship faster, look sharper.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===================== DEMO FLOW ===================== -->
+  <div id="demo-flow" class="tab-content">
+    <div class="section">
+      <h2>Recommended Demo Flow</h2>
+      <p class="section-desc">Always start with Knowledge Hub. It's the foundation that makes everything else credible. Then show Projects (the execution layer). Close with the Roadmap vision. Use the talk tracks to narrate naturally.</p>
+
+      <div class="flow-step">
+        <div class="flow-num">1</div>
+        <div class="flow-body">
+          <h4>Open &mdash; Set the Scene with Pain</h4>
+          <p>Start by acknowledging the problem. Don't jump into features.</p>
+          <div class="talk-track">Every proposal tool promises AI-generated answers. But here's the problem: AI is only as good as the knowledge behind it. If your knowledge is scattered across old docs and Slack threads, the AI just hallucinates. SparrowGenie was built to solve this from the ground up.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">2</div>
+        <div class="flow-body">
+          <h4>Knowledge Hub &mdash; Train</h4>
+          <p>Show the Train module. Upload a website, a PDF, Q&amp;A pairs. Show integrations. This establishes the foundation.</p>
+          <div class="talk-track">This is where everything starts. The Knowledge Hub is the brain behind SparrowGenie. You train it by uploading your company's real content &mdash; websites, product docs, PDFs, existing Q&amp;A pairs, even integrations with your existing tools. This is what the AI learns from. Not the internet. Your content.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">3</div>
+        <div class="flow-body">
+          <h4>Knowledge Hub &mdash; Test</h4>
+          <p>Show the Test module. Ask a real question and show how the system answers it from the domain sources.</p>
+          <div class="talk-track">Before you use the Knowledge Hub on a live RFP, you can test it. Ask it a real question your team gets asked all the time. See how it responds, where it pulls from, and how confident the answer is. You validate the knowledge base before it ever touches a customer-facing response.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">4</div>
+        <div class="flow-body">
+          <h4>Knowledge Hub &mdash; Improve</h4>
+          <p>Show the Knowledge Gaps view. Show low-confidence items and unanswered questions surfaced for fixing.</p>
+          <div class="talk-track">This is where most tools stop. But SparrowGenie shows you exactly where your knowledge is weak. Low-confidence answers, unanswered questions &mdash; all surfaced in one place. Your team can fix gaps proactively instead of discovering them mid-RFP under deadline pressure.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">5</div>
+        <div class="flow-body">
+          <h4>Project &mdash; Smart Mapping (Upload RFP)</h4>
+          <p>Now transition to Projects. Upload a sample RFP document. Show how AI maps all questions in seconds.</p>
+          <div class="talk-track">Now that the Knowledge Hub is set, here's where the magic happens. Upload an RFP &mdash; could be 50 questions, could be 2000 &mdash; and SparrowGenie maps and structures every question in seconds. What used to take days of spreadsheet work now happens before you finish your coffee.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">6</div>
+        <div class="flow-body">
+          <h4>Genie AI Answering &mdash; The Main Event</h4>
+          <p>Show AI answering questions. Highlight confidence scores. Show how it pulls from the Knowledge Hub you just built.</p>
+          <div class="talk-track">Watch this &mdash; Genie reads each question, pulls from the Knowledge Hub, and drafts an answer. See the confidence score? That's how much you can trust this answer. High confidence means it matched approved content from your knowledge base. Your SMEs only need to step in for the low-confidence ones &mdash; the genuinely new questions.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">7</div>
+        <div class="flow-body">
+          <h4>Instructions + Context Info + Competitor Info</h4>
+          <p>Show all three context layers that help SMEs write better answers.</p>
+          <div class="talk-track">Before any SME writes, they see three things. One: the prospect's requirements &mdash; formatting rules, compliance conditions, deadlines. Two: your internal strategy &mdash; win themes, positioning, deal notes. Three: the prospect's company info and competitive landscape. Answers aren't just fast &mdash; they're targeted.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">8</div>
+        <div class="flow-body">
+          <h4>Collaboration &mdash; Assign, Review, Approve</h4>
+          <p>Show the assignment workflow. Demonstrate the reassignment protection. Show Project Health.</p>
+          <div class="talk-track">Every question has a clear owner. The author writes, the reviewer validates, and the system tracks the status end to end. Try to remove someone from the project? SparrowGenie blocks you until their work is reassigned. Nothing gets orphaned. Project Health gives you the full picture of what's done, what's in review, and what's blocked.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">9</div>
+        <div class="flow-body">
+          <h4>Obligations &mdash; Track Commitments</h4>
+          <p>Show the Obligations tab. Create a sample obligation with owner, deadline, type, linked question.</p>
+          <div class="talk-track">During every proposal cycle, your team makes commitments &mdash; share a security doc, confirm a feature, get legal sign-off. Today those live in Slack or someone's head. In SparrowGenie, every obligation is tracked right inside the project &mdash; with an owner, a deadline, a status, and linked to the specific questions they relate to. Nothing falls through the cracks.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num">10</div>
+        <div class="flow-body">
+          <h4>Workspace &mdash; Individual Productivity</h4>
+          <p>Switch to the Workspace view. Show how an SME sees all their assigned questions across projects in one place.</p>
+          <div class="talk-track">Your SMEs are often working across multiple RFPs at once. Workspace is their personal command center &mdash; every question assigned to them, across every project, in one view. They can answer directly from here without navigating to each project. Focus on the work, not on finding the work.</div>
+        </div>
+      </div>
+
+      <div class="flow-step">
+        <div class="flow-num roadmap">R</div>
+        <div class="flow-body">
+          <h4>Close &mdash; The Roadmap Vision</h4>
+          <p>End with what's coming: Go/No-Go, RFP to Proposals, and Proposals. Paint the compounding picture.</p>
+          <div class="talk-track">What you've seen today is the foundation and the execution layer. Here's where it gets even more powerful. Coming next: a Go/No-Go decision engine that scores every RFP before you commit resources &mdash; based on team judgment, AI readiness, and similarity to deals you've won. Then, the best answers from completed RFPs will automatically flow back into the Knowledge Hub &mdash; so the system literally gets smarter with every deal. And finally, polished proposal generation directly from your RFP responses. The vision is simple: every deal makes the entire system better. You never start from scratch again.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== OBJECTIONS ===================== -->
+  <div id="objections" class="tab-content">
+    <div class="section">
+      <h2>Anticipated Objections &amp; Responses</h2>
+      <p class="section-desc">Be ready for these. Competitor objections are backed by real product research &mdash; not generic claims.</p>
+
+      <h3 style="color: #fb923c; margin-bottom: 16px;">Competitor-Specific Objections</h3>
+
+      <div class="objection">
+        <h4>"Loopio already has SmartScan and SmartFill &mdash; isn't that the same thing?"</h4>
+        <p><strong>What Loopio actually does:</strong> SmartScan is a Chrome Extension feature that scans web portals to extract questions into a Loopio project. SmartFill pushes approved answers back into portal fields. Both are described as "early sneak peek" and "experimental" in their own docs. The extension is a bridge between portals and the web app &mdash; it captures and deploys, but the real work still happens in the web app.</p>
+        <p><strong>The key gap:</strong> SmartFill just pastes pre-existing library answers &mdash; it doesn't generate new ones with AI. If the answer isn't already in the library, SmartFill can't help. For document-based RFPs (Word/PDF), SmartScan doesn't work at all.</p>
+        <p><strong>SparrowGenie's Chrome Extension:</strong> Right-click any question in a portal &rarr; Genie AI instantly generates an answer from the Knowledge Hub. Not copy-paste from a static library &mdash; actual AI-generated answers grounded in your trained, tested content. Plus, a built-in chat interface lets you interact with the AI directly from the extension for follow-ups or refinements. For portal-based RFPs, this is the fastest path from question to answer.</p>
+        <p class="response">Loopio's SmartFill copies existing library entries &mdash; if it's not in the library, you're on your own. SparrowGenie's extension generates AI answers from your Knowledge Hub on the spot &mdash; right-click a question, get a grounded answer instantly, and chat with the AI for refinements. And for document-based RFPs, we have Smart Mapping on top of that. We cover both portals and documents.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Loopio has a content Library with search and reuse"</h4>
+        <p><strong>What Loopio actually does:</strong> Their Library stores Q&amp;A entries with usage count, attachments, and search. Users can search from the Chrome Extension by selecting text or using the search bar. Results show answer preview, usage count, and attachments. Users can copy answers or generate summaries.</p>
+        <p><strong>The key gap:</strong> Loopio's Library is a static repository. You search it, you find a match, you copy it. There's no Train-Test-Improve cycle. No way to proactively surface knowledge gaps. No confidence scoring. No structured way to feed completed RFP answers back into the library automatically. The library only gets better if someone manually maintains it.</p>
+        <p class="response">Loopio's Library is search-and-copy. SparrowGenie's Knowledge Hub is Train-Test-Improve. We don't just store answers &mdash; we let you test the KB's accuracy before going live, and the Improve module surfaces every gap proactively. Their library waits for you to find problems. Ours shows you the problems.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive.io has LookUp and Bulk AI Draft &mdash; that sounds like what you do"</h4>
+        <p><strong>What Responsive actually does:</strong> Responsive LookUp is a Chrome/Edge extension that also works in Google Sheets and PowerPoint. Their "Ask" feature uses AI to scan Google Sheets for questions and generate answers via Bulk AI Draft. They have two modes: near real-time (answers appear inline) and project-based (creates a Guided Project in Responsive). They also have a "Requirements Analysis" feature with keyword dictionaries for document shredding.</p>
+        <p><strong>Where Responsive is strong:</strong> Multi-surface (Chrome, Sheets, PowerPoint), real-time answer mode in Google Sheets, document shredding matrix with custom columns, and an SME dictionary that auto-recommends authors/reviewers.</p>
+        <p><strong>The key gaps:</strong> Their Requirements Analysis depends on user-created keyword dictionaries &mdash; you have to define the vocabulary before the system can analyze documents. Their own docs admit this has "no particular benefit for Bid/No-Bid" decisions. Content capture in the extension is semi-manual: select text, choose field type, repeat. No native document upload + AI mapping in seconds. No structured Obligations tracking. No Knowledge Hub with Train-Test-Improve cycle.</p>
+        <p><strong>SparrowGenie's approach:</strong> Our Chrome Extension takes a different angle &mdash; right-click a question in any portal, and Genie AI generates an answer from the Knowledge Hub instantly. Plus a built-in chat interface for follow-ups. No manual text selection, no field type picking. For documents, Smart Mapping handles the heavy lifting.</p>
+        <p class="response">Responsive has breadth across surfaces (Sheets, PowerPoint, Chrome), but their portal experience is semi-manual &mdash; select text, choose field type, repeat. SparrowGenie's extension is AI-native: right-click a question, get an AI answer from your Knowledge Hub, chat to refine. For documents, Smart Mapping structures everything in seconds with no dictionary setup needed.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive has attachment handling that's more mature"</h4>
+        <p><strong>What they do:</strong> Responsive offers three attachment modes: Attachment (separate folder on export), Embedded (objects inside Word export), and Pinned (image appended to answer on export). They also support attaching documents to responses with embed and attach options.</p>
+        <p><strong>Be honest:</strong> Their attachment handling for exports is more nuanced than what SparrowGenie has today. Acknowledge this, then redirect.</p>
+        <p class="response">Fair point &mdash; their export attachment handling has maturity. But the real question is: how good are the answers being attached? SparrowGenie's strength is the knowledge foundation and AI answer quality. We're building export capabilities on top of answers that are actually generated from a tested knowledge base, not a static library.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Loopio's Chrome Extension lets us work directly in portals"</h4>
+        <p><strong>What Loopio does:</strong> Their new Chrome Extension creates a bridge between web portals and Loopio. SmartScan captures portal questions, SmartFill pushes answers back. Users can search the Library from the extension, create projects, rename sections, reorder items. But &mdash; their own design philosophy states: "Extension = capture + deploy. Web app = author, review, approve."</p>
+        <p><strong>What SparrowGenie does:</strong> Our Chrome Extension is built for portal-based RFPs too &mdash; but instead of just bridging to the web app, it brings AI directly into the portal. Right-click any question, and Genie AI generates an answer from the Knowledge Hub instantly. Need to refine? Chat with the AI right inside the extension. No switching back and forth between extension and web app.</p>
+        <p class="response">Loopio's extension captures questions and pushes back pre-existing answers &mdash; the real thinking happens in their web app. SparrowGenie's extension brings AI generation directly into the portal. Right-click, get an AI answer, chat to refine &mdash; all without leaving the page. And for document-based RFPs, we have Smart Mapping + Genie AI on top.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"Responsive has Requirements Analysis &mdash; isn't that like Go/No-Go?"</h4>
+        <p><strong>What Responsive does:</strong> Their Requirements Analysis uses keyword dictionaries to identify requirements in documents, then creates a document shredding matrix. Users pre-create dictionaries with keywords and categories, and can attach auto-recommended authors/reviewers. It's about organizing the RFP into analyzable pieces.</p>
+        <p><strong>The key difference:</strong> Responsive's Requirements Analysis is about document organization, not deal qualification. Their own research notes say there's "no particular benefit for Bid/No-Bid." It's a shredding and tagging tool, not a decision engine. SparrowGenie's roadmap Go/No-Go is fundamentally different &mdash; it's a 3-layer scoring engine (team judgment + AI readiness + past deal similarity) designed specifically to answer "should we pursue this deal?"</p>
+        <p class="response">Responsive's Requirements Analysis organizes documents using keyword dictionaries. Our Go/No-Go is a decision engine that scores deals across three dimensions before you commit a single resource. They help you organize the RFP better. We help you decide whether to work on it at all.</p>
+      </div>
+
+      <h3 style="margin-top: 28px;">General Objections (Non-Competitor)</h3>
+
+      <div class="objection">
+        <h4>"Can we trust the AI answers?"</h4>
+        <p>This is exactly why we start with the Knowledge Hub. The AI only retrieves from YOUR curated, tested content &mdash; not the open internet. Every answer has a confidence score. The Test module lets you validate before going live. And the Improve module catches the gaps. Trust is built into the architecture.</p>
+        <p class="response">We built a Train-Test-Improve cycle specifically so you never have to blindly trust AI. You verify it yourself before any customer sees it.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"The Go/No-Go and Proposals features aren't built yet"</h4>
+        <p>What's built today &mdash; Knowledge Hub (Train/Test/Improve), Projects (Smart Mapping, AI answers, collaboration, obligations), and Workspace &mdash; solves the core pain right now. Go/No-Go and Proposals are the compounding layer that makes the system self-improving.</p>
+        <p class="response">The foundation and execution layer are live and delivering value now. The roadmap features make it compound &mdash; but you don't need them to start winning.</p>
+      </div>
+
+      <div class="objection">
+        <h4>"How do you handle RFPs with 2000+ questions?"</h4>
+        <p>SparrowGenie's Smart Mapping was built for exactly this scale. Upload the full RFP &mdash; the AI maps all questions regardless of volume. Combine that with Genie AI answering from the Knowledge Hub, and your team gets a head start on even the largest RFPs. Workspace lets SMEs manage their assigned portion without being overwhelmed.</p>
+        <p class="response">We built for scale from day one. 50 questions or 2000 &mdash; same workflow, same speed.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== CHEAT SHEET ===================== -->
+  <div id="cheat" class="tab-content">
+    <div class="section">
+      <h2>Quick Reference Cheat Sheet</h2>
+      <p class="section-desc">Keep these in your back pocket during the demo.</p>
+
+      <h3>Core Value Proposition (One Liner)</h3>
+      <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.25); border-radius: 10px; padding: 20px; margin: 16px 0; text-align: center;">
+        <p style="font-size: 1.1rem; color: #c4b5fd; font-weight: 600;">SparrowGenie is the AI-powered proposal operations platform that starts with a trusted knowledge foundation, executes RFPs with speed and structure, and gets smarter with every deal.</p>
+      </div>
+
+      <h3>The Demo Story Arc (In Order)</h3>
+      <div class="cheat-item">
+        <div class="cheat-icon">1</div>
+        <div class="cheat-text">
+          <h4>Knowledge Hub: Train &rarr; Test &rarr; Improve</h4>
+          <p>"AI is only as good as the knowledge behind it. We start by building the foundation."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">2</div>
+        <div class="cheat-text">
+          <h4>Smart Mapping: RFP parsed in seconds</h4>
+          <p>"What used to take days of spreadsheet work now happens before you finish your coffee."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">3</div>
+        <div class="cheat-text">
+          <h4>Genie AI Answers + Context + Instructions + Competitors</h4>
+          <p>"AI answers from your knowledge, tailored to who you're writing for."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">4</div>
+        <div class="cheat-text">
+          <h4>Collaboration + Obligations + Project Health</h4>
+          <p>"Every question has an owner. Every commitment is tracked. Nothing falls through the cracks."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">5</div>
+        <div class="cheat-text">
+          <h4>Workspace: Personal productivity</h4>
+          <p>"Your SMEs focus on answering, not on finding their work."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(249,115,22,0.15); color: #fb923c;">R</div>
+        <div class="cheat-text">
+          <h4>Roadmap Vision: Go/No-Go, RFP-to-Proposals, Proposals</h4>
+          <p>"Every deal makes the system smarter. You never start from scratch again."</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 28px;">Five Pain Points to Hit</h3>
+      <div class="cheat-item">
+        <div class="cheat-icon">P1</div>
+        <div class="cheat-text">
+          <h4>No trusted knowledge foundation</h4>
+          <p>"AI hallucinates because there's no curated source of truth behind it."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">P2</div>
+        <div class="cheat-text">
+          <h4>RFP setup takes days not minutes</h4>
+          <p>"Someone manually reads 200 questions and puts them in a spreadsheet."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">P3</div>
+        <div class="cheat-text">
+          <h4>SMEs are bottlenecks, not enablers</h4>
+          <p>"They answer the same questions over and over across deals."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">P4</div>
+        <div class="cheat-text">
+          <h4>Commitments tracked in Slack or someone's head</h4>
+          <p>"Obligations fall through the cracks because nobody owns them structurally."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">P5</div>
+        <div class="cheat-text">
+          <h4>Work doesn't compound across RFPs</h4>
+          <p>"Every RFP feels like starting over."</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 28px;">Key Differentiators vs Competitors</h3>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs Loopio</h4>
+          <p><strong>Their strengths:</strong> SmartScan captures portal questions, SmartFill pushes answers back to portals, Chrome Extension bridges portal-to-app.<br>
+          <strong>Their gaps:</strong> SmartScan only works on web portals (not Word/PDF docs). SmartFill copies existing answers &mdash; no AI generation. Library is static search-and-copy &mdash; no Train-Test-Improve cycle, no gap detection, no confidence scoring. Extension = capture + deploy only; authoring happens in web app. No Obligations tracking. Attachments can't embed in exports like Responsive can.<br>
+          <strong>Our edge:</strong> Knowledge Hub with active quality cycle, Smart Mapping on any document format, AI-generated answers with confidence scores, Chrome Extension with right-click AI answers + chat (not just copy-paste), structured Obligations tracking, and Workspace for SME productivity.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs Responsive.io (formerly RFPIO)</h4>
+          <p><strong>Their strengths:</strong> Multi-surface LookUp (Chrome, Google Sheets, PowerPoint), Bulk AI Draft in Sheets, Requirements Analysis with keyword dictionaries, auto-recommend SMEs, mature attachment handling (attach/embed/pin options on export).<br>
+          <strong>Their gaps:</strong> Requirements Analysis needs manual dictionary setup before the system can work &mdash; no AI-native parsing. Content capture in extension is semi-manual (select text, choose type). No Train-Test-Improve cycle for knowledge quality. Their docs confirm Requirements Analysis has "no particular benefit for Bid/No-Bid." No Obligations tracking inside projects.<br>
+          <strong>Our edge:</strong> AI-native Smart Mapping with zero dictionary setup, Knowledge Hub that proactively surfaces gaps, Chrome Extension with right-click AI-generated answers + chat (not just select-and-search like LookUp), structured Obligations with owners/deadlines, and a roadmap Go/No-Go engine designed specifically for deal qualification (not just document shredding).</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs Both &mdash; The Structural Difference</h4>
+          <p>Both Loopio and Responsive are <strong>library-first</strong> products: they store content and help you find/reuse it. SparrowGenie is <strong>knowledge-first</strong>: we make you train, test, and improve your content before AI ever touches a customer response. Their AI searches a library. Our AI answers from a validated knowledge base. That's the fundamental trust gap we solve.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon">vs</div>
+        <div class="cheat-text">
+          <h4>vs ChatGPT / Generic AI</h4>
+          <p>Generic AI generates from the internet with no guardrails. SparrowGenie generates from your curated Knowledge Hub with confidence scores. Plus: structured workflows, Instructions, Context, Competitors, Obligations. It's a platform, not a chatbot.</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 28px;">Demo Do's &amp; Don'ts</h3>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(34,197,94,0.15); color: #4ade80;">DO</div>
+        <div class="cheat-text">
+          <h4>Always start with Knowledge Hub</h4>
+          <p>Trust before speed. Show Train &rarr; Test &rarr; Improve before showing AI answers. This is the foundation story.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(34,197,94,0.15); color: #4ade80;">DO</div>
+        <div class="cheat-text">
+          <h4>Clearly separate "Built" from "Roadmap"</h4>
+          <p>Show what's live and delivering value now. Then paint the vision of Go/No-Go, RFP-to-Proposals, and Proposals as the compounding layer.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(239,68,68,0.15); color: #f87171;">DON'T</div>
+        <div class="cheat-text">
+          <h4>Don't lead with features</h4>
+          <p>Lead with pain. Use SPIN questions first, then transition to "let me show you how we fixed this."</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(239,68,68,0.15); color: #f87171;">DON'T</div>
+        <div class="cheat-text">
+          <h4>Don't skip Obligations</h4>
+          <p>This is a unique differentiator. No competitor tracks deal commitments inside the proposal workflow. Highlight this.</p>
+        </div>
+      </div>
+      <div class="cheat-item">
+        <div class="cheat-icon" style="background: rgba(239,68,68,0.15); color: #f87171;">DON'T</div>
+        <div class="cheat-text">
+          <h4>Don't forget the compounding close</h4>
+          <p>The final message isn't one RFP done faster. It's every future RFP getting smarter. That's the long-term lock-in.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showTab(tabId) {
+  document.querySelectorAll('.tab-content').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('.tab').forEach(function(el) { el.classList.remove('active'); });
+  document.getElementById(tabId).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

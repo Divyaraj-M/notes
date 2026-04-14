@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "Product/SparrowGenie.excalidraw.md"
+    },
+    {
       "basename": "Multi Document Support",
       "path": "Product/Projects/Multi Document Support.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SmartScan",
       "path": "Product/competitors/Loopio/SmartScan.md"
-    },
-    {
-      "basename": "Go- no - Go responsive",
-      "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
     }
   ],
   "omittedPaths": [],

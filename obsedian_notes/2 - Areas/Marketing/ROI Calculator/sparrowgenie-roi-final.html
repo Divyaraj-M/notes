@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your SparrowGenie ROI Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060b11;
+    --bg-card: #0c1520;
+    --border: rgba(148,163,184,0.08);
+    --border-glow: rgba(0,210,180,0.2);
+    --text: #e8edf2;
+    --text-dim: #7a8a9e;
+    --text-muted: #4a5568;
+    --teal: #00d2b4;
+    --teal-bright: #00f0cc;
+    --teal-glow: rgba(0,210,180,0.15);
+    --teal-deep: rgba(0,210,180,0.06);
+    --red: #ff6b6b;
+    --red-dim: rgba(255,107,107,0.12);
+    --green: #4ade80;
+    --green-dim: rgba(74,222,128,0.1);
+    --gold: #fbbf24;
+    --gold-dim: rgba(251,191,36,0.1);
+    --blue: #60a5fa;
+    --blue-dim: rgba(96,165,250,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: A4; margin: 0; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    overflow-x: hidden;
+  }
+
+  .report { max-width: 940px; margin: 0 auto; }
+
+  /* ================ VERDICT SWITCHER (top-right preview control) ================ */
+  .switcher-bar {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 999;
+    display: flex;
+    gap: 6px;
+    background: rgba(12,21,32,0.95);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 6px;
+    backdrop-filter: blur(12px);
+  }
+  .switcher-btn {
+    padding: 8px 14px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--text-muted);
+    transition: all 0.25s ease;
+    white-space: nowrap;
+    letter-spacing: 0.2px;
+  }
+  .switcher-btn:hover { color: var(--text-dim); background: rgba(255,255,255,0.03); }
+  .switcher-btn.active-strong {
+    background: var(--green-dim);
+    border-color: rgba(74,222,128,0.25);
+    color: var(--green);
+  }
+  .switcher-btn.active-solid {
+    background: var(--gold-dim);
+    border-color: rgba(251,191,36,0.25);
+    color: var(--gold);
+  }
+  .switcher-btn.active-early {
+    background: var(--blue-dim);
+    border-color: rgba(96,165,250,0.25);
+    color: var(--blue);
+  }
+  .switcher-label {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 8px 8px 8px 6px;
+    display: flex;
+    align-items: center;
+  }
+
+  @media print { .switcher-bar { display: none; } }
+
+  /* ================ PAGE 1 ================ */
+  .page-one {
+    min-height: 100vh;
+    padding: 44px 52px 48px;
+    position: relative;
+    page-break-after: always;
+  }
+  .page-one::before {
+    content: '';
+    position: absolute;
+    top: -200px; right: -100px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(0,210,180,0.06) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+    position: relative; z-index: 1;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-mark {
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, var(--teal), var(--teal-bright));
+    border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .brand-mark svg { width: 18px; height: 18px; }
+  .brand-name {
+    font-family: 'Fraunces', serif;
+    font-size: 18px; font-weight: 700;
+    color: var(--text); letter-spacing: -0.3px;
+  }
+  .meta {
+    font-size: 11px; color: var(--text-muted);
+    text-align: right; line-height: 1.6;
+  }
+  .meta strong { color: var(--text-dim); }
+
+  /* ---- HOOK ---- */
+  .hook {
+    text-align: center;
+    margin-bottom: 32px;
+    position: relative; z-index: 1;
+  }
+  .hook-tag {
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 7px 20px; border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .hook-tag.ht-strong { color: var(--red); background: var(--red-dim); }
+  .hook-tag.ht-solid { color: var(--gold); background: var(--gold-dim); }
+  .hook-tag.ht-early { color: var(--blue); background: var(--blue-dim); }
+
+  .hook h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 46px; font-weight: 900;
+    line-height: 1.12; letter-spacing: -1.5px;
+    margin-bottom: 12px;
+  }
+  .hook h1 .roi-num {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  .hook h1 .roi-num.rc-strong { color: var(--teal-bright); }
+  .hook h1 .roi-num.rc-solid { color: var(--gold); }
+  .hook h1 .roi-num.rc-early { color: var(--blue); }
+
+  .hook-sub {
+    font-size: 15px; color: var(--text-dim);
+    max-width: 540px; margin: 0 auto; line-height: 1.65;
+  }
+
+  /* ---- VERDICT ---- */
+  .verdict {
+    margin: 0 auto 36px; max-width: 580px;
+    padding: 20px 28px; border-radius: 14px;
+    display: flex; align-items: center; gap: 16px;
+    position: relative; z-index: 1;
+    transition: all 0.3s ease;
+  }
+  .verdict.v-strong { background: var(--green-dim); border: 1px solid rgba(74,222,128,0.2); }
+  .verdict.v-solid { background: var(--gold-dim); border: 1px solid rgba(251,191,36,0.2); }
+  .verdict.v-early { background: var(--blue-dim); border: 1px solid rgba(96,165,250,0.2); }
+
+  .verdict-icon {
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; font-size: 20px; font-weight: 700;
+    transition: background 0.3s ease;
+  }
+  .v-strong .verdict-icon { background: rgba(74,222,128,0.15); color: var(--green); }
+  .v-solid .verdict-icon { background: rgba(251,191,36,0.15); color: var(--gold); }
+  .v-early .verdict-icon { background: rgba(96,165,250,0.15); color: var(--blue); }
+
+  .verdict-label {
+    font-family: 'Fraunces', serif;
+    font-size: 20px; font-weight: 800;
+    letter-spacing: -0.3px;
+    transition: color 0.3s ease;
+  }
+  .v-strong .verdict-label { color: var(--green); }
+  .v-solid .verdict-label { color: var(--gold); }
+  .v-early .verdict-label { color: var(--blue); }
+  .verdict-desc {
+    font-size: 13px; color: var(--text-dim);
+    margin-top: 3px; line-height: 1.5;
+  }
+
+  /* ---- BEFORE vs AFTER ---- */
+  .story-label {
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--text-muted); margin-bottom: 14px; text-align: center;
+  }
+  .story-comparison {
+    display: grid;
+    grid-template-columns: 1fr 52px 1fr;
+    margin-bottom: 36px; position: relative; z-index: 1;
+  }
+  .story-card { border-radius: 14px; padding: 26px 22px; }
+  .story-card.before {
+    background: var(--red-dim);
+    border: 1px solid rgba(255,107,107,0.1);
+  }
+  .story-card.after {
+    background: linear-gradient(135deg, var(--teal-deep) 0%, rgba(0,210,180,0.02) 100%);
+    border: 1px solid var(--border-glow);
+  }
+  .story-card-tag {
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase;
+    margin-bottom: 18px; display: inline-block;
+    padding: 4px 10px; border-radius: 4px;
+  }
+  .story-card.before .story-card-tag { color: var(--red); background: rgba(255,107,107,0.1); }
+  .story-card.after .story-card-tag { color: var(--teal-bright); background: rgba(0,210,180,0.1); }
+
+  .story-stat { margin-bottom: 16px; }
+  .story-stat:last-child { margin-bottom: 0; }
+  .story-stat-label {
+    font-size: 10px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 3px;
+  }
+  .story-stat-value {
+    font-family: 'Fraunces', serif;
+    font-size: 24px; font-weight: 800; letter-spacing: -0.5px;
+  }
+  .story-card.before .story-stat-value { color: var(--text-dim); }
+  .story-card.after .story-stat-value { color: var(--teal-bright); }
+  .story-stat-note { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+  .story-arrow {
+    display: flex; align-items: center; justify-content: center;
+  }
+  .arrow-circle {
+    width: 40px; height: 40px;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .arrow-circle svg { width: 18px; height: 18px; color: var(--teal); }
+
+  /* ---- IMPACT STRIP ---- */
+  .impact-strip {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 12px; margin-bottom: 36px; position: relative; z-index: 1;
+  }
+  .impact-box {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 16px; text-align: center;
+    position: relative; overflow: hidden;
+  }
+  .impact-box::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  }
+  .impact-box.ib-deals::before { background: linear-gradient(90deg, var(--teal), transparent); }
+  .impact-box.ib-rev::before { background: linear-gradient(90deg, var(--gold), transparent); }
+  .impact-box.ib-roi::before { background: linear-gradient(90deg, var(--green), transparent); }
+  .impact-num {
+    font-family: 'Fraunces', serif;
+    font-size: 28px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 4px;
+  }
+  .ib-deals .impact-num { color: var(--teal-bright); }
+  .ib-rev .impact-num { color: var(--gold); }
+  .ib-roi .impact-num { color: var(--green); }
+  .impact-label {
+    font-size: 10px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 1px; font-weight: 500;
+  }
+
+  /* ---- REVENUE BRIDGE ---- */
+  .bridge-wrap { margin-bottom: 36px; position: relative; z-index: 1; }
+  .bridge {
+    display: flex; align-items: flex-end; justify-content: center;
+    gap: 28px; height: 160px; position: relative; padding: 0 40px;
+  }
+  .bridge-floor {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 1px; background: rgba(148,163,184,0.1);
+  }
+  .bridge-col {
+    flex: 1; max-width: 190px;
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: flex-end; height: 100%;
+  }
+  .bridge-val {
+    font-family: 'Fraunces', serif;
+    font-size: 16px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.3px;
+  }
+  .bridge-bar { width: 100%; border-radius: 6px 6px 0 0; position: relative; }
+  .bridge-bar.b-current {
+    height: 50%;
+    background: linear-gradient(180deg, rgba(122,138,158,0.25) 0%, rgba(122,138,158,0.08) 100%);
+    border: 1px solid rgba(148,163,184,0.12); border-bottom: none;
+  }
+  .bridge-bar.b-current .bridge-val { color: var(--text-dim); }
+  .bridge-bar.b-lift {
+    height: 20%;
+    background: linear-gradient(180deg, rgba(0,210,180,0.3) 0%, rgba(0,210,180,0.08) 100%);
+    border: 1px dashed rgba(0,210,180,0.3); border-bottom: none;
+  }
+  .bridge-bar.b-lift .bridge-val { color: var(--teal); font-size: 14px; }
+  .bridge-bar.b-new {
+    height: 70%;
+    background: linear-gradient(180deg, var(--teal) 0%, rgba(0,210,180,0.4) 100%);
+    border: 1px solid var(--teal); border-bottom: none;
+  }
+  .bridge-bar.b-new .bridge-val { color: var(--teal-bright); }
+  .bridge-tag {
+    font-size: 10px; color: var(--text-muted);
+    margin-top: 10px; text-align: center; line-height: 1.4; font-weight: 500;
+  }
+
+  /* ---- BOTTOM NOTE ---- */
+  .p1-footer-note {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-muted);
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    line-height: 1.6;
+  }
+
+  /* ================ PAGE 2 ================ */
+  .page-two {
+    min-height: 100vh;
+    padding: 44px 52px 48px;
+    position: relative;
+    page-break-after: always;
+  }
+  .p2-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 36px; padding-bottom: 16px; border-bottom: 1px solid var(--border);
+  }
+  .section-head {
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--text-muted); margin-bottom: 16px;
+  }
+
+  /* Inputs */
+  .detail-inputs {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 12px; margin-bottom: 32px;
+  }
+  .di-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px;
+  }
+  .di-label {
+    font-size: 10px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;
+  }
+  .di-value {
+    font-family: 'Fraunces', serif;
+    font-size: 20px; font-weight: 700; color: var(--text);
+  }
+
+  /* ---- STORY MATH: 3-Chapter Flow ---- */
+  .math-story { margin-bottom: 32px; }
+
+  .math-chapter {
+    position: relative;
+    margin-bottom: 24px;
+    padding-left: 28px;
+  }
+  .math-chapter:last-child { margin-bottom: 0; }
+
+  /* Vertical timeline line */
+  .math-chapter::before {
+    content: '';
+    position: absolute;
+    left: 9px;
+    top: 36px;
+    bottom: -24px;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(148,163,184,0.15) 0%, transparent 100%);
+  }
+  .math-chapter:last-child::before { display: none; }
+
+  .ch-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    position: relative;
+  }
+
+  /* Chapter dot on timeline */
+  .ch-dot {
+    position: absolute;
+    left: -28px;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .ch-dot svg { width: 10px; height: 10px; }
+
+  .ch-dot.dot-problem { background: var(--red-dim); border: 2px solid rgba(255,107,107,0.3); }
+  .ch-dot.dot-problem svg { color: var(--red); }
+  .ch-dot.dot-change { background: var(--gold-dim); border: 2px solid rgba(251,191,36,0.3); }
+  .ch-dot.dot-change svg { color: var(--gold); }
+  .ch-dot.dot-result { background: var(--green-dim); border: 2px solid rgba(74,222,128,0.3); }
+  .ch-dot.dot-result svg { color: var(--green); }
+
+  .ch-tag {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .ch-tag.ct-problem { color: var(--red); background: var(--red-dim); }
+  .ch-tag.ct-change { color: var(--gold); background: var(--gold-dim); }
+  .ch-tag.ct-result { color: var(--green); background: var(--green-dim); }
+
+  .ch-title {
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.3px;
+  }
+
+  .ch-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ch-card.cc-problem { border-left: 3px solid rgba(255,107,107,0.4); }
+  .ch-card.cc-change { border-left: 3px solid rgba(251,191,36,0.4); }
+  .ch-card.cc-result {
+    border-left: 3px solid rgba(74,222,128,0.4);
+    background: linear-gradient(135deg, var(--bg-card) 0%, rgba(0,210,180,0.03) 100%);
+  }
+
+  .ch-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(148,163,184,0.05);
+  }
+  .ch-row:last-child { border-bottom: none; }
+
+  .ch-row-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ch-row-num {
+    width: 22px; height: 22px;
+    border-radius: 5px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700;
+    flex-shrink: 0;
+  }
+  .cc-problem .ch-row-num { background: var(--red-dim); color: var(--red); }
+  .cc-change .ch-row-num { background: var(--gold-dim); color: var(--gold); }
+  .cc-result .ch-row-num { background: var(--green-dim); color: var(--green); }
+
+  .ch-row-text {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.4;
+  }
+  .ch-row-text strong {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .ch-row-val {
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+  }
+  .cc-problem .ch-row-val { color: var(--text-dim); }
+  .cc-change .ch-row-val { color: var(--gold); }
+  .cc-result .ch-row-val { color: var(--teal-bright); }
+
+  /* Final ROI punchline */
+  .roi-punchline {
+    margin-top: 20px;
+    background: linear-gradient(135deg, var(--teal-deep) 0%, rgba(0,210,180,0.02) 100%);
+    border: 1px solid var(--border-glow);
+    border-radius: 14px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .roi-punch-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .roi-punch-icon {
+    width: 44px; height: 44px;
+    background: var(--green-dim);
+    border: 1px solid rgba(74,222,128,0.2);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .roi-punch-text {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+  .roi-punch-text strong {
+    color: var(--text);
+  }
+  .roi-punch-val {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--green);
+    letter-spacing: -1px;
+    flex-shrink: 0;
+  }
+  .roi-punch-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: right;
+    margin-top: 2px;
+  }
+
+  /* Why */
+  .why-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 12px; margin-bottom: 32px;
+  }
+  .why-card {
+    display: flex; gap: 12px; padding: 14px;
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; align-items: flex-start;
+  }
+  .why-ic {
+    width: 28px; height: 28px;
+    background: var(--teal-deep); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .why-ic svg { width: 13px; height: 13px; color: var(--teal); }
+  .why-t { font-size: 12px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+  .why-d { font-size: 11px; color: var(--text-muted); line-height: 1.5; }
+
+  /* Investment */
+  .invest-row {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 12px; margin-bottom: 32px;
+  }
+  .invest-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px; text-align: center;
+  }
+  .invest-card-label {
+    font-size: 10px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;
+  }
+  .invest-card-val { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 700; }
+  .invest-card-val.ic-cost { color: var(--text-dim); }
+  .invest-card-val.ic-rev { color: var(--teal-bright); }
+  .invest-card-val.ic-roi { color: var(--green); }
+
+  /* Assumptions */
+  .assumptions {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px 22px; margin-bottom: 32px;
+  }
+  .assumptions h3 { font-size: 12px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+  .assumptions p { font-size: 12px; color: var(--text-dim); line-height: 1.7; margin-bottom: 10px; }
+  .a-tags { display: flex; gap: 16px; flex-wrap: wrap; }
+  .a-tag { font-size: 11px; color: var(--text-dim); }
+  .a-tag span {
+    display: block; font-size: 9px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 2px;
+  }
+
+  /* CTA */
+  .p2-cta {
+    text-align: center; padding: 28px;
+    background: linear-gradient(135deg, var(--teal-deep) 0%, transparent 100%);
+    border: 1px solid var(--border-glow); border-radius: 14px; margin-bottom: 24px;
+  }
+  .p2-cta h2 { font-family: 'Fraunces', serif; font-size: 20px; color: var(--text); margin-bottom: 8px; }
+  .p2-cta p { font-size: 13px; color: var(--text-dim); margin-bottom: 16px; }
+  .p2-cta-btn {
+    display: inline-block; padding: 13px 32px;
+    background: linear-gradient(135deg, var(--teal), var(--teal-bright));
+    color: var(--bg); font-family: 'Outfit', sans-serif;
+    font-size: 14px; font-weight: 700; border-radius: 8px;
+    text-decoration: none; letter-spacing: 0.2px;
+  }
+  .footer {
+    text-align: center; padding: 16px 0;
+    border-top: 1px solid var(--border);
+    font-size: 10px; color: var(--text-muted); line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ VERDICT SWITCHER (preview control — not in PDF) ============ -->
+<div class="switcher-bar">
+  <div class="switcher-label">Preview:</div>
+  <button class="switcher-btn active-strong" onclick="setVerdict('strong')" id="sw-strong">Strong ROI</button>
+  <button class="switcher-btn" onclick="setVerdict('solid')" id="sw-solid">Solid ROI</button>
+  <button class="switcher-btn" onclick="setVerdict('early')" id="sw-early">Early Stage</button>
+</div>
+
+<div class="report">
+
+  <!-- ================================================================ -->
+  <!--  PAGE 1 — THE STORY                                             -->
+  <!-- ================================================================ -->
+  <div class="page-one">
+
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#060b11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="brand-name">SparrowGenie</div>
+      </div>
+      <div class="meta">
+        <strong>ROI Impact Report</strong><br>
+        Prepared for Acme Corporation<br>
+        March 8, 2026
+      </div>
+    </div>
+
+    <!-- 3-SECOND HOOK -->
+    <div class="hook">
+      <div class="hook-tag ht-strong" id="hook-tag">You're leaving revenue on the table</div>
+      <h1>Your ROI with SparrowGenie:<br><span class="roi-num rc-strong" id="roi-num">12x return</span></h1>
+      <p class="hook-sub" id="hook-sub">You respond to 12 RFPs a year. Right now, you win 2.4 of them. With SparrowGenie, that becomes 3.6 wins and $120,000 in new revenue.</p>
+    </div>
+
+    <!-- VERDICT -->
+    <div class="verdict v-strong" id="verdict-box">
+      <div class="verdict-icon" id="verdict-icon">&#10003;</div>
+      <div>
+        <div class="verdict-label" id="verdict-label">Strong ROI. Great fit.</div>
+        <div class="verdict-desc" id="verdict-desc">SparrowGenie can deliver significant revenue impact based on your current proposal volume and deal size.</div>
+      </div>
+    </div>
+
+    <!-- BEFORE vs AFTER -->
+    <div class="story-label">Your Pipeline Today vs. With SparrowGenie</div>
+    <div class="story-comparison">
+      <div class="story-card before">
+        <div class="story-card-tag">Today</div>
+        <div class="story-stat">
+          <div class="story-stat-label">Win Rate</div>
+          <div class="story-stat-value">20%</div>
+        </div>
+        <div class="story-stat">
+          <div class="story-stat-label">Deals Won</div>
+          <div class="story-stat-value">2.4</div>
+          <div class="story-stat-note">out of 12 RFPs</div>
+        </div>
+        <div class="story-stat">
+          <div class="story-stat-label">RFP Revenue</div>
+          <div class="story-stat-value">$240,000</div>
+        </div>
+      </div>
+      <div class="story-arrow">
+        <div class="arrow-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </div>
+      <div class="story-card after">
+        <div class="story-card-tag">With SparrowGenie</div>
+        <div class="story-stat">
+          <div class="story-stat-label">Win Rate</div>
+          <div class="story-stat-value">30%</div>
+        </div>
+        <div class="story-stat">
+          <div class="story-stat-label">Deals Won</div>
+          <div class="story-stat-value">3.6</div>
+          <div class="story-stat-note">+1.2 additional wins</div>
+        </div>
+        <div class="story-stat">
+          <div class="story-stat-label">RFP Revenue</div>
+          <div class="story-stat-value">$360,000</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMPACT NUMBERS -->
+    <div class="impact-strip">
+      <div class="impact-box ib-deals">
+        <div class="impact-num">+1.2</div>
+        <div class="impact-label">Additional Deals</div>
+      </div>
+      <div class="impact-box ib-rev">
+        <div class="impact-num">$120K</div>
+        <div class="impact-label">New Revenue</div>
+      </div>
+      <div class="impact-box ib-roi">
+        <div class="impact-num">12x</div>
+        <div class="impact-label">Return on Investment</div>
+      </div>
+    </div>
+
+    <!-- REVENUE BRIDGE -->
+    <div class="bridge-wrap">
+      <div class="story-label">Revenue Impact Bridge</div>
+      <div class="bridge">
+        <div class="bridge-floor"></div>
+        <div class="bridge-col">
+          <div class="bridge-bar b-current">
+            <div class="bridge-val" style="position:absolute;top:-26px;width:100%;text-align:center;">$240K</div>
+          </div>
+          <div class="bridge-tag">Current<br>Revenue</div>
+        </div>
+        <div class="bridge-col">
+          <div class="bridge-bar b-lift">
+            <div class="bridge-val" style="position:absolute;top:-26px;width:100%;text-align:center;">+$120K</div>
+          </div>
+          <div class="bridge-tag">Win Rate<br>Lift</div>
+        </div>
+        <div class="bridge-col">
+          <div class="bridge-bar b-new">
+            <div class="bridge-val" style="position:absolute;top:-26px;width:100%;text-align:center;">$360K</div>
+          </div>
+          <div class="bridge-tag">Projected<br>Revenue</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p1-footer-note">
+      This report was generated by the SparrowGenie ROI Calculator. All projections are estimates based on your inputs and conservative industry benchmarks.
+    </div>
+
+  </div>
+
+  <!-- ================================================================ -->
+  <!--  PAGE 2 — THE DETAIL                                            -->
+  <!-- ================================================================ -->
+  <div class="page-two">
+
+    <div class="p2-header">
+      <div class="brand">
+        <div class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#060b11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="brand-name">SparrowGenie</div>
+      </div>
+      <div class="meta">
+        <strong>Full ROI Methodology</strong><br>
+        Acme Corporation | March 8, 2026
+      </div>
+    </div>
+
+    <div class="section-head">Your Inputs</div>
+    <div class="detail-inputs">
+      <div class="di-card"><div class="di-label">RFPs Per Year</div><div class="di-value">12</div></div>
+      <div class="di-card"><div class="di-label">Average Deal Size</div><div class="di-value">$100,000</div></div>
+      <div class="di-card"><div class="di-label">Current Win Rate</div><div class="di-value">20%</div></div>
+    </div>
+
+    <div class="section-head">The Math Behind Your ROI</div>
+    <div class="math-story">
+
+      <!-- CHAPTER 1: WHERE YOU ARE -->
+      <div class="math-chapter">
+        <div class="ch-header">
+          <div class="ch-dot dot-problem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <div class="ch-tag ct-problem">Chapter 1</div>
+          <div class="ch-title">Where you are today</div>
+        </div>
+        <div class="ch-card cc-problem">
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">1</div>
+              <div class="ch-row-text"><strong>Your RFP volume</strong> &mdash; proposals your team responds to each year</div>
+            </div>
+            <div class="ch-row-val">12 RFPs</div>
+          </div>
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">2</div>
+              <div class="ch-row-text"><strong>Your current win rate</strong> &mdash; deals closed from those RFPs</div>
+            </div>
+            <div class="ch-row-val">20%</div>
+          </div>
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">=</div>
+              <div class="ch-row-text"><strong>Deals won today</strong> &mdash; 12 RFPs &times; 20% win rate</div>
+            </div>
+            <div class="ch-row-val">2.4 deals</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHAPTER 2: WHAT SPARROWGENIE CHANGES -->
+      <div class="math-chapter">
+        <div class="ch-header">
+          <div class="ch-dot dot-change">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div class="ch-tag ct-change">Chapter 2</div>
+          <div class="ch-title">What SparrowGenie changes</div>
+        </div>
+        <div class="ch-card cc-change">
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">3</div>
+              <div class="ch-row-text"><strong>Win rate improves by +10 points</strong> &mdash; faster, better proposals</div>
+            </div>
+            <div class="ch-row-val">20% &rarr; 30%</div>
+          </div>
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">4</div>
+              <div class="ch-row-text"><strong>More deals close</strong> &mdash; 12 RFPs &times; 30% new win rate</div>
+            </div>
+            <div class="ch-row-val">3.6 deals</div>
+          </div>
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">+</div>
+              <div class="ch-row-text"><strong>Additional wins</strong> &mdash; 3.6 projected &minus; 2.4 current</div>
+            </div>
+            <div class="ch-row-val">+1.2 deals</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHAPTER 3: WHAT YOU GAIN -->
+      <div class="math-chapter">
+        <div class="ch-header">
+          <div class="ch-dot dot-result">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div class="ch-tag ct-result">Chapter 3</div>
+          <div class="ch-title">What you gain</div>
+        </div>
+        <div class="ch-card cc-result">
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">5</div>
+              <div class="ch-row-text"><strong>New revenue</strong> &mdash; 1.2 extra deals &times; $100,000 deal size</div>
+            </div>
+            <div class="ch-row-val">$120,000</div>
+          </div>
+          <div class="ch-row">
+            <div class="ch-row-left">
+              <div class="ch-row-num">6</div>
+              <div class="ch-row-text"><strong>SparrowGenie costs</strong> &mdash; annual plan for your RFP volume</div>
+            </div>
+            <div class="ch-row-val">$10,000</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ROI PUNCHLINE -->
+    <div class="roi-punchline">
+      <div class="roi-punch-left">
+        <div class="roi-punch-icon">&#9650;</div>
+        <div class="roi-punch-text">
+          <strong>You invest $10,000. You gain $120,000.</strong><br>
+          For every dollar you spend on SparrowGenie, you get $12 back in new revenue.
+        </div>
+      </div>
+      <div>
+        <div class="roi-punch-val">12x</div>
+        <div class="roi-punch-sub">return on investment</div>
+      </div>
+    </div>
+
+    <div style="height: 32px;"></div>
+
+    <div class="section-head">How SparrowGenie Improves Win Rates</div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <div><div class="why-t">Respond Faster</div><div class="why-d">Beat competitors to first response. Speed signals commitment.</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+        <div><div class="why-t">Reuse Winning Answers</div><div class="why-d">AI retrieves and adapts your best past responses automatically.</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div>
+        <div><div class="why-t">Consistent Messaging</div><div class="why-d">Same quality across every proposal, regardless of who writes it.</div></div>
+      </div>
+      <div class="why-card">
+        <div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+        <div><div class="why-t">More Time to Customize</div><div class="why-d">Less boilerplate means more time tailoring to each prospect.</div></div>
+      </div>
+    </div>
+
+    <div class="section-head">Investment vs. Return</div>
+    <div class="invest-row">
+      <div class="invest-card"><div class="invest-card-label">SparrowGenie Plan</div><div class="invest-card-val ic-cost">$10,000/yr</div></div>
+      <div class="invest-card"><div class="invest-card-label">Revenue Impact</div><div class="invest-card-val ic-rev">$120,000/yr</div></div>
+      <div class="invest-card"><div class="invest-card-label">Return</div><div class="invest-card-val ic-roi">12x</div></div>
+    </div>
+
+    <div class="assumptions">
+      <h3>Assumptions &amp; Methodology</h3>
+      <p>This estimate uses a conservative +10 percentage point win rate improvement applied to your annual RFP volume. Additional wins are multiplied by your average deal size to project incremental revenue. Plan pricing is determined by your RFP volume tier.</p>
+      <div class="a-tags">
+        <div class="a-tag"><span>Win Rate Lift</span>+10 points (conservative)</div>
+        <div class="a-tag"><span>Pricing Tier</span>Based on RFP volume</div>
+        <div class="a-tag"><span>Revenue</span>Additional Wins &times; Deal Size</div>
+        <div class="a-tag"><span>ROI</span>Revenue &divide; Plan Cost</div>
+      </div>
+    </div>
+
+    <div class="p2-cta">
+      <h2>Ready to Win More Deals?</h2>
+      <p>Schedule a 15-minute walkthrough. We'll review your numbers, validate the assumptions, and show where SparrowGenie creates the fastest impact.</p>
+      <a href="#" class="p2-cta-btn">Book a 15-Minute ROI Review</a>
+    </div>
+
+    <div class="footer">
+      Acme Corporation | San Francisco, CA<br>
+      This report was generated by the SparrowGenie ROI Calculator. All projections are estimates based on user inputs and conservative industry benchmarks.
+    </div>
+
+  </div>
+</div>
+
+<script>
+const verdictData = {
+  strong: {
+    hookTag: "You're leaving revenue on the table",
+    hookTagClass: "ht-strong",
+    roiNumClass: "rc-strong",
+    verdictClass: "v-strong",
+    verdictIcon: "\u2713",
+    verdictLabel: "Strong ROI. Great fit.",
+    verdictDesc: "SparrowGenie can deliver significant revenue impact based on your current proposal volume and deal size.",
+    switcherClass: "active-strong"
+  },
+  solid: {
+    hookTag: "Good opportunity ahead",
+    hookTagClass: "ht-solid",
+    roiNumClass: "rc-solid",
+    verdictClass: "v-solid",
+    verdictIcon: "\u2192",
+    verdictLabel: "Solid ROI. Focus on priority deals first.",
+    verdictDesc: "SparrowGenie can generate meaningful value, especially when introduced for your highest-value proposals and complex RFPs.",
+    switcherClass: "active-solid"
+  },
+  early: {
+    hookTag: "Your pipeline is building",
+    hookTagClass: "ht-early",
+    roiNumClass: "rc-early",
+    verdictClass: "v-early",
+    verdictIcon: "\u2197",
+    verdictLabel: "Early stage fit. Better ROI as you grow.",
+    verdictDesc: "SparrowGenie fits your workflow today. Your ROI will strengthen significantly as deal volume or deal size increases.",
+    switcherClass: "active-early"
+  }
+};
+
+function setVerdict(type) {
+  const d = verdictData[type];
+
+  // Hook tag
+  const hookTag = document.getElementById('hook-tag');
+  hookTag.textContent = d.hookTag;
+  hookTag.className = 'hook-tag ' + d.hookTagClass;
+
+  // ROI number color
+  const roiNum = document.getElementById('roi-num');
+  roiNum.className = 'roi-num ' + d.roiNumClass;
+
+  // Verdict box
+  const vBox = document.getElementById('verdict-box');
+  vBox.className = 'verdict ' + d.verdictClass;
+
+  // Verdict icon
+  document.getElementById('verdict-icon').textContent = d.verdictIcon;
+
+  // Verdict text
+  document.getElementById('verdict-label').textContent = d.verdictLabel;
+  document.getElementById('verdict-desc').textContent = d.verdictDesc;
+
+  // Switcher buttons
+  document.querySelectorAll('.switcher-btn').forEach(btn => {
+    btn.className = 'switcher-btn';
+  });
+  document.getElementById('sw-' + type).className = 'switcher-btn ' + d.switcherClass;
+}
+</script>
+
+</body>
+</html>
