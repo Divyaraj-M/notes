@@ -44,33 +44,9 @@
               "icon": "chart-gantt",
               "title": "PM"
             }
-          },
-          {
-            "id": "9d632bcf3304985e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TO DO List - today.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TO DO List - today"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#teardown",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -145,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -226,8 +202,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -328,8 +304,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -393,7 +368,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "eb61e999624953f5",
   "lastOpenFiles": [
     "1 - Projects/Multi Document Support.md",
     "TO DO List - today.md",
