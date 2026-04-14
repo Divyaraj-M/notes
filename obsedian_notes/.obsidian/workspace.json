@@ -135,7 +135,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "2 - Areas/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -150,7 +150,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking"
+              "title": "UAT Vipin"
             }
           }
         ],
@@ -493,9 +493,9 @@
   },
   "active": "4e6648846c714725",
   "lastOpenFiles": [
+    "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
-    "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "2 - Areas/Friction points.md",
