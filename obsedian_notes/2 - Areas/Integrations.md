@@ -1,10 +1,10 @@
--> Responsive - Salesforce Demo - Separate for managed app for Salesfroce integrations
+-> [[Responsive.io|Responsive]] - [[Salesforce Integration|Salesforce]] Demo - Separate for managed app for Salesfroce integrations
 
 https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000E8VCXUA3&other_source=Web
 
 https://www.cuspera.com/products/responsive-formerly-rfpio-x-2780#customer-testimonials
 
--> Loopio - Salesforce Integrations links
+-> [[Loopio]] - Salesforce Integrations links
 
 https://www.responsive.io/glossary/compare/loopio-pricing
 

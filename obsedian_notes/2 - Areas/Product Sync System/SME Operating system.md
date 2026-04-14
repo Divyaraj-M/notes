@@ -12,7 +12,7 @@ tags:
 
 Demos are the spine. Every week you record yourself demoing SparrowGenie for a different persona. The stumbles are data. The gaps you feel in your gut — those get fixed permanently. Six personas across six weeks force depth across product, market, technical, and business dimensions simultaneously.
 
-Every single day produces an artifact — a recording, a doc, a spreadsheet, a sketch. After 6 weeks you'll have a portfolio that proves depth, not a bookmark folder that proves intent.
+Every single day produces an artifact — a recording, a doc, a spreadsheet, a sketch. See also: [[Demo]] After 6 weeks you'll have a portfolio that proves depth, not a bookmark folder that proves intent.
 
 ---
 
@@ -45,7 +45,7 @@ This isn't a script — it's a skeleton:
 |Week|Persona|Why this forces depth|
 |---|---|---|
 |1|Cold prospect using manual RFPs in Word/Excel|Forces you to articulate the problem from scratch|
-|2|Loopio/Responsive user evaluating a switch|Forces competitive fluency — you must know both products|
+|2|[[Loopio]]/[[Responsive.io|Responsive]] user evaluating a switch|Forces competitive fluency — you must know both products|
 |3|Internal SurveySparrow power user|Forces you to know every edge case and workflow detail|
 |4|CIO/VP evaluating AI tools (security + ROI)|Forces business case articulation and security knowledge|
 |5|Implementation partner|Forces you to explain the platform, not just the product|

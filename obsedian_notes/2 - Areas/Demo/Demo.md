@@ -98,6 +98,6 @@ This is your **long-term value** close.
     
 - Show **inline comments** instead of Slack messages
     
-- Show SME-approved answers being saved to the Knowledge Hub
+- Show SME-approved answers being saved to the [[Knowledge Hub]]
     
 - Reuse that SME-approved answer in a new project

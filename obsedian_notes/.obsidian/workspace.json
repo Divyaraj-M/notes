@@ -49,24 +49,10 @@
             "id": "7794ae2189b6f7e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Multi Document Support.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Multi Document Support"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -384,8 +370,8 @@
   },
   "active": "7794ae2189b6f7e3",
   "lastOpenFiles": [
-    "TO DO List - today.md",
     "1 - Projects/Multi Document Support.md",
+    "TO DO List - today.md",
     "Projects",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/SparrowGenie.excalidraw.md",
