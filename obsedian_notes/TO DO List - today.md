@@ -40,4 +40,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 13-Apr-2026
 - [x]  Multi Document Support PRD 
 - [ ] Help article 
-- [ ] Finalising proposal creation flo
+- [ ] Finalising proposal creation flow
+14-Apr-2026
+  - [ ]  Help article 
+  - [ ] Finalising proposal creation flow
