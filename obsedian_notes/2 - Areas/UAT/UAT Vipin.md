@@ -47,41 +47,41 @@ These are table stakes items, infact they are nxot just table stakes but baselin
 2.  <mark style="background: #BBFABBA6;">Confidence score in answers , Sources in answers - Fri </mark>
 3. <mark style="background: #BBFABBA6;"> Filter high/low confidence answers quickly  -  Fri 
 </mark>
-4. ==Clearly show Genie answers vs human answers==  
-5. ==Character count for answers==  - Fri 
-6. <mark style="background: #BBFABBA6;">Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
-7. Learn from past completed RFPs within SparrowGenie  </mark>
-8. [[Multi Document Support|Multiple Documents]] - needed to picked 
+5. ==Clearly show Genie answers vs human answers==  
+6. ==Character count for answers==  - Fri 
+7. <mark style="background: #BBFABBA6;">Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
+8. Learn from past completed RFPs within SparrowGenie  </mark>
+9. [[Multi Document Support|Multiple Documents]]- In dev
 	
 **RFP ingestion & mapping**  
-1. <mark style="background: #BBFABBA6;">AI Mapping for Word documents  - in testing (UAT pending) - Mon</mark>
-	1. Improvements 
-2. ==Support mapping for question types such as multi-column, dates, description, checkbox and radio.==
-3. <mark style="background: #FF5582A6;">Ability to map by clicking from the header</mark>  - Fri 
-4. ==Automatically populate instructions from file ==
+10. <mark style="background: #BBFABBA6;">AI Mapping for Word documents  - in testing (UAT pending) - Mon</mark>
+	1. Improvements - Need to work on this
+11. ==Support mapping for question types such as multi-column, dates, description, checkbox and radio.==
+12. <mark style="background: #FF5582A6;">Ability to map by clicking from the header</mark>  - Fri 
+13. ==Automatically populate instructions from file ==
   
 **Answering workflow**  
-1. <mark style="background: #FF5582A6;"> Rich text editor for answers in questions  -  next fri</mark>
-2. <mark style="background: #FFB8EBA6;">Attachments in Answers  - Next fri </mark>
-3. Ability to send nudges to authors & reviewers  
-4. <mark style="background: #BBFABBA6;">After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.</mark>   Fri 
-5. ==Multi-language support==  
+14. <mark style="background: #FF5582A6;"> Rich text editor for answers in questions  -  next fri</mark>
+15. <mark style="background: #FFB8EBA6;">Attachments in Answers  - Next fri </mark>
+16. Ability to send nudges to authors & reviewers  
+17. <mark style="background: #BBFABBA6;">After mapping is completed, there is a small delay before answers are populated. During that time, keep the user engaged by showing progress or taking them to the Assignments screen.</mark>   Fri 
+18. ==Multi-language support==  
   
 **Knowledge quality / content governance**  
-6. Support multiple file types in Knowledge Hub  
-7. Expiry and tags for files  
-8. Request review of outdated files  
-9. Ensure all admin settings corresponding to each module work  
-10. Conflicts inside Knowledge Hub  
-11. Global search functionality  
-12. Pull from more third-party sources so users do not have to manually upload content, basically systems where prospect/customers existing knowledge lies  
+19. Support multiple file types in Knowledge Hub  
+20. Expiry and tags for files  
+21. Request review of outdated files  
+22. Ensure all admin settings corresponding to each module work  
+23. Conflicts inside Knowledge Hub  
+24. Global search functionality  
+25. Pull from more third-party sources so users do not have to manually upload content, basically systems where prospect/customers existing knowledge lies  
   
 **Important workflow enhancers & differentiators. These improve  efficiency & maturity of the product**  
   
-13. Implement the Articles-related capability done in SparrowDesk  
-14. New Home dashboard  
-15. ==[[RFP to Proposal|Project to Proposal]]==  
-16. ==[[Go - No- Go|Go/No-Go module]]==  
+26. Implement the Articles-related capability done in SparrowDesk  
+27. New Home dashboard  
+28. ==[[RFP to Proposal|Project to Proposal]]==  
+29. ==[[Go - No- Go|Go/No-Go module]]==  
   
   
   
