@@ -99,10 +99,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
+                "file": "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
               },
               "icon": "code-glyph",
-              "title": "sparrowgenie-roi-final"
+              "title": "sparrowgenie-email-preview"
             }
           },
           {
@@ -503,6 +503,7 @@
   },
   "active": "4193753dcf0c5d56",
   "lastOpenFiles": [
+    "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "Product/Marketing/ROI Calculator/ROI Calculator.md",
     "Product/Projects/Multi Document Support.md",
@@ -537,8 +538,6 @@
     "product-manager-prompts-main/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
     "product-manager-prompts-main/storytelling/code-generate-scenes/generate_scenes.py",
     "product-manager-prompts-main/storytelling/code-generate-scenes",
-    "product-manager-prompts-main/storytelling/Dataset - Bedtime Story Types and Characteristics.json",
-    "product-manager-prompts-main/storytelling",
     "Books/Read List/Screenshot_20260316-101854.png",
     "Not a trash/Happyflow breakdown inputs.png",
     "obsedian_notes/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "sparrowgenie-email-preview",
+      "path": "Product/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
+    },
+    {
       "basename": "sparrowgenie-roi-final",
       "path": "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Go- no - Go responsive",
       "path": "Product/competitors/Responsiveio/Go- no - Go responsive.md"
-    },
-    {
-      "basename": "Attachments - Responsive",
-      "path": "Product/competitors/Responsiveio/Attachments - Responsive.md"
     }
   ],
   "omittedPaths": [],
