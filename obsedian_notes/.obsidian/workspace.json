@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Multi Document Support.md",
+                "file": "TO DO List - today.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Multi Document Support"
+              "title": "TO DO List - today"
             }
           }
         ],
@@ -395,6 +395,8 @@
   },
   "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Multi Document Support.md",
+    "TO DO List - today.md",
     "Projects",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "Product/SparrowGenie.excalidraw.md",
@@ -428,7 +430,6 @@
     "3 - Resources/Genie Journal/2025-12-12.md",
     "3 - Resources/SparrowGenie.excalidraw.md",
     "3 - Resources/Product Notes (Why Sales Needs Better Tools).md",
-    "3 - Resources/My Product Notes.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
@@ -440,7 +441,6 @@
     "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt",
     "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/generate_scenes.py",
     "3 - Resources/PM Prompts Library/storytelling/Dataset - Bedtime Story Types and Characteristics.json",
-    "3 - Resources/PM Prompts Library/flows/The TAM-SAM-SOM-o-Matic 4000™.json",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",

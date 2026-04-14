@@ -44,3 +44,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 14-Apr-2026
   - [ ]  Help article 
   - [ ] Finalising proposal creation flow
+  - [ ] Roles and Permissions - Proposals
+  - [ ] Priotization of the feautres based on impact
