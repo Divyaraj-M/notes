@@ -5,11 +5,7 @@ tags:
 version: 1
 product: SparrowGenie
 ---
-# PRD: Multi-Document RFx Mapping
 
-**Author:** Product Team — Sparrow Genie **Date:** April 13, 2026 **Status:** Draft **Target Release:** Sprint — 2-3 weeks
-
----
 
 ## 1. Problem Statement
 
@@ -143,7 +139,7 @@ Description: Users can navigate between uploaded files using labeled tabs and nu
 
 **P 0-8: Left sidebar Files pane**
 
-Description: The left sidebar displays a Files pane showing all uploaded documents with their mapping status.
+Description: The left sidebar displays a Files pane showing all uploaded documents and the mapped sections , subsections , and questions 
 
 ---
 
@@ -354,9 +350,7 @@ This section consolidates all acceptance criteria from the requirements above in
 
 **P 0-8: Left sidebar Files pane**
 
-- [ ] Given the user is in the mapping workflow, when they open the left sidebar, then they see all uploaded files listed with filename, format icon, and mapping status (unmapped, in-progress, mapped)
-- [ ] Given a file's mapping status changes, when the user views the sidebar, then the status indicator updates in real time
-- [ ] Given the user clicks a file in the sidebar, when the view updates, then the main panel navigates to that file's mapping view
+- [ ] Given the user is in the mapping workflow, when they open the left sidebar, then they see all uploaded files listed with filename, format icon, sections , and subsections 
 
 **P 0-9: Question status filter**
 
