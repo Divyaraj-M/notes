@@ -178,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -425,8 +425,33 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "e6e9dafd5cf4ce72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Areas/Friction points.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Friction points"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "9140aa1d3d409719",
@@ -490,16 +515,17 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "9d126bec563c36df",
+  "active": "e24c73b9b11632b8",
   "lastOpenFiles": [
-    "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
-    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
+    "2 - Areas/Friction points.md",
+    "TO DO List - today.md",
+    "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
+    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "2 - Areas/UAT/UAT Vipin.md",
-    "TO DO List - today.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
     "1 - Projects/Multi Document Support.md",
     "1 - Projects/Table View/First Principle thinking - Table View.md",
@@ -526,7 +552,6 @@
     "4 - Archive/Meeting Notes/9.mar.2026 - Stand up.md",
     "4 - Archive/Meeting Notes/2026-02-24.md",
     "4 - Archive/Meeting Notes/2026-02-24 - Sprint Planning.md",
-    "4 - Archive/Meeting Notes/2026-02-23 -Weekly product Stand up.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
