@@ -40,5 +40,7 @@
   "smart-connections",
   "smart-lookup",
   "inscribe",
-  "tag-wrangler"
+  "tag-wrangler",
+  "find-unlinked-files",
+  "better-search-views"
 ]

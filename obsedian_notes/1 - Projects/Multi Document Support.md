@@ -6,7 +6,6 @@ version: 1
 product: SparrowGenie
 ---
 
-
 ## 1. Problem Statement
 
 - While receiving the RFx users will receive more than one documents that needs to be answered, there's no premise in today's implementation to resolve this
