@@ -47,23 +47,6 @@ product: SparrowGenie
 
 ## 4. User Stories
 
-Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
-
-Guidelines:
-
-- The user type should be specific enough to be meaningful ("enterprise admin" not just "user")
-- The capability should describe what they want to accomplish, not how
-- The benefit should explain the "why" — what value does this deliver
-- Include edge cases: error states, empty states, boundary conditions
-- Include different user types if the feature serves multiple personas
-- Order by priority — most important stories first
-
-Example:
-
-- "As a team admin, I want to configure SSO for my organization so that my team members can log in with their corporate credentials"
-- "As a team member, I want to be automatically redirected to my company's SSO login so that I do not need to remember a separate password"
-- "As a team admin, I want to see which members have logged in via SSO so that I can verify the rollout is working"
-
 ### File Upload & Management
 
 - "As an RFx Response Manager, I want to upload up to 5 RFx documents in a single session so that I can manage an entire RFx package without creating separate responses"
@@ -99,19 +82,6 @@ Example:
 - "As an RFx Response Manager, I want to download individual answered files separately so that I can share or review specific documents on their own"
 
 ## 5. Requirements
-
-Must-Have (P 0): The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: "If we cut this, does the feature still solve the core problem?" If no, it is P 0.
-
-Nice-to-Have (P 1): Significantly improves the experience but the core use case works without them. These often become fast follow-ups after launch.
-
-Future Considerations (P 2): Explicitly out of scope for v 1 but we want to design in a way that supports them later. Documenting these prevents accidental architectural decisions that make them hard later.
-
-For each requirement:
-
-- Write a clear, unambiguous description of the expected behavior
-- Include acceptance criteria (see below)
-- Note any technical considerations or constraints
-- Flag dependencies on other teams or systems
 
 ### Must-Have (P 0)
 
@@ -179,7 +149,7 @@ Description: The left sidebar displays a Files pane showing all uploaded documen
 
 **P 0-9: Question status filter**
 
-Description: Users can filter questions within a file by status: All Questions, Unassigned, Unanswered, Drafts, Pending Review, Reviewed.
+Description: Users can filter questions within a file by status: All Questions, Unassigned, Unanswered, Drafts, Pending Review, Reviewed after mapping
 
 ---
 

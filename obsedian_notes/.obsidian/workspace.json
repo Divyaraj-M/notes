@@ -49,10 +49,24 @@
             "id": "7794ae2189b6f7e3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Multi Document Support.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi Document Support"
             }
           }
         ],
@@ -370,6 +384,7 @@
   },
   "active": "7794ae2189b6f7e3",
   "lastOpenFiles": [
+    "2 - Areas/Integrations.md",
     "1 - Projects/Multi Document Support.md",
     "TO DO List - today.md",
     "Projects",
@@ -404,7 +419,6 @@
     "3 - Resources/Genie Journal/Demo Important Points.md",
     "3 - Resources/Genie Journal/2025-12-12.md",
     "3 - Resources/SparrowGenie.excalidraw.md",
-    "3 - Resources/Product Notes (Why Sales Needs Better Tools).md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
