@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Table View/First Principle thinking - Table View.md",
+                "file": "1 - Projects/Sparrow Genie - Project Phase II.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -102,11 +102,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "First Principle thinking - Table View"
+              "title": "Sparrow Genie - Project Phase II"
+            }
+          },
+          {
+            "id": "e24c73b9b11632b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Multi Document Support.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Multi Document Support"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -418,9 +442,10 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "b2aec384d239af07",
+  "active": "e24c73b9b11632b8",
   "lastOpenFiles": [
     "1 - Projects/Sparrow Genie - Project Phase II.md",
+    "1 - Projects/Table View/First Principle thinking - Table View.md",
     "Projects",
     "1 - Projects/Multi Document Support.md",
     "2 - Areas/Integrations.md",
@@ -454,7 +479,6 @@
     "4 - Archive/Meeting Notes/2026-01-29 UAT with Vipin.md",
     "3 - Resources/Genie Journal/Resources - Sparrow Genie.md",
     "3 - Resources/Genie Journal/Demo Important Points.md",
-    "3 - Resources/Genie Journal/2025-12-12.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
