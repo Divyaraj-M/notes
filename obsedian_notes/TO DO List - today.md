@@ -45,5 +45,9 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
   - [ ]  Help article 
   - [x] Finalising proposal creation flow
   - [x] Roles and Permissions - Proposals
-  - [ ] Priotization of the feautres based on impact
+  - [x] Priotization of the feautres based on impact
   - [ ] Ability to send nudges to authors & reviewers  
+15-Apr-2026
+  - [ ] Ability to send nudges to authors & reviewers  
+  - [ ] RICE framework 
+  - [ ] 

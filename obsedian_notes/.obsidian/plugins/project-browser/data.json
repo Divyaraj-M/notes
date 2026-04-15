@@ -1,7 +1,7 @@
 {
   "onboardingNotices": {
-    "welcomeNoticeRead": false,
-    "lastVersionNoticeRead": ""
+    "welcomeNoticeRead": true,
+    "lastVersionNoticeRead": "0.3.2"
   },
   "settingsVersion": "0.3.0",
   "access": {
