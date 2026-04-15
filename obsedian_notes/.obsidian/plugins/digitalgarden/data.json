@@ -64,5 +64,6 @@
     "canvasDragHint": "",
     "canvasZoomHint": "",
     "canvasResetHint": ""
-  }
+  },
+  "localExportPath": ""
 }
