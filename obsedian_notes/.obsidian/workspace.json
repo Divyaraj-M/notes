@@ -8,51 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7794ae2189b6f7e3",
+            "id": "19b188a917b692ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrow Genie - Project Phase II.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sparrow Genie - Project Phase II"
-            }
-          },
-          {
-            "id": "31122521cc96bb12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrow Genie - Project Phase II.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sparrow Genie - Project Phase II"
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
             }
           },
           {
@@ -102,43 +64,9 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
-          },
-          {
-            "id": "19b188a917b692ce",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "2dee8e0db3a32d68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Year2026/Quarter2/Month04/Day15/2026-04-15 15-40-45.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-15 15-40-45"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -305,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Year2026/Quarter2/Month04/Day15/2026-04-15 15-40-45.md",
+                "file": "2 - Areas/UAT/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-04-15 15-40-45"
+              "title": "Outline of UAT Vipin"
             }
           },
           {
@@ -454,11 +382,15 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "2dee8e0db3a32d68",
+  "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
+    "1 - Projects/Sparrow Genie - Project Phase II.md",
+    "TO DO List - today.md",
+    "1 - Projects/banyan_config/editor_placeholder.md",
+    "1 - Projects/banyan_config",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "1 - Projects/Year2026/Quarter2/Month04/Day15/2026-04-15 15-40-45.md",
     "2 - Areas/UAT/UAT Vipin.md",
+    "1 - Projects/Year2026/Quarter2/Month04/Day15/2026-04-15 15-40-45.md",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
     "1 - Projects/Year2026/Quarter2",
@@ -467,10 +399,8 @@
     "cards/banyan_config/editor_placeholder.md",
     "cards/banyan_config",
     "cards",
-    "TO DO List - today.md",
     "1 - Projects/Brand Kit/Brand Kit.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "1 - Projects/Sparrow Genie - Project Phase II.md",
     "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
@@ -496,12 +426,10 @@
     "4 - Archive/Misc/Test.md",
     "4 - Archive/Misc/external_share.md",
     "4 - Archive/Misc/mail.md",
-    "4 - Archive/Misc/MyMail.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.html",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",
