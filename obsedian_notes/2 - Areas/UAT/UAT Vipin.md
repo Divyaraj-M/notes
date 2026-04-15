@@ -30,9 +30,7 @@ Animations and navigations
 Loading screen 
 
 
-|     |     |     |     |
-| --- | --- | --- | --- |
-|     |     |     |     |
+
 
 High Confidence and source 
 filter 
@@ -75,7 +73,7 @@ These are table stakes items, infact they are nxot just table stakes but baselin
 19. Support multiple file types in Knowledge Hub  
 20. Expiry and tags for files  
 21. Request review of outdated files  
-22. Ensure all admin settings corresponding to each module work  
+22. ==Ensure all admin settings corresponding to each module work== 
 23. Conflicts inside Knowledge Hub  
 24. Global search functionality  
 25. Pull from more third-party sources so users do not have to manually upload content, basically systems where prospect/customers existing knowledge lies  
