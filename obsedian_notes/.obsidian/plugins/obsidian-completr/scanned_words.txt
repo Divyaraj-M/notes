@@ -929,6 +929,7 @@ Wording
 WAU
 WHERE
 Wins
+Wants
 writes
 we
 work
@@ -1677,6 +1678,7 @@ introduced
 installation
 inactivity
 iwht
+infosec
 reads
 references
 requirements
@@ -4015,6 +4017,7 @@ dominates
 directors
 depend
 durable
+departmental
 starts
 sub
 screens
@@ -4789,6 +4792,7 @@ salesforce
 savedViews
 severe
 staffing
+sharepoint
 everyone
 exactly
 each
@@ -9282,6 +9286,7 @@ Herbig
 Household
 HOOK
 HEPwMpk
+Highspot
 call
 could
 context

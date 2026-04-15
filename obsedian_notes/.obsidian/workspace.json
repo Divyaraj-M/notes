@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -392,13 +392,13 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "9975a1d454ee1e05",
+  "active": "14d43419e35073b4",
   "lastOpenFiles": [
+    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "2 - Areas/UAT/UAT Vipin.md",
     "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "2 - Areas/Friction points.md",
