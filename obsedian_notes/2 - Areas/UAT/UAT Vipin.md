@@ -1,7 +1,7 @@
 ---
 state: "[[Idea]]"
 ---
-[[Obligations|Obligation]] -  Modal flow 
+	[[Obligations|Obligation]] -  Modal flow 
 [[Genie Actions inside the Questions card|Genie Actions]] filter by high confidence 
 Question number in question card  
 [[Context Info|Context]] 
