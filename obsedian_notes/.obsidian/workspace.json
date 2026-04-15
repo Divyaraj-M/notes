@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
+                "file": "2 - Areas/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Proposal Conversion Flow"
+              "title": "UAT Vipin"
             }
           },
           {
@@ -384,6 +384,8 @@
   },
   "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
+    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
+    "2 - Areas/Friction points.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
     "TO DO List - today.md",
     "1 - Projects/banyan_config/editor_placeholder.md",
@@ -402,9 +404,7 @@
     "1 - Projects/Brand Kit/Brand Kit.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
-    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
-    "2 - Areas/Friction points.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "1 - Projects/Multi Document Support.md",

@@ -115,3 +115,6 @@ Discussion with vipin
 - Sequential Reviewers , Conditional questions 
 - Provide a feature to manually create projects without mapping and download in a standard format as an escape hatch to avoid the problem of very complex excel or doc rfps
 - Ability to support, pdf, complex rfp we can create a ai driven detection with ability to edit questions manually and also skip the mapping altogether
+15-Apr-2026
+- Alternate Questions 
+- 
