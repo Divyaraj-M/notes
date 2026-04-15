@@ -42,6 +42,16 @@
             }
           },
           {
+            "id": "14d43419e35073b4",
+            "type": "leaf",
+            "state": {
+              "type": "ntb-help-view",
+              "state": {},
+              "icon": "circle-help",
+              "title": "Note Toolbar Help"
+            }
+          },
+          {
             "id": "4e6648846c714725",
             "type": "leaf",
             "state": {
@@ -66,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -382,7 +392,7 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "9975a1d454ee1e05",
+  "active": "4e6648846c714725",
   "lastOpenFiles": [
     "TO DO List - today.md",
     "2 - Areas/UAT/UAT Vipin.md",
