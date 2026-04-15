@@ -55,12 +55,24 @@
             "id": "4e6648846c714725",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Knowledge Hub/RFP training.md"
+                "file": "1 - Projects/Knowledge Hub/RFP training PRD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "RFP training"
+              "icon": "lucide-file",
+              "title": "RFP training PRD"
             }
           }
         ],
@@ -382,6 +394,7 @@
   },
   "active": "4e6648846c714725",
   "lastOpenFiles": [
+    "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
@@ -423,7 +436,6 @@
     "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "4 - Archive/Misc/My Data.base",
-    "4 - Archive/Misc/README.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
