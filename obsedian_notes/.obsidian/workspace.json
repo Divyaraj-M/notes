@@ -102,33 +102,9 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
-          },
-          {
-            "id": "41302a65e0dc241a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TO DO List - today.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TO DO List - today"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -295,17 +271,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product/UAT/UAT Vipin.md",
+                "file": "TO DO List - today.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Vipin"
+              "title": "Outline of TO DO List - today"
             }
           },
           {
-            "id": "eb4af261a65f93e8",
+            "id": "41302a65e0dc241a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -441,7 +417,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "41302a65e0dc241a",
+  "active": "1c8e9327128725b1",
   "lastOpenFiles": [
     "1 - Projects/Brand Kit/Brand Kit.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
