@@ -42,16 +42,6 @@
             }
           },
           {
-            "id": "14d43419e35073b4",
-            "type": "leaf",
-            "state": {
-              "type": "ntb-help-view",
-              "state": {},
-              "icon": "circle-help",
-              "title": "Note Toolbar Help"
-            }
-          },
-          {
             "id": "4e6648846c714725",
             "type": "leaf",
             "state": {
@@ -76,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -392,10 +382,10 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "14d43419e35073b4",
+  "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
-    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
+    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
