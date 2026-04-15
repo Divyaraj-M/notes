@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
+                "file": "TO DO List - today.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Share - RFx and Proposal"
+              "title": "TO DO List - today"
             }
           }
         ],
@@ -142,33 +142,6 @@
         "type": "tabs",
         "dimension": 83.515625,
         "children": [
-          {
-            "id": "681d9fb88f64f790",
-            "type": "leaf",
-            "state": {
-              "type": "vertical-tabs",
-              "state": {},
-              "icon": "vertical-tabs",
-              "title": "Vertical tabs"
-            }
-          },
-          {
-            "id": "eb61e999624953f5",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
           {
             "id": "0e41dea7c411da32",
             "type": "leaf",
@@ -191,9 +164,35 @@
               "icon": "notebook-navigator",
               "title": "Notebook Navigator"
             }
+          },
+          {
+            "id": "7cb94049b9d32ce0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "eb61e999624953f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -208,16 +207,6 @@
               "state": {},
               "icon": "clock",
               "title": "Recent Files"
-            }
-          },
-          {
-            "id": "f9cac0a8aa3e5022",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
             }
           }
         ]
@@ -426,7 +415,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "project-manager:Project Manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": true,
@@ -445,34 +433,23 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": true,
       "omnisearch:Omnisearch": true,
-      "tasknotes:Open mini calendar view": false,
-      "tasknotes:Open calendar view": false,
-      "tasknotes:Open tasks view": false,
-      "tasknotes:Open agenda view": false,
-      "tasknotes:Open kanban board": false,
-      "tasknotes:Open pomodoro timer": false,
-      "tasknotes:Open pomodoro statistics": false,
-      "tasknotes:Create new task": true,
-      "cards-view:Card view": true,
       "project-browser:Open project browser": false,
       "digitalgarden:Digital Garden Publication Center": false,
       "obsidian42-brat:BRAT": false,
-      "rss-dashboard:RSS dashboard": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "41302a65e0dc241a",
   "lastOpenFiles": [
+    "1 - Projects/Brand Kit/Brand Kit.md",
+    "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
     "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
-    "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md",
     "2 - Areas/Friction points.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
@@ -501,7 +478,6 @@
     "4 - Archive/Meeting Notes/Work Log 2026-02-16.md",
     "4 - Archive/Meeting Notes/9.mar.2026 - Stand up.md",
     "4 - Archive/Meeting Notes/2026-02-24.md",
-    "4 - Archive/Meeting Notes/2026-02-24 - Sprint Planning.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
