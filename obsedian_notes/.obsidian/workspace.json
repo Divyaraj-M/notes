@@ -55,24 +55,12 @@
             "id": "4e6648846c714725",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "2 - Areas/UAT/UAT Vipin.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "1 - Projects/Knowledge Hub/RFP training.md"
               },
-              "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "icon": "excalidraw-icon",
+              "title": "RFP training"
             }
           }
         ],
@@ -394,8 +382,11 @@
   },
   "active": "4e6648846c714725",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "1 - Projects/Knowledge Hub/RFP training PRD.md",
+    "1 - Projects/Knowledge Hub/Untitled 1.md",
+    "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "2 - Areas/UAT/UAT Vipin.md",
+    "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "2 - Areas/Friction points.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
@@ -433,9 +424,6 @@
     "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "4 - Archive/Misc/My Data.base",
     "4 - Archive/Misc/README.md",
-    "4 - Archive/Misc/Test.md",
-    "4 - Archive/Misc/external_share.md",
-    "4 - Archive/Misc/mail.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
