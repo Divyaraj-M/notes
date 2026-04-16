@@ -19,5 +19,5 @@
 14-Apr-2026
 - [ ]  Ability to stop training for the particular question 
 16-Apr-2026
-- [ ] When the question has two or more answers it cannot popluate the results without the context 
+- [ ] When the question has two or more answers it cannot popluate the results without the context of the next question
 - [ ] 

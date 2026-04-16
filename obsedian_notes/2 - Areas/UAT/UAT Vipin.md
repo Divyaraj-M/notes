@@ -123,9 +123,6 @@ Discussion with vipin
 - ==Should have structure in files like we did earlier ?== I dont understand this 
 - Occasional complex formats (Word tables with checkboxes), 
 - Multiple reviewer capability needed for Cross-departmental questions (infosec + product engineering),
-- 
-> [!think about this]
-> 
 - Direct knowledge base access from question interface,
 - Wants ability to search/pull specific answers while reviewing,  This is done
 - Highspot & sharepoint integration 
