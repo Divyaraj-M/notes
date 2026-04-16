@@ -18,3 +18,6 @@
 - [ ] Ability to support, pdf, complex rfp we can create a ai driven detection with ability to edit questions manually and also skip the mapping altogether
 14-Apr-2026
 - [ ]  Ability to stop training for the particular question 
+16-Apr-2026
+- [ ] When the question has two or more answers it cannot popluate the results without the context 
+- [ ] 
