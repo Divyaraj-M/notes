@@ -50,5 +50,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 15-Apr-2026
   - [ ] Ability to send nudges to authors & reviewers  
   - [ ] RICE framework 
-
-    - [ ] 
+16-Apr-2026
+- [ ]  Ability to send nudges to authors & reviewers  
+- [ ] RICE framework 
+- [ ] PDF support,
