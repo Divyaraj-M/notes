@@ -64,9 +64,21 @@
               "icon": "lucide-file",
               "title": "RFP training PRD"
             }
+          },
+          {
+            "id": "90b11228103aa1e8",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -382,10 +394,10 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "41302a65e0dc241a",
+  "active": "90b11228103aa1e8",
   "lastOpenFiles": [
-    "2 - Areas/UAT/UAT Vipin.md",
     "TO DO List - today.md",
+    "2 - Areas/UAT/UAT Vipin.md",
     "2 - Areas/Friction points.md",
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "Untitled.md",

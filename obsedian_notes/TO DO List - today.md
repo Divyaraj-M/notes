@@ -51,6 +51,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
   - [ ] Ability to send nudges to authors & reviewers  
   - [ ] RICE framework 
 16-Apr-2026
-- [ ]  RFP training 
+- [ ]  RFP training flow
+- [ ] Tags 
 - [ ] RICE framework 
 - [ ] 
