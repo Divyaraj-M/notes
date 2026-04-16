@@ -10,6 +10,9 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "0000ff": 41,
+    "27ae60": 42,
+    "667eea": 43,
     "arca_ai": 23,
     "audit_report": 24,
     "backward": 25,
@@ -18,8 +21,11 @@
     "data_sciece": 28,
     "delivery": 29,
     "discovery": 30,
+    "e74c3c": 44,
+    "e94560": 45,
     "enhancements": 31,
     "excalidraw": 32,
+    "f39c12": 46,
     "learning": 33,
     "marketing": 34,
     "new_feature": 22,
