@@ -125,5 +125,5 @@ Discussion with vipin
 - Multiple reviewer capability needed for Cross-departmental questions (infosec + product engineering),
 - Direct knowledge base access from question interface,
 - Wants ability to search/pull specific answers while reviewing,  This is done
-- Highspot & sharepoint integration [@Dev Krishan](https://surveysparrow.slack.com/team/U08SJ65LPT9)
+- Highspot & sharepoint integration 
 - Needs granular tagging/categorisation for AI accuracy,
