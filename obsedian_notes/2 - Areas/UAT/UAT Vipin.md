@@ -124,7 +124,7 @@ Discussion with vipin
 - Occasional complex formats (Word tables with checkboxes), 
 - Multiple reviewer capability needed for Cross-departmental questions (infosec + product engineering),
 - 
-> [!think abo]
+> [!think about this]
 > 
 - Direct knowledge base access from question interface,
 - Wants ability to search/pull specific answers while reviewing,  This is done
