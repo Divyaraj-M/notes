@@ -1,3 +1,3 @@
 
 Project management 
-- Planned 
+Inventory 
