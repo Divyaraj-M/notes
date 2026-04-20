@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Areas/UAT/UAT Vipin.md",
+                "file": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "Project - Proposals"
             }
           },
           {
@@ -372,8 +372,10 @@
   },
   "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
+    "Thinking.md",
     "2 - Areas/UAT/UAT Vipin.md",
+    "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
@@ -403,7 +405,6 @@
     "cards/banyan_config",
     "cards",
     "1 - Projects/Brand Kit/Brand Kit.md",
-    "1 - Projects/Proposals/RFP to Proposal/Thinking.md",
     "1 - Projects/Multi Document Support.md",
     "Projects",
     "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
