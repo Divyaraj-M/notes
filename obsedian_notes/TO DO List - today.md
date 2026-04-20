@@ -54,4 +54,10 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ]  RFP training flow
 - [ ] Tags 
 - [ ] RICE framework 
+20-Apr-2026
+- [ ] Linkage of Projects - RFP and Proposal 
+- [ ] Tags 
+- [ ] Help articles 
+- [ ] Multi step review process - Can be Sequential 
+- [ ] Ability to send nudges to authors & reviewers  
 - [ ] 
