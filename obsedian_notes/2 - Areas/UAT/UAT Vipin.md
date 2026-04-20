@@ -127,3 +127,5 @@ Discussion with vipin
 - ==Wants ability to search/pull specific answers while reviewing,  This is done==
 - Highspot & sharepoint integration 
 - Needs granular tagging/categorisation for AI accuracy,
+20-Apr-2026
+- Adttional Files in intrctuiosn 
