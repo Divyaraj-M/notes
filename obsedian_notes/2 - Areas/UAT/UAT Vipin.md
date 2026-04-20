@@ -128,4 +128,4 @@ Discussion with vipin
 - Highspot & sharepoint integration 
 - Needs granular tagging/categorisation for AI accuracy,
 20-Apr-2026
-- Adttional Files in intrctuiosn 
+- Adttional Files in intrctuiosn
