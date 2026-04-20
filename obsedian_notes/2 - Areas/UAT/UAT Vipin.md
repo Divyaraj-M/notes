@@ -52,8 +52,8 @@ These are table stakes items, infact they are nxot just table stakes but baselin
 5. ==Clearly show Genie answers vs human answers==  
 6. ==Character count for answers==  - Fri 
 7. <mark style="background: #BBFABBA6;">Push unanswered / low-confidence responses from RFPs & Genie Chat into Improve  
-8. Learn from past completed RFPs within SparrowGenie  </mark>
-9. [[Multi Document Support|Multiple Documents]]- In dev
+8. Learn from past completed RFPs within SparrowGenie  </mark> - 21-Apr-2026
+9. [[Multi Document Support|Multiple Documents]]- 24-Apr-2026
 	
 **RFP ingestion & mapping**  
 10. <mark style="background: #BBFABBA6;">AI Mapping for Word documents  - in testing (UAT pending) - Mon</mark>
