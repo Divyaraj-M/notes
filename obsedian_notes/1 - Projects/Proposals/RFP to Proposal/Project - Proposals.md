@@ -1,13 +1,6 @@
 ---
-author: Divyaraj Murugan
-published:
-type: PRD
-product: SparrowGenie
-feature:
 status: Draft
 priority: High
-owner: Divyaraj Murugan
-sprint: Sprint-24
 version: 1
 tags:
 ---
