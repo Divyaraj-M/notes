@@ -5,6 +5,10 @@
       "path": "TO DO List - today.md"
     },
     {
+      "basename": "UAT Vipin",
+      "path": "2 - Areas/UAT/UAT Vipin.md"
+    },
+    {
       "basename": "Proposal Conversion",
       "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "RFP training PRD",
       "path": "1 - Projects/Knowledge Hub/RFP training PRD.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "2 - Areas/UAT/UAT Vipin.md"
     },
     {
       "basename": "Friction points",

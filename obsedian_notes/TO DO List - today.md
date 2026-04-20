@@ -60,4 +60,4 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 - [ ] Help articles 
 - [ ] Multi step review process - Can be Sequential 
 - [ ] Ability to send nudges to authors & reviewers  
-- [ ] 
+- [ ] Team assignment 
