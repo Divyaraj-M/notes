@@ -1,7 +1,7 @@
 ---
 state: "[[Idea]]"
 ---
-	[[Obligations|Obligation]] -  Modal flow 
+[[Obligations|Obligation]] -  Modal flow 
 [[Genie Actions inside the Questions card|Genie Actions]] filter by high confidence 
 Question number in question card  
 [[Context Info|Context]] 
@@ -119,7 +119,7 @@ Discussion with vipin
 - Ability to support, pdf, complex rfp we can create a ai driven detection with ability to edit questions manually and also skip the mapping altogether
 15-Apr-2026
 - Alternate Questions 
-- PDF support,
+- PDF support, 
 - ==Should have structure in files like we did earlier ?== I dont understand this 
 - Occasional complex formats (Word tables with checkboxes), 
 - Multiple reviewer capability needed for Cross-departmental questions (infosec + product engineering),
