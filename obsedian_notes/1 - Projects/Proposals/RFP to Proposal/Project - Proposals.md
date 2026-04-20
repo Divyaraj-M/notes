@@ -11,13 +11,9 @@ sprint: Sprint-24
 version: 1
 tags:
 ---
-# Feature Spec Skill
-
-You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
-
 ## PRD Structure
 
-A well-structured PRD follows this template:
+
 
 ### 1. Problem Statement
 - Describe the user problem in 2-3 sentences
