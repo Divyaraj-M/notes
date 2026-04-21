@@ -64,9 +64,21 @@
               "icon": "align-vertical-justify-start",
               "title": "Browse"
             }
+          },
+          {
+            "id": "fa7fba0303a0effa",
+            "type": "leaf",
+            "state": {
+              "type": "html-view",
+              "state": {
+                "file": "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
+              },
+              "icon": "code-glyph",
+              "title": "sparrowgenie-roi-final"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -382,10 +394,14 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "9975a1d454ee1e05",
+  "active": "fa7fba0303a0effa",
   "lastOpenFiles": [
-    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html",
+    "2 - Areas/Marketing/ROI Calculator/ROI Calculator.md",
+    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
+    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "2 - Areas/Friction points.md",
     "TO DO List - today.md",
@@ -416,10 +432,6 @@
     "cards/banyan_config/editor_placeholder.md",
     "cards/banyan_config",
     "cards",
-    "1 - Projects/Brand Kit/Brand Kit.md",
-    "1 - Projects/Multi Document Support.md",
-    "Projects",
-    "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
     "4 - Archive/Screenshots/image (2).png",
     "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png",
