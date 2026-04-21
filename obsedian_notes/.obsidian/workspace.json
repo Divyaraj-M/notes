@@ -71,10 +71,10 @@
             "state": {
               "type": "html-view",
               "state": {
-                "file": "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
+                "file": "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
               },
               "icon": "code-glyph",
-              "title": "sparrowgenie-roi-final"
+              "title": "sparrowgenie-email-preview"
             }
           }
         ],
@@ -396,10 +396,10 @@
   },
   "active": "fa7fba0303a0effa",
   "lastOpenFiles": [
+    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-template.html",
+    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html",
     "2 - Areas/Marketing/ROI Calculator/ROI Calculator.md",
-    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
-    "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
