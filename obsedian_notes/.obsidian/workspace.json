@@ -52,6 +52,18 @@
               "icon": "excalidraw-icon",
               "title": "Proposal Conversion"
             }
+          },
+          {
+            "id": "0f959d1572db6606",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "/"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
           }
         ],
         "currentTab": 1
@@ -370,14 +382,15 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "e6e9dafd5cf4ce72",
+  "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
-    "TO DO List - today.md",
-    "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
+    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
+    "2 - Areas/Friction points.md",
+    "TO DO List - today.md",
     "Thinking.md",
     "2 - Areas/UAT/UAT Vipin.md",
-    "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
@@ -388,7 +401,6 @@
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "Untitled 1.md",
     "Untitled.md",
-    "2 - Areas/Friction points.md",
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",

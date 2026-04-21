@@ -4,9 +4,28 @@ priority: High
 version: 1
 tags:
 ---
-## PRD Structure
-
-
+- [[#1. Problem Statement|1. Problem Statement]]
+- [[#2. Goals|2. Goals]]
+- [[#3. Non-Goals|3. Non-Goals]]
+- [[#4. User Stories|4. User Stories]]
+- [[#5. Requirements|5. Requirements]]
+- [[#6. Success Metrics|6. Success Metrics]]
+- [[#7. Open Questions|7. Open Questions]]
+- [[#8. Timeline Considerations|8. Timeline Considerations]]
+- [[#User Story Writing|User Story Writing]]
+- [[#User Story Writing#Common Mistakes in User Stories|Common Mistakes in User Stories]]
+- [[#Requirements Categorization|Requirements Categorization]]
+- [[#Requirements Categorization#MoSCoW Framework|MoSCoW Framework]]
+- [[#Requirements Categorization#Tips for Categorization|Tips for Categorization]]
+- [[#Success Metrics Definition|Success Metrics Definition]]
+- [[#Success Metrics Definition#Leading Indicators|Leading Indicators]]
+- [[#Success Metrics Definition#Lagging Indicators|Lagging Indicators]]
+- [[#Success Metrics Definition#Setting Targets|Setting Targets]]
+- [[#Acceptance Criteria|Acceptance Criteria]]
+- [[#Acceptance Criteria#Tips for Acceptance Criteria|Tips for Acceptance Criteria]]
+- [[#Scope Management|Scope Management]]
+- [[#Scope Management#Recognizing Scope Creep|Recognizing Scope Creep]]
+- [[#Scope Management#Preventing Scope Creep|Preventing Scope Creep]]
 
 ### 1. Problem Statement
 - Describe the user problem in 2-3 sentences
