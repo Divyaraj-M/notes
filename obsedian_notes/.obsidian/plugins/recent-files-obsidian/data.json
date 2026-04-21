@@ -5,8 +5,20 @@
       "path": "TO DO List - today.md"
     },
     {
+      "basename": "Project - Proposals",
+      "path": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
+    },
+    {
+      "basename": "Proposal Conversion",
+      "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
+    },
+    {
       "basename": "sparrowgenie-email-preview",
       "path": "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
+    },
+    {
+      "basename": "Dataset - 25 Common Story Arcs",
+      "path": "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md"
     },
     {
       "basename": "sparrowgenie-email-template",
@@ -21,16 +33,8 @@
       "path": "2 - Areas/Marketing/ROI Calculator/ROI Calculator.md"
     },
     {
-      "basename": "Project - Proposals",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
-    },
-    {
       "basename": "Udemy",
       "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
     },
     {
       "basename": "Friction points",
