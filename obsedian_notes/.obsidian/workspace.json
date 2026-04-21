@@ -186,10 +186,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TO DO List - today.md"
+                "file": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for TO DO List - today"
+              "title": "File properties for Project - Proposals"
             }
           },
           {
@@ -332,10 +332,10 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
-    "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "TO DO List - today.md",
+    "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html",
     "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md",
