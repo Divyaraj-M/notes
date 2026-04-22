@@ -293,31 +293,18 @@ In recent audits, typical findings for AS 9100 D include the following【50†L 
 
 - **Training & Competence (Clause 7.2):** Missing or incomplete training records; no evidence of evaluating training effectiveness【50†L 101-L 107】. *Solution:* Maintain a training matrix showing required skills per role, with dates of completed training. File attendance sheets or certificates.
 
-  
-
 - **Equipment Calibration (7.1.5):** Overdue or undocumented calibration on inspection equipment【50†L 121-L 129】. *Solution:* Update the calibration schedule, calibrate tools past due, and file all certificates.
-
-  
 
 - **Incoming Material Inspection (8.4/8.5.1):** Lack of records proving material was inspected/tested, or unauthorized use of raw material【50†L 121-L 122】. *Solution:* Implement and document receipt inspection; quarantine unapproved goods.
 
-  
-
 - **Control of Work Orders and Processes:** Deviations from documented processes not recorded (e.g. undocumented assembly changes)【50†L 121-L 123】. *Solution:* Use work orders/checklists at each step, and any deviation triggers an NCR entry.
-
-  
 
 - **Internal Audit (9.2):** Audit plan not fully executed (planned audits skipped), or lack of follow-up on open findings【50†L 121-L 129】. *Solution:* Complete the audit schedule. For any findings, assign CAPAs and show evidence of closure at next audit.
 
-  
-
 - **Management Review (9.3):** Missing agenda items (e.g. supplier performance, risk status) or no documented action items【83†L 139-L 147】【83†L 148-L 151】. *Solution:* Update your management review template to include all required topics, and save minutes that record discussions and assigned actions.
-
-  
 
 - **Nonconformance & CAPA (8.7, 10.2):** NCRs lack root-cause analysis or effectiveness checks; CAPA records not updated or closed【74†L 201-L 209】. *Solution:* For each NCR, require a documented root-cause and a verification entry after fixes.
 
-  
 
 These examples underscore the need for thorough record-keeping and follow-through. Addressing these proactively (during internal audit) will smooth certification.
 
