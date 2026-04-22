@@ -30,8 +30,19 @@
               "icon": "lucide-file",
               "title": "UAT Vipin"
             }
+          },
+          {
+            "id": "d8a4ac672b6609cc",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +136,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 22.253521126760564,
+        "dimension": 22.253521126760567,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -215,6 +226,20 @@
               "icon": "lucide-file",
               "title": "TO DO List - today"
             }
+          },
+          {
+            "id": "8323ab2418200dcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
         ],
         "currentTab": 5
@@ -283,7 +308,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.549295774647884,
+        "dimension": 26.549295774647888,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -332,8 +357,9 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "9975a1d454ee1e05",
+  "active": "0960cbe5f3a2512d",
   "lastOpenFiles": [
+    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Help Articles/Create a project.md",
     "3 - Resources/Help Article Template.md",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
@@ -347,7 +373,6 @@
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "2 - Areas/Friction points.md",
     "Thinking.md",
-    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
     "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md",
