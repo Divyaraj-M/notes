@@ -233,12 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2 - Areas/UAT/UAT Vipin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of UAT Vipin"
             }
           }
         ],
@@ -357,8 +358,9 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "0960cbe5f3a2512d",
+  "active": "d8a4ac672b6609cc",
   "lastOpenFiles": [
+    "2 - Areas/UAT/Untitled.md",
     "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Help Articles/Create a project.md",
     "3 - Resources/Help Article Template.md",
@@ -389,7 +391,6 @@
     "1 - Projects/Sparrow Genie - Project Phase II.md",
     "1 - Projects/banyan_config/editor_placeholder.md",
     "1 - Projects/banyan_config",
-    "1 - Projects/Year2026/Quarter2/Month04/Day15/2026-04-15 15-40-45.md",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
     "1 - Projects/Year2026/Quarter2",
