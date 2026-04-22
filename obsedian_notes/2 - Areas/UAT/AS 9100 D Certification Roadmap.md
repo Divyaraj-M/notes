@@ -408,23 +408,15 @@ Various accredited registrars (cert bodies) offer AS 9100 D certification. Small
 
   
 
-| **Certification Body** | **Strengths** | **Small-Business Focus** |
-
-|-----------------------|--------------------------------------------------|---------------------------------|
-
-| **NQA** | Global recognition, broad standards coverage【93†L 229-L 237】 | Structured guidance, competitive pricing【93†L 229-L 237】 |
-
-| **BSI** | Industry leader brand; widely recognized | Dedicated SME resources, strong authority【93†L 238-L 244】 |
-
-| **DNV** | Strong technical support (training, gap analysis)【93†L 246-L 253】 | Helps small firms step-by-step through process【93†L 246-L 253】 |
-
-| **Bureau Veritas** | Extensive sector coverage; international scope【93†L 254-L 260】 | Good for growing companies adding standards【93†L 254-L 260】 |
-
-| **SGS** | Large global presence; broad audit network【93†L 270-L 277】 | Emphasizes performance improvement, consistent quality【93†L 270-L 277】 |
-
-| **Intertek** | Flexible audit approach; training and implementation support | Focuses on staged certification (gap analysis then audit)【93†L 262-L 269】 |
-
-| **LRQA** | Small Business Scheme for ISO/AS standards【93†L 279-L 285】 | Tailored, accessible process for smaller teams【93†L 279-L 285】 |
+| Certification Body | Strengths                                                                 | Small-Business Focus                                                     |
+|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| NQA                | Global recognition, broad standards coverage                              | Structured guidance, competitive pricing                                  |
+| BSI                | Strong brand credibility, widely recognized                               | Dedicated SME resources, strong authority                                 |
+| DNV                | Strong technical support (training, gap analysis)                         | Step-by-step guidance for smaller firms                                   |
+| Bureau Veritas     | Extensive sector coverage, international presence                         | Suitable for companies scaling across standards                           |
+| SGS                | Large global presence, extensive audit network                            | Focus on performance improvement and consistency                          |
+| Intertek           | Flexible audit approach, strong training and implementation support       | Staged certification approach (gap → audit)                               |
+| LRQA               | Offers Small Business Scheme for ISO/AS standards                         | Tailored and accessible certification process for smaller organizations   |
 
   
 
@@ -440,36 +432,21 @@ Below is a **sample checklist** format for an internal audit of key areas. Adapt
 
   
 
-| **Clause/Area** | **Requirement/Check** | **Evidence** |
-
-|----------------------|---------------------------------------------------------------|---------------------------------|
-
-| 4.3 – QMS Scope | Scope documented and excludes only justified items. | QMS scope statement. |
-
-| 5.2 – Quality Policy | Policy exists, approved by top management, communicated, measurable. | Policy document, posting proof. |
-
-| 6.2 – Objectives | Quality objectives set at relevant levels, measured, reviewed. | Objective list, data charts. |
-
-| 7.1.5 – Calibration | All M&M equipment identified, calibrated to standards on schedule. | Calibration certificates, ID tags. 【70†L 153-L 161】 |
-
-| 7.2 – Training | Training needs identified, competence records maintained. | Training matrix, certificates. |
-
-| 8.2.3 – Review Req’s | Incoming orders reviewed for requirements (customer, statutory). | Record of contract review (form, minutes). |
-
-| 8.4 – External Prod. | Suppliers evaluated/selected per criteria, records of evaluation. | Supplier audit reports, eval forms. |
-
-| 8.5.1 – Production | Processes performed under controlled conditions (instructions, environment). | Work instructions, environmental logs. |
-
-| 8.5.6 – Changes | Changes to processes/product evaluated and approved (ECN process). | Change request logs, ECN forms. |
-
-| 8.7 – Nonconformance | Nonconforming items identified, documented, segregated. Dispositions recorded. | NCR forms, corrective action entries. 【78†L 68-L 77】 |
-
-| 9.2 – Internal Audit | Audit program exists (scope/frequency), audits executed as planned, findings closed. | Audit plan, reports, NCR closure. |
-
-| 9.3 – Mgt Review | Management reviews held at planned intervals, with all inputs covered and action items recorded. | Minutes of meetings【83†L 139-L 147】【83†L 148-L 151】 |
-
-| 10.2 – CAPA | CAPA procedure used: root cause identified, action plan, implementation, effectiveness verified. | CAPA forms, follow-up reports【74†L 201-L 209】 |
-
+| Clause/Area          | Requirement/Check                                                                 | Evidence                                                         |
+| -------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| 4.3 – QMS Scope      | Scope documented and excludes only justified items                                | QMS scope statement                                              |
+| 5.2 – Quality Policy | Policy exists, approved by top management, communicated, measurable               | Policy document, proof of communication (posters, emails)        |
+| 6.2 – Objectives     | Quality objectives set at relevant levels, measured, and reviewed                 | Objective list, performance data, charts                         |
+| 7.1.5 – Calibration  | All monitoring & measuring equipment identified and calibrated on schedule        | Calibration certificates, equipment ID tags                      |
+| 7.2 – Training       | Training needs identified, competence evaluated, records maintained               | Training matrix, certificates, assessment records                |
+| 8.2.3 – Review Reqs  | Customer and statutory requirements reviewed before order acceptance              | Contract review records (forms, approvals, meeting notes)        |
+| 8.4 – External Prod. | Suppliers evaluated, selected, and monitored based on defined criteria            | Supplier evaluation forms, audit reports, approved supplier list |
+| 8.5.1 – Production   | Production under controlled conditions (instructions, environment, resources)     | Work instructions, process sheets, environmental logs            |
+| 8.5.6 – Changes      | Changes evaluated, approved, and controlled (ECN process)                         | Change request logs, ECN forms, approval records                 |
+| 8.7 – Nonconformance | Nonconforming outputs identified, documented, controlled, and dispositioned       | NCR forms, segregation records, corrective action logs           |
+| 9.2 – Internal Audit | Audit program defined and executed; findings tracked and closed                   | Audit plan, audit reports, NCR closure records                   |
+| 9.3 – Mgmt Review    | Management reviews conducted with required inputs and outputs documented          | Management review minutes, action item tracker                   |
+| 10.2 – CAPA          | CAPA process implemented: root cause, action, implementation, effectiveness check | CAPA forms, root cause analysis, follow-up verification records  |
   
 
 *(This table is illustrative; expand as needed so every clause is covered.)* Audit checklists should reference the exact AS 9100 D clause and evidence location (document, record, interview notes).
@@ -480,32 +457,19 @@ Below is a **sample checklist** format for an internal audit of key areas. Adapt
 
   
 
-| **Week** | **Milestone / Activity** |
-
-|----------|--------------------------------------------------------|
-
-| 1–2 | **Initiate Project:** Define team/roles; purchase AS 9100 D standard. Schedule gap analysis and initial training. |
-
-| 3–4 | **Gap Analysis:** Map current QMS against AS 9100 D clauses; list gaps. Present findings to management. |
-
-| 5–8 | **Document Development:** Write/update QMS documents (Scope, Policy, Procedures for doc control, CAPA, calibration, etc.). Design Forms/records. |
-
-| 9–12 | **Process Implementation:** Roll out new procedures. Label and calibrate equipment. Establish registers (Training, Equipment, Supplier). Populate initial risk register. |
-
-| 13–14 | **Training:** Train staff on new QMS aspects (documentation usage, NCR reporting, safety/counterfeit awareness). |
-
-| 15–16 | **Internal Audit:** Conduct first full internal audit using sample checklist. Document findings. |
-
-| 17 | **Corrective Actions:** Address internal audit findings. Hold Management Review meeting. |
-
-| 18 | **Stage 1 Audit Prep:** Ensure all corrections done; compile evidence package for registrar. |
-
-| 19 | **Stage 1 Audit (Readiness):** CB reviews QMS docs and readiness. Receive report, correct any Stage 1 NCRs. |
-
-| 20–21 | **Stage 2 Audit (Certification):** CB performs full AS 9100 audit. |
-
-| 22 | **Follow-up:** Close any Stage 2 findings. Receive certificate and begin surveillance audit planning. |
-
+| Week  | Milestone / Activity                                                                                                                             |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1–2   | Initiate Project: Define team and roles; purchase AS9100D standard. Plan gap analysis and initial training                                       |
+| 3–4   | Gap Analysis: Map current QMS against AS9100D clauses; identify gaps; present findings to management                                             |
+| 5–8   | Document Development: Create/update QMS documents (Scope, Policy, Procedures like document control, CAPA, calibration). Design forms and records |
+| 9–12  | Process Implementation: Roll out procedures; calibrate equipment; establish registers (Training, Equipment, Supplier). Initialize risk register  |
+| 13–14 | Training: Train staff on QMS processes (documentation, NCR handling, safety, counterfeit awareness)                                              |
+| 15–16 | Internal Audit: Conduct full internal audit; document findings and nonconformities                                                               |
+| 17    | Corrective Actions: Address audit findings; conduct Management Review meeting                                                                    |
+| 18    | Stage 1 Audit Prep: Ensure closure of gaps; compile documentation and evidence for Certification Body                                            |
+| 19    | Stage 1 Audit (Readiness): Certification Body reviews QMS readiness; address Stage 1 nonconformities                                             |
+| 20–21 | Stage 2 Audit (Certification): Full AS9100 compliance audit by Certification Body                                                                |
+| 22    | Follow-up: Close final findings; receive certification; plan surveillance audits                                                                 |
   
 
 This timeline is a guideline – actual durations may vary by company size and resources【88†L 102-L 106】.
