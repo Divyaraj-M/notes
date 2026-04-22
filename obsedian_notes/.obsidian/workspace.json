@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Help Articles/Create a project.md",
+                "file": "2 - Areas/UAT/UAT Vipin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Create a project"
+              "title": "UAT Vipin"
             }
           }
         ]
@@ -186,10 +186,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Help Articles/Create a project.md"
+                "file": "2 - Areas/UAT/UAT Vipin.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Create a project"
+              "title": "File properties for UAT Vipin"
             }
           },
           {
@@ -334,6 +334,7 @@
   },
   "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
+    "1 - Projects/Help Articles/Create a project.md",
     "3 - Resources/Help Article Template.md",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "TO DO List - today.md",
@@ -368,7 +369,6 @@
     "1 - Projects/Year2026/Quarter2/Month04",
     "1 - Projects/Year2026/Quarter2",
     "1 - Projects/Year2026",
-    "1 - Projects/Questions/Untitled.md",
     "cards/banyan_config",
     "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
     "4 - Archive/Screenshots/image (2).png",
