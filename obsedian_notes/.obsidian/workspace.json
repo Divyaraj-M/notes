@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
+                "file": "1 - Projects/Help Articles/Create a project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project - Proposals"
+              "title": "Create a project"
             }
           }
         ]
@@ -186,10 +186,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
+                "file": "1 - Projects/Help Articles/Create a project.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Project - Proposals"
+              "title": "File properties for Create a project"
             }
           },
           {
@@ -334,8 +334,9 @@
   },
   "active": "9975a1d454ee1e05",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "3 - Resources/Help Article Template.md",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
+    "TO DO List - today.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-preview.html",
     "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md",
