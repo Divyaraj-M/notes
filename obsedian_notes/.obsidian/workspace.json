@@ -64,9 +64,21 @@
               "icon": "lucide-file",
               "title": "Shihab Document"
             }
+          },
+          {
+            "id": "7bd8447797e20898",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///Users/divyaraj.murugan/Downloads/Wireframes/product_wireframe/wireframe.html"
+              },
+              "icon": "lucide-file",
+              "title": "Project Management Wireframe"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -384,6 +396,7 @@
   },
   "active": "565323c0dd34d757",
   "lastOpenFiles": [
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "2 - Areas/UAT/Shihab Document.md",
     "2 - Areas/UAT/Screenshot 2026-04-24 at 2.44.31 PM.png",
     "2 - Areas/UAT/Screenshot 2026-04-24 at 2.43.29 PM.png",
@@ -400,7 +413,6 @@
     "2 - Areas/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "2 - Areas/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "2 - Areas/Marketing/ROI Calculator/ROI Calculator.md",
-    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "2 - Areas/Friction points.md",
     "Thinking.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md",
