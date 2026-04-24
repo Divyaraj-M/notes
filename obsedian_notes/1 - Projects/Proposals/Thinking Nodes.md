@@ -75,7 +75,7 @@ Side projects around content creation and teaching.
 
 ## Templates & UAT
 
-→ [[Templates]] → [[UAT Arya]] · [[UAT Shihab]] · [[UAT Vipin]]
+→ [[Templates]] → [[UAT Arya]] · [[Shihab Document]] · [[UAT Vipin]]
 
 ---
 

@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Areas/UAT/UAT Shihab.md",
+                "file": "2 - Areas/UAT/Shihab Document.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,11 +62,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Shihab"
+              "title": "Shihab Document"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,13 +257,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Areas/UAT/UAT Shihab.md",
+                "file": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UAT Shihab"
+              "title": "Outline of Udemy"
             }
           }
         ],
@@ -333,7 +333,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.549295774647888,
+        "dimension": 26.549295774647895,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -384,6 +384,9 @@
   },
   "active": "565323c0dd34d757",
   "lastOpenFiles": [
+    "2 - Areas/UAT/Shihab Document.md",
+    "2 - Areas/UAT/Screenshot 2026-04-24 at 2.44.31 PM.png",
+    "2 - Areas/UAT/Screenshot 2026-04-24 at 2.43.29 PM.png",
     "2 - Areas/UAT/AS 9100 D Certification Roadmap.md",
     "Untitled.md",
     "2 - Areas/UAT/UAT Vipin.md",
@@ -413,7 +416,6 @@
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "1 - Projects/Sparrow Genie - Project Phase II.md",
-    "1 - Projects/banyan_config/editor_placeholder.md",
     "1 - Projects/banyan_config",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
@@ -428,8 +430,6 @@
     "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
-    "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "3 - Resources/Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",
