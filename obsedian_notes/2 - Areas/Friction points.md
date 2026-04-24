@@ -22,4 +22,5 @@
 - [ ] When the question has two or more answers it cannot popluate the results without the context of the next question
 21-Apr-2026
   - [ ] Inside the mapping screen , users dont know where to start with the te mapping and it becomes very annoyin when they dont know what to do inside the mapping screen
-  - [ ] 
+  - [ ] `Help Articles - optimising the new flow` 
+  	- `Without help articles , no feature will be pushed` 
