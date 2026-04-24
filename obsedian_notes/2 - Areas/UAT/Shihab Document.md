@@ -3,10 +3,11 @@
 Things to discuss : 
 - Multi Document support in alpha (From the prospect call) [[Sep2.security]]
 - Rich Text for response cards  in alpha 
-- RFP training back (From the prospect call) 
+- RFP training back   in alpha (From the prospect call) 
 	- Every competitor has but not integrated with ai , this will increase the answer quality
 - Alternate Questions (wireframe) (From the prospect call)
 - Help Articles - optimising the new flow 
+	- Without help articles , no feature will be pushed 
 - Proposals are with deign  and will be picked up from monday. 
 - [[Go - No- Go]] - this will be picked up next this user gonna ask 
 -[ file:///Users/divyaraj.murugan/Downloads/Wireframes/product_wireframe/wireframe.html](Wireframe)
