@@ -26,4 +26,9 @@ They just give me the number of sections and questions as simple manner
 
 ![[Screenshot 2026-04-27 at 3.27.49 PM.png]]
 
-![[Screenshot 2026-04-27 at 3.31.15 PM.png]]![[Screenshot 2026-04-27 at 3.31.28 PM.png]]
+![[Screenshot 2026-04-27 at 3.31.15 PM.png]] ![[Screenshot 2026-04-27 at 3.31.28 PM.png]]
+Options for mapping an excel cell
+![[Screenshot 2026-04-27 at 3.39.53 PM.png]]
+
+options for mapping the document 
+![[Screenshot 2026-04-27 at 3.40.25 PM.png]]
