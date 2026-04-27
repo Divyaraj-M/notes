@@ -70,5 +70,5 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
 27-Apr-2026
   - [x] Comparison study between responsive io and SG Mapping Screen (12.45 to 2.00) [[App.responsive.io - mapping screen analysis]]
   - [ ] Help articles (3.30 to 4.30)
-  - [ ] RFP training PRD (5.45 to )
+  - [x] RFP training PRD (5.45 to )
   - [ ] Alternate Questions PRD
