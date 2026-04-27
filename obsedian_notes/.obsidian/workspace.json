@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
+                "file": "1 - Projects/Knowledge Hub/RFP training PRD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -98,7 +98,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "App.responsive.io - mapping screen analysis"
+              "title": "RFP training PRD"
             }
           }
         ],
@@ -166,7 +166,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2baa8948f242f9e0",
@@ -421,6 +422,11 @@
   },
   "active": "89eb48ac768093e4",
   "lastOpenFiles": [
+    "1 - Projects/Knowledge Hub/RFP training.md",
+    "1 - Projects/Knowledge Hub/RFP training PRD.md",
+    "2 - Areas/Friction points.md",
+    "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
+    "TO DO List - today.md",
     "2 - Areas/Competitors/Screen Recording 2026-04-27 at 3.55.19 PM.mov",
     "2 - Areas/Competitors/Screen Recording 2026-04-27 at 3.53.02 PM.mov",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 3.50.38 PM.png",
@@ -432,13 +438,10 @@
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 3.24.55 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 3.20.58 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 3.11.35 PM.png",
-    "TO DO List - today.md",
-    "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 2.53.26 PM.png",
     "2 - Areas/UAT/Shihab Document.md",
     "2 - Areas/UAT/UAT Vipin.md",
     "Projects",
-    "2 - Areas/Friction points.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "2 - Areas/UAT/AS 9100 D Certification Roadmap.md",
     "Untitled.md",
@@ -459,14 +462,11 @@
     "1 - Projects/Proposals/RFP to Proposal/wireframe.html",
     "1 - Projects/Second Stream Revenue/Google_sheets/Sarindustriespune.md",
     "1 - Projects/Second Stream Revenue/Second_stream_revenue.excalidraw.md",
-    "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "Untitled 1.md",
-    "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/banyan_config",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
-    "1 - Projects/Year2026/Quarter2",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",

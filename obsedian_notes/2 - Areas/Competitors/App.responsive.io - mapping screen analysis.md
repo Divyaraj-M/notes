@@ -1,6 +1,7 @@
 ---
 state: "[[Final]]"
 tags:
+  - competitor_analysis/responsive/mapping_screen
 ---
 They use the single click for the Mapping the cells and document 
 
