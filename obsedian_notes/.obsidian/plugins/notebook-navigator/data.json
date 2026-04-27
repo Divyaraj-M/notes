@@ -105,7 +105,8 @@
   "showInfoButtons": true,
   "homepage": {
     "source": "none",
-    "file": null
+    "file": null,
+    "createMissingPeriodicNote": true
   },
   "dualPane": false,
   "dualPaneOrientation": "horizontal",
@@ -490,7 +491,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "2.5.8",
+  "lastShownVersion": "2.6.2",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []
