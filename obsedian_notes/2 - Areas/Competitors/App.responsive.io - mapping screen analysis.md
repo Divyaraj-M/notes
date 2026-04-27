@@ -1,5 +1,6 @@
 ---
-state: "[[Idea]]"
+state: "[[Final]]"
+tags:
 ---
 They use the single click for the Mapping the cells and document 
 
@@ -36,3 +37,11 @@ options for mapping the document
 I can edit or clear the mapping in just one click “which enhances the UI”
 
 ![[Screenshot 2026-04-27 at 3.50.38 PM.png]]
+
+The animation for the navigation from the question to file is good
+
+![[Screen Recording 2026-04-27 at 3.53.02 PM.mov]]
+
+
+No Animation for the navigation of excel 
+![[Screen Recording 2026-04-27 at 3.55.19 PM.mov]]
