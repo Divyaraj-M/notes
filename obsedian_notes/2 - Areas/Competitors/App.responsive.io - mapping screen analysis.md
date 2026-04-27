@@ -16,4 +16,3 @@ They just give me the number of sections and questions as simple manner
 - For Pdf and doc they use different format and have remap option only for pdf and doc
 ![[Screenshot 2026-04-27 at 2.53.26 PM.png]]
 
-- for doc I can manually map the document 
