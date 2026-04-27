@@ -76,9 +76,33 @@
               "icon": "lucide-file",
               "title": "Project Management Wireframe"
             }
+          },
+          {
+            "id": "89eb48ac768093e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Areas/Competitors/App.responsive.io.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "App.responsive.io"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -395,8 +419,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "89eb48ac768093e4",
   "lastOpenFiles": [
+    "2 - Areas/Competitors/Screenshot 2026-04-27 at 12.46.31 PM.png",
+    "2 - Areas/Competitors/App.responsive.io.md",
     "2 - Areas/UAT/Shihab Document.md",
     "TO DO List - today.md",
     "2 - Areas/UAT/UAT Vipin.md",
@@ -428,7 +454,6 @@
     "Untitled 1.md",
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
-    "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "1 - Projects/banyan_config",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
