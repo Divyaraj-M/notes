@@ -10,7 +10,7 @@ this solves the problem of the “users stuck ofter uploading the files for mapp
 ![[Screenshot 2026-04-27 at 1.00.19 PM.png]]
 
 ![[Screenshot 2026-04-27 at 1.05.07 PM.png]]
-They just 
+They just give me the number of sections and questions as simple manner
 ![[Screenshot 2026-04-27 at 1.19.49 PM.png]]
 
 - For Pdf and doc they use different format and have remap option only for pdf and doc
