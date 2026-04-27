@@ -1,6 +1,8 @@
 ---
 state: "[[Idea]]"
 ---
+They use the single click for the Mapping the cells and document 
+
 There is no required field for the creation form
 ![[Screenshot 2026-04-27 at 12.46.31 PM.png]]
 
@@ -16,3 +18,12 @@ They just give me the number of sections and questions as simple manner
 - For Pdf and doc they use different format and have remap option only for pdf and doc
 ![[Screenshot 2026-04-27 at 2.53.26 PM.png]]
 
+![[Screenshot 2026-04-27 at 3.11.35 PM.png]]
+
+![[Screenshot 2026-04-27 at 3.20.58 PM.png]]
+
+![[Screenshot 2026-04-27 at 3.24.55 PM.png]]
+
+![[Screenshot 2026-04-27 at 3.27.49 PM.png]]
+
+![[Screenshot 2026-04-27 at 3.31.15 PM.png]]![[Screenshot 2026-04-27 at 3.31.28 PM.png]]
