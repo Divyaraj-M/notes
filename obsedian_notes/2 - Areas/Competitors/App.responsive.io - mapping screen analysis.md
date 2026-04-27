@@ -13,4 +13,7 @@ this solves the problem of the “users stuck ofter uploading the files for mapp
 
 ![[Screenshot 2026-04-27 at 1.19.49 PM.png]]
 
+- For Pdf and doc they use different format and have remap option only for pdf and doc
 ![[Screenshot 2026-04-27 at 2.53.26 PM.png]]
+
+- for doc I can manually map the document 

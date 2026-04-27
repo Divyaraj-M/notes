@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Areas/Competitors/App.responsive.io.md",
+                "file": "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -98,7 +98,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "App.responsive.io"
+              "title": "App.responsive.io - mapping screen analysis"
             }
           }
         ],
@@ -419,8 +419,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "89eb48ac768093e4",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "TO DO List - today.md",
+    "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 2.53.26 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 1.19.49 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 1.05.07 PM.png",
@@ -428,9 +430,7 @@
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 12.48.15 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 12.23.00 PM.png",
     "2 - Areas/Competitors/Screenshot 2026-04-27 at 12.46.31 PM.png",
-    "2 - Areas/Competitors/App.responsive.io.md",
     "2 - Areas/UAT/Shihab Document.md",
-    "TO DO List - today.md",
     "2 - Areas/UAT/UAT Vipin.md",
     "Projects",
     "2 - Areas/Friction points.md",
@@ -466,7 +466,6 @@
     "1 - Projects/Year2026/Quarter2",
     "1 - Projects/Year2026",
     "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
-    "4 - Archive/Screenshots/image (2).png",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
     "Go-No-Go.canvas",
