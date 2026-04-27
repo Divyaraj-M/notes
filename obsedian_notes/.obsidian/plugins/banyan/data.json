@@ -2,7 +2,7 @@
   "settingsVersion": 8,
   "openWhenStartObsidian": true,
   "cardsDirectory": "1 - Projects",
-  "cardsColumns": 1,
+  "cardsColumns": 2,
   "titleDisplayMode": "fileOnly",
   "fontTheme": "normal",
   "cardContentMaxHeight": "normal",
