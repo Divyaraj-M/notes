@@ -104,6 +104,7 @@
     "new_feature/instructions/v1": 1,
     "new_feature/obligations/v1": 1,
     "new_feature/projects_traning_loop/v1": 1,
+    "new_feature/projects_traning_loop/v2": 2,
     "new_feature/projects/multi_doc_support": 1,
     "new_feature/question_card/genie_actions": 1,
     "new_feature/save_to_qna/v1": 1,
