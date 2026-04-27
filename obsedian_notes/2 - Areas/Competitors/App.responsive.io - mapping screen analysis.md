@@ -32,3 +32,7 @@ Options for mapping an excel cell
 
 options for mapping the document 
 ![[Screenshot 2026-04-27 at 3.40.25 PM.png]]
+
+I can edit or clear the mapping in just one click “which enhances the UI”
+
+![[Screenshot 2026-04-27 at 3.50.38 PM.png]]
