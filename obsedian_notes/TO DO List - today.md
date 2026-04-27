@@ -68,4 +68,7 @@ If u have nothing to do go to [[Friction points]] , [[UAT Vipin]]
   - [ ] Help Article 
   - [ ] Support for multiple answers 
 27-Apr-2026
-  - [ ] Comparison study between 
+  - [ ] Comparison study between responsive io and SG Mapping Screen (12.45 to )
+  - [ ] Help articles 
+  - [ ] RFP training PRD 
+  - [ ] Alternate Questions PRD
