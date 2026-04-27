@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
       "basename": "Shihab Document",
       "path": "2 - Areas/UAT/Shihab Document.md"
+    },
+    {
+      "basename": "UAT Vipin",
+      "path": "2 - Areas/UAT/UAT Vipin.md"
     },
     {
       "basename": "Friction points",
@@ -21,10 +29,6 @@
       "path": "Untitled.md"
     },
     {
-      "basename": "UAT Vipin",
-      "path": "2 - Areas/UAT/UAT Vipin.md"
-    },
-    {
       "basename": "Create a project",
       "path": "1 - Projects/Help Articles/Create a project.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Project - Proposals",
       "path": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "Proposal Conversion",

@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -391,19 +391,21 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "banyan:Open dashboard": false,
       "banyan:Add card note": false,
-      "banyan:Random open a note - Random review": false
+      "banyan:Random open a note - Random review": false,
+      "project-manager:Project manager": false
     }
   },
-  "active": "565323c0dd34d757",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
-    "2 - Areas/Friction points.md",
     "2 - Areas/UAT/Shihab Document.md",
+    "2 - Areas/UAT/UAT Vipin.md",
+    "Projects",
+    "2 - Areas/Friction points.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "2 - Areas/UAT/Screenshot 2026-04-24 at 2.44.31 PM.png",
     "2 - Areas/UAT/Screenshot 2026-04-24 at 2.43.29 PM.png",
     "2 - Areas/UAT/AS 9100 D Certification Roadmap.md",
     "Untitled.md",
-    "2 - Areas/UAT/UAT Vipin.md",
     "1 - Projects/Help Articles/Create a project.md",
     "3 - Resources/Help Article Template.md",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
@@ -427,13 +429,11 @@
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "1 - Projects/Sparrow Genie - Project Phase II.md",
     "1 - Projects/banyan_config",
     "1 - Projects/Year2026/Quarter2/Month04/Day15",
     "1 - Projects/Year2026/Quarter2/Month04",
     "1 - Projects/Year2026/Quarter2",
     "1 - Projects/Year2026",
-    "cards/banyan_config",
     "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
     "4 - Archive/Screenshots/image (2).png",
     "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png",
