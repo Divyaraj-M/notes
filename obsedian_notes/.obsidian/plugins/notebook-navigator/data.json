@@ -108,7 +108,7 @@
     "file": null,
     "createMissingPeriodicNote": true
   },
-  "dualPane": false,
+  "dualPane": true,
   "dualPaneOrientation": "horizontal",
   "showTooltips": false,
   "showTooltipPath": true,
