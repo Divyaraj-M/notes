@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Areas/UAT/UAT Vipin.md",
+                "file": "1 - Projects/Help Articles/SparrowGenie - Help Articles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -98,7 +98,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UAT Vipin"
+              "title": "SparrowGenie - Help Articles"
             }
           }
         ],
@@ -419,10 +419,13 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "3e9b36077ee62fc4",
   "lastOpenFiles": [
-    "TO DO List - today.md",
+    "1 - Projects/Help Articles/Getting Started.md",
+    "1 - Projects/Help Articles/Create a project.md",
+    "2 - Areas/Friction points.md",
     "2 - Areas/UAT/UAT Vipin.md",
+    "TO DO List - today.md",
     "1 - Projects/Knowledge Hub/RFP training.md",
     "1 - Projects/Knowledge Hub/RFP training PRD.md",
     "1 - Projects/Knowledge Hub/QnA training loop.md",
@@ -438,7 +441,6 @@
     "1 - Projects/Knowledge Hub/Untitled 1.md",
     "1 - Projects/Knowledge Hub/Untitled 2.md",
     "1 - Projects/Knowledge Hub/Untitled 3.md",
-    "2 - Areas/Friction points.md",
     "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md",
     "2 - Areas/Competitors/Screen Recording 2026-04-27 at 3.55.19 PM.mov",
     "2 - Areas/Competitors/Screen Recording 2026-04-27 at 3.53.02 PM.mov",
@@ -455,7 +457,6 @@
     "Projects",
     "2 - Areas/UAT/AS 9100 D Certification Roadmap.md",
     "Untitled.md",
-    "1 - Projects/Help Articles/Create a project.md",
     "3 - Resources/Help Article Template.md",
     "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md",
     "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
@@ -464,7 +465,6 @@
     "1 - Projects/Marketing/ROI Calculator/sparrowgenie-email-template.html",
     "1 - Projects/Marketing/ROI Calculator/sparrowgenie-roi-final.html",
     "1 - Projects/Marketing/ROI Calculator/ROI Calculator.md",
-    "Thinking.md",
     "1 - Projects/Proposals/RFP to Proposal/wireframe.html",
     "1 - Projects/banyan_config",
     "1 - Projects/Teams (Settings)/Teams.canvas",
