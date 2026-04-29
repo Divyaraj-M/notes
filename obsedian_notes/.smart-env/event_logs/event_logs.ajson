@@ -899,3 +899,7 @@
 "event_logs:sources:opened": {"key":"sources:opened","ct":333,"first_at":1775932412004,"last_at":1777377490788,"class_name":"EventLog","event_sources":{"active-leaf-change":325,"open_source":2,"file-open":6}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":334,"first_at":1775932412004,"last_at":1777377493084,"class_name":"EventLog","event_sources":{"active-leaf-change":326,"open_source":2,"file-open":6}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":335,"first_at":1775932412004,"last_at":1777429611285,"class_name":"EventLog","event_sources":{"active-leaf-change":327,"open_source":2,"file-open":6}},
+"event_logs:sources:renamed": {"key":"sources:renamed","ct":30,"first_at":1776084471169,"last_at":1777445728080,"class_name":"EventLog","event_sources":{"obsidian:vault.rename":30}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":336,"first_at":1775932412004,"last_at":1777445730045,"class_name":"EventLog","event_sources":{"active-leaf-change":328,"open_source":2,"file-open":6}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":337,"first_at":1775932412004,"last_at":1777445734892,"class_name":"EventLog","event_sources":{"active-leaf-change":329,"open_source":2,"file-open":6}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":338,"first_at":1775932412004,"last_at":1777445737454,"class_name":"EventLog","event_sources":{"active-leaf-change":330,"open_source":2,"file-open":6}},
