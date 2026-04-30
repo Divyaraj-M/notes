@@ -5,6 +5,10 @@
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
+      "basename": "TO DO List - today",
+      "path": "TO DO List - today.md"
+    },
+    {
       "basename": "Product Management - Top Deliverables",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
       "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md"
-    },
-    {
-      "basename": "Atomic Habits and deliberate practice applied to product management",
-      "path": "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
     }
   ],
   "omittedPaths": [],
