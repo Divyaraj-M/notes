@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -68,7 +68,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Product Management - Top Deliverables"
+              "title": "Sparrowcrm"
             }
           }
         ]
@@ -387,8 +387,8 @@
   },
   "active": "9c0874b504367a22",
   "lastOpenFiles": [
-    "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
+    "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md",
     "3 - Resources/My Product Notes.md",
     "3 - Resources/[Creative Selection.md",
     "3 - Resources/Help Article Template.md",
