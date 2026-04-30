@@ -51,24 +51,10 @@
             "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -262,13 +248,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sparrowcrm"
+              "title": "Outline"
             }
           }
         ],
@@ -387,8 +372,10 @@
   },
   "active": "9c0874b504367a22",
   "lastOpenFiles": [
-    "TO DO List - today.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md",
+    "TO DO List - today.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md",
     "3 - Resources/My Product Notes.md",
@@ -403,7 +390,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
@@ -416,7 +402,6 @@
     "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
-    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles",
     "1 - Projects/Sparrowcrm/10 - Marketing",
     "1 - Projects/Sparrowcrm/9 - Product Wins",

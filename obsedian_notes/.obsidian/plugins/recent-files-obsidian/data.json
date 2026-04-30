@@ -5,6 +5,14 @@
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
+      "basename": "7 - Competitors",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
+      "basename": "Spec Template",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md"
+    },
+    {
       "basename": "TO DO List - today",
       "path": "TO DO List - today.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "Team OKRs",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md"
-    },
-    {
-      "basename": "7 - Competitors",
-      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
     {
       "basename": "8 - Decisions",
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
-    },
-    {
-      "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
-      "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md"
     }
   ],
   "omittedPaths": [],
