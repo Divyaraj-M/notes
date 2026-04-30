@@ -1,27 +1,12 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"1 - Projects/Sparrowcrm\"  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:\"4 - Archive/Sparrowgenie\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"1 - Projects/Sparrowcrm\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 3919133
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -1.1,
@@ -32,6 +17,6 @@
   "repelStrength": 9.66319444444444,
   "linkStrength": 1,
   "linkDistance": 251,
-  "scale": 0.4869248282026478,
+  "scale": 1.4151725237268962,
   "close": true
 }
