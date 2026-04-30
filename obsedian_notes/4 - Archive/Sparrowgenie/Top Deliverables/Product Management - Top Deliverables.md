@@ -18,7 +18,7 @@
     Outcome-focused goals that align the team and create accountability.
 8. [ ] [[4 - Archive/Sparrowgenie/Top Deliverables/Decisions]] 
     Clear, timely product decisions, made with the right level of rigor (Type 1 vs Type 2).
-9. [ ]  [[Product Wins]]
+9. [ ]  [[9 - Product Wins]]
     Shipped outcomes that deliver real user value and business impact.
 
 ---

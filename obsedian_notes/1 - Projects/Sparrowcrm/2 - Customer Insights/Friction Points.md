@@ -34,4 +34,4 @@ tags: [customers, friction, ux]
 
 ---
 
-**Related:** [[Customer Insights]] | [[User Personas]] | [[Metrics & Dashboards]]
+**Related:** [[2 - Customer Insights]] | [[User Personas]] | [[Metrics & Dashboards]]

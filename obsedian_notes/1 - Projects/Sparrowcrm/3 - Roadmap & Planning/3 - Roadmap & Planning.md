@@ -46,4 +46,4 @@ tags: [roadmap, planning]
 
 ---
 
-**Related:** [[Prioritization Matrix]] | [[Team OKRs]] | [[Product Strategy]] | [[Features Index]]
+**Related:** [[Prioritization Matrix]] | [[Team OKRs]] | [[Product Strategy]] | [[5 - Features]]

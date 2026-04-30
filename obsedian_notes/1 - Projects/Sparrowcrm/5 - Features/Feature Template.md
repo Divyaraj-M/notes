@@ -54,4 +54,4 @@ priority_score:
 
 ---
 
-**Related:** [[Features Index]] | [[Specs Index]] | [[Prioritization Matrix]]
+**Related:** [[5 - Features]] | [[4 - Product Specs]] | [[Prioritization Matrix]]

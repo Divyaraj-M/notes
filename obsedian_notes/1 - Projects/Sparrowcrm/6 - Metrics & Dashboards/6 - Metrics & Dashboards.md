@@ -55,4 +55,4 @@ tags: [metrics, dashboards, analytics]
 
 ---
 
-**Related:** [[Team OKRs]] | [[Product Wins]] | [[Friction Points]]
+**Related:** [[Team OKRs]] | [[9 - Product Wins]] | [[Friction Points]]

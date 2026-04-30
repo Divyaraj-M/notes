@@ -38,4 +38,4 @@ tags: [features, index]
 
 ---
 
-**Related:** [[Specs Index]] | [[Product Roadmap]] | [[Prioritization Matrix]]
+**Related:** [[4 - Product Specs]] | [[Product Roadmap]] | [[Prioritization Matrix]]

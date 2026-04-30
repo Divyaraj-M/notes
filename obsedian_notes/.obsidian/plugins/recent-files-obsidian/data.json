@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Vision",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
+    },
+    {
+      "basename": "Product Strategy",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base"
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
-      "basename": "Product Roadmap",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md"
+      "basename": "Prioritization Matrix",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     },
     {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+      "basename": "Team OKRs",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md"
     },
     {
       "basename": "7 - Competitors",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
+      "basename": "8 - Decisions",
+      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
+    },
+    {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
     },
     {
       "basename": "Competitor Template",
@@ -33,16 +57,8 @@
       "path": "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md"
     },
     {
-      "basename": "Help Articles Index",
-      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/Help Articles Index.md"
-    },
-    {
-      "basename": "Team OKRs",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
+      "basename": "11 - Help Articles",
+      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
     },
     {
       "basename": "App.responsive.io - mapping screen analysis",
@@ -183,18 +199,6 @@
     {
       "basename": "Routine",
       "path": "2 - Areas/Daily/Routine.md"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "4 - Archive/Sparrowgenie/Audit Report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
-      "path": "4 - Archive/Sparrowgenie/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
-    },
-    {
-      "basename": "image (2)",
-      "path": "4 - Archive/Screenshots/image (2).png"
     }
   ],
   "omittedPaths": [],

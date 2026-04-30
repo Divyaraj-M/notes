@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md",
+                "file": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Product Roadmap"
+              "title": "Product Vision"
             }
           },
           {
@@ -40,14 +40,20 @@
               "icon": "wallet-cards",
               "title": "Banyan"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "9fa2a6f30fcc5c9b",
+        "type": "tabs",
+        "children": [
           {
             "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,11 +68,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "title": "Product Management - Top Deliverables"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -380,43 +385,42 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "9c0874b504367a22",
+  "active": "89eb48ac768093e4",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/Untitled.base",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md",
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
+    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Untitled.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
     "2 - Areas/Product Sync System/SME Operating system.md",
     "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md",
-    "1 - Projects/Sparrowcrm/11 - Help Articles/Help Articles Index.md",
-    "1 - Projects/Sparrowcrm/10 - Marketing/Marketing Pages.md",
-    "1 - Projects/Sparrowcrm/9 - Product Wins/Product Wins.md",
-    "1 - Projects/Sparrowcrm/8 - Decisions/Decisions Log.md",
+    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
+    "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
+    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Features Index.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/Specs Index.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/Customer Insights.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles",
     "1 - Projects/Sparrowcrm/10 - Marketing",
     "1 - Projects/Sparrowcrm/9 - Product Wins",
     "1 - Projects/Sparrowcrm/8 - Decisions",
     "1 - Projects/Sparrowcrm/7 - Competitors",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards",
-    "1 - Projects/Sparrowcrm/5 - Features",
     "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",

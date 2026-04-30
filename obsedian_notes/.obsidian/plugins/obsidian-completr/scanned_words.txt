@@ -503,6 +503,7 @@ THIS
 Tracked
 Threat
 Trend
+Taken
 Docs
 Doc
 Designer
@@ -1000,6 +1001,7 @@ Deliverables
 Deliverable
 DECISIONS
 Dashboards
+Defer
 Who
 When
 What
@@ -4938,6 +4940,7 @@ BKWN
 BKN
 BvP
 BOARD
+Blockers
 design
 does
 do
@@ -7787,6 +7790,7 @@ STORE
 Strength
 SparrowCrm
 Sparrowcrm
+Surveys
 Lead
 Loop
 Linking
@@ -9639,6 +9643,7 @@ QZwe
 QVj
 QBO
 Quarter
+Quotes
 Flow
 Flows
 FRD
@@ -11837,6 +11842,7 @@ ncq
 nKJhW
 nNAf
 nVJ
+needle
 Constraints
 Contracts
 Completable
@@ -12435,6 +12441,7 @@ COMP
 Capability
 CAC
 Channel
+Considered
 How
 Hubs
 Hub
@@ -16043,6 +16050,7 @@ Evaluates
 Eisenhower
 EISENHOWER
 EFFORT
+Easy
 validation
 visuals
 validated
@@ -16758,6 +16766,7 @@ NnL
 NTd
 NPlYqt
 Numbers
+Needed
 under
 users
 upload
@@ -18769,6 +18778,7 @@ Incorporate
 Incremental
 Items
 Icebox
+Interviews
 you
 yet
 your
@@ -21404,6 +21414,7 @@ Moves
 Months
 MAU
 Monetization
+Moat
 UI
 Users
 User

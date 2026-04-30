@@ -57,4 +57,4 @@ feature:
 
 ---
 
-**Related:** [[Specs Index]] | [[Features Index]]
+**Related:** [[4 - Product Specs]] | [[5 - Features]]

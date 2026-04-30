@@ -26,4 +26,4 @@ tags: [specs, index]
 
 ---
 
-**Related:** [[Features Index]] | [[Product Roadmap]] | [[Prioritization Matrix]]
+**Related:** [[5 - Features]] | [[Product Roadmap]] | [[Prioritization Matrix]]

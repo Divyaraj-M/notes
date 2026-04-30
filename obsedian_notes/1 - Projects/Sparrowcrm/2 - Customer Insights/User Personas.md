@@ -51,4 +51,4 @@ tags: [customers, personas]
 
 ---
 
-**Related:** [[Customer Insights]] | [[Friction Points]] | [[Product Strategy]]
+**Related:** [[2 - Customer Insights]] | [[Friction Points]] | [[Product Strategy]]

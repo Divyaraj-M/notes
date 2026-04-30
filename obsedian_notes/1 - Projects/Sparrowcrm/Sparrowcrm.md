@@ -9,22 +9,12 @@ tags:
 
 # SparrowCRM — Product Home
 
----
-![[1 - Projects/Sparrowcrm/Untitled.base]]
 
+---
 ## Quick Navigation
 
-| Section            | Pages                                                           |
-| ------------------ | --------------------------------------------------------------- |
-| Vision & Strategy  | [[Product Vision]] · [[Product Strategy]]                       |
-| Customer Insights  | [[Customer Insights]] · [[User Personas]] · [[Friction Points]] |
-| Roadmap & Planning | [[Product Roadmap]] · [[Prioritization Matrix]] · [[Team OKRs]] |
-| Specs & Features   | [[Specs Index]] · [[Features Index]]                            |
-| Metrics            | [[6 - Metrics & Dashboards]]                                    |
-| Competitors        | [[7 - Competitors]]                                             |
-| Decisions          | [[Decisions Log]]                                               |
-| Wins               | [[Product Wins]]                                                |
-| Marketing & Help   | [[Marketing Pages]] · [[Help Articles Index]]                   |
+
+
 
 **Status Key:** `Draft` → `Done` → `Reviewed` → `Design` → `Dev` → `Staging` → `In Production`
 
@@ -38,4 +28,4 @@ tags:
 
 ---
 
-_Last updated: 2026-04-30_
+

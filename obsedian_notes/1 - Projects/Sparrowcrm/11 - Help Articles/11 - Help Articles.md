@@ -35,4 +35,4 @@ tags: [help, docs, support]
 
 ---
 
-**Related:** [[Marketing Pages]] | [[Features Index]] | [[Friction Points]]
+**Related:** [[10 - Marketing]] | [[5 - Features]] | [[Friction Points]]

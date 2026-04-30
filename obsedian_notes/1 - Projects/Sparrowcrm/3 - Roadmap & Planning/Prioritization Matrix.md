@@ -52,4 +52,4 @@ tags: [prioritization, eisenhower, planning]
 
 ---
 
-**Related:** [[Product Roadmap]] | [[Features Index]] | [[Product Strategy]]
+**Related:** [[3 - Roadmap & Planning]] | [[5 - Features]] | [[Product Strategy]]
