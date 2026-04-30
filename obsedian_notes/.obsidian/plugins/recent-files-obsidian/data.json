@@ -5,6 +5,14 @@
       "path": "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html"
     },
     {
+      "basename": "SME Operating system",
+      "path": "2 - Areas/Product Sync System/SME Operating system.md"
+    },
+    {
+      "basename": "Sparrow Genie - Project Phase II",
+      "path": "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md"
+    },
+    {
       "basename": "SparrowCRM home page",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM home page.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "Shihab Document",
       "path": "4 - Archive/Sparrowgenie/UAT/Shihab Document.md"
-    },
-    {
-      "basename": "SME Operating system",
-      "path": "2 - Areas/Product Sync System/SME Operating system.md"
     },
     {
       "basename": "Product Review system",
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot 2026-01-30 at 1.29.09 PM",
       "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.29.09 PM.png"
-    },
-    {
-      "basename": "Instructions",
-      "path": "4 - Archive/Sparrowgenie/Instructions/Instructions.md"
     }
   ],
   "omittedPaths": [],
