@@ -33,4 +33,4 @@ tags: [strategy]
 
 ---
 
-**Related:** [[Product Vision]] | [[Competitors Index]] | [[Product Roadmap]]
+**Related:** [[Product Vision]] | [[7 - Competitors]] | [[Product Roadmap]]

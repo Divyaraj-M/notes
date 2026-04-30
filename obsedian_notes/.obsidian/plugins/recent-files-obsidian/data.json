@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+      "basename": "Product Roadmap",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md"
     },
     {
-      "basename": "SparrowCRM Dashboard",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html"
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+    },
+    {
+      "basename": "7 - Competitors",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
+      "basename": "Competitor Template",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "SME Operating system",
@@ -187,18 +199,6 @@
     {
       "basename": "Happyflow breakdown inputs",
       "path": "4 - Archive/Screenshots/Happyflow breakdown inputs.png"
-    },
-    {
-      "basename": "Screenshot 2026-01-29 at 11.54.14 AM",
-      "path": "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png"
-    },
-    {
-      "basename": "Screenshot 2026-01-29 at 12.18.35 PM",
-      "path": "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png"
-    },
-    {
-      "basename": "Screenshot 2026-01-30 at 1.29.09 PM",
-      "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.29.09 PM.png"
     }
   ],
   "omittedPaths": [],

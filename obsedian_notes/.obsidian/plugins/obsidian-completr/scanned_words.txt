@@ -501,6 +501,8 @@ Thinks
 Those
 THIS
 Tracked
+Threat
+Trend
 Docs
 Doc
 Designer
@@ -1373,6 +1375,8 @@ WgD
 WADp
 WINS
 WhatsApp
+Well
+Weakness
 writes
 we
 work
@@ -4566,6 +4570,7 @@ PIPELINE
 PRODUCT
 Postgres
 Personas
+Parked
 Before
 Blast
 BM
@@ -7778,6 +7783,7 @@ Staging
 SNAPSHOT
 Signups
 STORE
+Strength
 Lead
 Loop
 Linking
@@ -8670,6 +8676,10 @@ AXZ
 Agrees
 Apple
 Alan
+Against
+Acquisition
+ARR
+ARPU
 approved
 atomic
 and
@@ -10081,6 +10091,8 @@ FOCUS
 FIRST
 FEATURE
 FEAT
+Founded
+Funding
 Goes
 Goals
 Gate
@@ -12416,6 +12428,9 @@ Capturi
 Cockpit
 Churn
 COMP
+Capability
+CAC
+Channel
 How
 Hubs
 Hub
@@ -18749,6 +18764,7 @@ Inbox
 Incorporate
 Incremental
 Items
+Icebox
 you
 yet
 your
@@ -20916,6 +20932,7 @@ OmvAf
 OGv
 OFx
 OKRs
+Observation
 Metric
 Manager
 Must
@@ -21379,6 +21396,10 @@ MVG
 METRICS
 MRR
 MongoDB
+Moves
+Months
+MAU
+Monetization
 UI
 Users
 User

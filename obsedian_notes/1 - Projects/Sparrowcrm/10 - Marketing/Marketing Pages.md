@@ -44,4 +44,4 @@ tags: [marketing, pages]
 
 ---
 
-**Related:** [[Product Strategy]] | [[Competitors Index]] | [[Help Articles Index]]
+**Related:** [[Product Strategy]] | [[7 - Competitors]] | [[Help Articles Index]]

@@ -37,4 +37,4 @@ website:
 
 ---
 
-**Related:** [[Competitors Index]] | [[Product Strategy]]
+**Related:** [[7 - Competitors]] | [[Product Strategy]]
