@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "TO DO List - today",
+      "path": "4 - Archive/Sparrowgenie/TO DO List - today.md"
+    },
+    {
+      "basename": "Friction points",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "8 - Decisions",
+      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
+    },
+    {
       "basename": "First Principle for a CRM",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
     },
@@ -33,20 +53,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
       "basename": "7 - Competitors",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
     {
       "basename": "Spec Template",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
     },
     {
       "basename": "Product Management - Top Deliverables",
@@ -75,10 +87,6 @@
     {
       "basename": "Team OKRs",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md"
-    },
-    {
-      "basename": "8 - Decisions",
-      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
     },
     {
       "basename": "6 - Metrics & Dashboards",
@@ -191,14 +199,6 @@
     {
       "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Metrics & Dashboards",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards.md"
     }
   ],
   "omittedPaths": [],

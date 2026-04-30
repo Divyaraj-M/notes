@@ -51,4 +51,4 @@ tags: [customers, personas]
 
 ---
 
-**Related:** [[2 - Customer Insights]] | [[Friction Points]] | [[Product Strategy]]
+**Related:** [[2 - Customer Insights]] | [[1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points]] | [[Product Strategy]]

@@ -33,7 +33,7 @@ The working notes behind SparrowGenie — specs, teardowns, decisions, and every
 
 **Settings & Roles** → [[Project admin settings]] → [[Roles and Permissions]] → [[Teams]] → [[Project Owner]] · [[Project Manager]] · [[Project Watcher]]
 
-**Other** → [[Email notifications]] → [[Demo]] → [[Audit report]] → [[Product Review system]] → [[ROI Calculator]] → [[Friction points]]
+**Other** → [[Email notifications]] → [[Demo]] → [[Audit report]] → [[Product Review system]] → [[ROI Calculator]] → [[4 - Archive/Sparrowgenie/Friction points]]
 
 ---
 

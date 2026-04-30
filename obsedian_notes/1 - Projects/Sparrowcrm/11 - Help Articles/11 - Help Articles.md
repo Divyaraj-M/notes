@@ -35,4 +35,4 @@ tags: [help, docs, support]
 
 ---
 
-**Related:** [[10 - Marketing]] | [[5 - Features]] | [[Friction Points]]
+**Related:** [[10 - Marketing]] | [[5 - Features]] | [[4 - Archive/Sparrowgenie/Friction points]]
