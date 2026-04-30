@@ -354,15 +354,17 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "banyan:Open dashboard": false,
       "banyan:Add card note": false,
-      "banyan:Random open a note - Random review": false
+      "banyan:Random open a note - Random review": false,
+      "project-manager:Project manager": false
     }
   },
   "active": "6226819989c388a6",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
+    "1 - Projects/Sparrowcrm/refresh-dashboard.py",
+    "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "2 - Areas/Product Sync System/SME Operating system.md",
     "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md",
-    "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
-    "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/Help Articles Index.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/Marketing Pages.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/Product Wins.md",
@@ -391,10 +393,8 @@
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards",
     "1 - Projects/Sparrowcrm/5 - Features",
     "1 - Projects/Sparrowcrm/4 - Product Specs",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning",
     "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md",
     "4 - Archive/Sparrowgenie/UAT/Shihab Document.md",
-    "2 - Areas/Product Sync System/Product Review system.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
