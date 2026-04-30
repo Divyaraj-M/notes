@@ -6,7 +6,7 @@
     A clear vision narrative that describes how the world is better if the product succeeds.
 2. [ ] [[Product Strategy-crm]]
     A focused plan for how the product wins in the market (problem, audience, value, advantage, growth, business model).
-3. [ ] [[3 - Resources/Learning/Top Deliverables CRM/Customer Insights]]
+3. [ ] [[Customer Insights]]
     Actionable learnings from customer discovery that directly influence product decisions.
 4. [ ] [[Product Roadmap-crm]]  
     A prioritised view of what will be built and when, balancing incremental wins and strategic bets.
