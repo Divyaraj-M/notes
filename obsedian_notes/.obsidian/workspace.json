@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+                "file": "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6 - Metrics & Dashboards"
+              "title": "9 - Product Wins"
             }
           }
         ],
@@ -271,13 +271,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+                "file": "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6 - Metrics & Dashboards"
+              "title": "Outline of 9 - Product Wins"
             }
           }
         ],
@@ -373,8 +373,12 @@
   },
   "active": "e6e9dafd5cf4ce72",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
+    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
+    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Supraja.md",
@@ -394,12 +398,8 @@
     "4 - Archive/Sparrowgenie/TO DO List - today.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
     "3 - Resources/My Product Notes.md",
     "4 - Archive/Sparrowgenie/Help Articles/Getting started  with SparrowGenie.md",
-    "3 - Resources/[Creative Selection.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",

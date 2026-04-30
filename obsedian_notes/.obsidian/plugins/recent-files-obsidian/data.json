@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "9 - Product Wins",
+      "path": "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md"
+    },
+    {
+      "basename": "10 - Marketing",
+      "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
+    },
+    {
+      "basename": "8 - Decisions",
+      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
+    },
+    {
+      "basename": "7 - Competitors",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
       "basename": "6 - Metrics & Dashboards",
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
     },
@@ -81,10 +97,6 @@
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
-      "basename": "8 - Decisions",
-      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
-    },
-    {
       "basename": "My Product Notes",
       "path": "3 - Resources/My Product Notes.md"
     },
@@ -95,10 +107,6 @@
     {
       "basename": "Prioritization Matrix",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
-    },
-    {
-      "basename": "7 - Competitors",
-      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
     {
       "basename": "Spec Template",
@@ -191,14 +199,6 @@
     {
       "basename": "Product Management - Top Deliverables",
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Product thinking",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md"
     }
   ],
   "omittedPaths": [],
