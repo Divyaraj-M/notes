@@ -2,8 +2,8 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: product@sparrowgenie.com
-tags: [home, sparrowcrm]
+owner: Divyaraj Murugan
+tags:
 ---
 
 # SparrowCRM — Product Home

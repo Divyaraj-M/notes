@@ -33,12 +33,24 @@
             "id": "6226819989c388a6",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html"
+                "file": "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "code-glyph",
-              "title": "SparrowCRM Dashboard"
+              "icon": "lucide-file",
+              "title": "SparrowCRM home page"
             }
           }
         ],
@@ -360,9 +372,9 @@
   },
   "active": "6226819989c388a6",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
-    "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "2 - Areas/Product Sync System/SME Operating system.md",
     "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/Help Articles Index.md",
