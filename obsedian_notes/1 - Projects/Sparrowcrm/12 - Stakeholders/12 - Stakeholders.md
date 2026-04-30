@@ -1,3 +1,4 @@
 - [[Shihab Muhammed]] - CEO
 - [[Ganesh Ravi Shankar(GRS)]]  - BU head
-- [[Nya]]
+- [[Nayan Jain]] - Product Manager
+- 
