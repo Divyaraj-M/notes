@@ -2,7 +2,7 @@
 
 Two things that product specs need to do, 
 1. Communication Tool 
-2. Forcing [[Rigor of thoughts ]]
+2. Forcing [[3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts]]
 3. 
 ## Context 
 - Deep Understanding why we are building this feature now  

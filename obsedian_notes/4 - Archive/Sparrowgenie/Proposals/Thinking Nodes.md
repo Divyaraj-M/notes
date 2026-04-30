@@ -43,7 +43,7 @@ Frameworks, mental models, and the fine-grain understanding that compounds over 
 
 **Thinking Frameworks** → [[First Principle thinking]] → [[Hybrid thinking product framework]] → [[Hybrid Thinking — Discovery Cycle Worksheet]]
 
-**Product Craft** → [[Product Management - Top Deliverables]] → [[Product thinking]] → [[Product specs]] → [[Product Roadmap]] → [[Metrics & Dashboards]] → [[Customer Insights]] → [[Edge case Analysis]] → [[Rigor of thoughts]] → [[Decisions]]
+**Product Craft** → [[4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Product thinking]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Product specs]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Product Roadmap]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Rigor of thoughts]] → [[4 - Archive/Sparrowgenie/Top Deliverables/Decisions]]
 
 **Product Process** → [[Jira Process]] → [[Atomic Habits and deliberate practice applied to product management]] → [[Next 90 Day objective - Feb 1 to Apr 30]]
 

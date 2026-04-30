@@ -2,19 +2,51 @@
   "recentFiles": [
     {
       "basename": "Product Management - Top Deliverables",
-      "path": "3 - Resources/Learning/Top Deliverables/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Product specs",
-      "path": "3 - Resources/Learning/Top Deliverables/Product specs.md"
-    },
-    {
-      "basename": "Decisions",
-      "path": "3 - Resources/Learning/Top Deliverables/Decisions.md"
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
     },
     {
       "basename": "Product thinking",
-      "path": "3 - Resources/Learning/Top Deliverables/Product thinking.md"
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md"
+    },
+    {
+      "basename": "Rigor of thoughts",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md"
+    },
+    {
+      "basename": "Product specs",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product specs.md"
+    },
+    {
+      "basename": "Product Strategy",
+      "path": "2 - Areas/Product Vision & Strategy/Product Strategy.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "2 - Areas/Product Vision & Strategy/Product Vision.md"
+    },
+    {
+      "basename": "SME Operating system",
+      "path": "2 - Areas/Product Sync System/SME Operating system.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "Product specs",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product specs.md"
+    },
+    {
+      "basename": "Decisions",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Decisions.md"
+    },
+    {
+      "basename": "Product thinking",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product thinking.md"
     },
     {
       "basename": "Product Notes (Why Sales Needs Better Tools)",
@@ -22,27 +54,27 @@
     },
     {
       "basename": "Rigor of thoughts",
-      "path": "3 - Resources/Learning/Top Deliverables/Rigor of thoughts.md"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Rigor of thoughts.md"
     },
     {
       "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
-      "path": "3 - Resources/Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
     },
     {
       "basename": "Customer Insights",
-      "path": "3 - Resources/Learning/Top Deliverables/Customer Insights.md"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md"
     },
     {
       "basename": "Edge case Analysis",
-      "path": "3 - Resources/Learning/Top Deliverables/Edge case Analysis.md"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md"
     },
     {
       "basename": "Metrics & Dashboards",
-      "path": "3 - Resources/Learning/Top Deliverables/Metrics & Dashboards.md"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards.md"
     },
     {
       "basename": "Product Roadmap",
-      "path": "3 - Resources/Learning/Top Deliverables/Product Roadmap.md"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Roadmap.md"
     },
     {
       "basename": "First Principle thinking",
@@ -50,7 +82,7 @@
     },
     {
       "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
-      "path": "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
     },
     {
       "basename": "Hybrid thinking product framework",
@@ -75,18 +107,6 @@
     {
       "basename": "Pasted image 20260325102236",
       "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png"
-    },
-    {
-      "basename": "Product Strategy",
-      "path": "2 - Areas/Product Vision & Strategy/Product Strategy.md"
-    },
-    {
-      "basename": "Product Vision",
-      "path": "2 - Areas/Product Vision & Strategy/Product Vision.md"
-    },
-    {
-      "basename": "SME Operating system",
-      "path": "2 - Areas/Product Sync System/SME Operating system.md"
     },
     {
       "basename": "Product Review system",
@@ -175,30 +195,6 @@
     {
       "basename": "Sparrow Genie Notes",
       "path": "3 - Resources/Sparrow Genie Notes.md"
-    },
-    {
-      "basename": "Jira Process",
-      "path": "3 - Resources/Learning/Product Process/Jira Process.md"
-    },
-    {
-      "basename": "Pasted image 20260325102320",
-      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png"
-    },
-    {
-      "basename": "Udemy",
-      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Genie Actions inside the Questions card",
-      "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "Screenshot 2026-03-18 at 3.28.01 PM",
-      "path": "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png"
-    },
-    {
-      "basename": "Sparrow Genie - Project Phase II",
-      "path": "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md"
     }
   ],
   "omittedPaths": [],
