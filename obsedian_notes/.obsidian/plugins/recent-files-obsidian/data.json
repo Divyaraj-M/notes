@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+      "basename": "Product Vision",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
     },
     {
       "basename": "My Product Notes",
       "path": "3 - Resources/My Product Notes.md"
+    },
+    {
+      "basename": "Getting started  with SparrowGenie",
+      "path": "4 - Archive/Sparrowgenie/Help Articles/Getting started  with SparrowGenie.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
+      "basename": "Prioritization Matrix",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "7 - Competitors",
@@ -29,20 +49,12 @@
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md"
     },
     {
-      "basename": "[Creative Selection",
-      "path": "3 - Resources/[Creative Selection.md"
-    },
-    {
       "basename": "Help Article Template",
       "path": "3 - Resources/Help Article Template.md"
     },
     {
       "basename": "3 - Roadmap & Planning",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
       "basename": "Friction Points",
@@ -53,16 +65,8 @@
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md"
     },
     {
-      "basename": "Product Vision",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
-    },
-    {
       "basename": "Product Strategy",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
-    },
-    {
-      "basename": "Prioritization Matrix",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     },
     {
       "basename": "Team OKRs",
@@ -191,14 +195,6 @@
     {
       "basename": "Metrics & Dashboards",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Product Roadmap",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Roadmap.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
     }
   ],
   "omittedPaths": [],

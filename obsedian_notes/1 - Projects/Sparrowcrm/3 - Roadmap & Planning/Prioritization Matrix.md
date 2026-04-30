@@ -2,8 +2,8 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [prioritization, eisenhower, planning]
+owner:
+tags:
 ---
 
 # Prioritization Matrix
@@ -21,8 +21,8 @@ tags: [prioritization, eisenhower, planning]
 ### Q1: High Impact / Low Effort → DO FIRST
 
 | Feature | Impact (1-5) | Effort (1-5) | Score | Status | Notes |
-|---------|-------------|-------------|-------|--------|-------|
-|         |             |             |       |        |       |
+| ------- | ------------ | ------------ | ----- | ------ | ----- |
+|         |              |              |       |        |       |
 
 ### Q2: High Impact / High Effort → PLAN & SCHEDULE
 

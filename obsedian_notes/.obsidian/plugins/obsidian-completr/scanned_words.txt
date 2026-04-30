@@ -3131,6 +3131,7 @@ renderRoadmap
 renderPipeline
 renderDecisions
 renderWins
+refined
 Jira
 Jdjxj
 JIvrU
@@ -5615,6 +5616,8 @@ dcType
 dcRationale
 doneCount
 darr
+detected
+distribute
 starts
 sub
 screens
@@ -13743,6 +13746,7 @@ cyan
 contenteditable
 closeModal
 cockpit
+cleanup
 on
 owns
 one
@@ -18782,6 +18786,7 @@ Incremental
 Items
 Icebox
 Interviews
+Idea
 you
 yet
 your
@@ -21418,6 +21423,7 @@ Months
 MAU
 Monetization
 Moat
+Meaning
 UI
 Users
 User

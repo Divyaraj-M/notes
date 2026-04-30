@@ -2,8 +2,9 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [features, index]
+owner:
+tags:
+  - features
 ---
 
 # Features Index
@@ -18,15 +19,15 @@ tags: [features, index]
 
 ## Status Key
 
-| Status | Meaning |
-|--------|---------|
-| Draft | Idea captured, not yet scoped |
-| Done | Spec complete |
-| Reviewed | Reviewed by stakeholders |
-| Design | In design phase |
-| Dev | In development |
-| Staging | QA / testing |
-| In Production | Shipped and live |
+| Status        | Meaning                       |
+| ------------- | ----------------------------- |
+| Draft         | Idea captured, not yet scoped |
+| Done          | Spec complete                 |
+| Reviewed      | Reviewed by stakeholders      |
+| Design        | In design phase               |
+| Dev           | In development                |
+| Staging       | QA / testing                  |
+| In Production | Shipped and live              |
 
 ## How to Add a Feature
 
