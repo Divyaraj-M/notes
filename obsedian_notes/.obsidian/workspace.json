@@ -8,52 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d8a4ac672b6609cc",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "565323c0dd34d757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Archive/Sparrowgenie/UAT/Shihab Document.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Shihab Document"
-            }
-          },
-          {
-            "id": "7bd8447797e20898",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "file:///Users/divyaraj.murugan/Downloads/Wireframes/product_wireframe/wireframe.html"
-              },
-              "icon": "lucide-file",
-              "title": "Project Management Wireframe"
-            }
-          },
-          {
             "id": "89eb48ac768093e4",
             "type": "leaf",
             "state": {
@@ -119,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
+                "file": "2 - Areas/Product Sync System/SME Operating system.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,11 +88,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SparrowCRM home page"
+              "title": "SME Operating system"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -454,10 +407,20 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "6226819989c388a6",
+  "active": "89eb48ac768093e4",
   "lastOpenFiles": [
-    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "4 - Archive/Sparrowgenie/UAT/Shihab Document.md",
+    "2 - Areas/Product Sync System/SME Operating system.md",
+    "2 - Areas/Product Sync System/Product Review system.md",
+    "3 - Resources/Learning/First Principle thinking.md",
+    "3 - Resources/My Product Notes.md",
+    "3 - Resources/Notification Strategy.md",
+    "4 - Archive/Sparrowgenie/Sparrow Genie Notes.md",
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.html",
+    "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md",
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md",
     "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Projects",
     "1 - Projects/Sparrowcrm",
@@ -474,21 +437,12 @@
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "3 - Resources/Learning/Top Deliverables CRM",
     "2 - Areas/Product Vision & Strategy/Product Vision.md",
-    "2 - Areas/Product Sync System/SME Operating system.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product specs.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Decisions.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product thinking.md",
-    "3 - Resources/Product Notes (Why Sales Needs Better Tools).md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Rigor of thoughts.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards.md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Product Roadmap.md",
-    "3 - Resources/Learning/First Principle thinking.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "4 - Archive/Sparrowgenie/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html",
     "4 - Archive/Screenshots/image (2).png",
@@ -501,7 +455,6 @@
     "4 - Archive/Sparrowgenie/Users/Untitled.base",
     "4 - Archive/Sparrowgenie/Users",
     "4 - Archive/Sparrowgenie/User Roles/Project/Question card",
-    "4 - Archive/Sparrowgenie/User Roles/Project",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
