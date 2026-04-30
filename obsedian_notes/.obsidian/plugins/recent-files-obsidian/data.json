@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Management - Top Deliverables",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "Customer Insights",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md"
+    },
+    {
       "basename": "My Product Notes",
       "path": "3 - Resources/My Product Notes.md"
+    },
+    {
+      "basename": "[Creative Selection",
+      "path": "3 - Resources/[Creative Selection.md"
     },
     {
       "basename": "Help Article Template",
@@ -35,10 +47,6 @@
     {
       "basename": "Product Strategy",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
     },
     {
       "basename": "Prioritization Matrix",
@@ -169,10 +177,6 @@
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
     },
     {
-      "basename": "Customer Insights",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md"
-    },
-    {
       "basename": "Edge case Analysis",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Atomic Habits and deliberate practice applied to product management",
       "path": "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
-    },
-    {
-      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
-      "path": "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
     }
   ],
   "omittedPaths": [],

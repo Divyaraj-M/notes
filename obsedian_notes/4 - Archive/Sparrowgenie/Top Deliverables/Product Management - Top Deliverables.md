@@ -3,7 +3,7 @@
 ![[4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png]]
 
 1. [ ] [[Product Vision]]
-    A clear vision narrative that describes how the world is better if the product succeeds.
+	A clear vision narrative that describes how the world is better if the product succeeds.
 2. [ ] [[Product Strategy]]
     A focused plan for how the product wins in the market (problem, audience, value, advantage, growth, business model).
 3. [ ] [[4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights]]
