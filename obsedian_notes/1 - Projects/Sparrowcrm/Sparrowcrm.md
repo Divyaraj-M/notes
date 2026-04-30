@@ -8,8 +8,6 @@ tags:
 
 # SparrowCRM — Product Home
 
-> Open the **[[SparrowCRM Dashboard.html|Visual Dashboard]]** for the full interactive cockpit view.
-
 ---
 ## Quick Navigation
 

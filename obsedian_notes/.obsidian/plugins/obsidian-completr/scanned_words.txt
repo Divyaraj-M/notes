@@ -6562,6 +6562,7 @@ statusClasses
 statusLabels
 statusWeight
 stats
+sparrowcrm
 everyone
 exactly
 each
