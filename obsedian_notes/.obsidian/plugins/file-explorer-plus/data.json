@@ -24,6 +24,13 @@
         "type": "FILES",
         "pattern": "Thinking.md",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

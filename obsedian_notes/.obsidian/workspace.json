@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
+                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "First Principle for a CRM"
+              "title": "To do list - SparrowCRM"
             }
           }
         ],
@@ -247,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
+                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of First Principle for a CRM"
+              "title": "Outline of To do list - SparrowCRM"
             }
           }
         ],
@@ -372,9 +372,10 @@
   },
   "active": "929f1ce1acd8136c",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "4 - Archive/Sparrowgenie/TO DO List - today.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md",
@@ -399,7 +400,6 @@
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
-    "1 - Projects/Sparrowcrm/Untitled.md",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
     "1 - Projects/Sparrowcrm/11 - Help Articles",
