@@ -13,15 +13,18 @@ tags:
 ---
 ## Quick Navigation
 
-- [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision|Product Vision]]
-- [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy|Product Strategy]] 
-- [[5 - Features|Features]]
-- [[2 - Customer Insights|Customer Insights]]
-- [[3 - Roadmap & Planning]]
-- [[7 - Competitors]]
-- [[8 - Decisions]]
-- [[9 - Product Wins]]
-- [[11 - Help Articles]]
+1. [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision|Product Vision]]
+2. [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy|Product Strategy]] 
+3. [[5 - Features|Features]]
+4. [[2 - Customer Insights|Customer Insights]]
+5. [[11 - Help Articles|Help Articles]]
+6. [[3 - Roadmap & Planning|Roadmap]]
+7. [[7 - Competitors|Competitors]]
+8. [[8 - Decisions|Decisions]]
+9. [[9 - Product Wins|Product Wins]]
+10. [[10 - Marketing|Marketing]]
+11. [[6 - Metrics & Dashboards|Metrics]]
+
 **Status Key:** `Draft` → `Done` → `Reviewed` → `Design` → `Dev` → `Staging` → `In Production`
 
 ---

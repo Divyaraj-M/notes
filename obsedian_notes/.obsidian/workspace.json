@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fabbe3d8b2106457",
+        "id": "9fa2a6f30fcc5c9b",
         "type": "tabs",
         "children": [
           {
-            "id": "89eb48ac768093e4",
+            "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/My Product Notes.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,33 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My Product Notes"
-            }
-          },
-          {
-            "id": "2c9007215cf82bde",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9fa2a6f30fcc5c9b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9c0874b504367a22",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Sparrowcrm"
             }
           }
         ]
@@ -248,12 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Sparrowcrm"
             }
           }
         ],
