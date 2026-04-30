@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SparrowCRM — Product Cockpit</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #232733;
+    --border: #2e3343;
+    --text: #e4e6ed;
+    --text2: #9399a8;
+    --accent: #6c5ce7;
+    --accent2: #a29bfe;
+    --green: #00b894;
+    --green-bg: rgba(0,184,148,0.12);
+    --yellow: #fdcb6e;
+    --yellow-bg: rgba(253,203,110,0.12);
+    --orange: #e17055;
+    --orange-bg: rgba(225,112,85,0.12);
+    --blue: #74b9ff;
+    --blue-bg: rgba(116,185,255,0.12);
+    --pink: #fd79a8;
+    --pink-bg: rgba(253,121,168,0.12);
+    --cyan: #81ecec;
+    --cyan-bg: rgba(129,236,236,0.12);
+    --red: #ff7675;
+    --red-bg: rgba(255,118,117,0.12);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+
+  .top-bar { display:flex; align-items:center; justify-content:space-between; padding:16px 28px; border-bottom:1px solid var(--border); background:var(--surface); position:sticky; top:0; z-index:100; }
+  .top-bar h1 { font-size:20px; font-weight:700; letter-spacing:-0.5px; }
+  .top-bar h1 span { color:var(--accent2); }
+  .top-bar .meta { font-size:12px; color:var(--text2); }
+
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:20px 28px; max-width:1600px; margin:0 auto; }
+  .grid .full { grid-column: 1 / -1; }
+
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; }
+  .card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+  .card-header h2 { font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; color:var(--text2); }
+  .card-header .count { font-size:12px; color:var(--accent2); background:rgba(108,92,231,0.15); padding:2px 8px; border-radius:10px; }
+
+  /* Status chips */
+  .chip { display:inline-block; padding:3px 10px; border-radius:6px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.3px; cursor:pointer; transition:all 0.2s; }
+  .chip:hover { transform:scale(1.05); }
+  .chip.draft { background:var(--surface2); color:var(--text2); }
+  .chip.done { background:var(--blue-bg); color:var(--blue); }
+  .chip.reviewed { background:var(--cyan-bg); color:var(--cyan); }
+  .chip.design { background:var(--pink-bg); color:var(--pink); }
+  .chip.dev { background:var(--orange-bg); color:var(--orange); }
+  .chip.staging { background:var(--yellow-bg); color:var(--yellow); }
+  .chip.production { background:var(--green-bg); color:var(--green); }
+
+  /* Status board */
+  .status-table { width:100%; border-collapse:collapse; }
+  .status-table th { text-align:left; font-size:11px; color:var(--text2); text-transform:uppercase; letter-spacing:0.5px; padding:8px 12px; border-bottom:1px solid var(--border); }
+  .status-table td { padding:10px 12px; border-bottom:1px solid var(--border); font-size:13px; }
+  .status-table tr:last-child td { border-bottom:none; }
+  .status-table tr:hover { background:rgba(108,92,231,0.05); }
+  .status-table .name { font-weight:500; }
+  .status-table .section-tag { font-size:10px; color:var(--text2); background:var(--surface2); padding:2px 6px; border-radius:4px; margin-left:6px; }
+
+  /* Status select */
+  .status-select { appearance:none; background:transparent; border:none; color:inherit; font:inherit; cursor:pointer; padding:3px 10px; border-radius:6px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.3px; }
+  .status-select option { background:var(--surface); color:var(--text); }
+
+  /* Eisenhower Matrix */
+  .matrix { display:grid; grid-template-columns:1fr 1fr; grid-template-rows:auto auto; gap:8px; }
+  .matrix-cell { border-radius:10px; padding:14px; min-height:120px; }
+  .matrix-cell h3 { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px; }
+  .matrix-cell .items { display:flex; flex-direction:column; gap:4px; }
+  .matrix-item { font-size:12px; padding:6px 10px; background:rgba(255,255,255,0.06); border-radius:6px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+  .matrix-item:hover { background:rgba(255,255,255,0.1); }
+  .matrix-item .score { font-weight:700; font-size:11px; }
+  .q1 { background:rgba(0,184,148,0.08); border:1px solid rgba(0,184,148,0.2); }
+  .q1 h3 { color:var(--green); }
+  .q1 .score { color:var(--green); }
+  .q2 { background:rgba(116,185,255,0.08); border:1px solid rgba(116,185,255,0.2); }
+  .q2 h3 { color:var(--blue); }
+  .q2 .score { color:var(--blue); }
+  .q3 { background:rgba(253,203,110,0.08); border:1px solid rgba(253,203,110,0.2); }
+  .q3 h3 { color:var(--yellow); }
+  .q3 .score { color:var(--yellow); }
+  .q4 { background:rgba(255,118,117,0.08); border:1px solid rgba(255,118,117,0.2); }
+  .q4 h3 { color:var(--red); }
+  .q4 .score { color:var(--red); }
+  .matrix-label { text-align:center; font-size:10px; color:var(--text2); padding:4px; }
+
+  /* Roadmap */
+  .roadmap { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+  .roadmap-col { background:var(--surface2); border-radius:10px; padding:14px; }
+  .roadmap-col h3 { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
+  .roadmap-col h3 .dot { width:8px; height:8px; border-radius:50%; }
+  .now-dot { background:var(--green); }
+  .next-dot { background:var(--yellow); }
+  .later-dot { background:var(--text2); }
+  .roadmap-item { font-size:12px; padding:8px 10px; background:var(--surface); border:1px solid var(--border); border-radius:6px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center; }
+  .roadmap-item .rm-status { font-size:10px; }
+
+  /* Pipeline */
+  .pipeline { display:flex; gap:8px; overflow-x:auto; padding-bottom:8px; }
+  .pipeline-col { min-width:140px; flex:1; }
+  .pipeline-col-header { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; color:var(--text2); padding:8px; text-align:center; border-bottom:2px solid var(--border); margin-bottom:8px; }
+  .pipeline-card { font-size:11px; padding:8px; background:var(--surface2); border:1px solid var(--border); border-radius:6px; margin-bottom:4px; cursor:grab; }
+  .pipeline-card:hover { border-color:var(--accent); }
+
+  /* Metrics */
+  .metrics-grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:10px; }
+  .metric-card { background:var(--surface2); border-radius:10px; padding:14px; text-align:center; }
+  .metric-card .label { font-size:10px; color:var(--text2); text-transform:uppercase; letter-spacing:0.5px; }
+  .metric-card .value { font-size:24px; font-weight:700; margin:4px 0; }
+  .metric-card .trend { font-size:11px; }
+  .trend-up { color:var(--green); }
+  .trend-down { color:var(--red); }
+  .trend-flat { color:var(--text2); }
+
+  /* Decisions */
+  .decision-row { display:flex; align-items:center; gap:12px; padding:10px 0; border-bottom:1px solid var(--border); font-size:13px; }
+  .decision-row:last-child { border-bottom:none; }
+  .decision-type { font-size:10px; font-weight:700; padding:2px 8px; border-radius:4px; flex-shrink:0; }
+  .type1 { background:var(--red-bg); color:var(--red); }
+  .type2 { background:var(--blue-bg); color:var(--blue); }
+  .decision-date { font-size:11px; color:var(--text2); flex-shrink:0; width:70px; }
+
+  /* Add buttons */
+  .add-btn { width:100%; padding:8px; background:transparent; border:1px dashed var(--border); border-radius:6px; color:var(--text2); font-size:12px; cursor:pointer; transition:all 0.2s; margin-top:8px; }
+  .add-btn:hover { border-color:var(--accent); color:var(--accent2); background:rgba(108,92,231,0.05); }
+
+  /* Editable */
+  [contenteditable]:focus { outline:none; background:rgba(108,92,231,0.08); border-radius:4px; }
+
+  /* Modal */
+  .modal-overlay { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:200; align-items:center; justify-content:center; }
+  .modal-overlay.active { display:flex; }
+  .modal { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:28px; width:480px; max-width:90vw; }
+  .modal h2 { font-size:16px; margin-bottom:16px; }
+  .modal label { font-size:12px; color:var(--text2); display:block; margin-bottom:4px; margin-top:12px; }
+  .modal input, .modal select, .modal textarea { width:100%; padding:8px 12px; background:var(--surface2); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; font-family:inherit; }
+  .modal textarea { height:60px; resize:vertical; }
+  .modal-actions { display:flex; gap:8px; margin-top:20px; justify-content:flex-end; }
+  .btn { padding:8px 16px; border-radius:6px; font-size:13px; font-weight:500; cursor:pointer; border:none; transition:all 0.2s; }
+  .btn-primary { background:var(--accent); color:white; }
+  .btn-primary:hover { background:var(--accent2); }
+  .btn-ghost { background:transparent; color:var(--text2); border:1px solid var(--border); }
+  .btn-ghost:hover { border-color:var(--text2); }
+
+  /* Progress bar */
+  .progress-bar { height:6px; background:var(--surface2); border-radius:3px; overflow:hidden; margin-top:12px; }
+  .progress-fill { height:100%; border-radius:3px; transition:width 0.5s ease; }
+
+  /* Focus section */
+  .focus-box { background:rgba(108,92,231,0.08); border:1px solid rgba(108,92,231,0.2); border-radius:10px; padding:16px; }
+  .focus-box h3 { font-size:12px; color:var(--accent2); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px; }
+  .focus-item { padding:6px 0; font-size:13px; display:flex; align-items:center; gap:8px; }
+  .focus-item input[type="checkbox"] { accent-color:var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <div>
+    <h1>Sparrow<span>CRM</span> — Product Cockpit</h1>
+  </div>
+  <div class="meta">Last updated: <span id="lastUpdated">2026-04-30</span> &nbsp;|&nbsp; Status: <strong id="overallProgress">0%</strong> complete</div>
+</div>
+
+<div class="grid">
+
+  <!-- THIS WEEK'S FOCUS -->
+  <div class="card full">
+    <div class="focus-box">
+      <h3>This Week's Focus</h3>
+      <div id="focusItems">
+        <div class="focus-item"><input type="checkbox"> <span contenteditable="true">Click to add your top priority...</span></div>
+        <div class="focus-item"><input type="checkbox"> <span contenteditable="true">Add second priority...</span></div>
+        <div class="focus-item"><input type="checkbox"> <span contenteditable="true">Add third priority...</span></div>
+      </div>
+      <button class="add-btn" onclick="addFocus()">+ Add focus item</button>
+    </div>
+  </div>
+
+  <!-- DELIVERABLES STATUS BOARD -->
+  <div class="card full">
+    <div class="card-header">
+      <h2>Deliverables Status Board</h2>
+      <span class="count" id="deliverableCount">0 / 16</span>
+    </div>
+    <table class="status-table">
+      <thead>
+        <tr><th>Deliverable</th><th>Section</th><th>Status</th><th>Owner</th><th>Updated</th></tr>
+      </thead>
+      <tbody id="statusBoard"></tbody>
+    </table>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%; background:linear-gradient(90deg, var(--accent), var(--green));"></div></div>
+  </div>
+
+  <!-- EISENHOWER PRIORITIZATION MATRIX -->
+  <div class="card">
+    <div class="card-header">
+      <h2>Prioritization Matrix</h2>
+      <span class="count" id="matrixCount">0 items</span>
+    </div>
+    <div style="text-align:center; font-size:10px; color:var(--text2); margin-bottom:4px;">← LOW EFFORT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HIGH EFFORT →</div>
+    <div class="matrix">
+      <div class="matrix-cell q1">
+        <h3>DO FIRST</h3>
+        <div class="items" id="q1Items"></div>
+        <button class="add-btn" onclick="openMatrixModal('q1')">+ Add</button>
+      </div>
+      <div class="matrix-cell q2">
+        <h3>PLAN & SCHEDULE</h3>
+        <div class="items" id="q2Items"></div>
+        <button class="add-btn" onclick="openMatrixModal('q2')">+ Add</button>
+      </div>
+      <div class="matrix-cell q3">
+        <h3>QUICK WINS</h3>
+        <div class="items" id="q3Items"></div>
+        <button class="add-btn" onclick="openMatrixModal('q3')">+ Add</button>
+      </div>
+      <div class="matrix-cell q4">
+        <h3>DON'T DO</h3>
+        <div class="items" id="q4Items"></div>
+        <button class="add-btn" onclick="openMatrixModal('q4')">+ Add</button>
+      </div>
+    </div>
+    <div style="text-align:right; font-size:10px; color:var(--text2); margin-top:4px;">↑ HIGH IMPACT &nbsp;&nbsp;&nbsp; ↓ LOW IMPACT</div>
+  </div>
+
+  <!-- ROADMAP -->
+  <div class="card">
+    <div class="card-header">
+      <h2>Roadmap</h2>
+      <span class="count">Now / Next / Later</span>
+    </div>
+    <div class="roadmap">
+      <div class="roadmap-col">
+        <h3><span class="dot now-dot"></span> Now</h3>
+        <div id="roadmapNow"></div>
+        <button class="add-btn" onclick="openRoadmapModal('now')">+ Add</button>
+      </div>
+      <div class="roadmap-col">
+        <h3><span class="dot next-dot"></span> Next</h3>
+        <div id="roadmapNext"></div>
+        <button class="add-btn" onclick="openRoadmapModal('next')">+ Add</button>
+      </div>
+      <div class="roadmap-col">
+        <h3><span class="dot later-dot"></span> Later</h3>
+        <div id="roadmapLater"></div>
+        <button class="add-btn" onclick="openRoadmapModal('later')">+ Add</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURE PIPELINE (Kanban) -->
+  <div class="card full">
+    <div class="card-header">
+      <h2>Feature Pipeline</h2>
+      <span class="count" id="pipelineCount">0 features</span>
+    </div>
+    <div class="pipeline" id="pipeline">
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--text2);">Draft</div>
+        <div id="pipe-draft"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--blue);">Done</div>
+        <div id="pipe-done"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--cyan);">Reviewed</div>
+        <div id="pipe-reviewed"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--pink);">Design</div>
+        <div id="pipe-design"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--orange);">Dev</div>
+        <div id="pipe-dev"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--yellow);">Staging</div>
+        <div id="pipe-staging"></div>
+      </div>
+      <div class="pipeline-col">
+        <div class="pipeline-col-header" style="border-color:var(--green);">Production</div>
+        <div id="pipe-production"></div>
+      </div>
+    </div>
+    <button class="add-btn" onclick="openFeatureModal()">+ Add Feature</button>
+  </div>
+
+  <!-- METRICS SNAPSHOT -->
+  <div class="card">
+    <div class="card-header">
+      <h2>Metrics Snapshot</h2>
+      <span class="count">Key Numbers</span>
+    </div>
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="label">Signups</div>
+        <div class="value" contenteditable="true">—</div>
+        <div class="trend trend-flat">no data yet</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Activation</div>
+        <div class="value" contenteditable="true">—</div>
+        <div class="trend trend-flat">no data yet</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">MRR</div>
+        <div class="value" contenteditable="true">—</div>
+        <div class="trend trend-flat">no data yet</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Churn</div>
+        <div class="value" contenteditable="true">—</div>
+        <div class="trend trend-flat">no data yet</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RECENT DECISIONS -->
+  <div class="card">
+    <div class="card-header">
+      <h2>Recent Decisions</h2>
+      <span class="count" id="decisionCount">0</span>
+    </div>
+    <div id="decisionsList">
+      <div style="text-align:center; color:var(--text2); font-size:13px; padding:20px;">No decisions logged yet</div>
+    </div>
+    <button class="add-btn" onclick="openDecisionModal()">+ Log Decision</button>
+  </div>
+
+  <!-- PRODUCT WINS -->
+  <div class="card full">
+    <div class="card-header">
+      <h2>Product Wins</h2>
+      <span class="count" id="winsCount">0 wins</span>
+    </div>
+    <div id="winsList">
+      <div style="text-align:center; color:var(--text2); font-size:13px; padding:20px;">No wins shipped yet — they'll show up here</div>
+    </div>
+    <button class="add-btn" onclick="openWinModal()">+ Log a Win</button>
+  </div>
+
+</div>
+
+<!-- MODALS -->
+
+<!-- Matrix Modal -->
+<div class="modal-overlay" id="matrixModal">
+  <div class="modal">
+    <h2>Add to Prioritization Matrix</h2>
+    <label>Feature Name</label>
+    <input type="text" id="mxName" placeholder="e.g. Contact import via CSV">
+    <label>Impact (1-5)</label>
+    <input type="number" id="mxImpact" min="1" max="5" value="3">
+    <label>Effort (1-5)</label>
+    <input type="number" id="mxEffort" min="1" max="5" value="3">
+    <input type="hidden" id="mxQuadrant">
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('matrixModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="addMatrixItem()">Add</button>
+    </div>
+  </div>
+</div>
+
+<!-- Roadmap Modal -->
+<div class="modal-overlay" id="roadmapModal">
+  <div class="modal">
+    <h2>Add to Roadmap</h2>
+    <label>Feature / Initiative</label>
+    <input type="text" id="rmName" placeholder="e.g. Email integration">
+    <label>Status</label>
+    <select id="rmStatus">
+      <option value="draft">Draft</option><option value="done">Done</option><option value="reviewed">Reviewed</option>
+      <option value="design">Design</option><option value="dev">Dev</option><option value="staging">Staging</option><option value="production">Production</option>
+    </select>
+    <input type="hidden" id="rmPhase">
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('roadmapModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="addRoadmapItem()">Add</button>
+    </div>
+  </div>
+</div>
+
+<!-- Feature Modal -->
+<div class="modal-overlay" id="featureModal">
+  <div class="modal">
+    <h2>Add Feature</h2>
+    <label>Feature Name</label>
+    <input type="text" id="ftName" placeholder="e.g. WhatsApp integration">
+    <label>Status</label>
+    <select id="ftStatus">
+      <option value="draft">Draft</option><option value="done">Done</option><option value="reviewed">Reviewed</option>
+      <option value="design">Design</option><option value="dev">Dev</option><option value="staging">Staging</option><option value="production">Production</option>
+    </select>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('featureModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="addFeature()">Add</button>
+    </div>
+  </div>
+</div>
+
+<!-- Decision Modal -->
+<div class="modal-overlay" id="decisionModal">
+  <div class="modal">
+    <h2>Log a Decision</h2>
+    <label>Decision</label>
+    <input type="text" id="dcText" placeholder="e.g. Use Postgres instead of MongoDB">
+    <label>Type</label>
+    <select id="dcType"><option value="1">Type 1 (Irreversible)</option><option value="2">Type 2 (Reversible)</option></select>
+    <label>Rationale</label>
+    <textarea id="dcRationale" placeholder="Why this decision was made..."></textarea>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('decisionModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="addDecision()">Log</button>
+    </div>
+  </div>
+</div>
+
+<!-- Win Modal -->
+<div class="modal-overlay" id="winModal">
+  <div class="modal">
+    <h2>Log a Product Win</h2>
+    <label>What Shipped</label>
+    <input type="text" id="winText" placeholder="e.g. Contact import v1 launched">
+    <label>User Impact</label>
+    <input type="text" id="winUser" placeholder="e.g. Users can now bulk-import contacts">
+    <label>Business Impact</label>
+    <input type="text" id="winBiz" placeholder="e.g. Reduces onboarding time by 60%">
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('winModal')">Cancel</button>
+      <button class="btn btn-primary" onclick="addWin()">Log Win</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ===== DATA STORE (in-memory, editable) =====
+  const deliverables = [
+    { name:'Product Vision', section:'Vision & Strategy', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Product Strategy', section:'Vision & Strategy', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Customer Insights', section:'Customer Insights', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'User Personas', section:'Customer Insights', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Friction Points', section:'Customer Insights', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Product Roadmap', section:'Roadmap & Planning', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Prioritization Matrix', section:'Roadmap & Planning', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Team OKRs', section:'Roadmap & Planning', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Product Specs', section:'Specs & Features', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Features Index', section:'Specs & Features', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Metrics & Dashboards', section:'Metrics', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Competitors', section:'Market', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Decisions Log', section:'Decisions', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Product Wins', section:'Wins', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Marketing Pages', section:'Marketing', status:'draft', owner:'', updated:'2026-04-30' },
+    { name:'Help Articles', section:'Help', status:'draft', owner:'', updated:'2026-04-30' },
+  ];
+
+  let matrixItems = { q1:[], q2:[], q3:[], q4:[] };
+  let roadmapItems = { now:[], next:[], later:[] };
+  let features = [];
+  let decisions = [];
+  let wins = [];
+
+  const statusClasses = { draft:'draft', done:'done', reviewed:'reviewed', design:'design', dev:'dev', staging:'staging', production:'production' };
+  const statusLabels = { draft:'Draft', done:'Done', reviewed:'Reviewed', design:'Design', dev:'Dev', staging:'Staging', production:'In Production' };
+  const statusWeight = { draft:0, done:1, reviewed:2, design:3, dev:4, staging:5, production:6 };
+
+  // ===== RENDER FUNCTIONS =====
+
+  function renderStatusBoard() {
+    const tbody = document.getElementById('statusBoard');
+    tbody.innerHTML = deliverables.map((d, i) => `
+      <tr>
+        <td class="name">${d.name}</td>
+        <td><span class="section-tag">${d.section}</span></td>
+        <td>
+          <select class="status-select chip ${statusClasses[d.status]}" onchange="updateDeliverable(${i}, this.value)">
+            ${Object.keys(statusLabels).map(s => `<option value="${s}" ${d.status===s?'selected':''}>${statusLabels[s]}</option>`).join('')}
+          </select>
+        </td>
+        <td><span contenteditable="true" style="font-size:12px; color:var(--text2);">${d.owner||'—'}</span></td>
+        <td style="font-size:11px; color:var(--text2);">${d.updated}</td>
+      </tr>
+    `).join('');
+
+    const doneCount = deliverables.filter(d => statusWeight[d.status] >= 6).length;
+    const progressCount = deliverables.filter(d => statusWeight[d.status] >= 1).length;
+    document.getElementById('deliverableCount').textContent = `${doneCount} shipped / ${deliverables.length} total`;
+    const pct = Math.round((deliverables.reduce((a,d) => a + statusWeight[d.status], 0) / (deliverables.length * 6)) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('overallProgress').textContent = pct + '%';
+  }
+
+  function updateDeliverable(i, val) {
+    deliverables[i].status = val;
+    deliverables[i].updated = new Date().toISOString().split('T')[0];
+    renderStatusBoard();
+  }
+
+  function renderMatrix() {
+    ['q1','q2','q3','q4'].forEach(q => {
+      document.getElementById(q+'Items').innerHTML = matrixItems[q].map(item =>
+        `<div class="matrix-item"><span>${item.name}</span><span class="score">${item.score}</span></div>`
+      ).join('');
+    });
+    const total = Object.values(matrixItems).reduce((a,b) => a+b.length, 0);
+    document.getElementById('matrixCount').textContent = total + ' items';
+  }
+
+  function renderRoadmap() {
+    ['now','next','later'].forEach(phase => {
+      const el = document.getElementById('roadmap' + phase.charAt(0).toUpperCase() + phase.slice(1));
+      el.innerHTML = roadmapItems[phase].map(item =>
+        `<div class="roadmap-item"><span>${item.name}</span><span class="chip ${statusClasses[item.status]} rm-status">${statusLabels[item.status]}</span></div>`
+      ).join('');
+    });
+  }
+
+  function renderPipeline() {
+    const cols = { draft:[], done:[], reviewed:[], design:[], dev:[], staging:[], production:[] };
+    features.forEach(f => { if(cols[f.status]) cols[f.status].push(f); });
+    Object.keys(cols).forEach(s => {
+      const el = document.getElementById('pipe-' + s);
+      el.innerHTML = cols[s].map(f => `<div class="pipeline-card">${f.name}</div>`).join('');
+    });
+    document.getElementById('pipelineCount').textContent = features.length + ' features';
+  }
+
+  function renderDecisions() {
+    const el = document.getElementById('decisionsList');
+    if (decisions.length === 0) { el.innerHTML = '<div style="text-align:center; color:var(--text2); font-size:13px; padding:20px;">No decisions logged yet</div>'; return; }
+    el.innerHTML = decisions.map(d => `
+      <div class="decision-row">
+        <span class="decision-date">${d.date}</span>
+        <span class="decision-type ${d.type==='1'?'type1':'type2'}">T${d.type}</span>
+        <span>${d.text}</span>
+      </div>
+    `).join('');
+    document.getElementById('decisionCount').textContent = decisions.length;
+  }
+
+  function renderWins() {
+    const el = document.getElementById('winsList');
+    if (wins.length === 0) { el.innerHTML = '<div style="text-align:center; color:var(--text2); font-size:13px; padding:20px;">No wins shipped yet — they\'ll show up here</div>'; return; }
+    el.innerHTML = wins.map(w => `
+      <div style="padding:12px; background:var(--surface2); border-radius:8px; margin-bottom:8px;">
+        <div style="font-weight:600; font-size:14px;">${w.text}</div>
+        <div style="font-size:12px; color:var(--text2); margin-top:4px;">User: ${w.user} &nbsp;|&nbsp; Business: ${w.biz} &nbsp;|&nbsp; ${w.date}</div>
+      </div>
+    `).join('');
+    document.getElementById('winsCount').textContent = wins.length + ' wins';
+  }
+
+  // ===== MODAL HANDLERS =====
+
+  function openMatrixModal(q) { document.getElementById('mxQuadrant').value = q; document.getElementById('matrixModal').classList.add('active'); document.getElementById('mxName').focus(); }
+  function openRoadmapModal(phase) { document.getElementById('rmPhase').value = phase; document.getElementById('roadmapModal').classList.add('active'); document.getElementById('rmName').focus(); }
+  function openFeatureModal() { document.getElementById('featureModal').classList.add('active'); document.getElementById('ftName').focus(); }
+  function openDecisionModal() { document.getElementById('decisionModal').classList.add('active'); document.getElementById('dcText').focus(); }
+  function openWinModal() { document.getElementById('winModal').classList.add('active'); document.getElementById('winText').focus(); }
+  function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+
+  function addMatrixItem() {
+    const name = document.getElementById('mxName').value.trim();
+    const impact = parseInt(document.getElementById('mxImpact').value);
+    const effort = parseInt(document.getElementById('mxEffort').value);
+    const q = document.getElementById('mxQuadrant').value;
+    if (!name) return;
+    const score = (impact / effort).toFixed(1);
+    matrixItems[q].push({ name, impact, effort, score });
+    document.getElementById('mxName').value = '';
+    closeModal('matrixModal');
+    renderMatrix();
+  }
+
+  function addRoadmapItem() {
+    const name = document.getElementById('rmName').value.trim();
+    const status = document.getElementById('rmStatus').value;
+    const phase = document.getElementById('rmPhase').value;
+    if (!name) return;
+    roadmapItems[phase].push({ name, status });
+    document.getElementById('rmName').value = '';
+    closeModal('roadmapModal');
+    renderRoadmap();
+  }
+
+  function addFeature() {
+    const name = document.getElementById('ftName').value.trim();
+    const status = document.getElementById('ftStatus').value;
+    if (!name) return;
+    features.push({ name, status });
+    document.getElementById('ftName').value = '';
+    closeModal('featureModal');
+    renderPipeline();
+  }
+
+  function addDecision() {
+    const text = document.getElementById('dcText').value.trim();
+    const type = document.getElementById('dcType').value;
+    const rationale = document.getElementById('dcRationale').value.trim();
+    if (!text) return;
+    decisions.unshift({ text, type, rationale, date: new Date().toISOString().split('T')[0] });
+    document.getElementById('dcText').value = '';
+    document.getElementById('dcRationale').value = '';
+    closeModal('decisionModal');
+    renderDecisions();
+  }
+
+  function addWin() {
+    const text = document.getElementById('winText').value.trim();
+    const user = document.getElementById('winUser').value.trim();
+    const biz = document.getElementById('winBiz').value.trim();
+    if (!text) return;
+    wins.unshift({ text, user, biz, date: new Date().toISOString().split('T')[0] });
+    document.getElementById('winText').value = '';
+    document.getElementById('winUser').value = '';
+    document.getElementById('winBiz').value = '';
+    closeModal('winModal');
+    renderWins();
+  }
+
+  function addFocus() {
+    const el = document.getElementById('focusItems');
+    const div = document.createElement('div');
+    div.className = 'focus-item';
+    div.innerHTML = '<input type="checkbox"> <span contenteditable="true">New focus item...</span>';
+    el.appendChild(div);
+  }
+
+  // Close modals on overlay click
+  document.querySelectorAll('.modal-overlay').forEach(el => {
+    el.addEventListener('click', e => { if (e.target === el) el.classList.remove('active'); });
+  });
+
+  // Close modals on Escape
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
+  });
+
+  // ===== INIT =====
+  renderStatusBoard();
+  renderMatrix();
+  renderRoadmap();
+  renderPipeline();
+  renderDecisions();
+  renderWins();
+</script>
+</body>
+</html>

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowCRM Dashboard",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html"
+    },
+    {
       "basename": "SparrowCRM home page",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM home page.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Instructions",
       "path": "4 - Archive/Sparrowgenie/Instructions/Instructions.md"
-    },
-    {
-      "basename": "Instructions from the Document",
-      "path": "4 - Archive/Sparrowgenie/Instructions/Instructions from the Document.md"
     }
   ],
   "omittedPaths": [],
