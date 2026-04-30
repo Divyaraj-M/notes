@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "1 - Projects/Sparrowcrm/Untitled.base"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Screenshot 2026-01-30 at 1.31.07 PM",
       "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png"
-    },
-    {
-      "basename": "Happyflow breakdown inputs",
-      "path": "4 - Archive/Screenshots/Happyflow breakdown inputs.png"
     }
   ],
   "omittedPaths": [],

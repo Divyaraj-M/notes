@@ -1,6 +1,6 @@
 {
   "nonEmptyLineDisabled": true,
-  "showPlaceholder": true,
+  "showPlaceholder": false,
   "cmdsSorting": [
     "insert-text",
     "insert-note-callout",

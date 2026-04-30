@@ -45,24 +45,13 @@
             "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "1 - Projects/Sparrowcrm/Untitled.base",
+                "viewName": "SparrowCrm"
               },
-              "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ],
@@ -382,11 +371,12 @@
   },
   "active": "9c0874b504367a22",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/Untitled.base",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
     "2 - Areas/Product Sync System/SME Operating system.md",
@@ -414,7 +404,6 @@
     "1 - Projects/Sparrowcrm/7 - Competitors",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards",
     "1 - Projects/Sparrowcrm/5 - Features",
-    "1 - Projects/Sparrowcrm/4 - Product Specs",
     "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md",
     "4 - Archive/Sparrowgenie/UAT/Shihab Document.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
