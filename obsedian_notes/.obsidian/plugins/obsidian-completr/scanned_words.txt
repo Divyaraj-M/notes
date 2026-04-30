@@ -9644,6 +9644,7 @@ QVj
 QBO
 Quarter
 Quotes
+Quote
 Flow
 Flows
 FRD
@@ -10101,6 +10102,7 @@ FEATURE
 FEAT
 Founded
 Funding
+Frustrations
 Goes
 Goals
 Gate

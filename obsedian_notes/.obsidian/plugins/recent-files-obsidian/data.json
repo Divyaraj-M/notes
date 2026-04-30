@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "My Product Notes",
+      "path": "3 - Resources/My Product Notes.md"
+    },
+    {
+      "basename": "Help Article Template",
+      "path": "3 - Resources/Help Article Template.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
+      "basename": "Friction Points",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md"
+    },
+    {
+      "basename": "User Personas",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md"
+    },
+    {
       "basename": "Product Vision",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
     },
@@ -9,20 +37,8 @@
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
     },
     {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
       "basename": "Product Management - Top Deliverables",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
       "basename": "Prioritization Matrix",
@@ -77,12 +93,8 @@
       "path": "3 - Resources/Learning/First Principle thinking.md"
     },
     {
-      "basename": "My Product Notes",
-      "path": "3 - Resources/My Product Notes.md"
-    },
-    {
       "basename": "Notification Strategy",
-      "path": "3 - Resources/Notification Strategy.md"
+      "path": "4 - Archive/Notification Strategy.md"
     },
     {
       "basename": "Sparrow Genie Notes",
@@ -146,7 +158,7 @@
     },
     {
       "basename": "Product Notes (Why Sales Needs Better Tools)",
-      "path": "3 - Resources/Product Notes (Why Sales Needs Better Tools).md"
+      "path": "4 - Archive/Product Notes (Why Sales Needs Better Tools).md"
     },
     {
       "basename": "Rigor of thoughts",
@@ -187,18 +199,6 @@
     {
       "basename": "Next 90 Day objective - Feb 1 to Apr 30",
       "path": "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
-    },
-    {
-      "basename": "Pasted image 20260325102236",
-      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png"
-    },
-    {
-      "basename": "laundry list",
-      "path": "4 - Archive/Sparrowgenie/laundry list.md"
-    },
-    {
-      "basename": "Routine",
-      "path": "2 - Areas/Daily/Routine.md"
     }
   ],
   "omittedPaths": [],
