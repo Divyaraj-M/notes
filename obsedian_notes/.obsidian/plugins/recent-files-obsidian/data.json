@@ -1,6 +1,146 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Management - Top Deliverables",
+      "path": "3 - Resources/Learning/Top Deliverables/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "Product specs",
+      "path": "3 - Resources/Learning/Top Deliverables/Product specs.md"
+    },
+    {
+      "basename": "Decisions",
+      "path": "3 - Resources/Learning/Top Deliverables/Decisions.md"
+    },
+    {
+      "basename": "Product thinking",
+      "path": "3 - Resources/Learning/Top Deliverables/Product thinking.md"
+    },
+    {
+      "basename": "Product Notes (Why Sales Needs Better Tools)",
+      "path": "3 - Resources/Product Notes (Why Sales Needs Better Tools).md"
+    },
+    {
+      "basename": "Rigor of thoughts",
+      "path": "3 - Resources/Learning/Top Deliverables/Rigor of thoughts.md"
+    },
+    {
+      "basename": "Screenshot 2025-12-15 at 11.51.50 AM",
+      "path": "3 - Resources/Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png"
+    },
+    {
+      "basename": "Customer Insights",
+      "path": "3 - Resources/Learning/Top Deliverables/Customer Insights.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "3 - Resources/Learning/Top Deliverables/Edge case Analysis.md"
+    },
+    {
+      "basename": "Metrics & Dashboards",
+      "path": "3 - Resources/Learning/Top Deliverables/Metrics & Dashboards.md"
+    },
+    {
+      "basename": "Product Roadmap",
+      "path": "3 - Resources/Learning/Top Deliverables/Product Roadmap.md"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "3 - Resources/Learning/First Principle thinking.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
+      "path": "3 - Resources/Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png"
+    },
+    {
+      "basename": "Hybrid thinking product framework",
+      "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md"
+    },
+    {
+      "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
+      "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md"
+    },
+    {
+      "basename": "hybrid-thinking-worksheet",
+      "path": "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md"
+    },
+    {
+      "basename": "Atomic Habits and deliberate practice applied to product management",
+      "path": "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
+    },
+    {
+      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
+      "path": "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
+    },
+    {
+      "basename": "Pasted image 20260325102236",
+      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png"
+    },
+    {
+      "basename": "Product Strategy",
+      "path": "2 - Areas/Product Vision & Strategy/Product Strategy.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "2 - Areas/Product Vision & Strategy/Product Vision.md"
+    },
+    {
+      "basename": "SME Operating system",
+      "path": "2 - Areas/Product Sync System/SME Operating system.md"
+    },
+    {
+      "basename": "Product Review system",
+      "path": "2 - Areas/Product Sync System/Product Review system.md"
+    },
+    {
+      "basename": "laundry list",
+      "path": "4 - Archive/Sparrowgenie/laundry list.md"
+    },
+    {
+      "basename": "Routine",
+      "path": "2 - Areas/Daily/Routine.md"
+    },
+    {
+      "basename": "Audit Report R126022026",
+      "path": "4 - Archive/Sparrowgenie/Audit Report/Audit Report R126022026.md"
+    },
+    {
+      "basename": "SparrowGenie_Demo_Prep_SPIN_FAB",
+      "path": "4 - Archive/Sparrowgenie/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html"
+    },
+    {
+      "basename": "image (2)",
+      "path": "4 - Archive/Screenshots/image (2).png"
+    },
+    {
+      "basename": "Screenshot 2026-01-30 at 1.31.07 PM",
+      "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png"
+    },
+    {
+      "basename": "Happyflow breakdown inputs",
+      "path": "4 - Archive/Screenshots/Happyflow breakdown inputs.png"
+    },
+    {
+      "basename": "Screenshot 2026-01-29 at 11.54.14 AM",
+      "path": "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png"
+    },
+    {
+      "basename": "Screenshot 2026-01-29 at 12.18.35 PM",
+      "path": "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png"
+    },
+    {
+      "basename": "Screenshot 2026-01-30 at 1.29.09 PM",
+      "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.29.09 PM.png"
+    },
+    {
+      "basename": "Instructions",
+      "path": "4 - Archive/Sparrowgenie/Instructions/Instructions.md"
+    },
+    {
+      "basename": "Instructions from the Document",
+      "path": "4 - Archive/Sparrowgenie/Instructions/Instructions from the Document.md"
+    },
+    {
       "basename": "Resources - Sparrow Genie",
       "path": "3 - Resources/Genie Journal/Resources - Sparrow Genie.md"
     },
@@ -37,36 +177,12 @@
       "path": "3 - Resources/Sparrow Genie Notes.md"
     },
     {
-      "basename": "Product Notes (Why Sales Needs Better Tools)",
-      "path": "3 - Resources/Product Notes (Why Sales Needs Better Tools).md"
-    },
-    {
-      "basename": "First Principle thinking",
-      "path": "3 - Resources/Learning/First Principle thinking.md"
-    },
-    {
-      "basename": "Atomic Habits and deliberate practice applied to product management",
-      "path": "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
-    },
-    {
-      "basename": "Pasted image 20260325102236",
-      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png"
-    },
-    {
       "basename": "Jira Process",
       "path": "3 - Resources/Learning/Product Process/Jira Process.md"
     },
     {
-      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
-      "path": "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
-    },
-    {
       "basename": "Pasted image 20260325102320",
       "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Projects/Untitled.md"
     },
     {
       "basename": "Udemy",
@@ -83,70 +199,6 @@
     {
       "basename": "Sparrow Genie - Project Phase II",
       "path": "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "TO DO List - today.md"
-    },
-    {
-      "basename": "App.responsive.io - mapping screen analysis",
-      "path": "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "4 - Archive/Sparrowgenie/Friction points.md"
-    },
-    {
-      "basename": "UAT Vipin",
-      "path": "4 - Archive/Sparrowgenie/UAT/UAT Vipin.md"
-    },
-    {
-      "basename": "Drawing 2026-04-27 16.05.33.excalidraw",
-      "path": "Excalidraw/Drawing 2026-04-27 16.05.33.excalidraw.md"
-    },
-    {
-      "basename": "Shihab Document",
-      "path": "4 - Archive/Sparrowgenie/UAT/Shihab Document.md"
-    },
-    {
-      "basename": "2026-04-27 16-24-02",
-      "path": "4 - Archive/Sparrowgenie/Year2026/Quarter2/Month04/Day27/2026-04-27 16-24-02.md"
-    },
-    {
-      "basename": "UAT vipin 2026-02-23",
-      "path": "4 - Archive/Daily/UAT vipin 2026-02-23.md"
-    },
-    {
-      "basename": "UAT Kavin",
-      "path": "4 - Archive/Daily/UAT Kavin.md"
-    },
-    {
-      "basename": "AS 9100 D Certification Roadmap",
-      "path": "4 - Archive/Sparrowgenie/UAT/AS 9100 D Certification Roadmap.md"
-    },
-    {
-      "basename": "Dataset - 25 Common Story Arcs",
-      "path": "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md"
-    },
-    {
-      "basename": "Thinking",
-      "path": "Thinking.md"
-    },
-    {
-      "basename": "Sarindustriespune",
-      "path": "1 - Projects/Second Stream Revenue/Google_sheets/Sarindustriespune.md"
-    },
-    {
-      "basename": "Second_stream_revenue.excalidraw",
-      "path": "1 - Projects/Second Stream Revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Integrations",
-      "path": "4 - Archive/Sparrowgenie/Integrations.md"
-    },
-    {
-      "basename": "sparrowgenie-roi-final",
-      "path": "Product/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
     }
   ],
   "omittedPaths": [],

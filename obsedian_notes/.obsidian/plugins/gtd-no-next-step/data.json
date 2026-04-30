@@ -2,10 +2,5 @@
   "nextStepTag": "#next-step",
   "waitingForTag": "#waiting-for",
   "projectsFolderPrefix": "Projects/",
-  "projectFileCache": {
-    "Projects/Untitled.md": {
-      "mtime": 1777021809544,
-      "nextStep": false
-    }
-  }
+  "projectFileCache": {}
 }
