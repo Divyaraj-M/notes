@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "1 - Projects/Sparrowcrm/Untitled.base"
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base"
     },
     {
       "basename": "Product Roadmap",
@@ -195,10 +195,6 @@
     {
       "basename": "image (2)",
       "path": "4 - Archive/Screenshots/image (2).png"
-    },
-    {
-      "basename": "Screenshot 2026-01-30 at 1.31.07 PM",
-      "path": "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png"
     }
   ],
   "omittedPaths": [],

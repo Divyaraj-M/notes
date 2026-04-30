@@ -10,6 +10,8 @@ tags:
 # SparrowCRM — Product Home
 
 ---
+![[1 - Projects/Sparrowcrm/Untitled.base]]
+
 ## Quick Navigation
 
 | Section            | Pages                                                           |

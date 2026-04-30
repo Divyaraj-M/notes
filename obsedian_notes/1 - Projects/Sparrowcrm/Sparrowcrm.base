@@ -2,14 +2,20 @@ views:
   - type: table
     name: Table
   - type: table
-    name: Sparrowcrm
+    name: SparrowCrm
     filters:
       and:
         - file.inFolder("1 - Projects/Sparrowcrm")
     order:
       - file.name
+      - status
       - priority_score
       - quarter
-      - status
       - file.tags
-      - file.path
+      - effort
+      - impact
+      - feature
+      - file.backlinks
+    sort:
+      - property: owner
+        direction: DESC

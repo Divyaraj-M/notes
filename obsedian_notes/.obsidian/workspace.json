@@ -45,13 +45,24 @@
             "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Untitled.base",
-                "viewName": "SparrowCrm"
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Sparrowcrm"
             }
           }
         ],
@@ -371,8 +382,10 @@
   },
   "active": "9c0874b504367a22",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Untitled.base",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
+    "1 - Projects/Sparrowcrm/Untitled.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Product Roadmap.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
@@ -405,7 +418,6 @@
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards",
     "1 - Projects/Sparrowcrm/5 - Features",
     "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md",
-    "4 - Archive/Sparrowgenie/UAT/Shihab Document.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
