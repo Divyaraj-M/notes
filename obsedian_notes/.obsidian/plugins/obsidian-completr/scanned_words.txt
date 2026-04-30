@@ -500,6 +500,7 @@ TioK
 Thinks
 Those
 THIS
+Tracked
 Docs
 Doc
 Designer
@@ -996,6 +997,7 @@ DELIVERABLES
 Deliverables
 Deliverable
 DECISIONS
+Dashboards
 Who
 When
 What
@@ -4563,6 +4565,7 @@ PLAN
 PIPELINE
 PRODUCT
 Postgres
+Personas
 Before
 Blast
 BM
@@ -5603,6 +5606,7 @@ dcText
 dcType
 dcRationale
 doneCount
+darr
 starts
 sub
 screens
@@ -6552,6 +6556,7 @@ statusBoard
 statusClasses
 statusLabels
 statusWeight
+stats
 everyone
 exactly
 each
@@ -10075,6 +10080,7 @@ Forward
 FOCUS
 FIRST
 FEATURE
+FEAT
 Goes
 Goals
 Gate
@@ -12409,6 +12415,7 @@ Consumer
 Capturi
 Cockpit
 Churn
+COMP
 How
 Hubs
 Hub
@@ -14689,6 +14696,7 @@ focusItems
 featureModal
 ftName
 ftStatus
+frontmatter
 live
 links
 locked
@@ -15171,6 +15179,7 @@ lJt
 lbZ
 lBD
 lowest
+larr
 here
 has
 how
@@ -15601,6 +15610,7 @@ hQQ
 hlq
 hlvyL
 hdlPBdqd
+howto
 Every
 Engineers
 Expected
@@ -17187,6 +17197,7 @@ uEG
 uZD
 uLm
 unshift
+uarr
 phases
 problem
 placeholder
@@ -17901,6 +17912,7 @@ possibility
 progressFill
 pipelineCount
 pipe
+python
 goals
 give
 generates
@@ -20536,6 +20548,7 @@ mxImpact
 mxEffort
 mxQuadrant
 matrixItems
+middot
 Owners
 Opportunity
 Owner
@@ -22371,6 +22384,8 @@ VqOT
 VVf
 VMBZCsTL
 VawfoT
+Vault
+Valid
 zero
 zDBSSQvc
 zphvsd

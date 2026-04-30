@@ -11,50 +11,13 @@
             "id": "89eb48ac768093e4",
             "type": "leaf",
             "state": {
-              "type": "html-view",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html"
-              },
-              "icon": "code-glyph",
-              "title": "SparrowCRM Dashboard"
-            }
-          },
-          {
-            "id": "82313d58f6b1104d",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
+              "type": "graph",
               "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "6226819989c388a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "SparrowCRM home page"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -370,10 +333,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "6226819989c388a6",
+  "active": "89eb48ac768093e4",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
-    "1 - Projects/Sparrowcrm/SparrowCRM home page.md",
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
     "2 - Areas/Product Sync System/SME Operating system.md",
     "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md",
