@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowCRM home page",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM home page.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
+    },
+    {
       "basename": "Product Management - Top Deliverables",
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Onboarding Emails Reference",
       "path": "3 - Resources/Onboarding Emails Reference.md"
-    },
-    {
-      "basename": "Sparrow Genie Notes",
-      "path": "3 - Resources/Sparrow Genie Notes.md"
     }
   ],
   "omittedPaths": [],
