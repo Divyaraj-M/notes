@@ -117,24 +117,10 @@
             "id": "6226819989c388a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Management - Top Deliverables"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -456,6 +442,7 @@
   },
   "active": "6226819989c388a6",
   "lastOpenFiles": [
+    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Projects",
     "1 - Projects/Sparrowcrm",
     "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md",
@@ -464,7 +451,6 @@
     "3 - Resources/Learning/Top Deliverables CRM/Customer Insights.md",
     "3 - Resources/Learning/Top Deliverables CRM/Decisions.md",
     "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md",
-    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Roadmap.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product specs.md",
     "2 - Areas/Product Vision & Strategy/Product Strategy.md",
@@ -501,7 +487,6 @@
     "4 - Archive/Sparrowgenie/Users",
     "4 - Archive/Sparrowgenie/User Roles/Project/Question card",
     "4 - Archive/Sparrowgenie/User Roles/Project",
-    "4 - Archive/Sparrowgenie/User Roles",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
