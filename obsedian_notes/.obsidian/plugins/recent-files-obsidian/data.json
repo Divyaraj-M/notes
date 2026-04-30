@@ -1,28 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Resources - Sparrow Genie",
+      "path": "3 - Resources/Genie Journal/Resources - Sparrow Genie.md"
+    },
+    {
+      "basename": "2025-12-12",
+      "path": "3 - Resources/Genie Journal/2025-12-12.md"
+    },
+    {
+      "basename": "Demo Important Points",
+      "path": "3 - Resources/Genie Journal/Demo Important Points.md"
+    },
+    {
+      "basename": "SparrowGenie.excalidraw",
+      "path": "4 - Archive/Sparrowgenie/SparrowGenie.excalidraw.md"
+    },
+    {
+      "basename": "Help Article Template",
+      "path": "3 - Resources/Help Article Template.md"
+    },
+    {
+      "basename": "Find Analogies",
+      "path": "3 - Resources/Find Analogies.md"
+    },
+    {
+      "basename": "Notification Strategy",
+      "path": "3 - Resources/Notification Strategy.md"
+    },
+    {
+      "basename": "Onboarding Emails Reference",
+      "path": "3 - Resources/Onboarding Emails Reference.md"
+    },
+    {
+      "basename": "Sparrow Genie Notes",
+      "path": "3 - Resources/Sparrow Genie Notes.md"
+    },
+    {
+      "basename": "Product Notes (Why Sales Needs Better Tools)",
+      "path": "3 - Resources/Product Notes (Why Sales Needs Better Tools).md"
+    },
+    {
+      "basename": "First Principle thinking",
+      "path": "3 - Resources/Learning/First Principle thinking.md"
+    },
+    {
+      "basename": "Atomic Habits and deliberate practice applied to product management",
+      "path": "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md"
+    },
+    {
+      "basename": "Pasted image 20260325102236",
+      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png"
+    },
+    {
+      "basename": "Jira Process",
+      "path": "3 - Resources/Learning/Product Process/Jira Process.md"
+    },
+    {
+      "basename": "Next 90 Day objective - Feb 1 to Apr 30",
+      "path": "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md"
+    },
+    {
+      "basename": "Pasted image 20260325102320",
+      "path": "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Projects/Untitled.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
+    },
+    {
       "basename": "Genie Actions inside the Questions card",
-      "path": "1 - Projects/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+      "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
     {
       "basename": "Screenshot 2026-03-18 at 3.28.01 PM",
-      "path": "1 - Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png"
-    },
-    {
-      "basename": "Multi Document Support",
-      "path": "1 - Projects/Multi Document Support.md"
+      "path": "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png"
     },
     {
       "basename": "Sparrow Genie - Project Phase II",
-      "path": "1 - Projects/Sparrow Genie - Project Phase II.md"
-    },
-    {
-      "basename": "RFP training",
-      "path": "1 - Projects/Knowledge Hub/RFP training.md"
-    },
-    {
-      "basename": "SparrowGenie - Help Articles",
-      "path": "1 - Projects/Help Articles/SparrowGenie - Help Articles.md"
+      "path": "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md"
     },
     {
       "basename": "TO DO List - today",
@@ -30,15 +90,7 @@
     },
     {
       "basename": "App.responsive.io - mapping screen analysis",
-      "path": "2 - Areas/Competitors/App.responsive.io - mapping screen analysis.md"
-    },
-    {
-      "basename": "Getting Started",
-      "path": "1 - Projects/Help Articles/Getting Started.md"
-    },
-    {
-      "basename": "Create a project",
-      "path": "1 - Projects/Help Articles/Create a project.md"
+      "path": "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md"
     },
     {
       "basename": "Friction points",
@@ -49,20 +101,8 @@
       "path": "4 - Archive/Sparrowgenie/UAT/UAT Vipin.md"
     },
     {
-      "basename": "RFP training PRD",
-      "path": "1 - Projects/Knowledge Hub/RFP training PRD.md"
-    },
-    {
-      "basename": "QnA training loop",
-      "path": "1 - Projects/Knowledge Hub/QnA training loop.md"
-    },
-    {
       "basename": "Drawing 2026-04-27 16.05.33.excalidraw",
       "path": "Excalidraw/Drawing 2026-04-27 16.05.33.excalidraw.md"
-    },
-    {
-      "basename": "Udemy",
-      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
     },
     {
       "basename": "Shihab Document",
@@ -70,7 +110,7 @@
     },
     {
       "basename": "2026-04-27 16-24-02",
-      "path": "1 - Projects/Year2026/Quarter2/Month04/Day27/2026-04-27 16-24-02.md"
+      "path": "4 - Archive/Sparrowgenie/Year2026/Quarter2/Month04/Day27/2026-04-27 16-24-02.md"
     },
     {
       "basename": "UAT vipin 2026-02-23",
@@ -81,72 +121,16 @@
       "path": "4 - Archive/Daily/UAT Kavin.md"
     },
     {
-      "basename": "Knowledge Hub",
-      "path": "1 - Projects/Knowledge Hub/Knowledge Hub.md"
-    },
-    {
       "basename": "AS 9100 D Certification Roadmap",
       "path": "4 - Archive/Sparrowgenie/UAT/AS 9100 D Certification Roadmap.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Projects/Untitled.md"
-    },
-    {
-      "basename": "Help Article Template",
-      "path": "3 - Resources/Help Article Template.md"
-    },
-    {
-      "basename": "Project - Proposals",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Project - Proposals.md"
-    },
-    {
-      "basename": "Proposal Conversion",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion.md"
-    },
-    {
-      "basename": "sparrowgenie-email-preview",
-      "path": "1 - Projects/Marketing/ROI Calculator/sparrowgenie-email-preview.html"
     },
     {
       "basename": "Dataset - 25 Common Story Arcs",
       "path": "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md"
     },
     {
-      "basename": "sparrowgenie-email-template",
-      "path": "1 - Projects/Marketing/ROI Calculator/sparrowgenie-email-template.html"
-    },
-    {
-      "basename": "sparrowgenie-roi-final",
-      "path": "1 - Projects/Marketing/ROI Calculator/sparrowgenie-roi-final.html"
-    },
-    {
-      "basename": "ROI Calculator",
-      "path": "1 - Projects/Marketing/ROI Calculator/ROI Calculator.md"
-    },
-    {
       "basename": "Thinking",
       "path": "Thinking.md"
-    },
-    {
-      "basename": "Proposal Conversion Flow",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Conversion Flow.md"
-    },
-    {
-      "basename": "Project Share - RFx and Proposal",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md"
-    },
-    {
-      "basename": "Proposal Creation Flow",
-      "path": "1 - Projects/Proposals/RFP to Proposal/Proposal Creation Flow.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "1 - Projects/Proposals/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "wireframe",
-      "path": "1 - Projects/Proposals/RFP to Proposal/wireframe.html"
     },
     {
       "basename": "Sarindustriespune",
@@ -155,18 +139,6 @@
     {
       "basename": "Second_stream_revenue.excalidraw",
       "path": "1 - Projects/Second Stream Revenue/Second_stream_revenue.excalidraw.md"
-    },
-    {
-      "basename": "Training back Projects into Knowledge Hubs",
-      "path": "1 - Projects/Knowledge Hub/Training back Projects into Knowledge Hubs.md"
-    },
-    {
-      "basename": "Brand Kit",
-      "path": "1 - Projects/Brand Kit/Brand Kit.md"
-    },
-    {
-      "basename": "First Principle thinking - Table View",
-      "path": "1 - Projects/Table View/First Principle thinking - Table View.md"
     },
     {
       "basename": "Integrations",

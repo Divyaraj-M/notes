@@ -23,7 +23,7 @@ Proposals are just the beginning. The long-term vision is to become the AI layer
 
 The working notes behind SparrowGenie — specs, teardowns, decisions, and everything in between.
 
-**Projects** → [[Final PRD -Rich Text Editor for Project Response Area|Rich Text Editor PRD]] → [[Context info - PRD|Context Info PRD]] → [[Obligations|Obligations]] → [[Table view for question card PRD|Table View PRD]] → [[Proposal Template flow|Proposal Templates]] → [[Chrome Extension|Chrome Extension]] → [[Decision-State Progress Bars|Progress Bars]] → [[Attachments in RFP response - Product Spec|Attachments in RFP Responses]] → [[Insert from QnA|Insert from QnA]] → [[Share assign and review flow|Share, Assign & Review Flow]]
+**Projects** → [[Final PRD -Rich Text Editor for Project Response Area|Rich Text Editor PRD]] → [[Context info - PRD|Context Info PRD]] → [[Obligations|Obligations]] → [[Table view for question card PRD|Table View PRD]] → [[Proposal Template flow|Proposal Templates]] → [[4 - Archive/Sparrowgenie/Competitors/Loopio/Chrome Extension|Chrome Extension]] → [[Decision-State Progress Bars|Progress Bars]] → [[Attachments in RFP response - Product Spec|Attachments in RFP Responses]] → [[Insert from QnA|Insert from QnA]] → [[Share assign and review flow|Share, Assign & Review Flow]]
 
 **Knowledge Hub** → [[Knowledge Hub]] → [[RFP training PRD]] → [[Training back Projects into Knowledge Hubs]]
 
