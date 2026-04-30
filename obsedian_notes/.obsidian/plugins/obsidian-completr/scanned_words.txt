@@ -990,6 +990,7 @@ DEc
 DRu
 Defines
 Decides
+Didn
 Who
 When
 What
@@ -4527,6 +4528,7 @@ Pug
 PLi
 Princples
 Possibility
+Published
 Before
 Blast
 BM
@@ -7716,6 +7718,7 @@ Ships
 Saying
 Shipped
 Steve
+SparrowCRM
 Lead
 Loop
 Linking
@@ -9557,6 +9560,7 @@ QgKzg
 QZwe
 QVj
 QBO
+Quarter
 Flow
 Flows
 FRD
@@ -10006,6 +10010,8 @@ FiX
 Fzo
 Frames
 Forming
+Floor
+Forward
 Goes
 Goals
 Gate
@@ -11354,6 +11360,7 @@ RRIn
 RYA
 RDn
 Revisits
+Retrospective
 need
 needing
 nested
@@ -20793,6 +20800,7 @@ OMP
 OmvAf
 OGv
 OFx
+OKRs
 Metric
 Manager
 Must

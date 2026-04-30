@@ -1,0 +1,29 @@
+---
+status: Draft
+created: 2026-04-30
+updated: 2026-04-30
+owner: 
+tags: [specs, index]
+---
+
+# Product Specs Index
+
+> _Written requirements that provide strong context and clear scope to guide design and engineering._
+
+## All Specs
+
+| Spec | Feature | Status | Owner | Last Updated |
+|------|---------|--------|-------|-------------|
+|      |         |        |       |             |
+
+## How to Create a New Spec
+
+1. Duplicate the [[Spec Template]] file
+2. Rename it: `SPEC - [Feature Name].md`
+3. Fill in all sections
+4. Update status in frontmatter as it progresses
+5. Add it to this index table
+
+---
+
+**Related:** [[Features Index]] | [[Product Roadmap]] | [[Prioritization Matrix]]

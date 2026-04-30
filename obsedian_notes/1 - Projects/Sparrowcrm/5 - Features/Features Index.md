@@ -1,0 +1,41 @@
+---
+status: Draft
+created: 2026-04-30
+updated: 2026-04-30
+owner: 
+tags: [features, index]
+---
+
+# Features Index
+
+> _All features — planned, in progress, and shipped._
+
+## Feature Tracker
+
+| Feature | Status | Priority | Spec | Owner | Ship Date |
+|---------|--------|----------|------|-------|-----------|
+|         |        |          |      |       |           |
+
+## Status Key
+
+| Status | Meaning |
+|--------|---------|
+| Draft | Idea captured, not yet scoped |
+| Done | Spec complete |
+| Reviewed | Reviewed by stakeholders |
+| Design | In design phase |
+| Dev | In development |
+| Staging | QA / testing |
+| In Production | Shipped and live |
+
+## How to Add a Feature
+
+1. Duplicate the [[Feature Template]] file
+2. Rename it: `FEAT - [Feature Name].md`
+3. Fill in all sections
+4. Add it to this index table
+5. Score it in [[Prioritization Matrix]]
+
+---
+
+**Related:** [[Specs Index]] | [[Product Roadmap]] | [[Prioritization Matrix]]
