@@ -1379,6 +1379,7 @@ WINS
 WhatsApp
 Well
 Weakness
+Whys
 writes
 we
 work
@@ -3132,6 +3133,7 @@ renderPipeline
 renderDecisions
 renderWins
 refined
+relying
 Jira
 Jdjxj
 JIvrU
@@ -4036,6 +4038,8 @@ timely
 tHV
 trend
 toFixed
+transaction
+talking
 PM
 PRD
 Problem
@@ -4574,6 +4578,7 @@ PRODUCT
 Postgres
 Personas
 Parked
+Premise
 Before
 Blast
 BM
@@ -5618,6 +5623,10 @@ doneCount
 darr
 detected
 distribute
+destroys
+destroying
+destruction
+dislike
 starts
 sub
 screens
@@ -6569,6 +6578,11 @@ statusLabels
 statusWeight
 stats
 sparrowcrm
+silos
+sick
+sustainably
+survive
+staring
 everyone
 exactly
 each
@@ -7159,6 +7173,7 @@ eLA
 eesM
 eHt
 ecec
+eating
 Story
 Stories
 Should
@@ -9366,6 +9381,8 @@ addRoadmapItem
 addFeature
 addDecision
 addWin
+acting
+accelerator
 QA
 Question
 Quality
@@ -10903,6 +10920,7 @@ baises
 beforehand
 biz
 backlinks
+beings
 Requirements
 Radius
 Rules
@@ -12448,6 +12466,7 @@ Capability
 CAC
 Channel
 Considered
+CRMs
 How
 Hubs
 Hub
@@ -13747,6 +13766,9 @@ contenteditable
 closeModal
 cockpit
 cleanup
+constantly
+communicating
+connections
 on
 owns
 one
@@ -14730,6 +14752,7 @@ featureModal
 ftName
 ftStatus
 frontmatter
+forecast
 live
 links
 locked
@@ -15213,6 +15236,7 @@ lbZ
 lBD
 lowest
 larr
+logging
 here
 has
 how
@@ -15644,6 +15668,7 @@ hlq
 hlvyL
 hdlPBdqd
 howto
+half
 Every
 Engineers
 Expected
@@ -16435,6 +16460,7 @@ vxd
 vLO
 vHU
 vlu
+valued
 No
 Non
 Nice
@@ -17233,6 +17259,7 @@ uZD
 uLm
 unshift
 uarr
+unsustainable
 phases
 problem
 placeholder
@@ -17949,6 +17976,7 @@ pipelineCount
 pipe
 python
 progresses
+protect
 goals
 give
 generates
@@ -18327,6 +18355,7 @@ gJQ
 gYqM
 gDJb
 gNG
+garbage
 It
 If
 Inside
@@ -20588,6 +20617,7 @@ mxEffort
 mxQuadrant
 matrixItems
 middot
+memories
 Owners
 Opportunity
 Owner
