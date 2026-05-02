@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SparrowDesk"
+              "title": "5 - Features"
+            }
+          },
+          {
+            "id": "5285e1d13663d10a",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
             }
           },
           {
@@ -143,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:customer_insights",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -275,20 +285,6 @@
               "icon": "lucide-list",
               "title": "Outline of SparrowDesk"
             }
-          },
-          {
-            "id": "a614ca7c9e41fe23",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from SparrowDesk"
-            }
           }
         ],
         "currentTab": 4
@@ -383,13 +379,19 @@
   },
   "active": "4194c897b71cd097",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Jira.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Stripe.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for GPT.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for Claude.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/MCP Connector.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Sheets.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md",
@@ -397,20 +399,14 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Calendar.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Divyaraj Murugan.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Yuvaraj Singh J.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Madhan  M.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
-    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
-    "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
