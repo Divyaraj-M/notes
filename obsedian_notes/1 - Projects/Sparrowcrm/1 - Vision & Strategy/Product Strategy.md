@@ -28,7 +28,6 @@ tags: [strategy]
 ## Competitive Advantage / Moat
 
 - **AI on both sides (capture + retrieval):** Most CRMs bolt on AI as an afterthought — a summary here, a suggestion there. SparrowCRM is built AI-first: the entire data layer assumes AI is doing the writing and the reading.
-- **SparrowDesk integration:** Native connection to SparrowDesk means sales and support data live together — reps see support tickets, support sees deal context. Competitors can't replicate this without acquisitions.
 - **MCP/Native connectors for Claude and GPT:** Letting external AI tools query and write to SparrowCRM via native connectors creates a platform moat — once a customer's AI workflows depend on SparrowCRM data, switching costs go up significantly.
 - **Integration depth:** Deep integrations with the tools teams already use (Zoom, Google Calendar, Slack, Jira, Stripe) means SparrowCRM becomes the connective tissue of the sales stack, not just another tab.
 
