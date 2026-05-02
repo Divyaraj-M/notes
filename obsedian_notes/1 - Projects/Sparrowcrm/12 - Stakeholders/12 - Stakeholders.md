@@ -10,3 +10,4 @@
 - [[Supraja]] - Intern UX Design
 - [[Madhan  M]] - Senior Product Developer
 - [[Yuvaraj Singh J]] - Product Developer 
+- [[Divyaraj Murugan]] - Associate Product manager

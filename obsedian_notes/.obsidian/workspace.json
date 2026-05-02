@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
+                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Integrations-CRM"
+              "title": "12 - Stakeholders"
             }
           },
           {
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
+                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Integrations-CRM"
+              "title": "Outline of 12 - Stakeholders"
             }
           }
         ],
@@ -383,12 +383,13 @@
   },
   "active": "4194c897b71cd097",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/12 - Stakeholders/Divyaraj Murugan.md",
+    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Yuvaraj Singh J.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Madhan  M.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -410,7 +411,6 @@
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",

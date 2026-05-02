@@ -4,9 +4,6 @@ created: 2026-05-02
 updated: 2026-05-02
 owner:
 tags:
-impact:
-effort:
-priority_score:
 ---
 
 # FEAT — Integrations CRM
@@ -39,18 +36,20 @@ priority_score:
 
 ## Integration Channels
 
-| #   | Channel                                            | Priority | Status | Notes                                                          |
-| --- | -------------------------------------------------- | -------- | ------ | -------------------------------------------------------------- |
-| 1   | [[SparrowDesk]]                                    | P0       | Draft  |                                                                |
-| 2   | [[Zoom]]                                           | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
-| 3   | [[Google Calendar]]                                | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
-| 4   | [[Slack]]                                          | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
-| 5   | [[Zapier]]                                         | P1       | Draft  |                                                                |
-| 6   | [[Google Search Console]]                          | P1       | Draft  |                                                                |
-| 7   | [[Google Sheets]]                                  | P1       | Draft  |                                                                |
-| 8   | [[MCP Connector / Native SparrowCRM for Claude+GPT | P1       | Draft  |                                                                |
-| 9   | Stripe                                             | P2       | Draft  | Refer current HubSpot integration with Stripe                  |
-| 10  | Jira                                               | P2       | Draft  | Refer how HubSpot is integrated with our internal Jira account |
+| #   | Channel                          | Priority | Status | Notes                                                          |
+| --- | -------------------------------- | -------- | ------ | -------------------------------------------------------------- |
+| 1   | [[SparrowDesk]]                  | P0       | Draft  |                                                                |
+| 2   | [[Zoom]]                         | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
+| 3   | [[Google Calendar]]              | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
+| 4   | [[Slack]]                        | P0       | Done   | Already done — discuss with Sakthi whether any help needed     |
+| 5   | [[Zapier]]                       | P1       | Draft  |                                                                |
+| 6   | [[Google Search Console]]        | P1       | Draft  |                                                                |
+| 7   | [[Google Sheets]]                | P1       | Draft  |                                                                |
+| 8   | [[MCP Connector]]                | P1       | Draft  |                                                                |
+| 9   | [[Native SparrowCRM for Claude]] | P1       | Draft  |                                                                |
+| 10  | [[Native SparrowCRM for GPT]]    | P1       | Draft  |                                                                |
+| 11  | [[Stripe]]                       | P2       | Draft  | Refer current HubSpot integration with Stripe                  |
+| 12  | [[Jira]]                         | P2       | Draft  | Refer how HubSpot is integrated with our internal Jira account |
 
 ## Data Sync Strategy
 
