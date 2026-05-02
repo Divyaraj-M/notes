@@ -3137,6 +3137,7 @@ renderDecisions
 renderWins
 refined
 relying
+replicate
 Jira
 Jdjxj
 JIvrU
@@ -4043,6 +4044,7 @@ trend
 toFixed
 transaction
 talking
+tissue
 PM
 PRD
 Problem
@@ -4583,6 +4585,9 @@ Personas
 Parked
 Premise
 Props
+Pipedrive
+Pros
+Probably
 Before
 Blast
 BM
@@ -5632,6 +5637,7 @@ destroys
 destroying
 destruction
 dislike
+dig
 starts
 sub
 screens
@@ -6588,6 +6594,9 @@ sick
 sustainably
 survive
 staring
+sides
+suffers
+scare
 everyone
 exactly
 each
@@ -7819,6 +7828,7 @@ Solves
 Sakthi
 Synced
 Sparrowdesk
+Subscription
 Lead
 Loop
 Linking
@@ -8194,6 +8204,7 @@ Looks
 Letting
 Lessons
 Learned
+Land
 After
 API
 All
@@ -9395,6 +9406,9 @@ addDecision
 addWin
 acting
 accelerator
+afterthought
+assumes
+acquisitions
 QA
 Question
 Quality
@@ -10138,6 +10152,8 @@ Funding
 Frustrations
 Frequency
 Fallbacks
+Freemium
+Free
 Goes
 Goals
 Gate
@@ -10936,6 +10952,9 @@ beforehand
 biz
 backlinks
 beings
+became
+bolt
+bills
 Requirements
 Radius
 Rules
@@ -11883,6 +11902,7 @@ nKJhW
 nNAf
 nVJ
 needle
+nagging
 Constraints
 Contracts
 Completable
@@ -12485,6 +12505,8 @@ Considered
 CRMs
 Campaign
 Channels
+Console
+Cons
 How
 Hubs
 Hub
@@ -13791,6 +13813,10 @@ communicating
 connections
 campaigns
 crm
+chore
+connection
+connectors
+connective
 on
 owns
 one
@@ -14228,6 +14254,7 @@ openRoadmapModal
 openFeatureModal
 openDecisionModal
 openWinModal
+overage
 flows
 from
 full
@@ -14775,6 +14802,7 @@ ftName
 ftStatus
 frontmatter
 forecast
+forecasts
 live
 links
 locked
@@ -15259,6 +15287,8 @@ lBD
 lowest
 larr
 logging
+lever
+land
 here
 has
 how
@@ -16483,6 +16513,7 @@ vLO
 vHU
 vlu
 valued
+viral
 No
 Non
 Nice
@@ -17282,6 +17313,7 @@ uLm
 unshift
 uarr
 unsustainable
+upside
 phases
 problem
 placeholder
@@ -17999,6 +18031,9 @@ pipe
 python
 progresses
 protect
+policing
+paid
+prep
 goals
 give
 generates
@@ -20641,6 +20676,8 @@ mxQuadrant
 matrixItems
 middot
 memories
+moat
+monetize
 Owners
 Opportunity
 Owner
@@ -21478,6 +21515,7 @@ MAU
 Monetization
 Moat
 Meaning
+MCP
 UI
 Users
 User
@@ -21866,6 +21904,7 @@ UpO
 UZD
 Uoa
 Uaog
+Unpredictable
 XLS
 XLSX
 XXX
@@ -24002,6 +24041,7 @@ ZVe
 ZKk
 ZWw
 ZVk
+Zoom
 üy
 üI
 üU
