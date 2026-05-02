@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5 - Features"
+              "title": "Integrations-CRM"
             }
           },
           {
@@ -98,9 +98,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "fde6141adbbb3096",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -377,14 +387,17 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "4194c897b71cd097",
+  "active": "fde6141adbbb3096",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
@@ -393,7 +406,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Jira.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Stripe.md",
@@ -403,8 +415,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Sheets.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Slack.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Calendar.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",

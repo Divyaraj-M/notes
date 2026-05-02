@@ -29,6 +29,12 @@ tags:
 | [[Sequences]]        |              |          |      |       |           |
 | [[Workflows]]        |              |          |      |       |           |
 | [[Lists]]            |              |          |      |       |           |
+| [[Favorites]]        |              |          |      |       |           |
+| [[Ask Sparrow]]      |              |          |      |       |           |
+| [[Notification]]     |              |          |      |       |           |
+| [[Settings]]         |              |          |      |       |           |
+| [[Search]]           |              |          |      |       |           |
+| [[Needs attention]]  |              |          |      |       |           |
 
 ## Status Key
 
