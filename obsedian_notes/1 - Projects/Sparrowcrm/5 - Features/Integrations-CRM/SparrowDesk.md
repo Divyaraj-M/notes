@@ -1,6 +1,5 @@
 ---
 owner: Divyaraj Murugan
-product: "[[Sparrowcrm]]"
 priority: Medium
 tags:
   - sparrowcrm/features/integrations/sparrowdesk

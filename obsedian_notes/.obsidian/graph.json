@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "path:\"1 - Projects/Sparrowcrm\"  ",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 9.66319444444444,
   "linkStrength": 1,
   "linkDistance": 251,
-  "scale": 1.2190833156600718,
-  "close": true
+  "scale": 1.4667931047202447,
+  "close": false
 }
