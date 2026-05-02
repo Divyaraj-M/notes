@@ -8,10 +8,9 @@ tags: [strategy]
 
 # Product Strategy
 
-> _A focused plan for how the product wins in the market._
-
 ## Problem We Solve
 
+ - The basic problems 
 
 ## Target Audience
 

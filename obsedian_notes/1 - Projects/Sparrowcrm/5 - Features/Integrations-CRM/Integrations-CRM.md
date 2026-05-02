@@ -4,6 +4,7 @@ created: 2026-05-02
 updated: 2026-05-02
 owner:
 tags:
+  - sparrowcrm/features/integrations
 ---
 
 # FEAT — Integrations CRM
