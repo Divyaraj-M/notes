@@ -1,5 +1,5 @@
 # a-generative-AI-prompt-builder-for-product-professionals.md
-<!--
+
 ## Description:
 Generates a reusable baseline session-context artifact that teams can share
 across individual AI chats so work starts from a common understanding.

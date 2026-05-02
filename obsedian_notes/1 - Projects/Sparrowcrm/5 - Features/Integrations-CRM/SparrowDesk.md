@@ -2,9 +2,7 @@
 owner: Divyaraj Murugan
 feature: "[[Integrations-CRM]]"
 product: "[[Sparrowcrm]]"
-version: 1
-status:
-priority:
+priority: Medium
 tags:
 ---
 # Feature Spec Skill
