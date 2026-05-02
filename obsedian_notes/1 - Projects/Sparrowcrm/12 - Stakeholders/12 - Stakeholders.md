@@ -1,3 +1,7 @@
+---
+tags:
+  - sparrowcrm/stakeholders
+---
 
 
 - [[Shihab Muhammed]] - CEO

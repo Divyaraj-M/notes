@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
+                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -144,11 +144,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Competitor Template"
+              "title": "12 - Stakeholders"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:competitors",
+                "query": "tag:wins",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -424,8 +424,14 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "48335056adbc1d31",
+  "active": "e6e9dafd5cf4ce72",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
+    "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
+    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
+    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
+    "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
@@ -446,12 +452,6 @@
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
-    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Jira.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",

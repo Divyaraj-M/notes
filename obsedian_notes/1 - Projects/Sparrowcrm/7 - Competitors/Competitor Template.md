@@ -4,6 +4,7 @@ created:
 updated:
 owner:
 tags:
+  - sparrowcrm/competitors/template
 competitor_name:
 website:
 ---
