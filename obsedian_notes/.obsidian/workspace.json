@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+                "file": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowdesk_v1"
+              "title": "12 - People"
             }
           },
           {
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+                "file": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -120,7 +120,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12 - Stakeholders"
+              "title": "12 - People"
             }
           }
         ],
@@ -402,12 +402,12 @@
   },
   "active": "929f1ce1acd8136c",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "3 - Resources/PM Prompts Library/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
@@ -430,7 +430,7 @@
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders",
+    "1 - Projects/Sparrowcrm/12 - People",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",

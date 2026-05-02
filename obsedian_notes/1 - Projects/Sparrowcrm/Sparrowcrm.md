@@ -20,7 +20,7 @@ tags:
 10. [[9 - Product Wins|Product Wins]]
 11. [[10 - Marketing|Marketing]]
 12. [[6 - Metrics & Dashboards|Metrics]]
-13. [[12 - Stakeholders|Stakeholders]]
+13. [[12 - People|Stakeholders]]
 
 **Status Key:** `Draft` → `Done` → `Reviewed` → `Design` → `Dev` → `Staging` → `In Production`
 
