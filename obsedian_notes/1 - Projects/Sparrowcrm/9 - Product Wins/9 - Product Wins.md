@@ -2,8 +2,10 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [wins, shipped]
+owner:
+tags:
+  - wins
+  - shipped
 ---
 
 # Product Wins
