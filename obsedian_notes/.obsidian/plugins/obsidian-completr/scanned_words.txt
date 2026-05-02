@@ -1382,6 +1382,7 @@ WhatsApp
 Well
 Weakness
 Whys
+Webhook
 writes
 we
 work
@@ -7814,6 +7815,9 @@ SparrowCrm
 Sparrowcrm
 Surveys
 SPEC
+Solves
+Sakthi
+Synced
 Lead
 Loop
 Linking
@@ -8712,6 +8716,7 @@ Against
 Acquisition
 ARR
 ARPU
+Already
 approved
 atomic
 and
@@ -10130,6 +10135,8 @@ FEAT
 Founded
 Funding
 Frustrations
+Frequency
+Fallbacks
 Goes
 Goals
 Gate
@@ -10455,6 +10462,7 @@ GBlE
 GqR
 GXd
 Grounds
+Gets
 build
 break
 back
@@ -11484,6 +11492,7 @@ Revisits
 Retrospective
 RECENT
 RENDER
+Refer
 need
 needing
 nested
@@ -12474,6 +12483,7 @@ Channel
 Considered
 CRMs
 Campaign
+Channels
 How
 Hubs
 Hub
@@ -23070,6 +23080,7 @@ YbnZ
 YgQ
 YEr
 YkH
+Yet
 just
 jvE
 justify

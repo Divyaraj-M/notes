@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12 - Stakeholders"
+              "title": "SparrowDesk"
             }
           },
           {
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12 - Stakeholders"
+              "title": "Outline of SparrowDesk"
             }
           }
         ],
@@ -383,34 +383,35 @@
   },
   "active": "4194c897b71cd097",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Divyaraj Murugan.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Jira.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Stripe.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for GPT.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for Claude.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/MCP Connector.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Sheets.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Slack.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Calendar.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
+    "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
+    "1 - Projects/Sparrowcrm/12 - Stakeholders/Divyaraj Murugan.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Yuvaraj Singh J.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Madhan  M.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
-    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
-    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Supraja.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Anshul S.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Vaishnavi Yuvaraj.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Sakthi Prasath M.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Nayan Jain.md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Ganesh Ravi Shankar(GRS).md",
-    "1 - Projects/Sparrowcrm/12 - Stakeholders/Shihab Muhammed.md",
-    "4 - Archive/Sparrowgenie/Friction points.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
@@ -419,7 +420,6 @@
     "1 - Projects/Sparrowcrm/10 - Marketing",
     "1 - Projects/Sparrowcrm/9 - Product Wins",
     "1 - Projects/Sparrowcrm/8 - Decisions",
-    "1 - Projects/Sparrowcrm/7 - Competitors",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

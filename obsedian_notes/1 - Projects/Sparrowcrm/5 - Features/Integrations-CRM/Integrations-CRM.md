@@ -10,15 +10,6 @@ tags:
 
 ## Status Tracker
 
-| Phase         | Status | Date | Owner |
-| ------------- | ------ | ---- | ----- |
-| Draft         |        |      |       |
-| Reviewed      |        |      |       |
-| Design        |        |      |       |
-| Dev           |        |      |       |
-| Staging       |        |      |       |
-| In Production |        |      |       |
-
 ## One-Liner
 
 
