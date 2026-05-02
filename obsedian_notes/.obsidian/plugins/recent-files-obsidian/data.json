@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
+    },
+    {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
       "basename": "SparrowDesk",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
     },
@@ -9,12 +29,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "PRD Feature Name",
+      "path": "3 - Resources/Templates/Product to dev process/PRD Feature Name.md"
     },
     {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "12 - Stakeholders",
@@ -85,24 +105,12 @@
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
     },
     {
-      "basename": "Product Vision",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
-    },
-    {
       "basename": "Product Strategy",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
     },
     {
       "basename": "Issues Found",
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
-    },
-    {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Zoom",
@@ -191,14 +199,6 @@
     {
       "basename": "Shihab Muhammed",
       "path": "1 - Projects/Sparrowcrm/12 - Stakeholders/Shihab Muhammed.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "4 - Archive/Sparrowgenie/Friction points.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "4 - Archive/Sparrowgenie/TO DO List - today.md"
     }
   ],
   "omittedPaths": [],

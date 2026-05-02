@@ -1,14 +1,10 @@
 ---
-author: Divyaraj Murugan
-published:
-type: PRD
-product: SparrowGenie
-feature:
-status: Draft
-priority: High
 owner: Divyaraj Murugan
-sprint: Sprint-24
+feature:
+product: "[[Sparrowcrm]]"
 version: 1
+status:
+priority:
 tags:
 ---
 # Feature Spec Skill

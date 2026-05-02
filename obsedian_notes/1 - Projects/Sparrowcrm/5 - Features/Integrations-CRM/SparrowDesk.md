@@ -1,13 +1,10 @@
 ---
-author: Divyaraj Murugan
-type: PRD
-product: "[[Sparrowcrm]]"
+owner: Divyaraj Murugan
 feature: "[[Integrations-CRM]]"
-status: Draft
-priority: High
-owner: "[[Divyaraj Murugan]]"
-sprint: Sprint-24
+product: "[[Sparrowcrm]]"
 version: 1
+status:
+priority:
 tags:
 ---
 # Feature Spec Skill

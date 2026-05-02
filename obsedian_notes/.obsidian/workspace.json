@@ -11,24 +11,10 @@
             "id": "9c0874b504367a22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Vision"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -37,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,45 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To do list - SparrowCRM"
+              "title": "Sparrowcrm"
             }
           },
           {
             "id": "4194c897b71cd097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Integrations-CRM"
-            }
-          },
-          {
-            "id": "5285e1d13663d10a",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "e6e9dafd5cf4ce72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -111,6 +63,40 @@
               },
               "icon": "lucide-file",
               "title": "SparrowDesk"
+            }
+          },
+          {
+            "id": "5285e1d13663d10a",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
+          },
+          {
+            "id": "e6e9dafd5cf4ce72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Product Spec Template 2"
             }
           },
           {
@@ -162,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:wins",
+                "query": "tag:#sparrowcrm/competitors",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -438,12 +424,16 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "e6e9dafd5cf4ce72",
+  "active": "929f1ce1acd8136c",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
@@ -462,10 +452,6 @@
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
