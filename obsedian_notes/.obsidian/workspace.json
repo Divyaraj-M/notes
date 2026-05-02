@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To do list - SparrowCRM"
+              "title": "Integrations-CRM"
             }
           },
           {
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To do list - SparrowCRM"
+              "title": "Outline of Integrations-CRM"
             }
           }
         ],
@@ -383,9 +383,11 @@
   },
   "active": "4194c897b71cd097",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Yuvaraj Singh J.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Madhan  M.md",
@@ -396,7 +398,6 @@
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Supraja.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Anshul S.md",
