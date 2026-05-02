@@ -5,6 +5,10 @@
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
+    },
+    {
       "basename": "12 - Stakeholders",
       "path": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hybrid thinking product framework",
       "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md"
-    },
-    {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md"
     }
   ],
   "omittedPaths": [],

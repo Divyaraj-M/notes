@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "4194c897b71cd097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "To do list - SparrowCRM"
+            }
+          },
+          {
             "id": "e6e9dafd5cf4ce72",
             "type": "leaf",
             "state": {
@@ -66,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +184,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 22.253521126760564,
+        "dimension": 59.50354609929078,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -272,7 +296,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 51.19718309859154,
+        "dimension": 14.184397163120568,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -309,7 +333,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 26.549295774647895,
+        "dimension": 26.31205673758865,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -357,8 +381,11 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "929f1ce1acd8136c",
+  "active": "4194c897b71cd097",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Yuvaraj Singh J.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Madhan  M.md",
@@ -380,12 +407,9 @@
     "1 - Projects/Sparrowcrm/12 - Stakeholders/Shihab Muhammed.md",
     "4 - Archive/Sparrowgenie/Friction points.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-    "4 - Archive/Sparrowgenie/TO DO List - today.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
@@ -404,7 +428,6 @@
     "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
     "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
