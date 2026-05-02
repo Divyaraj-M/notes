@@ -206,20 +206,6 @@
             }
           },
           {
-            "id": "0be0d26dff8febf8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Thinking"
-            }
-          },
-          {
             "id": "b2aec384d239af07",
             "type": "leaf",
             "state": {
@@ -289,9 +275,23 @@
               "icon": "lucide-list",
               "title": "Outline of SparrowDesk"
             }
+          },
+          {
+            "id": "a614ca7c9e41fe23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SparrowDesk"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
