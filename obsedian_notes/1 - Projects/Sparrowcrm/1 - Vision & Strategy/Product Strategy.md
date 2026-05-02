@@ -10,7 +10,7 @@ tags: [strategy]
 
 ## Problem We Solve
 
- - The basic problems 
+ - The basic problem of maintaining the data is managed by the other crms in market and they really succeeded but the problem underlying here is data entry and retrival is  
 
 ## Target Audience
 
