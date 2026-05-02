@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SparrowDesk"
+              "title": "Sparrowdesk_v1"
             }
           },
           {
@@ -201,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/competitors",
+                "query": "tag:#sparrowcrm/features/integrations/sparrowdesk",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -424,8 +424,10 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "929f1ce1acd8136c",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -437,7 +439,6 @@
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
@@ -451,7 +452,6 @@
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",

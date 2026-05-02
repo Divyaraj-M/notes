@@ -144,9 +144,11 @@
     "new_feature/dossiers/share/first_principle": 1,
     "new_feature/instructions/v1/from_prospect": 1,
     "new_feature/obligations/v1/uat": 1,
+    "sparrowcrm/features/integrations/sparrowdesk": 1,
     "new_feature/dossiers/proposal_templates/company_templates/v1": 1,
     "new_feature/dossiers/proposal_templates/genie_templates/v1": 1,
-    "new_feature/dossiers/proposal_templates/my_templates/v1": 1
+    "new_feature/dossiers/proposal_templates/my_templates/v1": 1,
+    "sparrowcrm/features/integrations/sparrowdesk/v1": 1
   },
   "tagColors": {},
   "_version": 4

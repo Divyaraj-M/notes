@@ -3,4 +3,3 @@
 - [x] Problem statement 
 - [ ] Integrations - Sparrowdesk integration
 - [x] Product board 
-- [ ] 
