@@ -5,16 +5,20 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
     },
     {
+      "basename": "Deals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
       "basename": "Ai Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md"
     },
     {
       "basename": "Enriched Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "3 - Roadmap & Planning",
@@ -195,10 +199,6 @@
     {
       "basename": "Supraja",
       "path": "1 - Projects/Sparrowcrm/12 - People/Supraja.md"
-    },
-    {
-      "basename": "Anshul S",
-      "path": "1 - Projects/Sparrowcrm/12 - People/Anshul S.md"
     }
   ],
   "omittedPaths": [],
