@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7 - Competitors"
+              "title": "5 - Features"
             }
           },
           {
@@ -424,8 +424,9 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "929f1ce1acd8136c",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -441,7 +442,6 @@
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md",
