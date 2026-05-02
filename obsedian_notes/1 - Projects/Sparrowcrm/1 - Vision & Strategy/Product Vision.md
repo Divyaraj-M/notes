@@ -2,8 +2,9 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [vision, strategy]
+owner:
+tags:
+  - sparrowcrm/vision
 ---
 ## The world today
 

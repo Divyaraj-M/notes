@@ -1004,6 +1004,7 @@ DECISIONS
 Dashboards
 Defer
 Developer
+Director
 Who
 When
 What
@@ -1798,6 +1799,8 @@ winModal
 winText
 winUser
 winBiz
+wall
+wolf
 it
 is
 interaction
@@ -3138,6 +3141,7 @@ renderWins
 refined
 relying
 replicate
+resent
 Jira
 Jdjxj
 JIvrU
@@ -4045,6 +4049,9 @@ toFixed
 transaction
 talking
 tissue
+talks
+trusts
+tooling
 PM
 PRD
 Problem
@@ -4588,6 +4595,7 @@ Props
 Pipedrive
 Pros
 Probably
+Prove
 Before
 Blast
 BM
@@ -5638,6 +5646,11 @@ destroying
 destruction
 dislike
 dig
+decades
+director
+dwarf
+destroyed
+doctrine
 starts
 sub
 screens
@@ -6597,6 +6610,12 @@ staring
 sides
 suffers
 scare
+sentiment
+stalling
+supposed
+sticks
+slowing
+sacred
 everyone
 exactly
 each
@@ -7188,6 +7207,9 @@ eesM
 eHt
 ecec
 eating
+expectation
+earned
+earn
 Story
 Stories
 Should
@@ -10155,6 +10177,8 @@ Frequency
 Fallbacks
 Freemium
 Free
+Forget
+Forecast
 Goes
 Goals
 Gate
@@ -10956,6 +10980,9 @@ beings
 became
 bolt
 bills
+bolted
+bearing
+blaming
 Requirements
 Radius
 Rules
@@ -13818,6 +13845,16 @@ chore
 connection
 connectors
 connective
+copying
+coaching
+carry
+coach
+crying
+cop
+causal
+clings
+contradicts
+clinging
 on
 owns
 one
@@ -14256,6 +14293,11 @@ openFeatureModal
 openDecisionModal
 openWinModal
 overage
+optimizing
+operators
+onboarded
+outgrown
+ourselves
 flows
 from
 full
@@ -14804,6 +14846,9 @@ ftStatus
 frontmatter
 forecast
 forecasts
+finishes
+fragments
+flood
 live
 links
 locked
@@ -15722,6 +15767,9 @@ hlvyL
 hdlPBdqd
 howto
 half
+headed
+hygiene
+horizon
 Every
 Engineers
 Expected
@@ -16136,6 +16184,7 @@ Eisenhower
 EISENHOWER
 EFFORT
 Easy
+Earn
 validation
 visuals
 validated
@@ -16854,6 +16903,7 @@ NTd
 NPlYqt
 Numbers
 Needed
+NRR
 under
 users
 upload
@@ -17315,6 +17365,7 @@ unshift
 uarr
 unsustainable
 upside
+upsell
 phases
 problem
 placeholder
@@ -18035,6 +18086,12 @@ protect
 policing
 paid
 prep
+punish
+prepping
+penalize
+paperwork
+partners
+pyramid
 goals
 give
 generates
@@ -18876,6 +18933,7 @@ Icebox
 Interviews
 Idea
 Intern
+Intelligence
 you
 yet
 your
@@ -19180,6 +19238,7 @@ yLN
 yEV
 yUd
 yhBM
+yesterday
 Knowledge
 KH
 KHs
@@ -20679,6 +20738,11 @@ middot
 memories
 moat
 monetize
+meant
+matures
+mandated
+manufactured
+mediocre
 Owners
 Opportunity
 Owner

@@ -2,8 +2,9 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [strategy]
+owner:
+tags:
+  - sparrowcrm/strategy
 ---
 
 # Product Strategy

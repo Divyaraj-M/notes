@@ -103,14 +103,52 @@
             "id": "fde6141adbbb3096",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sparrowcrm"
+            }
+          },
+          {
+            "id": "48335056adbc1d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "3 - Roadmap & Planning"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -163,7 +201,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:customer_insights",
+                "query": "tag:customers",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -204,7 +242,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 59.50354609929078,
+        "dimension": 38.297872340425535,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -302,7 +340,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 14.184397163120568,
+        "dimension": 35.39007092198582,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -333,8 +371,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -387,23 +424,26 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "fde6141adbbb3096",
+  "active": "48335056adbc1d31",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
@@ -412,9 +452,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for GPT.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for Claude.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/MCP Connector.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Sheets.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - Stakeholders",
