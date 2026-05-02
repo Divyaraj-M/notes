@@ -2,9 +2,10 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [okrs, goals, planning]
-quarter: 
+owner:
+tags:
+  - sparrowcrm/road_map/okrs
+quarter:
 ---
 
 # Team OKRs / Goals

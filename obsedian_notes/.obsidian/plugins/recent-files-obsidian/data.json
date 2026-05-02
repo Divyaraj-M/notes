@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Competitor Template",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md"
+    },
+    {
+      "basename": "7 - Competitors",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+    },
+    {
+      "basename": "Feature Template",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Spec Template",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
       "basename": "3 - Roadmap & Planning",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "Prioritization Matrix",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
+    },
+    {
+      "basename": "Team OKRs",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md"
     },
     {
       "basename": "User Personas",
@@ -41,10 +81,6 @@
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
       "basename": "12 - Stakeholders",
       "path": "1 - Projects/Sparrowcrm/12 - Stakeholders/12 - Stakeholders.md"
     },
@@ -53,32 +89,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
-    },
-    {
       "basename": "11 - Help Articles",
       "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
     },
     {
       "basename": "Zoom",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md"
-    },
-    {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "7 - Competitors",
-      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
       "basename": "Udemy",
@@ -183,22 +199,6 @@
     {
       "basename": "TO DO List - today",
       "path": "4 - Archive/Sparrowgenie/TO DO List - today.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Friction points.md"
-    },
-    {
-      "basename": "My Product Notes",
-      "path": "3 - Resources/My Product Notes.md"
-    },
-    {
-      "basename": "Getting started  with SparrowGenie",
-      "path": "4 - Archive/Sparrowgenie/Help Articles/Getting started  with SparrowGenie.md"
-    },
-    {
-      "basename": "Prioritization Matrix",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     }
   ],
   "omittedPaths": [],

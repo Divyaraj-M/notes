@@ -1,11 +1,11 @@
 ---
 status: Draft
-created: 
-updated: 
-owner: 
-tags: [competitor]
-competitor_name: 
-website: 
+created:
+updated:
+owner:
+tags:
+competitor_name:
+website:
 ---
 
 # COMP — [Competitor Name]

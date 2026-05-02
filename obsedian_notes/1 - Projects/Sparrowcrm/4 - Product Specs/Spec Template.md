@@ -1,10 +1,11 @@
 ---
 status: Draft
-created: 
-updated: 
-owner: 
-tags: [spec]
-feature: 
+created:
+updated:
+owner:
+tags:
+  - sparrowcrm/product_specs/template
+feature:
 ---
 
 # SPEC — [Feature Name]
