@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12 - People"
+              "title": "3 - Roadmap & Planning"
             }
           },
           {
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product/Projects/Proposals/RFP to Proposal/Thinking.md",
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Thinking"
+              "title": "Backlinks for 3 - Roadmap & Planning"
             }
           },
           {
@@ -402,12 +402,12 @@
   },
   "active": "929f1ce1acd8136c",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "3 - Resources/PM Prompts Library/prompts/a-generative-AI-prompt-builder-for-product-professionals.md",
