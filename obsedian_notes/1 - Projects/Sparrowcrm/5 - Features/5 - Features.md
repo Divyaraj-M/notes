@@ -16,8 +16,19 @@ tags:
 | Feature              | Status       | Priority | Spec | Owner | Ship Date |
 | -------------------- | ------------ | -------- | ---- | ----- | --------- |
 | [[Integrations-CRM]] | Yet to start |          |      |       |           |
-|                      |              |          |      |       |           |
-|                      |              |          |      |       |           |
+| [[Home]]             |              |          |      |       |           |
+| [[Deals]]            |              |          |      |       |           |
+| [[Contacts]]         |              |          |      |       |           |
+| [[Companies]]        |              |          |      |       |           |
+| [[Meetings]]         |              |          |      |       |           |
+| [[Leads]]            |              |          |      |       |           |
+| [[Reports]]          |              |          |      |       |           |
+| [[Smart routing]]    |              |          |      |       |           |
+| [[Notes]]            |              |          |      |       |           |
+| [[Tasks]]            |              |          |      |       |           |
+| [[Sequences]]        |              |          |      |       |           |
+| [[Workflows]]        |              |          |      |       |           |
+| [[Lists]]            |              |          |      |       |           |
 
 ## Status Key
 
