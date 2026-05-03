@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
     {
       "basename": "SparrowCRM-PK-FK-Database-Schema",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -47,10 +51,6 @@
     {
       "basename": "Enriched Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md"
-    },
-    {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "Sparrowdesk_v1",
