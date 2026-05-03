@@ -122,9 +122,21 @@
               "icon": "lucide-file",
               "title": "12 - People"
             }
+          },
+          {
+            "id": "66005abf1c9ad0ba",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowCRM-Entity-Relationships"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -400,8 +412,11 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "929f1ce1acd8136c",
+  "active": "66005abf1c9ad0ba",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
@@ -410,8 +425,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
@@ -428,7 +441,6 @@
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - People",
@@ -438,7 +450,6 @@
     "1 - Projects/Sparrowcrm/refresh-dashboard.py",
     "1 - Projects/Sparrowcrm/11 - Help Articles",
     "1 - Projects/Sparrowcrm/10 - Marketing",
-    "1 - Projects/Sparrowcrm/9 - Product Wins",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",

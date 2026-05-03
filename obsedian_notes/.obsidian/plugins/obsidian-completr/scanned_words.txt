@@ -1005,6 +1005,7 @@ Dashboards
 Defer
 Developer
 Director
+DEAL
 Who
 When
 What
@@ -2408,6 +2409,7 @@ iYs
 iVF
 iLZ
 iQP
+isDeleted
 reads
 references
 requirements
@@ -3143,6 +3145,9 @@ relying
 replicate
 resent
 road
+roundness
+roughness
+rectangle
 Jira
 Jdjxj
 JIvrU
@@ -4053,6 +4058,8 @@ tissue
 talks
 trusts
 tooling
+textAlign
+threaded
 PM
 PRD
 Problem
@@ -4597,6 +4604,7 @@ Pipedrive
 Pros
 Probably
 Prove
+PROPERTY
 Before
 Blast
 BM
@@ -4966,6 +4974,7 @@ BvP
 BOARD
 Blockers
 Blog
+BIDIRECTIONAL
 design
 does
 do
@@ -5652,6 +5661,9 @@ director
 dwarf
 destroyed
 doctrine
+dealName
+dealValue
+dealOwner
 starts
 sub
 screens
@@ -6618,6 +6630,11 @@ sticks
 slowing
 sacred
 sparrowdesk
+strokeColor
+strokeWidth
+strokeStyle
+startBinding
+startArrowhead
 everyone
 exactly
 each
@@ -7212,6 +7229,10 @@ eating
 expectation
 earned
 earn
+employeeCount
+elementId
+endBinding
+endArrowhead
 Story
 Stories
 Should
@@ -7853,6 +7874,8 @@ Sakthi
 Synced
 Sparrowdesk
 Subscription
+SUMMARY
+SHARED
 Lead
 Loop
 Linking
@@ -8754,6 +8777,8 @@ ARR
 ARPU
 Already
 Associate
+Aggregations
+ACTIVITIES
 approved
 atomic
 and
@@ -9434,6 +9459,10 @@ accelerator
 afterthought
 assumes
 acquisitions
+attendees
+associations
+attrs
+appState
 QA
 Question
 Quality
@@ -10985,6 +11014,8 @@ bills
 bolted
 bearing
 blaming
+boundElements
+backgroundColor
 Requirements
 Radius
 Rules
@@ -11543,6 +11574,8 @@ Retrospective
 RECENT
 RENDER
 Refer
+Router
+RELATIONSHIP
 need
 needing
 nested
@@ -11933,6 +11966,16 @@ nNAf
 nVJ
 needle
 nagging
+nPrimary
+nSources
+nEnriched
+nKanban
+nAttendees
+nActivities
+nAll
+ntext
+ncurrency
+nboolean
 Constraints
 Contracts
 Completable
@@ -12537,6 +12580,9 @@ Campaign
 Channels
 Console
 Cons
+CONTACT
+Customizable
+CUSTOM
 How
 Hubs
 Hub
@@ -13857,6 +13903,16 @@ causal
 clings
 contradicts
 clinging
+contactOwner
+containerId
+companyName
+companyDomain
+companyLinkedinUrl
+companyLogoUrl
+companyOwner
+companyType
+country
+closeDate
 on
 owns
 one
@@ -14301,6 +14357,8 @@ onboarded
 outgrown
 ourselves
 okrs
+originalText
+organizer
 flows
 from
 full
@@ -14852,6 +14910,12 @@ forecasts
 finishes
 fragments
 flood
+fillStyle
+firstName
+fontSize
+fontFamily
+ffec
+ffc
 live
 links
 locked
@@ -15338,6 +15402,8 @@ larr
 logging
 lever
 land
+lastName
+lastCommittedPoint
 here
 has
 how
@@ -16188,6 +16254,7 @@ EISENHOWER
 EFFORT
 Easy
 Earn
+Entity
 validation
 visuals
 validated
@@ -16567,6 +16634,10 @@ vHU
 vlu
 valued
 viral
+verticalAlign
+vice
+versa
+viewBackgroundColor
 No
 Non
 Nice
@@ -18095,6 +18166,8 @@ penalize
 paperwork
 partners
 pyramid
+pipelineStage
+pinnable
 goals
 give
 generates
@@ -18474,6 +18547,8 @@ gYqM
 gDJb
 gNG
 garbage
+groupIds
+gridSize
 It
 If
 Inside
@@ -20747,6 +20822,8 @@ mandated
 manufactured
 mediocre
 matirx
+meetingTitle
+meetingType
 Owners
 Opportunity
 Owner
@@ -21585,6 +21662,7 @@ Monetization
 Moat
 Meaning
 MCP
+MEETING
 UI
 Users
 User
@@ -23550,6 +23628,7 @@ jQY
 jFt
 jTip
 jzx
+jobTitle
 xlsx
 xtg
 xq

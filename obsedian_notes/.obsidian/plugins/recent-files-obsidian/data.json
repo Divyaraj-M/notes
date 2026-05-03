@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SparrowCRM-Entity-Relationships",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "3 - Roadmap & Planning",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "Enriched Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "To do list - SparrowCRM",
@@ -195,10 +199,6 @@
     {
       "basename": "Madhan  M",
       "path": "1 - Projects/Sparrowcrm/12 - People/Madhan  M.md"
-    },
-    {
-      "basename": "Supraja",
-      "path": "1 - Projects/Sparrowcrm/12 - People/Supraja.md"
     }
   ],
   "omittedPaths": [],
