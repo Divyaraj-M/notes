@@ -3,7 +3,6 @@ tags:
   - sparrowcrm/stakeholders
 ---
 
-
 - [[Shihab Muhammed]] - CEO
 - [[Ganesh Ravi Shankar(GRS)]]  - BU head
 - [[Nayan Jain]] - Product Manager
