@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fields"
+              "title": "3 - Roadmap & Planning"
             }
           },
           {
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +236,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fields"
+              "title": "Backlinks for 3 - Roadmap & Planning"
             }
           },
           {
@@ -402,16 +402,17 @@
   },
   "active": "929f1ce1acd8136c",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
@@ -428,7 +429,6 @@
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - People",
