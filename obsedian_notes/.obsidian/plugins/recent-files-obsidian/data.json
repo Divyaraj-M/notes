@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Contacts_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
+    },
+    {
       "basename": "Companies_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
+    },
+    {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -93,14 +105,6 @@
       "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
     {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
@@ -183,10 +187,6 @@
     {
       "basename": "Deals",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
-    },
-    {
-      "basename": "Contacts_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
     },
     {
       "basename": "Udemy",
