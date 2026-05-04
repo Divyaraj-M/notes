@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Issues Found",
-      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
-    },
-    {
       "basename": "To do list - SparrowCRM",
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
@@ -21,6 +17,22 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
+    },
+    {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
@@ -35,14 +47,6 @@
     {
       "basename": "SparrowCRM-PK-FK-Database-Schema",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
       "basename": "Fields",
@@ -119,10 +123,6 @@
     {
       "basename": "Spec Template",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
       "basename": "Prioritization Matrix",
