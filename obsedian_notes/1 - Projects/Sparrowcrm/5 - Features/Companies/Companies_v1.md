@@ -15,7 +15,7 @@ tags:
 | First Name                         |             |
 | last Name                          |             |
 | Email                              |             |
-| Auto tag                           |             |
+| Auto tag - [[Enriched Fields]]     |             |
 | Mobile Phone                       |             |
 | Job Title                          |             |
 | Contact owner                      |             |
@@ -28,4 +28,4 @@ tags:
 | Preferred Channel                  |             |
 | Created from                       |             |
 | Twitter url - [[Enriched Fields]]  |             |
-|                                    |             |
+| Created by                         |             |
