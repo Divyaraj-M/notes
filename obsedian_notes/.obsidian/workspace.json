@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -110,7 +110,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Companies_v1"
+              "title": "Fields"
             }
           },
           {
@@ -402,9 +402,11 @@
   },
   "active": "48335056adbc1d31",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/Meeting-Fields-Reference.md",
     "1 - Projects/Sparrowcrm/Deal-Fields-Reference.md",
@@ -426,8 +428,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
