@@ -1079,6 +1079,9 @@ Department
 Descriptions
 Determines
 DiceBear
+DealCreatedMessage
+DealsBulkCreatedMessage
+DealUpdatedMessage
 Who
 When
 What
@@ -2592,6 +2595,7 @@ iuk
 ith
 interacted
 integer
+ideal
 reads
 references
 requirements
@@ -3355,6 +3359,8 @@ rae
 rrt
 ryH
 renewal
+representing
+recalculates
 Jira
 Jdjxj
 JIvrU
@@ -4921,6 +4927,7 @@ PvW
 Phone
 Public
 Private
+Pipelines
 Before
 Blast
 BM
@@ -5327,6 +5334,7 @@ BeffQ
 BcM
 BYl
 Bidirectionally
+BigCo
 design
 does
 do
@@ -7075,6 +7083,9 @@ surname
 sponsor
 segmentation
 synced
+specially
+sold
+summing
 everyone
 exactly
 each
@@ -7701,6 +7712,8 @@ eeJ
 enrichment
 exec
 enriched
+enums
+evaluator
 Story
 Stories
 Should
@@ -8403,6 +8416,7 @@ SUMMARIZE
 SMS
 Scores
 Supports
+Scheduled
 Lead
 Loop
 Linking
@@ -9372,6 +9386,9 @@ ASeee
 Association
 APAC
 About
+Attendees
+Attendee
+Associations
 approved
 atomic
 and
@@ -10094,6 +10111,14 @@ anc
 amK
 aaR
 aCu
+attendeeType
+attendeeId
+attendee
+attending
+attended
+aggregations
+aging
+aggregation
 QA
 Question
 Quality
@@ -10409,6 +10434,8 @@ QJZ
 Qualified
 Quantifies
 QBRs
+QBR
+Queue
 Flow
 Flows
 FRD
@@ -10904,6 +10931,7 @@ FNf
 FFM
 Fills
 Financial
+Fired
 Goes
 Goals
 Gate
@@ -12365,6 +12393,7 @@ RRje
 ReN
 RECORD
 Recalculates
+Renewal
 need
 needing
 nested
@@ -13429,6 +13458,9 @@ City
 CALCULATION
 CSM
 Clearbit
+Categorizes
+Cancelled
+ClickHouse
 How
 Hubs
 Hub
@@ -14834,6 +14866,9 @@ channels
 convert
 configures
 companyWebsite
+conference
+currencies
+consumers
 on
 owns
 one
@@ -15314,6 +15349,7 @@ oRc
 oRAA
 overridden
 overlap
+organizers
 flows
 from
 full
@@ -15907,6 +15943,7 @@ fpC
 fxt
 fYw
 fJL
+fetches
 live
 links
 locked
@@ -16429,6 +16466,7 @@ lhh
 ltb
 llBq
 lTV
+lookup
 here
 has
 how
@@ -18145,6 +18183,7 @@ NSY
 NJNi
 Ncuuu
 Normalised
+Negotiation
 under
 users
 upload
@@ -18637,6 +18676,7 @@ uqn
 uUi
 uki
 uOpK
+upcoming
 phases
 problem
 placeholder
@@ -19404,6 +19444,7 @@ plR
 pfI
 pPR
 profit
+physical
 goals
 give
 generates
@@ -20322,6 +20363,7 @@ IIbl
 Ideal
 ICP
 Industries
+Includes
 you
 yet
 your
@@ -21704,6 +21746,7 @@ qxYXC
 qsZ
 qTSAzC
 qualifying
+queue
 multiple
 mechanism
 missing
@@ -22300,6 +22343,8 @@ mZL
 mZs
 mWG
 mjj
+meetingId
+monetary
 Owners
 Opportunity
 Owner
@@ -22698,6 +22743,8 @@ OwA
 Ozd
 OEa
 Office
+Organizer
+OpenSearch
 Metric
 Manager
 Must
@@ -23198,6 +23245,8 @@ MpH
 MKh
 Myyy
 Marketplace
+Meet
+Moving
 UI
 Users
 User
@@ -25358,6 +25407,7 @@ joK
 jcvTr
 joPS
 jpS
+joins
 xlsx
 xtg
 xq

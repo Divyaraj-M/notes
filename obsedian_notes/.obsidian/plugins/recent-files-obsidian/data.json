@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+      "basename": "First Principle for a CRM",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
+    },
+    {
+      "basename": "Meetings_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
     },
     {
       "basename": "Meetings",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
-      "basename": "Meetings_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "Companies_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
+    },
+    {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Feature Template",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
     },
     {
       "basename": "Deals",
@@ -33,24 +57,8 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
-      "basename": "Companies_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
-    },
-    {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
       "basename": "Contacts_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     },
     {
       "basename": "SparrowDesk",
@@ -105,10 +113,6 @@
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
     },
     {
-      "basename": "First Principle for a CRM",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
-    },
-    {
       "basename": "Issues Found",
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "Genie Actions inside the Questions card",
       "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "@Shihab Muhammed",
@@ -195,10 +195,6 @@
     {
       "basename": "SparrowCRM-PK-FK-Database-Schema",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
-    },
-    {
-      "basename": "Screenshot 2026-04-30 at 9.24.35 PM",
-      "path": "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png"
     }
   ],
   "omittedPaths": [],
