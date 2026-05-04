@@ -53,8 +53,8 @@
 		{
 			"id": "86i93Y73",
 			"type": "text",
-			"x": 120.0520575637745,
-			"y": -3.671311469373393,
+			"x": 119.59470613846847,
+			"y": -4.993990101605505,
 			"width": 196,
 			"height": 332.5,
 			"angle": 0,
@@ -68,7 +68,7 @@
 			"groupIds": [],
 			"roundness": null,
 			"seed": 1002,
-			"version": 175,
+			"version": 219,
 			"isDeleted": false,
 			"boundElements": [],
 			"locked": false,
@@ -81,10 +81,10 @@
 			"originalText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
 			"autoResize": true,
 			"lineHeight": 1.25,
-			"versionNonce": 1428143934,
+			"versionNonce": 227918334,
 			"index": "a1",
 			"frameId": null,
-			"updated": 1777871933373,
+			"updated": 1777872008742,
 			"hasTextLink": false,
 			"rawText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API"
 		},
@@ -1264,10 +1264,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": -53.23255036557707,
-		"scrollY": 65.94817710803942,
+		"scrollX": 34.10887878663257,
+		"scrollY": 103.41340850750788,
 		"zoom": {
-			"value": 2.206591
+			"value": 2.324093
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -1296,7 +1296,7 @@
 		},
 		"disableContextMenu": false,
 		"bindingPreference": "enabled",
-		"isBindingEnabled": true,
+		"isBindingEnabled": false,
 		"isMidpointSnappingEnabled": true,
 		"boxSelectionMode": "contain"
 	},

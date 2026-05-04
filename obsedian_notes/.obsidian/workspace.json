@@ -112,6 +112,30 @@
             }
           },
           {
+            "id": "10774801a6617ec1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Issues Found"
+            }
+          },
+          {
             "id": "66005abf1c9ad0ba",
             "type": "leaf",
             "state": {
@@ -136,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -412,10 +436,10 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "48335056adbc1d31",
+  "active": "10774801a6617ec1",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
