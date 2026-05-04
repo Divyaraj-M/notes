@@ -13,29 +13,29 @@ tags:
 
 ## Feature Tracker
 
-| Feature              | Status       | Priority | Spec | Owner | Ship Date |
-| -------------------- | ------------ | -------- | ---- | ----- | --------- |
-| [[Integrations-CRM]] | Yet to start |          |      |       |           |
-| [[Home]]             |              |          |      |       |           |
-| [[Fields]]           |              |          |      |       |           |
-| [[Deals]]            |              |          |      |       |           |
-| [[Contacts]]         |              |          |      |       |           |
-| [[Companies]]        |              |          |      |       |           |
-| [[Meetings]]         |              |          |      |       |           |
-| [[Leads]]            |              |          |      |       |           |
-| [[Reports]]          |              |          |      |       |           |
-| [[Smart routing]]    |              |          |      |       |           |
-| [[Notes]]            |              |          |      |       |           |
-| [[Tasks]]            |              |          |      |       |           |
-| [[Sequences]]        |              |          |      |       |           |
-| [[Workflows]]        |              |          |      |       |           |
-| [[Lists]]            |              |          |      |       |           |
-| [[Favorites]]        |              |          |      |       |           |
-| [[Ask Sparrow]]      |              |          |      |       |           |
-| [[Notification]]     |              |          |      |       |           |
-| [[Settings]]         |              |          |      |       |           |
-| [[Search]]           |              |          |      |       |           |
-| [[Needs attention]]  |              |          |      |       |           |
+| Feature              |
+| -------------------- |
+| [[Integrations-CRM]] |
+| [[Home]]             |
+| [[Fields]]           |
+| [[Deals]]            |
+| [[Contacts]]         |
+| [[Companies]]        |
+| [[Meetings]]         |
+| [[Leads]]            |
+| [[Reports]]          |
+| [[Smart routing]]    |
+| [[Notes]]            |
+| [[Tasks]]            |
+| [[Sequences]]        |
+| [[Workflows]]        |
+| [[Lists]]            |
+| [[Favorites]]        |
+| [[Ask Sparrow]]      |
+| [[Notification]]     |
+| [[Settings]]         |
+| [[Search]]           |
+| [[Needs attention]]  |
 
 ## Status Key
 
