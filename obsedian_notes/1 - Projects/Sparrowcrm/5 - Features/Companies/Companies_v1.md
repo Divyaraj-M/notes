@@ -12,7 +12,8 @@ tags:
 
 | Column name                        | Description |
 | ---------------------------------- | ----------- |
-| People                             |             |
+| First Name                         |             |
+| last Name                          |             |
 | Email                              |             |
 | Auto tag                           |             |
 | Mobile Phone                       |             |
