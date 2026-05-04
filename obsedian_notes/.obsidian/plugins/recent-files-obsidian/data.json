@@ -5,6 +5,10 @@
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "3 - Roadmap & Planning",
