@@ -9,6 +9,18 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     },
     {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "persona-first-decision-facilitation-loop",
+      "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
+    },
+    {
+      "basename": "Cardinality",
+      "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
+    },
+    {
       "basename": "7 - Competitors",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
@@ -41,16 +53,8 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
-      "basename": "persona-first-decision-facilitation-loop",
-      "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
-    },
-    {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
     {
       "basename": "First Principle for a CRM",
@@ -195,10 +199,6 @@
     {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
-      "basename": "SparrowCRM-Entity-Relationships",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     }
   ],
   "omittedPaths": [],

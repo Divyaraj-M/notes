@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Companies_v1"
+              "title": "5 - Features"
             }
           },
           {
@@ -150,9 +150,20 @@
               "icon": "lucide-file",
               "title": "5 - Features"
             }
+          },
+          {
+            "id": "861edf617527af68",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Cardinality"
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -429,10 +440,13 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9fc2fb970f81bc34",
+  "active": "9daf11cec0917eb3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
+    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
@@ -441,9 +455,7 @@
     "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
-    "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
     "1 - Projects/Sparrowcrm/Contact-Fields-Reference.md",
@@ -457,7 +469,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
@@ -477,7 +488,6 @@
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
-    "4 - Archive/Screenshots/image (2).png",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
