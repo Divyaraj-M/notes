@@ -9,25 +9,28 @@ tags:
 ---
 ### [[Fields]]  
 
-| Column name                        | Description |
-| ---------------------------------- | ----------- |
-| First Name                         |             |
-| last Name                          |             |
-| Email                              |             |
-| Auto tag - [[Enriched Fields]]     |             |
-| Mobile Phone                       |             |
-| Job Title - [[Enriched Fields]]    |             |
-| Contact owner                      |             |
-| Linkedin URL - [[Enriched Fields]] |             |
-| Seniority                          |             |
-| Department                         |             |
-| Contact status                     |             |
-| Location - [[Enriched Fields]]     |             |
-| Company                            |             |
-| AI summary -[[Ai Fields]]          |             |
-| Preferred Channel                  |             |
-| Created from                       |             |
-| Twitter url - [[Enriched Fields]]  |             |
-| Created by                         |             |
-| Office Phone - [[Enriched Fields]] |             |
-| [[Fit Score]] - Non edit           |             |
+| Column name                         | Description |
+| ----------------------------------- | ----------- |
+| First Name                          |             |
+| last Name                           |             |
+| Email                               |             |
+| Auto tag - [[Enriched Fields]]      |             |
+| Mobile Phone                        |             |
+| Job Title - [[Enriched Fields]]     |             |
+| Contact owner                       |             |
+| Linkedin URL - [[Enriched Fields]]  |             |
+| Seniority                           |             |
+| Department                          |             |
+| Contact status                      |             |
+| Location - [[Enriched Fields]]      |             |
+| Company                             |             |
+| AI summary -[[Ai Fields]]           |             |
+| Preferred Channel                   |             |
+| Created from                        |             |
+| Twitter url - [[Enriched Fields]]   |             |
+| Created by                          |             |
+| Office Phone - [[Enriched Fields]]  |             |
+| [[Fit Score]] - Non editable        |             |
+| [[Engagement score]] - Non Editable |             |
+| [[Lead Score]] - Non Editable       |             |
+| Linked [[Deals]]                    |             |
