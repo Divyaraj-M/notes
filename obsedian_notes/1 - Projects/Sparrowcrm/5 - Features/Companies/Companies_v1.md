@@ -10,12 +10,21 @@ tags:
 ---
 ### Fields 
 
-| Column name   | Description |
-| ------------- | ----------- |
-| People        |             |
-| Email         |             |
-| Auto tag      |             |
-| Mobile Phone  |             |
-| Job Title     |             |
-| Contact owner |             |
-| Linkedin      |             |
+| Column name                        | Description |
+| ---------------------------------- | ----------- |
+| People                             |             |
+| Email                              |             |
+| Auto tag                           |             |
+| Mobile Phone                       |             |
+| Job Title                          |             |
+| Contact owner                      |             |
+| Linkedin URL - [[Enriched Fields]] |             |
+| Seniority                          |             |
+| Department                         |             |
+| Contact status                     |             |
+| Location - [[Enriched Fields]]     |             |
+| Company                            |             |
+| Preferred Channel                  |             |
+| Created from                       |             |
+| Twitter url - [[Enriched Fields]]  |             |
+|                                    |             |
