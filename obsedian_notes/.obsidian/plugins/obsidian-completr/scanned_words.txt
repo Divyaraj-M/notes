@@ -20944,6 +20944,7 @@ meetingType
 mirrored
 markerName
 markerEnabled
+moveMidPointsWithElement
 Owners
 Opportunity
 Owner
