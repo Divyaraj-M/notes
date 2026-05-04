@@ -544,6 +544,7 @@ TBo
 TMM
 Tracks
 Typically
+Tableau
 Docs
 Doc
 Designer
@@ -1082,6 +1083,9 @@ DiceBear
 DealCreatedMessage
 DealsBulkCreatedMessage
 DealUpdatedMessage
+Doesn
+Deepa
+Dynamics
 Who
 When
 What
@@ -3361,6 +3365,8 @@ ryH
 renewal
 representing
 recalculates
+routers
+ramp
 Jira
 Jdjxj
 JIvrU
@@ -3701,6 +3707,7 @@ Jgt
 JUC
 JNN
 Job
+Justify
 tickets
 tasks
 this
@@ -4335,6 +4342,7 @@ tjL
 tsx
 tpG
 tUb
+typing
 PM
 PRD
 Problem
@@ -4928,6 +4936,8 @@ Phone
 Public
 Private
 Pipelines
+Previous
+Priya
 Before
 Blast
 BM
@@ -5335,6 +5345,7 @@ BcM
 BYl
 Bidirectionally
 BigCo
+Bidirectional
 design
 does
 do
@@ -6058,6 +6069,7 @@ dcsk
 drE
 duz
 differ
+deduplicating
 starts
 sub
 screens
@@ -7086,6 +7098,12 @@ synced
 specially
 sold
 summing
+smart
+syncs
+seniority
+sandbagging
+slip
+she
 everyone
 exactly
 each
@@ -7714,6 +7732,8 @@ exec
 enriched
 enums
 evaluator
+ears
+evaluates
 Story
 Stories
 Should
@@ -8417,6 +8437,10 @@ SMS
 Scores
 Supports
 Scheduled
+SDR
+Spend
+Spends
+Sponsor
 Lead
 Loop
 Linking
@@ -8831,6 +8855,8 @@ Lrd
 LVb
 LiE
 Linkedin
+LeanData
+Looker
 After
 API
 All
@@ -9389,6 +9415,8 @@ About
 Attendees
 Attendee
 Associations
+Arjun
+Asks
 approved
 atomic
 and
@@ -10119,6 +10147,7 @@ attended
 aggregations
 aging
 aggregation
+approves
 QA
 Question
 Quality
@@ -10932,6 +10961,7 @@ FFM
 Fills
 Financial
 Fired
+Frontline
 Goes
 Goals
 Gate
@@ -11289,6 +11319,8 @@ GYW
 GVHfz
 GKqq
 Government
+Gmail
+Gong
 build
 break
 back
@@ -11801,6 +11833,8 @@ bUJ
 blhg
 beq
 bcc
+busywork
+black
 Requirements
 Radius
 Rules
@@ -12394,6 +12428,8 @@ ReN
 RECORD
 Recalculates
 Renewal
+Ramesh
+Routers
 need
 needing
 nested
@@ -13462,6 +13498,11 @@ Clearbit
 Categorizes
 Cancelled
 ClickHouse
+Coach
+Clari
+Chorus
+CRO
+Chief
 How
 Hubs
 Hub
@@ -13872,6 +13913,8 @@ HqqqB
 HIw
 HII
 Hqw
+Hates
+Half
 call
 could
 context
@@ -14870,6 +14913,12 @@ companyWebsite
 conference
 currencies
 consumers
+codebase
+costing
+consolidate
+configurator
+consolidation
+champions
 on
 owns
 one
@@ -15351,6 +15400,7 @@ oRAA
 overridden
 overlap
 organizers
+optimistic
 flows
 from
 full
@@ -15945,6 +15995,7 @@ fxt
 fYw
 fJL
 fetches
+forgotten
 live
 links
 locked
@@ -16468,6 +16519,7 @@ ltb
 llBq
 lTV
 lookup
+lipstick
 here
 has
 how
@@ -16936,6 +16988,7 @@ huuu
 hLp
 hzh
 headquartered
+hiring
 Every
 Engineers
 Expected
@@ -18185,6 +18238,7 @@ NJNi
 Ncuuu
 Normalised
 Negotiation
+Navigator
 under
 users
 upload
@@ -18678,6 +18732,7 @@ uUi
 uki
 uOpK
 upcoming
+unhealthy
 phases
 problem
 placeholder
@@ -19446,6 +19501,10 @@ pfI
 pPR
 profit
 physical
+predictability
+perfect
+putting
+pig
 goals
 give
 generates
@@ -19863,6 +19922,7 @@ gfU
 gxn
 gXvq
 grs
+grudgingly
 It
 If
 Inside
@@ -20365,6 +20425,7 @@ Ideal
 ICP
 Industries
 Includes
+Implementer
 you
 yet
 your
@@ -21010,6 +21071,7 @@ KDXu
 KVn
 KCY
 KbsuP
+Knows
 keep
 knowledge
 known
@@ -21397,6 +21459,7 @@ kod
 klG
 kcß
 kickoffs
+kingmaker
 questions
 quality
 question
@@ -22346,6 +22409,10 @@ mWG
 mjj
 meetingId
 monetary
+manages
+mornings
+mistrusted
+motion
 Owners
 Opportunity
 Owner
@@ -22746,6 +22813,8 @@ OEa
 Office
 Organizer
 OpenSearch
+Outreach
+Officer
 Metric
 Manager
 Must
@@ -24348,6 +24417,8 @@ VcBx
 VAH
 VWWgvi
 Vui
+VLOOKUP
+Vikram
 zero
 zDBSSQvc
 zphvsd
@@ -26025,6 +26096,8 @@ ZBj
 Zss
 ZFR
 Zip
+ZoomInfo
+Zapier
 üy
 üI
 üU
