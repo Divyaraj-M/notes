@@ -2,7 +2,6 @@
 author: Divyaraj Murugan
 published:
 type: PRD
-product: SparrowGenie
 feature:
 status: Not Yet started
 version: 1

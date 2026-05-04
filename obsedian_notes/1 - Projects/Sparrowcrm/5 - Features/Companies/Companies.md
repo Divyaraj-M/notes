@@ -1,7 +1,6 @@
 ---
 owner: Divyaraj Murugan
 feature: "[[Companies]]"
-product: "[[Sparrowcrm]]"
 version: 1
 tags:
   - sparrowcrm/features/companies

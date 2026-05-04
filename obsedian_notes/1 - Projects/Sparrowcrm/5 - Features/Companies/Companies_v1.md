@@ -1,7 +1,6 @@
 ---
 owner: Divyaraj Murugan
 feature: "[[Contacts]]"
-product: "[[Sparrowcrm]]"
 version: 1
 status: Draft
 priority: Medium

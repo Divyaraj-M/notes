@@ -1,7 +1,6 @@
 ---
 owner: Divyaraj Murugan
 feature: "[[Contacts]]"
-product: "[[Sparrowcrm]]"
 tags:
   - sparrowcrm/features/contacts
 ---

@@ -3,7 +3,6 @@ name: Project to Proposal
 tags:
   - new_feature/dossiers/rfp_to_proposal/v1
 type: PRD
-product: SparrowGenie
 feature: Proposal v1
 priority: High
 version: 1

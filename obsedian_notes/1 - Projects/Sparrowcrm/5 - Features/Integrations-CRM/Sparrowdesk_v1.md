@@ -1,7 +1,6 @@
 ---
 owner: Divyaraj Murugan
 feature: "[[SparrowDesk]]"
-product: "[[Sparrowcrm]]"
 version: 1
 status: Not Yet started
 priority: High

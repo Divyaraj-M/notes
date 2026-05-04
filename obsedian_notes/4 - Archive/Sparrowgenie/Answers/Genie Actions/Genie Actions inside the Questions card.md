@@ -6,7 +6,6 @@ Wireframe: https://stunning-froyo-2bbc4c.netlify.app/
 author: Divyaraj Murugan
 published:
 type: PRD
-product: SparrowGenie
 feature:
 status: Done
 priority: Medium

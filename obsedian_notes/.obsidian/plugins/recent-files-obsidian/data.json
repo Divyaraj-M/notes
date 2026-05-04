@@ -1,28 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "8 - Decisions",
+      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
+    },
+    {
+      "basename": "7 - Competitors",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
+    },
+    {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "SparrowDesk",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
+      "basename": "RFP to Proposal",
+      "path": "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/RFP to Proposal.md"
+    },
+    {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "Multi Document Support",
+      "path": "4 - Archive/Sparrowgenie/Multi Document Support.md"
+    },
+    {
+      "basename": "Zoom",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md"
+    },
+    {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "Genie Actions inside the Questions card",
+      "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Companies_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     },
     {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
-    },
-    {
       "basename": "Companies",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
     },
     {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+      "basename": "SparrowDesk",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "Integrations-CRM",
@@ -31,10 +79,6 @@
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
       "basename": "Meetings",
@@ -85,10 +129,6 @@
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
@@ -107,14 +147,6 @@
     {
       "basename": "Screenshot 2026-04-30 at 9.24.35 PM",
       "path": "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
       "basename": "Issues Found",
@@ -145,20 +177,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md"
     },
     {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
       "basename": "a-generative-AI-prompt-builder-for-product-professionals",
       "path": "3 - Resources/PM Prompts Library/prompts/a-generative-AI-prompt-builder-for-product-professionals.md"
     },
     {
       "basename": "Product Strategy",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
-    },
-    {
-      "basename": "7 - Competitors",
-      "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
     {
       "basename": "Competitor Template",
@@ -175,30 +199,6 @@
     {
       "basename": "11 - Help Articles",
       "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
-    },
-    {
-      "basename": "10 - Marketing",
-      "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
-    },
-    {
-      "basename": "9 - Product Wins",
-      "path": "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md"
-    },
-    {
-      "basename": "8 - Decisions",
-      "path": "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md"
-    },
-    {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
-    },
-    {
-      "basename": "Spec Template",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md"
     }
   ],
   "omittedPaths": [],

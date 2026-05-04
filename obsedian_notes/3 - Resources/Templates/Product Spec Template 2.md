@@ -1,7 +1,6 @@
 ---
 owner: Divyaraj Murugan
 feature:
-product: "[[Sparrowcrm]]"
 version: 1
 status:
 priority:
