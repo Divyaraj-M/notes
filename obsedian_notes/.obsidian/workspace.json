@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -120,7 +120,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Companies"
+              "title": "Companies_v1"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -448,12 +448,13 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "48335056adbc1d31",
+  "active": "10774801a6617ec1",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
