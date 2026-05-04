@@ -6,10 +6,10 @@
 		{
 			"id": "contact-box",
 			"type": "rectangle",
-			"x": 100,
-			"y": 100,
+			"x": 100.05211895987844,
+			"y": -13.671311469373393,
 			"width": 260,
-			"height": 300,
+			"height": 352.1282416238864,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#a5d8ff",
@@ -23,7 +23,7 @@
 				"type": 3
 			},
 			"seed": 1001,
-			"version": 2,
+			"version": 134,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -44,19 +44,19 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 638406952,
+			"versionNonce": 155427426,
 			"index": "a0",
 			"frameId": null,
-			"updated": 1777793827461,
+			"updated": 1777871936681,
 			"hasTextLink": false
 		},
 		{
 			"id": "86i93Y73",
 			"type": "text",
-			"x": 120,
-			"y": 110,
+			"x": 120.0520575637745,
+			"y": -3.671311469373393,
 			"width": 196,
-			"height": 280,
+			"height": 332.5,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -68,32 +68,31 @@
 			"groupIds": [],
 			"roundness": null,
 			"seed": 1002,
-			"version": 2,
+			"version": 175,
 			"isDeleted": false,
 			"boundElements": [],
-			"link": null,
 			"locked": false,
-			"text": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
+			"text": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
 			"fontSize": 14,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
+			"originalText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
 			"autoResize": true,
 			"lineHeight": 1.25,
-			"versionNonce": 151631192,
+			"versionNonce": 1428143934,
 			"index": "a1",
 			"frameId": null,
-			"updated": 1777793827461,
+			"updated": 1777871933373,
 			"hasTextLink": false,
-			"rawText": ""
+			"rawText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• firstName\n• lastName\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API"
 		},
 		{
 			"id": "company-box",
 			"type": "rectangle",
-			"x": 540,
-			"y": 100,
+			"x": 539.9694184078644,
+			"y": -13.671311469373393,
 			"width": 260,
 			"height": 300,
 			"angle": 0,
@@ -109,7 +108,7 @@
 				"type": 3
 			},
 			"seed": 2001,
-			"version": 2,
+			"version": 81,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -130,17 +129,17 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 764996648,
+			"versionNonce": 1537288062,
 			"index": "a2",
 			"frameId": null,
-			"updated": 1777793827461,
+			"updated": 1777871933373,
 			"hasTextLink": false
 		},
 		{
 			"id": "tMf1aKcI",
 			"type": "text",
-			"x": 560,
-			"y": 110,
+			"x": 560.1089534011343,
+			"y": -3.536130465492363,
 			"width": 196,
 			"height": 262.5,
 			"angle": 0,
@@ -154,7 +153,7 @@
 			"groupIds": [],
 			"roundness": null,
 			"seed": 2002,
-			"version": 2,
+			"version": 82,
 			"isDeleted": false,
 			"boundElements": [],
 			"link": null,
@@ -168,10 +167,10 @@
 			"originalText": "🏢 COMPANY\n━━━━━━━━━━━━━━\nPrimary Fields:\n• companyName\n• companyDomain\n• companyLinkedinUrl\n• companyLogoUrl\n• companyOwner\n━━━━━━━━━━━━━━\nEnriched Fields:\n• revenue\n• employeeCount\n• industry\n• companyType\n• country / state",
 			"autoResize": true,
 			"lineHeight": 1.25,
-			"versionNonce": 1171868248,
+			"versionNonce": 671606050,
 			"index": "a3",
 			"frameId": null,
-			"updated": 1777793827461,
+			"updated": 1777871937617,
 			"hasTextLink": false,
 			"rawText": ""
 		},
@@ -350,10 +349,10 @@
 		{
 			"id": "arrow-contact-company",
 			"type": "arrow",
-			"x": 360,
-			"y": 200,
-			"width": 180,
-			"height": 0,
+			"x": 366.05211895987844,
+			"y": 85.53579907552131,
+			"width": 167.91729944798595,
+			"height": 7.711419153581858,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
 			"backgroundColor": "transparent",
@@ -367,7 +366,7 @@
 				"type": 2
 			},
 			"seed": 5001,
-			"version": 2,
+			"version": 134,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -383,8 +382,8 @@
 					0
 				],
 				[
-					180,
-					0
+					167.91729944798595,
+					-7.711419153581858
 				]
 			],
 			"lastCommittedPoint": null,
@@ -409,11 +408,12 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 325549352,
+			"versionNonce": 1327826466,
 			"index": "a8",
 			"frameId": null,
-			"updated": 1777793827461,
-			"hasTextLink": false
+			"updated": 1777871936681,
+			"hasTextLink": false,
+			"moveMidPointsWithElement": false
 		},
 		{
 			"id": "RNwXyfRo",
@@ -457,10 +457,10 @@
 		{
 			"id": "arrow-contact-deal",
 			"type": "arrow",
-			"x": 230,
-			"y": 400,
-			"width": 0,
-			"height": 120,
+			"x": 230.05942880939355,
+			"y": 344.45693015451303,
+			"width": 0.01740814425636472,
+			"height": 169.54306984548697,
 			"angle": 0,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
@@ -474,7 +474,7 @@
 				"type": 2
 			},
 			"seed": 5003,
-			"version": 2,
+			"version": 134,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -490,8 +490,8 @@
 					0
 				],
 				[
-					0,
-					120
+					-0.01740814425636472,
+					169.54306984548697
 				]
 			],
 			"lastCommittedPoint": null,
@@ -516,11 +516,12 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 1187878952,
+			"versionNonce": 1654911458,
 			"index": "aA",
 			"frameId": null,
-			"updated": 1777793827461,
-			"hasTextLink": false
+			"updated": 1777871936681,
+			"hasTextLink": false,
+			"moveMidPointsWithElement": false
 		},
 		{
 			"id": "Bi4C8TlT",
@@ -564,10 +565,10 @@
 		{
 			"id": "arrow-company-deal",
 			"type": "arrow",
-			"x": 540,
-			"y": 400,
-			"width": 180,
-			"height": 120,
+			"x": 558.7746245169587,
+			"y": 290.8140066595033,
+			"width": 217.62192950165667,
+			"height": 224.68993018717038,
 			"angle": 0,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
@@ -581,7 +582,7 @@
 				"type": 2
 			},
 			"seed": 5005,
-			"version": 2,
+			"version": 81,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -597,8 +598,8 @@
 					0
 				],
 				[
-					-180,
-					120
+					-217.62192950165667,
+					224.68993018717038
 				]
 			],
 			"lastCommittedPoint": null,
@@ -623,11 +624,12 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 2092454696,
+			"versionNonce": 374048702,
 			"index": "aC",
 			"frameId": null,
-			"updated": 1777793827461,
-			"hasTextLink": false
+			"updated": 1777871933374,
+			"hasTextLink": false,
+			"moveMidPointsWithElement": false
 		},
 		{
 			"id": "eZyApweg",
@@ -671,10 +673,10 @@
 		{
 			"id": "arrow-contact-meeting",
 			"type": "arrow",
-			"x": 360,
-			"y": 350,
-			"width": 310,
-			"height": 170,
+			"x": 366.0521189598785,
+			"y": 304.3266788074208,
+			"width": 293.00670456953503,
+			"height": 209.67332119257918,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
@@ -688,7 +690,7 @@
 				"type": 2
 			},
 			"seed": 5007,
-			"version": 2,
+			"version": 134,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -704,12 +706,12 @@
 					0
 				],
 				[
-					155,
-					85
+					148.9478810401215,
+					130.67332119257918
 				],
 				[
-					310,
-					170
+					293.00670456953503,
+					209.67332119257918
 				]
 			],
 			"lastCommittedPoint": null,
@@ -734,11 +736,12 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 999534120,
+			"versionNonce": 1187997090,
 			"index": "aE",
 			"frameId": null,
-			"updated": 1777793827461,
-			"hasTextLink": false
+			"updated": 1777871936682,
+			"hasTextLink": false,
+			"moveMidPointsWithElement": false
 		},
 		{
 			"id": "vFK8pBl9",
@@ -782,10 +785,10 @@
 		{
 			"id": "arrow-company-meeting",
 			"type": "arrow",
-			"x": 670,
-			"y": 400,
-			"width": 0,
-			"height": 120,
+			"x": 670.0043561394286,
+			"y": 292.3286885306266,
+			"width": 0.012702690757123491,
+			"height": 221.6713114693734,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
@@ -799,7 +802,7 @@
 				"type": 2
 			},
 			"seed": 5009,
-			"version": 2,
+			"version": 81,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -815,8 +818,8 @@
 					0
 				],
 				[
-					0,
-					120
+					0.012702690757123491,
+					221.6713114693734
 				]
 			],
 			"lastCommittedPoint": null,
@@ -841,11 +844,12 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 1548462376,
+			"versionNonce": 88072190,
 			"index": "aG",
 			"frameId": null,
-			"updated": 1777793827461,
-			"hasTextLink": false
+			"updated": 1777871933375,
+			"hasTextLink": false,
+			"moveMidPointsWithElement": false
 		},
 		{
 			"id": "Tg9asocS",
@@ -996,8 +1000,8 @@
 		{
 			"id": "Pa6vMEUU",
 			"type": "text",
-			"x": 204.98611450195312,
-			"y": 30,
+			"x": 204.95553290981752,
+			"y": -83.67131146937339,
 			"width": 490.02777099609375,
 			"height": 35,
 			"angle": 0,
@@ -1011,7 +1015,7 @@
 			"groupIds": [],
 			"roundness": null,
 			"seed": 6001,
-			"version": 2,
+			"version": 81,
 			"isDeleted": false,
 			"boundElements": [],
 			"link": null,
@@ -1025,10 +1029,10 @@
 			"originalText": "SparrowCRM — Entity Relationships",
 			"autoResize": true,
 			"lineHeight": 1.25,
-			"versionNonce": 1669431080,
+			"versionNonce": 256030910,
 			"index": "aK",
 			"frameId": null,
-			"updated": 1777793827461,
+			"updated": 1777871933375,
 			"hasTextLink": false,
 			"rawText": ""
 		},
@@ -1260,10 +1264,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": -76.55313322750263,
-		"scrollY": -267.5704104426467,
+		"scrollX": -53.23255036557707,
+		"scrollY": 65.94817710803942,
 		"zoom": {
-			"value": 1.959521
+			"value": 2.206591
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,

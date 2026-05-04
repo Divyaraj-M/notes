@@ -115,10 +115,10 @@
 		{
 			"id": "objects-table-box",
 			"type": "rectangle",
-			"x": 350,
-			"y": 200,
+			"x": 350.08676276576955,
+			"y": 199.9132372342305,
 			"width": 260,
-			"height": 200,
+			"height": 214.85361145853574,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#e8deee",
@@ -132,15 +132,15 @@
 				"type": 3
 			},
 			"seed": 200,
-			"version": 2,
+			"version": 20,
 			"isDeleted": false,
 			"boundElements": [],
 			"link": null,
 			"locked": false,
-			"versionNonce": 998538328,
+			"versionNonce": 1863508002,
 			"index": "a3",
 			"frameId": null,
-			"updated": 1777794238933,
+			"updated": 1777871865212,
 			"hasTextLink": false
 		},
 		{
@@ -708,7 +708,8 @@
 			"frameId": null,
 			"updated": 1777794279830,
 			"hasTextLink": false,
-			"rawText": "object_attribute_values (Primitive Data)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nPK: id (BIGINT)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nFK: account_id → accounts\nFK: object_id → objects\nFK: object_record_id → the record\nFK: attribute_id → object_attributes\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n   value_text / value_number\n   value_date / value_boolean"
+			"rawText": "object_attribute_values (Primitive Data)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nPK: id (BIGINT)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nFK: account_id → accounts\nFK: object_id → objects\nFK: object_record_id → the record\nFK: attribute_id → object_attributes\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n   value_text / value_number\n   value_date / value_boolean",
+			"link": null
 		},
 		{
 			"id": "pipelines-box",
@@ -964,7 +965,7 @@
 			"type": "text",
 			"x": 100,
 			"y": 2020,
-			"width": 693.5625,
+			"width": 675,
 			"height": 230.39999999999998,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -1016,10 +1017,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 842.5634798049457,
-		"scrollY": -382.9053036755857,
+		"scrollX": 241.46403931149086,
+		"scrollY": -37.97839087666756,
 		"zoom": {
-			"value": 0.58023
+			"value": 1.455511
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
