@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "Meetings",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
+    },
+    {
+      "basename": "Feature Template",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
+    },
+    {
+      "basename": "Meetings_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
+    },
+    {
+      "basename": "Deals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
+    },
+    {
       "basename": "Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
     },
     {
       "basename": "Deal_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
-    },
-    {
-      "basename": "Deals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
     },
     {
       "basename": "Contacts",
@@ -117,16 +133,8 @@
       "path": "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md"
     },
     {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Meetings",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
       "basename": "@Shihab Muhammed",
@@ -191,14 +199,6 @@
     {
       "basename": "Screenshot 2026-04-30 at 9.24.35 PM",
       "path": "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png"
-    },
-    {
-      "basename": "Udemy",
-      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
-    },
-    {
-      "basename": "Ai Fields",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md"
     }
   ],
   "omittedPaths": [],

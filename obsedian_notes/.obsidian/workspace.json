@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -110,7 +110,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fields"
+              "title": "Integrations-CRM"
             }
           },
           {
@@ -122,9 +122,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "9daf11cec0917eb3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -177,7 +187,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/features/contacts",
+                "query": "tag:#sparrowcrm/features/integrations",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -209,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5066738128662
+    "width": 356.5100975036621
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -400,10 +410,15 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "48335056adbc1d31",
+  "active": "9daf11cec0917eb3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
@@ -423,11 +438,6 @@
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
-    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
