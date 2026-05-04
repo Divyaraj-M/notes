@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "3 - Resources/Books/Read List/Read List.md"
+    },
+    {
+      "basename": "My Product Notes",
+      "path": "3 - Resources/My Product Notes.md"
+    },
+    {
+      "basename": "Help Article Template",
+      "path": "3 - Resources/Help Article Template.md"
+    },
+    {
+      "basename": "positioning-statement-prompt-generator",
+      "path": "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md"
+    },
+    {
+      "basename": "proto-persona-prompt-generator",
+      "path": "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md"
+    },
+    {
       "basename": "Dashboard",
       "path": "finance/Dashboard.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "@Ganesh Ravi Shankar(GRS)",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
-    },
-    {
-      "basename": "@Nayan Jain",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
-    },
-    {
-      "basename": "@Sakthi Prasath M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
-    },
-    {
-      "basename": "@Vaishnavi Yuvaraj",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Vaishnavi Yuvaraj.md"
-    },
-    {
-      "basename": "@Anshul S",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Anshul S.md"
-    },
-    {
-      "basename": "@Supraja",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Supraja.md"
     }
   ],
   "omittedPaths": [],

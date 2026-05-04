@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "finance/Dashboard.md",
+                "file": "3 - Resources/Books/Read List/Read List.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "Read List"
             }
           }
         ],
@@ -491,6 +491,11 @@
   },
   "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "3 - Resources/My Product Notes.md",
+    "3 - Resources/Help Article Template.md",
+    "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md",
+    "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md",
+    "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
@@ -505,7 +510,6 @@
     "finance/Data/categories/Gifts & Bonus.md",
     "finance/Data/categories/Freelance.md",
     "finance/Data/categories/Wages.md",
-    "finance/Dashboard.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
@@ -522,11 +526,7 @@
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/whimsical_er_map_ticketing_template.html",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
-    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
-    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "Untitled.canvas",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
     "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
