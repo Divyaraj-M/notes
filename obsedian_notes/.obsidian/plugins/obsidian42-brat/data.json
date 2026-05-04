@@ -1,8 +1,13 @@
 {
   "pluginList": [
+    "Dekimori/PersonalCapital-plugin",
     "StepanKropachev/obsidian-pm"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "Dekimori/PersonalCapital-plugin",
+      "version": ""
+    },
     {
       "repo": "StepanKropachev/obsidian-pm",
       "version": ""

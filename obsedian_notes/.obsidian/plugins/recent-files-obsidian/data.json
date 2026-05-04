@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Dashboard",
+      "path": "finance/Dashboard.md"
+    },
+    {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "@Supraja",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Supraja.md"
-    },
-    {
-      "basename": "@Madhan  M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Madhan  M.md"
     }
   ],
   "omittedPaths": [],

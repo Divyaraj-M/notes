@@ -186,9 +186,33 @@
               "icon": "lucide-file",
               "title": "4 - Product Specs"
             }
+          },
+          {
+            "id": "17b9d410ab089f26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "finance/Dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -465,14 +489,34 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "b4dd4d119305d49b",
+  "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "finance/Data/categories/Vacation.md",
+    "finance/Data/categories/Subscriptions.md",
+    "finance/Data/categories/Clothing.md",
+    "finance/Data/categories/Entertainment.md",
+    "finance/Data/categories/Eat Out.md",
+    "finance/Data/categories/Transport.md",
+    "finance/Data/categories/Health.md",
+    "finance/Data/categories/Bills.md",
+    "finance/Data/categories/Groceries.md",
+    "finance/Data/categories/Rent.md",
+    "finance/Data/categories/Gifts & Bonus.md",
+    "finance/Data/categories/Freelance.md",
+    "finance/Data/categories/Wages.md",
+    "finance/Dashboard.md",
+    "finance/Data/accounts",
+    "finance/Data/archive",
+    "finance/Data/assets",
+    "finance/Data/categories",
+    "finance/Data",
+    "finance",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -484,31 +528,11 @@
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "Untitled.canvas",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
-    "1 - Projects/Sparrowcrm/Contact-Fields-Reference.md",
-    "1 - Projects/Sparrowcrm/Company-Fields-Reference.md",
-    "1 - Projects/Sparrowcrm/Deal-Fields-Reference.md",
-    "1 - Projects/Sparrowcrm/Meeting-Fields-Reference.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
     "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105508.png",
-    "1 - Projects/Sparrowcrm/5 - Features/Fields",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
-    "1 - Projects/Sparrowcrm/12 - People",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
