@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
-      "basename": "Product Management - Top Deliverables",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
+      "basename": "SparrowCRM-Entity-Relationships",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+    },
+    {
+      "basename": "Pasted image 20260504115107",
+      "path": "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png"
     },
     {
       "basename": "3 - Roadmap & Planning",
@@ -15,6 +19,14 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
     },
     {
       "basename": "5 - Features",
@@ -141,10 +153,6 @@
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
     {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
-    },
-    {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "@Madhan  M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Madhan  M.md"
-    },
-    {
-      "basename": "@Yuvaraj Singh J",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Yuvaraj Singh J.md"
-    },
-    {
-      "basename": "@Divyaraj Murugan",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Divyaraj Murugan.md"
     }
   ],
   "omittedPaths": [],

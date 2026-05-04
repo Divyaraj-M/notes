@@ -4,4 +4,4 @@
 - [x] Product board 
 04-May-2026
 - [ ] Integrations - Sparrowdesk integration
-- [ ] Layout the basics with [[12 - People|People]]
+- [x] Layout the basics with [[12 - People|People]]
