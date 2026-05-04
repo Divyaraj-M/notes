@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Issues Found"
+              "title": "5 - Features"
             }
           }
         ],
@@ -491,7 +491,15 @@
   },
   "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
+    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/My Product Notes.md",
@@ -499,7 +507,6 @@
     "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md",
     "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md",
     "finance/Dashboard.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
@@ -510,21 +517,14 @@
     "finance/Data/categories/Bills.md",
     "finance/Data/categories/Groceries.md",
     "finance/Data/categories/Rent.md",
-    "finance/Data/categories/Gifts & Bonus.md",
-    "finance/Data/categories/Freelance.md",
-    "finance/Data/categories/Wages.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
-    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/whimsical_er_map_ticketing_template.html",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Untitled.canvas",
