@@ -24,8 +24,10 @@ tags:
 | Contact status                     |             |
 | Location - [[Enriched Fields]]     |             |
 | Company                            |             |
+| AI summary -[[Ai Fields]]          |             |
 | Preferred Channel                  |             |
 | Created from                       |             |
 | Twitter url - [[Enriched Fields]]  |             |
 | Created by                         |             |
-|                                    |             |
+| Office Phone - [[Enriched Fields]] |             |
+| [[Fit Score]] - Non edit           |             |
