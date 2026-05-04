@@ -653,7 +653,7 @@
 		{
 			"id": "arrow-contact-meeting",
 			"type": "arrow",
-			"x": 360.2577321954145,
+			"x": 360.3434707357128,
 			"y": 306.2738115776596,
 			"width": 293.00670456953503,
 			"height": 209.67332119257918,
@@ -670,7 +670,7 @@
 				"type": 2
 			},
 			"seed": 5007,
-			"version": 170,
+			"version": 171,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -702,10 +702,10 @@
 			"customData": {
 				"legacyTextWrap": true
 			},
-			"versionNonce": 201301666,
+			"versionNonce": 630467582,
 			"index": "aE",
 			"frameId": null,
-			"updated": 1777872885626,
+			"updated": 1777873643180,
 			"hasTextLink": false,
 			"moveMidPointsWithElement": false
 		},
@@ -1230,10 +1230,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 185.05107639923227,
-		"scrollY": -55.929344095873816,
+		"scrollX": 75.18197874795725,
+		"scrollY": 59.262052650784355,
 		"zoom": {
-			"value": 1.856571
+			"value": 1.639437
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
