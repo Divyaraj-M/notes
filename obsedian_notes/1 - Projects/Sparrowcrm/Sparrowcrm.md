@@ -1,5 +1,5 @@
 ---
-owner: "[[Divyaraj Murugan]]"
+owner: "[[@Divyaraj Murugan]]"
 tags:
   - sparrowcrm
 ---
