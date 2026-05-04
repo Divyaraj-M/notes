@@ -177,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sparrowcrm/features/contacts",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -347,8 +347,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -401,12 +400,15 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "48335056adbc1d31",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Meeting-Fields-Reference.md",
+    "1 - Projects/Sparrowcrm/Deal-Fields-Reference.md",
+    "1 - Projects/Sparrowcrm/Company-Fields-Reference.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/Contact-Fields-Reference.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
@@ -426,9 +428,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "4 - Archive/Sparrowgenie/Multi Document Support.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
