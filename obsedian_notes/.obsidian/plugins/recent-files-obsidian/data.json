@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "Fields",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
+    },
+    {
+      "basename": "Deals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "12 - People",
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
+    },
+    {
+      "basename": "Contacts_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
+    },
+    {
       "basename": "Issues Found",
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
@@ -9,28 +37,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     },
     {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
       "basename": "Meetings",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
-      "basename": "Deals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
-    },
-    {
-      "basename": "Fields",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -65,20 +77,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     },
     {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
       "basename": "2 - Customer Insights",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
-    },
-    {
-      "basename": "12 - People",
-      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
       "basename": "Ai Fields",
@@ -195,10 +199,6 @@
     {
       "basename": "Google Search Console",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md"
-    },
-    {
-      "basename": "Zapier",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md"
     }
   ],
   "omittedPaths": [],

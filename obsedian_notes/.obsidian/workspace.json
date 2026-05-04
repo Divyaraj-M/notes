@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -144,7 +144,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Issues Found"
+              "title": "Companies"
             }
           },
           {
@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -168,11 +168,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12 - People"
+              "title": "Companies"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -448,16 +448,21 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "10774801a6617ec1",
+  "active": "66005abf1c9ad0ba",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -467,15 +472,12 @@
     "1 - Projects/Sparrowcrm/5 - Features/Deals",
     "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105508.png",
     "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields",
@@ -484,7 +486,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - People",
@@ -495,7 +496,6 @@
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png",
     "4 - Archive/Screenshots/image (2).png",
-    "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas",
