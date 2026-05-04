@@ -3,7 +3,7 @@ tags:
   - sparrowcrm/first_principle
 ---
 
-
+[[Sparrowcrm]]
 ### Part 1: The 5 Whys of a CRM
 
 **The Starting Premise:** A business needs to purchase and implement a CRM system.
