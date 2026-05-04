@@ -8,7 +8,7 @@ priority: Medium
 tags:
   - sparrowcrm/features/contacts/v1
 ---
-### Fields 
+### [[Fields]]  
 
 | Column name                        | Description |
 | ---------------------------------- | ----------- |
@@ -17,7 +17,7 @@ tags:
 | Email                              |             |
 | Auto tag - [[Enriched Fields]]     |             |
 | Mobile Phone                       |             |
-| Job Title                          |             |
+| Job Title - [[Enriched Fields]]    |             |
 | Contact owner                      |             |
 | Linkedin URL - [[Enriched Fields]] |             |
 | Seniority                          |             |

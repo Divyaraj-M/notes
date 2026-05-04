@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"1 - Projects/Sparrowcrm/12 - People\"  ",
@@ -39,6 +39,6 @@
   "repelStrength": 9.66319444444444,
   "linkStrength": 1,
   "linkDistance": 251,
-  "scale": 0.5331040634072213,
-  "close": false
+  "scale": 0.7087682702838946,
+  "close": true
 }
