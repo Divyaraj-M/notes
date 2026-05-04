@@ -253,7 +253,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/features/integrations",
+                "query": "tag:#sparrowcrm/customer_insights",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -477,8 +477,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "17b9d410ab089f26",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -504,14 +505,12 @@
     "finance/Dashboard.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
-    "finance/Data/categories/Clothing.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/whimsical_er_map_ticketing_template.html",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",

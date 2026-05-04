@@ -1935,3 +1935,4 @@
 "event_logs:sources:opened": {"key":"sources:opened","ct":1196,"first_at":1775932412004,"last_at":1777900406647,"class_name":"EventLog","event_sources":{"active-leaf-change":1188,"open_source":2,"file-open":6}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":1197,"first_at":1775932412004,"last_at":1777900410025,"class_name":"EventLog","event_sources":{"active-leaf-change":1189,"open_source":2,"file-open":6}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":1198,"first_at":1775932412004,"last_at":1777900451740,"class_name":"EventLog","event_sources":{"active-leaf-change":1190,"open_source":2,"file-open":6}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1199,"first_at":1775932412004,"last_at":1777900688771,"class_name":"EventLog","event_sources":{"active-leaf-change":1191,"open_source":2,"file-open":6}},
