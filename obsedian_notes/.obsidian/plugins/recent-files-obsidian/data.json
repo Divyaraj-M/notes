@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Udemy",
-      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "Deals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
     },
     {
       "basename": "Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Udemy",
+      "path": "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md"
     },
     {
       "basename": "SparrowCRM-Entity-Relationships",
@@ -51,18 +67,6 @@
     {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Deals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Ai Fields",
@@ -195,10 +199,6 @@
     {
       "basename": "Divyaraj Murugan",
       "path": "1 - Projects/Sparrowcrm/12 - People/Divyaraj Murugan.md"
-    },
-    {
-      "basename": "Yuvaraj Singh J",
-      "path": "1 - Projects/Sparrowcrm/12 - People/Yuvaraj Singh J.md"
     }
   ],
   "omittedPaths": [],

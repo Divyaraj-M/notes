@@ -1,4 +1,5 @@
 - [ ] [[Ai Fields]]
 - [ ] [[Enriched Fields]]
-- [ ] Deals 
-- [ ] Contacts 
+- [ ] [[Fields-Deals]]
+- [ ] [[Fields-Contacts]]
+- [ ] [[Fields-Companies]]

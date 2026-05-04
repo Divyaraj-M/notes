@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -120,7 +120,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fields"
+              "title": "5 - Features"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -448,10 +448,16 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "5285e1d13663d10a",
+  "active": "48335056adbc1d31",
   "lastOpenFiles": [
-    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png",
@@ -465,9 +471,6 @@
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields",
@@ -480,15 +483,12 @@
     "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
-    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "1 - Projects/Sparrowcrm/12 - People",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM Dashboard.html",
-    "1 - Projects/Sparrowcrm/refresh-dashboard.py",
-    "1 - Projects/Sparrowcrm/11 - Help Articles",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
