@@ -12,7 +12,7 @@ tags:
 
 You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
 
-## PRD Structure
+## PRD Structurex
 
 A well-structured PRD follows this template:
 

@@ -1,7 +1,7 @@
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.22.1",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.22.3",
 	"elements": [
 		{
 			"id": "contact-box",
@@ -49,7 +49,7 @@
 		{
 			"id": "86i93Y73",
 			"type": "text",
-			"x": 119.59470613846847,
+			"x": 119.40709214282353,
 			"y": -4.993990101605505,
 			"width": 196,
 			"height": 315,
@@ -64,25 +64,25 @@
 			"groupIds": [],
 			"roundness": null,
 			"seed": 1002,
-			"version": 227,
+			"version": 236,
 			"isDeleted": false,
 			"boundElements": [],
 			"locked": false,
-			"text": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
+			"text": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• People\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
 			"fontSize": 14,
 			"fontFamily": 1,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
+			"originalText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• People\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API",
 			"autoResize": true,
 			"lineHeight": 1.25,
-			"versionNonce": 1833688830,
+			"versionNonce": 1533713481,
 			"index": "a1",
 			"frameId": null,
-			"updated": 1777873978265,
+			"updated": 1777876438528,
 			"hasTextLink": false,
-			"rawText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API"
+			"rawText": "👤 CONTACT\n━━━━━━━━━━━━━━\nPrimary Fields:\n• People\n• email\n• phone\n• jobTitle\n• contactOwner\n• companyName \n• companyDomain\n\n━━━━━━━━━━━━━━\nSources:\n• Manual Entry\n• CSV Import\n• Integration\n• Smart Router\n• API"
 		},
 		{
 			"id": "company-box",
@@ -168,7 +168,8 @@
 			"frameId": null,
 			"updated": 1777872896885,
 			"hasTextLink": false,
-			"rawText": "🏢 COMPANY\n━━━━━━━━━━━━━━\nPrimary Fields:\n• companyName\n• companyDomain\n• companyLinkedinUrl\n• companyLogoUrl\n• companyOwner\n• contacts(many)\n━━━━━━━━━━━━━━\nEnriched Fields:\n• revenue\n• employeeCount\n• industry\n• companyType\n• country / state"
+			"rawText": "🏢 COMPANY\n━━━━━━━━━━━━━━\nPrimary Fields:\n• companyName\n• companyDomain\n• companyLinkedinUrl\n• companyLogoUrl\n• companyOwner\n• contacts(many)\n━━━━━━━━━━━━━━\nEnriched Fields:\n• revenue\n• employeeCount\n• industry\n• companyType\n• country / state",
+			"link": null
 		},
 		{
 			"id": "deal-box",
@@ -406,9 +407,9 @@
 		{
 			"id": "RNwXyfRo",
 			"type": "text",
-			"x": 401.1280059814453,
-			"y": 190,
-			"width": 97.74398803710938,
+			"x": 402.88186243387145,
+			"y": 71.68008949873038,
+			"width": 94.2578125,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#2f9e44",
@@ -514,9 +515,9 @@
 		{
 			"id": "Bi4C8TlT",
 			"type": "text",
-			"x": 176.76801300048828,
-			"y": 450,
-			"width": 106.46397399902344,
+			"x": 179.15241693697237,
+			"y": 419.2284650772565,
+			"width": 101.79661560058594,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#e67700",
@@ -615,9 +616,9 @@
 		{
 			"id": "eZyApweg",
 			"type": "text",
-			"x": 395.02291363832944,
+			"x": 396.76600140688413,
 			"y": 394.1492549183895,
-			"width": 97.74398803710938,
+			"width": 94.2578125,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#e67700",
@@ -648,7 +649,8 @@
 			"frameId": null,
 			"updated": 1777872896918,
 			"hasTextLink": false,
-			"rawText": "One → Many"
+			"rawText": "One → Many",
+			"link": null
 		},
 		{
 			"id": "arrow-contact-meeting",
@@ -712,9 +714,9 @@
 		{
 			"id": "vFK8pBl9",
 			"type": "text",
-			"x": 461.7680130004883,
-			"y": 425,
-			"width": 106.46397399902344,
+			"x": 458.39304397554133,
+			"y": 426.9471327702388,
+			"width": 101.79661560058594,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -820,9 +822,9 @@
 		{
 			"id": "Tg9asocS",
 			"type": "text",
-			"x": 621.1280059814453,
-			"y": 450,
-			"width": 97.74398803710938,
+			"x": 622.8818012348072,
+			"y": 393.1643442653133,
+			"width": 94.2578125,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -927,9 +929,9 @@
 		{
 			"id": "SHeE8SlS",
 			"type": "text",
-			"x": 396.7680130004883,
+			"x": 399.10169219970703,
 			"y": 660,
-			"width": 106.46397399902344,
+			"width": 101.79661560058594,
 			"height": 20,
 			"angle": 0,
 			"strokeColor": "#e03131",
@@ -966,9 +968,9 @@
 		{
 			"id": "Pa6vMEUU",
 			"type": "text",
-			"x": 204.95553290981752,
+			"x": 221.2252777828644,
 			"y": -83.67131146937339,
-			"width": 490.02777099609375,
+			"width": 457.48828125,
 			"height": 35,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
@@ -1230,10 +1232,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 75.18197874795725,
-		"scrollY": 59.262052650784355,
+		"scrollX": 123.33537367787227,
+		"scrollY": 164.13889458128403,
 		"zoom": {
-			"value": 1.639437
+			"value": 1.696885
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,

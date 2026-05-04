@@ -170,9 +170,21 @@
               "icon": "lucide-file",
               "title": "Companies_v1"
             }
+          },
+          {
+            "id": "3fa411f8c297c7f6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparrowCRM-Entity-Relationships"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -448,8 +460,9 @@
       "banyan:Random open a note - Random review": false
     }
   },
-  "active": "66005abf1c9ad0ba",
+  "active": "3fa411f8c297c7f6",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
@@ -459,7 +472,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
