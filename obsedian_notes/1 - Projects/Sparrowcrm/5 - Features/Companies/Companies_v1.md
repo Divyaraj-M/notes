@@ -29,3 +29,4 @@ tags:
 | Created from                       |             |
 | Twitter url - [[Enriched Fields]]  |             |
 | Created by                         |             |
+|                                    |             |
