@@ -167,12 +167,24 @@
             "id": "b4dd4d119305d49b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+                "file": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "SparrowCRM-Entity-Relationships"
+              "icon": "lucide-file",
+              "title": "4 - Product Specs"
             }
           }
         ],
@@ -455,10 +467,11 @@
   },
   "active": "b4dd4d119305d49b",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
-    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+    "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md",

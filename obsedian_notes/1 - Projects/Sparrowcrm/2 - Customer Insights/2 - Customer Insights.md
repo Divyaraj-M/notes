@@ -32,5 +32,3 @@ tags:
 
 
 ---
-
-**Related:** [[User Personas]] | [[1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points]] | [[Product Strategy]]
