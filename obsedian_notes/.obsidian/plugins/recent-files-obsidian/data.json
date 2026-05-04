@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Untitled.canvas"
+    },
+    {
+      "basename": "User Personas",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md"
+    },
+    {
+      "basename": "Friction Points",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Meetings",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
+    },
+    {
       "basename": "persona-first-decision-facilitation-loop",
       "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
     },
@@ -25,24 +49,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
     },
     {
-      "basename": "Meetings",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Companies",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Feature Template",
@@ -187,18 +199,6 @@
     {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
-    },
-    {
-      "basename": "Pasted image 20260504115107",
-      "path": "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png"
-    },
-    {
-      "basename": "Pasted image 20260504105748",
-      "path": "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png"
-    },
-    {
-      "basename": "SparrowCRM-PK-FK-Database-Schema",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
     }
   ],
   "omittedPaths": [],

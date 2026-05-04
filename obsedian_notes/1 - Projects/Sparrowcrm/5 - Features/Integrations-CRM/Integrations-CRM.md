@@ -7,7 +7,7 @@ tags:
   - sparrowcrm/features/integrations
 ---
 
-# FEAT — Integrations CRM
+#  Integrations CRM
 
 ## Status Tracker
 
@@ -19,7 +19,7 @@ tags:
 
 ## Target User / Persona
 
-@grs
+
 ## Prioritization
 
 | Impact (1-5) | Effort (1-5) | Score | Quadrant |
@@ -81,5 +81,3 @@ tags:
 
 
 ---
-
-**Related:** [[5 - Features]] | [[4 - Product Specs]] | [[Prioritization Matrix]]
