@@ -13,11 +13,11 @@ tags:
 
 ## Field Categories
 
-|Category|Meaning|
-|---|---|
-|**Primary**|Core field stored directly on the `deals` table.|
-|**Custom**|Field stored in the attribute values system (not a direct column on the deals table). Includes pipeline/stage attributes.|
-|**AI**|Computed by AI agents. Non-editable by users.|
+| Category    | Meaning                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Primary** | Core field stored directly on the `deals` table.                                                                          |
+| **Custom**  | Field stored in the attribute values system (not a direct column on the deals table). Includes pipeline/stage attributes. |
+| **AI**      | Computed by AI agents. Non-editable by users.                                                                             |
 
 ---
 
