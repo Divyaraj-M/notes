@@ -4,4 +4,8 @@
 - [x] Product board 
 04-May-2026
 - [ ] Integrations - Sparrowdesk integration
-- [x] Layout the basics with [[12 - People|People]]
+- [x] Layout the basics with [[12 - People|People]] \
+05-May-2026
+- [ ] Ticketing objects 
+- [ ] Connected apps - list SaprrowDesk 
+- [ ] 
