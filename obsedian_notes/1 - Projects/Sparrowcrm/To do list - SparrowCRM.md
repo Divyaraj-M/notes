@@ -8,4 +8,4 @@
 05-May-2026
 - [ ] Ticketing objects 
 - [ ] Connected apps - list SaprrowDesk 
-- [ ] 
+- [ ] Build the flow of connection for Sparrowdesk
