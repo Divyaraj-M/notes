@@ -9,3 +9,5 @@
 	![[Pasted image 20260504115107.png]]
 	- [ ] why can’t see the people without typing the 3 characters
 	![[Screenshot 2026-05-05 at 11.46.54 AM.png]]
+- [ ] I cannot see the users mail id 
+	![[Screenshot 2026-05-05 at 11.55.19 AM.png]]
