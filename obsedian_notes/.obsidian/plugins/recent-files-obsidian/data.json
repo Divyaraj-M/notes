@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Deal_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
+    },
+    {
+      "basename": "Deals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
       "basename": "To do list - SparrowCRM",
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
@@ -17,24 +29,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "Contacts",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Contacts_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
-    },
-    {
-      "basename": "Deals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
-    },
-    {
-      "basename": "Deal_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
     },
     {
       "basename": "Fields",
@@ -91,10 +91,6 @@
     {
       "basename": "proto-persona-prompt-generator",
       "path": "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md"
-    },
-    {
-      "basename": "Dashboard",
-      "path": "finance/Dashboard.md"
     },
     {
       "basename": "Pasted image 20260504115107",
