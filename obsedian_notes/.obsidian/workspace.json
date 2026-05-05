@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Companies_v1"
+              "title": "Issues Found"
             }
           }
         ],
@@ -491,6 +491,8 @@
   },
   "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Screenshot 2026-05-05 at 11.46.54 AM.png",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
@@ -516,8 +518,6 @@
     "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md",
     "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md",
     "finance/Dashboard.md",
-    "finance/Data/categories/Vacation.md",
-    "finance/Data/categories/Subscriptions.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

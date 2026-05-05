@@ -7,3 +7,5 @@
 - [ ] ![[Pasted image 20260504105508.png]]
 	![[Pasted image 20260504105748.png]]
 	![[Pasted image 20260504115107.png]]
+	- [ ] why can’t see the people without typing the 3 characters
+	![[Screenshot 2026-05-05 at 11.46.54 AM.png]]
