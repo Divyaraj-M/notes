@@ -11,5 +11,5 @@
 	![[Screenshot 2026-05-05 at 11.46.54 AM.png]]
 - [ ] I cannot see the users mail id 
 	![[Screenshot 2026-05-05 at 11.55.19 AM.png]]
-- [ ] 
- 	![[Screen Recording 2026-05-05 at 11.59.58 AM.mov]]
+- [ ] Editing the meetings is not working
+ 	![[Screen Recording 2026-05-05 at 11.59.58 AM.mov]]![[Screen Recording 2026-05-05 at 12.06.00 PM.mov]]
