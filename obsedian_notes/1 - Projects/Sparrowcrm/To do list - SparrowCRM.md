@@ -6,6 +6,6 @@
 - [ ] Integrations - Sparrowdesk integration
 - [x] Layout the basics with [[12 - People|People]] \
 05-May-2026
-- [ ] Ticketing objects 
+- [ ] Ticketing objects - need only from back end 
 - [ ] Connected apps - list SaprrowDesk 
 - [ ] Build the flow of connection for Sparrowdesk
