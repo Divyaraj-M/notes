@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Deal_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
+      "basename": "Companies_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
+    },
+    {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Contacts_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Deals",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "Deal_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
     },
     {
       "basename": "To do list - SparrowCRM",
@@ -27,14 +43,6 @@
     {
       "basename": "Meetings",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
-    },
-    {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
-      "basename": "Contacts_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
     },
     {
       "basename": "Fields",
@@ -101,10 +109,6 @@
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
     },
     {
-      "basename": "Companies_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
-    },
-    {
       "basename": "persona-first-decision-facilitation-loop",
       "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
     },
     {
       "basename": "Feature Template",

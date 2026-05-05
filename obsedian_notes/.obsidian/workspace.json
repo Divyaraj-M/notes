@@ -193,7 +193,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deal_v1"
+              "title": "Companies_v1"
             }
           }
         ],
@@ -491,15 +491,16 @@
   },
   "active": "17b9d410ab089f26",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md",
