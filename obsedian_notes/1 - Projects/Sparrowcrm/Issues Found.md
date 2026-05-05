@@ -15,5 +15,4 @@
 - [ ] the integration of the google calendar 
 	- [ ] What is the sync timing 
 	- [ ] How does default button work 
-	- [ ] res
  	![[Screen Recording 2026-05-05 at 12.06.00 PM.mov]]
