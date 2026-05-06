@@ -1,0 +1,10 @@
+{
+  "amazonRegion": "global",
+  "highlightsFolder": "/",
+  "lastSyncMode": "amazon",
+  "hasStartedSync": false,
+  "isLoggedIn": false,
+  "syncOnBoot": true,
+  "downloadBookMetadata": true,
+  "ignoredBooks": []
+}
