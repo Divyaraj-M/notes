@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "persona-first-decision-facilitation-loop"
+              "title": "Sparrowdesk_v1"
             }
           },
           {
@@ -222,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -407,9 +407,29 @@
               "icon": "lucide-list",
               "title": "Outline of SparrowDesk"
             }
+          },
+          {
+            "id": "a2049bfe52281c21",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "smart-lookup",
+              "title": "Lookup"
+            }
+          },
+          {
+            "id": "5257f89ab244c17a",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -496,18 +516,27 @@
       "banyan:Open dashboard": false,
       "banyan:Add card note": false,
       "banyan:Random open a note - Random review": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "9c0874b504367a22",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
     "Divyaraj_Murugan_Resume_Paperflite.out",
     "Divyaraj_Murugan_Resume_Paperflite.aux",
     "Divyaraj_Murugan_Resume_Paperflite.log",
     "Divyaraj_Murugan_Resume_Paperflite.tex",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Untitled.canvas",
     "My Data.base",
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
@@ -526,7 +555,6 @@
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
     "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png",
-    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png",
     "Product/SparrowGenie.excalidraw.md",
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Knowledge Hub/RFP training.md",
@@ -540,14 +568,7 @@
     "Product/Projects/Proposals/Genie Templates - Propsals.md",
     "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
     "Product/competitors/Five Differentiators/Differentiator.md",
-    "Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md",
-    "second_stream_revenue/Second_stream_revenue.excalidraw.md",
-    "Product/Projects/Proposals/Proposal Template flow.md",
-    "Product/Projects/Answers/Replace Email-Based User Display with Name and Team.md",
-    "Learning/Analogical thinking vs Logical thinking/Hybrid thinking product framework.md",
     "TaskNotes/Views/tasks-default.base",
-    "Product/Go-no-go/External Questionnaire Score (EQS).md",
-    "TaskNotes/Views/relationships.base",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
