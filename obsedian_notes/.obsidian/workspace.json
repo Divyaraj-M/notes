@@ -210,9 +210,19 @@
               "icon": "lucide-file",
               "title": "Issues Found"
             }
+          },
+          {
+            "id": "48c4933b0f887db5",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -489,7 +499,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "48c4933b0f887db5",
   "lastOpenFiles": [
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
     "Divyaraj_Murugan_Resume_Paperflite.out",
