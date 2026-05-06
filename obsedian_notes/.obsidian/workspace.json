@@ -104,6 +104,30 @@
             }
           },
           {
+            "id": "d3eecc446095077e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Feature Template"
+            }
+          },
+          {
             "id": "b66561e3209b8af6",
             "type": "leaf",
             "state": {
@@ -149,18 +173,6 @@
               },
               "icon": "lucide-file",
               "title": "5 - Features"
-            }
-          },
-          {
-            "id": "861edf617527af68",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Cardinality"
             }
           },
           {
@@ -222,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -520,15 +532,18 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "9c0874b504367a22",
+  "active": "b4dd4d119305d49b",
   "lastOpenFiles": [
+    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
+    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Google Gem - SparrowCRM Feature Analyzer.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
@@ -542,7 +557,6 @@
     "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
     "Friction points.md",
     "TO DO List - today.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Google Gem - SparrowCRM Feature Analyzer.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
     "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
@@ -565,9 +579,6 @@
     "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Marketing/ROI Calculator/ROI Calculator.md",
     "Product/Projects/Proposals/Company Templates - Proposal.md",
-    "Product/Projects/Proposals/Genie Templates - Propsals.md",
-    "Product/Knowledge Hub/Training back Projects into Knowledge Hubs.md",
-    "Product/competitors/Five Differentiators/Differentiator.md",
     "TaskNotes/Views/tasks-default.base",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",

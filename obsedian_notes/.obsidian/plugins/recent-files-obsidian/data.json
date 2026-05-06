@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "Cardinality",
+      "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
+    },
+    {
+      "basename": "Feature Template",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
+    },
+    {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     },
@@ -27,14 +39,6 @@
     {
       "basename": "Companies_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
-    },
-    {
-      "basename": "Cardinality",
-      "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
     {
       "basename": "Issues Found",
@@ -143,10 +147,6 @@
     {
       "basename": "First Principle for a CRM",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
-    },
-    {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
     },
     {
       "basename": "RFP to Proposal",
