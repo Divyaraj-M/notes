@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4 - Product Specs"
+              "title": "5 - Features"
             }
           },
           {
@@ -532,8 +532,9 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "b4dd4d119305d49b",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Google Gem - SparrowCRM Feature Analyzer.md",
@@ -544,7 +545,6 @@
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
