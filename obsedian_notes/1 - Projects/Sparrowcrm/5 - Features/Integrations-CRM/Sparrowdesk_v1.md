@@ -49,10 +49,19 @@ A well-structured PRD follows this template:
 
 - Request new integrations.
 ### 2. Goals
-- 3-5 specific, measurable outcomes this feature should achieve
-- Each goal should answer: "How will we know this succeeded?"
-- Distinguish between user goals (what users get) and business goals (what the company gets)
-- Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
+### Business Goals
+
+- Bring SparrowDesk customers and leads into SparrowCRM through integrations.
+- Increase integration adoption among existing customers.
+- Improve customer retention by giving sales teams support visibility.
+- Help sales teams identify upsell and renewal opportunities using ticket history.
+
+### Business Success Metrics**
+
+- Increase number of SparrowDesk integrations connected.
+- Increase leads/customers coming through integrations.
+- Higher renewal and upsell conversations using ticket data.
+- Improved retention for accounts actively using the integration.
 
 ### 3. Non-Goals
 - We are not storing SparrowDesk ticket data permanently inside SparrowCRM.
