@@ -20,7 +20,8 @@ A well-structured PRD follows this template:
 
 ### 2. JTBD
 - [ ] As a sales rep I need the find who has more tickets and keep them sattisfied for the CSAT score and to convert the customer for the next subscription 
-- [ ] As a sales manager I need to see the company wise tickets so that i can know that can 
+- [ ] As a sales manager I need to see the company wise tickets so that i can know which sales reps shoudl be working on it 
+- [ ] As a admin I need to see the integratio
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
