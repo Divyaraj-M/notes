@@ -38,10 +38,12 @@ A well-structured PRD follows this template:
 - Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
 
 ### 3. Non-Goals
-- We aren’t storing the data in our system 
-- We aren’t building the sync engine system 
-- we aren’t showing the no of tickets in the table 
-- We aren’t building the mapping screen to map the fields of the objects 
+- We are not storing SparrowDesk ticket data permanently inside SparrowCRM.
+- We are not building a ticket sync engine.
+- We are not displaying ticket counts in CRM tables or list views.
+- We are not building a field mapping configuration screen.
+- We are not supporting ticket creation or editing from SparrowCRM.
+- We are not building bi-directional synchronization between SparrowCRM and SparrowDesk.
 ### 4. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
