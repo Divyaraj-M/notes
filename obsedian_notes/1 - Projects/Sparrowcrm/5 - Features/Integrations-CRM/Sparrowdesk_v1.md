@@ -16,11 +16,7 @@ You are an expert at writing product requirements documents (PRDs) and feature s
 A well-structured PRD follows this template:
 
 ### 1. Problem Statement
-- Describe the user problem in 2-3 sentences
-- Who experiences this problem and how often
-- What is the cost of not solving it (user pain, business impact, competitive risk)
-- Ground this in evidence: user research, support data, metrics, or customer feedback
-
+- As a sales Rep , I have realted tickets in the SparrowDesk which has association of contacts and companies , I Want to see the tickets which is associated to the particular contacts 
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
