@@ -19,18 +19,35 @@ A well-structured PRD follows this template:
 - Sales reps currently need to switch to SparrowDesk to view tickets related to contacts or companies. This slows down workflows and makes it harder to get customer context quickly.
 - With the SparrowDesk integration, admins can connect SparrowDesk to SparrowCRM, and the required ticket fields will be automatically created inside the CRM.
 
-### 2. JTBD
-- [ ] As a sales rep I need the find who has more tickets and keep them sattisfied for the CSAT score and to convert the customer for the next subscription 
-- [ ] As a sales manager I need to see the company wise tickets so that i can know which sales reps shoud be working on it 
-- [ ] As a admin I need to manage the already conencted integration
-	- [ ] What is manage mean ?
-		- [ ] Deactivate and Activate 
-		- [ ] Reconnect
-		- [ ] Delete 
-		- [ ] Need to see the relevant documentation
-		- [ ] Able to see who created this integration and when 
-- [ ] As a admin I need to create new integration
-- [ ] As a admin I need to request any new integrations
+# 2. JTBD
+## **Sales Rep**
+
+- [ ] View contact-related tickets inside SparrowCRM.
+- [ ] View company-related tickets from the company page.
+- [ ] Identify customers with frequent support issues before renewals or upsells.
+## **Sales Manager**
+
+- [ ] View ticket activity by company.
+- [ ] Identify accounts that need attention.
+- [ ] Assign the right sales reps based on customer issues.
+
+## **Admin**
+
+- [ ] Connect SparrowDesk with SparrowCRM.
+- [ ] Auto-create required ticket fields inside the CRM.
+- [ ] Manage integrations.
+
+### **Integration Management**
+
+- [ ]  Activate / Deactivate
+- [ ] Reconnect
+- [ ] Delete
+- [ ] View documentation
+- [ ] View integration creator and created date
+
+## **Platform Admin**
+
+- Request new integrations.
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
