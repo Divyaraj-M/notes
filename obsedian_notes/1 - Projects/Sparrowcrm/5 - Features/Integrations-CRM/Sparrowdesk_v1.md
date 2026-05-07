@@ -2,7 +2,7 @@
 owner: Divyaraj Murugan
 feature: "[[SparrowDesk]]"
 version: 1
-status: Not Yet started
+status: Done
 priority: High
 tags:
   - sparrowcrm/features/integrations/sparrowdesk/v1
