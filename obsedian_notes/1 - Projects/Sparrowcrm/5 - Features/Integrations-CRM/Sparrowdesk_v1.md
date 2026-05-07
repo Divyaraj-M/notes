@@ -9,6 +9,7 @@ tags:
 ---
 # SparrowDesk Integration Feature Spec
 
+Wireframe : [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on)
 ## 1. Problem Statement
 
 Sales reps currently need to switch to SparrowDesk to view tickets related to contacts or companies. This slows down workflows and makes it harder to get customer context quickly.
