@@ -7,211 +7,272 @@ priority: High
 tags:
   - sparrowcrm/features/integrations/sparrowdesk/v1
 ---
-# Feature Spec Skill
+# SparrowDesk Integration Feature Spec
 
-You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
+## 1. Problem Statement
 
-## PRD Structure
+Sales reps currently need to switch to SparrowDesk to view tickets related to contacts or companies. This slows down workflows and makes it harder to get customer context quickly.
 
-A well-structured PRD follows this template:
+With the SparrowDesk integration, admins can connect SparrowDesk to SparrowCRM, and required ticket fields will be automatically created inside the CRM.
 
-### 1. Problem Statement
-- Sales reps currently need to switch to SparrowDesk to view tickets related to contacts or companies. This slows down workflows and makes it harder to get customer context quickly.
-- With the SparrowDesk integration, admins can connect SparrowDesk to SparrowCRM, and the required ticket fields will be automatically created inside the CRM.
+Once connected, sales reps can view related tickets directly from Contact and Company pages in SparrowCRM.
+
+---
 
 # 2. JTBD
-## **Sales Rep**
+
+## Sales Rep
 
 - [ ] View contact-related tickets inside SparrowCRM.
 - [ ] View company-related tickets from the company page.
 - [ ] Identify customers with frequent support issues before renewals or upsells.
-## **Sales Manager**
+
+## Sales Manager
 
 - [ ] View ticket activity by company.
 - [ ] Identify accounts that need attention.
 - [ ] Assign the right sales reps based on customer issues.
 
-## **Admin**
+## Admin
 
 - [ ] Connect SparrowDesk with SparrowCRM.
 - [ ] Auto-create required ticket fields inside the CRM.
 - [ ] Manage integrations.
 
-### **Integration Management**
+### Integration Management
 
-- [ ]  Activate / Deactivate
+- [ ] Activate / Deactivate
 - [ ] Reconnect
 - [ ] Delete
 - [ ] View documentation
 - [ ] View integration creator and created date
 
-## **Platform Admin**
+## Platform Admin
 
-- Request new integrations.
-### 2. Goals
-### Business Goals
+- [ ] Request new integrations.
+
+---
+
+# 3. Goals
+
+## Business Goals
 
 - Bring SparrowDesk customers and leads into SparrowCRM through integrations.
 - Increase integration adoption among existing customers.
-- Improve customer retention by giving sales teams support visibility.
-- Help sales teams identify upsell and renewal opportunities using ticket history.
+- Improve retention by giving sales teams support visibility.
+- Help sales teams identify renewal and upsell opportunities using ticket history.
 
-### Business Success Metrics**
+## Success Metrics
 
 - Increase number of SparrowDesk integrations connected.
 - Increase leads/customers coming through integrations.
-- Higher renewal and upsell conversations using ticket data.
-- Improved retention for accounts actively using the integration.
+- Ticket data loads within 2–3 seconds.
+- Admin completes setup in under 10 minutes.
+- Increase renewal and upsell conversations using ticket data.
 
-### 3. Non-Goals
+---
+
+# 4. Non-Goals
+
 - We are not storing SparrowDesk ticket data permanently inside SparrowCRM.
 - We are not building a ticket sync engine.
 - We are not displaying ticket counts in CRM tables or list views.
-- We are not building a field mapping configuration screen.
+- We are not building a field mapping screen.
 - We are not supporting ticket creation or editing from SparrowCRM.
-- We are not building bi-directional synchronization between SparrowCRM and SparrowDesk.
-### 4. User Stories
-Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
+- We are not building bi-directional sync between SparrowCRM and SparrowDesk.
 
-Guidelines:
-- The user type should be specific enough to be meaningful ("enterprise admin" not just "user")
-- The capability should describe what they want to accomplish, not how
-- The benefit should explain the "why" — what value does this deliver
-- Include edge cases: error states, empty states, boundary conditions
-- Include different user types if the feature serves multiple personas
-- Order by priority — most important stories first
+---
 
-Example:
-- "As a team admin, I want to configure SSO for my organization so that my team members can log in with their corporate credentials"
-- "As a team member, I want to be automatically redirected to my company's SSO login so that I do not need to remember a separate password"
-- "As a team admin, I want to see which members have logged in via SSO so that I can verify the rollout is working"
+# 5. User Stories
 
-### 5. Requirements
+## P 0 User Stories
 
-**Must-Have (P0)**: The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: "If we cut this, does the feature still solve the core problem?" If no, it is P0.
+- As an admin, I want to connect SparrowDesk with SparrowCRM so that ticket data can be shown inside the CRM.
+- As an admin, I want SparrowCRM to auto-create required ticket fields so that I do not need to configure fields manually.
+- As a sales rep, I want to view tickets related to a contact so that I can understand customer issues without opening SparrowDesk.
+- As a sales rep, I want to view tickets related to a company so that I can understand account-level support issues.
+- As a sales manager, I want to view company-level ticket activity so that I can identify accounts that need attention.
 
-**Nice-to-Have (P1)**: Significantly improves the experience but the core use case works without them. These often become fast follow-ups after launch.
+## P 1 User Stories
 
-**Future Considerations (P2)**: Explicitly out of scope for v1 but we want to design in a way that supports them later. Documenting these prevents accidental architectural decisions that make them hard later.
+- As an admin, I want to reconnect an integration so that I can fix expired or broken connections.
+- As an admin, I want to activate or deactivate an integration so that I can control whether it is used.
+- As an admin, I want to delete an integration so that unused connections can be removed.
+- As an admin, I want to see who created the integration and when so that I can track ownership.
+- As an admin, I want to view documentation so that I can understand how the integration works.
 
-For each requirement:
-- Write a clear, unambiguous description of the expected behavior
-- Include acceptance criteria (see below)
-- Note any technical considerations or constraints
-- Flag dependencies on other teams or systems
+## P 2 User Stories
 
-### 6. Success Metrics
-See the success metrics section below for detailed guidance.
+- As an admin, I want to request new integrations so that more tools can be supported in the future.
+- As a sales rep, I want to see ticket trends over time so that I can understand customer health better.
 
-### 7. Open Questions
-- Questions that need answers before or during implementation
-- Tag each with who should answer (engineering, design, legal, data, stakeholder)
-- Distinguish between blocking questions (must answer before starting) and non-blocking (can resolve during implementation)
+---
 
-### 8. Timeline Considerations
-- Hard deadlines (contractual commitments, events, compliance dates)
-- Dependencies on other teams' work or releases
-- Suggested phasing if the feature is too large for one release
+# 6. Requirements
 
-## User Story Writing
+## Must-Have (P 0)
 
-Good user stories are:
-- **Independent**: Can be developed and delivered on their own
-- **Negotiable**: Details can be discussed, the story is not a contract
-- **Valuable**: Delivers value to the user (not just the team)
-- **Estimable**: The team can roughly estimate the effort
-- **Small**: Can be completed in one sprint/iteration
-- **Testable**: There is a clear way to verify it works
+### 1. Connect SparrowDesk Integration
 
-### Common Mistakes in User Stories
-- Too vague: "As a user, I want the product to be faster" — what specifically should be faster?
-- Solution-prescriptive: "As a user, I want a dropdown menu" — describe the need, not the UI widget
-- No benefit: "As a user, I want to click a button" — why? What does it accomplish?
-- Too large: "As a user, I want to manage my team" — break this into specific capabilities
-- Internal focus: "As the engineering team, we want to refactor the database" — this is a task, not a user story
+Admins must be able to connect SparrowDesk from SparrowCRM.
 
-## Requirements Categorization
+#### Acceptance Criteria
 
-### MoSCoW Framework
-- **Must have**: Without these, the feature is not viable. Non-negotiable.
-- **Should have**: Important but not critical for launch. High-priority fast follows.
-- **Could have**: Desirable if time permits. Will not delay delivery if cut.
-- **Won't have (this time)**: Explicitly out of scope. May revisit in future versions.
+- [ ] Admin can start SparrowDesk connection.
+- [ ] Admin can complete authentication.
+- [ ] Integration status shows as connected after success.
+- [ ] Error is shown if connection fails.
 
-### Tips for Categorization
-- Be ruthless about P0s. The tighter the must-have list, the faster you ship and learn.
-- If everything is P0, nothing is P0. Challenge every must-have: "Would we really not ship without this?"
-- P1s should be things you are confident you will build soon, not a wish list.
-- P2s are architectural insurance — they guide design decisions even though you are not building them now.
+---
 
-## Success Metrics Definition
+### 2. Auto-Create CRM Fields
 
-### Leading Indicators
-Metrics that change quickly after launch (days to weeks):
-- **Adoption rate**: % of eligible users who try the feature
-- **Activation rate**: % of users who complete the core action
-- **Task completion rate**: % of users who successfully accomplish their goal
-- **Time to complete**: How long the core workflow takes
-- **Error rate**: How often users encounter errors or dead ends
-- **Feature usage frequency**: How often users return to use the feature
+SparrowCRM must pull required fields from SparrowDesk and create them inside CRM.
 
-### Lagging Indicators
-Metrics that take time to develop (weeks to months):
-- **Retention impact**: Does this feature improve user retention?
-- **Revenue impact**: Does this drive upgrades, expansion, or new revenue?
-- **NPS / satisfaction change**: Does this improve how users feel about the product?
-- **Support ticket reduction**: Does this reduce support load?
-- **Competitive win rate**: Does this help win more deals?
+#### Acceptance Criteria
 
-### Setting Targets
-- Targets should be specific: "50% adoption within 30 days" not "high adoption"
-- Base targets on comparable features, industry benchmarks, or explicit hypotheses
-- Set a "success" threshold and a "stretch" target
-- Define the measurement method: what tool, what query, what time window
-- Specify when you will evaluate: 1 week, 1 month, 1 quarter post-launch
+- [ ] Required ticket fields are created after successful connection.
+- [ ] Duplicate fields are not created if integration is reconnected.
+- [ ] Field creation failure shows a clear error.
 
-## Acceptance Criteria
+---
 
-Write acceptance criteria in Given/When/Then format or as a checklist:
+### 3. Show Tickets on Contact Page
 
-**Given/When/Then**:
-- Given [precondition or context]
-- When [action the user takes]
-- Then [expected outcome]
+Sales reps must be able to view tickets related to a contact.
 
-Example:
-- Given the admin has configured SSO for their organization
-- When a team member visits the login page
-- Then they are automatically redirected to the organization's SSO provider
+#### Acceptance Criteria
 
-**Checklist format**:
-- [ ] Admin can enter SSO provider URL in organization settings
-- [ ] Team members see "Log in with SSO" button on login page
-- [ ] SSO login creates a new account if one does not exist
-- [ ] SSO login links to existing account if email matches
-- [ ] Failed SSO attempts show a clear error message
+- [ ] Contact page shows tickets from SparrowDesk.
+- [ ] Tickets are fetched based on the selected contact.
+- [ ] Empty state is shown if no tickets exist.
+- [ ] Error state is shown if SparrowDesk data cannot be fetched.
 
-### Tips for Acceptance Criteria
-- Cover the happy path, error cases, and edge cases
-- Be specific about the expected behavior, not the implementation
-- Include what should NOT happen (negative test cases)
-- Each criterion should be independently testable
-- Avoid ambiguous words: "fast", "user-friendly", "intuitive" — define what these mean concretely
+---
 
-## Scope Management
+### 4. Show Tickets on Company Page
 
-### Recognizing Scope Creep
-Scope creep happens when:
-- Requirements keep getting added after the spec is approved
-- "Small" additions accumulate into a significantly larger project
-- The team is building features no user asked for ("while we're at it...")
-- The launch date keeps moving without explicit re-scoping
-- Stakeholders add requirements without removing anything
+Sales reps and managers must be able to view tickets related to a company.
 
-### Preventing Scope Creep
-- Write explicit non-goals in every spec
-- Require that any scope addition comes with a scope removal or timeline extension
-- Separate "v1" from "v2" clearly in the spec
-- Review the spec against the original problem statement — does everything serve it?
-- Time-box investigations: "If we cannot figure out X in 2 days, we cut it"
-- Create a "parking lot" for good ideas that are not in scope
+#### Acceptance Criteria
+
+- [ ] Company page shows tickets from SparrowDesk.
+- [ ] Tickets are fetched based on the selected company.
+- [ ] Empty state is shown if no tickets exist.
+- [ ] Error state is shown if SparrowDesk data cannot be fetched.
+
+---
+
+## Nice-to-Have (P 1)
+
+### 5. Manage Existing Integration
+
+Admins should be able to manage the connected SparrowDesk integration.
+
+#### Acceptance Criteria
+
+- [ ] Admin can activate integration.
+- [ ] Admin can deactivate integration.
+- [ ] Admin can reconnect integration.
+- [ ] Admin can delete integration.
+
+---
+
+### 6. View Integration Details
+
+Admins should be able to view basic integration details.
+
+#### Acceptance Criteria
+
+- [ ] Admin can see who created the integration.
+- [ ] Admin can see when the integration was created.
+- [ ] Admin can view relevant documentation.
+
+---
+
+## Future Considerations (P 2)
+
+### 7. Request New Integrations
+
+Admins should be able to request new integrations.
+
+#### Acceptance Criteria
+
+- [ ] Admin can submit an integration request.
+- [ ] Request is captured for internal review.
+
+---
+
+### 8. Ticket Analytics
+
+Sales teams may later view ticket trends, ticket counts, or health indicators.
+
+Not included in v 1.
+
+---
+
+# 7. Success Metrics
+
+## Leading Metrics
+
+- Number of SparrowDesk integrations connected.
+- Percentage of admins completing setup successfully.
+- Average setup completion time.
+- Ticket widget/page load time.
+- Number of contact/company pages where ticket data is viewed.
+
+## Lagging Metrics
+
+- Increase in leads/customers from integrations.
+- Increase in renewal and upsell conversations using ticket data.
+- Higher retention for accounts using the integration.
+- Increased adoption of SparrowDesk integration.
+
+## Targets
+
+- Admin setup completed in under 10 minutes.
+- Ticket data loads within 2–3 seconds.
+- 70% reduction in switching between SparrowCRM and SparrowDesk.
+- Increase SparrowDesk integration adoption after launch.
+
+---
+
+# 8. Open Questions
+
+## Blocking
+
+- Engineering: What SparrowDesk APIs are available for contact and company ticket lookup?
+- Engineering: Which ticket fields should be auto-created in SparrowCRM?
+- Product: What exact fields should be shown on Contact and Company pages?
+- Engineering: How do we match SparrowCRM contacts/companies with SparrowDesk records?
+
+## Non-Blocking
+
+- Design: Where should ticket data appear on Contact and Company pages?
+- Product: Should admins see documentation inside the app or through an external link?
+- Data: How will we track integration adoption and ticket view usage?
+- Stakeholder: What integrations should be supported next after SparrowDesk?
+
+---
+
+# 9. Timeline Considerations
+
+## Phase 1
+
+- Connect SparrowDesk integration.
+- Auto-create required CRM fields.
+- Show related tickets on Contact page.
+- Show related tickets on Company page.
+
+## Phase 2
+
+- Activate / Deactivate integration.
+- Reconnect integration.
+- Delete integration.
+- Show integration creator and created date.
+- Add documentation access.
+
+## Phase 3
+
+- Request new integrations.
+- Add ticket analytics or ticket summary views.
