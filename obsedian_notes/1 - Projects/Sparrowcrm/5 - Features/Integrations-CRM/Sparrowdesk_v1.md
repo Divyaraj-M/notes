@@ -30,8 +30,7 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 
 ## Sales Manager
 
-- [ ] View ticket activity by company.
-- [ ] Identify accounts that need attention.
+- [ ] Identify accounts that need attention on terms of  support tickets .
 - [ ] Assign the right sales reps based on customer issues.
 
 ## Admin
