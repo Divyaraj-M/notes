@@ -16,8 +16,11 @@ You are an expert at writing product requirements documents (PRDs) and feature s
 A well-structured PRD follows this template:
 
 ### 1. Problem Statement
-- As a sales Rep , I have realted tickets in the SparrowDesk which has association of contacts and companies , I Want to see the tickets which is associated to the particular contacts , I dont want to switch to spaorrwdesk eveyrtime and search trhought he contacts and find the associated tickets everytime 
+Sales reps using SparrowCRM currently need to switch to SparrowDesk whenever they want to view support tickets related to a contact or company. This creates unnecessary context switching and slows down customer follow-ups.
 
+Users want ticket information to be available directly inside SparrowCRM so they can quickly understand customer issues, support history, and account health without manually searching in SparrowDesk.
+
+The integration should allow admins to connect SparrowDesk with SparrowCRM, automatically pull relevant ticket-related fields into the CRM, and enable sales teams to view associated ticket data directly from Contact and Company records.
 ### 2. JTBD
 - [ ] As a sales rep I need the find who has more tickets and keep them sattisfied for the CSAT score and to convert the customer for the next subscription 
 - [ ] As a sales manager I need to see the company wise tickets so that i can know which sales reps shoud be working on it 
