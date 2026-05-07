@@ -311,7 +311,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/customer_insights",
+                "query": "tag:#sparrowcrm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -322,7 +322,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "2baa8948f242f9e0",
@@ -556,7 +557,7 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "b4dd4d119305d49b",
+  "active": "7d5ca5715fbe7b32",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
