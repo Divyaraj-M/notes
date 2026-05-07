@@ -37,7 +37,10 @@ A well-structured PRD follows this template:
 - Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
 
 ### 3. Non-Goals
-- We are nt storing the
+- We aren’t storing the data in our system 
+- We aren’t building the sync engine system 
+- we aren’t showing the no of tickets in the table 
+- We aren’t building the mapping screen to map the fields of the objects 
 ### 4. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
