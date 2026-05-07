@@ -9,17 +9,6 @@ tags:
 
 #  Integrations CRM
 
-## Status Tracker
-
-## One-Liner
-
-
-## Problem It Solves
-
-
-## Target User / Persona
-
-
 ## Integration Channels
 
 | #   | Channel                          | Priority | Status | Notes                                                                                                                                                                         |
