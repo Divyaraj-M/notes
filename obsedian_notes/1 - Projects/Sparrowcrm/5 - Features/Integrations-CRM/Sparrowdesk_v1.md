@@ -20,51 +20,49 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 
 ---
 
-# 2. JTBD
+## 2. JTBD
 
-## Sales Rep
+### Sales Rep
 
-- [ ] View contact-related tickets inside SparrowCRM.
-- [ ] View company-related tickets from the company page.
-- [ ] Identify customers with frequent support issues before renewals or upsells.
+- [ ] View contact-related tickets inside contacts records page.
+- [ ] View company-related tickets by the association of contacts in the company record page.
 
-## Sales Manager
-
-- [ ] Identify accounts that need attention on terms of  support tickets .
-- [ ] Assign the right sales reps based on customer issues.
-
-## Admin
+### Admin
 
 - [ ] Connect SparrowDesk with SparrowCRM.
 - [ ] Auto-create required ticket fields inside the CRM.
 - [ ] Manage integrations.
 
-### Integration Management
+#### Integration Management
 
 - [ ] Activate / Deactivate
 - [ ] Reconnect
 - [ ] Delete
 - [ ] View documentation
-- [ ] View integration creator and created date
+- [ ] View the integration creator and created date
+- [ ] Handle reconnections and failures
+- [ ] Sync fields manually
 
-## Platform Admin
+### Platform Admin
 
 - [ ] Request new integrations.
+- [ ] Manage feature flags from Area 51
+- [ ] Control sync rollout behaviour by pricing plan
 
 ---
 
-# 3. Goals
+## 3. Goals
 
-## Business Goals
+### Business Goals
 
 - Bring SparrowDesk customers and leads into SparrowCRM through integrations.
 - Increase integration adoption among existing customers.
 - Improve retention by giving sales teams support visibility.
 - Help sales teams identify renewal and upsell opportunities using ticket history.
 
-## Success Metrics
+### Success Metrics
 
-- Increase number of SparrowDesk integrations connected.
+- Increase the number of SparrowDesk integrations connected.
 - Increase leads/customers coming through integrations.
 - Ticket data loads within 2–3 seconds.
 - Admin completes setup in under 10 minutes.
@@ -72,7 +70,7 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 
 ---
 
-# 4. Non-Goals
+## 4. Non-Goals
 
 - We are not storing SparrowDesk ticket data permanently inside SparrowCRM.
 - We are not building a ticket sync engine.
@@ -83,9 +81,9 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 
 ---
 
-# 5. User Stories
+## 5. User Stories
 
-## P 0 User Stories
+### P 0 User Stories
 
 - As an admin, I want to connect SparrowDesk with SparrowCRM so that ticket data can be shown inside the CRM.
 - As an admin, I want SparrowCRM to auto-create required ticket fields so that I do not need to configure fields manually.
@@ -93,7 +91,7 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 - As a sales rep, I want to view tickets related to a company so that I can understand account-level support issues.
 - As a sales manager, I want to view company-level ticket activity so that I can identify accounts that need attention.
 
-## P 1 User Stories
+### P 1 User Stories
 
 - As an admin, I want to reconnect an integration so that I can fix expired or broken connections.
 - As an admin, I want to activate or deactivate an integration so that I can control whether it is used.
@@ -101,119 +99,198 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 - As an admin, I want to see who created the integration and when so that I can track ownership.
 - As an admin, I want to view documentation so that I can understand how the integration works.
 
-## P 2 User Stories
+### P 2 User Stories
 
 - As an admin, I want to request new integrations so that more tools can be supported in the future.
 - As a sales rep, I want to see ticket trends over time so that I can understand customer health better.
 
 ---
 
-# 6. Requirements
+## 6. Requirements
 
-## Must-Have (P 0)
+### Must-Have (P 0)
 
-### 1. Connect SparrowDesk Integration
+#### 1. Connect SparrowDesk Integration
 
 Admins must be able to connect SparrowDesk from SparrowCRM.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
-- [ ] Admin can start SparrowDesk connection.
+- [ ] Admin can start the SparrowDesk connection.
 - [ ] Admin can complete authentication.
 - [ ] Integration status shows as connected after success.
-- [ ] Error is shown if connection fails.
+- [ ] An error is shown if the connection fails.
 
 ---
 
-### 2. Auto-Create CRM Fields
+#### 2. Auto-Create CRM Fields
 
-SparrowCRM must pull required fields from SparrowDesk and create them inside CRM.
+SparrowCRM must pull required fields from SparrowDesk and create them inside the CRM.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
 - [ ] Required ticket fields are created after successful connection.
-- [ ] Duplicate fields are not created if integration is reconnected.
+- [ ] Duplicate fields are not created if the integration is reconnected.
 - [ ] Field creation failure shows a clear error.
 
 ---
 
-### 3. Show Tickets on Contact Page
+#### 3. Show Tickets on Contact Page
 
 Sales reps must be able to view tickets related to a contact.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
 - [ ] Contact page shows tickets from SparrowDesk.
 - [ ] Tickets are fetched based on the selected contact.
-- [ ] Empty state is shown if no tickets exist.
-- [ ] Error state is shown if SparrowDesk data cannot be fetched.
+- [ ] Tickets are fetched based on the associated email for the selected contact
+- [ ] An empty state is shown if no tickets exist.
+- [ ] An error state is shown if SparrowDesk data cannot be fetched.
 
 ---
 
-### 4. Show Tickets on Company Page
+#### 4. Show Tickets on Company Page
 
 Sales reps and managers must be able to view tickets related to a company.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
 - [ ] Company page shows tickets from SparrowDesk.
 - [ ] Tickets are fetched based on the selected company.
-- [ ] Empty state is shown if no tickets exist.
-- [ ] Error state is shown if SparrowDesk data cannot be fetched.
+- [ ] Tickets are fetched based on the associated domain for the selected company
+- [ ] An empty state is shown if no tickets exist.
+- [ ] An error state is shown if SparrowDesk data cannot be fetched.
+
+#### **5. Ticket Field Sync Behaviour**
+
+Field synchronization behaviour should vary based on pricing plan.
+
+|**Plan**|**Behaviour**|
+|---|---|
+|Free|Manual sync only|
+|Basic|Auto-sync every 1 day|
+|Mid|Auto-sync every 2 hours|
+|Pro|Auto-sync every 30 minutes|
+
+### **Acceptance Criteria**
+
+- [ ] Sync intervals follow workspace pricing plan
+- [ ] Manual sync available for all plans
+- [ ] Failed syncs surface retry options
+- [ ] Sync timestamps are visible
+
+#### **6. Feature Flag Support (Area 51)**
+
+Integration rollout and sync behaviour should be controlled using feature flags managed through Area 51.
+
+### **Acceptance Criteria**
+
+- [ ] Feature can be enabled/disabled per workspace
+- [ ] Rollout can be controlled by plan
+- [ ] Sync behaviour configurable via flags
+- [ ] Experimental rollout supported
+
+#### **7. Show Tickets on Contact Page**
+
+Sales reps should be able to view tickets related to a contact.
+
+### **Acceptance Criteria**
+
+- [ ] Tickets displayed inside Contact page
+- [ ] Tickets fetched using associated contact email
+- [ ] Loading state shown
+- [ ] Empty state shown if no tickets exist
+- [ ] Error state shown if fetch fails
+- [ ] Ticket load time under 2–3 seconds
 
 ---
 
-## Nice-to-Have (P 1)
+#### **8. Show Tickets on Company Page**
 
-### 5. Manage Existing Integration
+Sales reps and managers should be able to view company-related tickets.
+
+### **Acceptance Criteria**
+
+- [ ] Tickets displayed inside Company page
+- [ ] Tickets fetched using company domain
+- [ ] Empty state shown if no tickets exist
+- [ ] Error state shown if fetch fails
+- [ ] Ticket load time under 2–3 seconds
+
+---
+
+### Nice-to-Have (P 1)
+
+#### 8. Manage Existing Integration
 
 Admins should be able to manage the connected SparrowDesk integration.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
-- [ ] Admin can activate integration.
-- [ ] Admin can deactivate integration.
-- [ ] Admin can reconnect integration.
-- [ ] Admin can delete integration.
+- [ ] Admin can activate the integration.
+- [ ] Admin can deactivate the integration.
+- [ ] Admin can reconnect the integration.
+- [ ] Admin can delete the integration.
 
 ---
 
-### 6. View Integration Details
+#### 9. View Integration Details
 
 Admins should be able to view basic integration details.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
 - [ ] Admin can see who created the integration.
 - [ ] Admin can see when the integration was created.
 - [ ] Admin can view relevant documentation.
+- [ ] Admins should be able to request new integrations.
 
 ---
 
-## Future Considerations (P 2)
-
-### 7. Request New Integrations
+#### 10. Request New Integrations
 
 Admins should be able to request new integrations.
 
-#### Acceptance Criteria
+**Acceptance Criteria**
 
 - [ ] Admin can submit an integration request.
 - [ ] Request is captured for internal review.
 
----
+### Future Considerations
 
-### 8. Ticket Analytics
-
-Sales teams may later view ticket trends, ticket counts, or health indicators.
-
-Not included in v 1.
+- [ ] Identify customers with frequent support issues before renewals or upsells.
 
 ---
 
-# 7. Success Metrics
+## **8. Technical Considerations**
 
-## Leading Metrics
+### **Data Handling**
+
+- Ticket data should be fetched on-demand
+- CRM should not permanently store ticket payloads
+- Cached responses may be used temporarily for performance
+
+### **Integration Architecture**
+
+- Pull-based integration
+- API-driven retrieval from SparrowDesk
+- Workspace-level integration configuration
+
+### **Performance**
+
+- Ticket widget response within 2–3 seconds
+- Graceful fallback handling
+- Retry support for failed fetches
+
+### **Reliability**
+
+- Prevent duplicate field creation
+- Handle expired authentication
+- Surface actionable errors to admins
+
+## 8. Success Metrics
+
+### Leading Metrics
 
 - Number of SparrowDesk integrations connected.
 - Percentage of admins completing setup successfully.
@@ -221,19 +298,19 @@ Not included in v 1.
 - Ticket widget/page load time.
 - Number of contact/company pages where ticket data is viewed.
 
-## Lagging Metrics
+### Lagging Metrics
 
 - Increase in leads/customers from integrations.
 - Increase in renewal and upsell conversations using ticket data.
 - Higher retention for accounts using the integration.
-- Increased adoption of SparrowDesk integration.
+- Increased adoption of the SparrowDesk integration.
 
-## Targets
+### Targets
 
 - Admin setup completed in under 10 minutes.
 - Ticket data loads within 2–3 seconds.
 - 70% reduction in switching between SparrowCRM and SparrowDesk.
-- Increase SparrowDesk integration adoption after launch.
+- Increase SparrowDesk integration adoption after launch
 
 ---
 
@@ -255,24 +332,3 @@ Not included in v 1.
 
 ---
 
-# 9. Timeline Considerations
-
-## Phase 1
-
-- Connect SparrowDesk integration.
-- Auto-create required CRM fields.
-- Show related tickets on Contact page.
-- Show related tickets on Company page.
-
-## Phase 2
-
-- Activate / Deactivate integration.
-- Reconnect integration.
-- Delete integration.
-- Show integration creator and created date.
-- Add documentation access.
-
-## Phase 3
-
-- Request new integrations.
-- Add ticket analytics or ticket summary views.
