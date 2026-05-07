@@ -21,7 +21,15 @@ A well-structured PRD follows this template:
 ### 2. JTBD
 - [ ] As a sales rep I need the find who has more tickets and keep them sattisfied for the CSAT score and to convert the customer for the next subscription 
 - [ ] As a sales manager I need to see the company wise tickets so that i can know which sales reps shoud be working on it 
-- [ ] As a admin I need to manage the already conencted integrations 
+- [ ] As a admin I need to manage the already conencted integration
+	- [ ] What is manage mean ?
+		- [ ] Deactivate and Activate 
+		- [ ] Reconnect
+		- [ ] Delete 
+		- [ ] Need to see the relevant documentation
+		- [ ] Able to see who created this integration and when 
+- [ ] As a admin I need to create new integration
+- [ ] As a admin I need to request any new integrations
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
@@ -29,11 +37,7 @@ A well-structured PRD follows this template:
 - Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
 
 ### 3. Non-Goals
-- 3-5 things this feature explicitly will NOT do
-- Adjacent capabilities that are out of scope for this version
-- For each non-goal, briefly explain why it is out of scope (not enough impact, too complex, separate initiative, premature)
-- Non-goals prevent scope creep during implementation and set expectations with stakeholders
-
+- We are nt storing the
 ### 4. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
