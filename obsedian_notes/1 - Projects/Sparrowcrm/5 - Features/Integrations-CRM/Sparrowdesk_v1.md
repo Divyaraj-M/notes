@@ -19,7 +19,8 @@ A well-structured PRD follows this template:
 - As a sales Rep , I have realted tickets in the SparrowDesk which has association of contacts and companies , I Want to see the tickets which is associated to the particular contacts , I dont want to switch to spaorrwdesk eveyrtime and search trhought he contacts and find the associated tickets everytime 
 
 ### 2. JTBD
-- [ ] As a sales rep I need the find the who ha
+- [ ] As a sales rep I need the find who has more tickets and keep them sattisfied for the CSAT score and to convert the customer for the next subscription 
+- [ ] As a sales manager I need to find the most problem 
 ### 2. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
