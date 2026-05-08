@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Competitor Template"
+              "title": "5 - Features"
             }
           },
           {
@@ -558,6 +558,7 @@
   },
   "active": "9fc2fb970f81bc34",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -604,7 +605,6 @@
     "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
-    "Product/Knowledge Hub/RFP training PRD.md",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
