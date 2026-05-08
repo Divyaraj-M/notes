@@ -19,20 +19,39 @@ A well-structured PRD follows this template:
 - Who experiences this problem and how often
 - What is the cost of not solving it (user pain, business impact, competitive risk)
 - Ground this in evidence: user research, support data, metrics, or customer feedback
+## 2. Jobs To Be Done
 
-### 2. Goals
+**Primary job statement:**
+
+> When [situation], I want to [motivation], so I can [desired outcome].
+
+**Functional dimension:** [The concrete task the user is trying to accomplish.]
+
+**Emotional dimension:** [How the user wants to feel — confident, in control, unblocked, trusted.]
+
+**Social dimension:** [How they want to be perceived by their team, boss, customers — competent, responsive, on top of things.]
+
+**Hiring criteria** — Why a user would "hire" this feature:
+
+- [What pulls them toward it over their current workaround.]
+
+**Firing criteria** — Why they'd stop using it or switch:
+
+- [What would make them give up on it. Useful for stress-testing the design.]
+
+### 3. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
 - Distinguish between user goals (what users get) and business goals (what the company gets)
 - Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
 
-### 3. Non-Goals
+### 4. Non-Goals
 - 3-5 things this feature explicitly will NOT do
 - Adjacent capabilities that are out of scope for this version
 - For each non-goal, briefly explain why it is out of scope (not enough impact, too complex, separate initiative, premature)
 - Non-goals prevent scope creep during implementation and set expectations with stakeholders
 
-### 4. User Stories
+### 5. User Stories
 Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
 
 Guidelines:
@@ -48,7 +67,7 @@ Example:
 - "As a team member, I want to be automatically redirected to my company's SSO login so that I do not need to remember a separate password"
 - "As a team admin, I want to see which members have logged in via SSO so that I can verify the rollout is working"
 
-### 5. Requirements
+### 6. Requirements
 
 **Must-Have (P0)**: The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: "If we cut this, does the feature still solve the core problem?" If no, it is P0.
 
@@ -62,15 +81,15 @@ For each requirement:
 - Note any technical considerations or constraints
 - Flag dependencies on other teams or systems
 
-### 6. Success Metrics
+### 7. Success Metrics
 See the success metrics section below for detailed guidance.
 
-### 7. Open Questions
+### 8. Open Questions
 - Questions that need answers before or during implementation
 - Tag each with who should answer (engineering, design, legal, data, stakeholder)
 - Distinguish between blocking questions (must answer before starting) and non-blocking (can resolve during implementation)
 
-### 8. Timeline Considerations
+### 9. Timeline Considerations
 - Hard deadlines (contractual commitments, events, compliance dates)
 - Dependencies on other teams' work or releases
 - Suggested phasing if the feature is too large for one release

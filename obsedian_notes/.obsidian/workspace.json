@@ -258,7 +258,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -557,13 +557,14 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "57f293fad0b1d5f7",
+  "active": "9c0874b504367a22",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Case Studies",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
@@ -572,7 +573,6 @@
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
     "Divyaraj_Murugan_Resume_Paperflite.out",
