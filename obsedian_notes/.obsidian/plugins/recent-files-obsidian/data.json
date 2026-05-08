@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+    },
+    {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "Contacts_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
-    },
-    {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Deals",
