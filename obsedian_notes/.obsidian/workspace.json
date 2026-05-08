@@ -322,8 +322,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -557,7 +556,7 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "9fc2fb970f81bc34",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
