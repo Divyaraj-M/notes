@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Imports"
+              "title": "Import_v1"
             }
           },
           {
@@ -558,8 +558,9 @@
   },
   "active": "9fc2fb970f81bc34",
   "lastOpenFiles": [
-    "3 - Resources/Learning/Domain Design/Evans03.pdf",
     "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "3 - Resources/Learning/Domain Design/Evans03.pdf",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
@@ -592,7 +593,6 @@
     "TO DO List - today.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
-    "Product/Projects/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Read List/Screenshot_20260316-101854.png",
