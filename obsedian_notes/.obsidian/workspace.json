@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "file": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5 - Features"
+              "title": "Competitor Template"
             }
           },
           {
@@ -556,23 +556,24 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "9fc2fb970f81bc34",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Case Studies",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "1 - Projects/Sparrowcrm/5 - Features/Google Gem - SparrowCRM Feature Analyzer.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
@@ -604,7 +605,6 @@
     "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
     "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
     "Product/Knowledge Hub/RFP training PRD.md",
-    "Product/Projects/Proposals/My Templates - Proposal (Next phase).md",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",

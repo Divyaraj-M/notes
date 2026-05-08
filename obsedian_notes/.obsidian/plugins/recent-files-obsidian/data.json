@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Competitor Template",
+      "path": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
@@ -25,10 +45,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
     },
     {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
       "basename": "Issues Found",
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
@@ -41,16 +57,8 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
     },
     {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
       "basename": "Cardinality",
       "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "persona-first-decision-facilitation-loop",
@@ -91,10 +99,6 @@
     {
       "basename": "Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     },
     {
       "basename": "8 - Decisions",
