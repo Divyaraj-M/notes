@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "Companies_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
+    },
+    {
+      "basename": "Feature Template",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
+    },
+    {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "Meetings_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
     {
       "basename": "Issues Found",
@@ -21,10 +41,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     },
@@ -33,20 +49,12 @@
       "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
     },
     {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
-    },
-    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "persona-first-decision-facilitation-loop",
       "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
-    },
-    {
-      "basename": "Companies_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     },
     {
       "basename": "To do list - SparrowCRM",
@@ -77,10 +85,6 @@
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
     {
-      "basename": "Meetings_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
-    },
-    {
       "basename": "Meetings",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "6 - Metrics & Dashboards",
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
     {
       "basename": "Read List",

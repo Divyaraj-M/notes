@@ -31,8 +31,10 @@ tags:
 | [[Settings]]         |
 | [[Search]]           |
 | [[Needs attention]]  |
+| [[Ai Agents]]        |
+| [[Knowledge Base]]   |
 
-## How to Add a Feature
+	## How to Add a Feature
 
 1. Duplicate the [[Feature Template]] file
 2. Rename it: FEAT - [Feature Name].md
