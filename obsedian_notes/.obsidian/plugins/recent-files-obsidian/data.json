@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+      "basename": "Evans03",
+      "path": "3 - Resources/Learning/Domain Design/Evans03.pdf"
+    },
+    {
+      "basename": "Imports",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Competitor Template",
@@ -191,10 +199,6 @@
     {
       "basename": "@Shihab Muhammed",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Shihab Muhammed.md"
-    },
-    {
-      "basename": "@Ganesh Ravi Shankar(GRS)",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
     }
   ],
   "omittedPaths": [],

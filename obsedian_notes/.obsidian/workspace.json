@@ -155,24 +155,16 @@
             "id": "9fc2fb970f81bc34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "3 - Resources/Learning/Domain Design/Evans03.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 796,
+                "zoom": 2.127450980392157
               },
-              "icon": "lucide-file",
-              "title": "Contacts"
+              "icon": "lucide-file-text",
+              "title": "Evans03"
             }
           },
           {
@@ -558,7 +550,9 @@
   },
   "active": "9fc2fb970f81bc34",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
@@ -603,8 +597,6 @@
     "Product/Projects/Proposals/RFP to Proposal/Proposal Conversion.md",
     "Product/Knowledge Hub/RFP training.md",
     "Product/Projects/Questions/Filters for project/Filter inside the projects screen for the question cards.md",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md",
-    "Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
