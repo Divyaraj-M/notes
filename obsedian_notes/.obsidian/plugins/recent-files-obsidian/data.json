@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-09 0900 — Example coffee",
+      "path": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md"
+    },
+    {
       "basename": "Habit Tracker",
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
+    },
+    {
+      "basename": "Analytics",
+      "path": "1 - Projects/Habit Tracker/Analytics.md"
     },
     {
       "basename": "Expense",
@@ -23,10 +31,6 @@
     {
       "basename": "Daily Habits Bundle",
       "path": "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md"
-    },
-    {
-      "basename": "Analytics",
-      "path": "1 - Projects/Habit Tracker/Analytics.md"
     },
     {
       "basename": "README",
@@ -195,10 +199,6 @@
     {
       "basename": "Help Article Template",
       "path": "3 - Resources/Help Article Template.md"
-    },
-    {
-      "basename": "positioning-statement-prompt-generator",
-      "path": "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md"
     }
   ],
   "omittedPaths": [],

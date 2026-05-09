@@ -273,7 +273,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "file": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -288,7 +288,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Habit Tracker"
+              "title": "2026-05-09 0900 — Example coffee"
             }
           },
           {
@@ -393,7 +393,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm",
+                "query": "snippets",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -653,8 +653,9 @@
   },
   "active": "e35507b847b7bade",
   "lastOpenFiles": [
-    "1 - Projects/Habit Tracker/_templates/Expense.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "1 - Projects/Habit Tracker/Analytics.md",
+    "1 - Projects/Habit Tracker/_templates/Expense.md",
     "1 - Projects/Habit Tracker/Untitled.md",
     "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "1 - Projects/Habit Tracker/Database.md",
@@ -680,7 +681,6 @@
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "1 - Projects/Habit Tracker/Analytics.md",
     "1 - Projects/Habit Tracker/README.md",
     "1 - Projects/Habit Tracker/Finance.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",

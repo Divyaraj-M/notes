@@ -136,7 +136,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778345609208
@@ -167,13 +167,19 @@
         },
         {
           "timestampMillis": 1778346640946
+        },
+        {
+          "timestampMillis": 1778346905262
+        },
+        {
+          "timestampMillis": 1778346910397
         }
       ]
     },
     {
       "path": "1 - Projects/Habit Tracker/Analytics.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778345636118
@@ -183,6 +189,9 @@
         },
         {
           "timestampMillis": 1778345928904
+        },
+        {
+          "timestampMillis": 1778346910129
         }
       ]
     },
@@ -235,6 +244,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778346352921
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778346919008
         }
       ]
     }
