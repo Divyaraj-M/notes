@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "1 - Projects/Habit Tracker/README.md"
+    },
+    {
+      "basename": "Habit Tracker",
+      "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
+    },
+    {
+      "basename": "Analytics",
+      "path": "1 - Projects/Habit Tracker/Analytics.md"
+    },
+    {
+      "basename": "Habit Entry",
+      "path": "1 - Projects/Habit Tracker/_templates/Habit Entry.md"
+    },
+    {
+      "basename": "Daily Habits Bundle",
+      "path": "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md"
+    },
+    {
+      "basename": "Expense",
+      "path": "1 - Projects/Habit Tracker/_templates/Expense.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Product Management - Top Deliverables",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "User Personas",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md"
-    },
-    {
-      "basename": "Friction Points",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md"
-    },
-    {
-      "basename": "First Principle for a CRM",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
-    },
-    {
-      "basename": "RFP to Proposal",
-      "path": "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/RFP to Proposal.md"
-    },
-    {
-      "basename": "11 - Help Articles",
-      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
-    },
-    {
-      "basename": "10 - Marketing",
-      "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
     }
   ],
   "omittedPaths": [],

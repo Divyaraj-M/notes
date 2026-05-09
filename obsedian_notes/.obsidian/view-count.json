@@ -84,6 +84,72 @@
           "timestampMillis": 1778345007722
         }
       ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/_templates/Expense.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345557310
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345560660
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/_templates/Habit Entry.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345564641
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345609208
+        },
+        {
+          "timestampMillis": 1778345723414
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Analytics.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345636118
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/README.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345718778
+        },
+        {
+          "timestampMillis": 1778345725409
+        }
+      ]
     }
   ]
 }
