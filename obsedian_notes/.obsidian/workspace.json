@@ -273,7 +273,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Habit Tracker/_templates/Expense.md",
+                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -288,7 +288,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expense"
+              "title": "Habit Tracker"
             }
           },
           {
@@ -653,9 +653,9 @@
   },
   "active": "e35507b847b7bade",
   "lastOpenFiles": [
+    "1 - Projects/Habit Tracker/_templates/Expense.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Habit Tracker/Untitled.md",
-    "1 - Projects/Habit Tracker/_templates/Expense.md",
     "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "1 - Projects/Habit Tracker/Database.md",
     "1 - Projects/Habit Tracker/_templates/Habit Entry.md",
