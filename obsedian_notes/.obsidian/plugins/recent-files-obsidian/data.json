@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Mathematics",
+      "path": "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md"
+    },
+    {
       "basename": "Week 1",
       "path": "3 - Resources/Learning/Data Science/mathematics I/Week 1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Multi Document Support",
       "path": "4 - Archive/Sparrowgenie/Multi Document Support.md"
-    },
-    {
-      "basename": "Zoom",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md"
     }
   ],
   "omittedPaths": [],
