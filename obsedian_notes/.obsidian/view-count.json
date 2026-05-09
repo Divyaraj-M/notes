@@ -86,174 +86,25 @@
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/_templates/Expense.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345557310
-        },
-        {
-          "timestampMillis": 1778345955043
-        },
-        {
-          "timestampMillis": 1778346298637
-        },
-        {
-          "timestampMillis": 1778346329125
-        },
-        {
-          "timestampMillis": 1778346400896
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345560660
-        },
-        {
-          "timestampMillis": 1778345959701
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/_templates/Habit Entry.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345564641
-        },
-        {
-          "timestampMillis": 1778345961377
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 12,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345609208
-        },
-        {
-          "timestampMillis": 1778345723414
-        },
-        {
-          "timestampMillis": 1778345889032
-        },
-        {
-          "timestampMillis": 1778345939526
-        },
-        {
-          "timestampMillis": 1778345966806
-        },
-        {
-          "timestampMillis": 1778345984533
-        },
-        {
-          "timestampMillis": 1778346332200
-        },
-        {
-          "timestampMillis": 1778346332521
-        },
-        {
-          "timestampMillis": 1778346358292
-        },
-        {
-          "timestampMillis": 1778346640946
-        },
-        {
-          "timestampMillis": 1778346905262
-        },
-        {
-          "timestampMillis": 1778346910397
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Analytics.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345636118
-        },
-        {
-          "timestampMillis": 1778345900037
-        },
-        {
-          "timestampMillis": 1778345928904
-        },
-        {
-          "timestampMillis": 1778346910129
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/README.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
-      "openLogs": [
-        {
-          "timestampMillis": 1778345718778
-        },
-        {
-          "timestampMillis": 1778345725409
-        },
-        {
-          "timestampMillis": 1778345844388
-        },
-        {
-          "timestampMillis": 1778345928264
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Finance.md",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 1,
       "openLogs": [
         {
-          "timestampMillis": 1778345897217
+          "timestampMillis": 1778347310760
         }
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/Database.md",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 2,
       "openLogs": [
         {
-          "timestampMillis": 1778345898537
+          "timestampMillis": 1778347311405
         },
         {
-          "timestampMillis": 1778345978288
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Untitled.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778346352921
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778346919008
+          "timestampMillis": 1778347311600
         }
       ]
     }

@@ -1,44 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-05-09 0900 — Example coffee",
-      "path": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md"
-    },
-    {
-      "basename": "Habit Tracker",
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
-    },
-    {
-      "basename": "Analytics",
-      "path": "1 - Projects/Habit Tracker/Analytics.md"
-    },
-    {
-      "basename": "Expense",
-      "path": "1 - Projects/Habit Tracker/_templates/Expense.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "1 - Projects/Habit Tracker/Untitled.md"
-    },
-    {
-      "basename": "Database",
-      "path": "1 - Projects/Habit Tracker/Database.md"
-    },
-    {
-      "basename": "Habit Entry",
-      "path": "1 - Projects/Habit Tracker/_templates/Habit Entry.md"
-    },
-    {
-      "basename": "Daily Habits Bundle",
-      "path": "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md"
-    },
-    {
-      "basename": "README",
-      "path": "1 - Projects/Habit Tracker/README.md"
-    },
-    {
-      "basename": "Finance",
-      "path": "1 - Projects/Habit Tracker/Finance.md"
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
     {
       "basename": "6 - Metrics & Dashboards",
@@ -125,10 +89,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
     },
     {
-      "basename": "Issues Found",
-      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
-    },
-    {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
@@ -187,18 +147,6 @@
     {
       "basename": "7 - Competitors",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "3 - Resources/Books/Read List/Read List.md"
-    },
-    {
-      "basename": "My Product Notes",
-      "path": "3 - Resources/My Product Notes.md"
-    },
-    {
-      "basename": "Help Article Template",
-      "path": "3 - Resources/Help Article Template.md"
     }
   ],
   "omittedPaths": [],

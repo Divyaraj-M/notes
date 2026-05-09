@@ -266,81 +266,9 @@
               "icon": "wallet-cards",
               "title": "Banyan"
             }
-          },
-          {
-            "id": "e35507b847b7bade",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-09 0900 — Example coffee"
-            }
-          },
-          {
-            "id": "eceea8975f9a8943",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Habit Tracker/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "63ad18abc9bd5836",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "finance/Dashboard.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dashboard"
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -651,9 +579,15 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "e35507b847b7bade",
+  "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+    "1 - Projects/Habit Tracker/Finance.md",
+    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
+    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
+    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
     "1 - Projects/Habit Tracker/Analytics.md",
     "1 - Projects/Habit Tracker/_templates/Expense.md",
     "1 - Projects/Habit Tracker/Untitled.md",
@@ -674,18 +608,12 @@
     "finance/Data/categories/Gifts & Bonus.md",
     "finance/Data/categories/Freelance.md",
     "finance/Data/categories/Wages.md",
-    "finance/Dashboard.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "1 - Projects/Habit Tracker/README.md",
-    "1 - Projects/Habit Tracker/Finance.md",
-    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
     "1 - Projects/Habit Tracker/_assets",
     "1 - Projects/Habit Tracker/_templates",
     "1 - Projects/Habit Tracker/Finance",
