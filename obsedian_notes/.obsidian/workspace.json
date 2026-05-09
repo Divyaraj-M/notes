@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -254,7 +254,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Issues Found"
+              "title": "Sparrowcrm"
             }
           },
           {
@@ -581,6 +581,7 @@
   },
   "active": "17b9d410ab089f26",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Habit Tracker/Finance.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
@@ -607,7 +608,6 @@
     "finance/Data/categories/Rent.md",
     "finance/Data/categories/Gifts & Bonus.md",
     "finance/Data/categories/Freelance.md",
-    "finance/Data/categories/Wages.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
