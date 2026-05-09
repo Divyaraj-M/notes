@@ -5351,6 +5351,7 @@ tLg
 trailer
 targetMap
 toLocaleString
+totals
 PM
 PRD
 Problem
@@ -10183,6 +10184,7 @@ Streaks
 Spending
 SilentVoid
 Slettevoll
+Sortable
 Lead
 Loop
 Linking
@@ -16790,6 +16792,7 @@ Cartesian
 Calories
 Charts
 Cadence
+Counters
 How
 Hubs
 Hub

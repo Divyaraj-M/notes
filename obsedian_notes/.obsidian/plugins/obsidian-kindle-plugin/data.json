@@ -2,7 +2,7 @@
   "amazonRegion": "global",
   "highlightsFolder": "/",
   "lastSyncMode": "amazon",
-  "hasStartedSync": false,
+  "hasStartedSync": true,
   "isLoggedIn": false,
   "syncOnBoot": true,
   "downloadBookMetadata": true,

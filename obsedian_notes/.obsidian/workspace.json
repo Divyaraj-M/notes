@@ -200,6 +200,16 @@
             }
           },
           {
+            "id": "7a8b4c5fa332834c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          },
+          {
             "id": "57f293fad0b1d5f7",
             "type": "leaf",
             "state": {
@@ -256,9 +266,57 @@
               "icon": "wallet-cards",
               "title": "Banyan"
             }
+          },
+          {
+            "id": "e35507b847b7bade",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Habit Tracker"
+            }
+          },
+          {
+            "id": "63ad18abc9bd5836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "finance/Dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -536,6 +594,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "smart-connections:Toggle Footer Connections": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": true,
@@ -567,45 +627,45 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "b4dd4d119305d49b",
+  "active": "e35507b847b7bade",
   "lastOpenFiles": [
-    "1 - Projects/Habit Tracker/Habit Tracker.md",
-    "1 - Projects/Habit Tracker/README.md",
-    "1 - Projects/Habit Tracker/Analytics.md",
-    "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Exercise.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
-    "1 - Projects/Habit Tracker/Habits/Product Case Study.md",
-    "1 - Projects/Habit Tracker/Habits/IIT Madras Study.md",
-    "1 - Projects/Habit Tracker/Habits/Exercise.md",
-    "1 - Projects/Habit Tracker/Habits/Calories.md",
-    "1 - Projects/Habit Tracker/Finance.md",
     "1 - Projects/Habit Tracker/Database.md",
+    "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Habit Tracker/_templates/Habit Entry.md",
     "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md",
     "1 - Projects/Habit Tracker/_templates/Expense.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "finance/Data/categories/Vacation.md",
+    "finance/Data/categories/Subscriptions.md",
+    "finance/Data/categories/Clothing.md",
+    "finance/Data/categories/Entertainment.md",
+    "finance/Data/categories/Eat Out.md",
+    "finance/Data/categories/Transport.md",
+    "finance/Data/categories/Health.md",
+    "finance/Data/categories/Bills.md",
+    "finance/Data/categories/Groceries.md",
+    "finance/Data/categories/Rent.md",
+    "finance/Data/categories/Gifts & Bonus.md",
+    "finance/Data/categories/Freelance.md",
+    "finance/Data/categories/Wages.md",
+    "finance/Dashboard.md",
+    "finance/Data/accounts",
+    "finance/Data/archive",
+    "finance/Data/assets",
+    "finance/Data/categories",
+    "finance/Data",
+    "finance",
+    "1 - Projects/Habit Tracker/Analytics.md",
+    "1 - Projects/Habit Tracker/README.md",
+    "1 - Projects/Habit Tracker/Finance.md",
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+    "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
+    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
+    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
     "1 - Projects/Habit Tracker/_assets",
     "1 - Projects/Habit Tracker/_templates",
     "1 - Projects/Habit Tracker/Finance",
     "1 - Projects/Habit Tracker/Habits",
-    "1 - Projects/Habit Tracker/Habits Log",
-    "1 - Projects/Habit Tracker",
-    "Thinking.md",
-    "Welcome.md",
-    "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md",
-    "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md",
-    "3 - Resources/Learning/Data Science/mathematics I/Week 1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Untitled.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-    "3 - Resources/Learning/Domain Design/Evans03.pdf",
-    "1 - Projects/Case Studies",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
-    "Divyaraj_Murugan_Resume_Paperflite.pdf",
-    "Divyaraj_Murugan_Resume_Paperflite.out",
     "Untitled.canvas",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",

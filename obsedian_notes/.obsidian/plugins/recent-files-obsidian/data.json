@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "1 - Projects/Habit Tracker/README.md"
-    },
-    {
       "basename": "Habit Tracker",
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
     },
     {
-      "basename": "Analytics",
-      "path": "1 - Projects/Habit Tracker/Analytics.md"
+      "basename": "Database",
+      "path": "1 - Projects/Habit Tracker/Database.md"
     },
     {
       "basename": "Habit Entry",
@@ -23,6 +19,22 @@
     {
       "basename": "Expense",
       "path": "1 - Projects/Habit Tracker/_templates/Expense.md"
+    },
+    {
+      "basename": "Analytics",
+      "path": "1 - Projects/Habit Tracker/Analytics.md"
+    },
+    {
+      "basename": "README",
+      "path": "1 - Projects/Habit Tracker/README.md"
+    },
+    {
+      "basename": "Finance",
+      "path": "1 - Projects/Habit Tracker/Finance.md"
+    },
+    {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -169,10 +181,6 @@
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md"
     },
     {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
       "basename": "Read List",
       "path": "3 - Resources/Books/Read List/Read List.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "proto-persona-prompt-generator",
       "path": "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md"
-    },
-    {
-      "basename": "Pasted image 20260504115107",
-      "path": "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md"
     }
   ],
   "omittedPaths": [],
