@@ -3,7 +3,6 @@ type: dashboard
 cssclasses:
   - habit-tracker
 ---
-
 # 🌱 Simple Habit Tracker + Analytics
 
 > 90-day sprint: **2026-05-09 → 2026-08-07**

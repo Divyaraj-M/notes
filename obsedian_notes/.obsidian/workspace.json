@@ -273,7 +273,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "file": "1 - Projects/Habit Tracker/_templates/Expense.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -288,7 +288,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Habit Tracker"
+              "title": "Expense"
+            }
+          },
+          {
+            "id": "eceea8975f9a8943",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Habit Tracker/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           },
           {
@@ -629,11 +653,13 @@
   },
   "active": "e35507b847b7bade",
   "lastOpenFiles": [
-    "1 - Projects/Habit Tracker/Database.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "1 - Projects/Habit Tracker/Untitled.md",
+    "1 - Projects/Habit Tracker/_templates/Expense.md",
+    "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
+    "1 - Projects/Habit Tracker/Database.md",
     "1 - Projects/Habit Tracker/_templates/Habit Entry.md",
     "1 - Projects/Habit Tracker/_templates/Daily Habits Bundle.md",
-    "1 - Projects/Habit Tracker/_templates/Expense.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
@@ -660,11 +686,9 @@
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
     "1 - Projects/Habit Tracker/_assets",
     "1 - Projects/Habit Tracker/_templates",
     "1 - Projects/Habit Tracker/Finance",
-    "1 - Projects/Habit Tracker/Habits",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Untitled.canvas",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
