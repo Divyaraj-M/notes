@@ -36,10 +36,52 @@
     {
       "path": "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778307162845
+        },
+        {
+          "timestampMillis": 1778344990763
+        }
+      ]
+    },
+    {
+      "path": "Thinking.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1778344992115
+        },
+        {
+          "timestampMillis": 1778344992391
+        },
+        {
+          "timestampMillis": 1778344998634
+        }
+      ]
+    },
+    {
+      "path": "Welcome.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778344996688
+        },
+        {
+          "timestampMillis": 1778344996878
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778345007722
         }
       ]
     }

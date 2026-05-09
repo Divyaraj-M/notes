@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Formulas Mathematics"
+              "title": "Sparrowcrm"
             }
           },
           {
@@ -567,9 +567,12 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "b4dd4d119305d49b",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Habit Tracker",
+    "Thinking.md",
     "Welcome.md",
+    "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md",
     "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md",
     "3 - Resources/Learning/Data Science/mathematics I/Week 1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
@@ -595,7 +598,6 @@
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "1 - Projects/Sparrowcrm/5 - Features/Google Gem - SparrowCRM Feature Analyzer.md",
     "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Divyaraj_Murugan_Resume_Paperflite.pdf",
     "Divyaraj_Murugan_Resume_Paperflite.out",
     "Divyaraj_Murugan_Resume_Paperflite.aux",
@@ -603,8 +605,6 @@
     "Divyaraj_Murugan_Resume_Paperflite.tex",
     "Untitled.canvas",
     "My Data.base",
-    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md",
-    "Friction points.md",
     "Learning/Domain design Diagram/Evans03.pdf",
     "Books/Read List/Analogy vs Analogical thinking.pdf",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

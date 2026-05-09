@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Thinking",
+      "path": "Thinking.md"
+    },
+    {
+      "basename": "Welcome",
+      "path": "Welcome.md"
+    },
+    {
       "basename": "Formulas Mathematics",
       "path": "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "Competitor Template",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "4 - Product Specs",
@@ -191,14 +199,6 @@
     {
       "basename": "10 - Marketing",
       "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
-    },
-    {
-      "basename": "Product Vision",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision.md"
-    },
-    {
-      "basename": "Product Strategy",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy.md"
     }
   ],
   "omittedPaths": [],
