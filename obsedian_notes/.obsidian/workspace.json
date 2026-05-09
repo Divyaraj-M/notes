@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md",
+                "file": "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mathematics"
+              "title": "Formulas Mathematics"
             }
           },
           {
@@ -569,8 +569,8 @@
   },
   "active": "b4dd4d119305d49b",
   "lastOpenFiles": [
-    "3 - Resources/Learning/Data Science/mathematics I/Week 1.md",
     "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md",
+    "3 - Resources/Learning/Data Science/mathematics I/Week 1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
