@@ -1,8 +1,18 @@
+formulas:
+  Untitled: ""
 views:
-  - type: table
-    name: Table
   - type: table
     name: Habit Tracker
     filters:
       and:
         - file.folder == "1 - Projects/Habit Tracker"
+    order:
+      - file.name
+      - file.backlinks
+      - formula.Untitled
+      - tags
+    sort:
+      - property: formula.Untitled
+        direction: DESC
+  - type: table
+    name: Table
