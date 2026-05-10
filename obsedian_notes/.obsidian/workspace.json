@@ -276,9 +276,33 @@
               "icon": "lucide-ghost",
               "title": "dashboard-view"
             }
+          },
+          {
+            "id": "7f017439291fb2e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Habit Tracker"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -589,8 +613,9 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "a905d528987ca88a",
+  "active": "7f017439291fb2e7",
   "lastOpenFiles": [
+    "1 - Projects/Habit Tracker/Untitled.base",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Untitled.md",
@@ -601,7 +626,6 @@
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
-    "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
     "1 - Projects/Habit Tracker/Analytics.md",
     "1 - Projects/Habit Tracker/_templates/Expense.md",

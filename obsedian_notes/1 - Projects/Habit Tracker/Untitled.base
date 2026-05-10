@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: Habit Tracker
+    filters:
+      and:
+        - file.folder == "1 - Projects/Habit Tracker"

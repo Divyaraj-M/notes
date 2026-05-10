@@ -5,7 +5,12 @@
         "2026-05-09": 25,
         "2026-05-10": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Habit Tracker/Habit Tracker.md": {
+          "initial": 6,
+          "current": 6
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
