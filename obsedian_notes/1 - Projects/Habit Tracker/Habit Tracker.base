@@ -6,12 +6,17 @@ views:
     filters:
       and:
         - file.folder == "1 - Projects/Habit Tracker"
+        - and:
+            - file.name != "Habit Tracker"
+            - file.name != "Habit Tracker"
     order:
       - file.name
       - file.backlinks
       - formula.Untitled
       - tags
     sort:
+      - property: tags
+        direction: ASC
       - property: formula.Untitled
         direction: DESC
   - type: table

@@ -129,7 +129,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -148,11 +148,14 @@
         },
         {
           "timestampMillis": 1778428671617
+        },
+        {
+          "timestampMillis": 1778428949063
         }
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/Untitled.base",
+      "path": "1 - Projects/Habit Tracker/Habit Tracker.base",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 1,
       "openLogs": [
