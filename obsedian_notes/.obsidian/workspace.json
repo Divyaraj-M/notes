@@ -258,7 +258,7 @@
             }
           },
           {
-            "id": "48c4933b0f887db5",
+            "id": "a905d528987ca88a",
             "type": "leaf",
             "state": {
               "type": "dashboard-view",
@@ -266,9 +266,19 @@
               "icon": "wallet-cards",
               "title": "Banyan"
             }
+          },
+          {
+            "id": "48c4933b0f887db5",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "dashboard-view"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -579,7 +589,7 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "17b9d410ab089f26",
+  "active": "a905d528987ca88a",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",

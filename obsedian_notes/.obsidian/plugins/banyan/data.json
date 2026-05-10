@@ -1,5 +1,5 @@
 {
-  "settingsVersion": 8,
+  "settingsVersion": 9,
   "openWhenStartObsidian": true,
   "cardsDirectory": "1 - Projects",
   "cardsColumns": 2,
@@ -11,5 +11,8 @@
   "useZkPrefixerFormat": false,
   "showAddNoteRibbonIcon": true,
   "newNoteLocationMode": "current",
-  "customNewNoteLocation": ""
+  "customNewNoteLocation": "",
+  "enableViewSchemes": false,
+  "enableRandomReview": false,
+  "lastVersion": "1.4.3"
 }

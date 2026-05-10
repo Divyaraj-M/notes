@@ -1,5 +1,4 @@
 {
-  "version": 1,
   "sortType": "modified",
   "firstUseDate": "15/04/2026",
   "randomBrowse": false,
@@ -41,5 +40,6 @@
   "viewSchemes": [],
   "filterSchemesExpanded": true,
   "randomReviewExpanded": true,
-  "viewSchemesExpanded": false
+  "viewSchemesExpanded": false,
+  "version": 1
 }
