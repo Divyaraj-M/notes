@@ -1,10 +1,11 @@
 {
-  "amazonRegion": "global",
+  "amazonRegion": "india",
   "highlightsFolder": "/",
   "lastSyncMode": "amazon",
   "hasStartedSync": true,
-  "isLoggedIn": false,
+  "isLoggedIn": true,
   "syncOnBoot": true,
   "downloadBookMetadata": true,
-  "ignoredBooks": []
+  "ignoredBooks": [],
+  "lastSyncDate": "2026-05-11T09:32:17.678Z"
 }
