@@ -283,7 +283,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/How to find edge cases before they become expensive issues.md",
+                "file": "Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -298,23 +298,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to find edge cases before they become expensive issues"
-            }
-          },
-          {
-            "id": "3ee08a56944176f5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdv60-FVhp8O5p74XDxqo4fp4sUDm__1pOnwTlqtXAxf_rsgA/viewform"
-              },
-              "icon": "lucide-file",
-              "title": "Apply to join Good Product Club!"
+              "title": "Thinking"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -491,12 +479,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Thinking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Thinking"
             }
           },
           {
@@ -624,9 +613,13 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "3ee08a56944176f5",
+  "active": "7f017439291fb2e7",
   "lastOpenFiles": [
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
+    "Thinking.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
+    "Welcome.md",
+    "finance/Dashboard.md",
     "3 - Resources/Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
@@ -653,10 +646,6 @@
     "1 - Projects/Habit Tracker",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "1 - Projects/Habit Tracker/Finance.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
-    "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
     "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "finance/Data/accounts",
     "finance/Data/archive",

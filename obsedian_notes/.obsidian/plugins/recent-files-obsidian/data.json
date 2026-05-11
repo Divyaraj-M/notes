@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Thinking",
+      "path": "Thinking.md"
+    },
+    {
+      "basename": "Proposal Creation Flow",
+      "path": "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md"
+    },
+    {
       "basename": "How to find edge cases before they become expensive issues",
       "path": "Clippings/How to find edge cases before they become expensive issues.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "6 - Metrics & Dashboards",
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Thinking",
-      "path": "Thinking.md"
-    },
-    {
-      "basename": "Welcome",
-      "path": "Welcome.md"
     },
     {
       "basename": "Formulas Mathematics",

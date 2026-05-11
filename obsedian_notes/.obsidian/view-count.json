@@ -48,8 +48,8 @@
     },
     {
       "path": "Thinking.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -59,19 +59,15 @@
         },
         {
           "timestampMillis": 1778344998634
-        }
-      ]
-    },
-    {
-      "path": "Welcome.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
-      "openLogs": [
-        {
-          "timestampMillis": 1778344996688
         },
         {
-          "timestampMillis": 1778344996878
+          "timestampMillis": 1778487062146
+        },
+        {
+          "timestampMillis": 1778487062365
+        },
+        {
+          "timestampMillis": 1778487068577
         }
       ]
     },
@@ -383,7 +379,7 @@
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -399,6 +395,25 @@
         },
         {
           "timestampMillis": 1778486757101
+        },
+        {
+          "timestampMillis": 1778486931849
+        },
+        {
+          "timestampMillis": 1778487044815
+        },
+        {
+          "timestampMillis": 1778487058436
+        }
+      ]
+    },
+    {
+      "path": "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778487066177
         }
       ]
     }
