@@ -364,13 +364,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
         },
         {
           "timestampMillis": 1778484213597
+        },
+        {
+          "timestampMillis": 1778484973202
         }
       ]
     }
