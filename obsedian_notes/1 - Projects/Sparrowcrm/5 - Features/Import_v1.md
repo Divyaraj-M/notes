@@ -2,9 +2,10 @@
 owner: Divyaraj Murugan
 feature: "[[Imports]]"
 version: 1
-status:
-priority:
+status: Draft
+priority: Low
 tags:
+  - sparrowcrm/features/import/v1
 ---
 # Feature Spec Skill
 

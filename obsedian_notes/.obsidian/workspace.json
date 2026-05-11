@@ -355,7 +355,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "snippets",
+                "query": "tag:#sparrowcrm/features/import",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -613,7 +613,7 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "7f017439291fb2e7",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
