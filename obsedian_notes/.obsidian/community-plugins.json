@@ -38,7 +38,6 @@
   "tag-wrangler",
   "find-unlinked-files",
   "better-search-views",
-  "gtd-no-next-step",
   "obsidian-scroll-to-top-plugin",
   "waypoint",
   "obsidian-smart-typography",
@@ -59,5 +58,6 @@
   "templater-obsidian",
   "obsidian-chartsview-plugin",
   "obsidian-tasks-plugin",
-  "periodic-notes"
+  "periodic-notes",
+  "obsidian-plugin-todo"
 ]

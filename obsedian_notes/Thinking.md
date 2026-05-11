@@ -59,6 +59,6 @@ Action
 [[Import_v1]]
 - Should be thught through 
 	- Permission sets 
-	- Importin different data types 
+	- Importing different data types 
 	- Non supported files 
-	- 
+	- What happens, if 

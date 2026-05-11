@@ -49,7 +49,7 @@
     {
       "path": "Thinking.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -83,6 +83,15 @@
         },
         {
           "timestampMillis": 1778491821586
+        },
+        {
+          "timestampMillis": 1778492010184
+        },
+        {
+          "timestampMillis": 1778492220827
+        },
+        {
+          "timestampMillis": 1778492223478
         }
       ]
     },
@@ -223,13 +232,25 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
         },
         {
           "timestampMillis": 1778479585343
+        },
+        {
+          "timestampMillis": 1778492170068
+        },
+        {
+          "timestampMillis": 1778492210051
+        },
+        {
+          "timestampMillis": 1778492213982
+        },
+        {
+          "timestampMillis": 1778492221751
         }
       ]
     },
