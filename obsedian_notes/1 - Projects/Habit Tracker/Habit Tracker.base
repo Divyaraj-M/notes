@@ -1,5 +1,3 @@
-formulas:
-  Untitled: ""
 views:
   - type: table
     name: Habit Tracker
@@ -12,12 +10,9 @@ views:
     order:
       - file.name
       - file.backlinks
-      - formula.Untitled
       - tags
     sort:
       - property: tags
         direction: ASC
-      - property: formula.Untitled
-        direction: DESC
   - type: table
     name: Table

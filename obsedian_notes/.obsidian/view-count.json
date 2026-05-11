@@ -138,7 +138,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 15,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -184,6 +184,9 @@
         },
         {
           "timestampMillis": 1778479821481
+        },
+        {
+          "timestampMillis": 1778480077645
         }
       ]
     },
@@ -227,6 +230,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778479798295
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/IITM.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778480057085
         }
       ]
     }

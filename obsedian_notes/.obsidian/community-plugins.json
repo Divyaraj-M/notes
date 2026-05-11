@@ -56,5 +56,6 @@
   "view-count",
   "dataview",
   "heatmap-calendar",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-chartsview-plugin"
 ]
