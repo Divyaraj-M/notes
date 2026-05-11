@@ -283,7 +283,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -298,7 +298,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Habit Tracker"
+              "title": "Sparrowcrm"
             }
           }
         ],
@@ -615,11 +615,12 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
+    "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "2 - Areas/Daily/Routine.md",
+    "1 - Projects/Habit Tracker/Untitled.md",
     "1 - Projects/Habit Tracker/Untitled 1.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
-    "1 - Projects/Habit Tracker/Untitled.md",
     "1 - Projects/Untitled.md",
     "1 - Projects/Habit Tracker",
     "1 - Projects/Sparrowcrm/Issues Found.md",
@@ -643,7 +644,6 @@
     "finance/Data/categories/Transport.md",
     "finance/Data/categories/Health.md",
     "finance/Data/categories/Bills.md",
-    "finance/Data/categories/Groceries.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

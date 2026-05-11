@@ -8,7 +8,7 @@ views:
         - file.folder == "1 - Projects/Habit Tracker"
         - and:
             - file.name != "Habit Tracker"
-            - file.name != "Habit Tracker"
+            - file.basename != "Habit Tracker"
     order:
       - file.name
       - file.backlinks

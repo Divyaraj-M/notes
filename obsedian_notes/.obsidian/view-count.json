@@ -77,8 +77,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -100,6 +100,9 @@
         },
         {
           "timestampMillis": 1778428670578
+        },
+        {
+          "timestampMillis": 1778479561605
         }
       ]
     },
@@ -128,8 +131,8 @@
     },
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -151,6 +154,24 @@
         },
         {
           "timestampMillis": 1778428949063
+        },
+        {
+          "timestampMillis": 1778479489372
+        },
+        {
+          "timestampMillis": 1778479492031
+        },
+        {
+          "timestampMillis": 1778479506419
+        },
+        {
+          "timestampMillis": 1778479512718
+        },
+        {
+          "timestampMillis": 1778479524996
+        },
+        {
+          "timestampMillis": 1778479556390
         }
       ]
     },
@@ -161,6 +182,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778428644674
+        }
+      ]
+    },
+    {
+      "path": "2 - Areas/Daily/Routine.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778479538997
         }
       ]
     }
