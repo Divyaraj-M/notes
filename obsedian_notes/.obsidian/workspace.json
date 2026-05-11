@@ -283,7 +283,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+                "file": "Clippings/How to find edge cases before they become expensive issues.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -298,11 +298,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Import_v1"
+              "title": "How to find edge cases before they become expensive issues"
+            }
+          },
+          {
+            "id": "3ee08a56944176f5",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdv60-FVhp8O5p74XDxqo4fp4sUDm__1pOnwTlqtXAxf_rsgA/viewform"
+              },
+              "icon": "lucide-file",
+              "title": "Apply to join Good Product Club!"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -479,13 +491,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Import_v1"
+              "title": "Outline"
             }
           },
           {
@@ -613,10 +624,14 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "7f017439291fb2e7",
+  "active": "3ee08a56944176f5",
   "lastOpenFiles": [
-    "3 - Resources/Teardowns/2025-12-12 - Clickup Teardown.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
+    "3 - Resources/Clippings/How to find edge cases before they become expensive issues.md",
+    "Clippings",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "3 - Resources/Clippings",
+    "3 - Resources/Teardowns/2025-12-12 - Clickup Teardown.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -642,15 +657,11 @@
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Calories.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — IIT Madras Study.md",
     "1 - Projects/Habit Tracker/Habits Log/2026-05-09 — Product Case Study.md",
-    "1 - Projects/Habit Tracker/Finance/2026-05-09 0900 — Example coffee.md",
-    "1 - Projects/Habit Tracker/Analytics.md",
     "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
     "finance/Data/categories",
-    "finance/Data",
-    "finance",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Untitled.canvas",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

@@ -379,6 +379,28 @@
           "timestampMillis": 1778485013841
         }
       ]
+    },
+    {
+      "path": "Clippings/How to find edge cases before they become expensive issues.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 5,
+      "openLogs": [
+        {
+          "timestampMillis": 1778486389919
+        },
+        {
+          "timestampMillis": 1778486390362
+        },
+        {
+          "timestampMillis": 1778486407245
+        },
+        {
+          "timestampMillis": 1778486435068
+        },
+        {
+          "timestampMillis": 1778486757101
+        }
+      ]
     }
   ]
 }
