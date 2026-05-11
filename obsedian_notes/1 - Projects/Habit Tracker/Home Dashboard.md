@@ -16,9 +16,9 @@ tags:
 ## Current focus
 
 **Health** — workout 5x/week, calories under 2000, drop from ___ kg to ___ kg
-**IITM DS** — CGPA target > 8.5, current term: ___
-**Reading** — 10 pages/day, currently reading: ___
-**Finance** — track expenses, monthly savings target ___%
+**IITM DS** — CGPA target > 8.5, current term: 4
+**Reading** — 10 pages/day, currently reading: 
+**Finance** — track expenses, monthly savings target  20 %
 
 PM career growth is **not** in Phase 1 — it will return in Phase 2 only after 10+ floor days.
 

@@ -138,7 +138,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 16,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -187,16 +187,9 @@
         },
         {
           "timestampMillis": 1778480077645
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.base",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
+        },
         {
-          "timestampMillis": 1778428644674
+          "timestampMillis": 1778483295572
         }
       ]
     },
@@ -236,10 +229,68 @@
     {
       "path": "1 - Projects/Habit Tracker/IITM.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778480057085
+        },
+        {
+          "timestampMillis": 1778483296114
+        },
+        {
+          "timestampMillis": 1778483389851
+        },
+        {
+          "timestampMillis": 1778483390051
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Templates/Weekly Review Template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778483195608
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Templates/Daily Template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778483202348
+        },
+        {
+          "timestampMillis": 1778483202576
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Start Here.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1778483223102
+        },
+        {
+          "timestampMillis": 1778483294678
+        },
+        {
+          "timestampMillis": 1778483297461
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Home Dashboard.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778483298063
         }
       ]
     }

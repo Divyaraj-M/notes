@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "IITM",
+      "path": "1 - Projects/Habit Tracker/IITM.md"
+    },
+    {
+      "basename": "Home Dashboard",
+      "path": "1 - Projects/Habit Tracker/Home Dashboard.md"
+    },
+    {
+      "basename": "Start Here",
+      "path": "1 - Projects/Habit Tracker/Start Here.md"
+    },
+    {
       "basename": "Habit Tracker",
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
     },
     {
-      "basename": "IITM",
-      "path": "1 - Projects/Habit Tracker/IITM.md"
+      "basename": "Daily Template",
+      "path": "1 - Projects/Habit Tracker/Templates/Daily Template.md"
+    },
+    {
+      "basename": "Weekly Review Template",
+      "path": "1 - Projects/Habit Tracker/Templates/Weekly Review Template.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -23,10 +39,6 @@
     {
       "basename": "Routine",
       "path": "2 - Areas/Daily/Routine.md"
-    },
-    {
-      "basename": "Habit Tracker",
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.base"
     },
     {
       "basename": "Issues Found",
