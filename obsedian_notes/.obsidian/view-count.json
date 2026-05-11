@@ -247,7 +247,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -266,19 +266,25 @@
         },
         {
           "timestampMillis": 1778492221751
+        },
+        {
+          "timestampMillis": 1778493304419
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778479798295
         },
         {
           "timestampMillis": 1778493099895
+        },
+        {
+          "timestampMillis": 1778493297758
         }
       ]
     },
@@ -397,30 +403,42 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
         },
         {
           "timestampMillis": 1778493107615
+        },
+        {
+          "timestampMillis": 1778493232420
+        },
+        {
+          "timestampMillis": 1778493310518
+        },
+        {
+          "timestampMillis": 1778493314371
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778484036888
+        },
+        {
+          "timestampMillis": 1778493383282
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -448,6 +466,9 @@
         },
         {
           "timestampMillis": 1778492505093
+        },
+        {
+          "timestampMillis": 1778493386630
         }
       ]
     },
@@ -714,6 +735,32 @@
       "openLogs": [
         {
           "timestampMillis": 1778493104611
+        }
+      ]
+    },
+    {
+      "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493172929
+        },
+        {
+          "timestampMillis": 1778493232907
+        },
+        {
+          "timestampMillis": 1778493309160
+        }
+      ]
+    },
+    {
+      "path": "4 - Archive/Sparrowgenie/Friction points.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493282291
         }
       ]
     }

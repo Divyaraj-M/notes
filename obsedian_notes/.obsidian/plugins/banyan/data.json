@@ -7,7 +7,7 @@
   "fontTheme": "normal",
   "cardContentMaxHeight": "normal",
   "showBacklinksInCardNote": true,
-  "useCardNote2": false,
+  "useCardNote2": true,
   "useZkPrefixerFormat": false,
   "showAddNoteRibbonIcon": true,
   "newNoteLocationMode": "current",

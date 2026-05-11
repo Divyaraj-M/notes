@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,21 +62,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5 - Features"
-            }
-          },
-          {
-            "id": "e94ed23da48eb8ee",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Import_v1"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -396,12 +386,16 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "e94ed23da48eb8ee",
+  "active": "30de1cf9e541b077",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+    "4 - Archive/Sparrowgenie/Friction points.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md",
     "Thinking.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md",
@@ -415,7 +409,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Year2026/Quarter2/Month05/Day11/2026-05-11 15-03-27.md",
     "1 - Projects/Year2026/Quarter2/Month05/Day11/2026-05-11 15-03-23.md",
     "1 - Projects/Year2026/Quarter2/Month05/Day11",
@@ -426,9 +419,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
-    "Clippings/How to find edge cases before they become expensive issues.md",
-    "Welcome.md",
     "Clippings",
     "3 - Resources/Clippings",
     "1 - Projects/Habit Tracker/Habit Tracker.base",

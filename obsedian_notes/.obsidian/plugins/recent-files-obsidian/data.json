@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Import_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
+    },
+    {
+      "basename": "Imports",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
+    },
+    {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Thinking Nodes",
+      "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
+    },
+    {
+      "basename": "12 - People",
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
+    },
+    {
+      "basename": "Friction points",
+      "path": "4 - Archive/Sparrowgenie/Friction points.md"
     },
     {
       "basename": "3 - Roadmap & Planning",
@@ -11,10 +35,6 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
-      "basename": "12 - People",
-      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
       "basename": "User Personas",
@@ -53,20 +73,12 @@
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md"
     },
     {
-      "basename": "Import_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
-    },
-    {
       "basename": "Habit Tracker",
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
     },
     {
       "basename": "Meetings_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
-    },
-    {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "Product Spec Template 2",
@@ -91,10 +103,6 @@
     {
       "basename": "How to find edge cases before they become expensive issues",
       "path": "Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
-      "basename": "Imports",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -191,14 +199,6 @@
     {
       "basename": "Deals",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
-    },
-    {
-      "basename": "Deal_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
-    },
-    {
-      "basename": "SparrowCRM-Entity-Relationships",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     }
   ],
   "omittedPaths": [],
