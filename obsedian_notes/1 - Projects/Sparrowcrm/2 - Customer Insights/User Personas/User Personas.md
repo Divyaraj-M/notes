@@ -98,6 +98,20 @@ tags:
 
 **Key features they care about (rarely touch directly):** Executive dashboard/reporting, Forecast vs. actual metrics, Pipeline coverage analytics, NRR tracking. They experience the product through the outputs it produces, not through daily use.
 
+## Persona 6: "Neha" — The Platform [[Admin]]
+
+|Field|Detail|
+|---|---|
+|Role|CRM Admin / Platform Administrator / IT Systems Admin|
+|Company Size|Mid-market to Enterprise|
+|Goals|Keep the platform secure, reliable, permissioned, and scalable. Manage users, roles, access, integrations, workspace settings, and compliance requirements without engineering help.|
+|Frustrations|Gets pulled into every access issue, broken integration, permission request, and audit question. Legacy CRMs are overcomplicated, risky to change, and hard to govern. Small config mistakes can break workflows for the entire sales team.|
+|Current Tools|Salesforce Admin, Google Workspace Admin, Okta/Auth 0, Slack Admin, ITSM tools, audit logs, permission spreadsheets|
+|Quote|"I need the CRM to be flexible for RevOps, simple for sales, and locked down enough that I’m not worried about data access or compliance."|
+
+**What SparrowCRM gives them:** Centralized user, role, permission, workspace, and integration management. Clear audit trails. Safe configuration controls. Admin-grade visibility without needing engineering support.
+
+**Key features they touch:** User management, roles & permissions, workspace settings, authentication/SSO, integration settings, audit logs, data access controls, billing/plan settings, security/compliance configuration.
 ---
 
 ## Persona Hierarchy & Buying Dynamics
@@ -118,6 +132,7 @@ Sales Rep (Ramesh) ──── The daily user. Adoption lives or dies here.
 RevOps (Deepa) ──────── The implementer. Configures and maintains.
                          Cares about: data quality, integrations, flexibility
 
+Platform Admin (Neha) ─ Manages users, permissions, security, integrations, governance
 ```
 
 The buying motion is top-down (Arjun champions, Vikram approves budget) but adoption is bottom-up (if Ramesh doesn't use it, the data is still garbage and the product fails). Deepa is the kingmaker — she evaluates the product technically and owns the migration/setup. If she says no, it doesn't happen.

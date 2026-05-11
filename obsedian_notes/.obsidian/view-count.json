@@ -49,7 +49,7 @@
     {
       "path": "Thinking.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 16,
+      "totalTimesOpened": 18,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -98,6 +98,12 @@
         },
         {
           "timestampMillis": 1778492504479
+        },
+        {
+          "timestampMillis": 1778493086596
+        },
+        {
+          "timestampMillis": 1778493088219
         }
       ]
     },
@@ -266,10 +272,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778479798295
+        },
+        {
+          "timestampMillis": 1778493099895
         }
       ]
     },
@@ -388,10 +397,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
+        },
+        {
+          "timestampMillis": 1778493107615
         }
       ]
     },
@@ -535,10 +547,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778492485216
+        },
+        {
+          "timestampMillis": 1778493106784
         }
       ]
     },
@@ -555,20 +570,29 @@
     {
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778492691960
         },
         {
           "timestampMillis": 1778492692122
+        },
+        {
+          "timestampMillis": 1778492960655
+        },
+        {
+          "timestampMillis": 1778492960843
+        },
+        {
+          "timestampMillis": 1778493010391
         }
       ]
     },
     {
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1778492693247
@@ -578,6 +602,118 @@
         },
         {
           "timestampMillis": 1778492722278
+        },
+        {
+          "timestampMillis": 1778492963296
+        },
+        {
+          "timestampMillis": 1778492979864
+        },
+        {
+          "timestampMillis": 1778492984048
+        },
+        {
+          "timestampMillis": 1778492993424
+        },
+        {
+          "timestampMillis": 1778493002686
+        },
+        {
+          "timestampMillis": 1778493005543
+        },
+        {
+          "timestampMillis": 1778493011479
+        },
+        {
+          "timestampMillis": 1778493017555
+        },
+        {
+          "timestampMillis": 1778493023492
+        },
+        {
+          "timestampMillis": 1778493029388
+        },
+        {
+          "timestampMillis": 1778493034004
+        },
+        {
+          "timestampMillis": 1778493055576
+        },
+        {
+          "timestampMillis": 1778493088781
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778492957532
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493002903
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493008795
+        },
+        {
+          "timestampMillis": 1778493015839
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/RevOps.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493021848
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/CEO.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493027723
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493032240
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778493104611
         }
       ]
     }

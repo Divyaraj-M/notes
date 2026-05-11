@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,11 +62,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "User Personas"
+              "title": "5 - Features"
+            }
+          },
+          {
+            "id": "e94ed23da48eb8ee",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -386,14 +396,25 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "30de1cf9e541b077",
+  "active": "e94ed23da48eb8ee",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md",
     "Thinking.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/CEO.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/RevOps.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Year2026/Quarter2/Month05/Day11/2026-05-11 15-03-27.md",
     "1 - Projects/Year2026/Quarter2/Month05/Day11/2026-05-11 15-03-23.md",
@@ -408,22 +429,11 @@
     "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Welcome.md",
-    "finance/Dashboard.md",
-    "3 - Resources/Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings",
     "3 - Resources/Clippings",
-    "3 - Resources/Teardowns/2025-12-12 - Clickup Teardown.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Habit Tracker/Start Here.md",
-    "1 - Projects/Habit Tracker/Side Project Backlog.md",
-    "1 - Projects/Habit Tracker/Priority Analysis.md",
-    "1 - Projects/Habit Tracker/Home Dashboard.md",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
     "1 - Projects/Habit Tracker/Templates",
     "1 - Projects/Habit Tracker",
-    "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Untitled.canvas",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
