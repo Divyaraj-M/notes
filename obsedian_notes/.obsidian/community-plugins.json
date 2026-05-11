@@ -57,5 +57,7 @@
   "dataview",
   "heatmap-calendar",
   "templater-obsidian",
-  "obsidian-chartsview-plugin"
+  "obsidian-chartsview-plugin",
+  "obsidian-tasks-plugin",
+  "periodic-notes"
 ]
