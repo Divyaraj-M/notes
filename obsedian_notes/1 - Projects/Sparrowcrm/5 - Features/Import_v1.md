@@ -16,7 +16,7 @@ You are an expert at writing product requirements documents (PRDs) and feature s
 A well-structured PRD follows this template:
 
 ### 1. Problem Statement
--  
+-  User has a bul
 ## 2. Jobs To Be Done
 
 **Primary job statement:**

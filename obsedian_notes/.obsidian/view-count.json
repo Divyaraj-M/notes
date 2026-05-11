@@ -49,7 +49,7 @@
     {
       "path": "Thinking.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 14,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -92,6 +92,12 @@
         },
         {
           "timestampMillis": 1778492223478
+        },
+        {
+          "timestampMillis": 1778492489398
+        },
+        {
+          "timestampMillis": 1778492504479
         }
       ]
     },
@@ -161,7 +167,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 18,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -216,6 +222,9 @@
         },
         {
           "timestampMillis": 1778491570777
+        },
+        {
+          "timestampMillis": 1778492487500
         }
       ]
     },
@@ -399,7 +408,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -418,6 +427,15 @@
         },
         {
           "timestampMillis": 1778491557025
+        },
+        {
+          "timestampMillis": 1778492497145
+        },
+        {
+          "timestampMillis": 1778492497253
+        },
+        {
+          "timestampMillis": 1778492505093
         }
       ]
     },
@@ -511,6 +529,26 @@
         },
         {
           "timestampMillis": 1778491565094
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778492485216
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778492486282
         }
       ]
     }

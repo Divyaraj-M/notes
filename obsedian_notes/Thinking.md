@@ -61,4 +61,7 @@ Action
 	- Permission sets 
 	- Importing different data types 
 	- Non supported files 
-	- What happens, if 
+	- Template 
+	- Review the changes 
+- What is attio doing ?
+	- 
