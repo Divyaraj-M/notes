@@ -49,8 +49,8 @@ PM career growth is **not** in Phase 1 — it will return in Phase 2 only after 
 
 ## Quick links
 - [[Start Here]] — the rules of Phase 1
-- [[Templates/Daily Template]]
-- [[Templates/Weekly Review Template]]
+- [[Daily Template]]
+- [[Weekly Review Template]]
 - Today's daily note → open via Calendar plugin
 - This week's review → open via Calendar plugin
 

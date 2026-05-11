@@ -78,7 +78,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 10,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -109,6 +109,9 @@
         },
         {
           "timestampMillis": 1778479817601
+        },
+        {
+          "timestampMillis": 1778484026533
         }
       ]
     },
@@ -246,17 +249,20 @@
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/Templates/Weekly Review Template.md",
+      "path": "3 - Resources/Templates/Weekly Review Template.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778483195608
+        },
+        {
+          "timestampMillis": 1778483955243
         }
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/Templates/Daily Template.md",
+      "path": "3 - Resources/Templates/Daily Template.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 2,
       "openLogs": [
@@ -271,7 +277,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Start Here.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778483223102
@@ -281,16 +287,87 @@
         },
         {
           "timestampMillis": 1778483297461
+        },
+        {
+          "timestampMillis": 1778484020346
         }
       ]
     },
     {
       "path": "1 - Projects/Habit Tracker/Home Dashboard.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778483298063
+        },
+        {
+          "timestampMillis": 1778484012907
+        },
+        {
+          "timestampMillis": 1778484013157
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Priority Analysis.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 4,
+      "openLogs": [
+        {
+          "timestampMillis": 1778483930447
+        },
+        {
+          "timestampMillis": 1778483930564
+        },
+        {
+          "timestampMillis": 1778484018483
+        },
+        {
+          "timestampMillis": 1778484018748
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Habit Tracker/Side Project Backlog.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778484019295
+        },
+        {
+          "timestampMillis": 1778484019582
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778484033069
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778484036888
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778484038687
         }
       ]
     }
