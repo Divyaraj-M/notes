@@ -4,9 +4,14 @@
       "dayCounts": {
         "2026-05-09": 25,
         "2026-05-10": 3,
-        "2026-05-11": 0
+        "2026-05-11": 27
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
+          "initial": 79,
+          "current": 106
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",

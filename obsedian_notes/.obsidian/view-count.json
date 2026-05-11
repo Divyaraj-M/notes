@@ -78,7 +78,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -103,6 +103,12 @@
         },
         {
           "timestampMillis": 1778479561605
+        },
+        {
+          "timestampMillis": 1778479797905
+        },
+        {
+          "timestampMillis": 1778479817601
         }
       ]
     },
@@ -132,7 +138,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -172,6 +178,12 @@
         },
         {
           "timestampMillis": 1778479556390
+        },
+        {
+          "timestampMillis": 1778479821205
+        },
+        {
+          "timestampMillis": 1778479821481
         }
       ]
     },
@@ -192,6 +204,29 @@
       "openLogs": [
         {
           "timestampMillis": 1778479538997
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778479585146
+        },
+        {
+          "timestampMillis": 1778479585343
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778479798295
         }
       ]
     }

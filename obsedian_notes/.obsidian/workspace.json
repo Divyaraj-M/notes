@@ -283,7 +283,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -298,7 +298,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "title": "Habit Tracker"
             }
           }
         ],
@@ -479,13 +479,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SparrowDesk"
+              "title": "Outline of Habit Tracker"
             }
           },
           {
@@ -519,7 +519,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -615,11 +615,13 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "2 - Areas/Daily/Routine.md",
     "1 - Projects/Habit Tracker/Untitled.md",
     "1 - Projects/Habit Tracker/Untitled 1.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
     "1 - Projects/Untitled.md",
     "1 - Projects/Habit Tracker",
@@ -642,8 +644,6 @@
     "finance/Data/categories/Entertainment.md",
     "finance/Data/categories/Eat Out.md",
     "finance/Data/categories/Transport.md",
-    "finance/Data/categories/Health.md",
-    "finance/Data/categories/Bills.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
