@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Side Project Backlog",
+      "path": "1 - Projects/Habit Tracker/Side Project Backlog.md"
+    },
+    {
+      "basename": "Start Here",
+      "path": "1 - Projects/Habit Tracker/Start Here.md"
+    },
+    {
+      "basename": "Priority Analysis",
+      "path": "1 - Projects/Habit Tracker/Priority Analysis.md"
+    },
+    {
+      "basename": "Home Dashboard",
+      "path": "1 - Projects/Habit Tracker/Home Dashboard.md"
+    },
+    {
+      "basename": "Habit Tracker",
+      "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
+    },
+    {
+      "basename": "Habit Tracker",
+      "path": "Habit Tracker.base"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     },
@@ -11,10 +39,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Imports",
@@ -85,10 +109,6 @@
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md"
     },
     {
-      "basename": "Habit Tracker",
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
-    },
-    {
       "basename": "Meetings_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
     },
@@ -115,22 +135,6 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Start Here",
-      "path": "1 - Projects/Habit Tracker/Start Here.md"
-    },
-    {
-      "basename": "Side Project Backlog",
-      "path": "1 - Projects/Habit Tracker/Side Project Backlog.md"
-    },
-    {
-      "basename": "Priority Analysis",
-      "path": "1 - Projects/Habit Tracker/Priority Analysis.md"
-    },
-    {
-      "basename": "Home Dashboard",
-      "path": "1 - Projects/Habit Tracker/Home Dashboard.md"
     },
     {
       "basename": "Weekly Review Template",
@@ -195,10 +199,6 @@
     {
       "basename": "Contacts_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
-    },
-    {
-      "basename": "Deals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md"
     }
   ],
   "omittedPaths": [],
