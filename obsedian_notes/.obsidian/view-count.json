@@ -2,11 +2,14 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778305069898
+        },
+        {
+          "timestampMillis": 1778497431545
         }
       ]
     },
@@ -406,7 +409,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -422,19 +425,31 @@
         },
         {
           "timestampMillis": 1778493314371
+        },
+        {
+          "timestampMillis": 1778497422882
+        },
+        {
+          "timestampMillis": 1778497423211
+        },
+        {
+          "timestampMillis": 1778497428043
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778484036888
         },
         {
           "timestampMillis": 1778493383282
+        },
+        {
+          "timestampMillis": 1778497426131
         }
       ]
     },
@@ -519,13 +534,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778491542045
         },
         {
           "timestampMillis": 1778491542567
+        },
+        {
+          "timestampMillis": 1778497434026
         }
       ]
     },
@@ -764,6 +782,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778493282291
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778497432821
         }
       ]
     }

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thinking.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking"
+              "title": "Sparrowdesk_v1"
             }
           },
           {
@@ -388,9 +388,12 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+    "Thinking.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
@@ -398,7 +401,6 @@
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md",
-    "Thinking.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/CEO.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/RevOps.md",
@@ -417,8 +419,6 @@
     "1 - Projects/Year2026",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "Clippings",
     "3 - Resources/Clippings",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
