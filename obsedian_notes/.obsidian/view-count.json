@@ -551,6 +551,35 @@
           "timestampMillis": 1778492486282
         }
       ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778492691960
+        },
+        {
+          "timestampMillis": 1778492692122
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1778492693247
+        },
+        {
+          "timestampMillis": 1778492693402
+        },
+        {
+          "timestampMillis": 1778492722278
+        }
+      ]
     }
   ]
 }

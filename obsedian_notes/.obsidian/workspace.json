@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+                "file": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Import_v1"
+              "title": "User Personas"
             }
           }
         ],
@@ -130,8 +130,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -389,8 +388,9 @@
   },
   "active": "30de1cf9e541b077",
   "lastOpenFiles": [
-    "Thinking.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "Thinking.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -420,7 +420,6 @@
     "1 - Projects/Habit Tracker/Side Project Backlog.md",
     "1 - Projects/Habit Tracker/Priority Analysis.md",
     "1 - Projects/Habit Tracker/Home Dashboard.md",
-    "3 - Resources/Templates/Weekly Review Template.md",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
     "1 - Projects/Habit Tracker/Templates",
     "1 - Projects/Habit Tracker",

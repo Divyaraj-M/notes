@@ -15,16 +15,16 @@ tags:
 
 ---
 
-## Persona 1: "Ramesh" — The Frontline Sales Rep
+## Persona 1: "Ramesh" — The Frontline [[Sales Rep]]
 
-| Field | Detail |
-|-------|--------|
-| Role  | Account Executive / SDR |
-| Company Size | Mid-market to Enterprise (50–500 employees, 20–200 rep sales team) |
-| Goals | Close more deals. Spend time selling, not typing. Walk into every meeting prepared. Know which leads to prioritize without asking the manager. |
-| Frustrations | Spends 60%+ of the day on non-selling tasks. Hates logging calls — by the time they open the CRM, half the details are forgotten. Mandatory fields feel like busywork. Pipeline views are stale because nobody updates them in real time. Gets pinged by managers asking "did you update the CRM?" multiple times a week. Previous CRM (HubSpot/Salesforce) felt like a system built for management reporting, not for helping reps sell. |
-| Current Tools | Salesforce or HubSpot (grudgingly), Zoom, Google Calendar, Slack, Gmail, LinkedIn Sales Navigator, personal spreadsheet or Notion doc for deal tracking "because the CRM is never up to date" |
-| Quote | "I know my deals better than any dashboard. The CRM just slows me down — it's a tax on my time, not a tool that helps me close." |
+| Field         | Detail                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Role          | Account Executive / SDR                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Company Size  | Mid-market to Enterprise (50–500 employees, 20–200 rep sales team)                                                                                                                                                                                                                                                                                                                                                                        |
+| Goals         | Close more deals. Spend time selling, not typing. Walk into every meeting prepared. Know which leads to prioritize without asking the manager.                                                                                                                                                                                                                                                                                            |
+| Frustrations  | Spends 60%+ of the day on non-selling tasks. Hates logging calls — by the time they open the CRM, half the details are forgotten. Mandatory fields feel like busywork. Pipeline views are stale because nobody updates them in real time. Gets pinged by managers asking "did you update the CRM?" multiple times a week. Previous CRM (HubSpot/Salesforce) felt like a system built for management reporting, not for helping reps sell. |
+| Current Tools | Salesforce or HubSpot (grudgingly), Zoom, Google Calendar, Slack, Gmail, LinkedIn Sales Navigator, personal spreadsheet or Notion doc for deal tracking "because the CRM is never up to date"                                                                                                                                                                                                                                             |
+| Quote         | "I know my deals better than any dashboard. The CRM just slows me down — it's a tax on my time, not a tool that helps me close."                                                                                                                                                                                                                                                                                                          |
 
 **What SparrowCRM gives them:** Zero data entry — calls, emails, and meetings auto-captured. AI summary before every meeting. Lead/Fit/Engagement scores tell them who to call next. The CRM gives back more than it takes.
 
@@ -32,7 +32,7 @@ tags:
 
 ---
 
-## Persona 2: "Priya" — The Sales Manager
+## Persona 2: "Priya" — The [[Sales Manager]]
 
 | Field | Detail |
 |-------|--------|
@@ -49,7 +49,7 @@ tags:
 
 ---
 
-## Persona 3: "Arjun" — The VP / Director of Sales (The Buyer)
+## Persona 3: "Arjun" — The VP / [[Director of Sales]] (The Buyer)
 
 | Field | Detail |
 |-------|--------|
@@ -66,7 +66,7 @@ tags:
 
 ---
 
-## Persona 4: "Deepa" — The RevOps / Sales Ops Lead (The Implementer)
+## Persona 4: "Deepa" — The [[RevOps]] / Sales Ops Lead (The Implementer)
 
 | Field | Detail |
 |-------|--------|
@@ -83,7 +83,7 @@ tags:
 
 ---
 
-## Persona 5: "Vikram" — The CEO / CRO (The Executive Sponsor)
+## Persona 5: "Vikram" — The [[CEO]] / CRO (The Executive Sponsor)
 
 | Field | Detail |
 |-------|--------|
@@ -117,6 +117,7 @@ Sales Rep (Ramesh) ──── The daily user. Adoption lives or dies here.
   │
 RevOps (Deepa) ──────── The implementer. Configures and maintains.
                          Cares about: data quality, integrations, flexibility
+
 ```
 
 The buying motion is top-down (Arjun champions, Vikram approves budget) but adoption is bottom-up (if Ramesh doesn't use it, the data is still garbage and the product fails). Deepa is the kingmaker — she evaluates the product technically and owns the migration/setup. If she says no, it doesn't happen.

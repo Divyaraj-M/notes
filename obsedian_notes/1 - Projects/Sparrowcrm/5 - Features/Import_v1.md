@@ -16,7 +16,7 @@ You are an expert at writing product requirements documents (PRDs) and feature s
 A well-structured PRD follows this template:
 
 ### 1. Problem Statement
--  User has a bul
+-  Users often collect leads and company data in bulk from event registrations, forms, webinars, partner lists, or external spreadsheets. Today, there is no easy way to upload this data into SparrowCRM in one go. Users have to manually create contacts and companies one by one, which is slow, repetitive, and creates unnecessary friction. This delays follow-up, reduces CRM adoption, and makes it harder for teams to keep their CRM updated with real-world lead sources.
 ## 2. Jobs To Be Done
 
 **Primary job statement:**
