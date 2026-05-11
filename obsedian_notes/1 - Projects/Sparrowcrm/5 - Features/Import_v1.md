@@ -19,23 +19,7 @@ A well-structured PRD follows this template:
 -  Users often collect leads and company data in bulk from event registrations, forms, webinars, partner lists, or external spreadsheets. Today, there is no easy way to upload this data into SparrowCRM in one go. Users have to manually create contacts and companies one by one, which is slow, repetitive, and creates unnecessary friction. This delays follow-up, reduces CRM adoption, and makes it harder for teams to keep their CRM updated with real-world lead sources.
 ## 2. Jobs To Be Done
 
-**Primary job statement:**
-
-> When [situation], I want to [motivation], so I can [desired outcome].
-
-**Functional dimension:** [The concrete task the user is trying to accomplish.]
-
-**Emotional dimension:** [How the user wants to feel — confident, in control, unblocked, trusted.]
-
-**Social dimension:** [How they want to be perceived by their team, boss, customers — competent, responsive, on top of things.]
-
-**Hiring criteria** — Why a user would "hire" this feature:
-
-- [What pulls them toward it over their current workaround.]
-
-**Firing criteria** — Why they'd stop using it or switch:
-
-- [What would make them give up on it. Useful for stress-testing the design.]
+- As a [[Sales Rep]] I need to upload the the 
 
 ### 3. Goals
 - 3-5 specific, measurable outcomes this feature should achieve

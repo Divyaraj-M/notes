@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Thinking",
+      "path": "Thinking.md"
+    },
+    {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "User Personas",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md"
-    },
-    {
-      "basename": "Thinking",
-      "path": "Thinking.md"
     },
     {
       "basename": "Admin",

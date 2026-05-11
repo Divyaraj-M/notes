@@ -4,7 +4,7 @@
       "dayCounts": {
         "2026-05-09": 25,
         "2026-05-10": 3,
-        "2026-05-11": 273
+        "2026-05-11": 233
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
@@ -21,7 +21,7 @@
         },
         "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md": {
           "initial": 1406,
-          "current": 1446
+          "current": 1357
         },
         "Thinking.md": {
           "initial": 596,
