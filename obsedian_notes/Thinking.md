@@ -56,3 +56,9 @@ Action
 	- Templates - Just have the templates and creat with ai 
 - Start with blank 
 	- Templates 
+[[Import_v1]]
+- Should be thught through 
+	- Permission sets 
+	- Importin different data types 
+	- Non supported files 
+	- 

@@ -80,160 +80,6 @@
             }
           },
           {
-            "id": "9c0874b504367a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sparrowdesk_v1"
-            }
-          },
-          {
-            "id": "d3eecc446095077e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Feature Template"
-            }
-          },
-          {
-            "id": "b66561e3209b8af6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Companies_v1"
-            }
-          },
-          {
-            "id": "9fc2fb970f81bc34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Import_v1"
-            }
-          },
-          {
-            "id": "b4dd4d119305d49b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Habit Tracker/README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "7a8b4c5fa332834c",
-            "type": "leaf",
-            "state": {
-              "type": "smart-release-notes-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "Release Notes"
-            }
-          },
-          {
-            "id": "57f293fad0b1d5f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Spec Template 2"
-            }
-          },
-          {
             "id": "17b9d410ab089f26",
             "type": "leaf",
             "state": {
@@ -268,16 +114,6 @@
             }
           },
           {
-            "id": "48c4933b0f887db5",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "dashboard-view"
-            }
-          },
-          {
             "id": "7f017439291fb2e7",
             "type": "leaf",
             "state": {
@@ -302,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -607,7 +443,6 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "banyan:Open dashboard": false,
       "banyan:Add card note": false,
-      "banyan:Random open a note - Random review": false,
       "canvas:Create new canvas": false,
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "yourpulse:Open YourPulse Profile": false
@@ -615,14 +450,19 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
-    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
+    "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "Thinking.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Welcome.md",
     "finance/Dashboard.md",
     "3 - Resources/Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings",
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "3 - Resources/Clippings",
     "3 - Resources/Teardowns/2025-12-12 - Clickup Teardown.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
@@ -634,18 +474,13 @@
     "1 - Projects/Habit Tracker/Home Dashboard.md",
     "3 - Resources/Templates/Weekly Review Template.md",
     "1 - Projects/Habit Tracker/IITM.md",
-    "1 - Projects/Habit Tracker/Habit Tracker.md",
     "1 - Projects/Habit Tracker/Habit Tracker.base",
     "3 - Resources/Templates/Daily Template.md",
     "1 - Projects/Habit Tracker/Templates",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "2 - Areas/Daily/Routine.md",
-    "1 - Projects/Habit Tracker/Untitled 1.md",
-    "1 - Projects/Untitled.md",
     "1 - Projects/Habit Tracker",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Habit Tracker/_assets/habit-tracker.css",
     "finance/Data/accounts",
     "finance/Data/archive",

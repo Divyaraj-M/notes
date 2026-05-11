@@ -49,7 +49,7 @@
     {
       "path": "Thinking.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -68,6 +68,18 @@
         },
         {
           "timestampMillis": 1778487068577
+        },
+        {
+          "timestampMillis": 1778491562117
+        },
+        {
+          "timestampMillis": 1778491583901
+        },
+        {
+          "timestampMillis": 1778491590330
+        },
+        {
+          "timestampMillis": 1778491660491
         }
       ]
     },
@@ -137,7 +149,7 @@
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 17,
+      "totalTimesOpened": 18,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -189,6 +201,9 @@
         },
         {
           "timestampMillis": 1778483295572
+        },
+        {
+          "timestampMillis": 1778491570777
         }
       ]
     },
@@ -360,7 +375,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -373,6 +388,12 @@
         },
         {
           "timestampMillis": 1778485013841
+        },
+        {
+          "timestampMillis": 1778491556765
+        },
+        {
+          "timestampMillis": 1778491557025
         }
       ]
     },
@@ -414,6 +435,58 @@
       "openLogs": [
         {
           "timestampMillis": 1778487066177
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778491542045
+        },
+        {
+          "timestampMillis": 1778491542567
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778491554295
+        },
+        {
+          "timestampMillis": 1778491554549
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778491555528
+        },
+        {
+          "timestampMillis": 1778491555844
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Product Spec Template 2.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778491564809
+        },
+        {
+          "timestampMillis": 1778491565094
         }
       ]
     }
