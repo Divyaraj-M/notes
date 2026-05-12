@@ -8,7 +8,12 @@
         "2026-05-12": 0,
         "2026-05-13": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Habit Tracker/Side Project Backlog.md": {
+          "initial": 395,
+          "current": 395
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",

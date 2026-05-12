@@ -19,7 +19,7 @@ Activates earliest on **May 25** (Phase 1 checkpoint) and only if:
 ## Gating questions (answer before activation)
 
 ### 1. Do I actually have an app idea?
-- [ ] Yes — specific problem, specific user, specific scope
+- [x] Yes — specific problem, specific user, specific scope ✅ 2026-05-13
 - [ ] No — this is aspirational, the first phase will be idea search
 
 *If "no", the first 4–8 weekends are problem-finding, not coding. Be OK with that.*

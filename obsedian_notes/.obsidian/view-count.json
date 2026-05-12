@@ -115,8 +115,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 11,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -150,6 +150,9 @@
         },
         {
           "timestampMillis": 1778484026533
+        },
+        {
+          "timestampMillis": 1778612589974
         }
       ]
     },
@@ -416,8 +419,8 @@
     },
     {
       "path": "1 - Projects/Habit Tracker/Side Project Backlog.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778484019295
@@ -433,6 +436,12 @@
         },
         {
           "timestampMillis": 1778570686639
+        },
+        {
+          "timestampMillis": 1778612449305
+        },
+        {
+          "timestampMillis": 1778612458778
         }
       ]
     },
@@ -838,6 +847,19 @@
       "openLogs": [
         {
           "timestampMillis": 1778518047041
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778612473470
+        },
+        {
+          "timestampMillis": 1778612600967
         }
       ]
     }
