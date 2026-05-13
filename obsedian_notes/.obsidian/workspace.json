@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+                "file": "1 - Projects/Second Stream Revenue/Youtube Scripts/Youtube Scripts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Import_v1"
+              "title": "Youtube Scripts"
             }
           }
         ],
@@ -412,12 +412,12 @@
   },
   "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "Thinking.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "Thinking.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
