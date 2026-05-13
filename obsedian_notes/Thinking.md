@@ -63,5 +63,201 @@ Action
 	- Non supported files 
 	- Template 
 	- Review the changes 
-- What is attio doing ?
-	- 
+- What is attio doing 
+# SparrowCRM — Review Values Error Matrix (V1)
+
+## Text
+
+| Scenario                   | Error Message                             | User Action               | Needs Dropdown? |
+| -------------------------- | ----------------------------------------- | ------------------------- | --------------- |
+| ~~Too long~~               | ~~Text exceeds the maximum length.~~      | ~~Truncate or edit text~~ | ~~No~~          |
+| ~~Invalid characters~~     | ~~Text contains unsupported characters.~~ | ~~Remove characters~~     | ~~No~~          |
+| ~~Formula value detected~~ | ~~Formula values are not supported.~~     | ~~Convert to plain text~~ | ~~No~~          |
+| Empty required text        | This field is required.                   | Add value                 | No              |
+
+---
+
+## Email
+
+| Scenario                  | Error Message                                    | User Action                      | Needs Dropdown? |
+| ------------------------- | ------------------------------------------------ | -------------------------------- | --------------- |
+| Invalid email format      | Enter a valid email address.                     | Edit value                       | Yes             |
+| Multiple emails detected  | Multiple email addresses detected.               | Split emails automatically       | No              |
+| Wrong separator           | Use commas to separate multiple email addresses. | Replace separator                | No              |
+| Duplicate email in file   | This email appears multiple times in the file.   | Keep latest or review duplicates | Yes             |
+| One invalid email in list | One or more email addresses are invalid.         | Remove invalid email             | Yes             |
+| Empty required email      | Email address is required.                       | Add email                        | No              |
+
+---
+
+## Phone
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid phone number|Enter a valid phone number.|Edit value|No|
+|Too short|Phone number is too short.|Edit value|No|
+|Invalid characters|Phone number contains invalid characters.|Remove invalid characters|No|
+|Wrong separator|Use commas to separate multiple phone numbers.|Replace separator|No|
+|Missing country code|Add a country code or select a default country.|Add country code|Yes|
+
+---
+
+## Date
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid date|Enter a valid date.|Edit date|No|
+|Wrong format|Date does not match the selected format.|Change format or edit|Yes|
+|Impossible date|This date does not exist.|Edit date|No|
+|Ambiguous date|This date format is ambiguous.|Select date format|Yes|
+|Future date not allowed|Date cannot be in the future.|Edit date|No|
+
+---
+
+## Number
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid number|Enter a valid number.|Edit value|No|
+|Too many decimals|Too many decimal places.|Round or edit value|No|
+|Negative value not allowed|Negative values are not allowed.|Edit value|No|
+|Wrong decimal separator|Check the decimal separator format.|Select decimal format|Yes|
+
+---
+
+## Currency
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid currency value|Enter a valid currency amount.|Edit value|No|
+|Mixed currencies|Multiple currencies detected in this column.|Normalize currency|Yes|
+|Unsupported currency|Currency is not supported.|Change currency|Yes|
+
+---
+
+## Select
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Option not found|This option does not exist.|Map or add option|Yes|
+|Archived option|This option is archived.|Select another option|Yes|
+|Typo detected|No matching option found.|Map to existing option|Yes|
+|Duplicate option|This option already exists.|Use existing option|Yes|
+
+---
+
+## Multi-select
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid option|One or more options do not exist.|Map or add invalid options|Yes|
+|Wrong separator|Use commas to separate values.|Replace separator|No|
+|Too many values|Too many values selected.|Remove extra values|No|
+|Duplicate values|Duplicate values will be ignored.|Remove duplicates|No|
+
+---
+
+## Yes/No
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid boolean value|Use Yes/No, True/False, or 1/0.|Map value|Yes|
+|Unknown value|This value cannot be recognized as Yes or No.|Map value|Yes|
+|Empty required value|A value is required.|Select value|Yes|
+
+---
+
+## URL
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid URL|Enter a valid URL.|Edit URL|No|
+|Invalid LinkedIn URL|Enter a valid LinkedIn URL.|Edit URL|No|
+|Missing protocol|URL is incomplete.|Auto-add https://|Yes|
+
+---
+
+## Domain
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid domain|Enter a valid company domain.|Edit domain|No|
+|Email instead of domain|Use a domain instead of an email address.|Extract domain|Yes|
+|Website URL entered|Only the domain is needed.|Auto-clean URL|Yes|
+|Public email domain|Public email domains cannot be used for company matching.|Skip company matching|Yes|
+
+---
+
+## User
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|User not found|No matching workspace user found.|Select another user|Yes|
+|Multiple users match|Multiple users match this value.|Choose correct user|Yes|
+|Inactive user|This user is inactive.|Select active user|Yes|
+
+---
+
+## Status
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid status|This status does not exist.|Select valid status|Yes|
+|Archived status|This status is archived.|Select another status|Yes|
+
+---
+
+## Pipeline Stage
+
+| Scenario              | Error Message                                        | User Action          | Needs Dropdown? |
+| --------------------- | ---------------------------------------------------- | -------------------- | --------------- |
+| Stage not found       | This stage does not exist.                           | Map stage            | Yes             |
+| Stage not in pipeline | This stage does not belong to the selected pipeline. | Select valid stage   | Yes             |
+| Archived stage        | This stage is archived.                              | Select another stage | Yes             |
+
+---
+
+## Relationship
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Record not found|No matching record found.|Select or create record|Yes|
+|Multiple matches|Multiple matching records found.|Choose record|Yes|
+|Duplicate association|This relationship already exists.|Ignore duplicate|No|
+
+---
+
+## Rating
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid rating|Enter a valid rating.|Edit value|No|
+|Rating out of range|Rating is outside the allowed range.|Edit value|No|
+
+---
+
+## Timestamp
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid timestamp|Enter a valid date and time.|Edit value|No|
+|Unsupported timezone|Timezone is not supported.|Change timezone|Yes|
+
+---
+
+## Location
+
+|Scenario|Error Message|User Action|Needs Dropdown?|
+|---|---|---|---|
+|Invalid location|Enter a valid location.|Edit location|No|
+|Unknown country|Country could not be recognized.|Select country|Yes|
+
+---
+
+## Blank Values
+
+| Scenario             | Error Message                          | User Action        | Needs Dropdown? |
+| -------------------- | -------------------------------------- | ------------------ | --------------- |
+| Blank optional field | Empty values will be skipped.          | Continue import    | No              |
+| Blank required field | This field is required.                | Add value          | No              |
+| Entire row blank     | This row is empty and will be skipped. | Remove or skip row | No              |

@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/What product managers do at PostHog - Handbook.md",
+                "file": "Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What product managers do at PostHog - Handbook"
+              "title": "Thinking"
             }
           }
         ],
@@ -410,22 +410,23 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "3 - Resources/PM Prompts Library/storytelling/README.md",
     "code-generate-scenes.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "Habit Tracker.base",
     "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md",
     "Untitled.canvas",
     "1 - Projects/Year2026/Quarter2/Month05/Day13",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
@@ -445,7 +446,6 @@
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Budgets/Budgets.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Budgets",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories/Categories_v1.md",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories/Categories.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features",

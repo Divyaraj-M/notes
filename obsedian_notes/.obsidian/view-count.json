@@ -51,8 +51,8 @@
     },
     {
       "path": "Thinking.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 19,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1778344992115
@@ -110,13 +110,16 @@
         },
         {
           "timestampMillis": 1778493621294
+        },
+        {
+          "timestampMillis": 1778664786751
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 14,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -159,6 +162,9 @@
         },
         {
           "timestampMillis": 1778655027704
+        },
+        {
+          "timestampMillis": 1778664761269
         }
       ]
     },
@@ -274,7 +280,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -308,13 +314,16 @@
         },
         {
           "timestampMillis": 1778655029792
+        },
+        {
+          "timestampMillis": 1778664764111
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778484036888
@@ -324,13 +333,16 @@
         },
         {
           "timestampMillis": 1778497426131
+        },
+        {
+          "timestampMillis": 1778664766426
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -370,6 +382,9 @@
         },
         {
           "timestampMillis": 1778657629439
+        },
+        {
+          "timestampMillis": 1778664768206
         }
       ]
     },
