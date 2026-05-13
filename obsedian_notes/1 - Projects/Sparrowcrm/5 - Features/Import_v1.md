@@ -35,15 +35,18 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - [ ] Import files that contain both contact and company columns in a single upload.
 - [ ] Detect and update duplicate records using unique identifiers instead of creating duplicates.
 - [ ] See exactly which rows failed and why, download failed rows, fix, and re-import.
-- [ ] 
+#### Import Management
 
+- [ ] Start import from Object table view, List page, or Settings → Imports
+- [ ] Resume draft imports
+- [ ] View import history with status, counts, and user info
+- [ ] Download error reports
+- [ ] Undo completed imports
+- [ ] Cancel in-progress imports
 ### [[Admin]]
 
 - [ ] Control which roles have import permission for specific objects.
-
-
-
-### Manager
+### [[Sales Manager]]
 
 - [ ] Same as Rep. No special import capabilities unless given permission.
 
@@ -59,15 +62,6 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - Support multi-object imports (Contacts + Companies + Deals) in a single file.
 - Provide an Import API for developer automation.
 
-### Success Metrics
-
-- Import wizard completion rate above 80% within 60 days.
-- Auto-mapping accuracy above 70% within 30 days.
-- Average time to complete (under 1K rows) under 5 minutes within 30 days.
-- Import error rate (failed rows / total) under 5% within 60 days.
-- Support tickets about import under 2% of total volume within 60 days.
-- API import adoption: 10+ workspaces within 90 days.
-
 ---
 
 ## 4. Non-Goals
@@ -78,8 +72,6 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - We are not building saved mapping templates. V2.
 - We are not building undo for updated records. Requires field-level change tracking. V2.
 - We are not building AI-assisted mapping for non-English headers. V2.
-- We are not building duplicate merge during import. V2.
-- We are not building same-object associations (contact-to-contact). V2.
 
 ---
 
