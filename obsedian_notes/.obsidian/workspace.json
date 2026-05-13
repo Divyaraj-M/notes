@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expense tracker"
+              "title": "5 - Features"
             }
           },
           {
@@ -388,12 +388,13 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
-    "1 - Projects/Habit Tracker/Habit Tracker.md",
-    "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
+    "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
+    "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md",
+    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Imports/Imports_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Imports/Imports.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Imports",
@@ -423,7 +424,6 @@
     "1 - Projects/Habit Tracker/Priority Analysis.md",
     "1 - Projects/Habit Tracker/Home Dashboard.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Untitled.canvas",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

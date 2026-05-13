@@ -10,7 +10,7 @@ tags:
 
 1. [[1 - Projects/Second Stream Revenue/Expense tracker/1 - Vision & Strategy/Product Vision|Product Vision]]
 2. [[1 - Projects/Second Stream Revenue/Expense tracker/1 - Vision & Strategy/Product Strategy|Product Strategy]]
-3. [[5 - Features|Features]]
+3. [[1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features|Features]]
 4. [[2 - Customer Insights|Customer Insights]]
 5. [[11 - Help Articles|Help Articles]]
 6. [[3 - Roadmap & Planning|Roadmap]]

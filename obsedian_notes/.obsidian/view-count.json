@@ -116,7 +116,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -156,6 +156,9 @@
         },
         {
           "timestampMillis": 1778652006468
+        },
+        {
+          "timestampMillis": 1778655027704
         }
       ]
     },
@@ -264,8 +267,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -296,6 +299,9 @@
         },
         {
           "timestampMillis": 1778518034041
+        },
+        {
+          "timestampMillis": 1778655029792
         }
       ]
     },
@@ -450,14 +456,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778492485216
         },
         {
           "timestampMillis": 1778493106784
+        },
+        {
+          "timestampMillis": 1778655026050
         }
       ]
     },
@@ -670,7 +679,7 @@
     {
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778612473470
@@ -692,6 +701,12 @@
         },
         {
           "timestampMillis": 1778652512335
+        },
+        {
+          "timestampMillis": 1778654956818
+        },
+        {
+          "timestampMillis": 1778655001990
         }
       ]
     },
@@ -708,10 +723,13 @@
     {
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778652488729
+        },
+        {
+          "timestampMillis": 1778655013603
         }
       ]
     },
