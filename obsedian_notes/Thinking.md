@@ -76,14 +76,14 @@ Action
 
 ## Email
 
-| Scenario                  | Error Message                                  | User Action                      | Needs Dropdown? |
-| ------------------------- | ---------------------------------------------- | -------------------------------- | --------------- |
-| Invalid email format      | Invalid email                                  | Edit value                       | Yes             |
-| Multiple emails detected  | Multiple email addresses detected.             | Split emails automatically       | Yes             |
-| Wrong separator           | Invalid email                                  | Replace separator                | Yes             |
-| Duplicate email in file   | This email appears multiple times in the file. | Keep latest or review duplicates | Yes             |
-| One invalid email in list | Invalid email                                  | Remove invalid email             | Yes             |
-| Empty required email      | Invalid email                                  | Add email                        | Yes             |
+| Scenario                  | Error Message                      | User Action                | Needs Dropdown? |
+| ------------------------- | ---------------------------------- | -------------------------- | --------------- |
+| Invalid email format      | Invalid email                      | Edit value                 | Yes             |
+| Multiple emails detected  | Multiple email addresses detected. | Split emails automatically | Yes             |
+| Wrong separator           | Invalid email                      | Replace separator          | Yes             |
+| Duplicate email in file   | -                                  | Keep latest                | Yes             |
+| One invalid email in list | Invalid email                      | Remove invalid email       | Yes             |
+| Empty required email      | Invalid email                      | Add email                  | Yes             |
 
 ---
 
@@ -104,12 +104,12 @@ Action
 
 ## Date
 
-| Scenario        | Error Message                  | User Action           | Needs Dropdown? |
-| --------------- | ------------------------------ | --------------------- | --------------- |
-| Invalid date    | Invalid date                   | Edit date             | Date picker     |
-| Wrong format    | Invalid date                   | Change format or edit | Date picker     |
-| Impossible date | Invalid date                   | Edit date             | Date picker     |
-| Ambiguous date  | This date format is ambiguous. | Select date format    | Date picker     |
+| Scenario        | Error Message | User Action           | Needs Dropdown? |
+| --------------- | ------------- | --------------------- | --------------- |
+| Invalid date    | Invalid date  | Edit date             | Date picker     |
+| Wrong format    | Invalid date  | Change format or edit | Date picker     |
+| Impossible date | Invalid date  | Edit date             | Date picker     |
+| Ambiguous date  | Invalid date  | Select date format    | Date picker     |
 
 
 ---
@@ -128,114 +128,115 @@ Action
 
 ## Currency
 
-| Scenario               | Error Message                                | User Action        | Needs Dropdown? |
-| ---------------------- | -------------------------------------------- | ------------------ | --------------- |
-| Invalid currency value | Enter a valid currency amount.               | Edit value         | No              |
-| Mixed currencies       | Multiple currencies detected in this column. | Normalize currency | Yes             |
-| Unsupported currency   | Currency is not supported.                   | Change currency    | Yes             |
-|                        |                                              |                    |                 |
+| Scenario               | Error Message    | User Action        | Needs Dropdown? |
+| ---------------------- | ---------------- | ------------------ | --------------- |
+| Invalid currency value | Invalid Currency | Edit value         | No              |
+| Mixed currencies       | Invalid Currency | Normalize currency | Yes             |
+| Unsupported currency   | Invalid Currency | Change currency    | Yes             |
+|                        |                  |                    |                 |
 
 
 ---
 
 ## Select
 
-| Scenario         | Error Message               | User Action            | Needs Dropdown? |
-| ---------------- | --------------------------- | ---------------------- | --------------- |
-| Option not found | This option does not exist. | Map or add option      | Yes             |
-| Archived option  | This option is archived.    | Select another option  | Yes             |
-| Typo detected    | No matching option found.   | Map to existing option | Yes             |
-| Duplicate option | This option already exists. | Use existing option    | Yes             |
+| Scenario         | Error Message    | User Action            | Needs Dropdown? |
+| ---------------- | ---------------- | ---------------------- | --------------- |
+| Option not found | Option not exist | Map or add option      | Yes             |
+| Archived option  | Option not exist | Select another option  | Yes             |
+| Typo detected    | Option not exist | Map to existing option | Yes             |
+| Duplicate option | Option not exist | Use existing option    | Yes             |
 
 ---
 
 ## Multi-select
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid option|One or more options do not exist.|Map or add invalid options|Yes|
-|Wrong separator|Use commas to separate values.|Replace separator|No|
-|Too many values|Too many values selected.|Remove extra values|No|
-|Duplicate values|Duplicate values will be ignored.|Remove duplicates|No|
+| Scenario         | Error Message    | User Action                | Needs Dropdown? |
+| ---------------- | ---------------- | -------------------------- | --------------- |
+| Invalid option   | Option not exist | Map or add invalid options | Yes             |
+| Wrong separator  | Option not exist | Replace separator          | No              |
+| Too many values  | Option not exist | Remove extra values        | No              |
+| Duplicate values | Option not exist | Remove duplicates          | No              |
 
 ---
 
 ## Yes/No
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid boolean value|Use Yes/No, True/False, or 1/0.|Map value|Yes|
-|Unknown value|This value cannot be recognized as Yes or No.|Map value|Yes|
-|Empty required value|A value is required.|Select value|Yes|
+| Scenario              | Error Message        | User Action  | Needs Dropdown? |
+| --------------------- | -------------------- | ------------ | --------------- |
+| Invalid boolean value | Option not exist     | Map value    | Yes             |
+| Unknown value         | Option not exist     | Map value    | Yes             |
+| Empty required value  | A value is required. | Select value | Yes             |
 
 ---
 
 ## URL
 
-| Scenario             | Error Message               | User Action       | Needs Dropdown? |
-| -------------------- | --------------------------- | ----------------- | --------------- |
-| Invalid URL          | Enter a valid URL.          | Edit URL          | No              |
-| Invalid LinkedIn URL | Enter a valid LinkedIn URL. | Edit URL          | No              |
+| Scenario             | Error Message               | User Action | Needs Dropdown? |
+| -------------------- | --------------------------- | ----------- | --------------- |
+| Invalid URL          | Enter a valid URL.          | Edit URL    | No              |
+| Invalid LinkedIn URL | Enter a valid LinkedIn URL. | Edit URL    | No              |
+| Invalid twitter URL  | Enter a valid twitter URL.  | Edit URL    | No              |
 
 
 ---
 
 ## Domain
 
-| Scenario                | Error Message                                             | User Action           | Needs Dropdown? |
-| ----------------------- | --------------------------------------------------------- | --------------------- | --------------- |
-| Invalid domain          | Enter a valid company domain.                             | Edit domain           | Yes             |
-| Email instead of domain | Use a domain instead of an email address.                 | Extract domain        | Yes             |
-| Website URL entered     | Only the domain is needed.                                | Auto-clean URL        | Yes             |
-| Public email domain     | Public email domains cannot be used for company matching. | Skip company matching | Yes             |
+| Scenario                | Error Message  | User Action           | Needs Dropdown? |
+| ----------------------- | -------------- | --------------------- | --------------- |
+| Invalid domain          | Invalid domain | Edit domain           | Yes             |
+| Email instead of domain | Invalid domain | Extract domain        | Yes             |
+| Website URL entered     | Invalid domain | Auto-clean URL        | Yes             |
+| Public email domain     | Invalid domain | Skip company matching | Yes             |
 
 ---
 
 ## User
 
-| Scenario             | Error Message                     | User Action         | Needs Dropdown? |
-| -------------------- | --------------------------------- | ------------------- | --------------- |
-| User not found       | No matching workspace user found. | Select another user | Yes             |
-| Multiple users match | Multiple users match this value.  | Choose correct user | Yes             |
-| Inactive user        | This user is inactive.            | Select active user  | Yes             |
+| Scenario             | Error Message | User Action         | Needs Dropdown? |
+| -------------------- | ------------- | ------------------- | --------------- |
+| User not found       | Invalid user  | Select another user | Yes             |
+| Multiple users match | Invalid user  | Choose correct user | Yes             |
+| Inactive user        | Invalid user  | Select active user  | Yes             |
 
 ---
 
 ## Status
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid status|This status does not exist.|Select valid status|Yes|
-|Archived status|This status is archived.|Select another status|Yes|
+| Scenario        | Error Message    | User Action           | Needs Dropdown? |
+| --------------- | ---------------- | --------------------- | --------------- |
+| Invalid status  | Option not exist | Select valid status   | Yes             |
+
 
 ---
 
 ## Pipeline Stage
 
-| Scenario              | Error Message                                        | User Action          | Needs Dropdown? |
-| --------------------- | ---------------------------------------------------- | -------------------- | --------------- |
-| Stage not found       | This stage does not exist.                           | Map stage            | Yes             |
-| Stage not in pipeline | This stage does not belong to the selected pipeline. | Select valid stage   | Yes             |
-| Archived stage        | This stage is archived.                              | Select another stage | Yes             |
+| Scenario              | Error Message    | User Action        | Needs Dropdown? |
+| --------------------- | ---------------- | ------------------ | --------------- |
+| Stage not found       | Option not exist | Map stage          | Yes             |
+
+
 
 ---
 
 ## Relationship
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Record not found|No matching record found.|Select or create record|Yes|
-|Multiple matches|Multiple matching records found.|Choose record|Yes|
-|Duplicate association|This relationship already exists.|Ignore duplicate|No|
+| Scenario              | Error Message                     | User Action             | Needs Dropdown? |
+| --------------------- | --------------------------------- | ----------------------- | --------------- |
+| Record not found      | No matching record found.         | Select or create record | Yes             |
+| Multiple matches      | Multiple matching records found.  | Choose record           | Yes             |
+| Duplicate association | This relationship already exists. | Ignore duplicate        | No              |
 
 ---
 
 ## Rating
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid rating|Enter a valid rating.|Edit value|No|
-|Rating out of range|Rating is outside the allowed range.|Edit value|No|
+| Scenario            | Error Message         | User Action | Needs Dropdown? |
+| ------------------- | --------------------- | ----------- | --------------- |
+| Invalid rating      | Enter a valid rating. | Edit value  | No              |
+| Rating out of range | Option not exist      | Edit value  | No              |
 
 ---
 
@@ -251,10 +252,10 @@ Action
 
 ## Location
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid location|Enter a valid location.|Edit location|No|
-|Unknown country|Country could not be recognized.|Select country|Yes|
+| Scenario         | Error Message                    | User Action    | Needs Dropdown? |
+| ---------------- | -------------------------------- | -------------- | --------------- |
+| Invalid location | Enter a valid location.          | Edit location  | No              |
+| Unknown country  | Country could not be recognized. | Select country | Yes             |
 
 ---
 
