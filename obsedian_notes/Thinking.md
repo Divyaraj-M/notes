@@ -82,35 +82,38 @@ Action
 | Scenario                  | Error Message                                    | User Action                      | Needs Dropdown? |
 | ------------------------- | ------------------------------------------------ | -------------------------------- | --------------- |
 | Invalid email format      | Enter a valid email address.                     | Edit value                       | Yes             |
-| Multiple emails detected  | Multiple email addresses detected.               | Split emails automatically       | No              |
-| Wrong separator           | Use commas to separate multiple email addresses. | Replace separator                | No              |
+| Multiple emails detected  | Multiple email addresses detected.               | Split emails automatically       | Yes             |
+| Wrong separator           | Use commas to separate multiple email addresses. | Replace separator                | Yes             |
 | Duplicate email in file   | This email appears multiple times in the file.   | Keep latest or review duplicates | Yes             |
 | One invalid email in list | One or more email addresses are invalid.         | Remove invalid email             | Yes             |
-| Empty required email      | Email address is required.                       | Add email                        | No              |
+| Empty required email      | Email address is required.                       | Add email                        | Yes             |
 
 ---
 
 ## Phone
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid phone number|Enter a valid phone number.|Edit value|No|
-|Too short|Phone number is too short.|Edit value|No|
-|Invalid characters|Phone number contains invalid characters.|Remove invalid characters|No|
-|Wrong separator|Use commas to separate multiple phone numbers.|Replace separator|No|
-|Missing country code|Add a country code or select a default country.|Add country code|Yes|
+| Scenario                         | Error Message                                   | User Action                       | Needs Dropdown? |
+| -------------------------------- | ----------------------------------------------- | --------------------------------- | --------------- |
+| Invalid phone number             | Enter a valid phone number.                     | Edit value                        | Yes             |
+| Too short                        | Phone number is too short.                      | Edit value                        | Yes             |
+| Invalid characters               | Phone number contains invalid characters.       | Remove invalid characters         | Yes             |
+| Wrong separator                  | Use commas to separate multiple phone numbers.  | Replace separator                 | Yes             |
+| Missing country code             | Add a country code or select a default country. | Add country code                  | Yes             |
+| Multiple phone numbers detected  | Multiple phone numbers detected.                | Split phone numbers automatically | Yes             |
+| One invalid phone number in list | One or more phone numbers are invalid           | Remove invalid phone number       | Yes             |
+
 
 ---
 
 ## Date
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid date|Enter a valid date.|Edit date|No|
-|Wrong format|Date does not match the selected format.|Change format or edit|Yes|
-|Impossible date|This date does not exist.|Edit date|No|
-|Ambiguous date|This date format is ambiguous.|Select date format|Yes|
-|Future date not allowed|Date cannot be in the future.|Edit date|No|
+| Scenario                | Error Message                            | User Action           | Needs Dropdown? |
+| ----------------------- | ---------------------------------------- | --------------------- | --------------- |
+| Invalid date            | Enter a valid date.                      | Edit date             | No              |
+| Wrong format            | Date does not match the selected format. | Change format or edit | Yes             |
+| Impossible date         | This date does not exist.                | Edit date             | No              |
+| Ambiguous date          | This date format is ambiguous.           | Select date format    | Yes             |
+| Future date not allowed | Date cannot be in the future.            | Edit date             | No              |
 
 ---
 
