@@ -373,7 +373,7 @@
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 10,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -404,6 +404,21 @@
         },
         {
           "timestampMillis": 1778660857834
+        },
+        {
+          "timestampMillis": 1778662020898
+        },
+        {
+          "timestampMillis": 1778662177698
+        },
+        {
+          "timestampMillis": 1778662206137
+        },
+        {
+          "timestampMillis": 1778662207630
+        },
+        {
+          "timestampMillis": 1778662212657
         }
       ]
     },
@@ -774,7 +789,7 @@
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -793,6 +808,27 @@
         },
         {
           "timestampMillis": 1778661562948
+        },
+        {
+          "timestampMillis": 1778662015268
+        },
+        {
+          "timestampMillis": 1778662019917
+        },
+        {
+          "timestampMillis": 1778662021391
+        },
+        {
+          "timestampMillis": 1778662150896
+        },
+        {
+          "timestampMillis": 1778662193136
+        },
+        {
+          "timestampMillis": 1778662208310
+        },
+        {
+          "timestampMillis": 1778662217239
         }
       ]
     },
@@ -822,10 +858,22 @@
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
-          "timestampMillis": 1778661594207
+          "timestampMillis": 1778662158657
+        },
+        {
+          "timestampMillis": 1778662192354
+        },
+        {
+          "timestampMillis": 1778662206499
+        },
+        {
+          "timestampMillis": 1778662218616
+        },
+        {
+          "timestampMillis": 1778662218769
         }
       ]
     }

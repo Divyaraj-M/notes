@@ -6,8 +6,7 @@ published:
 created: 2026-05-13
 description: "This page outlines what makes a great product manager at PostHog: The traits, skills, and mindset we look for when hiring and developing PMs.   For…"
 tags:
-  - clippings
-  - "#posthog"
+  - clipping/posthog
 ---
 ## What we look for in product managers
 

@@ -1,12 +1,12 @@
 ---
-title: What product managers do at PostHog - Handbook
-source: https://posthog.com/handbook/product/product-manager-role
+title: "What product managers do at PostHog - Handbook"
+source: "https://posthog.com/handbook/product/product-manager-role"
 author:
 published:
 created: 2026-05-13
 description: "This page explains what product managers do at PostHog: How the role works, what PMs are responsible for, and how they collaborate with their teams…"
 tags:
-  - clippings
+  - "clipping/posthog"
 ---
 ## What product managers do at PostHog
 

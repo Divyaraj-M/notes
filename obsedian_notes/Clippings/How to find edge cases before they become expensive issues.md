@@ -1,13 +1,13 @@
 ---
-title: "How to find edge cases before they become expensive issues"
-source: "https://balsamiq.com/blog/uncovering-edge-cases/"
+title: How to find edge cases before they become expensive issues
+source: https://balsamiq.com/blog/uncovering-edge-cases/
 author:
   - "[[Peldi Guilizzoni]]"
 published: 2026-04-14
 created: 2026-05-11
-description: "Level up your PM skills with real-world advice from the Good Product Club. Learn how seasoned product leaders uncover edge cases and protect the user experience."
+description: Level up your PM skills with real-world advice from the Good Product Club. Learn how seasoned product leaders uncover edge cases and protect the user experience.
 tags:
-  - "clippings"
+  - clippings/balsamiq
 ---
 Teams spend most of their time designing the happy path, but that’s not where products break. The real trouble lives in the gaps—the moments nobody thought to plan for.
 
