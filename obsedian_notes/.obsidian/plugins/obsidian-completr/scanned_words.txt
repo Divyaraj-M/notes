@@ -1388,6 +1388,7 @@ Discover
 DALL
 Documentary
 Difficult
+Deciding
 Who
 When
 What
@@ -1930,6 +1931,7 @@ Weekday
 Weekend
 Worrying
 Wear
+Warehouse
 writes
 we
 work
@@ -3319,6 +3321,8 @@ iterating
 incoherence
 investigation
 innovations
+infrastructure
+infra
 reads
 references
 requirements
@@ -4306,6 +4310,9 @@ resistance
 rapport
 retrospectives
 resonance
+retrievable
+renaming
+repositioning
 Jira
 Jdjxj
 JIvrU
@@ -6281,6 +6288,7 @@ Playful
 Perspective
 Python
 Playfulness
+Providing
 Before
 Blast
 BM
@@ -6807,6 +6815,9 @@ Breaking
 Balancing
 Bedtime
 Beginner
+BuildBetter
+Beta
+Blitzscale
 design
 does
 do
@@ -7713,6 +7724,9 @@ disagree
 decides
 dry
 disarms
+dictate
+dropping
+deepens
 starts
 sub
 screens
@@ -9789,6 +9803,9 @@ empathize
 education
 enables
 encourages
+emerging
+equally
+emphasis
 Story
 Stories
 Should
@@ -10652,6 +10669,9 @@ Sensory
 Selectively
 Spark
 Statistics
+Strengthen
+Stack
+Sustain
 Lead
 Loop
 Linking
@@ -11167,6 +11187,7 @@ LastChar
 Lorsque
 Laura
 Looking
+Launching
 After
 API
 All
@@ -11854,6 +11875,7 @@ Abstract
 Approach
 Applications
 Auditory
+Availability
 approved
 atomic
 and
@@ -12790,6 +12812,9 @@ agir
 absurdity
 accompany
 actor
+acutely
+adjustments
+asynchronous
 QA
 Question
 Quality
@@ -14188,6 +14213,7 @@ Facultatif
 Filtres
 Faire
 Finally
+Facilitate
 Goes
 Goals
 Gate
@@ -16102,6 +16128,8 @@ Responsable
 Requ
 Remote
 Rectangle
+Replay
+Regularly
 need
 needing
 nested
@@ -17489,6 +17517,7 @@ Culture
 Comparative
 Combining
 Contributing
+Coordinate
 How
 Hubs
 Hub
@@ -19296,6 +19325,8 @@ captain
 concepts
 culture
 convinces
+consultation
+comms
 on
 owns
 one
@@ -20654,6 +20685,7 @@ fun
 feelings
 facts
 figures
+foundations
 live
 links
 locked
@@ -21339,6 +21371,9 @@ logiques
 lectionnant
 little
 lived
+lesser
+launches
+limiting
 here
 has
 how
@@ -25145,6 +25180,8 @@ posthog
 physically
 playful
 persuasive
+parties
+packaging
 goals
 give
 generates
@@ -28974,6 +29011,7 @@ marquee
 modeling
 micromanaging
 master
+multiply
 Owners
 Opportunity
 Owner
@@ -30180,6 +30218,8 @@ Meme
 Metaphors
 Memes
 Memorable
+Mature
+MoM
 UI
 Users
 User

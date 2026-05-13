@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/PM Prompts Library/storytelling/README.md",
+                "file": "Clippings/What product managers do at PostHog - Handbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "What product managers do at PostHog - Handbook"
             }
           }
         ],
@@ -412,9 +412,10 @@
   },
   "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
-    "code-generate-scenes.md",
-    "3 - Resources/PM Prompts Library/storytelling/README.md",
     "Clippings/What we look for in product managers - Handbook.md",
+    "Clippings/What product managers do at PostHog - Handbook.md",
+    "3 - Resources/PM Prompts Library/storytelling/README.md",
+    "code-generate-scenes.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
@@ -446,7 +447,6 @@
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories/Categories_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories/Categories.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",

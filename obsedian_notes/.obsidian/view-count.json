@@ -774,7 +774,7 @@
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -790,6 +790,9 @@
         },
         {
           "timestampMillis": 1778660871252
+        },
+        {
+          "timestampMillis": 1778661562948
         }
       ]
     },
@@ -813,6 +816,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778660967131
+        }
+      ]
+    },
+    {
+      "path": "Clippings/What product managers do at PostHog - Handbook.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778661594207
         }
       ]
     }
