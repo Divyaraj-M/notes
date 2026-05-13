@@ -2,14 +2,17 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778305069898
         },
         {
           "timestampMillis": 1778497431545
+        },
+        {
+          "timestampMillis": 1778672463844
         }
       ]
     },
@@ -122,7 +125,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 18,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -177,6 +180,9 @@
         },
         {
           "timestampMillis": 1778672181976
+        },
+        {
+          "timestampMillis": 1778672412775
         }
       ]
     },
@@ -295,7 +301,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -335,13 +341,19 @@
         },
         {
           "timestampMillis": 1778671815751
+        },
+        {
+          "timestampMillis": 1778672422630
+        },
+        {
+          "timestampMillis": 1778672446625
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 5,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778484036888
@@ -357,13 +369,19 @@
         },
         {
           "timestampMillis": 1778671818582
+        },
+        {
+          "timestampMillis": 1778672430710
+        },
+        {
+          "timestampMillis": 1778672439938
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 16,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -412,6 +430,9 @@
         },
         {
           "timestampMillis": 1778672119352
+        },
+        {
+          "timestampMillis": 1778672434143
         }
       ]
     },
@@ -479,8 +500,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778491542045
@@ -490,6 +511,9 @@
         },
         {
           "timestampMillis": 1778497434026
+        },
+        {
+          "timestampMillis": 1778672471131
         }
       ]
     },
@@ -736,11 +760,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778497432821
+        },
+        {
+          "timestampMillis": 1778672467271
         }
       ]
     },
