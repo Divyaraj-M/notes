@@ -171,32 +171,32 @@ Action
 
 ## URL
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid URL|Enter a valid URL.|Edit URL|No|
-|Invalid LinkedIn URL|Enter a valid LinkedIn URL.|Edit URL|No|
-|Missing protocol|URL is incomplete.|Auto-add https://|Yes|
+| Scenario             | Error Message               | User Action       | Needs Dropdown? |
+| -------------------- | --------------------------- | ----------------- | --------------- |
+| Invalid URL          | Enter a valid URL.          | Edit URL          | No              |
+| Invalid LinkedIn URL | Enter a valid LinkedIn URL. | Edit URL          | No              |
+
 
 ---
 
 ## Domain
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid domain|Enter a valid company domain.|Edit domain|No|
-|Email instead of domain|Use a domain instead of an email address.|Extract domain|Yes|
-|Website URL entered|Only the domain is needed.|Auto-clean URL|Yes|
-|Public email domain|Public email domains cannot be used for company matching.|Skip company matching|Yes|
+| Scenario                | Error Message                                             | User Action           | Needs Dropdown? |
+| ----------------------- | --------------------------------------------------------- | --------------------- | --------------- |
+| Invalid domain          | Enter a valid company domain.                             | Edit domain           | Yes             |
+| Email instead of domain | Use a domain instead of an email address.                 | Extract domain        | Yes             |
+| Website URL entered     | Only the domain is needed.                                | Auto-clean URL        | Yes             |
+| Public email domain     | Public email domains cannot be used for company matching. | Skip company matching | Yes             |
 
 ---
 
 ## User
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|User not found|No matching workspace user found.|Select another user|Yes|
-|Multiple users match|Multiple users match this value.|Choose correct user|Yes|
-|Inactive user|This user is inactive.|Select active user|Yes|
+| Scenario             | Error Message                     | User Action         | Needs Dropdown? |
+| -------------------- | --------------------------------- | ------------------- | --------------- |
+| User not found       | No matching workspace user found. | Select another user | Yes             |
+| Multiple users match | Multiple users match this value.  | Choose correct user | Yes             |
+| Inactive user        | This user is inactive.            | Select active user  | Yes             |
 
 ---
 
