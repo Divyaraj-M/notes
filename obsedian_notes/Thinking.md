@@ -104,12 +104,12 @@ Action
 
 ## Date
 
-| Scenario                | Error Message                            | User Action           | Needs Dropdown? |
-| ----------------------- | ---------------------------------------- | --------------------- | --------------- |
-| Invalid date            | Enter a valid date.                      | Edit date             | No              |
-| Wrong format            | Date does not match the selected format. | Change format or edit | Yes             |
-| Impossible date         | This date does not exist.                | Edit date             | No              |
-| Ambiguous date          | This date format is ambiguous.           | Select date format    | Yes             |
+| Scenario        | Error Message                            | User Action           | Needs Dropdown? |
+| --------------- | ---------------------------------------- | --------------------- | --------------- |
+| Invalid date    | Enter a valid date.                      | Edit date             | Date picker     |
+| Wrong format    | Date does not match the selected format. | Change format or edit | Date picker     |
+| Impossible date | This date does not exist.                | Edit date             | Date picker     |
+| Ambiguous date  | This date format is ambiguous.           | Select date format    | Date picker     |
 
 
 ---
@@ -133,6 +133,7 @@ Action
 | Invalid currency value | Enter a valid currency amount.               | Edit value         | No              |
 | Mixed currencies       | Multiple currencies detected in this column. | Normalize currency | Yes             |
 | Unsupported currency   | Currency is not supported.                   | Change currency    | Yes             |
+
 
 ---
 
