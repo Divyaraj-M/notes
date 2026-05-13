@@ -81,7 +81,7 @@ Action
 | Invalid email format      | Invalid email                      | Edit value                 | Yes             |
 | Multiple emails detected  | Multiple email addresses detected. | Split emails automatically | Yes             |
 | Wrong separator           | Invalid email                      | Replace separator          | Yes             |
-| Duplicate email in file   | -                                  | Keep latest                | Yes             |
+| Duplicate email in file   | -                                  | Keep latest and merge      | Yes             |
 | One invalid email in list | Invalid email                      | Remove invalid email       | Yes             |
 | Empty required email      | Invalid email                      | Add email                  | Yes             |
 
@@ -131,9 +131,8 @@ Action
 | Scenario               | Error Message    | User Action        | Needs Dropdown? |
 | ---------------------- | ---------------- | ------------------ | --------------- |
 | Invalid currency value | Invalid Currency | Edit value         | No              |
-| Mixed currencies       | Invalid Currency | Normalize currency | Yes             |
-| Unsupported currency   | Invalid Currency | Change currency    | Yes             |
-|                        |                  |                    |                 |
+
+
 
 
 ---
