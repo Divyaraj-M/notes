@@ -373,7 +373,7 @@
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -401,6 +401,9 @@
         },
         {
           "timestampMillis": 1778657537454
+        },
+        {
+          "timestampMillis": 1778660857834
         }
       ]
     },
@@ -765,6 +768,51 @@
       "openLogs": [
         {
           "timestampMillis": 1778657622621
+        }
+      ]
+    },
+    {
+      "path": "Clippings/What we look for in product managers - Handbook.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 5,
+      "openLogs": [
+        {
+          "timestampMillis": 1778660794418
+        },
+        {
+          "timestampMillis": 1778660794794
+        },
+        {
+          "timestampMillis": 1778660865055
+        },
+        {
+          "timestampMillis": 1778660865207
+        },
+        {
+          "timestampMillis": 1778660871252
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/PM Prompts Library/storytelling/README.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778660908413
+        },
+        {
+          "timestampMillis": 1778660970676
+        }
+      ]
+    },
+    {
+      "path": "code-generate-scenes.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778660967131
         }
       ]
     }

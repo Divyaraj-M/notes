@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "3 - Resources/PM Prompts Library/storytelling/README.md"
+    },
+    {
+      "basename": "code-generate-scenes",
+      "path": "code-generate-scenes.md"
+    },
+    {
+      "basename": "What we look for in product managers - Handbook",
+      "path": "Clippings/What we look for in product managers - Handbook.md"
+    },
+    {
+      "basename": "How to find edge cases before they become expensive issues",
+      "path": "Clippings/How to find edge cases before they become expensive issues.md"
+    },
+    {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "2026-05-13 13-02-49",
       "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md"
-    },
-    {
-      "basename": "How to find edge cases before they become expensive issues",
-      "path": "Clippings/How to find edge cases before they become expensive issues.md"
     },
     {
       "basename": "To do list - SparrowCRM",

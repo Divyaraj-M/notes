@@ -38,6 +38,20 @@
         "type": "FILES",
         "pattern": "1 - Projects/Sparrowcrm/Issues Found.md",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "3 - Resources/PM Prompts Library/storytelling/README.md",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "3 - Resources/PM Prompts Library/storytelling",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

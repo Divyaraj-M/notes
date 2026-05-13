@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+                "file": "Clippings/What we look for in product managers - Handbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,11 +62,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Import_v1"
+              "title": "What we look for in product managers - Handbook"
+            }
+          },
+          {
+            "id": "b123fad89ad91fa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Resources/PM Prompts Library/storytelling/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -386,15 +410,18 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "30de1cf9e541b077",
+  "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
+    "code-generate-scenes.md",
+    "3 - Resources/PM Prompts Library/storytelling/README.md",
+    "Clippings/What we look for in product managers - Handbook.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "Habit Tracker.base",
     "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md",
     "Untitled.canvas",
     "1 - Projects/Year2026/Quarter2/Month05/Day13",
-    "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -421,9 +448,7 @@
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Feature Template.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features",
-    "Clippings/Product Manager (ex-founder or ex-product engineer).md",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
