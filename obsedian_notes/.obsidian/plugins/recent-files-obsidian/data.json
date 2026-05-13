@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Import_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
+    },
+    {
+      "basename": "2026-05-13 13-02-49",
+      "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md"
+    },
+    {
+      "basename": "How to find edge cases before they become expensive issues",
+      "path": "Clippings/How to find edge cases before they become expensive issues.md"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
+    },
+    {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
@@ -29,10 +45,6 @@
       "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
     },
     {
-      "basename": "Habit Tracker",
-      "path": "Habit Tracker.base"
-    },
-    {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     },
@@ -53,16 +65,8 @@
       "path": "Thinking.md"
     },
     {
-      "basename": "Import_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
-    },
-    {
       "basename": "Thinking Nodes",
       "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md"
-    },
-    {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "12 - People",
@@ -127,10 +131,6 @@
     {
       "basename": "Proposal Creation Flow",
       "path": "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md"
-    },
-    {
-      "basename": "How to find edge cases before they become expensive issues",
-      "path": "Clippings/How to find edge cases before they become expensive issues.md"
     },
     {
       "basename": "Weekly Review Template",

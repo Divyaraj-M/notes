@@ -6,7 +6,7 @@
         "2026-05-10": 3,
         "2026-05-11": 233,
         "2026-05-12": 0,
-        "2026-05-13": 9
+        "2026-05-13": 34
       },
       "todaysWordCount": {
         "1 - Projects/Habit Tracker/Side Project Backlog.md": {
@@ -16,6 +16,10 @@
         "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md": {
           "initial": 111,
           "current": 120
+        },
+        "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
+          "initial": 110,
+          "current": 135
         }
       }
     }

@@ -197,8 +197,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -220,6 +220,9 @@
         },
         {
           "timestampMillis": 1778493304419
+        },
+        {
+          "timestampMillis": 1778657362012
         }
       ]
     },
@@ -323,8 +326,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -355,13 +358,19 @@
         },
         {
           "timestampMillis": 1778493386630
+        },
+        {
+          "timestampMillis": 1778657572225
+        },
+        {
+          "timestampMillis": 1778657579159
         }
       ]
     },
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 8,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -386,6 +395,9 @@
         },
         {
           "timestampMillis": 1778487058436
+        },
+        {
+          "timestampMillis": 1778657537454
         }
       ]
     },
@@ -667,16 +679,6 @@
       ]
     },
     {
-      "path": "Habit Tracker.base",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778518047041
-        }
-      ]
-    },
-    {
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 9,
@@ -740,6 +742,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778652491444
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778657569459
         }
       ]
     }
