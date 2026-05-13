@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Habit Tracker/Habit Tracker.md",
+                "file": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Habit Tracker"
+              "title": "Expense tracker"
             }
           },
           {
@@ -388,8 +388,8 @@
   },
   "active": "7f017439291fb2e7",
   "lastOpenFiles": [
-    "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
     "1 - Projects/Habit Tracker/Habit Tracker.md",
+    "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
