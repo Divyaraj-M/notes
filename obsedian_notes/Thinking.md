@@ -113,18 +113,19 @@ Action
 | Wrong format            | Date does not match the selected format. | Change format or edit | Yes             |
 | Impossible date         | This date does not exist.                | Edit date             | No              |
 | Ambiguous date          | This date format is ambiguous.           | Select date format    | Yes             |
-| Future date not allowed | Date cannot be in the future.            | Edit date             | No              |
+
 
 ---
 
 ## Number
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid number|Enter a valid number.|Edit value|No|
-|Too many decimals|Too many decimal places.|Round or edit value|No|
-|Negative value not allowed|Negative values are not allowed.|Edit value|No|
-|Wrong decimal separator|Check the decimal separator format.|Select decimal format|Yes|
+| Scenario                   | Error Message                       | User Action         | Needs Dropdown? |
+| -------------------------- | ----------------------------------- | ------------------- | --------------- |
+| Invalid number             | Enter a valid number.               | Edit value          | No              |
+| Too many decimals          | Too many decimal places.            | Round or edit value | No              |
+| Number below allowed range | Value is below the allowed range.   | Edit value          | No              |
+| Number above allowed range | Value exceeds the allowed range.    | Edit value          | No              |
+| Wrong decimal separator    | Check the decimal separator format. | Edit value          | No              |
 
 ---
 

@@ -22,4 +22,4 @@
 - [ ] Import wireframe and update the prd ⏫ 
 - [ ] Email Integration research 🔼 
 - [ ] AI agents look for 🔼 
-- [ ] Metrics 🔽 
+- [ ] Metrics 
