@@ -6,42 +6,10 @@
         "2026-05-10": 3,
         "2026-05-11": 233,
         "2026-05-12": 0,
-        "2026-05-13": 684
+        "2026-05-13": 684,
+        "2026-05-14": 0
       },
-      "todaysWordCount": {
-        "1 - Projects/Habit Tracker/Side Project Backlog.md": {
-          "initial": 395,
-          "current": 395
-        },
-        "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md": {
-          "initial": 111,
-          "current": 120
-        },
-        "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
-          "initial": 110,
-          "current": 135
-        },
-        "Clippings/What we look for in product managers - Handbook.md": {
-          "initial": 952,
-          "current": 952
-        },
-        "Clippings/What product managers do at PostHog - Handbook.md": {
-          "initial": 1427,
-          "current": 1427
-        },
-        "Clippings/How to find edge cases before they become expensive issues.md": {
-          "initial": 1945,
-          "current": 1945
-        },
-        "Thinking.md": {
-          "initial": 618,
-          "current": 1268
-        },
-        "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md": {
-          "initial": 3681,
-          "current": 3194
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
