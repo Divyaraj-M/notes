@@ -76,53 +76,53 @@ Action
 
 ## Email
 
-| Scenario                  | Error Message                                    | User Action                      | Needs Dropdown? |
-| ------------------------- | ------------------------------------------------ | -------------------------------- | --------------- |
-| Invalid email format      | Enter a valid email address.                     | Edit value                       | Yes             |
-| Multiple emails detected  | Multiple email addresses detected.               | Split emails automatically       | Yes             |
-| Wrong separator           | Use commas to separate multiple email addresses. | Replace separator                | Yes             |
-| Duplicate email in file   | This email appears multiple times in the file.   | Keep latest or review duplicates | Yes             |
-| One invalid email in list | One or more email addresses are invalid.         | Remove invalid email             | Yes             |
-| Empty required email      | Email address is required.                       | Add email                        | Yes             |
+| Scenario                  | Error Message                                  | User Action                      | Needs Dropdown? |
+| ------------------------- | ---------------------------------------------- | -------------------------------- | --------------- |
+| Invalid email format      | Invalid email                                  | Edit value                       | Yes             |
+| Multiple emails detected  | Multiple email addresses detected.             | Split emails automatically       | Yes             |
+| Wrong separator           | Invalid email                                  | Replace separator                | Yes             |
+| Duplicate email in file   | This email appears multiple times in the file. | Keep latest or review duplicates | Yes             |
+| One invalid email in list | Invalid email                                  | Remove invalid email             | Yes             |
+| Empty required email      | Invalid email                                  | Add email                        | Yes             |
 
 ---
 
 ## Phone
 
-| Scenario                         | Error Message                                   | User Action                       | Needs Dropdown? |
-| -------------------------------- | ----------------------------------------------- | --------------------------------- | --------------- |
-| Invalid phone number             | Enter a valid phone number.                     | Edit value                        | Yes             |
-| Too short                        | Phone number is too short.                      | Edit value                        | Yes             |
-| Invalid characters               | Phone number contains invalid characters.       | Remove invalid characters         | Yes             |
-| Wrong separator                  | Use commas to separate multiple phone numbers.  | Replace separator                 | Yes             |
-| Missing country code             | Add a country code or select a default country. | Add country code                  | Yes             |
-| Multiple phone numbers detected  | Multiple phone numbers detected.                | Split phone numbers automatically | Yes             |
-| One invalid phone number in list | One or more phone numbers are invalid           | Remove invalid phone number       | Yes             |
+| Scenario                         | Error Message | User Action                       | Needs Dropdown? |
+| -------------------------------- | ------------- | --------------------------------- | --------------- |
+| Invalid phone number             | Invalid phone | Edit value                        | Yes             |
+| Too short                        | Invalid phone | Edit value                        | Yes             |
+| Invalid characters               | Invalid phone | Remove invalid characters         | Yes             |
+| Wrong separator                  | Invalid phone | Replace separator                 | Yes             |
+| Missing country code             | Invalid phone | Add country code                  | Yes             |
+| Multiple phone numbers detected  | Invalid phone | Split phone numbers automatically | Yes             |
+| One invalid phone number in list | Invalid phone | Remove invalid phone number       | Yes             |
 
 
 ---
 
 ## Date
 
-| Scenario        | Error Message                            | User Action           | Needs Dropdown? |
-| --------------- | ---------------------------------------- | --------------------- | --------------- |
-| Invalid date    | Enter a valid date.                      | Edit date             | Date picker     |
-| Wrong format    | Date does not match the selected format. | Change format or edit | Date picker     |
-| Impossible date | This date does not exist.                | Edit date             | Date picker     |
-| Ambiguous date  | This date format is ambiguous.           | Select date format    | Date picker     |
+| Scenario        | Error Message                  | User Action           | Needs Dropdown? |
+| --------------- | ------------------------------ | --------------------- | --------------- |
+| Invalid date    | Invalid date                   | Edit date             | Date picker     |
+| Wrong format    | Invalid date                   | Change format or edit | Date picker     |
+| Impossible date | Invalid date                   | Edit date             | Date picker     |
+| Ambiguous date  | This date format is ambiguous. | Select date format    | Date picker     |
 
 
 ---
 
 ## Number
 
-| Scenario                   | Error Message                       | User Action         | Needs Dropdown? |
-| -------------------------- | ----------------------------------- | ------------------- | --------------- |
-| Invalid number             | Enter a valid number.               | Edit value          | No              |
-| Too many decimals          | Too many decimal places.            | Round or edit value | No              |
-| Number below allowed range | Value is below the allowed range.   | Edit value          | No              |
-| Number above allowed range | Value exceeds the allowed range.    | Edit value          | No              |
-| Wrong decimal separator    | Check the decimal separator format. | Edit value          | No              |
+| Scenario                   | Error Message                     | User Action         | Needs Dropdown? |
+| -------------------------- | --------------------------------- | ------------------- | --------------- |
+| Invalid number             | Invalid number                    | Edit value          | No              |
+| Too many decimals          | Invalid number                    | Round or edit value | No              |
+| Number below allowed range | Value is below the allowed range. | Edit value          | No              |
+| Number above allowed range | Value exceeds the allowed range.  | Edit value          | No              |
+| Wrong decimal separator    | Invalid number                    | Edit value          | No              |
 
 ---
 
@@ -241,10 +241,11 @@ Action
 
 ## Timestamp
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid timestamp|Enter a valid date and time.|Edit value|No|
-|Unsupported timezone|Timezone is not supported.|Change timezone|Yes|
+| Scenario             | Error Message                | User Action     | Needs Dropdown? |
+| -------------------- | ---------------------------- | --------------- | --------------- |
+| Invalid timestamp    | Enter a valid date and time. | Edit value      | No              |
+| Unsupported timezone | Timezone is not supported.   | Change timezone | Yes             |
+
 
 ---
 
