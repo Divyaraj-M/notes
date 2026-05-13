@@ -21,5 +21,5 @@
 13-May-2026
 - [ ] Import wireframe and update the prd ⏫ 
 - [ ] Email Integration research 🔼 
-- [ ] AI agents look for Design 🔼 
-- [ ] Metrics 🔽 
+- [ ] AI agents look for 🔼 
+- [ ] Metrics 

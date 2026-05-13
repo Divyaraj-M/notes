@@ -6,7 +6,7 @@
         "2026-05-10": 3,
         "2026-05-11": 233,
         "2026-05-12": 0,
-        "2026-05-13": 685
+        "2026-05-13": 684
       },
       "todaysWordCount": {
         "1 - Projects/Habit Tracker/Side Project Backlog.md": {
@@ -19,7 +19,7 @@
         },
         "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
           "initial": 110,
-          "current": 136
+          "current": 135
         },
         "Clippings/What we look for in product managers - Handbook.md": {
           "initial": 952,
@@ -36,6 +36,10 @@
         "Thinking.md": {
           "initial": 618,
           "current": 1268
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md": {
+          "initial": 3681,
+          "current": 3681
         }
       }
     }
