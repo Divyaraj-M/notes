@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thinking.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking"
+              "title": "Import_v1"
             }
           }
         ],
@@ -412,10 +412,11 @@
   },
   "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "Thinking.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/What we look for in product managers - Handbook.md",
@@ -445,7 +446,6 @@
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Budgets/Budgets_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Budgets/Budgets.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Budgets",
-    "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories/Categories_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Categories",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses",
     "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features",
