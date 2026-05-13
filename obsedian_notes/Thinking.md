@@ -133,18 +133,19 @@ Action
 | Invalid currency value | Enter a valid currency amount.               | Edit value         | No              |
 | Mixed currencies       | Multiple currencies detected in this column. | Normalize currency | Yes             |
 | Unsupported currency   | Currency is not supported.                   | Change currency    | Yes             |
+|                        |                                              |                    |                 |
 
 
 ---
 
 ## Select
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Option not found|This option does not exist.|Map or add option|Yes|
-|Archived option|This option is archived.|Select another option|Yes|
-|Typo detected|No matching option found.|Map to existing option|Yes|
-|Duplicate option|This option already exists.|Use existing option|Yes|
+| Scenario         | Error Message               | User Action            | Needs Dropdown? |
+| ---------------- | --------------------------- | ---------------------- | --------------- |
+| Option not found | This option does not exist. | Map or add option      | Yes             |
+| Archived option  | This option is archived.    | Select another option  | Yes             |
+| Typo detected    | No matching option found.   | Map to existing option | Yes             |
+| Duplicate option | This option already exists. | Use existing option    | Yes             |
 
 ---
 
