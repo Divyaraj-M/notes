@@ -25,31 +25,23 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ## 2. JTBD
 
-### Sales Rep
+### [[Sales Rep]]
 
 - [ ] Upload a csv of leads from the Contacts table view or a specific list.
 - [ ] See which records will be created vs updated before the import runs.
 - [ ] Fix dropdown values or add new options during the import without leaving the wizard.
 - [ ] Import leads directly into a specific list so records are created and added to the list in one step.
-
-### Admin
-
 - [ ] Upload a file and map columns through a guided wizard without engineering help.
 - [ ] Import files that contain both contact and company columns in a single upload.
 - [ ] Detect and update duplicate records using unique identifiers instead of creating duplicates.
 - [ ] See exactly which rows failed and why, download failed rows, fix, and re-import.
-- [ ] Undo an import by bulk-deleting created records.
-- [ ] Control which roles have import permission.
-- [ ] Use the Import API to automate recurring imports.
+- [ ] 
 
-#### Import Management
+### [[Admin]]
 
-- [ ] Start import from Object table view, List page, or Settings → Imports
-- [ ] Resume draft imports
-- [ ] View import history with status, counts, and user info
-- [ ] Download error reports
-- [ ] Undo completed imports
-- [ ] Cancel in-progress imports
+- [ ] Control which roles have import permission for specific objects.
+
+
 
 ### Manager
 
