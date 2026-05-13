@@ -232,19 +232,19 @@ Action
 
 ## Rating
 
-| Scenario            | Error Message         | User Action | Needs Dropdown? |
-| ------------------- | --------------------- | ----------- | --------------- |
-| Invalid rating      | Enter a valid rating. | Edit value  | No              |
-| Rating out of range | Option not exist      | Edit value  | No              |
+| Scenario            | Error Message    | User Action | Needs Dropdown? |
+| ------------------- | ---------------- | ----------- | --------------- |
+| Invalid rating      | Invalid rating   | Edit value  | No              |
+
 
 ---
 
 ## Timestamp
 
-| Scenario             | Error Message                | User Action     | Needs Dropdown? |
-| -------------------- | ---------------------------- | --------------- | --------------- |
-| Invalid timestamp    | Enter a valid date and time. | Edit value      | No              |
-| Unsupported timezone | Timezone is not supported.   | Change timezone | Yes             |
+| Scenario             | Error Message              | User Action     | Needs Dropdown? |
+| -------------------- | -------------------------- | --------------- | --------------- |
+| Invalid timestamp    | Invalid timestamp          | Edit value      | No              |
+
 
 
 ---
