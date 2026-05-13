@@ -116,7 +116,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 12,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -153,6 +153,9 @@
         },
         {
           "timestampMillis": 1778612589974
+        },
+        {
+          "timestampMillis": 1778652006468
         }
       ]
     },
@@ -181,8 +184,8 @@
     },
     {
       "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 23,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1778427934640
@@ -252,6 +255,9 @@
         },
         {
           "timestampMillis": 1778518049883
+        },
+        {
+          "timestampMillis": 1778652003068
         }
       ]
     },
