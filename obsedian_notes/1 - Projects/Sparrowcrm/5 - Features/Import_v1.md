@@ -9,15 +9,17 @@ tags:
 ---
 # SparrowCRM Data Import Feature Spec
 
+Table of Content
 - [[#Problem Statement|Problem Statement]]
 - [[#JTBD|JTBD]]
-- [[#. Goals|. Goals]]
-- [[#4. Non-Goals|Non-Goals]]
+- [[#Goals|Goals]]
+- [[#Non-Goals|Non-Goals]]
 - [[#Requirements|Requirements]]
-- [[#7. Technical Considerations|Technical Considerations]]
-- [[#8. Success Metrics|8. Success Metrics]]
-- [[#9. Open Questions|9. Open Questions]]
-- [[#10. Edge Cases|10. Edge Cases]]
+- [[#Technical Considerations|Technical Considerations]]
+- [[#Success Metrics|Success Metrics]]
+- [[#Open Questions|Open Questions]]
+- [[#Edge Cases|Edge Cases]]
+
 
 Wireframe: [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on)
 
@@ -85,10 +87,6 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ---
 
-
-
----
-
 ##  Requirements
 
 ### Must-Have (P0)
@@ -106,9 +104,7 @@ Users must be able to upload a file to start the import.
 - [ ] File is parsed within 5 seconds for files up to 50 MB.
 - [ ] File card shows file name, size, column count, and row count after parsing.
 - [ ] Excel files with multiple sheets prompt the user to select one sheet.
-- [ ] Unsupported file types are rejected with a clear error.
-- [ ] Password-protected files are rejected with: "We couldn't read this file. Try re-exporting it."
-- [ ] ZIP files are rejected with: "ZIP files are not supported. To migrate from another CRM, go to Settings → Migration."
+- [ ] File type not supported 
 - [ ] Empty files are rejected with: "The file contains no data."
 - [ ] First row is always treated as headers.
 - [ ] Downloadable CSV templates are available for Contacts, Companies, Deals, Contacts+Companies, and Deals+Companies.
