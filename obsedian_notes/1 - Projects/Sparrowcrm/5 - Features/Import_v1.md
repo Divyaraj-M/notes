@@ -9,9 +9,19 @@ tags:
 ---
 # SparrowCRM Data Import Feature Spec
 
+- [[#Problem Statement|Problem Statement]]
+- [[#JTBD|JTBD]]
+- [[#. Goals|. Goals]]
+- [[#4. Non-Goals|Non-Goals]]
+- [[#Requirements|Requirements]]
+- [[#7. Technical Considerations|Technical Considerations]]
+- [[#8. Success Metrics|8. Success Metrics]]
+- [[#9. Open Questions|9. Open Questions]]
+- [[#10. Edge Cases|10. Edge Cases]]
+
 Wireframe: [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on)
 
-## 1. Problem Statement
+## Problem Statement
 
 Users collect leads and company data in bulk from event registrations, webinar signups, trade show badge scans, partner lead lists, Apollo/Clay/LinkedIn exports, and sales ops spreadsheets. Today, there is no way to upload this data into SparrowCRM in one go. Users have to manually create contacts and companies one by one, which is slow, repetitive, and creates unnecessary friction.
 
@@ -23,7 +33,7 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ---
 
-## 2. JTBD
+## JTBD
 
 ### [[Sales Rep]]
 
@@ -52,7 +62,7 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ---
 
-## 3. Goals
+## Goals
 
 ### Business Goals
 
@@ -64,7 +74,7 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ---
 
-## 4. Non-Goals
+## Non-Goals
 
 - We are not building a CRM-to-CRM migration tool. Direct connectors are a separate module.
 - We are not supporting vCard (.vcf) files. Not supported by HubSpot, Pipedrive, or Attio.
@@ -75,37 +85,11 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 
 ---
 
-## 5. User Stories
 
-### P0 User Stories
-
-- As an admin, I want to upload a file and map columns through a guided wizard so that data lands in the right fields without engineering help.
-- As an admin, I want the system to auto-suggest column mappings so that I do not need to manually match every column.
-- As an admin, I want the system to detect duplicates using unique identifiers so that existing records are updated instead of duplicated.
-- As an admin, I want to import a file with both contact and company columns so that both objects are created, linked, and deduplicated in one pass.
-- As an admin, I want to see exactly which rows failed and download them so that I can fix and re-import only those rows.
-- As an admin, I want to undo an import so that I can recover from mistakes by bulk-deleting created records.
-- As a sales rep, I want to upload my trade show spreadsheet from the Contacts table view so that I can start working leads immediately.
-- As a sales rep, I want to see a preview of what will be created vs updated before the import runs.
-- As a sales rep, I want to fix invalid dropdown values or add new options during the import without leaving the wizard.
-- As a sales rep, I want to import leads directly into a specific list so that records are created and added to the list in one step.
-
-### P1 User Stories
-
-- As an admin, I want to control which roles have import permission so that I can restrict imports to trusted users.
-- As an admin, I want to use the Import API to automate imports from external systems.
-- As a user, I want my import auto-saved as a draft if I navigate away so that I can resume without starting over.
-- As a user, I want to be warned if my import would trigger active workflows so that I can suppress them if needed.
-
-### P2 User Stories
-
-- As an admin, I want to save and reuse column mapping templates across imports.
-- As an admin, I want to schedule recurring imports from external sources.
-- As a user, I want the system to fuzzy-match potential duplicates beyond exact unique identifiers.
 
 ---
 
-## 6. Requirements
+##  Requirements
 
 ### Must-Have (P0)
 
@@ -435,7 +419,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 7. Technical Considerations
+##  Technical Considerations
 
 ### Data Handling
 
@@ -474,7 +458,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 8. Success Metrics
+## Success Metrics
 
 ### Leading Metrics
 
@@ -502,7 +486,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 9. Open Questions
+## Open Questions
 
 ### Blocking
 
@@ -522,7 +506,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 10. Edge Cases
+## Edge Cases
 
 | Scenario                                                    | Expected Behavior                                                                   |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
