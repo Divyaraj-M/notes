@@ -68,12 +68,9 @@ Action
 
 ## Text
 
-| Scenario                   | Error Message                             | User Action               | Needs Dropdown? |
-| -------------------------- | ----------------------------------------- | ------------------------- | --------------- |
-| ~~Too long~~               | ~~Text exceeds the maximum length.~~      | ~~Truncate or edit text~~ | ~~No~~          |
-| ~~Invalid characters~~     | ~~Text contains unsupported characters.~~ | ~~Remove characters~~     | ~~No~~          |
-| ~~Formula value detected~~ | ~~Formula values are not supported.~~     | ~~Convert to plain text~~ | ~~No~~          |
-| Empty required text        | This field is required.                   | Add value                 | No              |
+| Scenario            | Error Message           | User Action       | Needs Dropdown? |
+| ------------------- | ----------------------- | ----------------- | --------------- |
+| Empty required text | This field is required. | Add value or skip | No              |
 
 ---
 
@@ -131,11 +128,11 @@ Action
 
 ## Currency
 
-|Scenario|Error Message|User Action|Needs Dropdown?|
-|---|---|---|---|
-|Invalid currency value|Enter a valid currency amount.|Edit value|No|
-|Mixed currencies|Multiple currencies detected in this column.|Normalize currency|Yes|
-|Unsupported currency|Currency is not supported.|Change currency|Yes|
+| Scenario               | Error Message                                | User Action        | Needs Dropdown? |
+| ---------------------- | -------------------------------------------- | ------------------ | --------------- |
+| Invalid currency value | Enter a valid currency amount.               | Edit value         | No              |
+| Mixed currencies       | Multiple currencies detected in this column. | Normalize currency | Yes             |
+| Unsupported currency   | Currency is not supported.                   | Change currency    | Yes             |
 
 ---
 
@@ -258,10 +255,3 @@ Action
 
 ---
 
-## Blank Values
-
-| Scenario             | Error Message                          | User Action        | Needs Dropdown? |
-| -------------------- | -------------------------------------- | ------------------ | --------------- |
-| Blank optional field | Empty values will be skipped.          | Continue import    | No              |
-| Blank required field | This field is required.                | Add value          | No              |
-| Entire row blank     | This row is empty and will be skipped. | Remove or skip row | No              |
