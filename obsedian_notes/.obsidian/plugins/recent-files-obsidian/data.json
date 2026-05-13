@@ -1,32 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Habit Tracker",
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.md"
-    },
-    {
       "basename": "Expense tracker",
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md"
     },
     {
-      "basename": "Side Project Backlog",
-      "path": "1 - Projects/Habit Tracker/Side Project Backlog.md"
+      "basename": "Expenses",
+      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md"
     },
     {
-      "basename": "Start Here",
-      "path": "1 - Projects/Habit Tracker/Start Here.md"
+      "basename": "5 - Features",
+      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md"
     },
     {
-      "basename": "Priority Analysis",
-      "path": "1 - Projects/Habit Tracker/Priority Analysis.md"
+      "basename": "11 - Help Articles",
+      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
     },
     {
-      "basename": "Home Dashboard",
-      "path": "1 - Projects/Habit Tracker/Home Dashboard.md"
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Habit Tracker",
@@ -145,10 +137,6 @@
       "path": "3 - Resources/Templates/Weekly Review Template.md"
     },
     {
-      "basename": "IITM",
-      "path": "1 - Projects/Habit Tracker/IITM.md"
-    },
-    {
       "basename": "Daily Template",
       "path": "3 - Resources/Templates/Daily Template.md"
     },
@@ -187,14 +175,6 @@
     {
       "basename": "Competitor Template",
       "path": "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md"
-    },
-    {
-      "basename": "Cardinality",
-      "path": "3 - Resources/Learning/Domain Design/Cardinality.jpg"
-    },
-    {
-      "basename": "persona-first-decision-facilitation-loop",
-      "path": "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md"
     }
   ],
   "omittedPaths": [],

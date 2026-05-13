@@ -183,85 +183,6 @@
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/Habit Tracker.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 24,
-      "openLogs": [
-        {
-          "timestampMillis": 1778427934640
-        },
-        {
-          "timestampMillis": 1778427934923
-        },
-        {
-          "timestampMillis": 1778428415371
-        },
-        {
-          "timestampMillis": 1778428646820
-        },
-        {
-          "timestampMillis": 1778428653634
-        },
-        {
-          "timestampMillis": 1778428671617
-        },
-        {
-          "timestampMillis": 1778428949063
-        },
-        {
-          "timestampMillis": 1778479489372
-        },
-        {
-          "timestampMillis": 1778479492031
-        },
-        {
-          "timestampMillis": 1778479506419
-        },
-        {
-          "timestampMillis": 1778479512718
-        },
-        {
-          "timestampMillis": 1778479524996
-        },
-        {
-          "timestampMillis": 1778479556390
-        },
-        {
-          "timestampMillis": 1778479821205
-        },
-        {
-          "timestampMillis": 1778479821481
-        },
-        {
-          "timestampMillis": 1778480077645
-        },
-        {
-          "timestampMillis": 1778483295572
-        },
-        {
-          "timestampMillis": 1778491570777
-        },
-        {
-          "timestampMillis": 1778492487500
-        },
-        {
-          "timestampMillis": 1778518039390
-        },
-        {
-          "timestampMillis": 1778518039542
-        },
-        {
-          "timestampMillis": 1778518049755
-        },
-        {
-          "timestampMillis": 1778518049883
-        },
-        {
-          "timestampMillis": 1778652003068
-        }
-      ]
-    },
-    {
       "path": "2 - Areas/Daily/Routine.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 1,
@@ -316,25 +237,6 @@
       ]
     },
     {
-      "path": "1 - Projects/Habit Tracker/IITM.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
-      "openLogs": [
-        {
-          "timestampMillis": 1778480057085
-        },
-        {
-          "timestampMillis": 1778483296114
-        },
-        {
-          "timestampMillis": 1778483389851
-        },
-        {
-          "timestampMillis": 1778483390051
-        }
-      ]
-    },
-    {
       "path": "3 - Resources/Templates/Weekly Review Template.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 2,
@@ -357,97 +259,6 @@
         },
         {
           "timestampMillis": 1778483202576
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Start Here.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
-      "openLogs": [
-        {
-          "timestampMillis": 1778483223102
-        },
-        {
-          "timestampMillis": 1778483294678
-        },
-        {
-          "timestampMillis": 1778483297461
-        },
-        {
-          "timestampMillis": 1778484020346
-        },
-        {
-          "timestampMillis": 1778518057498
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Home Dashboard.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
-      "openLogs": [
-        {
-          "timestampMillis": 1778483298063
-        },
-        {
-          "timestampMillis": 1778484012907
-        },
-        {
-          "timestampMillis": 1778484013157
-        },
-        {
-          "timestampMillis": 1778518054106
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Priority Analysis.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
-      "openLogs": [
-        {
-          "timestampMillis": 1778483930447
-        },
-        {
-          "timestampMillis": 1778483930564
-        },
-        {
-          "timestampMillis": 1778484018483
-        },
-        {
-          "timestampMillis": 1778484018748
-        },
-        {
-          "timestampMillis": 1778518056605
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Habit Tracker/Side Project Backlog.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 7,
-      "openLogs": [
-        {
-          "timestampMillis": 1778484019295
-        },
-        {
-          "timestampMillis": 1778484019582
-        },
-        {
-          "timestampMillis": 1778518057918
-        },
-        {
-          "timestampMillis": 1778518058072
-        },
-        {
-          "timestampMillis": 1778570686639
-        },
-        {
-          "timestampMillis": 1778612449305
-        },
-        {
-          "timestampMillis": 1778612458778
         }
       ]
     },
@@ -859,7 +670,7 @@
     {
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778612473470
@@ -869,6 +680,45 @@
         },
         {
           "timestampMillis": 1778650908125
+        },
+        {
+          "timestampMillis": 1778652468097
+        },
+        {
+          "timestampMillis": 1778652478048
+        },
+        {
+          "timestampMillis": 1778652506074
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778652471196
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778652488729
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778652491444
         }
       ]
     }
