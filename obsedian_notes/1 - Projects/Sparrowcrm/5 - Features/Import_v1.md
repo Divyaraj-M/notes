@@ -104,7 +104,7 @@ Users must be able to upload a file to start the import.
 - [ ] File is parsed within 5 seconds for files up to 50 MB.
 - [ ] File card shows file name, size, column count, and row count after parsing.
 - [ ] Excel files with multiple sheets prompt the user to select one sheet.
-- [ ] File type not supported 
+- [ ] File type not supported  error message
 - [ ] Empty files are rejected with: "The file contains no data."
 - [ ] First row is always treated as headers.
 - [ ] Downloadable CSV templates are available for Contacts, Companies, Deals, Contacts+Companies, and Deals+Companies.
