@@ -184,10 +184,10 @@ Action
 
 | Scenario                | Error Message  | User Action           | Needs Dropdown? |
 | ----------------------- | -------------- | --------------------- | --------------- |
-| Invalid domain          | Invalid domain | Edit domain           | Yes             |
-| Email instead of domain | Invalid domain | Extract domain        | Yes             |
-| Website URL entered     | Invalid domain | Auto-clean URL        | Yes             |
-| Public email domain     | Invalid domain | Skip company matching | Yes             |
+| Invalid domain          | Invalid domain | Edit domain           | No              |
+| Email instead of domain | Invalid domain | Extract domain        | No              |
+| Website URL entered     | Invalid domain | Auto-clean URL        | No              |
+| Public email domain     | Invalid domain | Skip company matching | No              |
 
 ---
 
@@ -203,18 +203,18 @@ Action
 
 ## Status
 
-| Scenario        | Error Message    | User Action           | Needs Dropdown? |
-| --------------- | ---------------- | --------------------- | --------------- |
-| Invalid status  | Option not exist | Select valid status   | Yes             |
+| Scenario       | Error Message    | User Action         | Needs Dropdown? |
+| -------------- | ---------------- | ------------------- | --------------- |
+| Invalid status | Option not exist | Select valid status | Yes             |
 
 
 ---
 
 ## Pipeline Stage
 
-| Scenario              | Error Message    | User Action        | Needs Dropdown? |
-| --------------------- | ---------------- | ------------------ | --------------- |
-| Stage not found       | Option not exist | Map stage          | Yes             |
+| Scenario        | Error Message    | User Action | Needs Dropdown? |
+| --------------- | ---------------- | ----------- | --------------- |
+| Stage not found | Option not exist | Map stage   | Yes             |
 
 
 
