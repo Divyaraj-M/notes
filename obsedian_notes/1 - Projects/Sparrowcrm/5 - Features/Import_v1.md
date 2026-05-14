@@ -7,6 +7,7 @@ priority: Low
 tags:
   - sparrowcrm/features/import/v1
 ---
+
 # SparrowCRM Data Import Feature Spec
 
 Table of Content
@@ -21,7 +22,7 @@ Table of Content
 - [[#Edge Cases|Edge Cases]]
 
 
-Wireframe: [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on)
+Wireframe: [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on/r70FF)
 
 ## Problem Statement
 
