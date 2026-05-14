@@ -88,9 +88,19 @@
               "icon": "lucide-file",
               "title": "6 - Metrics & Dashboards"
             }
+          },
+          {
+            "id": "5065adedd5f698a1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -410,7 +420,7 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "b123fad89ad91fa3",
+  "active": "5065adedd5f698a1",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
