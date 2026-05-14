@@ -194,11 +194,20 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778347310760
+        },
+        {
+          "timestampMillis": 1778754333928
+        },
+        {
+          "timestampMillis": 1778754334212
+        },
+        {
+          "timestampMillis": 1778754344673
         }
       ]
     },
@@ -228,7 +237,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 14,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -271,13 +280,19 @@
         },
         {
           "timestampMillis": 1778747214487
+        },
+        {
+          "timestampMillis": 1778754155668
+        },
+        {
+          "timestampMillis": 1778754205652
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778479798295
@@ -287,6 +302,15 @@
         },
         {
           "timestampMillis": 1778493297758
+        },
+        {
+          "timestampMillis": 1778754271009
+        },
+        {
+          "timestampMillis": 1778754271293
+        },
+        {
+          "timestampMillis": 1778754283501
         }
       ]
     },
@@ -319,7 +343,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 19,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -377,6 +401,9 @@
         },
         {
           "timestampMillis": 1778747135527
+        },
+        {
+          "timestampMillis": 1778754333566
         }
       ]
     },
@@ -625,7 +652,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778492485216
@@ -638,6 +665,12 @@
         },
         {
           "timestampMillis": 1778740394341
+        },
+        {
+          "timestampMillis": 1778754329282
+        },
+        {
+          "timestampMillis": 1778754329617
         }
       ]
     },
@@ -806,7 +839,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778493104611
@@ -816,6 +849,12 @@
         },
         {
           "timestampMillis": 1778747133102
+        },
+        {
+          "timestampMillis": 1778754332765
+        },
+        {
+          "timestampMillis": 1778754333019
         }
       ]
     },
@@ -1035,7 +1074,7 @@
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778662158657
@@ -1069,6 +1108,9 @@
         },
         {
           "timestampMillis": 1778753017960
+        },
+        {
+          "timestampMillis": 1778754190339
         }
       ]
     },
@@ -1102,6 +1144,49 @@
       "openLogs": [
         {
           "timestampMillis": 1778749617208
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778754261289
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778754268402
+        },
+        {
+          "timestampMillis": 1778754268570
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Shihab Muhammed.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778754280578
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778754287870
         }
       ]
     }

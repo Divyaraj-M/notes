@@ -19,12 +19,12 @@ tags:
 
 ## Acquisition Metrics
 
-| Metric | Current | Target | Trend | Notes |
-|--------|---------|--------|-------|-------|
-| Signups |  |  |  |  |
-| Activation Rate |  |  |  |  |
-| CAC |  |  |  |  |
-| Channel Breakdown |  |  |  |  |
+| Metric            | Current | Target | Trend | Notes |
+| ----------------- | ------- | ------ | ----- | ----- |
+| Signups           |         |        |       |       |
+| Activation Rate   |         |        |       |       |
+| CAC               |         |        |       |       |
+| Channel Breakdown |         |        |       |       |
 
 ## Engagement Metrics
 

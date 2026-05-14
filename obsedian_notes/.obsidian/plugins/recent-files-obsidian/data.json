@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "6 - Metrics & Dashboards",
+      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "@Ganesh Ravi Shankar(GRS)",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
+    },
+    {
+      "basename": "12 - People",
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
+    },
+    {
+      "basename": "@Shihab Muhammed",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Shihab Muhammed.md"
+    },
+    {
+      "basename": "Screen Recording 2026-05-05 at 12.06.00 PM",
+      "path": "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov"
+    },
+    {
+      "basename": "SparrowCRM-Entity-Relationships",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
+    },
+    {
       "basename": "What product managers do at PostHog - Handbook",
       "path": "Clippings/What product managers do at PostHog - Handbook.md"
     },
@@ -25,28 +65,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     },
     {
       "basename": "Imports",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
     {
       "basename": "Sales Rep",
@@ -117,10 +141,6 @@
       "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md"
     },
     {
-      "basename": "12 - People",
-      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
       "basename": "Friction points",
       "path": "4 - Archive/Sparrowgenie/Friction points.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Issues Found",
       "path": "1 - Projects/Sparrowcrm/Issues Found.md"
-    },
-    {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Formulas Mathematics",
-      "path": "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md"
-    },
-    {
-      "basename": "Mathematics",
-      "path": "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md"
-    },
-    {
-      "basename": "Week 1",
-      "path": "3 - Resources/Learning/Data Science/mathematics I/Week 1.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Untitled.md"
     }
   ],
   "omittedPaths": [],

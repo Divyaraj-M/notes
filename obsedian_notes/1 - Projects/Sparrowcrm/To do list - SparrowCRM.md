@@ -25,6 +25,6 @@
 - [ ] Metrics 
 14-May-2026
 - [x] PRD review and finalise ✅ 2026-05-14
-- [ ] Email Integration
-- [ ] AI agents PRD 
-- [ ] Metrics definitions
+- [ ] Email Integration - research ⏫ 
+- [ ] AI agents PRD 🔽 
+- [ ] Metrics definitions 🔼 
