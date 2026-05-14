@@ -7,7 +7,7 @@
         "2026-05-11": 233,
         "2026-05-12": 0,
         "2026-05-13": 684,
-        "2026-05-14": 638
+        "2026-05-14": 640
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md": {
@@ -17,6 +17,10 @@
         "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
           "initial": 139,
           "current": 157
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md": {
+          "initial": 218,
+          "current": 220
         }
       }
     }

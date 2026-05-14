@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Import_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
-    },
-    {
-      "basename": "Imports",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "5 - Features",
@@ -15,6 +11,14 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "Import_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
+    },
+    {
+      "basename": "Imports",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
     },
     {
       "basename": "3 - Roadmap & Planning",
@@ -43,10 +47,6 @@
     {
       "basename": "SparrowDesk",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "Sparrowcrm",
