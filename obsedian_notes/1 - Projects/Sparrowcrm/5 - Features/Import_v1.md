@@ -117,11 +117,10 @@ Users must be able to map each file column to a CRM field.
 
 **Acceptance Criteria**
 
-- [ ] Two-panel layout: mapping table on left, data preview (up to 100 sample values) on right.
 - [ ] Each column gets an "Import As" dropdown (Contact, Company, Deal, Note, Task, Don't Import) and a "CRM Property" dropdown scoped to that object.
 - [ ] Auto-mapping applies three tiers: exact match, normalized match, synonym dictionary.
 - [ ] Auto-mapping completes within 2 seconds for up to 100 columns.
-- [ ] Unmatched columns show "Select attribute" placeholder.
+- [ ] Unmatched columns show "Choose attribute" placeholder.
 - [ ] User can create new fields inline via "+ Create new field."
 - [ ] Two columns mapped to the same field shows an inline error and disables Continue.
 - [ ] System/read-only fields are excluded from the mapping dropdown (AI-managed, behavioural, calculated, Created Date, Created By, Modified Date, Modified By, Source).

@@ -9,7 +9,12 @@
         "2026-05-13": 684,
         "2026-05-14": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md": {
+          "initial": 3178,
+          "current": 3178
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
