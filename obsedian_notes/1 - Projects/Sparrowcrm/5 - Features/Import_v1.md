@@ -48,14 +48,11 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - [ ] Detect and update duplicate records using unique identifiers instead of creating duplicates.
 - [ ] See exactly which rows failed and why, download failed rows, fix, and re-import.
 - [ ] See the history of the previous imports with status 
-- [ ] 
 #### Import Management
-
 - [ ] Start import from Object table view, List page, or Settings → Imports
 - [ ] Resume draft imports
 - [ ] View import history with status, counts, and user info
 - [ ] Download error reports
-- [ ] Undo completed imports
 - [ ] Cancel in-progress imports
 ### [[Admin]]
 
@@ -73,8 +70,8 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - Eliminate manual record creation friction for bulk data.
 - Enable self-service data operations without engineering or admin help.
 - Maintain CRM data quality during imports through validation and dedup.
-- Support multi-object imports (Contacts + Companies + Deals) in a single file.
-- Provide an Import API for developer automation.
+- Support multi-object imports (Contacts + Companies + Deals + lists) in a single file.
+
 
 ---
 
