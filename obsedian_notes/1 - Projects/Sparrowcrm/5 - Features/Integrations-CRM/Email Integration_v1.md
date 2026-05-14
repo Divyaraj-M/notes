@@ -2,9 +2,10 @@
 owner: Divyaraj Murugan
 feature: "[[Email Integration]]"
 version: 1
-status:
-priority:
+status: Draft
+priority: High
 tags:
+  - sparrowcrm/features/integrations/email_integration/v1
 ---
 # Feature Spec Skill
 
