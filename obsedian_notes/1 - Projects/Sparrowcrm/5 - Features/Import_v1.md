@@ -167,6 +167,12 @@ Mapping must respect the user's object-level permissions.
 
 **Acceptance Criteria**
 
+#### 3. Permission-Aware Mapping
+
+Mapping must respect the user's object-level permissions.
+
+**Acceptance Criteria**
+
 - [ ]  When user searches for a field on a related object they do not have write access to, the field appears in search results but is disabled.
 - [ ]  Disabled fields show tooltip: "You don't have access to update this object. Please contact your admin."
 - [ ]  Company association fields (Domain, Record ID) used only for lookup/linking remain selectable even without Company write access.
