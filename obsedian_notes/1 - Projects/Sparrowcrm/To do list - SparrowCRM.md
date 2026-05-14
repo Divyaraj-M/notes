@@ -19,7 +19,12 @@
 - [x] Review the flow again for imports ✅ 2026-05-13
 - [x] Build a system to maintain all the things for for Divi ✅ 2026-05-13
 13-May-2026
-- [ ] Import wireframe and update the prd ⏫ 
+- [x] Import wireframe and update the prd ⏫ ✅ 2026-05-14
 - [ ] Email Integration research 🔼 
-- [ ] AI agents look for 🔼 
+- [x] AI agents look for 🔼 ✅ 2026-05-14
 - [ ] Metrics 
+14-May-2026
+- [ ] PRD review and finalise 🏁 
+- [ ] Email Integration
+- [ ] AI agents PRD 
+- [ ] Metrics definitions

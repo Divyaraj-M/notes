@@ -221,8 +221,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 11,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -256,6 +256,12 @@
         },
         {
           "timestampMillis": 1778677402195
+        },
+        {
+          "timestampMillis": 1778737881296
+        },
+        {
+          "timestampMillis": 1778737990431
         }
       ]
     },
@@ -389,8 +395,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 19,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778484038687
@@ -448,6 +454,12 @@
         },
         {
           "timestampMillis": 1778677421707
+        },
+        {
+          "timestampMillis": 1778737988238
+        },
+        {
+          "timestampMillis": 1778738140666
         }
       ]
     },
