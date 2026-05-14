@@ -172,6 +172,7 @@
     "sparrowcrm/features/contacts/v1": 1,
     "sparrowcrm/features/deals/v1": 1,
     "sparrowcrm/features/import/v1": 1,
+    "sparrowcrm/features/integrations/email_integration": 2,
     "sparrowcrm/features/integrations/sparrowdesk": 1,
     "sparrowcrm/features/meetings/v1": 1,
     "new_feature/dossiers/proposal_templates/company_templates/v1": 1,
