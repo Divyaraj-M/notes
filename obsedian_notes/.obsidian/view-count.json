@@ -225,7 +225,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -265,6 +265,9 @@
         },
         {
           "timestampMillis": 1778737990431
+        },
+        {
+          "timestampMillis": 1778747214487
         }
       ]
     },

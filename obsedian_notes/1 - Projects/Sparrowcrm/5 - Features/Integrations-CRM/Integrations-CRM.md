@@ -25,8 +25,9 @@ tags:
 | [[Native SparrowCRM for GPT]]    | P1       | Draft  |                                                                                                                                                                               |
 | [[Stripe]]                       | P2       | Draft  | Refer current HubSpot integration with Stripe                                                                                                                                 |
 | [[Jira]]                         | P2       | Draft  | Refer how HubSpot is integrated with our internal Jira account                                                                                                                |
+| [[Email Integration]]            | p 1      |        |                                                                                                                                                                               |
 |                                  |          |        |                                                                                                                                                                               |
-| [[Email Integration]]            |          |        |                                                                                                                                                                               |
+
 
 ## Data Sync Strategy
 
