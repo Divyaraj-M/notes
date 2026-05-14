@@ -47,6 +47,7 @@ This is NOT a CRM-to-CRM migration tool. Direct connectors to Salesforce, HubSpo
 - [ ] Import files that contain both contact and company columns in a single upload.
 - [ ] Detect and update duplicate records using unique identifiers instead of creating duplicates.
 - [ ] See exactly which rows failed and why, download failed rows, fix, and re-import.
+- [ ] Vs
 #### Import Management
 
 - [ ] Start import from Object table view, List page, or Settings → Imports
