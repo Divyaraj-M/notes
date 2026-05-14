@@ -215,256 +215,252 @@ The system must detect duplicates using unique identifiers per object. If the us
 - [ ]  If no unique identifier mapped and user proceeded via modal, all rows show Create.
 ---
 
-#### 5. Date Format and Pipeline Selection
-
-Date format and pipeline must be selected at mapping time, not deferred.
-
-**Acceptance Criteria**
-
-- [ ] When a column is mapped to a Date field, a date format picker appears.
-- [ ] Continue is disabled until date format is selected.
-- [ ] When a column is mapped to Deal Stage, a pipeline selector appears.
-- [ ] Pipeline defaults to workspace default but user must confirm.
-
----
-
-#### 6. "Don't Overwrite" Toggle
-
-Each mapped column must have a toggle to protect existing data.
-
-**Acceptance Criteria**
-
-- [ ] Toggle is off by default.
-- [ ] When on, import only fills empty values on existing records.
-- [ ] When on, existing non-empty values are never replaced.
-- [ ] Empty cells in the import file never overwrite existing data regardless of toggle.
-
----
-
-#### 7. Review Values with Inline Editing (Step 3)
+#### 5. Review Values with Inline Editing (Step 3)
 
 Users must be able to review and fix data issues before import.
 
+**Layout**
+
+- Left sidebar: "Columns" — lists all mapped columns. Each shows the file column name, the mapped CRM field type below it (e.g., "Email addresses", "Name > Last", "Primary location", "Angel.id", "Twitter", "Job title"). Columns with errors show a red dot indicator. Clicking a column selects it and loads its values on the right.
+- Right panel: "Sorted by Raw value" — shows a table with "Raw data" and "Mapped value" columns. Top section: "⚠ Needs review [count]" accordion showing invalid values. Each row shows the raw value, an arrow →, and the mapped/validated result with a status tag.
+- Top: breadcrumb showing File upload → Column mapping → Review values → Preview. Search bar for filtering values.
+
 **Acceptance Criteria**
 
-- [ ] Two-panel layout: column sidebar with alert icons and error counts, value table on right.
-- [ ] Values grouped into "Needs Review" (errors) and "Valid" (clean).
-- [ ] Each invalid value is editable inline.
-- [ ] Changes re-validate on blur and update counts immediately.
-- [ ] For select/multi-select: user can remap to existing option or add as new option.
-- [ ] Bulk fix button adds all unrecognized values as new options.
-- [ ] Invalid values do not block import. Unfixed values are skipped for that field/row.
-- [ ] Unique values for a column load within 1 second.
+_Column Sidebar_
+
+- [ ]  All mapped columns are listed in the left sidebar.
+- [ ]  Each column shows the file column name and the mapped CRM field type below it.
+- [ ]  Columns with validation errors show a red dot indicator next to the name.
+- [ ]  Clicking a column highlights it and loads its values in the right panel.
+
+_Value Table_
+
+- [ ]  Right panel header shows "Sorted by Raw value."
+- [ ]  Values are grouped under "⚠ Needs review [count]" accordion (errors at top) and valid values below.
+- [ ]  Each row shows: raw value → mapped value with status tag.
+- [ ]  Invalid values show a red error tag (e.g., "Invalid email", "Invalid Phone").
+- [ ]  Valid values show a green checkmark or the correctly mapped value.
+- [ ]  Clicking an invalid value row opens an inline edit popover.
+
+_Inline Edit by Field Type_
+
+- [ ]  **Email:** Popover shows "Invalid email" tag, an editable text field, "Add value" button, and "+ Create new email" option.
+- [ ]  **Phone:** Popover shows "Invalid Phone" tag and "Add value" button.
+- [ ]  **Date:** Popover shows a calendar date picker with month/year navigation, Cancel and OK buttons.
+- [ ]  **Select:** Popover shows a searchable dropdown of existing options with "Search options" field.
+- [ ]  **Multi-select:** Popover shows a searchable dropdown of existing options with "Search options" field. Multiple values can be selected.
+- [ ]  **Yes/No:** Popover shows a searchable dropdown with Yes/No values and "Search values" field.
+- [ ]  **Status:** Popover shows a searchable dropdown of existing statuses with "Search values" field.
+- [ ]  **User:** Popover shows a searchable dropdown of workspace members with "Search values" field.
+- [ ]  **Pipeline Stage:** Popover shows a searchable dropdown of stages with "Search values" field.
+- [ ]  **Location:** Popover shows a searchable dropdown with "Search values" field.
+
+_General Editing Behavior_
+
+- [ ]  Changes re-validate immediately and update the "Needs review" count.
+- [ ]  User edits a value and introduces a new error → re-validated and flagged immediately.
+- [ ]  For select/multi-select: user can remap invalid value to an existing option or add as new option.
+- [ ]  Adding a new dropdown option that already exists (case difference) → auto-matches to existing option.
+- [ ]  Invalid values do not block import. Unfixed values are skipped for that field/row during execution.
+- [ ]  Error report after import includes skipped values with reasons.
+- [ ]  Unique values for a column load within 1 second.
 
 **Validation by Field Type**
 
-|Field Type|Key Validations|Error Message|Needs Dropdown?|
+|Field Type|Key Validations|Error Tag|Edit Control|
 |---|---|---|---|
-|Text|Max length, invalid characters, formula injection, required|"This field is required."|No|
-|Email|Format, multiple emails, separator, duplicates, required|"Invalid email"|Yes|
-|Phone|Format, length, invalid characters, separator, country code, multiple numbers|"Invalid phone"|Yes|
-|Date|Format match, impossible date, ambiguous date|"Invalid date"|Date picker|
-|Number|Numeric, decimals, range (min/max), negative, decimal separator|"Invalid number"|No|
-|Currency|Amount, mixed currencies, unsupported currency|"Invalid Currency"|No|
-|Select|Option exists, archived, typo|"Option not exist"|Yes|
-|Multi-select|Option exists, separator, duplicates, too many|"Option not exist"|Yes|
-|Yes/No|Boolean value recognition|"Option not exist"|Yes|
-|URL|Valid URL, LinkedIn URL, Twitter/X URL|"Enter a valid URL."|No|
-|Domain|Valid domain, email-in-domain, URL-in-domain, public domain|"Invalid domain"|No|
-|User/Owner|User exists, active, ambiguous match|"Invalid user"|Yes|
-|Status|Status exists, archived|"Option not exist"|Yes|
-|Pipeline Stage|Stage exists, stage in pipeline, archived|"Option not exist"|Yes|
-|Relationship|Record found, multiple matches, duplicate association|"No matching record found."|Yes|
-|Rating|Valid rating, range|"Invalid rating"|No|
-|Timestamp|Valid datetime, timezone|"Invalid timestamp"|No|
-|Location|Valid location, country recognition|"Enter a valid location."|Yes (country)|
-|Blank|Optional skip, required error, blank row skip|"Empty values will be skipped."|No|
+|Text|Max length, invalid characters, formula injection, required|"This field is required."|Text field|
+|Email|Format, multiple emails, separator, duplicates, required|"Invalid email"|Text field + "Add value" + "+ Create new email"|
+|Phone|Format, length, invalid characters, separator, country code, multiple numbers|"Invalid Phone"|Text field + "Add value"|
+|Date|Format match, impossible date, ambiguous date|"Invalid date"|Calendar date picker|
+|Number|Numeric, decimals, range (min/max), negative, decimal separator|"Invalid number"|Text field|
+|Currency|Amount, mixed currencies, unsupported currency|"Invalid Currency"|Text field|
+|Select|Option exists, archived, typo|"Option not exist"|Searchable dropdown ("Search options")|
+|Multi-select|Option exists, separator, duplicates, too many|"Option not exist"|Searchable dropdown ("Search options")|
+|Yes/No|Boolean value recognition|"Option not exist"|Searchable dropdown ("Search values")|
+|URL|Valid URL, LinkedIn URL, Twitter/X URL|"Enter a valid URL."|Text field|
+|Domain|Valid domain, email-in-domain, URL-in-domain, public domain|"Invalid domain"|Text field|
+|User/Owner|User exists, active, ambiguous match|"Invalid user"|Searchable dropdown ("Search values")|
+|Status|Status exists, archived|"Option not exist"|Searchable dropdown ("Search values")|
+|Pipeline Stage|Stage exists, stage in pipeline, archived|"Option not exist"|Searchable dropdown ("Search values")|
+|Relationship|Record found, multiple matches, duplicate association|"No matching record found."|Searchable dropdown|
+|Rating|Valid rating, range|"Invalid rating"|Text field|
+|Timestamp|Valid datetime, timezone|"Invalid timestamp"|Text field|
+|Location|Valid location, country recognition|"Enter a valid location."|Searchable dropdown ("Search values")|
+|Blank|Optional skip, required error, blank row skip|"Empty values will be skipped."|Text field|
 
 ---
 
-#### 8. Preview & Enrichment (Step 4)
+#### 6. Preview & Enrichment (Step 4)
 
 Users must see exactly what will happen before importing.
 
 **Acceptance Criteria**
 
-- [ ] Summary cards show: "X will be created", "Y will be updated", "Z will be skipped."
-- [ ] Multi-object imports show separate tabs per object with per-tab counts.
-- [ ] Data table shows each record with Create (+) or Update (pencil) icon.
-- [ ] Enrichment toggle lets user choose whether to enrich after import.
-- [ ] Enrichment only fills empty fields, never overwrites.
-- [ ] If active workflows would fire, a warning shows workflow names and option to suppress.
+- [ ]  Summary cards show: "X will be created", "Y will be updated", "Z will be skipped."
+- [ ]  Multi-object imports show separate tabs per object with per-tab counts.
+- [ ]  Data table shows each record with Create (+) or Update (pencil) icon.
+- [ ]  Enrichment toggle lets user choose whether to enrich after import.
+- [ ]  Enrichment only fills empty fields, never overwrites.
+- [ ]  If active workflows would fire, a warning shows workflow names and option to suppress.
 
 ---
 
-#### 9. Import Execution (Step 5)
+#### 7. Import Execution (Step 5)
 
 The import must run in the background with progress visibility.
 
 **Acceptance Criteria**
 
-- [ ] Import job starts within 2 seconds.
-- [ ] Progress bar shows percentage and "Processing record X of Y."
-- [ ] Live counters show Created / Updated / Failed.
-- [ ] "You can safely close this page" message is shown.
-- [ ] Cancel button stops import. Already-processed records are kept.
-- [ ] One bad row does not roll back the entire import.
-- [ ] Job is idempotent per row. Crash and restart does not reprocess rows.
-- [ ] Max 1 active import per workspace. Additional imports are queued with position and wait time.
+- [ ]  Import job starts within 2 seconds.
+- [ ]  Progress bar shows percentage and "Processing record X of Y."
+- [ ]  Live counters show Created / Updated / Failed.
+- [ ]  "You can safely close this page" message is shown.
+- [ ]  Cancel button stops import. Already-processed records are kept.
+- [ ]  One bad row does not roll back the entire import.
+- [ ]  Job is idempotent per row. Crash and restart does not reprocess rows.
+- [ ]  Max 1 active import per workspace. Additional imports are queued with position and wait time.
 
 **Completion States**
 
-- [ ] Success: "Import complete. [X] rows created, [Y] rows updated."
-- [ ] Partial success: "Import completed with issues. [X] created, [Y] updated, [Z] failed."
-- [ ] Failed rows message: "[Z] rows couldn't be imported. Download the failed rows file to review errors and re-import after fixing them."
-- [ ] Error CSV includes original data + "Error Reason" and "Failed Field" columns.
-- [ ] In-app notification on completion.
-- [ ] Email notification with per-object breakdown and link to import history.
+- [ ]  Success: "Import complete. [X] rows created, [Y] rows updated."
+- [ ]  Partial success: "Import completed with issues. [X] created, [Y] updated, [Z] failed."
+- [ ]  Failed rows message: "[Z] rows couldn't be imported. Download the failed rows file to review errors and re-import after fixing them."
+- [ ]  Error CSV includes original data + "Error Reason" and "Failed Field" columns.
+- [ ]  In-app notification on completion.
+- [ ]  Email notification with per-object breakdown and link to import history.
 
 ---
 
-#### 10. Multi-Object Import
+#### 8. Multi-Object Import
 
 A single file must support creating and linking records across multiple objects.
 
 **Acceptance Criteria**
 
-- [ ] When relationship fields are mapped, system detects multi-object scope.
-- [ ] Related objects (Companies) are created first, then primary records (Contacts), then child entities (Deals, Notes, Tasks).
-- [ ] Entities on the same row are linked to each other.
-- [ ] If company domain matches an existing company, contact is linked to it.
-- [ ] If company domain does not match, a new company is created (if user has permission).
-- [ ] Company data conflicts across rows: single-value fields → last row wins (unless Don't Overwrite on). Multi-value fields → additive.
-- [ ] Public email domains (gmail, outlook) do not auto-create companies.
-- [ ] Preview shows separate tabs per affected object.
+- [ ]  When relationship fields are mapped, system detects multi-object scope.
+- [ ]  Related objects (Companies) are created first, then primary records (Contacts), then child entities (Deals, Notes, Tasks).
+- [ ]  Entities on the same row are linked to each other.
+- [ ]  If company domain matches an existing company, contact is linked to it.
+- [ ]  If company domain does not match, a new company is created (if user has permission).
+- [ ]  Company data conflicts across rows: single-value fields → last row wins (unless Don't Overwrite on). Multi-value fields → additive.
+- [ ]  Public email domains (gmail, outlook) do not auto-create companies.
+- [ ]  Preview shows separate tabs per affected object.
 
 ---
 
-#### 11. Import into a List
+#### 9. Import into a List
 
 Users must be able to import directly into a static list.
 
 **Acceptance Criteria**
 
-- [ ] Import from list page targets the list's parent object.
-- [ ] Destination shown as "Importing into [List Name] (Object)."
-- [ ] Extra setting: "For records already in this list: Add again / Update existing."
-- [ ] New fields created via "+ Create new field" are added to the parent object.
-- [ ] Successfully created/updated records are added to the list.
-- [ ] Only works with static lists.
+- [ ]  Import from list page targets the list's parent object.
+- [ ]  Destination shown as "Importing into [List Name] (Object)."
+- [ ]  Extra setting: "For records already in this list: Add again / Update existing."
+- [ ]  New fields created via "+ Create new field" are added to the parent object.
+- [ ]  Successfully created/updated records are added to the list.
+- [ ]  Only works with static lists.
 
 ---
 
-#### 12. Post-Import System Rules
+#### 10. Post-Import System Rules
 
 System must apply consistent rules to all imported records.
 
 **Acceptance Criteria**
 
-- [ ] Source field auto-set to "CSV Import" on all created records. Not mappable.
-- [ ] Record owner defaults to importing user unless Owner column is mapped and resolved.
-- [ ] Owner resolution matches by email first, then full name.
-- [ ] Activity timeline entry on every affected record: "Record created/updated via import — [file name]."
-- [ ] Empty cells never overwrite existing data.
-- [ ] Multi-value fields are additive (existing values preserved, new values added).
-- [ ] Intra-file duplicates: warning shown, last occurrence wins.
+- [ ]  Source field auto-set to "CSV Import" on all created records. Not mappable.
+- [ ]  Record owner defaults to importing user unless Owner column is mapped and resolved.
+- [ ]  Owner resolution matches by email first, then full name.
+- [ ]  Activity timeline entry on every affected record: "Record created/updated via import — [file name]."
+- [ ]  Empty cells never overwrite existing data.
+- [ ]  Multi-value fields are additive (existing values preserved, new values added).
+- [ ]  Intra-file duplicates: warning shown, last occurrence wins.
 
 ---
 
-#### 13. Undo Import
-
-Admins must be able to undo a completed import.
-
-**Acceptance Criteria**
-
-- [ ] Admin selects completed import from Settings → Imports.
-- [ ] System shows: "This will permanently delete [X] records that were created. Updated records cannot be reverted. Type UNDO to confirm."
-- [ ] Created records are bulk-deleted. Status changes to "Undone."
-- [ ] Records updated by a subsequent import cannot be undone. Message explains why.
-
----
-
-#### 14. Import History
+#### 11. Import History
 
 Users must be able to view and manage past imports.
 
 **Acceptance Criteria**
 
-- [ ] Settings → Imports shows: Date, User, Object, File name, Created, Updated, Failed, Status.
-- [ ] Statuses: Completed, Failed, Canceled, Draft, Queued.
-- [ ] Drafts are resumable from the step where user left off.
-- [ ] Admins see all imports. Reps see only their own.
-- [ ] Completed imports archived after 90 days. Drafts auto-deleted after 30 days.
+- [ ]  Settings → Imports shows: Date, User, Object, File name, Created, Updated, Failed, Status.
+- [ ]  Statuses: Completed, Failed, Canceled, Draft, Queued.
+- [ ]  Drafts are resumable from the step where user left off.
+- [ ]  Admins see all imports. Reps see only their own.
+- [ ]  Completed imports archived after 90 days. Drafts auto-deleted after 30 days.
 
 ---
 
 ### Nice-to-Have (P1)
 
-#### 15. Import API
+#### 12. Import API
 
 Developers should be able to automate imports programmatically.
 
 **Acceptance Criteria**
 
-- [ ] POST /api/v1/imports accepts file + JSON payload (target object, mappings, dedup settings, list ID).
-- [ ] Returns import ID immediately. Import runs asynchronously.
-- [ ] GET /api/v1/imports/{importId} returns status, per-object counts, error report URL.
-- [ ] Same validation pipeline as UI wizard.
-- [ ] Rate limit: 10 imports/hour/workspace.
-- [ ] Max file size: 100 MB.
-- [ ] Webhook callback configurable per workspace.
+- [ ]  POST /api/v1/imports accepts file + JSON payload (target object, mappings, dedup settings, list ID).
+- [ ]  Returns import ID immediately. Import runs asynchronously.
+- [ ]  GET /api/v1/imports/{importId} returns status, per-object counts, error report URL.
+- [ ]  Same validation pipeline as UI wizard.
+- [ ]  Rate limit: 10 imports/hour/workspace.
+- [ ]  Max file size: 100 MB.
+- [ ]  Webhook callback configurable per workspace.
 
 ---
 
-#### 16. Workflow Trigger Warning
+#### 13. Workflow Trigger Warning
 
 Users should be warned if their import would trigger active workflows.
 
 **Acceptance Criteria**
 
-- [ ] System checks active workflows with "Record created" or "Field updated" triggers before import.
-- [ ] Warning shows workflow names and estimated trigger count.
-- [ ] Option to suppress workflows for this import.
+- [ ]  System checks active workflows with "Record created" or "Field updated" triggers before import.
+- [ ]  Warning shows workflow names and estimated trigger count.
+- [ ]  Option to suppress workflows for this import.
 
 ---
 
-#### 17. Workspace Record Limit Warning
+#### 14. Workspace Record Limit Warning
 
 Users should be warned if the import would exceed workspace limits.
 
 **Acceptance Criteria**
 
-- [ ] Preview shows: "Your workspace has space for X records. This import creates Y."
-- [ ] Warning does not block import but is clearly visible.
+- [ ]  Preview shows: "Your workspace has space for X records. This import creates Y."
+- [ ]  Warning does not block import but is clearly visible.
 
 ---
 
-#### 18. CSV Delimiter and Encoding Handling
+#### 15. CSV Delimiter and Encoding Handling
 
 System should handle non-standard file formats gracefully.
 
 **Acceptance Criteria**
 
-- [ ] Auto-detect comma, semicolon, tab, and pipe delimiters.
-- [ ] If delimiter is ambiguous, ask user.
-- [ ] If encoding is not UTF-8, show warning: "Some characters may not display correctly. Try re-saving as UTF-8."
-- [ ] User can continue or re-upload.
+- [ ]  Auto-detect comma, semicolon, tab, and pipe delimiters.
+- [ ]  If delimiter is ambiguous, ask user.
+- [ ]  If encoding is not UTF-8, show warning: "Some characters may not display correctly. Try re-saving as UTF-8."
+- [ ]  User can continue or re-upload.
 
 ---
 
 ### Future Considerations (P2)
 
-- [ ] Scheduled/recurring imports.
-- [ ] Saved mapping templates for reuse across imports.
-- [ ] Undo for updated records (requires field-level change tracking).
-- [ ] Fuzzy duplicate matching beyond exact unique identifiers.
-- [ ] AI-assisted mapping for non-English headers.
-- [ ] Same-object associations (contact-to-contact relationships).
-- [ ] ZIP file multi-file import for migration scenarios.
+- [ ]  Scheduled/recurring imports.
+- [ ]  Saved mapping templates for reuse across imports.
+- [ ]  Fuzzy duplicate matching beyond exact unique identifiers.
+- [ ]  AI-assisted mapping for non-English headers.
+- [ ]  Same-object associations (contact-to-contact relationships).
+- [ ]  ZIP file multi-file import for migration scenarios.
 
 ---
 
-##  Technical Considerations
+## 7. Technical Considerations
 
 ### Data Handling
 
@@ -503,7 +499,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## Success Metrics
+## 8. Success Metrics
 
 ### Leading Metrics
 
@@ -531,7 +527,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## Open Questions
+## 9. Open Questions
 
 ### Blocking
 
@@ -551,7 +547,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## Edge Cases
+## 10. Edge Cases
 
 | Scenario                                                    | Expected Behavior                                                                   |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -585,7 +581,6 @@ System should handle non-standard file formats gracefully.
 | Intra-file duplicates                                       | Warning. Last occurrence wins.                                                      |
 | Import triggers active workflows                            | Warning in Preview with names and suppress option.                                  |
 | Import exceeds workspace record limit                       | Warning in Preview with capacity info.                                              |
-| Undo on records updated by later import                     | Cannot undo. Message explains why.                                                  |
 | Formula injection (=, +, -, @)                              | Sanitized. "Formula values are not supported."                                      |
 | Unicode and accents                                         | UTF-8 supported. Garbled characters trigger warning.                                |
 | Very long text                                              | Truncated if exceeds field max length.                                              |

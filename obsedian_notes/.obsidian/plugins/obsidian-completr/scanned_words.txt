@@ -6842,6 +6842,7 @@ BuildBetter
 Beta
 Blitzscale
 Boolean
+Bottom
 design
 does
 do
@@ -10726,6 +10727,8 @@ Stripped
 Split
 Sanitized
 Skipped
+Skipping
+Subtext
 Lead
 Loop
 Linking
@@ -11933,6 +11936,7 @@ Availability
 Apollo
 Attio
 Aware
+Attributes
 approved
 atomic
 and
@@ -12874,6 +12878,7 @@ adjustments
 asynchronous
 asynchronously
 accents
+atleast
 QA
 Question
 Quality
@@ -22035,6 +22040,7 @@ humility
 humor
 hooks
 humanize
+hyphens
 Every
 Engineers
 Expected
@@ -24276,6 +24282,7 @@ uneasy
 unlocks
 unrecognized
 unfixed
+underscores
 phases
 problem
 placeholder
@@ -25274,6 +25281,7 @@ pencil
 programmatically
 payload
 pool
+proceeded
 goals
 give
 generates
@@ -30321,6 +30329,7 @@ Memes
 Memorable
 Mature
 MoM
+Mapped
 UI
 Users
 User

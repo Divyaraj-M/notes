@@ -5,16 +5,36 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     },
     {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
-    },
-    {
       "basename": "Imports",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "Sales Rep",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
+      "basename": "User Personas",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md"
+    },
+    {
+      "basename": "To do list - SparrowCRM",
+      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "Sparrowdesk_v1",
@@ -69,10 +89,6 @@
       "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md"
     },
     {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
       "basename": "5 - Features",
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md"
     },
@@ -101,14 +117,6 @@
       "path": "4 - Archive/Sparrowgenie/Friction points.md"
     },
     {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
-      "basename": "User Personas",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md"
-    },
-    {
       "basename": "Admin",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md"
     },
@@ -125,16 +133,8 @@
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md"
     },
     {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
-    },
-    {
       "basename": "Sales Manager",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md"
-    },
-    {
-      "basename": "Sales Rep",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md"
     },
     {
       "basename": "Meetings_v1",
