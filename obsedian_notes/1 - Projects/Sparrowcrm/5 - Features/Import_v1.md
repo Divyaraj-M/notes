@@ -385,13 +385,43 @@ System must apply consistent rules to all imported records.
 
 Users must be able to view and manage past imports.
 
+**Location**
+
+Settings → Objects → [Object name] → Imports tab.
+
+Page shows two sections:
+
+- "Imports" — "Set defaults for service object imports"
+- "Recent Imports" — "View and manage recent import activities"
+
+**Table Columns:** IMPORT NAME | Imported by | DATE | STATUS | RECORDS
+
+**Statuses:**
+
+|Status|Icon|Description|
+|---|---|---|
+|In Progress|↗️ arrow icon|Import currently running|
+|Done|✅ green dot|Import completed successfully|
+|Draft|✏️ pencil icon|Import saved but not executed|
+
+**Row Actions (context menu):**
+
+- "Download" — download the imported file
+- "Delete Import" — delete the import record (shown in red)
+- "Imported file cannot be deleted" — shown grayed out when the file is not deletable
+
 **Acceptance Criteria**
 
-- [ ]  Settings → Imports shows: Date, User, Object, File name, Created, Updated, Failed, Status.
-- [ ]  Statuses: Completed, Failed, Canceled, Draft, Queued.
-- [ ]  Drafts are resumable from the step where user left off.
+- [ ]  Import history is accessible from Settings → Objects → [Object name] → Imports tab.
+- [ ]  "Recent Imports" table shows: Import Name, Imported by (with user avatar and name), Date, Status, Records count.
+- [ ]  Status column shows correct icon: arrow for In Progress, green dot for Done, pencil for Draft.
+- [ ]  Each row has a context menu (three dots) with "Download" and "Delete Import" options.
+- [ ]  "Download file" link is shown inline for In Progress imports.
+- [ ]  Completed imports show "Done" status with green dot.
+- [ ]  Draft imports show pencil icon. Clicking a draft row resumes the import from the step where user left off.
+- [ ]  "Delete Import" is shown in red text in the context menu.
+- [ ]  If an imported file cannot be deleted, the context menu shows "Imported file cannot be deleted" grayed out.
 - [ ]  Admins see all imports. Reps see only their own.
-- [ ]  Completed imports archived after 90 days. Drafts auto-deleted after 30 days.
 
 ---
 
