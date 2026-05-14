@@ -184,26 +184,35 @@ Mapping must respect the user's object-level permissions.
 
 #### 4. Unique Identifier Enforcement
 
-The system must detect duplicates using unique identifiers per object.
+The system must detect duplicates using unique identifiers per object. If the user clicks Continue without mapping a unique identifier, a blocking modal appears.
+
+**Modal: "Map unique fields"**
+
+- Title: "Map unique fields"
+- Body: "Map a unique identifier so existing records can be matched. Importing without a unique identifier will create new records instead."
+- Subtext: "To prevent duplicates, map one of the following columns:"
 
 |Object|Unique Identifier|
 |---|---|
-|Contacts|Email Address|
-|Companies|Domain|
-|Deals|Deal Name + Deal Stage + Deal Owner (composite)|
-|Custom Objects|Admin-configured field, or Record ID|
-|Lists|Same as parent object|
+|Contact|Record ID or Email|
+|Company|Record ID or Domain|
+|Deal|Record ID or Deal name + Deal stage + Deal owner|
+
+- Checkbox: "I understand this import may create duplicates"
+- Buttons: Cancel | Proceed
+- Proceed button is disabled until the checkbox is checked.
 
 **Acceptance Criteria**
 
-- [ ] Info banner shown at top of mapping page explaining unique identifiers per object.
-- [ ] If user clicks Continue without mapping a unique identifier, a blocking modal appears.
-- [ ] Modal has checkbox "I understand — let the system create duplicate records."
-- [ ] "Continue anyway" is disabled until checkbox is checked.
-- [ ] If unique identifier is mapped and a row matches an existing record, Preview shows Update.
-- [ ] If unique identifier is mapped and no match, Preview shows Create.
-- [ ] If no unique identifier mapped, all rows show Create.
-
+- [ ]  If user clicks Continue without mapping a unique identifier, the "Map unique fields" modal appears.
+- [ ]  Modal shows the unique identifier table for Contact, Company, and Deal.
+- [ ]  Checkbox "I understand this import may create duplicates" is unchecked by default.
+- [ ]  "Proceed" button is disabled until the checkbox is checked.
+- [ ]  Clicking "Cancel" returns user to the mapping page to map a unique field.
+- [ ]  Clicking "Proceed" (after checkbox) continues the import with all rows treated as Create.
+- [ ]  If unique identifier is mapped and a row matches an existing record, Preview shows Update.
+- [ ]  If unique identifier is mapped and no match, Preview shows Create.
+- [ ]  If no unique identifier mapped and user proceeded via modal, all rows show Create.
 ---
 
 #### 5. Date Format and Pipeline Selection
