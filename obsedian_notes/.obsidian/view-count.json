@@ -489,8 +489,8 @@
     },
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 15,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -536,6 +536,12 @@
         },
         {
           "timestampMillis": 1778662212657
+        },
+        {
+          "timestampMillis": 1778752935001
+        },
+        {
+          "timestampMillis": 1778752935172
         }
       ]
     },
@@ -932,8 +938,8 @@
     },
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 13,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -973,6 +979,12 @@
         },
         {
           "timestampMillis": 1778662217239
+        },
+        {
+          "timestampMillis": 1778752934285
+        },
+        {
+          "timestampMillis": 1778752934570
         }
       ]
     },
@@ -1001,8 +1013,8 @@
     },
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778662158657
@@ -1018,6 +1030,12 @@
         },
         {
           "timestampMillis": 1778662218769
+        },
+        {
+          "timestampMillis": 1778752935778
+        },
+        {
+          "timestampMillis": 1778752936031
         }
       ]
     },

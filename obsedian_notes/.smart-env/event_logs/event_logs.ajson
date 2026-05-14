@@ -2445,3 +2445,5 @@
 "event_logs:sources:reimport_progress": {"key":"sources:reimport_progress","ct":2079,"first_at":1775932854277,"last_at":1778749648406,"class_name":"EventLog","event_sources":{"run_re_import":2079}},
 "event_logs:sources:reimport_completed": {"key":"sources:reimport_completed","ct":929,"first_at":1775932854432,"last_at":1778749648480,"class_name":"EventLog","event_sources":{"run_re_import":929}},
 "event_logs:items:embedded": {"key":"items:embedded","ct":401,"first_at":1778345867848,"last_at":1778749648471,"class_name":"EventLog","event_sources":{"process_embed_queue":401}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1542,"first_at":1775932412004,"last_at":1778752934088,"class_name":"EventLog","event_sources":{"active-leaf-change":1526,"open_source":3,"file-open":13}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1543,"first_at":1775932412004,"last_at":1778752934874,"class_name":"EventLog","event_sources":{"active-leaf-change":1527,"open_source":3,"file-open":13}},

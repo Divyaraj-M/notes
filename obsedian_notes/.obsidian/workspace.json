@@ -71,8 +71,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
-                "mode": "source",
+                "file": "Clippings/What product managers do at PostHog - Handbook.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email Integration_v1"
+              "title": "What product managers do at PostHog - Handbook"
             }
           }
         ],
@@ -412,8 +412,10 @@
   },
   "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
+    "Clippings/What we look for in product managers - Handbook.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -430,8 +432,6 @@
     "1 - Projects/Second Stream Revenue/Youtube Scripts/Youtube Scripts.md",
     "Thinking.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
-    "Clippings/What we look for in product managers - Handbook.md",
-    "Clippings/How to find edge cases before they become expensive issues.md",
     "3 - Resources/PM Prompts Library/storytelling/README.md",
     "code-generate-scenes.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
