@@ -114,16 +114,50 @@ Users must be able to upload a file to start the import.
 
 Users must be able to map each file column to a CRM field.
 
+**Layout**
+
+- Left side: "Data extracted from file" — shows each file column name with up to 4 sample values and "+20 more" count.
+- Right side: "Mapping" — a "Choose attribute" dropdown per column.
+- Top bar: breadcrumb showing File upload → Column mapping → Review values → Preview. File name shown with a delete icon.
+- Top right: search bar and a filter icon with chips: Unmapped, Mapped by…, Mapped = Manually, Mapped = Automatically.
+
 **Acceptance Criteria**
 
-- [ ] Each column gets an "Import As" dropdown (Contact, Company, Deal, Note, Task, Don't Import) and a "CRM Property" dropdown scoped to that object.
-- [ ] Auto-mapping applies three tiers: exact match, normalized match, synonym dictionary.
-- [ ] Auto-mapping completes within 2 seconds for up to 100 columns.
-- [ ] Unmatched columns show "Choose attribute" placeholder.
-- [ ] User can create new fields inline via "+ Create new field."
-- [ ] Two columns mapped to the same field shows an inline error and disables Continue.
-- [ ] System/read-only fields are excluded from the mapping dropdown (AI-managed, behavioural, calculated, Created Date, Created By, Modified Date, Modified By, Source).
-- [ ] Record ID is allowed for lookup purposes.
+_Mapping Dropdown_
+
+- [ ]  Each column has a "Choose attribute" dropdown. Default state shows "– Choose attribute –" as placeholder.
+- [ ]  Clicking the dropdown opens a searchable list with a "Search Attributes" field at the top.
+- [ ]  Dropdown shows a "Suggested" section at the top with the most likely matches for that column (e.g., Name > first name, Email, Contacts > Title).
+- [ ]  Below suggestions, all available attributes are listed and searchable.
+- [ ]  Relationship fields are shown with nested notation: "Contact > Company name", "Contact > Company domain", "Contact > Company Industry."
+- [ ]  Bottom of dropdown shows "+ Create Attribute" to create a new field inline.
+- [ ]  System/read-only fields are excluded from the dropdown (AI-managed, behavioural, calculated, Created Date, Created By, Modified Date, Modified By, Source).
+- [ ]  Record ID is allowed for lookup purposes.
+
+_Auto-Mapping_
+
+- [ ]  Auto-mapping applies three tiers in order: exact match (case-insensitive), normalized match (strips spaces/underscores/hyphens), synonym dictionary.
+- [ ]  Auto-mapping completes within 2 seconds for up to 100 columns.
+- [ ]  Auto-mapped columns show green "Automatically mapped" label below the dropdown.
+- [ ]  Manually mapped columns show "Manually mapped by you" label below the dropdown.
+- [ ]  Unmapped columns show orange "Unmapped" label below the dropdown.
+
+_Mapping Status and Filters_
+
+- [ ]  Top-right filter icon opens filter chips: Unmapped, Mapped by…, Mapped = Manually, Mapped = Automatically.
+- [ ]  Filters allow user to quickly find unmapped columns or review auto-mapped ones.
+- [ ]  At least one column must be mapped to enable the Continue button.
+- [ ]  If no columns are mapped, Continue button is disabled with tooltip: "You need to map atleast one column to continue."
+
+_Duplicate Mapping Error_
+
+- [ ]  If two columns are mapped to the same attribute, both show an inline error tooltip: "This mapping is invalid because multiple mappings have been added for the same attribute. Please remove one of the mappings."
+- [ ]  Continue button shows tooltip: "Fix the issues to Continue" and is disabled until the duplicate is resolved.
+
+_Skipping Columns_
+
+- [ ]  To skip a column, the user does not map any field to it, or clicks the x to remove an auto-mapped one.
+- [ ]  Unmapped columns are ignored during import
 
 ---
 
@@ -133,10 +167,12 @@ Mapping must respect the user's object-level permissions.
 
 **Acceptance Criteria**
 
-- [ ] User with Contact write access but no Company write access sees Company association fields (Domain, Record ID) enabled.
-- [ ] User with Contact write access but no Company write access sees Company mutation fields (Name, Industry, ARR, etc.) disabled with tooltip: "You don't have permission to edit Companies."
-- [ ] Backend enforces permission even if frontend is bypassed.
-- [ ] If user maps Company Domain for association and no matching company is found, contact is created without company association and error report notes the reason.
+- [ ]  When user searches for a field on a related object they do not have write access to, the field appears in search results but is disabled.
+- [ ]  Disabled fields show tooltip: "You don't have access to update this object. Please contact your admin."
+- [ ]  Company association fields (Domain, Record ID) used only for lookup/linking remain selectable even without Company write access.
+- [ ]  Company mutation fields (Name, Industry, ARR, etc.) are disabled with the permission tooltip if user lacks Company write access.
+- [ ]  Backend enforces permission even if frontend is bypassed.
+- [ ]  If user maps Company Domain for association and no matching company is found, contact is created without company association and error report notes the reason.
 
 ---
 
