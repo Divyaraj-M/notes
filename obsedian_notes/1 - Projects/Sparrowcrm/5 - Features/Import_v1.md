@@ -395,63 +395,10 @@ Users must be able to view and manage past imports.
 
 ---
 
-### Nice-to-Have (P1)
-
-#### 12. Import API
-
-Developers should be able to automate imports programmatically.
-
-**Acceptance Criteria**
-
-- [ ]  POST /api/v1/imports accepts file + JSON payload (target object, mappings, dedup settings, list ID).
-- [ ]  Returns import ID immediately. Import runs asynchronously.
-- [ ]  GET /api/v1/imports/{importId} returns status, per-object counts, error report URL.
-- [ ]  Same validation pipeline as UI wizard.
-- [ ]  Rate limit: 10 imports/hour/workspace.
-- [ ]  Max file size: 100 MB.
-- [ ]  Webhook callback configurable per workspace.
-
----
-
-#### 13. Workflow Trigger Warning
-
-Users should be warned if their import would trigger active workflows.
-
-**Acceptance Criteria**
-
-- [ ]  System checks active workflows with "Record created" or "Field updated" triggers before import.
-- [ ]  Warning shows workflow names and estimated trigger count.
-- [ ]  Option to suppress workflows for this import.
-
----
-
-#### 14. Workspace Record Limit Warning
-
-Users should be warned if the import would exceed workspace limits.
-
-**Acceptance Criteria**
-
-- [ ]  Preview shows: "Your workspace has space for X records. This import creates Y."
-- [ ]  Warning does not block import but is clearly visible.
-
----
-
-#### 15. CSV Delimiter and Encoding Handling
-
-System should handle non-standard file formats gracefully.
-
-**Acceptance Criteria**
-
-- [ ]  Auto-detect comma, semicolon, tab, and pipe delimiters.
-- [ ]  If delimiter is ambiguous, ask user.
-- [ ]  If encoding is not UTF-8, show warning: "Some characters may not display correctly. Try re-saving as UTF-8."
-- [ ]  User can continue or re-upload.
-
----
-
 ### Future Considerations (P2)
 
 - [ ]  Scheduled/recurring imports.
+- [ ] Import API
 - [ ]  Saved mapping templates for reuse across imports.
 - [ ]  Fuzzy duplicate matching beyond exact unique identifiers.
 - [ ]  AI-assisted mapping for non-English headers.
@@ -460,7 +407,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 7. Technical Considerations
+## Technical Considerations
 
 ### Data Handling
 
@@ -499,7 +446,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 8. Success Metrics
+##  Success Metrics
 
 ### Leading Metrics
 
@@ -512,7 +459,6 @@ System should handle non-standard file formats gracefully.
 ### Lagging Metrics
 
 - Support tickets about import as percentage of total volume.
-- API import adoption (workspaces using Import API).
 - Manual record creation rate reduction post-launch.
 - Retention impact for accounts using import.
 
@@ -527,7 +473,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 9. Open Questions
+## Open Questions
 
 ### Blocking
 
@@ -547,7 +493,7 @@ System should handle non-standard file formats gracefully.
 
 ---
 
-## 10. Edge Cases
+## Edge Cases
 
 | Scenario                                                    | Expected Behavior                                                                   |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
