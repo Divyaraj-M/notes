@@ -195,7 +195,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778347310760
@@ -208,6 +208,12 @@
         },
         {
           "timestampMillis": 1778754344673
+        },
+        {
+          "timestampMillis": 1778755464937
+        },
+        {
+          "timestampMillis": 1778755465455
         }
       ]
     },
@@ -1187,6 +1193,19 @@
       "openLogs": [
         {
           "timestampMillis": 1778754287870
+        }
+      ]
+    },
+    {
+      "path": "CRM Metrics Framework.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778755493227
+        },
+        {
+          "timestampMillis": 1778755493593
         }
       ]
     }

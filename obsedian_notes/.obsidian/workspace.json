@@ -93,10 +93,24 @@
             "id": "5065adedd5f698a1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "CRM Metrics Framework.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CRM Metrics Framework"
             }
           }
         ],
@@ -423,6 +437,7 @@
   "active": "5065adedd5f698a1",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
+    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -449,7 +464,6 @@
     "1 - Projects/Second Stream Revenue/Youtube Scripts/Youtube Scripts.md",
     "Thinking.md",
     "3 - Resources/PM Prompts Library/storytelling/README.md",
-    "code-generate-scenes.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "Habit Tracker.base",
     "Untitled.canvas",

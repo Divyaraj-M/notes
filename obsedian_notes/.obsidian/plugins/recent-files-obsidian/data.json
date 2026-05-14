@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
+    },
+    {
       "basename": "6 - Metrics & Dashboards",
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Routine",
       "path": "2 - Areas/Daily/Routine.md"
-    },
-    {
-      "basename": "Issues Found",
-      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     }
   ],
   "omittedPaths": [],
