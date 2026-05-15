@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
+      "basename": "Tools",
+      "path": "3 - Resources/Tools.md"
     },
     {
       "basename": "UI components",
       "path": "3 - Resources/UI components.md"
+    },
+    {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "To do list - SparrowCRM",
@@ -195,10 +199,6 @@
     {
       "basename": "Weekly Review Template",
       "path": "3 - Resources/Templates/Weekly Review Template.md"
-    },
-    {
-      "basename": "Daily Template",
-      "path": "3 - Resources/Templates/Daily Template.md"
     }
   ],
   "omittedPaths": [],

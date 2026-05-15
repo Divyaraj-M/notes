@@ -1230,10 +1230,26 @@
     {
       "path": "3 - Resources/UI components.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778828459495
+        },
+        {
+          "timestampMillis": 1778830327581
+        },
+        {
+          "timestampMillis": 1778830327880
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Tools.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778830346246
         }
       ]
     }

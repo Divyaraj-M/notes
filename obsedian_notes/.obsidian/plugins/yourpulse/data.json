@@ -8,7 +8,7 @@
         "2026-05-12": 0,
         "2026-05-13": 684,
         "2026-05-14": 656,
-        "2026-05-15": 92
+        "2026-05-15": 93
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
@@ -18,6 +18,14 @@
         "UI components.md": {
           "initial": 1,
           "current": 59
+        },
+        "3 - Resources/UI components.md": {
+          "initial": 63,
+          "current": 64
+        },
+        "3 - Resources/Tools.md": {
+          "initial": 1,
+          "current": 1
         }
       }
     }
