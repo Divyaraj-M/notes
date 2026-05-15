@@ -314,7 +314,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -329,7 +329,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To do list - SparrowCRM"
+              "title": "Email Integration_v1"
             }
           },
           {
@@ -481,8 +481,10 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "ea738f636e7b61a1",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "3 - Resources/UI components.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
@@ -504,9 +506,7 @@
     "finance/Data",
     "finance",
     "3 - Resources/Tools.md",
-    "3 - Resources/UI components.md",
     "CRM Metrics Framework.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
