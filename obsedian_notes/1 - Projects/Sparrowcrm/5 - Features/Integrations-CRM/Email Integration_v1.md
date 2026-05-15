@@ -28,7 +28,7 @@ A well-structured PRD follows this template:
 
 - [ ] See all email conversations for a contact inside CRM
 - [ ] View email conversations of other sales reps for shared records
-- [ ] See all conversations at the account/company level
+- [ ] ==See all conversations at the account/company level== Deal level 
 - [ ] View email association with contact/account/opportunity
 
 #### Email Sending
