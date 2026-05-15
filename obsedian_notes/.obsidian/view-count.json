@@ -1246,10 +1246,16 @@
     {
       "path": "3 - Resources/Tools.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778830346246
+        },
+        {
+          "timestampMillis": 1778830705023
+        },
+        {
+          "timestampMillis": 1778830723693
         }
       ]
     }
