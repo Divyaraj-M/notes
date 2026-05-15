@@ -1202,7 +1202,7 @@
     {
       "path": "CRM Metrics Framework.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778755493227
@@ -1212,6 +1212,22 @@
         },
         {
           "timestampMillis": 1778828203253
+        },
+        {
+          "timestampMillis": 1778828453315
+        },
+        {
+          "timestampMillis": 1778828458264
+        }
+      ]
+    },
+    {
+      "path": "UI components.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778828459495
         }
       ]
     }

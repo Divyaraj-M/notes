@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "UI components",
+      "path": "UI components.md"
+    },
+    {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Daily Template",
       "path": "3 - Resources/Templates/Daily Template.md"
-    },
-    {
-      "basename": "Routine",
-      "path": "2 - Areas/Daily/Routine.md"
     }
   ],
   "omittedPaths": [],
