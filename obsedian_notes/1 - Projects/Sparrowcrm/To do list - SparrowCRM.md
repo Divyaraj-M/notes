@@ -30,6 +30,6 @@
 - [x] Metrics definitions 🔼 ✅ 2026-05-15
 15-May-2026
 - [ ] What all the metrics we are gonna measure ⏫ 
+- [ ] Filters for the objects ⏫ 
 - [ ] [[Email Integration_v1]] Wireframe and Prd ⏫ 
 - [ ] Check post hog hwo we can setup for the Sparrowcrm 🔽 
-- [ ] 
