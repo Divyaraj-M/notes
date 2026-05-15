@@ -22,23 +22,82 @@ A well-structured PRD follows this template:
 - Ground this in evidence: user research, support data, metrics, or customer feedback
 ## 2. Jobs To Be Done
 
-**Primary job statement:**
+### [[Sales Rep]] / Sales Manager JTBD
 
-> When [situation], I want to [motivation], so I can [desired outcome].
+#### Conversation Visibility
 
-**Functional dimension:** [The concrete task the user is trying to accomplish.]
+- [ ] See all email conversations for a contact inside CRM
+- [ ] View email conversations of other sales reps for shared records (permission-based)
+- [ ] See all conversations at the account/company level
 
-**Emotional dimension:** [How the user wants to feel — confident, in control, unblocked, trusted.]
+---
+#### Email Sending
 
-**Social dimension:** [How they want to be perceived by their team, boss, customers — competent, responsive, on top of things.]
+- [ ] Send emails directly from CRM
+- [ ] Connect multiple email accounts
+- [ ] Set a default sending account
+- [ ] Add email aliases
+- [ ] Save and use email signatures
 
-**Hiring criteria** — Why a user would "hire" this feature:
+---
 
-- [What pulls them toward it over their current workaround.]
+#### Data Hygiene
 
-**Firing criteria** — Why they'd stop using it or switch:
+- [ ] Delete irrelevant synced emails
+- [ ] Manually log emails if sync misses them
+- [ ] Decide which emails are shared to CRM
+- [ ] Maintain a personal email/domain blocklist
 
-- [What would make them give up on it. Useful for stress-testing the design.]
+---
+
+#### Email Association
+
+- [ ] View email association with contact/account/opportunity
+
+---
+
+#### Sync Reliability
+
+- [ ] Reconnect email account if sync breaks
+- [ ] Remove connected accounts
+
+---
+
+#### Engagement Tracking
+
+- [ ] Track email opens
+
+---
+
+### Admin JTBD
+
+#### Record Creation Control
+
+- [ ] Configure email-based record creation
+
+Options:
+- [ ] Create all records automatically
+- [ ] Create only selected records
+- [ ] Manual creation only
+- [ ] Disable record creation
+
+---
+
+#### Sync Policy Control
+
+- [ ] Configure automatic sync vs manual logging
+
+---
+
+#### Organization-wide Blocklist
+
+- [ ] Block specific emails/domains across the organization
+
+---
+
+#### Access Control
+
+- [ ] Control who can view synced email conversations
 
 ### 3. Goals
 - 3-5 specific, measurable outcomes this feature should achieve

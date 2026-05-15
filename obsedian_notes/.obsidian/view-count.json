@@ -243,7 +243,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 18,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -298,6 +298,9 @@
         },
         {
           "timestampMillis": 1778849796035
+        },
+        {
+          "timestampMillis": 1778849808091
         }
       ]
     },
@@ -1152,13 +1155,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
         },
         {
           "timestampMillis": 1778849796951
+        },
+        {
+          "timestampMillis": 1778849821437
         }
       ]
     },
@@ -1236,7 +1242,7 @@
     {
       "path": "3 - Resources/UI components.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778828459495
@@ -1261,6 +1267,9 @@
         },
         {
           "timestampMillis": 1778843623060
+        },
+        {
+          "timestampMillis": 1778849815507
         }
       ]
     },
@@ -1280,6 +1289,16 @@
         },
         {
           "timestampMillis": 1778835354292
+        }
+      ]
+    },
+    {
+      "path": "finance/Dashboard.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778849813171
         }
       ]
     }
