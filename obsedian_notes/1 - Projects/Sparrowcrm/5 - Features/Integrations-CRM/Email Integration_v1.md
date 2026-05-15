@@ -24,14 +24,14 @@ A well-structured PRD follows this template:
 
 ### [[Sales Rep]] / [[Sales Manager]] JTBD
 
-### Conversation Visibility
+#### Conversation Visibility
 
 - [ ] See all email conversations for a contact inside CRM
 - [ ] View email conversations of other sales reps for shared records
 - [ ] See all conversations at the account/company level
 - [ ] View email association with contact/account/opportunity
 
-## Email Sending
+#### Email Sending
 
 - [ ] Send emails directly from CRM
 - [ ] Reply to existing threads from CRM
@@ -40,19 +40,19 @@ A well-structured PRD follows this template:
 - [ ] Add email aliases
 - [ ] Save and use email signatures
 
-## Data Hygiene
+#### Data Hygiene
 
 - [ ] Hide/delete irrelevant synced emails from CRM view
 - [ ] Manually log emails if sync misses them
 - [ ] Decide which emails are shared to CRM
 - [ ] Maintain a personal email/domain blocklist
 
-## Sync Reliability
+#### Sync Reliability
 
 - [ ] Reconnect email account if sync breaks
 - [ ] Remove connected accounts
 
-## Engagement Tracking
+#### Engagement Tracking
 
 - [ ] Track email opens
 ---
