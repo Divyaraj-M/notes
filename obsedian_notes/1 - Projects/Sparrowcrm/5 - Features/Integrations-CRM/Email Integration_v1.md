@@ -22,14 +22,13 @@ A well-structured PRD follows this template:
 - Ground this in evidence: user research, support data, metrics, or customer feedback
 ## 2. Jobs To Be Done
 
-### [[Sales Rep]] / Sales Manager JTBD
+### [[Sales Rep]] / [[Sales Manager]] JTBD
 
 #### Conversation Visibility
 
 - [ ] See all email conversations for a contact inside CRM
 - [ ] View email conversations of other sales reps for shared records (permission-based)
 - [ ] See all conversations at the account/company level
-
 ---
 #### Email Sending
 
@@ -40,36 +39,31 @@ A well-structured PRD follows this template:
 - [ ] Save and use email signatures
 
 ---
-
 #### Data Hygiene
 
 - [ ] Delete irrelevant synced emails
 - [ ] Manually log emails if sync misses them
 - [ ] Decide which emails are shared to CRM
 - [ ] Maintain a personal email/domain blocklist
-
 ---
 
 #### Email Association
 
 - [ ] View email association with contact/account/opportunity
-
 ---
 
 #### Sync Reliability
 
 - [ ] Reconnect email account if sync breaks
 - [ ] Remove connected accounts
-
 ---
 
 #### Engagement Tracking
 
 - [ ] Track email opens
-
 ---
 
-### Admin JTBD
+### [[Admin]] JTBD
 
 #### Record Creation Control
 
@@ -80,25 +74,22 @@ Options:
 - [ ] Create only selected records
 - [ ] Manual creation only
 - [ ] Disable record creation
-
 ---
 
 #### Sync Policy Control
 
 - [ ] Configure automatic sync vs manual logging
-
 ---
 
 #### Organization-wide Blocklist
 
 - [ ] Block specific emails/domains across the organization
-
 ---
 
 #### Access Control
 
 - [ ] Control who can view synced email conversations
-
+___
 ### 3. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
