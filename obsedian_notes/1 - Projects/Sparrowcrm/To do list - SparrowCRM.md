@@ -25,6 +25,11 @@
 - [ ] Metrics 
 14-May-2026
 - [x] PRD review and finalise ✅ 2026-05-14
-- [ ] Email Integration - research ⏫ 
+- [x] Email Integration - research ⏫ ✅ 2026-05-15
 - [ ] AI agents PRD 🔽 
-- [ ] Metrics definitions 🔼 
+- [x] Metrics definitions 🔼 ✅ 2026-05-15
+15-May-2026
+- [ ] What all the metrics we are gonna measure ⏫ 
+- [ ] [[Email Integration_v1]] Wireframe and Prd ⏫ 
+- [ ] Check post hog hwo we can setup for the Sparrowcrm 🔽 
+- [ ] 

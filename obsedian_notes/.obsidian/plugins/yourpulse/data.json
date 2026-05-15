@@ -8,9 +8,14 @@
         "2026-05-12": 0,
         "2026-05-13": 684,
         "2026-05-14": 656,
-        "2026-05-15": 0
+        "2026-05-15": 30
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": {
+          "initial": 166,
+          "current": 196
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
