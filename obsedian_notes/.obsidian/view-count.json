@@ -800,11 +800,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778493002903
+        },
+        {
+          "timestampMillis": 1778850687746
         }
       ]
     },
@@ -1155,7 +1158,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1165,6 +1168,9 @@
         },
         {
           "timestampMillis": 1778849821437
+        },
+        {
+          "timestampMillis": 1778850690736
         }
       ]
     },

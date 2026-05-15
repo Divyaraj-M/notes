@@ -5,6 +5,10 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
     },
     {
+      "basename": "Sales Manager",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md"
+    },
+    {
       "basename": "UI components",
       "path": "3 - Resources/UI components.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "Director of Sales",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md"
-    },
-    {
-      "basename": "Sales Manager",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md"
     },
     {
       "basename": "Meetings_v1",
