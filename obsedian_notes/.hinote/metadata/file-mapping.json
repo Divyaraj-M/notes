@@ -1,18 +1,8 @@
 {
   "version": "2.0",
   "mapping": {
-    "TO DO List - today.md": "to_do_list_-_today.md.json",
-    "Product/Brand kit/Brand Kit.md": "product_brand_kit_brand_kit.md.json",
-    "Product/competitors/Responsiveio/Multi-column.md": "product_competitors_responsiveio_multi-column.md.json",
-    "Product/Product Sync system/SME Operating system.md": "product_product_sync_system_sme_operating_system.md.json",
-    "Product/UAT/UAT Vipin.md": "product_uat_uat_vipin.md.json",
-    "Product/Projects/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md": "product_projects_proposals_rfp_to_proposal_project_share_-_rfx_and_proposal.md.json",
-    "onboarding.md": "onboarding.md.json",
-    "salesforce_integration.md": "salesforce_integration.md.json",
-    "Find Analogies.md": "find_analogies.md.json",
-    "Friction points.md": "friction_points.md.json",
-    "Auto-Mark High Confidence Answers as Reviewed in Import Flow.md": "auto-mark_high_confidence_answers_as_reviewed_in_import_flow.md.json",
-    "mail.md": "mail.md.json"
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": "1_-_projects_sparrowcrm_5_-_features_integrations-crm_email_integration_v1.md.json",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md": "1_-_projects_sparrowcrm_to_do_list_-_sparrowcrm.md.json"
   },
-  "lastUpdated": 1775926345385
+  "lastUpdated": 1778877481624
 }
