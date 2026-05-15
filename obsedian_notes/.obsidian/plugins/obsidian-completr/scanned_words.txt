@@ -17109,6 +17109,7 @@ Fnj
 Founders
 Funnel
 Felt
+Founder
 Goes
 Goals
 Gate
@@ -19445,6 +19446,7 @@ RYd
 ReplayKitRecording
 Referral
 Reports
+React
 need
 needing
 nested

@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Tools.md",
+                "file": "3 - Resources/UI components.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "UI components"
             }
           }
         ],

@@ -1230,7 +1230,7 @@
     {
       "path": "3 - Resources/UI components.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778828459495
@@ -1240,13 +1240,25 @@
         },
         {
           "timestampMillis": 1778830327880
+        },
+        {
+          "timestampMillis": 1778835326889
+        },
+        {
+          "timestampMillis": 1778835327139
+        },
+        {
+          "timestampMillis": 1778835354808
+        },
+        {
+          "timestampMillis": 1778835355040
         }
       ]
     },
     {
       "path": "3 - Resources/Tools.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778830346246
@@ -1256,6 +1268,9 @@
         },
         {
           "timestampMillis": 1778830723693
+        },
+        {
+          "timestampMillis": 1778835354292
         }
       ]
     }
