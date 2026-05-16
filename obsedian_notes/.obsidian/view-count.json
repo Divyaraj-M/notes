@@ -920,8 +920,8 @@
     },
     {
       "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 9,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1778612473470
@@ -949,6 +949,12 @@
         },
         {
           "timestampMillis": 1778655001990
+        },
+        {
+          "timestampMillis": 1778939633885
+        },
+        {
+          "timestampMillis": 1778939636864
         }
       ]
     },

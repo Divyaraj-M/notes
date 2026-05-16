@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+                "file": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email Integration_v1"
+              "title": "Expense tracker"
             }
           }
         ],
@@ -460,8 +460,8 @@
   },
   "active": "ea738f636e7b61a1",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
     "3 - Resources/UI components.md",
     "finance/Dashboard.md",
