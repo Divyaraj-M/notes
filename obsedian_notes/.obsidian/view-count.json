@@ -131,7 +131,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 23,
+      "totalTimesOpened": 29,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -201,6 +201,24 @@
         },
         {
           "timestampMillis": 1778940534911
+        },
+        {
+          "timestampMillis": 1778940680996
+        },
+        {
+          "timestampMillis": 1778940700999
+        },
+        {
+          "timestampMillis": 1778940721297
+        },
+        {
+          "timestampMillis": 1778940729295
+        },
+        {
+          "timestampMillis": 1778940747345
+        },
+        {
+          "timestampMillis": 1778940747512
         }
       ]
     },
@@ -372,8 +390,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -434,6 +452,9 @@
         },
         {
           "timestampMillis": 1778754333566
+        },
+        {
+          "timestampMillis": 1778940744119
         }
       ]
     },
@@ -1297,6 +1318,45 @@
         },
         {
           "timestampMillis": 1778940545947
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778940689667
+        },
+        {
+          "timestampMillis": 1778940723048
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778940690356
+        },
+        {
+          "timestampMillis": 1778940717329
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778940716852
+        },
+        {
+          "timestampMillis": 1778940717009
         }
       ]
     }

@@ -101,4 +101,4 @@ Our KPI pyramid, our metric definitions, our causal assumptions — these are hy
 
 ---
 
-**Related:** [[Product Strategy]] | [[Product Roadmap]] | [[Team OKRs]]
+**Related:** [[2-Product Strategy]] | [[Product Roadmap]] | [[Team OKRs]]

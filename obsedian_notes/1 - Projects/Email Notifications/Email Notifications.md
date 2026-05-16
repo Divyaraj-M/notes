@@ -8,9 +8,9 @@ tags:
 -
 ## Quick Navigation
 
-1. [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Vision|Product Vision]]
+1. [[1-Product Vision|1-Product Vision]]
 2. [Product Board](https://docs.google.com/spreadsheets/d/1zIEW_puxW1Rti1jz_AbucIMUMJs9ou--WLQ5hT09_t0/edit?gid=0#gid=0)
-3. [[1 - Projects/Sparrowcrm/1 - Vision & Strategy/Product Strategy|Product Strategy]] 
+3. [[2-Product Strategy|2-Product Strategy]] 
 4. [[5 - Features|Features]]
 5. [[2 - Customer Insights|Customer Insights]]
 6. [[11 - Help Articles|Help Articles]]

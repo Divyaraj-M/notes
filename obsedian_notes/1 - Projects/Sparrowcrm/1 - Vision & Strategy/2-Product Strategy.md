@@ -65,4 +65,4 @@ tags:
 
 ---
 
-**Related:** [[Product Vision]] | [[7 - Competitors]] | [[Product Roadmap]]
+**Related:** [[1-Product Vision]] | [[7 - Competitors]] | [[Product Roadmap]]
