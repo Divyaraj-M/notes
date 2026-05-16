@@ -131,7 +131,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 21,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -195,6 +195,12 @@
         },
         {
           "timestampMillis": 1778940216899
+        },
+        {
+          "timestampMillis": 1778940468224
+        },
+        {
+          "timestampMillis": 1778940534911
         }
       ]
     },
@@ -1276,12 +1282,21 @@
       ]
     },
     {
-      "path": "1 - Projects/Email/Email.md",
+      "path": "1 - Projects/Email Notifications/Email Notifications.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
+        },
+        {
+          "timestampMillis": 1778940414440
+        },
+        {
+          "timestampMillis": 1778940484620
+        },
+        {
+          "timestampMillis": 1778940545947
         }
       ]
     }
