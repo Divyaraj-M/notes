@@ -9,26 +9,10 @@
         "2026-05-13": 684,
         "2026-05-14": 656,
         "2026-05-15": 178,
-        "2026-05-16": 89
+        "2026-05-16": 89,
+        "2026-05-17": 0
       },
-      "todaysWordCount": {
-        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
-          "initial": 1488,
-          "current": 1487
-        },
-        "1 - Projects/Sparrowcrm/Sparrowcrm.md": {
-          "initial": 121,
-          "current": 111
-        },
-        "1 - Projects/Email/Email.md": {
-          "initial": 1,
-          "current": 5
-        },
-        "1 - Projects/Email Notifications/Email Notifications.md": {
-          "initial": 8,
-          "current": 93
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
