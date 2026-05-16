@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "1 - Projects/Email Notifications/Email Notifications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "title": "Email Notifications"
             }
           }
         ],
@@ -460,12 +460,13 @@
   },
   "active": "ea738f636e7b61a1",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "2 - Areas/Product Vision & Strategy/Product Vision.md",
+    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Email Notifications",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
@@ -492,7 +493,6 @@
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "3 - Resources/Tools.md",
     "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",

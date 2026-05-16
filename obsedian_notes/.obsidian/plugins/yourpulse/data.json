@@ -9,7 +9,7 @@
         "2026-05-13": 684,
         "2026-05-14": 656,
         "2026-05-15": 178,
-        "2026-05-16": 99
+        "2026-05-16": 90
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
@@ -26,7 +26,7 @@
         },
         "1 - Projects/Email Notifications/Email Notifications.md": {
           "initial": 8,
-          "current": 103
+          "current": 94
         }
       }
     }

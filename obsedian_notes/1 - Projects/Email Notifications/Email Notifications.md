@@ -8,7 +8,7 @@ tags:
 -
 ## Quick Navigation
 
-1. [[1-Product Vision|1-Product Vision]]
+1. [[EN-Product Vision|Product Vision]]
 2. [Product Board](https://docs.google.com/spreadsheets/d/1zIEW_puxW1Rti1jz_AbucIMUMJs9ou--WLQ5hT09_t0/edit?gid=0#gid=0)
 3. [[2-Product Strategy|2-Product Strategy]] 
 4. [[5 - Features|Features]]

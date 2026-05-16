@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Email Notifications",
+      "path": "1 - Projects/Email Notifications/Email Notifications.md"
+    },
+    {
+      "basename": "Product Vision",
+      "path": "2 - Areas/Product Vision & Strategy/Product Vision.md"
+    },
+    {
+      "basename": "2-Product Strategy",
+      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
@@ -9,20 +21,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
-      "basename": "2-Product Strategy",
-      "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md"
-    },
-    {
       "basename": "1-Product Vision",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md"
     },
     {
       "basename": "First Principle for a CRM",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
-    },
-    {
-      "basename": "Email Notifications",
-      "path": "1 - Projects/Email Notifications/Email Notifications.md"
     },
     {
       "basename": "Email Integration_v1",
@@ -195,10 +199,6 @@
     {
       "basename": "Companies_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
-    },
-    {
-      "basename": "Feature Template",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md"
     }
   ],
   "omittedPaths": [],

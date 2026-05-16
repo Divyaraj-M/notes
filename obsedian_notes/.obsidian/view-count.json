@@ -1305,7 +1305,7 @@
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -1318,19 +1318,28 @@
         },
         {
           "timestampMillis": 1778940545947
+        },
+        {
+          "timestampMillis": 1778941150504
+        },
+        {
+          "timestampMillis": 1778941179149
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778940689667
         },
         {
           "timestampMillis": 1778940723048
+        },
+        {
+          "timestampMillis": 1778941147723
         }
       ]
     },
@@ -1357,6 +1366,16 @@
         },
         {
           "timestampMillis": 1778940717009
+        }
+      ]
+    },
+    {
+      "path": "2 - Areas/Product Vision & Strategy/Product Vision.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941170688
         }
       ]
     }
