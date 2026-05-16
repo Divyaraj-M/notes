@@ -1161,7 +1161,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1180,6 +1180,9 @@
         },
         {
           "timestampMillis": 1778877473860
+        },
+        {
+          "timestampMillis": 1778936637073
         }
       ]
     },

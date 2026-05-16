@@ -11,7 +11,12 @@
         "2026-05-15": 178,
         "2026-05-16": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
+          "initial": 1488,
+          "current": 1487
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
