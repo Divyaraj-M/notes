@@ -119,7 +119,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -134,7 +134,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expense tracker"
+              "title": "Sparrowcrm"
             }
           }
         ],
@@ -460,7 +460,11 @@
   },
   "active": "ea738f636e7b61a1",
   "lastOpenFiles": [
+    "1 - Projects/Email/Email.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Email",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
     "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
     "3 - Resources/UI components.md",
@@ -489,13 +493,9 @@
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
-    "Habit Tracker.base",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

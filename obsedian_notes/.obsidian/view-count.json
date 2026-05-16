@@ -130,8 +130,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 19,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -189,6 +189,12 @@
         },
         {
           "timestampMillis": 1778672412775
+        },
+        {
+          "timestampMillis": 1778940155044
+        },
+        {
+          "timestampMillis": 1778940216899
         }
       ]
     },
@@ -919,75 +925,12 @@
       ]
     },
     {
-      "path": "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 11,
-      "openLogs": [
-        {
-          "timestampMillis": 1778612473470
-        },
-        {
-          "timestampMillis": 1778612600967
-        },
-        {
-          "timestampMillis": 1778650908125
-        },
-        {
-          "timestampMillis": 1778652468097
-        },
-        {
-          "timestampMillis": 1778652478048
-        },
-        {
-          "timestampMillis": 1778652506074
-        },
-        {
-          "timestampMillis": 1778652512335
-        },
-        {
-          "timestampMillis": 1778654956818
-        },
-        {
-          "timestampMillis": 1778655001990
-        },
-        {
-          "timestampMillis": 1778939633885
-        },
-        {
-          "timestampMillis": 1778939636864
-        }
-      ]
-    },
-    {
       "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 1,
       "openLogs": [
         {
           "timestampMillis": 1778652471196
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
-      "openLogs": [
-        {
-          "timestampMillis": 1778652488729
-        },
-        {
-          "timestampMillis": 1778655013603
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Second Stream Revenue/Expense tracker/5 - Features/Expenses/Expenses.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778652491444
         }
       ]
     },
@@ -1167,7 +1110,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1189,6 +1132,12 @@
         },
         {
           "timestampMillis": 1778936637073
+        },
+        {
+          "timestampMillis": 1778940106574
+        },
+        {
+          "timestampMillis": 1778940152232
         }
       ]
     },
@@ -1323,6 +1272,16 @@
       "openLogs": [
         {
           "timestampMillis": 1778849813171
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email/Email.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778940210216
         }
       ]
     }

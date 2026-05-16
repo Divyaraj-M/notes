@@ -1,5 +1,5 @@
 ---
-owner: "[[@Divyaraj Murugan]]"
+owner: "[[@Ganesh Ravi Shankar(GRS)]]"
 tags:
   - sparrowcrm
 ---
