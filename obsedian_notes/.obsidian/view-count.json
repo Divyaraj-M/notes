@@ -1305,7 +1305,7 @@
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -1327,6 +1327,45 @@
         },
         {
           "timestampMillis": 1778941359841
+        },
+        {
+          "timestampMillis": 1778941524844
+        },
+        {
+          "timestampMillis": 1778941545945
+        },
+        {
+          "timestampMillis": 1778941553885
+        },
+        {
+          "timestampMillis": 1778941564301
+        },
+        {
+          "timestampMillis": 1778941573730
+        },
+        {
+          "timestampMillis": 1778941588880
+        },
+        {
+          "timestampMillis": 1778941598385
+        },
+        {
+          "timestampMillis": 1778941606814
+        },
+        {
+          "timestampMillis": 1778941613298
+        },
+        {
+          "timestampMillis": 1778941619473
+        },
+        {
+          "timestampMillis": 1778941634097
+        },
+        {
+          "timestampMillis": 1778941641224
+        },
+        {
+          "timestampMillis": 1778941665177
         }
       ]
     },
@@ -1379,6 +1418,135 @@
       "openLogs": [
         {
           "timestampMillis": 1778941170688
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941535350
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Strategy.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941547946
+        },
+        {
+          "timestampMillis": 1778941551644
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941557992
+        },
+        {
+          "timestampMillis": 1778941676056
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941566299
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941582793
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941590543
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941599906
+        },
+        {
+          "timestampMillis": 1778941632482
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941608226
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941614912
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941621379
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941636360
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/EN-People/EN-People.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1778941642660
         }
       ]
     }

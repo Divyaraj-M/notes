@@ -20,4 +20,4 @@ tags:
 10. [[EN-Product Wins|Product Wins]]
 11. [[EN-Marketing|Marketing]]
 12. [[EN-Metrics & Dashboards|Metrics]]
-13. [[EN- People|Stakeholders]]
+13. [[EN-People|Stakeholders]]

@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "EN-Features",
+      "path": "1 - Projects/Email Notifications/EN-Features/EN-Features.md"
+    },
+    {
       "basename": "Email Notifications",
       "path": "1 - Projects/Email Notifications/Email Notifications.md"
+    },
+    {
+      "basename": "EN-People",
+      "path": "1 - Projects/Email Notifications/EN-People/EN-People.md"
+    },
+    {
+      "basename": "EN-Metrics & Dashboards",
+      "path": "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md"
+    },
+    {
+      "basename": "EN-Competitors",
+      "path": "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md"
+    },
+    {
+      "basename": "EN-Marketing",
+      "path": "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md"
+    },
+    {
+      "basename": "EN-Product Wins",
+      "path": "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md"
+    },
+    {
+      "basename": "EN-Decisions",
+      "path": "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md"
+    },
+    {
+      "basename": "EN-Roadmap & Planning",
+      "path": "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md"
+    },
+    {
+      "basename": "EN-Help Articles",
+      "path": "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md"
+    },
+    {
+      "basename": "EN-Customer Insights",
+      "path": "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md"
+    },
+    {
+      "basename": "EN-Product Strategy",
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Strategy.md"
+    },
+    {
+      "basename": "EN-Product Vision",
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
     },
     {
       "basename": "Product Vision",
@@ -151,54 +199,6 @@
     {
       "basename": "code-generate-scenes",
       "path": "code-generate-scenes.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Untitled.base"
-    },
-    {
-      "basename": "2026-05-13 13-02-49",
-      "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md"
-    },
-    {
-      "basename": "11 - Help Articles",
-      "path": "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md"
-    },
-    {
-      "basename": "Thinking Nodes",
-      "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md"
-    },
-    {
-      "basename": "Friction points",
-      "path": "4 - Archive/Sparrowgenie/Friction points.md"
-    },
-    {
-      "basename": "Admin",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md"
-    },
-    {
-      "basename": "CEO",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/CEO.md"
-    },
-    {
-      "basename": "RevOps",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/RevOps.md"
-    },
-    {
-      "basename": "Director of Sales",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md"
-    },
-    {
-      "basename": "Meetings_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Companies_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     }
   ],
   "omittedPaths": [],
