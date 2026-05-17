@@ -32,4 +32,4 @@
 - [ ] What all the metrics we are gonna measure ⏫ 
 - [ ] Filters for the objects ⏫ 
 - [ ] [[Email Integration_v1]] Wireframe and Prd ⏫ 
-- [ ] Check post hog hwo we can setup for the Sparrowcrm 🔽 
+- [x] Check post hog hwo we can setup for the Sparrowcrm 🔽 ✅ 2026-05-17

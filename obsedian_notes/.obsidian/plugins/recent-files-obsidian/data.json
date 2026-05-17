@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
+    },
+    {
       "basename": "EN-Features",
       "path": "1 - Projects/Email Notifications/EN-Features/EN-Features.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "Email Integration_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
-    },
-    {
-      "basename": "To do list - SparrowCRM",
-      "path": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md"
     },
     {
       "basename": "Sales Manager",

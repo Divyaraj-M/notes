@@ -291,7 +291,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+                "file": "1 - Projects/Sparrowcrm/To do list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -306,7 +306,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To do list - SparrowCRM"
+              "title": "To do list"
             }
           },
           {
@@ -458,8 +458,9 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "ea738f636e7b61a1",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
+    "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Email Notifications/EN-People/EN-People.md",
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md",
@@ -470,7 +471,6 @@
     "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md",
     "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md",
     "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md",
-    "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Strategy.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Email Notifications/EN-People",
@@ -491,7 +491,7 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
-    "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
     "3 - Resources/UI components.md",
     "finance/Dashboard.md",

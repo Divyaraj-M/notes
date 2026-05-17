@@ -29,7 +29,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "1 - Projects/Sparrowcrm/To do list - SparrowCRM.md",
+        "pattern": "1 - Projects/Sparrowcrm/To do list.md",
         "patternType": "STRICT"
       },
       {
