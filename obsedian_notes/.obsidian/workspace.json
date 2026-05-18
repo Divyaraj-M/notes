@@ -91,7 +91,8 @@
               "title": "Drawing 2026-05-18 12.25.39.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -268,13 +269,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+                "file": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Email Integration_v1"
+              "title": "Outline of Drawing 2026-05-18 12.25.39.excalidraw"
             }
           },
           {
@@ -408,15 +409,16 @@
       "banyan:Add card note": false,
       "canvas:Create new canvas": false,
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "yourpulse:Open YourPulse Profile": false
+      "yourpulse:Open YourPulse Profile": false,
+      "always-color-text:Always Color Text": false
     }
   },
-  "active": "fee2a8d31a1cc5aa",
+  "active": "6b049a3c19717b96",
   "lastOpenFiles": [
     "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
