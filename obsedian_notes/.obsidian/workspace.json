@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "db3b1e018ae82aae",
-            "type": "leaf",
-            "state": {
-              "type": "smart-lookup-release-notes-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "Release Notes"
-            }
-          },
-          {
             "id": "5065adedd5f698a1",
             "type": "leaf",
             "state": {
@@ -101,8 +91,7 @@
               "title": "Drawing 2026-05-18 12.25.39.excalidraw"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -279,13 +268,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-05-18 12.25.39.excalidraw"
+              "title": "Outline of Email Integration_v1"
             }
           },
           {
@@ -422,8 +411,9 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "6b049a3c19717b96",
+  "active": "fee2a8d31a1cc5aa",
   "lastOpenFiles": [
+    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
@@ -433,7 +423,6 @@
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",

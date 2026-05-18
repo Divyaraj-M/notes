@@ -134,7 +134,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 34,
+      "totalTimesOpened": 35,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -237,6 +237,9 @@
         },
         {
           "timestampMillis": 1779087807596
+        },
+        {
+          "timestampMillis": 1779088834792
         }
       ]
     },
@@ -1194,7 +1197,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 15,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1240,6 +1243,9 @@
         },
         {
           "timestampMillis": 1779087712139
+        },
+        {
+          "timestampMillis": 1779088839989
         }
       ]
     },
@@ -1298,7 +1304,7 @@
     {
       "path": "CRM Metrics Framework.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778755493227
@@ -1326,6 +1332,15 @@
         },
         {
           "timestampMillis": 1779086791992
+        },
+        {
+          "timestampMillis": 1779088836070
+        },
+        {
+          "timestampMillis": 1779088836250
+        },
+        {
+          "timestampMillis": 1779088838970
         }
       ]
     },
