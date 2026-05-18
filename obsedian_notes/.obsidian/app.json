@@ -17,7 +17,7 @@
   "foldHeading": true,
   "defaultViewMode": "source",
   "showUnsupportedFiles": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "openBehavior": "",
   "focusNewTab": false,
   "vimMode": false

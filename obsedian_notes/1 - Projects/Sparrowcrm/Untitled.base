@@ -1,9 +1,9 @@
 views:
   - type: table
-    name: Table
+    name: SparrowCRM
     filters:
       or:
-        - file.inFolder("1 - Projects/Sparrowcrm")
+        - file.hasTag("sparrowcrm")
     order:
       - file.name
       - status
@@ -11,3 +11,5 @@ views:
       - tags
       - version
       - feature
+    image: note.status
+    rowHeight: medium

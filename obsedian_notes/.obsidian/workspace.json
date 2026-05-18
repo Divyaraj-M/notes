@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -458,14 +458,15 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "ea738f636e7b61a1",
+  "active": "b123fad89ad91fa3",
   "lastOpenFiles": [
+    "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
@@ -489,7 +490,6 @@
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards",
     "1 - Projects/Email Notifications/EN-Features",
     "1 - Projects/Email Notifications/EN-Product Specs",
-    "1 - Projects/Email Notifications/EN-Roadmap & Planning",
     "2 - Areas/Product Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md",
