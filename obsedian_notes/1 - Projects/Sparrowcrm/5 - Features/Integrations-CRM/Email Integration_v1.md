@@ -16,10 +16,7 @@ You are an expert at writing product requirements documents (PRDs) and feature s
 A well-structured PRD follows this template:
 
 ### 1. Problem Statement
-- Describe the user problem in 2-3 sentences
-- Who experiences this problem and how often
-- What is the cost of not solving it (user pain, business impact, competitive risk)
-- Ground this in evidence: user research, support data, metrics, or customer feedback
+- Sales reps and managers rely on email every day to manage customer conversations, but those interactions remain fragmented across individual inboxes instead of being visible inside SparrowCRM. As a result, users constantly switch between CRM and Gmail/Outlook to understand customer context, manually log emails, and track account activity, leading to incomplete records, missed follow-ups, reduced CRM adoption, and poor team visibility. Competitors like HubSpot and Attio already provide integrated email visibility and sending workflows, making email sync a critical expectation for modern CRM users.
 ## 2. Jobs To Be Done
 
 ### [[Sales Rep]] / [[Sales Manager]] JTBD
