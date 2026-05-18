@@ -1692,6 +1692,19 @@
           "timestampMillis": 1779093213424
         }
       ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1779100786717
+        },
+        {
+          "timestampMillis": 1779100786984
+        }
+      ]
     }
   ]
 }

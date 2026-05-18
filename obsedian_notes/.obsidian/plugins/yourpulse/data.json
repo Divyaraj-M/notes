@@ -11,7 +11,7 @@
         "2026-05-15": 178,
         "2026-05-16": 89,
         "2026-05-17": 0,
-        "2026-05-18": 69
+        "2026-05-18": 79
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/To do list.md": {
@@ -25,6 +25,10 @@
         "1 - Projects/Sparrowcrm/Sparrowcrm.md": {
           "initial": 111,
           "current": 116
+        },
+        "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md": {
+          "initial": 0,
+          "current": 10
         }
       }
     }
