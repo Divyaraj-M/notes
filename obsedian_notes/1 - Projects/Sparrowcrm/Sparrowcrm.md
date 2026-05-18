@@ -6,6 +6,8 @@ tags:
 # SparrowCRM — Product Home
 
 ---
+![[1 - Projects/Sparrowcrm/Untitled.base]]
+
 ## Quick Navigation
 
 1. [[1-Product Vision|Product Vision]]
