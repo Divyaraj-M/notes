@@ -29,7 +29,10 @@
 - [ ] AI agents PRD 🔽 
 - [x] Metrics definitions 🔼 ✅ 2026-05-15
 15-May-2026
-- [ ] What all the metrics we are gonna measure ⏫ 
+- [x] What all the metrics we are gonna measure ⏫ ✅ 2026-05-18
 - [ ] Filters for the objects ⏫ 
 - [ ] [[Email Integration_v1]] Wireframe and Prd ⏫ 
 - [x] Check post hog hwo we can setup for the Sparrowcrm 🔽 ✅ 2026-05-17
+18-May-2026
+- [ ] [[Email Integration_v1]] Wireframe and PRD
+- [ ] Filters for oib
