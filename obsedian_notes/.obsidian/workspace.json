@@ -69,24 +69,22 @@
             "id": "b123fad89ad91fa3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "6 - Metrics & Dashboards"
+              "icon": "excalidraw-icon",
+              "title": "SparrowCRM-Entity-Relationships"
+            }
+          },
+          {
+            "id": "db3b1e018ae82aae",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
             }
           },
           {
@@ -216,7 +214,7 @@
               "type": "recent-files",
               "state": {},
               "icon": "clock",
-              "title": "Recent Files"
+              "title": "Recent files"
             }
           }
         ]
@@ -458,8 +456,9 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "b123fad89ad91fa3",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Untitled.base",
@@ -495,7 +494,6 @@
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "1 - Projects/Second Stream Revenue/Expense tracker/Expense tracker.md",
-    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

@@ -234,7 +234,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778347310760
@@ -259,6 +259,9 @@
         },
         {
           "timestampMillis": 1779086801626
+        },
+        {
+          "timestampMillis": 1779086923761
         }
       ]
     },
@@ -1200,11 +1203,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778754261289
+        },
+        {
+          "timestampMillis": 1779086991353
         }
       ]
     },
