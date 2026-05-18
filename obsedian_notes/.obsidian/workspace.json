@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "42859d15528e5128",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-05-18 12.25.39.excalidraw"
+            }
+          },
+          {
             "id": "ea738f636e7b61a1",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,13 +293,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
+                "file": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Spec Template 2"
+              "title": "Outline of Drawing 2026-05-18 12.25.39.excalidraw"
             }
           },
           {
@@ -425,15 +437,16 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "6b049a3c19717b96",
+  "active": "42859d15528e5128",
   "lastOpenFiles": [
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "CRM Metrics Framework.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
@@ -462,7 +475,6 @@
     "1 - Projects/Email Notifications/EN-Competitors",
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards",
     "1 - Projects/Email Notifications/EN-Features",
-    "2 - Areas/Product Vision & Strategy/Product Vision.md",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
