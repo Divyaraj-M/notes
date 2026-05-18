@@ -134,7 +134,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 33,
+      "totalTimesOpened": 34,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -234,6 +234,9 @@
         },
         {
           "timestampMillis": 1779087368488
+        },
+        {
+          "timestampMillis": 1779087807596
         }
       ]
     },
@@ -1653,13 +1656,19 @@
     {
       "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779087339668
         },
         {
           "timestampMillis": 1779087515771
+        },
+        {
+          "timestampMillis": 1779087726525
+        },
+        {
+          "timestampMillis": 1779087825265
         }
       ]
     }

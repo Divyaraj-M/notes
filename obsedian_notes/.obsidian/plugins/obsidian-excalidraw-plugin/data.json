@@ -160570,8 +160570,8 @@
       "supportsMaskImageEdits": false
     }
   },
-  "aiDefaultTextModel": "gpt-5-mini",
-  "aiDefaultImageGenerationModel": "gpt-image-1",
+  "aiDefaultTextModel": "gemini-2.5-pro",
+  "aiDefaultImageGenerationModel": "gemini-2.5-flash-image",
   "aiDefaultMaxOutgoingTokens": 0,
   "aiDefaultMaxResponseTokens": 4096,
   "modifierKeyConfig": {
