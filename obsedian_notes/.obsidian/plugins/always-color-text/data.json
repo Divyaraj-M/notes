@@ -1,0 +1,174 @@
+{
+  "wordColors": {},
+  "wordEntries": [
+    {
+      "pattern": "Problem Statement",
+      "textColor": "#e5a216",
+      "backgroundColor": "#0fb9b1",
+      "isRegex": false,
+      "flags": "",
+      "styleType": "both",
+      "matchType": "contains",
+      "markTarget": "text",
+      "groupedPatterns": null,
+      "enableFolders": [],
+      "disableFolders": [],
+      "enableTags": [],
+      "disableTags": []
+    }
+  ],
+  "wordEntryGroups": [],
+  "blacklistEntryGroups": [],
+  "caseSensitive": false,
+  "enabled": true,
+  "highlightStyle": "text",
+  "enableBoxDecorationBreak": true,
+  "borderStyle": "full",
+  "disabledFiles": [],
+  "customSwatchesEnabled": false,
+  "replaceDefaultSwatches": false,
+  "customSwatches": [],
+  "swatches": [
+    {
+      "name": "Red",
+      "color": "#eb3b5a"
+    },
+    {
+      "name": "Orange",
+      "color": "#fa8231"
+    },
+    {
+      "name": "Yellow",
+      "color": "#e5a216"
+    },
+    {
+      "name": "Green",
+      "color": "#20bf6b"
+    },
+    {
+      "name": "Cyan",
+      "color": "#0fb9b1"
+    },
+    {
+      "name": "Blue",
+      "color": "#2d98da"
+    },
+    {
+      "name": "Dark Blue",
+      "color": "#3867d6"
+    },
+    {
+      "name": "Indigo",
+      "color": "#5454d0"
+    },
+    {
+      "name": "Purple",
+      "color": "#8854d0"
+    },
+    {
+      "name": "Light Purple",
+      "color": "#b554d0"
+    },
+    {
+      "name": "Neon Pink",
+      "color": "#e832c1"
+    },
+    {
+      "name": "Hot Pink",
+      "color": "#e83289"
+    },
+    {
+      "name": "Brown",
+      "color": "#965b3b"
+    },
+    {
+      "name": "Gray",
+      "color": "#8392a4"
+    }
+  ],
+  "userCustomSwatches": [],
+  "disableToggleModes": {
+    "statusBar": false,
+    "command": false,
+    "ribbon": false
+  },
+  "enableAlwaysHighlight": false,
+  "enableAlwaysColor": true,
+  "partialMatch": true,
+  "blacklistWords": [],
+  "blacklistEntries": [],
+  "enableBlacklistMenu": true,
+  "enableAddToExistingMenu": true,
+  "enableAlwaysColorTextMenu": true,
+  "hideInactiveGroupsInDropdowns": true,
+  "hideInactiveBlacklistGroupsInDropdowns": true,
+  "showWordGroupsInCommands": true,
+  "showBlacklistGroupsInCommands": true,
+  "symbolWordColoring": false,
+  "enableRegexSupport": false,
+  "forceFullRenderInReading": true,
+  "extremeLightweightMode": false,
+  "enableSmartUpdates": false,
+  "enableWordCompletionColoring": false,
+  "disableReadingModeColoring": false,
+  "disableLivePreviewColoring": false,
+  "textBgColoringEntries": [],
+  "enableTextBgMenu": true,
+  "linkSwatchUpdatesToEntries": false,
+  "colorPickerMode": "both",
+  "advancedRules": [],
+  "pathRules": [],
+  "disableRegexSafety": false,
+  "enableQuickColorHighlightOnce": false,
+  "enableQuickColorOnce": false,
+  "enableQuickHighlightOnce": false,
+  "quickHighlightStyleEnable": false,
+  "quickColorsEnabled": false,
+  "quickColorsApplyMode": "html",
+  "enableIndividualQuickStyleApplyMode": false,
+  "quickColors": [],
+  "quickStyles": [],
+  "quickHighlightUseGlobalStyle": false,
+  "quickHighlightOpacity": 25,
+  "quickHighlightBorderRadius": 8,
+  "quickHighlightHorizontalPadding": 4,
+  "quickHighlightVerticalPadding": 0,
+  "quickHighlightEnableBorder": false,
+  "quickHighlightBorderStyle": "full",
+  "quickHighlightBorderOpacity": 100,
+  "quickHighlightBorderThickness": 1,
+  "quickHighlightBorderLineStyle": "solid",
+  "wordsSortMode": "last-added",
+  "blacklistSortMode": "last-added",
+  "pathSortMode": "last-added",
+  "language": "en",
+  "customSwatchesFolded": false,
+  "globalHighlightFolded": false,
+  "readingModeHighlightFilter": null,
+  "entriesSearchLimit": 0,
+  "blacklistSearchLimit": 0,
+  "pathSearchLimit": 0,
+  "showColoringReasonOnHover": false,
+  "lightModeFixer": false,
+  "darkModeFixer": false,
+  "enableCustomCss": false,
+  "autoBackupEnabled": false,
+  "autoBackupFolder": "",
+  "autoBackupInterval": 1,
+  "autoBackupUnit": "day",
+  "autoBackupOverwrite": false,
+  "autoBackupLastRun": 0,
+  "hideHighlights": false,
+  "hideTextColors": false,
+  "quickStylesEnabled": true,
+  "globalStyles": {
+    "borderLineStyle": "solid",
+    "borderOpacity": 100,
+    "borderThickness": 2,
+    "enableBorderThickness": false,
+    "highlightHorizontalPadding": 4,
+    "highlightVerticalPadding": 0,
+    "backgroundOpacity": 35,
+    "highlightBorderRadius": 4
+  }
+}
