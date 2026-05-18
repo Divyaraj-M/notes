@@ -66,21 +66,11 @@ Options:
 - [ ] Manual creation only
 - [ ] Disable record creation
 ---
-
-#### Sync Policy Control
-
-- [ ] Configure automatic sync vs manual logging
----
-
 #### Organization-wide Blocklist
 
-- [ ] Block specific emails/domains across the organization for
+- [ ] Block specific emails/domains across the organization to protect the sensitive information
 ---
 
-#### Access Control
-
-- [ ] Control who can view synced email conversations
-___
 ### 3. Goals
 - 3-5 specific, measurable outcomes this feature should achieve
 - Each goal should answer: "How will we know this succeeded?"
