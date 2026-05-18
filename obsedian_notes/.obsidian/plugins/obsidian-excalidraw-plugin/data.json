@@ -160404,11 +160404,6 @@
   "aiEnabled": true,
   "aiVerboseLogging": false,
   "aiProviderProfiles": {
-    "OpenAI": {
-      "provider": "openai",
-      "apiKey": "",
-      "baseURL": "https://api.openai.com/v1"
-    },
     "Anthropic": {
       "provider": "anthropic",
       "apiKey": "",
@@ -160419,15 +160414,20 @@
       "apiKey": "",
       "baseURL": "https://generativelanguage.googleapis.com/v1beta"
     },
-    "xAI": {
-      "provider": "xai",
-      "apiKey": "",
-      "baseURL": "https://api.x.ai/v1"
+    "OpenAI": {
+      "provider": "openai",
+      "apiKey": "ex-obf:v1:AKMmqSyvMrU4uwCpJ4sBkhyEa7kc90v4RccWlkebWsRs3jDqab5nyWiiVAmYBawyqxm1BJ8zkhyHGtQdihOHCtxBykn9T/lOsiKkBeNP+U74UKtz5T80jQKbDN0OmFChMq0TlDmddIQ3uCHuYZshvwPQRs9KjkS9OdA98nvcTNqTH9c1hSqTEaITnnKOGbwtojaAB8tuqDCgacpV+myHeO1azEf5ec1U+23ziwK7FackrFTeKZUX",
+      "baseURL": "https://api.openai.com/v1"
     },
     "OpenAI-compatible": {
       "provider": "openai-compatible",
       "apiKey": "",
       "baseURL": "https://api.openai.com/v1"
+    },
+    "xAI": {
+      "provider": "xai",
+      "apiKey": "",
+      "baseURL": "https://api.x.ai/v1"
     }
   },
   "aiTextModelConfigs": {

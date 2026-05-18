@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "How to find edge cases before they become expensive issues",
+      "path": "Clippings/How to find edge cases before they become expensive issues.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Drawing 2026-05-18 12.25.39.excalidraw",
+      "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base"
+    },
+    {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Email Integration_v1",
@@ -153,10 +165,6 @@
       "path": "Clippings/What we look for in product managers - Handbook.md"
     },
     {
-      "basename": "How to find edge cases before they become expensive issues",
-      "path": "Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Thinking",
       "path": "Thinking.md"
-    },
-    {
-      "basename": "README",
-      "path": "3 - Resources/PM Prompts Library/storytelling/README.md"
-    },
-    {
-      "basename": "code-generate-scenes",
-      "path": "code-generate-scenes.md"
     }
   ],
   "omittedPaths": [],

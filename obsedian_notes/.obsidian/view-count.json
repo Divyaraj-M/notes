@@ -134,7 +134,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 31,
+      "totalTimesOpened": 33,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -228,6 +228,12 @@
         },
         {
           "timestampMillis": 1779086311050
+        },
+        {
+          "timestampMillis": 1779087334782
+        },
+        {
+          "timestampMillis": 1779087368488
         }
       ]
     },
@@ -591,8 +597,8 @@
     },
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -653,6 +659,12 @@
         },
         {
           "timestampMillis": 1778752955492
+        },
+        {
+          "timestampMillis": 1779087370193
+        },
+        {
+          "timestampMillis": 1779087372469
         }
       ]
     },
@@ -1204,13 +1216,19 @@
     {
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778754261289
         },
         {
           "timestampMillis": 1779086991353
+        },
+        {
+          "timestampMillis": 1779087231979
+        },
+        {
+          "timestampMillis": 1779087233101
         }
       ]
     },
@@ -1592,6 +1610,26 @@
       "openLogs": [
         {
           "timestampMillis": 1778941642660
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779087314961
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779087339668
         }
       ]
     }
