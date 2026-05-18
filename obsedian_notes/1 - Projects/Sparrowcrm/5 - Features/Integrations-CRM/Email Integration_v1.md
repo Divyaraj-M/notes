@@ -74,7 +74,7 @@ Options:
 
 #### Organization-wide Blocklist
 
-- [ ] Block specific emails/domains across the organization
+- [ ] Block specific emails/domains across the organization for
 ---
 
 #### Access Control
