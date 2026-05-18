@@ -35,4 +35,6 @@
 - [x] Check post hog hwo we can setup for the Sparrowcrm 🔽 ✅ 2026-05-17
 18-May-2026
 - [ ] [[Email Integration_v1]] Wireframe and PRD
-- [ ] Filters for oib
+- [ ] Filters for objects
+- [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
+- [ ] Make a simple working prototype of [[Email Integration_v1]]

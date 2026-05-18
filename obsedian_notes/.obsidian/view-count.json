@@ -1449,14 +1449,17 @@
     },
     {
       "path": "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778941557992
         },
         {
           "timestampMillis": 1778941676056
+        },
+        {
+          "timestampMillis": 1779085733467
         }
       ]
     },
