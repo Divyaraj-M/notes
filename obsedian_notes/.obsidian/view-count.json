@@ -740,14 +740,17 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
         },
         {
           "timestampMillis": 1778491565094
+        },
+        {
+          "timestampMillis": 1779108698758
         }
       ]
     },
@@ -1418,8 +1421,8 @@
     },
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -1480,6 +1483,9 @@
         },
         {
           "timestampMillis": 1778941665177
+        },
+        {
+          "timestampMillis": 1779108660233
         }
       ]
     },
@@ -1537,11 +1543,14 @@
     },
     {
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1778941535350
+        },
+        {
+          "timestampMillis": 1779108662685
         }
       ]
     },
@@ -1702,13 +1711,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1779100786717
         },
         {
           "timestampMillis": 1779100786984
+        },
+        {
+          "timestampMillis": 1779108655325
         }
       ]
     }

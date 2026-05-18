@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "@Nayan Jain"
+              "title": "Product Spec Template 2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Email Integration_v1"
+              "title": "Outline of Product Spec Template 2"
             }
           },
           {
@@ -425,13 +425,15 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "ea738f636e7b61a1",
+  "active": "6b049a3c19717b96",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
+    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
     "CRM Metrics Framework.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
@@ -442,7 +444,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Email Notifications/EN-People/EN-People.md",
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md",
     "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md",
@@ -453,7 +454,6 @@
     "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md",
     "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Strategy.md",
-    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",
