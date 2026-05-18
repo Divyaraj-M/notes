@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Email Integration_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
+    },
+    {
+      "basename": "Email Integration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "EN-Features",
       "path": "1 - Projects/Email Notifications/EN-Features/EN-Features.md"
     },
@@ -65,24 +85,12 @@
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "1-Product Vision",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md"
     },
     {
       "basename": "First Principle for a CRM",
       "path": "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md"
-    },
-    {
-      "basename": "Email Integration_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
     },
     {
       "basename": "Sales Manager",
@@ -147,14 +155,6 @@
     {
       "basename": "How to find edge cases before they become expensive issues",
       "path": "Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
-      "basename": "Email Integration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "Import_v1",

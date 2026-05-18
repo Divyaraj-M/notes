@@ -2,8 +2,8 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778305069898
@@ -19,6 +19,9 @@
         },
         {
           "timestampMillis": 1778749432128
+        },
+        {
+          "timestampMillis": 1779085991549
         }
       ]
     },
@@ -130,8 +133,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 29,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 30,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -219,6 +222,9 @@
         },
         {
           "timestampMillis": 1778940747512
+        },
+        {
+          "timestampMillis": 1779085986855
         }
       ]
     },
@@ -393,8 +399,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 21,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -458,6 +464,9 @@
         },
         {
           "timestampMillis": 1778940744119
+        },
+        {
+          "timestampMillis": 1779085989472
         }
       ]
     },
@@ -1126,21 +1135,24 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778749432556
         },
         {
           "timestampMillis": 1778749528593
+        },
+        {
+          "timestampMillis": 1779085993313
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 9,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1168,6 +1180,12 @@
         },
         {
           "timestampMillis": 1778940152232
+        },
+        {
+          "timestampMillis": 1779085996128
+        },
+        {
+          "timestampMillis": 1779086005899
         }
       ]
     },
