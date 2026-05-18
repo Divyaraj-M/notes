@@ -296,8 +296,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 21,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -361,6 +361,9 @@
         },
         {
           "timestampMillis": 1779029458207
+        },
+        {
+          "timestampMillis": 1779087484489
         }
       ]
     },
@@ -598,7 +601,7 @@
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 22,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -665,6 +668,9 @@
         },
         {
           "timestampMillis": 1779087372469
+        },
+        {
+          "timestampMillis": 1779087470160
         }
       ]
     },
@@ -1019,8 +1025,8 @@
     },
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 19,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -1078,6 +1084,15 @@
         },
         {
           "timestampMillis": 1778753014636
+        },
+        {
+          "timestampMillis": 1779087446993
+        },
+        {
+          "timestampMillis": 1779087447162
+        },
+        {
+          "timestampMillis": 1779087472604
         }
       ]
     },
@@ -1176,7 +1191,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1210,6 +1225,18 @@
         },
         {
           "timestampMillis": 1779086005899
+        },
+        {
+          "timestampMillis": 1779087463959
+        },
+        {
+          "timestampMillis": 1779087475302
+        },
+        {
+          "timestampMillis": 1779087498085
+        },
+        {
+          "timestampMillis": 1779087712139
         }
       ]
     },
@@ -1626,10 +1653,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1779087339668
+        },
+        {
+          "timestampMillis": 1779087515771
         }
       ]
     }

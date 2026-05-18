@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a905d528987ca88a",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
-            "id": "7f017439291fb2e7",
+            "id": "fee2a8d31a1cc5aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/How to find edge cases before they become expensive issues.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,43 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to find edge cases before they become expensive issues"
-            }
-          },
-          {
-            "id": "30de1cf9e541b077",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/What we look for in product managers - Handbook.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "What we look for in product managers - Handbook"
-            }
-          },
-          {
-            "id": "b123fad89ad91fa3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-18 12.25.39.excalidraw"
+              "title": "Email Integration_v1"
             }
           },
           {
@@ -313,13 +267,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thinking.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Thinking"
+              "title": "Outline of Email Integration_v1"
             }
           },
           {
@@ -363,7 +317,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -456,20 +410,22 @@
       "yourpulse:Open YourPulse Profile": false
     }
   },
-  "active": "7f017439291fb2e7",
+  "active": "db3b1e018ae82aae",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
+    "Clippings/What we look for in product managers - Handbook.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "CRM Metrics Framework.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Email Notifications/EN-People/EN-People.md",
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md",
@@ -492,8 +448,6 @@
     "1 - Projects/Email Notifications/EN-Features",
     "2 - Areas/Product Vision & Strategy/Product Vision.md",
     "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md",
-    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
