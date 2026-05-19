@@ -56,30 +56,6 @@
             }
           },
           {
-            "id": "42859d15528e5128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "@Sakthi Prasath M"
-            }
-          },
-          {
             "id": "ea738f636e7b61a1",
             "type": "leaf",
             "state": {
@@ -126,9 +102,63 @@
               "icon": "lucide-file",
               "title": "Product Spec Template 2"
             }
+          },
+          {
+            "id": "e6cb78308daa094e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "@Sakthi Prasath M"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
+      },
+      {
+        "id": "828891cad914f81c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42859d15528e5128",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "@Ganesh Ravi Shankar(GRS)"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -305,13 +335,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+                "file": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of @Sakthi Prasath M"
+              "title": "Outline of @Ganesh Ravi Shankar(GRS)"
             }
           },
           {
@@ -452,15 +482,17 @@
   },
   "active": "42859d15528e5128",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
@@ -478,8 +510,6 @@
     "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md",
     "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md",
     "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md",
-    "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md",
-    "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",

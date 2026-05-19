@@ -133,8 +133,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 36,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 37,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -243,6 +243,9 @@
         },
         {
           "timestampMillis": 1779108371854
+        },
+        {
+          "timestampMillis": 1779173514911
         }
       ]
     },
@@ -746,8 +749,8 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -760,6 +763,9 @@
         },
         {
           "timestampMillis": 1779109977770
+        },
+        {
+          "timestampMillis": 1779173609616
         }
       ]
     },
@@ -1317,11 +1323,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1778754287870
+        },
+        {
+          "timestampMillis": 1779173595741
+        },
+        {
+          "timestampMillis": 1779173618736
         }
       ]
     },
@@ -1439,8 +1451,8 @@
     },
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 21,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -1504,6 +1516,12 @@
         },
         {
           "timestampMillis": 1779108660233
+        },
+        {
+          "timestampMillis": 1779173511988
+        },
+        {
+          "timestampMillis": 1779173512229
         }
       ]
     },
@@ -1748,10 +1766,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1779172968597
+        },
+        {
+          "timestampMillis": 1779173617109
         }
       ]
     }
