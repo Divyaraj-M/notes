@@ -5,16 +5,24 @@
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
     },
     {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
+      "basename": "12 - People",
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
       "basename": "@Sakthi Prasath M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     },
     {
+      "basename": "@Vilashini",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md"
+    },
+    {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -23,10 +31,6 @@
     {
       "basename": "Email Notifications",
       "path": "1 - Projects/Email Notifications/Email Notifications.md"
-    },
-    {
-      "basename": "12 - People",
-      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
       "basename": "Drawing 2026-05-18 12.25.39.excalidraw",
@@ -195,10 +199,6 @@
     {
       "basename": "User Personas",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md"
-    },
-    {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
     }
   ],
   "omittedPaths": [],

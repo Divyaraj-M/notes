@@ -9,7 +9,9 @@ tags:
 - [[@Sakthi Prasath M]] - Lead Product Developer 
 - [[@Vaishnavi Yuvaraj]] - Design  manager
 - [[@Anshul S]] - Product Designer 
-- [[@Supraja]] - Intern UX Design
+- [[@Supraja]] - UX Design
 - [[@Madhan  M]] - Senior Product Developer
 - [[@Yuvaraj Singh J]] - Product Developer 
 - [[@Divyaraj Murugan]] - Associate Product manager
+- [[@Vilashini]] - Product Marketer
+- 

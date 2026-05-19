@@ -157,6 +157,16 @@
               "icon": "lucide-file",
               "title": "@Ganesh Ravi Shankar(GRS)"
             }
+          },
+          {
+            "id": "2882245c533094e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ]
       }
@@ -482,13 +492,14 @@
   },
   "active": "42859d15528e5128",
   "lastOpenFiles": [
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+    "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
+    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
@@ -509,7 +520,6 @@
     "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md",
     "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md",
     "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md",
-    "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",
