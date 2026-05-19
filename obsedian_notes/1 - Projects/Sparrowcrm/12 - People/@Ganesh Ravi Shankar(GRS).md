@@ -8,4 +8,5 @@ Deals
 - 
 Notes 
 - Toggle for the switch 
-- 
+
+Website tracker 

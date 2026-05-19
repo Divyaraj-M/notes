@@ -1324,7 +1324,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778754287870
@@ -1346,6 +1346,9 @@
         },
         {
           "timestampMillis": 1779174890104
+        },
+        {
+          "timestampMillis": 1779175917543
         }
       ]
     },
