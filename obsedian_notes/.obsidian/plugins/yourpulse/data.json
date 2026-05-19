@@ -12,30 +12,10 @@
         "2026-05-16": 89,
         "2026-05-17": 0,
         "2026-05-18": 92,
-        "2026-05-19": 462
+        "2026-05-19": 462,
+        "2026-05-20": 0
       },
-      "todaysWordCount": {
-        "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md": {
-          "initial": 3,
-          "current": 51
-        },
-        "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md": {
-          "initial": 74,
-          "current": 461
-        },
-        "1 - Projects/Sparrowcrm/12 - People/12 - People.md": {
-          "initial": 48,
-          "current": 51
-        },
-        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md": {
-          "initial": 1382,
-          "current": 1382
-        },
-        "1 - Projects/Sparrowcrm/To do list.md": {
-          "initial": 237,
-          "current": 261
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
