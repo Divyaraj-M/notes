@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "@Sakthi Prasath M",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
+    },
+    {
       "basename": "@Ganesh Ravi Shankar(GRS)",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
     },
     {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
-      "basename": "@Sakthi Prasath M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     },
     {
       "basename": "@Vilashini",
@@ -195,10 +199,6 @@
     {
       "basename": "2 - Customer Insights",
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
-    },
-    {
-      "basename": "User Personas",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md"
     }
   ],
   "omittedPaths": [],

@@ -722,8 +722,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1778491542045
@@ -736,6 +736,9 @@
         },
         {
           "timestampMillis": 1778672471131
+        },
+        {
+          "timestampMillis": 1779184254065
         }
       ]
     },
@@ -1823,7 +1826,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1779172968597
@@ -1854,6 +1857,9 @@
         },
         {
           "timestampMillis": 1779182578772
+        },
+        {
+          "timestampMillis": 1779184246527
         }
       ]
     },

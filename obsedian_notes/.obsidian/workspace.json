@@ -104,6 +104,30 @@
             }
           },
           {
+            "id": "2882245c533094e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sparrowdesk_v1"
+            }
+          },
+          {
             "id": "e6cb78308daa094e",
             "type": "leaf",
             "state": {
@@ -129,46 +153,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "828891cad914f81c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42859d15528e5128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "@Ganesh Ravi Shankar(GRS)"
-            }
-          },
-          {
-            "id": "2882245c533094e2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -345,13 +329,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of @Ganesh Ravi Shankar(GRS)"
+              "title": "Outline of Sparrowdesk_v1"
             }
           },
           {
@@ -490,11 +474,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "42859d15528e5128",
+  "active": "2882245c533094e2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-    "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "CRM Metrics Framework.md",
