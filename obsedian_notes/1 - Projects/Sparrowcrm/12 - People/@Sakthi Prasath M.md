@@ -7,8 +7,9 @@ Reports
 - Templates will not be easy to create 
 Settings 
 - Users and permissions  have to done 
+Email notification
+- We have to do this 
 - 
-
 Not will be in this wednesday 
 - public apis 
 - 
