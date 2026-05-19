@@ -151,8 +151,7 @@
               "title": "@Sakthi Prasath M"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,13 +328,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sparrowdesk_v1"
+              "title": "Outline of Email Integration_v1"
             }
           },
           {
@@ -474,21 +473,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2882245c533094e2",
+  "active": "fee2a8d31a1cc5aa",
   "lastOpenFiles": [
+    "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
@@ -503,7 +503,6 @@
     "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md",
     "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md",
     "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md",
-    "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",
