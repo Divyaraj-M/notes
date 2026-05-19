@@ -28,7 +28,7 @@ Once connected, sales reps can view related tickets directly from Contact and Co
 - [ ] View company-related tickets by the association of contacts in the company record page.
 
 ### Admin
-/
+
 - [ ] Connect SparrowDesk with SparrowCRM.
 - [ ] Auto-create required ticket fields inside the CRM.
 - [ ] Manage integrations.
