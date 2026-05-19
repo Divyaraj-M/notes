@@ -1324,7 +1324,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778754287870
@@ -1334,6 +1334,9 @@
         },
         {
           "timestampMillis": 1779173618736
+        },
+        {
+          "timestampMillis": 1779174309557
         }
       ]
     },
@@ -1766,13 +1769,19 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779172968597
         },
         {
           "timestampMillis": 1779173617109
+        },
+        {
+          "timestampMillis": 1779174254522
+        },
+        {
+          "timestampMillis": 1779174328906
         }
       ]
     }
