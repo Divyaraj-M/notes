@@ -40,3 +40,6 @@
 ~~- [ ] Make a simple working prototype of [[Email Integration_v1]] ~~
 19-May-2026
 - [ ] [[Email Integration_v1]] Wireframe and PRD
+- [ ] Search fixes 
+- [ ] Filter fixes for objects 
+- [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 

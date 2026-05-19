@@ -328,13 +328,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+                "file": "1 - Projects/Sparrowcrm/To do list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Email Integration_v1"
+              "title": "Outline of To do list"
             }
           },
           {
@@ -473,10 +473,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fee2a8d31a1cc5aa",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "CRM Metrics Framework.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
