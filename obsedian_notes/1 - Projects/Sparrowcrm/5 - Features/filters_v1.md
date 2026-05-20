@@ -150,4 +150,52 @@ The operator vocabulary, default operator, and value-input pattern are fixed per
 
 **R 15 — Team / org-shared views.** Mark a saved view as Private (default), Team, or Org. Out of scope for v 1; depends on view permissions model.
 
+## 7. Success Metrics
 
+The headline metric is **saved views per active user**. We track three leading metrics that catch upstream failure modes before the lagging metric moves.
+
+|Metric|Type|Definition|Baseline|Target|Measurement|
+|---|---|---|---|---|---|
+|**Saved views per active user (30 d)**|Lagging|Mean number of personal saved views created by an active user within 30 days of GA|0 (no save in legacy)|≥ 3|Product analytics — `view_saved` event|
+|**% users with ≥1 saved view (30 d)**|Lagging|Share of active users who have created at least one view|0%|≥ 60%|Product analytics|
+|**Filter build completion rate**|Leading|Of users who open the filter picker, what % create at least one applied chip in that session|n/a — new metric|≥ 80%|Funnel: `filter_picker_opened` → `filter_applied` |
+|**Time-to-first-filter (new user)**|Leading|Seconds from first visit to a list view to first applied filter|n/a|< 90 s (p 50)|Time delta between `list_viewed` and `filter_applied` |
+|**Filter apply latency p 95**|Guardrail|Time from filter change to results render|TBD (current system)|< 500 ms|RUM / web-vitals on the list page|
+|**Export usage**|Counter-metric|CSV exports from list views per active user / week|Current export count|↓ ≥ 25%|Analytics — `list_exported` event|
+
+**Evaluation cadence:** Weekly during the first 30 days post-GA, then monthly. We commit to the lagging target after the 30-day point; if leading metrics are red at week 2 we ship a UX iteration before measuring the lagging target.
+
+## 8. Open Questions
+
+|#|Question|Owner|Blocking?|Needed by|
+|---|---|---|---|---|
+|Q 1|Are filter groups / OR logic in v 1 scope, or strictly v 2?|PM|No — currently scoped out, but if a P 0 user story emerges we revisit|Spec freeze|
+|Q 2|What's the right v 1 behavior for saved-view sharing — strictly private, or do we expose a read-only share link?|PM + Eng|Yes — affects URL/view storage model|Design kickoff|
+|Q 3|Does cross-object traversal (Deal → Company.Industry) ship with v 1's Relationship type, or wait for v 2?|PM + Eng|Yes — affects schema design|Spec freeze|
+|Q 4|Mobile behavior — read-only filtered lists only, or also let users switch between saved views?|Design|No|Beta|
+|Q 5|Do we expose "Filter by current selection" (right-click a cell → filter to that value) in v 1?|Design|No|Beta|
+|Q 6|Performance ceiling — at what dataset size do we switch from client-side filtering to server-side? Need a clear cut-over rule.|Eng|Yes|Engineering design|
+|Q 7|Does "is me" resolve to the impersonated user when an admin is impersonating, or always the underlying admin?|Security|Yes — affects audit|Spec freeze|
+|Q 8|Recently-used attributes (R 10) — scoped per object or global across the workspace?|PM|No|Beta|
+
+## 9. Timeline Considerations
+
+**Sequencing (not dates — set by Eng during planning).**
+
+1. **Foundation — typed field schema + operator vocabulary.** Centralize the field-type → operator mapping in one place so every object inherits it. Without this, the whole "common filter" bet fails.
+2. **Filter chip component + popover system.** Single React component family covering the chip, attribute picker, operator picker, and value pickers per type.
+3. **Wire to one object (Deals) end-to-end.** Includes URL state, AND logic, and the picker UX. Get this right before rolling out.
+4. **Saved views.** Storage model, view switcher, save/rename/delete flows, URL encoding.
+5. **Roll out to remaining objects.** Contacts, Companies, Accounts, custom objects — each gated on the object exposing a typed schema.
+6. **Beta with internal RevOps + 3 design partners** before GA.
+7. **GA.** Cutover from legacy filter UI; legacy filter code deleted from each object as it migrates.
+
+**Risks to call out at planning:**
+
+- Migration of users' existing filter state from legacy UI — if we don't translate it, users perceive this as a regression. Need a translation script per object.
+- Custom objects shipping their own field types not in the canonical 8 — every new field type added later requires updating the operator matrix. Treat field-type additions as a governed change.
+- Performance on Contacts and Accounts lists, which are often larger than Deals — pressure-test the 500 ms p 95 target on production-sized data before GA.
+
+---
+
+_End of PRD._
