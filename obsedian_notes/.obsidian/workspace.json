@@ -151,7 +151,8 @@
               "title": "@Sakthi Prasath M"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -328,13 +329,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sparrowcrm"
+              "title": "Outline of Product Spec Template 2"
             }
           },
           {
@@ -473,12 +474,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fee2a8d31a1cc5aa",
+  "active": "6b049a3c19717b96",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/To do list.md",

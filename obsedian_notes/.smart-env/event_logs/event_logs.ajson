@@ -935,3 +935,4 @@
 "event_logs:sources:opened": {"key":"sources:opened","ct":1730,"first_at":1775932412004,"last_at":1779268522595,"class_name":"EventLog","event_sources":{"active-leaf-change":1712,"open_source":3,"file-open":15}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":1731,"first_at":1775932412004,"last_at":1779268599893,"class_name":"EventLog","event_sources":{"active-leaf-change":1713,"open_source":3,"file-open":15}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":1732,"first_at":1775932412004,"last_at":1779268602526,"class_name":"EventLog","event_sources":{"active-leaf-change":1714,"open_source":3,"file-open":15}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1733,"first_at":1775932412004,"last_at":1779272111416,"class_name":"EventLog","event_sources":{"active-leaf-change":1715,"open_source":3,"file-open":15}},

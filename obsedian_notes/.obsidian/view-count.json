@@ -803,8 +803,8 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -826,6 +826,9 @@
         },
         {
           "timestampMillis": 1779186280211
+        },
+        {
+          "timestampMillis": 1779272111590
         }
       ]
     },
