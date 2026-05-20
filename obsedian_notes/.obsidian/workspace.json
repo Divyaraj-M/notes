@@ -329,13 +329,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
+                "file": "1 - Projects/Sparrowcrm/To do list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Product Spec Template 2"
+              "title": "Outline of To do list"
             }
           },
           {
@@ -474,8 +474,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6b049a3c19717b96",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Email Notifications/filter-prototype.html",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -484,7 +485,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/To do list.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
@@ -511,7 +511,6 @@
     "1 - Projects/Email Notifications/EN-Decisions",
     "1 - Projects/Email Notifications/EN-Competitors",
     "1 - Projects/Email Notifications/EN-Metrics & Dashboards",
-    "1 - Projects/Email Notifications/EN-Features",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

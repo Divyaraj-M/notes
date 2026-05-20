@@ -5,187 +5,386 @@
 <title>CRM Filter Prototype</title>
 <style>
   :root {
-    --bg: #f7f8fa;
-    --panel: #ffffff;
-    --border: #e3e6eb;
-    --text: #1f2937;
-    --muted: #6b7280;
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --hover: #f6f7f9;
+    --border: #e6e8eb;
+    --border-strong: #d6d9de;
+    --text: #1a1d1f;
+    --text-secondary: #4b5563;
+    --muted: #8a8f98;
+    --muted-light: #b1b5bd;
     --primary: #2563eb;
-    --primary-hover: #1d4ed8;
-    --danger: #dc2626;
-    --chip: #eef2ff;
-    --chip-text: #3730a3;
-    --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.04);
+    --primary-soft: #eff4ff;
+    --chip: #f3f4f6;
+    --chip-active: #ffffff;
+    --green: #10b981;
+    --shadow-pop: 0 4px 12px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+    --shadow-chip: 0 1px 1px rgba(0,0,0,0.03);
   }
   * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
     background: var(--bg);
     color: var(--text);
-    margin: 0;
-    padding: 24px;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 28px;
   }
-  h1 { font-size: 20px; margin: 0 0 4px; }
-  .subtitle { color: var(--muted); margin-bottom: 20px; }
-  .container { max-width: 1200px; margin: 0 auto; }
-  .panel {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 16px;
-    box-shadow: var(--shadow);
-  }
-  .panel h2 {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--muted);
-    margin: 0 0 12px;
-  }
-  .filter-row {
-    display: grid;
-    grid-template-columns: 200px 200px 1fr 32px;
-    gap: 8px;
+  .page-title {
+    display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    gap: 6px;
+    margin-bottom: 14px;
+    color: var(--text);
+    font-weight: 500;
   }
-  .filter-row.compound {
-    grid-template-columns: 200px 200px 1fr 1fr 32px;
+  .page-title-icon {
+    color: #6366f1;
+    font-size: 14px;
   }
-  select, input {
-    width: 100%;
-    padding: 8px 10px;
+
+  /* Top bar with view selector */
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .toolbar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    font-size: 13px;
+    color: var(--text);
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid transparent;
+    transition: background 0.1s;
+  }
+  .toolbar-btn:hover { background: var(--hover); }
+  .toolbar-btn .caret { color: var(--muted); font-size: 10px; }
+  .toolbar-btn .dot {
+    width: 14px; height: 14px; border-radius: 4px;
+    background: var(--green); display: inline-flex; align-items: center; justify-content: center;
+    color: white; font-size: 10px;
+  }
+
+  /* Filter row */
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 0;
+    min-height: 44px;
+  }
+  .sort-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 7px;
+    background: var(--hover);
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+  .sort-chip .label { color: var(--muted); }
+  .sort-chip .icon { color: var(--muted); }
+
+  /* Filter chip */
+  .filter-chip {
+    display: inline-flex;
+    align-items: stretch;
     border: 1px solid var(--border);
+    border-radius: 7px;
+    background: var(--surface);
+    box-shadow: var(--shadow-chip);
+    overflow: hidden;
+    height: 30px;
+  }
+  .chip-segment {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 9px;
+    cursor: pointer;
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 12px;
+    user-select: none;
+    transition: background 0.1s;
+  }
+  .chip-segment:last-child { border-right: none; }
+  .chip-segment:hover { background: var(--hover); }
+  .chip-segment.placeholder { color: var(--muted-light); }
+  .chip-segment .field-icon { color: var(--muted); font-size: 12px; width: 14px; text-align: center; }
+  .chip-segment .arrow { color: var(--muted-light); font-size: 10px; }
+  .chip-value-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    font-family: inherit;
+    color: var(--text);
+    min-width: 100px;
+    padding: 0;
+  }
+  .chip-value-input::placeholder { color: var(--muted-light); }
+  .chip-value-input:focus + .focus-ring { display: block; }
+
+  .chip-menu {
+    width: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    cursor: pointer;
+    background: var(--surface);
+  }
+  .chip-menu:hover { background: var(--hover); color: var(--text); }
+
+  /* Add filter button (looks like a chip in disabled state) */
+  .add-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid var(--border);
+  }
+  .add-filter-btn:hover { background: var(--hover); }
+  .add-filter-btn .plus { color: var(--muted); font-weight: 600; }
+
+  .add-after {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
     border-radius: 6px;
-    background: white;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 14px;
+    background: transparent;
+  }
+  .add-after:hover { background: var(--hover); color: var(--text); }
+
+  /* Popover dropdowns */
+  .popover {
+    position: absolute;
+    background: var(--surface);
+    border-radius: 9px;
+    box-shadow: var(--shadow-pop);
+    padding: 4px;
+    min-width: 220px;
+    max-width: 320px;
+    z-index: 100;
+    font-size: 13px;
+  }
+  .pop-search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 4px;
+  }
+  .pop-search input {
+    flex: 1;
+    border: none;
+    outline: none;
     font-size: 13px;
     font-family: inherit;
     color: var(--text);
-  }
-  select:focus, input:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
-  }
-  .btn {
-    background: var(--primary);
-    color: white;
-    border: none;
-    padding: 8px 14px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .btn:hover { background: var(--primary-hover); }
-  .btn-ghost {
     background: transparent;
-    color: var(--primary);
-    border: 1px dashed var(--border);
   }
-  .btn-ghost:hover { background: #f0f4ff; }
-  .btn-icon {
-    background: transparent;
+  .pop-search input::placeholder { color: var(--muted-light); }
+  .pop-back {
+    cursor: pointer;
     color: var(--muted);
-    border: none;
-    cursor: pointer;
-    padding: 4px;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  .btn-icon:hover { background: #f3f4f6; color: var(--danger); }
-  .actions { display: flex; gap: 8px; margin-top: 12px; }
-  .multi-select-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    padding: 4px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    min-height: 36px;
-    background: white;
-    cursor: pointer;
-  }
-  .tag {
-    background: var(--chip);
-    color: var(--chip-text);
-    padding: 3px 8px;
-    border-radius: 12px;
-    font-size: 12px;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .tag .remove { cursor: pointer; opacity: 0.6; }
-  .tag .remove:hover { opacity: 1; }
-  .multi-dropdown {
-    position: absolute;
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    box-shadow: var(--shadow);
-    max-height: 200px;
-    overflow-y: auto;
-    z-index: 10;
-    min-width: 180px;
-  }
-  .multi-dropdown div {
-    padding: 6px 10px;
-    cursor: pointer;
-  }
-  .multi-dropdown div:hover { background: #f0f4ff; }
-  .multi-dropdown div.checked { background: #eef2ff; font-weight: 500; }
-  .multi-wrapper { position: relative; }
-  .query-display {
-    background: #f9fafb;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 12px;
-    font-family: ui-monospace, "SF Mono", Menlo, monospace;
-    font-size: 12px;
-    color: #374151;
-    white-space: pre-wrap;
-    word-break: break-word;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
-  th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-  }
-  th {
-    background: #f9fafb;
-    color: var(--muted);
-    font-weight: 600;
-    text-transform: uppercase;
+    padding: 0 2px;
     font-size: 11px;
+  }
+  .pop-back:hover { color: var(--text); }
+  .pop-current {
+    display: flex; align-items: center; gap: 6px;
+    color: var(--text); font-weight: 500; padding-left: 4px;
+  }
+  .pop-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 13px;
+    user-select: none;
+  }
+  .pop-item:hover, .pop-item.active { background: var(--hover); }
+  .pop-item .item-icon {
+    width: 14px;
+    color: var(--muted);
+    text-align: center;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .pop-item .item-label { flex: 1; }
+  .pop-item .item-count {
+    color: var(--muted-light);
+    font-size: 11px;
+  }
+  .pop-item .item-arrow {
+    color: var(--muted-light);
+    font-size: 11px;
+  }
+  .pop-item.checked .check { color: var(--primary); font-size: 12px; }
+  .pop-list { max-height: 320px; overflow-y: auto; }
+  .pop-empty { padding: 10px; color: var(--muted); font-size: 12px; text-align: center; }
+  .pop-section-title {
+    padding: 4px 8px;
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-  tr:hover td { background: #fafbfc; }
-  .pill {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 10px;
+  .pop-divider { height: 1px; background: var(--border); margin: 4px 0; }
+  .pop-preset-row {
+    display: flex; flex-wrap: wrap; gap: 4px; padding: 4px;
+  }
+  .preset-pill {
+    padding: 3px 8px;
+    border-radius: 12px;
+    background: var(--hover);
+    color: var(--text-secondary);
     font-size: 11px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .preset-pill:hover { background: var(--primary-soft); color: var(--primary); border-color: var(--primary-soft); }
+  .pop-date-inputs {
+    display: flex; gap: 4px; padding: 4px;
+  }
+  .pop-date-inputs input {
+    flex: 1; padding: 6px 8px; border: 1px solid var(--border);
+    border-radius: 6px; font-size: 12px; font-family: inherit;
+  }
+  .pop-date-inputs input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary-soft); }
+  .pop-number-row {
+    display: flex; align-items: center; gap: 6px; padding: 4px;
+  }
+  .pop-number-row input {
+    flex: 1; padding: 6px 8px; border: 1px solid var(--border);
+    border-radius: 6px; font-size: 12px; font-family: inherit;
+  }
+  .pop-number-row input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary-soft); }
+
+  /* Results table */
+  .results {
+    border: 1px solid var(--border);
+    border-top: none;
+    background: var(--surface);
+  }
+  .results-table { width: 100%; border-collapse: collapse; }
+  .results-table th, .results-table td {
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  .results-table th {
+    background: var(--surface);
+    color: var(--text-secondary);
     font-weight: 500;
+    font-size: 12px;
+    position: relative;
+  }
+  .results-table th .col-icon { color: var(--muted); margin-right: 6px; }
+  .results-table th .col-actions {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    color: var(--muted-light); display: flex; gap: 6px; font-size: 11px;
+  }
+  .results-table tbody tr:hover td { background: var(--hover); }
+  .row-checkbox {
+    width: 14px; height: 14px;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .person-cell { display: inline-flex; align-items: center; gap: 8px; }
+  .avatar {
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #94a3b8, #64748b);
+    color: white; display: inline-flex;
+    align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 600;
+  }
+  .protected {
+    color: #d4a8a8;
+    font-style: italic;
+  }
+  .no-comm {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--muted);
+  }
+  .no-comm-dot {
+    width: 6px; height: 6px; background: var(--muted-light);
+    border-radius: 50%;
+  }
+  .footer-row td {
+    color: var(--muted);
+    font-size: 12px;
+    background: var(--surface) !important;
+  }
+  .footer-row .add-calc {
+    color: var(--muted-light);
+    cursor: pointer;
+  }
+  .footer-row .add-calc:hover { color: var(--text-secondary); }
+
+  /* Status pills */
+  .pill {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 2px 7px; border-radius: 10px;
+    font-size: 11px; font-weight: 500;
   }
   .pill-open { background: #dbeafe; color: #1e40af; }
   .pill-won { background: #d1fae5; color: #065f46; }
   .pill-lost { background: #fee2e2; color: #991b1b; }
   .pill-demo { background: #fef3c7; color: #92400e; }
   .pill-neg { background: #ede9fe; color: #5b21b6; }
-  .count-row {
-    color: var(--muted);
-    font-size: 12px;
-    margin-top: 8px;
+  .pill-discovery { background: #f0f9ff; color: #075985; }
+  .pill-closed { background: #f3f4f6; color: #374151; }
+
+  .tag-pill {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 4px;
+    font-size: 11px;
+    background: var(--hover);
+    color: var(--text-secondary);
+    margin-right: 3px;
   }
-  .field-type-badge {
+
+  .field-type-hint {
     display: inline-block;
     background: #f3f4f6;
     color: var(--muted);
@@ -196,346 +395,668 @@
     text-transform: uppercase;
     letter-spacing: 0.3px;
   }
-  .between-inputs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 4px; align-items: center; }
-  .between-inputs .sep { color: var(--muted); font-size: 12px; text-align: center; }
-  .preset-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
-  .preset {
-    background: #f3f4f6;
+
+  /* Debug query panel */
+  .query-panel {
+    margin-top: 16px;
+    background: #fafbfc;
     border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 3px 10px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
     font-size: 11px;
-    cursor: pointer;
-    color: var(--muted);
+    color: var(--text-secondary);
+    white-space: pre-wrap;
   }
-  .preset:hover, .preset.active { background: var(--primary); color: white; border-color: var(--primary); }
-  .empty-state { color: var(--muted); font-style: italic; padding: 20px; text-align: center; }
+  .query-panel .label {
+    display: block;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
+  .count-bar {
+    padding: 8px 12px;
+    color: var(--muted);
+    font-size: 12px;
+    border: 1px solid var(--border);
+    border-top: none;
+    background: var(--surface);
+  }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>CRM Filter Prototype</h1>
-  <div class="subtitle">Demonstrates filter operators and value inputs for all 8 field types. Edit filters → table updates live.</div>
 
-  <div class="panel">
-    <h2>Filters</h2>
-    <div id="filters"></div>
-    <div class="actions">
-      <button class="btn-ghost btn" onclick="addFilter()">+ Add filter</button>
-      <button class="btn-ghost btn" onclick="clearFilters()">Clear all</button>
-    </div>
+<div class="page-title">
+  <span class="page-title-icon">👤</span> People
+</div>
+
+<div class="toolbar">
+  <div class="toolbar-btn">
+    <span class="dot">▦</span>
+    Recently Contacted People
+    <span class="caret">▾</span>
   </div>
-
-  <div class="panel">
-    <h2>Generated Query</h2>
-    <div class="query-display" id="query">No filters applied — showing all records</div>
-  </div>
-
-  <div class="panel">
-    <h2>Results</h2>
-    <div style="overflow-x: auto;">
-      <table id="results">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Deal Value</th>
-            <th>Rating</th>
-            <th>Status</th>
-            <th>Stage</th>
-            <th>Tags</th>
-            <th>Owner</th>
-            <th>Company</th>
-            <th>Customer</th>
-            <th>Created</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <div class="count-row" id="count"></div>
+  <div class="toolbar-btn">
+    <span class="icon">⊞</span>
+    View settings
+    <span class="caret">▾</span>
   </div>
 </div>
 
+<div class="filter-bar" id="filterBar">
+  <div class="sort-chip">
+    <span class="icon">⇅</span>
+    <span class="label">Sorted by</span>
+    <span>Last email interaction</span>
+  </div>
+  <div id="filterChips" style="display: contents;"></div>
+  <button class="add-filter-btn" id="addFilterBtn">
+    <span class="icon">⛛</span>
+    <span id="addFilterLabel">Filter</span>
+  </button>
+</div>
+
+<div class="results">
+  <table class="results-table" id="resultsTable">
+    <thead>
+      <tr>
+        <th style="width: 28px;"></th>
+        <th><span class="col-icon">👤</span>Person</th>
+        <th><span class="col-icon">💚</span>Connection stren...<span class="col-actions">⨯ ⚡</span></th>
+        <th><span class="col-icon">✉</span>Last email interaction<span class="col-actions">⨯ ⚡</span></th>
+        <th><span class="col-icon">📅</span>Last calendar interaction</th>
+        <th><span class="col-icon">⚑</span>Status</th>
+        <th><span class="col-icon">◐</span>Stage</th>
+        <th><span class="col-icon">$</span>Deal value</th>
+        <th><span class="col-icon">★</span>Rating</th>
+        <th><span class="col-icon">#</span>Tags</th>
+        <th><span class="col-icon">👤</span>Owner</th>
+        <th><span class="col-icon">🏢</span>Company</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+<div class="count-bar" id="countBar">0 count</div>
+
+<div class="query-panel">
+  <span class="label">Generated query</span>
+  <span id="queryDisplay">No filters applied</span>
+</div>
+
+<!-- Popover root -->
+<div id="popoverRoot"></div>
+
 <script>
-// ====== FIELD DEFINITIONS ======
+// ========== FIELD MODEL ==========
 const FIELDS = {
-  name:         { label: 'Name',          type: 'text' },
-  email:        { label: 'Email',         type: 'email' },
-  website:      { label: 'Website',       type: 'url' },
-  location:     { label: 'Location',      type: 'location' },
-  dealValue:    { label: 'Deal Value',    type: 'currency' },
-  rating:       { label: 'Rating',        type: 'rating' },
-  score:        { label: 'Score',         type: 'number' },
-  status:       { label: 'Status',        type: 'select', options: ['Open', 'Won', 'Lost'] },
-  stage:        { label: 'Stage',         type: 'select', options: ['Discovery', 'Demo Scheduled', 'Negotiation', 'Closed'] },
-  pipeline:     { label: 'Pipeline',      type: 'select', options: ['Sales Pipeline', 'Renewals'] },
-  tags:         { label: 'Tags',          type: 'multiselect', options: ['Enterprise', 'Hot Lead', 'Paid', 'Champion', 'SMB'] },
-  owner:        { label: 'Owner',         type: 'user', options: ['Divi', 'John', 'Priya', 'Sara'] },
-  company:      { label: 'Company',       type: 'relationship', options: ['Acme', 'Globex', 'Initech', 'Umbrella'] },
-  isCustomer:   { label: 'Is Customer',   type: 'yesno' },
-  createdDate:  { label: 'Created Date',  type: 'date' },
-  lastContact:  { label: 'Last Contact',  type: 'timestamp' }
+  recordId:     { label: 'Record ID',         type: 'text',         icon: '#' },
+  name:         { label: 'Name',              type: 'text',         icon: '👤', children: [
+                    { key: 'first', label: 'First', icon: '👤' },
+                    { key: 'last',  label: 'Last',  icon: '👤' },
+                    { key: 'full',  label: 'Full',  icon: '👤' }
+                  ]},
+  email:        { label: 'Email addresses',   type: 'email',        icon: '✉', children: [
+                    { key: 'primary',  label: 'Primary',   icon: '✉' },
+                    { key: 'all',      label: 'All',       icon: '✉' }
+                  ]},
+  description:  { label: 'Description',       type: 'text',         icon: 'A' },
+  company:      { label: 'Company',           type: 'relationship', icon: '🏢' },
+  jobTitle:     { label: 'Job title',         type: 'text',         icon: '💼' },
+  phone:        { label: 'Phone numbers',     type: 'text',         icon: '☎' },
+  location:     { label: 'Primary location',  type: 'location',     icon: '📍' },
+  website:      { label: 'Website',           type: 'url',          icon: '🔗' },
+  dealValue:    { label: 'Deal value',        type: 'currency',     icon: '$' },
+  rating:       { label: 'Rating',            type: 'rating',       icon: '★' },
+  score:        { label: 'Score',             type: 'number',       icon: '#' },
+  status:       { label: 'Status',            type: 'select', icon: '⚑',
+                    options: ['Open', 'Won', 'Lost'] },
+  stage:        { label: 'Stage',             type: 'select', icon: '◐',
+                    options: ['Discovery', 'Demo Scheduled', 'Negotiation', 'Closed'] },
+  pipeline:     { label: 'Pipeline',          type: 'select', icon: '⛕',
+                    options: ['Sales Pipeline', 'Renewals'] },
+  tags:         { label: 'Tags',              type: 'multiselect', icon: '#',
+                    options: ['Enterprise', 'Hot Lead', 'Paid', 'Champion', 'SMB'] },
+  owner:        { label: 'Owner',             type: 'user', icon: '👤',
+                    options: ['Divi', 'John', 'Priya', 'Sara'] },
+  isCustomer:   { label: 'Is customer',       type: 'yesno',        icon: '✓' },
+  createdDate:  { label: 'Created date',      type: 'date',         icon: '📅' },
+  lastContact:  { label: 'Last contact',      type: 'timestamp',    icon: '🕐' }
 };
 
-// ====== OPERATORS BY TYPE ======
 const OPERATORS = {
-  text:         ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
-  email:        ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
-  url:          ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
-  location:     ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
-  number:       ['is','is not','greater than','less than','between','is empty','is not empty'],
-  currency:     ['is','is not','greater than','less than','between','is empty','is not empty'],
-  rating:       ['is','is not','greater than','less than','between','is empty','is not empty'],
-  date:         ['is','is before','is after','is between','is in the last','is in the next','is empty','is not empty'],
-  timestamp:    ['is','is before','is after','is between','is in the last','is in the next','is empty','is not empty'],
-  yesno:        ['is','is empty','is not empty'],
-  select:       ['is','is not','is any of','is empty','is not empty'],
-  multiselect:  ['has any of','has all of','does not have','is empty','is not empty'],
-  user:         ['is','is not','is any of','is me','is empty','is not empty'],
-  relationship: ['is','is not','has any','does not have any','is empty','is not empty']
+  text:         ['contains','does not contain','starts with','ends with','is','is not','empty','not empty'],
+  email:        ['contains','does not contain','starts with','ends with','is','is not','empty','not empty'],
+  url:          ['contains','does not contain','starts with','ends with','is','is not','empty','not empty'],
+  location:     ['contains','does not contain','starts with','ends with','is','is not','empty','not empty'],
+  number:       ['is','is not','greater than','less than','between','empty','not empty'],
+  currency:     ['is','is not','greater than','less than','between','empty','not empty'],
+  rating:       ['is','is not','greater than','less than','between','empty','not empty'],
+  date:         ['is','is before','is after','is between','is in the last','is in the next','empty','not empty'],
+  timestamp:    ['is','is before','is after','is between','is in the last','is in the next','empty','not empty'],
+  yesno:        ['is','empty','not empty'],
+  select:       ['is','is not','is any of','empty','not empty'],
+  multiselect:  ['has any of','has all of','does not have','empty','not empty'],
+  user:         ['is','is not','is any of','is me','empty','not empty'],
+  relationship: ['is','is not','has any','does not have any','empty','not empty']
 };
 
 const DEFAULT_OP = {
   text:'contains', email:'contains', url:'contains', location:'contains',
-  number:'is', currency:'greater than', rating:'greater than',
+  number:'greater than', currency:'greater than', rating:'greater than',
   date:'is in the last', timestamp:'is in the last',
   yesno:'is',
   select:'is', multiselect:'has any of',
   user:'is', relationship:'is'
 };
 
-// ====== SAMPLE DATA ======
+// ========== SAMPLE DATA ==========
 const today = new Date('2026-05-20');
 const daysAgo = (n) => { const d = new Date(today); d.setDate(d.getDate()-n); return d; };
 const DATA = [
-  { name:'John Smith',    email:'john@gmail.com',     website:'acme.com',     location:'Chennai',   dealValue:75000,  rating:4, score:82, status:'Open',  stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Enterprise','Hot Lead'], owner:'Divi',  company:'Acme',     isCustomer:'Yes', createdDate:daysAgo(5),  lastContact:daysAgo(2) },
-  { name:'Maria Garcia',  email:'maria@globex.com',   website:'globex.com',   location:'Madrid',    dealValue:120000, rating:5, score:91, status:'Open',  stage:'Negotiation',    pipeline:'Sales Pipeline', tags:['Enterprise','Champion','Paid'], owner:'John',  company:'Globex',   isCustomer:'Yes', createdDate:daysAgo(40), lastContact:daysAgo(1) },
-  { name:'Ravi Kumar',    email:'ravi@gmail.com',     website:'linkedin.com/in/ravi', location:'Bangalore', dealValue:25000, rating:3, score:65, status:'Open',  stage:'Discovery',      pipeline:'Sales Pipeline', tags:['SMB','Hot Lead'], owner:'Priya', company:'Initech',  isCustomer:'No',  createdDate:daysAgo(12), lastContact:daysAgo(8) },
-  { name:'Anna Lee',      email:'anna@umbrella.com',  website:'umbrella.com', location:'Seoul',     dealValue:180000, rating:5, score:95, status:'Won',   stage:'Closed',         pipeline:'Sales Pipeline', tags:['Enterprise','Paid','Champion'], owner:'Sara',  company:'Umbrella', isCustomer:'Yes', createdDate:daysAgo(95), lastContact:daysAgo(30) },
-  { name:'Tom Wilson',    email:'tom@yahoo.com',      website:'',             location:'New York',  dealValue:45000,  rating:2, score:48, status:'Lost',  stage:'Closed',         pipeline:'Sales Pipeline', tags:['SMB'], owner:'Divi',  company:'',         isCustomer:'No',  createdDate:daysAgo(60), lastContact:daysAgo(45) },
-  { name:'Priya Patel',   email:'priya@gmail.com',    website:'priya.dev',    location:'Chennai',   dealValue:90000,  rating:4, score:78, status:'Open',  stage:'Negotiation',    pipeline:'Renewals',       tags:['Enterprise'], owner:'John',  company:'Acme',     isCustomer:'Yes', createdDate:daysAgo(20), lastContact:daysAgo(3) },
-  { name:'Carlos Mendez', email:'carlos@globex.com',  website:'globex.com',   location:'Mexico City', dealValue:60000, rating:3, score:70, status:'Open',  stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Hot Lead','Paid'], owner:'Priya', company:'Globex',   isCustomer:'No',  createdDate:daysAgo(8),  lastContact:daysAgo(1) },
-  { name:'Emma Brown',    email:'emma@hotmail.com',   website:'',             location:'London',    dealValue:15000,  rating:1, score:35, status:'Lost',  stage:'Closed',         pipeline:'Sales Pipeline', tags:['SMB'], owner:'Sara',  company:'',         isCustomer:'No',  createdDate:daysAgo(120),lastContact:daysAgo(80) },
+  { firstName:'Divyaraj', lastName:'Murugan', name:'Divyaraj Murugan', email:'divyaraj.murugan@surveysparrow.com', website:'surveysparrow.com', location:'Chennai', dealValue:0, rating:0, score:0, status:'Open', stage:'Discovery', pipeline:'Sales Pipeline', tags:[], owner:'Divi', company:'SurveySparrow', isCustomer:'No', createdDate:daysAgo(2), lastContact:daysAgo(1), connection:'no-comm' },
+  { firstName:'John', lastName:'Smith', name:'John Smith', email:'john@gmail.com', website:'acme.com', location:'Chennai', dealValue:75000, rating:4, score:82, status:'Open', stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Enterprise','Hot Lead'], owner:'Divi', company:'Acme', isCustomer:'Yes', createdDate:daysAgo(5), lastContact:daysAgo(2), connection:'strong' },
+  { firstName:'Maria', lastName:'Garcia', name:'Maria Garcia', email:'maria@globex.com', website:'globex.com', location:'Madrid', dealValue:120000, rating:5, score:91, status:'Open', stage:'Negotiation', pipeline:'Sales Pipeline', tags:['Enterprise','Champion','Paid'], owner:'John', company:'Globex', isCustomer:'Yes', createdDate:daysAgo(40), lastContact:daysAgo(1), connection:'strong' },
+  { firstName:'Ravi', lastName:'Kumar', name:'Ravi Kumar', email:'ravi@gmail.com', website:'linkedin.com/in/ravi', location:'Bangalore', dealValue:25000, rating:3, score:65, status:'Open', stage:'Discovery', pipeline:'Sales Pipeline', tags:['SMB','Hot Lead'], owner:'Priya', company:'Initech', isCustomer:'No', createdDate:daysAgo(12), lastContact:daysAgo(8), connection:'medium' },
+  { firstName:'Anna', lastName:'Lee', name:'Anna Lee', email:'anna@umbrella.com', website:'umbrella.com', location:'Seoul', dealValue:180000, rating:5, score:95, status:'Won', stage:'Closed', pipeline:'Sales Pipeline', tags:['Enterprise','Paid','Champion'], owner:'Sara', company:'Umbrella', isCustomer:'Yes', createdDate:daysAgo(95), lastContact:daysAgo(30), connection:'strong' },
+  { firstName:'Tom', lastName:'Wilson', name:'Tom Wilson', email:'tom@yahoo.com', website:'', location:'New York', dealValue:45000, rating:2, score:48, status:'Lost', stage:'Closed', pipeline:'Sales Pipeline', tags:['SMB'], owner:'Divi', company:'', isCustomer:'No', createdDate:daysAgo(60), lastContact:daysAgo(45), connection:'weak' },
+  { firstName:'Priya', lastName:'Patel', name:'Priya Patel', email:'priya@gmail.com', website:'priya.dev', location:'Chennai', dealValue:90000, rating:4, score:78, status:'Open', stage:'Negotiation', pipeline:'Renewals', tags:['Enterprise'], owner:'John', company:'Acme', isCustomer:'Yes', createdDate:daysAgo(20), lastContact:daysAgo(3), connection:'strong' },
+  { firstName:'Carlos', lastName:'Mendez', name:'Carlos Mendez', email:'carlos@globex.com', website:'globex.com', location:'Mexico City', dealValue:60000, rating:3, score:70, status:'Open', stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Hot Lead','Paid'], owner:'Priya', company:'Globex', isCustomer:'No', createdDate:daysAgo(8), lastContact:daysAgo(1), connection:'medium' },
 ];
 
-// ====== FILTER STATE ======
+// ========== STATE ==========
 let filters = [];
 let nextId = 1;
+let popover = null;
 
-function addFilter() {
-  filters.push({ id: nextId++, field: 'name', op: 'contains', value: '', value2: '' });
+function addFilter(fieldKey, subKey) {
+  const field = FIELDS[fieldKey];
+  const f = {
+    id: nextId++,
+    fieldKey,
+    subKey: subKey || null,
+    op: DEFAULT_OP[field.type],
+    value: '',
+    value2: '',
+    valueArr: []
+  };
+  filters.push(f);
   render();
+  return f;
 }
 function removeFilter(id) { filters = filters.filter(f => f.id !== id); render(); }
-function clearFilters() { filters = []; render(); }
 function updateFilter(id, patch) {
   const f = filters.find(x => x.id === id);
+  if (!f) return;
   Object.assign(f, patch);
   render();
 }
 
-function onFieldChange(id, newField) {
-  const type = FIELDS[newField].type;
-  updateFilter(id, { field: newField, op: DEFAULT_OP[type], value: '', value2: '' });
+// ========== POPOVER ==========
+function closePopover() {
+  if (popover) { popover.remove(); popover = null; }
 }
-function onOpChange(id, newOp) {
-  updateFilter(id, { op: newOp, value: '', value2: '' });
-}
-
-// ====== VALUE INPUT RENDERER ======
-function renderValueInput(f) {
-  const field = FIELDS[f.field];
-  const type = field.type;
-
-  // Empty / not empty / is me — no value needed
-  if (['is empty','is not empty','is me'].includes(f.op)) {
-    return `<input disabled placeholder="(no value needed)" />`;
+function openPopover(anchorEl, html, onMount) {
+  closePopover();
+  const rect = anchorEl.getBoundingClientRect();
+  const pop = document.createElement('div');
+  pop.className = 'popover';
+  pop.innerHTML = html;
+  document.body.appendChild(pop);
+  // position below anchor
+  const popRect = pop.getBoundingClientRect();
+  let left = rect.left + window.scrollX;
+  let top = rect.bottom + window.scrollY + 4;
+  // if overflowing right, shift
+  if (left + popRect.width > window.innerWidth - 8) {
+    left = window.innerWidth - popRect.width - 8;
   }
-
-  // Between / is between
-  if (f.op === 'between' || f.op === 'is between') {
-    const inp = (type === 'date' || type === 'timestamp')
-      ? (type === 'timestamp' ? 'datetime-local' : 'date')
-      : 'number';
-    return `
-      <div class="between-inputs">
-        <input type="${inp}" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />
-        <span class="sep">and</span>
-        <input type="${inp}" value="${f.value2 || ''}" oninput="updateFilter(${f.id},{value2:this.value})" />
-      </div>`;
-  }
-
-  // Date "is in the last" / "is in the next" — number of days
-  if (f.op === 'is in the last' || f.op === 'is in the next') {
-    return `<input type="number" min="1" placeholder="number of days" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
-  }
-
-  // Number-like
-  if (['number','currency','rating'].includes(type)) {
-    const prefix = type === 'currency' ? '$' : '';
-    const max = type === 'rating' ? 5 : null;
-    return `<input type="number" ${max?`max="${max}"`:''} placeholder="${prefix}value" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
-  }
-
-  // Date / timestamp single value
-  if (type === 'date') {
-    return `<input type="date" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
-  }
-  if (type === 'timestamp') {
-    return `<input type="datetime-local" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
-  }
-
-  // Yes/No
-  if (type === 'yesno') {
-    return `<select onchange="updateFilter(${f.id},{value:this.value})">
-      <option value="">Select...</option>
-      <option value="Yes" ${f.value==='Yes'?'selected':''}>Yes</option>
-      <option value="No" ${f.value==='No'?'selected':''}>No</option>
-    </select>`;
-  }
-
-  // Single select / user / relationship (single)
-  if (type === 'select' || (type === 'user' && f.op !== 'is any of') || (type === 'relationship' && (f.op === 'is' || f.op === 'is not'))) {
-    if (f.op === 'is any of') return renderMultiTags(f, field.options);
-    const opts = field.options.map(o => `<option ${f.value===o?'selected':''}>${o}</option>`).join('');
-    return `<select onchange="updateFilter(${f.id},{value:this.value})">
-      <option value="">Select...</option>${opts}
-    </select>`;
-  }
-
-  // Relationship "has any" / "does not have any" — no value
-  if (type === 'relationship' && (f.op === 'has any' || f.op === 'does not have any')) {
-    return `<input disabled placeholder="(no value needed)" />`;
-  }
-
-  // Multi-select / "is any of"
-  if (type === 'multiselect' || f.op === 'is any of') {
-    return renderMultiTags(f, field.options);
-  }
-
-  // Text-like default
-  return `<input type="text" placeholder="value" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
-}
-
-function renderMultiTags(f, options) {
-  const selected = Array.isArray(f.value) ? f.value : (f.value ? [f.value] : []);
-  const tags = selected.map(v => `<span class="tag">${v}<span class="remove" onclick="event.stopPropagation();removeTag(${f.id},'${v}')">×</span></span>`).join('');
-  return `<div class="multi-wrapper">
-    <div class="multi-select-tags" onclick="toggleDropdown(${f.id})">
-      ${tags || '<span style="color:var(--muted);padding:4px 6px;font-size:12px;">Select values...</span>'}
-    </div>
-    <div class="multi-dropdown" id="dd-${f.id}" style="display:none;">
-      ${options.map(o => `<div class="${selected.includes(o)?'checked':''}" onclick="toggleTag(${f.id},'${o}')">${selected.includes(o)?'✓ ':''}${o}</div>`).join('')}
-    </div>
-  </div>`;
-}
-
-function toggleDropdown(id) {
-  document.querySelectorAll('.multi-dropdown').forEach(d => {
-    if (d.id !== `dd-${id}`) d.style.display = 'none';
-  });
-  const el = document.getElementById(`dd-${id}`);
-  el.style.display = el.style.display === 'none' ? 'block' : 'none';
-}
-function toggleTag(id, val) {
-  const f = filters.find(x => x.id === id);
-  const arr = Array.isArray(f.value) ? [...f.value] : (f.value ? [f.value] : []);
-  const i = arr.indexOf(val);
-  if (i >= 0) arr.splice(i, 1); else arr.push(val);
-  updateFilter(id, { value: arr });
-}
-function removeTag(id, val) {
-  const f = filters.find(x => x.id === id);
-  const arr = (Array.isArray(f.value) ? f.value : []).filter(v => v !== val);
-  updateFilter(id, { value: arr });
+  pop.style.left = left + 'px';
+  pop.style.top = top + 'px';
+  popover = pop;
+  if (onMount) onMount(pop);
+  // focus first search input if any
+  const search = pop.querySelector('.pop-search input');
+  if (search) setTimeout(() => search.focus(), 10);
 }
 
 document.addEventListener('click', (e) => {
-  if (!e.target.closest('.multi-wrapper')) {
-    document.querySelectorAll('.multi-dropdown').forEach(d => d.style.display = 'none');
-  }
+  if (!popover) return;
+  if (popover.contains(e.target)) return;
+  // ignore clicks on anchor triggers
+  if (e.target.closest('[data-pop-trigger]')) return;
+  closePopover();
 });
 
-// ====== PRESETS (date) ======
-function renderDatePresets(f) {
-  if (!['date','timestamp'].includes(FIELDS[f.field].type)) return '';
-  if (!['is in the last','is between','is before','is after','is'].includes(f.op)) return '';
-  const presets = [
-    {label:'Today',           op:'is',            value:0},
-    {label:'Yesterday',       op:'is',            value:1},
-    {label:'Last 7 days',     op:'is in the last',value:7},
-    {label:'Last 30 days',    op:'is in the last',value:30},
-    {label:'Last 90 days',    op:'is in the last',value:90},
-  ];
-  return `<div class="preset-row">${presets.map(p => `<span class="preset" onclick="applyPreset(${f.id},'${p.op}',${p.value})">${p.label}</span>`).join('')}</div>`;
-}
-function applyPreset(id, op, value) {
-  if (op === 'is in the last') updateFilter(id, { op, value: String(value) });
-  else if (op === 'is' && value === 0) updateFilter(id, { op, value: today.toISOString().slice(0,10) });
-  else if (op === 'is' && value === 1) { const d=daysAgo(1); updateFilter(id, { op, value: d.toISOString().slice(0,10) }); }
+// ========== ATTRIBUTE PICKER ==========
+function openAttributePicker(anchorEl, onPick) {
+  const items = Object.entries(FIELDS).map(([k, v]) => ({ k, v }));
+  let stack = [{ items, title: null }]; // navigation stack
+  const render = () => {
+    const cur = stack[stack.length - 1];
+    const isSubmenu = stack.length > 1;
+    const html = `
+      <div class="pop-search">
+        ${isSubmenu ? `<span class="pop-back" id="pop-back">‹</span>` : ''}
+        ${isSubmenu ? `<span class="pop-current">${cur.title}</span>` : ''}
+        <input placeholder="${isSubmenu ? 'Search attributes...' : 'Search attributes...'}" id="pop-q" />
+      </div>
+      <div class="pop-list" id="pop-list"></div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      const list = pop.querySelector('#pop-list');
+      const renderList = (q = '') => {
+        const filtered = cur.items.filter(i => i.v.label.toLowerCase().includes(q.toLowerCase()));
+        if (filtered.length === 0) {
+          list.innerHTML = `<div class="pop-empty">No matches</div>`;
+          return;
+        }
+        list.innerHTML = filtered.map(({ k, v }) => `
+          <div class="pop-item" data-key="${k}">
+            <span class="item-icon">${v.icon || '•'}</span>
+            <span class="item-label">${v.label}</span>
+            ${v.children ? `<span class="item-count">${v.children.length}</span><span class="item-arrow">›</span>` : ''}
+          </div>
+        `).join('');
+        list.querySelectorAll('.pop-item').forEach(el => {
+          el.addEventListener('click', () => {
+            const key = el.getAttribute('data-key');
+            const fieldDef = cur.items.find(i => i.k === key).v;
+            if (fieldDef.children) {
+              // drill into submenu
+              const subItems = fieldDef.children.map(c => ({
+                k: key + ':' + c.key,
+                v: { label: c.label, icon: c.icon, type: fieldDef.type, parentKey: key, subKey: c.key }
+              }));
+              stack.push({ items: subItems, title: fieldDef.label });
+              render();
+            } else {
+              closePopover();
+              onPick(key, null);
+            }
+          });
+        });
+      };
+      renderList();
+      pop.querySelector('#pop-q').addEventListener('input', (e) => renderList(e.target.value));
+      const back = pop.querySelector('#pop-back');
+      if (back) back.addEventListener('click', () => { stack.pop(); render(); });
+      // handle sub picks
+      list.querySelectorAll('.pop-item').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (key && key.includes(':')) {
+          el.addEventListener('click', () => {
+            const [parent, sub] = key.split(':');
+            closePopover();
+            onPick(parent, sub);
+          });
+        }
+      });
+    });
+  };
+  render();
 }
 
-// ====== RENDER FILTERS ======
-function render() {
-  const root = document.getElementById('filters');
-  if (filters.length === 0) {
-    root.innerHTML = `<div class="empty-state">No filters yet — click "Add filter" to build a condition</div>`;
-  } else {
-    root.innerHTML = filters.map(f => {
-      const type = FIELDS[f.field].type;
-      const ops = OPERATORS[type].map(o => `<option ${f.op===o?'selected':''}>${o}</option>`).join('');
-      const fieldOpts = Object.entries(FIELDS).map(([k,v]) => `<option value="${k}" ${f.field===k?'selected':''}>${v.label}</option>`).join('');
-      return `
-        <div>
-          ${renderDatePresets(f)}
-          <div class="filter-row">
-            <select onchange="onFieldChange(${f.id}, this.value)">${fieldOpts}</select>
-            <select onchange="onOpChange(${f.id}, this.value)">${ops}</select>
-            <div>${renderValueInput(f)}</div>
-            <button class="btn-icon" onclick="removeFilter(${f.id})" title="Remove">×</button>
-          </div>
-          <div style="font-size:11px;color:var(--muted);margin:-4px 0 8px 4px;">
-            <span class="field-type-badge">${type}</span>
-          </div>
-        </div>`;
-    }).join('');
-  }
-  renderQuery();
-  renderResults();
-}
-
-// ====== QUERY DISPLAY ======
-function renderQuery() {
-  const el = document.getElementById('query');
-  if (filters.length === 0) { el.textContent = 'No filters applied — showing all records'; return; }
-  const parts = filters.map(f => {
-    const label = FIELDS[f.field].label;
-    let v = Array.isArray(f.value) ? f.value.join(', ') : (f.value ?? '');
-    if (f.op === 'between' || f.op === 'is between') v = `${f.value || '?'} and ${f.value2 || '?'}`;
-    if (['is empty','is not empty','is me'].includes(f.op)) v = '';
-    if (Array.isArray(f.value) && f.value.length > 1) v = `[${f.value.join(', ')}]`;
-    return `${label} ${f.op}${v ? ' ' + v : ''}`;
+// ========== OPERATOR PICKER ==========
+function openOperatorPicker(anchorEl, filter) {
+  const field = FIELDS[filter.fieldKey];
+  const ops = OPERATORS[field.type];
+  const html = `
+    <div class="pop-list" style="padding: 4px;">
+      ${ops.map(op => `<div class="pop-item ${op === filter.op ? 'active' : ''}" data-op="${op}">
+        <span class="item-label">${op}</span>
+      </div>`).join('')}
+    </div>
+  `;
+  openPopover(anchorEl, html, (pop) => {
+    pop.querySelectorAll('.pop-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const op = el.getAttribute('data-op');
+        closePopover();
+        updateFilter(filter.id, { op, value: '', value2: '', valueArr: [] });
+      });
+    });
   });
-  el.textContent = parts.join('\nAND ');
 }
 
-// ====== EVALUATE FILTER ======
+// ========== VALUE PICKER (varies by type/op) ==========
+function openValuePicker(anchorEl, filter) {
+  const field = FIELDS[filter.fieldKey];
+  const type = field.type;
+  const op = filter.op;
+
+  if (['empty','not empty','is me'].includes(op)) return; // no value needed
+
+  // Single-select / status / stage / pipeline / user (single)
+  if ((type === 'select' && (op === 'is' || op === 'is not')) ||
+      (type === 'user' && (op === 'is' || op === 'is not')) ||
+      (type === 'relationship' && (op === 'is' || op === 'is not')) ||
+      (type === 'yesno' && op === 'is')) {
+    const options = type === 'yesno' ? ['Yes','No'] :
+                    type === 'relationship' ? ['Acme','Globex','Initech','Umbrella','SurveySparrow'] :
+                    field.options;
+    const html = `
+      <div class="pop-search"><input placeholder="Search..." id="pop-q" /></div>
+      <div class="pop-list" id="pop-list"></div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      const list = pop.querySelector('#pop-list');
+      const renderList = (q = '') => {
+        const filtered = options.filter(o => o.toLowerCase().includes(q.toLowerCase()));
+        list.innerHTML = filtered.length === 0
+          ? `<div class="pop-empty">No matches</div>`
+          : filtered.map(o => `<div class="pop-item" data-val="${o}">
+              <span class="item-label">${o}</span>
+              ${filter.value === o ? '<span class="check">✓</span>' : ''}
+            </div>`).join('');
+        list.querySelectorAll('.pop-item').forEach(el => {
+          el.addEventListener('click', () => {
+            updateFilter(filter.id, { value: el.getAttribute('data-val') });
+            closePopover();
+          });
+        });
+      };
+      renderList();
+      pop.querySelector('#pop-q').addEventListener('input', (e) => renderList(e.target.value));
+    });
+    return;
+  }
+
+  // Multi-select / "is any of" / "has any of" / "has all of" / "does not have"
+  if (type === 'multiselect' ||
+      (['select','user'].includes(type) && op === 'is any of')) {
+    const options = field.options || [];
+    const renderPop = () => {
+      const html = `
+        <div class="pop-search"><input placeholder="Search..." id="pop-q" /></div>
+        <div class="pop-list" id="pop-list"></div>
+        <div class="pop-divider"></div>
+        <div style="padding: 6px 8px; color: var(--muted); font-size: 11px;">${filter.valueArr.length} selected</div>
+      `;
+      openPopover(anchorEl, html, (pop) => {
+        const list = pop.querySelector('#pop-list');
+        const renderList = (q = '') => {
+          const filtered = options.filter(o => o.toLowerCase().includes(q.toLowerCase()));
+          list.innerHTML = filtered.length === 0
+            ? `<div class="pop-empty">No matches</div>`
+            : filtered.map(o => {
+                const checked = filter.valueArr.includes(o);
+                return `<div class="pop-item ${checked?'checked':''}" data-val="${o}">
+                  <span class="item-icon">${checked ? '☑' : '☐'}</span>
+                  <span class="item-label">${o}</span>
+                </div>`;
+              }).join('');
+          list.querySelectorAll('.pop-item').forEach(el => {
+            el.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const val = el.getAttribute('data-val');
+              const arr = [...filter.valueArr];
+              const i = arr.indexOf(val);
+              if (i >= 0) arr.splice(i, 1); else arr.push(val);
+              filter.valueArr = arr;
+              render(); // re-render chips
+              renderPop(); // re-open with updated state
+            });
+          });
+        };
+        renderList();
+        pop.querySelector('#pop-q').addEventListener('input', (e) => renderList(e.target.value));
+      });
+    };
+    renderPop();
+    return;
+  }
+
+  // Number-like: between (two inputs)
+  if (['number','currency','rating'].includes(type) && op === 'between') {
+    const html = `
+      <div class="pop-number-row">
+        <input type="number" placeholder="From" value="${filter.value || ''}" id="v1" />
+        <span style="color:var(--muted);font-size:11px;">and</span>
+        <input type="number" placeholder="To" value="${filter.value2 || ''}" id="v2" />
+      </div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      pop.querySelector('#v1').addEventListener('input', (e) => { filter.value = e.target.value; render(); });
+      pop.querySelector('#v2').addEventListener('input', (e) => { filter.value2 = e.target.value; render(); });
+      setTimeout(() => pop.querySelector('#v1').focus(), 10);
+    });
+    return;
+  }
+
+  // Date: is between
+  if (['date','timestamp'].includes(type) && op === 'is between') {
+    const inp = type === 'timestamp' ? 'datetime-local' : 'date';
+    const html = `
+      <div class="pop-date-inputs">
+        <input type="${inp}" value="${filter.value || ''}" id="v1" />
+        <input type="${inp}" value="${filter.value2 || ''}" id="v2" />
+      </div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      pop.querySelector('#v1').addEventListener('input', (e) => { filter.value = e.target.value; render(); });
+      pop.querySelector('#v2').addEventListener('input', (e) => { filter.value2 = e.target.value; render(); });
+    });
+    return;
+  }
+
+  // Date: is in the last / is in the next (number of days + presets)
+  if (['date','timestamp'].includes(type) && (op === 'is in the last' || op === 'is in the next')) {
+    const html = `
+      <div class="pop-preset-row">
+        <span class="preset-pill" data-v="7">7 days</span>
+        <span class="preset-pill" data-v="14">14 days</span>
+        <span class="preset-pill" data-v="30">30 days</span>
+        <span class="preset-pill" data-v="60">60 days</span>
+        <span class="preset-pill" data-v="90">90 days</span>
+      </div>
+      <div class="pop-number-row">
+        <input type="number" min="1" placeholder="Number of days" value="${filter.value || ''}" id="v1" />
+        <span style="color:var(--muted);font-size:11px;">days</span>
+      </div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      pop.querySelector('#v1').addEventListener('input', (e) => { filter.value = e.target.value; render(); });
+      pop.querySelectorAll('.preset-pill').forEach(p => {
+        p.addEventListener('click', () => {
+          filter.value = p.getAttribute('data-v');
+          render();
+          closePopover();
+        });
+      });
+      setTimeout(() => pop.querySelector('#v1').focus(), 10);
+    });
+    return;
+  }
+
+  // Date: single date
+  if (['date','timestamp'].includes(type)) {
+    const inp = type === 'timestamp' ? 'datetime-local' : 'date';
+    const html = `
+      <div class="pop-preset-row">
+        <span class="preset-pill" data-preset="today">Today</span>
+        <span class="preset-pill" data-preset="yesterday">Yesterday</span>
+      </div>
+      <div class="pop-date-inputs">
+        <input type="${inp}" value="${filter.value || ''}" id="v1" />
+      </div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      pop.querySelector('#v1').addEventListener('input', (e) => { filter.value = e.target.value; render(); });
+      pop.querySelectorAll('.preset-pill').forEach(p => {
+        p.addEventListener('click', () => {
+          const preset = p.getAttribute('data-preset');
+          const d = preset === 'today' ? today : daysAgo(1);
+          filter.value = d.toISOString().slice(0, 10);
+          render();
+          closePopover();
+        });
+      });
+    });
+    return;
+  }
+
+  // Number-like single input
+  if (['number','currency','rating'].includes(type)) {
+    const max = type === 'rating' ? 5 : undefined;
+    const prefix = type === 'currency' ? '$' : '';
+    const html = `
+      <div class="pop-number-row">
+        ${prefix ? `<span style="color:var(--muted);">${prefix}</span>` : ''}
+        <input type="number" ${max?`max="${max}"`:''} placeholder="value" value="${filter.value || ''}" id="v1" />
+      </div>
+    `;
+    openPopover(anchorEl, html, (pop) => {
+      pop.querySelector('#v1').addEventListener('input', (e) => { filter.value = e.target.value; render(); });
+      setTimeout(() => pop.querySelector('#v1').focus(), 10);
+    });
+    return;
+  }
+
+  // Text-like: do nothing — input is inline in chip
+}
+
+// ========== RENDER CHIPS ==========
+function renderChips() {
+  const root = document.getElementById('filterChips');
+  root.innerHTML = filters.map(f => {
+    const field = FIELDS[f.fieldKey];
+    const sub = f.subKey ? field.children?.find(c => c.key === f.subKey) : null;
+    const type = field.type;
+    const op = f.op;
+
+    let fieldLabel = field.label;
+    if (sub) fieldLabel = `${field.label} <span class="arrow">›</span> ${sub.label}`;
+
+    // value segment
+    let valueHtml = '';
+    if (['empty','not empty','is me'].includes(op)) {
+      valueHtml = '';
+    } else if (['text','email','url','location'].includes(type)) {
+      // inline input
+      valueHtml = `<div class="chip-segment" data-no-pop="1">
+        <input class="chip-value-input"
+               placeholder="enter text..."
+               value="${(f.value || '').replace(/"/g, '&quot;')}"
+               data-id="${f.id}" />
+      </div>`;
+    } else if (type === 'multiselect' || ((type === 'select' || type === 'user') && op === 'is any of')) {
+      const arr = f.valueArr || [];
+      const display = arr.length === 0 ? '<span class="chip-segment placeholder" data-pop-trigger data-action="value" data-id="'+f.id+'">Select values...</span>'
+                    : `<div class="chip-segment" data-pop-trigger data-action="value" data-id="${f.id}">
+                        ${arr.slice(0,2).map(v=>`<span class="tag-pill">${v}</span>`).join('')}
+                        ${arr.length > 2 ? `<span style="color:var(--muted);font-size:11px;">+${arr.length-2}</span>` : ''}
+                       </div>`;
+      valueHtml = display;
+    } else if (['number','currency','rating'].includes(type) && op === 'between') {
+      const v = (f.value && f.value2) ? `${f.value} – ${f.value2}` : 'Set range...';
+      valueHtml = `<div class="chip-segment ${(!f.value || !f.value2) ? 'placeholder' : ''}" data-pop-trigger data-action="value" data-id="${f.id}">${v}</div>`;
+    } else if (['date','timestamp'].includes(type) && op === 'is between') {
+      const v = (f.value && f.value2) ? `${f.value} → ${f.value2}` : 'Set range...';
+      valueHtml = `<div class="chip-segment ${(!f.value || !f.value2) ? 'placeholder' : ''}" data-pop-trigger data-action="value" data-id="${f.id}">${v}</div>`;
+    } else if (['date','timestamp'].includes(type) && (op === 'is in the last' || op === 'is in the next')) {
+      const v = f.value ? `${f.value} days` : 'Set number...';
+      valueHtml = `<div class="chip-segment ${!f.value ? 'placeholder' : ''}" data-pop-trigger data-action="value" data-id="${f.id}">${v}</div>`;
+    } else {
+      const v = f.value || 'Select value...';
+      const ph = !f.value ? 'placeholder' : '';
+      let display = v;
+      if (type === 'currency' && f.value) display = `$${Number(f.value).toLocaleString()}`;
+      if (type === 'rating' && f.value) display = `${'★'.repeat(Number(f.value))}${'☆'.repeat(5-Number(f.value))}`;
+      valueHtml = `<div class="chip-segment ${ph}" data-pop-trigger data-action="value" data-id="${f.id}">${display}</div>`;
+    }
+
+    return `
+      <div class="filter-chip">
+        <div class="chip-segment" data-pop-trigger data-action="field" data-id="${f.id}">
+          <span class="field-icon">${field.icon || '•'}</span>
+          ${fieldLabel}
+        </div>
+        <div class="chip-segment" data-pop-trigger data-action="op" data-id="${f.id}">
+          ${op}
+        </div>
+        ${valueHtml}
+        <div class="chip-menu" data-pop-trigger data-action="menu" data-id="${f.id}" title="Delete">⋮</div>
+      </div>
+    `;
+  }).join('');
+
+  // Wire up triggers
+  root.querySelectorAll('[data-pop-trigger]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const action = el.getAttribute('data-action');
+      const id = +el.getAttribute('data-id');
+      const f = filters.find(x => x.id === id);
+      if (!f) return;
+      if (action === 'field') {
+        openAttributePicker(el, (newKey, newSub) => {
+          const newType = FIELDS[newKey].type;
+          updateFilter(id, { fieldKey: newKey, subKey: newSub, op: DEFAULT_OP[newType], value: '', value2: '', valueArr: [] });
+        });
+      } else if (action === 'op') {
+        openOperatorPicker(el, f);
+      } else if (action === 'value') {
+        openValuePicker(el, f);
+      } else if (action === 'menu') {
+        removeFilter(id);
+      }
+    });
+  });
+
+  // Wire up inline text inputs
+  root.querySelectorAll('.chip-value-input').forEach(inp => {
+    inp.addEventListener('input', (e) => {
+      const id = +e.target.getAttribute('data-id');
+      const f = filters.find(x => x.id === id);
+      if (f) { f.value = e.target.value; renderResults(); renderQuery(); }
+    });
+    inp.addEventListener('click', e => e.stopPropagation());
+  });
+
+  // Update label of Filter button — shows "+" when there are already filters
+  document.getElementById('addFilterLabel').textContent = filters.length === 0 ? 'Filter' : '+';
+}
+
+// Wire up "Add filter" button
+document.getElementById('addFilterBtn').addEventListener('click', (e) => {
+  e.stopPropagation();
+  openAttributePicker(e.currentTarget, (key, sub) => {
+    addFilter(key, sub);
+  });
+});
+
+// ========== EVALUATE ==========
+function getValue(row, fieldKey, subKey) {
+  if (fieldKey === 'name') {
+    if (subKey === 'first') return row.firstName;
+    if (subKey === 'last') return row.lastName;
+    return row.name;
+  }
+  if (fieldKey === 'email' && subKey) return row.email;
+  return row[fieldKey];
+}
+
 function evaluate(row, f) {
-  const type = FIELDS[f.field].type;
-  const val = row[f.field];
+  const field = FIELDS[f.fieldKey];
+  const type = field.type;
+  const op = f.op;
+  const val = getValue(row, f.fieldKey, f.subKey);
   const target = f.value;
 
-  if (f.op === 'is empty')     return val === '' || val == null || (Array.isArray(val) && val.length === 0);
-  if (f.op === 'is not empty') return !(val === '' || val == null || (Array.isArray(val) && val.length === 0));
-  if (f.op === 'is me')        return val === 'Divi';
+  if (op === 'empty')     return val === '' || val == null || (Array.isArray(val) && val.length === 0);
+  if (op === 'not empty') return !(val === '' || val == null || (Array.isArray(val) && val.length === 0));
+  if (op === 'is me')     return val === 'Divi';
 
-  // Text-like
   if (['text','email','url','location'].includes(type)) {
     const s = String(val || '').toLowerCase();
     const t = String(target || '').toLowerCase();
     if (t === '') return true;
-    switch (f.op) {
+    switch (op) {
       case 'contains':         return s.includes(t);
       case 'does not contain': return !s.includes(t);
       case 'is':               return s === t;
@@ -544,125 +1065,164 @@ function evaluate(row, f) {
       case 'ends with':        return s.endsWith(t);
     }
   }
-
-  // Number-like
   if (['number','currency','rating'].includes(type)) {
     const n = Number(val);
-    const t = Number(target);
-    if (f.op === 'between') {
+    if (op === 'between') {
       const a = Number(f.value), b = Number(f.value2);
       if (isNaN(a) || isNaN(b)) return true;
       return n >= Math.min(a,b) && n <= Math.max(a,b);
     }
+    const t = Number(target);
     if (target === '' || isNaN(t)) return true;
-    switch (f.op) {
+    switch (op) {
       case 'is':           return n === t;
       case 'is not':       return n !== t;
       case 'greater than': return n > t;
       case 'less than':    return n < t;
     }
   }
-
-  // Date-like
   if (['date','timestamp'].includes(type)) {
     const d = val instanceof Date ? val : new Date(val);
-    if (f.op === 'is in the last' && target) {
-      const days = Number(target);
-      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() - days);
+    if (op === 'is in the last' && target) {
+      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() - Number(target));
       return d >= cutoff && d <= today;
     }
-    if (f.op === 'is in the next' && target) {
-      const days = Number(target);
-      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() + days);
+    if (op === 'is in the next' && target) {
+      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() + Number(target));
       return d >= today && d <= cutoff;
     }
-    if (f.op === 'is between' && f.value && f.value2) {
+    if (op === 'is between' && f.value && f.value2) {
       return d >= new Date(f.value) && d <= new Date(f.value2);
     }
     if (target === '') return true;
     const t = new Date(target);
-    switch (f.op) {
+    switch (op) {
       case 'is':        return d.toDateString() === t.toDateString();
       case 'is before': return d < t;
       case 'is after':  return d > t;
     }
   }
-
-  // Yes/No
   if (type === 'yesno') {
     if (target === '') return true;
-    return f.op === 'is' && val === target;
+    return op === 'is' && val === target;
   }
-
-  // Select
   if (type === 'select') {
-    if (Array.isArray(target)) {
-      if (target.length === 0) return true;
-      return f.op === 'is any of' ? target.includes(val) : true;
+    if (op === 'is any of') {
+      if (f.valueArr.length === 0) return true;
+      return f.valueArr.includes(val);
     }
     if (target === '') return true;
-    if (f.op === 'is')     return val === target;
-    if (f.op === 'is not') return val !== target;
+    if (op === 'is')     return val === target;
+    if (op === 'is not') return val !== target;
   }
-
-  // Multi-select
   if (type === 'multiselect') {
-    const tArr = Array.isArray(target) ? target : (target ? [target] : []);
+    const tArr = f.valueArr || [];
     if (tArr.length === 0) return true;
     const vArr = Array.isArray(val) ? val : [];
-    if (f.op === 'has any of')   return tArr.some(t => vArr.includes(t));
-    if (f.op === 'has all of')   return tArr.every(t => vArr.includes(t));
-    if (f.op === 'does not have')return !tArr.some(t => vArr.includes(t));
+    if (op === 'has any of')   return tArr.some(t => vArr.includes(t));
+    if (op === 'has all of')   return tArr.every(t => vArr.includes(t));
+    if (op === 'does not have')return !tArr.some(t => vArr.includes(t));
   }
-
-  // User
   if (type === 'user') {
-    if (Array.isArray(target)) {
-      if (target.length === 0) return true;
-      return target.includes(val);
+    if (op === 'is any of') {
+      if (f.valueArr.length === 0) return true;
+      return f.valueArr.includes(val);
     }
     if (target === '') return true;
-    if (f.op === 'is')     return val === target;
-    if (f.op === 'is not') return val !== target;
+    if (op === 'is')     return val === target;
+    if (op === 'is not') return val !== target;
   }
-
-  // Relationship
   if (type === 'relationship') {
-    if (f.op === 'has any')          return val && val !== '';
-    if (f.op === 'does not have any')return !val || val === '';
+    if (op === 'has any')          return val && val !== '';
+    if (op === 'does not have any')return !val || val === '';
     if (target === '') return true;
-    if (f.op === 'is')     return val === target;
-    if (f.op === 'is not') return val !== target;
+    if (op === 'is')     return val === target;
+    if (op === 'is not') return val !== target;
   }
-
   return true;
 }
 
-// ====== RENDER RESULTS ======
+// ========== RENDER RESULTS ==========
 function renderResults() {
   const filtered = DATA.filter(row => filters.every(f => evaluate(row, f)));
-  const tbody = document.querySelector('#results tbody');
-  const pillClass = (s) => ({ Open:'pill-open', Won:'pill-won', Lost:'pill-lost' }[s] || '');
-  const stageClass = (s) => ({ 'Demo Scheduled':'pill-demo', 'Negotiation':'pill-neg' }[s] || 'pill-open');
-  tbody.innerHTML = filtered.map(r => `
-    <tr>
-      <td>${r.name}</td>
-      <td>${r.email}</td>
-      <td>$${r.dealValue.toLocaleString()}</td>
-      <td>${'★'.repeat(r.rating)}${'☆'.repeat(5-r.rating)}</td>
-      <td><span class="pill ${pillClass(r.status)}">${r.status}</span></td>
-      <td><span class="pill ${stageClass(r.stage)}">${r.stage}</span></td>
-      <td>${r.tags.map(t => `<span class="tag">${t}</span>`).join(' ')}</td>
-      <td>${r.owner}</td>
-      <td>${r.company || '—'}</td>
-      <td>${r.isCustomer}</td>
-      <td>${r.createdDate.toISOString().slice(0,10)}</td>
-    </tr>`).join('') || `<tr><td colspan="11" class="empty-state">No results match the filters</td></tr>`;
-  document.getElementById('count').textContent = `${filtered.length} of ${DATA.length} records`;
+  const tbody = document.querySelector('#resultsTable tbody');
+
+  const stagePill = (s) => {
+    const c = {
+      'Demo Scheduled':'pill-demo','Negotiation':'pill-neg',
+      'Discovery':'pill-discovery','Closed':'pill-closed'
+    }[s] || 'pill-open';
+    return `<span class="pill ${c}">${s}</span>`;
+  };
+  const statusPill = (s) => {
+    const c = { 'Open':'pill-open','Won':'pill-won','Lost':'pill-lost' }[s] || '';
+    return `<span class="pill ${c}">${s}</span>`;
+  };
+  const initials = (name) => name.split(' ').map(p => p[0]).join('').slice(0,2).toUpperCase();
+
+  tbody.innerHTML = filtered.map(r => {
+    const isProtected = r.connection === 'no-comm';
+    return `
+      <tr>
+        <td><span class="row-checkbox"></span></td>
+        <td><span class="person-cell"><span class="avatar">${initials(r.name)}</span>${r.name}</span></td>
+        <td><span class="no-comm"><span class="no-comm-dot"></span>${r.connection === 'no-comm' ? 'No communication' : r.connection}</span></td>
+        <td>${isProtected ? '<span class="protected">Protected record</span>' : r.lastContact.toISOString().slice(0,10)}</td>
+        <td>${isProtected ? '<span class="protected">Protected record</span>' : '—'}</td>
+        <td>${statusPill(r.status)}</td>
+        <td>${stagePill(r.stage)}</td>
+        <td>${r.dealValue ? '$' + r.dealValue.toLocaleString() : '—'}</td>
+        <td>${r.rating ? '★'.repeat(r.rating) + '<span style="color:var(--muted-light);">' + '☆'.repeat(5-r.rating) + '</span>' : '—'}</td>
+        <td>${r.tags.length ? r.tags.map(t=>`<span class="tag-pill">${t}</span>`).join('') : '—'}</td>
+        <td><span class="person-cell"><span class="avatar">${r.owner[0]}</span>${r.owner}</span></td>
+        <td>${r.company || '—'}</td>
+      </tr>`;
+  }).join('') || `
+      <tr><td colspan="12" style="text-align:center;color:var(--muted);padding:20px;">No matching records</td></tr>
+    `;
+
+  // footer add-calculation row
+  const tfoot = `
+    <tr class="footer-row">
+      <td></td>
+      <td>${filtered.length} count</td>
+      <td><span class="add-calc">+ Add calculation</span></td>
+      <td><span class="add-calc">+ Add calculation</span></td>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>`;
+  tbody.innerHTML += tfoot;
+  document.getElementById('countBar').textContent = `${filtered.length} count`;
 }
 
-// init
-render();
+// ========== RENDER QUERY ==========
+function renderQuery() {
+  const el = document.getElementById('queryDisplay');
+  if (filters.length === 0) { el.textContent = 'No filters applied'; return; }
+  const parts = filters.map(f => {
+    const field = FIELDS[f.fieldKey];
+    const sub = f.subKey ? field.children?.find(c => c.key === f.subKey) : null;
+    const label = sub ? `${field.label}.${sub.label}` : field.label;
+    let v = '';
+    if (['empty','not empty','is me'].includes(f.op)) v = '';
+    else if (f.valueArr && f.valueArr.length) v = `[${f.valueArr.join(', ')}]`;
+    else if (f.op === 'between' || f.op === 'is between') v = `${f.value || '?'} and ${f.value2 || '?'}`;
+    else v = f.value ? `"${f.value}"` : '?';
+    return `${label} ${f.op}${v ? ' ' + v : ''}`;
+  });
+  el.textContent = parts.join('\nAND ');
+}
+
+// ========== MAIN RENDER ==========
+function render() {
+  renderChips();
+  renderResults();
+  renderQuery();
+}
+
+// Initial — empty state
+renderChips();
+renderResults();
+renderQuery();
 </script>
 </body>
 </html>
