@@ -13,12 +13,16 @@
         "2026-05-17": 0,
         "2026-05-18": 92,
         "2026-05-19": 462,
-        "2026-05-20": 3226
+        "2026-05-20": 3254
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
           "initial": 1517,
           "current": 4743
+        },
+        "1 - Projects/Sparrowcrm/To do list.md": {
+          "initial": 261,
+          "current": 289
         }
       }
     }
