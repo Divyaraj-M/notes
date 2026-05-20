@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "f8ef67786f72aea7",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "wallet-cards",
+              "title": "Banyan"
+            }
+          },
+          {
             "id": "5065adedd5f698a1",
             "type": "leaf",
             "state": {
@@ -151,7 +161,8 @@
               "title": "@Sakthi Prasath M"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -474,7 +485,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fee2a8d31a1cc5aa",
+  "active": "f8ef67786f72aea7",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
