@@ -8,33 +8,33 @@ tags:
 ---
 ## Feature Tracker
 
-| Feature              |
-| -------------------- |
-| [[Integrations-CRM]] |
-| [[Home]]             |
-| [[Fields]]           |
-| [[Deals]]            |
-| [[Contacts]]         |
-| [[Companies]]        |
-| [[Meetings]]         |
-| [[Leads]]            |
-| [[Reports]]          |
-| [[Smart routing]]    |
-| [[Notes]]            |
-| [[Tasks]]            |
-| [[Sequences]]        |
-| [[Workflows]]        |
-| [[Lists]]            |
-| [[Favorites]]        |
-| [[Ask Sparrow]]      |
-| [[Notification]]     |
-| [[Settings]]         |
-| [[Search]]           |
-| [[Needs attention]]  |
-| [[Ai Agents]]        |
-| [[Knowledge Base]]   |
-| [[Imports]]          |
-|                      |
+| Feature                 |
+| ----------------------- |
+| [[Integrations-CRM]]    |
+| [[Home]]                |
+| [[Fields]]              |
+| [[Deals]]               |
+| [[Contacts]]            |
+| [[Companies]]           |
+| [[Meetings]]            |
+| [[Leads]]               |
+| [[Reports]]             |
+| [[Smart routing]]       |
+| [[Notes]]               |
+| [[Tasks]]               |
+| [[Sequences]]           |
+| [[Workflows]]           |
+| [[Lists]]               |
+| [[Favorites]]           |
+| [[Ask Sparrow]]         |
+| [[Notification]]        |
+| [[Settings]]            |
+| [[Search]]              |
+| [[Needs attention]]     |
+| [[Ai Agents]]           |
+| [[Knowledge Base]]      |
+| [[Imports]]             |
+| [[Filters for Objects]] |
 
 	## How to Add a Feature
 

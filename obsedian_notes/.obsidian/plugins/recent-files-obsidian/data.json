@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
+      "basename": "filters_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
     },
     {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+      "basename": "Filters for Objects",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
+    },
+    {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
     {
       "basename": "Integrations-CRM",
@@ -191,14 +199,6 @@
     {
       "basename": "Imports",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
-    },
-    {
-      "basename": "Sales Rep",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md"
-    },
-    {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
     }
   ],
   "omittedPaths": [],

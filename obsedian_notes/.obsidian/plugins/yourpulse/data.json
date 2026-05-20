@@ -13,7 +13,7 @@
         "2026-05-17": 0,
         "2026-05-18": 92,
         "2026-05-19": 462,
-        "2026-05-20": 3254
+        "2026-05-20": 3886
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
@@ -23,6 +23,18 @@
         "1 - Projects/Sparrowcrm/To do list.md": {
           "initial": 261,
           "current": 289
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md": {
+          "initial": 91,
+          "current": 94
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md": {
+          "initial": 1,
+          "current": 7
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md": {
+          "initial": 1404,
+          "current": 2027
         }
       }
     }
