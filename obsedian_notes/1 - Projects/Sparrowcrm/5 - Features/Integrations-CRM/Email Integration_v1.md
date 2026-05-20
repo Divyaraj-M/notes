@@ -7,14 +7,7 @@ priority: High
 tags:
   - sparrowcrm/features/integrations/email_integration/v1
 ---
-# Feature Spec Skill
-
-You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
-
-## PRD Structure
-
-A well-structured PRD follows this template:
-
+### Wireframe  - [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on/r1E86)
 ### 1. Problem Statement
 - Sales reps and managers rely on email every day to manage customer conversations, but those interactions remain fragmented across individual inboxes instead of being visible inside SparrowCRM. As a result, users constantly switch between CRM and Gmail/Outlook to understand customer context, manually log emails, and track account activity, leading to incomplete records, missed follow-ups, reduced CRM adoption, and poor team visibility. Competitors like HubSpot and Attio already provide integrated email visibility and sending workflows, making email sync a critical expectation for modern CRM users.
 ## 2. Jobs To Be Done
