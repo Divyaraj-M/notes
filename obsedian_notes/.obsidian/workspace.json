@@ -328,13 +328,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To do list"
+              "title": "Outline of Email Integration_v1"
             }
           },
           {
@@ -473,12 +473,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "fee2a8d31a1cc5aa",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "CRM Metrics Framework.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
