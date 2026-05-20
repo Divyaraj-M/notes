@@ -39,7 +39,7 @@ A well-structured PRD follows this template:
 
 #### Data Hygiene
 
-- [ ] Hide/delete irrelevant synced emails from CRM view
+- [ ] delete irrelevant synced emails from CRM view
 - [ ] Manually log emails if sync misses them
 - [ ] Decide which emails are shared to CRM
 - [ ] Maintain a personal email/domain blocklist
