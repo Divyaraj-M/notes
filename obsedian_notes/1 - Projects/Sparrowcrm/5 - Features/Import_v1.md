@@ -2,7 +2,7 @@
 owner: Divyaraj Murugan
 feature: "[[Imports]]"
 version: 1
-status: Draft
+status: Done
 priority: Low
 tags:
   - sparrowcrm/features/import/v1

@@ -11,5 +11,8 @@ views:
       - tags
       - version
       - feature
+    sort:
+      - property: status
+        direction: ASC
     image: note.status
     rowHeight: medium

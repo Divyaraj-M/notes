@@ -2,8 +2,8 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1778305069898
@@ -22,6 +22,12 @@
         },
         {
           "timestampMillis": 1779085991549
+        },
+        {
+          "timestampMillis": 1779268509882
+        },
+        {
+          "timestampMillis": 1779268522892
         }
       ]
     },
@@ -133,8 +139,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 37,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 41,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -246,6 +252,18 @@
         },
         {
           "timestampMillis": 1779173514911
+        },
+        {
+          "timestampMillis": 1779268436888
+        },
+        {
+          "timestampMillis": 1779268437454
+        },
+        {
+          "timestampMillis": 1779268602639
+        },
+        {
+          "timestampMillis": 1779268602884
         }
       ]
     },
@@ -465,8 +483,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 22,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -533,6 +551,12 @@
         },
         {
           "timestampMillis": 1779085989472
+        },
+        {
+          "timestampMillis": 1779268506478
+        },
+        {
+          "timestampMillis": 1779268600143
         }
       ]
     },
@@ -1237,8 +1261,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1778749432556
@@ -1248,6 +1272,9 @@
         },
         {
           "timestampMillis": 1779085993313
+        },
+        {
+          "timestampMillis": 1779268519611
         }
       ]
     },
