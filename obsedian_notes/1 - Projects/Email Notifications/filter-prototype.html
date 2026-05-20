@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CRM Filter Prototype</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --border: #e3e6eb;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --danger: #dc2626;
+    --chip: #eef2ff;
+    --chip-text: #3730a3;
+    --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.04);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 24px;
+    font-size: 14px;
+  }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); margin-bottom: 20px; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .panel h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  .filter-row {
+    display: grid;
+    grid-template-columns: 200px 200px 1fr 32px;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .filter-row.compound {
+    grid-template-columns: 200px 200px 1fr 1fr 32px;
+  }
+  select, input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: white;
+    font-size: 13px;
+    font-family: inherit;
+    color: var(--text);
+  }
+  select:focus, input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+  }
+  .btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .btn:hover { background: var(--primary-hover); }
+  .btn-ghost {
+    background: transparent;
+    color: var(--primary);
+    border: 1px dashed var(--border);
+  }
+  .btn-ghost:hover { background: #f0f4ff; }
+  .btn-icon {
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .btn-icon:hover { background: #f3f4f6; color: var(--danger); }
+  .actions { display: flex; gap: 8px; margin-top: 12px; }
+  .multi-select-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    min-height: 36px;
+    background: white;
+    cursor: pointer;
+  }
+  .tag {
+    background: var(--chip);
+    color: var(--chip-text);
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .tag .remove { cursor: pointer; opacity: 0.6; }
+  .tag .remove:hover { opacity: 1; }
+  .multi-dropdown {
+    position: absolute;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    min-width: 180px;
+  }
+  .multi-dropdown div {
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .multi-dropdown div:hover { background: #f0f4ff; }
+  .multi-dropdown div.checked { background: #eef2ff; font-weight: 500; }
+  .multi-wrapper { position: relative; }
+  .query-display {
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12px;
+    color: #374151;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: #f9fafb;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  tr:hover td { background: #fafbfc; }
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .pill-open { background: #dbeafe; color: #1e40af; }
+  .pill-won { background: #d1fae5; color: #065f46; }
+  .pill-lost { background: #fee2e2; color: #991b1b; }
+  .pill-demo { background: #fef3c7; color: #92400e; }
+  .pill-neg { background: #ede9fe; color: #5b21b6; }
+  .count-row {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .field-type-badge {
+    display: inline-block;
+    background: #f3f4f6;
+    color: var(--muted);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .between-inputs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 4px; align-items: center; }
+  .between-inputs .sep { color: var(--muted); font-size: 12px; text-align: center; }
+  .preset-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
+  .preset {
+    background: #f3f4f6;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 11px;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .preset:hover, .preset.active { background: var(--primary); color: white; border-color: var(--primary); }
+  .empty-state { color: var(--muted); font-style: italic; padding: 20px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>CRM Filter Prototype</h1>
+  <div class="subtitle">Demonstrates filter operators and value inputs for all 8 field types. Edit filters → table updates live.</div>
+
+  <div class="panel">
+    <h2>Filters</h2>
+    <div id="filters"></div>
+    <div class="actions">
+      <button class="btn-ghost btn" onclick="addFilter()">+ Add filter</button>
+      <button class="btn-ghost btn" onclick="clearFilters()">Clear all</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Generated Query</h2>
+    <div class="query-display" id="query">No filters applied — showing all records</div>
+  </div>
+
+  <div class="panel">
+    <h2>Results</h2>
+    <div style="overflow-x: auto;">
+      <table id="results">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Deal Value</th>
+            <th>Rating</th>
+            <th>Status</th>
+            <th>Stage</th>
+            <th>Tags</th>
+            <th>Owner</th>
+            <th>Company</th>
+            <th>Customer</th>
+            <th>Created</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="count-row" id="count"></div>
+  </div>
+</div>
+
+<script>
+// ====== FIELD DEFINITIONS ======
+const FIELDS = {
+  name:         { label: 'Name',          type: 'text' },
+  email:        { label: 'Email',         type: 'email' },
+  website:      { label: 'Website',       type: 'url' },
+  location:     { label: 'Location',      type: 'location' },
+  dealValue:    { label: 'Deal Value',    type: 'currency' },
+  rating:       { label: 'Rating',        type: 'rating' },
+  score:        { label: 'Score',         type: 'number' },
+  status:       { label: 'Status',        type: 'select', options: ['Open', 'Won', 'Lost'] },
+  stage:        { label: 'Stage',         type: 'select', options: ['Discovery', 'Demo Scheduled', 'Negotiation', 'Closed'] },
+  pipeline:     { label: 'Pipeline',      type: 'select', options: ['Sales Pipeline', 'Renewals'] },
+  tags:         { label: 'Tags',          type: 'multiselect', options: ['Enterprise', 'Hot Lead', 'Paid', 'Champion', 'SMB'] },
+  owner:        { label: 'Owner',         type: 'user', options: ['Divi', 'John', 'Priya', 'Sara'] },
+  company:      { label: 'Company',       type: 'relationship', options: ['Acme', 'Globex', 'Initech', 'Umbrella'] },
+  isCustomer:   { label: 'Is Customer',   type: 'yesno' },
+  createdDate:  { label: 'Created Date',  type: 'date' },
+  lastContact:  { label: 'Last Contact',  type: 'timestamp' }
+};
+
+// ====== OPERATORS BY TYPE ======
+const OPERATORS = {
+  text:         ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
+  email:        ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
+  url:          ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
+  location:     ['contains','does not contain','is','is not','starts with','ends with','is empty','is not empty'],
+  number:       ['is','is not','greater than','less than','between','is empty','is not empty'],
+  currency:     ['is','is not','greater than','less than','between','is empty','is not empty'],
+  rating:       ['is','is not','greater than','less than','between','is empty','is not empty'],
+  date:         ['is','is before','is after','is between','is in the last','is in the next','is empty','is not empty'],
+  timestamp:    ['is','is before','is after','is between','is in the last','is in the next','is empty','is not empty'],
+  yesno:        ['is','is empty','is not empty'],
+  select:       ['is','is not','is any of','is empty','is not empty'],
+  multiselect:  ['has any of','has all of','does not have','is empty','is not empty'],
+  user:         ['is','is not','is any of','is me','is empty','is not empty'],
+  relationship: ['is','is not','has any','does not have any','is empty','is not empty']
+};
+
+const DEFAULT_OP = {
+  text:'contains', email:'contains', url:'contains', location:'contains',
+  number:'is', currency:'greater than', rating:'greater than',
+  date:'is in the last', timestamp:'is in the last',
+  yesno:'is',
+  select:'is', multiselect:'has any of',
+  user:'is', relationship:'is'
+};
+
+// ====== SAMPLE DATA ======
+const today = new Date('2026-05-20');
+const daysAgo = (n) => { const d = new Date(today); d.setDate(d.getDate()-n); return d; };
+const DATA = [
+  { name:'John Smith',    email:'john@gmail.com',     website:'acme.com',     location:'Chennai',   dealValue:75000,  rating:4, score:82, status:'Open',  stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Enterprise','Hot Lead'], owner:'Divi',  company:'Acme',     isCustomer:'Yes', createdDate:daysAgo(5),  lastContact:daysAgo(2) },
+  { name:'Maria Garcia',  email:'maria@globex.com',   website:'globex.com',   location:'Madrid',    dealValue:120000, rating:5, score:91, status:'Open',  stage:'Negotiation',    pipeline:'Sales Pipeline', tags:['Enterprise','Champion','Paid'], owner:'John',  company:'Globex',   isCustomer:'Yes', createdDate:daysAgo(40), lastContact:daysAgo(1) },
+  { name:'Ravi Kumar',    email:'ravi@gmail.com',     website:'linkedin.com/in/ravi', location:'Bangalore', dealValue:25000, rating:3, score:65, status:'Open',  stage:'Discovery',      pipeline:'Sales Pipeline', tags:['SMB','Hot Lead'], owner:'Priya', company:'Initech',  isCustomer:'No',  createdDate:daysAgo(12), lastContact:daysAgo(8) },
+  { name:'Anna Lee',      email:'anna@umbrella.com',  website:'umbrella.com', location:'Seoul',     dealValue:180000, rating:5, score:95, status:'Won',   stage:'Closed',         pipeline:'Sales Pipeline', tags:['Enterprise','Paid','Champion'], owner:'Sara',  company:'Umbrella', isCustomer:'Yes', createdDate:daysAgo(95), lastContact:daysAgo(30) },
+  { name:'Tom Wilson',    email:'tom@yahoo.com',      website:'',             location:'New York',  dealValue:45000,  rating:2, score:48, status:'Lost',  stage:'Closed',         pipeline:'Sales Pipeline', tags:['SMB'], owner:'Divi',  company:'',         isCustomer:'No',  createdDate:daysAgo(60), lastContact:daysAgo(45) },
+  { name:'Priya Patel',   email:'priya@gmail.com',    website:'priya.dev',    location:'Chennai',   dealValue:90000,  rating:4, score:78, status:'Open',  stage:'Negotiation',    pipeline:'Renewals',       tags:['Enterprise'], owner:'John',  company:'Acme',     isCustomer:'Yes', createdDate:daysAgo(20), lastContact:daysAgo(3) },
+  { name:'Carlos Mendez', email:'carlos@globex.com',  website:'globex.com',   location:'Mexico City', dealValue:60000, rating:3, score:70, status:'Open',  stage:'Demo Scheduled', pipeline:'Sales Pipeline', tags:['Hot Lead','Paid'], owner:'Priya', company:'Globex',   isCustomer:'No',  createdDate:daysAgo(8),  lastContact:daysAgo(1) },
+  { name:'Emma Brown',    email:'emma@hotmail.com',   website:'',             location:'London',    dealValue:15000,  rating:1, score:35, status:'Lost',  stage:'Closed',         pipeline:'Sales Pipeline', tags:['SMB'], owner:'Sara',  company:'',         isCustomer:'No',  createdDate:daysAgo(120),lastContact:daysAgo(80) },
+];
+
+// ====== FILTER STATE ======
+let filters = [];
+let nextId = 1;
+
+function addFilter() {
+  filters.push({ id: nextId++, field: 'name', op: 'contains', value: '', value2: '' });
+  render();
+}
+function removeFilter(id) { filters = filters.filter(f => f.id !== id); render(); }
+function clearFilters() { filters = []; render(); }
+function updateFilter(id, patch) {
+  const f = filters.find(x => x.id === id);
+  Object.assign(f, patch);
+  render();
+}
+
+function onFieldChange(id, newField) {
+  const type = FIELDS[newField].type;
+  updateFilter(id, { field: newField, op: DEFAULT_OP[type], value: '', value2: '' });
+}
+function onOpChange(id, newOp) {
+  updateFilter(id, { op: newOp, value: '', value2: '' });
+}
+
+// ====== VALUE INPUT RENDERER ======
+function renderValueInput(f) {
+  const field = FIELDS[f.field];
+  const type = field.type;
+
+  // Empty / not empty / is me — no value needed
+  if (['is empty','is not empty','is me'].includes(f.op)) {
+    return `<input disabled placeholder="(no value needed)" />`;
+  }
+
+  // Between / is between
+  if (f.op === 'between' || f.op === 'is between') {
+    const inp = (type === 'date' || type === 'timestamp')
+      ? (type === 'timestamp' ? 'datetime-local' : 'date')
+      : 'number';
+    return `
+      <div class="between-inputs">
+        <input type="${inp}" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />
+        <span class="sep">and</span>
+        <input type="${inp}" value="${f.value2 || ''}" oninput="updateFilter(${f.id},{value2:this.value})" />
+      </div>`;
+  }
+
+  // Date "is in the last" / "is in the next" — number of days
+  if (f.op === 'is in the last' || f.op === 'is in the next') {
+    return `<input type="number" min="1" placeholder="number of days" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
+  }
+
+  // Number-like
+  if (['number','currency','rating'].includes(type)) {
+    const prefix = type === 'currency' ? '$' : '';
+    const max = type === 'rating' ? 5 : null;
+    return `<input type="number" ${max?`max="${max}"`:''} placeholder="${prefix}value" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
+  }
+
+  // Date / timestamp single value
+  if (type === 'date') {
+    return `<input type="date" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
+  }
+  if (type === 'timestamp') {
+    return `<input type="datetime-local" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
+  }
+
+  // Yes/No
+  if (type === 'yesno') {
+    return `<select onchange="updateFilter(${f.id},{value:this.value})">
+      <option value="">Select...</option>
+      <option value="Yes" ${f.value==='Yes'?'selected':''}>Yes</option>
+      <option value="No" ${f.value==='No'?'selected':''}>No</option>
+    </select>`;
+  }
+
+  // Single select / user / relationship (single)
+  if (type === 'select' || (type === 'user' && f.op !== 'is any of') || (type === 'relationship' && (f.op === 'is' || f.op === 'is not'))) {
+    if (f.op === 'is any of') return renderMultiTags(f, field.options);
+    const opts = field.options.map(o => `<option ${f.value===o?'selected':''}>${o}</option>`).join('');
+    return `<select onchange="updateFilter(${f.id},{value:this.value})">
+      <option value="">Select...</option>${opts}
+    </select>`;
+  }
+
+  // Relationship "has any" / "does not have any" — no value
+  if (type === 'relationship' && (f.op === 'has any' || f.op === 'does not have any')) {
+    return `<input disabled placeholder="(no value needed)" />`;
+  }
+
+  // Multi-select / "is any of"
+  if (type === 'multiselect' || f.op === 'is any of') {
+    return renderMultiTags(f, field.options);
+  }
+
+  // Text-like default
+  return `<input type="text" placeholder="value" value="${f.value || ''}" oninput="updateFilter(${f.id},{value:this.value})" />`;
+}
+
+function renderMultiTags(f, options) {
+  const selected = Array.isArray(f.value) ? f.value : (f.value ? [f.value] : []);
+  const tags = selected.map(v => `<span class="tag">${v}<span class="remove" onclick="event.stopPropagation();removeTag(${f.id},'${v}')">×</span></span>`).join('');
+  return `<div class="multi-wrapper">
+    <div class="multi-select-tags" onclick="toggleDropdown(${f.id})">
+      ${tags || '<span style="color:var(--muted);padding:4px 6px;font-size:12px;">Select values...</span>'}
+    </div>
+    <div class="multi-dropdown" id="dd-${f.id}" style="display:none;">
+      ${options.map(o => `<div class="${selected.includes(o)?'checked':''}" onclick="toggleTag(${f.id},'${o}')">${selected.includes(o)?'✓ ':''}${o}</div>`).join('')}
+    </div>
+  </div>`;
+}
+
+function toggleDropdown(id) {
+  document.querySelectorAll('.multi-dropdown').forEach(d => {
+    if (d.id !== `dd-${id}`) d.style.display = 'none';
+  });
+  const el = document.getElementById(`dd-${id}`);
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+function toggleTag(id, val) {
+  const f = filters.find(x => x.id === id);
+  const arr = Array.isArray(f.value) ? [...f.value] : (f.value ? [f.value] : []);
+  const i = arr.indexOf(val);
+  if (i >= 0) arr.splice(i, 1); else arr.push(val);
+  updateFilter(id, { value: arr });
+}
+function removeTag(id, val) {
+  const f = filters.find(x => x.id === id);
+  const arr = (Array.isArray(f.value) ? f.value : []).filter(v => v !== val);
+  updateFilter(id, { value: arr });
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.multi-wrapper')) {
+    document.querySelectorAll('.multi-dropdown').forEach(d => d.style.display = 'none');
+  }
+});
+
+// ====== PRESETS (date) ======
+function renderDatePresets(f) {
+  if (!['date','timestamp'].includes(FIELDS[f.field].type)) return '';
+  if (!['is in the last','is between','is before','is after','is'].includes(f.op)) return '';
+  const presets = [
+    {label:'Today',           op:'is',            value:0},
+    {label:'Yesterday',       op:'is',            value:1},
+    {label:'Last 7 days',     op:'is in the last',value:7},
+    {label:'Last 30 days',    op:'is in the last',value:30},
+    {label:'Last 90 days',    op:'is in the last',value:90},
+  ];
+  return `<div class="preset-row">${presets.map(p => `<span class="preset" onclick="applyPreset(${f.id},'${p.op}',${p.value})">${p.label}</span>`).join('')}</div>`;
+}
+function applyPreset(id, op, value) {
+  if (op === 'is in the last') updateFilter(id, { op, value: String(value) });
+  else if (op === 'is' && value === 0) updateFilter(id, { op, value: today.toISOString().slice(0,10) });
+  else if (op === 'is' && value === 1) { const d=daysAgo(1); updateFilter(id, { op, value: d.toISOString().slice(0,10) }); }
+}
+
+// ====== RENDER FILTERS ======
+function render() {
+  const root = document.getElementById('filters');
+  if (filters.length === 0) {
+    root.innerHTML = `<div class="empty-state">No filters yet — click "Add filter" to build a condition</div>`;
+  } else {
+    root.innerHTML = filters.map(f => {
+      const type = FIELDS[f.field].type;
+      const ops = OPERATORS[type].map(o => `<option ${f.op===o?'selected':''}>${o}</option>`).join('');
+      const fieldOpts = Object.entries(FIELDS).map(([k,v]) => `<option value="${k}" ${f.field===k?'selected':''}>${v.label}</option>`).join('');
+      return `
+        <div>
+          ${renderDatePresets(f)}
+          <div class="filter-row">
+            <select onchange="onFieldChange(${f.id}, this.value)">${fieldOpts}</select>
+            <select onchange="onOpChange(${f.id}, this.value)">${ops}</select>
+            <div>${renderValueInput(f)}</div>
+            <button class="btn-icon" onclick="removeFilter(${f.id})" title="Remove">×</button>
+          </div>
+          <div style="font-size:11px;color:var(--muted);margin:-4px 0 8px 4px;">
+            <span class="field-type-badge">${type}</span>
+          </div>
+        </div>`;
+    }).join('');
+  }
+  renderQuery();
+  renderResults();
+}
+
+// ====== QUERY DISPLAY ======
+function renderQuery() {
+  const el = document.getElementById('query');
+  if (filters.length === 0) { el.textContent = 'No filters applied — showing all records'; return; }
+  const parts = filters.map(f => {
+    const label = FIELDS[f.field].label;
+    let v = Array.isArray(f.value) ? f.value.join(', ') : (f.value ?? '');
+    if (f.op === 'between' || f.op === 'is between') v = `${f.value || '?'} and ${f.value2 || '?'}`;
+    if (['is empty','is not empty','is me'].includes(f.op)) v = '';
+    if (Array.isArray(f.value) && f.value.length > 1) v = `[${f.value.join(', ')}]`;
+    return `${label} ${f.op}${v ? ' ' + v : ''}`;
+  });
+  el.textContent = parts.join('\nAND ');
+}
+
+// ====== EVALUATE FILTER ======
+function evaluate(row, f) {
+  const type = FIELDS[f.field].type;
+  const val = row[f.field];
+  const target = f.value;
+
+  if (f.op === 'is empty')     return val === '' || val == null || (Array.isArray(val) && val.length === 0);
+  if (f.op === 'is not empty') return !(val === '' || val == null || (Array.isArray(val) && val.length === 0));
+  if (f.op === 'is me')        return val === 'Divi';
+
+  // Text-like
+  if (['text','email','url','location'].includes(type)) {
+    const s = String(val || '').toLowerCase();
+    const t = String(target || '').toLowerCase();
+    if (t === '') return true;
+    switch (f.op) {
+      case 'contains':         return s.includes(t);
+      case 'does not contain': return !s.includes(t);
+      case 'is':               return s === t;
+      case 'is not':           return s !== t;
+      case 'starts with':      return s.startsWith(t);
+      case 'ends with':        return s.endsWith(t);
+    }
+  }
+
+  // Number-like
+  if (['number','currency','rating'].includes(type)) {
+    const n = Number(val);
+    const t = Number(target);
+    if (f.op === 'between') {
+      const a = Number(f.value), b = Number(f.value2);
+      if (isNaN(a) || isNaN(b)) return true;
+      return n >= Math.min(a,b) && n <= Math.max(a,b);
+    }
+    if (target === '' || isNaN(t)) return true;
+    switch (f.op) {
+      case 'is':           return n === t;
+      case 'is not':       return n !== t;
+      case 'greater than': return n > t;
+      case 'less than':    return n < t;
+    }
+  }
+
+  // Date-like
+  if (['date','timestamp'].includes(type)) {
+    const d = val instanceof Date ? val : new Date(val);
+    if (f.op === 'is in the last' && target) {
+      const days = Number(target);
+      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() - days);
+      return d >= cutoff && d <= today;
+    }
+    if (f.op === 'is in the next' && target) {
+      const days = Number(target);
+      const cutoff = new Date(today); cutoff.setDate(cutoff.getDate() + days);
+      return d >= today && d <= cutoff;
+    }
+    if (f.op === 'is between' && f.value && f.value2) {
+      return d >= new Date(f.value) && d <= new Date(f.value2);
+    }
+    if (target === '') return true;
+    const t = new Date(target);
+    switch (f.op) {
+      case 'is':        return d.toDateString() === t.toDateString();
+      case 'is before': return d < t;
+      case 'is after':  return d > t;
+    }
+  }
+
+  // Yes/No
+  if (type === 'yesno') {
+    if (target === '') return true;
+    return f.op === 'is' && val === target;
+  }
+
+  // Select
+  if (type === 'select') {
+    if (Array.isArray(target)) {
+      if (target.length === 0) return true;
+      return f.op === 'is any of' ? target.includes(val) : true;
+    }
+    if (target === '') return true;
+    if (f.op === 'is')     return val === target;
+    if (f.op === 'is not') return val !== target;
+  }
+
+  // Multi-select
+  if (type === 'multiselect') {
+    const tArr = Array.isArray(target) ? target : (target ? [target] : []);
+    if (tArr.length === 0) return true;
+    const vArr = Array.isArray(val) ? val : [];
+    if (f.op === 'has any of')   return tArr.some(t => vArr.includes(t));
+    if (f.op === 'has all of')   return tArr.every(t => vArr.includes(t));
+    if (f.op === 'does not have')return !tArr.some(t => vArr.includes(t));
+  }
+
+  // User
+  if (type === 'user') {
+    if (Array.isArray(target)) {
+      if (target.length === 0) return true;
+      return target.includes(val);
+    }
+    if (target === '') return true;
+    if (f.op === 'is')     return val === target;
+    if (f.op === 'is not') return val !== target;
+  }
+
+  // Relationship
+  if (type === 'relationship') {
+    if (f.op === 'has any')          return val && val !== '';
+    if (f.op === 'does not have any')return !val || val === '';
+    if (target === '') return true;
+    if (f.op === 'is')     return val === target;
+    if (f.op === 'is not') return val !== target;
+  }
+
+  return true;
+}
+
+// ====== RENDER RESULTS ======
+function renderResults() {
+  const filtered = DATA.filter(row => filters.every(f => evaluate(row, f)));
+  const tbody = document.querySelector('#results tbody');
+  const pillClass = (s) => ({ Open:'pill-open', Won:'pill-won', Lost:'pill-lost' }[s] || '');
+  const stageClass = (s) => ({ 'Demo Scheduled':'pill-demo', 'Negotiation':'pill-neg' }[s] || 'pill-open');
+  tbody.innerHTML = filtered.map(r => `
+    <tr>
+      <td>${r.name}</td>
+      <td>${r.email}</td>
+      <td>$${r.dealValue.toLocaleString()}</td>
+      <td>${'★'.repeat(r.rating)}${'☆'.repeat(5-r.rating)}</td>
+      <td><span class="pill ${pillClass(r.status)}">${r.status}</span></td>
+      <td><span class="pill ${stageClass(r.stage)}">${r.stage}</span></td>
+      <td>${r.tags.map(t => `<span class="tag">${t}</span>`).join(' ')}</td>
+      <td>${r.owner}</td>
+      <td>${r.company || '—'}</td>
+      <td>${r.isCustomer}</td>
+      <td>${r.createdDate.toISOString().slice(0,10)}</td>
+    </tr>`).join('') || `<tr><td colspan="11" class="empty-state">No results match the filters</td></tr>`;
+  document.getElementById('count').textContent = `${filtered.length} of ${DATA.length} records`;
+}
+
+// init
+render();
+</script>
+</body>
+</html>
