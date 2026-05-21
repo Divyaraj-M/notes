@@ -73,7 +73,7 @@ The Figma designs for the Contacts Object, Deals Record Page (Emails tab), and I
 - As a sales rep viewing a contact record, I want to see an "Emails" tab showing all synced email threads with this contact so that I have full conversation history before I take action.
 - As a sales rep, I want to search and filter emails within the Emails tab so that I can quickly find a specific thread (e.g., the proposal I sent last month).
 - As a sales rep, I want to click "Compose" to open a new email addressed to this contact so that I can send an email without typing their address.
-- As a sales rep, I want to click on an email thread to expand it and see the full conversation so that I can read what was said before replying.
+- As a sales rep, I want to click on an email thread to  and see the full conversation so that I can read what was said before replying.
 - As a sales rep, I want to reply to an existing email thread from within the expanded view so that my reply maintains thread continuity in the recipient's inbox.
 - As a sales rep, I want to add Cc and Bcc recipients when composing or replying so that I can include stakeholders or loop in my manager.
 - As a sales rep, I want to attach files to my composed email so that I can send proposals, contracts, or collateral.
@@ -279,17 +279,17 @@ The Figma designs for the Contacts Object, Deals Record Page (Emails tab), and I
 
 ## 8. Open Questions
 
-|#|Question|Owner|Blocking?|Needed by|
-|---|---|---|---|---|
-|1|What CRM context fields does the AI backend have access to when resolving `{}` variables? Is it limited to contact/company fields, or can it pull deal stage, recent activity, meeting notes?|Eng + AI team|Yes|Before R 6 implementation|
-|2|What is the AI credit cost per generation? Does a "Retry" consume an additional credit?|Product + AI team|Yes|Before launch (pricing/UX implication)|
-|3|Should the compose modal support drag-and-drop file attachments, or file-picker only for v 1?|Design|No|During implementation|
-|4|How does the Emails tab handle contacts with >100 synced threads? Infinite scroll, pagination, or "Load more"?|Eng|No|During implementation|
-|5|For Reply/Reply All, should the compose open inline below the thread or as a separate modal? Figma shows both patterns across different surfaces — which is canonical for Contacts?|Design|Yes|Before R 5 implementation|
-|6|If a rep sends from an alias, does the "From" field in the compose modal show the alias? How does this interact with the pre-filled To field and signature?|Eng|No|During implementation|
-|7|What happens if the connected mailbox's OAuth token expires mid-compose? Does the rep get an error on send, or do we validate connection status on compose open?|Eng|No|During implementation|
-|8|Does the AI writing panel persist its prompt text if the rep closes and reopens it within the same compose session?|Design + Eng|No|During implementation|
-|9|Current Figma shows the AI panel within the Inbox Compose view — confirm the identical component is used on the Contact Record Page compose modal (no divergent implementations).|Design|Yes|Before R 6 implementation|
+| #   | Question                                                                                                                                                                                      | Owner             | Blocking? | Needed by                              |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | -------------------------------------- |
+| 1   | What CRM context fields does the AI backend have access to when resolving `{}` variables? Is it limited to contact/company fields, or can it pull deal stage, recent activity, meeting notes? | Eng + AI team     | Yes       | Before R 6 implementation              |
+| 2   | What is the AI credit cost per generation? Does a "Retry" consume an additional credit?                                                                                                       | Product + AI team | Yes       | Before launch (pricing/UX implication) |
+| 3   | Should the compose modal support drag-and-drop file attachments, or file-picker only for v 1?                                                                                                 | Design            | No        | During implementation                  |
+| 4   | How does the Emails tab handle contacts with >100 synced threads? Infinite scroll, pagination, or "Load more"?                                                                                | Eng               | No        | During implementation                  |
+| 5   | For Reply/Reply All, should the compose open inline below the thread or as a separate modal? Figma shows both patterns across different surfaces — which is canonical for Contacts?           | Design            | Yes       | Before R 5 implementation              |
+| 6   | If a rep sends from an alias, does the "From" field in the compose modal show the alias? How does this interact with the pre-filled To field and signature?                                   | Eng               | No        | During implementation                  |
+| 7   | What happens if the connected mailbox's OAuth token expires mid-compose? Does the rep get an error on send, or do we validate connection status on compose open?                              | Eng               | No        | During implementation                  |
+| 8   | Does the AI writing panel persist its prompt text if the rep closes and reopens it within the same compose session?                                                                           | Design + Eng      | No        | During implementation                  |
+| 9   | Current Figma shows the AI panel within the Inbox Compose view — confirm the identical component is used on the Contact Record Page compose modal (no divergent implementations).             | Design            | Yes       | Before R 6 implementation              |
 
 ---
 

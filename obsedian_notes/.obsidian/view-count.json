@@ -330,7 +330,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
       "uniqueDaysOpened": 10,
-      "totalTimesOpened": 34,
+      "totalTimesOpened": 36,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -433,6 +433,12 @@
         },
         {
           "timestampMillis": 1779349086534
+        },
+        {
+          "timestampMillis": 1779349670563
+        },
+        {
+          "timestampMillis": 1779349789144
         }
       ]
     },
@@ -2022,7 +2028,7 @@
     {
       "path": "Untitled.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1779348543440
@@ -2032,6 +2038,15 @@
         },
         {
           "timestampMillis": 1779349609662
+        },
+        {
+          "timestampMillis": 1779349737339
+        },
+        {
+          "timestampMillis": 1779349797086
+        },
+        {
+          "timestampMillis": 1779349890670
         }
       ]
     },

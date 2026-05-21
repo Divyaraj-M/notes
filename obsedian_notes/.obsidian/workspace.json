@@ -162,6 +162,18 @@
             }
           },
           {
+            "id": "343e27219acb3bc0",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.figma.com/design/rwoDczAPQWY5tAkcgjbHLK?node-id=2010-19747#"
+              },
+              "icon": "lucide-file",
+              "title": "Figma"
+            }
+          },
+          {
             "id": "83b1453941cdad52",
             "type": "leaf",
             "state": {
@@ -186,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -509,13 +521,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e6cb78308daa094e",
+  "active": "343e27219acb3bc0",
   "lastOpenFiles": [
+    "Untitled.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "3 - Resources/Templates/To do.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
-    "Untitled.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md",
