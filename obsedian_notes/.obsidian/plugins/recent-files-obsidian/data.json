@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Email Integration_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
+    },
+    {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "5 - Features",
@@ -29,16 +45,8 @@
       "path": "3 - Resources/Templates/To do.md"
     },
     {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
       "basename": "@Sakthi Prasath M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
-    },
-    {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "filters_v1",
@@ -49,20 +57,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md"
     },
     {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "Email Integration",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Email Integration_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
     },
     {
       "basename": "@Ganesh Ravi Shankar(GRS)",

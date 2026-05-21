@@ -66,78 +66,6 @@
             }
           },
           {
-            "id": "ea738f636e7b61a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Email Integration_v1"
-            }
-          },
-          {
-            "id": "6b049a3c19717b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Spec Template 2"
-            }
-          },
-          {
-            "id": "2882245c533094e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sparrowdesk_v1"
-            }
-          },
-          {
             "id": "e6cb78308daa094e",
             "type": "leaf",
             "state": {
@@ -210,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -533,9 +461,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "5065adedd5f698a1",
   "lastOpenFiles": [
+    "code-generate-scenes.md",
+    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
@@ -545,18 +479,13 @@
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
     "3 - Resources/Templates/To do.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md",
     "1 - Projects/Email Notifications/prd-sparrowcrm-unified-filters.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Email Notifications/filter-prototype.html",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",

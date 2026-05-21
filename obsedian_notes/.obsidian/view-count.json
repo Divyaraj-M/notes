@@ -140,7 +140,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 9,
-      "totalTimesOpened": 44,
+      "totalTimesOpened": 48,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -273,6 +273,18 @@
         },
         {
           "timestampMillis": 1779351443645
+        },
+        {
+          "timestampMillis": 1779351607170
+        },
+        {
+          "timestampMillis": 1779351621706
+        },
+        {
+          "timestampMillis": 1779351625923
+        },
+        {
+          "timestampMillis": 1779351632447
         }
       ]
     },
@@ -336,7 +348,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
       "uniqueDaysOpened": 10,
-      "totalTimesOpened": 37,
+      "totalTimesOpened": 38,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -448,6 +460,9 @@
         },
         {
           "timestampMillis": 1779351448547
+        },
+        {
+          "timestampMillis": 1779351613098
         }
       ]
     },
@@ -810,7 +825,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1778491542045
@@ -835,6 +850,9 @@
         },
         {
           "timestampMillis": 1779350091968
+        },
+        {
+          "timestampMillis": 1779351620195
         }
       ]
     },
@@ -866,8 +884,8 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 8,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -892,6 +910,12 @@
         },
         {
           "timestampMillis": 1779272111590
+        },
+        {
+          "timestampMillis": 1779351622882
+        },
+        {
+          "timestampMillis": 1779351623131
         }
       ]
     },
@@ -1253,16 +1277,6 @@
       ]
     },
     {
-      "path": "code-generate-scenes.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778660967131
-        }
-      ]
-    },
-    {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
       "uniqueDaysOpened": 2,
       "totalTimesOpened": 12,
@@ -1336,8 +1350,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 23,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 25,
       "openLogs": [
         {
           "timestampMillis": 1778749617208
@@ -1407,6 +1421,12 @@
         },
         {
           "timestampMillis": 1779267534413
+        },
+        {
+          "timestampMillis": 1779351629685
+        },
+        {
+          "timestampMillis": 1779351629986
         }
       ]
     },
@@ -1501,7 +1521,7 @@
     {
       "path": "CRM Metrics Framework.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 21,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1778755493227
@@ -1565,6 +1585,12 @@
         },
         {
           "timestampMillis": 1779348538503
+        },
+        {
+          "timestampMillis": 1779351633748
+        },
+        {
+          "timestampMillis": 1779351653787
         }
       ]
     },

@@ -52,13 +52,14 @@
 #### Today (max 3)
 - [x] Email PRD ✅ 2026-05-21
 - [ ] Finalise the Metrics
-- [ ] 
+- [ ] fix the search
 
 #### In Progress
-- [ ] **[fn]** — next step: [...] — done when: [...]
+- [ ] **[Metrics]** — next step: [Adoption Metrics]
+- [ ] Ai search 
 
 #### Backlog
-- [ ] 
+- [ ] Research about the KB graph
 
 #### Carry to tomorrow
 -
