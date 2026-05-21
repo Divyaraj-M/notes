@@ -1,11 +1,11 @@
-# Contact Record Page — Emails (View, Compose, Send, AI Write)
-
-**Author:** Divi · **Status:** Draft · **Last updated:** May 20, 2026 **Engineering lead:** TBD · **Design lead:** TBD
-
-**Parent spec:** [Email Integration — Google](https://notion.so/36633fc6776180fe9713ca9d49424ed9) **Figma source:** [Objects & Meetings prototype — AI Writing](https://figma.com/design/rwoDczAPQWY5tAkcgjbHLK?node-id=2010-19747), [Deals Record Page — Emails Tab](https://figma.com/design/sbOXy82fUWbGDy3dHirEeF?node-id=1073-59433), [Contacts Object](https://figma.com/design/h9Oe97JNjOvTkCo8NjKG7w)
-
 ---
-
+owner: Divyaraj Murugan
+feature:
+version: 1
+status:
+priority:
+tags:
+---
 ## 1. Problem Statement
 
 Sales reps working a contact's record in SparrowCRM have no way to view, compose, or send emails without leaving the CRM. Every email interaction forces a context switch to Gmail or Outlook, then back again — breaking flow, creating blind spots for teammates who can't see the conversation, and making CRM records feel like dead data instead of a living command center. The parent Email Integration spec (R 1–R 22) solves the sync and infrastructure layer; this PRD scopes the **Contacts Record Page UI** — the surface where reps actually read email threads, compose new messages, reply to threads, and use AI-assisted writing — which is the highest-frequency touchpoint for individual contact engagement.

@@ -139,8 +139,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 8,
-      "totalTimesOpened": 42,
+      "uniqueDaysOpened": 9,
+      "totalTimesOpened": 43,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -267,6 +267,9 @@
         },
         {
           "timestampMillis": 1779277829793
+        },
+        {
+          "timestampMillis": 1779350377069
         }
       ]
     },
@@ -519,8 +522,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 25,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 26,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -596,6 +599,9 @@
         },
         {
           "timestampMillis": 1779277837865
+        },
+        {
+          "timestampMillis": 1779350380506
         }
       ]
     },
@@ -2029,9 +2035,9 @@
       ]
     },
     {
-      "path": "Untitled.md",
+      "path": "Email_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1779348543440
@@ -2059,13 +2065,19 @@
         },
         {
           "timestampMillis": 1779350093359
+        },
+        {
+          "timestampMillis": 1779350401444
+        },
+        {
+          "timestampMillis": 1779350411206
         }
       ]
     },
     {
       "path": "3 - Resources/Templates/To do.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1779348822402
@@ -2093,6 +2105,35 @@
         },
         {
           "timestampMillis": 1779350089649
+        },
+        {
+          "timestampMillis": 1779350409942
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1779350382745
+        },
+        {
+          "timestampMillis": 1779350399889
+        },
+        {
+          "timestampMillis": 1779350482393
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779350489186
         }
       ]
     }
