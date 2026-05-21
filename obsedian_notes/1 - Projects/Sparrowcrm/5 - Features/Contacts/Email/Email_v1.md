@@ -1,10 +1,11 @@
 ---
 owner: Divyaraj Murugan
-feature:
+feature: "[[Email]]"
 version: 1
-status:
-priority:
+status: Done
+priority: Low
 tags:
+  - sparrowcrm/features/contacts/email/v1
 ---
 ## 1. Problem Statement
 
@@ -12,7 +13,6 @@ Sales reps working a contact's record in SparrowCRM have no way to view, compose
 
 The Figma designs for the Contacts Object, Deals Record Page (Emails tab), and Inbox Compose already define the interaction patterns. This spec translates those designs into buildable requirements with acceptance criteria, covering three capabilities the user asked for explicitly: **writing emails, sending emails, and AI writing**.
 
-> [PM CHECK: No quantitative data on how often reps context-switch today or the time cost. If we have session analytics or support tickets about this, add them here before moving to eng review.]
 
 ---
 
@@ -51,7 +51,7 @@ The Figma designs for the Contacts Object, Deals Record Page (Emails tab), and I
 - **Business goal:** Increase email logging completeness — the percentage of sales-relevant emails attached to a CRM contact record — from the current baseline (to be measured at launch) by 30% within 90 days, driven by reps sending directly from CRM instead of Gmail.
 - **Business goal:** Reduce CRM context-switching (measured by tab-switch events within 2 minutes of viewing a contact record) by 40% within 60 days.
 
-> [PM CHECK: Baselines for compose time and context-switching don't exist yet. Instrument these before launch so we can measure against real numbers, not guesses.]
+
 
 ---
 

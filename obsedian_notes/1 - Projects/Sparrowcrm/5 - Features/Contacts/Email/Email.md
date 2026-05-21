@@ -1,6 +1,6 @@
 ---
 tags:
-  - sparrowcrm/features/contacts/email/v1
+  - sparrowcrm/features/contacts/email
 ---
 
 | Doc          | Date |
