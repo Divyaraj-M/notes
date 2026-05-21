@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
+      "basename": "Untitled",
+      "path": "Untitled.md"
     },
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
+    },
+    {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "filters_v1",
@@ -195,10 +199,6 @@
     {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
-    },
-    {
-      "basename": "Imports",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports.md"
     }
   ],
   "omittedPaths": [],
