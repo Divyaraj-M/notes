@@ -34,12 +34,12 @@
 - [ ] [[Email Integration_v1]] Wireframe and Prd ⏫ 
 - [x] Check post hog hwo we can setup for the Sparrowcrm 🔽 ✅ 2026-05-17
 18-May-2026
-- [ ] [[Email Integration_v1]] Wireframe and PRD
+- [x] [[Email Integration_v1]] Wireframe and PRD ✅ 2026-05-21
 - [ ] Filters for objects
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
 ~~- [ ] Make a simple working prototype of [[Email Integration_v1]] ~~
 19-May-2026
-- [ ] [[Email Integration_v1]] Wireframe and PRD
+- [x] [[Email Integration_v1]] Wireframe and PRD ✅ 2026-05-21
 - [ ] Search fixes 
 - [ ] Filter fixes for objects 
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
@@ -48,3 +48,8 @@
 - [ ] Search fixes 
 - [x] Filter fixes for objects ✅ 2026-05-21
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
+Date
+  - [ ] Email record prd 🔼 
+  - [ ] Metrics Finalization
+  - [ ] Search fixes 
+  - [ ] 
