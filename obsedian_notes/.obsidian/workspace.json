@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -485,7 +485,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "acee3ebf8bfdb350",
+  "active": "5065adedd5f698a1",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
