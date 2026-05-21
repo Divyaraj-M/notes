@@ -46,5 +46,5 @@
 20-May-2026
 - [x] [[Email Integration_v1]] Wireframe and PRD ✅ 2026-05-20
 - [ ] Search fixes 
-- [ ] Filter fixes for objects 
+- [x] Filter fixes for objects ✅ 2026-05-21
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
