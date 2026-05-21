@@ -140,7 +140,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 9,
-      "totalTimesOpened": 43,
+      "totalTimesOpened": 44,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -270,6 +270,9 @@
         },
         {
           "timestampMillis": 1779350377069
+        },
+        {
+          "timestampMillis": 1779351443645
         }
       ]
     },
@@ -333,7 +336,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
       "uniqueDaysOpened": 10,
-      "totalTimesOpened": 36,
+      "totalTimesOpened": 37,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -442,6 +445,9 @@
         },
         {
           "timestampMillis": 1779349789144
+        },
+        {
+          "timestampMillis": 1779351448547
         }
       ]
     },
@@ -523,7 +529,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 7,
-      "totalTimesOpened": 26,
+      "totalTimesOpened": 27,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -602,6 +608,9 @@
         },
         {
           "timestampMillis": 1779350380506
+        },
+        {
+          "timestampMillis": 1779351401132
         }
       ]
     },
@@ -1154,16 +1163,6 @@
       "openLogs": [
         {
           "timestampMillis": 1778657569459
-        }
-      ]
-    },
-    {
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778657622621
         }
       ]
     },
@@ -2037,7 +2036,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1779348543440
@@ -2077,6 +2076,9 @@
         },
         {
           "timestampMillis": 1779350626456
+        },
+        {
+          "timestampMillis": 1779351380210
         }
       ]
     },

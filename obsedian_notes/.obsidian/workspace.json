@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
+                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -158,7 +158,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email_v1"
+              "title": "Sparrowcrm"
             }
           },
           {
@@ -533,16 +533,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e6cb78308daa094e",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
+    "1 - Projects/Sparrowcrm/5 - Features/Untitled.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
     "3 - Resources/Templates/To do.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
@@ -562,14 +564,12 @@
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
-    "Clippings/What we look for in product managers - Handbook.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",
     "1 - Projects/Email Notifications/EN-Product Wins",
-    "1 - Projects/Email Notifications/EN-Decisions",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

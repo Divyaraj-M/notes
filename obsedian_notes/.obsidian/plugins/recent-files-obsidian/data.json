@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
       "basename": "Email_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md"
     },
@@ -17,20 +29,8 @@
       "path": "3 - Resources/Templates/To do.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "@Sakthi Prasath M",
@@ -191,14 +191,6 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "@Shihab Muhammed",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Shihab Muhammed.md"
     }
   ],
   "omittedPaths": [],
