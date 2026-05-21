@@ -330,7 +330,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
       "uniqueDaysOpened": 10,
-      "totalTimesOpened": 29,
+      "totalTimesOpened": 33,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -418,6 +418,18 @@
         },
         {
           "timestampMillis": 1779347630952
+        },
+        {
+          "timestampMillis": 1779348853738
+        },
+        {
+          "timestampMillis": 1779348954171
+        },
+        {
+          "timestampMillis": 1779349018061
+        },
+        {
+          "timestampMillis": 1779349028936
         }
       ]
     },
@@ -1993,6 +2005,31 @@
       "openLogs": [
         {
           "timestampMillis": 1779348543440
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/To do.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 6,
+      "openLogs": [
+        {
+          "timestampMillis": 1779348822402
+        },
+        {
+          "timestampMillis": 1779348822663
+        },
+        {
+          "timestampMillis": 1779348871420
+        },
+        {
+          "timestampMillis": 1779348967918
+        },
+        {
+          "timestampMillis": 1779349027644
+        },
+        {
+          "timestampMillis": 1779349042689
         }
       ]
     }

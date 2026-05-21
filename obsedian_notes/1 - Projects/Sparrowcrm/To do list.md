@@ -48,8 +48,17 @@
 - [ ] Search fixes 
 - [x] Filter fixes for objects ✅ 2026-05-21
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
-Date
-  - [ ] Email record prd 🔼 
-  - [ ] Metrics Finalization
-  - [ ] Search fixes 
-  - [ ] 
+### 21-May-2026
+#### Today (max 3)
+- [ ] 
+- [ ] 
+- [ ] 
+
+#### In Progress
+- [ ] **[Task]** — next step: [...] — done when: [...]
+
+#### Backlog
+- [ ] 
+
+#### Carry to tomorrow
+-

@@ -167,8 +167,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "preview",
+                "file": "3 - Resources/Templates/To do.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -182,7 +182,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "To do"
             }
           }
         ],
@@ -511,9 +511,10 @@
   },
   "active": "83b1453941cdad52",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/To do list.md",
+    "3 - Resources/Templates/To do.md",
     "Untitled.md",
     "CRM Metrics Framework.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -539,7 +540,6 @@
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md",
     "1 - Projects/Email Notifications/EN-Features/EN-Features.md",
-    "1 - Projects/Email Notifications/EN-People/EN-People.md",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
     "1 - Projects/Email Notifications/EN-Marketing",

@@ -14,16 +14,24 @@
         "2026-05-18": 92,
         "2026-05-19": 462,
         "2026-05-20": 4581,
-        "2026-05-21": 16
+        "2026-05-21": 29
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/To do list.md": {
           "initial": 293,
-          "current": 309
+          "current": 318
         },
         "Untitled.md": {
           "initial": 4481,
           "current": 4481
+        },
+        "3 - Resources/Templates/Untitled.md": {
+          "initial": 15,
+          "current": 14
+        },
+        "3 - Resources/Templates/To do.md": {
+          "initial": 14,
+          "current": 18
         }
       }
     }
