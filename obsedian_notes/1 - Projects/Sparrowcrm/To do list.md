@@ -50,8 +50,8 @@
 - [ ] Finalise the candidate metrics for adoption , acquisition metrics , and NSM 
 ### 21-May-2026
 #### Today (max 3)
-- [ ] 
-- [ ] 
+- [ ] Email PRD 
+- [ ] Finalise the Metrics
 - [ ] 
 
 #### In Progress
