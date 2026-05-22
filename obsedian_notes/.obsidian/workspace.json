@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/How to find edge cases before they become expensive issues.md",
+                "file": "CRM Metrics Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -110,7 +110,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to find edge cases before they become expensive issues"
+              "title": "CRM Metrics Framework"
             }
           },
           {
@@ -191,7 +191,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:clipping/posthog.com",
+                "query": "tag:#clipping/posthog",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -460,11 +460,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7d5ca5715fbe7b32",
+  "active": "c27ab2170e7a3b90",
   "lastOpenFiles": [
     "Clippings/What we look for in product managers - Handbook.md",
-    "Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
     "CRM Metrics Framework.md",

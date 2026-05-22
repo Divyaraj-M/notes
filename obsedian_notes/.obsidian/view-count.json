@@ -742,7 +742,7 @@
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 27,
+      "totalTimesOpened": 28,
       "openLogs": [
         {
           "timestampMillis": 1778486389919
@@ -824,6 +824,9 @@
         },
         {
           "timestampMillis": 1779432140302
+        },
+        {
+          "timestampMillis": 1779432370579
         }
       ]
     },
@@ -1208,7 +1211,7 @@
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 26,
+      "totalTimesOpened": 28,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -1287,6 +1290,12 @@
         },
         {
           "timestampMillis": 1779432138748
+        },
+        {
+          "timestampMillis": 1779432395150
+        },
+        {
+          "timestampMillis": 1779432398890
         }
       ]
     },
@@ -1306,7 +1315,7 @@
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 14,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778662158657
@@ -1349,6 +1358,9 @@
         },
         {
           "timestampMillis": 1779432137058
+        },
+        {
+          "timestampMillis": 1779432396680
         }
       ]
     },
@@ -1553,8 +1565,8 @@
     },
     {
       "path": "CRM Metrics Framework.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 23,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1778755493227
@@ -1624,6 +1636,9 @@
         },
         {
           "timestampMillis": 1779351653787
+        },
+        {
+          "timestampMillis": 1779432400107
         }
       ]
     },

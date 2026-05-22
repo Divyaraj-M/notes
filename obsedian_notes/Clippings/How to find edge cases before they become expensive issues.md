@@ -7,7 +7,7 @@ published: 2026-04-14
 created: 2026-05-11
 description: Level up your PM skills with real-world advice from the Good Product Club. Learn how seasoned product leaders uncover edge cases and protect the user experience.
 tags:
-  - clippings/balsamiq
+  - clipping/balsamiq
 ---
 Teams spend most of their time designing the happy path, but that’s not where products break. The real trouble lives in the gaps—the moments nobody thought to plan for.
 
