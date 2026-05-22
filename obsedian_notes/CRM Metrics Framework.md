@@ -339,16 +339,16 @@ The full list of things we *could* measure for a CRM. Marked by phase priority.
 
 ### 6.1 Funnel / Lifecycle
 
-| Metric | Beta | Growth | Scale |
-|---|---|---|---|
-| Marketing site → Signup conversion | 🟡 | 🔥 | 🔥 |
-| Signup → Workspace created | 🔥 | 🔥 | 🔥 |
-| Workspace created → First deal | 🔥 | 🔥 | 🔥 |
-| First deal → First activity logged | 🔥 | 🔥 | 🔥 |
-| First teammate invited (under 7d) | 🔥 | 🔥 | 🔥 |
-| Email sync connected | 🔥 | 🔥 | 🔥 |
-| First pipeline customized | 🟡 | 🔥 | 🔥 |
-| First workflow / automation set | 🟡 | 🔥 | 🔥 |
+|               Metric               | Beta | Growth | Scale |
+| :--------------------------------: | :--: | :----: | :---: |
+| Marketing site → Signup conversion |  🟡  |   🔥   |  🔥   |
+|     Signup → Workspace created     |  🔥  |   🔥   |  🔥   |
+|   Workspace created → First deal   |  🔥  |   🔥   |  🔥   |
+| First deal → First activity logged |  🔥  |   🔥   |  🔥   |
+| First teammate invited (under 7d)  |  🔥  |   🔥   |  🔥   |
+|        Email sync connected        |  🔥  |   🔥   |  🔥   |
+|     First pipeline customized      |  🟡  |   🔥   |  🔥   |
+|  First workflow / automation set   |  🟡  |   🔥   |  🔥   |
 
 ### 6.2 Usage breadth (per active user / per workspace)
 
