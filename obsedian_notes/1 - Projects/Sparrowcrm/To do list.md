@@ -66,12 +66,12 @@
 - Ai search 
 ### 22-May-2026
 #### Today (max 3)
-- [ ] Need to have clear understanding 
-- [ ] 
-- [ ] 
+- [ ] Need to have clear understanding of the metrics 
+- [ ] Ai Search 
+- [ ] Understand the AI agents 
 
 #### In Progress
-- [ ] **[Task]** — next step: [...] — done when: [...]
+- [ ] **[Metrics]** — next step: [Define the NSM candidates] 
 
 #### Backlog
 - [ ] 
