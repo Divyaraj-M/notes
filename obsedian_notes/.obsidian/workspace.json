@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/What we look for in product managers - Handbook.md",
+                "file": "Clippings/How to find edge cases before they become expensive issues.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -110,7 +110,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What we look for in product managers - Handbook"
+              "title": "How to find edge cases before they become expensive issues"
             }
           },
           {
@@ -401,8 +401,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9140aa1d3d409719",
@@ -461,9 +460,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "7d5ca5715fbe7b32",
   "lastOpenFiles": [
     "Clippings/What we look for in product managers - Handbook.md",
+    "Clippings/How to find edge cases before they become expensive issues.md",
+    "Clippings/What product managers do at PostHog - Handbook.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
     "CRM Metrics Framework.md",
     "code-generate-scenes.md",
@@ -471,7 +473,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.md",
@@ -491,8 +492,6 @@
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
-    "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
-    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",
