@@ -62,4 +62,19 @@
 - [ ] Research about the KB graph
 
 #### Carry to tomorrow
+- **[Metrics]** — next step: [Adoption Metrics]
+- Ai search 
+### 22-May-2026
+#### Today (max 3)
+- [ ] Need to have clear understanding 
+- [ ] 
+- [ ] 
+
+#### In Progress
+- [ ] **[Task]** — next step: [...] — done when: [...]
+
+#### Backlog
+- [ ] 
+
+#### Carry to tomorrow
 -
