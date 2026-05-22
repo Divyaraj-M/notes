@@ -47,10 +47,10 @@ If we can't answer all four, we don't track it yet.
 
 ### 1.3 Inputs vs Outputs (the most important distinction)
 
-| Type | What it is | Example (CRM) | Who controls it |
-|---|---|---|---|
-| **Output / Lagging** | Result of past actions | Revenue, Retention, Win rate | Nobody directly — emerges from inputs |
-| **Input / Leading** | Behavior we drive *now* that creates outputs *later* | Demos booked, Activities logged, Deals updated | Product team & users daily |
+|         Type         |                      What it is                      |                 Example (CRM)                  |            Who controls it            |
+| :------------------: | :--------------------------------------------------: | :--------------------------------------------: | :-----------------------------------: |
+| **Output / Lagging** |                Result of past actions                |          Revenue, Retention, Win rate          | Nobody directly — emerges from inputs |
+| **Input / Leading**  | Behavior we drive *now* that creates outputs *later* | Demos booked, Activities logged, Deals updated |      Product team & users daily       |
 
 **Rule:** Set goals on outputs, manage on inputs. North Stars sit at the boundary — they're outputy enough to matter, inputty enough to be moveable.
 
@@ -69,14 +69,14 @@ A North Star is **one metric** (rarely two) that:
 
 ### 2.2 NSM candidates for a CRM (and why each one is/isn't right)
 
-| Candidate | What it measures | Pro | Con | Verdict |
-|---|---|---|---|---|
-| **Revenue (ARR/MRR)** | $ from CRM customers | Ultimate truth | Too lagging, can't move it weekly, dominated by sales motion | ❌ Use as L0/business metric, not NSM |
-| **Total contacts created** | Records in the system | Easy to count | Pure vanity — bulk imports inflate it, no value signal | ❌ Track as health, not NSM |
-| **DAU / WAU** | Unique logged-in users | Standard | Doesn't distinguish "doing real work" from "logged in to check" | ❌ Component of NSM, not NSM |
-| **Activities logged per active user per week** | Calls, emails, notes, meetings recorded | Behavioral, sensitive | Can be gamed; doesn't directly tie to outcome | ⚠️ Strong L1 candidate |
-| **Weekly Active Deals Progressed (WADP)** | # of deals that had stage change OR activity logged in last 7 days, by an active user | Captures value delivered (deal movement) + activity + freshness. Hard to game. | Definition needs care | ✅ **RECOMMENDED PRIMARY NSM** |
-| **Weekly Engaged Workspaces** | # of customer workspaces with ≥N active users AND ≥M deals progressed in 7d | Org-level — what we sell to | Lagging vs. user-level metric | ✅ **RECOMMENDED SECONDARY NSM** (especially for leadership view) |
+|                   Candidate                    |                                   What it measures                                    |                                      Pro                                       |                               Con                               |                             Verdict                              |
+| :--------------------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------: |
+|             **Revenue (ARR/MRR)**              |                                 $ from CRM customers                                  |                                 Ultimate truth                                 |  Too lagging, can't move it weekly, dominated by sales motion   |               ❌ Use as L0/business metric, not NSM               |
+|           **Total contacts created**           |                                 Records in the system                                 |                                 Easy to count                                  |     Pure vanity — bulk imports inflate it, no value signal      |                    ❌ Track as health, not NSM                    |
+|                 **DAU / WAU**                  |                                Unique logged-in users                                 |                                    Standard                                    | Doesn't distinguish "doing real work" from "logged in to check" |                   ❌ Component of NSM, not NSM                    |
+| **Activities logged per active user per week** |                        Calls, emails, notes, meetings recorded                        |                             Behavioral, sensitive                              |          Can be gamed; doesn't directly tie to outcome          |                      ⚠️ Strong L1 candidate                      |
+|   **Weekly Active Deals Progressed (WADP)**    | # of deals that had stage change OR activity logged in last 7 days, by an active user | Captures value delivered (deal movement) + activity + freshness. Hard to game. |                      Definition needs care                      |                  ✅ **RECOMMENDED PRIMARY NSM**                   |
+|         **Weekly Engaged Workspaces**          |      # of customer workspaces with ≥N active users AND ≥M deals progressed in 7d      |                          Org-level — what we sell to                           |                  Lagging vs. user-level metric                  | ✅ **RECOMMENDED SECONDARY NSM** (especially for leadership view) |
 
 ### 2.3 The recommendation
 
@@ -94,12 +94,12 @@ A North Star is **one metric** (rarely two) that:
 
 ### 2.4 What success looks like at each stage
 
-| Stage | WADP per active user / week | WEW as % of paid workspaces | Implication |
-|---|---|---|---|
-| Beta | 3–5 | n/a (no paid yet) | Activation working |
-| Early growth | 5–8 | 40%+ | PMF signal |
-| Scaling | 8–15 | 65%+ | Healthy retention |
-| Mature | 12+ | 75%+ | Best-in-class |
+|    Stage     | WADP per active user / week | WEW as % of paid workspaces |    Implication     |
+| :----------: | :-------------------------: | :-------------------------: | :----------------: |
+|     Beta     |             3–5             |      n/a (no paid yet)      | Activation working |
+| Early growth |             5–8             |            40%+             |     PMF signal     |
+|   Scaling    |            8–15             |            65%+             | Healthy retention  |
+|    Mature    |             12+             |            75%+             |   Best-in-class    |
 
 (These are directional. Calibrate against actual beta data — don't hard-code targets before we have a baseline.)
 
@@ -181,15 +181,15 @@ This is the universe. Most products don't need all of these — but you need to 
 
 **What they measure:** How efficiently we get new humans/workspaces into the funnel.
 
-| Metric | Formula / Definition | Why it matters |
-|---|---|---|
-| Visitors / Sessions | Unique visitors to marketing site | Top of funnel volume |
-| Signup conversion | Signups ÷ Visitors | Marketing → product handoff |
-| Signups (workspace) | New workspaces created | Account-level volume |
-| Signups (user) | New users in any workspace | Seat-level volume |
-| Source mix | Signups split by channel (organic, paid, referral, integration) | Channel ROI |
-| CAC | $ spent acquiring ÷ # acquired (paying) | Unit economics |
-| Lead → Trial → Paid conversion | Stage-wise funnel rates | Funnel diagnosis |
+|             Metric             |                      Formula / Definition                       |       Why it matters        |
+| :----------------------------: | :-------------------------------------------------------------: | :-------------------------: |
+|      Visitors / Sessions       |                Unique visitors to marketing site                |    Top of funnel volume     |
+|       Signup conversion        |                       Signups ÷ Visitors                        | Marketing → product handoff |
+|      Signups (workspace)       |                     New workspaces created                      |    Account-level volume     |
+|         Signups (user)         |                   New users in any workspace                    |      Seat-level volume      |
+|           Source mix           | Signups split by channel (organic, paid, referral, integration) |         Channel ROI         |
+|              CAC               |             $ spent acquiring ÷ # acquired (paying)             |       Unit economics        |
+| Lead → Trial → Paid conversion |                     Stage-wise funnel rates                     |      Funnel diagnosis       |
 
 **Beta priority:** ⚠️ Low-medium. We're not optimizing acquisition until we have activation working.
 
@@ -203,13 +203,13 @@ For a CRM, "aha" candidates:
 - First pipeline view configured AND opened 2nd time
 - First teammate invited and active
 
-| Metric | Formula | Notes |
-|---|---|---|
-| **Activation rate** | % of signups that hit "aha" within X days | Define aha rigorously — this is the most important beta metric |
-| **Time to activation** | Median hours from signup → aha | Lower is better, but watch for shortcuts that hurt retention |
-| Onboarding completion | % completing each step | Diagnostic, not the goal |
-| First-deal time | Hours from signup to first deal created | Component of activation |
-| First-week retention | % returning Day 1–7 | Predicts long-term retention |
+|         Metric         |                  Formula                  |                             Notes                              |
+| :--------------------: | :---------------------------------------: | :------------------------------------------------------------: |
+|  **Activation rate**   | % of signups that hit "aha" within X days | Define aha rigorously — this is the most important beta metric |
+| **Time to activation** |      Median hours from signup → aha       |  Lower is better, but watch for shortcuts that hurt retention  |
+| Onboarding completion  |          % completing each step           |                    Diagnostic, not the goal                    |
+|    First-deal time     |  Hours from signup to first deal created  |                    Component of activation                     |
+|  First-week retention  |            % returning Day 1–7            |                  Predicts long-term retention                  |
 
 **Beta priority:** 🔥 **HIGHEST.** Activation is the single most important thing in beta. If activation breaks, nothing else matters.
 
@@ -217,16 +217,16 @@ For a CRM, "aha" candidates:
 
 **What they measure:** Are activated users coming back, doing more, going deeper?
 
-| Metric | What it tells you |
-|---|---|
-| WAU / MAU | Stickiness ratio (>20% = sticky) |
-| Sessions per user per week | Frequency of use |
-| Session duration | Depth per session (careful — long sessions can mean confusion) |
-| Features used per user (breadth) | Are they exploring? |
-| Power user % | Users hitting top decile of activity |
-| Activities logged per active user | Behavioral output |
-| Deals updated per user | Behavioral output, CRM-specific |
-| % users on mobile | Multi-surface adoption |
+| Metric                            | What it tells you                                              |
+| --------------------------------- | -------------------------------------------------------------- |
+| WAU / MAU                         | Stickiness ratio (>20% = sticky)                               |
+| Sessions per user per week        | Frequency of use                                               |
+| Session duration                  | Depth per session (careful — long sessions can mean confusion) |
+| Features used per user (breadth)  | Are they exploring?                                            |
+| Power user %                      | Users hitting top decile of activity                           |
+| Activities logged per active user | Behavioral output                                              |
+| Deals updated per user            | Behavioral output, CRM-specific                                |
+| % users on mobile                 | Multi-surface adoption                                         |
 
 **Beta priority:** 🔥 High. After activation, this is what we watch.
 

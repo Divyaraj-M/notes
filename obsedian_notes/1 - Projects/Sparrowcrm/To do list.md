@@ -71,7 +71,7 @@
 - [ ] Understand the AI agents 
 
 #### In Progress
-- [ ] **[Metrics]** — next step: [Define the NSM candidates] 
+- [ ] **[Metrics]** — next step: [Define the NSM candidates] — done when: [...]
 
 #### Backlog
 - [ ] 
