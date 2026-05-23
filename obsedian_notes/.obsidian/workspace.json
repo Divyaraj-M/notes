@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRM Metrics Framework.md",
+                "file": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -110,7 +110,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CRM Metrics Framework"
+              "title": "12 - People"
             }
           },
           {
@@ -462,14 +462,14 @@
   },
   "active": "c27ab2170e7a3b90",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "CRM Metrics Framework.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
-    "CRM Metrics Framework.md",
     "code-generate-scenes.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",

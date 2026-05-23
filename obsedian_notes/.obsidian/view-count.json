@@ -139,8 +139,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 9,
-      "totalTimesOpened": 48,
+      "uniqueDaysOpened": 10,
+      "totalTimesOpened": 50,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -285,6 +285,12 @@
         },
         {
           "timestampMillis": 1779351632447
+        },
+        {
+          "timestampMillis": 1779525047405
+        },
+        {
+          "timestampMillis": 1779525047805
         }
       ]
     },
@@ -471,8 +477,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 14,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1778479798295
@@ -515,6 +521,9 @@
         },
         {
           "timestampMillis": 1779182581313
+        },
+        {
+          "timestampMillis": 1779525051032
         }
       ]
     },
