@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
+                "file": "Curious Geeks/Curious Geeks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)"
+              "title": "Curious Geeks"
             }
           }
         ],
@@ -535,8 +535,8 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
-    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
+    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/Obsidian.md",
     "Curious Geeks/About me/Divyaraj Murugan.md",
     "3 - Resources/Templates/Blog template.md",

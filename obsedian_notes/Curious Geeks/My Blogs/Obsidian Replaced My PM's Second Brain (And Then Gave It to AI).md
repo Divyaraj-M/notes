@@ -1,6 +1,6 @@
 ---
 description: ix months of using Obsidian for product management — from scattered Confluence docs to a connected knowledge graph that AI can actually reason over
-dg-home:
+dg-publish: true
 tags:
   - curious_geeks/blog
 created: 2026-05-25
@@ -25,7 +25,7 @@ Obsidian had this graph thing for years, by the way. Connected knowledge nodes, 
 
 Before Obsidian, running that test meant weeks of interviews and Slack archaeology. Now I follow the links. The context is already there, already connected.
 
-**==AI turns it into something else entirely.==** Point [[Claude Code]] at your vault. Now your AI has every decision, every dependency, every "we tried this and it broke because." When I spec something new, it doesn't just help me write — it warns me where it'll break. It knows the permissions flow has two gateways. It knows role resolution changes depending on how the resource was shared. It flags the parts I haven't scoped yet.
+**==AI turns it into something else entirely.==** Point [Claude Code](https://claude.ai/) at your vault. Now your AI has every decision, every dependency, every "we tried this and it broke because." When I spec something new, it doesn't just help me write — it warns me where it'll break. It knows the permissions flow has two gateways. It knows role resolution changes depending on how the resource was shared. It flags the parts I haven't scoped yet.
 
 Weeks to days. That's the real number.
 
