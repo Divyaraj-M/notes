@@ -1161,7 +1161,7 @@
     {
       "path": "Curious Geeks/Curious Geeks.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 15,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1207,6 +1207,24 @@
         },
         {
           "timestampMillis": 1779717036448
+        },
+        {
+          "timestampMillis": 1779717379847
+        },
+        {
+          "timestampMillis": 1779717379979
+        },
+        {
+          "timestampMillis": 1779717445657
+        },
+        {
+          "timestampMillis": 1779717447345
+        },
+        {
+          "timestampMillis": 1779717447483
+        },
+        {
+          "timestampMillis": 1779717451006
         }
       ]
     },
@@ -2310,7 +2328,7 @@
     {
       "path": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1779710088317
@@ -2329,6 +2347,21 @@
         },
         {
           "timestampMillis": 1779710350200
+        },
+        {
+          "timestampMillis": 1779717440957
+        },
+        {
+          "timestampMillis": 1779717446093
+        },
+        {
+          "timestampMillis": 1779717448688
+        },
+        {
+          "timestampMillis": 1779717448814
+        },
+        {
+          "timestampMillis": 1779717462889
         }
       ]
     },
@@ -2345,6 +2378,16 @@
         },
         {
           "timestampMillis": 1779710334710
+        }
+      ]
+    },
+    {
+      "path": "Curious Geeks/About me/Divyaraj Murugan.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779717370926
         }
       ]
     }
