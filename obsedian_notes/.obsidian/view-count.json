@@ -1161,7 +1161,7 @@
     {
       "path": "Curious Geeks/Curious Geeks.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 29,
+      "totalTimesOpened": 35,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1249,6 +1249,24 @@
         },
         {
           "timestampMillis": 1779735709444
+        },
+        {
+          "timestampMillis": 1779735724069
+        },
+        {
+          "timestampMillis": 1779735724219
+        },
+        {
+          "timestampMillis": 1779735751508
+        },
+        {
+          "timestampMillis": 1779735751652
+        },
+        {
+          "timestampMillis": 1779735857576
+        },
+        {
+          "timestampMillis": 1779735922487
         }
       ]
     },
@@ -2441,7 +2459,7 @@
     {
       "path": "Curious Geeks/About me/Divyaraj Murugan.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1779717370926
@@ -2469,6 +2487,21 @@
         },
         {
           "timestampMillis": 1779735720110
+        },
+        {
+          "timestampMillis": 1779735727249
+        },
+        {
+          "timestampMillis": 1779735727382
+        },
+        {
+          "timestampMillis": 1779735763135
+        },
+        {
+          "timestampMillis": 1779735871295
+        },
+        {
+          "timestampMillis": 1779735882577
         }
       ]
     },

@@ -1,3 +1,8 @@
+---
+dg-publish: true
+tags:
+  - curious_geeks/about_me
+---
 # About
 
 Hey, I'm Divyaraj Murugan. Product Manager at [SurveySparrow](https://surveysparrow.com), building [SparrowCRM](https://sparrowcrm.com).
@@ -30,7 +35,7 @@ This is where I learned that the gap between "how things work" and "how things s
 
 Writing is how I process things. If something here saves you a few weeks — that's the point.
 
-→ [[Home|Back to Curious Geeks]]
+→ [[Curious Geeks|Back to Curious Geeks]]
 
 **Find me:** [LinkedIn](https://www.linkedin.com/in/divyaraj-murugan)
 

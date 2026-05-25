@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/About me/Divyaraj Murugan.md",
+                "file": "Curious Geeks/Curious Geeks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Divyaraj Murugan"
+              "title": "Curious Geeks"
             }
           }
         ],
@@ -535,9 +535,9 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
-    "Curious Geeks/About me/Home.md",
     "Curious Geeks/About me/Divyaraj Murugan.md",
     "Curious Geeks/Curious Geeks.md",
+    "Curious Geeks/About me/Home.md",
     "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "Clippings/thedotmackclaude-mem.md",
