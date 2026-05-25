@@ -2308,7 +2308,7 @@
     {
       "path": "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779539988755
@@ -2318,13 +2318,16 @@
         },
         {
           "timestampMillis": 1779693260393
+        },
+        {
+          "timestampMillis": 1779733610853
         }
       ]
     },
     {
       "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1779693250064
@@ -2334,6 +2337,15 @@
         },
         {
           "timestampMillis": 1779693341135
+        },
+        {
+          "timestampMillis": 1779733610104
+        },
+        {
+          "timestampMillis": 1779733610262
+        },
+        {
+          "timestampMillis": 1779733611821
         }
       ]
     },
@@ -2443,20 +2455,32 @@
     {
       "path": "Clippings/thedotmackclaude-mem.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1779732002632
         },
         {
           "timestampMillis": 1779732009402
+        },
+        {
+          "timestampMillis": 1779733519828
+        },
+        {
+          "timestampMillis": 1779733520065
+        },
+        {
+          "timestampMillis": 1779733605674
+        },
+        {
+          "timestampMillis": 1779733605882
         }
       ]
     },
     {
-      "path": "Clippings/pbakausimpeccable The design language that makes your AI harness better at design..md",
+      "path": "Clippings/The design language that makes your AI harness better at design..md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1779732492630
@@ -2466,13 +2490,25 @@
         },
         {
           "timestampMillis": 1779732747243
+        },
+        {
+          "timestampMillis": 1779733513305
+        },
+        {
+          "timestampMillis": 1779733513495
+        },
+        {
+          "timestampMillis": 1779733601451
+        },
+        {
+          "timestampMillis": 1779733601713
         }
       ]
     },
     {
-      "path": "Clippings/kylezantosdesign-motion-principles A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski,.md",
+      "path": "Clippings/A motion design skill with two modes.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1779732714752
@@ -2482,13 +2518,25 @@
         },
         {
           "timestampMillis": 1779732747601
+        },
+        {
+          "timestampMillis": 1779733505423
+        },
+        {
+          "timestampMillis": 1779733505600
+        },
+        {
+          "timestampMillis": 1779733592948
+        },
+        {
+          "timestampMillis": 1779733593104
         }
       ]
     },
     {
       "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779732745441
@@ -2498,6 +2546,25 @@
         },
         {
           "timestampMillis": 1779732748521
+        },
+        {
+          "timestampMillis": 1779733591610
+        }
+      ]
+    },
+    {
+      "path": "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1779733486968
+        },
+        {
+          "timestampMillis": 1779733589522
+        },
+        {
+          "timestampMillis": 1779733589690
         }
       ]
     }
