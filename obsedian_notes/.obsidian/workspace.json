@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/Products/Products.md",
+                "file": "Curious Geeks/Curious Geeks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Products"
+              "title": "Curious Geeks"
             }
           }
         ],
@@ -535,8 +535,8 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
-    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/Products/Products.md",
+    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/Products",
     "Curious Geeks/About me/Divyaraj Murugan.md",
     "Curious Geeks/About me/Home.md",
