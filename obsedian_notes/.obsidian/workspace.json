@@ -201,7 +201,7 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
@@ -535,6 +535,8 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "Curious Geeks/About me",
+    "Curious Geeks/My Blogs",
     "3 - Resources/Templates/To do.md",
     "Curious Geeks/Curious Geeks.md",
     "Projects",
@@ -566,11 +568,9 @@
     "1 - Projects/Email Notifications/prd-sparrowcrm-unified-filters.md",
     "1 - Projects/Email Notifications/filter-prototype.html",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",
-    "1 - Projects/Email Notifications/EN-Help Articles",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

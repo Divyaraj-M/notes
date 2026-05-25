@@ -41,7 +41,11 @@
     "Curious Geeks": "curious_geeks.json",
     "1 - Projects/Curious Geeks": "1_-_projects_curious_geeks.json",
     "1 - Projects/Curious Geeks/Curious Geeks.md": "1_-_projects_curious_geeks_curious_geeks.md.json",
-    "Curious Geeks/Curious Geeks.md": "curious_geeks_curious_geeks.md.json"
+    "Curious Geeks/Curious Geeks.md": "curious_geeks_curious_geeks.md.json",
+    "Curious Geeks/Untitled": "curious_geeks_untitled.json",
+    "Curious Geeks/My Blogs": "curious_geeks_my_blogs.json",
+    "Curious Geeks/My Blogs/Untitled": "curious_geeks_my_blogs_untitled.json",
+    "Curious Geeks/About me": "curious_geeks_about_me.json"
   },
-  "lastUpdated": 1779699578349
+  "lastUpdated": 1779701120524
 }
