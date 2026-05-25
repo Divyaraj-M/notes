@@ -3,7 +3,9 @@
   "githubToken": "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",
   "githubUserName": "Divyaraj-M",
   "gardenBaseUrl": "",
-  "prHistory": [],
+  "prHistory": [
+    "https://github.com/Divyaraj-M/digitalgarden-b79cf/pull/6"
+  ],
   "baseTheme": "dark",
   "theme": "{\"name\":\"Minimalists Paradise\",\"author\":\"Isabelle Basso\",\"repo\":\"bellebasso/Minimalists-Paradise\",\"screenshot\":\"screenshot.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/bellebasso/Minimalists-Paradise/HEAD/theme.css\"}",
   "faviconPath": "",
