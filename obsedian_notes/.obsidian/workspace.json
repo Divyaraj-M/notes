@@ -457,11 +457,13 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "yourpulse:Open YourPulse Profile": false,
       "always-color-text:Always Color Text": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "project-manager:Project manager": false
     }
   },
   "active": "c27ab2170e7a3b90",
   "lastOpenFiles": [
+    "Projects",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -491,7 +493,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
-    "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",
