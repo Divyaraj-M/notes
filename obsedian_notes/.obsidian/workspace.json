@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/Curious Geeks.md",
+                "file": "Curious Geeks/Products/Products.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Curious Geeks"
+              "title": "Products"
             }
           }
         ],
@@ -535,9 +535,10 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "Curious Geeks/Curious Geeks.md",
+    "Curious Geeks/Products/Products.md",
     "Curious Geeks/Products",
     "Curious Geeks/About me/Divyaraj Murugan.md",
-    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/About me/Home.md",
     "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
@@ -570,7 +571,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
     "1 - Projects/Email Notifications/filter-prototype.html",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
-    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
