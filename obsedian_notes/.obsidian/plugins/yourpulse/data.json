@@ -17,9 +17,14 @@
         "2026-05-21": 506,
         "2026-05-22": 37,
         "2026-05-23": 0,
-        "2026-05-25": 0
+        "2026-05-25": 3
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "3 - Resources/Templates/Blog template.md": {
+          "initial": 2,
+          "current": 5
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",

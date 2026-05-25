@@ -45,7 +45,10 @@
     "Curious Geeks/Untitled": "curious_geeks_untitled.json",
     "Curious Geeks/My Blogs": "curious_geeks_my_blogs.json",
     "Curious Geeks/My Blogs/Untitled": "curious_geeks_my_blogs_untitled.json",
-    "Curious Geeks/About me": "curious_geeks_about_me.json"
+    "Curious Geeks/About me": "curious_geeks_about_me.json",
+    "Curious Geeks/My Blogs/Untitled.md": "curious_geeks_my_blogs_untitled.md.json",
+    "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md": "curious_geeks_my_blogs_obsidian_replaced_my_pm's_second_brain_(and_then_gave_it_to_ai).md.json",
+    "3 - Resources/Templates/Blog template.md": "3_-_resources_templates_blog_template.md.json"
   },
-  "lastUpdated": 1779701120524
+  "lastUpdated": 1779710180395
 }

@@ -2297,6 +2297,29 @@
           "timestampMillis": 1779693341135
         }
       ]
+    },
+    {
+      "path": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1779710088317
+        },
+        {
+          "timestampMillis": 1779710167447
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Blog template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779710174402
+        }
+      ]
     }
   ]
 }
