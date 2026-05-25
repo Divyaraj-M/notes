@@ -2456,10 +2456,48 @@
     {
       "path": "Clippings/pbakausimpeccable The design language that makes your AI harness better at design..md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1779732492630
+        },
+        {
+          "timestampMillis": 1779732746929
+        },
+        {
+          "timestampMillis": 1779732747243
+        }
+      ]
+    },
+    {
+      "path": "Clippings/kylezantosdesign-motion-principles A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski,.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1779732714752
+        },
+        {
+          "timestampMillis": 1779732747439
+        },
+        {
+          "timestampMillis": 1779732747601
+        }
+      ]
+    },
+    {
+      "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1779732745441
+        },
+        {
+          "timestampMillis": 1779732748321
+        },
+        {
+          "timestampMillis": 1779732748521
         }
       ]
     }
