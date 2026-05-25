@@ -1,5 +1,6 @@
 ---
-dg-publish: false
-title:
-cssclasses:
+title: false
+description:
+dg-home:
+tags:
 ---

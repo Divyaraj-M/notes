@@ -26,6 +26,7 @@
     "TQ_show_urgency": "checkbox",
     "TQ_show_toolbar": "checkbox",
     "dg-publish": "checkbox",
-    "dg-home": "checkbox"
+    "dg-home": "checkbox",
+    "title": "text"
   }
 }

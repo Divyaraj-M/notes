@@ -17,12 +17,16 @@
         "2026-05-21": 506,
         "2026-05-22": 37,
         "2026-05-23": 0,
-        "2026-05-25": 3
+        "2026-05-25": 31
       },
       "todaysWordCount": {
         "3 - Resources/Templates/Blog template.md": {
           "initial": 2,
-          "current": 5
+          "current": 6
+        },
+        "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md": {
+          "initial": 6,
+          "current": 33
         }
       }
     }
