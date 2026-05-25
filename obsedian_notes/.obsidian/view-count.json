@@ -2646,10 +2646,16 @@
     {
       "path": "Curious Geeks/Products/Products.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1779741310154
+        },
+        {
+          "timestampMillis": 1779741818695
+        },
+        {
+          "timestampMillis": 1779741818821
         }
       ]
     }
