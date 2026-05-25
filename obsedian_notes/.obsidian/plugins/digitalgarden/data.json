@@ -7,7 +7,7 @@
     "https://github.com/Divyaraj-M/digitalgarden-b79cf/pull/6"
   ],
   "baseTheme": "dark",
-  "theme": "{\"name\":\"Publisher\",\"author\":\"aidanastridge\",\"repo\":\"aidanastridge/Publisher\",\"screenshot\":\"src/thumbnail.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/aidanastridge/Publisher/HEAD/theme.css\"}",
+  "theme": "{\"name\":\"Baseline\",\"author\":\"Alexis C\",\"repo\":\"aaaaalexis/obsidian-baseline\",\"screenshot\":\"baseline.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/aaaaalexis/obsidian-baseline/HEAD/theme.css\"}",
   "faviconPath": "",
   "logoPath": "",
   "useFullResolutionImages": false,

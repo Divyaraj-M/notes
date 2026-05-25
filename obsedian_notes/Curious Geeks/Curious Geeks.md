@@ -4,8 +4,6 @@ dg-home: true
 tags:
   - curious_geeks
 ---
-# Curious Geeks
-
 Got a product problem? Something here might help you think through it.
 
 Not perfect answers — but frameworks, case studies, and lessons from actually building things. The kind of stuff I wish someone had written down before I had to figure it out the hard way.
