@@ -2340,7 +2340,7 @@
     {
       "path": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 14,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1779710088317
@@ -2383,6 +2383,12 @@
         },
         {
           "timestampMillis": 1779717767327
+        },
+        {
+          "timestampMillis": 1779722263945
+        },
+        {
+          "timestampMillis": 1779722264104
         }
       ]
     },
@@ -2405,13 +2411,32 @@
     {
       "path": "Curious Geeks/About me/Divyaraj Murugan.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779717370926
         },
         {
           "timestampMillis": 1779719765260
+        },
+        {
+          "timestampMillis": 1779722265031
+        },
+        {
+          "timestampMillis": 1779722265159
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/My Product Notes.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1779722260556
+        },
+        {
+          "timestampMillis": 1779722260739
         }
       ]
     }
