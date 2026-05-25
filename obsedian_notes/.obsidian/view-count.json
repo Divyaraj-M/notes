@@ -1159,9 +1159,9 @@
       ]
     },
     {
-      "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
+      "path": "Curious Geeks/Curious Geeks.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1183,6 +1183,15 @@
         },
         {
           "timestampMillis": 1779699514902
+        },
+        {
+          "timestampMillis": 1779699585531
+        },
+        {
+          "timestampMillis": 1779699713179
+        },
+        {
+          "timestampMillis": 1779699720875
         }
       ]
     },
@@ -2172,8 +2181,8 @@
     },
     {
       "path": "3 - Resources/Templates/To do.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1779348822402
@@ -2204,6 +2213,15 @@
         },
         {
           "timestampMillis": 1779350409942
+        },
+        {
+          "timestampMillis": 1779699710860
+        },
+        {
+          "timestampMillis": 1779699710990
+        },
+        {
+          "timestampMillis": 1779699761970
         }
       ]
     },

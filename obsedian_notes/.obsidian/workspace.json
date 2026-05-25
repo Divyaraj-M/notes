@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Curious Geeks/Curious Geeks.md",
+                "file": "Curious Geeks/Curious Geeks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -184,9 +184,19 @@
               "icon": "lucide-file",
               "title": "Curious Geeks"
             }
+          },
+          {
+            "id": "4d14cdb04c1787e1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -509,10 +519,12 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "3 - Resources/Templates/To do.md",
+    "Curious Geeks/Curious Geeks.md",
     "Projects",
-    "1 - Projects/Curious Geeks",
+    "Curious Geeks",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
@@ -534,7 +546,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
-    "3 - Resources/Templates/To do.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md",
@@ -546,7 +557,6 @@
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",
     "1 - Projects/Email Notifications/EN-Help Articles",
-    "1 - Projects/Email Notifications/EN-Marketing",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
