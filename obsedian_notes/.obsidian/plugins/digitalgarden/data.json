@@ -7,7 +7,7 @@
     "https://github.com/Divyaraj-M/digitalgarden-b79cf/pull/6"
   ],
   "baseTheme": "dark",
-  "theme": "{\"name\":\"monochroYOU\",\"author\":\"guimar10\",\"repo\":\"guimar10/monochroYou\",\"screenshot\":\"screenshot.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/guimar10/monochroYou/HEAD/theme.css\"}",
+  "theme": "{\"name\":\"Sequoia\",\"author\":\"Micheal Andreuzza\",\"repo\":\"michael-andreuzza/sequoia-obsidian\",\"screenshot\":\"screenshot.png\",\"modes\":[\"dark\",\"light\"],\"cssUrl\":\"https://raw.githubusercontent.com/michael-andreuzza/sequoia-obsidian/HEAD/theme.css\"}",
   "faviconPath": "",
   "logoPath": "",
   "useFullResolutionImages": false,
