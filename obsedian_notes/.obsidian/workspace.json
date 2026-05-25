@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md",
+                "file": "1 - Projects/Curious Geeks/Curious Geeks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,7 +182,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking Nodes"
+              "title": "Curious Geeks"
             }
           }
         ],
@@ -509,8 +509,9 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "56c0080134f9c138",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Curious Geeks",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
     "Projects",
@@ -541,7 +542,6 @@
     "1 - Projects/Email Notifications/filter-prototype.html",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Email Notifications/EN-People",

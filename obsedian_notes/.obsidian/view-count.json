@@ -1159,9 +1159,9 @@
       ]
     },
     {
-      "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md",
+      "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1174,6 +1174,12 @@
         },
         {
           "timestampMillis": 1779693954202
+        },
+        {
+          "timestampMillis": 1779694127703
+        },
+        {
+          "timestampMillis": 1779694214114
         }
       ]
     },
@@ -1704,16 +1710,6 @@
         },
         {
           "timestampMillis": 1778835354292
-        }
-      ]
-    },
-    {
-      "path": "finance/Dashboard.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778849813171
         }
       ]
     },
