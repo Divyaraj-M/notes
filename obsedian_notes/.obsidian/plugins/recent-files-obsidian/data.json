@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Thinking Nodes",
+      "path": "4 - Archive/Sparrowgenie/Proposals/Thinking Nodes.md"
+    },
+    {
       "basename": "phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dashboard",
       "path": "finance/Dashboard.md"
-    },
-    {
-      "basename": "Tools",
-      "path": "3 - Resources/Tools.md"
     }
   ],
   "omittedPaths": [],
