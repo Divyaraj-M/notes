@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "_template",
+      "path": "Curious Geeks/Products/_template.md"
+    },
+    {
       "basename": "Products",
       "path": "Curious Geeks/Products/Products.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "EN-Decisions",
       "path": "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md"
-    },
-    {
-      "basename": "EN-Roadmap & Planning",
-      "path": "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md"
     }
   ],
   "omittedPaths": [],

@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/Products/Products.md",
+                "file": "Curious Geeks/Products/_template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Products"
+              "title": "_template"
             }
           }
         ],
@@ -535,8 +535,13 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
-    "Curious Geeks/Curious Geeks.md",
+    "Curious Geeks/automation/SETUP.md",
+    "Curious Geeks/automation/Code.gs",
+    "Curious Geeks/automation",
     "Curious Geeks/Products/Products.md",
+    "Curious Geeks/Products/_template.md",
+    "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
+    "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/Products",
     "Curious Geeks/About me/Divyaraj Murugan.md",
     "Curious Geeks/About me/Home.md",
@@ -563,14 +568,9 @@
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/To do list.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md",
-    "code-generate-scenes.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
-    "1 - Projects/Email Notifications/filter-prototype.html",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

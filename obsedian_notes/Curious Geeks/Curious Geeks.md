@@ -20,8 +20,35 @@ If you're new, these hit the hardest:
 
 ---
 
+## Recent Products
+
+```dataview
+TABLE WITHOUT ID
+  ("[[Products/" + file.name + "|" + title + "]]") AS Product,
+  tagline AS Tagline,
+  date AS Added
+FROM "Products"
+WHERE file.name != "Products" AND file.name != "_template" AND dg-publish = true
+SORT date DESC
+LIMIT 4
+```
+
+[[Products/Products|See all products →]]
+
+---
+
+## Join the Community
+
+Got a product to share or just want to follow along?
+
+> [!tip] Join Curious Geeks
+> [Join the community →](TALLY_JOIN_FORM_URL)
+
+---
+
 ## Recent Posts
 
+- [[How to Become a Product Manager (Without a Course or a Framework)]] — You're already doing product thinking. You just don't know it yet. `hot-take`
 - [[Shipping Nodes Before the AI Era Made It Cool]] — We built a knowledge graph feature years before the hype. What we learned still holds. `case-study`
 - [[From Confluence Chaos to Connected Knowledge]] — Migrating 200+ product docs and what broke (and what clicked). `case-study`
 - [[The Domino Test]] — Your happy flow is lying to you. Here's how to prove it. `hot-take`

@@ -875,6 +875,10 @@ Theming
 Touch
 Topics
 Took
+TAGLINE
+TAG
+TALLY
+Takes
 Docs
 Doc
 Designer
@@ -1726,6 +1730,8 @@ Daemon
 DateTimeFormat
 Deploy
 Deployments
+DESCRIPTION
+DATE
 Who
 When
 What
@@ -6929,6 +6935,7 @@ transient
 tabular
 thrashing
 tarball
+thoughts
 PM
 PRD
 Problem
@@ -13201,6 +13208,8 @@ SigV
 Server
 Suspense
 Studies
+SLUG
+Submitted
 Lead
 Loop
 Linking
@@ -17611,6 +17620,7 @@ FTS
 Framer
 FLIP
 FlashList
+FORM
 Goes
 Goals
 Gate
@@ -21786,6 +21796,8 @@ Classes
 Composing
 Curious
 Cut
+COMMENT
+COMMENTS
 How
 Hubs
 Hub
@@ -28056,6 +28068,7 @@ Eliminating
 Expo
 Extracting
 Excludes
+EMAIL
 validation
 visuals
 validated
@@ -29398,6 +29411,7 @@ Node
 Newman
 Nightly
 NumberFormat
+NAME
 under
 users
 upload
@@ -31382,6 +31396,7 @@ preconnect
 pseudo
 proliferation
 paper
+permalink
 goals
 give
 generates
@@ -37865,6 +37880,7 @@ Mouse
 Markers
 Migrating
 Models
+MAKER
 UI
 Users
 User

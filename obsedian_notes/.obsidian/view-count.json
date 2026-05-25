@@ -2646,7 +2646,7 @@
     {
       "path": "Curious Geeks/Products/Products.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1779741310154
@@ -2656,6 +2656,34 @@
         },
         {
           "timestampMillis": 1779741818821
+        },
+        {
+          "timestampMillis": 1779742030836
+        },
+        {
+          "timestampMillis": 1779742050263
+        },
+        {
+          "timestampMillis": 1779742050437
+        }
+      ]
+    },
+    {
+      "path": "Curious Geeks/Products/_template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 4,
+      "openLogs": [
+        {
+          "timestampMillis": 1779742045642
+        },
+        {
+          "timestampMillis": 1779742045911
+        },
+        {
+          "timestampMillis": 1779742051903
+        },
+        {
+          "timestampMillis": 1779742052057
         }
       ]
     }
