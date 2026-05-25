@@ -2243,13 +2243,32 @@
     {
       "path": "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1779539988755
         },
         {
           "timestampMillis": 1779692767364
+        },
+        {
+          "timestampMillis": 1779693260393
+        }
+      ]
+    },
+    {
+      "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1779693250064
+        },
+        {
+          "timestampMillis": 1779693260798
+        },
+        {
+          "timestampMillis": 1779693341135
         }
       ]
     }
