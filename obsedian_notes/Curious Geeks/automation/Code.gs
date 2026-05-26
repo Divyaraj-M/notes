@@ -58,15 +58,22 @@ function onProductSubmit() {
   const isMember = checkMembership(email);
 
   if (!isMember && !wantsToJoin) {
-    // Not a member, didn't opt in — send nudge email
-    GmailApp.sendEmail(email, `You need to join Curious Geeks first`, `
+    // Claimed to be a member but email not found — friendly clarification email
+    GmailApp.sendEmail(email, `We couldn't find your Curious Geeks membership`, `
 Hi there,
 
 Thanks for submitting "${productName}" to Curious Geeks!
 
-It looks like you're not a member yet. Join the community first and then resubmit your product — it only takes a minute.
+You selected "I'm already a member" but we couldn't find your email in our list. A couple of possibilities:
+
+1. You may have joined with a different email address
+2. You haven't joined yet — that's totally fine!
+
+Either way, the fastest fix is to join using the link below (takes 30 seconds) and then resubmit your product:
 
 👉 Join here: ${JOIN_FORM_URL}
+
+If you think something's wrong, just reply to this email and we'll sort it out.
 
 See you on the inside,
 ${SENDER_NAME}
@@ -170,14 +177,22 @@ function onCommentSubmit() {
   const isMember = checkMembership(email);
 
   if (!isMember && !wantsToJoin) {
-    GmailApp.sendEmail(email, `Join Curious Geeks to leave a comment`, `
+    // Claimed to be a member but email not found — friendly clarification email
+    GmailApp.sendEmail(email, `We couldn't find your Curious Geeks membership`, `
 Hi there,
 
 Thanks for your comment on "${productName}"!
 
-You need to be a member to comment. Join here and resubmit — takes a minute:
+You selected "I'm already a member" but we couldn't find your email in our list. A couple of possibilities:
 
-👉 ${JOIN_FORM_URL}
+1. You may have joined with a different email address
+2. You haven't joined yet — that's totally fine!
+
+Join using the link below (30 seconds) and then resubmit your comment:
+
+👉 Join here: ${JOIN_FORM_URL}
+
+If you think something's wrong, just reply to this email.
 
 See you inside,
 ${SENDER_NAME}
