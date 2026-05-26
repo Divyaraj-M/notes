@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/Products/Products.md",
+                "file": "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Products"
+              "title": "How to Become a Product Manager (Without a Course or a Framework)"
             }
           }
         ],
@@ -535,11 +535,11 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "Curious Geeks/Products/Products.md",
     "Curious Geeks/Products/_template.md",
     "Curious Geeks/automation/SETUP.md",
     "Curious Geeks/automation/Code.gs",
     "Curious Geeks/automation",
-    "Curious Geeks/Products/Products.md",
     "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
     "Curious Geeks/Curious Geeks.md",
     "Curious Geeks/Products",

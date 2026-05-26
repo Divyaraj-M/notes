@@ -2692,6 +2692,19 @@
           "timestampMillis": 1779742052057
         }
       ]
+    },
+    {
+      "path": "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1779777935238
+        },
+        {
+          "timestampMillis": 1779777935490
+        }
+      ]
     }
   ]
 }
