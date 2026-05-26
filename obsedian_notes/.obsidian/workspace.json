@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md",
+                "file": "Curious Geeks/Products/Products.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "visionary-press-release"
+              "title": "Products"
             }
           }
         ],
@@ -535,6 +535,7 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md",
     "Curious Geeks/Curious Geeks.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
@@ -567,7 +568,6 @@
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
