@@ -189,24 +189,10 @@
             "id": "4d14cdb04c1787e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "agent-browserskillsagent-browserSKILL.md at main"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -535,6 +521,7 @@
   },
   "active": "4d14cdb04c1787e1",
   "lastOpenFiles": [
+    "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
     "Curious Geeks/Products/Products.md",
@@ -551,7 +538,6 @@
     "Clippings/thedotmackclaude-mem.md",
     "Clippings/The design language that makes your AI harness better at design..md",
     "Clippings/A motion design skill with two modes.md",
-    "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
     "3 - Resources/My Product Notes.md",
     "Curious Geeks/Obsidian.md",
