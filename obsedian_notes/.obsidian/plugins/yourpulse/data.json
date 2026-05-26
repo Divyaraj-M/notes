@@ -18,18 +18,10 @@
         "2026-05-22": 37,
         "2026-05-23": 0,
         "2026-05-25": 756,
-        "2026-05-26": 110
+        "2026-05-26": 110,
+        "2026-05-27": 0
       },
-      "todaysWordCount": {
-        "Curious Geeks/About me/Divyaraj Murugan.md": {
-          "initial": 317,
-          "current": 337
-        },
-        "Curious Geeks/Products/Products.md": {
-          "initial": 0,
-          "current": 90
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
