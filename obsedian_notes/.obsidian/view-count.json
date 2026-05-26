@@ -2720,6 +2720,16 @@
           "timestampMillis": 1779777935490
         }
       ]
+    },
+    {
+      "path": "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1779796225697
+        }
+      ]
     }
   ]
 }
