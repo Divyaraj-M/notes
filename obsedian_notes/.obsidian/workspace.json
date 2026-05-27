@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/Products/Products.md",
+                "file": "3 - Resources/UI components.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,11 +206,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Products"
+              "title": "UI components"
+            }
+          },
+          {
+            "id": "5ad27dab6203a0f7",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.saasui.design/"
+              },
+              "icon": "lucide-file",
+              "title": "SaaS UI UX Interface Design Patterns — Best Product Design Library"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -533,10 +545,11 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "4d14cdb04c1787e1",
+  "active": "5ad27dab6203a0f7",
   "lastOpenFiles": [
-    "Curious Geeks/Products/_template.md",
+    "3 - Resources/UI components.md",
     "Curious Geeks/Products/Products.md",
+    "Curious Geeks/Products/_template.md",
     "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md",
     "Curious Geeks/Curious Geeks.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
@@ -567,7 +580,6 @@
     "CRM Metrics Framework.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
-    "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",

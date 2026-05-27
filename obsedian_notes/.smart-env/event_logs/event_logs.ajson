@@ -733,3 +733,4 @@
 "event_logs:sources:reimport_completed": {"key":"sources:reimport_completed","ct":1176,"first_at":1775932854432,"last_at":1779800874617,"class_name":"EventLog","event_sources":{"run_re_import":1176}},
 "event_logs:sources:deleted": {"key":"sources:deleted","ct":1077,"first_at":1775932824359,"last_at":1779801757583,"class_name":"EventLog","event_sources":{"obsidian:vault.delete":1077}},
 "event_logs:sources:opened": {"key":"sources:opened","ct":1892,"first_at":1775932412004,"last_at":1779801839574,"class_name":"EventLog","event_sources":{"active-leaf-change":1874,"open_source":3,"file-open":15}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1893,"first_at":1775932412004,"last_at":1779852614993,"class_name":"EventLog","event_sources":{"active-leaf-change":1875,"open_source":3,"file-open":15}},

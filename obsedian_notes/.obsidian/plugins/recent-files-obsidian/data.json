@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "UI components",
+      "path": "3 - Resources/UI components.md"
+    },
+    {
       "basename": "Products",
       "path": "Curious Geeks/Products/Products.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "EN-Competitors",
       "path": "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md"
-    },
-    {
-      "basename": "EN-Marketing",
-      "path": "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md"
     }
   ],
   "omittedPaths": [],
