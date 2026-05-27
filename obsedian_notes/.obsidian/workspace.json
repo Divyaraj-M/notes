@@ -184,45 +184,9 @@
               "icon": "lucide-file",
               "title": "Curious Geeks"
             }
-          },
-          {
-            "id": "4d14cdb04c1787e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/UI components.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "UI components"
-            }
-          },
-          {
-            "id": "5ad27dab6203a0f7",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.saasui.design/"
-              },
-              "icon": "lucide-file",
-              "title": "SaaS UI UX Interface Design Patterns — Best Product Design Library"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -545,7 +509,7 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "5ad27dab6203a0f7",
+  "active": "56c0080134f9c138",
   "lastOpenFiles": [
     "3 - Resources/UI components.md",
     "Curious Geeks/Products/Products.md",

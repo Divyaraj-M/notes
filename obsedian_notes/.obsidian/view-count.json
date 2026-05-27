@@ -1160,8 +1160,8 @@
     },
     {
       "path": "Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 39,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 40,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1279,6 +1279,9 @@
         },
         {
           "timestampMillis": 1779796006004
+        },
+        {
+          "timestampMillis": 1779862577957
         }
       ]
     },
@@ -1762,7 +1765,7 @@
     {
       "path": "3 - Resources/UI components.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 12,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778828459495
@@ -1799,6 +1802,9 @@
         },
         {
           "timestampMillis": 1779852678840
+        },
+        {
+          "timestampMillis": 1779862576594
         }
       ]
     },
