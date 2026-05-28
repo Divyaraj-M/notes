@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Why I started curious geeks",
+      "path": "Curious Geeks/My Blogs/Why I started curious geeks.md"
+    },
+    {
       "basename": "Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)",
       "path": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "EN-Metrics & Dashboards",
       "path": "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md"
-    },
-    {
-      "basename": "EN-Competitors",
-      "path": "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md"
     }
   ],
   "omittedPaths": [],
