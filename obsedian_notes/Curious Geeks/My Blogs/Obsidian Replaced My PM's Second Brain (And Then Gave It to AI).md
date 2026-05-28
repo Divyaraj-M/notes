@@ -1,5 +1,5 @@
 ---
-description: ix months of using Obsidian for product management — from scattered Confluence docs to a connected knowledge graph that AI can actually reason over
+description: Six months of using Obsidian for product management — from scattered Confluence docs to a connected knowledge graph that AI can actually reason over
 dg-publish: true
 tags:
   - curious_geeks/blog
