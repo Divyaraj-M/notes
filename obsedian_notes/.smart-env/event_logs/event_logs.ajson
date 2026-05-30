@@ -772,3 +772,4 @@
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":1983,"first_at":1775932324255,"last_at":1779990760667,"class_name":"EventLog","event_sources":{"process_embed_queue":1983}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":1024,"first_at":1775932358279,"last_at":1779990760667,"class_name":"EventLog","event_sources":{"process_embed_queue":1024}},
 "event_logs:items:embedded": {"key":"items:embedded","ct":776,"first_at":1778345867848,"last_at":1779990760667,"class_name":"EventLog","event_sources":{"process_embed_queue":776}},
+"event_logs:plugin:new_version_available": {"key":"plugin:new_version_available","ct":2,"first_at":1778045748891,"last_at":1780155169159,"class_name":"EventLog","event_sources":{"check_for_update":2}},
