@@ -24,34 +24,10 @@
         "2026-05-29": 0,
         "2026-05-30": 0,
         "2026-05-31": 0,
-        "2026-06-01": 54
+        "2026-06-01": 54,
+        "2026-06-02": 0
       },
-      "todaysWordCount": {
-        "1 - Projects/Sparrowcrm/To do list.md": {
-          "initial": 383,
-          "current": 430
-        },
-        "Curious Geeks/My Blogs/Why I started curious geeks.md": {
-          "initial": 704,
-          "current": 702
-        },
-        "3 - Resources/Templates/Feature-Lens.md": {
-          "initial": 289,
-          "current": 289
-        },
-        "3 - Resources/Frameworks/Untitled.md": {
-          "initial": 1733,
-          "current": 1728
-        },
-        "3 - Resources/Frameworks/Feature Lens — How It Works.md": {
-          "initial": 1728,
-          "current": 1735
-        },
-        "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md": {
-          "initial": 289,
-          "current": 285
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
