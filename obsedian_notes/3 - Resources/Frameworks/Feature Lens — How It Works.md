@@ -104,10 +104,11 @@ The four lenses converge into a decision through two axes:
 
 Plot the feature into one of four postures:
 
-||**Low criticality**|**High criticality**|
+||Low criticality|High criticality|
 |---|---|---|
 |**High frequency**|**Habit Surface** — felt constantly but not why people stay. Polish for delight; it shapes the texture of the experience.|**The Spine** — the daily-driver core. Optimize relentlessly; small wins here compound across every session.|
 |**Low frequency**|**Cut Candidate** — rarely reached, little lost if gone. Justify it or remove it and reclaim the complexity.|**Safety Net** — rare, but must never fail. Invisible 364 days a year; bulletproof on the 365 th. This is insurance.|
+
 
 The framework's discriminating power lives on the **off-diagonal** — the surprises. A feature that looks peripheral and rarely used can turn out to be a Safety Net once you've priced its absence. So before committing to the obvious placement, sanity-check it against Lens 4. The obvious quadrant is right most of the time; the value is in catching the times it isn't.
 

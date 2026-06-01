@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Ai Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Feature Lens — How It Works",
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
     },
@@ -97,10 +109,6 @@
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
     },
@@ -131,10 +139,6 @@
     {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Email",
@@ -195,10 +199,6 @@
     {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
-    },
-    {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
     }
   ],
   "omittedPaths": [],

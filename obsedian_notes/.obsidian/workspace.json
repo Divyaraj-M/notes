@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Frameworks/Feature Lens — How It Works.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,11 +182,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Feature Lens — How It Works"
+              "title": "Ai Agents"
+            }
+          },
+          {
+            "id": "22669c7f865b0696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ai Agents"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -494,7 +518,6 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": true,
       "omnisearch:Omnisearch": true,
-      "digitalgarden:Digital Garden Publication Center": false,
       "obsidian42-brat:BRAT": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
@@ -505,16 +528,18 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "yourpulse:Open YourPulse Profile": false,
       "always-color-text:Always Color Text": false,
-      "obsidian-importer:Open Importer": false,
-      "project-manager:Project manager": false
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "56c0080134f9c138",
+  "active": "22669c7f865b0696",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
-    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md",
     "3 - Resources/Frameworks",
     "Curious Geeks/My Blogs/Why I started curious geeks.md",
@@ -541,8 +566,6 @@
     "Clippings/The design language that makes your AI harness better at design..md",
     "Clippings/A motion design skill with two modes.md",
     "3 - Resources/My Product Notes.md",
-    "Curious Geeks/Obsidian.md",
-    "3 - Resources/Templates/Blog template.md",
     "Curious Geeks/About me",
     "Curious Geeks/My Blogs",
     "Projects",
@@ -557,7 +580,6 @@
     "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
-    "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
