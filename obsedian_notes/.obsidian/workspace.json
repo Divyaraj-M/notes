@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curious Geeks/My Blogs/Why I started curious geeks.md",
+                "file": "3 - Resources/Frameworks/Feature Lens — How It Works.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -182,7 +182,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Why I started curious geeks"
+              "title": "Feature Lens — How It Works"
             }
           }
         ],
@@ -511,8 +511,14 @@
   },
   "active": "56c0080134f9c138",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/To do list.md",
+    "3 - Resources/Frameworks/Pasted image 20260601143957.png",
+    "3 - Resources/Templates/Feature-Lens.md",
+    "3 - Resources/Templates/Pasted image 20260601143807.png",
+    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
+    "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md",
+    "3 - Resources/Frameworks",
     "Curious Geeks/My Blogs/Why I started curious geeks.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
     "Curious Geeks/Curious Geeks.md",
     "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
@@ -539,15 +545,10 @@
     "3 - Resources/Templates/Blog template.md",
     "Curious Geeks/About me",
     "Curious Geeks/My Blogs",
-    "3 - Resources/Templates/To do.md",
     "Projects",
     "Curious Geeks",
-    "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
@@ -557,7 +558,6 @@
     "Not a trash/image (2).png",
     "Not a trash/Screenshot 2026-01-29 at 12.18.35 PM.png",
     "Not a trash/Screenshot 2026-01-29 at 11.54.14 AM.png",
-    "Product/Projects/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",

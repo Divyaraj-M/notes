@@ -2776,7 +2776,7 @@
     {
       "path": "Curious Geeks/My Blogs/Why I started curious geeks.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779988989859
@@ -2786,6 +2786,45 @@
         },
         {
           "timestampMillis": 1780296100229
+        },
+        {
+          "timestampMillis": 1780304788863
+        }
+      ]
+    },
+    {
+      "path": "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1780304797530
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1780304812050
+        },
+        {
+          "timestampMillis": 1780304955762
+        },
+        {
+          "timestampMillis": 1780304955884
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Feature-Lens.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1780304846783
         }
       ]
     }
