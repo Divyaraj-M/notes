@@ -1,7 +1,5 @@
 ---
-title: false
 description:
-dg-home:
 tags:
 ---
 Most adults kill their curiosity somewhere between exams and job offers. If yours survived, this is for you — a community where geeks ship rough work, give honest feedback, and respect each other's nerd interests.

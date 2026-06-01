@@ -2775,14 +2775,17 @@
     },
     {
       "path": "Curious Geeks/My Blogs/Why I started curious geeks.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1779988989859
         },
         {
           "timestampMillis": 1779988990040
+        },
+        {
+          "timestampMillis": 1780296100229
         }
       ]
     }
