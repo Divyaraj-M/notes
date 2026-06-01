@@ -24,9 +24,14 @@
         "2026-05-29": 0,
         "2026-05-30": 0,
         "2026-05-31": 0,
-        "2026-06-01": 0
+        "2026-06-01": 47
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/To do list.md": {
+          "initial": 383,
+          "current": 430
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",

@@ -66,12 +66,28 @@
 - Ai search 
 ### 22-May-2026
 #### Today (max 3)
-- [ ] Need to have clear understanding of the metrics 
-- [ ] Ai Search 
-- [ ] Understand the AI agents 
+- [x] Need to have clear understanding of the metrics ✅ 2026-06-01
+- [x] Ai Search ✅ 2026-06-01
+- [x] Understand the AI agents ✅ 2026-06-01
 
 #### In Progress
 - [ ] **[Metrics]** — next step: [Define the NSM candidates] — done when: [...]
+
+#### Backlog
+- [ ] 
+
+#### Carry to tomorrow
+-**[Metrics]** — next step: [Define the NSM candidates] 
+
+### 01-Jun-2026
+#### Today (max 3)
+- [ ] AI agents - Finish the PRD and check designs
+- [ ] Check for linkedin for the design partners 
+- [ ] 
+- [ ] 
+
+#### In Progress
+- [ ] **[Task]** — next step: [...] — done when: [...]
 
 #### Backlog
 - [ ] 
