@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/What we look for in product managers - Handbook.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What we look for in product managers - Handbook"
+              "title": "Ai Agents"
             }
           }
         ],
@@ -533,12 +533,14 @@
   },
   "active": "22669c7f865b0696",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Email Notifications/Email Notifications.md",
+    "Clippings/What we look for in product managers - Handbook.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Email Notifications/EN-Marketing/GTM-Unified-Filters.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
@@ -564,8 +566,6 @@
     "Curious Geeks/Products",
     "Curious Geeks/About me/Divyaraj Murugan.md",
     "Curious Geeks/About me/Home.md",
-    "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md",
-    "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "Curious Geeks/About me",
     "Curious Geeks/My Blogs",
     "Projects",

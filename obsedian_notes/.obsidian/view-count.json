@@ -143,7 +143,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 12,
-      "totalTimesOpened": 54,
+      "totalTimesOpened": 56,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -306,6 +306,12 @@
         },
         {
           "timestampMillis": 1780384385508
+        },
+        {
+          "timestampMillis": 1780413468132
+        },
+        {
+          "timestampMillis": 1780413468303
         }
       ]
     },
@@ -574,7 +580,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 9,
-      "totalTimesOpened": 29,
+      "totalTimesOpened": 30,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -662,6 +668,9 @@
         },
         {
           "timestampMillis": 1780384393817
+        },
+        {
+          "timestampMillis": 1780413495934
         }
       ]
     },
@@ -1865,8 +1874,8 @@
     },
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 23,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 25,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -1936,6 +1945,12 @@
         },
         {
           "timestampMillis": 1779173512229
+        },
+        {
+          "timestampMillis": 1780413466475
+        },
+        {
+          "timestampMillis": 1780413466648
         }
       ]
     },
@@ -2863,8 +2878,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1780305115788
@@ -2877,6 +2892,9 @@
         },
         {
           "timestampMillis": 1780305178659
+        },
+        {
+          "timestampMillis": 1780413498894
         }
       ]
     }
