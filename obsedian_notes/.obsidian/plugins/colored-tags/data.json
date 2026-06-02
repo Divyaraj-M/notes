@@ -167,6 +167,7 @@
     "new_feature/dossiers/share/first_principle": 1,
     "new_feature/instructions/v1/from_prospect": 1,
     "new_feature/obligations/v1/uat": 1,
+    "sparrowcrm/features/aiagents/v1": 1,
     "sparrowcrm/features/contacts/email": 2,
     "sparrowcrm/features/contacts/v1": 1,
     "sparrowcrm/features/deals/v1": 1,

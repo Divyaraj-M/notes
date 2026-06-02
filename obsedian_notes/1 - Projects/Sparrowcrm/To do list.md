@@ -79,18 +79,3 @@
 #### Carry to tomorrow
 -**[Metrics]** — next step: [Define the NSM candidates] 
 
-### 01-Jun-2026
-#### Today (max 3)
-- [ ] AI agents - Finish the PRD and check designs
-- [ ] Check for linkedin for the design partners 
-- [ ] 
-- [ ] 
-
-#### In Progress
-- [ ] **[Task]** — next step: [...] — done when: [...]
-
-#### Backlog
-- [ ] 
-
-#### Carry to tomorrow
--

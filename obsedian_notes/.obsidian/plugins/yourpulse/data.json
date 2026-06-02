@@ -25,12 +25,20 @@
         "2026-05-30": 0,
         "2026-05-31": 0,
         "2026-06-01": 54,
-        "2026-06-02": 0
+        "2026-06-02": 5
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md": {
           "initial": 285,
           "current": 12
+        },
+        "1 - Projects/Sparrowcrm/To do list.md": {
+          "initial": 398,
+          "current": 398
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md": {
+          "initial": 1404,
+          "current": 1409
         }
       }
     }
