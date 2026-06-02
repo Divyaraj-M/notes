@@ -1354,8 +1354,8 @@
     },
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 28,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 30,
       "openLogs": [
         {
           "timestampMillis": 1778660794418
@@ -1440,6 +1440,12 @@
         },
         {
           "timestampMillis": 1779432398890
+        },
+        {
+          "timestampMillis": 1780410083345
+        },
+        {
+          "timestampMillis": 1780410083569
         }
       ]
     },
