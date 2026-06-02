@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Ai Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
+      "basename": "Email Integration_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
+    },
+    {
+      "basename": "Email Integration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "5 - Features",
@@ -11,6 +19,10 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Ai Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
     },
     {
       "basename": "Feature Lens — How It Works",
@@ -129,10 +141,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md"
     },
     {
-      "basename": "Email Integration_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
-    },
-    {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
@@ -159,14 +167,6 @@
     {
       "basename": "Filters for Objects",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "Email Integration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
     },
     {
       "basename": "@Ganesh Ravi Shankar(GRS)",
