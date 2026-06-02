@@ -15,7 +15,7 @@
   "tabSize": 4,
   "foldIndent": true,
   "foldHeading": true,
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "showUnsupportedFiles": true,
   "readableLineLength": false,
   "openBehavior": "",

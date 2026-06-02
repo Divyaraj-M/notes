@@ -27,7 +27,12 @@
         "2026-06-01": 54,
         "2026-06-02": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md": {
+          "initial": 285,
+          "current": 12
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",

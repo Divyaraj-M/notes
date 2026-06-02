@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Custom Agent builderv1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
+    },
+    {
       "basename": "Ai Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base"
-    },
-    {
-      "basename": "SparrowCRM-Entity-Relationships",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     }
   ],
   "omittedPaths": [],

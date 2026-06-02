@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai Agents"
+              "title": "Custom Agent builderv1"
             }
           }
         ],
@@ -533,6 +533,8 @@
   },
   "active": "22669c7f865b0696",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
@@ -541,7 +543,6 @@
     "1 - Projects/Email Notifications/EN-Marketing/GTM-Unified-Filters.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Feature-Lens.md",
@@ -565,7 +566,6 @@
     "Curious Geeks/automation",
     "Curious Geeks/Products",
     "Curious Geeks/About me/Divyaraj Murugan.md",
-    "Curious Geeks/About me/Home.md",
     "Curious Geeks/About me",
     "Curious Geeks/My Blogs",
     "Projects",
