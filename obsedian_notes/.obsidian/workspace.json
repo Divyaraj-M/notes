@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "@Nayan Jain"
+              "title": "Email Integration"
             }
           }
         ],
@@ -533,20 +533,21 @@
   },
   "active": "22669c7f865b0696",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
     "Thinking.md",
     "Pasted image 20260603113626.png",
     "Pasted image 20260603113206.png",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
     "1 - Projects/Email Notifications/EN-Marketing/GTM-Unified-Filters.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Feature-Lens.md",
@@ -564,7 +565,6 @@
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
-    "Curious Geeks/automation/SETUP.md",
     "Curious Geeks/automation/Code.gs",
     "Curious Geeks/automation",
     "Curious Geeks/Products",

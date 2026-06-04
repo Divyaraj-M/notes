@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "@Nayan Jain",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
+      "basename": "Email_Integrations_v2-Historical Import",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md"
+    },
+    {
+      "basename": "Email Integration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "@Nayan Jain",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
     },
     {
       "basename": "Thinking",
@@ -25,10 +41,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "Email Notifications",
       "path": "1 - Projects/Email Notifications/Email Notifications.md"
     },
@@ -39,14 +51,6 @@
     {
       "basename": "Email Integration_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
-    },
-    {
-      "basename": "Email Integration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "Feature Lens — How It Works",
@@ -195,10 +199,6 @@
     {
       "basename": "Drawing 2026-05-18 12.25.39.excalidraw",
       "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md"
-    },
-    {
-      "basename": "EN-Product Vision",
-      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
     }
   ],
   "omittedPaths": [],
