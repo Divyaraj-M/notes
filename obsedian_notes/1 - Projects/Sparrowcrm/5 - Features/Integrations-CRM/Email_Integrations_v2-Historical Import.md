@@ -15,7 +15,8 @@ tags:
 Wireframe : [Email Integration — Admin + Rep prototype](https://super-starlight-56c34f.netlify.app/)
 ## 1. Problem Statement
 
-When a sales rep connects their inbox to SparrowCRM, live sync only captures emails going _forward_. The customer relationships that already exist — months of proposals, negotiations, and follow-ups — stay trapped in the rep's inbox and never appear on the CRM record. Reps and managers then work with half a picture: a contact's timeline starts the day they connected, not the day the relationship began.
+When a sales rep connects their inbox to SparrowCRM, live sync only captures emails going _forward_. The customer relationships that already exist — months of proposals, negotiations, and follow-ups — stay trapped in the rep's inbox and n
+ever appear on the CRM record. Reps and managers then work with half a picture: a contact's timeline starts the day they connected, not the day the relationship began.
 
 Every rep who migrates to SparrowCRM or connects a mature mailbox hits this on day one. The cost is a weak first impression (the CRM looks empty on real accounts), lost deal context, and a competitive gap — HubSpot, Salesforce (Einstein Activity Capture), and Attio all offer some form of historical import. The hard part isn't fetching old email; it's importing it _without_ flooding the CRM with junk contacts or pulling in sensitive/irrelevant mail.
 
