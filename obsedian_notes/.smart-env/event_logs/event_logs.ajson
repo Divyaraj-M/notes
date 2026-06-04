@@ -349,3 +349,4 @@
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":1057,"first_at":1775932358279,"last_at":1780569943665,"class_name":"EventLog","event_sources":{"process_embed_queue":1057}},
 "event_logs:sources:reimport_completed": {"key":"sources:reimport_completed","ct":1206,"first_at":1775932854432,"last_at":1780569943684,"class_name":"EventLog","event_sources":{"run_re_import":1206}},
 "event_logs:items:embedded": {"key":"items:embedded","ct":833,"first_at":1778345867848,"last_at":1780569943665,"class_name":"EventLog","event_sources":{"process_embed_queue":833}},
+"event_logs:plugin:new_version_available": {"key":"plugin:new_version_available","ct":4,"first_at":1778045748891,"last_at":1780595631524,"class_name":"EventLog","event_sources":{"check_for_update":4}},
