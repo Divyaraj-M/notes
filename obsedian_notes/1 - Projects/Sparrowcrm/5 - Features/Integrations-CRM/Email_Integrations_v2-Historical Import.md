@@ -12,6 +12,7 @@ tags:
 
 ---
 
+Wireframe : [Email Integration — Admin + Rep prototype](https://super-starlight-56c34f.netlify.app/)
 ## 1. Problem Statement
 
 When a sales rep connects their inbox to SparrowCRM, live sync only captures emails going _forward_. The customer relationships that already exist — months of proposals, negotiations, and follow-ups — stay trapped in the rep's inbox and never appear on the CRM record. Reps and managers then work with half a picture: a contact's timeline starts the day they connected, not the day the relationship began.
