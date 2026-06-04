@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "@Nayan Jain",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Thinking",
       "path": "Thinking.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Email Notifications",
@@ -195,10 +199,6 @@
     {
       "basename": "EN-Product Vision",
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
-    },
-    {
-      "basename": "@Nayan Jain",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
     }
   ],
   "omittedPaths": [],

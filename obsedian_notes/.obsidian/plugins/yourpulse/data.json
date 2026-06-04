@@ -27,9 +27,14 @@
         "2026-06-01": 54,
         "2026-06-02": 5,
         "2026-06-03": 4,
-        "2026-06-04": 0
+        "2026-06-04": 12
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md": {
+          "initial": 23,
+          "current": 35
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
