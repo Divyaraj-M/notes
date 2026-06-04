@@ -27,7 +27,7 @@
         "2026-06-01": 54,
         "2026-06-02": 5,
         "2026-06-03": 4,
-        "2026-06-04": 18
+        "2026-06-04": 27
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md": {
@@ -36,7 +36,11 @@
         },
         "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md": {
           "initial": 16,
-          "current": 19
+          "current": 22
+        },
+        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md": {
+          "initial": 1404,
+          "current": 1410
         }
       }
     }

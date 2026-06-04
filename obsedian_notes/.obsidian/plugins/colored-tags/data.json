@@ -181,6 +181,7 @@
     "new_feature/dossiers/proposal_templates/my_templates/v1": 1,
     "sparrowcrm/features/contacts/email/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v1": 1,
+    "sparrowcrm/features/integrations/email_integration/v2": 2,
     "sparrowcrm/features/integrations/sparrowdesk/v1": 1
   },
   "tagColors": {},
