@@ -79,3 +79,17 @@
 #### Carry to tomorrow
 -**[Metrics]** — next step: [Define the NSM candidates] 
 
+### 05-Jun-2026
+#### Today (max 3)
+- [ ] 
+- [ ] 
+- [ ] 
+
+#### In Progress
+- [ ] **[Task]** — next step: [...] — done when: [...]
+
+#### Backlog
+- [ ] 
+
+#### Carry to tomorrow
+-

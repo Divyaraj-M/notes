@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Prioritization Matrix",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
+    },
+    {
       "basename": "To do list",
       "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Filters for Objects",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md"
-    },
-    {
-      "basename": "@Ganesh Ravi Shankar(GRS)",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
     }
   ],
   "omittedPaths": [],

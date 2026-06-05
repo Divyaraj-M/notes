@@ -232,9 +232,33 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "cda9ec1df8f489b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Prioritization Matrix"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -555,8 +579,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7a21d2b0c9148d52",
+  "active": "cda9ec1df8f489b2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
@@ -590,7 +615,6 @@
     "Pasted image 20260603113626.png",
     "Pasted image 20260603113206.png",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-    "1 - Projects/Sparrowcrm/To do list.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
     "3 - Resources/Frameworks",

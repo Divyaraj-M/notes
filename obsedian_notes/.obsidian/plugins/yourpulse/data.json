@@ -28,7 +28,7 @@
         "2026-06-02": 5,
         "2026-06-03": 4,
         "2026-06-04": 952,
-        "2026-06-05": 689
+        "2026-06-05": 1112
       },
       "todaysWordCount": {
         "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md": {
@@ -42,6 +42,14 @@
         "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md": {
           "initial": 1403,
           "current": 2082
+        },
+        "1 - Projects/Sparrowcrm/To do list.md": {
+          "initial": 415,
+          "current": 415
+        },
+        "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md": {
+          "initial": 22,
+          "current": 445
         }
       }
     }

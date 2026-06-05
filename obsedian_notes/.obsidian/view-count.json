@@ -402,7 +402,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
       "uniqueDaysOpened": 14,
-      "totalTimesOpened": 42,
+      "totalTimesOpened": 43,
       "openLogs": [
         {
           "timestampMillis": 1778479585146
@@ -529,6 +529,9 @@
         },
         {
           "timestampMillis": 1780644965174
+        },
+        {
+          "timestampMillis": 1780645203494
         }
       ]
     },
@@ -2995,6 +2998,16 @@
         },
         {
           "timestampMillis": 1780644715934
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1780645246958
         }
       ]
     }
