@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Block Contact creation of Same Domain_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+    },
+    {
+      "basename": "Contacts_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Email_Integrations_v2-Historical Import",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md"
     },
@@ -11,14 +31,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "@Nayan Jain",
@@ -173,10 +185,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email.md"
     },
     {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
       "basename": "@Sakthi Prasath M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "@Ganesh Ravi Shankar(GRS)",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
-    },
-    {
-      "basename": "@Vilashini",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md"
-    },
-    {
-      "basename": "Drawing 2026-05-18 12.25.39.excalidraw",
-      "path": "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md"
     }
   ],
   "omittedPaths": [],

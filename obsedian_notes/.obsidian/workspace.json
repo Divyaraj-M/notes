@@ -191,7 +191,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -206,7 +206,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email_Integrations_v2-Historical Import"
+              "title": "Block Contact creation of Same Domain_v1"
             }
           }
         ],
@@ -533,11 +533,14 @@
   },
   "active": "22669c7f865b0696",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
     "Thinking.md",
     "Pasted image 20260603113626.png",
@@ -562,9 +565,6 @@
     "3 - Resources/UI components.md",
     "Curious Geeks/Products/Products.md",
     "Curious Geeks/Products/_template.md",
-    "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md",
-    "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
-    "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "Curious Geeks/automation/Code.gs",
     "Curious Geeks/automation",
     "Curious Geeks/Products",

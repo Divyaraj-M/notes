@@ -151,8 +151,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 13,
-      "totalTimesOpened": 60,
+      "uniqueDaysOpened": 14,
+      "totalTimesOpened": 62,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -333,6 +333,12 @@
         },
         {
           "timestampMillis": 1780567434577
+        },
+        {
+          "timestampMillis": 1780642771935
+        },
+        {
+          "timestampMillis": 1780642772310
         }
       ]
     },
@@ -603,8 +609,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 10,
-      "totalTimesOpened": 31,
+      "uniqueDaysOpened": 11,
+      "totalTimesOpened": 32,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -698,6 +704,9 @@
         },
         {
           "timestampMillis": 1780567438805
+        },
+        {
+          "timestampMillis": 1780642777499
         }
       ]
     },
@@ -2413,8 +2422,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1779350382745
@@ -2427,6 +2436,12 @@
         },
         {
           "timestampMillis": 1779350567945
+        },
+        {
+          "timestampMillis": 1780642780537
+        },
+        {
+          "timestampMillis": 1780642793839
         }
       ]
     },
@@ -2954,6 +2969,26 @@
       "openLogs": [
         {
           "timestampMillis": 1780567493619
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1780642787995
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1780642849096
         }
       ]
     }
