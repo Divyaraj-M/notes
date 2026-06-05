@@ -208,9 +208,33 @@
               "icon": "lucide-file",
               "title": "Block Contact creation of Same Domain_v1"
             }
+          },
+          {
+            "id": "77f2b715f6f504a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "finance/Dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -531,10 +555,30 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "22669c7f865b0696",
+  "active": "7a21d2b0c9148d52",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "finance/Data/categories/Vacation.md",
+    "finance/Data/categories/Subscriptions.md",
+    "finance/Data/categories/Clothing.md",
+    "finance/Data/categories/Entertainment.md",
+    "finance/Data/categories/Eat Out.md",
+    "finance/Data/categories/Transport.md",
+    "finance/Data/categories/Health.md",
+    "finance/Data/categories/Bills.md",
+    "finance/Data/categories/Groceries.md",
+    "finance/Data/categories/Rent.md",
+    "finance/Data/categories/Gifts & Bonus.md",
+    "finance/Data/categories/Freelance.md",
+    "finance/Data/categories/Wages.md",
+    "finance/Dashboard.md",
+    "finance/Data/accounts",
+    "finance/Data/archive",
+    "finance/Data/assets",
+    "finance/Data/categories",
+    "finance/Data",
+    "finance",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -547,33 +591,13 @@
     "Pasted image 20260603113206.png",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/To do list.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
-    "Clippings/What we look for in product managers - Handbook.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md",
-    "1 - Projects/Email Notifications/EN-Marketing/GTM-Unified-Filters.md",
-    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
-    "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
-    "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md",
     "3 - Resources/Frameworks",
-    "Curious Geeks/My Blogs/Why I started curious geeks.md",
-    "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
-    "Curious Geeks/Curious Geeks.md",
     "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
-    "3 - Resources/UI components.md",
-    "Curious Geeks/Products/Products.md",
-    "Curious Geeks/Products/_template.md",
     "Curious Geeks/automation/Code.gs",
     "Curious Geeks/automation",
     "Curious Geeks/Products",
-    "Curious Geeks/About me",
-    "Curious Geeks/My Blogs",
-    "Projects",
-    "Curious Geeks",
-    "1 - Projects/Sparrowcrm/5 - Features/Untitled.base",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Untitled",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

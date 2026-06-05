@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
+    },
+    {
       "basename": "Block Contact creation of Same Domain_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Custom Agent builderv1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
-    },
-    {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "Ai Agents",
