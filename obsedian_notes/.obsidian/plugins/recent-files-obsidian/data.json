@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Block Contact creation of Same Domain_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
+    },
+    {
+      "basename": "filters_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "finance/Dashboard.md"
+    },
+    {
       "basename": "Prioritization Matrix",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     },
     {
       "basename": "To do list",
       "path": "1 - Projects/Sparrowcrm/To do list.md"
-    },
-    {
-      "basename": "Block Contact creation of Same Domain_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
     {
       "basename": "Contacts",
@@ -191,14 +199,6 @@
     {
       "basename": "@Sakthi Prasath M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
-    },
-    {
-      "basename": "filters_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
-    },
-    {
-      "basename": "Filters for Objects",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects.md"
     }
   ],
   "omittedPaths": [],

@@ -256,9 +256,33 @@
               "icon": "lucide-file",
               "title": "Prioritization Matrix"
             }
+          },
+          {
+            "id": "857b1d775d492be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Block Contact creation of Same Domain_v1"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -579,10 +603,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cda9ec1df8f489b2",
+  "active": "857b1d775d492be0",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/To do list.md",
+    "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "finance/Dashboard.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
@@ -596,7 +623,6 @@
     "finance/Data/categories/Gifts & Bonus.md",
     "finance/Data/categories/Freelance.md",
     "finance/Data/categories/Wages.md",
-    "finance/Dashboard.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
@@ -611,10 +637,8 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md",
-    "Thinking.md",
     "Pasted image 20260603113626.png",
     "Pasted image 20260603113206.png",
-    "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
     "3 - Resources/Frameworks",
