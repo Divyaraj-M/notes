@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Block Contact creation of Same Domain_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
+      "basename": "README",
+      "path": "1 - Projects/Email Notifications/README.md"
     },
     {
       "basename": "filters_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
+    },
+    {
+      "basename": "Block Contact creation of Same Domain_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
     {
       "basename": "Dashboard",
@@ -195,10 +199,6 @@
     {
       "basename": "Email",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email.md"
-    },
-    {
-      "basename": "@Sakthi Prasath M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     }
   ],
   "omittedPaths": [],

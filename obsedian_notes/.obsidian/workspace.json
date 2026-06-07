@@ -280,9 +280,33 @@
               "icon": "lucide-file",
               "title": "Block Contact creation of Same Domain_v1"
             }
+          },
+          {
+            "id": "ccf115b9a2ef07c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Email Notifications/README.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -603,12 +627,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "ccf115b9a2ef07c0",
   "lastOpenFiles": [
-    "Curious Geeks/icon.svg",
-    "1 - Projects/Email Notifications/README.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "Curious Geeks/icon.svg",
+    "1 - Projects/Email Notifications/README.md",
     "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/To do list.md",
@@ -651,7 +675,6 @@
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Books/Read List/Screenshot_20260316-101854.png",
-    "Learning/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",

@@ -2317,8 +2317,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1779277920337
@@ -2328,6 +2328,9 @@
         },
         {
           "timestampMillis": 1780645483055
+        },
+        {
+          "timestampMillis": 1780812287242
         }
       ]
     },
@@ -2993,8 +2996,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1780642849096
@@ -3016,6 +3019,9 @@
         },
         {
           "timestampMillis": 1780645524632
+        },
+        {
+          "timestampMillis": 1780812279704
         }
       ]
     },
@@ -3036,6 +3042,19 @@
       "openLogs": [
         {
           "timestampMillis": 1780645467141
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Email Notifications/README.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1780812319711
+        },
+        {
+          "timestampMillis": 1780812319922
         }
       ]
     }
