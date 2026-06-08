@@ -264,7 +264,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -627,8 +627,9 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "cda9ec1df8f489b2",
+  "active": "857b1d775d492be0",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "Clippings/grill-me — mattpocockskills.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
@@ -641,7 +642,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Dashboard.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
