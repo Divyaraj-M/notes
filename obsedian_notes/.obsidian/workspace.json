@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -627,9 +627,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "857b1d775d492be0",
+  "active": "cda9ec1df8f489b2",
   "lastOpenFiles": [
     "Clippings/grill-me — mattpocockskills.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
@@ -637,7 +638,6 @@
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Email Notifications/README.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Dashboard.md",

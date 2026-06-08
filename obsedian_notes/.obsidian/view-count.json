@@ -3081,11 +3081,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1780645246958
+        },
+        {
+          "timestampMillis": 1780911772996
+        },
+        {
+          "timestampMillis": 1780911773356
         }
       ]
     },
@@ -3102,7 +3108,7 @@
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -3112,6 +3118,12 @@
         },
         {
           "timestampMillis": 1780909647179
+        },
+        {
+          "timestampMillis": 1780911770454
+        },
+        {
+          "timestampMillis": 1780911770736
         }
       ]
     }
