@@ -3187,6 +3187,7 @@ waterfalls
 watched
 wear
 wanted
+walking
 it
 is
 interaction
@@ -5354,6 +5355,7 @@ remediating
 recognise
 refreshed
 roadmapping
+reached
 Jira
 Jdjxj
 JIvrU
@@ -12192,6 +12194,7 @@ eventually
 emphasize
 exams
 ethical
+explores
 Story
 Stories
 Should
@@ -13272,6 +13275,7 @@ Stick
 Sound
 Sister
 Stats
+Seen
 Lead
 Loop
 Linking
@@ -15993,6 +15997,8 @@ appraisal
 asymmetric
 attempted
 architecting
+aiagents
+aspect
 QA
 Question
 Quality
@@ -20117,6 +20123,7 @@ Rapido
 Respect
 Round
 README
+Relentless
 need
 needing
 nested
@@ -21897,6 +21904,7 @@ Chased
 Credit
 Cleaning
 CCs
+Conducts
 How
 Hubs
 Hub
@@ -32261,6 +32269,7 @@ geek
 grind
 goof
 geekery
+grill
 It
 If
 Inside
@@ -33066,6 +33075,7 @@ Intl
 Integrating
 Impossible
 Inactive
+Interview
 you
 yet
 your
@@ -36482,6 +36492,7 @@ memoization
 monorepo
 morphing
 minor
+mattpocock
 Owners
 Opportunity
 Owner

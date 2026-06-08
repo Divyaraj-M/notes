@@ -287,7 +287,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Email Notifications/Email Notifications.md",
+                "file": "Clippings/grill-me — mattpocockskills.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -302,7 +302,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Email Notifications"
+              "title": "grill-me — mattpocockskills"
             }
           }
         ],
@@ -359,7 +359,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#clipping/posthog",
+                "query": "tag:clipping/skills.sh",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -629,11 +629,17 @@
   },
   "active": "ccf115b9a2ef07c0",
   "lastOpenFiles": [
-    "1 - Projects/Email Notifications/README.md",
+    "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
+    "Clippings/grill-me — mattpocockskills.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "1 - Projects/Email Notifications/README.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
-    "Curious Geeks/icon.svg",
+    "1 - Projects/Curious Geeks/icon.svg",
     "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/To do list.md",
@@ -656,12 +662,6 @@
     "finance/Data/categories",
     "finance/Data",
     "finance",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "Pasted image 20260603113626.png",
     "Pasted image 20260603113206.png",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
@@ -670,7 +670,7 @@
     "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
     "Curious Geeks/automation/Code.gs",
     "Curious Geeks/automation",
-    "Curious Geeks/Products",
+    "1 - Projects/Curious Geeks/Products",
     "Untitled.canvas",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",

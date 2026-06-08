@@ -151,8 +151,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 14,
-      "totalTimesOpened": 62,
+      "uniqueDaysOpened": 15,
+      "totalTimesOpened": 66,
       "openLogs": [
         {
           "timestampMillis": 1778345007722
@@ -339,6 +339,18 @@
         },
         {
           "timestampMillis": 1780642772310
+        },
+        {
+          "timestampMillis": 1780907024354
+        },
+        {
+          "timestampMillis": 1780907024647
+        },
+        {
+          "timestampMillis": 1780907047912
+        },
+        {
+          "timestampMillis": 1780907048136
         }
       ]
     },
@@ -1234,9 +1246,9 @@
       ]
     },
     {
-      "path": "Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 40,
+      "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 42,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1357,6 +1369,12 @@
         },
         {
           "timestampMillis": 1779862577957
+        },
+        {
+          "timestampMillis": 1780907029732
+        },
+        {
+          "timestampMillis": 1780907030072
         }
       ]
     },
@@ -1920,7 +1938,7 @@
     {
       "path": "1 - Projects/Email Notifications/Email Notifications.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 27,
+      "totalTimesOpened": 29,
       "openLogs": [
         {
           "timestampMillis": 1778940210216
@@ -2002,6 +2020,12 @@
         },
         {
           "timestampMillis": 1780904518013
+        },
+        {
+          "timestampMillis": 1780907046903
+        },
+        {
+          "timestampMillis": 1780907047118
         }
       ]
     },
@@ -2530,7 +2554,7 @@
       ]
     },
     {
-      "path": "Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
+      "path": "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
       "uniqueDaysOpened": 2,
       "totalTimesOpened": 18,
       "openLogs": [
@@ -2607,7 +2631,7 @@
       ]
     },
     {
-      "path": "Curious Geeks/About me/Divyaraj Murugan.md",
+      "path": "1 - Projects/Curious Geeks/About me/Divyaraj Murugan.md",
       "uniqueDaysOpened": 2,
       "totalTimesOpened": 14,
       "openLogs": [
@@ -2776,8 +2800,8 @@
     },
     {
       "path": "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1779733486968
@@ -2793,11 +2817,17 @@
         },
         {
           "timestampMillis": 1779781659478
+        },
+        {
+          "timestampMillis": 1780909646376
+        },
+        {
+          "timestampMillis": 1780909646641
         }
       ]
     },
     {
-      "path": "Curious Geeks/Products/Products.md",
+      "path": "1 - Projects/Curious Geeks/Products/Products.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 12,
       "openLogs": [
@@ -2840,7 +2870,7 @@
       ]
     },
     {
-      "path": "Curious Geeks/Products/_template.md",
+      "path": "1 - Projects/Curious Geeks/Products/_template.md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 6,
       "openLogs": [
@@ -2865,7 +2895,7 @@
       ]
     },
     {
-      "path": "Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
+      "path": "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
       "uniqueDaysOpened": 1,
       "totalTimesOpened": 2,
       "openLogs": [
@@ -2888,7 +2918,7 @@
       ]
     },
     {
-      "path": "Curious Geeks/My Blogs/Why I started curious geeks.md",
+      "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md",
       "uniqueDaysOpened": 2,
       "totalTimesOpened": 4,
       "openLogs": [
@@ -2944,8 +2974,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1780305115788
@@ -2964,19 +2994,28 @@
         },
         {
           "timestampMillis": 1780413689260
+        },
+        {
+          "timestampMillis": 1780907057810
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1780413816394
         },
         {
           "timestampMillis": 1780413885003
+        },
+        {
+          "timestampMillis": 1780907060177
+        },
+        {
+          "timestampMillis": 1780909642018
         }
       ]
     },
@@ -3051,6 +3090,22 @@
       "openLogs": [
         {
           "timestampMillis": 1780645467141
+        }
+      ]
+    },
+    {
+      "path": "Clippings/grill-me — mattpocockskills.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1780909628332
+        },
+        {
+          "timestampMillis": 1780909641405
+        },
+        {
+          "timestampMillis": 1780909647179
         }
       ]
     }

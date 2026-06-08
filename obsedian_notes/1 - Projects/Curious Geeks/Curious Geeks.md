@@ -33,7 +33,7 @@ SORT date DESC
 LIMIT 4
 ```
 
-[[Products/Products|See all products →]]
+[[Products|See all products →]]
 
 ---
 
