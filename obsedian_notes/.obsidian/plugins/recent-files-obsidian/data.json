@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "1 - Projects/Email Notifications/README.md"
-    },
-    {
-      "basename": "filters_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
+      "basename": "Email Notifications",
+      "path": "1 - Projects/Email Notifications/Email Notifications.md"
     },
     {
       "basename": "Block Contact creation of Same Domain_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
+    },
+    {
+      "basename": "filters_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
     },
     {
       "basename": "Dashboard",
@@ -67,10 +67,6 @@
     {
       "basename": "Ai Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
-    },
-    {
-      "basename": "Email Notifications",
-      "path": "1 - Projects/Email Notifications/Email Notifications.md"
     },
     {
       "basename": "What we look for in product managers - Handbook",

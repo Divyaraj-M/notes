@@ -287,8 +287,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Email Notifications/README.md",
-                "mode": "preview",
+                "file": "1 - Projects/Email Notifications/Email Notifications.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -302,7 +302,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Email Notifications"
             }
           }
         ],
@@ -629,10 +629,11 @@
   },
   "active": "ccf115b9a2ef07c0",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-    "Curious Geeks/icon.svg",
     "1 - Projects/Email Notifications/README.md",
+    "1 - Projects/Email Notifications/Email Notifications.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
+    "Curious Geeks/icon.svg",
     "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/To do list.md",
