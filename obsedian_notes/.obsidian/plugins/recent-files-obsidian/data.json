@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "What product managers do at PostHog - Handbook",
+      "path": "Clippings/What product managers do at PostHog - Handbook.md"
+    },
+    {
+      "basename": "What we look for in product managers - Handbook",
+      "path": "Clippings/What we look for in product managers - Handbook.md"
+    },
+    {
       "basename": "Block Contact creation of Same Domain_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "Thinking",
       "path": "Thinking.md"
-    },
-    {
-      "basename": "What we look for in product managers - Handbook",
-      "path": "Clippings/What we look for in product managers - Handbook.md"
     },
     {
       "basename": "Email Integration_v1",
@@ -175,10 +179,6 @@
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "What product managers do at PostHog - Handbook",
-      "path": "Clippings/What product managers do at PostHog - Handbook.md"
     },
     {
       "basename": "How to find edge cases before they become expensive issues",
