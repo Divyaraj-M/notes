@@ -1,5 +1,3 @@
-# Apollo.io Enrichment — Field Reference
-
 Source: Apollo API docs (June 2026)
 
 - People Enrichment: `POST /api/v1/people/match` — https://docs.apollo.io/reference/people-enrichment
