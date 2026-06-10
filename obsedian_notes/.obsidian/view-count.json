@@ -2,12 +2,9 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 8,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 9,
+      "totalTimesOpened": 11,
       "openLogs": [
-        {
-          "timestampMillis": 1778305069898
-        },
         {
           "timestampMillis": 1778497431545
         },
@@ -34,6 +31,9 @@
         },
         {
           "timestampMillis": 1780567441301
+        },
+        {
+          "timestampMillis": 1781074264910
         }
       ]
     },
@@ -151,18 +151,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 15,
-      "totalTimesOpened": 66,
+      "uniqueDaysOpened": 16,
+      "totalTimesOpened": 67,
       "openLogs": [
-        {
-          "timestampMillis": 1778345007722
-        },
-        {
-          "timestampMillis": 1778350316995
-        },
-        {
-          "timestampMillis": 1778350317272
-        },
         {
           "timestampMillis": 1778427905395
         },
@@ -351,6 +342,9 @@
         },
         {
           "timestampMillis": 1780907048136
+        },
+        {
+          "timestampMillis": 1781074259604
         }
       ]
     },
@@ -627,8 +621,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 11,
-      "totalTimesOpened": 32,
+      "uniqueDaysOpened": 12,
+      "totalTimesOpened": 33,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -725,6 +719,9 @@
         },
         {
           "timestampMillis": 1780642777499
+        },
+        {
+          "timestampMillis": 1781074262939
         }
       ]
     },
@@ -3160,6 +3157,16 @@
         },
         {
           "timestampMillis": 1780911770736
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1781074308309
         }
       ]
     }

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Apolloio_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md"
+    },
+    {
+      "basename": "Integrations-CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Block Contact creation of Same Domain_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
@@ -37,10 +53,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
       "basename": "Email Notifications",
       "path": "1 - Projects/Email Notifications/Email Notifications.md"
     },
@@ -65,20 +77,12 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "Email_Integrations_v2-Historical Import",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md"
     },
     {
       "basename": "Email Integration",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "@Nayan Jain",
@@ -195,10 +199,6 @@
     {
       "basename": "Sparrowdesk_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
-      "basename": "Email",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email.md"
     }
   ],
   "omittedPaths": [],
