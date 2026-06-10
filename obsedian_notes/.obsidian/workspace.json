@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -627,12 +627,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "857b1d775d492be0",
+  "active": "22669c7f865b0696",
   "lastOpenFiles": [
-    "Clippings/What we look for in product managers - Handbook.md",
-    "Clippings/What product managers do at PostHog - Handbook.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
+    "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "Clippings/What product managers do at PostHog - Handbook.md",
+    "Clippings/What we look for in product managers - Handbook.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/grill-me — mattpocockskills.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
@@ -643,7 +644,6 @@
     "1 - Projects/Email Notifications/README.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
-    "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",

@@ -3059,8 +3059,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 12,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 14,
       "openLogs": [
         {
           "timestampMillis": 1780642849096
@@ -3097,13 +3097,19 @@
         },
         {
           "timestampMillis": 1780913535984
+        },
+        {
+          "timestampMillis": 1781073736902
+        },
+        {
+          "timestampMillis": 1781073737298
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1780645246958
@@ -3113,16 +3119,25 @@
         },
         {
           "timestampMillis": 1780911773356
+        },
+        {
+          "timestampMillis": 1781073735692
         }
       ]
     },
     {
       "path": "finance/Dashboard.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1780645467141
+        },
+        {
+          "timestampMillis": 1781073736195
+        },
+        {
+          "timestampMillis": 1781073736497
         }
       ]
     },
