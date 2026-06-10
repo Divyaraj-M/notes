@@ -210,30 +210,6 @@
             }
           },
           {
-            "id": "77f2b715f6f504a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "finance/Dashboard.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Dashboard"
-            }
-          },
-          {
             "id": "cda9ec1df8f489b2",
             "type": "leaf",
             "state": {
@@ -304,9 +280,33 @@
               "icon": "lucide-file",
               "title": "grill-me — mattpocockskills"
             }
+          },
+          {
+            "id": "71ba06b90244607d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -627,18 +627,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "22669c7f865b0696",
+  "active": "71ba06b90244607d",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "Untitled.md",
+    "Clippings/grill-me — mattpocockskills.md",
+    "Clippings/What product managers do at PostHog - Handbook.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-    "finance/Dashboard.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-    "Clippings/What product managers do at PostHog - Handbook.md",
     "Clippings/What we look for in product managers - Handbook.md",
-    "Clippings/grill-me — mattpocockskills.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
@@ -655,7 +656,6 @@
     "finance/Data/categories/Eat Out.md",
     "finance/Data/categories/Transport.md",
     "finance/Data/categories/Health.md",
-    "finance/Data/categories/Bills.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

@@ -1536,8 +1536,8 @@
     },
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 19,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1778662158657
@@ -1595,6 +1595,9 @@
         },
         {
           "timestampMillis": 1780925773737
+        },
+        {
+          "timestampMillis": 1781087234443
         }
       ]
     },
@@ -3106,7 +3109,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1780645246958
@@ -3119,13 +3122,16 @@
         },
         {
           "timestampMillis": 1781073735692
+        },
+        {
+          "timestampMillis": 1781087229688
         }
       ]
     },
     {
       "path": "finance/Dashboard.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1780645467141
@@ -3135,13 +3141,16 @@
         },
         {
           "timestampMillis": 1781073736497
+        },
+        {
+          "timestampMillis": 1781087225712
         }
       ]
     },
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -3157,6 +3166,9 @@
         },
         {
           "timestampMillis": 1780911770736
+        },
+        {
+          "timestampMillis": 1781087237869
         }
       ]
     },
@@ -3167,6 +3179,16 @@
       "openLogs": [
         {
           "timestampMillis": 1781074308309
+        }
+      ]
+    },
+    {
+      "path": "Untitled.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1781087257324
         }
       ]
     }
