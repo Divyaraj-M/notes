@@ -75,18 +75,9 @@
     },
     {
       "path": "Thinking.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 23,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 25,
       "openLogs": [
-        {
-          "timestampMillis": 1778344992115
-        },
-        {
-          "timestampMillis": 1778344992391
-        },
-        {
-          "timestampMillis": 1778344998634
-        },
         {
           "timestampMillis": 1778487062146
         },
@@ -146,6 +137,12 @@
         },
         {
           "timestampMillis": 1780466526758
+        },
+        {
+          "timestampMillis": 1781100763666
+        },
+        {
+          "timestampMillis": 1781100764008
         }
       ]
     },
