@@ -60,26 +60,10 @@
         "2026-06-07": 0,
         "2026-06-08": 2,
         "2026-06-09": 0,
-        "2026-06-10": 27
+        "2026-06-10": 27,
+        "2026-06-11": 0
       },
-      "todaysWordCount": {
-        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md": {
-          "initial": 222,
-          "current": 195
-        },
-        "Untitled.md": {
-          "initial": 718,
-          "current": 718
-        },
-        "Apollo.io Enrichment — Field Reference.md": {
-          "initial": 713,
-          "current": 713
-        },
-        "Thinking.md": {
-          "initial": 1276,
-          "current": 1303
-        }
-      }
+      "todaysWordCount": {}
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
