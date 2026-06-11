@@ -62,9 +62,15 @@ This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3
 3. As an admin, I want to see connection status (who connected, when, healthy/expired), get alerted when it breaks, and reconnect in one click, so that enrichment never silently stops.
 4. As an admin, I want to remove the integration and be told exactly what happens (data stays, mapping deleted, enrichment stops), so that disconnecting isn't scary.
 
-**Secondary persona — Sales Rep** 5. As a rep, I want new contacts I create to be enriched automatically within minutes, so that I can qualify without manual research. 6. As a rep, I want a source badge and timestamp on enriched fields, so that I know what came from Apollo and how fresh it is. 7. As a rep, when Apollo returns no match, I want a quiet "no additional data found" state, so that I'm not misled into thinking something broke.
+**Secondary persona — Sales Rep** 
+5. As a rep, I want new contacts I create to be enriched automatically within minutes, so that I can qualify without manual research. 
+6. As a rep, I want a source badge and timestamp on enriched fields, so that I know what came from Apollo and how fresh it is. 
+7. As a rep, when Apollo returns no match, I want a quiet "no additional data found" state, so that I'm not misled into thinking something broke.
 
-**Edge cases** 8. As a rep, when Apollo is not connected and I try to enrich, I want a "Connect Apollo" prompt instead of an error, so that I know it's a setup state, not a bug. 9. As a non-admin Apollo user attempting to authorize, I want a clear "you need Apollo admin permissions" message (Apollo redirects back with `status_code=403`), so that I escalate instead of retrying. 10. As an admin, when an enrichment value fails validation for the mapped field type, I want it skipped and logged per record, so that bad data never lands silently.
+**Edge cases** 
+8. As a rep, when Apollo is not connected and I try to enrich, I want a "Connect Apollo" prompt instead of an error, so that I know it's a setup state, not a bug. 
+9. As a non-admin Apollo user attempting to authorize, I want a clear "you need Apollo admin permissions" message (Apollo redirects back with `status_code=403`), so that I escalate instead of retrying. 
+10. As an admin, when an enrichment value fails validation for the mapped field type, I want it skipped and logged per record, so that bad data never lands silently.
 
 ## 6. Requirements
 
