@@ -77,17 +77,14 @@ This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3
 ### Must-Have (P0)
 
 - **Register Apollo as an integration provider.** Apollo appears in the Integrations marketplace under Data Enrichment, using the existing `integration/native` framework (`INTEGRATION_PROVIDER`, `INTEGRATION_PROVIDER_MAP`, `INTEGRATION_REDIRECT_MAP`). Card subtext: "Enrich contacts and companies with verified B2B data from Apollo io."
-    
-    - Given an admin on Integrations, When they view the marketplace, Then they see the Apollo card with Connect; when connected, a Connected badge + Manage.
+    - Given an admin on Integrations, When they view the [[Integrations]] page , Then they see the Apollo card with Connect; when connected, a Connected badge and by clicking the card manage page will be there.
     - Given Apollo is connected, When the admin opens any other enrichment provider's card, Then Connect is disabled with "Only one enrichment integration can be active." _(single-provider rule)_
 - **Connect via OAuth 2.0 (workspace-level, admin-only).** Authorization-code flow against Apollo's OAuth server; tokens stored encrypted as account-level integration credentials (`user-integrations` / `IntegrationDetails`), never returned to the client.
-    
     - Given an admin clicks Connect with Apollo, When they authorize in Apollo, Then the Connections tab shows `Active · Connected by [user] on [date]`.
     - Given a non-admin Apollo user authorizes, When Apollo redirects back with `status_code=403`, Then SparrowCRM shows "You need admin permissions in Apollo to connect this integration."
     - Given any user's record triggers enrichment, Then calls use the single workspace token — no per-user auth (this is shared CRM data, not personal data like email/calendar).
     - **Dependency (external, gating):** Apollo partner/OAuth registration approval. **Scopes are locked at registration** — finalize scope list before submitting.
 - **Token lifecycle & connection health.** Apollo access tokens expire every 30 days; refresh tokens are single-use (old pair revoked on refresh).
-    
     - Given a token near expiry, When the refresh job runs, Then refresh executes behind a per-tenant lock (concurrent refresh must be impossible).
     - Given refresh fails permanently, Then card + Connections tab show an error state with Reconnect, admins are notified, and pending enrichment jobs are skipped (not queued infinitely) with the skip logged.
 - **Field mapping with overwrite rules.** Mapping screen (Contacts / Companies tabs): Apollo field → existing SparrowCRM field (type-compatible options only) → overwrite rule: `Fill empty values only` (default) / `Fill empty and overwrite existing` / `Do not fill`.
