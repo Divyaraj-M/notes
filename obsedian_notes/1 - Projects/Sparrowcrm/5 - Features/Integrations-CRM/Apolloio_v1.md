@@ -14,7 +14,6 @@ This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3
 
 **Evidence:** Apollo API ToS (apollo.io/terms/api, reviewed 2026-06-10); existing code paths in `contact-enrichment.service.ts` confirm the shared-key model and the ZoomInfo→Apollo fallback. Competitive: HubSpot and Attio ship enrichment in-box; a CRM with permanently empty fields loses evaluations.
 
-> [PM CHECK — two open evidence gaps could resize this bet: (a) % of target customers on Apollo plans with OAuth/API access, (b) Apollo match rate for our customers' geographies. Both testable this week — see Open Questions Q2/Q3.]
 
 ## 2. Jobs To Be Done
 
