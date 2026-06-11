@@ -999,7 +999,7 @@
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -1033,6 +1033,9 @@
         },
         {
           "timestampMillis": 1781158471220
+        },
+        {
+          "timestampMillis": 1781164767618
         }
       ]
     },
@@ -2557,8 +2560,8 @@
     },
     {
       "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1779693250064
@@ -2577,6 +2580,12 @@
         },
         {
           "timestampMillis": 1779733611821
+        },
+        {
+          "timestampMillis": 1781164770282
+        },
+        {
+          "timestampMillis": 1781164770664
         }
       ]
     },
@@ -3117,8 +3126,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1780645246958
@@ -3134,6 +3143,9 @@
         },
         {
           "timestampMillis": 1781087229688
+        },
+        {
+          "timestampMillis": 1781164766067
         }
       ]
     },
@@ -3159,7 +3171,7 @@
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -3181,6 +3193,9 @@
         },
         {
           "timestampMillis": 1781160358445
+        },
+        {
+          "timestampMillis": 1781164767154
         }
       ]
     },
