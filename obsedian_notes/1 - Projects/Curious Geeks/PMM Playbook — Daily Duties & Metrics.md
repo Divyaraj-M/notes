@@ -44,33 +44,25 @@ These are **not** alternatives. They work together: KPIs are what you watch alwa
 ### KPI — Key Performance Indicator
 
 **What it is:** a core metric you track _continuously_, over the long run — not tied to one goal period. Some KPIs become Key Results when you're actively pushing them.
-
 **Use it for:** monitoring ongoing health.
-
 **Curious Geeks KPIs:**
-
 - **WAEM** (this is the headline KPI — your North Star)
 - Weekly signups
 - Return rate
 - Active products listed
 - Email list size & open rate
-
 > **OKR vs KPI in one line:** a KPI is the speedometer you always watch; an OKR is "get to 100 km/h by Friday." Same metric, different job.
-
 ### KRI — Key Risk Indicator
-
 **What it is:** an early-warning metric. It moves _before_ a KPI tanks, so you can act early. KRIs usually have a threshold — cross it, and something's going wrong.
-
 **Use it for:** protecting quality while you chase growth. (These are the "guardrails" in the OKR doc.)
-
 **Curious Geeks KRIs (with thresholds):**
 
-|KRI|Warning threshold|What it warns about|
-|---|---|---|
-|Review quality|< 60% of reviews have written substance|The feedback culture is decaying — the core value prop|
-|Spam / low-quality signups|> 5% of new members|The gate is failing; room quality at risk|
-|First-load reliability|any cold-start 500 s|New visitors hitting errors = permanent loss|
-|Return rate trend|dropping week-over-week|Retention breaking _before_ WAEM shows it|
+| KRI                        | Warning threshold                       | What it warns about                                    |
+| -------------------------- | --------------------------------------- | ------------------------------------------------------ |
+| Review quality             | < 60% of reviews have written substance | The feedback culture is decaying — the core value prop |
+| Spam / low-quality signups | > 5% of new members                     | The gate is failing; room quality at risk              |
+| First-load reliability     | any cold-start 500 s                    | New visitors hitting errors = permanent loss           |
+| Return rate trend          | dropping week-over-week                 | Retention breaking _before_ WAEM shows it              |
 
 ---
 
