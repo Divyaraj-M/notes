@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "22669c7f865b0696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Apolloio_v1"
-            }
-          },
-          {
             "id": "cda9ec1df8f489b2",
             "type": "leaf",
             "state": {
@@ -296,7 +272,7 @@
             }
           },
           {
-            "id": "f873247421f863ff",
+            "id": "7501412895fcbf8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -320,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -631,19 +607,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f873247421f863ff",
+  "active": "7501412895fcbf8c",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+    "Apollo.io Enrichment — Field Reference.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "finance/3-Month Credit Card Escape Plan.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
-    "Apollo.io Enrichment — Field Reference.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "Clippings/grill-me — mattpocockskills.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "3 - Resources/Templates/Product to dev process/FRD Template.md",
@@ -658,7 +635,6 @@
     "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Email Notifications/README.md",
-    "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",
