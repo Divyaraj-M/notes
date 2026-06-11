@@ -2,9 +2,10 @@
 owner: Divyaraj Murugan
 feature: "[[Integrations]]"
 version: 1
-status:
-priority:
+status: Done
+priority: Medium
 tags:
+  - sparrowcrm/features/integrations/apolloio
 ---
 ## 1. Problem Statement
 
@@ -13,8 +14,6 @@ Today SparrowCRM treats Apollo as a **native enrichment provider**: the server c
 This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3 third-party integration authorization) do not permit a platform to enrich third parties' records on a single shared account and resell that as credits. To use Apollo legitimately, **each customer must bring their own Apollo account**. We're pre-launch, so there is no data to migrate — but enrichment cannot ship in its current shape. We need to move Apollo out of native enrichment and into the existing `integration/native` framework before GA.
 
 **Evidence:** Apollo API ToS (apollo.io/terms/api, reviewed 2026-06-10); existing code paths in `contact-enrichment.service.ts` confirm the shared-key model and the ZoomInfo→Apollo fallback. Competitive: HubSpot and Attio ship enrichment in-box; a CRM with permanently empty fields loses evaluations.
-
-> [PM CHECK — two open evidence gaps could resize this bet: (a) % of target customers on Apollo plans with OAuth/API access, (b) Apollo match rate for our customers' geographies. Both testable this week — see Open Questions Q2/Q3.]
 
 ## 2. Jobs To Be Done
 

@@ -176,6 +176,7 @@
     "sparrowcrm/features/deals/v1": 1,
     "sparrowcrm/features/filters/v1": 1,
     "sparrowcrm/features/import/v1": 1,
+    "sparrowcrm/features/integrations/apolloio": 3,
     "sparrowcrm/features/integrations/email_integration": 1,
     "sparrowcrm/features/integrations/sparrowdesk": 2,
     "sparrowcrm/features/meetings/v1": 1,
