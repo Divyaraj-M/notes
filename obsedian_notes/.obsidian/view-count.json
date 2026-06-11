@@ -2,8 +2,8 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 9,
-      "totalTimesOpened": 11,
+      "uniqueDaysOpened": 10,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1778497431545
@@ -34,6 +34,9 @@
         },
         {
           "timestampMillis": 1781074264910
+        },
+        {
+          "timestampMillis": 1781160464272
         }
       ]
     },
@@ -149,7 +152,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 17,
-      "totalTimesOpened": 69,
+      "totalTimesOpened": 71,
       "openLogs": [
         {
           "timestampMillis": 1778479561605
@@ -336,6 +339,12 @@
         },
         {
           "timestampMillis": 1781158452178
+        },
+        {
+          "timestampMillis": 1781160456874
+        },
+        {
+          "timestampMillis": 1781160457128
         }
       ]
     },
@@ -612,8 +621,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 12,
-      "totalTimesOpened": 33,
+      "uniqueDaysOpened": 13,
+      "totalTimesOpened": 34,
       "openLogs": [
         {
           "timestampMillis": 1778484033069
@@ -713,6 +722,9 @@
         },
         {
           "timestampMillis": 1781074262939
+        },
+        {
+          "timestampMillis": 1781160461889
         }
       ]
     },
@@ -1530,8 +1542,8 @@
     },
     {
       "path": "Clippings/What product managers do at PostHog - Handbook.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1778662158657
@@ -1592,6 +1604,9 @@
         },
         {
           "timestampMillis": 1781087234443
+        },
+        {
+          "timestampMillis": 1781160358967
         }
       ]
     },
@@ -3143,8 +3158,8 @@
     },
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -3163,26 +3178,35 @@
         },
         {
           "timestampMillis": 1781087237869
+        },
+        {
+          "timestampMillis": 1781160358445
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1781074308309
+        },
+        {
+          "timestampMillis": 1781160466420
         }
       ]
     },
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1781087257324
+        },
+        {
+          "timestampMillis": 1781160363494
         }
       ]
     },

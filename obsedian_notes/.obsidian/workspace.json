@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/What product managers do at PostHog - Handbook.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -254,7 +254,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "What product managers do at PostHog - Handbook"
+              "title": "Apolloio_v1"
             }
           },
           {
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -627,20 +627,21 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "71ba06b90244607d",
+  "active": "857b1d775d492be0",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "Apollo.io Enrichment — Field Reference.md",
+    "Clippings/What product managers do at PostHog - Handbook.md",
+    "Clippings/grill-me — mattpocockskills.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Templates/Product to dev process/FRD Template.md",
     "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "Thinking.md",
-    "Apollo.io Enrichment — Field Reference.md",
-    "Clippings/grill-me — mattpocockskills.md",
-    "Clippings/What product managers do at PostHog - Handbook.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "finance/Dashboard.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
@@ -655,7 +656,6 @@
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
-    "finance/Data/categories/Entertainment.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

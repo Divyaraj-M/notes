@@ -63,7 +63,12 @@
         "2026-06-10": 27,
         "2026-06-11": 0
       },
-      "todaysWordCount": {}
+      "todaysWordCount": {
+        "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md": {
+          "initial": 2583,
+          "current": 2534
+        }
+      }
     }
   },
   "userId": "36f675da-5658-4b0d-9730-3f2a44724927",
