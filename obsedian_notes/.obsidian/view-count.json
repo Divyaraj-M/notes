@@ -1283,8 +1283,8 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 42,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 44,
       "openLogs": [
         {
           "timestampMillis": 1778493172929
@@ -1411,6 +1411,12 @@
         },
         {
           "timestampMillis": 1780907030072
+        },
+        {
+          "timestampMillis": 1781188389001
+        },
+        {
+          "timestampMillis": 1781188389357
         }
       ]
     },
@@ -3321,6 +3327,19 @@
         },
         {
           "timestampMillis": 1781175567688
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1781188395348
+        },
+        {
+          "timestampMillis": 1781188395608
         }
       ]
     }
