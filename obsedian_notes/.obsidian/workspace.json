@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
+                "file": "Apollo.io Enrichment — Field Reference.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Import_v1"
+              "title": "Apollo.io Enrichment — Field Reference"
             }
           },
           {
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -627,18 +627,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e6cb78308daa094e",
+  "active": "22669c7f865b0696",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "finance/3-Month Credit Card Escape Plan.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "Apollo.io Enrichment — Field Reference.md",
+    "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "Clippings/grill-me — mattpocockskills.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-    "finance/3-Month Credit Card Escape Plan.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "Apollo.io Enrichment — Field Reference.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "3 - Resources/Templates/Product to dev process/FRD Template.md",
     "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
@@ -654,8 +656,6 @@
     "1 - Projects/Email Notifications/README.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
-    "1 - Projects/Sparrowcrm/To do list.md",
-    "finance/Data/categories/Vacation.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

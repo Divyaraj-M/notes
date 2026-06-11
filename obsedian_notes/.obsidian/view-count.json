@@ -1008,7 +1008,7 @@
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 12,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -1045,6 +1045,9 @@
         },
         {
           "timestampMillis": 1781164767618
+        },
+        {
+          "timestampMillis": 1781166501018
         }
       ]
     },
@@ -1832,8 +1835,8 @@
     },
     {
       "path": "CRM Metrics Framework.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 24,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 25,
       "openLogs": [
         {
           "timestampMillis": 1778755493227
@@ -1906,6 +1909,9 @@
         },
         {
           "timestampMillis": 1779432400107
+        },
+        {
+          "timestampMillis": 1781166257225
         }
       ]
     },
@@ -3136,7 +3142,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1780645246958
@@ -3155,6 +3161,9 @@
         },
         {
           "timestampMillis": 1781164766067
+        },
+        {
+          "timestampMillis": 1781166502730
         }
       ]
     },
@@ -3211,7 +3220,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1781074308309
@@ -3221,19 +3230,25 @@
         },
         {
           "timestampMillis": 1781165324201
+        },
+        {
+          "timestampMillis": 1781166504850
         }
       ]
     },
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1781087257324
         },
         {
           "timestampMillis": 1781160363494
+        },
+        {
+          "timestampMillis": 1781166258355
         }
       ]
     },
@@ -3266,13 +3281,16 @@
     {
       "path": "finance/3-Month Credit Card Escape Plan.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1781164694294
         },
         {
           "timestampMillis": 1781164694553
+        },
+        {
+          "timestampMillis": 1781166502144
         }
       ]
     }
