@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "FRD Template",
+      "path": "3 - Resources/Templates/Product to dev process/FRD Template.md"
+    },
+    {
+      "basename": "PRD Feature Name",
+      "path": "3 - Resources/Templates/Product to dev process/PRD Feature Name.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Thinking",
       "path": "Thinking.md"
     },
@@ -35,10 +51,6 @@
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Block Contact creation of Same Domain_v1",
@@ -187,18 +199,6 @@
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "How to find edge cases before they become expensive issues",
-      "path": "Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
-      "basename": "Email_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Email/Email_v1.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
     }
   ],
   "omittedPaths": [],

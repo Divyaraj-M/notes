@@ -287,7 +287,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thinking.md",
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -302,7 +302,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Thinking"
+              "title": "Product Spec Template 2"
             }
           }
         ],
@@ -629,6 +629,10 @@
   },
   "active": "71ba06b90244607d",
   "lastOpenFiles": [
+    "3 - Resources/Templates/Product to dev process/FRD Template.md",
+    "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "Thinking.md",
     "Apollo.io Enrichment — Field Reference.md",
     "Clippings/grill-me — mattpocockskills.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
@@ -637,7 +641,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
@@ -653,9 +656,6 @@
     "finance/Data/categories/Subscriptions.md",
     "finance/Data/categories/Clothing.md",
     "finance/Data/categories/Entertainment.md",
-    "finance/Data/categories/Eat Out.md",
-    "finance/Data/categories/Transport.md",
-    "finance/Data/categories/Health.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

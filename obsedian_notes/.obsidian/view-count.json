@@ -148,21 +148,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 16,
-      "totalTimesOpened": 67,
+      "uniqueDaysOpened": 17,
+      "totalTimesOpened": 69,
       "openLogs": [
-        {
-          "timestampMillis": 1778427905395
-        },
-        {
-          "timestampMillis": 1778428385961
-        },
-        {
-          "timestampMillis": 1778428386225
-        },
-        {
-          "timestampMillis": 1778428670578
-        },
         {
           "timestampMillis": 1778479561605
         },
@@ -342,6 +330,12 @@
         },
         {
           "timestampMillis": 1781074259604
+        },
+        {
+          "timestampMillis": 1781158451799
+        },
+        {
+          "timestampMillis": 1781158452178
         }
       ]
     },
@@ -992,8 +986,8 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1778491564809
@@ -1024,6 +1018,9 @@
         },
         {
           "timestampMillis": 1779351623131
+        },
+        {
+          "timestampMillis": 1781158471220
         }
       ]
     },
@@ -3186,6 +3183,32 @@
       "openLogs": [
         {
           "timestampMillis": 1781087257324
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1781158463569
+        },
+        {
+          "timestampMillis": 1781158463871
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Product to dev process/FRD Template.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1781158466072
+        },
+        {
+          "timestampMillis": 1781158466380
         }
       ]
     }
