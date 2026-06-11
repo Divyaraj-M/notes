@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -86,7 +86,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "title": "Import_v1"
             }
           },
           {
@@ -306,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -627,17 +627,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "22669c7f865b0696",
+  "active": "e6cb78308daa094e",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "Clippings/grill-me — mattpocockskills.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "finance/3-Month Credit Card Escape Plan.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "Apollo.io Enrichment — Field Reference.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "3 - Resources/Templates/Product to dev process/FRD Template.md",

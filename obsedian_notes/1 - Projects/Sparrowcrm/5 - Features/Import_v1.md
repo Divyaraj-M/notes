@@ -269,27 +269,27 @@ _General Editing Behavior_
 
 **Validation by Field Type**
 
-|Field Type|Key Validations|Error Tag|Edit Control|
-|---|---|---|---|
-|Text|Max length, invalid characters, formula injection, required|"This field is required."|Text field|
-|Email|Format, multiple emails, separator, duplicates, required|"Invalid email"|Text field + "Add value" + "+ Create new email"|
-|Phone|Format, length, invalid characters, separator, country code, multiple numbers|"Invalid Phone"|Text field + "Add value"|
-|Date|Format match, impossible date, ambiguous date|"Invalid date"|Calendar date picker|
-|Number|Numeric, decimals, range (min/max), negative, decimal separator|"Invalid number"|Text field|
-|Currency|Amount, mixed currencies, unsupported currency|"Invalid Currency"|Text field|
-|Select|Option exists, archived, typo|"Option not exist"|Searchable dropdown ("Search options")|
-|Multi-select|Option exists, separator, duplicates, too many|"Option not exist"|Searchable dropdown ("Search options")|
-|Yes/No|Boolean value recognition|"Option not exist"|Searchable dropdown ("Search values")|
-|URL|Valid URL, LinkedIn URL, Twitter/X URL|"Enter a valid URL."|Text field|
-|Domain|Valid domain, email-in-domain, URL-in-domain, public domain|"Invalid domain"|Text field|
-|User/Owner|User exists, active, ambiguous match|"Invalid user"|Searchable dropdown ("Search values")|
-|Status|Status exists, archived|"Option not exist"|Searchable dropdown ("Search values")|
-|Pipeline Stage|Stage exists, stage in pipeline, archived|"Option not exist"|Searchable dropdown ("Search values")|
-|Relationship|Record found, multiple matches, duplicate association|"No matching record found."|Searchable dropdown|
-|Rating|Valid rating, range|"Invalid rating"|Text field|
-|Timestamp|Valid datetime, timezone|"Invalid timestamp"|Text field|
-|Location|Valid location, country recognition|"Enter a valid location."|Searchable dropdown ("Search values")|
-|Blank|Optional skip, required error, blank row skip|"Empty values will be skipped."|Text field|
+| Field Type     | Key Validations                                                               | Error Tag                       | Edit Control                                    |
+| -------------- | ----------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------- |
+| Text           | Max length, invalid characters, formula injection, required                   | "This field is required."       | Text field                                      |
+| Email          | Format, multiple emails, separator, duplicates, required                      | "Invalid email"                 | Text field + "Add value" + "+ Create new email" |
+| Phone          | Format, length, invalid characters, separator, country code, multiple numbers | "Invalid Phone"                 | Text field + "Add value"                        |
+| Date           | Format match, impossible date, ambiguous date                                 | "Invalid date"                  | Calendar date picker                            |
+| Number         | Numeric, decimals, range (min/max), negative, decimal separator               | "Invalid number"                | Text field                                      |
+| Currency       | Amount, mixed currencies, unsupported currency                                | "Invalid Currency"              | Text field                                      |
+| Select         | Option exists, archived, typo                                                 | "Option not exist"              | Searchable dropdown ("Search options")          |
+| Multi-select   | Option exists, separator, duplicates, too many                                | "Option not exist"              | Searchable dropdown ("Search options")          |
+| Yes/No         | Boolean value recognition                                                     | "Option not exist"              | Searchable dropdown ("Search values")           |
+| URL            | Valid URL, LinkedIn URL, Twitter/X URL                                        | "Enter a valid URL."            | Text field                                      |
+| Domain         | Valid domain, email-in-domain, URL-in-domain, public domain                   | "Invalid domain"                | Text field                                      |
+| User/Owner     | User exists, active, ambiguous match                                          | "Invalid user"                  | Searchable dropdown ("Search values")           |
+| Status         | Status exists, archived                                                       | "Option not exist"              | Searchable dropdown ("Search values")           |
+| Pipeline Stage | Stage exists, stage in pipeline, archived                                     | "Option not exist"              | Searchable dropdown ("Search values")           |
+| Relationship   | Record found, multiple matches, duplicate association                         | "No matching record found."     | Searchable dropdown                             |
+| Rating         | Valid rating, range                                                           | "Invalid rating"                | Text field                                      |
+| Timestamp      | Valid datetime, timezone                                                      | "Invalid timestamp"             | Text field                                      |
+| Location       | Valid location, country recognition                                           | "Enter a valid location."       | Searchable dropdown ("Search values")           |
+| Blank          | Optional skip, required error, blank row skip                                 | "Empty values will be skipped." | Text field                                      |
 
 ---
 
