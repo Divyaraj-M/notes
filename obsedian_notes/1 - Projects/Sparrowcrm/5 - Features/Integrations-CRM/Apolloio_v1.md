@@ -21,6 +21,7 @@ This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3
 
 **Evidence:** Apollo API ToS (apollo.io/terms/api, reviewed 2026-06-10); existing code paths in `contact-enrichment.service.ts` confirm the shared-key model and the ZoomInfo→Apollo fallback. Competitive: HubSpot and Attio ship enrichment in-box; a CRM with permanently empty fields loses evaluations.
 
+> [PM CHECK — two open evidence gaps could resize this bet: (a) % of target customers on Apollo plans with OAuth/API access, (b) Apollo match rate for our customers' geographies. Both testable this week — see Open Questions Q2/Q3.]
 
 ## 2. Jobs To Be Done
 
@@ -79,7 +80,7 @@ This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3
 
 - **Register Apollo as an integration provider.** Apollo appears in the Integrations marketplace under Data Enrichment, using the existing `integration/native` framework (`INTEGRATION_PROVIDER`, `INTEGRATION_PROVIDER_MAP`, `INTEGRATION_REDIRECT_MAP`). Card subtext: "Enrich contacts and companies with verified B2B data from Apollo io."
     
-    - Given an admin on Integrations, When they view the marketplace, Then they see the Apollo card with Connect; when connected, a Connected badge + Manage.
+    - Given an admin on Integrations, When they view the Integrations page, Then they see the Apollo card with a Connect action; when connected, the card shows a Connected badge and clicking the card opens the manage page (Connections / Configuration).
     - Given Apollo is connected, When the admin opens any other enrichment provider's card, Then Connect is disabled with "Only one enrichment integration can be active." _(single-provider rule)_
 - **Connect via OAuth 2.0 (workspace-level, admin-only).** Authorization-code flow against Apollo's OAuth server; tokens stored encrypted as account-level integration credentials (`user-integrations` / `IntegrationDetails`), never returned to the client.
     
