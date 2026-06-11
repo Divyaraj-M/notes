@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "f8ef67786f72aea7",
-            "type": "leaf",
-            "state": {
-              "type": "dashboard-view",
-              "state": {},
-              "icon": "wallet-cards",
-              "title": "Banyan"
-            }
-          },
-          {
             "id": "5065adedd5f698a1",
             "type": "leaf",
             "state": {
@@ -330,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -355,16 +345,6 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-            }
-          },
-          {
-            "id": "89242e637de0308a",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
             }
           },
           {
