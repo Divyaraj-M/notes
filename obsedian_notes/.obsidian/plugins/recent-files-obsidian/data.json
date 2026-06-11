@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3-Month Credit Card Escape Plan",
+      "path": "finance/3-Month Credit Card Escape Plan.md"
+    },
+    {
       "basename": "Apolloio_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
     }
   ],
   "omittedPaths": [],

@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+                "file": "finance/3-Month Credit Card Escape Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -254,7 +254,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apolloio_v1"
+              "title": "3-Month Credit Card Escape Plan"
             }
           },
           {
@@ -629,6 +629,8 @@
   },
   "active": "857b1d775d492be0",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+    "finance/3-Month Credit Card Escape Plan.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -641,7 +643,6 @@
     "Thinking.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "finance/Dashboard.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
@@ -655,7 +656,6 @@
     "1 - Projects/Sparrowcrm/To do list.md",
     "finance/Data/categories/Vacation.md",
     "finance/Data/categories/Subscriptions.md",
-    "finance/Data/categories/Clothing.md",
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",

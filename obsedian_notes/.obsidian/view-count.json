@@ -3235,6 +3235,19 @@
           "timestampMillis": 1781158466380
         }
       ]
+    },
+    {
+      "path": "finance/3-Month Credit Card Escape Plan.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1781164694294
+        },
+        {
+          "timestampMillis": 1781164694553
+        }
+      ]
     }
   ]
 }
