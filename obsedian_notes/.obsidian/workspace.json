@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9fa2a6f30fcc5c9b",
+        "id": "236ab9de92b0c074",
         "type": "tabs",
         "children": [
           {
-            "id": "fee2a8d31a1cc5aa",
+            "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,275 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "filters_v1"
-            }
-          },
-          {
-            "id": "5065adedd5f698a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRM Metrics Framework.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CRM Metrics Framework"
-            }
-          },
-          {
-            "id": "e6cb78308daa094e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apollo.io Enrichment — Field Reference.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Apollo.io Enrichment — Field Reference"
-            }
-          },
-          {
-            "id": "c27ab2170e7a3b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
-            }
-          },
-          {
-            "id": "83b1453941cdad52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/To do.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "To do"
-            }
-          },
-          {
-            "id": "f3d9eb660f180ca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
-            }
-          },
-          {
-            "id": "56c0080134f9c138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Ai Agents"
-            }
-          },
-          {
-            "id": "cda9ec1df8f489b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Prioritization Matrix"
-            }
-          },
-          {
-            "id": "857b1d775d492be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "finance/3-Month Credit Card Escape Plan.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3-Month Credit Card Escape Plan"
-            }
-          },
-          {
-            "id": "ccf115b9a2ef07c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/grill-me — mattpocockskills.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "grill-me — mattpocockskills"
-            }
-          },
-          {
-            "id": "71ba06b90244607d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Spec Template 2"
-            }
-          },
-          {
-            "id": "7501412895fcbf8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PMM Playbook — Daily Duties & Metrics"
+              "title": "Block Contact creation of Same Domain_v1"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -607,23 +342,26 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "7501412895fcbf8c",
+  "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
+    "Apollo.io Enrichment — Field Reference.md",
+    "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",
     "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "Clippings/grill-me — mattpocockskills.md",
+    "finance/3-Month Credit Card Escape Plan.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+    "3 - Resources/Templates/To do.md",
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-    "Apollo.io Enrichment — Field Reference.md",
-    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
-    "finance/3-Month Credit Card Escape Plan.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-    "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
-    "Clippings/grill-me — mattpocockskills.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
     "3 - Resources/Templates/Product to dev process/FRD Template.md",
@@ -632,9 +370,6 @@
     "finance/Dashboard.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",
