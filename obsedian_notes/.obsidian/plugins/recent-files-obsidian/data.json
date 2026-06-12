@@ -5,24 +5,36 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md"
     },
     {
-      "basename": "Apollo.io Enrichment — Field Reference",
-      "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
-      "basename": "Block Contact creation of Same Domain_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
-    },
-    {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Companies",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+    },
+    {
+      "basename": "Fields",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
+    },
+    {
+      "basename": "Apollo.io Enrichment — Field Reference",
+      "path": "Apollo.io Enrichment — Field Reference.md"
+    },
+    {
+      "basename": "Block Contact creation of Same Domain_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -117,10 +129,6 @@
       "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
       "basename": "Contacts_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown",
       "path": "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md"
-    },
-    {
-      "basename": "thedotmackclaude-mem",
-      "path": "Clippings/thedotmackclaude-mem.md"
-    },
-    {
-      "basename": "The design language that makes your AI harness better at design.",
-      "path": "Clippings/The design language that makes your AI harness better at design..md"
     }
   ],
   "omittedPaths": [],

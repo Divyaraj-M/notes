@@ -59,10 +59,24 @@
             "id": "2768a724581240fe",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apolloio_v1"
             }
           }
         ],
@@ -379,12 +393,15 @@
   },
   "active": "2768a724581240fe",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
     "Apollo.io Enrichment — Field Reference.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "CRM Metrics Framework.md",
@@ -402,8 +419,6 @@
     "3 - Resources/Templates/Product to dev process/FRD Template.md",
     "3 - Resources/Templates/Product to dev process/PRD Feature Name.md",
     "Thinking.md",
-    "finance/Dashboard.md",
-    "Clippings/What we look for in product managers - Handbook.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",
