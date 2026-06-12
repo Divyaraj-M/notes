@@ -3286,7 +3286,7 @@
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1781087257324
@@ -3314,6 +3314,9 @@
         },
         {
           "timestampMillis": 1781247020184
+        },
+        {
+          "timestampMillis": 1781248124090
         }
       ]
     },
@@ -3387,7 +3390,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1781247126341
@@ -3397,6 +3400,9 @@
         },
         {
           "timestampMillis": 1781247155213
+        },
+        {
+          "timestampMillis": 1781248130950
         }
       ]
     },
