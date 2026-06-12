@@ -2531,7 +2531,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1779350382745
@@ -2556,6 +2556,12 @@
         },
         {
           "timestampMillis": 1781248256386
+        },
+        {
+          "timestampMillis": 1781249322400
+        },
+        {
+          "timestampMillis": 1781249322802
         }
       ]
     },
@@ -3147,7 +3153,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 18,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1780642849096
@@ -3202,6 +3208,9 @@
         },
         {
           "timestampMillis": 1781247324488
+        },
+        {
+          "timestampMillis": 1781249324550
         }
       ]
     },
