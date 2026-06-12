@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Read List",
+      "path": "3 - Resources/Books/Read List/Read List.md"
+    },
+    {
+      "basename": "How to find edge cases before they become expensive issues",
+      "path": "Clippings/How to find edge cases before they become expensive issues.md"
+    },
+    {
+      "basename": "agent-browserskillsagent-browserSKILL.md at main",
+      "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md"
+    },
+    {
+      "basename": "grill-me — mattpocockskills",
+      "path": "Clippings/grill-me — mattpocockskills.md"
+    },
+    {
       "basename": "Apolloio_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md"
     },
@@ -59,10 +75,6 @@
     {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "grill-me — mattpocockskills",
-      "path": "Clippings/grill-me — mattpocockskills.md"
     },
     {
       "basename": "3-Month Credit Card Escape Plan",
@@ -185,20 +197,8 @@
       "path": "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md"
     },
     {
-      "basename": "agent-browserskillsagent-browserSKILL.md at main",
-      "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md"
-    },
-    {
       "basename": "How to Become a Product Manager (Without a Course or a Framework)",
       "path": "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md"
-    },
-    {
-      "basename": "Divyaraj Murugan",
-      "path": "1 - Projects/Curious Geeks/About me/Divyaraj Murugan.md"
-    },
-    {
-      "basename": "phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown",
-      "path": "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md"
     }
   ],
   "omittedPaths": [],

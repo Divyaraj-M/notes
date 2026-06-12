@@ -837,33 +837,9 @@
     },
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 28,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 30,
       "openLogs": [
-        {
-          "timestampMillis": 1778486389919
-        },
-        {
-          "timestampMillis": 1778486390362
-        },
-        {
-          "timestampMillis": 1778486407245
-        },
-        {
-          "timestampMillis": 1778486435068
-        },
-        {
-          "timestampMillis": 1778486757101
-        },
-        {
-          "timestampMillis": 1778486931849
-        },
-        {
-          "timestampMillis": 1778487044815
-        },
-        {
-          "timestampMillis": 1778487058436
-        },
         {
           "timestampMillis": 1778657537454
         },
@@ -923,6 +899,12 @@
         },
         {
           "timestampMillis": 1779432370579
+        },
+        {
+          "timestampMillis": 1781269734502
+        },
+        {
+          "timestampMillis": 1781269734936
         }
       ]
     },
@@ -2877,8 +2859,8 @@
     },
     {
       "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1779732745441
@@ -2897,6 +2879,12 @@
         },
         {
           "timestampMillis": 1779781660411
+        },
+        {
+          "timestampMillis": 1781269730016
+        },
+        {
+          "timestampMillis": 1781269730253
         }
       ]
     },
@@ -3273,7 +3261,7 @@
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -3307,6 +3295,12 @@
         },
         {
           "timestampMillis": 1781246802780
+        },
+        {
+          "timestampMillis": 1781269726912
+        },
+        {
+          "timestampMillis": 1781269727647
         }
       ]
     },
@@ -3474,6 +3468,19 @@
         },
         {
           "timestampMillis": 1781248254293
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Books/Read List/Read List.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 2,
+      "openLogs": [
+        {
+          "timestampMillis": 1781269746867
+        },
+        {
+          "timestampMillis": 1781269747226
         }
       ]
     }
