@@ -1,11 +1,12 @@
 ---
-owner: Divyaraj Murugan
 feature: "[[Integrations]]"
 version: 1
-status:
-priority:
+status: Done
+priority: Low
 tags:
+  - sparrowcrm/features/integrations/apollio/v1
 ---
+
 ## 1. Problem Statement
 
 Today SparrowCRM treats Apollo as a **native enrichment provider**: the server calls Apollo using one SparrowCRM-owned API key (`CONTACT_ENRICHMENT_CONFIG.APOLLO.APOLLO_API_KEY`) and meters every enrichment against the customer's SparrowCRM enrichment-credit pool. Apollo also acts as the **silent fallback** for ZoomInfo — when ZoomInfo returns no match, `enrichContactWithZoominfo()` calls `enrichContactWithApollo()` on the same shared key.
@@ -13,7 +14,6 @@ Today SparrowCRM treats Apollo as a **native enrichment provider**: the server c
 This model isn't viable. Apollo's API ToS (§2 "internal business purposes", §3 third-party integration authorization) do not permit a platform to enrich third parties' records on a single shared account and resell that as credits. To use Apollo legitimately, **each customer must bring their own Apollo account**. We're pre-launch, so there is no data to migrate — but enrichment cannot ship in its current shape. We need to move Apollo out of native enrichment and into the existing `integration/native` framework before GA.
 
 **Evidence:** Apollo API ToS (apollo.io/terms/api, reviewed 2026-06-10); existing code paths in `contact-enrichment.service.ts` confirm the shared-key model and the ZoomInfo→Apollo fallback. Competitive: HubSpot and Attio ship enrichment in-box; a CRM with permanently empty fields loses evaluations.
-
 
 ## 2. Jobs To Be Done
 

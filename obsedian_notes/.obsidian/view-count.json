@@ -2,12 +2,9 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 10,
-      "totalTimesOpened": 14,
+      "uniqueDaysOpened": 11,
+      "totalTimesOpened": 15,
       "openLogs": [
-        {
-          "timestampMillis": 1778497431545
-        },
         {
           "timestampMillis": 1778672463844
         },
@@ -43,6 +40,9 @@
         },
         {
           "timestampMillis": 1781175559535
+        },
+        {
+          "timestampMillis": 1781247033904
         }
       ]
     },
@@ -157,21 +157,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 17,
-      "totalTimesOpened": 77,
+      "uniqueDaysOpened": 18,
+      "totalTimesOpened": 78,
       "openLogs": [
-        {
-          "timestampMillis": 1778479561605
-        },
-        {
-          "timestampMillis": 1778479797905
-        },
-        {
-          "timestampMillis": 1778479817601
-        },
-        {
-          "timestampMillis": 1778484026533
-        },
         {
           "timestampMillis": 1778612589974
         },
@@ -369,6 +357,9 @@
         },
         {
           "timestampMillis": 1781175555770
+        },
+        {
+          "timestampMillis": 1781247023482
         }
       ]
     },
@@ -645,39 +636,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 13,
-      "totalTimesOpened": 34,
+      "uniqueDaysOpened": 14,
+      "totalTimesOpened": 35,
       "openLogs": [
-        {
-          "timestampMillis": 1778484033069
-        },
-        {
-          "timestampMillis": 1778493107615
-        },
-        {
-          "timestampMillis": 1778493232420
-        },
-        {
-          "timestampMillis": 1778493310518
-        },
-        {
-          "timestampMillis": 1778493314371
-        },
-        {
-          "timestampMillis": 1778497422882
-        },
-        {
-          "timestampMillis": 1778497423211
-        },
-        {
-          "timestampMillis": 1778497428043
-        },
-        {
-          "timestampMillis": 1778518033826
-        },
-        {
-          "timestampMillis": 1778518034041
-        },
         {
           "timestampMillis": 1778655029792
         },
@@ -749,6 +710,9 @@
         },
         {
           "timestampMillis": 1781160461889
+        },
+        {
+          "timestampMillis": 1781247032847
         }
       ]
     },
@@ -3316,7 +3280,7 @@
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1781087257324
@@ -3341,6 +3305,9 @@
         },
         {
           "timestampMillis": 1781246818830
+        },
+        {
+          "timestampMillis": 1781247020184
         }
       ]
     },
@@ -3396,28 +3363,6 @@
       ]
     },
     {
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
-      "openLogs": [
-        {
-          "timestampMillis": 1781175412225
-        },
-        {
-          "timestampMillis": 1781175444768
-        },
-        {
-          "timestampMillis": 1781175460442
-        },
-        {
-          "timestampMillis": 1781175567423
-        },
-        {
-          "timestampMillis": 1781175567688
-        }
-      ]
-    },
-    {
       "path": "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
       "uniqueDaysOpened": 2,
       "totalTimesOpened": 3,
@@ -3430,6 +3375,22 @@
         },
         {
           "timestampMillis": 1781246805353
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1781247126341
+        },
+        {
+          "timestampMillis": 1781247126614
+        },
+        {
+          "timestampMillis": 1781247155213
         }
       ]
     }

@@ -176,6 +176,7 @@
     "sparrowcrm/features/deals/v1": 1,
     "sparrowcrm/features/filters/v1": 1,
     "sparrowcrm/features/import/v1": 1,
+    "sparrowcrm/features/integrations/apollio": 4,
     "sparrowcrm/features/integrations/email_integration": 2,
     "sparrowcrm/features/integrations/sparrowdesk": 3,
     "sparrowcrm/features/meetings/v1": 1,
@@ -184,6 +185,7 @@
     "new_feature/dossiers/proposal_templates/genie_templates/v1": 1,
     "new_feature/dossiers/proposal_templates/my_templates/v1": 1,
     "sparrowcrm/features/contacts/email/v1": 1,
+    "sparrowcrm/features/integrations/apollio/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v2": 2,
     "sparrowcrm/features/integrations/sparrowdesk/v1": 1
