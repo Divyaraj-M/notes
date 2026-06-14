@@ -238,8 +238,8 @@
             "state": {
               "type": "smart-lookup-view",
               "state": {},
-              "icon": "smart-lookup",
-              "title": "Lookup"
+              "icon": "lucide-ghost",
+              "title": "smart-lookup-view"
             }
           },
           {
@@ -248,8 +248,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           },
           {
@@ -334,7 +334,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "smart-connections:Toggle Footer Connections": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -348,23 +347,12 @@
       "pdf-plus:PDF++: Toggle auto-copy": true,
       "pdf-plus:PDF++: Toggle auto-focus": true,
       "pdf-plus:PDF++: Toggle auto-paste": true,
-      "bookshelf:Open Bookshelf library": true,
-      "bookshelf:Open Bookshelf statistics": true,
-      "notebook-navigator:Notebook Navigator": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": true,
       "omnisearch:Omnisearch": true,
       "obsidian42-brat:BRAT": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": false,
-      "smart-lookup:Smart Lookup: Open lookup view": false,
-      "banyan:Open dashboard": false,
-      "banyan:Add card note": false,
       "canvas:Create new canvas": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "yourpulse:Open YourPulse Profile": false,
-      "always-color-text:Always Color Text": false,
-      "obsidian-importer:Open Importer": false
+      "always-color-text:Always Color Text": false
     }
   },
   "active": "d8e8cae2333b4141",

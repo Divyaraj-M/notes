@@ -3473,14 +3473,17 @@
     },
     {
       "path": "3 - Resources/Books/Read List/Read List.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1781269746867
         },
         {
           "timestampMillis": 1781269747226
+        },
+        {
+          "timestampMillis": 1781457839825
         }
       ]
     }
