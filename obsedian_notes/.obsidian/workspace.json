@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Books/Read List/Read List.md",
-                "mode": "preview",
+                "file": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Read List"
+              "title": "@Sakthi Prasath M"
             }
           }
         ],
@@ -357,6 +357,7 @@
   },
   "active": "d8e8cae2333b4141",
   "lastOpenFiles": [
+    "3 - Resources/Books/Read List/Read List.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/grill-me — mattpocockskills.md",
@@ -382,7 +383,6 @@
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "Clippings/What product managers do at PostHog - Handbook.md",
-    "3 - Resources/Templates/Product to dev process/FRD Template.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",

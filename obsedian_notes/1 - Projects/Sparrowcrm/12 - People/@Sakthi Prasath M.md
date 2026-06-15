@@ -15,3 +15,7 @@ Not will be in this wednesday
 - 
 
 Zoom is not done
+
+- Contact Creations is not in expected behaviour 
+- Notifications are rouge 
+- in the hoem page, The integration modal hasn’t been po

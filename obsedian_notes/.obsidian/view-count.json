@@ -2311,8 +2311,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 15,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1779172968597
@@ -2358,6 +2358,12 @@
         },
         {
           "timestampMillis": 1779349521500
+        },
+        {
+          "timestampMillis": 1781520900139
+        },
+        {
+          "timestampMillis": 1781520900318
         }
       ]
     },
