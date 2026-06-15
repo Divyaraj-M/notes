@@ -3495,6 +3495,16 @@
           "timestampMillis": 1781465150846
         }
       ]
+    },
+    {
+      "path": "3 - Resources/Books/The Thirteen Problems.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1781530963248
+        }
+      ]
     }
   ]
 }

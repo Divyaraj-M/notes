@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "The Thirteen Problems",
+      "path": "3 - Resources/Books/The Thirteen Problems.md"
+    },
+    {
       "basename": "@Sakthi Prasath M",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_template",
       "path": "1 - Projects/Curious Geeks/Products/_template.md"
-    },
-    {
-      "basename": "visionary-press-release",
-      "path": "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md"
     }
   ],
   "omittedPaths": [],

@@ -569,6 +569,7 @@ settings:
         id: launchpad
         title: 'New tab view (Launchpad)'
         title.zh: '新标签页视图（Launchpad 启动台）'
+        title.uk: 'Вигляд Нової вкладки (Launchpad)'
         description: 'Style the toolbar replacing the New tab view'
         description.zh: '为替换新标签页视图的工具栏设置样式'
         type: heading
@@ -587,6 +588,7 @@ settings:
         id: cg-nt-launchpad-item-bg-color
         title: 'Item: Background color'
         title.zh: '项目：背景颜色'
+        title.uk: 'Елемент: Колір фону'
         type: variable-themed-color
         opacity: true
         format: hex
@@ -605,18 +607,21 @@ settings:
         id: cg-nt-launchpad-cols-desktop
         title: 'Number of columns on desktop'
         title.zh: '桌面端列数'
+        title.uk: "Кількість колонок на комп'ютері"
         type: variable-number
         default: 2
     -
         id: cg-nt-launchpad-cols-mobile
         title: 'Number of columns on mobile 📱'
         title.zh: '移动端列数 📱'
+        title.uk: 'Кількість колонок на мобільному пристрої 📱'
         type: variable-number
         default: 2
     -
         id: cg-nt-launchpad-max-width
         title: 'Max width (in px units)'
         title.zh: '最大宽度（单位：px）'
+        title.uk: 'Максимальна ширина（пікселі)'
         type: variable-number
         default: 0
         format: px
@@ -624,6 +629,7 @@ settings:
         id: cg-nt-launchpad-item-font-size
         title: 'Item: Font size (in em units)'
         title.zh: '项目：字体大小（单位：em）'
+        title.uk: 'Елемент: Розмір шрифту (em)'
         type: variable-number
         default: 0
         format: em
@@ -631,6 +637,7 @@ settings:
         id: cg-nt-launchpad-item-icon-size
         title: 'Item: Icon size (in px units)'
         title.zh: '项目：图标大小（单位：px）'
+        title.uk: 'Елемент: Разміер іконки (пікселі)'
         type: variable-number
         default: 0
         format: px
@@ -647,6 +654,7 @@ settings:
         id: cg-nt-launchpad-item-border-radius
         title: 'Item: Border radius (in px units)'
         title.zh: '项目：边框圆角（单位：px）'
+        title.uk: 'Параметр: Радіус кутів (пікселі)'
         type: variable-number
         default: 0
         format: px
@@ -861,6 +869,7 @@ settings:
         id: cg-nt-tbar-z-index
         title: 'Z-index'
         description: "Controls stacking order relative to other elements. Increase if bottom or top-positioned toolbars appear behind other components, or decrease if it covers them."
+        description.uk: "Визначає порядок накладання відносно інших елементів. Збільшуйте значення, якщо панелі, розміщені внизу або вгорі, з’являються за іншими компонентами, або зменшуйте, якщо вони їх перекривають."
         type: variable-number
         default: 44
     -
@@ -1059,8 +1068,10 @@ settings:
         id: toolbar-text-tbar
         title: 'Toolbars (floating)'
         title.zh: '工具栏（文本）'
+        title.uk: 'Панелі інструментів (плаваючі)'
         description: 'Styles for floating toolbars (including text toolbars)'
         description.zh: '文本工具栏的样式'
+        description.uk: 'Стилі для плаваючих панелей інструментів (включно з текстовими панелями)'
         type: heading
         level: 1
         collapsed: true
@@ -1145,6 +1156,7 @@ settings:
         id: cg-nt-tbar-text-z-index
         title: 'Z-index'
         description: "Controls stacking order relative to other elements. Increase if floating toolbars appear behind other components, or decrease if it covers them."
+        description.uk: "Визначає порядок накладання відносно інших елементів. Збільшуйте значення, якщо плаваючі панелі з’являються за іншими компонентами, або зменшуйте, якщо вони їх перекривають."
         type: variable-number
         default: 44
     -
@@ -1160,6 +1172,7 @@ settings:
         id: cg-nt-tbar-text-max-width-desktop
         title: 'Max width on desktop (in px units)'
         title.zh: '桌面端最大宽度（单位：px）'
+        title.uk: "Максимальна ширина на комп'юторі (пікселі)"
         description: 'How wide the toolbar is allowed to be.'
         description.zh: '工具栏允许的最大宽度。'
         type: variable-number
@@ -1169,8 +1182,10 @@ settings:
         id: cg-nt-tbar-text-max-width-tablet
         title: 'Max width on tablets (in px units)'
         title.zh: '平板端最大宽度（单位：px）'
+        title.uk: 'Максимальна ширина на планшете (пікселі)'
         description: 'How wide the toolbar is allowed to be.'
         description.zh: '工具栏允许的最大宽度。'
+        description.uk: 'Яку максимальну ширину будуть мати ваши панелі'
         type: variable-number
         default: 650
         format: px
@@ -1178,6 +1193,7 @@ settings:
         id: cg-nt-tbar-text-margin-x
         title: 'Left + Right margin (in em units)'
         title.zh: '左右边距（单位：em）'
+        title.uk: 'Лівий + правий відступ (em)'
         type: variable-number
         default: 0.5
         format: em
@@ -1250,22 +1266,27 @@ settings:
         id: cg-nt-tbar-text-shadow
         title: 'Shadow'
         title.zh: '阴影'
+        title.uk: 'Тінь'
         description: 'Shadow behind the text toolbar'
         description.zh: '文本工具栏背后的阴影'
+        description.uk: 'Тінь за панелю для тексту'
         type: variable-select
         default: 'var(--shadow-s)'
         options:
             - 
                 label: 'None'
                 label.zh: '无'
+                label.uk: 'Вимкнута'
                 value: 'none'
             - 
                 label: 'Input style'
                 label.zh: '输入框样式'
+                label.uk: 'Стиль введення'
                 value: 'var(--input-shadow)'
             - 
                 label: 'Small style'
                 label.zh: '小型样式'
+                label.uk: 'Невеликий розмір'
                 value: 'var(--shadow-s)'
     -
         id: ui
@@ -1415,7 +1436,7 @@ body {
                  --ntb-tbar-top-spacing-md: calc(var(--view-header-height) + var(--ntb-tbar-top-spacing-pad));
              }
          }
-         &:not(:has(.workspace-leaf-content[data-type*="markdown"])) {
+         &.ntb-is-not-markdown {
              --ntb-tbar-top-spacing-md: 0px;
              &.is-floating-nav {
                  --ntb-tbar-top-spacing: calc(var(--view-header-height) + var(--ntb-tbar-top-spacing-pad));
@@ -1431,11 +1452,24 @@ body {
              --ntb-tbar-bottom-mb-phone: calc(var(--cg-nt-tbar-bottom-mb-phone) + var(--safe-area-inset-bottom));
          }
          &.ntb-remove-view-header {
-             --ntb-tbar-top-spacing: 0px;
-             --ntb-tbar-top-spacing-md: var(--size-4-2);
+            --ntb-tbar-top-spacing: 0px;
+            --ntb-tbar-top-spacing-md: var(--size-4-2);
+
+            --view-header-height: 0px;
+            & .view-header {
+                display: none;
+            }
+            & .view-content {
+                mask-image: var(--view-top-fade-mask);
+            }
          }
          &.ntb-remove-nav {
-             --ntb-tbar-bottom-mb-phone: calc(var(--cg-nt-tbar-bottom-mb-phone) + var(--safe-area-inset-bottom));
+            --ntb-tbar-bottom-mb-phone: calc(var(--cg-nt-tbar-bottom-mb-phone) + var(--safe-area-inset-bottom));
+
+            --navbar-height: 0px;
+            & .mobile-navbar {
+                display: none;
+            }
          }
     }
     
@@ -1475,113 +1509,55 @@ body {
     /* class is added in the Toggle Base toolbar command */
     &.ntb-hide-bases-header {
         .bases-header {
-            display: none !important;
+            display: none;
         }
     }
 
 }
 
 .ntb-hidden {
-    display: none !important;
+    display: none;
 }
 
-body.is-phone.ntb-remove-nav {
-    --navbar-height: 0px;
-    & .mobile-navbar {
-        display: none !important;
-    }
-}
-
-body.is-phone.ntb-remove-view-header {
-    --view-header-height: 0px;
-    & .view-header {
-        display: none !important;
-    }
-    & .view-content {
-        mask-image: var(--view-top-fade-mask);
-    }
-}
-
+/* FIXME: test in Obsidian 1.13 on phones; remove if fixed and if not, try: make selector more specific? */
 /* fix: tooltips appearing on elements below tapped elements */
-body.is-phone .tooltip {
+/* body.is-phone .tooltip {
     display: none !important;
-}
-/*
- * Default adjustments for various themes (CSS variables)
- */
-
-body {
-
-    &[data-ntb-csstheme="Baseline"] {
-        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
-        --cg-nt-tbar-top-sticky-pos-mobile: calc(1rem * -1 + 1px);
-    }
-    &[data-ntb-csstheme="Cupertino"] {
-        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 24px);
-        --ntb-anim-duration-moderate: var(--anim-duration-moderate);
-        --cg-nt-item-button-bg-color: var(--ntb-liquid-glass-background);
-        --cg-nt-item-border-radius: 32px;
-        --ntb-shadow-base: var(--shadow-base);
-        --ntb-shadow-xs: var(--shadow-xs);
-    }
-    &[data-ntb-csstheme="Baseline"], &[data-ntb-csstheme="Cupertino"] {     
-        --cg-nt-fab-inactive-opacity: 0.5;
-        --cg-nt-tbar-inactive-opacity-desktop: 0.5;
-        --cg-nt-tbar-inactive-opacity-mobile: 0.5;
-        --cg-nt-tbar-bg-color: rgba(0,0,0,0.0);
-        /* theme overrides this? so reset it */
-        --raised-blur: blur(2px) saturate(1.5) brightness(1.025);
-        &.is-phone {
-            --cg-nt-fab-pos-x-mobile: var(--navbar-side-offset);
-            --cg-nt-fab-pos-y-mobile: var(--navbar-bottom-offset);
-        }
-        &.is-mobile.theme-dark {
-            --cg-nt-tbar-bg-color: unset !important;
-        }
-    }
-    &[data-ntb-csstheme="Minimal"] {
-        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
-    }
-    &[data-ntb-csstheme="Velocity"] {
-        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 22px);      
-    }
-
-}
+} */
 /*
  * Callouts
  */
 
-.cm-embed-block:has(> div > .callout[data-callout="note-toolbar"]:not(.note-toolbar-launchpad)) {
-    &:hover {
-        box-shadow: none !important; /* hide the border on hover of the toolbar callout */
-        & .edit-block-button {
-            display: none; /* hide the edit icon that appears */
-        }
+ /* hide built-in callout border on hover + edit icon */
+.cm-embed-block.cm-embed-block:not([data-is-launchpad]).cg-note-toolbar-container:hover,
+.cm-embed-block.cm-embed-block:not([data-is-launchpad])[data-is-ntb]:hover {
+    box-shadow: none; 
+    & .edit-block-button {
+        display: none;
     }
 }
 
-.cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="sticky"]),
-.cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="mstcky"]) {
-    &[data-tbar-position="props"] {
-        position: sticky;
-        top: var(--cg-nt-tbar-top-sticky-pos-desktop);
-        z-index: 2;
-        .is-mobile &, .is-phone & {
-            top: var(--cg-nt-tbar-top-sticky-pos-mobile);
-        }
-    }
-}
-
-/* default, if not specified */
-.cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="nosticky"]) {
-    top: inherit;
-    position: relative;
-}
-
-.cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="mnstcky"]) {
+/* sticky callouts and props toolbars */
+.cm-embed-block.cm-embed-block[data-is-ntb]:is([data-ntb-meta*="sticky"], [data-ntb-meta*="mstcky"]),
+.cm-embed-block.cm-embed-block.cg-note-toolbar-container[data-tbar-position="props"]:is([data-ntb-meta*="sticky"], [data-ntb-meta*="mstcky"]) {
+    position: sticky;
+    top: var(--cg-nt-tbar-top-sticky-pos-desktop);
+    z-index: 2;
     .is-mobile &, .is-phone & {
+        top: var(--cg-nt-tbar-top-sticky-pos-mobile);
+    }
+}
+
+.cm-embed-block.cm-embed-block[data-is-ntb] {
+    &[data-ntb-meta*="nosticky"] {
         top: inherit;
         position: relative;
+    }
+    &[data-ntb-meta*="mnstcky"] {
+        .is-mobile &, .is-phone & {
+            top: inherit;
+            position: relative;
+        }
     }
 }
 
@@ -1592,42 +1568,31 @@ body {
     }
 }
 
-.is-phone .cm-embed-block[data-tbar-position="top"] {
+body.is-phone .cm-embed-block[data-tbar-position="top"] {
     margin-top: var(--ntb-tbar-top-mt-phone);
     padding-top: var(--ntb-tbar-top-pt-phone);
 }
 
-.is-phone:has(.cg-note-toolbar-container[data-tbar-position="top"]) .view-header {
-    margin-top: var(--ntb-tbar-top-header-mt-phone);
-    padding-top: var(--ntb-tbar-top-header-pt-phone);
-}
-
-/* fixes header div getting squished when the toolbar's at the top position */
-/* .view-header:has(+ [data-tbar-position="top"]) {
-    min-height: var(--header-height);
-} */
-
-/* removes padding above the top navigation, when Obsidian's Floating navigation setting is disabled */
-/* .is-phone .view-header:has(+ [data-tbar-position="top"]) {
-    padding-top: 0;
-} */
-
-/* removes safe area inset from these variables, as it's taken into account above the toolbar */
-.is-phone:has(.cg-note-toolbar-container[data-tbar-position="top"]) .view-content {
-    --view-top-fade-mask: var(--ntb-tbar-top-fade-mask);
-    --view-top-spacing: var(--ntb-tbar-top-spacing);
-    --view-top-spacing-markdown: var(--ntb-tbar-top-spacing-md);
+body.is-phone .mod-root .cg-note-toolbar-container[data-tbar-position="top"] {
+    & ~ .view-header {
+        margin-top: var(--ntb-tbar-top-header-mt-phone);
+        padding-top: var(--ntb-tbar-top-header-pt-phone);
+    }
+    /* removes safe area inset from these variables, as it's taken into account above the toolbar */
+    & ~ .view-content {
+        --view-top-fade-mask: var(--ntb-tbar-top-fade-mask);
+        --view-top-spacing: var(--ntb-tbar-top-spacing);
+        --view-top-spacing-markdown: var(--ntb-tbar-top-spacing-md);
+    }
 }
 
 .callout[data-callout="note-toolbar-output"] {
-    background-color: var(--background-primary) !important;
-    background-image: unset !important;
-    margin: 0em !important;
-    padding: 0em;
-    &:has(> .callout-title) {
-        border: 4px dashed var(--background-secondary);
-        padding: 1em;
-    }
+    background: none;
+    background-color: var(--background-primary);
+    background-image: unset;
+    border: 4px dashed var(--background-secondary);
+    margin: 0em;
+    padding: 1em;
     & .callout-content {
         color: var(--background-secondary);       
     }
@@ -1644,16 +1609,22 @@ body {
     }
 }
 
-.callout[data-callout="note-toolbar"] {
+/* overrides Cupertino theme's background gradient */
+body.mod-macos .callout.callout[data-callout='note-toolbar-output'] {
+    background: none;
+}
 
-    /* fix: (#378) reset CSS rules applied by themes (e.g., Velocity) */
-    background-image: unset !important;
-    box-shadow: unset !important;
+body .callout[data-callout="note-toolbar"],
+body .workspace .callout[data-callout="note-toolbar"] {
 
-    background-color: var(--cg-nt-tbar-bg-color) !important;
+    /* fix: (#378) rese t CSS rules applied by themes (e.g., Velocity) */
+    background-image: unset;
+    box-shadow: unset;
+
+    background-color: var(--cg-nt-tbar-bg-color);
     border-radius: var(--cg-nt-tbar-border-radius);
     border-style: none;
-    outline: none !important;
+    outline: none;
     padding: 0;
     padding-inline: var(--cg-nt-tbar-padding-inline);
     width: 100%;
@@ -1665,7 +1636,7 @@ body {
     & .callout-content {
 
         /* fix: (#378) reset CSS rules applied by themes (e.g., Primary) */
-        box-shadow: unset !important;
+        box-shadow: unset;
 
         & ul {
             display: flex;
@@ -1714,7 +1685,7 @@ body {
                 }
             }
             &.hide-in-mode {
-                display: none !important;
+                display: none;
             }
             & span.hide {
                 display: none;
@@ -1727,24 +1698,21 @@ body {
             & span.hide-on-desktop {
                 display: none;
                 .is-mobile & {
-                    display: block !important;
+                    display: block;
                 }
             }
             &::before {
-                content: none !important; /* removes decoration added by ITS theme */
+                content: none; /* removes decoration added by ITS theme */
             }
         }
 
-        & li:has(> data[data-spread]),
-        & li:has(> a.external-link + data[data-spread]) {
+        & li[data-ntb-type="spreader"] {
             flex: auto;
             & a:hover {
                 background: none;
             }
         }
-        & li:has(> hr),
-        & li:has(> data[data-sep]),
-        & li:has(> a.external-link + data[data-sep]) {
+        & li[data-ntb-type="separator"] {
             border-left: var(--cg-nt-item-sep-width) solid var(--cg-nt-item-sep-color);
             margin: var(--cg-nt-item-sep-margin-y) var(--cg-nt-item-sep-margin-x);
             width: 1px;
@@ -1755,9 +1723,7 @@ body {
                 margin: initial;
             }
         }
-        & li:has(> br),
-        & li:has(> data[data-break]),
-        & li:has(> a.external-link + data[data-break]) {
+        & li[data-ntb-type="break"] {
             flex-basis: 100%;
             height: 0;
         }
@@ -1802,15 +1768,18 @@ body {
             background-image: none; /* hide the external link icon */
             gap: 0 0.5em;
             &::after {
-                content: none !important; /* removes decoration added by ITS theme */
+                content: none; /* removes decoration added by ITS theme */
             }
         }
 
         & span.cm-iconize-icon, span.iconize-icon-in-link {
-            transform: unset !important;
             align-items: center;
             vertical-align: middle;
             margin-right: unset;
+            /* fix to counter the inline transform on the span */
+            & svg {
+                transform: translateY(-13%);
+            }
             /* fix for bold Iconize icons #162 */
             & svg svg[stroke-width='16px'] {
                 stroke-width: 2;
@@ -1926,17 +1895,14 @@ body {
                     min-width: var(--ntb-callout-card-width-mobile);
                 }
                 & a, span.external-link {
-                    padding: 16px !important;
-                    align-items: center;
+                    padding: 16px;
+                    align-items: start;
                     border-radius: var(--radius-m);
                     color: var(--cg-nt-item-text-color);
+                    margin-top: 48px;
                     width: 100%;
                     text-wrap: wrap;
                     user-select: none;
-                    &:has(span.cm-iconize-icon) {                        
-                        align-items: start;
-                        margin-top: 48px;
-                    }
                     & span.cm-iconize-icon {
                         align-items: center;
                         display: flex;
@@ -2080,7 +2046,7 @@ body {
     }
 
     &[data-callout-metadata*="wide"] {
-        max-width: none !important;
+        max-width: none;
     }
 
     &[data-callout-metadata*="mwd"] {
@@ -2224,10 +2190,6 @@ body {
             background-color: unset;
             border-radius: unset;
         }
-        &:hover {
-            /* themes like Cyber Glow add a hover color to callouts; remove it for toolbars */
-            background-color: unset;
-        }
     }
     
 }
@@ -2256,15 +2218,13 @@ body.is-phone .cg-note-toolbar-container {
             }
         }
     }
-    &[data-tbar-position*="top"] {
-        &:has(.callout[data-callout="note-toolbar"]:is([data-callout-metadata*="autohide"], [data-callout-metadata*="mhd"]):not([data-callout-metadata*="mnhd"])) {
-            transition: opacity 0.3s ease-in-out, transform 0.3s ease-out;
-            body.is-hidden-nav & {
-                opacity: 0;
-                transition: opacity 0.3s ease-in-out;
-                transform: translateY(calc(var(--ntb-toolbar-height) * -1));
-                visibility: hidden;
-            }
+    &[data-tbar-position*="top"]:is([data-ntb-meta*="autohide"], [data-ntb-meta*="mhd"]):not([data-ntb-meta*="mnhd"]) {
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-out;
+        body.is-hidden-nav & {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            transform: translateY(calc(var(--ntb-toolbar-height) * -1));
+            visibility: hidden;
         }
     }
 }
@@ -2292,8 +2252,8 @@ body.is-phone .cg-note-toolbar-container[data-tbar-position*="top"] {
 /* Licensed under the MIT License; see the LICENSE file */
 body .callout[data-callout="note-toolbar"][data-callout-metadata*="glass"]:not([data-callout-metadata*="card"]),
 body.is-mobile .callout[data-callout="note-toolbar"][data-callout-metadata*="mgls"]:not([data-callout-metadata*="card"]) {
-    background: unset !important;
-    mix-blend-mode: normal !important;
+    background: unset;
+    mix-blend-mode: normal;
     overflow: visible;
     & .callout-content {
         overflow: visible;
@@ -2301,11 +2261,11 @@ body.is-mobile .callout[data-callout="note-toolbar"][data-callout-metadata*="mgl
     & ul {
         gap: var(--size-4-2);
         & a, span.external-link {
-            background-color: var(--ntb-liquid-glass-background) !important;
-            backdrop-filter: var(--raised-blur) !important;
+            background-color: var(--ntb-liquid-glass-background);
+            backdrop-filter: var(--raised-blur);
             /* fix: have to disable blur as workaround for Electron issue: if Obsidian translucent windows are enabled, there are ghosting images */
             body.is-translucent:not(.is-mobile) & {
-                backdrop-filter: unset !important;
+                backdrop-filter: unset;
             }
             border: var(--border-width) solid var(--background-modifier-border);
             border-radius: 32px;
@@ -2317,7 +2277,7 @@ body.is-mobile .callout[data-callout="note-toolbar"][data-callout-metadata*="mgl
                 box-shadow: none;
                 opacity: unset;
                 body.is-translucent:not(.is-mobile) & {
-                    background-color: var(--interactive-normal) !important;
+                    background-color: var(--interactive-normal);
                 }
             }
         }
@@ -2333,126 +2293,116 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
-/* 
-body:not(.is-mobile):not(.is-focused) .callout[data-callout="note-toolbar"][data-callout-metadata*="glass"]:not([data-callout-metadata*="card"]) {
-    & ul {
-        & a, span.external-link {
-            backdrop-filter: unset !important;
-            border: solid 1px red;
-        }
-    }
-} */
 .cm-embed-block > div > .callout[data-callout="note-toolbar"] {
 
     &[data-callout-metadata*="red"] {
         a.internal-link, a.external-link {
-            color: var(--color-red) !important;
+            color: var(--color-red);
         }
     }
     &[data-callout-metadata*="red-icon"], &[data-callout-metadata*="icon-red"] {
         a.internal-link,  a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-red) !important;
+                color: var(--color-red);
             }
         }
     }
 
     &[data-callout-metadata*="orange"] {
         a.internal-link, a.external-link {
-            color: var(--color-orange) !important;
+            color: var(--color-orange);
         }
     }
     &[data-callout-metadata*="orange-icon"], &[data-callout-metadata*="icon-orange"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-orange) !important;
+                color: var(--color-orange);
             }
         }
     }
 
     &[data-callout-metadata*="yellow"] {
         a.internal-link, a.external-link {
-            color: var(--color-yellow) !important;
+            color: var(--color-yellow);
         }
     }
     &[data-callout-metadata*="yellow-icon"], &[data-callout-metadata*="icon-yellow"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-yellow) !important;
+                color: var(--color-yellow);
             }
         }
     }
 
     &[data-callout-metadata*="green"] {
         a.internal-link, a.external-link {
-            color: var(--color-green) !important;
+            color: var(--color-green);
         }
     }
     &[data-callout-metadata*="green-icon"], &[data-callout-metadata*="icon-green"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-green) !important;
+                color: var(--color-green);
             }
         }
     }
 
     &[data-callout-metadata*="cyan"] {
         a.internal-link, a.external-link {
-            color: var(--color-cyan) !important;
+            color: var(--color-cyan);
         }
     }
     &[data-callout-metadata*="cyan-icon"], &[data-callout-metadata*="icon-cyan"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-cyan) !important;
+                color: var(--color-cyan);
             }
         }
     }
 
     &[data-callout-metadata*="blue"] {
         a.internal-link, a.external-link {
-            color: var(--color-blue) !important;
+            color: var(--color-blue);
         }
     }
     &[data-callout-metadata*="blue-icon"], &[data-callout-metadata*="icon-blue"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-blue) !important;
+                color: var(--color-blue);
             }
         }
     }
 
     &[data-callout-metadata*="purple"] {
         a.internal-link, a.external-link {
-            color: var(--color-purple) !important;
+            color: var(--color-purple);
         }
     }
     &[data-callout-metadata*="purple-icon"], &[data-callout-metadata*="icon-purple"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-purple) !important;
+                color: var(--color-purple);
             }
         }
     }
 
     &[data-callout-metadata*="pink"] {
         a.internal-link, a.external-link {
-            color: var(--color-pink) !important;
+            color: var(--color-pink);
         }
     }
     &[data-callout-metadata*="pink-icon"], &[data-callout-metadata*="icon-pink"] {
         a.internal-link, a.external-link {
-            color: inherit !important;
+            color: inherit;
             & > .cm-iconize-icon svg {
-                color: var(--color-pink) !important;
+                color: var(--color-pink);
             }
         }
     }
@@ -2462,8 +2412,10 @@ body:not(.is-mobile):not(.is-focused) .callout[data-callout="note-toolbar"][data
  * FAB (Floating Action Button)
  */
 
-/* toolbar styles */
-.cg-note-toolbar-fab-container {
+ .cg-note-toolbar-fab-container {
+    
+    /* toolbar styles */
+
     & button[data-fab-metadata*="autohide"] {
         box-shadow: none;
         &:not(.is-mobile &) {
@@ -2488,10 +2440,9 @@ body:not(.is-mobile):not(.is-focused) .callout[data-callout="note-toolbar"][data
             display: none;
         }
     }
-}
 
-/* positioning */
-.cg-note-toolbar-fab-container {
+    /* positioning */
+
     bottom: var(--cg-nt-fab-pos-y-desktop);
     position: absolute;
     padding: 0;
@@ -2553,26 +2504,26 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
     100% { transform: scale(1.5); }
 }
 
-.cg-note-toolbar-fab {
+button.cg-note-toolbar-fab {
     aspect-ratio: 1;
-    background-color: var(--cg-nt-fab-bg-color-desktop) !important;
+    background-color: var(--cg-nt-fab-bg-color-desktop);
     color: var(--cg-nt-fab-icon-color-desktop);
     border-radius: var(--cg-nt-fab-border-radius-desktop);
-    height: auto !important;
-    padding: var(--cg-nt-fab-padding-desktop) !important;
+    height: auto;
+    padding: var(--cg-nt-fab-padding-desktop);
     &:is(:active, :hover, :focus-visible) {
-        color: var(--cg-nt-fab-icon-color-desktop) !important;
-        background-color: var(--cg-nt-fab-bg-color-hover-desktop) !important;
+        color: var(--cg-nt-fab-icon-color-desktop);
+        background-color: var(--cg-nt-fab-bg-color-hover-desktop);
     }
     .is-mobile & {
-        background: var(--cg-nt-fab-bg-color) !important;
+        background: var(--cg-nt-fab-bg-color);
         border-radius: var(--cg-nt-fab-border-radius);
         color: var(--cg-nt-fab-icon-color);
-        padding: var(--cg-nt-fab-padding) !important;
+        padding: var(--cg-nt-fab-padding);
         transition: transform 0.2s ease-out;
         &:is(:active, :hover, :focus-visible) {
-            background: var(--cg-nt-fab-bg-color) !important;
-            color: var(--cg-nt-fab-icon-color) !important;
+            background: var(--cg-nt-fab-bg-color);
+            color: var(--cg-nt-fab-icon-color);
         }
         &:is(:active) {
             @media (prefers-reduced-motion: no-preference) {
@@ -2609,9 +2560,9 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
 /* Licensed under the MIT License; see the LICENSE file */
 body button.cg-note-toolbar-fab[data-fab-metadata*="glass"],
 body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
-    background-color: var(--ntb-liquid-glass-background) !important;
-    background-image: unset !important;
-    backdrop-filter: var(--raised-blur) !important;
+    background-color: var(--ntb-liquid-glass-background);
+    background-image: unset;
+    backdrop-filter: var(--raised-blur);
     border: var(--border-width) solid var(--background-modifier-border);
     box-shadow: var(--ntb-shadow-xs);
     /* fix? ghosting effect with overlays when glass style is being used; happens on desktop */
@@ -2627,9 +2578,9 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
     }
     .is-mobile & {
         &:is(:active, :hover, :focus-visible) {
-            background: unset !important;
-            background-color: var(--ntb-liquid-glass-background) !important;
-            color: var(--text-normal) !important;
+            background: unset;
+            background-color: var(--ntb-liquid-glass-background);
+            color: var(--text-normal);
         }
     }
 }
@@ -2641,7 +2592,7 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
     border-radius: var(--cg-nt-tbar-border-radius);
     /* fix: (#90) box-shadow appearing over top of text */
     /* box-shadow: 0 0 0 1px var(--cg-nt-tbar-bg-color); */
-    &:has(.callout[data-callout-metadata*="autohide"]) {
+    &[data-ntb-meta*="autohide"] {
         box-shadow: none;
     }
     margin-bottom: 1em;
@@ -2649,14 +2600,6 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
         margin-inline-start: 0;
         margin-inline-end: 0;
     }
-    &:hover {
-        &:not(:has(.note-toolbar-launchpad)) {
-            /* fix: (#14) flickering problem experienced with Banner plugin beta in use */
-            overflow: inherit !important;
-        }
-    }
-    /* width: var(--var-max-width);
-    max-width: var(--var-max-width); */
 
     &[data-tbar-position="bottom"],
     &[data-tbar-position="top"] {
@@ -2667,13 +2610,9 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
         padding-bottom: 0;
         padding-top: 0;
         z-index: var(--cg-nt-tbar-z-index);
-        &:hover {
-            /* undoes fix (#14) which causes a layout shift on hover */
-            overflow: visible !important;
-        }
         & .cg-note-toolbar-callout {
             margin-bottom: 0;
-            margin-inline: auto auto !important;
+            margin-inline: auto auto;
             transition: border-top 0.5s ease-out;
         }
     }
@@ -2696,15 +2635,15 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
             }
             /* fix: bottom margin needs to be removed when keyboard is open on phone */
             .is-phone.ntb-is-keyboard-open & {
-                margin-bottom: unset !important;
-                transition: unset !important;
+                margin-bottom: unset;
+                transition: unset;
             }
         }
 
         /* remove the background color for toolbars using the button style */
         & .cg-note-toolbar-callout[data-callout-metadata*="button"],
         & .cg-note-toolbar-callout[data-callout-metadata*="mbtn"] {
-            background-color: unset !important;
+            background-color: unset;
             @media (hover: hover) {
                 & a:hover, span.external-link:hover {
                     background-color: var(--interactive-hover);
@@ -2759,7 +2698,7 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
         /* remove the background color for toolbars using the button style */
         & .cg-note-toolbar-callout[data-callout-metadata*="button"],
         & .cg-note-toolbar-callout[data-callout-metadata*="mbtn"] {
-            background-color: unset !important;
+            background-color: unset;
             @media (hover: hover) {
                 & a:hover, span.external-link:hover {
                     background-color: var(--interactive-hover);
@@ -2772,7 +2711,7 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
 
 .is-phone .cg-note-toolbar-container[data-tbar-position*="bottom"] {
     /* if toolbar doesn't wrap, container needs a constrained width so it's scrollable */
-    &:has(.cg-note-toolbar-callout[data-callout-metadata*="mnwrp"]) {
+    &[data-ntb-meta*="mnwrp"] {
         max-width: 100%;
     }
     /* reduce padding to better align with formatting toolbar */
@@ -2782,13 +2721,13 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
 }
 
 /* hides the FAB when a sidebar is open on phones */
-.is-phone .app-container:has(.workspace.is-left-sidedock-open) .cg-note-toolbar-container[data-tbar-position*="fab"],
-.is-phone .app-container:has(.workspace.is-right-sidedock-open) .cg-note-toolbar-container[data-tbar-position*="fab"] {
+body.is-phone.ntb-is-sidedock-open .cg-note-toolbar-container[data-tbar-position*="fab"] {
     display: none;
 }
 
 /* remove spacing after props section, only if toolbar is in props position */
-.metadata-container:has(+ .cg-note-toolbar-bar-container[data-tbar-position="props"]) {
+/* TODO: apply class to .metadata-container when in props position instead of using :has() */
+.workspace-leaf-content[data-tbar-position*="props"] .metadata-container {
     margin-block-end: 0;
 }
 /*
@@ -2837,20 +2776,18 @@ body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"] {
     }
 }
 
-body[data-ntb-csstheme="Cupertino"],
-body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*="mgls"]) {
-    & .note-toolbar-menu {
-        background-color: var(--ntb-liquid-glass-background);
-        backdrop-filter: var(--raised-blur) !important;
-        border-color: var(--background-modifier-border);
-        border-radius: 20px;
-        border-style: solid;
-        border-width: var(--border-width);
-        box-shadow: var(--ntb-shadow-xs);
-        mix-blend-mode: normal !important;
-        & .menu-item {
-            border-radius: 24px;
-        }
+body[data-ntb-csstheme="Cupertino"] .note-toolbar-menu,
+body.is-tablet .note-toolbar-menu[data-ntb-meta*="mgls"] {
+    background-color: var(--ntb-liquid-glass-background);
+    backdrop-filter: var(--raised-blur);
+    border-color: var(--background-modifier-border);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: var(--border-width);
+    box-shadow: var(--ntb-shadow-xs);
+    mix-blend-mode: normal;
+    & .menu-item {
+        border-radius: 24px;
     }
 }
 /*
@@ -2859,6 +2796,7 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
 .note-toolbar-setting-ui, .note-toolbar-setting-modal-container {
     & .setting-group {
         & .setting-items {
+            padding: var(--size-4-5);
             &:focus-within {
                 box-shadow: inset 0 0 0 2px var(--background-modifier-border-focus);
             }
@@ -2878,52 +2816,40 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
     & .is-disabled {
         opacity: 0.6;
         & .setting-item-control:focus-within {
-            box-shadow: none !important;
+            box-shadow: none;
         }
         &:hover {
             background-color: initial;
         }
     }
+    /* FIXME: test in Obsidian 1.13 and remove if it was fixed */
     /* fix: Settings: Keyboard focus is not visible after tabbing away from toggle control (#501) */
-    & .checkbox-container:has(input:focus) {
+    /* & .checkbox-container:has(input:focus) {
         box-shadow: 0 0 0 var(--input-border-width-focus) var(--background-modifier-border-focus);
-    }
-}
-
-.note-toolbar-setting-modal-container {
-    .is-mobile & {
-        & .setting-group {
-            border-radius: var(--radius-m);
-            border: var(--border-width) solid var(--background-modifier-border);
-            & .setting-items {
-                border-radius: var(--radius-m);
-            }
-        }
-    }
-}
-
-.note-toolbar-setting-plugin-error,
-.note-toolbar-setting-plugin-onboarding {
-    padding: 1em !important;
-    border-radius: 8px;
+    } */
 }
 
 .note-toolbar-setting-plugin-error {
+    padding: 1em;
+    border: solid 1px var(--text-error);
+    border-radius: 8px;
     & .setting-item-name {
         color: var(--text-error);
     }
-    border: solid 1px var(--text-error) !important;
 }
 
-.note-toolbar-setting-plugin-onboarding {
-    border: solid 1px var(--color-accent-1) !important;
+.note-toolbar-setting-plugin-onboarding,
+.modal .modal-content .setting-item.note-toolbar-setting-plugin-onboarding:first-child {
+    padding: 1em;
+    border-radius: 8px;
+    border: solid 1px var(--color-accent-1);
     position: relative;
     & .setting-item-name {
         color: var(--color-accent-1);
     }
     & .setting-item-control {
         .is-phone & {
-            margin-top: unset !important;
+            margin-top: unset;
         }
     }
 }
@@ -2938,58 +2864,464 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
     font-size: var(--font-ui-small);
 }
 
-.note-toolbar-setting-toolbar-list {
-    background-color: var(--setting-items-background);
-    border-radius: var(--setting-items-radius);
-    margin: 0em 0em 1em 0em;
-    padding: 1em 1em;
-    .is-mobile & {
-        padding: 1em;
-        & .setting-item > .setting-item-control > button {
-            width: unset !important;
+.modal .modal-content .note-toolbar-setting-ui {
+
+    &.note-toolbar-setting-modal {
+        background-color: transparent;
+        padding-bottom: var(--size-4-5);
+        padding-inline-start: var(--size-4-5);
+        padding-inline-end: var(--size-4-5);
+        .is-phone & {
+            padding-top: 0;
+            padding-bottom: var(--size-4-12);
+        }
+        & .note-toolbar-setting-plugin-onboarding {
+            margin-bottom: 0.75em;
         }
     }
-    & .setting-item {
-        background-color: transparent !important;
-        border-radius: 0;
+
+    & .note-toolbar-setting-header-phone {
+        .is-phone & {
+            padding-top: 2.25em
+        }
+    }
+
+    & .note-toolbar-setting-items-button-container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .is-phone & {
+            justify-content: end;
+        }
+        & .setting-item {
+            border-top: none;
+            padding: 0;
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                gap: var(--size-4-4);
+                margin-top: 0;
+            }
+        }
+    }
+
+    & .note-toolbar-setting-toolbar-list {
+        background-color: var(--setting-items-background);
+        border-radius: var(--setting-items-radius);
+        margin: 0em 0em 1em 0em;
+        padding: 1em 1em;
+        .is-mobile & {
+            padding: 1em;
+            & .setting-item > .setting-item-control > button {
+                width: unset;
+            }
+        }
+        & .setting-item {
+            border-radius: 0;
+            border-top: var(--border-width) solid var(--background-modifier-border);
+            &:first-child {
+                border-top: none;
+            }
+            padding: 0.5em;
+            margin: 0.25em;
+            /* options button */
+            & button:first-child {
+                opacity: 0;
+                .is-mobile & {
+                    opacity: 1;
+                    width: auto;
+                }
+            }
+            /* edit button */
+            & button:last-child {
+                .is-mobile & {
+                    width: auto;
+                }
+            }
+            &:hover button:first-child {
+                opacity: 1;
+            }
+            &:focus-within {
+                outline: solid 2px var(--background-modifier-border-focus);
+                border-radius: var(--radius-m);
+                & button:first-child {
+                    opacity: 1;
+                }
+            }
+        }
+        & .setting-item-control {
+            .is-phone & {
+                justify-content: flex-end;
+                width: unset;
+            }
+        }
+    } 
+
+    & .note-toolbar-setting-bottom-spacing {
+        margin-bottom: 2em;
+    }
+
+    & .note-toolbar-setting-button {
+        border-top: none;
+        padding-top: 0;
+        padding-bottom: 1em;
+    }
+
+    & .note-toolbar-setting-group-container {
+        &[data-active="false"] {
+            display: none;
+        }
+    }
+
+    & .note-toolbar-setting-folder-mapping-container {
+        padding: 0 var(--setting-items-padding-x);
+    }
+
+    & .note-toolbar-setting-folder-list-item-container {
+        align-items: center;
+        display: flex;
         border-top: var(--border-width) solid var(--background-modifier-border);
         &:first-child {
             border-top: none;
         }
-        padding: 0.5em;
-        margin: 0.25em;
-        /* options button */
-        & button:first-child {
-            opacity: 0;
-            .is-mobile & {
-                opacity: 1;
-                width: auto;
+        padding: 8px 0;
+        & .setting-item {
+            align-items: center;
+            border-bottom: none;
+            margin-bottom: 0;
+            padding: unset;
+        }
+        & .note-toolbar-setting-item-fields {
+            padding: unset;
+            padding-right: 8px;
+            & .setting-item {
+                flex-grow: 1;
+                & .search-input-container {
+                    flex-grow: 1;
+                    & input {
+                        padding-inline-end: 0;
+                    }
+                }
             }
         }
-        /* edit button */
-        & button:last-child {
-            .is-mobile & {
-                width: auto;
+        & .note-toolbar-setting-mapping-field {
+            border-top: none;
+            padding: 0;
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                justify-content: flex-start;
+                .is-mobile & {
+                    margin-top: 0;
+                }
             }
         }
-        &:hover button:first-child {
-            opacity: 1;
+
+    }
+
+    & .note-toolbar-setting-no-background {
+        background-color: transparent;
+    }
+
+    & .note-toolbar-setting-no-border {
+        border-top: none;
+        &::before {
+            border: none;
         }
-        &:focus-within {
-            outline: solid 2px var(--background-modifier-border-focus);
-            border-radius: var(--radius-m);
-            & button:first-child {
-                opacity: 1;
+    }
+
+    & .note-toolbar-setting-position-group {
+        & .setting-items {
+            & .setting-item {
+                align-items: center;
+            }
+            & > .setting-item:nth-last-child(2) {
+                padding-bottom: 0;
+            }
+            & > .setting-item:last-child {
+                border-top: none;
+            }
+        }
+ 
+    }
+
+    & .note-toolbar-setting-top-border {
+        border-top: solid 1px var(--background-modifier-border);
+    }
+
+    & .note-toolbar-setting-top-spacing {
+        margin-top: 2em;
+    }
+
+    & .note-toolbar-setting-app-toolbars-container,
+    & .note-toolbar-setting-callout-container,
+    & .note-toolbar-setting-contexts-container,
+    & .note-toolbar-setting-items-container,
+    & .note-toolbar-setting-mappings-container,
+    & .note-toolbar-setting-navbar-container,
+    & .note-toolbar-setting-rules-container {
+        padding-top: 0.75em;
+        & .setting-item-heading {
+            flex-direction: row;
+            & .setting-item-info {
+                cursor: pointer;
+            }
+            .is-mobile & {
+                & .setting-item-control {
+                    gap: var(--size-4-4);
+                    width: unset;
+                }
+            }
+            .is-phone & {
+                padding-top: 1.5em;
+            }
+        }
+        & #tbar-search {
+            padding-top: 0;
+            margin-bottom: 0;
+            &:not(.is-mobile &) {
+                padding-bottom: unset;
+            }
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                margin-top: unset;
+            }
+        }
+        &[data-active="true"] {
+            & .note-toolbar-setting-items-collapsible-container,
+            & .note-toolbar-setting-items-list-container {
+                display: inherit;
+                & .setting-item-name {
+                    display: flex;
+                }
+            }
+            & .setting-item .note-toolbar-setting-item-expand svg {
+                transform: rotate(0deg);
+                transition: 0.1s;
+            }
+        }
+        &[data-active="false"] {
+            & .note-toolbar-setting-items-collapsible-container,
+            & .note-toolbar-setting-items-list-container {
+                display: none;
+            }
+            & .setting-item .note-toolbar-setting-item-expand svg {
+                transform: rotate(-90deg);
+                transition: 0.1s;
+            }
+            & .setting-item-heading {
+                margin-bottom: 0.75em;
             }
         }
     }
-    & .setting-item-control {
-        .is-phone & {
-            justify-content: flex-end !important;
-            width: unset !important;
+
+    & .note-toolbar-setting-callout-container,
+    & .note-toolbar-setting-contexts-container,
+    & .note-toolbar-setting-mappings-container,
+    & .note-toolbar-setting-rules-container {
+        & .setting-item {
+            .is-phone & {
+                & .setting-item-control {
+                    justify-content: flex-end;
+                }
+            }
         }
     }
-} 
+
+    & .note-toolbar-setting-items-container {
+        & .setting-item {
+            .is-phone & {
+                flex-direction: unset;
+            }
+        }
+    }
+
+    /* collapsible sections - bottom border */
+    & .note-toolbar-setting-app-toolbars-container,
+    & .note-toolbar-setting-callout-container,
+    & .note-toolbar-setting-contexts-container,
+    & .note-toolbar-setting-mappings-container,
+    & .note-toolbar-setting-navbar-container {
+        &[data-active="true"] {
+            margin-bottom: 0.75em;
+        }
+    }
+
+    & .note-toolbar-setting-items-container,
+    & .note-toolbar-setting-items-list-container {
+        & .note-toolbar-setting-button {
+            & .setting-item-info {
+                .is-phone & {
+                    display: none;
+                }
+            }
+        }  
+    }
+
+}
+
+.modal.note-toolbar-setting-modal-container .modal-content {
+
+    & .note-toolbar-setting-item-controls {
+        display: flex;
+        gap: var(--size-4-2);
+        & .setting-item {
+            border-bottom: none;
+            padding: 0;
+            & .setting-item-control {
+                .is-mobile & {
+                    margin-top: 0;
+                }
+            }
+            & .setting-item-info {
+                display: none;
+            }
+        }
+        &.note-toolbar-item-visibility-indicator {
+            padding-inline: var(--size-4-2);
+            & svg {
+            color: var(--interactive-accent);
+            }
+        }
+    }
+
+    & .note-toolbar-setting-item-styles {
+        & > .setting-item-info {
+            align-self: flex-start;
+        }
+        & .note-toolbar-setting-item-style {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: end;
+            gap: 0.25em;
+            width: 100%;
+            & .setting-item {
+                align-items: center;
+                /* box-shadow: blue 0px 0px 0px 1px !important; */
+                border-top: none;
+                border: dashed 1px var(--pill-color-remove);
+                border-radius: var(--pill-radius);
+                gap: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                padding-inline: 0.75em 0.25em;
+                flex-wrap: nowrap;
+                height: var(--input-height);
+                .is-mobile & {
+                    flex-direction: row;
+                }
+                &:first-child {
+                    border: dashed 1px var(--pill-color-remove);
+                }
+                &:last-child {
+                    border: none;
+                    padding: 0em;
+                    flex: 0 0 100%;
+                    &::before {
+                        border: none;
+                    }
+                }
+                & .setting-item-info {
+                    align-self: unset;
+                    margin-inline-end: 0.25em;
+                    color: var(--pill-color);
+                    & .setting-item-name {
+                        font-size: var(--metadata-input-font-size);
+                    }
+                }
+                & .setting-item-control {
+                    --icon-size: var(--icon-xs);
+                    --icon-stroke: var(--icon-xs-stroke-width);
+                    .is-mobile & {
+                        margin-top: 0;
+                    }
+                    .is-phone & {
+                        width: inherit;
+                    }
+                    & .extra-setting-button:active,
+                    & .extra-setting-button:hover {
+                        border-radius: var(--pill-radius);
+                    }
+                    & select.dropdown, 
+                    & select.dropdown:active,
+                    & select.dropdown:focus {
+                        border-radius: var(--pill-radius);
+                        font-size: var(--metadata-input-font-size);
+                    }
+                }
+            }
+        }
+    }
+
+    & .note-toolbar-setting-item-visibility {
+        display: flex;
+        & button {
+            font-size: var(--font-ui-smaller);
+        }
+    }
+
+    & .note-toolbar-setting-item-visibility-and-controls {
+        border-top: none;
+        display: flex;
+        padding-top: 0.75em;
+        justify-content: space-between;
+        & .setting-item {
+            padding-bottom: 0;
+            & .setting-item-info {
+                display: none;
+            }
+            .is-mobile & {
+                padding-top: 0;
+            }
+            & .setting-item-control {
+                .is-mobile & {
+                    margin-top: 0;
+                }
+                & button {
+                    background: none;
+                    box-shadow: none;
+                    color: var(--icon-color);
+                    gap: var(--size-4-2);
+                    padding: var(--size-4-2);
+                    &:hover {
+                        opacity: var(--icon-opacity-hover);
+                        color: var(--icon-color-hover);
+                        background-color: var(--background-modifier-hover);
+                    }
+                    &:focus-visible {
+                        border-radius: var(--input-radius);
+                        box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+                    }
+                    & span:last-child {
+                        font-size: var(--font-smaller);
+                    }
+                }
+            }
+        }
+        &[data-item-type="break"],
+        &[data-item-type="separator"],
+        &[data-item-type="spreader"]  {
+            padding-top: 0;
+            & span {
+                align-content: center;
+                color: var(--text-muted);
+                margin-left: 0.25em;
+            }
+        }
+    }
+
+    & .note-toolbar-setting-no-border {
+        border-top: none;
+    }
+
+}
 
 .mod-cta .note-toolbar-setting-text-with-icon {
     & svg {
@@ -2999,10 +3331,10 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
 
 .note-toolbar-setting-text-with-icon {
     display: inline-flex;
-    column-gap: 0.5em;
+    gap: 0 0.5em;
     align-items: center;
     & svg {
-        color: var(--text-color) !important;
+        color: var(--text-color);
         vertical-align: middle;
     }
 }
@@ -3018,10 +3350,10 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
         box-shadow: inset 0 0 0 2px var(--background-modifier-border-focus);
     }
     &[data-active="true"] {
-        display: inherit !important;
+        display: inherit;
     }
     &[data-active="false"] {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -3042,33 +3374,32 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
             padding-bottom: 0;
         }
     }
+    & .note-toolbar-setting-item-preview-code {
+        font-family: var(--font-monospace);
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
     + .note-toolbar-setting-field-error {
         padding-top: 8px;
         padding-bottom: 16px;
     }
     &[data-active="true"] {
-        display: flex !important;
+        display: flex;
     }
     &[data-active="false"] {
-        display: none !important;
+        display: none;
     }
 }
 
 .note-toolbar-setting-ui {
     .setting-item {
         &[data-active="true"] {
-            display: flex !important;
+            display: flex;
         }
         &[data-active="false"] {
-            display: none !important;
+            display: none;
         }
     }
-}
-
-.note-toolbar-setting-item-preview-code {
-    font-family: var(--font-monospace);
-    white-space: normal !important;
-    overflow-wrap: anywhere;
 }
 
 .note-toolbar-setting-item-preview .note-toolbar-setting-item-preview-code {
@@ -3080,7 +3411,7 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
     flex-grow: 1;
     /* flex-wrap: wrap; */
     font-size: var(--font-ui-medium);
-    column-gap: 0.5em;
+    gap: 0 0.5em;
     padding: 8px;
     .is-mobile & {
         padding-inline-start: 0;
@@ -3192,7 +3523,7 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
 
 .note-toolbar-setting-item-preview-edit-mobile {
     display: flex;
-    column-gap: 0.5em;
+    gap: 0 0.5em;
     justify-content: space-between;
     width: 100%;
 }
@@ -3229,6 +3560,17 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
     }
 }
 
+.note-toolbar-setting-script-preview {
+    background-color: var(--background-secondary);
+    display: flex;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-small);
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: var(--size-4-2) var(--size-4-3);
+    white-space: normal;
+}
+
 .note-toolbar-setting-empty-message {
     align-items: center;
     color: var(--text-muted);
@@ -3251,11 +3593,6 @@ body.is-tablet:has(.callout[data-callout="note-toolbar"][data-callout-metadata*=
 .note-toolbar-setting-error-message {
     color: var(--text-error);
     padding-bottom: 1em;
-}
-
-.setting-item-control:has(input[type="search"].note-toolbar-setting-error),
-.setting-item-control:has(input[type="text"].note-toolbar-setting-error) {
-    flex-wrap: wrap;
 }
 
 input[type="search"].note-toolbar-setting-error,
@@ -3300,42 +3637,6 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-setting-button {
-    border-top: none;
-    padding-top: 0 !important;
-    padding-bottom: 1em !important;
-}
-
-.is-phone .note-toolbar-setting-header-phone {
-    padding-top: 2.25em !important
-}
-
-.note-toolbar-setting-no-background {
-    background-color: transparent !important;
-}
-
-.note-toolbar-setting-no-border {
-    border-top: none !important;
-}
-
-.note-toolbar-setting-top-border {
-    border-top: solid 1px var(--background-modifier-border) !important;
-}
-
-.note-toolbar-setting-top-spacing {
-    margin-top: 2em !important;
-}
-
-.note-toolbar-setting-bottom-spacing {
-    margin-bottom: 2em !important;
-}
-
-.note-toolbar-setting-group-container {
-    &[data-active="false"] {
-        display: none !important;
-    }
-}
-
 .note-toolbar-setting-item-full-width {
     align-items: flex-start;
     flex-direction: column;
@@ -3357,146 +3658,16 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-setting-folder-list-item-container {
-    display: flex;
-    border-top: var(--border-width) solid var(--background-modifier-border);
-    &:first-child {
-        border-top: none;
-    }
-    padding: 8px 0;
-    & .setting-item {
-        align-items: center !important;
-        border-bottom: none !important;
-        margin-bottom: 0 !important;
-        padding: unset;
-    }
-    & .note-toolbar-setting-item-fields {
-        padding: unset;
-        padding-right: 8px;
-        & .setting-item {
-            flex-grow: 1;
-            & .search-input-container {
-                flex-grow: 1;
-                & input {
-                    padding-inline-end: 0;
-                }
-            }
-        }
-    }
-}
-
 .note-toolbar-setting-items-header {
-    border-bottom: 1px solid var(--background-modifier-border) !important;
-    border-width: 0 0 var(--border-width) 0 !important;
+    border-bottom: 1px solid var(--background-modifier-border);
+    border-width: 0 0 var(--border-width) 0;
     border-radius: 0%;
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
 
-.note-toolbar-setting-app-toolbars-container,
-.note-toolbar-setting-callout-container,
-.note-toolbar-setting-contexts-container,
-.note-toolbar-setting-items-container,
-.note-toolbar-setting-mappings-container,
-.note-toolbar-setting-navbar-container,
-.note-toolbar-setting-rules-container {
-    padding-top: 0.75em;
-    & .setting-item-heading {
-        flex-direction: row !important;
-        & .setting-item-info {
-            cursor: pointer;
-        }
-        .is-mobile & {
-            & .setting-item-control {
-                gap: var(--size-4-4);
-                width: unset !important;
-            }
-        }
-        .is-phone & {
-            padding-top: 1.5em !important;
-        }
-    }
-    & #tbar-search {
-        padding-top: 0;
-        margin-bottom: 0;
-        & .setting-item-info {
-            display: none;
-        }
-        & .setting-item-control {
-            margin-top: unset;
-        }
-    }
-    &[data-active="true"] {
-        & .note-toolbar-setting-items-collapsible-container,
-        & .note-toolbar-setting-items-list-container {
-            display: inherit !important;
-            & .setting-item-name {
-                display: flex;
-            }
-        }
-        & .setting-item .note-toolbar-setting-item-expand svg {
-            transform: rotate(0deg);
-            transition: 0.1s;
-        }
-    }
-    &[data-active="false"] {
-        & .note-toolbar-setting-items-collapsible-container,
-        & .note-toolbar-setting-items-list-container {
-            display: none !important;
-        }
-        & .setting-item .note-toolbar-setting-item-expand svg {
-            transform: rotate(-90deg);
-            transition: 0.1s;
-        }
-        & .setting-item-heading {
-            margin-bottom: 0.75em;
-        }
-    }
-}
-
-.note-toolbar-setting-callout-container,
-.note-toolbar-setting-contexts-container,
-.note-toolbar-setting-mappings-container,
-.note-toolbar-setting-rules-container {
-    & .setting-item {
-        .is-phone & {
-            & .setting-item-control {
-                justify-content: flex-end !important;
-            }
-        }
-    }
-}
-
-.note-toolbar-setting-items-container {
-    & .setting-item {
-        .is-phone & {
-            flex-direction: unset !important;
-        }
-    }
-}
-
-/* collapsible sections - bottom border */
-.note-toolbar-setting-app-toolbars-container,
-.note-toolbar-setting-callout-container,
-.note-toolbar-setting-contexts-container,
-.note-toolbar-setting-mappings-container,
-.note-toolbar-setting-navbar-container {
-    &[data-active="true"] {
-        margin-bottom: 0.75em;
-    }
-}
-
 .note-toolbar-setting-item-heading-top-spacing {
     padding-top: 1.5em;
-}
-
-.is-phone .note-toolbar-setting-items-container,
-.is-phone .note-toolbar-setting-items-list-container {
-    & .note-toolbar-setting-button {
-        & .setting-item-info {
-            display: none;
-        }
-    }  
 }
 
 .note-toolbar-setting-item-full-control-phone {
@@ -3508,243 +3679,212 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-setting-items-button-container {
-    align-items: center !important;
-    display: flex;
-    flex-direction: row !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    .is-phone & {
-        justify-content: end;
-    }
-    & .setting-item {
-        border-top: none;
-        padding: 0 !important;
-        & .setting-item-info {
-            display: none;
-        }
-        & .setting-item-control {
-            gap: var(--size-4-4);
-            margin-top: 0 !important;
-        }
-    }
-}
+.modal.note-toolbar-setting-modal-container {
 
-.note-toolbar-setting-item-top-container {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    & .setting-item {
-        border-bottom: none !important;
-    }
-}
-
-.note-toolbar-setting-item-visibility-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    & .setting-item {
-        border-bottom: none !important;
-    }
-}
-
-.note-toolbar-setting-item-icon {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        margin-top: 0 !important;
-        border: dashed 1px;
-        border-radius: var(--input-radius);
-        border-color: var(--background-modifier-border);
-        padding: var(--size-2-2) !important;
-        & .clickable-icon[data-note-toolbar-no-icon="true"] {
-            & svg {
-                filter: brightness(0.5);
-            }
+    & .note-toolbar-setting-item-top-container {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        & .setting-item {
+            border-bottom: none;
         }
-        & .clickable-icon:focus-within {
-            box-shadow: none;
-        }
-        &:focus-within {
-            border-radius: var(--input-radius);
-            box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
-            transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
-        }
-    }
-}
-
-.note-toolbar-setting-mapping-field {
-    border-top: none !important;
-    padding: 0 !important;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        justify-content: flex-start;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-field {
-    border-top: none !important;
-    flex-grow: 1;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    .is-mobile & {
-        padding-bottom: 0.75em;            
-    }
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        width: 100%;
-        & input[type="text"] {
-            width: 100%;
-        }
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    @media (max-width: 600px) {
-        grid-template-columns: 1fr;
-    }
-    gap: 0.75em;
-    width: 100%;
-    & .setting-item {
-        /* padding: 0 !important; */
-        & .setting-item-info {
-            display: none;
-        }
-        & .setting-item-control {
-            justify-content: start;
+        & .note-toolbar-setting-item-icon {
+            padding-top: 0;
+            padding-bottom: 0;
             .is-mobile & {
-                margin-top: 0 !important;
+                padding-bottom: 0.75em;
+            }
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                margin-top: 0;
+                border: dashed 1px;
+                border-radius: var(--input-radius);
+                border-color: var(--background-modifier-border);
+                padding: var(--size-2-2);
+                & .clickable-icon[data-note-toolbar-no-icon="true"] {
+                    & svg {
+                        filter: brightness(0.5);
+                    }
+                }
+                & .clickable-icon:focus-within {
+                    box-shadow: none;
+                }
+                &:focus-within {
+                    border-radius: var(--input-radius);
+                    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+                    transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out;
+                }
+            }
+        }
+        & .note-toolbar-setting-item-label-tooltip {
+            border-top: none;
+            flex-grow: 1;
+            padding-top: 0;
+            padding-bottom: 0;
+            .is-mobile & {
+                padding-bottom: 0.75em;
+            }
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                width: 100%;
+                & input[type="text"] {
+                    width: 100%;
+                }
+                .is-mobile & {
+                    margin-top: 0;
+                }
             }
         }
     }
-}
 
-.note-toolbar-setting-item-link-field,
-.note-toolbar-setting-item-link-subfield {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    column-gap: 1em;
-    /* row-gap: 1em; */
-    & .setting-item {
-        padding: 0;
-    }
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        .is-mobile & {
-            margin-top: 0 !important;
+    & .note-toolbar-setting-item-link-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        @media (max-width: 600px) {
+            grid-template-columns: 1fr;
         }
-    }
-}
-
-.note-toolbar-setting-subfield-advanced-container {
-    width: 100%;
-}
-
-.note-toolbar-setting-subfield-advanced {
-    align-items: center !important;
-    display: flex;
-    flex-direction: row !important;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    & .setting-item-info {
-        display: initial !important;
-        & .setting-item-name {
-            cursor: pointer;
-        }
-    }
-    & .setting-item-control {
-        align-items: flex-end !important;
-        width: auto !important;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link-advanced {
-    display: none;
-    &[data-active] {
-        display: flex !important;
-    }
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 1em;
-    & .setting-group {
-        .is-mobile & {
-            border: var(--border-width) solid var(--background-modifier-border);
-            border-radius: var(--radius-m);
-        }
-    }
-    & .setting-item {
-        border: none;
-        padding: 0;
-    }
-    & .setting-item-info {
-        display: initial !important;
-        & .setting-item-name {
-            font-size: var(--font-ui-small);
-        }
-    }
-    & .setting-item-control {
-        justify-content: end !important;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link {
-    width: 100%;
-}
-
-.note-toolbar-setting-item-field-link {
-    align-items: flex-start;
-    border-top: none !important;
-    flex-direction: column;
-    gap: 0.5em;
-    padding-top: 0 !important;
-    width: 100%;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        align-items: flex-start;
-        flex-direction: column;
-        /* for the advanced settings gear */
-        &.note-toolbar-setting-item-control-advanced {
-            align-items: center;
-            flex-direction: row
-        }
-    };
-    & .setting-item-control, .search-input-container {
+        gap: 0.75em;
         width: 100%;
-        & input[type="text"] {
+        & .setting-item {
+            & .setting-item-info {
+                display: none;
+            }
+            & .setting-item-control {
+                justify-content: start;
+                .is-mobile & {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    & .note-toolbar-setting-item-link {
+        width: 100%;
+    }
+
+    & .note-toolbar-setting-item-field-link {
+        align-items: flex-start;
+        border-top: none;
+        flex-direction: column;
+        gap: 0.5em;
+        padding-top: 0;
+        width: 100%;
+        & .setting-item-info {
+            display: none;
+        }
+        & .setting-item-control {
+            align-items: flex-start;
+            flex-direction: column;
+            /* for the advanced settings gear */
+            &.note-toolbar-setting-item-control-advanced {
+                align-items: center;
+                flex-direction: row
+            }
+        };
+        & .setting-item-control, .search-input-container {
+            width: 100%;
+            & input[type="text"] {
+                width: 100%;
+            }
+        }
+        & textarea {
+            height: 8rem;
             width: 100%;
         }
     }
-    & textarea {
-        height: 8rem;
+
+    & .note-toolbar-setting-item-visibility-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        & .setting-item {
+            border-bottom: none;
+        }
+    }
+
+    & .note-toolbar-setting-item-link-field,
+    & .note-toolbar-setting-item-link-subfield {
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        gap: 0 1em;
+        & .setting-item-info {
+            display: none;
+        }
+        & .setting-item-control {
+            .is-mobile & {
+                margin-top: 0;
+            }
+        }
+    }
+
+    & .note-toolbar-setting-subfield-advanced-container {
         width: 100%;
     }
+
+    & .setting-item.note-toolbar-setting-subfield-advanced-heading {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        & .setting-item-info {
+            display: initial;
+            & .setting-item-name {
+                cursor: pointer;
+            }
+        }
+        & .setting-item-control {
+            align-items: flex-end;
+            width: auto;
+            .is-mobile & {
+                margin-top: 0;
+            }
+        }
+    }
+
+    & .note-toolbar-setting-item-link-advanced {
+        display: none;
+        &[data-active] {
+            display: flex;
+        }
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 1em;
+        & .setting-group {
+            .is-mobile & {
+                border: var(--border-width) solid var(--background-modifier-border);
+                border-radius: var(--radius-m);
+            }
+            & .setting-items {
+                & .setting-item-info {
+                    display: initial;
+                    & .setting-item-name {
+                        font-size: var(--font-ui-small);
+                    }
+                }
+                & .setting-item-control {
+                    justify-content: end;
+                    .is-mobile & {
+                        margin-top: 0;
+                    }
+                }
+                & .setting-item[data-active="false"] {
+                    display: none;
+                }
+                & .setting-item.note-toolbar-setting-no-padding-bottom {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
 }
+
 
 .note-toolbar-setting-focussable-link {
     &:focus-within {
@@ -3753,6 +3893,7 @@ input[type="text"].note-toolbar-setting-error,
 }
 
 .note-toolbar-setting-field-help,
+.note-toolbar-setting-field-help-copy,
 .note-toolbar-setting-field-error {
     color: var(--text-muted);
     font-size: var(--font-ui-smaller);
@@ -3773,8 +3914,12 @@ input[type="text"].note-toolbar-setting-error,
         vertical-align: middle;
     }
     &[data-active="false"] {
-        display: none !important;
+        display: none;
     }
+}
+
+.note-toolbar-setting-field-help-copy {
+    margin-top: 0;
 }
 
 .note-toolbar-setting-tbar-preview {
@@ -3817,7 +3962,6 @@ input[type="text"].note-toolbar-setting-error,
     }
     & .sortable-handle {
         cursor: move;
-        cursor: -webkit-grabbing;
     }
     & .sortable-handle:hover {
         cursor: grab;
@@ -3834,7 +3978,7 @@ input[type="text"].note-toolbar-setting-error,
     }
     & .setting-item-control {
         .is-mobile & {
-            margin-top: 0 !important;
+            margin-top: 0;
         }
         & button {
             background: none;
@@ -3855,86 +3999,6 @@ input[type="text"].note-toolbar-setting-error,
     }
     & svg {
         color: var(--text-error);
-    }
-}
-
-.note-toolbar-setting-item-visibility {
-    display: flex;
-    & button {
-        font-size: var(--font-ui-smaller);
-    }
-}
-
-.note-toolbar-setting-item-controls {
-    display: flex;
-    gap: var(--size-4-2);
-    & .setting-item {
-        border-bottom: none !important;
-        padding: 0 !important;
-        & .setting-item-control {
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-        }
-        & .setting-item-info {
-            display: none;
-        }
-    }
-    &.note-toolbar-item-visibility-indicator {
-        padding-inline: var(--size-4-2);
-        & svg {
-           color: var(--interactive-accent);
-        }
-    }
-}
-
-.note-toolbar-setting-item-visibility-and-controls {
-    border-top: none !important;
-    display: flex;
-    padding-top: 0.75em !important;
-    justify-content: space-between;
-    & .setting-item {
-        padding-bottom: 0 !important;
-        & .setting-item-info {
-            display: none;
-        }
-        .is-mobile & {
-            padding-top: 0 !important;
-        }
-        & .setting-item-control {
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-            & button {
-                background: none;
-                box-shadow: none;
-                color: var(--icon-color);
-                gap: var(--size-4-2);
-                padding: var(--size-4-2);
-                &:hover {
-                    opacity: var(--icon-opacity-hover);
-                    color: var(--icon-color-hover);
-                    background-color: var(--background-modifier-hover);
-                }
-                &:focus-visible {
-                    border-radius: var(--input-radius);
-                    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
-                }
-                & span:last-child {
-                    font-size: var(--font-smaller);
-                }
-            }
-        }
-    }
-    &[data-item-type="break"],
-    &[data-item-type="separator"],
-    &[data-item-type="spreader"]  {
-        padding-top: 0 !important;
-        & span {
-            align-content: center;
-            color: var(--text-muted);
-            margin-left: 0.25em;
-        }
     }
 }
 
@@ -3996,72 +4060,6 @@ input[type="text"].note-toolbar-setting-error,
     padding-bottom: 0.25em;
 }
 
-.note-toolbar-setting-item-styles {
-    & > .setting-item-info {
-        align-self: flex-start;
-    }
-}
-
-.note-toolbar-setting-item-style {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-    gap: 0.25em;
-    width: 100%;
-    .setting-item {
-        border-top: none !important;
-        border: dashed 1px var(--pill-color-remove) !important;
-        border-radius: var(--pill-radius) !important;
-        gap: 0 !important;
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-        padding-inline: 0.75em 0.25em !important;
-        flex-wrap: nowrap;
-        height: var(--input-height);
-        .is-mobile & {
-            flex-direction: row !important;
-            align-items: center !important;
-        }
-        &:first-child {
-            border: dashed 1px var(--pill-color-remove) !important;
-        }
-        &:last-child {
-            border: none !important;
-            padding: 0em !important;
-            flex: 0 0 100%;
-        }
-        & .setting-item-info {
-            align-self: unset !important;
-            margin-inline-end: 0.25em;
-            color: var(--pill-color);
-            & .setting-item-name {
-                font-size: var(--metadata-input-font-size);
-            }
-        }
-        & .setting-item-control {
-            --icon-size: var(--icon-xs);
-            --icon-stroke: var(--icon-xs-stroke-width);
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-            .is-phone & {
-                width: inherit !important;
-            }
-            & .extra-setting-button:active,
-            & .extra-setting-button:hover {
-                border-radius: var(--pill-radius);
-            }
-            & select.dropdown, 
-            & select.dropdown:active,
-            & select.dropdown:focus {
-                border-radius: var(--pill-radius);
-                font-size: var(--metadata-input-font-size);
-            }
-        }
-    }
-}
-
 .note-toolbar-setting-item-suggester-dialog {
     width: calc(var(--dialog-width) / 1.5);
     & .suggestion-empty {
@@ -4074,7 +4072,7 @@ input[type="text"].note-toolbar-setting-error,
         & .note-toolbar-item-suggester-name {
             font-size: var(--cg-nt-quick-tools-item-font-size);
         }
-        & svg.svg-icon {
+        & .note-toolbar-item-suggestion-container svg.svg-icon {
             height: var(--cg-nt-quick-tools-icon-size);
             width: var(--cg-nt-quick-tools-icon-size);
         }
@@ -4103,12 +4101,6 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-setting-position-group {
-    & .setting-item:has(+ .setting-item[data-active="false"]) {
-        padding-bottom: 0;
-    }
-}
-
 .note-toolbar-setting-small-heading {
     color: var(--color-base-50);
     font-size: var(--font-ui-smaller);
@@ -4119,6 +4111,11 @@ input[type="text"].note-toolbar-setting-error,
 
 .note-toolbar-setting-spacer {
     margin-block-start: 2em;    
+}
+
+.note-toolbar-setting-import-confirm-preview-container {
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .note-toolbar-setting-import-confirm-preview {
@@ -4140,7 +4137,7 @@ input[type="text"].note-toolbar-setting-error,
     }
     textarea {
         flex: 1 1 auto;
-        min-height: 16em !important;
+        min-height: 16em;
     }
 }
 
@@ -4152,7 +4149,7 @@ input[type="text"].note-toolbar-setting-error,
 }
 
 .note-toolbar-setting-confirm-dialog-buttons {
-    column-gap: 0.5em;
+    gap: 0 0.5em;
     display: flex;
     justify-content: flex-end;
 }
@@ -4161,16 +4158,34 @@ input[type="text"].note-toolbar-setting-error,
     font-size: var(--font-ui-small);
 }
 
-.note-toolbar-share-dialog {
-    .setting-item:first-of-type {
-        border-top: none;
-        overflow: hidden;
-        .setting-item-info {
-            overflow: auto;
-            .setting-item-name {
-                font-family: var(--font-monospace) !important;
-                font-size: var(--font-ui-smaller) !important;
-                text-wrap: nowrap !important;
+.note-toolbar-setting-modal-container {
+    & .setting-item-heading {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    & .modal-close-button {
+        z-index: 2; /* fix for modal title overlapping close button */
+    }
+    .is-mobile & {
+        & .setting-group {
+            border-radius: var(--radius-m);
+            border: var(--border-width) solid var(--background-modifier-border);
+            & .setting-items {
+                border-radius: var(--radius-m);
+            }
+        }
+    }
+    &.note-toolbar-copy-text-dialog, &.note-toolbar-share-dialog {
+        & .setting-item:first-of-type {
+            align-items: flex-start;
+            border-top: none;
+            flex-direction: column;
+            & .setting-item-control {
+                width: 100%;
+                & textarea {
+                    height: 5rem;
+                    width: 100%;
+                }
             }
         }
     }
@@ -4185,30 +4200,6 @@ input[type="text"].note-toolbar-setting-error,
         padding-bottom: var(--safe-area-inset-bottom);
     }
 }
-
-.note-toolbar-setting-modal-container {
-    & .setting-item-heading {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    & .modal-close-button {
-        z-index: 2; /* fix for modal title overlapping close button */
-    }
-}
-
-.vertical-tab-content.note-toolbar-setting-modal {
-    background-color: transparent !important;
-    padding-bottom: var(--size-4-5);
-    padding-inline-start: var(--size-4-5);
-    padding-inline-end: var(--size-4-5);
-    .is-phone & {
-        padding-top: 0;
-        padding-bottom: var(--size-4-12);
-    }
-    & .note-toolbar-setting-plugin-onboarding {
-        margin-bottom: 0.75em;
-    }
-}
 /*
  * Suggesters
  */
@@ -4217,7 +4208,7 @@ input[type="text"].note-toolbar-setting-error,
     align-items: center;
     justify-content: space-between;
     display: flex;
-    column-gap: 1em;
+    gap: 0 1em;
     width: 100%;
 }
 
@@ -4230,9 +4221,9 @@ input[type="text"].note-toolbar-setting-error,
     overflow-wrap: anywhere;
     vertical-align: middle;
     width: 100%;
-    & svg {
-        height: var(--font-ui-smaller) !important;
-        width: var(--font-ui-smaller) !important;
+    & svg.svg-icon {
+        height: var(--font-ui-smaller);
+        width: var(--font-ui-smaller);
     }
 }
 
@@ -4241,7 +4232,7 @@ input[type="text"].note-toolbar-setting-error,
 }
 
 .note-toolbar-item-suggestion-container {
-    column-gap: 0.5em;
+    gap: 0 0.5em;
     display: flex;
     width: 100%;
 }
@@ -4250,7 +4241,7 @@ input[type="text"].note-toolbar-setting-error,
     align-items: center;
     display: flex;
     flex-direction: column;
-    column-gap: 0.5rem;
+    gap: 0 0.5rem;
     & svg {
         display: block;
         margin: 0 auto;
@@ -4301,7 +4292,7 @@ input[type="text"].note-toolbar-setting-error,
         display: none;
     }
     & .setting-item-control {
-        margin-top: 0 !important;
+        margin-top: 0;
         justify-content: flex-start;
         & .search-input-container {
             width: 100%;
@@ -4344,6 +4335,100 @@ input[type="text"].note-toolbar-setting-error,
         width: 1%;
         background: linear-gradient(to right, transparent, var(--background-primary));
         pointer-events: none;
+    }
+    & .note-toolbar-card-items .note-toolbar-card-item {
+        align-items: start;
+        box-shadow: var(--input-shadow);
+        border-radius: var(--radius-m);
+        cursor: pointer;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        height: unset;
+        justify-content: flex-end;
+        min-height: 140px;
+        padding: 16px;
+        position: relative;
+        text-align: unset;
+        width: 200px;
+        &:focus-visible {
+            border-radius: var(--radius-m);
+            /* box-shadow: inset 0 0 0 1px var(--background-modifier-border); */
+            box-shadow: inset 0 0 0 3px var(--background-modifier-border-focus);
+        }
+        &:hover {
+            .is-mobile & {
+                background-color: var(--interactive-normal);
+            }
+        }
+        & .note-toolbar-card-item-icon {
+            align-items: center;
+            display: flex;
+            height: 30px;
+            justify-content: center;
+            left: 16px;
+            position: absolute;
+            top: 16px;
+            width: 30px;
+            & svg {
+                height: 30px;        
+                width: 30px;
+            }
+        }
+        .note-toolbar-card-item-plus {
+            position: absolute;
+            color: var(--interactive-accent);
+            top: 16px;
+            right: 16px;
+            opacity: 0;
+            & svg {
+                height: 24px;        
+                width: 24px;
+            }
+        }
+        &:hover .note-toolbar-card-item-plus {
+            opacity: 0.8;
+        }
+        & .note-toolbar-card-item-title {
+            .note-toolbar-tips-card-items & {
+                color: var(--text-on-accent);
+            }
+            font-size: 1.25em;
+            font-weight: var(--h3-weight);
+            .is-mobile & {
+                font-size: var(--font-ui-small);
+                font-weight: var(--font-bold);
+            }
+            line-height: var(--h3-line-height);
+            margin: 0;
+            margin-top: 46px; /* icon height */
+            text-wrap: wrap;
+            width: 100%;
+            &::after {
+                display: none; /* fix for Border theme */
+            }
+        }
+        & .note-toolbar-card-item-description {
+            align-self: start;
+            color: var(--text-muted);
+            .note-toolbar-tips-card-items & {
+                color: var(--text-on-accent);
+            }
+            display: flex;
+            font-size: var(--font-ui-small);
+            margin: 0;
+            text-wrap: wrap;
+        }
+        & .note-toolbar-card-item-plugins {
+            display: flex;
+            vertical-align: middle;
+            gap: 0.25em;
+            margin-top: 0.5em;
+            & svg {
+                height: var(--font-ui-small);
+                width: var(--font-ui-small);
+            }
+        }
     }
 }
 
@@ -4409,101 +4494,6 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-card-item {
-    align-items: start;
-    box-shadow: var(--input-shadow);
-    border-radius: var(--radius-m);
-    cursor: pointer;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    height: unset;
-    justify-content: flex-end;
-    min-height: 140px;
-    padding: 16px !important;
-    position: relative;
-    text-align: unset;
-    width: 200px;
-    &:focus-visible {
-        border-radius: var(--radius-m);
-        box-shadow: inset 0 0 0 1px var(--background-modifier-border);
-        box-shadow: inset 0 0 0 3px var(--background-modifier-border-focus);
-    }
-    &:hover {
-        .is-mobile & {
-            background-color: var(--interactive-normal);
-        }
-    }
-    & .note-toolbar-card-item-icon {
-        align-items: center;
-        display: flex;
-        height: 30px;
-        justify-content: center;
-        left: 16px;
-        position: absolute;
-        top: 16px;
-        width: 30px;
-        & svg {
-            height: 30px;        
-            width: 30px;
-        }
-    }
-    .note-toolbar-card-item-plus {
-        position: absolute;
-        color: var(--interactive-accent);
-        top: 16px;
-        right: 16px;
-        opacity: 0;
-        & svg {
-            height: 24px;        
-            width: 24px;
-        }
-    }
-    &:hover .note-toolbar-card-item-plus {
-        opacity: 0.8;
-    }
-    & .note-toolbar-card-item-title {
-        .note-toolbar-tips-card-items & {
-            color: var(--text-on-accent);
-        }
-        font-size: 1.25em;
-        font-weight: var(--h3-weight);
-        .is-mobile & {
-            font-size: var(--font-ui-small);
-            font-weight: var(--font-bold);
-        }
-        line-height: var(--h3-line-height);
-        margin: 0;
-        margin-top: 46px; /* icon height */
-        text-wrap: wrap;
-        width: 100%;
-        &::after {
-            display: none; /* fix for Border theme */
-        }
-    }
-    & .note-toolbar-card-item-description {
-        align-self: start;
-        color: var(--text-muted);
-        .note-toolbar-tips-card-items & {
-            color: var(--text-on-accent);
-        }
-        display: flex;
-        font-size: var(--font-ui-small);
-        margin: 0 !important;
-        text-wrap: wrap;
-    }
-    & .note-toolbar-card-item-plugins {
-        display: flex;
-        vertical-align: middle;
-        gap: 0.25em;
-        margin-top: 0.5em !important;
-        & svg {
-            height: var(--font-ui-small);
-            width: var(--font-ui-small);
-        }
-    }
-}
-
 .note-toolbar-setting-help-section {
     flex-wrap: wrap;
 }
@@ -4516,12 +4506,12 @@ input[type="text"].note-toolbar-setting-error,
         color: var(--text-muted);
         display: inline-flex;
         &:focus-visible {
-            box-shadow: 0 0 0 1px var(--background-modifier-border);
+            /* box-shadow: 0 0 0 1px var(--background-modifier-border); */
             box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
         }
     }
     .note-toolbar-setting-text-with-icon {
-        column-gap: 0.25em;
+        gap: 0 0.25em;
         & svg {
             height: var(--font-ui-smaller);
             width: var(--font-ui-smaller);
@@ -4604,18 +4594,9 @@ input[type="text"].note-toolbar-setting-error,
     padding-bottom: var(--navbar-height);
 }
 
-.note-toolbar-setting-whatsnew-view {
-    & .note-toolbar-setting-view-cta {
-        & .setting-item {
-            margin-bottom: 0;
-            padding: var(--size-4-4) 0;
-        }
-    }
-}
-
 .note-toolbar-setting-help-view-title {
     & h1, p, svg {
-        color: var(--text-normal) !important;
+        color: var(--text-normal);
     }
 }
 
@@ -4624,14 +4605,6 @@ input[type="text"].note-toolbar-setting-error,
     border: 1px solid var(--background-modifier-border);
     margin: 0em 0em 1em 0em;
     padding: 0em 1em;
-    & .setting-item {
-        align-items: center !important;
-        margin-bottom: 0 !important;
-        padding: 1em 0em !important;
-    }
-    & .setting-item-control {
-        margin-top: 0 !important;
-    }
 }
 
 .note-toolbar-setting-help-video {
@@ -4712,24 +4685,6 @@ input[type="text"].note-toolbar-setting-error,
   100% { opacity: 1; transform: scale(1); }
 }
 
-.note-toolbar-setting-view-cta {
-    & .setting-item {
-        background: transparent !important;
-        border-radius: 0%;
-        border-top: 1px solid var(--background-modifier-border);
-        padding-top: 0.75em;
-        .is-phone & {
-            flex-direction: row !important;
-            & .setting-item-control {
-                width: auto !important;
-                & button {
-                    width: auto;
-                }
-            }
-        }
-    }
-}
-
 .note-toolbar-setting-gallery-content,
 .note-toolbar-setting-help-content,
 .note-toolbar-setting-tip-content,
@@ -4746,9 +4701,7 @@ input[type="text"].note-toolbar-setting-error,
         border-left: .25em solid var(--background-modifier-border);
     }
     pre {
-        &:has(code) {
-            overflow-x: auto;
-        }
+        overflow-x: auto;
         & code {
             font-size: calc(var(--font-ui-small) + 1px);
             overflow: scroll;
@@ -4798,7 +4751,7 @@ input[type="text"].note-toolbar-setting-error,
 }
 
 .note-toolbar-setting-whatsnew-content {
-    code:not(.language-ts) {
+    pre:not(.language-css):not(.language-md):not(.language-js):not(.language-sh):not(.language-ts) code {
         background-color: var(--code-background);
         border-width: var(--code-border-width);
         padding: 0.3em;
@@ -4862,7 +4815,7 @@ input[type="text"].note-toolbar-setting-error,
       .callout[data-callout="note-toolbar"] a.external-link, .callout[data-callout="note-toolbar"] a.internal-link {
         &:is(:focus-visible) {
             border-radius: var(--input-radius);
-            box-shadow: 0 0 0 1px var(--background-modifier-border);
+            /* box-shadow: 0 0 0 1px var(--background-modifier-border); */
             box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
         }
     }
@@ -4882,16 +4835,15 @@ input[type="text"].note-toolbar-setting-error,
         & .view-header-left, .view-actions {
             display: none;
         }
+        & .modal-header-button {
+            z-index: 2; /* fix for modal content overlapping close button */
+        }
         & .modal-content {
             overflow-y: auto;
             .is-phone & {
                 padding: var(--size-4-5);
                 /* per what Obsidian's CSS does */
                 padding-bottom: max(100px, var(--safe-area-inset-bottom));
-            }
-            /* hide the Web Viewer navigation bar */
-            & .workspace-leaf-content[data-type="webviewer"] .view-header {
-                display: none !important;
             }
         }
         & .modal-title > .markdown-preview-view > * {
@@ -4973,7 +4925,7 @@ input[type="text"].note-toolbar-setting-error,
  * New tab toolbar (Launchpad) 
  */
 
-.note-toolbar-launchpad-container {
+body .workspace .note-toolbar-launchpad-container {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -4985,7 +4937,7 @@ input[type="text"].note-toolbar-setting-error,
     }
 }
 
-.note-toolbar-launchpad {
+body .workspace .note-toolbar-launchpad {
     & .callout-content {
         margin-left: auto;
         margin-right: auto;
@@ -5027,8 +4979,8 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
     &[data-callout-metadata*="border"] {
-        border: solid 1px var(--cg-nt-tbar-border-color) !important;
-        border-radius: var(--button-radius) !important;
+        border: solid 1px var(--cg-nt-tbar-border-color);
+        border-radius: var(--button-radius);
         padding: 1em;
     }
     &[data-callout-metadata*="glass"] {
@@ -5052,22 +5004,54 @@ body[data-ntb-csstheme="Border"] {
     }
 }
 
-body[data-ntb-csstheme="Cupertino"] {
+body[data-ntb-csstheme="Baseline"], body[data-ntb-csstheme="Cupertino"] {     
+    --cg-nt-fab-inactive-opacity: 0.5;
+    --cg-nt-tbar-inactive-opacity-desktop: 0.5;
+    --cg-nt-tbar-inactive-opacity-mobile: 0.5;
+    --cg-nt-tbar-bg-color: rgba(0,0,0,0.0);
+    /* theme overrides this? so reset it */
+    --raised-blur: blur(2px) saturate(1.5) brightness(1.025);
+    &.is-phone {
+        --cg-nt-fab-pos-x-mobile: var(--navbar-side-offset);
+        --cg-nt-fab-pos-y-mobile: var(--navbar-bottom-offset);
+    }
+}
+
+body[data-ntb-csstheme="Baseline"] {
+    --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
+    --cg-nt-tbar-top-sticky-pos-mobile: calc(1rem * -1 + 1px);
+    & .cg-note-toolbar-container[data-tbar-position="bottom"],
+    & .cg-note-toolbar-container[data-tbar-position="top"] {
+        --cg-nt-tbar-bg-color: var(--background-primary);
+    }
     &.is-mobile.theme-dark {
+        --cg-nt-tbar-bg-color: unset;
+    }
+}
+
+body[data-ntb-csstheme="Cupertino"] {
+    --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 24px);
+    --ntb-anim-duration-moderate: var(--anim-duration-moderate);
+    --cg-nt-item-button-bg-color: var(--ntb-liquid-glass-background);
+    --cg-nt-item-border-radius: 32px;
+    --ntb-shadow-base: var(--shadow-base);
+    --ntb-shadow-xs: var(--shadow-xs);
+    &.is-mobile.theme-dark {
+        --cg-nt-tbar-bg-color: unset;
         & .callout[data-callout="note-toolbar-output"] {
-            background-color: #000 !important;
+            background-color: #000000;
         }
     }
     /* Liquid Glass effect for the Cupertino theme, thanks to @aaaaalexis */
     /* Licensed under the MIT License; see the LICENSE file */
     & .callout[data-callout="note-toolbar"] {
         background-color: var(--cg-nt-tbar-bg-color);
-        mix-blend-mode: normal !important;
+        mix-blend-mode: normal;
         & ul {
             gap: var(--size-4-2);
             & a, span.external-link {
                 background-color: var(--cg-nt-item-button-bg-color);
-                backdrop-filter: var(--raised-blur) !important;
+                backdrop-filter: var(--raised-blur);
                 border-color: var(--background-modifier-border);
                 border-radius: var(--cg-nt-item-border-radius);
                 border-style: solid;
@@ -5087,7 +5071,7 @@ body[data-ntb-csstheme="Cupertino"] {
     /* Licensed under the MIT License; see the LICENSE file */
     & button.cg-note-toolbar-fab {
         background-color: var(--cg-nt-item-button-bg-color);
-        backdrop-filter: var(--raised-blur) !important;
+        backdrop-filter: var(--raised-blur);
         border-color: var(--background-modifier-border);
         border-radius: var(--cg-nt-item-border-radius);
         border-style: solid;
@@ -5104,8 +5088,8 @@ body[data-ntb-csstheme="Cupertino"] {
         }
         .is-mobile & {
             &:is(:active, :hover, :focus-visible) {
-                background-color: var(--ntb-liquid-glass-background) !important;
-                color: var(--text-normal) !important;
+                background-color: var(--ntb-liquid-glass-background);
+                color: var(--text-normal);
             }
         }
     }
@@ -5113,17 +5097,19 @@ body[data-ntb-csstheme="Cupertino"] {
 
 /* Minimal: width fix for props position #204 #216 */
 body[data-ntb-csstheme="Minimal"] {
+    --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
     & .cg-note-toolbar-bar-container[data-tbar-position="props"] {
         .is-readable-line-width & {
             max-width: var(--max-width);
             width: var(--line-width);
-            margin-inline: var(--content-margin) !important;
+            margin-inline: var(--content-margin);
         }
     }
 }
 
 /* Velocity: fix: margins and padding incorrect */
 body[data-ntb-csstheme="Velocity"] {
+    --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 22px);      
     & .callout[data-callout="note-toolbar"] .callout-content {
         margin-block-end: var(--cg-nt-tbar-margin-y);
         padding-inline: unset;

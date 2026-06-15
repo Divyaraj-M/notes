@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
+                "file": "3 - Resources/Books/The Thirteen Problems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "@Sakthi Prasath M"
+              "title": "The Thirteen Problems"
             }
           }
         ],
@@ -357,6 +357,7 @@
   },
   "active": "d8e8cae2333b4141",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "3 - Resources/Books/Read List/Read List.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
@@ -382,7 +383,6 @@
     "3 - Resources/Templates/To do.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
-    "Clippings/What product managers do at PostHog - Handbook.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",
