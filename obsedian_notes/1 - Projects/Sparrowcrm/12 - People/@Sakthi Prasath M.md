@@ -18,4 +18,5 @@ Zoom is not done
 
 - Contact Creations is not in expected behaviour 
 - Notifications are rouge 
-- in the hoem page, The integration modal hasn’t been po
+- in the home page, The integration modal hasn’t been poped up 
+- Diff between live and historical import 
