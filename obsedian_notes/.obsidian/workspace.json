@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apollo.io Enrichment — Field Reference.md",
-                "mode": "preview",
+                "file": "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apollo.io Enrichment — Field Reference"
+              "title": "PMM Playbook — Daily Duties & Metrics"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "The Thirteen Problems"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -355,8 +354,11 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "d8e8cae2333b4141",
+  "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "Apollo.io Enrichment — Field Reference.md",
+    "3 - Resources/Books/The Thirteen Problems.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "3 - Resources/Books/Read List/Read List.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
@@ -370,7 +372,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
-    "Apollo.io Enrichment — Field Reference.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "CRM Metrics Framework.md",
@@ -381,8 +382,6 @@
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
     "3 - Resources/Templates/To do.md",
-    "1 - Projects/Curious Geeks/Curious Geeks.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",

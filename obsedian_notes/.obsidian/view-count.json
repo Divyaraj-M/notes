@@ -1244,18 +1244,9 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 44,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 46,
       "openLogs": [
-        {
-          "timestampMillis": 1778493172929
-        },
-        {
-          "timestampMillis": 1778493232907
-        },
-        {
-          "timestampMillis": 1778493309160
-        },
         {
           "timestampMillis": 1779693954202
         },
@@ -1378,6 +1369,12 @@
         },
         {
           "timestampMillis": 1781188389357
+        },
+        {
+          "timestampMillis": 1781759703735
+        },
+        {
+          "timestampMillis": 1781759704049
         }
       ]
     },
@@ -3312,8 +3309,8 @@
     },
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1781087257324
@@ -3344,6 +3341,12 @@
         },
         {
           "timestampMillis": 1781248124090
+        },
+        {
+          "timestampMillis": 1781759694067
+        },
+        {
+          "timestampMillis": 1781759694405
         }
       ]
     },
@@ -3400,8 +3403,8 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/PMM Playbook — Daily Duties & Metrics.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1781188395348
@@ -3411,6 +3414,12 @@
         },
         {
           "timestampMillis": 1781246805353
+        },
+        {
+          "timestampMillis": 1781759708951
+        },
+        {
+          "timestampMillis": 1781759709192
         }
       ]
     },
