@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Products",
       "path": "1 - Projects/Curious Geeks/Products/Products.md"
-    },
-    {
-      "basename": "_template",
-      "path": "1 - Projects/Curious Geeks/Products/_template.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+                "file": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sparrowcrm"
+              "title": "2 - Customer Insights"
             }
           },
           {
@@ -356,6 +356,7 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "pages/contents.md",
     "pages",
@@ -379,7 +380,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md",

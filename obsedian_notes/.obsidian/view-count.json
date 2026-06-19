@@ -995,26 +995,11 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
-          "timestampMillis": 1778492691960
-        },
-        {
-          "timestampMillis": 1778492692122
-        },
-        {
-          "timestampMillis": 1778492960655
-        },
-        {
-          "timestampMillis": 1778492960843
-        },
-        {
-          "timestampMillis": 1778493010391
-        },
-        {
-          "timestampMillis": 1778740373559
+          "timestampMillis": 1781857126527
         }
       ]
     },
