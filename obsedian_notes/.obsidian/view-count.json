@@ -160,84 +160,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 18,
-      "totalTimesOpened": 78,
+      "uniqueDaysOpened": 19,
+      "totalTimesOpened": 80,
       "openLogs": [
-        {
-          "timestampMillis": 1778612589974
-        },
-        {
-          "timestampMillis": 1778652006468
-        },
-        {
-          "timestampMillis": 1778655027704
-        },
-        {
-          "timestampMillis": 1778664761269
-        },
-        {
-          "timestampMillis": 1778671813836
-        },
-        {
-          "timestampMillis": 1778672181804
-        },
-        {
-          "timestampMillis": 1778672181976
-        },
-        {
-          "timestampMillis": 1778672412775
-        },
-        {
-          "timestampMillis": 1778940155044
-        },
-        {
-          "timestampMillis": 1778940216899
-        },
-        {
-          "timestampMillis": 1778940468224
-        },
-        {
-          "timestampMillis": 1778940534911
-        },
-        {
-          "timestampMillis": 1778940680996
-        },
-        {
-          "timestampMillis": 1778940700999
-        },
-        {
-          "timestampMillis": 1778940721297
-        },
-        {
-          "timestampMillis": 1778940729295
-        },
-        {
-          "timestampMillis": 1778940747345
-        },
-        {
-          "timestampMillis": 1778940747512
-        },
-        {
-          "timestampMillis": 1779085986855
-        },
-        {
-          "timestampMillis": 1779086311050
-        },
-        {
-          "timestampMillis": 1779087334782
-        },
-        {
-          "timestampMillis": 1779087368488
-        },
-        {
-          "timestampMillis": 1779087807596
-        },
-        {
-          "timestampMillis": 1779088834792
-        },
-        {
-          "timestampMillis": 1779108371854
-        },
         {
           "timestampMillis": 1779173514911
         },
@@ -363,6 +288,12 @@
         },
         {
           "timestampMillis": 1781247023482
+        },
+        {
+          "timestampMillis": 1781850328800
+        },
+        {
+          "timestampMillis": 1781850329052
         }
       ]
     },
