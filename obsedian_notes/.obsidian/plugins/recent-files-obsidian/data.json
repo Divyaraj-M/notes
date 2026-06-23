@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Email Integration_v1.2",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.2.md"
+    },
+    {
+      "basename": "Email Integration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
+    },
+    {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
@@ -169,10 +177,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md"
     },
     {
-      "basename": "Email Integration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
       "basename": "@Nayan Jain",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Why I started curious geeks",
       "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md"
-    },
-    {
-      "basename": "Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)",
-      "path": "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md"
     }
   ],
   "omittedPaths": [],
