@@ -2,27 +2,9 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 11,
-      "totalTimesOpened": 16,
+      "uniqueDaysOpened": 12,
+      "totalTimesOpened": 17,
       "openLogs": [
-        {
-          "timestampMillis": 1778672463844
-        },
-        {
-          "timestampMillis": 1778747137774
-        },
-        {
-          "timestampMillis": 1778749432128
-        },
-        {
-          "timestampMillis": 1779085991549
-        },
-        {
-          "timestampMillis": 1779268509882
-        },
-        {
-          "timestampMillis": 1779268522892
-        },
         {
           "timestampMillis": 1780384400457
         },
@@ -46,6 +28,9 @@
         },
         {
           "timestampMillis": 1781248272241
+        },
+        {
+          "timestampMillis": 1782204962713
         }
       ]
     },
@@ -161,7 +146,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 20,
-      "totalTimesOpened": 82,
+      "totalTimesOpened": 84,
       "openLogs": [
         {
           "timestampMillis": 1779525047405
@@ -264,6 +249,12 @@
         },
         {
           "timestampMillis": 1782198460134
+        },
+        {
+          "timestampMillis": 1782204949998
+        },
+        {
+          "timestampMillis": 1782204950320
         }
       ]
     },
@@ -504,60 +495,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 14,
-      "totalTimesOpened": 37,
+      "uniqueDaysOpened": 15,
+      "totalTimesOpened": 38,
       "openLogs": [
-        {
-          "timestampMillis": 1778655029792
-        },
-        {
-          "timestampMillis": 1778664764111
-        },
-        {
-          "timestampMillis": 1778671815751
-        },
-        {
-          "timestampMillis": 1778672422630
-        },
-        {
-          "timestampMillis": 1778672446625
-        },
-        {
-          "timestampMillis": 1778677230910
-        },
-        {
-          "timestampMillis": 1778740398653
-        },
-        {
-          "timestampMillis": 1778747135330
-        },
-        {
-          "timestampMillis": 1778747135527
-        },
-        {
-          "timestampMillis": 1778754333566
-        },
-        {
-          "timestampMillis": 1778940744119
-        },
-        {
-          "timestampMillis": 1779085989472
-        },
-        {
-          "timestampMillis": 1779268506478
-        },
-        {
-          "timestampMillis": 1779268600143
-        },
-        {
-          "timestampMillis": 1779277837865
-        },
-        {
-          "timestampMillis": 1779350380506
-        },
-        {
-          "timestampMillis": 1779351401132
-        },
         {
           "timestampMillis": 1780305112039
         },
@@ -587,6 +527,9 @@
         },
         {
           "timestampMillis": 1781248270747
+        },
+        {
+          "timestampMillis": 1782204960843
         }
       ]
     },
