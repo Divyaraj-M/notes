@@ -14,5 +14,6 @@ tags:
 - [[@Yuvaraj Singh J]] - Product Developer 
 - [[@Divyaraj Murugan]] - Associate Product manager
 - [[@Vilashini]] - Product Marketer
-- [[@Poonam singh]] 
+- [[@Poonam singh]] - QA
+- 
 - 
