@@ -160,45 +160,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 19,
-      "totalTimesOpened": 80,
+      "uniqueDaysOpened": 20,
+      "totalTimesOpened": 82,
       "openLogs": [
-        {
-          "timestampMillis": 1779173514911
-        },
-        {
-          "timestampMillis": 1779268436888
-        },
-        {
-          "timestampMillis": 1779268437454
-        },
-        {
-          "timestampMillis": 1779268602639
-        },
-        {
-          "timestampMillis": 1779268602884
-        },
-        {
-          "timestampMillis": 1779277829793
-        },
-        {
-          "timestampMillis": 1779350377069
-        },
-        {
-          "timestampMillis": 1779351443645
-        },
-        {
-          "timestampMillis": 1779351607170
-        },
-        {
-          "timestampMillis": 1779351621706
-        },
-        {
-          "timestampMillis": 1779351625923
-        },
-        {
-          "timestampMillis": 1779351632447
-        },
         {
           "timestampMillis": 1779525047405
         },
@@ -294,6 +258,12 @@
         },
         {
           "timestampMillis": 1781850329052
+        },
+        {
+          "timestampMillis": 1782198459830
+        },
+        {
+          "timestampMillis": 1782198460134
         }
       ]
     },
@@ -492,53 +462,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 15,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
-          "timestampMillis": 1778479798295
-        },
-        {
-          "timestampMillis": 1778493099895
-        },
-        {
-          "timestampMillis": 1778493297758
-        },
-        {
-          "timestampMillis": 1778754271009
-        },
-        {
-          "timestampMillis": 1778754271293
-        },
-        {
-          "timestampMillis": 1778754283501
-        },
-        {
-          "timestampMillis": 1779172965068
-        },
-        {
-          "timestampMillis": 1779172965479
-        },
-        {
-          "timestampMillis": 1779182509354
-        },
-        {
-          "timestampMillis": 1779182509795
-        },
-        {
-          "timestampMillis": 1779182561822
-        },
-        {
-          "timestampMillis": 1779182566094
-        },
-        {
-          "timestampMillis": 1779182578392
-        },
-        {
-          "timestampMillis": 1779182581313
-        },
-        {
           "timestampMillis": 1779525051032
+        },
+        {
+          "timestampMillis": 1782198464345
         }
       ]
     },
@@ -1160,8 +1091,8 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 46,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 48,
       "openLogs": [
         {
           "timestampMillis": 1779693954202
@@ -1291,6 +1222,12 @@
         },
         {
           "timestampMillis": 1781759704049
+        },
+        {
+          "timestampMillis": 1782198396202
+        },
+        {
+          "timestampMillis": 1782198396558
         }
       ]
     },
@@ -2224,59 +2161,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 17,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 18,
       "openLogs": [
-        {
-          "timestampMillis": 1779172968597
-        },
-        {
-          "timestampMillis": 1779173617109
-        },
-        {
-          "timestampMillis": 1779174254522
-        },
-        {
-          "timestampMillis": 1779174328906
-        },
-        {
-          "timestampMillis": 1779174591167
-        },
-        {
-          "timestampMillis": 1779174751093
-        },
-        {
-          "timestampMillis": 1779174956603
-        },
-        {
-          "timestampMillis": 1779182462946
-        },
-        {
-          "timestampMillis": 1779182564441
-        },
-        {
-          "timestampMillis": 1779182578772
-        },
-        {
-          "timestampMillis": 1779184246527
-        },
-        {
-          "timestampMillis": 1779349515216
-        },
-        {
-          "timestampMillis": 1779349515423
-        },
-        {
-          "timestampMillis": 1779349517462
-        },
-        {
-          "timestampMillis": 1779349521500
-        },
         {
           "timestampMillis": 1781520900139
         },
         {
           "timestampMillis": 1781520900318
+        },
+        {
+          "timestampMillis": 1782198466664
         }
       ]
     },

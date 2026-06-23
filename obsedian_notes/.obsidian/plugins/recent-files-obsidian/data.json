@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2 - Customer Insights",
-      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+      "basename": "@Sakthi Prasath M",
+      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
+    },
+    {
+      "basename": "12 - People",
+      "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
     },
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "PMM Playbook — Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md"
-    },
-    {
       "basename": "Curious Geeks",
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
+    },
+    {
+      "basename": "2 - Customer Insights",
+      "path": "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md"
+    },
+    {
+      "basename": "PMM Playbook — Curious Geeks",
+      "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md"
     },
     {
       "basename": "Apollo.io Enrichment — Field Reference",
@@ -23,10 +31,6 @@
     {
       "basename": "The Thirteen Problems",
       "path": "3 - Resources/Books/The Thirteen Problems.md"
-    },
-    {
-      "basename": "@Sakthi Prasath M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     },
     {
       "basename": "Read List",
@@ -195,10 +199,6 @@
     {
       "basename": "UI components",
       "path": "3 - Resources/UI components.md"
-    },
-    {
-      "basename": "Products",
-      "path": "1 - Projects/Curious Geeks/Products/Products.md"
     }
   ],
   "omittedPaths": [],

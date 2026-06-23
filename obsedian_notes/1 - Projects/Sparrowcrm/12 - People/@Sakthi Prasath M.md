@@ -20,3 +20,6 @@ Zoom is not done
 - Notifications are rouge 
 - in the home page, The integration modal hasn’t been poped up 
 - Diff between live and historical import 
+
+
+Slack
