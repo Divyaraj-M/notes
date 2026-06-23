@@ -463,13 +463,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 16,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1779525051032
         },
         {
           "timestampMillis": 1782198464345
+        },
+        {
+          "timestampMillis": 1782199562369
         }
       ]
     },
