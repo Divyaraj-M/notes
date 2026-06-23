@@ -22,4 +22,13 @@ Zoom is not done
 - Diff between live and historical import 
 
 
-Slack
+Slack 
+- Need the Usecases from [[@Divyaraj Murugan]]
+- Need the to complete the process of Slack Publishing 
+- Google api 
+- Ring Central 
+
+Agents - Hasim and [[@Yuvaraj Singh J]]
+Ask sparrow Nainar 
+Record Deleteion  vj
+Email paul 
