@@ -93,6 +93,9 @@
 
 #### Carry to tomorrow
 -
- 
- - [ ] Slack Integartion
+24-Jun-2026 
+ - [ ] Slack Integration
+ - [ ] Ring Central 
+ - [ ] Apollo io reseller program 
+ - [ ] [[Ai Agents]]
  - [ ] 
