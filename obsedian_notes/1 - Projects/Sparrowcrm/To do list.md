@@ -93,6 +93,6 @@
 
 #### Carry to tomorrow
 -
-### 23-Jun-2026 
+ 
  - [ ] Slack Integartion
  - [ ] 
