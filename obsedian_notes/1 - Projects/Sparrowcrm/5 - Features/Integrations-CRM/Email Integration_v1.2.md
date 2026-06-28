@@ -31,12 +31,12 @@ Net model: **admin sets whether creation is allowed at all; each rep decides how
 
 ## 3. New Control Model
 
-|Layer|Who|Control|Options|
-|---|---|---|---|
-|Permission gate|**Admin**|Allow users to create contacts from emails|On / Off|
-|Company creation|**Admin**|Create company records from contact email domains|On / Off|
-|Exclusions|**Admin**|Private recipients (locked for reps)|list|
-|Creation mode|**Rep**|How contacts are created for _their_ mailbox|**Engaged contacts** / **None**|
+| Layer            | Who       | Control                                           | Options                         |
+| ---------------- | --------- | ------------------------------------------------- | ------------------------------- |
+| Permission gate  | **Admin** | Allow users to create contacts from emails        | On / Off                        |
+| Company creation | **Admin** | Create company records from contact email domains | On / Off                        |
+| Exclusions       | **Admin** | Private recipients (locked for reps)              | list                            |
+| Creation mode    | **Rep**   | How contacts are created for _their_ mailbox      | **Engaged contacts** / **None** |
 
 Rules:
 
