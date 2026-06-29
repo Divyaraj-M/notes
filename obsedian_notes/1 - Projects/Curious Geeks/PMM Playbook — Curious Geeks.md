@@ -175,4 +175,4 @@ One core post, repurposed three ways — no separate work:
 
 ### The key rule for content
 
-Don't write random blogs. Every post must do one of: **feature products · teach builders · show a teardown · bring people back to review · collect emails.**
+	Don't write random blogs. Every post must do one of: **feature products · teach builders · show a teardown · bring people back to review · collect emails.**
