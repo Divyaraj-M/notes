@@ -923,120 +923,9 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 8,
-      "totalTimesOpened": 48,
+      "uniqueDaysOpened": 9,
+      "totalTimesOpened": 50,
       "openLogs": [
-        {
-          "timestampMillis": 1779693954202
-        },
-        {
-          "timestampMillis": 1779694127703
-        },
-        {
-          "timestampMillis": 1779694214114
-        },
-        {
-          "timestampMillis": 1779699514902
-        },
-        {
-          "timestampMillis": 1779699585531
-        },
-        {
-          "timestampMillis": 1779699713179
-        },
-        {
-          "timestampMillis": 1779699720875
-        },
-        {
-          "timestampMillis": 1779699921055
-        },
-        {
-          "timestampMillis": 1779701121648
-        },
-        {
-          "timestampMillis": 1779710348220
-        },
-        {
-          "timestampMillis": 1779717036293
-        },
-        {
-          "timestampMillis": 1779717036448
-        },
-        {
-          "timestampMillis": 1779717379847
-        },
-        {
-          "timestampMillis": 1779717379979
-        },
-        {
-          "timestampMillis": 1779717445657
-        },
-        {
-          "timestampMillis": 1779717447345
-        },
-        {
-          "timestampMillis": 1779717447483
-        },
-        {
-          "timestampMillis": 1779717451006
-        },
-        {
-          "timestampMillis": 1779717714698
-        },
-        {
-          "timestampMillis": 1779717762851
-        },
-        {
-          "timestampMillis": 1779717783776
-        },
-        {
-          "timestampMillis": 1779719736482
-        },
-        {
-          "timestampMillis": 1779734249587
-        },
-        {
-          "timestampMillis": 1779734249751
-        },
-        {
-          "timestampMillis": 1779735709284
-        },
-        {
-          "timestampMillis": 1779735709444
-        },
-        {
-          "timestampMillis": 1779735724069
-        },
-        {
-          "timestampMillis": 1779735724219
-        },
-        {
-          "timestampMillis": 1779735751508
-        },
-        {
-          "timestampMillis": 1779735751652
-        },
-        {
-          "timestampMillis": 1779735857576
-        },
-        {
-          "timestampMillis": 1779735922487
-        },
-        {
-          "timestampMillis": 1779739344108
-        },
-        {
-          "timestampMillis": 1779741309693
-        },
-        {
-          "timestampMillis": 1779741612912
-        },
-        {
-          "timestampMillis": 1779796006004
-        },
-        {
-          "timestampMillis": 1779862577957
-        },
         {
           "timestampMillis": 1780907029732
         },
@@ -1060,6 +949,12 @@
         },
         {
           "timestampMillis": 1782198396558
+        },
+        {
+          "timestampMillis": 1782719215594
+        },
+        {
+          "timestampMillis": 1782719215974
         }
       ]
     },
@@ -3040,8 +2935,8 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1781188395348
@@ -3057,6 +2952,12 @@
         },
         {
           "timestampMillis": 1781759709192
+        },
+        {
+          "timestampMillis": 1782719219642
+        },
+        {
+          "timestampMillis": 1782719219907
         }
       ]
     },
