@@ -531,74 +531,17 @@
     },
     {
       "path": "Clippings/How to find edge cases before they become expensive issues.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 30,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 31,
       "openLogs": [
-        {
-          "timestampMillis": 1778657537454
-        },
-        {
-          "timestampMillis": 1778660857834
-        },
-        {
-          "timestampMillis": 1778662020898
-        },
-        {
-          "timestampMillis": 1778662177698
-        },
-        {
-          "timestampMillis": 1778662206137
-        },
-        {
-          "timestampMillis": 1778662207630
-        },
-        {
-          "timestampMillis": 1778662212657
-        },
-        {
-          "timestampMillis": 1778752935001
-        },
-        {
-          "timestampMillis": 1778752935172
-        },
-        {
-          "timestampMillis": 1778752951234
-        },
-        {
-          "timestampMillis": 1778752953654
-        },
-        {
-          "timestampMillis": 1778752955492
-        },
-        {
-          "timestampMillis": 1779087370193
-        },
-        {
-          "timestampMillis": 1779087372469
-        },
-        {
-          "timestampMillis": 1779087470160
-        },
-        {
-          "timestampMillis": 1779432137586
-        },
-        {
-          "timestampMillis": 1779432137889
-        },
-        {
-          "timestampMillis": 1779432140016
-        },
-        {
-          "timestampMillis": 1779432140302
-        },
-        {
-          "timestampMillis": 1779432370579
-        },
         {
           "timestampMillis": 1781269734502
         },
         {
           "timestampMillis": 1781269734936
+        },
+        {
+          "timestampMillis": 1782819777835
         }
       ]
     },
@@ -1003,93 +946,9 @@
     },
     {
       "path": "Clippings/What we look for in product managers - Handbook.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 32,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 34,
       "openLogs": [
-        {
-          "timestampMillis": 1778660794418
-        },
-        {
-          "timestampMillis": 1778660794794
-        },
-        {
-          "timestampMillis": 1778660865055
-        },
-        {
-          "timestampMillis": 1778660865207
-        },
-        {
-          "timestampMillis": 1778660871252
-        },
-        {
-          "timestampMillis": 1778661562948
-        },
-        {
-          "timestampMillis": 1778662015268
-        },
-        {
-          "timestampMillis": 1778662019917
-        },
-        {
-          "timestampMillis": 1778662021391
-        },
-        {
-          "timestampMillis": 1778662150896
-        },
-        {
-          "timestampMillis": 1778662193136
-        },
-        {
-          "timestampMillis": 1778662208310
-        },
-        {
-          "timestampMillis": 1778662217239
-        },
-        {
-          "timestampMillis": 1778752934285
-        },
-        {
-          "timestampMillis": 1778752934570
-        },
-        {
-          "timestampMillis": 1778752952367
-        },
-        {
-          "timestampMillis": 1778752956065
-        },
-        {
-          "timestampMillis": 1778753014376
-        },
-        {
-          "timestampMillis": 1778753014636
-        },
-        {
-          "timestampMillis": 1779087446993
-        },
-        {
-          "timestampMillis": 1779087447162
-        },
-        {
-          "timestampMillis": 1779087472604
-        },
-        {
-          "timestampMillis": 1779372350182
-        },
-        {
-          "timestampMillis": 1779372350509
-        },
-        {
-          "timestampMillis": 1779432138477
-        },
-        {
-          "timestampMillis": 1779432138748
-        },
-        {
-          "timestampMillis": 1779432395150
-        },
-        {
-          "timestampMillis": 1779432398890
-        },
         {
           "timestampMillis": 1780410083345
         },
@@ -1101,6 +960,12 @@
         },
         {
           "timestampMillis": 1780925761836
+        },
+        {
+          "timestampMillis": 1782819769432
+        },
+        {
+          "timestampMillis": 1782819769662
         }
       ]
     },
@@ -2394,32 +2259,20 @@
     },
     {
       "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 8,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 10,
       "openLogs": [
-        {
-          "timestampMillis": 1779732745441
-        },
-        {
-          "timestampMillis": 1779732748321
-        },
-        {
-          "timestampMillis": 1779732748521
-        },
-        {
-          "timestampMillis": 1779733591610
-        },
-        {
-          "timestampMillis": 1779781660233
-        },
-        {
-          "timestampMillis": 1779781660411
-        },
         {
           "timestampMillis": 1781269730016
         },
         {
           "timestampMillis": 1781269730253
+        },
+        {
+          "timestampMillis": 1782819763058
+        },
+        {
+          "timestampMillis": 1782819763472
         }
       ]
     },
@@ -2795,8 +2648,8 @@
     },
     {
       "path": "Clippings/grill-me — mattpocockskills.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 13,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1780909628332
@@ -2836,6 +2689,12 @@
         },
         {
           "timestampMillis": 1781269727647
+        },
+        {
+          "timestampMillis": 1782819755243
+        },
+        {
+          "timestampMillis": 1782819755685
         }
       ]
     },
