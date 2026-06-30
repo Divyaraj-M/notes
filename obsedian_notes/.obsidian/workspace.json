@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/How to find edge cases before they become expensive issues.md",
-                "mode": "preview",
+                "file": "Clippings/Agents in AI.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "How to find edge cases before they become expensive issues"
+              "title": "Agents in AI"
             }
           },
           {
@@ -356,6 +356,8 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "Clippings/How to find edge cases before they become expensive issues.md",
+    "Clippings/Agents in AI.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/grill-me — mattpocockskills.md",
@@ -381,12 +383,10 @@
     "Apollo.io Enrichment — Field Reference.md",
     "3 - Resources/Books/The Thirteen Problems.md",
     "3 - Resources/Books/Read List/Read List.md",
-    "Clippings/How to find edge cases before they become expensive issues.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md",
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",

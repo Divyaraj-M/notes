@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Agents in AI",
+      "path": "Clippings/Agents in AI.md"
+    },
+    {
       "basename": "How to find edge cases before they become expensive issues",
       "path": "Clippings/How to find edge cases before they become expensive issues.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Edge case Analysis",
       "path": "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md"
-    },
-    {
-      "basename": "Why I started curious geeks",
-      "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md"
     }
   ],
   "omittedPaths": [],
