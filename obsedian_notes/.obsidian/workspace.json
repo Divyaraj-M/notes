@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
-                "mode": "source",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PMM Playbook — Curious Geeks"
+              "title": "Apolloio_v1"
             }
           },
           {
@@ -356,6 +356,7 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.2.md",
     "1 - Projects/Sparrowcrm/To do list.md",
@@ -367,7 +368,6 @@
     "1 - Projects/Sparrowcrm/12 - People/12 - People.md",
     "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md",
     "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
-    "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "pages/contents.md",
     "pages",
     "journals",
