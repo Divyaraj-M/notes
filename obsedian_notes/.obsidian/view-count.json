@@ -2372,7 +2372,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 12,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1780305115788
@@ -2409,6 +2409,9 @@
         },
         {
           "timestampMillis": 1782987035472
+        },
+        {
+          "timestampMillis": 1782990787508
         }
       ]
     },
