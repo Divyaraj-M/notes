@@ -2372,7 +2372,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1780305115788
@@ -2412,6 +2412,12 @@
         },
         {
           "timestampMillis": 1782990787508
+        },
+        {
+          "timestampMillis": 1782999995386
+        },
+        {
+          "timestampMillis": 1783000002795
         }
       ]
     },
@@ -2966,10 +2972,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1782987072462
+        },
+        {
+          "timestampMillis": 1783000001465
         }
       ]
     }

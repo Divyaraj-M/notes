@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Agents in AI.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agents in AI"
+              "title": "Ai Agents"
             }
           },
           {
@@ -356,8 +356,9 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+    "Clippings/Agents in AI.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -370,7 +371,6 @@
     "1 - Projects/Email Notifications/Email Notifications.md",
     "Clippings/The design language that makes your AI harness better at design..md",
     "Clippings/A motion design skill with two modes.md",
-    "Clippings/Agents in AI.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
