@@ -2874,11 +2874,17 @@
     },
     {
       "path": "Clippings/Agents in AI.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1782820765310
+        },
+        {
+          "timestampMillis": 1782992594602
+        },
+        {
+          "timestampMillis": 1782992595028
         }
       ]
     },
