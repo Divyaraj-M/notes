@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
+    },
+    {
+      "basename": "Ai Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
+    },
+    {
+      "basename": "Custom Agent builderv1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Edge case Analysis",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md"
+    },
+    {
+      "basename": "Rigor of thoughts",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md"
+    },
+    {
+      "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png"
+    },
+    {
+      "basename": "Product thinking",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "Generator – PM Bedtime Story Builder",
+      "path": "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md"
+    },
+    {
+      "basename": "Email Notifications",
+      "path": "1 - Projects/Email Notifications/Email Notifications.md"
+    },
+    {
       "basename": "The design language that makes your AI harness better at design.",
       "path": "Clippings/The design language that makes your AI harness better at design..md"
     },
@@ -55,14 +103,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "@Poonam singh",
@@ -137,10 +177,6 @@
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     },
     {
-      "basename": "Ai Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
-    },
-    {
       "basename": "To do",
       "path": "3 - Resources/Templates/To do.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Thinking",
       "path": "Thinking.md"
-    },
-    {
-      "basename": "Dashboard",
-      "path": "finance/Dashboard.md"
-    },
-    {
-      "basename": "vercel-labsagent-skills Vercel's official collection of agent skills",
-      "path": "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md"
-    },
-    {
-      "basename": "Custom Agent builderv1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
-    },
-    {
-      "basename": "Email Notifications",
-      "path": "1 - Projects/Email Notifications/Email Notifications.md"
-    },
-    {
-      "basename": "Contacts_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
-    },
-    {
-      "basename": "Email_Integrations_v2-Historical Import",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md"
-    },
-    {
-      "basename": "@Nayan Jain",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md"
-    },
-    {
-      "basename": "Email Integration_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md"
-    },
-    {
-      "basename": "Feature Lens — How It Works",
-      "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
     }
   ],
   "omittedPaths": [],
