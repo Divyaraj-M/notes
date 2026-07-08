@@ -645,7 +645,7 @@
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
       "uniqueDaysOpened": 8,
-      "totalTimesOpened": 18,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1781158471220
@@ -670,6 +670,9 @@
         },
         {
           "timestampMillis": 1783500498499
+        },
+        {
+          "timestampMillis": 1783508747341
         }
       ]
     },
@@ -3005,7 +3008,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1782987072462
@@ -3030,6 +3033,12 @@
         },
         {
           "timestampMillis": 1783508175948
+        },
+        {
+          "timestampMillis": 1783508741238
+        },
+        {
+          "timestampMillis": 1783508741644
         }
       ]
     },

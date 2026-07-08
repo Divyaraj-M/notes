@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+                "file": "3 - Resources/Templates/Product Spec Template 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hygiene Agent_v1"
+              "title": "Product Spec Template 2"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -452,11 +452,11 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "6b8115fe02ed8573",
+  "active": "eb906d60ff90674e",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
