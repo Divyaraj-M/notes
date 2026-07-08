@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Ai Signals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
-    },
-    {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
     },
     {
       "basename": "AI CRM Visualization",
@@ -19,6 +15,14 @@
     {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "Zulie",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "CRM Intelligence",
@@ -195,10 +199,6 @@
     {
       "basename": "3-Month Credit Card Escape Plan",
       "path": "finance/3-Month Credit Card Escape Plan.md"
-    },
-    {
-      "basename": "Prioritization Matrix",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
     }
   ],
   "omittedPaths": [],

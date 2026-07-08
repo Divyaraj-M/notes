@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai Signals"
+              "title": "Ai for CRM"
             }
           },
           {
@@ -39,9 +39,9 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -53.65711638897765,
+                  "y": 625.0285493224573,
+                  "zoom": -0.3518708498562091
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -390,10 +390,11 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
@@ -417,8 +418,6 @@
     "Clippings/What we look for in product managers - Handbook.md",
     "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
     "Clippings/grill-me — mattpocockskills.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md",
-    "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "pages",
     "journals",
     "logseq/custom.css",

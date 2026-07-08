@@ -8,7 +8,7 @@ tags:
 | [[Custom Agent builderv1]]      | 02-Jun-2026 |
 | [[Hygiene Agent_v1]]            | 02-Jul-2026 |
 | [[CRM Intelligence]]            | 02-Jul-2026 |
-| [[AI CRM Visualization.canvas]] |             |
-| [[Agents in CRM]]               |             |
-| [[Ai Signals]]                  |             |
-| [[Zulie]]                       |             |
+| [[AI CRM Visualization.canvas]] | 08-Jul-2026 |
+| [[Agents in CRM]]               | 08-Jul-2026 |
+| [[Ai Signals]]                  | 08-Jul-2026 |
+| [[Zulie]]                       | 08-Jul-2026 |
