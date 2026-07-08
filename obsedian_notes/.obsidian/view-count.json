@@ -3762,6 +3762,22 @@
           "timestampMillis": 1783500498935
         }
       ]
+    },
+    {
+      "path": "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1783503852742
+        },
+        {
+          "timestampMillis": 1783503852972
+        },
+        {
+          "timestampMillis": 1783503979338
+        }
+      ]
     }
   ]
 }

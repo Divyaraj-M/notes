@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ai fluency Framework and  foundations",
+      "path": "3 - Resources/Learning/Ai fluency Framework and  foundations.md"
+    },
+    {
       "basename": "Roadmap for Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
-      "basename": "Fields",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
     }
   ],
   "omittedPaths": [],
