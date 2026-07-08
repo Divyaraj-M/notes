@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Roadmap for Agents"
+              "title": "Hygiene Agent_v1"
             }
           },
           {
@@ -405,9 +405,9 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
