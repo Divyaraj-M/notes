@@ -3,5 +3,7 @@
 		{"id":"7706d1ea5a2256e9","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md","x":-260,"y":-720,"width":689,"height":507},
 		{"id":"260bb528d2fd6bee","x":-640,"y":20,"width":400,"height":400,"type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom"}
+	]
 }

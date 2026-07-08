@@ -9,3 +9,6 @@ tags:
 | [[Hygiene Agent_v1]]            | 02-Jul-2026 |
 | [[CRM Intelligence]]            | 02-Jul-2026 |
 | [[AI CRM Visualization.canvas]] |             |
+| [[Agents in CRM]]               |             |
+| [[Ai Signals]]                  |             |
+| [[Zulie]]                       |             |

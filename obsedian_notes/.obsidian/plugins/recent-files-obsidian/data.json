@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
     },
     {
       "basename": "Ai for CRM",
@@ -19,6 +11,18 @@
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
     {
       "basename": "Inteliigence Layer.excalidraw",
@@ -195,10 +199,6 @@
     {
       "basename": "Prioritization Matrix",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md"
-    },
-    {
-      "basename": "To do",
-      "path": "3 - Resources/Templates/To do.md"
     }
   ],
   "omittedPaths": [],
