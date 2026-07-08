@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai fluency Framework and  foundations"
+              "title": "Hygiene Agent_v1"
             }
           },
           {
@@ -448,13 +448,14 @@
       "omnisearch:Omnisearch": true,
       "obsidian42-brat:BRAT": false,
       "canvas:Create new canvas": false,
-      "always-color-text:Always Color Text": false
+      "always-color-text:Always Color Text": false,
+      "project-manager:Project manager": false
     }
   },
   "active": "6b8115fe02ed8573",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
