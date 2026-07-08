@@ -11,6 +11,6 @@ The AI fluency
 - Description 
 	- This is providing rich context to make like thinking env instead of i provide promt ai will give answers 
 - Discernment 
-	- 
+	-  Quality check to the answers which they provide
 - Diligence 
-- 
+	- deciding how the ai should work by norms of ethical and safety   
