@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Untitled.canvas"
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
     },
     {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
-    },
-    {
-      "basename": "Inteliigence Layer.excalidraw",
-      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Excalidraw/Untitled.md"
     },
     {
       "basename": "Ai for CRM",
@@ -23,6 +19,14 @@
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Inteliigence Layer.excalidraw",
+      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Excalidraw/Untitled.md"
     },
     {
       "basename": "The Thirteen Problems",
@@ -195,10 +199,6 @@
     {
       "basename": "To do",
       "path": "3 - Resources/Templates/To do.md"
-    },
-    {
-      "basename": "Import_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
     }
   ],
   "omittedPaths": [],

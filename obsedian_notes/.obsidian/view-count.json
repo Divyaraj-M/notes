@@ -388,7 +388,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 17,
-      "totalTimesOpened": 40,
+      "totalTimesOpened": 41,
       "openLogs": [
         {
           "timestampMillis": 1781074262939
@@ -413,6 +413,9 @@
         },
         {
           "timestampMillis": 1783492589739
+        },
+        {
+          "timestampMillis": 1783494891019
         }
       ]
     },
@@ -2360,7 +2363,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 21,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1780907057810
@@ -2406,6 +2409,15 @@
         },
         {
           "timestampMillis": 1783493172231
+        },
+        {
+          "timestampMillis": 1783494895255
+        },
+        {
+          "timestampMillis": 1783494926463
+        },
+        {
+          "timestampMillis": 1783495126219
         }
       ]
     },
@@ -2976,7 +2988,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 9,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3004,6 +3016,12 @@
         },
         {
           "timestampMillis": 1783494500235
+        },
+        {
+          "timestampMillis": 1783495124416
+        },
+        {
+          "timestampMillis": 1783495130290
         }
       ]
     },
@@ -3040,9 +3058,9 @@
       ]
     },
     {
-      "path": "Untitled.canvas",
+      "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3055,6 +3073,28 @@
         },
         {
           "timestampMillis": 1783494854935
+        },
+        {
+          "timestampMillis": 1783494910565
+        },
+        {
+          "timestampMillis": 1783495163893
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1783495153275
+        },
+        {
+          "timestampMillis": 1783495166317
+        },
+        {
+          "timestampMillis": 1783495166477
         }
       ]
     }

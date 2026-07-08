@@ -24,11 +24,11 @@ The goal it serves: a CRM that learns by itself, processes leads, fetches contex
 
 The layer is one intelligence with three delivery surfaces, distinguished by **interaction model**. Users don't need the architecture — they need three verbs:
 
-|Division|Verb|Interaction model|Trust model|
-|---|---|---|---|
-|**Agents**|_Does work for you_|Push, with permission|Every output is a verdictable suggestion; autonomy earned via accept rates|
-|**AI Signals**|_Shows you what it sees_|Ambient, read-only|No approval flow — interpretations and data, never proposals|
-|**Conversational AI (Zuzile)**|_Answers when you ask_|Pull, on-demand|Rep initiates; nothing unprompted|
+| Division                       | Verb                     | Interaction model     | Trust model                                                                |
+| ------------------------------ | ------------------------ | --------------------- | -------------------------------------------------------------------------- |
+| ** [[Agents in CRM]] **        | _Does work for you_      | Push, with permission | Every output is a verdictable suggestion; autonomy earned via accept rates |
+| **AI Signals**                 | _Shows you what it sees_ | Ambient, read-only    | No approval flow — interpretations and data, never proposals               |
+| **Conversational AI (Zuzile)** | _Answers when you ask_   | Pull, on-demand       | Rep initiates; nothing unprompted                                          |
 
 ### 3.1 Agents — _does work for you_
 
