@@ -9,4 +9,4 @@ The AI fluency
 - Delegation 
 	- Deciding what work to do with ai vs doing yourself 
 - Description 
-	- 
+	- This is providing rich context 
