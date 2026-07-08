@@ -83,17 +83,24 @@
             "id": "5111d1437bf9ed51",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": 249.5591261655505,
-                  "y": 688.2405550216706,
-                  "zoom": -0.8839850562325114
+                "file": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)"
             }
           }
         ],
@@ -399,9 +406,10 @@
   },
   "active": "5111d1437bf9ed51",
   "lastOpenFiles": [
+    "AI CRM Visualization.canvas",
+    "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
@@ -426,7 +434,6 @@
     "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md",
-    "1 - Projects/Email Notifications/Email Notifications.md",
     "pages",
     "journals",
     "logseq/custom.css",

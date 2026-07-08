@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
+      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Companies",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
-    },
-    {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
     }
   ],
   "omittedPaths": [],
