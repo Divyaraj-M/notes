@@ -6,3 +6,7 @@
 - Agency 
 	- I guide my ai to work independently on my behalf
 The AI fluency 
+- Delegation 
+	- Deciding what work to do with ai vs doing yourself 
+- Description 
+	- 
