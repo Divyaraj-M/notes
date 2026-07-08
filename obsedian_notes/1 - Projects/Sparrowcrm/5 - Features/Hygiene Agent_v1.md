@@ -1,5 +1,5 @@
-
-> **One-line definition:** Contact Hygiene Agent v 1 keeps rep-owned Contact records clean by detecting missing, stale, inconsistent, or poorly formatted contact fields from meeting/call evidence and suggesting field-level fixes the contact owner can approve, reject, or let expire.
+	
+> **One-line definition:** Contact Hygiene Agent v 1 keeps rep-owned Contact records clean by detecting missing, stale, inconsistent, or poorly formatted contact fields from meeting, call, and email evidence and suggesting field-level fixes the contact owner can approve, reject, or let expire.
 
 ---
 
@@ -83,33 +83,19 @@ The cost compounds in three directions: reps waste time on manual cleanup, manag
 **P 0**
 
 1. As a sales rep, I want the agent to detect missing important fields on my contacts so that I don't have to audit every record manually.
-    
 2. As a sales rep, I want suggestions grounded in meeting/call transcripts so that updates reflect real customer interactions.
-    
 3. As a sales rep, I want to review every suggested change before it's applied so that I stay in control of my data.
-    
 4. As a sales rep, I want to see why each change was suggested so that I can trust the recommendation.
-    
 5. As a sales rep, I want to reject wrong suggestions so that the agent learns not to repeat similar mistakes.
-    
 6. As a sales rep, I want to run the agent manually from Agent Overview so that I can check my owned contacts on demand.
-    
-7. As a sales rep, I want Manual Run to check only contacts I own that have meeting/call transcripts so that credits aren't wasted on irrelevant records.
-    
+7. As a sales rep, I want Manual Run to check only contacts I own that have meeting/call transcripts or recent email evidence so that credits aren't wasted on irrelevant records.
 8. As a sales manager, I want accepted suggestions to improve contact completeness so that CRM data becomes reliable. **P 1**
-    
 9. As a sales rep, I want repeated low-confidence suggestions suppressed so that my queue stays clean.
-    
 10. As a sales rep, I want manual-run suggestions grouped by contact so that review is fast.
-    
 11. As a manager, I want to see acceptance rates so that I can judge whether the agent is useful or noisy.
-    
 12. As a manager, I want to see Manual Run usage and outcomes so that I know reps are actively maintaining contact data. **P 2**
-    
 13. As a sales rep, I want trusted low-risk updates to auto-apply once the agent has earned enough approvals so that I only review judgment calls.
-    
 14. As an admin, I want to configure which fields the agent can evaluate so that it matches our CRM process.
-    
 15. As a sales rep, I want to run the agent on a specific contact so that I can do a record-level cleanup check.
     
 
@@ -130,18 +116,21 @@ The cost compounds in three directions: reps waste time on manual cleanup, manag
 - Given the agent is not enabled, when the user opens the agent page, then the primary action is Enable.
 - Given enablement succeeds, when the user opens Agent Overview, then the agent is Live and Run Agent is available.
 
-**P 0.3 — Supported triggers** After call · After meeting · Manual Run from Agent Overview. Email-triggered hygiene only if email activity is reliably present in the shared context layer.
+**P 0.3 — Supported triggers** After call · After meeting · After email received · Manual Run from Agent Overview.
 
+The email trigger fires on inbound emails from a contact and evaluates only what that email evidences (signature block, sender domain, stated title/role changes). Signature parsing may run as a cheap pre-step before LLM reasoning, but parsed values are still suggestions — nothing from an email is ever auto-applied. Depends on email activity being reliably present in the shared context layer.
 - Given a meeting ends with new contact information, when the agent runs, then eligible fields are evaluated for missing, stale, or conflicting values.
 - Given a transcript contains contact information stated by the person, when the agent runs, then it can create a suggestion citing the transcript as evidence.
+- Given an inbound email is received from a contact, when the agent runs, then it evaluates fields evidenced by that email (e.g., signature title, phone, company domain) and can create a suggestion citing the email as evidence.
+- Given an inbound email contains no contact-field evidence, when the agent evaluates it, then no reasoning run is triggered.
 
-**P 0.4 — Manual Run from Agent Overview** A scoped hygiene check, not a workspace scan. Evaluates only contacts where: owner = agent owner, at least one meeting/call transcript exists, the transcript isn't already fully processed for the same issue, and at least one supported field may need an update. No contact picker in v 1. Trust model unchanged: detect → suggest → verdict → write on approval.
+**P 0.4 — Manual Run from Agent Overview** A scoped hygiene check, not a workspace scan. Evaluates only contacts where: owner = agent owner, at least one piece of activity evidence exists (meeting/call transcript or a contact-field-evidencing email), that evidence isn't already fully processed for the same issue, and at least one supported field may need an update. No contact picker in v 1. Trust model unchanged: detect → suggest → verdict → write on approval.
 
 - Given the user clicks Run Agent, when Manual Run starts, then only contacts owned by the agent owner are scanned.
-- Given a contact has no transcript or no supported field needing update, when scanning runs, then that contact is skipped before heavy reasoning.
+- Given a contact has no transcript or email evidence, or no supported field needing update, when scanning runs, then that contact is skipped before heavy reasoning.
 - Given eligible contacts with hygiene issues, when the run completes, then field-level suggestions appear under Pending approval.
 
-**P 0.5 — Manual Run credit guardrail** Two-stage execution: (1) a low-cost eligibility scan (ownership, transcript presence and freshness, candidate fields, no duplicate pending suggestion) filters contacts; (2) AI reasoning runs only on contacts that pass. If evidence is weak, no suggestion is created — no guessing.
+**P 0.5 — Manual Run credit guardrail** Two-stage execution: (1) a low-cost eligibility scan (ownership, activity-evidence presence and freshness — transcript or email, candidate fields, no duplicate pending suggestion) filters contacts; (2) AI reasoning runs only on contacts that pass. If evidence is weak, no suggestion is created — no guessing.
 
 - Given Manual Run starts, when contacts are scanned, then the eligibility scan runs before any transcript reasoning.
 - Given no eligible contacts, when the scan completes, then no heavy reasoning is triggered.
@@ -150,7 +139,7 @@ The cost compounds in three directions: reps waste time on manual cleanup, manag
 **P 0.6 — Manual Run output states** Five explicit outcomes, each with clear user-facing messaging:
 
 1. **Suggestions found** — run appears under Pending approval, grouped by contact ("5 contact updates suggested across 3 contacts").
-2. **No eligible contacts** — no reasoning runs; "No eligible contacts found. Manual Run only checks contacts you own with meeting or call transcripts."
+2. **No eligible contacts** — no reasoning runs; "No eligible contacts found. Manual Run only checks contacts you own with meeting/call transcripts or recent email evidence."
 3. **Eligible but nothing needed** — run completes to Past; "No contact hygiene updates needed."
 4. **Insufficient evidence** — "Some contacts were checked, but no update was suggested because evidence was insufficient."
 5. **Duplicates pending** — existing pending suggestion kept (proof statement optionally refreshed with new evidence), no copy created; "Existing pending suggestions were found and not duplicated."
@@ -282,8 +271,8 @@ Excluded: Company/Deal field updates, stage changes, forecast categories, lead s
 |4|Which sources can the agent read in v 1?|Engineering|CRM record, meeting summary, call transcript, email activity|
 |5|Can the agent suggest changes to human-entered values?|Product + Design|Recommended: yes, as evidenced suggestions only — never silent|
 |6|Is associated company in Contact v 1?|Product + Engineering|Touches the Company object; include only with strong association evidence|
-|7|How far back does Manual Run scan transcripts?|Product + Engineering|Suggested start: unprocessed transcripts, last 30 days|
-|8|What marks a transcript/contact/field as "already processed"?|Engineering|Needed to prevent duplicate reasoning|
+|7|How far back does Manual Run scan activity evidence?|Product + Engineering|Suggested start: unprocessed transcripts and emails, last 30 days|
+|8|What marks a transcript/email/contact/field as "already processed"?|Engineering|Needed to prevent duplicate reasoning; also the mechanism that keeps long email threads from re-triggering reasoning|
 |9|Max contacts per Manual Run?|Product + Engineering|Suggested start: cap on eligible contacts after the low-cost scan|
 |10|Review panel design shows Contact Owner as a suggestible field — conflicts with P 0.8 (owner excluded) and P 0.1 (owner-scoped review). Reconcile design vs. PRD|Product + Design|Recommendation: owner stays out of v 1; treat the mock value as placeholder|
 
@@ -298,7 +287,7 @@ Excluded: Company/Deal field updates, stage changes, forecast categories, lead s
 
 ## 9. Timeline Considerations
 
-**Phase 1 — Contact Hygiene Agent v 1 (prove the loop on one object)** Enable-only activation · contact-only, owner-scoped runs · after-call/after-meeting triggers · Manual Run with eligibility scan · missing/stale/format/conflict/association suggestions · approve/reject/expire verdicts · Run → Suggestion → Verdict telemetry. Success: meaningful approval share, manageable rejection/expiry, Manual Run finds useful work at low credit cost, supported fields grow more complete, and the team learns which fields are safe, noisy, or valuable.
+**Phase 1 — Contact Hygiene Agent v 1 (prove the loop on one object)** Enable-only activation · contact-only, owner-scoped runs · after-call / after-meeting / after-email-received triggers · Manual Run with eligibility scan · missing/stale/format/conflict/association suggestions · approve/reject/expire verdicts · Run → Suggestion → Verdict telemetry. Success: meaningful approval share, manageable rejection/expiry, Manual Run finds useful work at low credit cost, supported fields grow more complete, and the team learns which fields are safe, noisy, or valuable.
 
 **Phase 2 — Quality improvements** Grouping, progress states, scan summary, field-level suppression, all-caught-up state, quality dashboard, credit-efficiency analytics.
 
@@ -309,7 +298,7 @@ Excluded: Company/Deal field updates, stage changes, forecast categories, lead s
 ---
 
 ## Appendix — Scope test
-
+	
 Every proposed piece of v 1 work must pass:
 
 > **Does it produce a specific field-level suggestion on a rep-owned Contact record, grounded in contact activity evidence, that the contact owner can verdict?**
