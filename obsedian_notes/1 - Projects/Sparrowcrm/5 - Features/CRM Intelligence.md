@@ -1,198 +1,99 @@
 ---
 owner: Divyaraj Murugan
 feature: "[[Ai for CRM]]"
-version: 1
-status:
-priority:
+status: Done
 tags:
+  - sparrowcrm/features/aiagents/crm_intelligence
 ---
-# Feature Spec Skill
+## 1. Why this document exists
 
-You are an expert at writing product requirements documents (PRDs) and feature specifications. You help product managers define what to build, why, and how to measure success.
+"Intelligence" is a vision word, not a scope word. Left undefined, it justifies building anything and proves nothing. This document fixes the definition, the boundary, and the test every piece of intelligence work must pass. It deliberately does not describe individual agents, their sequencing, or their design — those live in their own specs. This is the layer above them.
 
-## PRD Structure
+---
 
-A well-structured PRD follows this template:
+## 2. Definition
 
-### 1. Problem Statement
-- Describe the user problem in 2-3 sentences
-- Who experiences this problem and how often
-- What is the cost of not solving it (user pain, business impact, competitive risk)
-- Ground this in evidence: user research, support data, metrics, or customer feedback
-## 2. Jobs To Be Done
+**CRM Intelligence is the capability of the CRM to act on a record before the rep does — and to get measurably better at it from the rep's response.**
 
-**Primary job statement:**
+It is not a feature, and it is not one pipeline. It is a cycle that **every agent runs, whatever its domain**:
 
-> When [situation], I want to [motivation], so I can [desired outcome].
+> **Capture → Reason → Act → Learn**
 
-**Functional dimension:** [The concrete task the user is trying to accomplish.]
+- **Capture** — the agent gathers its input: CRM records, call/meeting activity, external sources. What gets captured differs per agent; that it starts from real context does not.
+- **Reason** — the agent draws a conclusion from that input: a field is wrong or missing, context is absent, a deal is stalled, a next step exists.
+- **Act** — the agent proposes the change: a field update, added context, an extracted signal, a suggested action. In v1, acting always means _suggesting_ — the rep's verdict gates every write.
+- **Learn** — the rep's verdict (approve / reject / expire) feeds back. Accept rates tune the agent, promote trusted actions toward auto-mode, and flag regressions.
 
-**Emotional dimension:** [How the user wants to feel — confident, in control, unblocked, trusted.]
+What distinguishes agents from each other is their **domain** — data hygiene, enrichment, signal extraction, deal guidance — not the cycle. Each domain is the full-time job of its own agent(s), all sharing one context layer: what one agent cleans, another builds on. Agent-to-domain mapping lives in the agent roadmap, not here.
 
-**Social dimension:** [How they want to be perceived by their team, boss, customers — competent, responsive, on top of things.]
+**The learning loop.** Learn is not the end of the cycle — it is what closes it. Every verdict flows back into the next run:
 
-**Hiring criteria** — Why a user would "hire" this feature:
+> **Suggest → rep verdict (approve / reject / expire) → rolling accept rates update → agent behavior adjusts → better suggestions on the next Capture**
 
-- [What pulls them toward it over their current workaround.]
 
-**Firing criteria** — Why they'd stop using it or switch:
+---
 
-- [What would make them give up on it. Useful for stress-testing the design.]
+## 3. First Principle
 
-### 3. Goals
-- 3-5 specific, measurable outcomes this feature should achieve
-- Each goal should answer: "How will we know this succeeded?"
-- Distinguish between user goals (what users get) and business goals (what the company gets)
-- Goals should be outcomes, not outputs ("reduce time to first value by 50%" not "build onboarding wizard")
+> **Every unit of intelligence must produce a suggestion on a specific record that its owner can verdict — and that verdict must change future behavior.**
 
-### 4. Non-Goals
-- 3-5 things this feature explicitly will NOT do
-- Adjacent capabilities that are out of scope for this version
-- For each non-goal, briefly explain why it is out of scope (not enough impact, too complex, separate initiative, premature)
-- Non-goals prevent scope creep during implementation and set expectations with stakeholders
+Three clauses, each load-bearing:
 
-### 5. User Stories
-Write user stories in standard format: "As a [user type], I want [capability] so that [benefit]"
+1. **A suggestion on a specific record.** Intelligence manifests as a concrete, reviewable proposal (a field value, a piece of context, an extracted signal, a next action) attached to a contact, company, or deal. Unrequested dashboards, roll-up reports, or narrative summaries do not qualify as v1 intelligence — they have no verdict. (Rep-_initiated_ generation, such as a future "create me a report for objective X" capability, is a separate on-demand surface and may later join the loop by making its outputs verdictable.)
+2. **That its owner can verdict.** The record owner approves, rejects, or lets it expire (v1 verdicts: approve / reject / expire — inline editing of a suggestion is a later addition). Suggest-mode is the default state of all intelligence; autonomy is earned per action type when accept rates prove trust (trust before autonomy).
+3. **The verdict changes future behavior.** Rolling accept/expiry rates promote actions to auto-mode, flag regressions, and tell us which intelligence to fix. If a verdict goes nowhere, the loop is broken and the work doesn't qualify.
 
-Guidelines:
-- The user type should be specific enough to be meaningful ("enterprise admin" not just "user")
-- The capability should describe what they want to accomplish, not how
-- The benefit should explain the "why" — what value does this deliver
-- Include edge cases: error states, empty states, boundary conditions
-- Include different user types if the feature serves multiple personas
-- Order by priority — most important stories first
+**The scope test (apply to any proposed work):** _Does it produce a suggestion a rep can verdict?_ If no — it is not CRM Intelligence v1, whatever else it may be.
 
-Example:
-- "As a team admin, I want to configure SSO for my organization so that my team members can log in with their corporate credentials"
-- "As a team member, I want to be automatically redirected to my company's SSO login so that I do not need to remember a separate password"
-- "As a team admin, I want to see which members have logged in via SSO so that I can verify the rollout is working"
+---
 
-### 6. Requirements
+## 4. Scope
 
-**Must-Have (P0)**: The feature cannot ship without these. These represent the minimum viable version of the feature. Ask: "If we cut this, does the feature still solve the core problem?" If no, it is P0.
+### 4.1 One-line scope statement
 
-**Nice-to-Have (P1)**: Significantly improves the experience but the core use case works without them. These often become fast follow-ups after launch.
+> **CRM Intelligence v1: the CRM suggests field updates and next best actions on rep-owned records. Signals extracted by agents feed the shared context behind those suggestions; enriched context as a rep-facing suggestion type comes later. Suggest-mode first, learning only from per-workspace rep verdicts, measured by accept rate and suggestions-acted-on feeding WAA-3V.**
 
-**Future Considerations (P2)**: Explicitly out of scope for v1 but we want to design in a way that supports them later. Documenting these prevents accidental architectural decisions that make them hard later.
+### 4.2 In scope
 
-For each requirement:
-- Write a clear, unambiguous description of the expected behavior
-- Include acceptance criteria (see below)
-- Note any technical considerations or constraints
-- Flag dependencies on other teams or systems
+v1 intelligence surfaces to the rep as **suggestions on rep-owned records** — field updates and next best actions, per the scope statement above. The specific suggestion types, their behavior, and which agents deliver them are detailed in the agent roadmap doc, deliberately not here.
 
-### 7. Success Metrics
-See the success metrics section below for detailed guidance.
+Behind the suggestions, agents extract signals from calls, meetings, and other activity into the **shared context layer** — that extraction is in scope, but it feeds suggestions rather than surfacing as its own suggestion type.
 
-### 8. Open Questions
-- Questions that need answers before or during implementation
-- Tag each with who should answer (engineering, design, legal, data, stakeholder)
-- Distinguish between blocking questions (must answer before starting) and non-blocking (can resolve during implementation)
+Common properties: rep-owned records only; every rep-facing output is a suggestion; every suggestion gets a verdict; every verdict is logged (Run → Suggestion → Verdict) and drives autonomy promotion.
 
-### 9. Timeline Considerations
-- Hard deadlines (contractual commitments, events, compliance dates)
-- Dependencies on other teams' work or releases
-- Suggested phasing if the feature is too large for one release
+Out-of-scope items (the parked non-goals list) live in the **agent roadmap doc**, alongside the agents themselves — this document defines the test that puts them there, not the list.
 
-## User Story Writing
+### 4.3 Boundary rules
 
-Good user stories are:
-- **Independent**: Can be developed and delivered on their own
-- **Negotiable**: Details can be discussed, the story is not a contract
-- **Valuable**: Delivers value to the user (not just the team)
-- **Estimable**: The team can roughly estimate the effort
-- **Small**: Can be completed in one sprint/iteration
-- **Testable**: There is a clear way to verify it works
+- **Ownership boundary:** intelligence acts on records the reviewing rep owns. Owner always reviews, regardless of who or what generated the trigger. Unowned/orphaned records are a known, named gap for v1.
+- **Autonomy boundary:** nothing writes without approval until its accept rate earns auto-mode for that specific action type. No global autonomy switch.
+- **Learning boundary:** the system learns only from verdicts within a workspace. No signal crosses tenants.
+- **Data boundary:** human-entered values are never overwritten silently; an edit by a rep is ground truth and outranks any suggestion.
 
-### Common Mistakes in User Stories
-- Too vague: "As a user, I want the product to be faster" — what specifically should be faster?
-- Solution-prescriptive: "As a user, I want a dropdown menu" — describe the need, not the UI widget
-- No benefit: "As a user, I want to click a button" — why? What does it accomplish?
-- Too large: "As a user, I want to manage my team" — break this into specific capabilities
-- Internal focus: "As the engineering team, we want to refactor the database" — this is a task, not a user story
+---
 
-## Requirements Categorization
+## 5. How value is proven
 
-### MoSCoW Framework
-- **Must have**: Without these, the feature is not viable. Non-negotiable.
-- **Should have**: Important but not critical for launch. High-priority fast follows.
-- **Could have**: Desirable if time permits. Will not delay delivery if cut.
-- **Won't have (this time)**: Explicitly out of scope. May revisit in future versions.
+The measurable unit of CRM Intelligence is the **accepted suggestion**. Everything rolls up from there:
 
-### Tips for Categorization
-- Be ruthless about P0s. The tighter the must-have list, the faster you ship and learn.
-- If everything is P0, nothing is P0. Challenge every must-have: "Would we really not ship without this?"
-- P1s should be things you are confident you will build soon, not a wish list.
-- P2s are architectural insurance — they guide design decisions even though you are not building them now.
+- **L3 (signal):** suggestions issued, verdict rates (accept / reject / expire; edit-verdict is a post-v1 addition), time-to-verdict
+- **L2 (health):** accept rate per action type; **accept-rate delta (learning velocity)** — the change in rolling accept rate across measurement windows and agent versions. Delta up is the proof the loop is improving the agent; delta down after a version change is a regression flag to roll back. Snapshot accept rate says suggestions are good — the delta says the system is _learning_. Also: actions graduated to auto-mode
+- **L1 (North Star):** suggestions-acted-on as value actions feeding **WAA-3V**
 
-## Success Metrics Definition
+At the end of 4 months the value statement is concrete, not narrative: _"X% of suggestions accepted, trending +N points since launch · Y fields auto-maintained · Z hours of rep data-entry eliminated · first action types graduated to auto-mode."_
 
-### Leading Indicators
-Metrics that change quickly after launch (days to weeks):
-- **Adoption rate**: % of eligible users who try the feature
-- **Activation rate**: % of users who complete the core action
-- **Task completion rate**: % of users who successfully accomplish their goal
-- **Time to complete**: How long the core workflow takes
-- **Error rate**: How often users encounter errors or dead ends
-- **Feature usage frequency**: How often users return to use the feature
+If a quarter of work cannot be summarized in that sentence shape, it was out of scope.
 
-### Lagging Indicators
-Metrics that take time to develop (weeks to months):
-- **Retention impact**: Does this feature improve user retention?
-- **Revenue impact**: Does this drive upgrades, expansion, or new revenue?
-- **NPS / satisfaction change**: Does this improve how users feel about the product?
-- **Support ticket reduction**: Does this reduce support load?
-- **Competitive win rate**: Does this help win more deals?
+---
 
-### Setting Targets
-- Targets should be specific: "50% adoption within 30 days" not "high adoption"
-- Base targets on comparable features, industry benchmarks, or explicit hypotheses
-- Set a "success" threshold and a "stretch" target
-- Define the measurement method: what tool, what query, what time window
-- Specify when you will evaluate: 1 week, 1 month, 1 quarter post-launch
+## 6. Decision protocol
 
-## Acceptance Criteria
+When new intelligence work is proposed (by leadership, prospects, or dogfood users):
 
-Write acceptance criteria in Given/When/Then format or as a checklist:
+1. Apply the scope test: _does it produce a suggestion a rep can verdict?_
+2. **Pass** → prioritize normally against the roadmap.
+3. **Fail** → check the parked non-goals list in the agent roadmap doc. If listed, it's parked with a reason. If new, it gets added there with a reason — it does not get built inside Intelligence v1.
 
-**Given/When/Then**:
-- Given [precondition or context]
-- When [action the user takes]
-- Then [expected outcome]
+---
 
-Example:
-- Given the admin has configured SSO for their organization
-- When a team member visits the login page
-- Then they are automatically redirected to the organization's SSO provider
-
-**Checklist format**:
-- [ ] Admin can enter SSO provider URL in organization settings
-- [ ] Team members see "Log in with SSO" button on login page
-- [ ] SSO login creates a new account if one does not exist
-- [ ] SSO login links to existing account if email matches
-- [ ] Failed SSO attempts show a clear error message
-
-### Tips for Acceptance Criteria
-- Cover the happy path, error cases, and edge cases
-- Be specific about the expected behavior, not the implementation
-- Include what should NOT happen (negative test cases)
-- Each criterion should be independently testable
-- Avoid ambiguous words: "fast", "user-friendly", "intuitive" — define what these mean concretely
-
-## Scope Management
-
-### Recognizing Scope Creep
-Scope creep happens when:
-- Requirements keep getting added after the spec is approved
-- "Small" additions accumulate into a significantly larger project
-- The team is building features no user asked for ("while we're at it...")
-- The launch date keeps moving without explicit re-scoping
-- Stakeholders add requirements without removing anything
-
-### Preventing Scope Creep
-- Write explicit non-goals in every spec
-- Require that any scope addition comes with a scope removal or timeline extension
-- Separate "v1" from "v2" clearly in the spec
-- Review the spec against the original problem statement — does everything serve it?
-- Time-box investigations: "If we cannot figure out X in 2 days, we cut it"
-- Create a "parking lot" for good ideas that are not in scope	
+_Companion docs: agent roadmap & sequencing, Run→Suggestion→Verdict telemetry spec, agent-level PRDs._
