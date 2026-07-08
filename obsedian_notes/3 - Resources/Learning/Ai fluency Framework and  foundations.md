@@ -9,4 +9,8 @@ The AI fluency
 - Delegation 
 	- Deciding what work to do with ai vs doing yourself 
 - Description 
-	- This is providing rich context 
+	- This is providing rich context to make like thinking env instead of i provide promt ai will give answers 
+- Discernment 
+	- 
+- Diligence 
+- 
