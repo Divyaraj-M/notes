@@ -3042,7 +3042,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 17,
+      "totalTimesOpened": 18,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3094,6 +3094,9 @@
         },
         {
           "timestampMillis": 1783498363548
+        },
+        {
+          "timestampMillis": 1783498759234
         }
       ]
     },
@@ -3456,7 +3459,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1783496440450
@@ -3475,6 +3478,9 @@
         },
         {
           "timestampMillis": 1783498104230
+        },
+        {
+          "timestampMillis": 1783498623481
         }
       ]
     },

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
+      "basename": "Zulie",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
     },
     {
       "basename": "Roadmap for Agents",
@@ -15,10 +19,6 @@
     {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Zulie",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
     },
     {
       "basename": "Hygiene Agent_v1",
