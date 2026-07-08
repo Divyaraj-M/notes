@@ -131,9 +131,26 @@
             "id": "eb906d60ff90674e",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 210.14868025526258,
+                  "y": 204.4966031844301,
+                  "zoom": -0.7604338746701116
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
+            }
+          },
+          {
+            "id": "712aabc6f7d612b8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +165,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CRM Intelligence"
+              "title": "Zulie"
+            }
+          },
+          {
+            "id": "b42a7b76963754c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ai Signals"
+            }
+          },
+          {
+            "id": "b08db33f52296fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ai Signals"
             }
           },
           {
@@ -200,7 +265,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -499,20 +564,20 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "eb906d60ff90674e",
+  "active": "712aabc6f7d612b8",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "Excalidraw/Untitled.md",
     "3 - Resources/Books/The Thirteen Problems.md",
