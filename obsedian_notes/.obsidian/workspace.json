@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai Agents"
+              "title": "CRM Intelligence"
             }
           },
           {
@@ -356,10 +356,11 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
-    "Clippings/Agents in AI.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+    "Clippings/Agents in AI.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md",
@@ -382,7 +383,6 @@
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-    "1 - Projects/Sparrowcrm/12 - People/@Poonam singh.md",
     "pages",
     "journals",
     "logseq/custom.css",

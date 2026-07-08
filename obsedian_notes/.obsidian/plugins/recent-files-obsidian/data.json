@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
       "basename": "Ai Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
+    },
+    {
+      "basename": "Custom Agent builderv1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
     },
     {
       "basename": "Hygiene Agent_v1",
@@ -11,10 +19,6 @@
     {
       "basename": "Agents in AI",
       "path": "Clippings/Agents in AI.md"
-    },
-    {
-      "basename": "Custom Agent builderv1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
     },
     {
       "basename": "5 - Features",
@@ -195,10 +199,6 @@
     {
       "basename": "PRD Feature Name",
       "path": "3 - Resources/Templates/Product to dev process/PRD Feature Name.md"
-    },
-    {
-      "basename": "Thinking",
-      "path": "Thinking.md"
     }
   ],
   "omittedPaths": [],
