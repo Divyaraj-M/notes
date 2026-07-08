@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
       "basename": "Zulie",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md"
-    },
-    {
-      "basename": "phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md"
     }
   ],
   "omittedPaths": [],

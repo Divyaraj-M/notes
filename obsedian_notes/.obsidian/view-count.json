@@ -644,33 +644,9 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 16,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 17,
       "openLogs": [
-        {
-          "timestampMillis": 1779108698758
-        },
-        {
-          "timestampMillis": 1779109977770
-        },
-        {
-          "timestampMillis": 1779173609616
-        },
-        {
-          "timestampMillis": 1779182462338
-        },
-        {
-          "timestampMillis": 1779186280211
-        },
-        {
-          "timestampMillis": 1779272111590
-        },
-        {
-          "timestampMillis": 1779351622882
-        },
-        {
-          "timestampMillis": 1779351623131
-        },
         {
           "timestampMillis": 1781158471220
         },
@@ -688,6 +664,9 @@
         },
         {
           "timestampMillis": 1781246803357
+        },
+        {
+          "timestampMillis": 1783500143871
         }
       ]
     },
