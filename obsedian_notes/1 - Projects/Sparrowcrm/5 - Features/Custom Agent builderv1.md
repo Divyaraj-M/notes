@@ -1,5 +1,5 @@
 ---
-feature: "[[Ai Agents]]"
+feature: "[[Ai for CRM]]"
 version: 1
 status: Active
 priority: High

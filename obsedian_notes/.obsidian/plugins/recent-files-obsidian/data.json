@@ -5,8 +5,20 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
     {
-      "basename": "Ai Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md"
+      "basename": "Ai for CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Inteliigence Layer.excalidraw",
+      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
+    },
+    {
+      "basename": "The Thirteen Problems",
+      "path": "3 - Resources/Books/The Thirteen Problems.md"
     },
     {
       "basename": "Custom Agent builderv1",
@@ -19,10 +31,6 @@
     {
       "basename": "Agents in AI",
       "path": "Clippings/Agents in AI.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -129,10 +137,6 @@
       "path": "Apollo.io Enrichment — Field Reference.md"
     },
     {
-      "basename": "The Thirteen Problems",
-      "path": "3 - Resources/Books/The Thirteen Problems.md"
-    },
-    {
       "basename": "Read List",
       "path": "3 - Resources/Books/Read List/Read List.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FRD Template",
       "path": "3 - Resources/Templates/Product to dev process/FRD Template.md"
-    },
-    {
-      "basename": "PRD Feature Name",
-      "path": "3 - Resources/Templates/Product to dev process/PRD Feature Name.md"
     }
   ],
   "omittedPaths": [],

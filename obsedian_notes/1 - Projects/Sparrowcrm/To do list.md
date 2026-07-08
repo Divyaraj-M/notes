@@ -97,5 +97,5 @@
  - [ ] Slack Integration
  - [ ] Ring Central 
  - [ ] Apollo io reseller program 
- - [ ] [[Ai Agents]]
+ - [ ] [[Ai for CRM]]
  - [ ] 

@@ -387,24 +387,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 16,
-      "totalTimesOpened": 39,
+      "uniqueDaysOpened": 17,
+      "totalTimesOpened": 40,
       "openLogs": [
-        {
-          "timestampMillis": 1780305112039
-        },
-        {
-          "timestampMillis": 1780384393817
-        },
-        {
-          "timestampMillis": 1780413495934
-        },
-        {
-          "timestampMillis": 1780567438805
-        },
-        {
-          "timestampMillis": 1780642777499
-        },
         {
           "timestampMillis": 1781074262939
         },
@@ -425,6 +410,9 @@
         },
         {
           "timestampMillis": 1782987024552
+        },
+        {
+          "timestampMillis": 1783492589739
         }
       ]
     },
@@ -2370,9 +2358,9 @@
       ]
     },
     {
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Agents.md",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 17,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
           "timestampMillis": 1780907057810
@@ -2406,6 +2394,15 @@
         },
         {
           "timestampMillis": 1783486746848
+        },
+        {
+          "timestampMillis": 1783492424549
+        },
+        {
+          "timestampMillis": 1783492511391
+        },
+        {
+          "timestampMillis": 1783492592723
         }
       ]
     },
@@ -2829,11 +2826,17 @@
     },
     {
       "path": "3 - Resources/Books/The Thirteen Problems.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1781530963248
+        },
+        {
+          "timestampMillis": 1783492585270
+        },
+        {
+          "timestampMillis": 1783492585517
         }
       ]
     },
@@ -2970,10 +2973,32 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
+        },
+        {
+          "timestampMillis": 1783492508498
+        },
+        {
+          "timestampMillis": 1783492605837
+        }
+      ]
+    },
+    {
+      "path": "Excalidraw/Inteliigence Layer.excalidraw.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1783492438498
+        },
+        {
+          "timestampMillis": 1783492531891
+        },
+        {
+          "timestampMillis": 1783492586863
         }
       ]
     }
