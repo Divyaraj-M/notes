@@ -83,76 +83,21 @@
             "id": "5111d1437bf9ed51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 249.5591261655505,
+                  "y": 688.2405550216706,
+                  "zoom": -0.8839850562325114
                 }
               },
-              "icon": "lucide-file",
-              "title": "Agents in CRM"
-            }
-          },
-          {
-            "id": "6b8115fe02ed8573",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Hygiene Agent_v1"
-            }
-          },
-          {
-            "id": "eb906d60ff90674e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/Product Spec Template 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Product Spec Template 2"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -452,18 +397,18 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "6b8115fe02ed8573",
+  "active": "5111d1437bf9ed51",
   "lastOpenFiles": [
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-    "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -482,7 +427,6 @@
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md",
     "1 - Projects/Email Notifications/Email Notifications.md",
-    "Clippings/The design language that makes your AI harness better at design..md",
     "pages",
     "journals",
     "logseq/custom.css",
