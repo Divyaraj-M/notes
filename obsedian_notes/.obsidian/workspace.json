@@ -11,17 +11,24 @@
             "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -740.4397325897385,
-                  "y": 1103.007951254817,
-                  "zoom": 0
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Roadmap for Agents"
             }
           },
           {
@@ -397,10 +404,12 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
@@ -424,7 +433,6 @@
     "Clippings/The design language that makes your AI harness better at design..md",
     "Clippings/A motion design skill with two modes.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
-    "Clippings/What we look for in product managers - Handbook.md",
     "pages",
     "journals",
     "logseq/custom.css",

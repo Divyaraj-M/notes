@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
       "basename": "Roadmap for Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+      "basename": "Research Agent",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
     },
     {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "Meetings",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
-      "basename": "Ai Signals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Hygiene Agent_v1",
@@ -191,14 +199,6 @@
     {
       "basename": "phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "path": "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md"
-    },
-    {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "filters_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
     }
   ],
   "omittedPaths": [],
