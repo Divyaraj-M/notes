@@ -2360,7 +2360,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 20,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1780907057810
@@ -2403,6 +2403,9 @@
         },
         {
           "timestampMillis": 1783492592723
+        },
+        {
+          "timestampMillis": 1783493172231
         }
       ]
     },
@@ -2973,7 +2976,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -2983,13 +2986,19 @@
         },
         {
           "timestampMillis": 1783492605837
+        },
+        {
+          "timestampMillis": 1783493268148
+        },
+        {
+          "timestampMillis": 1783493268313
         }
       ]
     },
     {
       "path": "Excalidraw/Inteliigence Layer.excalidraw.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 5,
       "openLogs": [
         {
           "timestampMillis": 1783492438498
@@ -2999,6 +3008,32 @@
         },
         {
           "timestampMillis": 1783492586863
+        },
+        {
+          "timestampMillis": 1783493213497
+        },
+        {
+          "timestampMillis": 1783493245220
+        }
+      ]
+    },
+    {
+      "path": "Excalidraw/Untitled.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1783493243492
+        }
+      ]
+    },
+    {
+      "path": "Untitled.canvas",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1783493251919
         }
       ]
     }

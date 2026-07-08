@@ -5,16 +5,24 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
     {
+      "basename": "Untitled",
+      "path": "Untitled.canvas"
+    },
+    {
+      "basename": "Inteliigence Layer.excalidraw",
+      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Excalidraw/Untitled.md"
+    },
+    {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Inteliigence Layer.excalidraw",
-      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
     },
     {
       "basename": "The Thirteen Problems",
@@ -191,14 +199,6 @@
     {
       "basename": "Import_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Import_v1.md"
-    },
-    {
-      "basename": "What product managers do at PostHog - Handbook",
-      "path": "Clippings/What product managers do at PostHog - Handbook.md"
-    },
-    {
-      "basename": "FRD Template",
-      "path": "3 - Resources/Templates/Product to dev process/FRD Template.md"
     }
   ],
   "omittedPaths": [],
