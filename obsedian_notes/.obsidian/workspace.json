@@ -35,34 +35,48 @@
             "id": "023d69963d964009",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -53.65711638897765,
-                  "y": 625.0285493224573,
-                  "zoom": -0.3518708498562091
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Agents in CRM"
             }
           },
           {
             "id": "402955463e1ceaec",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Ai for CRM"
             }
           },
           {
@@ -89,7 +103,8 @@
               "title": "Agents in CRM"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -388,21 +403,23 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "b5f7874c237f1fa2",
+  "active": "402955463e1ceaec",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
-    "AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "Excalidraw/Untitled.md",
     "3 - Resources/Books/The Thirteen Problems.md",
     "Excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "Clippings/Agents in AI.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md",
@@ -416,8 +433,6 @@
     "Clippings/A motion design skill with two modes.md",
     "Clippings/How to find edge cases before they become expensive issues.md",
     "Clippings/What we look for in product managers - Handbook.md",
-    "Clippings/agent-browserskillsagent-browserSKILL.md at main.md",
-    "Clippings/grill-me — mattpocockskills.md",
     "pages",
     "journals",
     "logseq/custom.css",

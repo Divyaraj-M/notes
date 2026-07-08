@@ -1,4 +1,4 @@
-
+[[Roadmap for Agents]]
 ## 1. Why this document exists
 
 Agents are the "does work for you" division of the CRM Intelligence layer (see companion doc: _CRM Intelligence — The Layer_). Left undefined, "agents" justifies building anything and proves nothing. This document fixes the first principle, the boundary, and the test every piece of agent work must pass. It deliberately does not describe individual agents, their sequencing, or their design — those live in the agent roadmap and per-agent PRDs. This is the layer above them.
@@ -113,6 +113,7 @@ When new agent work is proposed (by leadership, prospects, or dogfood users):
 2. **Pass** → prioritize normally against the roadmap.
 3. **Fail** → check the non-goals table (§4.3). If listed, it's parked with a reason. If it belongs to another division of the intelligence layer (Signals, Zuzile, data feeds), route it there. If genuinely new, add it to §4.3 with a reason — it does not get built inside Agents v 1.
 
----
 
-_Companion docs: CRM Intelligence — The Layer (the umbrella this division sits under), agent roadmap & sequencing, Run→Suggestion→Verdict telemetry spec, agent-level PRDs._
+|     |     |
+| --- | --- |
+|     |     |

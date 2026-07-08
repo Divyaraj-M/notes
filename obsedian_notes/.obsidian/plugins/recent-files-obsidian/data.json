@@ -5,24 +5,36 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
     },
     {
-      "basename": "Ai Signals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
     },
     {
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
     },
     {
-      "basename": "Zulie",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+      "basename": "3 - Roadmap & Planning",
+      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
+    },
+    {
+      "basename": "Zulie",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
     },
     {
       "basename": "CRM Intelligence",
@@ -43,10 +55,6 @@
     {
       "basename": "Custom Agent builderv1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
-    },
-    {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
     },
     {
       "basename": "Agents in AI",
@@ -191,14 +199,6 @@
     {
       "basename": "filters_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/filters_v1.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "3-Month Credit Card Escape Plan",
-      "path": "finance/3-Month Credit Card Escape Plan.md"
     }
   ],
   "omittedPaths": [],
