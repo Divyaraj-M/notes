@@ -107,27 +107,10 @@
             "id": "6b8115fe02ed8573",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": 165.4563791971125,
-                  "y": -96.47092428877433,
-                  "zoom": 0.026377207576972844
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
-            }
-          },
-          {
-            "id": "0c66468c7f527416",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -142,6 +125,54 @@
               },
               "icon": "lucide-file",
               "title": "Roadmap for Agents"
+            }
+          },
+          {
+            "id": "eb906d60ff90674e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CRM Intelligence"
+            }
+          },
+          {
+            "id": "0c66468c7f527416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Research Agent"
             }
           },
           {
@@ -169,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -468,15 +499,15 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "023d69963d964009",
+  "active": "eb906d60ff90674e",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
