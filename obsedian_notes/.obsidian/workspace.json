@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -452,8 +452,9 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "eb906d60ff90674e",
+  "active": "6b8115fe02ed8573",
   "lastOpenFiles": [
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
@@ -461,7 +462,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
