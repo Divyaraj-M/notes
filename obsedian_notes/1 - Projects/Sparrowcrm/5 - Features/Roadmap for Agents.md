@@ -6,8 +6,8 @@
 | [[Research Agent]]         | TBD               | Started         |
 | [[Prospecting Agent]]      | TBD               | Not Yet Started |
 | [[Follow Up Agent]]        | TBD               | Not Yet Started |
+| [[Outreach Agent]]         | TBD               | Not Yet Started |
 | [[Process Checker]]        | TBD               | Not Yet Started |
 | [[Pipeline Agent]]         | TBD               | Not Yet Started |
 | [[Notes Agent]]            | TBD               | Not Yet Started |
-| [[Email Writer]]           | TBD               | Not Yet Started |
 | [[Resurrection Agent]]     | TBD               | Not Yet Started |
