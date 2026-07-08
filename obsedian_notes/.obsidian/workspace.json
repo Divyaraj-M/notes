@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -103,8 +103,7 @@
               "title": "Roadmap for Agents"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -404,20 +403,20 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "5111d1437bf9ed51",
+  "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -434,7 +433,6 @@
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
-    "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md",
     "pages",
     "journals",
     "logseq/custom.css",

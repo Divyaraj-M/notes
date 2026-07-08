@@ -3011,7 +3011,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 15,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1782987072462
@@ -3057,13 +3057,16 @@
         },
         {
           "timestampMillis": 1783511932025
+        },
+        {
+          "timestampMillis": 1783515208984
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 28,
+      "totalTimesOpened": 29,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3148,6 +3151,9 @@
         },
         {
           "timestampMillis": 1783500496987
+        },
+        {
+          "timestampMillis": 1783515186909
         }
       ]
     },
@@ -3186,7 +3192,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 95,
+      "totalTimesOpened": 98,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3472,13 +3478,22 @@
         },
         {
           "timestampMillis": 1783513915302
+        },
+        {
+          "timestampMillis": 1783515203022
+        },
+        {
+          "timestampMillis": 1783515215156
+        },
+        {
+          "timestampMillis": 1783515226319
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 32,
+      "totalTimesOpened": 34,
       "openLogs": [
         {
           "timestampMillis": 1783495153275
@@ -3575,6 +3590,12 @@
         },
         {
           "timestampMillis": 1783511809589
+        },
+        {
+          "timestampMillis": 1783515154648
+        },
+        {
+          "timestampMillis": 1783515154875
         }
       ]
     },
@@ -3676,7 +3697,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 45,
+      "totalTimesOpened": 50,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3812,6 +3833,21 @@
         },
         {
           "timestampMillis": 1783513938469
+        },
+        {
+          "timestampMillis": 1783515155613
+        },
+        {
+          "timestampMillis": 1783515157206
+        },
+        {
+          "timestampMillis": 1783515157435
+        },
+        {
+          "timestampMillis": 1783515226722
+        },
+        {
+          "timestampMillis": 1783515226936
         }
       ]
     },

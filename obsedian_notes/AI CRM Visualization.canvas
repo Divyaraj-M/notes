@@ -6,7 +6,7 @@
 		{"id":"42c8ba7dc95ab593","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md","x":-20,"y":46,"width":400,"height":400},
 		{"id":"dd108afe764cd203","type":"text","text":"[[Roadmap for Agents]]","x":-920,"y":1040,"width":250,"height":60},
 		{"id":"4cb6374a1cec4e32","type":"text","text":"[[Meeting AI Bot]]","x":1140,"y":-14,"width":250,"height":60},
-		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md","x":-960,"y":1300,"width":400,"height":400}
+		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md","x":-960,"y":1300,"width":400,"height":400,"color":"3"}
 	],
 	"edges":[
 		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
