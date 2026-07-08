@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
-      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Prospecting Agent",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md"
     },
     {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
     },
     {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
+      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
+      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
     },
     {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
     },
     {
       "basename": "Research Agent",
@@ -195,10 +199,6 @@
     {
       "basename": "Contacts",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
-    },
-    {
-      "basename": "Companies",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md"
     }
   ],
   "omittedPaths": [],

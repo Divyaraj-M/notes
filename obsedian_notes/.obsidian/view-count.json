@@ -3186,7 +3186,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 93,
+      "totalTimesOpened": 95,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3466,6 +3466,12 @@
         },
         {
           "timestampMillis": 1783511942018
+        },
+        {
+          "timestampMillis": 1783513909800
+        },
+        {
+          "timestampMillis": 1783513915302
         }
       ]
     },
@@ -3670,7 +3676,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 42,
+      "totalTimesOpened": 45,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3797,6 +3803,15 @@
         },
         {
           "timestampMillis": 1783511864132
+        },
+        {
+          "timestampMillis": 1783513915809
+        },
+        {
+          "timestampMillis": 1783513916017
+        },
+        {
+          "timestampMillis": 1783513938469
         }
       ]
     },
@@ -3864,6 +3879,16 @@
         },
         {
           "timestampMillis": 1783513568104
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1783513936914
         }
       ]
     }
