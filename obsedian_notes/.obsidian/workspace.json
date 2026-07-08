@@ -11,24 +11,17 @@
             "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 324.0938926044781,
+                  "y": 184.72663868277556,
+                  "zoom": -0.40720412057857885
                 }
               },
-              "icon": "lucide-file",
-              "title": "Hygiene Agent_v1"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -405,6 +398,7 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
@@ -412,7 +406,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
