@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -468,12 +468,12 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "6b8115fe02ed8573",
+  "active": "023d69963d964009",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
