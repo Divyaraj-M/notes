@@ -11,24 +11,17 @@
             "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": -740.4397325897385,
+                  "y": 1103.007951254817,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-file",
-              "title": "Roadmap for Agents"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -404,10 +397,10 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
