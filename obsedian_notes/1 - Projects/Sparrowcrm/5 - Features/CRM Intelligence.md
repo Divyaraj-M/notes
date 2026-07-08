@@ -101,7 +101,3 @@ The learning loop (suggest → verdict → accept rates → behavior adjusts) is
 - **Data feeds**: no learning — deterministic data doesn't improve from verdicts; it improves from better sources.
 
 One principle across all of it: **the layer learns only from in-workspace responses. No signal crosses tenants.**
-
----
-
-_Companion docs: Agents — First Principle & Scope (governs the Agents division), Run→Suggestion→Verdict telemetry spec, agent-level PRDs._

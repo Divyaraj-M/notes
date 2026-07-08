@@ -3042,7 +3042,7 @@
     {
       "path": "Untitled.canvas",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3052,6 +3052,9 @@
         },
         {
           "timestampMillis": 1783494498064
+        },
+        {
+          "timestampMillis": 1783494854935
         }
       ]
     }
