@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai for CRM"
+              "title": "Roadmap for Agents"
             }
           },
           {
@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-                "mode": "source",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ai for CRM"
+              "title": "Agents in CRM"
             }
           },
           {
@@ -103,8 +103,7 @@
               "title": "Agents in CRM"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -403,13 +402,13 @@
       "always-color-text:Always Color Text": false
     }
   },
-  "active": "402955463e1ceaec",
+  "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
