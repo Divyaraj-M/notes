@@ -5,6 +5,10 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
     },
     {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
       "basename": "Workflows",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
     },
     {
       "basename": "Hygiene Agent_v1",

@@ -1,9 +1,6 @@
 ---
-owner:
+owner: "[[@Nayan Jain]]"
 ---
-
----
-
 ## 1. Overview
 
 ### What It Is

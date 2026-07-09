@@ -3174,7 +3174,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 109,
+      "totalTimesOpened": 111,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3502,6 +3502,12 @@
         },
         {
           "timestampMillis": 1783576566706
+        },
+        {
+          "timestampMillis": 1783577605287
+        },
+        {
+          "timestampMillis": 1783577637960
         }
       ]
     },
@@ -3959,10 +3965,16 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1783577537071
+        },
+        {
+          "timestampMillis": 1783577620688
+        },
+        {
+          "timestampMillis": 1783577641534
         }
       ]
     }

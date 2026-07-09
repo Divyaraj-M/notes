@@ -102,8 +102,26 @@
               "icon": "lucide-file",
               "title": "Roadmap for Agents"
             }
+          },
+          {
+            "id": "08324fb1b77f6f8e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 622.1847441689954,
+                  "y": -54.74824343514577,
+                  "zoom": -1.0014419741739067
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -403,10 +421,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "b5f7874c237f1fa2",
+  "active": "08324fb1b77f6f8e",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "AI CRM Visualization.canvas",
