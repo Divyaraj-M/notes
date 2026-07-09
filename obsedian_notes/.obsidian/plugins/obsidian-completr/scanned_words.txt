@@ -4242,6 +4242,7 @@ insufficient
 informing
 interrogate
 intended
+implies
 reads
 references
 requirements
@@ -12395,6 +12396,7 @@ enablement
 evidences
 evidenced
 evidencing
+excerpt
 Story
 Stories
 Should
@@ -26266,6 +26268,7 @@ freshness
 fan
 fourth
 firmographics
+families
 live
 links
 locked
@@ -29373,6 +29376,8 @@ verdicted
 verb
 volunteered
 volunteers
+verifying
+verifies
 No
 Non
 Nice
