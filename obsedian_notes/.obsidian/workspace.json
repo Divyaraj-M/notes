@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -428,10 +428,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "5111d1437bf9ed51",
+  "active": "08324fb1b77f6f8e",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
