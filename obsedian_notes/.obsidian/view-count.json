@@ -837,7 +837,7 @@
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
       "uniqueDaysOpened": 10,
-      "totalTimesOpened": 57,
+      "totalTimesOpened": 59,
       "openLogs": [
         {
           "timestampMillis": 1780907029732
@@ -889,6 +889,12 @@
         },
         {
           "timestampMillis": 1783604224336
+        },
+        {
+          "timestampMillis": 1783604266728
+        },
+        {
+          "timestampMillis": 1783604266995
         }
       ]
     },
@@ -4081,10 +4087,16 @@
     {
       "path": "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1783604176303
+        },
+        {
+          "timestampMillis": 1783604273036
+        },
+        {
+          "timestampMillis": 1783604273271
         }
       ]
     }
