@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Workflows_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
+    },
+    {
+      "basename": "Workflows",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
     },
@@ -57,10 +73,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "3 - Roadmap & Planning",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
     },
@@ -83,10 +95,6 @@
     {
       "basename": "Agents in AI",
       "path": "Clippings/Agents in AI.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "Edge case Analysis",
@@ -191,14 +199,6 @@
     {
       "basename": "Read List",
       "path": "3 - Resources/Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Block Contact creation of Same Domain_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md"
-    },
-    {
-      "basename": "Contacts",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     }
   ],
   "omittedPaths": [],

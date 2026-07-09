@@ -11,17 +11,24 @@
             "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -48.74332293964113,
-                  "y": 55.93643743640901,
-                  "zoom": -0.2637336716982953
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Workflows_v1"
             }
           },
           {
@@ -398,9 +405,13 @@
   },
   "active": "b5f7874c237f1fa2",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
@@ -412,7 +423,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "Excalidraw/Untitled.md",
@@ -420,12 +430,10 @@
     "Excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
     "Clippings/Agents in AI.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md",
     "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md",
-    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "pages",
     "journals",
     "logseq/custom.css",
