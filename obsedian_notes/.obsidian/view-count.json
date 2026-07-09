@@ -1061,20 +1061,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 8,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 9,
       "openLogs": [
-        {
-          "timestampMillis": 1780384405491
-        },
-        {
-          "timestampMillis": 1780567442901
-        },
         {
           "timestampMillis": 1782204965467
         },
         {
           "timestampMillis": 1782204999171
+        },
+        {
+          "timestampMillis": 1783605405893
         }
       ]
     },
@@ -3564,8 +3561,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 35,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 36,
       "openLogs": [
         {
           "timestampMillis": 1783495153275
@@ -3671,6 +3668,9 @@
         },
         {
           "timestampMillis": 1783520416442
+        },
+        {
+          "timestampMillis": 1783605422548
         }
       ]
     },
@@ -3772,7 +3772,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 57,
+      "totalTimesOpened": 58,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3944,6 +3944,9 @@
         },
         {
           "timestampMillis": 1783583313419
+        },
+        {
+          "timestampMillis": 1783605421629
         }
       ]
     },
