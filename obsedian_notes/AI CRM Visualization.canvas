@@ -8,7 +8,8 @@
 		{"id":"dd108afe764cd203","type":"text","text":"[[Roadmap for Agents]]","x":-790,"y":680,"width":250,"height":60},
 		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md","x":-1340,"y":1060,"width":570,"height":560,"color":"3"},
 		{"id":"128884be32caf1d5","type":"text","text":"[[Adoption of AI  Agents]]","x":-340,"y":680,"width":250,"height":60},
-		{"id":"c1ad2cdf05055994","x":1390,"y":-800,"width":400,"height":400,"type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"}
+		{"id":"c1ad2cdf05055994","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md","x":1390,"y":-800,"width":400,"height":400},
+		{"id":"b5501dd435459003","x":-580,"y":1060,"width":400,"height":400,"type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md"}
 	],
 	"edges":[
 		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
@@ -18,6 +19,7 @@
 		{"id":"9dbfa58eefd2d99a","fromNode":"dd108afe764cd203","fromSide":"top","toNode":"260bb528d2fd6bee","toSide":"bottom","color":"5"},
 		{"id":"65841f194dbdfb5a","fromNode":"871e7300eb8d9a2b","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"},
 		{"id":"60d14344df88bc8e","fromNode":"128884be32caf1d5","fromSide":"top","toNode":"260bb528d2fd6bee","toSide":"bottom","color":"2"},
-		{"id":"8314b3db595194e6","fromNode":"c1ad2cdf05055994","fromSide":"left","toNode":"7706d1ea5a2256e9","toSide":"right"}
+		{"id":"8314b3db595194e6","fromNode":"c1ad2cdf05055994","fromSide":"left","toNode":"7706d1ea5a2256e9","toSide":"right"},
+		{"id":"d31ccaae42a28f1c","fromNode":"b5501dd435459003","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"}
 	]
 }

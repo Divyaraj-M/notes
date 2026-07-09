@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Workflows_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
     },
     {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
+      "basename": "Follow Up Agent",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Prospecting Agent",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md"
+    },
+    {
+      "basename": "Workflows_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
     },
     {
       "basename": "Workflows",
@@ -21,24 +41,8 @@
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
-    },
-    {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
-    },
-    {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
-    },
-    {
-      "basename": "Prospecting Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md"
     },
     {
       "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
@@ -195,10 +199,6 @@
     {
       "basename": "Apollo.io Enrichment — Field Reference",
       "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "3 - Resources/Books/Read List/Read List.md"
     }
   ],
   "omittedPaths": [],

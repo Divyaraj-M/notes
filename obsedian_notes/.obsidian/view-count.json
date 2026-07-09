@@ -2981,7 +2981,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 19,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1782987072462
@@ -3039,13 +3039,22 @@
         },
         {
           "timestampMillis": 1783576535893
+        },
+        {
+          "timestampMillis": 1783582678753
+        },
+        {
+          "timestampMillis": 1783582682310
+        },
+        {
+          "timestampMillis": 1783582682535
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 30,
+      "totalTimesOpened": 31,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3136,6 +3145,9 @@
         },
         {
           "timestampMillis": 1783575788022
+        },
+        {
+          "timestampMillis": 1783582668181
         }
       ]
     },
@@ -3174,7 +3186,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 113,
+      "totalTimesOpened": 118,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3514,6 +3526,21 @@
         },
         {
           "timestampMillis": 1783580786619
+        },
+        {
+          "timestampMillis": 1783582432821
+        },
+        {
+          "timestampMillis": 1783582462388
+        },
+        {
+          "timestampMillis": 1783582470683
+        },
+        {
+          "timestampMillis": 1783582474552
+        },
+        {
+          "timestampMillis": 1783582671935
         }
       ]
     },
@@ -3726,8 +3753,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 50,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 54,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3878,6 +3905,18 @@
         },
         {
           "timestampMillis": 1783515226936
+        },
+        {
+          "timestampMillis": 1783582433550
+        },
+        {
+          "timestampMillis": 1783582433757
+        },
+        {
+          "timestampMillis": 1783582441934
+        },
+        {
+          "timestampMillis": 1783582459739
         }
       ]
     },
@@ -3950,11 +3989,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1783513936914
+        },
+        {
+          "timestampMillis": 1783582440315
         }
       ]
     },
@@ -3987,6 +4029,22 @@
         },
         {
           "timestampMillis": 1783580798166
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1783582458324
+        },
+        {
+          "timestampMillis": 1783582469439
+        },
+        {
+          "timestampMillis": 1783582471690
         }
       ]
     }
