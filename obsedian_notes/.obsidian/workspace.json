@@ -107,24 +107,10 @@
             "id": "08324fb1b77f6f8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Follow Up Agent"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -430,8 +416,12 @@
   },
   "active": "08324fb1b77f6f8e",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
+    "1 - Projects/Curious Geeks/Teardowns",
+    "1 - Projects/Curious Geeks/Products/Products.md",
     "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
@@ -455,8 +445,6 @@
     "3 - Resources/Books/The Thirteen Problems.md",
     "Excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-    "Clippings/Agents in AI.md",
-    "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",
     "journals",
@@ -467,7 +455,6 @@
     "finance/Data/accounts",
     "finance/Data/archive",
     "finance/Data/assets",
-    "finance/Data/categories",
     "Pasted image 20260603113626.png",
     "Pasted image 20260603113206.png",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
