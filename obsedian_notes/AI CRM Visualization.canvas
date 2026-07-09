@@ -6,7 +6,8 @@
 		{"id":"4cb6374a1cec4e32","type":"text","text":"[[Meeting AI Bot]]","x":1140,"y":-14,"width":250,"height":60},
 		{"id":"260bb528d2fd6bee","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md","x":-740,"y":46,"width":400,"height":400},
 		{"id":"dd108afe764cd203","type":"text","text":"[[Roadmap for Agents]]","x":-790,"y":680,"width":250,"height":60},
-		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md","x":-830,"y":940,"width":570,"height":560,"color":"3"}
+		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md","x":-1340,"y":1060,"width":570,"height":560,"color":"3"},
+		{"id":"128884be32caf1d5","x":-340,"y":680,"width":250,"height":60,"type":"text","text":"[[Adoption of AI  Agents]]"}
 	],
 	"edges":[
 		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
@@ -14,6 +15,7 @@
 		{"id":"9d4b70c262493b7c","fromNode":"c65cffd77df1bcdf","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"4"},
 		{"id":"a586666880a6ae7e","fromNode":"4cb6374a1cec4e32","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom"},
 		{"id":"9dbfa58eefd2d99a","fromNode":"dd108afe764cd203","fromSide":"top","toNode":"260bb528d2fd6bee","toSide":"bottom","color":"5"},
-		{"id":"65841f194dbdfb5a","fromNode":"871e7300eb8d9a2b","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"}
+		{"id":"65841f194dbdfb5a","fromNode":"871e7300eb8d9a2b","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"},
+		{"id":"60d14344df88bc8e","fromNode":"128884be32caf1d5","fromSide":"top","toNode":"260bb528d2fd6bee","toSide":"bottom","color":"2"}
 	]
 }
