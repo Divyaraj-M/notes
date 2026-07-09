@@ -109,8 +109,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-                "mode": "preview",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hygiene Agent_v1"
+              "title": "Follow Up Agent"
             }
           }
         ],
@@ -430,16 +430,16 @@
   },
   "active": "08324fb1b77f6f8e",
   "lastOpenFiles": [
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
