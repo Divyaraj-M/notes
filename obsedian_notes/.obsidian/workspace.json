@@ -59,24 +59,17 @@
             "id": "402955463e1ceaec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "curious_geeks_zamp_notion_submission.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 225,
+                  "y": 410,
+                  "zoom": -1.1987036801866726
                 }
               },
-              "icon": "lucide-file",
-              "title": "curious_geeks_zamp_notion_submission"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -416,8 +409,8 @@
   },
   "active": "402955463e1ceaec",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "curious_geeks_zamp_notion_submission.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
