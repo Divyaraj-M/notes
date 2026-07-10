@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "curious_geeks_zamp_notion_submission",
+      "path": "curious_geeks_zamp_notion_submission.md"
+    },
+    {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "12 - People",
       "path": "1 - Projects/Sparrowcrm/12 - People/12 - People.md"
-    },
-    {
-      "basename": "@Sakthi Prasath M",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md"
     }
   ],
   "omittedPaths": [],

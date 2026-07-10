@@ -4256,6 +4256,9 @@ isolating
 incentivized
 incidental
 interrupts
+investors
+indie
+investing
 reads
 references
 requirements
@@ -5465,6 +5468,9 @@ reinvestment
 ripped
 referral
 reel
+reactions
+rewards
+rewarded
 Jira
 Jdjxj
 JIvrU
@@ -7089,6 +7095,8 @@ thumbs
 trusting
 trash
 timezones
+thinkers
+testimonials
 PM
 PRD
 Problem
@@ -8005,6 +8013,8 @@ Pauses
 PATCH
 Pause
 Pausing
+Pitch
+Personally
 Before
 Blast
 BM
@@ -8716,6 +8726,7 @@ Belongs
 Branches
 Broadcast
 Branching
+Builders
 design
 does
 do
@@ -11426,6 +11437,9 @@ separable
 suggestible
 successive
 suspended
+shallow
+summarizes
+students
 everyone
 exactly
 each
@@ -12441,6 +12455,7 @@ enclosed
 executions
 enrollment
 engineered
+entrepreneurship
 Story
 Stories
 Should
@@ -13542,6 +13557,8 @@ Sequence
 Shifts
 Sends
 Sharp
+Students
+Student
 Lead
 Loop
 Linking
@@ -15155,6 +15172,10 @@ Aggregates
 Array
 Accessed
 Accessible
+Allowing
+Advisor
+Accelerators
+Aman
 approved
 atomic
 and
@@ -16327,6 +16348,12 @@ appropriately
 afe
 activating
 assessing
+announce
+advisors
+accelerators
+abandons
+advisor
+applause
 QA
 Question
 Quality
@@ -19566,6 +19593,8 @@ bedtime
 bypassing
 bleeding
 bee
+badly
+bootcamps
 Requirements
 Radius
 Rules
@@ -20506,6 +20535,7 @@ Recurring
 Received
 Random
 Robin
+Reputation
 need
 needing
 nested
@@ -22316,6 +22346,9 @@ Celebration
 Confetti
 Cannons
 Coverage
+Cluster
+Creators
+Confusing
 How
 Hubs
 Hub
@@ -23049,6 +23082,8 @@ Hackers
 Hierarchical
 Hand
 Hovering
+Hackathon
+Hackathons
 call
 could
 context
@@ -24613,6 +24648,12 @@ celebration
 cdf
 cue
 classifying
+celebrates
+cluster
+clustering
+colleges
+communities
+cared
 on
 owns
 one
@@ -26354,6 +26395,8 @@ families
 filterable
 fifth
 freemium
+follower
+funded
 live
 links
 locked
@@ -27227,6 +27270,8 @@ logistics
 listens
 latter
 luck
+loudest
+leaderboard
 here
 has
 how
@@ -27986,6 +28031,9 @@ homes
 heating
 heartfelt
 heart
+hackers
+helpfulness
+hurting
 Every
 Engineers
 Expected
@@ -28760,6 +28808,9 @@ Enrolled
 Exited
 Else
 Examines
+Explaining
+Expert
+Encourage
 validation
 visuals
 validated
@@ -29470,6 +29521,7 @@ volunteers
 verifying
 verifies
 virality
+votes
 No
 Non
 Nice
@@ -30911,6 +30963,9 @@ umbrella
 unprocessed
 unarchived
 upserts
+upvotes
+unfinished
+uneven
 phases
 problem
 placeholder
@@ -32153,6 +32208,8 @@ presents
 peripheral
 paywall
 paywalls
+polite
+prototypes
 goals
 give
 generates
@@ -33717,6 +33774,7 @@ Inconsistent
 Iterates
 Iterable
 Incomplete
+Iteration
 you
 yet
 your
@@ -37166,6 +37224,7 @@ monitors
 mathematical
 mismatches
 mechanical
+moderation
 Owners
 Opportunity
 Owner
@@ -38726,6 +38785,8 @@ Magical
 Mehta
 Modifies
 Marks
+MVPs
+Mentors
 UI
 Users
 User
@@ -43716,6 +43777,7 @@ Zettelkasten
 Zustand
 Zheng
 Zuzile
+Zamp
 üy
 üI
 üU
