@@ -97,9 +97,9 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -225.09600998875507,
-                  "y": 450.1780149586685,
-                  "zoom": -0.15688811326008434
+                  "x": -869.1002998168518,
+                  "y": 19.726751223075375,
+                  "zoom": -0.380442893545372
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -131,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -432,17 +432,17 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "39ad0e6000dd0e52",
+  "active": "6d7e63c5cea47693",
   "lastOpenFiles": [
-    "Projects",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "CRM Metrics Framework.md",
+    "Projects",
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
-    "CRM Metrics Framework.md",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
     "Apollo.io Enrichment — Field Reference.md",
@@ -474,7 +474,6 @@
     "1 - Projects/Curious Geeks/icon.svg",
     "finance/Data/accounts",
     "finance/Data/archive",
-    "finance/Data/assets",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
     "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
