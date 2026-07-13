@@ -11,17 +11,24 @@
             "id": "b5f7874c237f1fa2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -101.32925373925603,
-                  "y": 303.04161930793845,
-                  "zoom": -0.5795093949094994
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Roadmap for Agents"
             }
           },
           {
@@ -82,7 +89,8 @@
               "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -383,8 +391,9 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "b5f7874c237f1fa2",
+  "active": "39ad0e6000dd0e52",
   "lastOpenFiles": [
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
@@ -397,7 +406,6 @@
     "curious_geeks_zamp_notion_submission.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "pages/contents.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
@@ -414,7 +422,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",
