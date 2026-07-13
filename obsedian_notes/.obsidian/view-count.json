@@ -3147,7 +3147,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 132,
+      "totalTimesOpened": 133,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3544,13 +3544,16 @@
         },
         {
           "timestampMillis": 1783933380927
+        },
+        {
+          "timestampMillis": 1783933836862
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 36,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 38,
       "openLogs": [
         {
           "timestampMillis": 1783495153275
@@ -3659,6 +3662,12 @@
         },
         {
           "timestampMillis": 1783605422548
+        },
+        {
+          "timestampMillis": 1783933825582
+        },
+        {
+          "timestampMillis": 1783933834479
         }
       ]
     },
@@ -3759,8 +3768,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 58,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 59,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3935,6 +3944,9 @@
         },
         {
           "timestampMillis": 1783605421629
+        },
+        {
+          "timestampMillis": 1783933828358
         }
       ]
     },
@@ -4030,8 +4042,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1783577537071
@@ -4050,6 +4062,9 @@
         },
         {
           "timestampMillis": 1783582758067
+        },
+        {
+          "timestampMillis": 1783933826514
         }
       ]
     },
@@ -4107,7 +4122,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 17,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4141,6 +4156,24 @@
         },
         {
           "timestampMillis": 1783933633951
+        },
+        {
+          "timestampMillis": 1783933728115
+        },
+        {
+          "timestampMillis": 1783933729241
+        },
+        {
+          "timestampMillis": 1783933827660
+        },
+        {
+          "timestampMillis": 1783933832888
+        },
+        {
+          "timestampMillis": 1783933833576
+        },
+        {
+          "timestampMillis": 1783933835821
         }
       ]
     }

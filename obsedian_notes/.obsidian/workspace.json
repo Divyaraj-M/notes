@@ -59,24 +59,17 @@
             "id": "402955463e1ceaec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": -726.1957469878533,
+                  "y": -234.71805459624102,
+                  "zoom": -0.4171046711557042
                 }
               },
-              "icon": "lucide-file",
-              "title": "Knowledge"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -488,14 +481,15 @@
   },
   "active": "402955463e1ceaec",
   "lastOpenFiles": [
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "curious_geeks_zamp_notion_submission.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
@@ -505,7 +499,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",

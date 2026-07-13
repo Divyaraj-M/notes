@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
       "basename": "Knowledge",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Workflows_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
     },
     {
       "basename": "Ai for CRM",
@@ -23,14 +35,6 @@
     {
       "basename": "curious_geeks_zamp_notion_submission",
       "path": "curious_geeks_zamp_notion_submission.md"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "Email Integration",
@@ -55,10 +59,6 @@
     {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
-    },
-    {
-      "basename": "Workflows_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
     },
     {
       "basename": "Hygiene Agent_v1",
