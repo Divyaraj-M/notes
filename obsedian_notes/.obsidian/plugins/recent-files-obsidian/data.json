@@ -1,32 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "Apollo.io Enrichment — Field Reference",
-      "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Workflows_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
     },
     {
       "basename": "Ai for CRM",
@@ -39,6 +15,30 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Workflows_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
+    },
+    {
+      "basename": "Apollo.io Enrichment — Field Reference",
+      "path": "Apollo.io Enrichment — Field Reference.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
       "basename": "Email Integration",
