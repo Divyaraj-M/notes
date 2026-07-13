@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
       "basename": "Read List",
       "path": "3 - Resources/Books/Read List/Read List.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Feature Lens — How It Works",
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
-    },
-    {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
     },
     {
       "basename": "Roadmap for Agents",
@@ -51,10 +55,6 @@
     {
       "basename": "Apollo.io Enrichment — Field Reference",
       "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
       "basename": "Email Integration",

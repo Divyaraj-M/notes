@@ -93,17 +93,24 @@
             "id": "6d7e63c5cea47693",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -774.111867026879,
-                  "y": 4.409304661235781,
-                  "zoom": -0.49359750832962757
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Knowledge"
             }
           },
           {
@@ -155,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -456,11 +463,12 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "369ade95db5415a5",
+  "active": "6d7e63c5cea47693",
   "lastOpenFiles": [
+    "AI CRM Visualization.canvas",
+    "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "CRM Metrics Framework.md",
@@ -487,8 +495,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
-    "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",
