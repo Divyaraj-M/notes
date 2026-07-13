@@ -2281,12 +2281,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 36,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 37,
       "openLogs": [
-        {
-          "timestampMillis": 1780907057810
-        },
         {
           "timestampMillis": 1781246793885
         },
@@ -2373,6 +2370,9 @@
         },
         {
           "timestampMillis": 1783497692550
+        },
+        {
+          "timestampMillis": 1783932227478
         }
       ]
     },
@@ -3146,8 +3146,8 @@
     },
     {
       "path": "AI CRM Visualization.canvas",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 122,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 127,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3514,6 +3514,21 @@
         },
         {
           "timestampMillis": 1783668974503
+        },
+        {
+          "timestampMillis": 1783932260913
+        },
+        {
+          "timestampMillis": 1783932424677
+        },
+        {
+          "timestampMillis": 1783932426437
+        },
+        {
+          "timestampMillis": 1783932451342
+        },
+        {
+          "timestampMillis": 1783932458962
         }
       ]
     },
@@ -4071,6 +4086,22 @@
         },
         {
           "timestampMillis": 1783662056476
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1783932259704
+        },
+        {
+          "timestampMillis": 1783932435484
+        },
+        {
+          "timestampMillis": 1783932457086
         }
       ]
     }

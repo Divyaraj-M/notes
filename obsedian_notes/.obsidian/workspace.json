@@ -63,9 +63,9 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": 378.23911404814726,
-                  "y": -122.05548386086768,
-                  "zoom": -0.6248900471514675
+                  "x": -134.54475792102556,
+                  "y": -18.367568572983473,
+                  "zoom": -0.9536607744463376
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-                "mode": "preview",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -93,7 +93,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5 - Features"
+              "title": "Knowledge Base"
             }
           },
           {
@@ -131,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -431,8 +431,11 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "eabb543f2848e54e",
+  "active": "402955463e1ceaec",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "AI CRM Visualization.canvas",
     "curious_geeks_zamp_notion_submission.md",
@@ -449,14 +452,12 @@
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Learning/Ai fluency Framework and  foundations.md",
     "1 - Projects/Sparrowcrm/5 - Features/Zulie.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
