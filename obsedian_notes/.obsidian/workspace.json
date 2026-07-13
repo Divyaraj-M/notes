@@ -63,13 +63,37 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": 255.6988505261031,
-                  "y": -37.21991680714422,
+                  "x": 378.23911404814726,
+                  "y": -122.05548386086768,
                   "zoom": -0.6248900471514675
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "AI CRM Visualization"
+            }
+          },
+          {
+            "id": "eabb543f2848e54e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5 - Features"
             }
           },
           {
@@ -107,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -407,8 +431,10 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "402955463e1ceaec",
+  "active": "eabb543f2848e54e",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "AI CRM Visualization.canvas",
     "curious_geeks_zamp_notion_submission.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
@@ -418,14 +444,12 @@
     "1 - Projects/Curious Geeks/Teardowns",
     "1 - Projects/Curious Geeks/Products/Products.md",
     "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
@@ -436,7 +460,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md",
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
-    "Excalidraw/Untitled.md",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",
