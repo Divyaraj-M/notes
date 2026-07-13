@@ -97,17 +97,41 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": 137.0345427049173,
-                  "y": 90.91729511094127,
-                  "zoom": -0.9153674563060257
+                  "x": -225.09600998875507,
+                  "y": 450.1780149586685,
+                  "zoom": -0.15688811326008434
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "AI CRM Visualization"
             }
+          },
+          {
+            "id": "790fbee5bcfe2809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agents in CRM"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -408,10 +432,10 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "6d7e63c5cea47693",
+  "active": "790fbee5bcfe2809",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",

@@ -2998,7 +2998,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 137,
+      "totalTimesOpened": 138,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3410,13 +3410,16 @@
         },
         {
           "timestampMillis": 1783939337943
+        },
+        {
+          "timestampMillis": 1783939665807
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 39,
+      "totalTimesOpened": 42,
       "openLogs": [
         {
           "timestampMillis": 1783495153275
@@ -3534,6 +3537,15 @@
         },
         {
           "timestampMillis": 1783937995434
+        },
+        {
+          "timestampMillis": 1783939664911
+        },
+        {
+          "timestampMillis": 1783939666786
+        },
+        {
+          "timestampMillis": 1783939668068
         }
       ]
     },
