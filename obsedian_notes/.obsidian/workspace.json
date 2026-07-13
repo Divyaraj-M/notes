@@ -131,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -432,7 +432,7 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "790fbee5bcfe2809",
+  "active": "39ad0e6000dd0e52",
   "lastOpenFiles": [
     "Projects",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
