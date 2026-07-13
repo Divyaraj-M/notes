@@ -63,9 +63,9 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -61.14459941814344,
-                  "y": 133.16824252974118,
-                  "zoom": -0.9536607744463376
+                  "x": -81.10212145019995,
+                  "y": 829.1047485897635,
+                  "zoom": -1.0958788613627428
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -93,7 +93,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Knowledge Base"
+              "title": "Knowledge"
             }
           },
           {
@@ -433,7 +433,7 @@
   },
   "active": "402955463e1ceaec",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",

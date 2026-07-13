@@ -10,6 +10,6 @@ tags:
 | [[Agents in CRM]]               | 08-Jul-2026 |
 | [[Ai Signals]]                  | 08-Jul-2026 |
 | [[Zulie]]                       | 08-Jul-2026 |
-| [[Knowledge Base]]              | 13-Jul-2026 |
+| [[Knowledge]]              | 13-Jul-2026 |
 |                                 |             |
 |                                 |             |

@@ -32,7 +32,7 @@ tags:
 | [[Search]]              |
 | [[Needs attention]]     |
 | [[Ai for CRM]]           |
-| [[Knowledge Base]]      |
+| [[Knowledge]]      |
 | [[Imports]]             |
 | [[Filters for Objects]] |
 
