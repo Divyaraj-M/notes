@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
+    },
+    {
+      "basename": "Apollo.io Enrichment — Field Reference",
+      "path": "Apollo.io Enrichment — Field Reference.md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "Knowledge",
@@ -11,10 +23,6 @@
     {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "Workflows_v1",
@@ -31,10 +39,6 @@
     {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "curious_geeks_zamp_notion_submission",
-      "path": "curious_geeks_zamp_notion_submission.md"
     },
     {
       "basename": "Email Integration",
@@ -103,14 +107,6 @@
     {
       "basename": "3 - Roadmap & Planning",
       "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "Inteliigence Layer.excalidraw",
-      "path": "Excalidraw/Inteliigence Layer.excalidraw.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Excalidraw/Untitled.md"
     },
     {
       "basename": "The Thirteen Problems",
@@ -195,10 +191,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "@Poonam singh",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Poonam singh.md"
     }
   ],
   "omittedPaths": [],

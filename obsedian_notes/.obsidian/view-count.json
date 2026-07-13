@@ -887,16 +887,6 @@
       ]
     },
     {
-      "path": "1 - Projects/Year2026/Quarter2/Month05/Day13/2026-05-13 13-02-49.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1778657569459
-        }
-      ]
-    },
-    {
       "path": "Clippings/What we look for in product managers - Handbook.md",
       "uniqueDaysOpened": 8,
       "totalTimesOpened": 34,
@@ -1205,84 +1195,9 @@
     },
     {
       "path": "CRM Metrics Framework.md",
-      "uniqueDaysOpened": 9,
-      "totalTimesOpened": 28,
+      "uniqueDaysOpened": 10,
+      "totalTimesOpened": 30,
       "openLogs": [
-        {
-          "timestampMillis": 1778755493227
-        },
-        {
-          "timestampMillis": 1778755493593
-        },
-        {
-          "timestampMillis": 1778828203253
-        },
-        {
-          "timestampMillis": 1778828453315
-        },
-        {
-          "timestampMillis": 1778828458264
-        },
-        {
-          "timestampMillis": 1778829065146
-        },
-        {
-          "timestampMillis": 1778829065595
-        },
-        {
-          "timestampMillis": 1779086791765
-        },
-        {
-          "timestampMillis": 1779086791992
-        },
-        {
-          "timestampMillis": 1779088836070
-        },
-        {
-          "timestampMillis": 1779088836250
-        },
-        {
-          "timestampMillis": 1779088838970
-        },
-        {
-          "timestampMillis": 1779093212138
-        },
-        {
-          "timestampMillis": 1779109973807
-        },
-        {
-          "timestampMillis": 1779176583089
-        },
-        {
-          "timestampMillis": 1779176583474
-        },
-        {
-          "timestampMillis": 1779186294518
-        },
-        {
-          "timestampMillis": 1779267531841
-        },
-        {
-          "timestampMillis": 1779347333382
-        },
-        {
-          "timestampMillis": 1779347333627
-        },
-        {
-          "timestampMillis": 1779348538503
-        },
-        {
-          "timestampMillis": 1779351633748
-        },
-        {
-          "timestampMillis": 1779351653787
-        },
-        {
-          "timestampMillis": 1779432400107
-        },
-        {
-          "timestampMillis": 1781166257225
-        },
         {
           "timestampMillis": 1781246814049
         },
@@ -1291,6 +1206,12 @@
         },
         {
           "timestampMillis": 1781246817912
+        },
+        {
+          "timestampMillis": 1783937731032
+        },
+        {
+          "timestampMillis": 1783937731257
         }
       ]
     },
@@ -2517,25 +2438,6 @@
       ]
     },
     {
-      "path": "finance/Dashboard.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
-      "openLogs": [
-        {
-          "timestampMillis": 1780645467141
-        },
-        {
-          "timestampMillis": 1781073736195
-        },
-        {
-          "timestampMillis": 1781073736497
-        },
-        {
-          "timestampMillis": 1781087225712
-        }
-      ]
-    },
-    {
       "path": "Clippings/grill-me — mattpocockskills.md",
       "uniqueDaysOpened": 5,
       "totalTimesOpened": 15,
@@ -2589,24 +2491,9 @@
     },
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 12,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 13,
       "openLogs": [
-        {
-          "timestampMillis": 1781087257324
-        },
-        {
-          "timestampMillis": 1781160363494
-        },
-        {
-          "timestampMillis": 1781166258355
-        },
-        {
-          "timestampMillis": 1781175450783
-        },
-        {
-          "timestampMillis": 1781175451308
-        },
         {
           "timestampMillis": 1781246808859
         },
@@ -2627,6 +2514,9 @@
         },
         {
           "timestampMillis": 1781759694405
+        },
+        {
+          "timestampMillis": 1783937712197
         }
       ]
     },
@@ -2653,31 +2543,6 @@
         },
         {
           "timestampMillis": 1781158466380
-        }
-      ]
-    },
-    {
-      "path": "finance/3-Month Credit Card Escape Plan.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 6,
-      "openLogs": [
-        {
-          "timestampMillis": 1781164694294
-        },
-        {
-          "timestampMillis": 1781164694553
-        },
-        {
-          "timestampMillis": 1781166502144
-        },
-        {
-          "timestampMillis": 1781246791116
-        },
-        {
-          "timestampMillis": 1781246791432
-        },
-        {
-          "timestampMillis": 1781246799173
         }
       ]
     },
@@ -3113,41 +2978,9 @@
       ]
     },
     {
-      "path": "Excalidraw/Inteliigence Layer.excalidraw.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 5,
-      "openLogs": [
-        {
-          "timestampMillis": 1783492438498
-        },
-        {
-          "timestampMillis": 1783492531891
-        },
-        {
-          "timestampMillis": 1783492586863
-        },
-        {
-          "timestampMillis": 1783493213497
-        },
-        {
-          "timestampMillis": 1783493245220
-        }
-      ]
-    },
-    {
-      "path": "Excalidraw/Untitled.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
-      "openLogs": [
-        {
-          "timestampMillis": 1783493243492
-        }
-      ]
-    },
-    {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 133,
+      "totalTimesOpened": 134,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3547,6 +3380,9 @@
         },
         {
           "timestampMillis": 1783933836862
+        },
+        {
+          "timestampMillis": 1783937662022
         }
       ]
     },
@@ -3769,7 +3605,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 59,
+      "totalTimesOpened": 60,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3947,6 +3783,9 @@
         },
         {
           "timestampMillis": 1783933828358
+        },
+        {
+          "timestampMillis": 1783937657630
         }
       ]
     },
@@ -4107,22 +3946,9 @@
       ]
     },
     {
-      "path": "curious_geeks_zamp_notion_submission.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
-      "openLogs": [
-        {
-          "timestampMillis": 1783662056252
-        },
-        {
-          "timestampMillis": 1783662056476
-        }
-      ]
-    },
-    {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 17,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4174,6 +4000,12 @@
         },
         {
           "timestampMillis": 1783933835821
+        },
+        {
+          "timestampMillis": 1783937654122
+        },
+        {
+          "timestampMillis": 1783937656447
         }
       ]
     }
