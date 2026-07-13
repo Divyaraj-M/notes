@@ -2211,13 +2211,16 @@
     {
       "path": "3 - Resources/Templates/Feature-Lens.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1783948957503
         },
         {
           "timestampMillis": 1783948963855
+        },
+        {
+          "timestampMillis": 1783949075352
         }
       ]
     },
@@ -2666,8 +2669,8 @@
     },
     {
       "path": "3 - Resources/Books/Read List/Read List.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1781269746867
@@ -2680,6 +2683,12 @@
         },
         {
           "timestampMillis": 1781465150846
+        },
+        {
+          "timestampMillis": 1783949083225
+        },
+        {
+          "timestampMillis": 1783949083502
         }
       ]
     },

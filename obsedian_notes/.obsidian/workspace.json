@@ -136,7 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/Templates/Feature-Lens.md",
+                "file": "3 - Resources/Books/Read List/Read List.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -151,7 +151,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Feature-Lens"
+              "title": "Read List"
             }
           }
         ],
@@ -458,8 +458,8 @@
   },
   "active": "369ade95db5415a5",
   "lastOpenFiles": [
-    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "3 - Resources/Templates/Feature-Lens.md",
+    "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
