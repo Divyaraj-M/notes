@@ -126,7 +126,13 @@
     {
       "id": "dash-mrj2kk69-1323",
       "name": "Dashboard 2",
-      "cards": []
+      "cards": [],
+      "background": {
+        "kind": "hdefault",
+        "value": "",
+        "opacity": 0.35,
+        "blur": 2
+      }
     }
   ],
   "activeDashboardId": "dash-mrj2k9sa-3745",

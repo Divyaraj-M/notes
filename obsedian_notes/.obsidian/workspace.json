@@ -88,9 +88,26 @@
               "icon": "hearth-crystal",
               "title": "Home"
             }
+          },
+          {
+            "id": "6d7e63c5cea47693",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 137.0345427049173,
+                  "y": 90.91729511094127,
+                  "zoom": -0.9153674563060257
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -391,8 +408,9 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "39ad0e6000dd0e52",
+  "active": "6d7e63c5cea47693",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -406,7 +424,6 @@
     "curious_geeks_zamp_notion_submission.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "pages/contents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
