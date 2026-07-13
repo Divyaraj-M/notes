@@ -2191,27 +2191,33 @@
     },
     {
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
-          "timestampMillis": 1780304812050
+          "timestampMillis": 1783948918586
         },
         {
-          "timestampMillis": 1780304955762
+          "timestampMillis": 1783948918842
         },
         {
-          "timestampMillis": 1780304955884
+          "timestampMillis": 1783948959983
+        },
+        {
+          "timestampMillis": 1783948960239
         }
       ]
     },
     {
       "path": "3 - Resources/Templates/Feature-Lens.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
-          "timestampMillis": 1780304846783
+          "timestampMillis": 1783948957503
+        },
+        {
+          "timestampMillis": 1783948963855
         }
       ]
     },
