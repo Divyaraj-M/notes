@@ -4107,7 +4107,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4132,6 +4132,15 @@
         },
         {
           "timestampMillis": 1783933377110
+        },
+        {
+          "timestampMillis": 1783933630679
+        },
+        {
+          "timestampMillis": 1783933633657
+        },
+        {
+          "timestampMillis": 1783933633951
         }
       ]
     }
