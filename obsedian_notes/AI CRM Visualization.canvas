@@ -10,8 +10,11 @@
 		{"id":"128884be32caf1d5","type":"text","text":"[[Adoption of AI  Agents]]","x":-340,"y":680,"width":250,"height":60},
 		{"id":"c1ad2cdf05055994","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md","x":1390,"y":-800,"width":400,"height":400},
 		{"id":"b5501dd435459003","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md","x":-580,"y":1060,"width":400,"height":400},
-		{"id":"04557eac4b0ec38b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Knowledge.md","x":-1740,"y":-413,"width":400,"height":400},
-		{"id":"7afc7957f3172e72","x":-2140,"y":310,"width":400,"height":400,"type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"}
+		{"id":"04557eac4b0ec38b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Knowledge.md","x":-1980,"y":-540,"width":400,"height":400},
+		{"id":"7afc7957f3172e72","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Records-L1.md","x":-2840,"y":246,"width":400,"height":400,"color":"4"},
+		{"id":"049ecbea3aa6d2e8","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Context-L2.md","x":-2340,"y":246,"width":400,"height":400,"color":"1"},
+		{"id":"fce45f816c943ad4","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Knowledge Base-L3.md","x":-1860,"y":246,"width":400,"height":400},
+		{"id":"c3cc052dd91c52d8","x":-1065,"y":-1060,"width":400,"height":400,"type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"}
 	],
 	"edges":[
 		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
@@ -23,7 +26,11 @@
 		{"id":"60d14344df88bc8e","fromNode":"128884be32caf1d5","fromSide":"top","toNode":"260bb528d2fd6bee","toSide":"bottom","color":"2"},
 		{"id":"8314b3db595194e6","fromNode":"c1ad2cdf05055994","fromSide":"left","toNode":"7706d1ea5a2256e9","toSide":"right"},
 		{"id":"d31ccaae42a28f1c","fromNode":"b5501dd435459003","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"},
-		{"id":"efd99bbf94c6b1ca","fromNode":"04557eac4b0ec38b","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left"},
-		{"id":"cf3575a905159182","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"7afc7957f3172e72","toSide":"top"}
+		{"id":"cf3575a905159182","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"7afc7957f3172e72","toSide":"top"},
+		{"id":"aeaa5962d590f7e8","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"049ecbea3aa6d2e8","toSide":"top"},
+		{"id":"8a0401fa18f553ff","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"fce45f816c943ad4","toSide":"top"},
+		{"id":"2606bd3415179bc1","fromNode":"c3cc052dd91c52d8","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left"},
+		{"id":"e07fd0619be6a472","fromNode":"c3cc052dd91c52d8","fromSide":"bottom","toNode":"fce45f816c943ad4","toSide":"right"},
+		{"id":"0330a0be360dbf3b","fromNode":"04557eac4b0ec38b","fromSide":"right","toNode":"260bb528d2fd6bee","toSide":"left"}
 	]
 }

@@ -80,16 +80,6 @@
             }
           },
           {
-            "id": "39ad0e6000dd0e52",
-            "type": "leaf",
-            "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
             "id": "f9d742dd93e3f8d5",
             "type": "leaf",
             "state": {
@@ -114,13 +104,23 @@
             }
           },
           {
-            "id": "6943b9029e64ceb8",
+            "id": "42c4fcfe512fbddc",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "7f7468fd2ab62de6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
-                "mode": "source",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -134,31 +134,24 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Records-L1"
+              "title": "Integrations-CRM"
             }
           },
           {
             "id": "745aac08d7ccc631",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": -261.98484430645004,
+                  "y": 71.64813903844518,
+                  "zoom": -0.5224862023823692
                 }
               },
-              "icon": "lucide-file",
-              "title": "Context-L2"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -585,11 +578,14 @@
   },
   "active": "745aac08d7ccc631",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base-L3.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
     "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
@@ -601,7 +597,6 @@
     "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
     "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Clippings/Agents in AI.md",
@@ -611,10 +606,8 @@
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "Projects",
-    "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
-    "Apollo.io Enrichment — Field Reference.md",
     "1 - Projects/Curious Geeks/Teardowns",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",

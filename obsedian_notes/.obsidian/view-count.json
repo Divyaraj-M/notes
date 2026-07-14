@@ -2,35 +2,20 @@
   "items": [
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md",
-      "uniqueDaysOpened": 12,
-      "totalTimesOpened": 17,
+      "uniqueDaysOpened": 13,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
-          "timestampMillis": 1780384400457
-        },
-        {
-          "timestampMillis": 1780567441301
-        },
-        {
-          "timestampMillis": 1781074264910
-        },
-        {
-          "timestampMillis": 1781160464272
-        },
-        {
-          "timestampMillis": 1781175559192
-        },
-        {
-          "timestampMillis": 1781175559535
-        },
-        {
-          "timestampMillis": 1781247033904
-        },
-        {
-          "timestampMillis": 1781248272241
-        },
-        {
           "timestampMillis": 1782204962713
+        },
+        {
+          "timestampMillis": 1784027734712
+        },
+        {
+          "timestampMillis": 1784027782237
+        },
+        {
+          "timestampMillis": 1784027796281
         }
       ]
     },
@@ -146,7 +131,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 24,
-      "totalTimesOpened": 96,
+      "totalTimesOpened": 98,
       "openLogs": [
         {
           "timestampMillis": 1781850328800
@@ -201,6 +186,12 @@
         },
         {
           "timestampMillis": 1784020567210
+        },
+        {
+          "timestampMillis": 1784027724084
+        },
+        {
+          "timestampMillis": 1784027724454
         }
       ]
     },
@@ -328,7 +319,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 20,
-      "totalTimesOpened": 56,
+      "totalTimesOpened": 59,
       "openLogs": [
         {
           "timestampMillis": 1782204960843
@@ -386,6 +377,15 @@
         },
         {
           "timestampMillis": 1784027118451
+        },
+        {
+          "timestampMillis": 1784027718910
+        },
+        {
+          "timestampMillis": 1784027719256
+        },
+        {
+          "timestampMillis": 1784027730772
         }
       ]
     },
@@ -2974,7 +2974,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 150,
+      "totalTimesOpened": 161,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3425,6 +3425,39 @@
         },
         {
           "timestampMillis": 1784027179764
+        },
+        {
+          "timestampMillis": 1784027618573
+        },
+        {
+          "timestampMillis": 1784027627365
+        },
+        {
+          "timestampMillis": 1784027633415
+        },
+        {
+          "timestampMillis": 1784027671456
+        },
+        {
+          "timestampMillis": 1784027682666
+        },
+        {
+          "timestampMillis": 1784027692627
+        },
+        {
+          "timestampMillis": 1784027698153
+        },
+        {
+          "timestampMillis": 1784027746287
+        },
+        {
+          "timestampMillis": 1784027764363
+        },
+        {
+          "timestampMillis": 1784027783177
+        },
+        {
+          "timestampMillis": 1784027798348
         }
       ]
     },
@@ -4053,7 +4086,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 32,
+      "totalTimesOpened": 35,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4150,13 +4183,22 @@
         },
         {
           "timestampMillis": 1784027200830
+        },
+        {
+          "timestampMillis": 1784027646157
+        },
+        {
+          "timestampMillis": 1784027696650
+        },
+        {
+          "timestampMillis": 1784027745017
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 12,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1784027137476
@@ -4193,19 +4235,92 @@
         },
         {
           "timestampMillis": 1784027314148
+        },
+        {
+          "timestampMillis": 1784027606480
+        },
+        {
+          "timestampMillis": 1784027607356
+        },
+        {
+          "timestampMillis": 1784027608291
+        },
+        {
+          "timestampMillis": 1784027632593
+        },
+        {
+          "timestampMillis": 1784027642474
+        },
+        {
+          "timestampMillis": 1784027667027
+        },
+        {
+          "timestampMillis": 1784027685147
+        },
+        {
+          "timestampMillis": 1784027741827
+        },
+        {
+          "timestampMillis": 1784027758391
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1784027204241
         },
         {
           "timestampMillis": 1784027315532
+        },
+        {
+          "timestampMillis": 1784027626603
+        },
+        {
+          "timestampMillis": 1784027643010
+        },
+        {
+          "timestampMillis": 1784027644855
+        },
+        {
+          "timestampMillis": 1784027678303
+        },
+        {
+          "timestampMillis": 1784027688279
+        },
+        {
+          "timestampMillis": 1784027760021
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base-L3.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 7,
+      "openLogs": [
+        {
+          "timestampMillis": 1784027648960
+        },
+        {
+          "timestampMillis": 1784027667547
+        },
+        {
+          "timestampMillis": 1784027676494
+        },
+        {
+          "timestampMillis": 1784027680608
+        },
+        {
+          "timestampMillis": 1784027692003
+        },
+        {
+          "timestampMillis": 1784027743115
+        },
+        {
+          "timestampMillis": 1784027762663
         }
       ]
     }
