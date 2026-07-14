@@ -145,12 +145,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-      "uniqueDaysOpened": 23,
-      "totalTimesOpened": 92,
+      "uniqueDaysOpened": 24,
+      "totalTimesOpened": 93,
       "openLogs": [
-        {
-          "timestampMillis": 1781247023482
-        },
         {
           "timestampMillis": 1781850328800
         },
@@ -192,6 +189,9 @@
         },
         {
           "timestampMillis": 1783938003231
+        },
+        {
+          "timestampMillis": 1784012611738
         }
       ]
     },
