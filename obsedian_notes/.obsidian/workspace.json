@@ -90,6 +90,30 @@
             }
           },
           {
+            "id": "4eb9e655c4f3b1f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CRM Intelligence"
+            }
+          },
+          {
             "id": "6d7e63c5cea47693",
             "type": "leaf",
             "state": {
@@ -463,15 +487,16 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "6d7e63c5cea47693",
+  "active": "4eb9e655c4f3b1f9",
   "lastOpenFiles": [
     "AI CRM Visualization.canvas",
+    "CRM Metrics Framework.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-    "CRM Metrics Framework.md",
     "Projects",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -483,7 +508,6 @@
     "curious_geeks_zamp_notion_submission.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
     "pages/contents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
     "1 - Projects/Curious Geeks/Curious Geeks.md",

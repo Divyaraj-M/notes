@@ -1204,18 +1204,9 @@
     },
     {
       "path": "CRM Metrics Framework.md",
-      "uniqueDaysOpened": 10,
-      "totalTimesOpened": 32,
+      "uniqueDaysOpened": 11,
+      "totalTimesOpened": 33,
       "openLogs": [
-        {
-          "timestampMillis": 1781246814049
-        },
-        {
-          "timestampMillis": 1781246814274
-        },
-        {
-          "timestampMillis": 1781246817912
-        },
         {
           "timestampMillis": 1783937731032
         },
@@ -1227,6 +1218,9 @@
         },
         {
           "timestampMillis": 1783941788561
+        },
+        {
+          "timestampMillis": 1784011209570
         }
       ]
     },
@@ -2903,8 +2897,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 35,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 38,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3010,13 +3004,22 @@
         },
         {
           "timestampMillis": 1783939014763
+        },
+        {
+          "timestampMillis": 1784011218577
+        },
+        {
+          "timestampMillis": 1784011220312
+        },
+        {
+          "timestampMillis": 1784011220609
         }
       ]
     },
     {
       "path": "AI CRM Visualization.canvas",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 141,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 142,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3440,6 +3443,9 @@
         },
         {
           "timestampMillis": 1783950430398
+        },
+        {
+          "timestampMillis": 1784011215613
         }
       ]
     },
