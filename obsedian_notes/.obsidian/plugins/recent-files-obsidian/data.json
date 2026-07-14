@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Agents in AI",
+      "path": "Clippings/Agents in AI.md"
+    },
+    {
+      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
+      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
+    },
+    {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
@@ -89,10 +97,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows.md"
     },
     {
-      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
-      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
-    },
-    {
       "basename": "Research Agent",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "Custom Agent builderv1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
-    },
-    {
-      "basename": "Agents in AI",
-      "path": "Clippings/Agents in AI.md"
     },
     {
       "basename": "Edge case Analysis",

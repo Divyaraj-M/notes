@@ -898,6 +898,7 @@ Triggered
 Transcript
 Traversal
 Transitions
+TCFD
 Docs
 Doc
 Designer
@@ -3239,6 +3240,7 @@ wja
 wired
 wobble
 widening
+wrangling
 it
 is
 interaction
@@ -4269,6 +4271,7 @@ investing
 iÄ
 imn
 imagine
+investor
 reads
 references
 requirements
@@ -5490,6 +5493,14 @@ recurs
 routinely
 reclaim
 reclassifies
+reconciling
+reconcile
+requesting
+reconciliation
+regulator
+recommending
+remediation
+reformatting
 Jira
 Jdjxj
 JIvrU
@@ -7122,6 +7133,7 @@ tXy
 truest
 tolerate
 texture
+trailing
 PM
 PRD
 Problem
@@ -8046,6 +8058,7 @@ POh
 Pnv
 Pwm
 Peripheral
+Predictive
 Before
 Blast
 BM
@@ -9905,6 +9918,9 @@ decorates
 dull
 discriminating
 double
+disclosures
+defeating
+deviate
 starts
 sub
 screens
@@ -11487,6 +11503,11 @@ several
 splits
 sliver
 slowly
+skilled
+sustainability
+scrambling
+satisfy
+secured
 everyone
 exactly
 each
@@ -12506,6 +12527,10 @@ entrepreneurship
 eqa
 eGU
 eJE
+emissions
+erode
+exportable
+emission
 Story
 Stories
 Should
@@ -13610,6 +13635,8 @@ Sharp
 Students
 Student
 Slj
+Sustainability
+SEC
 Lead
 Loop
 Linking
@@ -15232,6 +15259,8 @@ Advisor
 Accelerators
 Aman
 ALKfk
+Assemble
+Anomaly
 approved
 atomic
 and
@@ -16417,6 +16446,9 @@ ajy
 ana
 avoided
 accidents
+assemble
+anomaly
+aim
 QA
 Question
 Quality
@@ -18829,6 +18861,7 @@ GtC
 GlP
 GGfqt
 GZYl
+GHG
 build
 break
 back
@@ -20611,6 +20644,7 @@ Received
 Random
 Robin
 Reputation
+Recommendations
 need
 needing
 nested
@@ -22433,6 +22467,9 @@ CRl
 CYq
 Criticality
 Ctrl
+CSRD
+Confident
+Carbon
 How
 Hubs
 Hub
@@ -24749,6 +24786,9 @@ cleanest
 conflate
 counterfactual
 comparing
+climate
+challenged
+cutover
 on
 owns
 one
@@ -25557,6 +25597,7 @@ orA
 oNII
 oZw
 occasional
+offsets
 flows
 from
 full
@@ -26504,6 +26545,8 @@ fTP
 fWi
 filler
 float
+filings
+filing
 live
 links
 locked
@@ -28930,6 +28973,8 @@ EcG
 EWP
 Emb
 Enabling
+ESG
+Emissions
 validation
 visuals
 validated
@@ -29643,6 +29688,8 @@ virality
 votes
 vAl
 vYc
+vendor
+voluntary
 No
 Non
 Nice
@@ -31100,6 +31147,8 @@ uog
 ujb
 underrates
 underwrites
+undermines
+unusual
 phases
 problem
 placeholder
@@ -37393,6 +37442,7 @@ mVYe
 meL
 mislead
 mechanically
+migrating
 Owners
 Opportunity
 Owner
