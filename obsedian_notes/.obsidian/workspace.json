@@ -90,6 +90,47 @@
             }
           },
           {
+            "id": "f9d742dd93e3f8d5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": -588.76045789683,
+                  "y": 478.1422337556895,
+                  "zoom": -0.8638691138366792
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
+            }
+          },
+          {
+            "id": "745aac08d7ccc631",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge"
+            }
+          },
+          {
             "id": "6d7e63c5cea47693",
             "type": "leaf",
             "state": {
@@ -97,26 +138,6 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "1c0243686df49c0b",
-            "type": "leaf",
-            "state": {
-              "type": "better-store-view",
-              "state": {},
-              "icon": "store",
-              "title": "Better Store"
-            }
-          },
-          {
-            "id": "36534cc15b40ff07",
-            "type": "leaf",
-            "state": {
-              "type": "rss-dashboard-view",
-              "state": {},
-              "icon": "rss",
-              "title": "RSS dashboard"
             }
           },
           {
@@ -149,7 +170,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -164,7 +185,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Roadmap for Agents"
+              "title": "Agents in CRM"
             }
           },
           {
@@ -216,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -531,8 +552,14 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "57a60e05d400e9e2",
+  "active": "f9d742dd93e3f8d5",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+    "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
     "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
@@ -541,28 +568,21 @@
     "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Clippings/Agents in AI.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "AI CRM Visualization.canvas",
     "CRM Metrics Framework.md",
     "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "Projects",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
     "Apollo.io Enrichment — Field Reference.md",
     "curious_geeks_zamp_notion_submission.md",
-    "Excalidraw/Inteliigence Layer.excalidraw.md",
     "1 - Projects/Curious Geeks/Teardowns",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",

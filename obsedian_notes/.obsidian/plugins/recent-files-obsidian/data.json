@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "EN-Product Vision",
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
+    },
+    {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
@@ -37,18 +57,6 @@
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
     {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
-    },
-    {
-      "basename": "EN-Product Vision",
-      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
-    },
-    {
       "basename": "Product Management - Top Deliverables",
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
     },
@@ -69,10 +77,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "Feature Lens — How It Works",
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
     },
     {
       "basename": "Workflows_v1",
