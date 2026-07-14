@@ -1,3 +1,8 @@
+---
+owner: "[[@Divyaraj Murugan]]"
+tags:
+---
+
 ## 1. What this layer is
 
 Layer 1 is the CRM's **instance data** — contacts, companies, deals, activities, tasks, and everything captured as the business runs. It is what the intelligence layer reasons _about_: the subject of every agent action, every signal, every Zulie answer about a specific entity.

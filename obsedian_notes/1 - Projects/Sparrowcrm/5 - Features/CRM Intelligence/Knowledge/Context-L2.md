@@ -1,7 +1,8 @@
-# Layer 2 — Context
-
-**Status:** Draft v 1 · **Owner:** Divyaraj M **Parent:** Knowledge — The Grounding Layer · **Layer altitude:** Workspace (the business as a whole) **Ships:** v 2 — Layer 1 is present and Layer 3 ships first; Context follows. Capabilities needing it run on defaults or wait until then.
-
+---
+owner: "[[@Divyaraj Murugan]]"
+status: Done
+tags:
+  - sparrowcrm/features/crm_intelligence/knowledge/contextL3
 ---
 
 ## 1. What this layer is
