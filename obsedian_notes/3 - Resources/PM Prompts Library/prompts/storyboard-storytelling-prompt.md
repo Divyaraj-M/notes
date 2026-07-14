@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[user-story-prompt-template]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[user-story-mapping]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[positioning-statement-prompt-generator]]"
+---
 # storyboard-storytelling-prompt.md
 <!--
 ## Description:

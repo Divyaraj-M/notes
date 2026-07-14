@@ -6,6 +6,22 @@ status: Done
 priority: Low
 tags:
   - sparrowcrm/features/contacts/email/v1
+related:
+  - "[[Email Integration_v1]]"
+  - "[[Block Contact creation of Same Domain_v1]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[2-Product Strategy]]"
+  - "[[Import_v1]]"
+  - "[[1-Product Vision]]"
+  - "[[filters_v1]]"
+  - "[[First Principle for a CRM]]"
+  - "[[Hygiene Agent_v1]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Apolloio_v1]]"
+  - "[[Email Integration_v1.2]]"
+  - "[[CRM Intelligence]]"
 ---
 ## 1. Problem Statement
 

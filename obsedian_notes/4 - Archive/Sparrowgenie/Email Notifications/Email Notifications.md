@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Email Notifications]]"
+  - "[[Email]]"
+  - "[[Notification Strategy]]"
+  - "[[Onboarding Emails Reference]]"
+  - "[[MyMail]]"
+  - "[[Contacts]]"
+  - "[[Email Integration_v1]]"
+  - "[[@Nayan Jain]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[Email Integration]]"
+  - "[[2026-02-24]]"
+  - "[[Google Calendar]]"
+  - "[[Issues Found]]"
+  - "[[Email Integration_v1.2]]"
+  - "[[Customer Insights]]"
+---

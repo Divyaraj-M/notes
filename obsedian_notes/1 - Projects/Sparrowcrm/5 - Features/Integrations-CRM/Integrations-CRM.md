@@ -5,6 +5,22 @@ updated: 2026-05-02
 owner:
 tags:
   - sparrowcrm/features/integrations
+related:
+  - "[[Email Integration_v1]]"
+  - "[[To do list]]"
+  - "[[Ai for CRM]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[CRM Intelligence]]"
+  - "[[Integrations]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Import_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Email_v1]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[Divyaraj Murugan]]"
+  - "[[2-Product Strategy]]"
+  - "[[Salesforce Integration]]"
 ---
 
 #  Integrations CRM

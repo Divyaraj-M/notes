@@ -1,3 +1,21 @@
+---
+related:
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[user-story-mapping]]"
+  - "[[daci-chart-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[README]]"
+  - "[[market-requirements-generator-prompt]]"
+---
 # Generator – Customer Journey Map Simulator.md
 <!--
 ## Description:

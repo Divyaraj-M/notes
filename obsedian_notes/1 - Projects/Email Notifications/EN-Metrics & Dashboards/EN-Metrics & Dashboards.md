@@ -1,0 +1,18 @@
+---
+related:
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[EN-Features]]"
+  - "[[EN-Customer Insights]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[EN-Marketing]]"
+  - "[[EN-Competitors]]"
+  - "[[Elastic Search]]"
+  - "[[EN-Help Articles]]"
+  - "[[EN-Decisions]]"
+  - "[[Steps to create it]]"
+  - "[[9 - Product Wins]]"
+  - "[[EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)]]"
+  - "[[10 - Marketing]]"
+  - "[[EN-People]]"
+  - "[[Sales]]"
+---

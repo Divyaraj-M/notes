@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Knowledge]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Research Agent]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[howto]]"
+  - "[[positioning-statement]]"
+  - "[[The Design of Everyday things]]"
+  - "[[Generator – PM Bedtime Story Builder]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[user-story-mapping]]"
+  - "[[Read List]]"
+  - "[[positioning-statement-prompt-generator]]"
+---

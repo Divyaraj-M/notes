@@ -1,3 +1,21 @@
+---
+related:
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Zoom]]"
+  - "[[Product Spec Template 2]]"
+  - "[[Product Roadmap]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[Product specs]]"
+  - "[[Instructions from the Document]]"
+  - "[[Product specs]]"
+  - "[[futuristic-product-faq]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[4 - Product Specs]]"
+  - "[[UTITSL_102 - Tech Doc]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)]]"
+---
 
 
   

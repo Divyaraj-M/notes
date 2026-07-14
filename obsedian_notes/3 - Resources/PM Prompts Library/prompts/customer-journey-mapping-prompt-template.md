@@ -1,3 +1,21 @@
+---
+related:
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[user-story-mapping]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[user-story-prompt-template]]"
+  - "[[positioning-statement]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[proto-persona-profile]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[howto]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[README]]"
+---
 # customer-journey-mapping-prompt-template.md
 
 <!--

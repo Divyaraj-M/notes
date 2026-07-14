@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Reaction – Glassdoor Review – A Masterclass in Pretending to Care]]"
+  - "[[Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[@Nayan Jain]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[Email_v1]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[PMM Playbook — Curious Geeks]]"
+  - "[[eol-for-a-product-message]]"
+---
 # Reaction – You Can't Fire Me I Quit Dear John Letter.md
 
 ## PROMPT

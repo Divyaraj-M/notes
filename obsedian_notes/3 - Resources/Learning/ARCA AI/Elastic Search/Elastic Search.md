@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Kibana]]"
+  - "[[Mapping]]"
+  - "[[artifact-first-context-intake]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[Table view for question card PRD]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[filters_v1]]"
+  - "[[Instructions from the Document]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[Edge case Analysis]]"
+  - "[[Edge case Analysis]]"
+  - "[[Salesforce Integration]]"
+  - "[[Workflows_v1]]"
+  - "[[WYSIWYG editor - First Principle]]"
+---
 #arca_ai/learning/elastic_search
 # Elasticsearch – Analytical Engine Syllabus
 

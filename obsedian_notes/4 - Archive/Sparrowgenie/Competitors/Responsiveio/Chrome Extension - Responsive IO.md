@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Chrome Extension]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[Responsive.io]]"
+  - "[[Answer types]]"
+  - "[[Answer types templates]]"
+  - "[[Go- no - Go responsive]]"
+  - "[[SmartScan]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Chrome Extension]]"
+  - "[[Integrations]]"
+  - "[[SmartFill]]"
+  - "[[Help Article Template]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Getting started  with SparrowGenie]]"
+---
 #competitor_analysis 
 
 **Article 1**  

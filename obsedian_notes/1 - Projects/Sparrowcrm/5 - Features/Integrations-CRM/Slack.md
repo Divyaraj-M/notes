@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Notification Strategy]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[Friction points]]"
+  - "[[Stripe]]"
+  - "[[RevOps]]"
+  - "[[Proposal Creation Flow]]"
+  - "[[Knowledge Hub]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[Friction Points]]"
+  - "[[Metrics & Dashboards]]"
+  - "[[To do list]]"
+  - "[[Loopio]]"
+  - "[[Responsive.io]]"
+  - "[[To do]]"
+  - "[[@Anshul S]]"
+---

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Jira Process]]"
+  - "[[Prioritization Matrix]]"
+  - "[[@Vaishnavi Yuvaraj]]"
+  - "[[@Yuvaraj Singh J]]"
+  - "[[RevOps]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[மகிழ்ச்சியான பன்றிக்குட்டி]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Routine]]"
+  - "[[QnA training loop]]"
+  - "[[Slack]]"
+  - "[[Loopio]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[readme]]"
+---

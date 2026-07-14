@@ -1,3 +1,21 @@
+---
+related:
+  - "[[UTITSL_102 - Tech Doc]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[Kibana]]"
+  - "[[Instructions from the Document]]"
+  - "[[Elastic Search]]"
+  - "[[Knowledge Hub]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Metrics & Dashboards]]"
+  - "[[RFP training PRD]]"
+  - "[[Jira Process]]"
+  - "[[Domain diagram]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[RFP training]]"
+---
 # ECHS Data Model, Dashboards, and KPI Documentation
 
 ## Purpose

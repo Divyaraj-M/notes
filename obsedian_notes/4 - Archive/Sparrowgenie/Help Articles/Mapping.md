@@ -1,5 +1,21 @@
 ---
 state: "[[Drafting]]"
+related:
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Routine]]"
+  - "[[Instructions from the Document]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Create a project]]"
+  - "[[filters_v1]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Import_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Email_v1]]"
+  - "[[Friction points]]"
+  - "[[Project admin settings]]"
+  - "[[Table view for question card PRD]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[SparrowGenie.excalidraw]]"
 ---
 # Field mapping
 

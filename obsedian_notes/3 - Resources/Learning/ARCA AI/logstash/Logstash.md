@@ -1,0 +1,18 @@
+---
+related:
+  - "[[RevOps]]"
+  - "[[Elastic Search]]"
+  - "[[Work Log 2026-02-16]]"
+  - "[[Google Search Console]]"
+  - "[[Routine]]"
+  - "[[jobs-to-be-done]]"
+  - "[[@Vilashini]]"
+  - "[[Project Watcher]]"
+  - "[[Issues Found]]"
+  - "[[2025-12-12]]"
+  - "[[Daily Template]]"
+  - "[[Kibana]]"
+  - "[[Loopio]]"
+  - "[[Enriched Fields]]"
+  - "[[Slack]]"
+---

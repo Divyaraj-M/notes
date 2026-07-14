@@ -1,3 +1,21 @@
+---
+related:
+  - "[[SmartScan]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Arphie.ai]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[Instructions from the Document]]"
+  - "[[Differentiator]]"
+  - "[[README]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[howto]]"
+  - "[[Context info - PRD]]"
+  - "[[CRM Metrics Framework]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[positioning-statement]]"
+  - "[[Table view for question card PRD]]"
+---
 #competitor_analysis 
 ### How SmartScan is positioned
 

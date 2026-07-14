@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "EN-Product Vision",
+      "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
       "basename": "Agents in AI",
       "path": "Clippings/Agents in AI.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
       "basename": "5 - Features",
@@ -47,10 +59,6 @@
     {
       "basename": "Feature Lens — How It Works",
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "Agents in CRM",
@@ -149,10 +157,6 @@
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
     },
     {
-      "basename": "Product Management - Top Deliverables",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
-    },
-    {
       "basename": "Generator – PM Bedtime Story Builder",
       "path": "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Email Integration_v1.2",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.2.md"
-    },
-    {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
     }
   ],
   "omittedPaths": [],

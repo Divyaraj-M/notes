@@ -1,0 +1,18 @@
+---
+related:
+  - "[[EN-Product Vision]]"
+  - "[[EN-Marketing]]"
+  - "[[EN-Decisions]]"
+  - "[[EN-Customer Insights]]"
+  - "[[EN-People]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[EN-Product Strategy]]"
+  - "[[EN-Competitors]]"
+  - "[[5 - Features]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[EN-Help Articles]]"
+  - "[[EN-Product Wins]]"
+  - "[[Feature Template]]"
+  - "[[Feature-Lens]]"
+  - "[[SparrowDesk]]"
+---

@@ -7,6 +7,22 @@ tags:
   - sparrowcrm/competitors/template
 competitor_name:
 website:
+related:
+  - "[[Competitors Info]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Feature Template]]"
+  - "[[5 - Features]]"
+  - "[[Product Spec - Template]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Spec Template]]"
+  - "[[Resources - Sparrow Genie]]"
+  - "[[10 - Marketing]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[11 - Help Articles]]"
+  - "[[Product specs]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[User Personas]]"
 ---
 
 # COMP — [Competitor Name]

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Sparrow Genie Notes]]"
+  - "[[Create a project]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[Import_v1]]"
+  - "[[My Templates - Proposal (Next phase)]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Block Contact creation of Same Domain_v1]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Routine]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Workflows_v1]]"
+  - "[[Email Integration_v1]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[2025-12-12]]"
+  - "[[Company Templates - Proposal]]"
+---
 #new_feature/_admin_settings_project
 ## Context 
 

@@ -6,6 +6,22 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/integrations/email_integration/v1
+related:
+  - "[[Block Contact creation of Same Domain_v1]]"
+  - "[[Email_v1]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Import_v1]]"
+  - "[[Email Integration_v1.2]]"
+  - "[[2-Product Strategy]]"
+  - "[[1-Product Vision]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[filters_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Integrations-CRM]]"
+  - "[[Project admin settings]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[First Principle for a CRM]]"
 ---
 ### Wireframe  - [Balsamiq](https://balsamiq.cloud/sfwp3yg/pyg45on/r1E86)
 ### 1. Problem Statement

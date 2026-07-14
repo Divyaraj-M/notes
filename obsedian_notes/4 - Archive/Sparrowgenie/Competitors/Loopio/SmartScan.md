@@ -1,3 +1,21 @@
+---
+related:
+  - "[[SmartFill]]"
+  - "[[Arphie.ai]]"
+  - "[[Loopio]]"
+  - "[[Differentiator]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[README]]"
+  - "[[Competitors Info PRD]]"
+  - "[[CRM Metrics Framework]]"
+  - "[[Go- no - Go responsive]]"
+  - "[[howto]]"
+  - "[[Shihab Document]]"
+  - "[[Help Article Template]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[QorusDocs]]"
+---
 #competitor_analysis 
 
 ## SmartScan — what the articles say

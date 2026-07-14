@@ -1,3 +1,21 @@
+---
+related:
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[Answer types templates]]"
+  - "[[Answer types]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Integrations]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Proposal Conversion]]"
+  - "[[Help Article Template]]"
+  - "[[Thinking]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[SmartFill]]"
+  - "[[editor_placeholder]]"
+  - "[[editor_placeholder]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Getting started  with SparrowGenie]]"
+---
 #competitor_analysis
 https://help.responsive.io/en-US/responsive/article/ART-5825-using-attachments-in-projects
 

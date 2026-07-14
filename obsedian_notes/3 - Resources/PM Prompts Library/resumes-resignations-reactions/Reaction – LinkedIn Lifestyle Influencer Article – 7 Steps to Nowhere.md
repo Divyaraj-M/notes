@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Reaction – Glassdoor Review – A Masterclass in Pretending to Care]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Reaction – You Can't Fire Me I Quit Dear John Letter]]"
+  - "[[Generator - IKEA-like instruction steps]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[PMM Playbook — Curious Geeks]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[TO DO List - today]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[QnA training loop]]"
+  - "[[SME Operating system]]"
+  - "[[Curious Geeks]]"
+---
 # Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere.md
 
 ## PROMPT

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator – Product Manager Action Figure Builder]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[Generator - IKEA-like instruction steps]]"
+  - "[[Generator – Create-Your-Own Sims Character Sheet]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[storyboard-storytelling-prompt]]"
+---
 # Generator – PM Bedtime Story Builder.md
 
 ## Context:

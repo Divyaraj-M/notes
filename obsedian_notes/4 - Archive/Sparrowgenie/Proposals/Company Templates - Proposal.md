@@ -1,6 +1,22 @@
 ---
 tags:
   - new_feature/dossiers/proposal_templates/company_templates/v1
+related:
+  - "[[Product Vision]]"
+  - "[[Routine]]"
+  - "[[What Do we need for Teams]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[2025-12-12]]"
+  - "[[Sign up and Onboarding mails]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Product Strategy]]"
+  - "[[SME Operating system]]"
+  - "[[QorusDocs]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Competitors Info]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[Project admin settings]]"
 ---
 ## First principle thinking
 

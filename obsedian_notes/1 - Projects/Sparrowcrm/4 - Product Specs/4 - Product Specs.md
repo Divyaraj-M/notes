@@ -5,6 +5,22 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/product_specs
+related:
+  - "[[Zoom]]"
+  - "[[Sparrowcrm]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[3 - Roadmap & Planning]]"
+  - "[[Product Spec - Template]]"
+  - "[[7 - Competitors]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[PRD Feature Name]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[_template]]"
+  - "[[Products]]"
+  - "[[FRD Template]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Company Info]]"
 ---
 
 # Product Specs Index

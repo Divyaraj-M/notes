@@ -1,3 +1,21 @@
+---
+related:
+  - "[[2026-01-30]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[Issues Found]]"
+  - "[[Functional Requirements]]"
+  - "[[Dual-Layer Team]]"
+  - "[[RFP to Proposal]]"
+  - "[[Assigning to the section]]"
+  - "[[Email Integration_v1]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[Known Unknown Matrix]]"
+  - "[[Friction points]]"
+  - "[[Import_v1]]"
+  - "[[Salesforce Integration]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)]]"
+---
 #audit_report/r1
 
 Teams - Can assign people and see the team's resources  but still needs refining 

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[SME Operating system]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[README]]"
+  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
+  - "[[Demo]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[Youtube video Framework]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[Context info - PRD]]"
+  - "[[1-Product Vision]]"
+  - "[[PMM Playbook — Curious Geeks]]"
+  - "[[README]]"
+---
 # Module 1: PM Reality — From Authority Myths to Execution Truth
 
 ## Module spine (one-line logic)

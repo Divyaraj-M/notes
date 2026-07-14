@@ -1,6 +1,22 @@
 ---
 tags:
   - enhancements/filter
+related:
+  - "[[Table view for question card PRD]]"
+  - "[[filters_v1]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[First-Principles Product Template]]"
+  - "[[RFP to Proposal]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Save to QnA PRD]]"
+  - "[[UAT Vipin]]"
+  - "[[Routine]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Context info - PRD]]"
 ---
 ## First principle thinking
 

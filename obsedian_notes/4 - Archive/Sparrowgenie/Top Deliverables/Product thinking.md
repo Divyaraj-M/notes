@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Product thinking]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[First Principle thinking]]"
+  - "[[Hybrid thinking product framework]]"
+  - "[[Product specs]]"
+  - "[[Edge case Analysis]]"
+  - "[[README]]"
+  - "[[README]]"
+  - "[[Product specs]]"
+  - "[[Curious Geeks]]"
+  - "[[Product Review system]]"
+  - "[[8 - Decisions]]"
+  - "[[futuristic-product-faq]]"
+---
 #learning/product_thinking 
 
 ![[4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png]]

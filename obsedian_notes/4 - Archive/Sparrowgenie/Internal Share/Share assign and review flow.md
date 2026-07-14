@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Routine]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[My Templates - Proposal (Next phase)]]"
+  - "[[Jira Process]]"
+  - "[[filters_v1]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[SME Operating system]]"
+  - "[[Attachments in RFP response - Product Spec]]"
+  - "[[Remove User from Workspace]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Project admin settings]]"
+---
 #Backward #delivery #p0
 ### TL;DR
 - When you remove someone from the project, SparrowGenie won’t let you break the workflow. If that person is an author or reviewer, the system stops the removal, shows everything they’re responsible for, and makes you reassign those items first. Changing the author puts the question back to Draft. Changing the reviewer puts it back to For Review. Nothing gets orphaned, nothing gets lost, and all history stays intact.

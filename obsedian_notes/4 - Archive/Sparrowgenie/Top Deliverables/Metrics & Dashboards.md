@@ -1,0 +1,18 @@
+---
+related:
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[Kibana]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[Customer Insights]]"
+  - "[[Elastic Search]]"
+  - "[[EN-Customer Insights]]"
+  - "[[5 - Features]]"
+  - "[[10 - Marketing]]"
+  - "[[EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)]]"
+  - "[[Google Sheets]]"
+  - "[[Sales]]"
+  - "[[Knowledge Hub]]"
+  - "[[UTITSL_102 - Tech Doc]]"
+  - "[[EN-Features]]"
+---

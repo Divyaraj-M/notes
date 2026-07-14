@@ -5,6 +5,22 @@ status: Active
 priority: High
 tags:
   - sparrowcrm/features/aiagents/v1
+related:
+  - "[[Zoom]]"
+  - "[[Feature Template]]"
+  - "[[Context info - PRD]]"
+  - "[[Spec Template]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[Youtube video Framework]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Table view for question card PRD]]"
+  - "[[4 - Product Specs]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Competitors Info PRD]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[howto]]"
 ---
 # Feature Spec Skill
 

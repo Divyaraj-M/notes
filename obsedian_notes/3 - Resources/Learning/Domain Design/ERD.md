@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Domain diagram]]"
+  - "[[Week 1]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[Contacts_v1]]"
+  - "[[Formulas Mathematics]]"
+  - "[[eol-for-a-product-message]]"
+  - "[[Workflows_v1]]"
+  - "[[Companies_v1]]"
+  - "[[Elastic Search]]"
+  - "[[Deal_v1]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Zoom]]"
+  - "[[ERd]]"
+  - "[[Ai Signals]]"
+  - "[[Sales]]"
+---
 Entities 
 Attributes 
 relationships 

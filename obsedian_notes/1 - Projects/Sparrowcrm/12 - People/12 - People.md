@@ -1,6 +1,22 @@
 ---
 tags:
   - sparrowcrm/stakeholders
+related:
+  - "[[CEO]]"
+  - "[[What product managers do at PostHog - Handbook]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[Integrations-CRM]]"
+  - "[[Divyaraj Murugan]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[visionary-press-release]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[2026-01-30]]"
+  - "[[Product thinking]]"
+  - "[[Product specs]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Project Manager]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
 ---
 
 - [[@Shihab Muhammed]] - CEO

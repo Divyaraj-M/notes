@@ -1,8 +1,23 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
+related:
+  - "[[Proposal Template flow]]"
+  - "[[Design diagram]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[Proposal Conversion]]"
+  - "[[Second_stream_revenue.excalidraw]]"
+  - "[[RFP training]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[2025-12-12]]"
+  - "[[Native SparrowCRM for GPT]]"
+  - "[[Routine]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[ROI Calculator]]"
+  - "[[Create a project]]"
+  - "[[SparrowDesk]]"
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

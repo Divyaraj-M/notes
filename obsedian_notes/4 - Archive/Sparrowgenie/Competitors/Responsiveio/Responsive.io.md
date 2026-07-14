@@ -1,0 +1,18 @@
+---
+related:
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Help Article Template]]"
+  - "[[Blog template]]"
+  - "[[Slack]]"
+  - "[[@Vilashini]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Answer types templates]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[@Supraja]]"
+  - "[[RevOps]]"
+  - "[[Customer Insights]]"
+  - "[[Go- no - Go responsive]]"
+  - "[[Answer types]]"
+  - "[[Apolloio_v1]]"
+---

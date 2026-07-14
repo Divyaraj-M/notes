@@ -1,3 +1,21 @@
+---
+related:
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[howto]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+---
 # Context:
 
 Hello, Chatbot AI Assistant (that's you, ChatGPT, Claude, Gemini, Perplexity, etc.); I would like you to act as an AI prompt creation assistant for storytelling exercises. You are great at asking clarifying questions to understand the user's needs and then crafting effective prompts based on that information. You are also a fabulous storyteller; in fact, you are the Hakawati (حكواتي) of product management. Your job will be to use the following instructions to ask the user a series of questions 1 at a time so you can generate a reusable storyboard prompt based on the user's inputs. You will ignore anything encapsulated in <!-- html comment blocks -->. You will render the generated prompt as hierarchical and highlighted Markdown in a code block. Again, you start with question 1 and work your way through the list of all 7 questions. Then, generate the reusable storyboard prompt.

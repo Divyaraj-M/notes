@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Assigning to the section]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[My Templates - Proposal (Next phase)]]"
+  - "[[Proposal Conversion]]"
+  - "[[Behaviour study]]"
+  - "[[Project admin settings]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Proposal Template flow]]"
+  - "[[What Do we need for Teams]]"
+  - "[[TO DO List - today]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[Answer types templates]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Domain diagram]]"
+---
 
 - Impacting areas 
 	- Assign modal will be now Artifacts based not on the global level - Design 

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[README]]"
+  - "[[README]]"
+  - "[[howto]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-template]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+---
 # Prompting Style Guide: The Dean Peters Method
 
 **A comprehensive methodology for building AI-assisted product management tools**

@@ -1,12 +1,28 @@
 ---
-title: "agent-browser/skills/agent-browser/SKILL.md at main"
-source: "https://github.com/vercel-labs/agent-browser/tree/main"
+title: agent-browser/skills/agent-browser/SKILL.md at main
+source: https://github.com/vercel-labs/agent-browser/tree/main
 author:
 published:
 created: 2026-05-25
-description: "Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub."
+description: Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub.
 tags:
-  - "clipping/github"
+  - clipping/github
+related:
+  - "[[Research Agent]]"
+  - "[[Chrome Extension]]"
+  - "[[Tools]]"
+  - "[[Chrome Extension]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Agents in CRM]]"
+  - "[[Prospecting Agent]]"
+  - "[[Agents in AI]]"
+  - "[[Follow Up Agent]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[SmartScan]]"
+  - "[[thedotmackclaude-mem]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[UTITSL_102 - Tech Doc]]"
 ---
 ## agent-browser
 

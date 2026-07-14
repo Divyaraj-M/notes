@@ -3,6 +3,22 @@ state: "[[Idea]]"
 tags:
   - new_feature/projects/multi_doc_support
 version: 1
+related:
+  - "[[Attachments in RFP response - Product Spec]]"
+  - "[[Shihab Document]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Genie Contribution]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Routine]]"
+  - "[[Friction points]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Create a project]]"
+  - "[[RFP to Proposal]]"
 ---
 
 ## 1. Problem Statement

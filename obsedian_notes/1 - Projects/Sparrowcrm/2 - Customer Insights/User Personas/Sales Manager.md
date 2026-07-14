@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Director of Sales]]"
+  - "[[Sales Rep]]"
+  - "[[Sales]]"
+  - "[[Product Notes (Why Sales Needs Better Tools)]]"
+  - "[[Product Vision]]"
+  - "[[What product managers do at PostHog - Handbook]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[2-Product Strategy]]"
+  - "[[1-Product Vision]]"
+  - "[[Prospecting Agent]]"
+  - "[[filters_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Go - No- Go]]"
+  - "[[Customer Insights]]"
+  - "[[Competitors Info]]"
+---

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Functional Requirements]]"
+  - "[[Teams check]]"
+  - "[[Sparrow Genie Notes]]"
+  - "[[Teams]]"
+  - "[[The Business Of Belonging]]"
+  - "[[Users tab]]"
+  - "[[Admin]]"
+  - "[[Assigning to the section]]"
+  - "[[Dual-Layer Team]]"
+  - "[[Share assign and review flow]]"
+  - "[[Project admin settings]]"
+  - "[[RFP to Proposal]]"
+  - "[[Sep2.security]]"
+  - "[[What Do we need for Teams]]"
+---

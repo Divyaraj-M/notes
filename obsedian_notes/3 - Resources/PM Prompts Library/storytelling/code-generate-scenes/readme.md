@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[README]]"
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[howto]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[README]]"
+  - "[[Routine]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+---
 # Visual Storyboard Generator
 
 ![DALL-E Generated Example](scene_01.png)  

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[To do list]]"
+  - "[[Routine]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[2025-12-12]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[RFP to Proposal]]"
+  - "[[2026-01-30]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[Shihab Document]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Decision-State Progress Bars]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Getting started  with SparrowGenie]]"
+---
 
 If u have nothing to do go to [[4 - Archive/Sparrowgenie/Friction points]] , [[UAT Vipin]]
 30-Mar-2026

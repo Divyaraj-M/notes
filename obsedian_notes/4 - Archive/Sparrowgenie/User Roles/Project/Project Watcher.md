@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Project Manager]]"
+  - "[[Project Owner]]"
+  - "[[AI can have auto tags for the Past Projects which is created]]"
+  - "[[2026-01-30]]"
+  - "[[Filter inside the projects screen for the question cards]]"
+  - "[[Teams check]]"
+  - "[[Routine]]"
+  - "[[Sensitive  projects]]"
+  - "[[Customer Insights]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Project - Proposals]]"
+  - "[[EN-Product Vision]]"
+  - "[[Slack]]"
+  - "[[Tiny Experiments]]"
+  - "[[EN-Customer Insights]]"
+---

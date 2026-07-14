@@ -1,12 +1,28 @@
 ---
 title: "kylezantos/design-motion-principles: A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski, Jakub Krehel, and Jhey Tompkins."
-source: "https://github.com/kylezantos/design-motion-principles"
+source: https://github.com/kylezantos/design-motion-principles
 author:
 published:
 created: 2026-05-25
-description: "A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski, Jakub Krehel, and Jhey Tompkins. - kylezantos/design-motion-principles"
+description: A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski, Jakub Krehel, and Jhey Tompkins. - kylezantos/design-motion-principles
 tags:
-  - "clipping/github"
+  - clipping/github
+related:
+  - "[[My Product Notes]]"
+  - "[[The design language that makes your AI harness better at design.]]"
+  - "[[Youtube video Framework]]"
+  - "[[README]]"
+  - "[[Doc Workflow Two-Doc System]]"
+  - "[[Atomic Design]]"
+  - "[[First Principle thinking]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Feature-Lens]]"
+  - "[[How to find edge cases before they become expensive issues]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Routine]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[Product Spec Template 2]]"
 ---
 ## Design Motion Principles
 

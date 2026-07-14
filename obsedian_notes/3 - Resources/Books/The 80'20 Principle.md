@@ -11,4 +11,20 @@ pages: 288
 lists:
   - Not Started
 comment: Apply Pareto thinking to life, work, and strategy.
+related:
+  - "[[Share first principle]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Demo Important Points]]"
+  - "[[The lean startup]]"
+  - "[[First Principle thinking]]"
+  - "[[The Thirteen Problems]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Steps to create it]]"
+  - "[[Thinking fast and slow]]"
+  - "[[A motion design skill with two modes]]"
+  - "[[Routine]]"
+  - "[[Instructions]]"
+  - "[[CRM Metrics Framework]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[External Questionnaire Score (EQS)]]"
 ---

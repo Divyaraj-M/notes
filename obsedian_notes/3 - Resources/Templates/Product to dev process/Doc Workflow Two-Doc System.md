@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Jira Process]]"
+  - "[[Obligations]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[Zoom]]"
+  - "[[Product Spec Template 2]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Workflows]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Domain diagram]]"
+  - "[[Workflows_v1]]"
+  - "[[README]]"
+  - "[[CRM Metrics Framework]]"
+  - "[[4 - Product Specs]]"
+  - "[[Jira]]"
+  - "[[Routine]]"
+---
 
 ## The Two Docs
 

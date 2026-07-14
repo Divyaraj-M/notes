@@ -2,8 +2,26 @@
 status: Draft
 created: 2026-04-30
 updated: 2026-04-30
-owner: 
-tags: [roadmap, planning]
+owner:
+tags:
+  - roadmap
+  - planning
+related:
+  - "[[9 - Product Wins]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[Feature Template]]"
+  - "[[Product Spec - Template]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[Roadmap for Agents]]"
+  - "[[Competitors Info]]"
+  - "[[4 - Product Specs]]"
+  - "[[Product specs]]"
+  - "[[Spec Template]]"
+  - "[[7 - Competitors]]"
+  - "[[futuristic-product-faq]]"
+  - "[[Product Review system]]"
+  - "[[Go - No- Go]]"
+  - "[[customer-journey-mapping-prompt-template]]"
 ---
 
 # Product Roadmap

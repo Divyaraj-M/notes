@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[howto]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+---
 # memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md
 
 ## CONTEXT:

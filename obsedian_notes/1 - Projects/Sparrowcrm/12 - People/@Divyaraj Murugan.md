@@ -1,0 +1,18 @@
+---
+related:
+  - "[[@Vaishnavi Yuvaraj]]"
+  - "[[@Yuvaraj Singh J]]"
+  - "[[@Shihab Muhammed]]"
+  - "[[@Madhan  M]]"
+  - "[[Divyaraj Murugan]]"
+  - "[[@Vilashini]]"
+  - "[[@Supraja]]"
+  - "[[@Anshul S]]"
+  - "[[Integrations-CRM]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[@Nayan Jain]]"
+  - "[[Slack]]"
+  - "[[2026-02-24]]"
+  - "[[Notification Strategy]]"
+  - "[[Friction points]]"
+---

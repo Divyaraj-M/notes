@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Competitors Info PRD]]"
+  - "[[Product Vision]]"
+  - "[[Product Strategy]]"
+  - "[[7 - Competitors]]"
+  - "[[Company Info]]"
+  - "[[Product specs]]"
+  - "[[Context info - PRD]]"
+  - "[[Go - No- Go]]"
+  - "[[ROI Calculator]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Routine]]"
+  - "[[Competitor Template]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[Sparrowcrm]]"
+  - "[[Getting started  with SparrowGenie]]"
+---
 
 
 ![[Context Info]]

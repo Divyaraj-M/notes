@@ -1,3 +1,21 @@
+---
+related:
+  - "[[First Principle thinking - Table View]]"
+  - "[[Demo]]"
+  - "[[Instructions]]"
+  - "[[RFP to Proposal]]"
+  - "[[Context info - PRD]]"
+  - "[[Save to QnA PRD]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Go - No- Go]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[Instructions from the Document]]"
+  - "[[RFP training PRD]]"
+  - "[[SME Operating system]]"
+  - "[[Competitors Info]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Genie Actions inside the Questions card]]"
+---
 #enhancements/WYSIWYG_editor  
 ## How you should actually use this
 

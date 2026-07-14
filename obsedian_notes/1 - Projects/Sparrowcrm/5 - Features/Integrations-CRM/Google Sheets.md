@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Google Calendar]]"
+  - "[[Google Search Console]]"
+  - "[[Issues Found]]"
+  - "[[Multi-column]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Audit report]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[Email]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[Behaviour study]]"
+  - "[[Sales]]"
+  - "[[Chrome Extension]]"
+  - "[[Stripe]]"
+  - "[[Multicolumn , check box]]"
+---

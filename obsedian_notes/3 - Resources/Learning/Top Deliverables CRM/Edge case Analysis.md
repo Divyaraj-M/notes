@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Edge case Analysis]]"
+  - "[[How to find edge cases before they become expensive issues]]"
+  - "[[Teardowns]]"
+  - "[[Product thinking]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Product Spec Template 2]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[Zoom]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Elastic Search]]"
+  - "[[README]]"
+  - "[[Kibana]]"
+---
 #learning/simulation_Analysis
 
 

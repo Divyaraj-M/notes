@@ -5,6 +5,22 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/help_articles
+related:
+  - "[[SparrowGenie - Help Articles]]"
+  - "[[EN-Help Articles]]"
+  - "[[Resources - Sparrow Genie]]"
+  - "[[To do list]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[7 - Competitors]]"
+  - "[[2025-12-12]]"
+  - "[[Create a project]]"
+  - "[[Routine]]"
+  - "[[Template - PM]]"
+  - "[[Import_v1]]"
+  - "[[Competitor Template]]"
+  - "[[_template]]"
+  - "[[TO DO List - today]]"
 ---
 
 # Help Articles Index

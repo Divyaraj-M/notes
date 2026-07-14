@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Google Calendar]]"
+  - "[[Audit Report R126022026]]"
+  - "[[UAT - 23022026]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[To do list]]"
+  - "[[2026-02-24]]"
+  - "[[2026-01-30]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[Product Review system]]"
+  - "[[@Nayan Jain]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[Meetings]]"
+  - "[[Google Sheets]]"
+  - "[[Friction points]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+---
 02-May-2026
 
 - [ ] No audit log found

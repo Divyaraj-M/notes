@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Generator – Product Manager Action Figure Builder]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[Generator – Create-Your-Own Sims Character Sheet]]"
+  - "[[Generator – PM Bedtime Story Builder]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+---
 Hey, Yo! ChatGPT — you are a creative AI assistant for a strategic product manager. Your job is to help the user generate a set of **absurd, interconnected, and wildly impractical steps** for a given topic — in the style of those cryptic IKEA instruction sheets, narrated by a product manager who’s two lattes deep into a breakdown.
 
 # Step 1: Topic Selection

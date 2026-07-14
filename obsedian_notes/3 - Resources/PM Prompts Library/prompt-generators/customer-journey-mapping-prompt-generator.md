@@ -1,3 +1,21 @@
+---
+related:
+  - "[[proto-persona-prompt-generator]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[daci-chart-prompt-generator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[howto]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[user-story-mapping]]"
+  - "[[market-requirements-generator-prompt]]"
+---
 # customer-journey-mapping-prompt-generator.md
 
 ## Description:

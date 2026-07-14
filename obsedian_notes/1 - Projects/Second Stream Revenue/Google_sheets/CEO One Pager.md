@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Steps to create it]]"
+  - "[[CEO]]"
+  - "[[CRM Metrics Framework]]"
+  - "[[10 - Marketing]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[Friction points]]"
+  - "[[Friction Points]]"
+  - "[[1-Product Vision]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Demo]]"
+  - "[[First-Principles Product Template]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Decisions]]"
+  - "[[Product Notes (Why Sales Needs Better Tools)]]"
+  - "[[6 - Metrics & Dashboards]]"
+---
 ### What all things a CEO wants to know ?
 # L1: CEO ONE-PAGER — COMPLETE BREAKDOWN
 

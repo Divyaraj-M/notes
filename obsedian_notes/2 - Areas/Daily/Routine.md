@@ -1,3 +1,21 @@
+---
+related:
+  - "[[2025-12-12]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Decision-State Progress Bars]]"
+  - "[[Competitors Info]]"
+  - "[[Product Vision]]"
+  - "[[RFP training PRD]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Go - No- Go]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Product Review system]]"
+  - "[[ROI Calculator]]"
+  - "[[Create a project]]"
+  - "[[First Principle thinking - Table View]]"
+---
 # **A. 10 minutes — Problem Framing (SparrowGenie only)**
 
 Pick one real problem from Genie each day.  

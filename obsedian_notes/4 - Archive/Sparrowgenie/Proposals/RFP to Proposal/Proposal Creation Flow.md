@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Project - Proposals]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Proposal Template flow]]"
+  - "[[mail]]"
+  - "[[My Templates - Proposal (Next phase)]]"
+  - "[[Proposal Conversion]]"
+  - "[[howto]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+---

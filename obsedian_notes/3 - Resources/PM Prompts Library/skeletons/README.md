@@ -1,3 +1,21 @@
+---
+related:
+  - "[[README]]"
+  - "[[howto]]"
+  - "[[prompting-style-guide]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[artifact-first-context-intake]]"
+  - "[[README]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[README]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Routine]]"
+  - "[[positioning-statement-prompt-generator]]"
+---
 # Prompt Architecture Analysis Tools
 
 **Learn how prompts work by reverse engineering their structure**

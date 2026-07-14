@@ -1,3 +1,21 @@
+---
+related:
+  - "[[SME Operating system]]"
+  - "[[Curious Geeks]]"
+  - "[[Udemy]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Demo]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[Table view for question card PRD]]"
+  - "[[prompting-style-guide]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[Why I started curious geeks]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Zulie]]"
+  - "[[README]]"
+---
 
 
 > **Operating model (read this first):**

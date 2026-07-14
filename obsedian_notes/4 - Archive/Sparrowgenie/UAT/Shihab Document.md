@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Multi Document Support]]"
+  - "[[TO DO List - today]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[UAT Vipin]]"
+  - "[[Friction points]]"
+  - "[[Instructions from the Document]]"
+  - "[[Differentiator]]"
+  - "[[2026-W13]]"
+  - "[[Proposal Conversion]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[To do list]]"
+---
 
 24-Apr-2026
 Things to discuss : 

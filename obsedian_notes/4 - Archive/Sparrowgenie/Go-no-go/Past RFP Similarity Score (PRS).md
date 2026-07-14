@@ -1,3 +1,21 @@
+---
+related:
+  - "[[External Questionnaire Score (EQS)]]"
+  - "[[Filter inside the projects screen for the question cards]]"
+  - "[[Save to QnA PRD]]"
+  - "[[RFP training]]"
+  - "[[Context info - PRD]]"
+  - "[[Table view for question card PRD]]"
+  - "[[RFP to Proposal]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[RFP training PRD]]"
+  - "[[Genie Contribution]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Arphie.ai]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[ROI Calculator]]"
+  - "[[Routine]]"
+---
 ## What PRS measures 
 
 PRS measures:

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Knowledge Hub]]"
+  - "[[EN-Product Vision]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[EN-Features]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[Context Info]]"
+  - "[[EN-Help Articles]]"
+  - "[[First Principle thinking]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[README]]"
+  - "[[RFP training PRD]]"
+  - "[[EN-Customer Insights]]"
+  - "[[Hybrid thinking product framework]]"
+  - "[[CRM Intelligence]]"
+---

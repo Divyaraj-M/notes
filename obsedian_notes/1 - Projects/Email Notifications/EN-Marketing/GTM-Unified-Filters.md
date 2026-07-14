@@ -5,6 +5,22 @@ tags:
   - marketing
 status: draft
 date: 2026-06-02
+related:
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[filters_v1]]"
+  - "[[Sparrowcrm]]"
+  - "[[Native SparrowCRM for GPT]]"
+  - "[[Import_v1]]"
+  - "[[1-Product Vision]]"
+  - "[[2-Product Strategy]]"
+  - "[[Email Integration_v1]]"
+  - "[[Email_v1]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Product Vision]]"
+  - "[[Routine]]"
+  - "[[Workflows_v1]]"
+  - "[[2025-12-12]]"
 ---
 
 # GTM Strategy — SparrowCRM Unified Filter System

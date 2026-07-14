@@ -1,3 +1,21 @@
+---
+related:
+  - "[[RFP training PRD]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Save to QnA PRD]]"
+  - "[[QnA training loop]]"
+  - "[[Product Strategy]]"
+  - "[[Product Vision]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Routine]]"
+  - "[[RFP training]]"
+  - "[[Go - No- Go]]"
+  - "[[Knowledge Hub]]"
+  - "[[Genie Actions inside the Questions card]]"
+---
 
 
 # [Chat With the Document  ](https://notebooklm.google.com/notebook/9b549400-b710-4480-98b0-ddbdf5c4f745)

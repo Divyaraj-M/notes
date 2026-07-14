@@ -4,6 +4,22 @@ feature: "[[Ai for CRM]]"
 status: Done
 tags:
   - sparrowcrm/features/aiagents/crm_intelligence
+related:
+  - "[[First Principle for a CRM]]"
+  - "[[2-Product Strategy]]"
+  - "[[1-Product Vision]]"
+  - "[[Email_v1]]"
+  - "[[Hygiene Agent_v1]]"
+  - "[[Email Integration_v1]]"
+  - "[[Block Contact creation of Same Domain_v1]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Deal_v1]]"
+  - "[[Integrations-CRM]]"
+  - "[[Meetings_v1]]"
+  - "[[5 - Features]]"
+  - "[[howto]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[README]]"
 ---
 
 ## 1. Why this document exists

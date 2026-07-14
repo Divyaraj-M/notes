@@ -1,0 +1,18 @@
+---
+related:
+  - "[[@Yuvaraj Singh J]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[@Vilashini]]"
+  - "[[@Supraja]]"
+  - "[[@Madhan  M]]"
+  - "[[@Shihab Muhammed]]"
+  - "[[@Anshul S]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[@Nayan Jain]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[Slack]]"
+  - "[[Integrations-CRM]]"
+  - "[[Email]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[UAT vipin 2026-02-23]]"
+---

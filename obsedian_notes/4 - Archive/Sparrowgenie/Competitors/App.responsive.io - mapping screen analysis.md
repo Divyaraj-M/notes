@@ -2,6 +2,22 @@
 state: "[[Final]]"
 tags:
   - competitor_analysis/responsive/mapping_screen
+related:
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Responsive.io]]"
+  - "[[Integrations]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[FRD Template]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[Attachments - Responsive]]"
+  - "[[Create a project]]"
+  - "[[Product Review system]]"
+  - "[[Friction points]]"
+  - "[[Answer types]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[Proposal Conversion]]"
+  - "[[Mapping]]"
 ---
 They use the single click for the Mapping the cells and document 
 

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[proto-persona-profile]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[First Principle thinking]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[user-story-prompt-template]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[visionary-press-release]]"
+  - "[[jobs-to-be-done]]"
+  - "[[positioning-statement]]"
+  - "[[prompting-style-guide]]"
+---
 # recommendation-canvas-template.md
 <!--
 ## Description:

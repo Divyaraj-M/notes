@@ -1,2 +1,20 @@
+---
+related:
+  - "[[Contacts_v1]]"
+  - "[[Companies_v1]]"
+  - "[[Mapping]]"
+  - "[[AI can have auto tags for the Past Projects which is created]]"
+  - "[[Multi-column]]"
+  - "[[Instructions from the Document]]"
+  - "[[howto]]"
+  - "[[Elastic Search]]"
+  - "[[Project admin settings]]"
+  - "[[Arphie.ai]]"
+  - "[[Workflows_v1]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Apolloio_v1]]"
+  - "[[README]]"
+---
 - [ ] [[Ai Fields]]
 - [ ] [[Enriched Fields]]

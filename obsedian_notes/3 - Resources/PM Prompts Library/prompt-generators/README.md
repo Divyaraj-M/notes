@@ -1,3 +1,21 @@
+---
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[howto]]"
+  - "[[README]]"
+  - "[[README]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+---
 # Build Your Own AI Tools for Product Management
 
 **Learn to create prompts that solve your specific PM challenges**

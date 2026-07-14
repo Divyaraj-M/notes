@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Native SparrowCRM for GPT]]"
+  - "[[SparrowGenie.excalidraw]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Import_v1]]"
+  - "[[2025-12-12]]"
+  - "[[SparrowDesk]]"
+  - "[[filters_v1]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[To do list]]"
+  - "[[Competitors Info]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Template - PM]]"
+---

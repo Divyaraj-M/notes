@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Research Agent]]"
+  - "[[Agents in CRM]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[Sales Rep]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[Context info - PRD]]"
+  - "[[Instructions from the Document]]"
+  - "[[Ai Fields]]"
+  - "[[Follow Up Agent]]"
+  - "[[Sales Manager]]"
+  - "[[Project Owner]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+---

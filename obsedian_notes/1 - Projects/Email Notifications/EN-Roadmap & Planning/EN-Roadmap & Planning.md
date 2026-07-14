@@ -1,0 +1,18 @@
+---
+related:
+  - "[[3 - Roadmap & Planning]]"
+  - "[[EN-Product Strategy]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[EN-Decisions]]"
+  - "[[EN-Features]]"
+  - "[[EN-Product Vision]]"
+  - "[[Go - No- Go]]"
+  - "[[Roadmap for Agents]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[EN-Marketing]]"
+  - "[[EN-Help Articles]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[ERP]]"
+  - "[[RFP to Proposal]]"
+  - "[[First Principle thinking - Table View]]"
+---

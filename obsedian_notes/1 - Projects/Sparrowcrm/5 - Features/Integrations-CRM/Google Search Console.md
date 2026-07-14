@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Google Sheets]]"
+  - "[[Google Calendar]]"
+  - "[[Chrome Extension]]"
+  - "[[Issues Found]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Resources - Sparrow Genie]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Native SparrowCRM for GPT]]"
+  - "[[Behaviour study]]"
+  - "[[2025-12-12]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Routine]]"
+  - "[[filters_v1]]"
+  - "[[Responsive.io]]"
+  - "[[EN-Help Articles]]"
+---

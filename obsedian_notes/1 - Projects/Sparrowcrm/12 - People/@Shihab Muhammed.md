@@ -1,0 +1,18 @@
+---
+related:
+  - "[[@Divyaraj Murugan]]"
+  - "[[@Madhan  M]]"
+  - "[[@Yuvaraj Singh J]]"
+  - "[[@Anshul S]]"
+  - "[[@Vilashini]]"
+  - "[[@Vaishnavi Yuvaraj]]"
+  - "[[@Supraja]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[@Nayan Jain]]"
+  - "[[MyMail]]"
+  - "[[Shihab Document]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[Integrations-CRM]]"
+  - "[[Friction points]]"
+  - "[[Slack]]"
+---

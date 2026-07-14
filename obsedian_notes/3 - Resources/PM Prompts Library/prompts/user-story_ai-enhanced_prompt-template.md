@@ -1,3 +1,21 @@
+---
+related:
+  - "[[user-story-prompt-template]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[user-story-mapping]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[howto]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+---
 # user-story_ai-enhanced_prompt-template.md
 <!--
 ## Description:

@@ -7,6 +7,22 @@ feature: Proposal v1
 priority: High
 version: 1
 state: "[[Focus]]"
+related:
+  - "[[Zoom]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Context info - PRD]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Instructions]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Go - No- Go]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Competitors Info]]"
+  - "[[user-story-prompt-template]]"
 ---
 ## PRD Structure
 

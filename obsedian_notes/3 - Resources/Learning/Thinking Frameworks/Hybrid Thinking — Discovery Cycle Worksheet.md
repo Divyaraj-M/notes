@@ -1,3 +1,21 @@
+---
+related:
+  - "[[hybrid-thinking-worksheet]]"
+  - "[[Hybrid thinking product framework]]"
+  - "[[First Principle thinking]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[backlog-epic-hypothesis]]"
+  - "[[Domain Diagram Questions]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Curious Geeks]]"
+  - "[[My Product Notes]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[Product thinking]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[Youtube video Framework]]"
+---
 #learning/product_thinking/Discovery_analogical
 _Analogy generates hypotheses. Logic validate
 

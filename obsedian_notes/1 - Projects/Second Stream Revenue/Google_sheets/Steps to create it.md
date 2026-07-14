@@ -1,3 +1,21 @@
+---
+related:
+  - "[[CEO One Pager]]"
+  - "[[ERP]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[First-Principles Product Template]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[SME Operating system]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Demo]]"
+  - "[[Elastic Search]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[CEO]]"
+  - "[[External Questionnaire Score (EQS)]]"
+  - "[[Demo Important Points]]"
+---
 ## Step-by-step: what you should do **now**
 
 ### 🔹 Step 1: Lock the CEO questions (NOT metrics)

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[user-story-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[Generator – PM Bedtime Story Builder]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[README]]"
+---
 # Generator – Starts with Why 4-Slide Builder Narrative.md
 <!--
 ## Description:

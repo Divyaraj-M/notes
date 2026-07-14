@@ -1,8 +1,23 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
+related:
+  - "[[SparrowGenie.excalidraw]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[Second_stream_revenue.excalidraw]]"
+  - "[[Proposal Creation Flow]]"
+  - "[[2025-12-12]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Routine]]"
+  - "[[RFP training]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Spec Template]]"
+  - "[[Project - Proposals]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[TO DO List - today]]"
+  - "[[Decision-State Progress Bars]]"
+  - "[[Genie Actions inside the Questions card]]"
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

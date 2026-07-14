@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Home page]]"
+  - "[[SparrowGenie.excalidraw]]"
+  - "[[2025-12-12]]"
+  - "[[SparrowGenie - Help Articles]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[SME Operating system]]"
+  - "[[Table view for question card PRD]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[Template - PM]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Routine]]"
+  - "[[11 - Help Articles]]"
+  - "[[thedotmackclaude-mem]]"
+  - "[[To do list]]"
+---
 # 🧠 SparrowGenieNotes — The Brain Dumpster
 
 <div align="center">

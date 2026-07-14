@@ -1,3 +1,21 @@
+---
+related:
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[daci-chart-prompt-generator]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+---
 # market-requirements-generator-prompt.md
 
 ## Context

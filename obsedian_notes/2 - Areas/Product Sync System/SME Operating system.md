@@ -2,6 +2,22 @@
 state: "[[Focus]]"
 tags:
   - learning/product_thinking/SME-operating
+related:
+  - "[[Competitors Info]]"
+  - "[[Routine]]"
+  - "[[1-Product Vision]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Udemy]]"
+  - "[[Product Spec - Template]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Product Vision]]"
+  - "[[Template - PM]]"
+  - "[[Context info - PRD]]"
+  - "[[proto-persona-profile]]"
+  - "[[2025-12-12]]"
+  - "[[Getting started  with SparrowGenie]]"
 ---
 
 > Not a reading list. A daily system that produces artifacts, builds depth through reps, and turns you into the most dangerous PM in the room.

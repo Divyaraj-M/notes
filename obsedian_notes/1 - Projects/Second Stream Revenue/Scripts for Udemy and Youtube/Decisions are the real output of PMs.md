@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Rigor of thoughts]]"
+  - "[[Rigor of thoughts]]"
+  - "[[EN-Decisions]]"
+  - "[[SME Operating system]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[8 - Decisions]]"
+  - "[[Go - No- Go]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[Decision-State Progress Bars]]"
+  - "[[Decisions]]"
+  - "[[Product thinking]]"
+  - "[[Context info - PRD]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+---

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[RFP training PRD]]"
+  - "[[Competitors Info]]"
+  - "[[Routine]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Company Info]]"
+  - "[[Save to QnA PRD]]"
+  - "[[Product Review system]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Filter inside the projects screen for the question cards]]"
+  - "[[Context info - PRD]]"
+  - "[[Rigor of thoughts]]"
+---
 #enhancements/table_view/v1
 
 

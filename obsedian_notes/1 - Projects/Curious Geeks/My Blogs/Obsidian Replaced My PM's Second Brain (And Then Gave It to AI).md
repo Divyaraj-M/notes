@@ -4,6 +4,22 @@ dg-publish: true
 tags:
   - curious_geeks/blog
 created: 2026-05-25
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
+  - "[[Table view for question card PRD]]"
+  - "[[How to find edge cases before they become expensive issues]]"
+  - "[[Udemy]]"
+  - "[[Demo]]"
+  - "[[README]]"
+  - "[[Rigor of thoughts]]"
+  - "[[Rigor of thoughts]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Context info - PRD]]"
+  - "[[Genie Contribution]]"
+  - "[[README]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[README]]"
 ---
 Your Confluence has 200 pages. None of them know about each other. You spend half your week hunting for context that already exists somewhere in that pile. Obsidian fixes that — and once you point AI at it, the gap gets ridiculous.
 

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
+  - "[[hybrid-thinking-worksheet]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[README]]"
+  - "[[Product thinking]]"
+  - "[[README]]"
+  - "[[EN-Product Strategy]]"
+  - "[[Product thinking]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[Curious Geeks]]"
+  - "[[First Principle thinking]]"
+  - "[[futuristic-product-faq]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+---
 # The Hybrid Thinking Engine — Product Discovery Framework
 
 **A personal reference for hypothesis-driven product discovery**

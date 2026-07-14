@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Go-no-Go - loopio]]"
+  - "[[Chrome Extension]]"
+  - "[[SmartScan]]"
+  - "[[Differentiator]]"
+  - "[[Arphie.ai]]"
+  - "[[SmartFill]]"
+  - "[[Slack]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[Attachments - Loopio]]"
+  - "[[Shihab Document]]"
+  - "[[Responsive.io]]"
+  - "[[RevOps]]"
+  - "[[The lean startup]]"
+  - "[[Teardowns]]"
+  - "[[Sparrow Genie Notes]]"
+---

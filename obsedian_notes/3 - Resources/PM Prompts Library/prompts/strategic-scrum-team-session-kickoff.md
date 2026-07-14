@@ -1,3 +1,21 @@
+---
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Competitors Info]]"
+  - "[[README]]"
+  - "[[Context info - PRD]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[Competitors Info PRD]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[Product Spec - Template]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Product specs]]"
+  - "[[Product specs]]"
+  - "[[backlog-epic-hypothesis]]"
+  - "[[futuristic-product-faq]]"
+  - "[[Zoom]]"
+---
 # strategic-scrum-team-session-kickoff.md
 <!--
 ## Description:

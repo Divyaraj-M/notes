@@ -1,10 +1,26 @@
 ---
-title: "Products"
-description: "Tools, apps, and products shared by the Curious Geeks community."
+title: Products
+description: Tools, apps, and products shared by the Curious Geeks community.
 dg-publish: true
 tags:
   - curious_geeks
 permalink: /products/
+related:
+  - "[[_template]]"
+  - "[[4 - Product Specs]]"
+  - "[[2026-01-30]]"
+  - "[[Create a project]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Sparrowcrm]]"
+  - "[[Feature Lens — How It Works]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Product Spec Template 2]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[@Poonam singh]]"
+  - "[[README]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Project admin settings]]"
+  - "[[laundry list]]"
 ---
 
 Things built by people who notice. Submitted by the community — if it's here, someone thought it was worth sharing.

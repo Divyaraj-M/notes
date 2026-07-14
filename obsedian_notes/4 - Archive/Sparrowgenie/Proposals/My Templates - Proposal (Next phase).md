@@ -1,6 +1,22 @@
 ---
 tags:
   - new_feature/dossiers/proposal_templates/my_templates/v1
+related:
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Routine]]"
+  - "[[2025-12-12]]"
+  - "[[Sign up and Onboarding mails]]"
+  - "[[Project admin settings]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Product Spec - Template]]"
+  - "[[Create a project]]"
+  - "[[Proposal Creation Flow]]"
+  - "[[user-story-prompt-template]]"
+  - "[[SparrowGenie - Help Articles]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[First Principle thinking - Table View]]"
 ---
 ## First principle thinking
 

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Product thinking]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Product specs]]"
+  - "[[2-Product Strategy]]"
+  - "[[1-Product Vision]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[README]]"
+  - "[[README]]"
+  - "[[First Principle thinking]]"
+  - "[[Hybrid thinking product framework]]"
+  - "[[Edge case Analysis]]"
+  - "[[Product specs]]"
+  - "[[futuristic-product-faq]]"
+  - "[[8 - Decisions]]"
+---
 #learning/product_thinking 
 
 ![[3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png]]

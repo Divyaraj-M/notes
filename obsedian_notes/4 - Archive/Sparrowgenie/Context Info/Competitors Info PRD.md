@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Competitors Info]]"
+  - "[[Context info - PRD]]"
+  - "[[Company Info]]"
+  - "[[Context Info]]"
+  - "[[Table view for question card PRD]]"
+  - "[[7 - Competitors]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[EN-Competitors]]"
+  - "[[RFP to Proposal]]"
+  - "[[Zoom]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Product Spec - Template]]"
+  - "[[Demo]]"
+  - "[[Competitor Template]]"
+---
 #new_feature/conext_info/Competitor_info
 
 ![[Context Info]]

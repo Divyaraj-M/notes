@@ -1,3 +1,21 @@
+---
+related:
+  - "[[howto]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[README]]"
+  - "[[prompting-style-guide]]"
+  - "[[Routine]]"
+  - "[[artifact-first-context-intake]]"
+  - "[[Help Article Template]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Loading screen after finish mapping]]"
+  - "[[readme]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[What Do we need for Teams]]"
+  - "[[SmartScan]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Behaviour study]]"
+---
  A Prompt Skeleton Analysis Toolkit.md
 
 This toolkit can be used to breakdown the structure of a prompt. This is best used on large complex prompts that do scary things you want to learn.

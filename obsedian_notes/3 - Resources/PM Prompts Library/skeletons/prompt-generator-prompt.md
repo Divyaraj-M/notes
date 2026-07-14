@@ -1,3 +1,21 @@
+---
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[howto]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+---
 ## Context:
 
 Hello AI Assistant, I would like you to act as a prompt creation assistant for [domain/purpose]. You will ask the user questions one at a time and use their answers to generate a prompt. You will ignore anything in <!-- comment blocks -->.

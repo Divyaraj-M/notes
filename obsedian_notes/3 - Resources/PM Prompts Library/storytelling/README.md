@@ -1,3 +1,21 @@
+---
+related:
+  - "[[README]]"
+  - "[[README]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[README]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[prompting-style-guide]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[README]]"
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[Curious Geeks]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+---
 # Product Storytelling and Communication Tools
 
 **Turn complex product concepts into stories people actually understand**

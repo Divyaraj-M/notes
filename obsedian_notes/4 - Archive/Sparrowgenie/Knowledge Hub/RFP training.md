@@ -1,8 +1,23 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
+related:
+  - "[[SparrowGenie.excalidraw]]"
+  - "[[Proposal Conversion]]"
+  - "[[RFP training PRD]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Second_stream_revenue.excalidraw]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[QnA training loop]]"
+  - "[[Save to QnA PRD]]"
+  - "[[Instructions from the Document]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Instructions]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Proposal Template flow]]"
+  - "[[Arphie.ai]]"
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

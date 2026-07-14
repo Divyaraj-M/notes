@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Teams]]"
+  - "[[Dual-Layer Team]]"
+  - "[[Assigning to the section]]"
+  - "[[Functional Requirements]]"
+  - "[[Sensitive  projects]]"
+  - "[[What Do we need for Teams]]"
+  - "[[Known Unknown Matrix]]"
+  - "[[Nested Hierarchy Teams (Nice to have)]]"
+  - "[[Sparrow Genie Notes]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Project Owner]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Audit Report R126022026]]"
+  - "[[Users tab]]"
+---
 #new_feature/teams #discovery 
 
 **

@@ -12,4 +12,13 @@ lists:
   - Not Purchased
 comment: Intense literary novel exploring trauma and lifelong friendship.
 excalidraw-plugin:
+related:
+  - "[[Tiny Experiments]]"
+  - "[[Untitled]]"
+  - "[[Untitled]]"
+  - "[[Untitled]]"
+  - "[[Untitled]]"
+  - "[[The Design of Everyday things]]"
+  - "[[Author]]"
+  - "[[Thinking fast and slow]]"
 ---

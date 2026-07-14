@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Teams check]]"
+  - "[[Functional Requirements]]"
+  - "[[What Do we need for Teams]]"
+  - "[[Known Unknown Matrix]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Sparrow Genie Notes]]"
+  - "[[Project Owner]]"
+  - "[[RFP to Proposal]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[What we look for in product managers - Handbook]]"
+  - "[[Zoom]]"
+  - "[[Users tab]]"
+  - "[[Thinking]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[Roles and Permissions]]"
+---
 #Backward #delivery #p0 
 # Team Visibility Model
 

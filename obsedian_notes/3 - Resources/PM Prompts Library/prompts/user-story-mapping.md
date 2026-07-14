@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[user-story-prompt-template]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[positioning-statement]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+---
 # user-story-mapping.md
 <!--
 ## Description:

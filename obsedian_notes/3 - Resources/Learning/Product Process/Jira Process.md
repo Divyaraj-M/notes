@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Routine]]"
+  - "[[Product Spec - Template]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Workflows_v1]]"
+  - "[[Competitors Info]]"
+  - "[[Go - No- Go]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Domain diagram]]"
+  - "[[To do list]]"
+  - "[[Product Vision]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+---
 # SparrowGenie Delivery Workflow
 
 **Problem Statement & Defined Process States**

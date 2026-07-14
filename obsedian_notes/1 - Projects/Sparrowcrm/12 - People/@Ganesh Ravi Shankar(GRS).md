@@ -1,3 +1,21 @@
+---
+related:
+  - "[[@Sakthi Prasath M]]"
+  - "[[@Nayan Jain]]"
+  - "[[@Vilashini]]"
+  - "[[Zulie]]"
+  - "[[Friction points]]"
+  - "[[TO DO List - today]]"
+  - "[[Issues Found]]"
+  - "[[Company Info]]"
+  - "[[Go - No- Go]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[@Supraja]]"
+  - "[[2026-01-30]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[Salesforce Integration]]"
+  - "[[@Divyaraj Murugan]]"
+---
 19-May-2026
 Zulie is not work  right now 
 - Associated objects

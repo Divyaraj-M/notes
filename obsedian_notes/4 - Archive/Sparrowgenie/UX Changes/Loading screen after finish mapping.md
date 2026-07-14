@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Decision-State Progress Bars]]"
+  - "[[Routine]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[2025-12-12]]"
+  - "[[TO DO List - today]]"
+  - "[[Template - PM]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Product Review system]]"
+  - "[[Help Article Template]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[Proposal Template flow]]"
+---
 
 ### Thinking messages 
 

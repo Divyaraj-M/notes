@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Loopio]]"
+  - "[[RevOps]]"
+  - "[[Go - No- Go]]"
+  - "[[Differentiator]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[Domain Diagram Questions]]"
+  - "[[SmartScan]]"
+  - "[[To do]]"
+  - "[[Chrome Extension]]"
+  - "[[Notification Strategy]]"
+  - "[[மகிழ்ச்சியான பன்றிக்குட்டி]]"
+  - "[[கல்வி ஓர் அரசியல்]]"
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[Integrations]]"
+  - "[[Arphie.ai]]"
+---

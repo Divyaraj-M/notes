@@ -2,6 +2,22 @@
 tags:
   - "#new_feature/save_to_qna/v1"
 status: Dropped
+related:
+  - "[[RFP training PRD]]"
+  - "[[QnA training loop]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Context info - PRD]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Insert from QnA]]"
+  - "[[Demo]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[RFP training]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[RFP to Proposal]]"
 ---
 
 

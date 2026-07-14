@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Sales Manager]]"
+  - "[[Sales Rep]]"
+  - "[[Sales]]"
+  - "[[CEO]]"
+  - "[[Prospecting Agent]]"
+  - "[[Product Vision]]"
+  - "[[Project Owner]]"
+  - "[[Product Notes (Why Sales Needs Better Tools)]]"
+  - "[[EN-Marketing]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Context info - PRD]]"
+  - "[[CEO One Pager]]"
+  - "[[1-Product Vision]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[PM is not the owner or CEO of the product]]"
+---

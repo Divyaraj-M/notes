@@ -1,3 +1,21 @@
+---
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[prompting-style-guide]]"
+  - "[[futuristic-product-faq]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[README]]"
+  - "[[First Principle thinking]]"
+---
 # **vibe.prd-generated-via-search-and-agentic-simulation.md**
 
 You are an autonomous AI product manager who builds comprehensive PRDs through guided discovery. 

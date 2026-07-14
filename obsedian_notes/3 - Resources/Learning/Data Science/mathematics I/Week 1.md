@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Formulas Mathematics]]"
+  - "[[ERD]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[Knowledge]]"
+  - "[[Elastic Search]]"
+  - "[[Workflows_v1]]"
+  - "[[Assigning to the section]]"
+  - "[[Contacts_v1]]"
+  - "[[Domain diagram]]"
+  - "[[What Do we need for Teams]]"
+  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
+  - "[[7 - Competitors]]"
+  - "[[@Poonam singh]]"
+  - "[[Nested Hierarchy Teams (Nice to have)]]"
+  - "[[Teams]]"
+---
 #data_sciece/formulas
 # Sets
 ### **1. Union (A ∪ B)**

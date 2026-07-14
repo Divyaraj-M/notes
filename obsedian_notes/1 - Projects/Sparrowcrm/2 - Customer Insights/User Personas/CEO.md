@@ -1,0 +1,18 @@
+---
+related:
+  - "[[CEO One Pager]]"
+  - "[[Steps to create it]]"
+  - "[[Director of Sales]]"
+  - "[[12 - People]]"
+  - "[[ERP]]"
+  - "[[Project Owner]]"
+  - "[[PM is not the owner or CEO of the product]]"
+  - "[[Admin]]"
+  - "[[EN-People]]"
+  - "[[Project Manager]]"
+  - "[[EN-Marketing]]"
+  - "[[Sales Manager]]"
+  - "[[The lean startup]]"
+  - "[[EN-Product Strategy]]"
+  - "[[@Anshul S]]"
+---

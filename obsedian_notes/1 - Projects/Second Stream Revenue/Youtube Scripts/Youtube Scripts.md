@@ -1,0 +1,18 @@
+---
+related:
+  - "[[Youtube video Framework]]"
+  - "[[Second_stream_revenue.excalidraw]]"
+  - "[[Blog template]]"
+  - "[[Chrome Extension]]"
+  - "[[Google Sheets]]"
+  - "[[howto]]"
+  - "[[Routine]]"
+  - "[[Responsive.io]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[@Vilashini]]"
+  - "[[Email]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Google Search Console]]"
+  - "[[PMM Playbook — Curious Geeks]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+---

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[UAT - 23022026]]"
+  - "[[UAT Arya]]"
+  - "[[UAT vipin 2026-02-23]]"
+  - "[[@Poonam singh]]"
+  - "[[UTITSL_102 - Tech Doc]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[2026-02-24 - Sprint Planning]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[ERd]]"
+  - "[[UAT Vipin]]"
+  - "[[Native SparrowCRM for GPT]]"
+  - "[[Zulie]]"
+  - "[[Roadmap for Agents]]"
+---

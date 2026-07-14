@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Product Vision]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[RFP training PRD]]"
+  - "[[Competitors Info]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Go - No- Go]]"
+  - "[[2-Product Strategy]]"
+  - "[[Context info - PRD]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[Differentiator]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[ROI Calculator]]"
+  - "[[Attachments in RFP response - Product Spec]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Routine]]"
+---
 #learning 
 
 - SparrowGenie helps B2B sales teams close deals faster by removing friction from high-stakes proposal and RFP workflows.

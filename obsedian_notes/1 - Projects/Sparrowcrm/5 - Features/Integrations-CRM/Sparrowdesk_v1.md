@@ -6,6 +6,22 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/integrations/sparrowdesk/v1
+related:
+  - "[[Email Integration_v1]]"
+  - "[[Import_v1]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[To do list]]"
+  - "[[Email_v1]]"
+  - "[[Block Contact creation of Same Domain_v1]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[filters_v1]]"
+  - "[[Product Spec - Template]]"
+  - "[[Competitors Info]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Project admin settings]]"
+  - "[[2-Product Strategy]]"
+  - "[[5 - Features]]"
+  - "[[ROI Calculator]]"
 ---
 # SparrowDesk Integration Feature Spec
 

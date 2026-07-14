@@ -1,3 +1,21 @@
+---
+related:
+  - "[[README]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[howto]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Product Strategy]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[Hybrid thinking product framework]]"
+---
 # Strategic Product Management Frameworks
 
 **AI-assisted tools for both strategic thinking and practical execution in product management**

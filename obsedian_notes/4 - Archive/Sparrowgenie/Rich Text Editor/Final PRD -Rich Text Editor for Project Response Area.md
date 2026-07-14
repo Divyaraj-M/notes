@@ -1,3 +1,21 @@
+---
+related:
+  - "[[WYSIWYG Editor _ PRD]]"
+  - "[[Attachments in RFP response - Product Spec]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Context info - PRD]]"
+  - "[[Answer types]]"
+  - "[[Product Spec - Template]]"
+  - "[[Create a project]]"
+  - "[[RFP training PRD]]"
+  - "[[Help Article Template]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Routine]]"
+  - "[[RFP to Proposal]]"
+  - "[[Project Share - RFx and Proposal]]"
+---
 
 ### Problem Statement
 

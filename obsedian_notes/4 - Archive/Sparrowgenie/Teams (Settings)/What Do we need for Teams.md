@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Teams check]]"
+  - "[[Teams]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Product Strategy]]"
+  - "[[7 - Competitors]]"
+  - "[[Routine]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Product Vision]]"
+  - "[[Product Spec - Template]]"
+  - "[[Replace Email-Based User Display with Name and Team]]"
+  - "[[Competitors Info]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Jira Process]]"
+---
 
 ### Problems
 - Enable automatic project visibility for people who work together

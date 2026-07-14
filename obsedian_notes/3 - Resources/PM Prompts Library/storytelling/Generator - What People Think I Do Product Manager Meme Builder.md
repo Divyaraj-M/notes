@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator – Product Manager Action Figure Builder]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[Dangerous Animals of Product Management Beast Generator]]"
+  - "[[README]]"
+  - "[[Generator – Create-Your-Own Sims Character Sheet]]"
+  - "[[Generator – PM Bedtime Story Builder]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[prompt-generator-prompt]]"
+---
 # Generator - What People Think I Do: Product Manager Meme Builder.md
 
 <!--

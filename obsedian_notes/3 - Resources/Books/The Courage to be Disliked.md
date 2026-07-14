@@ -12,4 +12,9 @@ pages: 288
 lists:
   - Not Purchased
 comment: Adlerian psychology explained through dialogue. Focus on freedom and responsibility.
+related:
+  - "[[The Business Of Belonging]]"
+  - "[[The Thirteen Problems]]"
+  - "[[To Kill a Mocking bird]]"
+  - "[[Annihilation of Caste]]"
 ---

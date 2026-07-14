@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Arphie.ai]]"
+  - "[[Product Strategy]]"
+  - "[[Competitors Info]]"
+  - "[[Product Vision]]"
+  - "[[Go - No- Go]]"
+  - "[[RFP training PRD]]"
+  - "[[Routine]]"
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[7 - Competitors]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Product Spec - Template]]"
+  - "[[Demo]]"
+  - "[[SmartScan]]"
+  - "[[SmartFill]]"
+  - "[[2-Product Strategy]]"
+---
 # Five defensible differentiators where SparrowGenie beats Loopio
 
 **SparrowGenie holds clear competitive advantages over Loopio in AI architecture, content governance, export quality, pricing flexibility, and platform breadth** — each mapping directly to Loopio's most frequently cited weaknesses across 800+ verified user reviews. Loopio, founded in 2014, built its reputation on a manually curated content library approach that is now showing structural cracks as AI-native competitors redefine the RFP automation market. The five differentiators below are grounded in documented, reviewable Loopio pain points — not just marketing claims — making them defensible in competitive sales conversations.

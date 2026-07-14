@@ -1,12 +1,28 @@
 ---
 title: "phuryn/pm-skills: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
-source: "https://github.com/phuryn/pm-skills"
+source: https://github.com/phuryn/pm-skills
 author:
 published:
 created: 2026-05-25
 description: "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth. - phuryn/pm-skills"
 tags:
-  - "clipping/github"
+  - clipping/github
+related:
+  - "[[phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown]]"
+  - "[[README]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[Udemy]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[howto]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[README]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[README]]"
 ---
 ## PM Skills Marketplace: The AI Operating System for Better Product Decisions
 

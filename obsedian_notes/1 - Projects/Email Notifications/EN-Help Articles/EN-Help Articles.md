@@ -1,0 +1,18 @@
+---
+related:
+  - "[[11 - Help Articles]]"
+  - "[[EN-Marketing]]"
+  - "[[EN-Features]]"
+  - "[[EN-Decisions]]"
+  - "[[EN-People]]"
+  - "[[SparrowGenie - Help Articles]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[EN-Customer Insights]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[EN-Competitors]]"
+  - "[[EN-Product Strategy]]"
+  - "[[Knowledge]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Blog template]]"
+  - "[[howto]]"
+---

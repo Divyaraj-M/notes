@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Teams check]]"
+  - "[[Functional Requirements]]"
+  - "[[Dual-Layer Team]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Nested Hierarchy Teams (Nice to have)]]"
+  - "[[Sensitive  projects]]"
+  - "[[2026-01-30]]"
+  - "[[RFP to Proposal]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Project Owner]]"
+  - "[[Audit Report R126022026]]"
+  - "[[Competitors Info PRD]]"
+  - "[[ERP]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Share assign and review flow]]"
+---
 # **1. Overview**
 
 This feature allows a project owner or collaborator to assign a **specific section** to a **team**, enabling team-level collaboration on that section without exposing the entire project.  

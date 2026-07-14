@@ -7,6 +7,22 @@ created: 2026-06-08
 description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to…
 tags:
   - clipping/grillme
+related:
+  - "[[Table view for question card PRD]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Instructions from the Document]]"
+  - "[[user-story-prompt-template]]"
+  - "[[Kibana]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Routine]]"
+  - "[[2026-W13]]"
+  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
+  - "[[artifact-first-context-intake]]"
+  - "[[user-story-mapping]]"
+  - "[[pestel-analysis-prompt-template]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[My Product Notes]]"
 ---
 ## grill-me
 

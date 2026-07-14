@@ -1,6 +1,22 @@
 ---
 share_link: https://share.note.sx/38z3w8r3#kBREvH3KnR/eF1jOzyA6C8CH9mgMd2NuWLHNE0tSaHY
 share_updated: 2026-03-30T17:39:34+05:30
+related:
+  - "[[To do list]]"
+  - "[[2026-01-30]]"
+  - "[[Friction points]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[2025-12-12]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[Jira Process]]"
+  - "[[TO DO List - today]]"
+  - "[[Sign up and Onboarding mails]]"
+  - "[[Sparrow Genie - Project Phase II]]"
+  - "[[Company Info]]"
+  - "[[2026-04-27 16-24-02]]"
+  - "[[Competitors Info]]"
+  - "[[Sparrowdesk_v1]]"
 ---
 #product/user/sep2_security
 

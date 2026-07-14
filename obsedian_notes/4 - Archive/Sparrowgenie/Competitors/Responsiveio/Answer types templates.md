@@ -3,6 +3,22 @@ tags:
   - competitor_analysis/responsive/Answer_types/templates
 website: https://help.responsive.io/en-US/responsive/article/vtVwMeSs-working-with-answer-type-templates
 state: "[[Final]]"
+related:
+  - "[[Answer types]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[Behaviour study]]"
+  - "[[Attachments in RFP response - Product Spec]]"
+  - "[[Chrome Extension - Responsive IO]]"
+  - "[[Help Article Template]]"
+  - "[[Attachments - Responsive]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[_template]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[My Templates - Proposal (Next phase)]]"
+  - "[[QorusDocs]]"
+  - "[[App.responsive.io - mapping screen analysis]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
 ---
 
 

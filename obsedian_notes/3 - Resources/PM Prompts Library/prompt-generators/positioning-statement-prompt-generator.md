@@ -1,3 +1,21 @@
+---
+related:
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[positioning-statement]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[howto]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[daci-chart-prompt-generator]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[storyboard-storytelling-prompt]]"
+---
 # positioning-statement-prompt-generator.md
 <!--
 ## Description:

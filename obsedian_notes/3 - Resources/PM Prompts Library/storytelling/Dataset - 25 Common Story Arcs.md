@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Dataset - Common Storyboarding Tools and Techniques]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[user-story-splitting-prompt-template]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
+  - "[[Elastic Search]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[6 - Metrics & Dashboards]]"
+  - "[[Doc Workflow Two-Doc System]]"
+  - "[[user-story-prompt-template]]"
+  - "[[A Prompt Skeleton Analysis Toolkit]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[readme]]"
+  - "[[CRM Metrics Framework]]"
+---
 ## Dataset - 25 Common Story Arcs.md
 
 This dataset offers a rich collection of narrative structures used in storytelling across literature, film, and other entertainment forms. It includes fundamental frameworks like Freytag's Pyramid and the Hero's Journey, thematic arcs like Rags to Riches and Tragedy, and specialized story arcs such as the Underdog Story and Mystery/Whodunit. These structures outline character development and event progression, spanning themes from personal growth in The Underdog Story tales to the complexities of Overcoming the Monster. They serve as vital blueprints for creating engaging, diverse stories that resonate with audiences.

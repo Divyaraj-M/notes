@@ -1,3 +1,21 @@
+---
+related:
+  - "[[company-profile-executive-insights-research]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[prompting-style-guide]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[README]]"
+  - "[[README]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[howto]]"
+  - "[[A Prompt Skeleton Analysis Toolkit]]"
+  - "[[Product Spec Template 2]]"
+---
 # pestel-analysis-prompt-template.md
 <!--
 ## Description:

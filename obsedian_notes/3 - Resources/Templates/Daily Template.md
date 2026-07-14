@@ -1,6 +1,22 @@
 ---
 tags:
   - Habit_tracker/Daily
+related:
+  - "[[Weekly Review Template]]"
+  - "[[To do]]"
+  - "[[Template - PM]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[2025-12-12]]"
+  - "[[2026-01-30]]"
+  - "[[Blog template]]"
+  - "[[2026-W13]]"
+  - "[[TO DO List - today]]"
+  - "[[Google Calendar]]"
+  - "[[Spec Template]]"
+  - "[[Work Log 2026-02-16]]"
+  - "[[Issues Found]]"
+  - "[[Routine]]"
+  - "[[Feature Template]]"
 ---
 
 # {{date}}

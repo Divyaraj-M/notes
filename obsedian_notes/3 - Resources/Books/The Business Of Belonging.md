@@ -10,4 +10,20 @@ pages: 416
 lists:
   - Not Purchased
 comment: Framework for building community-led growth businesses.
+related:
+  - "[[Roles and Permissions]]"
+  - "[[The Design of Everyday things]]"
+  - "[[Share first principle]]"
+  - "[[Functional Requirements]]"
+  - "[[EN-People]]"
+  - "[[The lean startup]]"
+  - "[[EN-Marketing]]"
+  - "[[The Metamorphosis]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Teams]]"
+  - "[[Project Owner]]"
+  - "[[EN-Customer Insights]]"
+  - "[[Sales]]"
+  - "[[Teams check]]"
+  - "[[The Courage to be Disliked]]"
 ---

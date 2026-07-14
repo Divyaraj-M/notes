@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Week 1]]"
+  - "[[Mathematics]]"
+  - "[[hybrid-thinking-worksheet]]"
+  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
+  - "[[ERD]]"
+  - "[[ECHS – Knowledge Transfer (KT) Document]]"
+  - "[[Domain diagram]]"
+  - "[[Product thinking]]"
+  - "[[Elastic Search]]"
+  - "[[Past RFP Similarity Score (PRS)]]"
+  - "[[Workflows_v1]]"
+  - "[[Product thinking]]"
+  - "[[Domain Diagram Questions]]"
+  - "[[Proposal Conversion]]"
+  - "[[Design diagram]]"
+---
 # IIT BS Mathematics – Final Exam Formula & Memory Sheet
 
 This is a **last‑mile, exam‑ready summary**. No explanations. Only what you must recall under stress.

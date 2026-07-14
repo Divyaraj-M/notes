@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Sparrowdesk_v1]]"
+  - "[[2025-12-12]]"
+  - "[[Email_Integrations_v2-Historical Import]]"
+  - "[[@Sakthi Prasath M]]"
+  - "[[9.mar.2026 - Stand up]]"
+  - "[[Import_v1]]"
+  - "[[Integrations-CRM]]"
+  - "[[Email Integration]]"
+  - "[[SparrowDesk]]"
+  - "[[Table view for question card PRD]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Routine]]"
+  - "[[Competitors Info]]"
+  - "[[2026-02-23 -Weekly product Stand up]]"
+  - "[[Sign up and Onboarding mails]]"
+---
 02-May-2026
 - [x]  Layout all the metrics (not so important now )
 - [x] Problem statement 

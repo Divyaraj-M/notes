@@ -2,6 +2,22 @@
 dg-publish: true
 tags:
   - curious_geeks/about_me
+related:
+  - "[[@Divyaraj Murugan]]"
+  - "[[2-Product Strategy]]"
+  - "[[Product Vision]]"
+  - "[[1-Product Vision]]"
+  - "[[Product Strategy]]"
+  - "[[Routine]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[Competitors Info]]"
+  - "[[Go - No- Go]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[First Principle for a CRM]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Table view for question card PRD]]"
+  - "[[filters_v1]]"
+  - "[[First Principle thinking - Table View]]"
 ---
 # About
 

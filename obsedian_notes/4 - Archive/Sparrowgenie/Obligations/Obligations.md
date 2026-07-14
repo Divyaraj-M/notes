@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Decision-State Progress Bars]]"
+  - "[[Zoom]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[RFP to Proposal]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Product Spec Template 2]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[TO DO List - today]]"
+  - "[[4 - Product Specs]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Feature Template]]"
+  - "[[Domain diagram]]"
+  - "[[2026-01-30]]"
+  - "[[First-Principles Product Template]]"
+  - "[[Jira Process]]"
+---
 # FRD: [Feature Name]
 
 > **PRD Reference:** [Link to PRD] **Design Reference:** [Link to Figma] **PM Owner:** [PM Name] **Tech Lead:** [Name] **Status:** Draft / In Review / Approved / In Development **Sprint:** [Sprint number] **Last Updated:** [Date]

@@ -1,3 +1,21 @@
+---
+related:
+  - "[[framing-the-problem-statement]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[proto-persona-profile]]"
+  - "[[user-story-mapping]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[backlog-epic-hypothesis]]"
+  - "[[Context info - PRD]]"
+  - "[[Jira Process]]"
+  - "[[user-story-prompt-template]]"
+  - "[[strategic-scrum-team-session-kickoff]]"
+---
 # jobs-to-be-done.md
 <!--
 ## Description:

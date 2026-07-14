@@ -1,3 +1,21 @@
+---
+related:
+  - "[[First-Principles Product Template]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[First Principle thinking]]"
+  - "[[Read List]]"
+  - "[[Atomic Habits and deliberate practice applied to product management]]"
+  - "[[Routine]]"
+  - "[[Domain diagram]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[Competitors Info]]"
+  - "[[SME Operating system]]"
+  - "[[Atomic Design]]"
+  - "[[Product Spec - Template]]"
+  - "[[Company Templates - Proposal]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
+---
 Proof of Concept -notes and template
 
 [Proof of Concept ](https://www.upsilonit.com/blog/what-is-proof-of-concept-use-cases-steps-examples#proof-of-concept-template)

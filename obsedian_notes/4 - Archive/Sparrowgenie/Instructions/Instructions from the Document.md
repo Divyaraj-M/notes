@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Proposal Conversion Flow]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Context info - PRD]]"
+  - "[[RFP training]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Friction points]]"
+  - "[[Mapping]]"
+  - "[[Save to QnA PRD]]"
+  - "[[RFP to Proposal]]"
+  - "[[RFP training PRD]]"
+  - "[[Create a project]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
+  - "[[UAT Arya]]"
+---
 #new_feature/Instructions/v1/from_prospect
 ## First Principle
 

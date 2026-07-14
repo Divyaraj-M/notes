@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[Reaction – You Can't Fire Me I Quit Dear John Letter]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[SME Operating system]]"
+  - "[[PMM Playbook — Curious Geeks]]"
+  - "[[Udemy]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[Demo]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[prompting-style-guide]]"
+  - "[[README]]"
+  - "[[Ai fluency Framework and  foundations]]"
+  - "[[Routine]]"
+---
 # Reaction – Glassdoor Review – A Masterclass in Pretending to Care.md
 
 Run the following prompt to generate an absurd yet informative 1-star Glassdoor review.

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[@Vaishnavi Yuvaraj]]"
+  - "[[@Divyaraj Murugan]]"
+  - "[[@Shihab Muhammed]]"
+  - "[[@Madhan  M]]"
+  - "[[@Vilashini]]"
+  - "[[@Supraja]]"
+  - "[[@Anshul S]]"
+  - "[[@Nayan Jain]]"
+  - "[[MyMail]]"
+  - "[[Friction points]]"
+  - "[[Integrations-CRM]]"
+  - "[[Slack]]"
+  - "[[@Ganesh Ravi Shankar(GRS)]]"
+  - "[[@Poonam singh]]"
+  - "[[2026-02-24]]"
+---

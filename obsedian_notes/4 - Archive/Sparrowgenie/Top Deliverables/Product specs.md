@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Product specs]]"
+  - "[[4 - Product Specs]]"
+  - "[[Competitors Info]]"
+  - "[[Zoom]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Spec Template]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Sparrowcrm]]"
+  - "[[First Principle thinking]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[7 - Competitors]]"
+  - "[[README]]"
+  - "[[Table view for question card PRD]]"
+  - "[[3 - Roadmap & Planning]]"
+---
 #learning 
 
 Two things that product specs need to do, 

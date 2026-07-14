@@ -1371,14 +1371,11 @@
     },
     {
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
-          "timestampMillis": 1778941535350
-        },
-        {
-          "timestampMillis": 1779108662685
+          "timestampMillis": 1784019905714
         }
       ]
     },
@@ -2759,14 +2756,17 @@
     },
     {
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 3,
       "openLogs": [
         {
           "timestampMillis": 1782986941631
         },
         {
           "timestampMillis": 1782986941891
+        },
+        {
+          "timestampMillis": 1784019912564
         }
       ]
     },
@@ -3685,8 +3685,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 64,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 65,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3879,6 +3879,9 @@
         },
         {
           "timestampMillis": 1783941790208
+        },
+        {
+          "timestampMillis": 1784019917828
         }
       ]
     },
@@ -4050,7 +4053,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 22,
+      "totalTimesOpened": 23,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4117,6 +4120,9 @@
         },
         {
           "timestampMillis": 1784014793828
+        },
+        {
+          "timestampMillis": 1784019892322
         }
       ]
     }

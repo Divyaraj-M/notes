@@ -1,8 +1,23 @@
 ---
-
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+tags:
+  - excalidraw
+related:
+  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[Instructions from the Document]]"
+  - "[[Sales]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[ROI Calculator]]"
+  - "[[readme]]"
+  - "[[Proposal Conversion Flow]]"
+  - "[[Proposal Creation Flow]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
+  - "[[Competitors Info PRD]]"
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 

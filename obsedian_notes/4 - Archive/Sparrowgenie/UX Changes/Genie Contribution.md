@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Routine]]"
+  - "[[Genie Actions inside the Questions card]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Genie Templates - Propsals]]"
+  - "[[Save to QnA PRD]]"
+  - "[[RFP training PRD]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[Multi Document Support]]"
+  - "[[Decision-State Progress Bars]]"
+  - "[[2025-12-12]]"
+  - "[[WYSIWYG editor - First Principle]]"
+  - "[[Demo]]"
+  - "[[Template - PM]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[user-story-prompt-generator-prompt]]"
+---
 #new_feature/Genie_contribution 
 
 ### Context 

@@ -1,0 +1,18 @@
+---
+related:
+  - "[[EN-Customer Insights]]"
+  - "[[EN-Competitors]]"
+  - "[[EN-Product Strategy]]"
+  - "[[EN-People]]"
+  - "[[EN-Features]]"
+  - "[[EN-Product Wins]]"
+  - "[[EN-Decisions]]"
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[10 - Marketing]]"
+  - "[[EN-Help Articles]]"
+  - "[[EN-Product Vision]]"
+  - "[[EN-Roadmap & Planning]]"
+  - "[[Sales]]"
+  - "[[market-requirements-generator-prompt]]"
+  - "[[eol-for-a-product-message]]"
+---

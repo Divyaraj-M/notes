@@ -1,3 +1,21 @@
+---
+related:
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[proto-persona-profile]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[persona-first-decision-facilitation-loop]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[howto]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
+  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+---
 # proto-persona-prompt-generator.md
 <!--
 ## Description:

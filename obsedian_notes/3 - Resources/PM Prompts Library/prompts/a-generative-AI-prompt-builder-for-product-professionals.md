@@ -1,3 +1,21 @@
+---
+related:
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[README]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[howto]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[README]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[prompting-style-guide]]"
+  - "[[user-story_ai-enhanced_prompt-template]]"
+  - "[[Generator - 16-Frame Visual Product Storyline]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+  - "[[tam-sam-som-prompt-generator]]"
+  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+---
 # a-generative-AI-prompt-builder-for-product-professionals.md
 
 ## Description:

@@ -5,6 +5,22 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/metrics
+related:
+  - "[[EN-Metrics & Dashboards]]"
+  - "[[3 - Roadmap & Planning]]"
+  - "[[10 - Marketing]]"
+  - "[[Feature Template]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[Product Spec - Template]]"
+  - "[[Friction Points]]"
+  - "[[5 - Features]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[Competitors Info]]"
+  - "[[7 - Competitors]]"
+  - "[[Spec Template]]"
+  - "[[EN-Customer Insights]]"
+  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
+  - "[[4 - Product Specs]]"
 ---
 
 # Metrics & Dashboards

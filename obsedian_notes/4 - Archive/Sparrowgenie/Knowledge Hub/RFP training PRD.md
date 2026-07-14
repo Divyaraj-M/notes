@@ -5,6 +5,22 @@ tags:
   - new_feature/projects_traning_loop/v1
 Status: deferred
 state: "[[Cancelled]]"
+related:
+  - "[[Training back Projects into Knowledge Hubs]]"
+  - "[[Save to QnA PRD]]"
+  - "[[Getting started  with SparrowGenie]]"
+  - "[[AI Readiness Score (ARS)]]"
+  - "[[Product Strategy]]"
+  - "[[QnA training loop]]"
+  - "[[Context info - PRD]]"
+  - "[[Product Vision]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Table view for question card PRD]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[Routine]]"
+  - "[[RFP training]]"
+  - "[[Go - No- Go]]"
+  - "[[Demo]]"
 ---
 
 # Context

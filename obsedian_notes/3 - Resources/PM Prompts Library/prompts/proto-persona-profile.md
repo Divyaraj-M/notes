@@ -1,3 +1,21 @@
+---
+related:
+  - "[[proto-persona-prompt-generator]]"
+  - "[[recommendation-canvas-template]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[customer-journey-mapping-prompt-template]]"
+  - "[[framing-the-problem-statement]]"
+  - "[[company-profile-executive-insights-research]]"
+  - "[[user-story-prompt-template]]"
+  - "[[storyboard-storytelling-prompt]]"
+  - "[[positioning-statement]]"
+  - "[[positioning-statement-prompt-generator]]"
+  - "[[futuristic-product-faq]]"
+  - "[[User Personas]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[user-story-mapping]]"
+  - "[[visionary-press-release]]"
+---
 # proto-persona-profile.md
 <!--
 ## Description:

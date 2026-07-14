@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
+  - "[[storyline-to-prompt-generator-prompt]]"
+  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
+  - "[[proto-persona-prompt-generator]]"
+  - "[[prompt-generator-prompt]]"
+  - "[[storyboarding-prompt-generator-prompt]]"
+  - "[[Generator - IKEA-like instruction steps]]"
+  - "[[Generator – PM Bedtime Story Builder]]"
+  - "[[user-story-prompt-generator-prompt]]"
+  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
+  - "[[jobs-to-be-done customer circle]]"
+  - "[[Generator – Product Manager Action Figure Builder]]"
+  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
+  - "[[Generator – Customer Journey Map Simulator]]"
+  - "[[customer-journey-mapping-prompt-generator]]"
+---
 # Generator – Create-Your-Own Sims Character Sheet.md
 
 ## Context:

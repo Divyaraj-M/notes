@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Teams check]]"
+  - "[[Functional Requirements]]"
+  - "[[Nested Hierarchy Teams (Nice to have)]]"
+  - "[[Assigning to the section]]"
+  - "[[Known Unknown Matrix]]"
+  - "[[Sensitive  projects]]"
+  - "[[2026-01-29 UAT with Vipin]]"
+  - "[[Project Share - RFx and Proposal]]"
+  - "[[RFP to Proposal]]"
+  - "[[Audit Report R126022026]]"
+  - "[[Sparrow Genie Notes]]"
+  - "[[Zoom]]"
+  - "[[Competitors Info PRD]]"
+  - "[[Custom Agent builderv1]]"
+  - "[[Thinking]]"
+---
 Each user has two types of team memberships:
 
 #### Primary Team (Mandatory)

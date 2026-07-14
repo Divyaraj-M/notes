@@ -1,3 +1,21 @@
+---
+related:
+  - "[[Zulie]]"
+  - "[[Hygiene Agent_v1]]"
+  - "[[1-Product Vision]]"
+  - "[[2-Product Strategy]]"
+  - "[[First Principle for a CRM]]"
+  - "[[Research Agent]]"
+  - "[[Ai Signals]]"
+  - "[[Email_v1]]"
+  - "[[Udemy]]"
+  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
+  - "[[README]]"
+  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
+  - "[[Product Management - Top Deliverables]]"
+  - "[[First Principle thinking - Table View]]"
+  - "[[Custom Agent builderv1]]"
+---
 [[Roadmap for Agents]]
 ## 1. Why this document exists
 

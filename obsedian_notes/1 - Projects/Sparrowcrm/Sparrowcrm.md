@@ -2,6 +2,22 @@
 owner: "[[@Ganesh Ravi Shankar(GRS)]]"
 tags:
   - sparrowcrm
+related:
+  - "[[Competitors Info]]"
+  - "[[GTM-Unified-Filters]]"
+  - "[[filters_v1]]"
+  - "[[SparrowDesk]]"
+  - "[[4 - Product Specs]]"
+  - "[[prd-sparrowcrm-unified-filters]]"
+  - "[[Email Notifications]]"
+  - "[[Product Vision]]"
+  - "[[Template - PM]]"
+  - "[[Spec Template]]"
+  - "[[2025-12-12]]"
+  - "[[Feature Template]]"
+  - "[[To do list]]"
+  - "[[Sparrowdesk_v1]]"
+  - "[[Table view for question card PRD]]"
 ---
 # SparrowCRM — Product Home
 
