@@ -190,6 +190,7 @@
     "sparrowcrm/features/crm_intelligence/aiagents/hygiene_agent_v1": 2,
     "sparrowcrm/features/crm_intelligence/knowledge/contextl3": 2,
     "sparrowcrm/features/crm_intelligence/knowledge/knowledgebasel3": 1,
+    "sparrowcrm/features/crm_intelligence/knowledge/recordsl1": 3,
     "sparrowcrm/features/integrations/apollio/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v2": 2,

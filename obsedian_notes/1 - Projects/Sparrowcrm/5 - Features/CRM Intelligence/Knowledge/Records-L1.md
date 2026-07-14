@@ -1,6 +1,7 @@
 ---
 owner: "[[@Divyaraj Murugan]]"
 tags:
+  - sparrowcrm/features/crm_intelligence/knowledge/recordsL1
 ---
 
 ## 1. What this layer is
