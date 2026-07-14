@@ -4156,7 +4156,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 11,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1784027137476
@@ -4190,16 +4190,22 @@
         },
         {
           "timestampMillis": 1784027200090
+        },
+        {
+          "timestampMillis": 1784027314148
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1784027204241
+        },
+        {
+          "timestampMillis": 1784027315532
         }
       ]
     }

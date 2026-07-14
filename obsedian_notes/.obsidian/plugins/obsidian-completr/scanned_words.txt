@@ -900,6 +900,7 @@ Traversal
 Transitions
 TCFD
 Transcripts
+Terminology
 Docs
 Doc
 Designer
@@ -4278,6 +4279,7 @@ investor
 informative
 imposing
 interpret
+inject
 reads
 references
 requirements
@@ -9935,6 +9937,7 @@ declared
 distill
 dividend
 distills
+distorts
 starts
 sub
 screens
@@ -11523,6 +11526,9 @@ scrambling
 satisfy
 secured
 separates
+sells
+subtly
+slices
 everyone
 exactly
 each
@@ -21437,6 +21443,7 @@ njg
 nwq
 npK
 nearly
+norms
 Constraints
 Contracts
 Completable
@@ -24823,6 +24830,7 @@ challenged
 cutover
 curate
 cites
+crowdsourced
 on
 owns
 one

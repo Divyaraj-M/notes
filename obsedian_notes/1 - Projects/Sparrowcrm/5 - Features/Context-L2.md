@@ -1,3 +1,8 @@
+# Layer 2 — Context
+
+**Status:** Draft v 1 · **Owner:** Divyaraj M **Parent:** Knowledge — The Grounding Layer · **Layer altitude:** Workspace (the business as a whole) **Ships:** v 2 — Layer 1 is present and Layer 3 ships first; Context follows. Capabilities needing it run on defaults or wait until then.
+
+---
 
 ## 1. What this layer is
 
@@ -9,11 +14,15 @@ Context is not about any single record (that's Layer 1) and not a pattern learne
 
 ## 2. What it holds
 
+- **Company & user profile** — who this workspace is: the company, its team, roles, and the individual using the system. The "who am I / who are we" that grounds every personalized action.
+- **Brand kit** — voice, tone, positioning, boilerplate, visual/messaging guidelines the AI should reflect when it writes or represents the company.
 - **Business & product profile** — what the customer sells, to whom, how they position.
+- **Product catalog** — the products/plans/SKUs, what each does, and how they're described — so the AI speaks accurately about what's being sold.
 - **ICP definition** — what a good-fit account and contact look like. **Must be structured** (firmographic ranges, roles, industries as fields/values), not prose — because signals score against it and can't compute over a paragraph.
 - **Process conventions** — pipeline stage definitions, stage-entry criteria, staleness thresholds, workflow norms. This is the slice deal hygiene depends on, and it must be **machine-usable** (stage → required fields, stage → staleness days), not descriptive text.
 - **Terminology** — what custom fields and internal terms mean in this workspace.
-- 
+
+_The exact, complete field set for Context is defined in the Context PRD — the list above is the shape, not the final schema._
 
 ---
 
@@ -53,5 +62,3 @@ Because a wrong ICP or stage rule distorts _every_ action that touches it, Conte
 The single most important build note for this layer: **Context that agents compute against must be structured data, not free text.** HubSpot-style free-text Context ("we sell to mid-market SaaS") is fine for grounding _tone_ in a Zulie answer, but useless for a signal that needs to score "does this account's employee count fall in the ICP's ideal range?" or a hygiene agent evaluating "does this stage have its required fields?" Free-text describes; structure computes. The process-conventions and ICP slices must be structured; the profile/terminology slices can be prose.
 
 ---
-
-_Companion docs: Knowledge (parent) · Layer 1 — Records · Layer 3 — Knowledge Base._
