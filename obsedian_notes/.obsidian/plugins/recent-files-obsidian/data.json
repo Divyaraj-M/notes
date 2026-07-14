@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "4 - Product Specs",
-      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+      "basename": "Knowledge Manager agent",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md"
     },
     {
       "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "Records-L1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
+      "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
     },
     {
       "basename": "Knowledge Base-L3",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md"
     },
     {
-      "basename": "Knowledge Manager agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md"
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Contacts_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md"
+    },
+    {
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
+    },
+    {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
+      "basename": "Records-L1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
     },
     {
       "basename": "Context-L2",
@@ -41,16 +57,8 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md"
     },
     {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "Knowledge",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md"
-    },
-    {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
     },
     {
       "basename": "Ai Signals",
@@ -191,14 +199,6 @@
     {
       "basename": "Email Integration",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Products",
-      "path": "1 - Projects/Curious Geeks/Products/Products.md"
-    },
-    {
-      "basename": "Prospecting Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Prospecting Agent.md"
     }
   ],
   "omittedPaths": [],

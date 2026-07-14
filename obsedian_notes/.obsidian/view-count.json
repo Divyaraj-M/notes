@@ -343,7 +343,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
       "uniqueDaysOpened": 20,
-      "totalTimesOpened": 66,
+      "totalTimesOpened": 70,
       "openLogs": [
         {
           "timestampMillis": 1782204960843
@@ -431,6 +431,18 @@
         },
         {
           "timestampMillis": 1784029254648
+        },
+        {
+          "timestampMillis": 1784033243415
+        },
+        {
+          "timestampMillis": 1784033243835
+        },
+        {
+          "timestampMillis": 1784033262117
+        },
+        {
+          "timestampMillis": 1784033262404
         }
       ]
     },
@@ -784,10 +796,13 @@
     {
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1784033240686
+        },
+        {
+          "timestampMillis": 1784033241023
         }
       ]
     },
@@ -1672,38 +1687,11 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
-          "timestampMillis": 1779350382745
-        },
-        {
-          "timestampMillis": 1779350399889
-        },
-        {
-          "timestampMillis": 1779350482393
-        },
-        {
-          "timestampMillis": 1779350567945
-        },
-        {
-          "timestampMillis": 1780642780537
-        },
-        {
-          "timestampMillis": 1780642793839
-        },
-        {
-          "timestampMillis": 1781248255978
-        },
-        {
-          "timestampMillis": 1781248256386
-        },
-        {
-          "timestampMillis": 1781249322400
-        },
-        {
-          "timestampMillis": 1781249322802
+          "timestampMillis": 1784033250238
         }
       ]
     },
@@ -2145,11 +2133,11 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
-          "timestampMillis": 1780642787995
+          "timestampMillis": 1784033251667
         }
       ]
     },
@@ -2718,7 +2706,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 51,
+      "totalTimesOpened": 53,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -2872,13 +2860,19 @@
         },
         {
           "timestampMillis": 1784029094944
+        },
+        {
+          "timestampMillis": 1784033263752
+        },
+        {
+          "timestampMillis": 1784033264142
         }
       ]
     },
     {
-      "path": "AI CRM Visualization.canvas",
+      "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 194,
+      "totalTimesOpened": 196,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3461,6 +3455,12 @@
         },
         {
           "timestampMillis": 1784030299649
+        },
+        {
+          "timestampMillis": 1784033294090
+        },
+        {
+          "timestampMillis": 1784033579464
         }
       ]
     },
@@ -4476,7 +4476,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 17,
+      "totalTimesOpened": 18,
       "openLogs": [
         {
           "timestampMillis": 1784027648960
@@ -4528,6 +4528,9 @@
         },
         {
           "timestampMillis": 1784030192247
+        },
+        {
+          "timestampMillis": 1784033576650
         }
       ]
     },
@@ -4589,7 +4592,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 10,
+      "totalTimesOpened": 11,
       "openLogs": [
         {
           "timestampMillis": 1784029236608
@@ -4620,6 +4623,9 @@
         },
         {
           "timestampMillis": 1784030190209
+        },
+        {
+          "timestampMillis": 1784033581100
         }
       ]
     }
