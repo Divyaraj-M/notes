@@ -4,6 +4,7 @@ views:
     filters:
       or:
         - file.hasTag("sparrowcrm")
+        - file.folder == "1 - Projects/Sparrowcrm"
     order:
       - file.name
       - status

@@ -1,10 +1,11 @@
 ---
 owner: Divyaraj Murugan
-feature:
+feature: "[[Agents in CRM]]"
 version: 1
-status:
-priority:
+status: Done
+priority: High
 tags:
+  - sparrowcrm/features/crm_intelligence/aiagents/hygiene_agent_v1
 ---
 
 ## 1. Problem Statement

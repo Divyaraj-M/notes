@@ -8,201 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5f7874c237f1fa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Roadmap for Agents"
-            }
-          },
-          {
-            "id": "023d69963d964009",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agents in CRM"
-            }
-          },
-          {
-            "id": "f9d742dd93e3f8d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Records-L1"
-            }
-          },
-          {
-            "id": "9bf873913fc55b32",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -215.6947189006508,
-                  "y": -30.495099583496128,
-                  "zoom": -0.5963622785228415
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
-            }
-          },
-          {
-            "id": "705c228897b9d172",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Custom Agent builderv1"
-            }
-          },
-          {
-            "id": "7f7468fd2ab62de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Issues Found"
-            }
-          },
-          {
-            "id": "745aac08d7ccc631",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Knowledge"
-            }
-          },
-          {
-            "id": "6d7e63c5cea47693",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "68630088e07241f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "EN-Product Vision"
-            }
-          },
-          {
             "id": "790fbee5bcfe2809",
             "type": "leaf",
             "state": {
@@ -234,13 +39,37 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -470.4942342622654,
-                  "y": 726.1897621413685,
-                  "zoom": -0.6190936593106863
+                  "x": -2050.5884320908553,
+                  "y": 27.624100427676233,
+                  "zoom": -0.28532893576372176
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "AI CRM Visualization"
+            }
+          },
+          {
+            "id": "640476a86a9300a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ai Fields"
             }
           },
           {
@@ -292,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -335,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/features/filters",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -346,8 +175,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -608,18 +436,28 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "1e75b10065f7913a",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Untitled",
+    "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
+    "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov",
+    "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 11.59.58 AM.mov",
+    "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
     "AI CRM Visualization.canvas",
-    "3 - Resources/Books/Read List/Read List.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
+    "3 - Resources/Books/Read List/Read List.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
@@ -628,15 +466,10 @@
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
     "CRM Metrics Framework.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
     "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
     "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
     "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
-    "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md",
-    "1 - Projects/Curious Geeks/Curious Geeks.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Projects",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
@@ -646,16 +479,12 @@
     "pages",
     "journals",
     "logseq/custom.css",
-    "logseq/config.edn",
-    "logseq",
     "1 - Projects/Curious Geeks/icon.svg",
-    "finance/Data/accounts",
     "3 - Resources/Frameworks/Pasted image 20260601143957.png",
     "3 - Resources/Templates/Pasted image 20260601143807.png",
     "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
     "3 - Resources/Learning/Domain Design/Cardinality.jpg",
     "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "Product/Audit report/Screenshot 2026-02-26 at 11.21.15 AM.png",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",

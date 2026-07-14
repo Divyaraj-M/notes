@@ -188,6 +188,7 @@
     "new_feature/dossiers/proposal_templates/my_templates/v1": 1,
     "sparrowcrm/features/contacts/email/v1": 1,
     "sparrowcrm/features/crm_intelligence/aiagents/cab": 1,
+    "sparrowcrm/features/crm_intelligence/aiagents/hygiene_agent_v1": 2,
     "sparrowcrm/features/integrations/apollio/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v1": 1,
     "sparrowcrm/features/integrations/email_integration/v2": 2,

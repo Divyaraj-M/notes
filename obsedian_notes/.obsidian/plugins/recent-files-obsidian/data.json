@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
+      "basename": "Ai Fields",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md"
+    },
+    {
+      "basename": "Email_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md"
+    },
+    {
+      "basename": "Email",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md"
+    },
+    {
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
+    },
+    {
+      "basename": "Screenshot 2026-04-30 at 9.24.35 PM",
+      "path": "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.base"
+    },
+    {
+      "basename": "Screen Recording 2026-05-05 at 12.06.00 PM",
+      "path": "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov"
+    },
+    {
+      "basename": "Screen Recording 2026-05-05 at 11.59.58 AM",
+      "path": "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 11.59.58 AM.mov"
+    },
+    {
+      "basename": "Records-L1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
     },
     {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "Read List",
-      "path": "3 - Resources/Books/Read List/Read List.md"
     },
     {
       "basename": "Agents in CRM",
@@ -25,12 +53,20 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
-      "basename": "Issues Found",
-      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
-    },
-    {
       "basename": "Custom Agent builderv1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
+    },
+    {
+      "basename": "Roadmap for Agents",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
+    },
+    {
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
+    },
+    {
+      "basename": "Read List",
+      "path": "3 - Resources/Books/Read List/Read List.md"
     },
     {
       "basename": "Ai for CRM",
@@ -43,10 +79,6 @@
     {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
-    },
-    {
-      "basename": "Records-L1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
     },
     {
       "basename": "5 - Features",
@@ -79,10 +111,6 @@
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "Teardowns",
@@ -171,34 +199,6 @@
     {
       "basename": "Zulie",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
-    },
-    {
-      "basename": "Meetings",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md"
-    },
-    {
-      "basename": "3 - Roadmap & Planning",
-      "path": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md"
-    },
-    {
-      "basename": "The Thirteen Problems",
-      "path": "3 - Resources/Books/The Thirteen Problems.md"
-    },
-    {
-      "basename": "Edge case Analysis",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md"
-    },
-    {
-      "basename": "Rigor of thoughts",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md"
-    },
-    {
-      "basename": "Screenshot 2026-02-02 at 12.16.52 PM",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png"
-    },
-    {
-      "basename": "Product thinking",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
     }
   ],
   "omittedPaths": [],
