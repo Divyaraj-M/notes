@@ -3,7 +3,7 @@ owner: Divyaraj Murugan
 feature: "[[Ai for CRM]]"
 status: Done
 tags:
-  - sparrowcrm/features/aiagents/crm_intelligence
+  - sparrowcrm/features/crm_intelligence
 ---
 
 ## 1. Why this document exists

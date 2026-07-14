@@ -1,3 +1,11 @@
+---
+owner: Divyaraj Murugan
+status: Done
+priority:
+tags:
+  - sparrowcrm/features/crm_intelligence/knowledge
+---
+
 ## 1. Why this document exists
 
 "Knowledge" is easy to wave at and hard to bound — left undefined, it becomes a dumping ground for anything vaguely informative, and the intelligence layer ends up reasoning over a pile no one governs. This document defines what Knowledge _is_, why it is a peer to the intelligence layer rather than a part of it, the three layers it is built from, and the first principle that separates a living knowledge system from a stale file dump. Layer-level detail lives in the three companion docs.

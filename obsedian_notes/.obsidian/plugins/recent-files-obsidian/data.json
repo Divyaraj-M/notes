@@ -5,6 +5,38 @@
       "path": "AI CRM Visualization.canvas"
     },
     {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
+    },
+    {
+      "basename": "Records-L1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "10 - Marketing",
+      "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
+    },
+    {
+      "basename": "SparrowCRM-Entity-Relationships",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+    },
+    {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
     },
@@ -17,18 +49,6 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md"
     },
     {
-      "basename": "Records-L1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
@@ -37,20 +57,12 @@
       "path": "CRM Metrics Framework.md"
     },
     {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
       "basename": "Roadmap for Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
     },
     {
       "basename": "EN-Product Vision",
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
-    },
-    {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
     {
       "basename": "Teardowns",
@@ -187,18 +199,6 @@
     {
       "basename": "Product thinking",
       "path": "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md"
-    },
-    {
-      "basename": "Generator – PM Bedtime Story Builder",
-      "path": "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md"
-    },
-    {
-      "basename": "Email Notifications",
-      "path": "1 - Projects/Email Notifications/Email Notifications.md"
-    },
-    {
-      "basename": "The design language that makes your AI harness better at design.",
-      "path": "Clippings/The design language that makes your AI harness better at design..md"
     }
   ],
   "omittedPaths": [],
