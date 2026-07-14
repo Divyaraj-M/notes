@@ -1,6 +1,6 @@
 ---
 tags:
-  - sparrowcrm/features/aiagents
+  - sparrowcrm/features/crm_intelligence
 ---
 
 | Doc                             | Date        |

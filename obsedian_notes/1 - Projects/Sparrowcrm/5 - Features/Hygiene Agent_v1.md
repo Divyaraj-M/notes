@@ -1,6 +1,10 @@
-
-> **One-line definition:** Contact Hygiene Agent v1 keeps rep-owned Contact records clean by detecting missing, stale, inconsistent, or poorly formatted contact fields from meeting, call, and email evidence — and verifying the contact's open tasks against that same evidence, suggesting status updates when a task is shown to be done — with every output verdictable by the contact owner (approve, reject, or expire).
-
+---
+owner: Divyaraj Murugan
+feature:
+version: 1
+status:
+priority:
+tags:
 ---
 
 ## 1. Problem Statement

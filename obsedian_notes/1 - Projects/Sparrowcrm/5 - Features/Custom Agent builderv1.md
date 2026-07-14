@@ -1,10 +1,10 @@
 ---
-feature: "[[Ai for CRM]]"
+feature: "[[CRM Intelligence]]"
 version: 1
-status: Active
+status: Done
 priority: High
 tags:
-  - sparrowcrm/features/aiagents/v1
+  - sparrowcrm/features/crm_intelligence/aiagents/cab
 ---
 # Feature Spec Skill
 
