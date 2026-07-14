@@ -25,8 +25,8 @@
               "state": {
                 "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -1149.142917839173,
-                  "y": 1349.9125307503368,
+                  "x": -853.1333798103574,
+                  "y": 419.04043089656545,
                   "zoom": -0.6717181509677556
                 }
               },
@@ -130,8 +130,7 @@
               "title": "Knowledge Base-L3"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -438,11 +437,9 @@
       "obsidian42-brat:BRAT": false,
       "canvas:Create new canvas": false,
       "always-color-text:Always Color Text": false,
-      "project-manager:Project manager": false,
       "hearth:Open Hearth home": false,
       "link-link:Link Link!": false,
       "better-store:Open Better Store": false,
-      "grimoire:Open Grimoire": false,
       "rss-dashboard:RSS dashboard": false
     }
   },
