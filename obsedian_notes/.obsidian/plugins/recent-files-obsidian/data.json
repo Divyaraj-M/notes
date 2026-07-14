@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "4 - Product Specs",
+      "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "AI CRM Visualization.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Prospecting Agent",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Prospecting Agent.md"
-    },
-    {
-      "basename": "Research Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Research Agent.md"
     }
   ],
   "omittedPaths": [],

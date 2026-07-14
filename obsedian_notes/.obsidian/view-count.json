@@ -783,26 +783,11 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
-          "timestampMillis": 1778740395244
-        },
-        {
-          "timestampMillis": 1778747133102
-        },
-        {
-          "timestampMillis": 1778754332765
-        },
-        {
-          "timestampMillis": 1778754333019
-        },
-        {
-          "timestampMillis": 1781248260762
-        },
-        {
-          "timestampMillis": 1781248261113
+          "timestampMillis": 1784033240686
         }
       ]
     },

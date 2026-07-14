@@ -25,8 +25,8 @@
               "state": {
                 "file": "AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -1845.402957074654,
-                  "y": -21.13486521561868,
+                  "x": -1418.4511331979602,
+                  "y": -565.0597915242831,
                   "zoom": -0.6732882307484568
                 }
               },
@@ -174,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/features/crm_intelligence/aiagents",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -185,8 +185,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -447,7 +446,7 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "4e94ecc11ee7e9be",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
     "AI CRM Visualization.canvas",
