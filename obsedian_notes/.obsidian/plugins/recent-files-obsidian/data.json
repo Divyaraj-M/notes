@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
+      "basename": "Teardowns",
+      "path": "1 - Projects/Curious Geeks/Teardowns/Teardowns.md"
+    },
+    {
+      "basename": "PMM Playbook — Curious Geeks",
+      "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md"
+    },
+    {
+      "basename": "How to Become a Product Manager (Without a Course or a Framework)",
+      "path": "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md"
+    },
+    {
+      "basename": "Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)",
+      "path": "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md"
+    },
+    {
+      "basename": "Why I started curious geeks",
+      "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md"
+    },
+    {
+      "basename": "Curious Geeks",
+      "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "Product Spec Template 2",
       "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
@@ -29,20 +61,12 @@
       "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
     },
     {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
-    },
-    {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "AI CRM Visualization",
@@ -79,14 +103,6 @@
     {
       "basename": "Email Integration",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
-    },
-    {
-      "basename": "Teardowns",
-      "path": "1 - Projects/Curious Geeks/Teardowns/Teardowns.md"
-    },
-    {
-      "basename": "Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
     },
     {
       "basename": "Products",
@@ -183,22 +199,6 @@
     {
       "basename": "agent-browserskillsagent-browserSKILL.md at main",
       "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md"
-    },
-    {
-      "basename": "grill-me — mattpocockskills",
-      "path": "Clippings/grill-me — mattpocockskills.md"
-    },
-    {
-      "basename": "Apolloio_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md"
-    },
-    {
-      "basename": "PMM Playbook — Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md"
-    },
-    {
-      "basename": "Email Integration_v1.2",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.2.md"
     }
   ],
   "omittedPaths": [],

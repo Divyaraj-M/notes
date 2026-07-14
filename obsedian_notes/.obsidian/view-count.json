@@ -146,7 +146,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 24,
-      "totalTimesOpened": 94,
+      "totalTimesOpened": 96,
       "openLogs": [
         {
           "timestampMillis": 1781850328800
@@ -195,6 +195,12 @@
         },
         {
           "timestampMillis": 1784014785839
+        },
+        {
+          "timestampMillis": 1784020566730
+        },
+        {
+          "timestampMillis": 1784020567210
         }
       ]
     },
@@ -782,21 +788,9 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md",
-      "uniqueDaysOpened": 10,
-      "totalTimesOpened": 59,
+      "uniqueDaysOpened": 11,
+      "totalTimesOpened": 61,
       "openLogs": [
-        {
-          "timestampMillis": 1780907029732
-        },
-        {
-          "timestampMillis": 1780907030072
-        },
-        {
-          "timestampMillis": 1781188389001
-        },
-        {
-          "timestampMillis": 1781188389357
-        },
         {
           "timestampMillis": 1781759703735
         },
@@ -841,6 +835,12 @@
         },
         {
           "timestampMillis": 1783604266995
+        },
+        {
+          "timestampMillis": 1784020569033
+        },
+        {
+          "timestampMillis": 1784020569322
         }
       ]
     },
@@ -1837,62 +1837,14 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 18,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 20,
       "openLogs": [
         {
-          "timestampMillis": 1779710088317
+          "timestampMillis": 1784020577913
         },
         {
-          "timestampMillis": 1779710167447
-        },
-        {
-          "timestampMillis": 1779710302433
-        },
-        {
-          "timestampMillis": 1779710302548
-        },
-        {
-          "timestampMillis": 1779710350075
-        },
-        {
-          "timestampMillis": 1779710350200
-        },
-        {
-          "timestampMillis": 1779717440957
-        },
-        {
-          "timestampMillis": 1779717446093
-        },
-        {
-          "timestampMillis": 1779717448688
-        },
-        {
-          "timestampMillis": 1779717448814
-        },
-        {
-          "timestampMillis": 1779717462889
-        },
-        {
-          "timestampMillis": 1779717716295
-        },
-        {
-          "timestampMillis": 1779717763550
-        },
-        {
-          "timestampMillis": 1779717767327
-        },
-        {
-          "timestampMillis": 1779722263945
-        },
-        {
-          "timestampMillis": 1779722264104
-        },
-        {
-          "timestampMillis": 1779988220961
-        },
-        {
-          "timestampMillis": 1779988221258
+          "timestampMillis": 1784020578279
         }
       ]
     },
@@ -2115,14 +2067,20 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 2,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
-          "timestampMillis": 1779777935238
+          "timestampMillis": 1784020575947
         },
         {
-          "timestampMillis": 1779777935490
+          "timestampMillis": 1784020576217
+        },
+        {
+          "timestampMillis": 1784020578717
+        },
+        {
+          "timestampMillis": 1784020579030
         }
       ]
     },
@@ -2138,20 +2096,14 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 4,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
-          "timestampMillis": 1779988989859
+          "timestampMillis": 1784020576804
         },
         {
-          "timestampMillis": 1779988990040
-        },
-        {
-          "timestampMillis": 1780296100229
-        },
-        {
-          "timestampMillis": 1780304788863
+          "timestampMillis": 1784020577065
         }
       ]
     },
@@ -2548,18 +2500,9 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 7,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 9,
       "openLogs": [
-        {
-          "timestampMillis": 1781188395348
-        },
-        {
-          "timestampMillis": 1781188395608
-        },
-        {
-          "timestampMillis": 1781246805353
-        },
         {
           "timestampMillis": 1781759708951
         },
@@ -2571,6 +2514,12 @@
         },
         {
           "timestampMillis": 1782719219907
+        },
+        {
+          "timestampMillis": 1784020586516
+        },
+        {
+          "timestampMillis": 1784020586885
         }
       ]
     },
@@ -2886,7 +2835,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 39,
+      "totalTimesOpened": 40,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3004,6 +2953,9 @@
         },
         {
           "timestampMillis": 1784014799002
+        },
+        {
+          "timestampMillis": 1784020784907
         }
       ]
     },
@@ -4027,8 +3979,8 @@
     },
     {
       "path": "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 3,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1783604176303
@@ -4038,6 +3990,21 @@
         },
         {
           "timestampMillis": 1783604273271
+        },
+        {
+          "timestampMillis": 1784020585459
+        },
+        {
+          "timestampMillis": 1784020585780
+        },
+        {
+          "timestampMillis": 1784020588371
+        },
+        {
+          "timestampMillis": 1784020588676
+        },
+        {
+          "timestampMillis": 1784020778198
         }
       ]
     },

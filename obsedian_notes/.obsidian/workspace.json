@@ -110,6 +110,16 @@
             }
           },
           {
+            "id": "36534cc15b40ff07",
+            "type": "leaf",
+            "state": {
+              "type": "rss-dashboard-view",
+              "state": {},
+              "icon": "rss",
+              "title": "RSS dashboard"
+            }
+          },
+          {
             "id": "68630088e07241f5",
             "type": "leaf",
             "state": {
@@ -180,9 +190,33 @@
               "icon": "lucide-file",
               "title": "Read List"
             }
+          },
+          {
+            "id": "57a60e05d400e9e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CRM Intelligence"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -497,8 +531,15 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "1c0243686df49c0b",
+  "active": "57a60e05d400e9e2",
   "lastOpenFiles": [
+    "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
+    "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md",
+    "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md",
+    "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md",
+    "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md",
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
@@ -509,7 +550,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
     "AI CRM Visualization.canvas",
     "CRM Metrics Framework.md",
     "3 - Resources/Books/Read List/Read List.md",
@@ -523,13 +563,7 @@
     "Apollo.io Enrichment — Field Reference.md",
     "curious_geeks_zamp_notion_submission.md",
     "Excalidraw/Inteliigence Layer.excalidraw.md",
-    "pages/contents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md",
-    "1 - Projects/Curious Geeks/Teardowns/Teardowns.md",
-    "1 - Projects/Curious Geeks/Curious Geeks.md",
     "1 - Projects/Curious Geeks/Teardowns",
-    "1 - Projects/Curious Geeks/Products/Products.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",
