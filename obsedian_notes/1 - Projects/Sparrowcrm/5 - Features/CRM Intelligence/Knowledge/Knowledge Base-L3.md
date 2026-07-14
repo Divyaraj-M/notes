@@ -2,7 +2,6 @@
 owner: Divyaraj Murugan
 status:
 tags:
-  - sparrowcrm/
 ---
 # Feature Spec Skill
 

@@ -21,17 +21,24 @@
             "id": "e1c9ea842d52370b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -687.941890825043,
-                  "y": -214.5673463916143,
-                  "zoom": -0.4684172100580333
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Knowledge Base-L3"
             }
           },
           {
@@ -400,9 +407,9 @@
   },
   "active": "e1c9ea842d52370b",
   "lastOpenFiles": [
+    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
-    "AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
