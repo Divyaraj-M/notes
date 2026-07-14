@@ -2893,7 +2893,7 @@
     {
       "path": "AI CRM Visualization.canvas",
       "uniqueDaysOpened": 5,
-      "totalTimesOpened": 188,
+      "totalTimesOpened": 189,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3458,6 +3458,9 @@
         },
         {
           "timestampMillis": 1784029341962
+        },
+        {
+          "timestampMillis": 1784029545542
         }
       ]
     },
@@ -4455,7 +4458,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 8,
+      "totalTimesOpened": 10,
       "openLogs": [
         {
           "timestampMillis": 1784027648960
@@ -4480,6 +4483,12 @@
         },
         {
           "timestampMillis": 1784029124096
+        },
+        {
+          "timestampMillis": 1784029450989
+        },
+        {
+          "timestampMillis": 1784029451306
         }
       ]
     },
@@ -4541,7 +4550,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 7,
+      "totalTimesOpened": 8,
       "openLogs": [
         {
           "timestampMillis": 1784029236608
@@ -4563,6 +4572,9 @@
         },
         {
           "timestampMillis": 1784029295456
+        },
+        {
+          "timestampMillis": 1784029540537
         }
       ]
     }

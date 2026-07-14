@@ -33,6 +33,7 @@
 		{"id":"2606bd3415179bc1","fromNode":"c3cc052dd91c52d8","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left"},
 		{"id":"e07fd0619be6a472","fromNode":"c3cc052dd91c52d8","fromSide":"bottom","toNode":"fce45f816c943ad4","toSide":"right"},
 		{"id":"a56e2390bbe0ea3e","fromNode":"04557eac4b0ec38b","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left","color":"6"},
-		{"id":"a0c3031a6e4620b7","fromNode":"2c488827af804de2","fromSide":"top","toNode":"fce45f816c943ad4","toSide":"bottom","color":"2","label":"This agent will help the Knowledge grow"}
+		{"id":"a0c3031a6e4620b7","fromNode":"2c488827af804de2","fromSide":"top","toNode":"fce45f816c943ad4","toSide":"bottom","color":"2","label":"This agent will help the Knowledge grow"},
+		{"id":"e1f74aa2ef52bdda","fromNode":"2c488827af804de2","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"}
 	]
 }
