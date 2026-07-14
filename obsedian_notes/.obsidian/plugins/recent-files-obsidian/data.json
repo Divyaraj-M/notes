@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
+      "basename": "Context-L2",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md"
     },
     {
       "basename": "Knowledge",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
+      "basename": "Records-L1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "CRM Metrics Framework",
+      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "Agents in CRM",
@@ -71,14 +87,6 @@
     {
       "basename": "Ai for CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
     },
     {
       "basename": "Read List",
@@ -191,14 +199,6 @@
     {
       "basename": "How to find edge cases before they become expensive issues",
       "path": "Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
-      "basename": "What we look for in product managers - Handbook",
-      "path": "Clippings/What we look for in product managers - Handbook.md"
-    },
-    {
-      "basename": "agent-browserskillsagent-browserSKILL.md at main",
-      "path": "Clippings/agent-browserskillsagent-browserSKILL.md at main.md"
     }
   ],
   "omittedPaths": [],

@@ -899,6 +899,7 @@ Transcript
 Traversal
 Transitions
 TCFD
+Transcripts
 Docs
 Doc
 Designer
@@ -1772,6 +1773,7 @@ Delay
 Deploys
 Distinct
 DwP
+Deliberately
 Who
 When
 What
@@ -3241,6 +3243,7 @@ wired
 wobble
 widening
 wrangling
+wave
 it
 is
 interaction
@@ -4272,6 +4275,9 @@ iÄ
 imn
 imagine
 investor
+informative
+imposing
+interpret
 reads
 references
 requirements
@@ -5501,6 +5507,9 @@ regulator
 recommending
 remediation
 reformatting
+restates
+rising
+rises
 Jira
 Jdjxj
 JIvrU
@@ -9921,6 +9930,11 @@ double
 disclosures
 defeating
 deviate
+dumping
+declared
+distill
+dividend
+distills
 starts
 sub
 screens
@@ -11508,6 +11522,7 @@ sustainability
 scrambling
 satisfy
 secured
+separates
 everyone
 exactly
 each
@@ -12531,6 +12546,8 @@ emissions
 erode
 exportable
 emission
+examined
+exchanges
 Story
 Stories
 Should
@@ -14344,6 +14361,7 @@ LXm
 LJS
 LCEcI
 Locate
+Layers
 After
 API
 All
@@ -15261,6 +15279,7 @@ Aman
 ALKfk
 Assemble
 Anomaly
+Altitude
 approved
 atomic
 and
@@ -16449,6 +16468,10 @@ accidents
 assemble
 anomaly
 aim
+altitudes
+apparent
+assignees
+afc
 QA
 Question
 Quality
@@ -18173,6 +18196,7 @@ Fyqm
 Fxp
 FwoA
 FGE
+Fifty
 Goes
 Goals
 Gate
@@ -18862,6 +18886,8 @@ GlP
 GGfqt
 GZYl
 GHG
+Grounding
+Garbage
 build
 break
 back
@@ -19703,6 +19729,8 @@ badly
 bootcamps
 believable
 bulletproof
+brought
+byproduct
 Requirements
 Radius
 Rules
@@ -20645,6 +20673,8 @@ Random
 Robin
 Reputation
 Recommendations
+Reasons
+Reaches
 need
 needing
 nested
@@ -22470,6 +22500,8 @@ Ctrl
 CSRD
 Confident
 Carbon
+Captured
+Consumption
 How
 Hubs
 Hub
@@ -24789,6 +24821,8 @@ comparing
 climate
 challenged
 cutover
+curate
+cites
 on
 owns
 one
@@ -25598,6 +25632,8 @@ oNII
 oZw
 occasional
 offsets
+opposed
+outward
 flows
 from
 full
@@ -26547,6 +26583,8 @@ filler
 float
 filings
 filing
+forty
+fifty
 live
 links
 locked
@@ -27426,6 +27464,7 @@ lHW
 lVZi
 loved
 loudly
+law
 here
 has
 how
@@ -28975,6 +29014,7 @@ Emb
 Enabling
 ESG
 Emissions
+Established
 validation
 visuals
 validated
@@ -29690,6 +29730,8 @@ vAl
 vYc
 vendor
 voluntary
+vaguely
+verifiable
 No
 Non
 Nice
@@ -32398,6 +32440,12 @@ pLK
 pQs
 posture
 plainly
+peer
+prospecting
+prose
+presumptuous
+precondition
+propagate
 goals
 give
 generates
@@ -33147,6 +33195,7 @@ greater
 grant
 gGF
 gaD
+generalization
 It
 If
 Inside
@@ -33969,6 +34018,7 @@ IDATO
 IGN
 IGWd
 IsY
+Instance
 you
 yet
 your

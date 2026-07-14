@@ -93,26 +93,33 @@
             "id": "f9d742dd93e3f8d5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -588.76045789683,
-                  "y": 478.1422337556895,
-                  "zoom": -0.8638691138366792
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Records-L1"
             }
           },
           {
-            "id": "745aac08d7ccc631",
+            "id": "6943b9029e64ceb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -127,7 +134,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Knowledge"
+              "title": "Records-L1"
+            }
+          },
+          {
+            "id": "745aac08d7ccc631",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Context-L2"
             }
           },
           {
@@ -237,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -552,10 +583,14 @@
       "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "f9d742dd93e3f8d5",
+  "active": "745aac08d7ccc631",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md",
     "AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "CRM Metrics Framework.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
@@ -572,8 +607,6 @@
     "Clippings/Agents in AI.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "CRM Metrics Framework.md",
     "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
@@ -582,7 +615,6 @@
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
     "Apollo.io Enrichment — Field Reference.md",
-    "curious_geeks_zamp_notion_submission.md",
     "1 - Projects/Curious Geeks/Teardowns",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
