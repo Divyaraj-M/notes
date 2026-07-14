@@ -146,7 +146,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md",
       "uniqueDaysOpened": 24,
-      "totalTimesOpened": 93,
+      "totalTimesOpened": 94,
       "openLogs": [
         {
           "timestampMillis": 1781850328800
@@ -192,6 +192,9 @@
         },
         {
           "timestampMillis": 1784012611738
+        },
+        {
+          "timestampMillis": 1784014785839
         }
       ]
     },
@@ -318,18 +321,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-      "uniqueDaysOpened": 19,
-      "totalTimesOpened": 53,
+      "uniqueDaysOpened": 20,
+      "totalTimesOpened": 54,
       "openLogs": [
-        {
-          "timestampMillis": 1781247032847
-        },
-        {
-          "timestampMillis": 1781248270406
-        },
-        {
-          "timestampMillis": 1781248270747
-        },
         {
           "timestampMillis": 1782204960843
         },
@@ -377,6 +371,9 @@
         },
         {
           "timestampMillis": 1783938039194
+        },
+        {
+          "timestampMillis": 1784014789308
         }
       ]
     },
@@ -2220,18 +2217,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-      "uniqueDaysOpened": 7,
-      "totalTimesOpened": 38,
+      "uniqueDaysOpened": 8,
+      "totalTimesOpened": 40,
       "openLogs": [
-        {
-          "timestampMillis": 1781246793885
-        },
-        {
-          "timestampMillis": 1781246794155
-        },
-        {
-          "timestampMillis": 1781246797842
-        },
         {
           "timestampMillis": 1782987027331
         },
@@ -2315,6 +2303,12 @@
         },
         {
           "timestampMillis": 1783938041891
+        },
+        {
+          "timestampMillis": 1784014791867
+        },
+        {
+          "timestampMillis": 1784014796702
         }
       ]
     },
@@ -2898,7 +2892,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 38,
+      "totalTimesOpened": 39,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -3013,6 +3007,9 @@
         },
         {
           "timestampMillis": 1784011220609
+        },
+        {
+          "timestampMillis": 1784014799002
         }
       ]
     },
@@ -4040,8 +4037,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 21,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 22,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4105,6 +4102,9 @@
         },
         {
           "timestampMillis": 1783950440645
+        },
+        {
+          "timestampMillis": 1784014793828
         }
       ]
     }

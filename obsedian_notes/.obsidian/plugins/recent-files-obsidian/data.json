@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
+    },
+    {
+      "basename": "Ai for CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
+    },
+    {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "AI CRM Visualization",
@@ -15,10 +27,6 @@
     {
       "basename": "CRM Metrics Framework",
       "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
     },
     {
       "basename": "Read List",
@@ -39,14 +47,6 @@
     {
       "basename": "Agents in CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
-    },
-    {
-      "basename": "Ai for CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Workflows_v1",
