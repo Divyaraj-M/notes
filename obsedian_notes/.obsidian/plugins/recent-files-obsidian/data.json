@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals/Ai Signals.md"
+    },
+    {
+      "basename": "Filters for Objects",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md"
+    },
+    {
+      "basename": "Imports",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
+    },
+    {
+      "basename": "Hygiene Agent_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md"
+    },
+    {
+      "basename": "Workflows",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows.md"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
+    },
+    {
       "basename": "Ai Fields",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md"
     },
@@ -34,51 +70,23 @@
     },
     {
       "basename": "Records-L1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Records-L1.md"
-    },
-    {
-      "basename": "AI CRM Visualization",
-      "path": "AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
     },
     {
       "basename": "EN-Product Vision",
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
     },
     {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md"
-    },
-    {
       "basename": "Custom Agent builderv1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Agent builderv1.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Custom Agent builderv1.md"
     },
     {
       "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md"
-    },
-    {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md"
     },
     {
       "basename": "Read List",
       "path": "3 - Resources/Books/Read List/Read List.md"
-    },
-    {
-      "basename": "Ai for CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md"
-    },
-    {
-      "basename": "Ai Signals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Ai Signals.md"
-    },
-    {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md"
     },
     {
       "basename": "5 - Features",
@@ -98,11 +106,11 @@
     },
     {
       "basename": "Knowledge Base-L3",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge Base-L3.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md"
     },
     {
       "basename": "Context-L2",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Context-L2.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md"
     },
     {
       "basename": "Sparrowcrm",
@@ -162,7 +170,7 @@
     },
     {
       "basename": "Workflows_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows_v1.md"
     },
     {
       "basename": "Apollo.io Enrichment — Field Reference",
@@ -178,27 +186,19 @@
     },
     {
       "basename": "Follow Up Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Follow Up Agent.md"
     },
     {
       "basename": "Prospecting Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Prospecting Agent.md"
-    },
-    {
-      "basename": "Workflows",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Prospecting Agent.md"
     },
     {
       "basename": "Research Agent",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Research Agent.md"
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Research Agent.md"
     },
     {
       "basename": "Ai fluency Framework and  foundations",
       "path": "3 - Resources/Learning/Ai fluency Framework and  foundations.md"
-    },
-    {
-      "basename": "Zulie",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Zulie.md"
     }
   ],
   "omittedPaths": [],

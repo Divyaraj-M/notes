@@ -27,7 +27,7 @@ The layer is one intelligence with three delivery surfaces, distinguished by **i
 | Division                          | Verb                     | Interaction model     | Trust model                                                                |
 | --------------------------------- | ------------------------ | --------------------- | -------------------------------------------------------------------------- |
 | ** [[Agents in CRM]] **           | _Does work for you_      | Push, with permission | Every output is a verdictable suggestion; autonomy earned via accept rates |
-| ** [[AI Signals]] **              | _Shows you what it sees_ | Ambient, read-only    | No approval flow — interpretations and data, never proposals               |
+| ** [[Ai Signals]] **              | _Shows you what it sees_ | Ambient, read-only    | No approval flow — interpretations and data, never proposals               |
 | **Conversational AI ([[Zulie]])** | _Answers when you ask_   | Pull, on-demand       | Rep initiates; nothing unprompted                                          |
 
 ### 3.1 Agents — _does work for you_
