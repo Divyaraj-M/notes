@@ -1,21 +1,3 @@
----
-related:
-  - "[[storyboard-storytelling-prompt]]"
-  - "[[positioning-statement]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Youtube video Framework]]"
-  - "[[proto-persona-profile]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[jobs-to-be-done]]"
-  - "[[user-story-prompt-template]]"
-  - "[[Routine]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[backlog-epic-hypothesis]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[user-story-mapping]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Zoom]]"
----
 # framing-the-problem-statement.md
 <!-- 
 ## Description:

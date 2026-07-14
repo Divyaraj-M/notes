@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Strategy]]"
-  - "[[Go - No- Go]]"
-  - "[[Competitors Info]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[RFP training PRD]]"
-  - "[[2-Product Strategy]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[1-Product Vision]]"
-  - "[[ROI Calculator]]"
-  - "[[Routine]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Context info - PRD]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Demo]]"
----
 - Sales teams don’t struggle because they lack tools. 
   They struggle because selling is fragmented across too many of them.
 

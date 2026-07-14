@@ -1,21 +1,3 @@
----
-related:
-  - "[[framing-the-problem-statement]]"
-  - "[[Routine]]"
-  - "[[user-story-splitting-prompt-template]]"
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[strategic-scrum-team-session-kickoff]]"
-  - "[[visionary-press-release]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Product Spec - Template]]"
-  - "[[Competitors Info]]"
-  - "[[user-story-prompt-template]]"
-  - "[[hybrid-thinking-worksheet]]"
-  - "[[jobs-to-be-done]]"
-  - "[[Youtube video Framework]]"
-  - "[[storyboard-storytelling-prompt]]"
----
 # backlog-epic-hypothesis.md
 
 ## Description:

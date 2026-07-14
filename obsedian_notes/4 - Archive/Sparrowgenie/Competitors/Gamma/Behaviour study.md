@@ -1,22 +1,6 @@
 ---
 tags:
   - competitor_analysis/gamma/editor
-related:
-  - "[[FRD Template]]"
-  - "[[Answer types templates]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Feature Template]]"
-  - "[[Doc Workflow Two-Doc System]]"
-  - "[[Spec Template]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[QorusDocs]]"
-  - "[[user-story-splitting-prompt-template]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[Help Article Template]]"
-  - "[[proto-persona-profile]]"
-  - "[[Edge case Analysis]]"
 ---
 
 # Gamma Study: Template Creator & Export Behavior

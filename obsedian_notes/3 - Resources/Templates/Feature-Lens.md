@@ -1,21 +1,3 @@
----
-related:
-  - "[[Teardowns]]"
-  - "[[Zoom]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Feature Template]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[PRD Feature Name]]"
-  - "[[Product Spec - Template]]"
-  - "[[Product specs]]"
-  - "[[Product specs]]"
-  - "[[Decisions]]"
-  - "[[Competitors Info]]"
-  - "[[5 - Features]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Spec Template]]"
-  - "[[RFP to Proposal]]"
----
 Copy this, fill it in for one feature. Each lens has its sharp test in brackets — answer it honestly before moving on.
 
 ---

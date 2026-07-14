@@ -12,20 +12,4 @@ pages: 368
 lists:
   - Not Purchased
 comment: Foundational book on usability, affordances, and human-centered design.
-related:
-  - "[[Atomic Design]]"
-  - "[[My Product Notes]]"
-  - "[[Creative Selection]]"
-  - "[[Knowledge]]"
-  - "[[The Metamorphosis]]"
-  - "[[The Business Of Belonging]]"
-  - "[[@Poonam singh]]"
-  - "[[Thinking]]"
-  - "[[Design diagram]]"
-  - "[[Proposal Creation Flow]]"
-  - "[[A motion design skill with two modes]]"
-  - "[[Untitled]]"
-  - "[[Untitled]]"
-  - "[[Untitled]]"
-  - "[[Untitled]]"
 ---

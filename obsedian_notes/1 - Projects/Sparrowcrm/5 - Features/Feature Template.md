@@ -8,22 +8,6 @@ tags:
 impact:
 effort:
 priority_score:
-related:
-  - "[[Spec Template]]"
-  - "[[Zoom]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Product Spec - Template]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[user-story-prompt-template]]"
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[7 - Competitors]]"
-  - "[[Product specs]]"
-  - "[[Sparrowcrm]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[RFP to Proposal]]"
-  - "[[Product specs]]"
-  - "[[9 - Product Wins]]"
 ---
 
 # FEAT — [Feature Name]

@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Product thinking]]"
-  - "[[Product specs]]"
-  - "[[9 - Product Wins]]"
-  - "[[2-Product Strategy]]"
-  - "[[Product specs]]"
-  - "[[Sparrowcrm]]"
-  - "[[1-Product Vision]]"
-  - "[[EN-Product Vision]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[Product thinking]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[2 - Customer Insights]]"
-  - "[[README]]"
-  - "[[EN-Product Strategy]]"
----
 #learning
 
 ![[3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png]]

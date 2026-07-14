@@ -1,21 +1,3 @@
----
-related:
-  - "[[Chrome Extension - Responsive IO]]"
-  - "[[Loopio]]"
-  - "[[Chrome Extension]]"
-  - "[[Arphie.ai]]"
-  - "[[Apolloio_v1]]"
-  - "[[Integrations]]"
-  - "[[Attachments - Loopio]]"
-  - "[[howto]]"
-  - "[[Competitors Info PRD]]"
-  - "[[README]]"
-  - "[[agent-browserskillsagent-browserSKILL.md at main]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[Salesforce Integration]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[CRM Metrics Framework]]"
----
 #competitor_analysis 
 
 Ref : [Chat gpt Convo](https://chatgpt.com/share/69428c4b-b78c-800e-8d3c-2601eeedc907)

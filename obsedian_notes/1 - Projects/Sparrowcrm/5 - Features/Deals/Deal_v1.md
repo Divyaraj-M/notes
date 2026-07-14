@@ -6,22 +6,6 @@ status: Done
 priority: Medium
 tags:
   - sparrowcrm/features/deals/v1
-related:
-  - "[[Meetings_v1]]"
-  - "[[Companies_v1]]"
-  - "[[Contacts_v1]]"
-  - "[[CRM Intelligence]]"
-  - "[[Email_v1]]"
-  - "[[Import_v1]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[1-Product Vision]]"
-  - "[[Ai Signals]]"
-  - "[[Workflows_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[Project admin settings]]"
-  - "[[Agents in CRM]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[ECHS – Knowledge Transfer (KT) Document]]"
 ---
 # Deal Record — Field Descriptions
 

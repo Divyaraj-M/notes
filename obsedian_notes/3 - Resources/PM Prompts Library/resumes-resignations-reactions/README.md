@@ -1,21 +1,3 @@
----
-related:
-  - "[[README]]"
-  - "[[README]]"
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[README]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[PMM Playbook — Curious Geeks]]"
-  - "[[What product managers do at PostHog - Handbook]]"
-  - "[[prompting-style-guide]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[visionary-press-release]]"
-  - "[[framing-the-problem-statement]]"
-  - "[[Rigor of thoughts]]"
-  - "[[Rigor of thoughts]]"
-  - "[[Udemy]]"
----
 # Workplace Therapy Through Creative Expression
 
 **Process PM challenges through humor and creative commentary**

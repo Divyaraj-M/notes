@@ -1,21 +1,5 @@
 ---
 tags:
-related:
-  - "[[RFP to Proposal]]"
-  - "[[Zoom]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Product Spec Template 2]]"
-  - "[[First Principle thinking]]"
-  - "[[Feature Template]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Insert from QnA]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Obligations]]"
-  - "[[Spec Template]]"
-  - "[[Template - PM]]"
-  - "[[Product Spec - Template]]"
-  - "[[Competitors Info]]"
 ---
 ## First principle thinking 
 

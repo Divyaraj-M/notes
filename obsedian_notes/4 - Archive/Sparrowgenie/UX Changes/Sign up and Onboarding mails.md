@@ -1,21 +1,3 @@
----
-related:
-  - "[[SparrowGenie - Help Articles]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[Create a project]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Mirosignup]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Competitors Info]]"
-  - "[[Sparrow Genie - Project Phase II]]"
-  - "[[2025-12-12]]"
-  - "[[Routine]]"
-  - "[[11 - Help Articles]]"
-  - "[[Product Vision]]"
----
 #enhancements/mail
 
 ### sign-up  Invitation mail

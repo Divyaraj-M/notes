@@ -1,21 +1,5 @@
 ---
 state: "[[Final]]"
-related:
-  - "[[Go - No- Go]]"
-  - "[[RFP to Proposal]]"
-  - "[[External Questionnaire Score (EQS)]]"
-  - "[[Competitors Info]]"
-  - "[[market-requirements-generator-prompt]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Zoom]]"
-  - "[[Chrome Extension - Responsive IO]]"
-  - "[[Product Spec - Template]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Competitors Info PRD]]"
 ---
 #competitor_analysis/responsive/Go_no_go #discovery/go_no_go 
 

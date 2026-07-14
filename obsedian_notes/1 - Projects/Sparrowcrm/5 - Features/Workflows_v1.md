@@ -1,21 +1,5 @@
 ---
 owner: "[[@Nayan Jain]]"
-related:
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Import_v1]]"
-  - "[[filters_v1]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Project admin settings]]"
-  - "[[SME Operating system]]"
-  - "[[Email_v1]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[5 - Features]]"
-  - "[[Mapping]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[Divyaraj Murugan]]"
-  - "[[Product Spec - Template]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Product Strategy]]"
 ---
 ## 1. Overview
 

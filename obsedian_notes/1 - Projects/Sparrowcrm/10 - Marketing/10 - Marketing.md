@@ -5,22 +5,6 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/marketing
-related:
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[EN-Marketing]]"
-  - "[[Competitor Template]]"
-  - "[[5 - Features]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[Sales]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Feature Template]]"
-  - "[[CEO One Pager]]"
-  - "[[9 - Product Wins]]"
-  - "[[Friction Points]]"
-  - "[[EN-Metrics & Dashboards]]"
-  - "[[Email Notifications]]"
-  - "[[Behaviour study]]"
-  - "[[Product Management - Top Deliverables]]"
 ---
 
 # Marketing Pages

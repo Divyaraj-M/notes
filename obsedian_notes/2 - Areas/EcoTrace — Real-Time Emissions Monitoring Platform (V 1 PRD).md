@@ -1,21 +1,3 @@
----
-related:
-  - "[[CRM Metrics Framework]]"
-  - "[[Elastic Search]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Kibana]]"
-  - "[[EN-Metrics & Dashboards]]"
-  - "[[backlog-epic-hypothesis]]"
-  - "[[2-Product Strategy]]"
-  - "[[Instructions from the Document]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Audit Report R126022026]]"
-  - "[[Jira Process]]"
-  - "[[1-Product Vision]]"
-  - "[[Salesforce Integration]]"
-  - "[[Go - No- Go]]"
-  - "[[Audit report]]"
----
  
 
 ## 1. Problem Statement

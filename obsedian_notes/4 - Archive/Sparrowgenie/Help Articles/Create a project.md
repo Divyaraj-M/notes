@@ -1,21 +1,3 @@
----
-related:
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[Routine]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Sign up and Onboarding mails]]"
-  - "[[Project admin settings]]"
-  - "[[Import_v1]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[RFP training PRD]]"
-  - "[[Mapping]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[Product Roadmap]]"
-  - "[[Instructions from the Document]]"
----
 # Create a new project
 
 Create a project to upload your RFP and start working on responses.  

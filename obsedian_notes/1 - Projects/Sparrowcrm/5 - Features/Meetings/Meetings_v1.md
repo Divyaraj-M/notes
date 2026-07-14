@@ -6,22 +6,6 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/meetings/v1
-related:
-  - "[[Deal_v1]]"
-  - "[[Companies_v1]]"
-  - "[[Contacts_v1]]"
-  - "[[Email_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[2026-01-30]]"
-  - "[[CRM Intelligence]]"
-  - "[[Project admin settings]]"
-  - "[[Import_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[Workflows_v1]]"
-  - "[[Email Integration_v1]]"
-  - "[[1-Product Vision]]"
 ---
 # Meeting Record — Field Descriptions
 

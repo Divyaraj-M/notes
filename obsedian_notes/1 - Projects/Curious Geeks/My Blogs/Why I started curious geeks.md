@@ -1,22 +1,6 @@
 ---
 description:
 tags:
-related:
-  - "[[Curious Geeks]]"
-  - "[[PMM Playbook — Curious Geeks]]"
-  - "[[Divyaraj Murugan]]"
-  - "[[Read List]]"
-  - "[[Reaction – Glassdoor Review – A Masterclass in Pretending to Care]]"
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[How to find edge cases before they become expensive issues]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)]]"
-  - "[[SME Operating system]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[Onboarding Emails Reference]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
-  - "[[proto-persona-profile]]"
-  - "[[Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere]]"
 ---
 Most adults kill their curiosity somewhere between exams and job offers. If yours survived, this is for you — a community where geeks ship rough work, give honest feedback, and respect each other's nerd interests.
 

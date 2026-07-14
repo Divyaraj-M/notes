@@ -6,22 +6,6 @@ status: Draft
 priority: Medium
 tags:
   - sparrowcrm/features/contacts/v1
-related:
-  - "[[Contacts_v1]]"
-  - "[[Deal_v1]]"
-  - "[[Meetings_v1]]"
-  - "[[Apollo.io Enrichment — Field Reference]]"
-  - "[[Workflows_v1]]"
-  - "[[Fields]]"
-  - "[[Ai Fields]]"
-  - "[[Project admin settings]]"
-  - "[[Domain diagram]]"
-  - "[[Import_v1]]"
-  - "[[Ai Signals]]"
-  - "[[Users tab]]"
-  - "[[Enriched Fields]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[Known Unknown Matrix]]"
 ---
 ## Field Categories
 

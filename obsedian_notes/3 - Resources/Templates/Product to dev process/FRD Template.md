@@ -1,21 +1,5 @@
 ---
 tags:
-related:
-  - "[[Obligations]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[PRD Feature Name]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Proposal Template flow]]"
-  - "[[Decision-State Progress Bars]]"
-  - "[[Feature Template]]"
-  - "[[SparrowGenie.excalidraw]]"
-  - "[[Zoom]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Answer types templates]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[WYSIWYG Editor _ PRD]]"
 ---
 
 # FRD: [Feature Name]

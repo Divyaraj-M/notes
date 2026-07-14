@@ -7,22 +7,6 @@ created: 2026-05-25
 description: Vercel's official collection of agent skills. Contribute to vercel-labs/agent-skills development by creating an account on GitHub.
 tags:
   - clipping/github
-related:
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[The design language that makes your AI harness better at design.]]"
-  - "[[agent-browserskillsagent-browserSKILL.md at main]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Agents in AI]]"
-  - "[[Research Agent]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Agents in CRM]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[README]]"
-  - "[[howto]]"
-  - "[[RFP training]]"
-  - "[[README]]"
-  - "[[pestel-analysis-prompt-template]]"
 ---
 ## Agent Skills
 

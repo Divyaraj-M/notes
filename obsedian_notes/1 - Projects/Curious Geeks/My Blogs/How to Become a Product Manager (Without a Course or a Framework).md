@@ -8,22 +8,6 @@ tags:
   - hot-take
 created: 2026-05-26
 permalink: /how-to-become-a-product-manager/
-related:
-  - "[[Udemy]]"
-  - "[[First-Principles Product Template]]"
-  - "[[README]]"
-  - "[[README]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)]]"
-  - "[[1-Product Vision]]"
-  - "[[README]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[How to find edge cases before they become expensive issues]]"
-  - "[[Product Review system]]"
-  - "[[SME Operating system]]"
-  - "[[Demo]]"
-  - "[[2-Product Strategy]]"
 ---
 
 Every PM video on YouTube says the same thing. Use this framework. Think in this perspective. Apply the 80/20 rule. Build mental models.

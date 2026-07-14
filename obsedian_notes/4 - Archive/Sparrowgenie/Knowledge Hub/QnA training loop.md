@@ -2,22 +2,6 @@
 tags:
   - new_feature/projects_traning_loop/v2
 state: "[[Focus]]"
-related:
-  - "[[Save to QnA PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[RFP training PRD]]"
-  - "[[Genie Actions inside the Questions card]]"
-  - "[[RFP training]]"
-  - "[[Insert from QnA]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Routine]]"
-  - "[[persona-first-decision-facilitation-loop]]"
-  - "[[Knowledge Hub]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Arphie.ai]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[Decision-State Progress Bars]]"
 ---
 
 ---

@@ -1,21 +1,3 @@
----
-related:
-  - "[[First Principle thinking - Table View]]"
-  - "[[RFP to Proposal]]"
-  - "[[Context info - PRD]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Demo]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[RFP training PRD]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Create a project]]"
-  - "[[Competitors Info]]"
-  - "[[RFP training]]"
----
 #new_feature/Instructions/v1
 
 ## First principle

@@ -1,21 +1,3 @@
----
-related:
-  - "[[WYSIWYG Editor _ PRD]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Answer types]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[QorusDocs]]"
-  - "[[Thinking]]"
-  - "[[SmartFill]]"
-  - "[[Instructions from the Document]]"
-  - "[[Feature Lens — How It Works]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Help Article Template]]"
-  - "[[Proposal Conversion]]"
-  - "[[FRD Template]]"
-  - "[[Behaviour study]]"
-  - "[[Obligations]]"
----
 ## Step 1: Define “rich text” correctly
 
 **Rich text is a capability, not a single format.**

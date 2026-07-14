@@ -1,21 +1,3 @@
----
-related:
-  - "[[Routine]]"
-  - "[[Genie Actions inside the Questions card]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[RFP to Proposal]]"
-  - "[[UAT Vipin]]"
-  - "[[Product Spec - Template]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Competitors Info]]"
-  - "[[Go- no - Go responsive]]"
-  - "[[Create a project]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[TO DO List - today]]"
-  - "[[WYSIWYG Editor _ PRD]]"
----
 **Structure: Responsive**  
 **Tone: Tally**  
 **For all feature articles**

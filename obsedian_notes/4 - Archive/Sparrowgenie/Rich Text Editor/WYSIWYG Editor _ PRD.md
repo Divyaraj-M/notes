@@ -1,21 +1,3 @@
----
-related:
-  - "[[Rich text vs RTF]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[SparrowGenie.excalidraw]]"
-  - "[[Help Article Template]]"
-  - "[[Product Spec - Template]]"
-  - "[[Routine]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[QorusDocs]]"
-  - "[[Obligations]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[Mapping]]"
----
 #enhancements/WYSIWYG_editor  
 
 [Rich Text Format (RTF) died between 2006 and 2012. Without a funeral. What does that mean?](https://tech.kateva.org/2015/09/rich-text-format-rtf-died-between-2006.html)

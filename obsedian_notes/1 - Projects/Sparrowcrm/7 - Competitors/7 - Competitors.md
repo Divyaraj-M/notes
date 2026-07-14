@@ -5,22 +5,6 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/competitors
-related:
-  - "[[Competitors Info]]"
-  - "[[5 - Features]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Product Spec - Template]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Feature Template]]"
-  - "[[SparrowDesk]]"
-  - "[[Proposal to Project]]"
-  - "[[EN-Competitors]]"
-  - "[[4 - Product Specs]]"
-  - "[[Differentiator]]"
-  - "[[11 - Help Articles]]"
-  - "[[ROI Calculator]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[GTM-Unified-Filters]]"
 ---
 
 # Competitors Index

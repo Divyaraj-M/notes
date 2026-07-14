@@ -1,21 +1,3 @@
----
-related:
-  - "[[Zoom]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[RFP to Proposal]]"
-  - "[[user-story-prompt-template]]"
-  - "[[PRD Feature Name]]"
-  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
-  - "[[storyboard-storytelling-prompt]]"
-  - "[[Product Spec Template 2]]"
-  - "[[README]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[user-story-splitting-prompt-template]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
----
 # Your 4-Section Video Framework
 
 ## 1️⃣ Introduce the Problem

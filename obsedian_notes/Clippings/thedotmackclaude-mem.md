@@ -7,22 +7,6 @@ created: 2026-05-25
 description: Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More - thedotmack/claude-mem
 tags:
   - clipping/github
-related:
-  - "[[Native SparrowCRM for Claude]]"
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Drawing 2026-05-18 12.25.39.excalidraw]]"
-  - "[[SparrowGenie.excalidraw]]"
-  - "[[phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown]]"
-  - "[[artifact-first-context-intake]]"
-  - "[[Native SparrowCRM for GPT]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[Routine]]"
-  - "[[howto]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[RFP training]]"
-  - "[[GTM-Unified-Filters]]"
 ---
 [🇨🇳 中文](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.zh.md) • [🇹🇼 繁體中文](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.zh-tw.md) • [🇯🇵 日本語](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ja.md) • [🇵🇹 Português](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.pt.md) • [🇧🇷 Português](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.pt-br.md) • [🇰🇷 한국어](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ko.md) • [🇪🇸 Español](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.es.md) • [🇩🇪 Deutsch](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.de.md) • [🇫🇷 Français](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.fr.md) • [🇮🇱 עברית](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.he.md) • [🇸🇦 العربية](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ar.md) • [🇷🇺 Русский](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ru.md) • [🇵🇱 Polski](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.pl.md) • [🇨🇿 Čeština](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.cs.md) • [🇳🇱 Nederlands](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.nl.md) • [🇹🇷 Türkçe](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.tr.md) • [🇺🇦 Українська](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.uk.md) • [🇻🇳 Tiếng Việt](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.vi.md) • [🇵🇭 Tagalog](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.tl.md) • [🇮🇩 Indonesia](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.id.md) • [🇹🇭 ไทย](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.th.md) • [🇮🇳 हिन्दी](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.hi.md) • [🇧🇩 বাংলা](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.bn.md) • [🇵🇰 اردو](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ur.md) • [🇷🇴 Română](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.ro.md) • [🇸🇪 Svenska](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.sv.md) • [🇮🇹 Italiano](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.it.md) • [🇬🇷 Ελληνικά](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.el.md) • [🇭🇺 Magyar](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.hu.md) • [🇫🇮 Suomi](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.fi.md) • [🇩🇰 Dansk](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.da.md) • [🇳🇴 Norsk](https://github.com/thedotmack/claude-mem/blob/main/docs/i18n/README.no.md)
 

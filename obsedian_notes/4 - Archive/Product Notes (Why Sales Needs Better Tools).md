@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Spec - Template]]"
-  - "[[2-Product Strategy]]"
-  - "[[1-Product Vision]]"
-  - "[[Product Vision]]"
-  - "[[ERP]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[First-Principles Product Template]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Competitors Info]]"
-  - "[[SME Operating system]]"
-  - "[[My Product Notes]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[README]]"
-  - "[[Go - No- Go]]"
-  - "[[Context Info]]"
----
 Objective : Need a tool that will help sales person to capture meetings better.
 
 1. Why do they need such a tool ?

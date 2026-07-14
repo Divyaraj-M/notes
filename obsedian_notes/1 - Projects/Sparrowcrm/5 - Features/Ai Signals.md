@@ -1,21 +1,3 @@
----
-related:
-  - "[[Zulie]]"
-  - "[[Agents in CRM]]"
-  - "[[Email_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[Ai Fields]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[5 - Features]]"
-  - "[[Deal_v1]]"
-  - "[[1-Product Vision]]"
-  - "[[First Principle for a CRM]]"
-  - "[[ECHS – Knowledge Transfer (KT) Document]]"
-  - "[[Product Vision]]"
-  - "[[README]]"
-  - "[[README]]"
-  - "[[Context info - PRD]]"
----
 
 ## 1. What this division is
 

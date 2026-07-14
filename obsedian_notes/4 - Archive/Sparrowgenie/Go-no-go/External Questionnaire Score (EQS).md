@@ -1,21 +1,3 @@
----
-related:
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Demo]]"
-  - "[[Context info - PRD]]"
-  - "[[Go- no - Go responsive]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Competitors Info]]"
-  - "[[Product Vision]]"
-  - "[[RFP to Proposal]]"
-  - "[[RFP training PRD]]"
-  - "[[Product Strategy]]"
-  - "[[Product Spec - Template]]"
-  - "[[First-Principles Product Template]]"
-  - "[[ROI Calculator]]"
-  - "[[Proposal Conversion Flow]]"
----
 #discovery/go_no_go/EQS
 
 ## Why this exists

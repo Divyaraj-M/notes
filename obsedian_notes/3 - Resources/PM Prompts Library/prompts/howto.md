@@ -1,21 +1,3 @@
----
-related:
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[prompt-generator-prompt]]"
-  - "[[README]]"
-  - "[[user-story-prompt-generator-prompt]]"
-  - "[[prompting-style-guide]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[jobs-to-be-done customer circle]]"
-  - "[[README]]"
-  - "[[storyboarding-prompt-generator-prompt]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[positioning-statement-prompt-generator]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
----
 # HOWTO.md: How to Create Effective Prompts for AI Assistants
 
 This README provides guidance on crafting structured, impactful prompts for **Generative AI Assistants** (e.g., ChatGPT, Claude, Gemini, CoPilot, DeepSeek, Grok). These prompts act as **directives to the AI**, ensuring it understands the context, performs specific actions, and generates high-quality, actionable outputs tailored to the needs of end users like product managers.

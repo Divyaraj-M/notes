@@ -1,21 +1,3 @@
----
-related:
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[README]]"
-  - "[[Elastic Search]]"
-  - "[[Table view for question card PRD]]"
-  - "[[UAT Vipin]]"
-  - "[[A Prompt Skeleton Analysis Toolkit]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[Context info - PRD]]"
-  - "[[howto]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[user-story-prompt-template]]"
-  - "[[Instructions from the Document]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[First Principle thinking - Table View]]"
----
 # Artifact-First Context Intake (AFCI)
 
 

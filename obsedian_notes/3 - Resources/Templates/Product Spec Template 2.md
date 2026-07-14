@@ -5,22 +5,6 @@ version: 1
 status:
 priority:
 tags:
-related:
-  - "[[Zoom]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[RFP to Proposal]]"
-  - "[[Product specs]]"
-  - "[[Spec Template]]"
-  - "[[Product specs]]"
-  - "[[PRD Feature Name]]"
-  - "[[4 - Product Specs]]"
-  - "[[Feature Template]]"
-  - "[[Product Spec - Template]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Feature-Lens]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
 ---
 # Feature Spec Skill
 

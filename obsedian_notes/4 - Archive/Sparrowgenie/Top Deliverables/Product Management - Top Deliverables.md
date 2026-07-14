@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Sparrowcrm]]"
-  - "[[Product thinking]]"
-  - "[[Product specs]]"
-  - "[[Product thinking]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[Competitors Info]]"
-  - "[[2-Product Strategy]]"
-  - "[[EN-Product Vision]]"
-  - "[[2 - Customer Insights]]"
-  - "[[7 - Competitors]]"
-  - "[[1-Product Vision]]"
-  - "[[EN-Product Strategy]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[6 - Metrics & Dashboards]]"
----
 #learning
 
 ![[4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png]]

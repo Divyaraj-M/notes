@@ -1,21 +1,3 @@
----
-related:
-  - "[[First Principle thinking - Table View]]"
-  - "[[Youtube video Framework]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Share first principle]]"
-  - "[[Context Info]]"
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[Product specs]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[My Product Notes]]"
-  - "[[Product specs]]"
-  - "[[Product thinking]]"
-  - "[[Udemy]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[framing-the-problem-statement]]"
----
 #learning/first_principle_thinking
 
 **Template :** [[First-Principles Product Template]]

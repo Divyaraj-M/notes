@@ -1,21 +1,3 @@
----
-related:
-  - "[[8 - Decisions]]"
-  - "[[persona-first-decision-facilitation-loop]]"
-  - "[[Udemy]]"
-  - "[[Decision-State Progress Bars]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[2-Product Strategy]]"
-  - "[[EN-Decisions]]"
-  - "[[PRD Feature Name]]"
-  - "[[Kibana]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Teardowns]]"
-  - "[[Elastic Search]]"
-  - "[[Edge case Analysis]]"
----
 #learning 
 # One-Way vs Two-Way Door Decisions
 

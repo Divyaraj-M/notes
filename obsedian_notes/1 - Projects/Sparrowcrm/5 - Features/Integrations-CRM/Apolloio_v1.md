@@ -5,22 +5,6 @@ status: Done
 priority: Low
 tags:
   - sparrowcrm/features/integrations/apollio/v1
-related:
-  - "[[Email_v1]]"
-  - "[[filters_v1]]"
-  - "[[Import_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Email Integration_v1]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[Arphie.ai]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Competitors Info]]"
-  - "[[Chrome Extension]]"
-  - "[[Company Info]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
 ---
 
 ## 1. Problem Statement

@@ -7,22 +7,6 @@ created: 2026-05-23
 description: "PM Brain OS: The Second Brain for Product Managers, Made of Markdown - phuryn/pm-brain"
 tags:
   - clipping/github
-related:
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
-  - "[[Udemy]]"
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[thedotmackclaude-mem]]"
-  - "[[README]]"
-  - "[[What product managers do at PostHog - Handbook]]"
-  - "[[README]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[README]]"
-  - "[[SME Operating system]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[Rigor of thoughts]]"
-  - "[[Rigor of thoughts]]"
 ---
 ## PM Brain
 

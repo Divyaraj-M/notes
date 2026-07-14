@@ -1,21 +1,5 @@
 ---
 state: "[[Idea]]"
-related:
-  - "[[Routine]]"
-  - "[[2025-12-12]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Friction points]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Save to QnA PRD]]"
-  - "[[jobs-to-be-done customer circle]]"
-  - "[[Sparrow Genie - Project Phase II]]"
-  - "[[2026-02-24 - Sprint Planning]]"
-  - "[[Product Review system]]"
-  - "[[2026-02-23 -Weekly product Stand up]]"
-  - "[[RFP training PRD]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Context info - PRD]]"
-  - "[[Help Article Template]]"
 ---
 [[Obligations|Obligation]] -  Modal flow 
 [[Genie Actions inside the Questions card|Genie Actions]] filter by high confidence 

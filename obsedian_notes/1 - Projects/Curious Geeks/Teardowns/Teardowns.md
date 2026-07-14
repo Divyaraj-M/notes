@@ -1,21 +1,3 @@
----
-related:
-  - "[[Demo]]"
-  - "[[First-Principles Product Template]]"
-  - "[[First Principle thinking]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Elastic Search]]"
-  - "[[PRD Feature Name]]"
-  - "[[Curious Geeks]]"
-  - "[[SME Operating system]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Feature Template]]"
-  - "[[jobs-to-be-done]]"
-  - "[[Product Spec - Template]]"
-  - "[[Routine]]"
-  - "[[Competitors Info]]"
-  - "[[Custom Agent builderv1]]"
----
 
 
 ## 1. Onboarding Teardown

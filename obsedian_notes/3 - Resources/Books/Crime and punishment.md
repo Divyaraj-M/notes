@@ -12,12 +12,4 @@ pages: 671
 lists:
   - Not Started
 comment: Psychological descent into guilt, morality, and redemption.
-related:
-  - "[[Annihilation of Caste]]"
-  - "[[Thinking fast and slow]]"
-  - "[[The Thirteen Problems]]"
-  - "[[Stripe]]"
-  - "[[Knowledge]]"
-  - "[[The Design of Everyday things]]"
-  - "[[Project Watcher]]"
 ---

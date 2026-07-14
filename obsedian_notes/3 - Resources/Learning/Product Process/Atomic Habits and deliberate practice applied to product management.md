@@ -1,21 +1,3 @@
----
-related:
-  - "[[Hybrid thinking product framework]]"
-  - "[[README]]"
-  - "[[Product Review system]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
-  - "[[Curious Geeks]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[README]]"
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[2-Product Strategy]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[My Product Notes]]"
-  - "[[prompting-style-guide]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[First Principle thinking]]"
----
 ![[Pasted image 20260325102236.png]]
 
 Four layers, directly from the Atomic Habits compounding model:

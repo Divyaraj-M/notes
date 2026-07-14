@@ -1,21 +1,3 @@
----
-related:
-  - "[[@Ganesh Ravi Shankar(GRS)]]"
-  - "[[To do list]]"
-  - "[[@Nayan Jain]]"
-  - "[[Friction points]]"
-  - "[[TO DO List - today]]"
-  - "[[@Vilashini]]"
-  - "[[2025-12-12]]"
-  - "[[Issues Found]]"
-  - "[[@Madhan  M]]"
-  - "[[Email Integration_v1]]"
-  - "[[@Anshul S]]"
-  - "[[@Shihab Muhammed]]"
-  - "[[Template - PM]]"
-  - "[[UAT vipin 2026-02-23]]"
-  - "[[Slack]]"
----
 19-May-2026
 Zoom is not done
 create pipeline  for the deals

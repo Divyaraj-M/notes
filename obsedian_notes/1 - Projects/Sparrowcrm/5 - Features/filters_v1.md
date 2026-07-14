@@ -6,22 +6,6 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/filters/v1
-related:
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Import_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[1-Product Vision]]"
-  - "[[Email_v1]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Email Integration_v1]]"
-  - "[[Sparrowcrm]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[Routine]]"
-  - "[[First Principle for a CRM]]"
-  - "[[Mapping]]"
-  - "[[Apolloio_v1]]"
-  - "[[Competitors Info]]"
 ---
 ## 1. Problem Statement
 

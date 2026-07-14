@@ -1,21 +1,3 @@
----
-related:
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[1-Product Vision]]"
-  - "[[2-Product Strategy]]"
-  - "[[Steps to create it]]"
-  - "[[ECHS – Knowledge Transfer (KT) Document]]"
-  - "[[Agents in CRM]]"
-  - "[[Elastic Search]]"
-  - "[[CRM Intelligence]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Metrics & Dashboards]]"
-  - "[[EN-Metrics & Dashboards]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[First-Principles Product Template]]"
-  - "[[README]]"
-  - "[[Obligations]]"
----
 # CRM Metrics Framework — Working Doc
 
 > **Stage:** Pre-launch / Early Beta

@@ -3,22 +3,6 @@ state: "[[Idea]]"
 tags:
   - competitor_analysis/responsive/Answer_types
 website: https://help.responsive.io/en-US/responsive/article/8PCBdDb5-understanding-the-different-answer-types
-related:
-  - "[[Answer types templates]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Rich text vs RTF]]"
-  - "[[Chrome Extension - Responsive IO]]"
-  - "[[App.responsive.io - mapping screen analysis]]"
-  - "[[WYSIWYG Editor _ PRD]]"
-  - "[[Help Article Template]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[Answer types]]"
-  - "[[Attachments - Responsive]]"
-  - "[[Genie Actions inside the Questions card]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Workflows_v1]]"
-  - "[[SmartFill]]"
-  - "[[Getting started  with SparrowGenie]]"
 ---
 In Responsive, "Answer Types" define how a response is formatted and what kind of data it can hold. Selecting the correct answer type ensures that when you export your project back into the original source document (like Word or Excel), the formatting remains consistent and professional.
 

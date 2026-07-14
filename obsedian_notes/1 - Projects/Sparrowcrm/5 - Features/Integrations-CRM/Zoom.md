@@ -6,22 +6,6 @@ feature:
 status: Not Yet started
 version: 1
 tags:
-related:
-  - "[[Custom Agent builderv1]]"
-  - "[[Spec Template]]"
-  - "[[Feature Template]]"
-  - "[[4 - Product Specs]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[Context info - PRD]]"
-  - "[[Youtube video Framework]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Competitors Info]]"
-  - "[[Obligations]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
 ---
 # Feature Spec Skill
 

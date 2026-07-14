@@ -1,21 +1,3 @@
----
-related:
-  - "[[filters_v1]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Email_v1]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[1-Product Vision]]"
-  - "[[Import_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Email Integration_v1]]"
-  - "[[Sparrowcrm]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[Product Vision]]"
-  - "[[Native SparrowCRM for GPT]]"
-  - "[[To do list]]"
----
 # PRD — SparrowCRM Unified Filter System
 
 **Status:** Draft

@@ -1,21 +1,3 @@
----
-related:
-  - "[[Elastic Search]]"
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[ECHS – Knowledge Transfer (KT) Document]]"
-  - "[[Metrics & Dashboards]]"
-  - "[[EN-Metrics & Dashboards]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Product Review system]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[Edge case Analysis]]"
-  - "[[Edge case Analysis]]"
-  - "[[Instructions from the Document]]"
-  - "[[Mapping]]"
-  - "[[Knowledge Hub]]"
-  - "[[artifact-first-context-intake]]"
-  - "[[Decisions]]"
----
 #arca_ai/learning/Kibana
 # Kibana – Visualization & Decision Design Syllabus
 

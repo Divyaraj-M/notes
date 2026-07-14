@@ -5,22 +5,6 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/customer_insights
-related:
-  - "[[EN-Customer Insights]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[Product thinking]]"
-  - "[[Product specs]]"
-  - "[[Product specs]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Product thinking]]"
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[How to find edge cases before they become expensive issues]]"
-  - "[[Decisions]]"
-  - "[[9 - Product Wins]]"
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[README]]"
-  - "[[Hybrid thinking product framework]]"
 ---
 
 # Customer Insights

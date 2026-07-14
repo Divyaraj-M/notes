@@ -14,22 +14,6 @@ sprint:
 version: 1
 share_link: https://share.note.sx/gqpeuwat#6s8xbn+EvYbrNH1s40sjIC311wLiIsgvWxUhq980Ng4
 share_updated: 2026-03-25T23:19:00+05:30
-related:
-  - "[[Routine]]"
-  - "[[Save to QnA PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[RFP training PRD]]"
-  - "[[QnA training loop]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Decision-State Progress Bars]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[TO DO List - today]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Multi Document Support]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[My Templates - Proposal (Next phase)]]"
 ---
 
 ## Problem

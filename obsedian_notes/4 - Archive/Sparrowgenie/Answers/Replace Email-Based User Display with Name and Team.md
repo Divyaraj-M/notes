@@ -1,22 +1,6 @@
 ---
 tags:
   - enhancements/drop_down
-related:
-  - "[[Project admin settings]]"
-  - "[[Company Info]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Share assign and review flow]]"
-  - "[[2026-01-29 UAT with Vipin]]"
-  - "[[Email Integration_v1]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Email_v1]]"
-  - "[[Import_v1]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[Product Spec - Template]]"
 ---
 ## 1. Summary
 

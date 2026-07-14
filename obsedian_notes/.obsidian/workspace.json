@@ -93,24 +93,10 @@
             "id": "6d7e63c5cea47693",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Knowledge"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -186,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -498,11 +484,13 @@
       "link-link:Link Link!": false
     }
   },
-  "active": "7808595aab689130",
+  "active": "6d7e63c5cea47693",
   "lastOpenFiles": [
-    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
-    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
+    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
+    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md",
     "Clippings/Agents in AI.md",
     "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence.md",
@@ -514,7 +502,6 @@
     "3 - Resources/Books/Read List/Read List.md",
     "3 - Resources/Templates/Feature-Lens.md",
     "3 - Resources/Frameworks/Feature Lens — How It Works.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/Agents in CRM.md",
     "Projects",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows_v1.md",
@@ -530,7 +517,6 @@
     "1 - Projects/Curious Geeks/Teardowns",
     "1 - Projects/Curious Geeks/Products/Products.md",
     "1 - Projects/Sparrowcrm/5 - Features/Follow Up Agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Hygiene Agent_v1.md",
     "Excalidraw",
     "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "pages",

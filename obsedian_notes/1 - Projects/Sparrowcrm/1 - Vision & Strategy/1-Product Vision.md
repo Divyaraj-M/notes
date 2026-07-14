@@ -5,22 +5,6 @@ updated: 2026-04-30
 owner:
 tags:
   - sparrowcrm/vision
-related:
-  - "[[First Principle for a CRM]]"
-  - "[[Product Vision]]"
-  - "[[Email_v1]]"
-  - "[[filters_v1]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[CRM Intelligence]]"
-  - "[[Email Integration_v1]]"
-  - "[[SME Operating system]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[Agents in CRM]]"
-  - "[[Competitors Info]]"
-  - "[[Divyaraj Murugan]]"
-  - "[[Product Spec - Template]]"
 ---
 ## The world today
 

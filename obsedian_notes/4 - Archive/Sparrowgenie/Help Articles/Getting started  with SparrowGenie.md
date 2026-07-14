@@ -1,21 +1,3 @@
----
-related:
-  - "[[Create a project]]"
-  - "[[RFP training PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Sign up and Onboarding mails]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Product Strategy]]"
-  - "[[Routine]]"
-  - "[[Product Vision]]"
-  - "[[Competitors Info]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[ROI Calculator]]"
-  - "[[Table view for question card PRD]]"
----
 # Turn your RFP into a winning response
 
 Upload your RFP, generate answers from your Knowledge Hub, collaborate with your team, and export a submission-ready response.

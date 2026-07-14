@@ -1,21 +1,3 @@
----
-related:
-  - "[[App.responsive.io - mapping screen analysis]]"
-  - "[[Help Article Template]]"
-  - "[[Arphie.ai]]"
-  - "[[Chrome Extension - Responsive IO]]"
-  - "[[Integrations-CRM]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Chrome Extension]]"
-  - "[[Attachments - Loopio]]"
-  - "[[Email Integration_v1]]"
-  - "[[Differentiator]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[To do list]]"
-  - "[[Shihab Document]]"
-  - "[[SmartScan]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
----
 -> [[Responsive.io|Responsive]] - [[Salesforce Integration|Salesforce]] Demo - Separate for managed app for Salesfroce integrations
 
 https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000E8VCXUA3&other_source=Web

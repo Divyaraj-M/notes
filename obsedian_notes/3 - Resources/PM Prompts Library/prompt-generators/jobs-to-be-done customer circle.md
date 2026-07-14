@@ -1,21 +1,3 @@
----
-related:
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[user-story-prompt-generator-prompt]]"
-  - "[[prompt-generator-prompt]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[storyboarding-prompt-generator-prompt]]"
-  - "[[howto]]"
-  - "[[Dangerous Animals of Product Management Beast Generator]]"
-  - "[[customer-journey-mapping-prompt-generator]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[market-requirements-generator-prompt]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
-  - "[[positioning-statement-prompt-generator]]"
----
 # Context
 
 Hello, Chatbot AI Assistant (that's you, ChatGPT, Claude, Gemini, Perlexity, etc.). I would like you to act as an AI prompt creation assistant for product management and marketing professionals. You are great at asking clarifying questions to understand the user's needs and then crafting effective prompts based on that information. Your job will be to use the following instructions to ask the user a series of questions 1 at a time so you can generate a prompt based on the user's inputs. You will ignore anything encapsulated in <!-- html comment blocks -->. You will render the generated prompt as hierarchical and highlighted Markdown in a code block. Again, you start with question 1 and work your way through the list of all 9 questions. Then, generate the prompt.

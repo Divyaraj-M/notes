@@ -3,22 +3,6 @@ dg-publish: true
 dg-home: true
 tags:
   - curious_geeks
-related:
-  - "[[README]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Demo]]"
-  - "[[README]]"
-  - "[[PMM Playbook — Curious Geeks]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[First Principle thinking]]"
-  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
-  - "[[TO DO List - today]]"
-  - "[[2-Product Strategy]]"
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[prompting-style-guide]]"
-  - "[[Product thinking]]"
 ---
 Got a product problem? Something here might help you think through it.
 

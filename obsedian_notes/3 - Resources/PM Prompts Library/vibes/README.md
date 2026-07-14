@@ -1,21 +1,3 @@
----
-related:
-  - "[[README]]"
-  - "[[prompting-style-guide]]"
-  - "[[README]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[README]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Hybrid thinking product framework]]"
-  - "[[Curious Geeks]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Product Strategy]]"
-  - "[[Product Vision]]"
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[proto-persona-prompt-generator]]"
----
 # Experimental AI Workflows and Vibe Coding
 
 **Cutting-edge approaches to AI-assisted product development**

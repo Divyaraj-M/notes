@@ -1,21 +1,3 @@
----
-related:
-  - "[[Dangerous Animals of Product Management Beast Generator]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[Generator – Product Manager Action Figure Builder]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
-  - "[[README]]"
-  - "[[prompting-style-guide]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[market-requirements-generator-prompt]]"
-  - "[[Generator – PM Bedtime Story Builder]]"
-  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
-  - "[[futuristic-product-faq]]"
----
 # Nightmares of Product Management Movie Title Generator Prompt.md
 
 ## INSTRUCTIONS

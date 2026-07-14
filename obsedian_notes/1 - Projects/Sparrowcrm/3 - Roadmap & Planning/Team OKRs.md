@@ -6,22 +6,6 @@ owner:
 tags:
   - sparrowcrm/road_map/okrs
 quarter:
-related:
-  - "[[ERP]]"
-  - "[[strategic-scrum-team-session-kickoff]]"
-  - "[[2026-01-30]]"
-  - "[[ECHS – Knowledge Transfer (KT) Document]]"
-  - "[[External Questionnaire Score (EQS)]]"
-  - "[[Product Spec - Template]]"
-  - "[[backlog-epic-hypothesis]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[Zoom]]"
-  - "[[Prioritization Matrix]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[RFP to Proposal]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Assigning to the section]]"
 ---
 
 # Team OKRs / Goals

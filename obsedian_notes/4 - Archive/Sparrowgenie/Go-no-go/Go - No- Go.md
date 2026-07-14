@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Vision]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Competitors Info]]"
-  - "[[Product Strategy]]"
-  - "[[Demo]]"
-  - "[[RFP training PRD]]"
-  - "[[Routine]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Go- no - Go responsive]]"
-  - "[[Context info - PRD]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[ROI Calculator]]"
-  - "[[2-Product Strategy]]"
-  - "[[RFP to Proposal]]"
----
 #new_feature/Go_no_go
 # Go / No-Go Decision Engine for RFPs
 

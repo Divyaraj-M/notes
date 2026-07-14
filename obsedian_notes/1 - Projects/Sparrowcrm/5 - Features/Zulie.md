@@ -1,21 +1,3 @@
----
-related:
-  - "[[Agents in CRM]]"
-  - "[[Ai Signals]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[Email_v1]]"
-  - "[[@Ganesh Ravi Shankar(GRS)]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[First Principle for a CRM]]"
-  - "[[2-Product Strategy]]"
-  - "[[PMM Playbook — Curious Geeks]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Competitors Info PRD]]"
-  - "[[1-Product Vision]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[Email Integration_v1]]"
-  - "[[Demo]]"
----
 ## 1. What this division is
 
 Zulie is the layer's conversational surface — already live, pre-dating the agent catalog. The rep initiates; Zulie responds. It is a window into the layer's intelligence, not a second brain beside it: it reads the same shared context layer (records, AI signals, agent outputs) that the rest of the layer runs on, and generates nothing unprompted.

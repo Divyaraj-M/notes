@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product specs]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[4 - Product Specs]]"
-  - "[[Zoom]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Spec Template]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[futuristic-product-faq]]"
-  - "[[Competitors Info]]"
-  - "[[Product thinking]]"
-  - "[[Sparrowcrm]]"
-  - "[[README]]"
-  - "[[First Principle thinking]]"
----
 #learning 
 
 Two things that product specs need to do, 

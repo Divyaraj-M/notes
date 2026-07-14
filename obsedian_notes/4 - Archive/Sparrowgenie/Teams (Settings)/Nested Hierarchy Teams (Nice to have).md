@@ -1,21 +1,3 @@
----
-related:
-  - "[[Dual-Layer Team]]"
-  - "[[Functional Requirements]]"
-  - "[[Teams check]]"
-  - "[[Known Unknown Matrix]]"
-  - "[[Assigning to the section]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Thinking]]"
-  - "[[Sensitive  projects]]"
-  - "[[Domain diagram]]"
-  - "[[RFP to Proposal]]"
-  - "[[Companies_v1]]"
-  - "[[Replace Email-Based User Display with Name and Team]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Competitors Info PRD]]"
----
 Teams can be organized into a **parent → child relationship**.
 
 #### **Parent Team**

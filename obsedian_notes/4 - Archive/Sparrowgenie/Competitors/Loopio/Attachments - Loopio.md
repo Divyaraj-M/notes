@@ -1,21 +1,3 @@
----
-related:
-  - "[[App.responsive.io - mapping screen analysis]]"
-  - "[[Integrations]]"
-  - "[[Answer types templates]]"
-  - "[[Chrome Extension]]"
-  - "[[Create a project]]"
-  - "[[Chrome Extension - Responsive IO]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[SmartFill]]"
-  - "[[Proposal Conversion]]"
-  - "[[Loopio]]"
-  - "[[Answer types]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[QorusDocs]]"
-  - "[[readme]]"
----
 #competitor_analysis 
 
 https://support.loopio.com/hc/en-us/articles/360020736933-How-Do-I-Add-Images-to-an-Entry

@@ -1,21 +1,3 @@
----
-related:
-  - "[[Demo]]"
-  - "[[Competitors Info PRD]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Competitors Info]]"
-  - "[[RFP training PRD]]"
-  - "[[RFP to Proposal]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Context Info]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Instructions]]"
-  - "[[Product Strategy]]"
-  - "[[Product Vision]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Save to QnA PRD]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
----
 # 1. Overview
 
 Sales teams win RFPs by submitting relevant answers before the deadline.

@@ -1,21 +1,3 @@
----
-related:
-  - "[[Replace Email-Based User Display with Name and Team]]"
-  - "[[Remove User from Workspace]]"
-  - "[[Known Unknown Matrix]]"
-  - "[[Email Integration_v1.2]]"
-  - "[[Project admin settings]]"
-  - "[[Functional Requirements]]"
-  - "[[UAT vipin 2026-02-23]]"
-  - "[[Sparrow Genie Notes]]"
-  - "[[Teams check]]"
-  - "[[Teams]]"
-  - "[[@Nayan Jain]]"
-  - "[[Company Info]]"
-  - "[[Share assign and review flow]]"
-  - "[[Roles and Permissions]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
----
 #uat/vipin-jan29 
 
 ### Problem Statement 

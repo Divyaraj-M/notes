@@ -1,21 +1,3 @@
----
-related:
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Demo]]"
-  - "[[Context info - PRD]]"
-  - "[[Go - No- Go]]"
-  - "[[RFP to Proposal]]"
-  - "[[RFP training PRD]]"
-  - "[[Product Vision]]"
-  - "[[Instructions]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Save to QnA PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Product Strategy]]"
-  - "[[First Principle thinking]]"
----
 #enhancements/table_view/research
 
 ## How you should actually use this

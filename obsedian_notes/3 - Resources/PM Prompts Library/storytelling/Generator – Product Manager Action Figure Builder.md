@@ -1,21 +1,3 @@
----
-related:
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Generator - Image Prompts for 12-Scene Here's Journey]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[Dangerous Animals of Product Management Beast Generator]]"
-  - "[[Generator – PM Bedtime Story Builder]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[Generator - IKEA-like instruction steps]]"
-  - "[[user-story-prompt-generator-prompt]]"
-  - "[[README]]"
-  - "[[Generator – Customer Journey Map Simulator]]"
-  - "[[market-requirements-generator-prompt]]"
----
 # Generator – Product Manager Action Figure Builder.md
 
 ## Context:

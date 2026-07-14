@@ -1,21 +1,3 @@
----
-related:
-  - "[[ERP]]"
-  - "[[3 - Roadmap & Planning]]"
-  - "[[Product Spec - Template]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Product thinking]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Product Vision]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Product thinking]]"
-  - "[[Context info - PRD]]"
-  - "[[Zoom]]"
-  - "[[Demo]]"
-  - "[[RFP to Proposal]]"
----
 
 # 90-Day Objective: Build Sellable Product Thinking  
 *(Cycle 1 of a 5-Year Plan to Become a Full Product Owner)*

@@ -1,21 +1,3 @@
----
-related:
-  - "[[2025-12-12]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Product Spec - Template]]"
-  - "[[Sparrow Genie - Project Phase II]]"
-  - "[[Feature Template]]"
-  - "[[To do list]]"
-  - "[[UAT Vipin]]"
-  - "[[TO DO List - today]]"
-  - "[[PRD Feature Name]]"
-  - "[[SparrowGenie.excalidraw]]"
-  - "[[Spec Template]]"
-  - "[[Proposal Template flow]]"
-  - "[[Table view for question card PRD]]"
----
 # **SPARROW GENIE DAILY PM TEMPLATE**
 
 ## **Date:** 

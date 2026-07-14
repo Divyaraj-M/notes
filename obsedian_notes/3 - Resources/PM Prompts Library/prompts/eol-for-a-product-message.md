@@ -1,21 +1,3 @@
----
-related:
-  - "[[futuristic-product-faq]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[First-Principles Product Template]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[README]]"
-  - "[[Product specs]]"
-  - "[[Product specs]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[framing-the-problem-statement]]"
-  - "[[visionary-press-release]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
----
 # eol-for-a-product-message.md
 
 ## Description:

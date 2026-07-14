@@ -1,21 +1,3 @@
----
-related:
-  - "[[Teams check]]"
-  - "[[Functional Requirements]]"
-  - "[[Teams]]"
-  - "[[Nested Hierarchy Teams (Nice to have)]]"
-  - "[[Dual-Layer Team]]"
-  - "[[Users tab]]"
-  - "[[2026-01-29 UAT with Vipin]]"
-  - "[[Project admin settings]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Thinking]]"
-  - "[[Audit Report R126022026]]"
-  - "[[7 - Competitors]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Replace Email-Based User Display with Name and Team]]"
-  - "[[Sparrow Genie Notes]]"
----
 ## Known Unknown Matrix
 
 		Known Knowns → clear, decided behaviour==

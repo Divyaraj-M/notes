@@ -1,21 +1,3 @@
----
-related:
-  - "[[Teams check]]"
-  - "[[Dual-Layer Team]]"
-  - "[[Assigning to the section]]"
-  - "[[Project Owner]]"
-  - "[[Functional Requirements]]"
-  - "[[What Do we need for Teams]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Known Unknown Matrix]]"
-  - "[[Project Manager]]"
-  - "[[Project Watcher]]"
-  - "[[RFP to Proposal]]"
-  - "[[Nested Hierarchy Teams (Nice to have)]]"
-  - "[[framing-the-problem-statement]]"
-  - "[[Audit Report R126022026]]"
-  - "[[2026-01-30]]"
----
 ### **What is a Sensitive Project?**
 
 A Sensitive Project is a project where **team-level visibility is fully blocked**, even if the owner belongs to one or more teams.

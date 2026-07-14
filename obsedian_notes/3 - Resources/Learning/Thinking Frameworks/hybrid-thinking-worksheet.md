@@ -1,21 +1,3 @@
----
-related:
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[Hybrid thinking product framework]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[backlog-epic-hypothesis]]"
-  - "[[First Principle thinking]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[Routine]]"
-  - "[[README]]"
-  - "[[My Product Notes]]"
-  - "[[README]]"
-  - "[[Domain diagram]]"
-  - "[[Formulas Mathematics]]"
-  - "[[Proposal Conversion]]"
-  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
----
 # Hybrid Thinking — Discovery Cycle Worksheet
 
 *Analogy generates hypotheses. Logic validates them.*

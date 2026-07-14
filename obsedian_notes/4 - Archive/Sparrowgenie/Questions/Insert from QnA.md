@@ -1,21 +1,5 @@
 ---
 tags:
-related:
-  - "[[Save to QnA PRD]]"
-  - "[[QnA training loop]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[user-story-prompt-template]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[Genie Actions inside the Questions card]]"
-  - "[[RFP to Proposal]]"
-  - "[[Share first principle]]"
-  - "[[First Principle thinking]]"
-  - "[[RFP training PRD]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Decision-State Progress Bars]]"
 ---
 ## First principle thinking 
 - Why Can't user can select the QnA directly from the KH selected during creation

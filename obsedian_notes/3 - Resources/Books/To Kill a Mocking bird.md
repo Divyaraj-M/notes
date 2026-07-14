@@ -11,7 +11,4 @@ pages: 281
 lists:
   - Not Started
 comment: Moral courage and racial injustice through a child’s lens.
-related:
-  - "[[The Courage to be Disliked]]"
-  - "[[Author]]"
 ---

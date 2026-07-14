@@ -1,21 +1,3 @@
----
-related:
-  - "[[9.mar.2026 - Stand up]]"
-  - "[[TO DO List - today]]"
-  - "[[2026-01-30]]"
-  - "[[Product Roadmap]]"
-  - "[[To do list]]"
-  - "[[UAT Vipin]]"
-  - "[[Product Review system]]"
-  - "[[Shihab Document]]"
-  - "[[futuristic-product-faq]]"
-  - "[[Friction points]]"
-  - "[[Imports]]"
-  - "[[2025-12-12]]"
-  - "[[Go - No- Go]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Roadmap for Agents]]"
----
 
 |                                              |
 | -------------------------------------------- |

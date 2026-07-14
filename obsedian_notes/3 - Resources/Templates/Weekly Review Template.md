@@ -1,22 +1,6 @@
 ---
 tags:
   - Habit_tracker/Weekly
-related:
-  - "[[Daily Template]]"
-  - "[[Product Review system]]"
-  - "[[2026-W13]]"
-  - "[[Mathematics]]"
-  - "[[9.mar.2026 - Stand up]]"
-  - "[[Spec Template]]"
-  - "[[Feature Template]]"
-  - "[[SME Operating system]]"
-  - "[[Decision-State Progress Bars]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Competitor Template]]"
-  - "[[Template - PM]]"
-  - "[[Read List]]"
-  - "[[First-Principles Product Template]]"
-  - "[[WYSIWYG editor - First Principle]]"
 ---
 
 # Weekly Review — {{date}}

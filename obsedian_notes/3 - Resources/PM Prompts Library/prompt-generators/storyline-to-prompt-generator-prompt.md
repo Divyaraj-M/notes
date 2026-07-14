@@ -1,21 +1,3 @@
----
-related:
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
-  - "[[storyboarding-prompt-generator-prompt]]"
-  - "[[user-story-prompt-generator-prompt]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[customer-journey-mapping-prompt-generator]]"
-  - "[[storyboard-storytelling-prompt]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[prompt-generator-prompt]]"
-  - "[[daci-chart-prompt-generator]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[howto]]"
-  - "[[positioning-statement-prompt-generator]]"
-  - "[[tam-sam-som-prompt-generator]]"
-  - "[[README]]"
----
 <!-- storyline-to-prompt-generator-prompt.md
 
 ## Description:

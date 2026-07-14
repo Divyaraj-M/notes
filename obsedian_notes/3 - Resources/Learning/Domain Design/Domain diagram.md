@@ -1,21 +1,3 @@
----
-related:
-  - "[[Sales]]"
-  - "[[Workflows_v1]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Jira Process]]"
-  - "[[Product Spec - Template]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Competitors Info]]"
-  - "[[My Product Notes]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Instructions from the Document]]"
-  - "[[RFP to Proposal]]"
-  - "[[ERD]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[My Templates - Proposal (Next phase)]]"
----
 You’re building systems now. So this isn’t theory.  
 You need just enough clarity to design properly and talk to devs without confusion.
 ![[Evans03.pdf]]

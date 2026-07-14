@@ -1,21 +1,3 @@
----
-related:
-  - "[[Context info - PRD]]"
-  - "[[PRD Feature Name]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[First-Principles Product Template]]"
-  - "[[First Principle for a CRM]]"
-  - "[[Share first principle]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[positioning-statement]]"
-  - "[[Instructions]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Youtube video Framework]]"
-  - "[[SME Operating system]]"
-  - "[[Product specs]]"
-  - "[[Product Notes (Why Sales Needs Better Tools)]]"
-  - "[[Udemy]]"
----
 #new_feature/conext_info
 
 ## Why Do we Need Context info 

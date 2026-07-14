@@ -1,21 +1,3 @@
----
-related:
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Demo]]"
-  - "[[RFP to Proposal]]"
-  - "[[Instructions]]"
-  - "[[Context info - PRD]]"
-  - "[[Competitors Info]]"
-  - "[[PRD Feature Name]]"
-  - "[[Instructions from the Document]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[2-Product Strategy]]"
-  - "[[Go - No- Go]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[1-Product Vision]]"
----
 ## How you should actually use this
 
 - **Feature ideation** → Sections 1–3 decide if it’s worth building

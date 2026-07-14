@@ -1,21 +1,3 @@
----
-related:
-  - "[[futuristic-product-faq]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[user-story-prompt-template]]"
-  - "[[Product specs]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[proto-persona-profile]]"
-  - "[[Product Spec - Template]]"
-  - "[[prompting-style-guide]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[reverse-engineer-IEEE830srs-to-PRD-prompt-template]]"
-  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
-  - "[[user-story-splitting-prompt-template]]"
----
 # visionary-press-release.md
 <!--
 ## Description:

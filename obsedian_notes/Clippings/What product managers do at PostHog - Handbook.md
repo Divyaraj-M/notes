@@ -7,22 +7,6 @@ created: 2026-05-13
 description: "This page explains what product managers do at PostHog: How the role works, what PMs are responsible for, and how they collaborate with their teams…"
 tags:
   - clipping/posthog
-related:
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
-  - "[[README]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[README]]"
-  - "[[README]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Project Manager]]"
-  - "[[phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown]]"
-  - "[[README]]"
-  - "[[Zoom]]"
-  - "[[Product Spec Template 2]]"
 ---
 ## What product managers do at PostHog
 

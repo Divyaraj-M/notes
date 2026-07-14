@@ -4,22 +4,6 @@ created: 2026-04-30
 updated: 2026-04-30
 tags:
   - sparrowcrm/road_map/prioritization_matirx
-related:
-  - "[[README]]"
-  - "[[Hybrid thinking product framework]]"
-  - "[[Jira Process]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Elastic Search]]"
-  - "[[Product Spec - Template]]"
-  - "[[Doc Workflow Two-Doc System]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[strategic-scrum-team-session-kickoff]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Product Spec Template 2]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[2026-02-13]]"
 ---
 
 # Jira Product Discovery Prioritization Framework

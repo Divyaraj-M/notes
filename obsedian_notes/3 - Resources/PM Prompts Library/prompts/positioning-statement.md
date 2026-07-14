@@ -1,21 +1,3 @@
----
-related:
-  - "[[positioning-statement-prompt-generator]]"
-  - "[[framing-the-problem-statement]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[user-story-prompt-template]]"
-  - "[[user-story-mapping]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[proto-persona-profile]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Zoom]]"
-  - "[[PRD Feature Name]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[futuristic-product-faq]]"
----
 # positioning-statement.md
 <!-- 
 ## Description:

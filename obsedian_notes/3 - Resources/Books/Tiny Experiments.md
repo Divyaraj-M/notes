@@ -10,22 +10,6 @@ pages: 320
 lists:
   - Reading
 comment: Replace rigid goals with small experiments. Iterative life design.
-related:
-  - "[[2026-W13]]"
-  - "[[Imports]]"
-  - "[[Meetings]]"
-  - "[[Work Log 2026-02-16]]"
-  - "[[2026-04-27 16-24-02]]"
-  - "[[2025-12-12]]"
-  - "[[Product Review system]]"
-  - "[[To do list]]"
-  - "[[9.mar.2026 - Stand up]]"
-  - "[[2026-02-10 19-43-37]]"
-  - "[[Mathematics]]"
-  - "[[2026-02-23 -Weekly product Stand up]]"
-  - "[[laundry list]]"
-  - "[[Companies]]"
-  - "[[Google Calendar]]"
 ---
 w
 

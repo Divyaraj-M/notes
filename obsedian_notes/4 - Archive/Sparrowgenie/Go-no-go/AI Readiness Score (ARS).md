@@ -1,21 +1,3 @@
----
-related:
-  - "[[RFP training PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Context info - PRD]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[External Questionnaire Score (EQS)]]"
-  - "[[Competitors Info]]"
-  - "[[Product Vision]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Product Strategy]]"
-  - "[[Demo]]"
-  - "[[Product Spec - Template]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Save to QnA PRD]]"
-  - "[[RFP to Proposal]]"
----
 ## Why this exists
 
 ARS helps teams understand **how ready they are to respond to an RFP using their existing Knowledge Hub**.

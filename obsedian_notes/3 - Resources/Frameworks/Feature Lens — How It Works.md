@@ -1,21 +1,3 @@
----
-related:
-  - "[[Product Spec - Template]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Zoom]]"
-  - "[[Feature Template]]"
-  - "[[Behaviour study]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Product specs]]"
-  - "[[Help Article Template]]"
-  - "[[Product specs]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Answer types templates]]"
-  - "[[README]]"
-  - "[[First Principle thinking]]"
-  - "[[5 - Features]]"
----
 
 Template -  [[Feature-Lens]]
 A framework for understanding a single feature of a product deeply enough to decide what to do about it. This document explains the thinking behind it, what each part is for, and how to run it end to end.

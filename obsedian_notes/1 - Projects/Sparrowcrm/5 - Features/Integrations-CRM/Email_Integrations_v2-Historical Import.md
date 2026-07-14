@@ -5,22 +5,6 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/integrations/email_integration/v2
-related:
-  - "[[Email Integration_v1]]"
-  - "[[Import_v1]]"
-  - "[[Email_v1]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[To do list]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[2-Product Strategy]]"
-  - "[[filters_v1]]"
-  - "[[Email Integration_v1.2]]"
-  - "[[Integrations-CRM]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[1-Product Vision]]"
-  - "[[Getting started  with SparrowGenie]]"
 ---
 # PRD — Historical Email Import (SparrowCRM)
 

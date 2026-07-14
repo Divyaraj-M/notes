@@ -1,21 +1,3 @@
----
-related:
-  - "[[Sparrowdesk_v1]]"
-  - "[[Email_v1]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Email Integration_v1]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Elastic Search]]"
-  - "[[CRM Metrics Framework]]"
-  - "[[Mapping]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[Apolloio_v1]]"
-  - "[[Import_v1]]"
-  - "[[First-Principles Product Template]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Demo]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
----
 
 
 1. How did you handle authentication between Salesforce and SurveySparrow (e.g., Named Credentials, OAuth, API keys)?

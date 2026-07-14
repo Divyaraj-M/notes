@@ -575,27 +575,9 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 8,
-      "totalTimesOpened": 20,
+      "uniqueDaysOpened": 9,
+      "totalTimesOpened": 21,
       "openLogs": [
-        {
-          "timestampMillis": 1781158471220
-        },
-        {
-          "timestampMillis": 1781164767618
-        },
-        {
-          "timestampMillis": 1781166501018
-        },
-        {
-          "timestampMillis": 1781246788308
-        },
-        {
-          "timestampMillis": 1781246788601
-        },
-        {
-          "timestampMillis": 1781246803357
-        },
         {
           "timestampMillis": 1783500143871
         },
@@ -607,6 +589,9 @@
         },
         {
           "timestampMillis": 1783511791995
+        },
+        {
+          "timestampMillis": 1784019995481
         }
       ]
     },
@@ -1372,10 +1357,13 @@
     {
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
       "uniqueDaysOpened": 3,
-      "totalTimesOpened": 3,
+      "totalTimesOpened": 4,
       "openLogs": [
         {
           "timestampMillis": 1784019905714
+        },
+        {
+          "timestampMillis": 1784019975767
         }
       ]
     },
@@ -3686,7 +3674,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Roadmap for Agents.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 65,
+      "totalTimesOpened": 66,
       "openLogs": [
         {
           "timestampMillis": 1783496869325
@@ -3882,6 +3870,9 @@
         },
         {
           "timestampMillis": 1784019917828
+        },
+        {
+          "timestampMillis": 1784019969293
         }
       ]
     },
@@ -4053,7 +4044,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 23,
+      "totalTimesOpened": 24,
       "openLogs": [
         {
           "timestampMillis": 1783932259704
@@ -4123,6 +4114,9 @@
         },
         {
           "timestampMillis": 1784019892322
+        },
+        {
+          "timestampMillis": 1784019976523
         }
       ]
     }

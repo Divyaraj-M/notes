@@ -1,21 +1,3 @@
----
-related:
-  - "[[visionary-press-release]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Product specs]]"
-  - "[[Product specs]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[eol-for-a-product-message]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[proto-persona-profile]]"
-  - "[[Curious Geeks]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[Context info - PRD]]"
----
 # futuristic-product-faq.md
 <!--
 ## Description:

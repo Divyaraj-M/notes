@@ -1,21 +1,3 @@
----
-related:
-  - "[[Steps to create it]]"
-  - "[[RFP to Proposal]]"
-  - "[[Team OKRs]]"
-  - "[[Product Notes (Why Sales Needs Better Tools)]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Product Spec - Template]]"
-  - "[[Zoom]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[2026-01-30]]"
-  - "[[Context info - PRD]]"
-  - "[[Go - No- Go]]"
-  - "[[Competitors Info]]"
-  - "[[AI Readiness Score (ARS)]]"
----
 # Goal  and the Objective 
 - The goal of this project is to give leadership instant clarity and control through one-page views, while quietly creating transparency and alignment for every employee underneath.
 

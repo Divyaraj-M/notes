@@ -7,22 +7,6 @@ created: 2026-05-13
 description: "This page outlines what makes a great product manager at PostHog: The traits, skills, and mindset we look for when hiring and developing PMs.   For…"
 tags:
   - clipping/posthog
-related:
-  - "[[What product managers do at PostHog - Handbook]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[User Personas]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Generator - What People Think I Do Product Manager Meme Builder]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Zoom]]"
-  - "[[README]]"
-  - "[[README]]"
-  - "[[Rigor of thoughts]]"
-  - "[[Rigor of thoughts]]"
-  - "[[Divyaraj Murugan]]"
-  - "[[README]]"
 ---
 ## What we look for in product managers
 

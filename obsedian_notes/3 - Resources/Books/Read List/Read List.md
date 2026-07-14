@@ -10,22 +10,6 @@ pages:
 lists:
   - Article
 comment: Rethinking mastery for generalists and multipotentialites.
-related:
-  - "[[My Product Notes]]"
-  - "[[Atomic Habits and deliberate practice applied to product management]]"
-  - "[[Curious Geeks]]"
-  - "[[SME Operating system]]"
-  - "[[Next 90 Day objective - Feb 1 to Apr 30]]"
-  - "[[Hybrid Thinking — Discovery Cycle Worksheet]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[First Principle thinking]]"
-  - "[[Hybrid thinking product framework]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[README]]"
-  - "[[README]]"
-  - "[[1-Product Vision]]"
-  - "[[Routine]]"
-  - "[[How to Become a Product Manager (Without a Course or a Framework)]]"
 ---
 ![[My Data.base#My Books]]
 

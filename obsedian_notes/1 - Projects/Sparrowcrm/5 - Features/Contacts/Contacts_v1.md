@@ -6,22 +6,6 @@ status: Done
 priority: High
 tags:
   - sparrowcrm/features/contacts/v1
-related:
-  - "[[Companies_v1]]"
-  - "[[Deal_v1]]"
-  - "[[Meetings_v1]]"
-  - "[[Fields]]"
-  - "[[Enriched Fields]]"
-  - "[[Hygiene Agent_v1]]"
-  - "[[Email Integration_v1.2]]"
-  - "[[Ai Fields]]"
-  - "[[Project admin settings]]"
-  - "[[Import_v1]]"
-  - "[[Email_v1]]"
-  - "[[Replace Email-Based User Display with Name and Team]]"
-  - "[[Workflows_v1]]"
-  - "[[Apolloio_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
 ---
 
 ## Field Categories

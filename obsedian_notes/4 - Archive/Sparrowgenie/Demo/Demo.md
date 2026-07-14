@@ -1,21 +1,3 @@
----
-related:
-  - "[[First Principle thinking - Table View]]"
-  - "[[Context info - PRD]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[Go - No- Go]]"
-  - "[[RFP training PRD]]"
-  - "[[AI Readiness Score (ARS)]]"
-  - "[[Product Vision]]"
-  - "[[Competitors Info]]"
-  - "[[Instructions]]"
-  - "[[Save to QnA PRD]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Routine]]"
-  - "[[External Questionnaire Score (EQS)]]"
-  - "[[RFP to Proposal]]"
----
 ## 1. RFP execution breaks under deadline pressure
 
 **What the buyer says:**  

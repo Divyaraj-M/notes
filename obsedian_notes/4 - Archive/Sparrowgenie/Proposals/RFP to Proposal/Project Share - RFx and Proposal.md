@@ -1,22 +1,6 @@
 ---
 tags:
   - "#new_feature/dossiers/permissions/v2"
-related:
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[My Templates - Proposal (Next phase)]]"
-  - "[[RFP training PRD]]"
-  - "[[RFP to Proposal]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[What Do we need for Teams]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Product Strategy]]"
-  - "[[Product Vision]]"
-  - "[[Competitors Info]]"
-  - "[[Share assign and review flow]]"
-  - "[[Create a project]]"
-  - "[[Proposal Conversion Flow]]"
 ---
 ## 1. First Principle
 

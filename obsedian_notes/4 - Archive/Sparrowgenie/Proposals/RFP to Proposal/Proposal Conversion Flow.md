@@ -3,22 +3,6 @@ name: RFP to Proposal — Conversion Flow
 tags:
   - new_feature/dossiers/rfp_to_proposal/v1
   - product/flow
-related:
-  - "[[Proposal Conversion]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Create a project]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[Context info - PRD]]"
-  - "[[Proposal Creation Flow]]"
-  - "[[RFP to Proposal]]"
-  - "[[RFP training PRD]]"
-  - "[[Go - No- Go]]"
-  - "[[Instructions from the Document]]"
-  - "[[Instructions]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Demo]]"
 ---
 
 # RFP to Proposal — Conversion Flow

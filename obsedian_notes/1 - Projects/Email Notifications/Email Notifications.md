@@ -2,22 +2,6 @@
 owner: "[[@Divyaraj Murugan]]"
 tags:
   - email_notifocation
-related:
-  - "[[Email Notifications]]"
-  - "[[Sparrowcrm]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[4 - Product Specs]]"
-  - "[[5 - Features]]"
-  - "[[Email]]"
-  - "[[9 - Product Wins]]"
-  - "[[Product Roadmap]]"
-  - "[[6 - Metrics & Dashboards]]"
-  - "[[@Poonam singh]]"
-  - "[[eol-for-a-product-message]]"
-  - "[[README]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[9.mar.2026 - Stand up]]"
 ---
 # [[1 - Projects/Email Notifications/Email Notifications|Email Notifications]] — Product Home
 

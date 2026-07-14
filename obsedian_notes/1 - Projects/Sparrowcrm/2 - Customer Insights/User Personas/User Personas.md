@@ -5,22 +5,6 @@ updated: 2026-05-04
 owner:
 tags:
   - sparrowcrm/customer_insights/user_personas
-related:
-  - "[[Competitors Info]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[PRD Feature Name]]"
-  - "[[Table view for question card PRD]]"
-  - "[[user-story-prompt-template]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[user-story-mapping]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[Feature Template]]"
-  - "[[Zoom]]"
-  - "[[Competitor Template]]"
-  - "[[7 - Competitors]]"
-  - "[[Product Spec Template 2]]"
-  - "[[SME Operating system]]"
-  - "[[Sparrowcrm]]"
 ---
 
 # User Personas

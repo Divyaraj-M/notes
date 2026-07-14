@@ -11,9 +11,4 @@ pages: 120
 lists:
   - Not Started
 comment: Radical critique of caste system and social hierarchy in India.
-related:
-  - "[[The Metamorphosis]]"
-  - "[[Crime and punishment]]"
-  - "[[The Courage to be Disliked]]"
-  - "[[claim]]"
 ---

@@ -1,21 +1,3 @@
----
-related:
-  - "[[Email_v1]]"
-  - "[[Agents in CRM]]"
-  - "[[Zulie]]"
-  - "[[Contacts_v1]]"
-  - "[[2-Product Strategy]]"
-  - "[[Apolloio_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[CRM Intelligence]]"
-  - "[[Email Integration_v1.2]]"
-  - "[[1-Product Vision]]"
-  - "[[Apollo.io Enrichment — Field Reference]]"
-  - "[[Meetings_v1]]"
-  - "[[First Principle for a CRM]]"
-  - "[[Ai Signals]]"
-  - "[[Deal_v1]]"
----
 
 > **One-line definition:** Contact Hygiene Agent v1 keeps rep-owned Contact records clean by detecting missing, stale, inconsistent, or poorly formatted contact fields from meeting, call, and email evidence — and verifying the contact's open tasks against that same evidence, suggesting status updates when a task is shown to be done — with every output verdictable by the contact owner (approve, reject, or expire).
 

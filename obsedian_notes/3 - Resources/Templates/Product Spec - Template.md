@@ -1,21 +1,3 @@
----
-related:
-  - "[[Competitors Info]]"
-  - "[[Product Vision]]"
-  - "[[Product Strategy]]"
-  - "[[Go - No- Go]]"
-  - "[[Sparrowcrm]]"
-  - "[[Routine]]"
-  - "[[ROI Calculator]]"
-  - "[[Product Spec Template 2]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[Zoom]]"
-  - "[[Spec Template]]"
-  - "[[2-Product Strategy]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[Custom Agent builderv1]]"
----
 
 This document clearly explains **why** a feature exists, **who** it is for, and **what** needs to be built. Its goal is to help SparrowGenie consistently improve deal velocity, response quality, and execution clarity for sales teams.
 

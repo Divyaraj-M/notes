@@ -8,22 +8,6 @@ created: 2026-06-30
 description: "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more."
 tags:
   - clipping/geeksforgeeks
-related:
-  - "[[Research Agent]]"
-  - "[[Agents in CRM]]"
-  - "[[README]]"
-  - "[[Ai Fields]]"
-  - "[[Ai fluency Framework and  foundations]]"
-  - "[[Ai Signals]]"
-  - "[[Prospecting Agent]]"
-  - "[[howto]]"
-  - "[[Ai for CRM]]"
-  - "[[phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.]]"
-  - "[[Product Strategy]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[CRM Intelligence]]"
-  - "[[vibe.prd-generated-via-search-and-agentic-simulation]]"
-  - "[[Product Vision]]"
 ---
 An AI agent is a software system that perceives its environment, processes information, and takes actions to achieve specific goals. It operates with a degree of autonomy to complete assigned tasks effectively.
 

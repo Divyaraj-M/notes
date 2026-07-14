@@ -1,22 +1,6 @@
 ---
 tags:
   - sparrowcrm/features/aiagents
-related:
-  - "[[Integrations-CRM]]"
-  - "[[Roadmap for Agents]]"
-  - "[[Ai Fields]]"
-  - "[[Product thinking]]"
-  - "[[2-Product Strategy]]"
-  - "[[Email Integration]]"
-  - "[[memo-of-AI-existential-corporate-dread_prompt-generator-prompt]]"
-  - "[[README]]"
-  - "[[First Principle for a CRM]]"
-  - "[[Memo of AI Existential Corporate Dread — Prompt Generator Prompt]]"
-  - "[[Deals]]"
-  - "[[Email]]"
-  - "[[Product Management - Top Deliverables]]"
-  - "[[1-Product Vision]]"
-  - "[[AI can have auto tags for the Past Projects which is created]]"
 ---
 
 | Doc                             | Date        |

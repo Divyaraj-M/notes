@@ -1,21 +1,3 @@
----
-related:
-  - "[[Rigor of thoughts]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Udemy]]"
-  - "[[PRD Feature Name]]"
-  - "[[Zoom]]"
-  - "[[What we look for in product managers - Handbook]]"
-  - "[[RFP to Proposal]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[Product Spec Template 2]]"
-  - "[[SME Operating system]]"
-  - "[[Template - PM]]"
-  - "[[README]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[visionary-press-release]]"
-  - "[[Demo]]"
----
 #learning 
 ### What it means for a PM
 

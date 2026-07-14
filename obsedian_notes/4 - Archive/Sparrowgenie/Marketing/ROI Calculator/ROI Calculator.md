@@ -1,22 +1,6 @@
 ---
 share_link: https://share.note.sx/bqi2mqro#TqWXO7/dIFKo53t3l+HOk6aPTa6Fzt7jCCTSuiVGYGk
 share_updated: 2026-03-12T17:50:43+05:30
-related:
-  - "[[Competitors Info]]"
-  - "[[Product Vision]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Product Strategy]]"
-  - "[[Routine]]"
-  - "[[Go - No- Go]]"
-  - "[[Attachments in RFP response - Product Spec]]"
-  - "[[SparrowGenie.excalidraw]]"
-  - "[[SME Operating system]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[2025-12-12]]"
 ---
 #marketing/roi_calculator/v2 
 

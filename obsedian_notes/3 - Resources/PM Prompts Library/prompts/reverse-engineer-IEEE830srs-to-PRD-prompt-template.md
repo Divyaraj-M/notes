@@ -1,21 +1,3 @@
----
-related:
-  - "[[reverse-engineer-ISO29148-to-PRD-prompt-template]]"
-  - "[[market-requirements-generator-prompt]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
-  - "[[howto]]"
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[prompting-style-guide]]"
-  - "[[Product Spec Template 2]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[README]]"
-  - "[[positioning-statement-prompt-generator]]"
-  - "[[prompt-generator-prompt]]"
-  - "[[user-story-prompt-generator-prompt]]"
-  - "[[proto-persona-prompt-generator]]"
-  - "[[proto-persona-profile]]"
----
 # reverse-engineer-IEEE830srs-to-PRD-prompt-template.md
 <!--
 ## Description:

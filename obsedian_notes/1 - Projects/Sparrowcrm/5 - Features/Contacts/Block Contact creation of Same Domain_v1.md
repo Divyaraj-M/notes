@@ -5,22 +5,6 @@ status: Done
 priority: Medium
 tags:
   - sparrowcrm/settings/contact_creation_block/v1
-related:
-  - "[[Email Integration_v1]]"
-  - "[[Email_v1]]"
-  - "[[Email Integration_v1.2]]"
-  - "[[Email_Integrations_v2-Historical Import]]"
-  - "[[Sparrowdesk_v1]]"
-  - "[[Import_v1]]"
-  - "[[First Principle for a CRM]]"
-  - "[[1-Product Vision]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[2-Product Strategy]]"
-  - "[[filters_v1]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Apolloio_v1]]"
-  - "[[Hygiene Agent_v1]]"
 ---
 ## 1. Problem Statement
 

@@ -1,22 +1,6 @@
 ---
 tags:
   - sparrowcrm/first_principle
-related:
-  - "[[2-Product Strategy]]"
-  - "[[1-Product Vision]]"
-  - "[[CRM Intelligence]]"
-  - "[[Email_v1]]"
-  - "[[Block Contact creation of Same Domain_v1]]"
-  - "[[First Principle thinking - Table View]]"
-  - "[[filters_v1]]"
-  - "[[Agents in CRM]]"
-  - "[[WYSIWYG editor - First Principle]]"
-  - "[[First-Principles Product Template]]"
-  - "[[prd-sparrowcrm-unified-filters]]"
-  - "[[Go - No- Go]]"
-  - "[[Context Info]]"
-  - "[[GTM-Unified-Filters]]"
-  - "[[Email Integration_v1]]"
 ---
 
 [[Sparrowcrm]]

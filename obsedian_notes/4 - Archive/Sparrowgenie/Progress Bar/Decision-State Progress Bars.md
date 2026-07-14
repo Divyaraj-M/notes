@@ -1,21 +1,3 @@
----
-related:
-  - "[[Routine]]"
-  - "[[Loading screen after finish mapping]]"
-  - "[[Genie Actions inside the Questions card]]"
-  - "[[Product Review system]]"
-  - "[[Obligations]]"
-  - "[[Save to QnA PRD]]"
-  - "[[Genie Templates - Propsals]]"
-  - "[[TO DO List - today]]"
-  - "[[Template - PM]]"
-  - "[[Genie Contribution]]"
-  - "[[PRD Feature Name]]"
-  - "[[2025-12-12]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Company Templates - Proposal]]"
----
 
 #enhancements/progress_bar
 

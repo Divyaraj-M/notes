@@ -1,21 +1,3 @@
----
-related:
-  - "[[Final PRD -Rich Text Editor for Project Response Area]]"
-  - "[[Getting started  with SparrowGenie]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[Create a project]]"
-  - "[[Multi Document Support]]"
-  - "[[Product Strategy]]"
-  - "[[RFP training PRD]]"
-  - "[[Product Spec - Template]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Competitors Info]]"
-  - "[[WYSIWYG Editor _ PRD]]"
-  - "[[Proposal Conversion Flow]]"
-  - "[[Training back Projects into Knowledge Hubs]]"
-  - "[[Product Vision]]"
-  - "[[ROI Calculator]]"
----
 #new_feature/attachements  #discovery #p1 
 ### TL; DR
 SparrowGenie only supports text answers today, which forces teams to use workarounds to add images and documents, especially in Excel-based RFx responses. This creates manual work and weakens Projects.

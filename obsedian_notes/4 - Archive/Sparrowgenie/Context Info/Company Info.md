@@ -1,21 +1,3 @@
----
-related:
-  - "[[Competitors Info PRD]]"
-  - "[[Competitors Info]]"
-  - "[[Table view for question card PRD]]"
-  - "[[Replace Email-Based User Display with Name and Team]]"
-  - "[[Product Spec - Template]]"
-  - "[[To do list]]"
-  - "[[Project Share - RFx and Proposal]]"
-  - "[[company-profile-executive-insights-research]]"
-  - "[[Context info - PRD]]"
-  - "[[Project admin settings]]"
-  - "[[Product specs]]"
-  - "[[PRD Feature Name]]"
-  - "[[9.mar.2026 - Stand up]]"
-  - "[[Company Templates - Proposal]]"
-  - "[[ROI Calculator]]"
----
 #new_feature/conext_info/Company_info
 
 

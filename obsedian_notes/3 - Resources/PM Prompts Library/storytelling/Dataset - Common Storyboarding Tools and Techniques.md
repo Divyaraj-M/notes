@@ -1,21 +1,3 @@
----
-related:
-  - "[[user-story-mapping]]"
-  - "[[storyboard-storytelling-prompt]]"
-  - "[[Generator - 6 Scene Visual Product Storyboard Narrative]]"
-  - "[[Dataset - 25 Common Story Arcs]]"
-  - "[[README]]"
-  - "[[user-story-prompt-template]]"
-  - "[[user-story_ai-enhanced_prompt-template]]"
-  - "[[Generator - 16-Frame Visual Product Storyline]]"
-  - "[[user-story-splitting-prompt-template]]"
-  - "[[customer-journey-mapping-prompt-template]]"
-  - "[[Generator – Starts with Why 4-Slide Builder Narrative]]"
-  - "[[readme]]"
-  - "[[storyboarding-prompt-generator-prompt]]"
-  - "[[Generator – Customer Journey Map Simulator]]"
-  - "[[storyline-to-prompt-generator-prompt]]"
----
 # Dataset - Common Storyboarding Tools and Techniques.md
 
 

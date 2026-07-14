@@ -1,21 +1,3 @@
----
-related:
-  - "[[pestel-analysis-prompt-template]]"
-  - "[[Product specs]]"
-  - "[[proto-persona-profile]]"
-  - "[[Product specs]]"
-  - "[[recommendation-canvas-template]]"
-  - "[[Competitors Info PRD]]"
-  - "[[Zoom]]"
-  - "[[a-generative-AI-prompt-builder-for-product-professionals]]"
-  - "[[Feature Template]]"
-  - "[[Custom Agent builderv1]]"
-  - "[[visionary-press-release]]"
-  - "[[Spec Template]]"
-  - "[[4 - Product Specs]]"
-  - "[[Context info - PRD]]"
-  - "[[Product Spec - Template]]"
----
 ## Executive Insights Company Profile Template
 
 <!--
