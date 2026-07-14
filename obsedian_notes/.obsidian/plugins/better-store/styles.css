@@ -1,0 +1,804 @@
+/* Better Store — global styles. Component-scoped styles live in the Svelte files. */
+
+.better-store {
+  padding: 0;
+  overflow: hidden;
+}
+
+.bs-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.bs-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.bs-tab {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 6px 12px;
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.bs-tab:hover {
+  background: var(--background-modifier-hover);
+}
+
+/* High specificity so the selected state survives themes that restyle
+   button elements; soft accent glow instead of a hard outline halo. */
+.bs-root .bs-tabs .bs-tab.bs-tab-active {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  font-weight: 600;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--interactive-accent) 35%, transparent);
+}
+
+.bs-root .bs-tabs .bs-tab.bs-tab-active:hover {
+  background: var(--interactive-accent-hover, var(--interactive-accent));
+  color: var(--text-on-accent);
+}
+
+.bs-refresh {
+  cursor: pointer;
+}
+
+.bs-banner {
+  padding: 6px 12px;
+  background: var(--background-modifier-error-hover, var(--background-secondary));
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-status {
+  padding: 24px;
+  color: var(--text-muted);
+}
+
+.bs-error {
+  color: var(--text-error);
+}
+
+.bs-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.bs-main {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+/* Sidebar */
+.bs-sidebar {
+  width: 230px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  padding: 14px;
+  border-right: 1px solid var(--background-modifier-border);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bs-sidebar select,
+.bs-sidebar input[type="number"] {
+  width: 100%;
+}
+
+.bs-field-row span {
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+}
+
+.bs-search {
+  width: 100%;
+}
+
+.bs-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bs-field-row {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Manifest-style section labels: small, bold, uppercase, letterspaced */
+.bs-field-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 2px;
+}
+
+.bs-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bs-chip {
+  font-size: var(--font-ui-small);
+  padding: 3px 9px;
+  border-radius: 4px;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.bs-chip:hover {
+  background: var(--background-modifier-hover);
+}
+
+.bs-chip-active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+.bs-chip-small {
+  font-size: 10px;
+  padding: 1px 6px;
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bs-chip {
+    transition: none;
+  }
+}
+
+/* Grid + cards */
+.bs-count {
+  padding: 10px 12px 6px;
+  color: var(--text-faint);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  padding: 0 12px 12px;
+}
+
+.bs-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 140px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  padding: 10px 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bs-card:hover {
+  border-color: var(--interactive-accent);
+}
+
+.bs-card-selected {
+  border-color: var(--interactive-accent);
+  box-shadow: 0 0 0 1px var(--interactive-accent);
+}
+
+.bs-card-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bs-card-name {
+  font-weight: 600;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bs-badge {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+
+.bs-badge-installed {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.bs-ignore {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  padding: 0 4px;
+  visibility: hidden;
+}
+
+.bs-card:hover .bs-ignore {
+  visibility: visible;
+}
+
+.bs-card-meta {
+  display: flex;
+  gap: 10px;
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+}
+
+.bs-card-desc {
+  margin: 0;
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bs-card-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: auto;
+}
+
+/* Detail pane (width set inline; user-resizable via drag handle) */
+.bs-detail {
+  position: relative;
+  flex-shrink: 0;
+  min-width: 300px;
+  max-width: 900px;
+  overflow-y: auto;
+  border-left: 1px solid var(--background-modifier-border);
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bs-detail-resize {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+.bs-detail-resize:hover,
+.bs-detail-resize:active {
+  background: var(--interactive-accent);
+  opacity: 0.5;
+}
+
+.bs-detail-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bs-detail-title h3 {
+  margin: 0;
+}
+
+.bs-detail-author {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-detail-close {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--text-faint);
+  cursor: pointer;
+}
+
+.bs-detail-stats {
+  display: flex;
+  gap: 14px;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-detail-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.bs-detail-note {
+  font-size: var(--font-ui-small);
+  color: var(--text-faint);
+}
+
+.bs-releases summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-releases ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: var(--font-ui-small);
+}
+
+.bs-readme {
+  border-top: 1px solid var(--background-modifier-border);
+  padding-top: 10px;
+}
+
+.bs-readme img {
+  max-width: 100%;
+}
+
+/* Installed tab */
+.bs-installed {
+  padding: 4px 12px 12px;
+}
+
+.bs-installed-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0 12px;
+  position: sticky;
+  top: 0;
+  background: var(--background-primary);
+  z-index: 1;
+}
+
+.bs-installed-search {
+  width: 240px;
+}
+
+.bs-installed-summary {
+  margin-left: auto;
+  color: var(--text-faint);
+  font-size: var(--font-ui-small);
+}
+
+.bs-installed-grid {
+  padding: 0;
+}
+
+.bs-installed-card {
+  cursor: default;
+}
+
+.bs-installed-card[role="button"] {
+  cursor: pointer;
+}
+
+.bs-installed-off .bs-card-name,
+.bs-installed-off .bs-card-meta,
+.bs-installed-off .bs-card-desc {
+  opacity: 0.55;
+}
+
+.bs-installed-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  min-height: 24px;
+}
+
+.bs-update-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: var(--font-ui-small);
+  padding: 4px 10px;
+  border-radius: var(--radius-s);
+}
+
+.bs-update-btn:hover {
+  background: var(--interactive-accent-hover, var(--interactive-accent));
+}
+
+.bs-installed-changelog {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+.bs-installed-changelog:hover {
+  color: var(--text-normal);
+}
+
+.bs-installed-toggle {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.bs-toggle-locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bs-link {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: var(--text-normal);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bs-link:hover {
+  color: var(--interactive-accent);
+}
+
+.bs-badge-warn {
+  background: var(--background-modifier-error-hover, var(--background-secondary));
+  color: var(--text-muted);
+}
+
+/* Icons (Obsidian lucide via setIcon) */
+.bs-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bs-icon svg {
+  width: 13px;
+  height: 13px;
+}
+
+.bs-card-meta span,
+.bs-detail-stats span,
+.bs-refresh {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bs-ignore,
+.bs-detail-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bs-load-more {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: var(--font-ui-small);
+}
+
+.bs-banner-info {
+  background: var(--background-secondary);
+  border-left: 3px solid var(--interactive-accent);
+  color: var(--text-muted);
+}
+
+/* Tree view */
+.bs-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bs-tree {
+  padding: 0 12px 16px;
+  max-width: 760px;
+  font-size: var(--font-ui-small);
+  user-select: none;
+}
+
+.bs-tree-folder,
+.bs-tree-item,
+.bs-tree-more {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  padding-left: calc(8px + var(--bs-depth, 0) * 18px);
+  border-radius: var(--radius-s);
+  cursor: pointer;
+}
+
+.bs-tree-folder:hover,
+.bs-tree-item:hover,
+.bs-tree-more:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+/* Indent guides — faint vertical lines under the parent folder's icon,
+   drawn as background gradients so they survive hover/selected tints. */
+.bs-tree [data-depth="1"] {
+  background-image: linear-gradient(var(--background-modifier-border), var(--background-modifier-border));
+  background-size: 1px 100%;
+  background-position: 15px 0;
+  background-repeat: no-repeat;
+}
+
+.bs-tree [data-depth="2"] {
+  background-image:
+    linear-gradient(var(--background-modifier-border), var(--background-modifier-border)),
+    linear-gradient(var(--background-modifier-border), var(--background-modifier-border));
+  background-size: 1px 100%, 1px 100%;
+  background-position: 15px 0, 33px 0;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.bs-tree-folder {
+  color: var(--text-normal);
+}
+
+.bs-tree-folder > .bs-icon {
+  color: var(--interactive-accent);
+}
+
+.bs-tree-label {
+  font-weight: 600;
+}
+
+.bs-tree-count {
+  color: var(--text-faint);
+  font-size: 10.5px;
+}
+
+.bs-tree-count::before {
+  content: "(";
+}
+
+.bs-tree-count::after {
+  content: ")";
+}
+
+.bs-tree-stale .bs-tree-label {
+  color: var(--text-muted);
+}
+
+.bs-tree-stale > .bs-icon {
+  color: var(--text-muted);
+}
+
+.bs-tree-item {
+  color: var(--text-muted);
+}
+
+.bs-tree-item .bs-icon {
+  color: var(--text-faint);
+}
+
+.bs-tree-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-normal);
+}
+
+.bs-tree-item-selected {
+  background-color: color-mix(in srgb, var(--interactive-accent) 14%, transparent);
+}
+
+.bs-tree-item-selected .bs-tree-name {
+  color: var(--interactive-accent);
+}
+
+.bs-tree-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+.bs-tree-more {
+  color: var(--text-faint);
+  font-style: italic;
+}
+
+/* Star buttons */
+.bs-star {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  padding: 0 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.bs-card:hover .bs-star,
+.bs-star-active,
+.bs-detail-header-actions .bs-star {
+  visibility: visible;
+}
+
+.bs-star:hover {
+  color: var(--text-normal);
+}
+
+.bs-star-active,
+.bs-star-active:hover {
+  color: var(--interactive-accent);
+}
+
+.bs-star-active svg {
+  fill: var(--interactive-accent);
+}
+
+.bs-detail-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* New badge — outlined so it reads differently from the solid Installed badge */
+.bs-badge-new {
+  background: transparent;
+  color: var(--interactive-accent);
+  border: 1px solid var(--interactive-accent);
+}
+
+/* Ribbon update dot */
+.bs-ribbon-updates {
+  position: relative;
+}
+
+.bs-ribbon-updates::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--interactive-accent);
+}
+
+/* Compatibility warning */
+.bs-compat-warning {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border-radius: var(--radius-s);
+  border: 1px solid color-mix(in srgb, var(--color-yellow, #e0ac00) 40%, var(--background-modifier-border));
+  border-left: 3px solid var(--color-yellow, #e0ac00);
+  background: color-mix(in srgb, var(--color-yellow, #e0ac00) 9%, transparent);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-compat-warning .bs-icon {
+  color: var(--color-yellow, #e0ac00);
+}
+
+/* Release notes */
+.bs-release-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+.bs-release summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  padding: 2px 0;
+}
+
+.bs-release-date {
+  color: var(--text-faint);
+  margin-left: 8px;
+}
+
+.bs-release-notes {
+  border-left: 2px solid var(--background-modifier-border);
+  margin: 4px 0 8px 6px;
+  padding: 2px 0 2px 12px;
+  font-size: var(--font-ui-small);
+}
+
+.bs-release-notes :is(h1, h2, h3, h4) {
+  font-size: 1em;
+  margin: 6px 0 2px;
+}
+
+/* Bulk selection (Installed tab) */
+.bs-select {
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.bs-card:hover .bs-select,
+.bs-select:checked,
+.bs-select:focus-visible {
+  opacity: 1;
+}
+
+.bs-bulk-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bs-bulk-count {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-bulk-btn {
+  font-size: var(--font-ui-small);
+  padding: 3px 10px;
+  border-radius: var(--radius-s);
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.bs-bulk-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.bs-bulk-clear {
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  border: 1px solid var(--background-modifier-border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bs-select {
+    transition: none;
+  }
+}

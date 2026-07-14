@@ -100,6 +100,16 @@
             }
           },
           {
+            "id": "1c0243686df49c0b",
+            "type": "leaf",
+            "state": {
+              "type": "better-store-view",
+              "state": {},
+              "icon": "store",
+              "title": "Better Store"
+            }
+          },
+          {
             "id": "68630088e07241f5",
             "type": "leaf",
             "state": {
@@ -172,7 +182,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -481,10 +491,13 @@
       "always-color-text:Always Color Text": false,
       "project-manager:Project manager": false,
       "hearth:Open Hearth home": false,
-      "link-link:Link Link!": false
+      "link-link:Link Link!": false,
+      "better-store:Open Better Store": false,
+      "grimoire:Open Grimoire": false,
+      "rss-dashboard:RSS dashboard": false
     }
   },
-  "active": "6d7e63c5cea47693",
+  "active": "1c0243686df49c0b",
   "lastOpenFiles": [
     "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Knowledge.md",
