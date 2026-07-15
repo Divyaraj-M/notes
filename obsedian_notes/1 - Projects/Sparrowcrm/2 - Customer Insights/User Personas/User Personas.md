@@ -6,9 +6,6 @@ owner:
 tags:
   - sparrowcrm/customer_insights/user_personas
 ---
-
-# User Personas
-
 > _Who are our users? What do they need, struggle with, and value?_
 > 
 > Derived from [[Product Vision]], [[Product Strategy]], and codebase analysis of SparrowCRM features (AI capture, enrichment, pipelines, scoring, smart routers).

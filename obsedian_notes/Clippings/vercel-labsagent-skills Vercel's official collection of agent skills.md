@@ -1,5 +1,4 @@
 ---
-title: "vercel-labs/agent-skills: Vercel's official collection of agent skills"
 source: https://github.com/vercel-labs/agent-skills
 author:
 published:

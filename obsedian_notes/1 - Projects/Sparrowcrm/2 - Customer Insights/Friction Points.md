@@ -6,9 +6,6 @@ owner:
 tags:
   - sparrowcrm/customer_insights/friction_points
 ---
-
-# Friction Points
-
 > _Where do users get stuck, confused, or drop off?_
 
 ## Friction Log

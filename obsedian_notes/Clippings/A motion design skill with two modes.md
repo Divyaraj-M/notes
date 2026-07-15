@@ -1,5 +1,4 @@
 ---
-title: "kylezantos/design-motion-principles: A motion design skill with two modes — build interactive components with purposeful motion, or audit existing animations. Context-aware, per-designer guidance distilled from the published work of Emil Kowalski, Jakub Krehel, and Jhey Tompkins."
 source: https://github.com/kylezantos/design-motion-principles
 author:
 published:

@@ -1,5 +1,4 @@
 ---
-title: "phuryn/pm-brain: PM Brain OS: The Second Brain for Product Managers, Made of Markdown"
 source: https://github.com/phuryn/pm-brain
 author:
 published:

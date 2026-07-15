@@ -1,5 +1,4 @@
 ---
-title: agent-browser/skills/agent-browser/SKILL.md at main
 source: https://github.com/vercel-labs/agent-browser/tree/main
 author:
 published:

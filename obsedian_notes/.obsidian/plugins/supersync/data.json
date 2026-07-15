@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "token": "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",
+    "deviceFlowClientId": "Ov23libm5xiE4V1rzwBQ",
+    "owner": "Divyaraj-M",
+    "repo": "obsidian-sync",
+    "branch": "main",
+    "rootPath": "",
+    "authorName": "SuperSync",
+    "authorEmail": "supersync@marban.lol",
+    "autoSync": true,
+    "syncOnStartup": true,
+    "syncOnFileChange": true,
+    "intervalMinutes": 5,
+    "syncObsidianConfig": true,
+    "syncCommunityPlugins": false,
+    "ignorePatterns": ".git/**\n.trash/**\n.obsidian/workspace*.json\n.obsidian/plugins/supersync/data.json\n.DS_Store"
+  },
+  "manifest": {},
+  "syncLog": [
+    {
+      "startedAt": "2026-07-15T16:43:20.560Z",
+      "endedAt": "2026-07-15T16:43:20.560Z",
+      "reason": "startup",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "GitHub token is required."
+    }
+  ]
+}

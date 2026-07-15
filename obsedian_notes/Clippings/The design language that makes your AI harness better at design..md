@@ -1,5 +1,4 @@
 ---
-title: "pbakaus/impeccable: The design language that makes your AI harness better at design."
 source: https://github.com/pbakaus/impeccable
 author:
 published:

@@ -1,5 +1,4 @@
 ---
-title: grill-me — mattpocock/skills
 source: https://www.skills.sh/mattpocock/skills/grill-me
 author:
 published:

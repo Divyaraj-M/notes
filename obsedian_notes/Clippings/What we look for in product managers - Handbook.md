@@ -1,5 +1,4 @@
 ---
-title: What we look for in product managers - Handbook
 source: https://posthog.com/handbook/product/product-manager-hiring
 author:
 published:

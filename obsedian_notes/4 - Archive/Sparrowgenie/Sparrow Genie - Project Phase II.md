@@ -1,7 +1,5 @@
 ---
 pm-project: true
-id: h7jible8mnx4jffh
-title: Sparrow Genie - Project Phase II
 description: ""
 color: "#8b72be"
 icon: 📋

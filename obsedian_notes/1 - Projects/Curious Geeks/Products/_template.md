@@ -1,5 +1,4 @@
 ---
-title: "{{PRODUCT_NAME}}"
 tagline: "{{TAGLINE}}"
 description: "{{DESCRIPTION}}"
 url: "{{PRODUCT_URL}}"

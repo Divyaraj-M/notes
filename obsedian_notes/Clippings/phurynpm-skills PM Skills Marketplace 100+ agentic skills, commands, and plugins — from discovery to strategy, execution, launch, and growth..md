@@ -1,5 +1,4 @@
 ---
-title: "phuryn/pm-skills: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
 source: https://github.com/phuryn/pm-skills
 author:
 published:

@@ -1,5 +1,4 @@
 ---
-title: What product managers do at PostHog - Handbook
 source: https://posthog.com/handbook/product/product-manager-role
 author:
 published:

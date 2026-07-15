@@ -1,5 +1,4 @@
 ---
-title: Products
 description: Tools, apps, and products shared by the Curious Geeks community.
 dg-publish: true
 tags:

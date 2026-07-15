@@ -1,5 +1,4 @@
 ---
-title: How to find edge cases before they become expensive issues
 source: https://balsamiq.com/blog/uncovering-edge-cases/
 author:
   - "[[Peldi Guilizzoni]]"
