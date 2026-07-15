@@ -13,11 +13,2690 @@
     "syncOnFileChange": true,
     "intervalMinutes": 5,
     "syncObsidianConfig": true,
-    "syncCommunityPlugins": false,
+    "syncCommunityPlugins": true,
     "ignorePatterns": ".git/**\n.trash/**\n.obsidian/workspace*.json\n.obsidian/plugins/supersync/data.json\n.DS_Store"
   },
-  "manifest": {},
+  "manifest": {
+    "README": {
+      "sha": "8b77c89225167ee6ff0495b89700f22786273c4b",
+      "remoteSha": "8b77c89225167ee6ff0495b89700f22786273c4b",
+      "size": 441
+    },
+    "CRM Metrics Framework.md": {
+      "sha": "2197c7e0d103245d8af21524df54a637962d78f1",
+      "remoteSha": "2197c7e0d103245d8af21524df54a637962d78f1",
+      "size": 33281
+    },
+    "Thinking.md": {
+      "sha": "ded74c5ce28ac0f46f02eb0923d6fd3dc36d343b",
+      "remoteSha": "ded74c5ce28ac0f46f02eb0923d6fd3dc36d343b",
+      "size": 12663
+    },
+    "Apollo.io Enrichment — Field Reference.md": {
+      "sha": "58e62572d11938b764251633784d63867e441d7c",
+      "remoteSha": "58e62572d11938b764251633784d63867e441d7c",
+      "size": 9020
+    },
+    "3 - Resources/UI components.md": {
+      "sha": "c569269e1576fabaea3217244e58fc9f6b49082e",
+      "remoteSha": "c569269e1576fabaea3217244e58fc9f6b49082e",
+      "size": 417
+    },
+    "3 - Resources/PM Prompts Library/prompting-style-guide.md": {
+      "sha": "24667b947cb0b5ea2c81c0f9360b886d5a542016",
+      "remoteSha": "24667b947cb0b5ea2c81c0f9360b886d5a542016",
+      "size": 14934
+    },
+    "3 - Resources/PM Prompts Library/vibes/vibe.prd-generated-via-search-and-agentic-simulation.md": {
+      "sha": "cfee5155dbf90ef686cac3800f25eb2543ee1097",
+      "remoteSha": "cfee5155dbf90ef686cac3800f25eb2543ee1097",
+      "size": 6238
+    },
+    "3 - Resources/PM Prompts Library/vibes/README.md": {
+      "sha": "a38f219376dc46abaad953f3e350b1c81e78117c",
+      "remoteSha": "a38f219376dc46abaad953f3e350b1c81e78117c",
+      "size": 12079
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator - What People Think I Do Product Manager Meme Builder.md": {
+      "sha": "604a04c7647e8ce1d94d4e73d6b2436311102a81",
+      "remoteSha": "604a04c7647e8ce1d94d4e73d6b2436311102a81",
+      "size": 5287
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator - Image Prompts for 12-Scene Here's Journey.md": {
+      "sha": "70b2375fd31b25001ae07b4aeb8218081721e852",
+      "remoteSha": "70b2375fd31b25001ae07b4aeb8218081721e852",
+      "size": 4012
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Dataset - Bedtime Story Types and Characteristics.json": {
+      "sha": "51b38939c5bbc24483b732564b0660d6dce1f520",
+      "remoteSha": "51b38939c5bbc24483b732564b0660d6dce1f520",
+      "size": 31551
+    },
+    "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/scenes.heros-journey.slack.txt": {
+      "sha": "a4ac2029d3828b65d026e2af20fd01d1c73dfc6d",
+      "remoteSha": "a4ac2029d3828b65d026e2af20fd01d1c73dfc6d",
+      "size": 1783
+    },
+    "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/scenes.heros-journey.pelotontxt": {
+      "sha": "a4ac2029d3828b65d026e2af20fd01d1c73dfc6d",
+      "remoteSha": "a4ac2029d3828b65d026e2af20fd01d1c73dfc6d",
+      "size": 1783
+    },
+    "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/readme.md": {
+      "sha": "8e9ab426b6bf4ed66c4487580abd2748c52e2494",
+      "remoteSha": "8e9ab426b6bf4ed66c4487580abd2748c52e2494",
+      "size": 1842
+    },
+    "3 - Resources/PM Prompts Library/storytelling/code-generate-scenes/generate_scenes.py": {
+      "sha": "5201be7a8c3f1642ea712542be922b817f608e0f",
+      "remoteSha": "5201be7a8c3f1642ea712542be922b817f608e0f",
+      "size": 2917
+    },
+    "3 - Resources/PM Prompts Library/storytelling/README.md": {
+      "sha": "0dfdf0600e7272986863b27ce0102c99d300c2c1",
+      "remoteSha": "0dfdf0600e7272986863b27ce0102c99d300c2c1",
+      "size": 14127
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator – Starts with Why 4-Slide Builder Narrative.md": {
+      "sha": "095b54f1b811d8b11352022d370a0abd84873dbf",
+      "remoteSha": "095b54f1b811d8b11352022d370a0abd84873dbf",
+      "size": 5638
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator – Product Manager Action Figure Builder.md": {
+      "sha": "ab2b5427e44ab002cde66fd59a5f1822dd16a289",
+      "remoteSha": "ab2b5427e44ab002cde66fd59a5f1822dd16a289",
+      "size": 2378
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator – PM Bedtime Story Builder.md": {
+      "sha": "161ba441e5a493a9f1cba6f7a9d71087de225572",
+      "remoteSha": "161ba441e5a493a9f1cba6f7a9d71087de225572",
+      "size": 4020
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator – Customer Journey Map Simulator.md": {
+      "sha": "41b3d008b66b7df83ac7aed1a6bf076fcf8b2cbb",
+      "remoteSha": "41b3d008b66b7df83ac7aed1a6bf076fcf8b2cbb",
+      "size": 7074
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator – Create-Your-Own Sims Character Sheet.md": {
+      "sha": "5b534534cfd140e4c84aa4fb467082b3596869b6",
+      "remoteSha": "5b534534cfd140e4c84aa4fb467082b3596869b6",
+      "size": 3241
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Dataset - Common Storyboarding Tools and Techniques.md": {
+      "sha": "e1f19c039ea7cfd1dd49cd9b4046c9237da7e7e3",
+      "remoteSha": "e1f19c039ea7cfd1dd49cd9b4046c9237da7e7e3",
+      "size": 4931
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator - 16-Frame Visual Product Storyline.md": {
+      "sha": "844ee8a7e1ea6c10d674300afaee111b10e75e98",
+      "remoteSha": "844ee8a7e1ea6c10d674300afaee111b10e75e98",
+      "size": 7947
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator - IKEA-like instruction steps.md": {
+      "sha": "bcf2a791edc179623830d773709cd106f5c4ad5c",
+      "remoteSha": "bcf2a791edc179623830d773709cd106f5c4ad5c",
+      "size": 2867
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Generator - 6 Scene Visual Product Storyboard Narrative.md": {
+      "sha": "c5de1969dd7a89c810eb6951ce7c459cbf9d4898",
+      "remoteSha": "c5de1969dd7a89c810eb6951ce7c459cbf9d4898",
+      "size": 4969
+    },
+    "3 - Resources/PM Prompts Library/storytelling/Dataset - 25 Common Story Arcs.md": {
+      "sha": "9bc24ddbc428a3e2acc048e78fa1256fccccf147",
+      "remoteSha": "9bc24ddbc428a3e2acc048e78fa1256fccccf147",
+      "size": 12877
+    },
+    "3 - Resources/PM Prompts Library/skeletons/README.md": {
+      "sha": "8a4bd400e1cd53557f89e8a8f828490a53b5033f",
+      "remoteSha": "8a4bd400e1cd53557f89e8a8f828490a53b5033f",
+      "size": 13648
+    },
+    "3 - Resources/PM Prompts Library/skeletons/A Prompt Skeleton Analysis Toolkit.md": {
+      "sha": "161a7241f411aa89545acff5c86232e53903a165",
+      "remoteSha": "161a7241f411aa89545acff5c86232e53903a165",
+      "size": 5921
+    },
+    "3 - Resources/PM Prompts Library/skeletons/prompt-generator-prompt.md": {
+      "sha": "e2585d015dbf69b871c434cb4dde5dabb3f13023",
+      "remoteSha": "e2585d015dbf69b871c434cb4dde5dabb3f13023",
+      "size": 784
+    },
+    "3 - Resources/PM Prompts Library/resumes-resignations-reactions/Reaction – You Can't Fire Me I Quit Dear John Letter.md": {
+      "sha": "82dfe7ce2bff3878bf5c9541602dd8e3a3605b07",
+      "remoteSha": "82dfe7ce2bff3878bf5c9541602dd8e3a3605b07",
+      "size": 2910
+    },
+    "3 - Resources/PM Prompts Library/resumes-resignations-reactions/Reaction – Glassdoor Review – A Masterclass in Pretending to Care.md": {
+      "sha": "2e27ed64ef6b3e829fc346a3396eff9a48d555b2",
+      "remoteSha": "2e27ed64ef6b3e829fc346a3396eff9a48d555b2",
+      "size": 2626
+    },
+    "3 - Resources/PM Prompts Library/resumes-resignations-reactions/Reaction – LinkedIn Lifestyle Influencer Article – 7 Steps to Nowhere.md": {
+      "sha": "6f95aba730cf5ae36f855096158bed29535de69d",
+      "remoteSha": "6f95aba730cf5ae36f855096158bed29535de69d",
+      "size": 3994
+    },
+    "3 - Resources/PM Prompts Library/resumes-resignations-reactions/README.md": {
+      "sha": "6852e1cc96d67d2c10ee25f9dce68bfa8c7b1e45",
+      "remoteSha": "6852e1cc96d67d2c10ee25f9dce68bfa8c7b1e45",
+      "size": 9659
+    },
+    "3 - Resources/PM Prompts Library/prompts/user-story_ai-enhanced_prompt-template.md": {
+      "sha": "f4b607e36ddd06e10639fb8cb9ffcac9afd63abc",
+      "remoteSha": "f4b607e36ddd06e10639fb8cb9ffcac9afd63abc",
+      "size": 4700
+    },
+    "3 - Resources/PM Prompts Library/prompts/storyboard-storytelling-prompt.md": {
+      "sha": "21166a5aaebdbb5ed903987304f92fc209b569cd",
+      "remoteSha": "21166a5aaebdbb5ed903987304f92fc209b569cd",
+      "size": 3182
+    },
+    "3 - Resources/PM Prompts Library/prompts/positioning-statement.md": {
+      "sha": "b1576777760fa713df6ead19a184c61b962e3bd6",
+      "remoteSha": "b1576777760fa713df6ead19a184c61b962e3bd6",
+      "size": 2933
+    },
+    "3 - Resources/PM Prompts Library/prompts/visionary-press-release.md": {
+      "sha": "957aab3bf7c389ffa60466a75a037f8bf013552d",
+      "remoteSha": "957aab3bf7c389ffa60466a75a037f8bf013552d",
+      "size": 3935
+    },
+    "3 - Resources/PM Prompts Library/prompts/user-story-splitting-prompt-template.md": {
+      "sha": "7a2d508c26b30c558fed6d7670eace98e9f2dc50",
+      "remoteSha": "7a2d508c26b30c558fed6d7670eace98e9f2dc50",
+      "size": 3628
+    },
+    "3 - Resources/PM Prompts Library/prompts/user-story-prompt-template.md": {
+      "sha": "5ced773aca3519610bb5ee94356a81aa95a6329b",
+      "remoteSha": "5ced773aca3519610bb5ee94356a81aa95a6329b",
+      "size": 3421
+    },
+    "3 - Resources/PM Prompts Library/prompts/jobs-to-be-done.md": {
+      "sha": "56f69d13eaaf7f69076ff849a9864dfeaa0bbdd3",
+      "remoteSha": "56f69d13eaaf7f69076ff849a9864dfeaa0bbdd3",
+      "size": 3623
+    },
+    "3 - Resources/PM Prompts Library/prompts/user-story-mapping.md": {
+      "sha": "7a273e3553a4b2f0a0a3464f9f31d9cf204575ac",
+      "remoteSha": "7a273e3553a4b2f0a0a3464f9f31d9cf204575ac",
+      "size": 3107
+    },
+    "3 - Resources/PM Prompts Library/prompts/strategic-scrum-team-session-kickoff.md": {
+      "sha": "b01c83f9c72534312cf9c14b3ff0a2e25b645b69",
+      "remoteSha": "b01c83f9c72534312cf9c14b3ff0a2e25b645b69",
+      "size": 3251
+    },
+    "3 - Resources/PM Prompts Library/prompts/pestel-analysis-prompt-template.md": {
+      "sha": "5f2d9be211afa9985f4bdc7ec5c91dd9c0a10466",
+      "remoteSha": "5f2d9be211afa9985f4bdc7ec5c91dd9c0a10466",
+      "size": 4967
+    },
+    "3 - Resources/PM Prompts Library/prompts/reverse-engineer-ISO29148-to-PRD-prompt-template.md": {
+      "sha": "2fe9d6e0f640199a7f4646da28ad0dee8977d6f6",
+      "remoteSha": "2fe9d6e0f640199a7f4646da28ad0dee8977d6f6",
+      "size": 4152
+    },
+    "3 - Resources/PM Prompts Library/prompts/reverse-engineer-IEEE830srs-to-PRD-prompt-template.md": {
+      "sha": "2cf961a077df5e48d8b133afc100b52f0cffb901",
+      "remoteSha": "2cf961a077df5e48d8b133afc100b52f0cffb901",
+      "size": 4205
+    },
+    "3 - Resources/PM Prompts Library/prompts/recommendation-canvas-template.md": {
+      "sha": "5694e7b45ca3fcb2cd86ae28f6d47a833d85b5ff",
+      "remoteSha": "5694e7b45ca3fcb2cd86ae28f6d47a833d85b5ff",
+      "size": 5058
+    },
+    "3 - Resources/PM Prompts Library/prompts/proto-persona-profile.md": {
+      "sha": "8e0c92bcb3e35e8de3c4fdc747e12cf20be55df8",
+      "remoteSha": "8e0c92bcb3e35e8de3c4fdc747e12cf20be55df8",
+      "size": 3194
+    },
+    "3 - Resources/PM Prompts Library/prompts/framing-the-problem-statement.md": {
+      "sha": "8a5db4ebeef85755f3b9af0a748dea34ff5d2511",
+      "remoteSha": "8a5db4ebeef85755f3b9af0a748dea34ff5d2511",
+      "size": 2713
+    },
+    "3 - Resources/PM Prompts Library/prompts/eol-for-a-product-message.md": {
+      "sha": "7dde952bea6a9256066643c4eb283033d6866de2",
+      "remoteSha": "7dde952bea6a9256066643c4eb283033d6866de2",
+      "size": 3973
+    },
+    "3 - Resources/PM Prompts Library/prompts/howto.md": {
+      "sha": "3b87d0fb823dc8f6c5748d66d654454b1f1a87b3",
+      "remoteSha": "3b87d0fb823dc8f6c5748d66d654454b1f1a87b3",
+      "size": 7616
+    },
+    "3 - Resources/PM Prompts Library/prompts/futuristic-product-faq.md": {
+      "sha": "7b8ee0d4d5b8ce9398d263abb982c3b5654a0e48",
+      "remoteSha": "7b8ee0d4d5b8ce9398d263abb982c3b5654a0e48",
+      "size": 4540
+    },
+    "3 - Resources/PM Prompts Library/prompts/backlog-epic-hypothesis.md": {
+      "sha": "a880fcff202374fddf3722fab558794e3a423284",
+      "remoteSha": "a880fcff202374fddf3722fab558794e3a423284",
+      "size": 2607
+    },
+    "3 - Resources/PM Prompts Library/prompts/README.md": {
+      "sha": "0238436907f0d9e4ee680afc46df8db8a61f148d",
+      "remoteSha": "0238436907f0d9e4ee680afc46df8db8a61f148d",
+      "size": 8277
+    },
+    "3 - Resources/PM Prompts Library/prompts/company-profile-executive-insights-research.md": {
+      "sha": "de45d1d65524f0d26beefa48ed7c07251cd23c66",
+      "remoteSha": "de45d1d65524f0d26beefa48ed7c07251cd23c66",
+      "size": 5390
+    },
+    "3 - Resources/PM Prompts Library/prompts/customer-journey-mapping-prompt-template.md": {
+      "sha": "3b2c168b53c6264826b011f8b430eb046add3d6e",
+      "remoteSha": "3b2c168b53c6264826b011f8b430eb046add3d6e",
+      "size": 3481
+    },
+    "3 - Resources/PM Prompts Library/prompts/a-generative-AI-prompt-builder-for-product-professionals.md": {
+      "sha": "5edab5040bbcbb19e4f8bdfd5d3bd91527b6973d",
+      "remoteSha": "5edab5040bbcbb19e4f8bdfd5d3bd91527b6973d",
+      "size": 4410
+    },
+    "3 - Resources/PM Prompts Library/prompts/Nightmares of Product Management Movie Title Generator Prompt.md": {
+      "sha": "e9df0542ce0d141b2e90a423fb0c2601d381aa62",
+      "remoteSha": "e9df0542ce0d141b2e90a423fb0c2601d381aa62",
+      "size": 3529
+    },
+    "3 - Resources/PM Prompts Library/prompts/Dangerous Animals of Product Management Beast Generator.md": {
+      "sha": "78a4dafdf0e8525e32bd5fd8aad3f89966715b41",
+      "remoteSha": "78a4dafdf0e8525e32bd5fd8aad3f89966715b41",
+      "size": 4495
+    },
+    "3 - Resources/PM Prompts Library/flows/The TAM-SAM-SOM-o-Matic 4000™.json": {
+      "sha": "30508bcfd34f57b98343fd02869de6133b3de46c",
+      "remoteSha": "30508bcfd34f57b98343fd02869de6133b3de46c",
+      "size": 317730
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/user-story-prompt-generator-prompt.md": {
+      "sha": "ecab63c74e285809e2bda5ae65affd231b9c9b2a",
+      "remoteSha": "ecab63c74e285809e2bda5ae65affd231b9c9b2a",
+      "size": 5427
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/tam-sam-som-prompt-generator.md": {
+      "sha": "b408d706389b23041e925e8c08392a9d8de3ab0e",
+      "remoteSha": "b408d706389b23041e925e8c08392a9d8de3ab0e",
+      "size": 4879
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/storyline-to-prompt-generator-prompt.md": {
+      "sha": "b035160cf528a5599770115a0a26e222b3e2fdef",
+      "remoteSha": "b035160cf528a5599770115a0a26e222b3e2fdef",
+      "size": 9488
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/storyboarding-prompt-generator-prompt.md": {
+      "sha": "4ed2d8e766ccae44e40cfd4de7d595ba40bc6172",
+      "remoteSha": "4ed2d8e766ccae44e40cfd4de7d595ba40bc6172",
+      "size": 5294
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/positioning-statement-prompt-generator.md": {
+      "sha": "d8dc8bc66244ce78df1ef07eda9c93b54413eec6",
+      "remoteSha": "d8dc8bc66244ce78df1ef07eda9c93b54413eec6",
+      "size": 4695
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/proto-persona-prompt-generator.md": {
+      "sha": "c599acc996ab58fc617cedacf6efb28b7f9cc6d9",
+      "remoteSha": "c599acc996ab58fc617cedacf6efb28b7f9cc6d9",
+      "size": 4408
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/memo-of-AI-existential-corporate-dread_prompt-generator-prompt.md": {
+      "sha": "2eec1edd30179a0013cdf947aad128b5064e935c",
+      "remoteSha": "2eec1edd30179a0013cdf947aad128b5064e935c",
+      "size": 4455
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/artifact-first-context-intake.md": {
+      "sha": "250e1b1f7210c6120a9552c7bf2332a7367855ce",
+      "remoteSha": "250e1b1f7210c6120a9552c7bf2332a7367855ce",
+      "size": 3911
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/Memo of AI Existential Corporate Dread — Prompt Generator Prompt.md": {
+      "sha": "8d034485bd914a56be545a77d606cc0c906dd623",
+      "remoteSha": "8d034485bd914a56be545a77d606cc0c906dd623",
+      "size": 4459
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/persona-first-decision-facilitation-loop.md": {
+      "sha": "6006f2c3a82cb629eb3dad8a4f9e5ddfb1def9ef",
+      "remoteSha": "6006f2c3a82cb629eb3dad8a4f9e5ddfb1def9ef",
+      "size": 7541
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/market-requirements-generator-prompt.md": {
+      "sha": "89a07947c7c46b117b9be868bd6ff75c649b7457",
+      "remoteSha": "89a07947c7c46b117b9be868bd6ff75c649b7457",
+      "size": 8142
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/a-generative-AI-prompt-builder-for-product-professionals.md": {
+      "sha": "4e2ef993ac344a23c982ea2ff633319ec8910cdf",
+      "remoteSha": "4e2ef993ac344a23c982ea2ff633319ec8910cdf",
+      "size": 4052
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/jobs-to-be-done customer circle.md": {
+      "sha": "cdc7d095b8c99fbb2914997bea8d30cbe76a4604",
+      "remoteSha": "cdc7d095b8c99fbb2914997bea8d30cbe76a4604",
+      "size": 3333
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/daci-chart-prompt-generator.md": {
+      "sha": "c2390e4771f55529f0486655c9256d433f11be02",
+      "remoteSha": "c2390e4771f55529f0486655c9256d433f11be02",
+      "size": 6606
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/customer-journey-mapping-prompt-generator.md": {
+      "sha": "34113ef94846dd3971c0d2bd29b75e00f5285251",
+      "remoteSha": "34113ef94846dd3971c0d2bd29b75e00f5285251",
+      "size": 4201
+    },
+    "3 - Resources/PM Prompts Library/prompt-generators/README.md": {
+      "sha": "05deec178a2beba1b9940d16921f8c1f843de6c0",
+      "remoteSha": "05deec178a2beba1b9940d16921f8c1f843de6c0",
+      "size": 13397
+    },
+    "3 - Resources/My Product Notes.md": {
+      "sha": "fcdcfc6866b80712ca80cf033fc1f8e781496b8c",
+      "remoteSha": "fcdcfc6866b80712ca80cf033fc1f8e781496b8c",
+      "size": 3170
+    },
+    "3 - Resources/Tools.md": {
+      "sha": "b3a2561daf9b2ed5fd3c685908549fbab638bfe2",
+      "remoteSha": "b3a2561daf9b2ed5fd3c685908549fbab638bfe2",
+      "size": 641
+    },
+    "3 - Resources/Templates/Weekly Review Template.md": {
+      "sha": "6e254ea9aa8b8801551b3f5c013155445fcc24bf",
+      "remoteSha": "6e254ea9aa8b8801551b3f5c013155445fcc24bf",
+      "size": 666
+    },
+    "3 - Resources/Templates/To do.md": {
+      "sha": "5b1dacd7e3076f3b16e10d43b0e69d01e1ccd52b",
+      "remoteSha": "5b1dacd7e3076f3b16e10d43b0e69d01e1ccd52b",
+      "size": 188
+    },
+    "3 - Resources/Templates/Daily Template.md": {
+      "sha": "a41ff3ca3ee4ea48bd53b1c5b0b5bc9f723a9001",
+      "remoteSha": "a41ff3ca3ee4ea48bd53b1c5b0b5bc9f723a9001",
+      "size": 531
+    },
+    "3 - Resources/Templates/Pasted image 20260601143807.png": {
+      "sha": "08426738c18942750c7e92b0c83487bf6bb5d1e7",
+      "remoteSha": "08426738c18942750c7e92b0c83487bf6bb5d1e7",
+      "size": 253632
+    },
+    "3 - Resources/Templates/Blog template.md": {
+      "sha": "ac69dbca28cc94f83093db76efb9887746d9dfed",
+      "remoteSha": "ac69dbca28cc94f83093db76efb9887746d9dfed",
+      "size": 49
+    },
+    "3 - Resources/Templates/Template - PM.md": {
+      "sha": "f7e2588e739ec58f5ce6a3153dc867925116cb2c",
+      "remoteSha": "f7e2588e739ec58f5ce6a3153dc867925116cb2c",
+      "size": 2394
+    },
+    "3 - Resources/Templates/Product to dev process/PRD Feature Name.md": {
+      "sha": "275d5e7647254dcd4807ba3f08a46fd4527c8687",
+      "remoteSha": "275d5e7647254dcd4807ba3f08a46fd4527c8687",
+      "size": 5364
+    },
+    "3 - Resources/Templates/Product to dev process/FRD Template.md": {
+      "sha": "5564c2b59af12f882493cf7d6a89ce85a2a4c7c7",
+      "remoteSha": "5564c2b59af12f882493cf7d6a89ce85a2a4c7c7",
+      "size": 9530
+    },
+    "3 - Resources/Templates/Product to dev process/Doc Workflow Two-Doc System.md": {
+      "sha": "08588ecdb03edbfa0bc7565b5735e896c4797261",
+      "remoteSha": "08588ecdb03edbfa0bc7565b5735e896c4797261",
+      "size": 3642
+    },
+    "3 - Resources/Templates/Product Spec Template 2.md": {
+      "sha": "42f4d6628e891dfa79a11f8430c8454f8509998d",
+      "remoteSha": "42f4d6628e891dfa79a11f8430c8454f8509998d",
+      "size": 9328
+    },
+    "3 - Resources/Templates/Product Spec - Template.md": {
+      "sha": "f3de51c48fa343bdb4d82ffe924360b71ca9f63c",
+      "remoteSha": "f3de51c48fa343bdb4d82ffe924360b71ca9f63c",
+      "size": 3107
+    },
+    "3 - Resources/Templates/2026-W13.md": {
+      "sha": "40af071264854d9ee2b0b54f80441df1647ad495",
+      "remoteSha": "40af071264854d9ee2b0b54f80441df1647ad495",
+      "size": 1086
+    },
+    "3 - Resources/Templates/First-Principles Product Template.md": {
+      "sha": "2768a40f3d5e691a74eeca46eebb5e9b389ef255",
+      "remoteSha": "2768a40f3d5e691a74eeca46eebb5e9b389ef255",
+      "size": 3740
+    },
+    "3 - Resources/Templates/Feature-Lens.md": {
+      "sha": "2e9b49038d9ea8f5c0b8818bf531e5eab9d9d03d",
+      "remoteSha": "2e9b49038d9ea8f5c0b8818bf531e5eab9d9d03d",
+      "size": 2025
+    },
+    "3 - Resources/Templates/Book shelf.md": {
+      "sha": "cdc79a9f8f100f8bf994286a0d9eecd5fdc85cb5",
+      "remoteSha": "cdc79a9f8f100f8bf994286a0d9eecd5fdc85cb5",
+      "size": 75
+    },
+    "3 - Resources/Help Article Template.md": {
+      "sha": "30813019855f2d80efbcee5829bbfba4ebbabf2b",
+      "remoteSha": "30813019855f2d80efbcee5829bbfba4ebbabf2b",
+      "size": 1995
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md": {
+      "sha": "eb46c4c07c8f5cb90481ebc124579da8669241da",
+      "remoteSha": "eb46c4c07c8f5cb90481ebc124579da8669241da",
+      "size": 1224
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png": {
+      "sha": "9428f3ac8eb26cbde9462457cf75733dc2912855",
+      "remoteSha": "9428f3ac8eb26cbde9462457cf75733dc2912855",
+      "size": 1487614
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2025-12-15 at 11.51.50 AM.png": {
+      "sha": "1ac600890046571bcfc2583dc10011da424d54bf",
+      "remoteSha": "1ac600890046571bcfc2583dc10011da424d54bf",
+      "size": 752801
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Rigor of thoughts.md": {
+      "sha": "07808ec21c082886aa1f506f0dcc87026761f663",
+      "remoteSha": "07808ec21c082886aa1f506f0dcc87026761f663",
+      "size": 2031
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Product thinking.md": {
+      "sha": "e0b8d416ff00a7c77a1be13075605f16397d5a45",
+      "remoteSha": "e0b8d416ff00a7c77a1be13075605f16397d5a45",
+      "size": 438
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Edge case Analysis.md": {
+      "sha": "e2a675dab6ac0d88bb74e59308ba33595e264212",
+      "remoteSha": "e2a675dab6ac0d88bb74e59308ba33595e264212",
+      "size": 9202
+    },
+    "3 - Resources/Learning/Top Deliverables CRM/Product specs.md": {
+      "sha": "9a001078e08b22d2256817edab3910205f28a164",
+      "remoteSha": "9a001078e08b22d2256817edab3910205f28a164",
+      "size": 694
+    },
+    "3 - Resources/Learning/First Principle thinking.md": {
+      "sha": "2c9b1655e18b83c2b1d1aef5427f5b0f82a38348",
+      "remoteSha": "2c9b1655e18b83c2b1d1aef5427f5b0f82a38348",
+      "size": 1262
+    },
+    "3 - Resources/Learning/Product Process/Pasted image 20260325102320.png": {
+      "sha": "26e1c66cebfb0f0d503e8bc3885836a2bd07b0ce",
+      "remoteSha": "26e1c66cebfb0f0d503e8bc3885836a2bd07b0ce",
+      "size": 173120
+    },
+    "3 - Resources/Learning/Product Process/Pasted image 20260325102236.png": {
+      "sha": "26e1c66cebfb0f0d503e8bc3885836a2bd07b0ce",
+      "remoteSha": "26e1c66cebfb0f0d503e8bc3885836a2bd07b0ce",
+      "size": 173120
+    },
+    "3 - Resources/Learning/Product Process/Next 90 Day objective - Feb 1 to Apr 30.md": {
+      "sha": "af4ae555afc8008c96f33e9ede67fca3057d35e7",
+      "remoteSha": "af4ae555afc8008c96f33e9ede67fca3057d35e7",
+      "size": 5861
+    },
+    "3 - Resources/Learning/Product Process/Atomic Habits and deliberate practice applied to product management.md": {
+      "sha": "9f5c55199d9ded4e868925eb2e0f8b7eb5694067",
+      "remoteSha": "9f5c55199d9ded4e868925eb2e0f8b7eb5694067",
+      "size": 18720
+    },
+    "3 - Resources/Learning/Product Process/Jira Process.md": {
+      "sha": "97b5f419760f274e4f27192824a8370d236ed0fe",
+      "remoteSha": "97b5f419760f274e4f27192824a8370d236ed0fe",
+      "size": 3911
+    },
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md": {
+      "sha": "f5dcc7d2474812f983d732fc96c1afdcaa9eff91",
+      "remoteSha": "f5dcc7d2474812f983d732fc96c1afdcaa9eff91",
+      "size": 2684
+    },
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.html": {
+      "sha": "b6945b9797514b781ba0f8017a0510acfe7e93f1",
+      "remoteSha": "b6945b9797514b781ba0f8017a0510acfe7e93f1",
+      "size": 22894
+    },
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-product-framework.html": {
+      "sha": "05fa9ca587cb1a0d54a7dcf7eadf42601292ead4",
+      "remoteSha": "05fa9ca587cb1a0d54a7dcf7eadf42601292ead4",
+      "size": 34437
+    },
+    "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md": {
+      "sha": "afb8a7ee6f6d54ac396eede6b524cfa8b5c9de7e",
+      "remoteSha": "afb8a7ee6f6d54ac396eede6b524cfa8b5c9de7e",
+      "size": 12677
+    },
+    "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md": {
+      "sha": "63f7c50c11b63ea3b77443836470d0591c08a686",
+      "remoteSha": "63f7c50c11b63ea3b77443836470d0591c08a686",
+      "size": 2505
+    },
+    "3 - Resources/Learning/Data Science/mathematics I/Mathematics.md": {
+      "sha": "2e09cd5133eafbdcb61009322804290f7de31f3e",
+      "remoteSha": "2e09cd5133eafbdcb61009322804290f7de31f3e",
+      "size": 146
+    },
+    "3 - Resources/Learning/Data Science/mathematics I/Week 1.md": {
+      "sha": "814232fbf1b7e8903ffd6a88d056ce88a00b9c82",
+      "remoteSha": "814232fbf1b7e8903ffd6a88d056ce88a00b9c82",
+      "size": 563
+    },
+    "3 - Resources/Learning/Data Science/mathematics I/Formulas Mathematics.md": {
+      "sha": "9f7b980d3c22ea18f6bdbeba4960d991101df10b",
+      "remoteSha": "9f7b980d3c22ea18f6bdbeba4960d991101df10b",
+      "size": 4616
+    },
+    "3 - Resources/Learning/Domain Design/Domain diagram.md": {
+      "sha": "313edb0ab97e4aa3f7192f1f9e40a659c9f1b5b4",
+      "remoteSha": "313edb0ab97e4aa3f7192f1f9e40a659c9f1b5b4",
+      "size": 5900
+    },
+    "3 - Resources/Learning/Domain Design/ERD.md": {
+      "sha": "59e76ff60a0c7a85445393d823df8319629c8a4b",
+      "remoteSha": "59e76ff60a0c7a85445393d823df8319629c8a4b",
+      "size": 3820
+    },
+    "3 - Resources/Learning/Domain Design/Cardinality.jpg": {
+      "sha": "49a0638d158324ce83af90cde730101cca708184",
+      "remoteSha": "49a0638d158324ce83af90cde730101cca708184",
+      "size": 23655
+    },
+    "3 - Resources/Learning/Domain Design/Evans03.pdf": {
+      "sha": "3af283e9a5cad2a14bb1ae8f9450eadec4bb71ab",
+      "remoteSha": "3af283e9a5cad2a14bb1ae8f9450eadec4bb71ab",
+      "size": 4646068
+    },
+    "3 - Resources/Learning/Ai fluency Framework and  foundations.md": {
+      "sha": "dbba8b0350f5dc9f4805884450a3585a20f94643",
+      "remoteSha": "dbba8b0350f5dc9f4805884450a3585a20f94643",
+      "size": 643
+    },
+    "3 - Resources/Learning/ARCA AI/UTITSL_102/Pasted image 20260301123651.png": {
+      "sha": "560d304111bfce131f48e26c2d6a24e731663cec",
+      "remoteSha": "560d304111bfce131f48e26c2d6a24e731663cec",
+      "size": 49012
+    },
+    "3 - Resources/Learning/ARCA AI/UTITSL_102/UTITSL_102 - Tech Doc.md": {
+      "sha": "43252b3d9821a7109daebbcd01ae7fb40b3a9136",
+      "remoteSha": "43252b3d9821a7109daebbcd01ae7fb40b3a9136",
+      "size": 24125
+    },
+    "3 - Resources/Learning/ARCA AI/UTITSL_102/Pasted image 20260301121747.png": {
+      "sha": "461d1c44f1cd6002c003bb93bb2f9686b8555164",
+      "remoteSha": "461d1c44f1cd6002c003bb93bb2f9686b8555164",
+      "size": 89827
+    },
+    "3 - Resources/Learning/ARCA AI/UTITSL_102/ERd.md": {
+      "sha": "4c9502f350651e8ea6b6930d8fbecc05024dda7e",
+      "remoteSha": "4c9502f350651e8ea6b6930d8fbecc05024dda7e",
+      "size": 13
+    },
+    "3 - Resources/Learning/ARCA AI/UTITSL_102/Design diagram.md": {
+      "sha": "846eb0a56500604228a2ef334b7867f4b08d4a45",
+      "remoteSha": "846eb0a56500604228a2ef334b7867f4b08d4a45",
+      "size": 6630
+    },
+    "3 - Resources/Learning/ARCA AI/logstash/Logstash.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "3 - Resources/Learning/ARCA AI/Kiabana/Kibana.md": {
+      "sha": "195897f056744655a8d261b8e387b350995b6b2d",
+      "remoteSha": "195897f056744655a8d261b8e387b350995b6b2d",
+      "size": 2260
+    },
+    "3 - Resources/Learning/ARCA AI/Grafana/Grafana.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "3 - Resources/Learning/ARCA AI/Elastic Search/Elastic Search.md": {
+      "sha": "37b354cab51031f7b4177decf730897d4acb980a",
+      "remoteSha": "37b354cab51031f7b4177decf730897d4acb980a",
+      "size": 2467
+    },
+    "3 - Resources/Learning/ARCA AI/ECHS Data Info/ECHS – Knowledge Transfer (KT) Document.md": {
+      "sha": "4ffaec44d9927aefa1630ff59c78acb9c08a96c9",
+      "remoteSha": "4ffaec44d9927aefa1630ff59c78acb9c08a96c9",
+      "size": 6719
+    },
+    "3 - Resources/Learning/ARCA AI/Cred/Cred.md": {
+      "sha": "4fe147451270325c2da2bbaf22d08aaaf5ea6ce6",
+      "remoteSha": "4fe147451270325c2da2bbaf22d08aaaf5ea6ce6",
+      "size": 501
+    },
+    "3 - Resources/Frameworks/Pasted image 20260601143957.png": {
+      "sha": "08426738c18942750c7e92b0c83487bf6bb5d1e7",
+      "remoteSha": "08426738c18942750c7e92b0c83487bf6bb5d1e7",
+      "size": 253632
+    },
+    "3 - Resources/Frameworks/Feature Lens — How It Works.md": {
+      "sha": "58dd8504896dec7e616e2015d81e2dd2502d7b4d",
+      "remoteSha": "58dd8504896dec7e616e2015d81e2dd2502d7b4d",
+      "size": 10476
+    },
+    "3 - Resources/Books/கல்வி ஓர் அரசியல்.md": {
+      "sha": "dc3bb320eebf0bf853f3ad6219f79eca7d7902a6",
+      "remoteSha": "dc3bb320eebf0bf853f3ad6219f79eca7d7902a6",
+      "size": 215
+    },
+    "3 - Resources/Books/To Kill a Mocking bird.md": {
+      "sha": "29c4f77e7260f002ca7a8244c67b0e0ff1f7ee68",
+      "remoteSha": "29c4f77e7260f002ca7a8244c67b0e0ff1f7ee68",
+      "size": 293
+    },
+    "3 - Resources/Books/மகிழ்ச்சியான பன்றிக்குட்டி.md": {
+      "sha": "ada73885841f1ab5409f9184a3f341dd9c22c47b",
+      "remoteSha": "ada73885841f1ab5409f9184a3f341dd9c22c47b",
+      "size": 258
+    },
+    "3 - Resources/Books/The Courage to be Disliked.md": {
+      "sha": "192e8f328bdb36dd1928d376a57c2537648064cf",
+      "remoteSha": "192e8f328bdb36dd1928d376a57c2537648064cf",
+      "size": 360
+    },
+    "3 - Resources/Books/The Design of Everyday things.md": {
+      "sha": "d42c12b6c8589e45df3e01352fe7b77e85c6b673",
+      "remoteSha": "d42c12b6c8589e45df3e01352fe7b77e85c6b673",
+      "size": 319
+    },
+    "3 - Resources/Books/Thinking fast and slow.md": {
+      "sha": "b4e3f448f7cd9555abdb302686767f1c70f60b1b",
+      "remoteSha": "b4e3f448f7cd9555abdb302686767f1c70f60b1b",
+      "size": 343
+    },
+    "3 - Resources/Books/Tiny Experiments.md": {
+      "sha": "7fdd55a245c84016d0312580e89c061e9f290305",
+      "remoteSha": "7fdd55a245c84016d0312580e89c061e9f290305",
+      "size": 387
+    },
+    "3 - Resources/Books/The Metamorphosis.md": {
+      "sha": "71b04aff933a5caccb2867f196620265e2dec247",
+      "remoteSha": "71b04aff933a5caccb2867f196620265e2dec247",
+      "size": 338
+    },
+    "3 - Resources/Books/The lean startup.md": {
+      "sha": "1f42215139492ce792ce2a803bc3d1e06735ad4b",
+      "remoteSha": "1f42215139492ce792ce2a803bc3d1e06735ad4b",
+      "size": 259
+    },
+    "3 - Resources/Books/The bullshit jobs.md": {
+      "sha": "48b37ea6ef3afdee31fd2cb4d3daf3cf8e26a103",
+      "remoteSha": "48b37ea6ef3afdee31fd2cb4d3daf3cf8e26a103",
+      "size": 261
+    },
+    "3 - Resources/Books/The Thirteen Problems.md": {
+      "sha": "ba711b3e07f445042a985703be5b05f172ceb882",
+      "remoteSha": "ba711b3e07f445042a985703be5b05f172ceb882",
+      "size": 292
+    },
+    "3 - Resources/Books/The Business Of Belonging.md": {
+      "sha": "d22f7b7891261ff54a074ad501262b98c97c0eaf",
+      "remoteSha": "d22f7b7891261ff54a074ad501262b98c97c0eaf",
+      "size": 285
+    },
+    "3 - Resources/Books/The 80'20 Principle.md": {
+      "sha": "ceaf925a2fd2622b052586af849f6107a5afdced",
+      "remoteSha": "ceaf925a2fd2622b052586af849f6107a5afdced",
+      "size": 282
+    },
+    "3 - Resources/Books/A little life.md": {
+      "sha": "45eaacaffeadecb8fa8573a97c303e6486946204",
+      "remoteSha": "45eaacaffeadecb8fa8573a97c303e6486946204",
+      "size": 311
+    },
+    "3 - Resources/Books/Read List/Read List.md": {
+      "sha": "cb0221abaed9bd9b4f53954d6cffd7362ab5c561",
+      "remoteSha": "cb0221abaed9bd9b4f53954d6cffd7362ab5c561",
+      "size": 2034
+    },
+    "3 - Resources/Books/Read List/Untitled.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "3 - Resources/Books/Read List/Screenshot_20260316-101854.png": {
+      "sha": "a21d8ab2c17b81dbeb792713f01e87a82e6d9bc0",
+      "remoteSha": "a21d8ab2c17b81dbeb792713f01e87a82e6d9bc0",
+      "size": 823852
+    },
+    "3 - Resources/Books/Read List/Analogy vs Analogical thinking.pdf": {
+      "sha": "07216d581c806c90cdc2a8ab45c2ddd708eb93de",
+      "remoteSha": "07216d581c806c90cdc2a8ab45c2ddd708eb93de",
+      "size": 1877474
+    },
+    "3 - Resources/Books/Hooked.md": {
+      "sha": "ef0c58e0bf36786e8271d6bba20462cac41234a4",
+      "remoteSha": "ef0c58e0bf36786e8271d6bba20462cac41234a4",
+      "size": 304
+    },
+    "3 - Resources/Books/Crime and punishment.md": {
+      "sha": "242e16d74a51155bafdf4dbc6afee2ed401cd54c",
+      "remoteSha": "242e16d74a51155bafdf4dbc6afee2ed401cd54c",
+      "size": 311
+    },
+    "3 - Resources/Books/Creative Selection.md": {
+      "sha": "564e4dba25a5a5eb3af558d1eb97291102a38cec",
+      "remoteSha": "564e4dba25a5a5eb3af558d1eb97291102a38cec",
+      "size": 312
+    },
+    "3 - Resources/Books/Atomic Design.md": {
+      "sha": "8d846ec960bb964dade3c17aa529398fa1329b1e",
+      "remoteSha": "8d846ec960bb964dade3c17aa529398fa1329b1e",
+      "size": 196
+    },
+    "3 - Resources/Books/Annihilation of Caste.md": {
+      "sha": "4e05d617182d32cea5464ec70008bd664cd82b4e",
+      "remoteSha": "4e05d617182d32cea5464ec70008bd664cd82b4e",
+      "size": 329
+    },
+    "Clippings/vercel-labsagent-skills Vercel's official collection of agent skills.md": {
+      "sha": "e9dc28185a3a6997dff8e63067fcbb79a65e961f",
+      "remoteSha": "e9dc28185a3a6997dff8e63067fcbb79a65e961f",
+      "size": 6414
+    },
+    "Clippings/thedotmackclaude-mem.md": {
+      "sha": "4583a88a7b6ff21e5972af26d8c25270580bb338",
+      "remoteSha": "4583a88a7b6ff21e5972af26d8c25270580bb338",
+      "size": 16533
+    },
+    "Clippings/phurynpm-skills PM Skills Marketplace 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth..md": {
+      "sha": "94b618beab98a562a73542945751bd74501a3415",
+      "remoteSha": "94b618beab98a562a73542945751bd74501a3415",
+      "size": 22235
+    },
+    "Clippings/What we look for in product managers - Handbook.md": {
+      "sha": "4ce796d09f8f4995082986b82ee141dd746eceb2",
+      "remoteSha": "4ce796d09f8f4995082986b82ee141dd746eceb2",
+      "size": 5973
+    },
+    "Clippings/grill-me — mattpocockskills.md": {
+      "sha": "c321ea54bd9de2c8375dea1b27b2250b1c8c9ae1",
+      "remoteSha": "c321ea54bd9de2c8375dea1b27b2250b1c8c9ae1",
+      "size": 1390
+    },
+    "Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md": {
+      "sha": "832df59e0afb22e82dd448eee902a25c39c5a573",
+      "remoteSha": "832df59e0afb22e82dd448eee902a25c39c5a573",
+      "size": 12645
+    },
+    "Clippings/agent-browserskillsagent-browserSKILL.md at main.md": {
+      "sha": "9202b2abcdfe5a3f2c3ea0cf1ef171af2cb9786e",
+      "remoteSha": "9202b2abcdfe5a3f2c3ea0cf1ef171af2cb9786e",
+      "size": 59430
+    },
+    "Clippings/A motion design skill with two modes.md": {
+      "sha": "88cb9841924e0acdd9c5d4b3376d0f9ef5aa7acb",
+      "remoteSha": "88cb9841924e0acdd9c5d4b3376d0f9ef5aa7acb",
+      "size": 7205
+    },
+    "Clippings/The design language that makes your AI harness better at design..md": {
+      "sha": "595ea2bddb1f8c86ad0e47af3e2f15047d45aeaa",
+      "remoteSha": "595ea2bddb1f8c86ad0e47af3e2f15047d45aeaa",
+      "size": 10338
+    },
+    "Clippings/What product managers do at PostHog - Handbook.md": {
+      "sha": "bcd05b69512299369376e24c8a2d00adb6c227b5",
+      "remoteSha": "bcd05b69512299369376e24c8a2d00adb6c227b5",
+      "size": 9134
+    },
+    "Clippings/How to find edge cases before they become expensive issues.md": {
+      "sha": "24d05a9963168a25ee7fe737025e5ccb6239bbb6",
+      "remoteSha": "24d05a9963168a25ee7fe737025e5ccb6239bbb6",
+      "size": 11641
+    },
+    "Clippings/Agents in AI.md": {
+      "sha": "d1bd3443c26d5adf1cd1d72b6daca270c30a2aa3",
+      "remoteSha": "d1bd3443c26d5adf1cd1d72b6daca270c30a2aa3",
+      "size": 11541
+    },
+    "4 - Archive/cards/banyan_config/editor_placeholder.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/TO DO List - today.md": {
+      "sha": "411721e2de6961e6666aa31c564cc1f28acdec1c",
+      "remoteSha": "411721e2de6961e6666aa31c564cc1f28acdec1c",
+      "size": 2459
+    },
+    "4 - Archive/Sparrowgenie/Multi Document Support.md": {
+      "sha": "a9a7d4fa3cc760222e07d48923e8802852b2e341",
+      "remoteSha": "a9a7d4fa3cc760222e07d48923e8802852b2e341",
+      "size": 24953
+    },
+    "4 - Archive/Sparrowgenie/laundry list.md": {
+      "sha": "efdd3c888923c5f690b08aa3523a2e82b64238fb",
+      "remoteSha": "efdd3c888923c5f690b08aa3523a2e82b64238fb",
+      "size": 145
+    },
+    "4 - Archive/Sparrowgenie/Year2026/Quarter2/Month04/Day27/2026-04-27 16-24-02.md": {
+      "sha": "6e94d062f8424bae51a11816744bd6343fb15dcd",
+      "remoteSha": "6e94d062f8424bae51a11816744bd6343fb15dcd",
+      "size": 17
+    },
+    "4 - Archive/Sparrowgenie/Wireframe/wireframe.html": {
+      "sha": "2f2618fba5946cd911b64416a10b2a16be035fb1",
+      "remoteSha": "2f2618fba5946cd911b64416a10b2a16be035fb1",
+      "size": 191709
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Users tab.md": {
+      "sha": "a38cafb95ba29cea80382e2a1c8cf0405a415d12",
+      "remoteSha": "a38cafb95ba29cea80382e2a1c8cf0405a415d12",
+      "size": 1663
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.48.54 PM.png": {
+      "sha": "69d5310e585379a3f7a4ca60e95c211b3a219bf0",
+      "remoteSha": "69d5310e585379a3f7a4ca60e95c211b3a219bf0",
+      "size": 71726
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.48.28 PM.png": {
+      "sha": "92a0dfb08d37762ade5b72c01eaee895bc1b6bc8",
+      "remoteSha": "92a0dfb08d37762ade5b72c01eaee895bc1b6bc8",
+      "size": 86755
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.47.56 PM.png": {
+      "sha": "adaac577c79df0bedc9dbdd0a1fdbf53425fc97b",
+      "remoteSha": "adaac577c79df0bedc9dbdd0a1fdbf53425fc97b",
+      "size": 40103
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.31.37 PM.png": {
+      "sha": "7439097ef095e2f59fa90940252a163961d90e13",
+      "remoteSha": "7439097ef095e2f59fa90940252a163961d90e13",
+      "size": 87473
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Roles and Permissions.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Remove User from Workspace.md": {
+      "sha": "11660b9af7edaf42a7dd2b81f339bba93c6feda7",
+      "remoteSha": "11660b9af7edaf42a7dd2b81f339bba93c6feda7",
+      "size": 380
+    },
+    "4 - Archive/Sparrowgenie/Users/Sep2.security.md": {
+      "sha": "aa0ccae84014252cc7d04750af68876a9000fda8",
+      "remoteSha": "aa0ccae84014252cc7d04750af68876a9000fda8",
+      "size": 2677
+    },
+    "4 - Archive/Sparrowgenie/Users/Home page.md": {
+      "sha": "7cf45c6cf120cdb44a3a6e569679e7763dabc148",
+      "remoteSha": "7cf45c6cf120cdb44a3a6e569679e7763dabc148",
+      "size": 51
+    },
+    "4 - Archive/Sparrowgenie/Users/Untitled.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Users/Untitled.base": {
+      "sha": "dee04e75ec985edbd02f8442ebf8afdce8db4db2",
+      "remoteSha": "dee04e75ec985edbd02f8442ebf8afdce8db4db2",
+      "size": 133
+    },
+    "4 - Archive/Sparrowgenie/UX Changes/Sign up and Onboarding mails.md": {
+      "sha": "018acecffb6454dc95be45cc2ea0f7458c65cb95",
+      "remoteSha": "018acecffb6454dc95be45cc2ea0f7458c65cb95",
+      "size": 874
+    },
+    "4 - Archive/Sparrowgenie/UX Changes/Loading screen after finish mapping.md": {
+      "sha": "9920e5245952171a524e4713134401ccc6ff3f03",
+      "remoteSha": "9920e5245952171a524e4713134401ccc6ff3f03",
+      "size": 575
+    },
+    "4 - Archive/Sparrowgenie/UX Changes/Genie Contribution.md": {
+      "sha": "1d669b3262bfbbaff02dab3a0c6af0b7fb44dbc7",
+      "remoteSha": "1d669b3262bfbbaff02dab3a0c6af0b7fb44dbc7",
+      "size": 601
+    },
+    "4 - Archive/Sparrowgenie/User Roles/Project/Question card/Reviewer.md": {
+      "sha": "a0d834d437eb156d39d3852ee3f204b00906d2b6",
+      "remoteSha": "a0d834d437eb156d39d3852ee3f204b00906d2b6",
+      "size": 28
+    },
+    "4 - Archive/Sparrowgenie/User Roles/Project/Question card/Author.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/User Roles/Project/Project Watcher.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/User Roles/Project/Project Manager.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/User Roles/Project/Project Owner.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/UAT/Screenshot 2026-04-24 at 2.44.31 PM.png": {
+      "sha": "30a5f6825e2ab243fbc05de00cf9bded34709c5b",
+      "remoteSha": "30a5f6825e2ab243fbc05de00cf9bded34709c5b",
+      "size": 161694
+    },
+    "4 - Archive/Sparrowgenie/UAT/Screenshot 2026-04-24 at 2.43.29 PM.png": {
+      "sha": "74326e15bc3cef8f56a126202e985f98bb1730fc",
+      "remoteSha": "74326e15bc3cef8f56a126202e985f98bb1730fc",
+      "size": 278655
+    },
+    "4 - Archive/Sparrowgenie/UAT/AS 9100 D Certification Roadmap.md": {
+      "sha": "c43709fa12f9925c6ed83332c3ff9c69012b840b",
+      "remoteSha": "c43709fa12f9925c6ed83332c3ff9c69012b840b",
+      "size": 38100
+    },
+    "4 - Archive/Sparrowgenie/UAT/UAT Vipin.md": {
+      "sha": "ad4200356e1bb828ac45462cde177596d9574537",
+      "remoteSha": "ad4200356e1bb828ac45462cde177596d9574537",
+      "size": 5790
+    },
+    "4 - Archive/Sparrowgenie/UAT/UAT Arya.md": {
+      "sha": "8d3f6bd80eca9bb86963d87b91bf227b09b372bd",
+      "remoteSha": "8d3f6bd80eca9bb86963d87b91bf227b09b372bd",
+      "size": 58
+    },
+    "4 - Archive/Sparrowgenie/UAT/Shihab Document.md": {
+      "sha": "153954ec836b7fd7221b85256efd8e634f2c33de",
+      "remoteSha": "153954ec836b7fd7221b85256efd8e634f2c33de",
+      "size": 1005
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Product thinking.md": {
+      "sha": "fd4568dbc972de36fbbe95eeec57051db96543a3",
+      "remoteSha": "fd4568dbc972de36fbbe95eeec57051db96543a3",
+      "size": 434
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Edge case Analysis.md": {
+      "sha": "e2a675dab6ac0d88bb74e59308ba33595e264212",
+      "remoteSha": "e2a675dab6ac0d88bb74e59308ba33595e264212",
+      "size": 9202
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png": {
+      "sha": "1ac600890046571bcfc2583dc10011da424d54bf",
+      "remoteSha": "1ac600890046571bcfc2583dc10011da424d54bf",
+      "size": 752801
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png": {
+      "sha": "9428f3ac8eb26cbde9462457cf75733dc2912855",
+      "remoteSha": "9428f3ac8eb26cbde9462457cf75733dc2912855",
+      "size": 1487614
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Rigor of thoughts.md": {
+      "sha": "07808ec21c082886aa1f506f0dcc87026761f663",
+      "remoteSha": "07808ec21c082886aa1f506f0dcc87026761f663",
+      "size": 2031
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Decisions.md": {
+      "sha": "c242b7584f3426479293a2e29deeaab0889e5149",
+      "remoteSha": "c242b7584f3426479293a2e29deeaab0889e5149",
+      "size": 3888
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Product Management - Top Deliverables.md": {
+      "sha": "ce6da60fac11e0a09eb65cd2ff9f8e1644dbdec8",
+      "remoteSha": "ce6da60fac11e0a09eb65cd2ff9f8e1644dbdec8",
+      "size": 1401
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Product specs.md": {
+      "sha": "ef4ee9356cff865b71845eea6e48b001cbcc6b58",
+      "remoteSha": "ef4ee9356cff865b71845eea6e48b001cbcc6b58",
+      "size": 692
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Product Roadmap.md": {
+      "sha": "459989289885e1a7ec785d17ecce2e6adb5f0e32",
+      "remoteSha": "459989289885e1a7ec785d17ecce2e6adb5f0e32",
+      "size": 165
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Customer Insights.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Top Deliverables/Metrics & Dashboards.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/claim.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas": {
+      "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "remoteSha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "size": 2
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.md": {
+      "sha": "2aabce4333265cfdf8884907f4ac3a3233889ada",
+      "remoteSha": "2aabce4333265cfdf8884907f4ac3a3233889ada",
+      "size": 7821
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Teams check.md": {
+      "sha": "04c0497a4037dcb0e7e8a88bd8da5a9b36809de3",
+      "remoteSha": "04c0497a4037dcb0e7e8a88bd8da5a9b36809de3",
+      "size": 7212
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/What Do we need for Teams.md": {
+      "sha": "a7cea6b23192c038362940b201f072195d5423a3",
+      "remoteSha": "a7cea6b23192c038362940b201f072195d5423a3",
+      "size": 629
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Untitled.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Sensitive  projects.md": {
+      "sha": "c675559146d756090e6550dc1c01244ebdad87fa",
+      "remoteSha": "c675559146d756090e6550dc1c01244ebdad87fa",
+      "size": 863
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Functional Requirements.md": {
+      "sha": "4f5b3fbdbdd9bbe701d7d801c1322fd45647c9a6",
+      "remoteSha": "4f5b3fbdbdd9bbe701d7d801c1322fd45647c9a6",
+      "size": 952
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Known Unknown Matrix.md": {
+      "sha": "4dbaeea41fc04f7fe13c6794caa9f44a392e03e3",
+      "remoteSha": "4dbaeea41fc04f7fe13c6794caa9f44a392e03e3",
+      "size": 1344
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Assigning to the section.md": {
+      "sha": "bf4e4bdb741309fecd6946de214507d04eab1c5f",
+      "remoteSha": "bf4e4bdb741309fecd6946de214507d04eab1c5f",
+      "size": 4865
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Nested Hierarchy Teams (Nice to have).md": {
+      "sha": "dc4a3b0b99977eca2a6dc2939c9d05a267835bc5",
+      "remoteSha": "dc4a3b0b99977eca2a6dc2939c9d05a267835bc5",
+      "size": 611
+    },
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Dual-Layer Team.md": {
+      "sha": "cce67e5b9c20b46b5a1e0d957e26e685e1627eb7",
+      "remoteSha": "cce67e5b9c20b46b5a1e0d957e26e685e1627eb7",
+      "size": 965
+    },
+    "4 - Archive/Sparrowgenie/Table View/Table view for question card PRD.md": {
+      "sha": "800a64591b60d9cf1a59ae2306f215889d8b8b4f",
+      "remoteSha": "800a64591b60d9cf1a59ae2306f215889d8b8b4f",
+      "size": 1558
+    },
+    "4 - Archive/Sparrowgenie/Table View/First Principle thinking - Table View.md": {
+      "sha": "a7a731713b86dc87215f183993a265403d67b944",
+      "remoteSha": "a7a731713b86dc87215f183993a265403d67b944",
+      "size": 6224
+    },
+    "4 - Archive/Sparrowgenie/Sparrow Genie - Project Phase II.md": {
+      "sha": "cc82cd3df38e31fda4f219213904c41bbd4807bb",
+      "remoteSha": "cc82cd3df38e31fda4f219213904c41bbd4807bb",
+      "size": 478
+    },
+    "4 - Archive/Sparrowgenie/SparrowGenie.excalidraw.md": {
+      "sha": "85ff8931df81abf08f24cb84859fb0015c2c09ab",
+      "remoteSha": "85ff8931df81abf08f24cb84859fb0015c2c09ab",
+      "size": 55357
+    },
+    "4 - Archive/Sparrowgenie/Integrations.md": {
+      "sha": "3f4091fb5277ce9f9b40ebc41907b05221128bf0",
+      "remoteSha": "3f4091fb5277ce9f9b40ebc41907b05221128bf0",
+      "size": 1636
+    },
+    "4 - Archive/Sparrowgenie/Sparrow Genie Notes.md": {
+      "sha": "0f8e141a55090f32b5faf472d890681948334657",
+      "remoteSha": "0f8e141a55090f32b5faf472d890681948334657",
+      "size": 409
+    },
+    "4 - Archive/Sparrowgenie/Salesforce Integration.md": {
+      "sha": "c8211221694ff0d8632bd0d788dc1e9bf0e7728f",
+      "remoteSha": "c8211221694ff0d8632bd0d788dc1e9bf0e7728f",
+      "size": 1447
+    },
+    "4 - Archive/Sparrowgenie/Proposals/Share for the proposal/Share first principle.md": {
+      "sha": "f5fdfde62c7b48c800e58737f07842a81cf0a70c",
+      "remoteSha": "f5fdfde62c7b48c800e58737f07842a81cf0a70c",
+      "size": 90
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Creation Flow.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Project - Proposals.md": {
+      "sha": "578c937c17baaae23a89665aa03c219230838017",
+      "remoteSha": "578c937c17baaae23a89665aa03c219230838017",
+      "size": 54
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/wireframe.html": {
+      "sha": "2477bdaf123e9feb2c5cce53c1e137df4527b32f",
+      "remoteSha": "2477bdaf123e9feb2c5cce53c1e137df4527b32f",
+      "size": 106536
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/RFP to Proposal.md": {
+      "sha": "e5cc41d3a335993abe087a4a33c55c42a41c7ea7",
+      "remoteSha": "e5cc41d3a335993abe087a4a33c55c42a41c7ea7",
+      "size": 8511
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Conversion.md": {
+      "sha": "317fc9b1aaf166a98ab2b0ed3181b7ee4f5d4045",
+      "remoteSha": "317fc9b1aaf166a98ab2b0ed3181b7ee4f5d4045",
+      "size": 49541
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Project Share - RFx and Proposal.md": {
+      "sha": "5475b8ffaab6cae33249e8573a2a8f874452947d",
+      "remoteSha": "5475b8ffaab6cae33249e8573a2a8f874452947d",
+      "size": 27337
+    },
+    "4 - Archive/Sparrowgenie/Proposals/RFP to Proposal/Proposal Conversion Flow.md": {
+      "sha": "c60211f2d0f3e272c3a4b02dcb8548b77935b8cb",
+      "remoteSha": "c60211f2d0f3e272c3a4b02dcb8548b77935b8cb",
+      "size": 5847
+    },
+    "4 - Archive/Sparrowgenie/Proposals/Proposal Template flow.md": {
+      "sha": "95ba4e67acab9ee53093963313509dc16597ad6d",
+      "remoteSha": "95ba4e67acab9ee53093963313509dc16597ad6d",
+      "size": 14574
+    },
+    "4 - Archive/Sparrowgenie/Proposals/My Templates - Proposal (Next phase).md": {
+      "sha": "422ac89610d5a4df9ec60327dfde77b06edaabd1",
+      "remoteSha": "422ac89610d5a4df9ec60327dfde77b06edaabd1",
+      "size": 22739
+    },
+    "4 - Archive/Sparrowgenie/Proposals/Genie Templates - Propsals.md": {
+      "sha": "9eed97f0f451f3f4ce9acffb1a08e7cbbf38d899",
+      "remoteSha": "9eed97f0f451f3f4ce9acffb1a08e7cbbf38d899",
+      "size": 19470
+    },
+    "4 - Archive/Sparrowgenie/Proposals/Company Templates - Proposal.md": {
+      "sha": "9a44b162ff7e6976e3aa159e2b9e4d738ca1d012",
+      "remoteSha": "9a44b162ff7e6976e3aa159e2b9e4d738ca1d012",
+      "size": 22247
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Screenshot 2026-02-09 at 3.57.02 PM.png": {
+      "sha": "4484b8da7d2e975c115d4506f0fcc580986dc758",
+      "remoteSha": "4484b8da7d2e975c115d4506f0fcc580986dc758",
+      "size": 11736
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Screenshot 2026-02-09 at 7.28.33 PM.png": {
+      "sha": "360558246aa544c9c7aaf649cd5add9c8c33748b",
+      "remoteSha": "360558246aa544c9c7aaf649cd5add9c8c33748b",
+      "size": 91696
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Rich text vs RTF.md": {
+      "sha": "f1bec5d45ec213e98a5f59bf7fdb666449d751b5",
+      "remoteSha": "f1bec5d45ec213e98a5f59bf7fdb666449d751b5",
+      "size": 4914
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/WYSIWYG editor - First Principle.md": {
+      "sha": "679f14f55297cc110a835ecebd87e30216abca04",
+      "remoteSha": "679f14f55297cc110a835ecebd87e30216abca04",
+      "size": 4845
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/WYSIWYG Editor _ PRD.md": {
+      "sha": "3b2d2f309e48ff3c0ee89dbf5c33b47ef246d73f",
+      "remoteSha": "3b2d2f309e48ff3c0ee89dbf5c33b47ef246d73f",
+      "size": 3747
+    },
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Final PRD -Rich Text Editor for Project Response Area.md": {
+      "sha": "c61bfb2bef0acec5ed543ea56fb63ac6aef11692",
+      "remoteSha": "c61bfb2bef0acec5ed543ea56fb63ac6aef11692",
+      "size": 3355
+    },
+    "4 - Archive/Sparrowgenie/Questions/Save to QnA/Save to QnA PRD.md": {
+      "sha": "208613f503fee26d7be2cc5c8cb31bb5d18d3986",
+      "remoteSha": "208613f503fee26d7be2cc5c8cb31bb5d18d3986",
+      "size": 7873
+    },
+    "4 - Archive/Sparrowgenie/Questions/Insert from QnA.md": {
+      "sha": "bce35adc28efff940027b949423ee3046f186342",
+      "remoteSha": "bce35adc28efff940027b949423ee3046f186342",
+      "size": 5254
+    },
+    "4 - Archive/Sparrowgenie/Questions/Filters for project/Filter inside the projects screen for the question cards.md": {
+      "sha": "a159033180291866bcbe9c819110b1ef318099e9",
+      "remoteSha": "a159033180291866bcbe9c819110b1ef318099e9",
+      "size": 29342
+    },
+    "4 - Archive/Sparrowgenie/Project admin settings.md": {
+      "sha": "3dc239282e92914adf52808c80667364bc76315a",
+      "remoteSha": "3dc239282e92914adf52808c80667364bc76315a",
+      "size": 1819
+    },
+    "4 - Archive/Sparrowgenie/Progress Bar/progress-wireframe.html": {
+      "sha": "295d7e18cc6d7ba43f71534bb32ce58096865e54",
+      "remoteSha": "295d7e18cc6d7ba43f71534bb32ce58096865e54",
+      "size": 38293
+    },
+    "4 - Archive/Sparrowgenie/Progress Bar/Decision-State Progress Bars.md": {
+      "sha": "6481813453c70a96445b55f43a56cf3ec06504a4",
+      "remoteSha": "6481813453c70a96445b55f43a56cf3ec06504a4",
+      "size": 8657
+    },
+    "4 - Archive/Sparrowgenie/Onboarding Emails Reference.md": {
+      "sha": "6214a4c34f32e1a1690473cb9dd33e76b760c8ab",
+      "remoteSha": "6214a4c34f32e1a1690473cb9dd33e76b760c8ab",
+      "size": 210
+    },
+    "4 - Archive/Sparrowgenie/Demo/SparrowGenie_Demo_Prep_SPIN_FAB.html": {
+      "sha": "b5e228250d74a2840195abcc46bc4102805c0a77",
+      "remoteSha": "b5e228250d74a2840195abcc46bc4102805c0a77",
+      "size": 64246
+    },
+    "4 - Archive/Sparrowgenie/Demo/Demo.md": {
+      "sha": "3a1473499545f00cf62560ec7ae7d487a8faa0f0",
+      "remoteSha": "3a1473499545f00cf62560ec7ae7d487a8faa0f0",
+      "size": 2135
+    },
+    "4 - Archive/Sparrowgenie/Obligations/UAT - 23022026.md": {
+      "sha": "97db746a1f8d61f0fd3d70f42a10d992ebf9d92b",
+      "remoteSha": "97db746a1f8d61f0fd3d70f42a10d992ebf9d92b",
+      "size": 142
+    },
+    "4 - Archive/Sparrowgenie/Obligations/Screenshot 2026-02-17 at 5.30.06 PM.png": {
+      "sha": "f94c43fd37506bcdad443ba86437d5437ed71080",
+      "remoteSha": "f94c43fd37506bcdad443ba86437d5437ed71080",
+      "size": 77219
+    },
+    "4 - Archive/Sparrowgenie/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov": {
+      "sha": "95ee985d27c8cf353f14f1ebbf2778f369082909",
+      "remoteSha": "95ee985d27c8cf353f14f1ebbf2778f369082909",
+      "size": 1782352
+    },
+    "4 - Archive/Sparrowgenie/Obligations/Obligations.md": {
+      "sha": "79be90ff3c081e152779c73ef002df3374cbf93a",
+      "remoteSha": "79be90ff3c081e152779c73ef002df3374cbf93a",
+      "size": 9392
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.18.13 PM.png": {
+      "sha": "6a814f0ba3f0058ff8efe5ecabb1e9e8a0d1015a",
+      "remoteSha": "6a814f0ba3f0058ff8efe5ecabb1e9e8a0d1015a",
+      "size": 257209
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.16.47 PM 1.png": {
+      "sha": "23bafe4639baa6d04b1cb24707978ed6a79f38db",
+      "remoteSha": "23bafe4639baa6d04b1cb24707978ed6a79f38db",
+      "size": 228622
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.14.25 PM.png": {
+      "sha": "ab724c9be16df2c0895896e8152cfe051ae62fe3",
+      "remoteSha": "ab724c9be16df2c0895896e8152cfe051ae62fe3",
+      "size": 272715
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.28.01 PM.png": {
+      "sha": "99d4e2de59e077f1e9cff630a1704e0b1aa353a6",
+      "remoteSha": "99d4e2de59e077f1e9cff630a1704e0b1aa353a6",
+      "size": 289328
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.28.01 PM 1.png": {
+      "sha": "99d4e2de59e077f1e9cff630a1704e0b1aa353a6",
+      "remoteSha": "99d4e2de59e077f1e9cff630a1704e0b1aa353a6",
+      "size": 289328
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.23.38 PM.png": {
+      "sha": "5910142a32de705d23ed07d61c723cfd4036e13c",
+      "remoteSha": "5910142a32de705d23ed07d61c723cfd4036e13c",
+      "size": 248416
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.20.56 PM.png": {
+      "sha": "7ff2dabf832a3b6b455c8337f110b5ccb841e938",
+      "remoteSha": "7ff2dabf832a3b6b455c8337f110b5ccb841e938",
+      "size": 283077
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.16.47 PM.png": {
+      "sha": "23bafe4639baa6d04b1cb24707978ed6a79f38db",
+      "remoteSha": "23bafe4639baa6d04b1cb24707978ed6a79f38db",
+      "size": 228622
+    },
+    "4 - Archive/Sparrowgenie/Answers/Answer types.md": {
+      "sha": "71dc6bee763935de8dbba171c17026c13cfcda19",
+      "remoteSha": "71dc6bee763935de8dbba171c17026c13cfcda19",
+      "size": 2
+    },
+    "4 - Archive/Sparrowgenie/Answers/Replace Email-Based User Display with Name and Team.md": {
+      "sha": "554c5a92a92abecf666d29ef551de1405d4f0f3f",
+      "remoteSha": "554c5a92a92abecf666d29ef551de1405d4f0f3f",
+      "size": 12878
+    },
+    "4 - Archive/Sparrowgenie/Answers/Screenshot 2026-03-18 at 3.15.01 PM.png": {
+      "sha": "a9a335762fbf4655c28312e4c0f12eeb3d7beb51",
+      "remoteSha": "a9a335762fbf4655c28312e4c0f12eeb3d7beb51",
+      "size": 191116
+    },
+    "4 - Archive/Sparrowgenie/Answers/Genie Actions/SparrowGenie_Answer_Actions_Dark.html": {
+      "sha": "0519661ab858be2e395733f77212fb7e2ff09f77",
+      "remoteSha": "0519661ab858be2e395733f77212fb7e2ff09f77",
+      "size": 29765
+    },
+    "4 - Archive/Sparrowgenie/Answers/Genie Actions/Genie Actions inside the Questions card.md": {
+      "sha": "f00a8b6e53048dd849c82573e27e3cb9bc5b1f0c",
+      "remoteSha": "f00a8b6e53048dd849c82573e27e3cb9bc5b1f0c",
+      "size": 6420
+    },
+    "4 - Archive/Sparrowgenie/Misc/mail.md": {
+      "sha": "50b9bf014c455adcf8ee7780485c93472c71a7b2",
+      "remoteSha": "50b9bf014c455adcf8ee7780485c93472c71a7b2",
+      "size": 36
+    },
+    "4 - Archive/Sparrowgenie/Misc/external_share.md": {
+      "sha": "222fa321b0a7c8148305717146cdb4aef14b54e6",
+      "remoteSha": "222fa321b0a7c8148305717146cdb4aef14b54e6",
+      "size": 166
+    },
+    "4 - Archive/Sparrowgenie/Misc/README.md": {
+      "sha": "9a01c0f1e0b589d7b24778f90fec66caa96e1cd8",
+      "remoteSha": "9a01c0f1e0b589d7b24778f90fec66caa96e1cd8",
+      "size": 5095
+    },
+    "4 - Archive/Sparrowgenie/Misc/Test.md": {
+      "sha": "80f689fb40db8d13a7f3bd24cb6b3ddb5c5f52f4",
+      "remoteSha": "80f689fb40db8d13a7f3bd24cb6b3ddb5c5f52f4",
+      "size": 46
+    },
+    "4 - Archive/Sparrowgenie/Misc/MyMail.md": {
+      "sha": "b432a35c482bbe0cb8ec1ad31678ae438e0555ea",
+      "remoteSha": "b432a35c482bbe0cb8ec1ad31678ae438e0555ea",
+      "size": 26
+    },
+    "4 - Archive/Sparrowgenie/Misc/My Data.base": {
+      "sha": "cb1ce598adf7834d97daf83c941c71c0a9e2f131",
+      "remoteSha": "cb1ce598adf7834d97daf83c941c71c0a9e2f131",
+      "size": 415
+    },
+    "4 - Archive/Sparrowgenie/Misc/Mirosignup.md": {
+      "sha": "ff65b23bf87409d4237ed890c3e53b0ab5ae2d69",
+      "remoteSha": "ff65b23bf87409d4237ed890c3e53b0ab5ae2d69",
+      "size": 240
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-24 - Sprint Planning.md": {
+      "sha": "f930a33756f4fd7f0e107c004ea9d8a9abb58144",
+      "remoteSha": "f930a33756f4fd7f0e107c004ea9d8a9abb58144",
+      "size": 142
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-24.md": {
+      "sha": "ced55c54840afe1acce8d7d1e555ffba11ab2bc0",
+      "remoteSha": "ced55c54840afe1acce8d7d1e555ffba11ab2bc0",
+      "size": 48
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/Work Log 2026-02-16.md": {
+      "sha": "13fc827c6a73a1357db8d7a9704630dd1dac0331",
+      "remoteSha": "13fc827c6a73a1357db8d7a9704630dd1dac0331",
+      "size": 167
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/9.mar.2026 - Stand up.md": {
+      "sha": "9b2bb06b28f2175ea1e40e0fd3ae7b1d843a45fc",
+      "remoteSha": "9b2bb06b28f2175ea1e40e0fd3ae7b1d843a45fc",
+      "size": 520
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-13.md": {
+      "sha": "ecf327518c51d006d5c77fca2dd8283f4d68a406",
+      "remoteSha": "ecf327518c51d006d5c77fca2dd8283f4d68a406",
+      "size": 1238
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-23 -Weekly product Stand up.md": {
+      "sha": "977018a16f35be4d3ef0a0e7bd8118abb2088ea6",
+      "remoteSha": "977018a16f35be4d3ef0a0e7bd8118abb2088ea6",
+      "size": 596
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-10 19-43-37.md": {
+      "sha": "6e94d062f8424bae51a11816744bd6343fb15dcd",
+      "remoteSha": "6e94d062f8424bae51a11816744bd6343fb15dcd",
+      "size": 17
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-02-04.md": {
+      "sha": "6fc99bd0938303e8bc53478613cd4974b31ccf75",
+      "remoteSha": "6fc99bd0938303e8bc53478613cd4974b31ccf75",
+      "size": 8
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-01-30.md": {
+      "sha": "0d285ebf1a44ba17feda034ded45b86a5fb03ed7",
+      "remoteSha": "0d285ebf1a44ba17feda034ded45b86a5fb03ed7",
+      "size": 3007
+    },
+    "4 - Archive/Sparrowgenie/Meeting Notes/2026-01-29 UAT with Vipin.md": {
+      "sha": "e44fc4ee002627e064755a9590ba91ad3209231c",
+      "remoteSha": "e44fc4ee002627e064755a9590ba91ad3209231c",
+      "size": 1498
+    },
+    "4 - Archive/Sparrowgenie/Marketing/ROI Calculator/sparrowgenie-roi-final.html": {
+      "sha": "3e97d73b24bd194cc4bf4c950c0d96e69044e527",
+      "remoteSha": "3e97d73b24bd194cc4bf4c950c0d96e69044e527",
+      "size": 38055
+    },
+    "4 - Archive/Sparrowgenie/Marketing/ROI Calculator/sparrowgenie-email-template.html": {
+      "sha": "647c8bf0d775355d85fdc1e49d754cb4e276b6ee",
+      "remoteSha": "647c8bf0d775355d85fdc1e49d754cb4e276b6ee",
+      "size": 11816
+    },
+    "4 - Archive/Sparrowgenie/Marketing/ROI Calculator/ROI Calculator.md": {
+      "sha": "b8db12430d1643d87a354caf873655fd494b5abc",
+      "remoteSha": "b8db12430d1643d87a354caf873655fd494b5abc",
+      "size": 22475
+    },
+    "4 - Archive/Sparrowgenie/Marketing/ROI Calculator/sparrowgenie-email-preview.html": {
+      "sha": "704bb71dadc4acdd2547f40c104bd01ba931fda6",
+      "remoteSha": "704bb71dadc4acdd2547f40c104bd01ba931fda6",
+      "size": 11802
+    },
+    "4 - Archive/Sparrowgenie/Knowledge Hub/RFP training.md": {
+      "sha": "4ae98adb0324c86956a93032807f3f30fae2adef",
+      "remoteSha": "4ae98adb0324c86956a93032807f3f30fae2adef",
+      "size": 30569
+    },
+    "4 - Archive/Sparrowgenie/Knowledge Hub/RFP training PRD.md": {
+      "sha": "e5087ba4fd4112b15b4d0fc160b4a6edbe4ed421",
+      "remoteSha": "e5087ba4fd4112b15b4d0fc160b4a6edbe4ed421",
+      "size": 23142
+    },
+    "4 - Archive/Sparrowgenie/Knowledge Hub/Knowledge Hub.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Knowledge Hub/Training back Projects into Knowledge Hubs.md": {
+      "sha": "b49bd6268189373a487aa215a98148a552ccfe83",
+      "remoteSha": "b49bd6268189373a487aa215a98148a552ccfe83",
+      "size": 19130
+    },
+    "4 - Archive/Sparrowgenie/Knowledge Hub/QnA training loop.md": {
+      "sha": "7e3dca77f1cc3073fe2e21f422ce62c58b91c4e6",
+      "remoteSha": "7e3dca77f1cc3073fe2e21f422ce62c58b91c4e6",
+      "size": 23822
+    },
+    "4 - Archive/Sparrowgenie/Internal Share/Share assign and review flow.md": {
+      "sha": "f9344f773ffb9e45829118ebfe3981cbb889d0b8",
+      "remoteSha": "f9344f773ffb9e45829118ebfe3981cbb889d0b8",
+      "size": 3518
+    },
+    "4 - Archive/Sparrowgenie/Instructions/Instructions.md": {
+      "sha": "71cdad503d41c02d47551de655fafc07270e0054",
+      "remoteSha": "71cdad503d41c02d47551de655fafc07270e0054",
+      "size": 8291
+    },
+    "4 - Archive/Sparrowgenie/Instructions/Instructions from the Document.md": {
+      "sha": "944322fffef74876305ceafcf81276ef27933c14",
+      "remoteSha": "944322fffef74876305ceafcf81276ef27933c14",
+      "size": 5515
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/Untitled.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/SparrowGenie - Help Articles.md": {
+      "sha": "5539b39821714bce848bdbb73cc5eb80e369f7ce",
+      "remoteSha": "5539b39821714bce848bdbb73cc5eb80e369f7ce",
+      "size": 122
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/Mapping.md": {
+      "sha": "f37a0ec9f146de80a2e4cd574dbc168380527804",
+      "remoteSha": "f37a0ec9f146de80a2e4cd574dbc168380527804",
+      "size": 1133
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/Getting started  with SparrowGenie.md": {
+      "sha": "80a0f7e93d2962f0417303c9e604869bd7c8d79b",
+      "remoteSha": "80a0f7e93d2962f0417303c9e604869bd7c8d79b",
+      "size": 3472
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/Getting Started.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Help Articles/Create a project.md": {
+      "sha": "b52db91a645020c3fdc47fd1d4ea8db9262f2e02",
+      "remoteSha": "b52db91a645020c3fdc47fd1d4ea8db9262f2e02",
+      "size": 1813
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/Past RFP Similarity Score (PRS).md": {
+      "sha": "9990156a4e1fb13964ba5f09fd50b80c2105a27d",
+      "remoteSha": "9990156a4e1fb13964ba5f09fd50b80c2105a27d",
+      "size": 1386
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/Domain Diagram Questions.md": {
+      "sha": "e8da1dbc5f69d322be2f0c2aeb43ff75c272df1e",
+      "remoteSha": "e8da1dbc5f69d322be2f0c2aeb43ff75c272df1e",
+      "size": 31
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/External Questionnaire Score (EQS).md": {
+      "sha": "363273fb9e857b73c2da9a9c80c9b8d7b94cece3",
+      "remoteSha": "363273fb9e857b73c2da9a9c80c9b8d7b94cece3",
+      "size": 9884
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/Go - No- Go.md": {
+      "sha": "74cb067390001afdb5dccbe1503e876d6521fdf5",
+      "remoteSha": "74cb067390001afdb5dccbe1503e876d6521fdf5",
+      "size": 7644
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/AI can have auto tags for the Past Projects which is created.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Go-no-go/AI Readiness Score (ARS).md": {
+      "sha": "a909c86b2a5f4c4239f8e2b79e28ff7dec62e1e4",
+      "remoteSha": "a909c86b2a5f4c4239f8e2b79e28ff7dec62e1e4",
+      "size": 3615
+    },
+    "4 - Archive/Sparrowgenie/Genie Journal/Resources - Sparrow Genie.md": {
+      "sha": "9e366757f8155ae56497d8ca6940e4618d5ed2f5",
+      "remoteSha": "9e366757f8155ae56497d8ca6940e4618d5ed2f5",
+      "size": 567
+    },
+    "4 - Archive/Sparrowgenie/Genie Journal/Demo Important Points.md": {
+      "sha": "9c34513e965a3118f4f3fffd20bfa6c75fc9f064",
+      "remoteSha": "9c34513e965a3118f4f3fffd20bfa6c75fc9f064",
+      "size": 32
+    },
+    "4 - Archive/Sparrowgenie/Genie Journal/2025-12-12.md": {
+      "sha": "4bd30d936c7150852922c95f7904bc1cba501d3e",
+      "remoteSha": "4bd30d936c7150852922c95f7904bc1cba501d3e",
+      "size": 2404
+    },
+    "4 - Archive/Sparrowgenie/Friction points.md": {
+      "sha": "5afec049bd6bb8d4e56f89ea6818a060ad300959",
+      "remoteSha": "5afec049bd6bb8d4e56f89ea6818a060ad300959",
+      "size": 1417
+    },
+    "4 - Archive/Sparrowgenie/Email Notifications/Email Notifications.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Chrome Extension/Chrome Extension.md": {
+      "sha": "6afb14ccca121ebceea8712f9860d6dfcfdedcbb",
+      "remoteSha": "6afb14ccca121ebceea8712f9860d6dfcfdedcbb",
+      "size": 5
+    },
+    "4 - Archive/Sparrowgenie/Context Info/Competitors Info.md": {
+      "sha": "5dad5f752b0121978a005272a7783d14b82c454a",
+      "remoteSha": "5dad5f752b0121978a005272a7783d14b82c454a",
+      "size": 1641
+    },
+    "4 - Archive/Sparrowgenie/Context Info/Competitors Info PRD.md": {
+      "sha": "9adb36b1fb88ebd4b142927934bb082d4dc58f0f",
+      "remoteSha": "9adb36b1fb88ebd4b142927934bb082d4dc58f0f",
+      "size": 7287
+    },
+    "4 - Archive/Sparrowgenie/Context Info/Company Info.md": {
+      "sha": "48b4f51d2dbdea7282705937855ec49a673e8bb7",
+      "remoteSha": "48b4f51d2dbdea7282705937855ec49a673e8bb7",
+      "size": 2121
+    },
+    "4 - Archive/Sparrowgenie/Context Info/Context info - PRD.md": {
+      "sha": "53add7769bf52c6f12aeaac417da2f59b98c6c01",
+      "remoteSha": "53add7769bf52c6f12aeaac417da2f59b98c6c01",
+      "size": 6683
+    },
+    "4 - Archive/Sparrowgenie/Context Info/Context Info.md": {
+      "sha": "f93f65acd2810509ea19dab756057fd9a16fc0e0",
+      "remoteSha": "f93f65acd2810509ea19dab756057fd9a16fc0e0",
+      "size": 425
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.31.28 PM.png": {
+      "sha": "0ccc1b6eb3ccfa821fbeed2768ad1ed67b6e9919",
+      "remoteSha": "0ccc1b6eb3ccfa821fbeed2768ad1ed67b6e9919",
+      "size": 709815
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.40.25 PM.png": {
+      "sha": "d2528635ade573f2f709ec43b6e80e5aad63124e",
+      "remoteSha": "d2528635ade573f2f709ec43b6e80e5aad63124e",
+      "size": 48730
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.39.53 PM.png": {
+      "sha": "6e74cd7523a1f88108c66e2981da4f1184891b74",
+      "remoteSha": "6e74cd7523a1f88108c66e2981da4f1184891b74",
+      "size": 67821
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.50.38 PM.png": {
+      "sha": "7dfc52f35385738a0ba3dd42aef05239820809d9",
+      "remoteSha": "7dfc52f35385738a0ba3dd42aef05239820809d9",
+      "size": 157053
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.20.58 PM.png": {
+      "sha": "712f95fbb9635913fad2a5b5bb618aea1a8a912e",
+      "remoteSha": "712f95fbb9635913fad2a5b5bb618aea1a8a912e",
+      "size": 1517294
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.11.35 PM.png": {
+      "sha": "35bf1f7b6597cb00a96862030cb8e090c4dde722",
+      "remoteSha": "35bf1f7b6597cb00a96862030cb8e090c4dde722",
+      "size": 166167
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.27.49 PM.png": {
+      "sha": "ae59056a3bf0c315c2cd93555da11fd890d26a4c",
+      "remoteSha": "ae59056a3bf0c315c2cd93555da11fd890d26a4c",
+      "size": 123661
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.31.15 PM.png": {
+      "sha": "4c08e878a6996eb3d346e7b4798cbb44215d882b",
+      "remoteSha": "4c08e878a6996eb3d346e7b4798cbb44215d882b",
+      "size": 44798
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 3.24.55 PM.png": {
+      "sha": "4b638447630ce2afe8f245737d285f23cef5ea9f",
+      "remoteSha": "4b638447630ce2afe8f245737d285f23cef5ea9f",
+      "size": 96534
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 12.48.15 PM.png": {
+      "sha": "f9cdb3ffe73920e47a2adfbdf438c33bf0f586ad",
+      "remoteSha": "f9cdb3ffe73920e47a2adfbdf438c33bf0f586ad",
+      "size": 787841
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 12.23.00 PM.png": {
+      "sha": "832667d8ed19c4c44cccf1116c1afbb759783b7a",
+      "remoteSha": "832667d8ed19c4c44cccf1116c1afbb759783b7a",
+      "size": 330768
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 1.00.19 PM.png": {
+      "sha": "16aaba3c8e618c072335c342a2421c43fdbee4d2",
+      "remoteSha": "16aaba3c8e618c072335c342a2421c43fdbee4d2",
+      "size": 769055
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 2.53.26 PM.png": {
+      "sha": "58a1bb5edeae9b94cef81523c2cebe6e991e7a7a",
+      "remoteSha": "58a1bb5edeae9b94cef81523c2cebe6e991e7a7a",
+      "size": 710280
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screen Recording 2026-04-27 at 3.55.19 PM.mov": {
+      "sha": "4cf524441df72a5398c11a92878642be16492a61",
+      "remoteSha": "4cf524441df72a5398c11a92878642be16492a61",
+      "size": 8652190
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 12.46.31 PM.png": {
+      "sha": "6d6a9d8287f707d8618d38052c202a6bc45b0ab9",
+      "remoteSha": "6d6a9d8287f707d8618d38052c202a6bc45b0ab9",
+      "size": 441504
+    },
+    "4 - Archive/Sparrowgenie/Competitors/RRM_Competitive_Analysis.md": {
+      "sha": "ba59570b4604a66ac840f4f7916abb494640cd79",
+      "remoteSha": "ba59570b4604a66ac840f4f7916abb494640cd79",
+      "size": 331
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 1.19.49 PM.png": {
+      "sha": "a3cdf57412d5ad37184a9dca9a488696809ab325",
+      "remoteSha": "a3cdf57412d5ad37184a9dca9a488696809ab325",
+      "size": 205382
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screenshot 2026-04-27 at 1.05.07 PM.png": {
+      "sha": "c80928cdfda6d012882241adebea78aa1129aad0",
+      "remoteSha": "c80928cdfda6d012882241adebea78aa1129aad0",
+      "size": 302070
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Screen Recording 2026-04-27 at 3.53.02 PM.mov": {
+      "sha": "580206dee8b9d5fe44f8aa8528373b8391500169",
+      "remoteSha": "580206dee8b9d5fe44f8aa8528373b8391500169",
+      "size": 24681690
+    },
+    "4 - Archive/Sparrowgenie/Competitors/App.responsive.io - mapping screen analysis.md": {
+      "sha": "d0fe34bd7ea4eafc88e1fe1281fb0d5118b9d0fb",
+      "remoteSha": "d0fe34bd7ea4eafc88e1fe1281fb0d5118b9d0fb",
+      "size": 1494
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Responsive.io.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Go- no - Go responsive.md": {
+      "sha": "8b6c4945e9cc85a15d1c76779b84ad821e9f218e",
+      "remoteSha": "8b6c4945e9cc85a15d1c76779b84ad821e9f218e",
+      "size": 2785
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Multi-column.md": {
+      "sha": "39f732dc69c6f1eceb28af532d7c12c93c856b0e",
+      "remoteSha": "39f732dc69c6f1eceb28af532d7c12c93c856b0e",
+      "size": 102
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Chrome Extension - Responsive IO.md": {
+      "sha": "20b0b9dfc241bcd3c6bd73b593ca81aef6e0afed",
+      "remoteSha": "20b0b9dfc241bcd3c6bd73b593ca81aef6e0afed",
+      "size": 4304
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Attachments - Responsive.md": {
+      "sha": "7fb9ffe176122e9c3311da4cfbd68f8bcbcc25d1",
+      "remoteSha": "7fb9ffe176122e9c3311da4cfbd68f8bcbcc25d1",
+      "size": 1247
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Answer types.md": {
+      "sha": "7407b8aa56d3ac50094165950df9b64bc8e9b4c9",
+      "remoteSha": "7407b8aa56d3ac50094165950df9b64bc8e9b4c9",
+      "size": 1474
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Responsiveio/Answer types templates.md": {
+      "sha": "4d2015e1c4201e2c48b0edba24db247a0a4f9801",
+      "remoteSha": "4d2015e1c4201e2c48b0edba24db247a0a4f9801",
+      "size": 2861
+    },
+    "4 - Archive/Sparrowgenie/Competitors/QorusDocs.md": {
+      "sha": "7f30bc4d7329146bdd7173f75cad04e89a5f3863",
+      "remoteSha": "7f30bc4d7329146bdd7173f75cad04e89a5f3863",
+      "size": 3107
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/SmartScan.md": {
+      "sha": "8db6ee252ba4e626dd02dda08708563509e7980d",
+      "remoteSha": "8db6ee252ba4e626dd02dda08708563509e7980d",
+      "size": 1537
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/Proposal to Project.md": {
+      "sha": "7c960b42436c6d56e97e648a57bfeb1a28ebb2b7",
+      "remoteSha": "7c960b42436c6d56e97e648a57bfeb1a28ebb2b7",
+      "size": 39
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/SmartFill.md": {
+      "sha": "a6757bec60b37c20198a03b2cc4b6b1edbff2463",
+      "remoteSha": "a6757bec60b37c20198a03b2cc4b6b1edbff2463",
+      "size": 1505
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/Loopio.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/Go-no-Go - loopio.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/Chrome Extension.md": {
+      "sha": "09456bc3414b00e380eb44a6e67d6b5c1daf53c8",
+      "remoteSha": "09456bc3414b00e380eb44a6e67d6b5c1daf53c8",
+      "size": 2944
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Loopio/Attachments - Loopio.md": {
+      "sha": "d4886f653cf108e10971d708fe3beecb32f6fd58",
+      "remoteSha": "d4886f653cf108e10971d708fe3beecb32f6fd58",
+      "size": 1250
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Five Differentiators/Differentiator.md": {
+      "sha": "40bbb17dd66d7cc10d454e889b386621bed0365d",
+      "remoteSha": "40bbb17dd66d7cc10d454e889b386621bed0365d",
+      "size": 18919
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Gamma/Behaviour study.md": {
+      "sha": "b20ba7f9ac7a491e8b525fa70d7a79d5d8184d16",
+      "remoteSha": "b20ba7f9ac7a491e8b525fa70d7a79d5d8184d16",
+      "size": 6328
+    },
+    "4 - Archive/Sparrowgenie/Competitors/Arphie.ai.md": {
+      "sha": "ad8012509933a1055e2906f8d0c157b4aca6b6b7",
+      "remoteSha": "ad8012509933a1055e2906f8d0c157b4aca6b6b7",
+      "size": 2374
+    },
+    "4 - Archive/Sparrowgenie/Attachments/Multicolumn , check box.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "4 - Archive/Sparrowgenie/Attachments/Attachments in RFP response - Product Spec.md": {
+      "sha": "c135e45c03aae6544debe3e962c7088ad98224e8",
+      "remoteSha": "c135e45c03aae6544debe3e962c7088ad98224e8",
+      "size": 4123
+    },
+    "4 - Archive/Sparrowgenie/Brand Kit/Brand Kit.md": {
+      "sha": "3af29c0a2890c9b38d85fa13d49e005877d39f9e",
+      "remoteSha": "3af29c0a2890c9b38d85fa13d49e005877d39f9e",
+      "size": 58
+    },
+    "4 - Archive/Sparrowgenie/Audit Report/Audit Report R126022026.md": {
+      "sha": "15026983d0773bf0c61cdab5771eb72ec6fbc80f",
+      "remoteSha": "15026983d0773bf0c61cdab5771eb72ec6fbc80f",
+      "size": 1608
+    },
+    "4 - Archive/Sparrowgenie/Audit Report/Screenshot 2026-02-26 at 11.21.15 AM.png": {
+      "sha": "ee734d50f2e01c95a61d77a7e3a872058ce06ef4",
+      "remoteSha": "ee734d50f2e01c95a61d77a7e3a872058ce06ef4",
+      "size": 956654
+    },
+    "4 - Archive/Sparrowgenie/Audit Report/Audit report.md": {
+      "sha": "e0d718f459040230911e94aed76330c7fae07972",
+      "remoteSha": "e0d718f459040230911e94aed76330c7fae07972",
+      "size": 85
+    },
+    "4 - Archive/Product Notes (Why Sales Needs Better Tools).md": {
+      "sha": "2edb8cd1356448b594f91afe43ca3da7d9a0f6da",
+      "remoteSha": "2edb8cd1356448b594f91afe43ca3da7d9a0f6da",
+      "size": 5012
+    },
+    "4 - Archive/Notification Strategy.md": {
+      "sha": "d2e676c7085c8875c2c93c631ebefe1d3814ee71",
+      "remoteSha": "d2e676c7085c8875c2c93c631ebefe1d3814ee71",
+      "size": 102
+    },
+    "4 - Archive/Screenshots/Screenshot 2026-01-29 at 12.18.35 PM.png": {
+      "sha": "291b2991ecaca918cff7ad2672de628c1d9f8fcb",
+      "remoteSha": "291b2991ecaca918cff7ad2672de628c1d9f8fcb",
+      "size": 350933
+    },
+    "4 - Archive/Screenshots/Happyflow breakdown inputs.png": {
+      "sha": "8aba3c754945d8510fc217e95f5583302f63c4f0",
+      "remoteSha": "8aba3c754945d8510fc217e95f5583302f63c4f0",
+      "size": 185547
+    },
+    "4 - Archive/Screenshots/image (2).png": {
+      "sha": "3063d1fdbcb7d0d14e9fa2a77bed4360ec272dda",
+      "remoteSha": "3063d1fdbcb7d0d14e9fa2a77bed4360ec272dda",
+      "size": 575792
+    },
+    "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.31.07 PM.png": {
+      "sha": "8f7834d164200fa4972fde2ff11bbc992f466520",
+      "remoteSha": "8f7834d164200fa4972fde2ff11bbc992f466520",
+      "size": 66533
+    },
+    "4 - Archive/Screenshots/Screenshot 2026-01-30 at 1.29.09 PM.png": {
+      "sha": "76a27046ad8610f41f6b171d5efd40980ea36cfc",
+      "remoteSha": "76a27046ad8610f41f6b171d5efd40980ea36cfc",
+      "size": 84548
+    },
+    "4 - Archive/Screenshots/Screenshot 2026-01-29 at 11.54.14 AM.png": {
+      "sha": "6a20dc0e428f66ce11cd2d01fdc46293029002c0",
+      "remoteSha": "6a20dc0e428f66ce11cd2d01fdc46293029002c0",
+      "size": 339086
+    },
+    "4 - Archive/Daily/UAT vipin 2026-02-23.md": {
+      "sha": "09fc92767cade12fffae7a6e2f0a2daec22764b3",
+      "remoteSha": "09fc92767cade12fffae7a6e2f0a2daec22764b3",
+      "size": 223
+    },
+    "4 - Archive/Daily/UAT Kavin.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Curious Geeks/Products/_template.md": {
+      "sha": "36a7768ecbc8857408888e82f7abb0cc0c403457",
+      "remoteSha": "36a7768ecbc8857408888e82f7abb0cc0c403457",
+      "size": 531
+    },
+    "1 - Projects/Curious Geeks/Products/Products.md": {
+      "sha": "bfe7a662b9359acdc33061dc71011590a3654e75",
+      "remoteSha": "bfe7a662b9359acdc33061dc71011590a3654e75",
+      "size": 658
+    },
+    "1 - Projects/Curious Geeks/Curious Geeks.md": {
+      "sha": "0d522aee1eead0137aedff2f814898772ce5a737",
+      "remoteSha": "0d522aee1eead0137aedff2f814898772ce5a737",
+      "size": 3037
+    },
+    "1 - Projects/Curious Geeks/icon.svg": {
+      "sha": "68b5f7e1119dcbd41383a61ad7d7cf9502e7fd14",
+      "remoteSha": "68b5f7e1119dcbd41383a61ad7d7cf9502e7fd14",
+      "size": 1332
+    },
+    "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md": {
+      "sha": "44acd81b1c4c2ee93726fbb8f78b1757d65776f4",
+      "remoteSha": "44acd81b1c4c2ee93726fbb8f78b1757d65776f4",
+      "size": 8634
+    },
+    "1 - Projects/Curious Geeks/Teardowns/Teardowns.md": {
+      "sha": "66d9eb7c1b09efddfcdf7065df3260e681c4e4cb",
+      "remoteSha": "66d9eb7c1b09efddfcdf7065df3260e681c4e4cb",
+      "size": 4048
+    },
+    "1 - Projects/Curious Geeks/About me/Divyaraj Murugan.md": {
+      "sha": "107a730ecb2289ecebdf0435603258367d8e5908",
+      "remoteSha": "107a730ecb2289ecebdf0435603258367d8e5908",
+      "size": 2102
+    },
+    "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md": {
+      "sha": "51f2384d755261eb7fc9c39b574ed406a525d861",
+      "remoteSha": "51f2384d755261eb7fc9c39b574ed406a525d861",
+      "size": 3381
+    },
+    "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md": {
+      "sha": "0c62b328de8de15e57e82f28b789110eedf93b00",
+      "remoteSha": "0c62b328de8de15e57e82f28b789110eedf93b00",
+      "size": 3931
+    },
+    "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md": {
+      "sha": "06489cf6370e06c65409f7e7715f1642774f7294",
+      "remoteSha": "06489cf6370e06c65409f7e7715f1642774f7294",
+      "size": 4415
+    },
+    "1 - Projects/banyan_config/editor_placeholder.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md": {
+      "sha": "61e09487bd7070ee66dd157dc0634cef8f33085a",
+      "remoteSha": "61e09487bd7070ee66dd157dc0634cef8f33085a",
+      "size": 961
+    },
+    "1 - Projects/Sparrowcrm/To do list.md": {
+      "sha": "a3372a5023869338a6154d1bb1618f148b686512",
+      "remoteSha": "a3372a5023869338a6154d1bb1618f148b686512",
+      "size": 3104
+    },
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw": {
+      "sha": "60cb0aad0d09e74b90a88a9b1f9e88d813b2a294",
+      "remoteSha": "60cb0aad0d09e74b90a88a9b1f9e88d813b2a294",
+      "size": 32029
+    },
+    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw": {
+      "sha": "b213c316ef8e03365568fe4a32cdabae8789429f",
+      "remoteSha": "b213c316ef8e03365568fe4a32cdabae8789429f",
+      "size": 37319
+    },
+    "1 - Projects/Sparrowcrm/Sparrowcrm.base": {
+      "sha": "04e8e6775c4caa93d6971fcf7d76cc51db2658f7",
+      "remoteSha": "04e8e6775c4caa93d6971fcf7d76cc51db2658f7",
+      "size": 360
+    },
+    "1 - Projects/Sparrowcrm/Screenshot 2026-05-05 at 11.55.19 AM.png": {
+      "sha": "72cd1b5165d2ded4bbbe38a7f2cdea79c8354b91",
+      "remoteSha": "72cd1b5165d2ded4bbbe38a7f2cdea79c8354b91",
+      "size": 231795
+    },
+    "1 - Projects/Sparrowcrm/Screenshot 2026-05-05 at 11.46.54 AM.png": {
+      "sha": "f79307cfe781f67b9dc4fa8051c3ad5e2deb041a",
+      "remoteSha": "f79307cfe781f67b9dc4fa8051c3ad5e2deb041a",
+      "size": 30893
+    },
+    "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 12.06.00 PM.mov": {
+      "sha": "dd17e67b593ce5067515624bf90051f92a23376d",
+      "remoteSha": "dd17e67b593ce5067515624bf90051f92a23376d",
+      "size": 5506703
+    },
+    "1 - Projects/Sparrowcrm/Screen Recording 2026-05-05 at 11.59.58 AM.mov": {
+      "sha": "2c7dc47582c5e1fec953e72ac0a2af84aa0ed80b",
+      "remoteSha": "2c7dc47582c5e1fec953e72ac0a2af84aa0ed80b",
+      "size": 6326829
+    },
+    "1 - Projects/Sparrowcrm/Issues Found.md": {
+      "sha": "287fd6516407de81b4e76c2fefa4a769db59a451",
+      "remoteSha": "287fd6516407de81b4e76c2fefa4a769db59a451",
+      "size": 754
+    },
+    "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png": {
+      "sha": "a0f9b12a7d74324d8ecc513175e3683f3cc009e6",
+      "remoteSha": "a0f9b12a7d74324d8ecc513175e3683f3cc009e6",
+      "size": 174867
+    },
+    "1 - Projects/Sparrowcrm/Pasted image 20260504115107.png": {
+      "sha": "3d2b8b8f3018a394fb2e99d1745bfa4b62aa7461",
+      "remoteSha": "3d2b8b8f3018a394fb2e99d1745bfa4b62aa7461",
+      "size": 811233
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Vilashini.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Poonam singh.md": {
+      "sha": "b2ca59c2bff9baf3480e928d7e82ec40febfd017",
+      "remoteSha": "b2ca59c2bff9baf3480e928d7e82ec40febfd017",
+      "size": 115
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md": {
+      "sha": "dda35bcaf5730c39bdac3e429aef5214215d0658",
+      "remoteSha": "dda35bcaf5730c39bdac3e429aef5214215d0658",
+      "size": 3371
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Yuvaraj Singh J.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Vaishnavi Yuvaraj.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Supraja.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Shihab Muhammed.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Nayan Jain.md": {
+      "sha": "7e979a39a775d24c00e053ff0bc6f21ff6a35e39",
+      "remoteSha": "7e979a39a775d24c00e053ff0bc6f21ff6a35e39",
+      "size": 237
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Sakthi Prasath M.md": {
+      "sha": "5c5fe2bfbffb9e98df4d1ed51a3403d7968ff4f0",
+      "remoteSha": "5c5fe2bfbffb9e98df4d1ed51a3403d7968ff4f0",
+      "size": 725
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Anshul S.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Madhan  M.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/@Divyaraj Murugan.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/12 - People/12 - People.md": {
+      "sha": "18c4cd52e14e20a60ef7f99ba0191ca8c4150143",
+      "remoteSha": "18c4cd52e14e20a60ef7f99ba0191ca8c4150143",
+      "size": 513
+    },
+    "1 - Projects/Sparrowcrm/Pasted image 20260504105748.png": {
+      "sha": "de38d5b8b8e174922bf002a74ab8ba68c28e5ba0",
+      "remoteSha": "de38d5b8b8e174922bf002a74ab8ba68c28e5ba0",
+      "size": 280884
+    },
+    "1 - Projects/Sparrowcrm/Pasted image 20260504105508.png": {
+      "sha": "187efa8e2ac7911e94114a525702f0c375d009d2",
+      "remoteSha": "187efa8e2ac7911e94114a525702f0c375d009d2",
+      "size": 475231
+    },
+    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas": {
+      "sha": "173f082ce872b1688e9441f4401696bfddc97102",
+      "remoteSha": "173f082ce872b1688e9441f4401696bfddc97102",
+      "size": 4935
+    },
+    "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md": {
+      "sha": "efd675dcaac2817f43d70bd0a07e943fd8361b23",
+      "remoteSha": "efd675dcaac2817f43d70bd0a07e943fd8361b23",
+      "size": 873
+    },
+    "1 - Projects/Sparrowcrm/8 - Decisions/8 - Decisions.md": {
+      "sha": "cbbb5adef166f3b98df65ec6e784c29ec860fc38",
+      "remoteSha": "cbbb5adef166f3b98df65ec6e784c29ec860fc38",
+      "size": 1131
+    },
+    "1 - Projects/Sparrowcrm/7 - Competitors/Competitor Template.md": {
+      "sha": "f4acae8ee08652c20abc5bb7b70c20809cb334e6",
+      "remoteSha": "f4acae8ee08652c20abc5bb7b70c20809cb334e6",
+      "size": 495
+    },
+    "1 - Projects/Sparrowcrm/7 - Competitors/7 - Competitors.md": {
+      "sha": "68ea61b9fe8b1c49de90b520998ef323a408eefe",
+      "remoteSha": "68ea61b9fe8b1c49de90b520998ef323a408eefe",
+      "size": 995
+    },
+    "1 - Projects/Sparrowcrm/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md": {
+      "sha": "ac8c5e9d6db41dadd8c7a60386bb3caba7374722",
+      "remoteSha": "ac8c5e9d6db41dadd8c7a60386bb3caba7374722",
+      "size": 1483
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md": {
+      "sha": "247269aaf68a8bc281f3a279208b5bf0293292ac",
+      "remoteSha": "247269aaf68a8bc281f3a279208b5bf0293292ac",
+      "size": 10050
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md": {
+      "sha": "5fa8ef34fa4146658f59e817eb611e9372dbb583",
+      "remoteSha": "5fa8ef34fa4146658f59e817eb611e9372dbb583",
+      "size": 4611
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email_Integrations_v2-Historical Import.md": {
+      "sha": "4a5f59020dc11d8b6f8b5fdd1455cdc128cc0c2c",
+      "remoteSha": "4a5f59020dc11d8b6f8b5fdd1455cdc128cc0c2c",
+      "size": 15552
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zoom.md": {
+      "sha": "0a52dfea48028daddd6d1d432f32c3dcc135b4de",
+      "remoteSha": "0a52dfea48028daddd6d1d432f32c3dcc135b4de",
+      "size": 8654
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Zapier.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Stripe.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.md": {
+      "sha": "3d9bd08ab80d3133216dff6f799ff4096383d7fa",
+      "remoteSha": "3d9bd08ab80d3133216dff6f799ff4096383d7fa",
+      "size": 30841
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md": {
+      "sha": "3f5185b3f04bb03f8ffefcb59fd1ae68daf6b1a4",
+      "remoteSha": "3f5185b3f04bb03f8ffefcb59fd1ae68daf6b1a4",
+      "size": 218
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Slack.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for GPT.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Native SparrowCRM for Claude.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/MCP Connector.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Jira.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Calendar.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Sheets.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Google Search Console.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md": {
+      "sha": "912fbb3839691a49e361b2dd19f0f6b856d24023",
+      "remoteSha": "912fbb3839691a49e361b2dd19f0f6b856d24023",
+      "size": 414
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration_v1.2.md": {
+      "sha": "fc8a3e010ea20ad527c540c41c61e26d61243a8c",
+      "remoteSha": "fc8a3e010ea20ad527c540c41c61e26d61243a8c",
+      "size": 9435
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Apolloio_v1.md": {
+      "sha": "3337cd41f7b2e8f85efa69061d066b9392a450cb",
+      "remoteSha": "3337cd41f7b2e8f85efa69061d066b9392a450cb",
+      "size": 30620
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows_v1.md": {
+      "sha": "73b18a090411ce40bf25838e4abd97af1019cc8c",
+      "remoteSha": "73b18a090411ce40bf25838e4abd97af1019cc8c",
+      "size": 34644
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows.md": {
+      "sha": "1ed8fa63d207390bfc42e57ea8e0d787cda12241",
+      "remoteSha": "1ed8fa63d207390bfc42e57ea8e0d787cda12241",
+      "size": 82
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md": {
+      "sha": "82437afa358f84d220b34650a819d3884a9f284a",
+      "remoteSha": "82437afa358f84d220b34650a819d3884a9f284a",
+      "size": 6402
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings.md": {
+      "sha": "12443ca123757347f2f7636e74bd9ec9730ba76d",
+      "remoteSha": "12443ca123757347f2f7636e74bd9ec9730ba76d",
+      "size": 150
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Fields.md": {
+      "sha": "57a0182e179ef03803f6abfe3af0e4e88fee18ba",
+      "remoteSha": "57a0182e179ef03803f6abfe3af0e4e88fee18ba",
+      "size": 45
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Enriched Fields.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md": {
+      "sha": "2460dd7e590cdcb26162e8ce06b88ed2373b30dc",
+      "remoteSha": "2460dd7e590cdcb26162e8ce06b88ed2373b30dc",
+      "size": 30159
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md": {
+      "sha": "75bd1447e7027bb71cde8569a08aefe73e17d3ac",
+      "remoteSha": "75bd1447e7027bb71cde8569a08aefe73e17d3ac",
+      "size": 126
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md": {
+      "sha": "d7bfb43bddc1616727101b506b783a92c0c72564",
+      "remoteSha": "d7bfb43bddc1616727101b506b783a92c0c72564",
+      "size": 16358
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md": {
+      "sha": "810ebbf25ceb68a795ed25702ac79444d6b1dbbd",
+      "remoteSha": "810ebbf25ceb68a795ed25702ac79444d6b1dbbd",
+      "size": 125
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md": {
+      "sha": "db441efff88de03bd42abdf624b3376c81ff034c",
+      "remoteSha": "db441efff88de03bd42abdf624b3376c81ff034c",
+      "size": 31522
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md": {
+      "sha": "6457e8bf5848e29bbfb1cdfe224f453361bf6d3d",
+      "remoteSha": "6457e8bf5848e29bbfb1cdfe224f453361bf6d3d",
+      "size": 180
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md": {
+      "sha": "e553c1d6180d9786e64fe62c28feb88388f2e75f",
+      "remoteSha": "e553c1d6180d9786e64fe62c28feb88388f2e75f",
+      "size": 9546
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deals.md": {
+      "sha": "0211fe8aa88469abee02ec300e969735578aa0e0",
+      "remoteSha": "0211fe8aa88469abee02ec300e969735578aa0e0",
+      "size": 135
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md": {
+      "sha": "f6495b9c0013aa9b085b5459aba842e89ddf7686",
+      "remoteSha": "f6495b9c0013aa9b085b5459aba842e89ddf7686",
+      "size": 3802
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md": {
+      "sha": "e9db3b3924cc6102607e862faef0e5b8be438408",
+      "remoteSha": "e9db3b3924cc6102607e862faef0e5b8be438408",
+      "size": 8603
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md": {
+      "sha": "0a7907e1d605bb97f323611d7ab25c8a3462a554",
+      "remoteSha": "0a7907e1d605bb97f323611d7ab25c8a3462a554",
+      "size": 3513
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md": {
+      "sha": "e610162080656ed135fff0bfb53ff39cd1ad50d1",
+      "remoteSha": "e610162080656ed135fff0bfb53ff39cd1ad50d1",
+      "size": 3947
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md": {
+      "sha": "2846f309e5ca67df9178ad50c87036c27530603f",
+      "remoteSha": "2846f309e5ca67df9178ad50c87036c27530603f",
+      "size": 10717
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Prospecting Agent.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md": {
+      "sha": "5bf75ed203f3f7ea29c827bfe5d1e922ceff898b",
+      "remoteSha": "5bf75ed203f3f7ea29c827bfe5d1e922ceff898b",
+      "size": 25495
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Custom Agent builderv1.md": {
+      "sha": "f3bbe0d16284bfb1e01b62498c028b330780b68c",
+      "remoteSha": "f3bbe0d16284bfb1e01b62498c028b330780b68c",
+      "size": 9391
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md": {
+      "sha": "1fa5c8f2d6f38809348afe816db06e7adc9c22d7",
+      "remoteSha": "1fa5c8f2d6f38809348afe816db06e7adc9c22d7",
+      "size": 911
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Research Agent.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md": {
+      "sha": "27f4799f01ef55189228599fef87625fccfe099b",
+      "remoteSha": "27f4799f01ef55189228599fef87625fccfe099b",
+      "size": 10173
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Follow Up Agent.md": {
+      "sha": "da61cb37b78710bb2a5331efc106dfb2eda9374a",
+      "remoteSha": "da61cb37b78710bb2a5331efc106dfb2eda9374a",
+      "size": 30
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md": {
+      "sha": "fbf9ce2d6258215f3086911f66c604912db17bf4",
+      "remoteSha": "fbf9ce2d6258215f3086911f66c604912db17bf4",
+      "size": 7255
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md": {
+      "sha": "697c5a9d9b135a77c9ae0997c726caf0feb5b7b6",
+      "remoteSha": "697c5a9d9b135a77c9ae0997c726caf0feb5b7b6",
+      "size": 4676
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/whimsical_er_map_ticketing_template.html": {
+      "sha": "16bcc094a71df7f63a6f637b8a2846baff9591f9",
+      "remoteSha": "16bcc094a71df7f63a6f637b8a2846baff9591f9",
+      "size": 13112
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md": {
+      "sha": "87083ff774aff7c7400ed1f61d18033ab15771c4",
+      "remoteSha": "87083ff774aff7c7400ed1f61d18033ab15771c4",
+      "size": 11040
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md": {
+      "sha": "14bfb146a150227efef5b19868cc8dc42e76fe29",
+      "remoteSha": "14bfb146a150227efef5b19868cc8dc42e76fe29",
+      "size": 249
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Block Contact creation of Same Domain_v1.md": {
+      "sha": "57526415eafc91617346661c3e8df986fbb9e255",
+      "remoteSha": "57526415eafc91617346661c3e8df986fbb9e255",
+      "size": 13385
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md": {
+      "sha": "001192fc4f806bee12dfcbd1a323db8e248327e5",
+      "remoteSha": "001192fc4f806bee12dfcbd1a323db8e248327e5",
+      "size": 17838
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md": {
+      "sha": "c4c0123f5f10e924732628c5296809285bf8ce09",
+      "remoteSha": "c4c0123f5f10e924732628c5296809285bf8ce09",
+      "size": 411
+    },
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md": {
+      "sha": "5e5012e66b53d271bc94a33a915c713f1c758d9b",
+      "remoteSha": "5e5012e66b53d271bc94a33a915c713f1c758d9b",
+      "size": 965
+    },
+    "1 - Projects/Sparrowcrm/4 - Product Specs/Spec Template.md": {
+      "sha": "cd4bf4067436ae8c89997cbf0aa3184287439187",
+      "remoteSha": "cd4bf4067436ae8c89997cbf0aa3184287439187",
+      "size": 709
+    },
+    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md": {
+      "sha": "e2eba20a5096abc4a57d9f81fddc52eff528bbce",
+      "remoteSha": "e2eba20a5096abc4a57d9f81fddc52eff528bbce",
+      "size": 696
+    },
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md": {
+      "sha": "31acfa06859a31f65c0e16744532b310b2471183",
+      "remoteSha": "31acfa06859a31f65c0e16744532b310b2471183",
+      "size": 1212
+    },
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Prioritization Matrix.md": {
+      "sha": "e25d8d253fa51ad33c7abb53904f281c00d698e3",
+      "remoteSha": "e25d8d253fa51ad33c7abb53904f281c00d698e3",
+      "size": 3936
+    },
+    "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md": {
+      "sha": "034ecf86a794bbc9f502632ed83e77ab204a3fd9",
+      "remoteSha": "034ecf86a794bbc9f502632ed83e77ab204a3fd9",
+      "size": 1064
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/User Personas.md": {
+      "sha": "8416a88e7bbe56ad93aaa22400ea4a0ad040ec4c",
+      "remoteSha": "8416a88e7bbe56ad93aaa22400ea4a0ad040ec4c",
+      "size": 15029
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Rep.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Sales Manager.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/RevOps.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Director of Sales.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/CEO.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/User Personas/Admin.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/Friction Points.md": {
+      "sha": "decef53f161633440d5aed0b84556c89ee89e405",
+      "remoteSha": "decef53f161633440d5aed0b84556c89ee89e405",
+      "size": 962
+    },
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md": {
+      "sha": "bf1061e6b9468e71419d471379fab903fd3b6961",
+      "remoteSha": "bf1061e6b9468e71419d471379fab903fd3b6961",
+      "size": 651
+    },
+    "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md": {
+      "sha": "6798f1c97fc94430e9157863bc5ad4fef925a0d2",
+      "remoteSha": "6798f1c97fc94430e9157863bc5ad4fef925a0d2",
+      "size": 1021
+    },
+    "1 - Projects/Sparrowcrm/11 - Help Articles/11 - Help Articles.md": {
+      "sha": "063cba51fe609934aacbfa5576aa44f87fb64d91",
+      "remoteSha": "063cba51fe609934aacbfa5576aa44f87fb64d91",
+      "size": 835
+    },
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/2-Product Strategy.md": {
+      "sha": "ec1179f80c80df7e27e3aa4fcfdbd6e4b2581f1f",
+      "remoteSha": "ec1179f80c80df7e27e3aa4fcfdbd6e4b2581f1f",
+      "size": 5561
+    },
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/First Principle for a CRM.md": {
+      "sha": "aa1b43cfd8f209d3f0ef139d0c2171058645bd32",
+      "remoteSha": "aa1b43cfd8f209d3f0ef139d0c2171058645bd32",
+      "size": 2944
+    },
+    "1 - Projects/Sparrowcrm/1 - Vision & Strategy/1-Product Vision.md": {
+      "sha": "359b0870b22c663d4602a73412d4ec79a88b4bb8",
+      "remoteSha": "359b0870b22c663d4602a73412d4ec79a88b4bb8",
+      "size": 7255
+    },
+    "1 - Projects/Second Stream Revenue/Second_stream_revenue.excalidraw.md": {
+      "sha": "d04a61252bdede63d4cc19cd611cf5aacb619762",
+      "remoteSha": "d04a61252bdede63d4cc19cd611cf5aacb619762",
+      "size": 17169
+    },
+    "1 - Projects/Second Stream Revenue/Youtube Scripts/Youtube video Framework.md": {
+      "sha": "36f4c5c5705bdd9c3a5e5fc027240a661ae955bc",
+      "remoteSha": "36f4c5c5705bdd9c3a5e5fc027240a661ae955bc",
+      "size": 1308
+    },
+    "1 - Projects/Second Stream Revenue/Youtube Scripts/Youtube Scripts.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Udemy.md": {
+      "sha": "6f97719f16d13cb508bf3c99b2904f09b8178a76",
+      "remoteSha": "6f97719f16d13cb508bf3c99b2904f09b8178a76",
+      "size": 3817
+    },
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/PM is not the owner or CEO of the product.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Second Stream Revenue/Scripts for Udemy and Youtube/Decisions are the real output of PMs.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Second Stream Revenue/Google_sheets/Sarindustriespune.md": {
+      "sha": "7d9c20f02094f0e36426b8f07c59c5cbc6a7750d",
+      "remoteSha": "7d9c20f02094f0e36426b8f07c59c5cbc6a7750d",
+      "size": 65
+    },
+    "1 - Projects/Second Stream Revenue/Google_sheets/Steps to create it.md": {
+      "sha": "6e07fd14bad5d3f51638b5321c8cbc83fa6a5475",
+      "remoteSha": "6e07fd14bad5d3f51638b5321c8cbc83fa6a5475",
+      "size": 2442
+    },
+    "1 - Projects/Second Stream Revenue/Google_sheets/Sales.md": {
+      "sha": "4b540ca9ed20e1c327b153f4034bcddd3580073b",
+      "remoteSha": "4b540ca9ed20e1c327b153f4034bcddd3580073b",
+      "size": 17
+    },
+    "1 - Projects/Second Stream Revenue/Google_sheets/ERP.md": {
+      "sha": "f4c0bbc7a7f26705001737b776cfbc0fd7bf8f3e",
+      "remoteSha": "f4c0bbc7a7f26705001737b776cfbc0fd7bf8f3e",
+      "size": 2984
+    },
+    "1 - Projects/Second Stream Revenue/Google_sheets/CEO One Pager.md": {
+      "sha": "791b9071e91048ba7e1597d8ba7406258f781cc8",
+      "remoteSha": "791b9071e91048ba7e1597d8ba7406258f781cc8",
+      "size": 2959
+    },
+    "1 - Projects/Email Notifications/land_plot_thirupuvanam.png": {
+      "sha": "a2477977041bea4678d6f331fa84f779c91c465c",
+      "remoteSha": "a2477977041bea4678d6f331fa84f779c91c465c",
+      "size": 194113
+    },
+    "1 - Projects/Email Notifications/filter-prototype.html": {
+      "sha": "c7c7d706cca8f412cf7ba30159bd517e8e925606",
+      "remoteSha": "c7c7d706cca8f412cf7ba30159bd517e8e925606",
+      "size": 47153
+    },
+    "1 - Projects/Email Notifications/EN-Features/EN-Features.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/prd-sparrowcrm-unified-filters.md": {
+      "sha": "5f5ed3a46759985bd6c997c3f267c703d081b10b",
+      "remoteSha": "5f5ed3a46759985bd6c997c3f267c703d081b10b",
+      "size": 16701
+    },
+    "1 - Projects/Email Notifications/Email Notifications.md": {
+      "sha": "608be04fd6d32a0f556d71b3fda40e3bcc57c82a",
+      "remoteSha": "608be04fd6d32a0f556d71b3fda40e3bcc57c82a",
+      "size": 745
+    },
+    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Strategy.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Roadmap & Planning/EN-Roadmap & Planning.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Product Wins/EN-Product Wins.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-People/EN-People.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Marketing/GTM-Unified-Filters.md": {
+      "sha": "61ccc91a9a4f51e4a02eb58ed2343d16ec301f91",
+      "remoteSha": "61ccc91a9a4f51e4a02eb58ed2343d16ec301f91",
+      "size": 8804
+    },
+    "1 - Projects/Email Notifications/EN-Marketing/EN-Marketing.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Metrics & Dashboards/EN-Metrics & Dashboards.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Help Articles/EN-Help Articles.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Decisions/EN-Decisions.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Customer Insights/EN-Customer Insights.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "1 - Projects/Email Notifications/EN-Competitors/EN-Competitors.md": {
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    "2 - Areas/Daily/Routine.md": {
+      "sha": "4c1967f2129bf16fdd4f3920b843553309381f21",
+      "remoteSha": "4c1967f2129bf16fdd4f3920b843553309381f21",
+      "size": 3497
+    },
+    "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md": {
+      "sha": "0a5af752dd3218df45fa053e64c32b35bdacaa72",
+      "remoteSha": "0a5af752dd3218df45fa053e64c32b35bdacaa72",
+      "size": 11918
+    },
+    "2 - Areas/Product Vision & Strategy/Product Vision.md": {
+      "sha": "074becdae6ae1f6a1dbdfcc8ac627f14e2998f50",
+      "remoteSha": "074becdae6ae1f6a1dbdfcc8ac627f14e2998f50",
+      "size": 1985
+    },
+    "2 - Areas/Product Vision & Strategy/Product Strategy.md": {
+      "sha": "7af7a3e5c66d83c67951a4b6cc3cea86931f3f5f",
+      "remoteSha": "7af7a3e5c66d83c67951a4b6cc3cea86931f3f5f",
+      "size": 1750
+    },
+    "2 - Areas/Product Sync System/Product Review system.md": {
+      "sha": "04bcacd5b51eaec7c1aea97314b315a8d481157c",
+      "remoteSha": "04bcacd5b51eaec7c1aea97314b315a8d481157c",
+      "size": 1422
+    },
+    "2 - Areas/Product Sync System/SME Operating system.md": {
+      "sha": "20f1a54f642cf93f5bea8effe685bc914e7febdf",
+      "remoteSha": "20f1a54f642cf93f5bea8effe685bc914e7febdf",
+      "size": 16328
+    }
+  },
   "syncLog": [
+    {
+      "startedAt": "2026-07-15T16:50:29.631Z",
+      "endedAt": "2026-07-15T16:50:35.596Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 243,
+      "uploads": 243,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-15T16:44:54.762Z",
+      "endedAt": "2026-07-15T16:50:29.628Z",
+      "reason": "settings",
+      "status": "success",
+      "changes": 564,
+      "uploads": 563,
+      "downloads": 0,
+      "deletes": 1,
+      "conflicts": 0,
+      "commitSha": "68b25c875ca1b66e5c0b19887bbfad69119985f5"
+    },
     {
       "startedAt": "2026-07-15T16:43:20.560Z",
       "endedAt": "2026-07-15T16:43:20.560Z",
