@@ -237,8 +237,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Issues Found.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 10,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1784028022720
@@ -263,6 +263,12 @@
         },
         {
           "timestampMillis": 1784028695335
+        },
+        {
+          "timestampMillis": 1784136341428
+        },
+        {
+          "timestampMillis": 1784136341704
         }
       ]
     },

@@ -21,17 +21,24 @@
             "id": "4e94ecc11ee7e9be",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -646.9934908405015,
-                  "y": 729.6317352565432,
-                  "zoom": -1.0156106287854902
+                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
+              "icon": "lucide-file",
+              "title": "Issues Found"
             }
           },
           {
@@ -490,14 +497,15 @@
       "link-link:Link Link!": false,
       "better-store:Open Better Store": false,
       "rss-dashboard:RSS dashboard": false,
-      "supersync:GitHub Sync": false
+      "supersync:GitHub Sync": false,
+      "peerdraft:Show my Peerdraft Shares": false
     }
   },
-  "active": "4e94ecc11ee7e9be",
+  "active": "0e41dea7c411da32",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "README",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/Diagrams",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
@@ -530,7 +538,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
     "1 - Projects/Sparrowcrm/Drawing 2026-05-18 12.25.39.excalidraw.md",
     "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md",
     "Pasted image 20260603113206.png",
