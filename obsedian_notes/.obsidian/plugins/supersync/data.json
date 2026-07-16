@@ -2675,6 +2675,17 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-16T13:07:58.593Z",
+      "endedAt": "2026-07-16T13:08:01.788Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 250,
+      "uploads": 250,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-16T13:02:58.581Z",
       "endedAt": "2026-07-16T13:03:01.471Z",
       "reason": "interval",
@@ -3778,18 +3789,6 @@
       "deletes": 1,
       "conflicts": 0,
       "commitSha": "68b25c875ca1b66e5c0b19887bbfad69119985f5"
-    },
-    {
-      "startedAt": "2026-07-15T16:43:20.560Z",
-      "endedAt": "2026-07-15T16:43:20.560Z",
-      "reason": "startup",
-      "status": "error",
-      "changes": 0,
-      "uploads": 0,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "error": "GitHub token is required."
     }
   ]
 }
