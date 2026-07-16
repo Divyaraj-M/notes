@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Issues Found",
-      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "AI CRM Visualization",
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Knowledge Base-L3",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md"
+    },
+    {
+      "basename": "Issues Found",
+      "path": "1 - Projects/Sparrowcrm/Issues Found.md"
     },
     {
       "basename": "Hygiene Agent_v1",
@@ -19,10 +27,6 @@
     {
       "basename": "Knowledge Manager agent",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md"
-    },
-    {
-      "basename": "Knowledge Base-L3",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md"
     },
     {
       "basename": "CRM Intelligence",
@@ -195,10 +199,6 @@
     {
       "basename": "Apollo.io Enrichment — Field Reference",
       "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
-      "basename": "Email Integration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Email Integration.md"
     }
   ],
   "omittedPaths": [],

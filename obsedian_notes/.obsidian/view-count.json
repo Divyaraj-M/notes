@@ -237,8 +237,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Issues Found.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 12,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 13,
       "openLogs": [
         {
           "timestampMillis": 1784028022720
@@ -269,6 +269,9 @@
         },
         {
           "timestampMillis": 1784136341704
+        },
+        {
+          "timestampMillis": 1784192394514
         }
       ]
     },
@@ -284,23 +287,17 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/To do list.md",
-      "uniqueDaysOpened": 15,
-      "totalTimesOpened": 44,
+      "uniqueDaysOpened": 16,
+      "totalTimesOpened": 46,
       "openLogs": [
         {
-          "timestampMillis": 1780295557150
-        },
-        {
-          "timestampMillis": 1780413879419
-        },
-        {
-          "timestampMillis": 1780644965174
-        },
-        {
-          "timestampMillis": 1780645203494
-        },
-        {
           "timestampMillis": 1782210378392
+        },
+        {
+          "timestampMillis": 1784192465555
+        },
+        {
+          "timestampMillis": 1784192465712
         }
       ]
     },
@@ -2880,8 +2877,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 200,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 203,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3482,6 +3479,15 @@
         },
         {
           "timestampMillis": 1784107614115
+        },
+        {
+          "timestampMillis": 1784192395506
+        },
+        {
+          "timestampMillis": 1784192441049
+        },
+        {
+          "timestampMillis": 1784192464056
         }
       ]
     },
@@ -4502,8 +4508,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
-      "uniqueDaysOpened": 1,
-      "totalTimesOpened": 18,
+      "uniqueDaysOpened": 2,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1784027648960
@@ -4558,6 +4564,9 @@
         },
         {
           "timestampMillis": 1784033576650
+        },
+        {
+          "timestampMillis": 1784192426347
         }
       ]
     },
