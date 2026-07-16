@@ -28,7 +28,7 @@
 		{"id":"2c488827af804de2","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md","x":-1440,"y":1080,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"c899e74d376bd08c","fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
+		{"id":"c899e74d376bd08c","toFloating":false,"fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
 		{"id":"a3f587b4b5ad5cb6","fromNode":"42c8ba7dc95ab593","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"2"},
 		{"id":"9d4b70c262493b7c","fromNode":"c65cffd77df1bcdf","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"4"},
 		{"id":"a586666880a6ae7e","fromNode":"4cb6374a1cec4e32","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom"},
