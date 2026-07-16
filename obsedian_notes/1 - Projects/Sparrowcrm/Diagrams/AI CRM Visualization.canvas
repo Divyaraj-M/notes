@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"60f10f99cd621290","type":"group","ratio":1.7777777777777777,"x":-3360,"y":940,"width":1200,"height":675,"label":"New Slide"},
 		{"id":"7706d1ea5a2256e9","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md","x":-260,"y":-720,"width":689,"height":507},
 		{"id":"c65cffd77df1bcdf","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md","x":643,"y":46,"width":400,"height":400},
 		{"id":"42c8ba7dc95ab593","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md","x":-20,"y":46,"width":400,"height":400},
@@ -11,7 +10,6 @@
 		{"id":"c1ad2cdf05055994","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows_v1.md","x":1390,"y":-800,"width":400,"height":400},
 		{"id":"04557eac4b0ec38b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md","x":-1980,"y":-540,"width":400,"height":400},
 		{"id":"c3cc052dd91c52d8","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md","x":-1065,"y":-1060,"width":400,"height":400},
-		{"id":"049ecbea3aa6d2e8","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md","x":-2840,"y":580,"width":400,"height":400,"color":"1"},
 		{
 			"id":"fce45f816c943ad4",
 			"type":"file",
@@ -26,7 +24,8 @@
 		{"id":"7afc7957f3172e72","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md","x":-3240,"y":-60,"width":400,"height":400,"color":"4"},
 		{"id":"b5501dd435459003","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Follow Up Agent.md","x":-160,"y":1080,"width":400,"height":400},
 		{"id":"871e7300eb8d9a2b","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md","x":-980,"y":1080,"width":570,"height":560,"color":"3"},
-		{"id":"2c488827af804de2","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md","x":-1440,"y":1080,"width":400,"height":400}
+		{"id":"2c488827af804de2","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md","x":-1440,"y":1080,"width":400,"height":400},
+		{"id":"049ecbea3aa6d2e8","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md","x":-3160,"y":540,"width":400,"height":400,"color":"1"}
 	],
 	"edges":[
 		{"id":"c899e74d376bd08c","toFloating":false,"fromNode":"260bb528d2fd6bee","fromSide":"top","toNode":"7706d1ea5a2256e9","toSide":"bottom","color":"5"},
@@ -39,13 +38,13 @@
 		{"id":"8314b3db595194e6","fromNode":"c1ad2cdf05055994","fromSide":"left","toNode":"7706d1ea5a2256e9","toSide":"right"},
 		{"id":"d31ccaae42a28f1c","fromNode":"b5501dd435459003","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"},
 		{"id":"cf3575a905159182","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"7afc7957f3172e72","toSide":"top"},
-		{"id":"aeaa5962d590f7e8","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"049ecbea3aa6d2e8","toSide":"top"},
 		{"id":"8a0401fa18f553ff","fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"fce45f816c943ad4","toSide":"top"},
 		{"id":"2606bd3415179bc1","fromNode":"c3cc052dd91c52d8","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left"},
 		{"id":"e07fd0619be6a472","fromNode":"c3cc052dd91c52d8","fromSide":"bottom","toNode":"fce45f816c943ad4","toSide":"right"},
 		{"id":"a56e2390bbe0ea3e","fromNode":"04557eac4b0ec38b","fromSide":"right","toNode":"7706d1ea5a2256e9","toSide":"left","color":"6"},
 		{"id":"a0c3031a6e4620b7","fromNode":"2c488827af804de2","fromSide":"top","toNode":"fce45f816c943ad4","toSide":"bottom","color":"2","label":"This agent will help the Knowledge grow"},
-		{"id":"e1f74aa2ef52bdda","fromNode":"2c488827af804de2","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"}
+		{"id":"e1f74aa2ef52bdda","fromNode":"2c488827af804de2","fromSide":"top","toNode":"dd108afe764cd203","toSide":"bottom","color":"5"},
+		{"id":"aeaa5962d590f7e8","toFloating":false,"fromNode":"04557eac4b0ec38b","fromSide":"bottom","toNode":"049ecbea3aa6d2e8","toSide":"top"}
 	],
 	"metadata":{
 		"version":"1.0-1.0",

@@ -2884,7 +2884,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
       "uniqueDaysOpened": 7,
-      "totalTimesOpened": 208,
+      "totalTimesOpened": 210,
       "openLogs": [
         {
           "timestampMillis": 1783493251919
@@ -3509,6 +3509,12 @@
         },
         {
           "timestampMillis": 1784196910562
+        },
+        {
+          "timestampMillis": 1784196921176
+        },
+        {
+          "timestampMillis": 1784196926843
         }
       ]
     },
@@ -4496,7 +4502,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
       "uniqueDaysOpened": 2,
-      "totalTimesOpened": 13,
+      "totalTimesOpened": 15,
       "openLogs": [
         {
           "timestampMillis": 1784027204241
@@ -4536,6 +4542,12 @@
         },
         {
           "timestampMillis": 1784196909508
+        },
+        {
+          "timestampMillis": 1784196918808
+        },
+        {
+          "timestampMillis": 1784196924908
         }
       ]
     },
