@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Records-L1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
-    },
-    {
       "basename": "AI CRM Visualization",
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Context-L2",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md"
+    },
+    {
+      "basename": "Records-L1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
     },
     {
       "basename": "CRM Intelligence",
@@ -51,10 +55,6 @@
     {
       "basename": "4 - Product Specs",
       "path": "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md"
-    },
-    {
-      "basename": "Context-L2",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md"
     },
     {
       "basename": "Follow Up Agent",

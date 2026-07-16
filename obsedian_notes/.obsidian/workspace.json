@@ -21,24 +21,17 @@
             "id": "4e94ecc11ee7e9be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 401.67079041295096,
+                  "y": 291.43278548813976,
+                  "zoom": -0.6668434588469593
                 }
               },
-              "icon": "lucide-file",
-              "title": "Records-L1"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -342,10 +335,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md"
+                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for Records-L1"
+              "title": "File properties for AI CRM Visualization"
             }
           },
           {
@@ -378,13 +371,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
+                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Records-L1"
+              "title": "Outline of AI CRM Visualization"
             }
           },
           {
@@ -508,7 +501,9 @@
   },
   "active": "4e94ecc11ee7e9be",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
@@ -519,10 +514,8 @@
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md",
