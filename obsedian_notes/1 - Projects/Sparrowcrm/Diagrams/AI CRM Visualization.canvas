@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"60f10f99cd621290","type":"group","ratio":1.7777777777777777,"x":-3360,"y":940,"width":1200,"height":675,"label":"New Slide"},
 		{"id":"7706d1ea5a2256e9","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md","x":-260,"y":-720,"width":689,"height":507},
 		{"id":"c65cffd77df1bcdf","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md","x":643,"y":46,"width":400,"height":400},
 		{"id":"42c8ba7dc95ab593","type":"file","file":"1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md","x":-20,"y":46,"width":400,"height":400},
