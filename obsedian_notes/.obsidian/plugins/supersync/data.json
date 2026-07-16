@@ -2675,6 +2675,17 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-16T09:38:11.024Z",
+      "endedAt": "2026-07-16T09:38:14.203Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 250,
+      "uploads": 250,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-16T09:32:26.973Z",
       "endedAt": "2026-07-16T09:32:30.016Z",
       "reason": "interval",
