@@ -2685,6 +2685,17 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T11:04:57.087Z",
+      "endedAt": "2026-07-17T11:05:00.259Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-17T10:59:57.086Z",
       "endedAt": "2026-07-17T11:00:00.325Z",
       "reason": "interval",
@@ -3790,18 +3801,6 @@
       "deletes": 0,
       "conflicts": 0,
       "commitSha": "d5291b55aadb626963f5f74af6d8e163c0b78b0a"
-    },
-    {
-      "startedAt": "2026-07-16T10:15:25.438Z",
-      "endedAt": "2026-07-16T10:15:31.131Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 251,
-      "uploads": 251,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "1cb69940ae126bfdec38e80e03c059a5001ddc72"
     }
   ]
 }
