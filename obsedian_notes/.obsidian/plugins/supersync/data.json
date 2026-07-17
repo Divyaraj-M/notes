@@ -2685,6 +2685,42 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T12:27:53.184Z",
+      "endedAt": "2026-07-17T12:45:04.341Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "startedAt": "2026-07-17T12:18:01.347Z",
+      "endedAt": "2026-07-17T12:19:15.764Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_INTERNET_DISCONNECTED"
+    },
+    {
+      "startedAt": "2026-07-17T12:12:33.804Z",
+      "endedAt": "2026-07-17T12:16:48.334Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_INTERNET_DISCONNECTED"
+    },
+    {
       "startedAt": "2026-07-17T11:33:34.295Z",
       "endedAt": "2026-07-17T11:33:37.496Z",
       "reason": "interval",
@@ -3759,39 +3795,6 @@
     {
       "startedAt": "2026-07-16T11:04:05.948Z",
       "endedAt": "2026-07-16T11:04:09.085Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T10:58:23.411Z",
-      "endedAt": "2026-07-16T10:58:26.454Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T10:52:49.573Z",
-      "endedAt": "2026-07-16T10:52:52.476Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T10:46:49.785Z",
-      "endedAt": "2026-07-16T10:46:53.695Z",
       "reason": "interval",
       "status": "success",
       "changes": 250,
