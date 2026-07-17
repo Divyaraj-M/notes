@@ -2685,6 +2685,28 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T09:34:55.239Z",
+      "endedAt": "2026-07-17T09:34:57.478Z",
+      "reason": "pull",
+      "status": "success",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T09:33:12.582Z",
+      "endedAt": "2026-07-17T09:33:15.764Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-17T09:27:58.773Z",
       "endedAt": "2026-07-17T09:28:01.551Z",
       "reason": "file change",
@@ -3780,29 +3802,6 @@
       "downloads": 0,
       "deletes": 0,
       "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T09:00:44.019Z",
-      "endedAt": "2026-07-16T09:00:47.418Z",
-      "reason": "queued",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T09:00:39.101Z",
-      "endedAt": "2026-07-16T09:00:44.019Z",
-      "reason": "queued",
-      "status": "success",
-      "changes": 251,
-      "uploads": 251,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "41889579d658a50854cf007ad3e1c7711a847223"
     }
   ]
 }

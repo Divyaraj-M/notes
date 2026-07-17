@@ -256,7 +256,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apollo.io Enrichment — Field Reference.md",
+                "file": "_belki_files/Data/2026-07.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -271,7 +271,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Apollo.io Enrichment — Field Reference"
+              "title": "2026-07"
             }
           }
         ],
@@ -318,7 +318,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm/features",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -581,8 +581,9 @@
       "belki:Open belki": false
     }
   },
-  "active": "99cfd314f19c1978",
+  "active": "6374f28e47b0fb1b",
   "lastOpenFiles": [
+    "Apollo.io Enrichment — Field Reference.md",
     "_belki_files/Data/2026-07.md",
     "_belki_files/main.md",
     "_belki_files/Attachments",
@@ -619,7 +620,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
     "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",

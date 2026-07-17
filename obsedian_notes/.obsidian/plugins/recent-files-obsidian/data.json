@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-07",
+      "path": "_belki_files/Data/2026-07.md"
+    },
+    {
       "basename": "Apollo.io Enrichment — Field Reference",
       "path": "Apollo.io Enrichment — Field Reference.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Feature Lens — How It Works",
       "path": "3 - Resources/Frameworks/Feature Lens — How It Works.md"
-    },
-    {
-      "basename": "Workflows_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows_v1.md"
     }
   ],
   "omittedPaths": [],
