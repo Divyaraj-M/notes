@@ -2680,6 +2680,52 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T07:03:50.515Z",
+      "endedAt": "2026-07-17T07:03:53.594Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 257,
+      "uploads": 257,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T06:57:56.340Z",
+      "endedAt": "2026-07-17T06:58:13.866Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 257,
+      "uploads": 257,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T06:51:42.699Z",
+      "endedAt": "2026-07-17T06:57:32.137Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "startedAt": "2026-07-17T06:44:54.354Z",
+      "endedAt": "2026-07-17T06:51:31.694Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_INTERNET_DISCONNECTED"
+    },
+    {
       "startedAt": "2026-07-17T06:37:13.908Z",
       "endedAt": "2026-07-17T06:37:17.537Z",
       "reason": "interval",
@@ -3739,51 +3785,6 @@
     {
       "startedAt": "2026-07-16T03:00:34.868Z",
       "endedAt": "2026-07-16T03:12:12.998Z",
-      "reason": "interval",
-      "status": "error",
-      "changes": 0,
-      "uploads": 0,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "error": "net::ERR_NETWORK_CHANGED"
-    },
-    {
-      "startedAt": "2026-07-16T02:36:25.909Z",
-      "endedAt": "2026-07-16T02:36:29.421Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T01:35:28.865Z",
-      "endedAt": "2026-07-16T01:35:32.347Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T00:34:32.046Z",
-      "endedAt": "2026-07-16T00:34:35.475Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-15T23:33:35.153Z",
-      "endedAt": "2026-07-15T23:49:16.910Z",
       "reason": "interval",
       "status": "error",
       "changes": 0,
