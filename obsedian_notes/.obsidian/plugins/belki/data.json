@@ -20,9 +20,11 @@
     "labelRegistry": [
       "crm_intelligence",
       "feature_support",
-      "feature"
+      "feature",
+      "learning"
     ],
     "projectRegistry": [
+      "Foundational IITM",
       "Share Extension",
       "SparrowCRM"
     ],

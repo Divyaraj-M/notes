@@ -17,16 +17,6 @@
               "icon": "check-circle-2",
               "title": "Tasks · belki"
             }
-          },
-          {
-            "id": "8a726d2f81f24b73",
-            "type": "leaf",
-            "state": {
-              "type": "better-store-view",
-              "state": {},
-              "icon": "store",
-              "title": "Better Store"
-            }
           }
         ]
       },
@@ -249,33 +239,9 @@
               "icon": "hearth-crystal",
               "title": "Home"
             }
-          },
-          {
-            "id": "6374f28e47b0fb1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_belki_files/Data/2026-07.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-07"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -581,10 +547,10 @@
       "belki:Open belki": false
     }
   },
-  "active": "6374f28e47b0fb1b",
+  "active": "99cfd314f19c1978",
   "lastOpenFiles": [
-    "Apollo.io Enrichment — Field Reference.md",
     "_belki_files/Data/2026-07.md",
+    "Apollo.io Enrichment — Field Reference.md",
     "_belki_files/main.md",
     "_belki_files/Attachments",
     "_belki_files/Data",
