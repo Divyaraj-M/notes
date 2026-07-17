@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Apollo.io Enrichment — Field Reference",
+      "path": "Apollo.io Enrichment — Field Reference.md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Workflows_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows_v1.md"
-    },
-    {
-      "basename": "Apollo.io Enrichment — Field Reference",
-      "path": "Apollo.io Enrichment — Field Reference.md"
     }
   ],
   "omittedPaths": [],

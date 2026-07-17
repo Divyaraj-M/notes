@@ -201,8 +201,53 @@
               "icon": "lucide-file",
               "title": "Knowledge Base-L3"
             }
+          },
+          {
+            "id": "e8045decc0a109e2",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "60b353be2adf2034",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "6374f28e47b0fb1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apollo.io Enrichment — Field Reference.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Apollo.io Enrichment — Field Reference"
+            }
           }
-        ]
+        ],
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -256,8 +301,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "2baa8948f242f9e0",
@@ -408,9 +452,19 @@
               "icon": "link",
               "title": "Link Link!"
             }
+          },
+          {
+            "id": "ae0e989d3fd4e238",
+            "type": "leaf",
+            "state": {
+              "type": "private-github-sync-status",
+              "state": {},
+              "icon": "refresh-cw",
+              "title": "GitHub Sync"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -498,15 +552,15 @@
       "peerdraft:Show my Peerdraft Shares": false
     }
   },
-  "active": "4e94ecc11ee7e9be",
+  "active": "ae0e989d3fd4e238",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
+    "README",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/To do list.md",
     "1 - Projects/Sparrowcrm/Issues Found.md",
-    "README",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/Diagrams",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
