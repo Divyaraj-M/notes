@@ -1139,11 +1139,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 6,
       "openLogs": [
         {
           "timestampMillis": 1784027993333
+        },
+        {
+          "timestampMillis": 1784308425129
         }
       ]
     },
@@ -4804,6 +4807,16 @@
         },
         {
           "timestampMillis": 1784280934084
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1784308419895
         }
       ]
     }
