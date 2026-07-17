@@ -17,6 +17,16 @@
               "icon": "check-circle-2",
               "title": "Tasks · belki"
             }
+          },
+          {
+            "id": "8a726d2f81f24b73",
+            "type": "leaf",
+            "state": {
+              "type": "better-store-view",
+              "state": {},
+              "icon": "store",
+              "title": "Better Store"
+            }
           }
         ]
       },

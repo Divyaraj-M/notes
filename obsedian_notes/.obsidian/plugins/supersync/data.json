@@ -23,9 +23,9 @@
       "size": 128
     },
     "_belki_files/Data/2026-07.md": {
-      "sha": "cdae67acf10ea4efb47de241852c9c5b92af6bd1",
-      "remoteSha": "cdae67acf10ea4efb47de241852c9c5b92af6bd1",
-      "size": 574
+      "sha": "b61cf6fdadc71766b21fc3cf18488c1159ef274e",
+      "remoteSha": "b61cf6fdadc71766b21fc3cf18488c1159ef274e",
+      "size": 933
     },
     "README": {
       "sha": "8b77c89225167ee6ff0495b89700f22786273c4b",
@@ -2685,6 +2685,42 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T09:24:00.977Z",
+      "endedAt": "2026-07-17T09:24:05.939Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "d40a1a78e620b7361dbcb181d793685ded3f4959"
+    },
+    {
+      "startedAt": "2026-07-17T09:21:37.265Z",
+      "endedAt": "2026-07-17T09:21:42.177Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "c53f5048efde174cb1795999b5f44c82c283983a"
+    },
+    {
+      "startedAt": "2026-07-17T09:21:24.479Z",
+      "endedAt": "2026-07-17T09:21:30.185Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "bb1728ed118693a9f7b2b011e9f7c4ba9255ebc7"
+    },
+    {
       "startedAt": "2026-07-17T09:20:14.986Z",
       "endedAt": "2026-07-17T09:20:19.994Z",
       "reason": "file change",
@@ -3760,39 +3796,6 @@
     {
       "startedAt": "2026-07-16T08:58:10.976Z",
       "endedAt": "2026-07-16T08:58:14.057Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T08:53:10.937Z",
-      "endedAt": "2026-07-16T08:53:14.040Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T08:47:11.003Z",
-      "endedAt": "2026-07-16T08:47:13.941Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T08:41:11.224Z",
-      "endedAt": "2026-07-16T08:41:17.125Z",
       "reason": "interval",
       "status": "success",
       "changes": 247,
