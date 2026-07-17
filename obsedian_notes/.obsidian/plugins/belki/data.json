@@ -13,10 +13,15 @@
       "activity": "activity",
       "completed": "completed"
     },
-    "projectColors": {},
+    "projectColors": {
+      "SparrowCRM": "#0C6E99"
+    },
     "labelColors": {},
     "labelRegistry": [],
-    "projectRegistry": [],
+    "projectRegistry": [
+      "Share Extension",
+      "SparrowCRM"
+    ],
     "archivedProjects": [],
     "sortMode": "smart",
     "groupBy": "none",

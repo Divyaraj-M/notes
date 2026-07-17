@@ -1,0 +1,11 @@
+{
+  "serverPort": 8765,
+  "serverHost": "127.0.0.1",
+  "autoStart": true,
+  "debug": false,
+  "pathACL": {
+    "forbidden": [],
+    "readOnly": [],
+    "writable": []
+  }
+}
