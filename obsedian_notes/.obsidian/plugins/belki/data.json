@@ -24,12 +24,13 @@
       "learning"
     ],
     "projectRegistry": [
+      "Curiousgeekspm",
       "Foundational IITM",
       "Share Extension",
       "SparrowCRM"
     ],
     "archivedProjects": [],
-    "sortMode": "smart",
+    "sortMode": "priority",
     "groupBy": "none",
     "defaultOverdueRange": "last7",
     "uiFont": "system",

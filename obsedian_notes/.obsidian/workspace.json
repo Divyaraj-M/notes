@@ -83,8 +83,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +167,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 23.693379790940764,
+        "dimension": 23.671155209071582,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -306,7 +305,7 @@
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 43.728222996515676,
+        "dimension": 53.86250885896528,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -342,7 +341,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 32.57839721254354,
+        "dimension": 22.466335931963147,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -390,7 +389,7 @@
       "belki:Open belki": false
     }
   },
-  "active": "3e4349fefc68276e",
+  "active": "99cfd314f19c1978",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
