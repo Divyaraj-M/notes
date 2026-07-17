@@ -2680,6 +2680,17 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T05:26:47.401Z",
+      "endedAt": "2026-07-17T05:26:50.935Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 257,
+      "uploads": 257,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-17T05:21:47.369Z",
       "endedAt": "2026-07-17T05:21:50.683Z",
       "reason": "interval",
@@ -3776,17 +3787,6 @@
     {
       "startedAt": "2026-07-15T18:02:26.971Z",
       "endedAt": "2026-07-15T18:02:30.188Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-15T17:56:26.958Z",
-      "endedAt": "2026-07-15T17:56:30.136Z",
       "reason": "interval",
       "status": "success",
       "changes": 247,
