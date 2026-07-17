@@ -14,16 +14,19 @@
       "completed": "completed"
     },
     "projectColors": {
-      "SparrowCRM": "#0C6E99"
+      "SparrowCRM": "#0C6E99",
+      "1layerx.com": "#c7ba23"
     },
     "labelColors": {},
     "labelRegistry": [
       "crm_intelligence",
       "feature_support",
       "feature",
-      "learning"
+      "learning",
+      "coding-session"
     ],
     "projectRegistry": [
+      "1layerx.com",
       "Curiousgeekspm",
       "Foundational IITM",
       "Share Extension",

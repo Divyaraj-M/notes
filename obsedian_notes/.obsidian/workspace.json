@@ -65,8 +65,7 @@
               "title": "SparrowCRM-Entity-Relationships"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -372,7 +371,7 @@
       "belki:Open belki": false
     }
   },
-  "active": "4e94ecc11ee7e9be",
+  "active": "99cfd314f19c1978",
   "lastOpenFiles": [
     "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
