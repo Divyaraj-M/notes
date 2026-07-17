@@ -23,24 +23,10 @@
             "id": "66e39c76a9663119",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CRM Intelligence"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -51,6 +37,23 @@
               "state": {},
               "icon": "hearth-crystal",
               "title": "Home"
+            }
+          },
+          {
+            "id": "cd7a0157d71552ea",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": -283.7189337144782,
+                  "y": 193.42301921577305,
+                  "zoom": -0.8607735229342092
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -282,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -373,9 +376,10 @@
   },
   "active": "99cfd314f19c1978",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
+    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md",
@@ -406,9 +410,7 @@
     "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports",
     "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Workflows",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "Pasted image 20260603113206.png",
