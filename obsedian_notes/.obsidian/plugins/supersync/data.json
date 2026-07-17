@@ -2685,6 +2685,29 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T17:04:51.186Z",
+      "endedAt": "2026-07-17T17:04:51.463Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "startedAt": "2026-07-17T16:51:51.708Z",
+      "endedAt": "2026-07-17T16:51:55.239Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-17T16:38:39.558Z",
       "endedAt": "2026-07-17T16:38:42.834Z",
       "reason": "interval",
@@ -3774,28 +3797,6 @@
       "startedAt": "2026-07-17T04:45:33.198Z",
       "endedAt": "2026-07-17T04:45:38.592Z",
       "reason": "startup",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T13:13:42.944Z",
-      "endedAt": "2026-07-16T13:13:45.817Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T13:07:58.593Z",
-      "endedAt": "2026-07-16T13:08:01.788Z",
-      "reason": "interval",
       "status": "success",
       "changes": 250,
       "uploads": 250,
