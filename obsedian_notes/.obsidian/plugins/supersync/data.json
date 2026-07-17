@@ -22,6 +22,11 @@
       "remoteSha": "faf911f32fbc26cfd9bf96b0066dcedf266b7a0e",
       "size": 128
     },
+    "_belki_files/Data/2026-07.md": {
+      "sha": "cdae67acf10ea4efb47de241852c9c5b92af6bd1",
+      "remoteSha": "cdae67acf10ea4efb47de241852c9c5b92af6bd1",
+      "size": 574
+    },
     "README": {
       "sha": "8b77c89225167ee6ff0495b89700f22786273c4b",
       "remoteSha": "8b77c89225167ee6ff0495b89700f22786273c4b",
@@ -2680,6 +2685,54 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T09:20:14.986Z",
+      "endedAt": "2026-07-17T09:20:19.994Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "ece2b6dc8da5f4c7d8bad10957361e07f27e94d6"
+    },
+    {
+      "startedAt": "2026-07-17T09:18:59.836Z",
+      "endedAt": "2026-07-17T09:19:04.963Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "ef1642497cfac1842722973be3ac76f3ec52004e"
+    },
+    {
+      "startedAt": "2026-07-17T09:17:44.509Z",
+      "endedAt": "2026-07-17T09:17:49.684Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "72bc36815ca46644ff8d3192a553d8b8da3d17c7"
+    },
+    {
+      "startedAt": "2026-07-17T09:16:27.726Z",
+      "endedAt": "2026-07-17T09:16:33.012Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "250c095b6ab6b9bcbbc4b6474a0142329b252c62"
+    },
+    {
       "startedAt": "2026-07-17T09:14:39.859Z",
       "endedAt": "2026-07-17T09:14:45.042Z",
       "reason": "interval",
@@ -3740,50 +3793,6 @@
     {
       "startedAt": "2026-07-16T08:41:11.224Z",
       "endedAt": "2026-07-16T08:41:17.125Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T07:41:16.105Z",
-      "endedAt": "2026-07-16T07:41:19.052Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T07:35:16.086Z",
-      "endedAt": "2026-07-16T07:35:19.193Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T07:29:16.040Z",
-      "endedAt": "2026-07-16T07:29:19.046Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T07:23:16.109Z",
-      "endedAt": "2026-07-16T07:23:18.962Z",
       "reason": "interval",
       "status": "success",
       "changes": 247,

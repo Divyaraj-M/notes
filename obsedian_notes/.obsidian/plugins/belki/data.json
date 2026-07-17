@@ -18,7 +18,9 @@
     },
     "labelColors": {},
     "labelRegistry": [
-      "crm_intelligence"
+      "crm_intelligence",
+      "feature_support",
+      "feature"
     ],
     "projectRegistry": [
       "Share Extension",
