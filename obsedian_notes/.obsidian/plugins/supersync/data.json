@@ -2338,9 +2338,9 @@
       "size": 10173
     },
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md": {
-      "sha": "5e5012e66b53d271bc94a33a915c713f1c758d9b",
-      "remoteSha": "5e5012e66b53d271bc94a33a915c713f1c758d9b",
-      "size": 965
+      "sha": "cb0ca515598ab67a4208fbdbd8f2fba83fc2e65f",
+      "remoteSha": "cb0ca515598ab67a4208fbdbd8f2fba83fc2e65f",
+      "size": 969
     },
     "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/Team OKRs.md": {
       "sha": "31acfa06859a31f65c0e16744532b310b2471183",
@@ -2684,6 +2684,18 @@
     }
   },
   "syncLog": [
+    {
+      "startedAt": "2026-07-17T10:16:12.379Z",
+      "endedAt": "2026-07-17T10:16:18.378Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "3f3c59eb3999214d2eaa694c5343458a518c1f95"
+    },
     {
       "startedAt": "2026-07-17T10:11:39.213Z",
       "endedAt": "2026-07-17T10:11:42.072Z",
@@ -3785,17 +3797,6 @@
     {
       "startedAt": "2026-07-16T09:49:44.800Z",
       "endedAt": "2026-07-16T09:49:47.785Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T09:44:38.964Z",
-      "endedAt": "2026-07-16T09:44:41.862Z",
       "reason": "interval",
       "status": "success",
       "changes": 250,

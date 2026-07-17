@@ -2724,7 +2724,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 56,
+      "totalTimesOpened": 59,
       "openLogs": [
         {
           "timestampMillis": 1783486747940
@@ -2893,6 +2893,15 @@
         },
         {
           "timestampMillis": 1784283372672
+        },
+        {
+          "timestampMillis": 1784283393890
+        },
+        {
+          "timestampMillis": 1784283394170
+        },
+        {
+          "timestampMillis": 1784283420715
         }
       ]
     },
@@ -3548,7 +3557,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 63,
+      "totalTimesOpened": 66,
       "openLogs": [
         {
           "timestampMillis": 1783495153275
@@ -3738,6 +3747,15 @@
         },
         {
           "timestampMillis": 1784281490212
+        },
+        {
+          "timestampMillis": 1784283400500
+        },
+        {
+          "timestampMillis": 1784283400792
+        },
+        {
+          "timestampMillis": 1784283420339
         }
       ]
     },
