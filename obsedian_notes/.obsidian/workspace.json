@@ -4,27 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fa9070c09da2b34",
+        "id": "236ab9de92b0c074",
         "type": "tabs",
-        "dimension": 59.56043956043956,
         "children": [
           {
             "id": "99cfd314f19c1978",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "belki-task-board",
               "state": {},
+              "pinned": true,
               "icon": "check-circle-2",
               "title": "Tasks · belki"
             }
-          }
-        ]
-      },
-      {
-        "id": "236ab9de92b0c074",
-        "type": "tabs",
-        "dimension": 40.43956043956044,
-        "children": [
+          },
           {
             "id": "37b9ec908c3e5e0d",
             "type": "leaf",
@@ -36,16 +30,16 @@
             }
           },
           {
-            "id": "4e94ecc11ee7e9be",
+            "id": "3e4349fefc68276e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -1664.3467408705176,
-                  "y": 509.9486031306328,
-                  "zoom": -0.9785494533597353
+                  "x": -1455.6762144409229,
+                  "y": 917.2880407227137,
+                  "zoom": -0.7291957511738913
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -53,171 +47,20 @@
             }
           },
           {
-            "id": "9d3e8f57cc1c5afa",
+            "id": "4e94ecc11ee7e9be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Issues Found.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+                "viewState": {
+                  "x": 495.02447532783066,
+                  "y": -124.18170765227372,
+                  "zoom": -0.7220205972252578
                 }
               },
-              "icon": "lucide-file",
-              "title": "Issues Found"
-            }
-          },
-          {
-            "id": "487b6ac2bf489e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agents in CRM"
-            }
-          },
-          {
-            "id": "4a00247c1bff6195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agents in CRM"
-            }
-          },
-          {
-            "id": "766d5f66404e0f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Records-L1"
-            }
-          },
-          {
-            "id": "a90bfda430926aa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Context-L2"
-            }
-          },
-          {
-            "id": "e1c9ea842d52370b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Knowledge Base-L3"
-            }
-          },
-          {
-            "id": "c90667a3ee4c9807",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Knowledge Base-L3"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI CRM Visualization"
             }
           },
           {
@@ -241,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,7 +96,7 @@
       {
         "id": "d09f13e4750e076e",
         "type": "tabs",
-        "dimension": 83.515625,
+        "dimension": 71.69684775318578,
         "children": [
           {
             "id": "0e41dea7c411da32",
@@ -300,7 +143,7 @@
       {
         "id": "2baa8948f242f9e0",
         "type": "tabs",
-        "dimension": 16.484375,
+        "dimension": 28.303152246814218,
         "children": [
           {
             "id": "6482f0009bd1ce8d",
@@ -547,8 +390,14 @@
       "belki:Open belki": false
     }
   },
-  "active": "99cfd314f19c1978",
+  "active": "3e4349fefc68276e",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/Issues Found.md",
+    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "_belki_files/Data/2026-07.md",
     "Apollo.io Enrichment — Field Reference.md",
     "_belki_files/main.md",
@@ -556,19 +405,13 @@
     "_belki_files/Data",
     "_belki_files",
     "README",
-    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
     "1 - Projects/Sparrowcrm/To do list.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/Diagrams",
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
     "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md",
@@ -585,7 +428,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Workflows",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "Pasted image 20260603113206.png",
     "Pasted image 20260603113626.png",
