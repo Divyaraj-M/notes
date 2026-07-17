@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "5 - Features",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
+    },
+    {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
+    },
+    {
+      "basename": "Knowledge",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
       "basename": "AI CRM Visualization",
       "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
     },
@@ -33,10 +49,6 @@
       "path": "Apollo.io Enrichment — Field Reference.md"
     },
     {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
-    },
-    {
       "basename": "To do list",
       "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "Knowledge Manager agent",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
       "basename": "Contacts_v1",
@@ -71,10 +79,6 @@
     {
       "basename": "Roadmap for Agents",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md"
-    },
-    {
-      "basename": "Knowledge",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md"
     },
     {
       "basename": "Ai Signals",
@@ -143,10 +147,6 @@
     {
       "basename": "Integrations-CRM",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "CRM Metrics Framework",

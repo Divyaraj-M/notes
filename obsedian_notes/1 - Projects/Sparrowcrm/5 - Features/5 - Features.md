@@ -31,8 +31,8 @@ tags:
 | [[Settings]]            |
 | [[Search]]              |
 | [[Needs attention]]     |
-| [[Ai for CRM]]           |
-| [[Knowledge]]      |
+| [[CRM Intelligence]]    |
+| [[Knowledge]]           |
 | [[Imports]]             |
 | [[Filters for Objects]] |
 
