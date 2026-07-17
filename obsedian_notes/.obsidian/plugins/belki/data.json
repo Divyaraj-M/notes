@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "tasksFilePath": "belki/tasks.md",
+    "dataFolderPath": "_belki_files",
+    "defaultProject": "",
+    "icons": {
+      "search": "search",
+      "inbox": "inbox",
+      "today": "today",
+      "upcoming": "upcoming",
+      "filters": "filters",
+      "projects": "projects",
+      "activity": "activity",
+      "completed": "completed"
+    },
+    "projectColors": {},
+    "labelColors": {},
+    "labelRegistry": [],
+    "projectRegistry": [],
+    "archivedProjects": [],
+    "sortMode": "smart",
+    "groupBy": "none",
+    "defaultOverdueRange": "last7",
+    "uiFont": "system",
+    "taskTitleFont": "system",
+    "taskDescriptionFont": "system",
+    "labelFont": "system",
+    "sidebarCollapsed": false,
+    "dailyNotesIntegrationEnabled": true,
+    "dailyNotesAutoInsertCompletedBlock": false,
+    "dailyNoteDateFormat": "YYYY-MM-DD",
+    "icalCalendarFeeds": []
+  }
+}

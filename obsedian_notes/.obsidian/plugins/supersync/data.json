@@ -17,6 +17,11 @@
     "ignorePatterns": ".git/**\n.trash/**\n.obsidian/workspace*.json\n.obsidian/plugins/supersync/data.json\n.DS_Store"
   },
   "manifest": {
+    "_belki_files/main.md": {
+      "sha": "faf911f32fbc26cfd9bf96b0066dcedf266b7a0e",
+      "remoteSha": "faf911f32fbc26cfd9bf96b0066dcedf266b7a0e",
+      "size": 128
+    },
     "README": {
       "sha": "8b77c89225167ee6ff0495b89700f22786273c4b",
       "remoteSha": "8b77c89225167ee6ff0495b89700f22786273c4b",
@@ -2675,6 +2680,29 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T05:16:02.416Z",
+      "endedAt": "2026-07-17T05:16:08.094Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 257,
+      "uploads": 257,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "5f63452d118f39ef2556443f9e404c22e4adcdfa"
+    },
+    {
+      "startedAt": "2026-07-17T05:12:49.609Z",
+      "endedAt": "2026-07-17T05:12:52.697Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 253,
+      "uploads": 253,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
       "startedAt": "2026-07-17T05:06:49.630Z",
       "endedAt": "2026-07-17T05:06:52.971Z",
       "reason": "interval",
@@ -3759,28 +3787,6 @@
     {
       "startedAt": "2026-07-15T17:51:26.928Z",
       "endedAt": "2026-07-15T17:51:29.837Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-15T17:45:27.046Z",
-      "endedAt": "2026-07-15T17:45:42.218Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-15T17:29:04.741Z",
-      "endedAt": "2026-07-15T17:29:08.030Z",
       "reason": "interval",
       "status": "success",
       "changes": 247,

@@ -245,9 +245,19 @@
               "icon": "lucide-file",
               "title": "Apollo.io Enrichment — Field Reference"
             }
+          },
+          {
+            "id": "cee4bdbb512ccc33",
+            "type": "leaf",
+            "state": {
+              "type": "belki-task-board",
+              "state": {},
+              "icon": "check-circle-2",
+              "title": "Tasks · belki"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -549,11 +559,16 @@
       "better-store:Open Better Store": false,
       "rss-dashboard:RSS dashboard": false,
       "supersync:GitHub Sync": false,
-      "peerdraft:Show my Peerdraft Shares": false
+      "peerdraft:Show my Peerdraft Shares": false,
+      "belki:Open belki": false
     }
   },
-  "active": "ae0e989d3fd4e238",
+  "active": "cee4bdbb512ccc33",
   "lastOpenFiles": [
+    "_belki_files/main.md",
+    "_belki_files/Attachments",
+    "_belki_files/Data",
+    "_belki_files",
     "README",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
@@ -583,10 +598,7 @@
     "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows.md",
     "1 - Projects/Sparrowcrm/5 - Features/Workflows",
     "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie",
     "1 - Projects/Sparrowcrm/5 - Features/Fields/Ai Fields.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence",
     "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Email/Email.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
