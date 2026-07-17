@@ -23,9 +23,9 @@
       "size": 128
     },
     "_belki_files/Data/2026-07.md": {
-      "sha": "b61cf6fdadc71766b21fc3cf18488c1159ef274e",
-      "remoteSha": "b61cf6fdadc71766b21fc3cf18488c1159ef274e",
-      "size": 933
+      "sha": "14b519c9ec415b66f57257db7b0ec023b5bd5912",
+      "remoteSha": "14b519c9ec415b66f57257db7b0ec023b5bd5912",
+      "size": 1295
     },
     "README": {
       "sha": "8b77c89225167ee6ff0495b89700f22786273c4b",
@@ -2685,6 +2685,75 @@
   },
   "syncLog": [
     {
+      "startedAt": "2026-07-17T09:27:58.773Z",
+      "endedAt": "2026-07-17T09:28:01.551Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T09:27:50.982Z",
+      "endedAt": "2026-07-17T09:27:56.106Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "b6134c75b7467f52c418f603bd55b4ed303716cd"
+    },
+    {
+      "startedAt": "2026-07-17T09:27:14.114Z",
+      "endedAt": "2026-07-17T09:27:17.010Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T09:27:08.800Z",
+      "endedAt": "2026-07-17T09:27:13.673Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "48fe8fe915f7dbbe27e6990d3e5df133d7df67fc"
+    },
+    {
+      "startedAt": "2026-07-17T09:26:55.787Z",
+      "endedAt": "2026-07-17T09:26:58.520Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 261,
+      "uploads": 261,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-07-17T09:26:50.014Z",
+      "endedAt": "2026-07-17T09:26:55.787Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 262,
+      "uploads": 262,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "9ca16ffafdcf810200c55cb3f1bf2e808780d4f6"
+    },
+    {
       "startedAt": "2026-07-17T09:24:00.977Z",
       "endedAt": "2026-07-17T09:24:05.939Z",
       "reason": "file change",
@@ -3734,75 +3803,6 @@
       "deletes": 0,
       "conflicts": 0,
       "commitSha": "41889579d658a50854cf007ad3e1c7711a847223"
-    },
-    {
-      "startedAt": "2026-07-16T09:00:33.844Z",
-      "endedAt": "2026-07-16T09:00:39.101Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 251,
-      "uploads": 251,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "eff9d2319ed085fdb82c57f4be9527901bb8fc13"
-    },
-    {
-      "startedAt": "2026-07-16T09:00:26.641Z",
-      "endedAt": "2026-07-16T09:00:29.451Z",
-      "reason": "queued",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T09:00:21.541Z",
-      "endedAt": "2026-07-16T09:00:26.641Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 251,
-      "uploads": 251,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "e92fabe0f7f9a24ec94f5e72724a6a9306d39d96"
-    },
-    {
-      "startedAt": "2026-07-16T09:00:16.723Z",
-      "endedAt": "2026-07-16T09:00:19.602Z",
-      "reason": "queued",
-      "status": "success",
-      "changes": 250,
-      "uploads": 250,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-07-16T09:00:11.380Z",
-      "endedAt": "2026-07-16T09:00:16.723Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 251,
-      "uploads": 251,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "c224868c96334cd5ddca0e1cac3aa92ea6099de7"
-    },
-    {
-      "startedAt": "2026-07-16T08:58:10.976Z",
-      "endedAt": "2026-07-16T08:58:14.057Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 247,
-      "uploads": 247,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
     }
   ]
 }
