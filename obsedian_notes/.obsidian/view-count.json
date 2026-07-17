@@ -2300,7 +2300,7 @@
     {
       "path": "Apollo.io Enrichment — Field Reference.md",
       "uniqueDaysOpened": 6,
-      "totalTimesOpened": 15,
+      "totalTimesOpened": 16,
       "openLogs": [
         {
           "timestampMillis": 1781759694067
@@ -2316,6 +2316,9 @@
         },
         {
           "timestampMillis": 1784263566836
+        },
+        {
+          "timestampMillis": 1784279029534
         }
       ]
     },

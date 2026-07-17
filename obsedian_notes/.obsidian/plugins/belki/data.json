@@ -17,7 +17,9 @@
       "SparrowCRM": "#0C6E99"
     },
     "labelColors": {},
-    "labelRegistry": [],
+    "labelRegistry": [
+      "crm_intelligence"
+    ],
     "projectRegistry": [
       "Share Extension",
       "SparrowCRM"

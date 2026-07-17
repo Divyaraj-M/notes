@@ -4,8 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "1fa9070c09da2b34",
+        "type": "tabs",
+        "dimension": 59.56043956043956,
+        "children": [
+          {
+            "id": "99cfd314f19c1978",
+            "type": "leaf",
+            "state": {
+              "type": "belki-task-board",
+              "state": {},
+              "icon": "check-circle-2",
+              "title": "Tasks · belki"
+            }
+          }
+        ]
+      },
+      {
         "id": "236ab9de92b0c074",
         "type": "tabs",
+        "dimension": 40.43956043956044,
         "children": [
           {
             "id": "37b9ec908c3e5e0d",
@@ -245,19 +263,9 @@
               "icon": "lucide-file",
               "title": "Apollo.io Enrichment — Field Reference"
             }
-          },
-          {
-            "id": "cee4bdbb512ccc33",
-            "type": "leaf",
-            "state": {
-              "type": "belki-task-board",
-              "state": {},
-              "icon": "check-circle-2",
-              "title": "Tasks · belki"
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -332,7 +340,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5100975036621
+    "width": 356.5100975036621,
+    "collapsed": true
   },
   "right": {
     "id": "a32b24e9510952aa",
@@ -563,7 +572,7 @@
       "belki:Open belki": false
     }
   },
-  "active": "cee4bdbb512ccc33",
+  "active": "99cfd314f19c1978",
   "lastOpenFiles": [
     "_belki_files/main.md",
     "_belki_files/Attachments",
