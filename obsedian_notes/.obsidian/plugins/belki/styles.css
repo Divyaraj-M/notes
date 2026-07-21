@@ -3666,6 +3666,20 @@ button.belki-add-inline {
   padding: 12px 0;
 }
 
+.belki-storage-error {
+  display: grid;
+  gap: 8px;
+}
+
+.belki-storage-error-title {
+  color: var(--belki-text);
+  font-weight: 700;
+}
+
+.belki-storage-error-retry {
+  justify-self: start;
+}
+
 .belki-filter-section {
   margin-bottom: 30px;
 }
@@ -6259,7 +6273,12 @@ button.belki-search-result.is-selected {
   order: 1;
 }
 
-.is-hidden {
+.belki-root .is-hidden,
+.modal.belki-modal-detail .is-hidden,
+.belki-custom-repeat-modal .is-hidden,
+.belki-quick-add-modal .is-hidden,
+.belki-image-lightbox-modal .is-hidden,
+.belki-image-preview-modal .is-hidden {
   display: none;
 }
 

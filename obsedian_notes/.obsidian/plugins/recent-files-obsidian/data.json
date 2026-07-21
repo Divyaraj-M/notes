@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "AI CRM Visualization",
-      "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
+      "basename": "Import_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
+    },
+    {
+      "basename": "UI components",
+      "path": "3 - Resources/UI components.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "3 - Resources/Tools.md"
+    },
+    {
+      "basename": "My Product Notes",
+      "path": "3 - Resources/My Product Notes.md"
+    },
+    {
+      "basename": "Help Article Template",
+      "path": "3 - Resources/Help Article Template.md"
     },
     {
       "basename": "SparrowCRM-Entity-Relationships",
       "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
     },
     {
-      "basename": "CRM Intelligence",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
-    },
-    {
-      "basename": "SparrowCRM-PK-FK-Database-Schema",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
+      "basename": "AI CRM Visualization",
+      "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
     },
     {
       "basename": "5 - Features",
@@ -29,8 +37,72 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md"
     },
     {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
+    },
+    {
       "basename": "Sparrowcrm",
       "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Email Notifications",
+      "path": "1 - Projects/Email Notifications/Email Notifications.md"
+    },
+    {
+      "basename": "Curious Geeks",
+      "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
+    },
+    {
+      "basename": "1 - Product Vision",
+      "path": "1 - Projects/1layerx.com/1 - Product Vision/1 - Product Vision.md"
+    },
+    {
+      "basename": "@Vaishanavi",
+      "path": "1 - Projects/1layerx.com/7 - Team OKRs & Goals/@Vaishanavi.md"
+    },
+    {
+      "basename": "7 - Team OKRs & Goals",
+      "path": "1 - Projects/1layerx.com/7 - Team OKRs & Goals/7 - Team OKRs & Goals.md"
+    },
+    {
+      "basename": "CRM Metrics Framework",
+      "path": "4 - Archive/CRM Metrics Framework.md"
+    },
+    {
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
+    },
+    {
+      "basename": "Product Notes (Why Sales Needs Better Tools)",
+      "path": "4 - Archive/Product Notes (Why Sales Needs Better Tools).md"
+    },
+    {
+      "basename": "Rocketlane pricing plans  The best enterprise PSA platform",
+      "path": "3 - Resources/Clippings/Rocketlane pricing plans  The best enterprise PSA platform.md"
+    },
+    {
+      "basename": "Thinking",
+      "path": "3 - Resources/Thinking.md"
+    },
+    {
+      "basename": "3 - Customer Insights",
+      "path": "1 - Projects/1layerx.com/3 - Customer Insights/3 - Customer Insights.md"
+    },
+    {
+      "basename": "2 - Product Strategy",
+      "path": "1 - Projects/1layerx.com/2 - Product Strategy/2 - Product Strategy.md"
+    },
+    {
+      "basename": "Product Management - Top Deliverables",
+      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
+    },
+    {
+      "basename": "SparrowCRM-PK-FK-Database-Schema",
+      "path": "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
     },
     {
       "basename": "Knowledge Base-L3",
@@ -51,14 +123,6 @@
     {
       "basename": "2026-07",
       "path": "_belki_files/Data/2026-07.md"
-    },
-    {
-      "basename": "Apollo.io Enrichment — Field Reference",
-      "path": "Apollo.io Enrichment — Field Reference.md"
-    },
-    {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
     },
     {
       "basename": "Hygiene Agent_v1",
@@ -135,70 +199,6 @@
     {
       "basename": "EN-Product Vision",
       "path": "1 - Projects/Email Notifications/EN-Vision & Strategy/EN-Product Vision.md"
-    },
-    {
-      "basename": "Custom Agent builderv1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Custom Agent builderv1.md"
-    },
-    {
-      "basename": "Read List",
-      "path": "3 - Resources/Books/Read List/Read List.md"
-    },
-    {
-      "basename": "10 - Marketing",
-      "path": "1 - Projects/Sparrowcrm/10 - Marketing/10 - Marketing.md"
-    },
-    {
-      "basename": "Integrations-CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Integrations-CRM.md"
-    },
-    {
-      "basename": "CRM Metrics Framework",
-      "path": "CRM Metrics Framework.md"
-    },
-    {
-      "basename": "Teardowns",
-      "path": "1 - Projects/Curious Geeks/Teardowns/Teardowns.md"
-    },
-    {
-      "basename": "PMM Playbook — Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/PMM Playbook — Curious Geeks.md"
-    },
-    {
-      "basename": "How to Become a Product Manager (Without a Course or a Framework)",
-      "path": "1 - Projects/Curious Geeks/My Blogs/How to Become a Product Manager (Without a Course or a Framework).md"
-    },
-    {
-      "basename": "Obsidian Replaced My PM's Second Brain (And Then Gave It to AI)",
-      "path": "1 - Projects/Curious Geeks/My Blogs/Obsidian Replaced My PM's Second Brain (And Then Gave It to AI).md"
-    },
-    {
-      "basename": "Why I started curious geeks",
-      "path": "1 - Projects/Curious Geeks/My Blogs/Why I started curious geeks.md"
-    },
-    {
-      "basename": "Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Product Management - Top Deliverables",
-      "path": "3 - Resources/Learning/Top Deliverables CRM/Product Management - Top Deliverables.md"
-    },
-    {
-      "basename": "Agents in AI",
-      "path": "Clippings/Agents in AI.md"
-    },
-    {
-      "basename": "EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD)",
-      "path": "2 - Areas/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md"
-    },
-    {
-      "basename": "Feature-Lens",
-      "path": "3 - Resources/Templates/Feature-Lens.md"
     }
   ],
   "omittedPaths": [],

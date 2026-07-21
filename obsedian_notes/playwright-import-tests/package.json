@@ -1,0 +1,24 @@
+{
+  "name": "import-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E + UAT tests for Contacts, Companies and Deals import",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:contacts": "playwright test tests/contacts.import.spec.ts",
+    "test:companies": "playwright test tests/companies.import.spec.ts",
+    "test:deals": "playwright test tests/deals.import.spec.ts",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "gen:data": "node utils/generate-large-files.mjs",
+    "codegen": "playwright codegen"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  }
+}

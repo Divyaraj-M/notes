@@ -20,17 +20,7 @@
             }
           },
           {
-            "id": "66e39c76a9663119",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "37b9ec908c3e5e0d",
+            "id": "8236fa91e1d08f3a",
             "type": "leaf",
             "state": {
               "type": "hearth-home-view",
@@ -40,16 +30,26 @@
             }
           },
           {
-            "id": "cd7a0157d71552ea",
+            "id": "beb5dc55e84884f0",
+            "type": "leaf",
+            "state": {
+              "type": "better-store-view",
+              "state": {},
+              "icon": "store",
+              "title": "Better Store"
+            }
+          },
+          {
+            "id": "db4979450f72892a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
                 "viewState": {
-                  "x": -283.7189337144782,
-                  "y": 193.42301921577305,
-                  "zoom": -0.8607735229342092
+                  "x": -2166.9249134541874,
+                  "y": 291.51650656654857,
+                  "zoom": -0.911266113245008
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -57,15 +57,139 @@
             }
           },
           {
-            "id": "4e94ecc11ee7e9be",
+            "id": "37b9ec908c3e5e0d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "hearth-home-view"
+            }
+          },
+          {
+            "id": "7126f9e663a5748b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "997a7363429bb295",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "7c3adc71da734409",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+                "file": "1 - Projects/1layerx.com/7 - Team OKRs & Goals/@Vaishanavi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "SparrowCRM-Entity-Relationships"
+              "icon": "lucide-file",
+              "title": "@Vaishanavi"
+            }
+          },
+          {
+            "id": "ea9bdb0d9fe208b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5 - Features"
+            }
+          },
+          {
+            "id": "894d09efce0c2936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Resources/UI components.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UI components"
+            }
+          },
+          {
+            "id": "c70ddb7b91591376",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "c6c730032562a4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Import_v1"
             }
           }
         ]
@@ -111,7 +235,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sparrowcrm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -130,6 +254,16 @@
         "dimension": 28.303152246814218,
         "children": [
           {
+            "id": "ae0e989d3fd4e238",
+            "type": "leaf",
+            "state": {
+              "type": "private-github-sync-status",
+              "state": {},
+              "icon": "refresh-cw",
+              "title": "GitHub Sync"
+            }
+          },
+          {
             "id": "6482f0009bd1ce8d",
             "type": "leaf",
             "state": {
@@ -137,6 +271,16 @@
               "state": {},
               "icon": "clock",
               "title": "Recent files"
+            }
+          },
+          {
+            "id": "c767e014b62e9c22",
+            "type": "leaf",
+            "state": {
+              "type": "view-count",
+              "state": {},
+              "icon": "eye",
+              "title": "View count"
             }
           }
         ]
@@ -160,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/3 - Roadmap & Planning/3 - Roadmap & Planning.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,17 +314,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3 - Roadmap & Planning"
-            }
-          },
-          {
-            "id": "b2aec384d239af07",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Backlinks for Import_v1"
             }
           },
           {
@@ -199,34 +333,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for AI CRM Visualization"
-            }
-          },
-          {
-            "id": "7a21d2b0c9148d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/To do list.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "To do list"
+              "title": "File properties for Import_v1"
             }
           },
           {
@@ -235,23 +345,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI CRM Visualization"
-            }
-          },
-          {
-            "id": "c767e014b62e9c22",
-            "type": "leaf",
-            "state": {
-              "type": "view-count",
-              "state": {},
-              "icon": "eye",
-              "title": "View count"
+              "title": "Outline of Import_v1"
             }
           },
           {
@@ -275,17 +375,29 @@
             }
           },
           {
-            "id": "ae0e989d3fd4e238",
+            "id": "cee64b4a7c9aa96a",
             "type": "leaf",
             "state": {
-              "type": "private-github-sync-status",
+              "type": "footnotes",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "df926abb22f9bae2",
+            "type": "leaf",
+            "state": {
+              "type": "peerdraft-share-view",
               "state": {},
-              "icon": "refresh-cw",
-              "title": "GitHub Sync"
+              "icon": "lucide-file",
+              "title": "Your Peerdraft Shares"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "3d40ba0f7bb45995",
@@ -300,7 +412,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -374,55 +486,55 @@
       "belki:Open belki": false
     }
   },
-  "active": "0e41dea7c411da32",
+  "active": "99cfd314f19c1978",
   "lastOpenFiles": [
-    "1 - Projects/1layerx.com",
-    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+    "Help Article - Import data into SparrowCRM via CSV.md",
+    "3 - Resources/UI components.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Deals_Import_Template.csv",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Contacts_Import_Template.csv",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Companies_Import_Template.csv",
+    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates",
+    "playwright-import-tests/pages/ImportPage copy.ts",
+    "playwright-import-tests/test-results/results.json",
+    "playwright-import-tests/test-results",
+    "playwright-import-tests/playwright-report/index.html",
+    "playwright-import-tests/playwright-report",
+    "playwright-import-tests/package-lock.json",
+    "playwright-import-tests/node_modules/typescript/SECURITY.md",
+    "playwright-import-tests/node_modules/typescript/README.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/safari-na3_-uQk.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/playwright-logo.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-nightly-Cp5nfeDT.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-beta-k3eOH_eK.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-1bWoP6pv.svg",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/trace/SKILL.md",
+    "playwright-import-tests/node_modules/playwright-core/README.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/video-recording.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/storage-state.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/tracing.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/test-generation.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/spec-driven-testing.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/request-mocking.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/session-management.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/running-code.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/playwright-tests.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/element-attributes.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
+    "playwright-import-tests/node_modules/playwright/README.md",
+    "playwright-import-tests/node_modules/playwright-core/lib/server/chromium/appIcon.png",
+    "playwright-import-tests/node_modules/dotenv/SECURITY.md",
+    "playwright-import-tests/node_modules/dotenv/README.md",
+    "playwright-import-tests/node_modules/dotenv/README-es.md",
+    "playwright-import-tests/node_modules/undici-types/README.md",
+    "playwright-import-tests/node_modules/dotenv/CHANGELOG.md",
+    "playwright-import-tests/node_modules/@playwright/test/README.md",
+    "playwright-import-tests/node_modules/playwright/lib/agents/playwright-test-planner.agent.md",
+    "playwright-import-tests/node_modules/playwright/lib/agents/playwright-test-plan.prompt.md",
     "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/SparrowCRM-PK-FK-Database-Schema.excalidraw",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Knowledge Base-L3.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Context-L2.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Knowledge/Records-L1.md",
-    "1 - Projects/Sparrowcrm/Issues Found.md",
-    "_belki_files/Data/2026-07.md",
-    "Apollo.io Enrichment — Field Reference.md",
-    "_belki_files/main.md",
-    "_belki_files/Attachments",
-    "_belki_files/Data",
-    "_belki_files",
-    "README",
-    "1 - Projects/Sparrowcrm/To do list.md",
-    "1 - Projects/Sparrowcrm/Diagrams",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/4 - Product Specs/4 - Product Specs.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Knowledge Manager agent.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports",
-    "1 - Projects/Sparrowcrm/5 - Features/Ai for CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Workflows/Workflows.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Feature Template.md",
     "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
-    "Pasted image 20260603113206.png",
-    "Pasted image 20260603113626.png",
-    "3 - Resources/Learning/Top Deliverables CRM/Screenshot 2026-02-02 at 12.16.52 PM.png",
-    "1 - Projects/Curious Geeks/icon.svg",
-    "3 - Resources/Frameworks/Pasted image 20260601143957.png",
-    "3 - Resources/Templates/Pasted image 20260601143807.png",
-    "1 - Projects/Email Notifications/land_plot_thirupuvanam.png",
-    "3 - Resources/Learning/Domain Design/Cardinality.jpg",
-    "Learning/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
     "Product/Settings/Teams/Teams.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",

@@ -2707,6 +2707,54 @@ function legacyBackupPathCandidate(path, index) {
   return index <= 1 ? `${base}.migrated-backup.md` : `${base}.migrated-backup-${index}.md`;
 }
 
+// src/storage/vaultIndexRetry.ts
+var VAULT_INDEX_RETRY_DELAYS_MS = [50, 100, 200, 400];
+async function ensureIndexedPath(options) {
+  var _a;
+  const existing = options.lookup();
+  if (existing.status === "ready") {
+    return existing.item;
+  }
+  if (existing.status === "wrong-type") {
+    return null;
+  }
+  let alreadyExistsError;
+  try {
+    return await options.create();
+  } catch (error) {
+    if (!options.isAlreadyExistsError(error)) {
+      throw error;
+    }
+    alreadyExistsError = error;
+    const created = options.lookup();
+    if (created.status === "ready") {
+      return created.item;
+    }
+    if (created.status === "wrong-type") {
+      return null;
+    }
+  }
+  const wait = options.wait || defaultWait;
+  const retryDelaysMs = options.retryDelaysMs || VAULT_INDEX_RETRY_DELAYS_MS;
+  for (const delayMs of retryDelaysMs) {
+    await wait(delayMs);
+    const indexed = options.lookup();
+    if (indexed.status === "ready") {
+      return indexed.item;
+    }
+    if (indexed.status === "wrong-type") {
+      return null;
+    }
+  }
+  (_a = options.onRetryExhausted) == null ? void 0 : _a.call(options, alreadyExistsError);
+  return null;
+}
+function defaultWait(ms) {
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
+}
+
 // src/taskBulkActions.ts
 function getOverdueRangeDates(today = todayIso()) {
   return {
@@ -3424,9 +3472,13 @@ var TaskStore = class {
     });
   }
   async ensureTaskStructure() {
-    await this.ensureFolder(this.dataDir);
-    await this.ensureFolder(this.attachmentsDir);
-    await this.ensureFile(
+    if (!await this.ensureFolder(this.dataDir)) {
+      throw new Error(`belki task data folder is unavailable: ${this.dataDir}`);
+    }
+    if (!await this.ensureFolder(this.attachmentsDir)) {
+      throw new Error(`belki attachment folder is unavailable: ${this.attachmentsDir}`);
+    }
+    const mainFile = await this.ensureFile(
       this.mainFilePath,
       [
         "# belki",
@@ -3435,6 +3487,9 @@ var TaskStore = class {
         `Attachments are stored in \`${this.attachmentsDir}/<task-id>/\`.`
       ].join("\n")
     );
+    if (!mainFile) {
+      throw new Error(`belki main task data file is unavailable: ${this.mainFilePath}`);
+    }
   }
   async clearDemoWritableData() {
     for (const file of this.getDataFiles()) {
@@ -3476,37 +3531,31 @@ var TaskStore = class {
   }
   async ensureFile(path, content) {
     const normalizedPath = (0, import_obsidian8.normalizePath)(path);
-    const existing = this.app.vault.getAbstractFileByPath(normalizedPath);
-    if (existing instanceof import_obsidian8.TFile) {
-      return existing;
+    const existing = this.lookupIndexedFile(normalizedPath);
+    if (existing.status === "ready") {
+      return existing.item;
     }
-    if (existing) {
-      this.warnWrongType(normalizedPath, "file", existing);
+    if (existing.status === "wrong-type") {
       return null;
     }
     const parentReady = await this.ensureParentFolders(normalizedPath);
     if (!parentReady) {
       return null;
     }
-    try {
-      return await this.app.vault.create(normalizedPath, content);
-    } catch (error) {
-      if (!isAlreadyExistsError(error)) {
-        throw error;
+    return ensureIndexedPath({
+      path: normalizedPath,
+      expectedKind: "file",
+      lookup: () => this.lookupIndexedFile(normalizedPath),
+      create: () => this.app.vault.create(normalizedPath, content),
+      isAlreadyExistsError,
+      onRetryExhausted: (error) => {
+        console.warn("[belki] File remained unavailable after waiting for the vault index.", {
+          path: normalizedPath,
+          retryDelaysMs: VAULT_INDEX_RETRY_DELAYS_MS,
+          error
+        });
       }
-      const created = this.app.vault.getAbstractFileByPath(normalizedPath);
-      if (created instanceof import_obsidian8.TFile) {
-        return created;
-      }
-      if (created) {
-        this.warnWrongType(normalizedPath, "file", created);
-        return null;
-      }
-      console.warn("[belki] File already exists but is not available in the vault index yet.", error, {
-        path: normalizedPath
-      });
-      return null;
-    }
+    });
   }
   async replaceFile(path, content) {
     const file = await this.ensureFile(path, "");
@@ -3531,38 +3580,54 @@ var TaskStore = class {
   }
   async ensureFolder(path) {
     const normalizedPath = (0, import_obsidian8.normalizePath)(path);
-    const existing = this.app.vault.getAbstractFileByPath(normalizedPath);
-    if (existing instanceof import_obsidian8.TFolder) {
+    const existing = this.lookupIndexedFolder(normalizedPath);
+    if (existing.status === "ready") {
       return true;
     }
-    if (existing) {
-      this.warnWrongType(normalizedPath, "folder", existing);
+    if (existing.status === "wrong-type") {
       return false;
     }
     const parentReady = await this.ensureParentFolders(normalizedPath);
     if (!parentReady) {
       return false;
     }
-    try {
-      await this.app.vault.createFolder(normalizedPath);
-      return true;
-    } catch (error) {
-      if (!isAlreadyExistsError(error)) {
-        throw error;
+    const folder = await ensureIndexedPath({
+      path: normalizedPath,
+      expectedKind: "folder",
+      lookup: () => this.lookupIndexedFolder(normalizedPath),
+      create: () => this.app.vault.createFolder(normalizedPath),
+      isAlreadyExistsError,
+      onRetryExhausted: (error) => {
+        console.warn("[belki] Folder remained unavailable after waiting for the vault index.", {
+          path: normalizedPath,
+          retryDelaysMs: VAULT_INDEX_RETRY_DELAYS_MS,
+          error
+        });
       }
-      const created = this.app.vault.getAbstractFileByPath(normalizedPath);
-      if (created instanceof import_obsidian8.TFolder) {
-        return true;
-      }
-      if (created) {
-        this.warnWrongType(normalizedPath, "folder", created);
-        return false;
-      }
-      console.warn("[belki] Folder already exists but is not available in the vault index yet.", error, {
-        path: normalizedPath
-      });
-      return true;
+    });
+    return folder !== null;
+  }
+  lookupIndexedFile(path) {
+    const existing = this.app.vault.getAbstractFileByPath(path);
+    if (existing instanceof import_obsidian8.TFile) {
+      return { status: "ready", item: existing };
     }
+    if (existing) {
+      this.warnWrongType(path, "file", existing);
+      return { status: "wrong-type" };
+    }
+    return { status: "missing" };
+  }
+  lookupIndexedFolder(path) {
+    const existing = this.app.vault.getAbstractFileByPath(path);
+    if (existing instanceof import_obsidian8.TFolder) {
+      return { status: "ready", item: existing };
+    }
+    if (existing) {
+      this.warnWrongType(path, "folder", existing);
+      return { status: "wrong-type" };
+    }
+    return { status: "missing" };
   }
   async createUniqueBinaryFile(folderPath, filename, data) {
     const filenameParts = splitAttachmentFilename(filename);
@@ -4953,7 +5018,7 @@ function renderComposerLabels(options) {
       });
       chip.setCssStyles({ backgroundColor: color.light, borderColor: color.light });
       chip.addEventListener("click", removeLabel);
-      const externalChip = labelChipsRow.createEl("span", {
+      const externalChip = labelChipsRow.createSpan({
         cls: "belki-label-chip",
         attr: { "aria-label": `Remove label ${displayLabel(label)}` }
       });
@@ -7327,7 +7392,7 @@ var TaskDetailModal = class _TaskDetailModal extends import_obsidian15.Modal {
       cls: "belki-project-dot belki-detail-project-dot"
     });
     const projectLabel = projectPicker.createSpan({ cls: "belki-project-trigger-label" });
-    const projectMenu = field.createEl("div", {
+    const projectMenu = field.createDiv({
       cls: "belki-project-menu belki-detail-project-menu is-hidden",
       attr: { role: "listbox" }
     });
@@ -8993,12 +9058,13 @@ var SORT_OPTIONS = [
   { mode: "alphabetical", label: "Alphabetical" }
 ];
 var TaskBoardView = class extends import_obsidian18.ItemView {
-  constructor(leaf, store, settings, saveSettings, calendarService) {
+  constructor(leaf, store, settings, saveSettings, calendarService, storageInitialization) {
     super(leaf);
     this.store = store;
     this.settings = settings;
     this.saveSettings = saveSettings;
     this.calendarService = calendarService;
+    this.storageInitialization = storageInitialization;
     this.mode = "today";
     this.selectedProject = null;
     this.searchQuery = "";
@@ -9402,8 +9468,8 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
         "--belki-project-color": color.regular
       });
       button.createSpan({ cls: "belki-project-dot" }).setCssStyles({ backgroundColor: color.regular });
-      button.createEl("span", { cls: "belki-nav-label", text: cleanProject });
-      button.createEl("span", { cls: "belki-count", text: String(count) });
+      button.createSpan({ cls: "belki-nav-label", text: cleanProject });
+      button.createSpan({ cls: "belki-count", text: String(count) });
       this.enableProjectDrop(button, cleanProject);
       button.addEventListener("click", () => {
         this.mode = "projects";
@@ -9428,8 +9494,8 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
       });
       archiveButton.toggleClass("is-active", this.mode === "archived");
       createBelkiIcon(archiveButton, "archive", { className: "belki-nav-icon", size: 18 });
-      archiveButton.createEl("span", { cls: "belki-nav-label", text: "Archived" });
-      archiveButton.createEl("span", { cls: "belki-count", text: String(this.settings.archivedProjects.length) });
+      archiveButton.createSpan({ cls: "belki-nav-label", text: "Archived" });
+      archiveButton.createSpan({ cls: "belki-count", text: String(this.settings.archivedProjects.length) });
       archiveButton.addEventListener("click", () => {
         this.mode = "archived";
         this.selectedProject = null;
@@ -9516,13 +9582,13 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
     });
     const active = label === "Search" ? false : label === "Projects" ? this.mode === "projects" && this.selectedProject === null : this.mode === mode;
     button.toggleClass("is-active", active);
-    const iconEl = button.createEl("span", { cls: "belki-nav-icon" });
+    const iconEl = button.createSpan({ cls: "belki-nav-icon" });
     if (iconKey) {
       createBelkiIcon(iconEl, iconKey, { size: 18 });
     }
-    button.createEl("span", { cls: "belki-nav-label", text: label });
+    button.createSpan({ cls: "belki-nav-label", text: label });
     if (count !== void 0) {
-      button.createEl("span", { cls: "belki-count", text: String(count) });
+      button.createSpan({ cls: "belki-count", text: String(count) });
     }
     button.addEventListener("click", () => {
       if (label === "Search") {
@@ -9553,6 +9619,7 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
     this.render();
   }
   renderMain(parent) {
+    var _a;
     const main = parent.createEl("main", { cls: "belki-main" });
     const tasks = this.store.getTasks();
     const visible = this.getVisibleTasks(tasks);
@@ -9566,6 +9633,11 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
     });
     if (this.mode !== "activity" && this.mode !== "daily-note") {
       this.renderSortingControl(header);
+    }
+    const storageError = (_a = this.storageInitialization) == null ? void 0 : _a.getError();
+    if (storageError) {
+      this.renderStorageInitializationError(main, storageError);
+      return;
     }
     const sections = main.createDiv({ cls: "belki-sections" });
     this.renderTaskSections(sections, tasks);
@@ -9586,6 +9658,23 @@ var TaskBoardView = class extends import_obsidian18.ItemView {
         text: `No tasks yet. Add one and belki will write it to ${this.store.dataDir}/YYYY-MM.md.`
       });
     }
+  }
+  renderStorageInitializationError(parent, message) {
+    const error = parent.createDiv({ cls: "belki-empty belki-storage-error" });
+    error.createDiv({
+      cls: "belki-storage-error-title",
+      text: "Task storage could not be initialized."
+    });
+    error.createDiv({ cls: "belki-storage-error-message", text: message });
+    const retry = error.createEl("button", {
+      cls: "belki-storage-error-retry",
+      text: "Retry",
+      attr: { type: "button" }
+    });
+    retry.addEventListener("click", () => {
+      var _a;
+      (_a = this.storageInitialization) == null ? void 0 : _a.retry();
+    });
   }
   openContextualTaskComposer(contextOverride = {}) {
     const activeComposerOpen = import_obsidian18.Platform.isMobile ? this.mobileComposerOpen : this.composerOpen;
@@ -12306,7 +12395,7 @@ function backoffDelayForFailureCount(count) {
 // src/calendar/IcalCalendarProvider.ts
 var import_obsidian21 = require("obsidian");
 
-// node_modules/.pnpm/ical.js@2.2.1/node_modules/ical.js/dist/ical.js
+// node_modules/ical.js/dist/ical.js
 var ical_exports = {};
 __export(ical_exports, {
   default: () => ICALmodule
@@ -20054,6 +20143,25 @@ var IcalCalendarProviderError = class extends Error {
   }
 };
 
+// src/startup/initializationGate.ts
+var InitializationGate = class {
+  constructor() {
+    this.promise = null;
+  }
+  run(operation) {
+    if (this.promise) {
+      return this.promise;
+    }
+    this.promise = operation().finally(() => {
+      this.promise = null;
+    });
+    return this.promise;
+  }
+  isRunning() {
+    return this.promise !== null;
+  }
+};
+
 // src/main.ts
 var BELKI_COMPLETED_CODE_BLOCK = "```belki-completed\n```";
 var BELKI_COMPLETED_CODE_BLOCK_RE = /```belki-completed\b[\s\S]*?```/i;
@@ -20061,6 +20169,11 @@ var BelkiPlugin = class extends import_obsidian22.Plugin {
   constructor() {
     super(...arguments);
     this.reloadDebounceTimer = null;
+    this.storeInitializationGate = new InitializationGate();
+    this.storeInitializationError = null;
+    this.layoutReady = false;
+    this.storeInitialized = false;
+    this.unloaded = false;
   }
   async onload() {
     await this.loadSettings();
@@ -20079,7 +20192,14 @@ var BelkiPlugin = class extends import_obsidian22.Plugin {
         this.store,
         this.settings,
         () => this.saveSettings(),
-        this.calendarService
+        this.calendarService,
+        {
+          getError: () => this.storeInitializationError,
+          retry: () => {
+            void this.initializeStore().catch(() => {
+            });
+          }
+        }
       )
     );
     this.addRibbonIcon("check-circle-2", "Open belki", () => {
@@ -20186,10 +20306,21 @@ var BelkiPlugin = class extends import_obsidian22.Plugin {
     this.registerMarkdownCodeBlockProcessor("belki-completed", (source, el, ctx) => {
       this.renderCompletedTasksCodeBlock(source, el, ctx);
     });
-    void this.initializeStore();
+    this.register(() => {
+      this.unloaded = true;
+    });
+    this.app.workspace.onLayoutReady(() => {
+      if (this.unloaded) {
+        return;
+      }
+      this.layoutReady = true;
+      void this.initializeStore().catch(() => {
+      });
+    });
   }
   onunload() {
     var _a;
+    this.unloaded = true;
     if (this.reloadDebounceTimer !== null) {
       window.clearTimeout(this.reloadDebounceTimer);
     }
@@ -20243,6 +20374,13 @@ var BelkiPlugin = class extends import_obsidian22.Plugin {
   }
   async reloadTasks() {
     try {
+      if (!this.layoutReady) {
+        return;
+      }
+      if (!this.storeInitialized) {
+        await this.initializeStore();
+        return;
+      }
       await this.store.reloadFromDisk();
     } catch (error) {
       new import_obsidian22.Notice("belki could not reload task data.");
@@ -20476,16 +20614,24 @@ var BelkiPlugin = class extends import_obsidian22.Plugin {
     this.scheduleReload();
   }
   async initializeStore() {
-    try {
-      await this.store.load();
-      void this.calendarService.refreshStartup();
-    } catch (error) {
-      new import_obsidian22.Notice("belki could not initialize task storage. Open the developer console for details.");
-      console.error("[belki] Failed to initialize task storage.", error, {
-        dataFolderPath: this.settings.dataFolderPath,
-        tasksFilePath: this.settings.tasksFilePath
-      });
-    }
+    return this.storeInitializationGate.run(async () => {
+      this.storeInitializationError = null;
+      this.refreshBelkiViews();
+      try {
+        await this.store.load();
+        this.storeInitialized = true;
+        void this.calendarService.refreshStartup();
+      } catch (error) {
+        this.storeInitializationError = "belki could not initialize task storage.";
+        new import_obsidian22.Notice("belki could not initialize task storage. Open the developer console for details.");
+        console.error("[belki] Failed to initialize task storage.", error, {
+          dataFolderPath: this.settings.dataFolderPath,
+          tasksFilePath: this.settings.tasksFilePath
+        });
+        this.refreshBelkiViews();
+        throw error;
+      }
+    });
   }
   async savePluginData() {
     await this.saveData({

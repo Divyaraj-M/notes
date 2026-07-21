@@ -47,8 +47,12 @@
   ],
   "disableExternalCalls": false,
   "compact": false,
+  "arrangeButtonVisibility": "always",
+  "dashboardSwitcherVisibility": "always",
   "cardOpacity": 0.5,
   "cardBlur": 7,
+  "cardRadius": 14,
+  "cardBorderWidth": 1,
   "hiddenFilters": [],
   "dashboards": [
     {
@@ -146,5 +150,5 @@
   "taskNotesPriorityField": "priority",
   "taskNotesDoneValue": "done",
   "maxWidth": 1600,
-  "lastSeenVersion": "1.9.0"
+  "lastSeenVersion": "1.13.0"
 }

@@ -22,13 +22,6 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Thinking.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
         "pattern": "1 - Projects/Sparrowcrm/To do list.md",
         "patternType": "STRICT"
       },
@@ -81,6 +74,20 @@
         "type": "FILES_AND_DIRECTORIES",
         "pattern": "",
         "patternType": "WILDCARD"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "_belki_files",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "README",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

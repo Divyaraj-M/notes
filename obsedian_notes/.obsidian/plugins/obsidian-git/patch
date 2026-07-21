@@ -1,8 +1,0 @@
-diff --git a/Product/Go-no-go/RFP training PRD.md b/Product/Go-no-go/RFP training PRD.md
-index 000000..000000 100644
---- a/Product/Go-no-go/RFP training PRD.md
-+++ b/Product/Go-no-go/RFP training PRD.md
-@@ -4,2 +4,1 @@
--
--SparrowGenie’s Knowledge Hubs hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
-+SparrowGenie's Knowledge Hubs (KH) hold the foundation for AI-generated RFP answers, but today there is no structured pipeline to keep them growing with real-world proposal data. Knowledge enters the system in two places — during onboarding and inside completed projects — yet neither path feeds back into the Knowledge Hub automatically.
