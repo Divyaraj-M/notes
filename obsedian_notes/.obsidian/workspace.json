@@ -20,79 +20,12 @@
             }
           },
           {
-            "id": "8236fa91e1d08f3a",
-            "type": "leaf",
-            "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "beb5dc55e84884f0",
-            "type": "leaf",
-            "state": {
-              "type": "better-store-view",
-              "state": {},
-              "icon": "store",
-              "title": "Better Store"
-            }
-          },
-          {
-            "id": "db4979450f72892a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-                "viewState": {
-                  "x": -2166.9249134541874,
-                  "y": 291.51650656654857,
-                  "zoom": -0.911266113245008
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI CRM Visualization"
-            }
-          },
-          {
-            "id": "37b9ec908c3e5e0d",
-            "type": "leaf",
-            "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "hearth-home-view"
-            }
-          },
-          {
-            "id": "7126f9e663a5748b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "997a7363429bb295",
-            "type": "leaf",
-            "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "7c3adc71da734409",
+            "id": "53aa8ca19b0d71fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/1layerx.com/7 - Team OKRs & Goals/@Vaishanavi.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,16 +40,40 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "@Vaishanavi"
+              "title": "Migration Hubspot_v 1"
             }
           },
           {
-            "id": "ea9bdb0d9fe208b8",
+            "id": "4182daae14bc11c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+                "file": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "@Ganesh Ravi Shankar(GRS)"
+            }
+          },
+          {
+            "id": "f319ba3429139061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Help Article - Import data into SparrowCRM via CSV.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -131,16 +88,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5 - Features"
+              "title": "Help Article - Import data into SparrowCRM via CSV"
             }
           },
           {
-            "id": "894d09efce0c2936",
+            "id": "8faac6dd5b481fd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Resources/UI components.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -155,44 +112,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UI components"
+              "title": "Custom Objects_v1"
             }
           },
           {
-            "id": "c70ddb7b91591376",
+            "id": "b0467e156c90b0f3",
             "type": "leaf",
             "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "c6c730032562a4db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
+                "viewState": {
+                  "x": -328.9555621588997,
+                  "y": 318.2894078035826,
+                  "zoom": -0.1790560784137663
                 }
               },
-              "icon": "lucide-file",
-              "title": "Import_v1"
+              "icon": "lucide-layout-dashboard",
+              "title": "Migration"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -213,7 +154,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -235,7 +178,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sparrowcrm",
+                "query": "tag:#sparrowcrm/features/crm_intelligence/knowledge",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -251,7 +194,7 @@
       {
         "id": "2baa8948f242f9e0",
         "type": "tabs",
-        "dimension": 28.303152246814218,
+        "dimension": 28.303152246814214,
         "children": [
           {
             "id": "ae0e989d3fd4e238",
@@ -296,7 +239,7 @@
       {
         "id": "fc24eff042669935",
         "type": "tabs",
-        "dimension": 23.671155209071582,
+        "dimension": 42.026931254429485,
         "children": [
           {
             "id": "cbbd0ff4a78bcc10",
@@ -304,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
+                "file": "4 - Archive/Sparrowgenie/Audit Report/Audit Report R126022026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +257,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Import_v1"
+              "title": "Backlinks for Audit Report R126022026"
             }
           },
           {
@@ -333,10 +276,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Import_v1"
+              "title": "File properties for Custom Objects_v1"
             }
           },
           {
@@ -345,23 +288,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Import_v1"
-            }
-          },
-          {
-            "id": "61e0684c95ba71d1",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo"
+              "title": "Outline of Custom Objects_v1"
             }
           },
           {
@@ -380,29 +313,29 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
           },
           {
-            "id": "df926abb22f9bae2",
+            "id": "75752af8648e9f93",
             "type": "leaf",
             "state": {
-              "type": "peerdraft-share-view",
+              "type": "link-link-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Your Peerdraft Shares"
+              "icon": "link",
+              "title": "Link Link!"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "3d40ba0f7bb45995",
         "type": "tabs",
-        "dimension": 53.86250885896528,
+        "dimension": 33.45145287030475,
         "children": [
           {
             "id": "7d5ca5715fbe7b32",
@@ -438,7 +371,7 @@
       {
         "id": "9140aa1d3d409719",
         "type": "tabs",
-        "dimension": 22.466335931963147,
+        "dimension": 24.521615875265766,
         "children": [
           {
             "id": "a88c9309692d7ea4",
@@ -471,8 +404,6 @@
       "pdf-plus:PDF++: Toggle auto-copy": true,
       "pdf-plus:PDF++: Toggle auto-focus": true,
       "pdf-plus:PDF++: Toggle auto-paste": true,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": true,
       "omnisearch:Omnisearch": true,
       "obsidian42-brat:BRAT": false,
       "canvas:Create new canvas": false,
@@ -480,28 +411,64 @@
       "hearth:Open Hearth home": false,
       "link-link:Link Link!": false,
       "better-store:Open Better Store": false,
-      "rss-dashboard:RSS dashboard": false,
       "supersync:GitHub Sync": false,
       "peerdraft:Show my Peerdraft Shares": false,
-      "belki:Open belki": false
+      "belki:Open belki": false,
+      "visual-notes:Visual Notes": false,
+      "operon:Create New Operon Task": false,
+      "operon:Operon Filter View": false,
+      "operon:Task Finder": false,
+      "operon:Operon Calendar": false,
+      "operon:Operon Kanban": false,
+      "operon:Operon Table": false,
+      "operon:Open Pinned Tasks": false
     }
   },
-  "active": "99cfd314f19c1978",
+  "active": "b0467e156c90b0f3",
   "lastOpenFiles": [
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Untitled.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
+    "2 - Areas/Metrics and Goals/12-Month Objective — Build then ROI.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
+    "Operon/Demo Workspace/Operon Basics Project.md",
+    "Operon/Demo Workspace/Set Up Your Obsidian Vault with Operon.md",
+    "Operon/Demo Workspace/Operon Command Palette.md",
+    "Operon/Demo Workspace",
+    "Operon/Tasks",
+    "Operon/Tables/Default table.table",
+    "Operon/Tables",
+    "Operon",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.md",
+    "3 - Resources/PM Prompts Library/prompts/jobs-to-be-done.md",
+    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
+    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
     "Help Article - Import data into SparrowCRM via CSV.md",
-    "3 - Resources/UI components.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Deals_Import_Template.csv",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Contacts_Import_Template.csv",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates/Companies_Import_Template.csv",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/templates",
-    "playwright-import-tests/pages/ImportPage copy.ts",
-    "playwright-import-tests/test-results/results.json",
-    "playwright-import-tests/test-results",
-    "playwright-import-tests/playwright-report/index.html",
-    "playwright-import-tests/playwright-report",
-    "playwright-import-tests/package-lock.json",
-    "playwright-import-tests/node_modules/typescript/SECURITY.md",
-    "playwright-import-tests/node_modules/typescript/README.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "New Visual Notes board.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
+    "3 - Resources/PM Prompts Library/prompts/framing-the-problem-statement.md",
+    "3 - Resources/PM Prompts Library/prompts/README.md",
+    "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
+    "1 - Projects/Curious Geeks/Curious Geeks.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
+    "3 - Resources/Clippings/015 The Mental Models I Use to Work With AI.md",
+    "4 - Archive/Sparrowgenie/TO DO List - today.md",
+    "1 - Projects/Sparrowcrm/To do list.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects",
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
+    "Clippings/015 The Mental Models I Use to Work With AI.md",
+    "Clippings",
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-product-framework.html",
+    "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md",
+    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md",
+    "2 - Areas/Metrics and Goals/Goals and Metrics.canvas",
+    "Untitled.canvas",
+    "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
+    "1 - Projects/Sparrowcrm/Pasted image 20260728151323.png",
     "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/safari-na3_-uQk.svg",
     "playwright-import-tests/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
     "playwright-import-tests/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
@@ -510,36 +477,8 @@
     "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-beta-k3eOH_eK.svg",
     "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-1bWoP6pv.svg",
     "playwright-import-tests/node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/trace/SKILL.md",
-    "playwright-import-tests/node_modules/playwright-core/README.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/video-recording.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/storage-state.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/tracing.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/test-generation.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/spec-driven-testing.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/request-mocking.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/session-management.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/running-code.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/playwright-tests.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/references/element-attributes.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
-    "playwright-import-tests/node_modules/playwright/README.md",
-    "playwright-import-tests/node_modules/playwright-core/lib/server/chromium/appIcon.png",
-    "playwright-import-tests/node_modules/dotenv/SECURITY.md",
-    "playwright-import-tests/node_modules/dotenv/README.md",
-    "playwright-import-tests/node_modules/dotenv/README-es.md",
-    "playwright-import-tests/node_modules/undici-types/README.md",
-    "playwright-import-tests/node_modules/dotenv/CHANGELOG.md",
-    "playwright-import-tests/node_modules/@playwright/test/README.md",
-    "playwright-import-tests/node_modules/playwright/lib/agents/playwright-test-planner.agent.md",
-    "playwright-import-tests/node_modules/playwright/lib/agents/playwright-test-plan.prompt.md",
-    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/Screenshot 2026-04-30 at 9.24.35 PM.png",
     "Product/Settings/Teams/Teams.canvas",
-    "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
-    "obsedian_notes/Product/Settings/Teams/Teams.canvas",
-    "Go-No-Go.canvas",
-    "Teams Wireframe.canvas"
+    "obsedian_notes/Product/Settings/Teams/Teams.canvas"
   ]
 }

@@ -34,7 +34,7 @@ var __toESM = (mod2, isNodeMode, target) => (target = mod2 != null ? __create(__
 var __toCommonJS = (mod2) => __copyProps(__defProp({}, "__esModule", { value: true }), mod2);
 var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/core.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/core.js
 function dispatchCallback(progress_callback, data) {
   if (progress_callback) progress_callback(data);
 }
@@ -85,7 +85,7 @@ function calculateReflectOffset(i, w) {
 }
 var Callable;
 var init_core = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/core.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/core.js"() {
     Callable = /** @type {any} */
     class {
       /**
@@ -13462,10 +13462,10 @@ ${t2}`);
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/backends/onnx.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/backends/onnx.js
 var ONNX_NODE, ONNX_WEB, ONNX, executionProviders, _a, _b, _c;
 var init_onnx = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/backends/onnx.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/backends/onnx.js"() {
     ONNX_NODE = __toESM(require_ort_web_min(), 1);
     ONNX_WEB = __toESM(require_ort_web_min(), 1);
     executionProviders = [
@@ -13485,13 +13485,13 @@ var init_onnx = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/env.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/env.js
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
 }
 var import_fs, import_path, import_url, import_meta, onnx_env, VERSION, WEB_CACHE_AVAILABLE, FS_AVAILABLE, PATH_AVAILABLE, RUNNING_LOCALLY, __dirname, DEFAULT_CACHE_DIR, DEFAULT_LOCAL_MODEL_PATH, localModelPath, env;
 var init_env = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/env.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/env.js"() {
     import_fs = __toESM(require_fs(), 1);
     import_path = __toESM(require_path(), 1);
     import_url = __toESM(require_url(), 1);
@@ -13538,7 +13538,7 @@ var init_env = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/hub.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/hub.js
 function isValidUrl(string, protocols = null, validHosts = null) {
   let url2;
   try {
@@ -13785,7 +13785,7 @@ function pathJoin(...parts) {
 }
 var import_fs2, import_path2, FileResponse, ERROR_MAPPING, FileCache;
 var init_hub = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/hub.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/hub.js"() {
     import_fs2 = __toESM(require_fs(), 1);
     import_path2 = __toESM(require_path(), 1);
     init_env();
@@ -13958,7 +13958,7 @@ var init_hub = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/maths.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/maths.js
 function interpolate_data(input, [in_channels, in_height, in_width], [out_height, out_width], mode = "bilinear", align_corners = false) {
   const x_scale = out_width / in_width;
   const y_scale = out_height / in_height;
@@ -14119,7 +14119,7 @@ function bankers_round(x) {
 }
 var P2FFT, NP2FFT, FFT;
 var init_maths = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/maths.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/maths.js"() {
     P2FFT = class {
       /**
        * @param {number} size The size of the input array. Must be a power of two larger than 1.
@@ -14631,7 +14631,7 @@ var init_maths = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/tensor.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/tensor.js
 function reshape(data, dimensions) {
   const totalElements = data.length;
   const dimensionSize = dimensions.reduce((a, b) => a * b);
@@ -14977,7 +14977,7 @@ function quantize_embeddings(tensor, precision) {
 }
 var DataTypeMap, ONNXTensor, Tensor;
 var init_tensor = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/tensor.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/tensor.js"() {
     init_onnx();
     init_maths();
     DataTypeMap = Object.freeze({
@@ -15466,10 +15466,10 @@ var init_tensor = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/data-structures.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/data-structures.js
 var PriorityQueue, CharTrie, CharTrieNode, TokenLattice, TokenLatticeNode;
 var init_data_structures = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/data-structures.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/data-structures.js"() {
     PriorityQueue = class {
       /**
        * Create a new PriorityQueue.
@@ -17439,7 +17439,7 @@ var init_dist = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/tokenizers.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/tokenizers.js
 async function loadTokenizer(pretrained_model_name_or_path, options) {
   const info = await Promise.all([
     getModelJSON(pretrained_model_name_or_path, "tokenizer.json", true, options),
@@ -17572,7 +17572,7 @@ function _build_translation_inputs(self2, raw_inputs, tokenizer_options, generat
 }
 var PUNCTUATION_REGEX, PROBLEMATIC_REGEX_MAP, AddedToken, TokenizerModel, WordPieceTokenizer, Unigram, BYTES_TO_UNICODE, UNICODE_TO_BYTES, BPE, LegacyTokenizerModel, Normalizer, Replace, NFC, NFKC, NFKD, StripNormalizer, StripAccents, Lowercase, Prepend, NormalizerSequence, BertNormalizer, PreTokenizer, BertPreTokenizer, ByteLevelPreTokenizer, SplitPreTokenizer, PunctuationPreTokenizer, DigitsPreTokenizer, PostProcessor, BertProcessing, RobertaProcessing, TemplateProcessing, ByteLevelPostProcessor, PostProcessorSequence, Decoder, ReplaceDecoder, ByteFallback, FuseDecoder, StripDecoder, WordPieceDecoder, ByteLevelDecoder, CTCDecoder, DecoderSequence, BPEDecoder, VitsDecoder, MetaspacePreTokenizer, MetaspaceDecoder, Precompiled, PreTokenizerSequence, WhitespacePreTokenizer, WhitespaceSplit, ReplacePreTokenizer, SPECIAL_TOKEN_ATTRIBUTES, PreTrainedTokenizer, BertTokenizer, AlbertTokenizer, MobileBertTokenizer, SqueezeBertTokenizer, DebertaTokenizer, DebertaV2Tokenizer, HerbertTokenizer, ConvBertTokenizer, RoFormerTokenizer, DistilBertTokenizer, CamembertTokenizer, XLMTokenizer, ElectraTokenizer, T5Tokenizer, GPT2Tokenizer, BartTokenizer, MBartTokenizer, MBart50Tokenizer, RobertaTokenizer, BloomTokenizer, SPIECE_UNDERLINE, LlamaTokenizer, CodeLlamaTokenizer, XLMRobertaTokenizer, MPNetTokenizer, FalconTokenizer, GPTNeoXTokenizer, EsmTokenizer, Qwen2Tokenizer, GemmaTokenizer, Grok1Tokenizer, NllbTokenizer, M2M100Tokenizer, WHISPER_LANGUAGES, WHISPER_LANGUAGE_MAPPING, WHISPER_TO_LANGUAGE_CODE_MAPPING, WhisperTokenizer, CodeGenTokenizer, CLIPTokenizer, SiglipTokenizer, MarianTokenizer, Wav2Vec2CTCTokenizer, BlenderbotTokenizer, BlenderbotSmallTokenizer, SpeechT5Tokenizer, NougatTokenizer, VitsTokenizer, CohereTokenizer, AutoTokenizer;
 var init_tokenizers = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/tokenizers.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/tokenizers.js"() {
     init_core();
     init_hub();
     init_maths();
@@ -20723,14 +20723,14 @@ var init_tokenizers = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/configs.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/configs.js
 async function loadConfig(pretrained_model_name_or_path, options) {
   let info = await getModelJSON(pretrained_model_name_or_path, "config.json", true, options);
   return info;
 }
 var PretrainedConfig, AutoConfig;
 var init_configs = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/configs.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/configs.js"() {
     init_hub();
     PretrainedConfig = class {
       // NOTE: Typo in original
@@ -20778,10 +20778,10 @@ var init_configs = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/generation.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/generation.js
 var LogitsProcessorList, LogitsProcessor, ForceTokensLogitsProcessor, ForcedBOSTokenLogitsProcessor, ForcedEOSTokenLogitsProcessor, SuppressTokensAtBeginLogitsProcessor, WhisperTimeStampLogitsProcessor, NoRepeatNGramLogitsProcessor, RepetitionPenaltyLogitsProcessor, MinLengthLogitsProcessor, MinNewTokensLengthLogitsProcessor, NoBadWordsLogitsProcessor, GenerationConfig, Sampler, GreedySampler, MultinomialSampler, BeamSearchSampler;
 var init_generation = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/generation.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/generation.js"() {
     init_tensor();
     init_core();
     init_maths();
@@ -21392,7 +21392,7 @@ var init_generation = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/models.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/models.js
 async function constructSession(pretrained_model_name_or_path, fileName, options) {
   let modelFileName = `onnx/${fileName}${options.quantized ? "_quantized" : ""}.onnx`;
   let buffer = await getModelFile(pretrained_model_name_or_path, modelFileName, true, options);
@@ -21687,7 +21687,7 @@ function decoderUpdatebeam(beam, newTokenId) {
 }
 var InferenceSession, ONNXTensor2, env2, MODEL_TYPES, MODEL_TYPE_MAPPING, MODEL_NAME_TO_CLASS_MAPPING, MODEL_CLASS_TO_NAME_MAPPING, PreTrainedModel, ModelOutput, BaseModelOutput, BertPreTrainedModel, BertModel, BertForMaskedLM, BertForSequenceClassification, BertForTokenClassification, BertForQuestionAnswering, NomicBertPreTrainedModel, NomicBertModel, RoFormerPreTrainedModel, RoFormerModel, RoFormerForMaskedLM, RoFormerForSequenceClassification, RoFormerForTokenClassification, RoFormerForQuestionAnswering, ConvBertPreTrainedModel, ConvBertModel, ConvBertForMaskedLM, ConvBertForSequenceClassification, ConvBertForTokenClassification, ConvBertForQuestionAnswering, ElectraPreTrainedModel, ElectraModel, ElectraForMaskedLM, ElectraForSequenceClassification, ElectraForTokenClassification, ElectraForQuestionAnswering, CamembertPreTrainedModel, CamembertModel, CamembertForMaskedLM, CamembertForSequenceClassification, CamembertForTokenClassification, CamembertForQuestionAnswering, DebertaPreTrainedModel, DebertaModel, DebertaForMaskedLM, DebertaForSequenceClassification, DebertaForTokenClassification, DebertaForQuestionAnswering, DebertaV2PreTrainedModel, DebertaV2Model, DebertaV2ForMaskedLM, DebertaV2ForSequenceClassification, DebertaV2ForTokenClassification, DebertaV2ForQuestionAnswering, DistilBertPreTrainedModel, DistilBertModel, DistilBertForSequenceClassification, DistilBertForTokenClassification, DistilBertForQuestionAnswering, DistilBertForMaskedLM, EsmPreTrainedModel, EsmModel, EsmForMaskedLM, EsmForSequenceClassification, EsmForTokenClassification, MobileBertPreTrainedModel, MobileBertModel, MobileBertForMaskedLM, MobileBertForSequenceClassification, MobileBertForQuestionAnswering, MPNetPreTrainedModel, MPNetModel, MPNetForMaskedLM, MPNetForSequenceClassification, MPNetForTokenClassification, MPNetForQuestionAnswering, SqueezeBertPreTrainedModel, SqueezeBertModel, SqueezeBertForMaskedLM, SqueezeBertForSequenceClassification, SqueezeBertForQuestionAnswering, AlbertPreTrainedModel, AlbertModel, AlbertForSequenceClassification, AlbertForQuestionAnswering, AlbertForMaskedLM, T5PreTrainedModel, T5Model, T5ForConditionalGeneration, LongT5PreTrainedModel, LongT5Model, LongT5ForConditionalGeneration, MT5PreTrainedModel, MT5Model, MT5ForConditionalGeneration, BartPretrainedModel, BartModel, BartForConditionalGeneration, BartForSequenceClassification, MBartPreTrainedModel, MBartModel, MBartForConditionalGeneration, MBartForSequenceClassification, MBartForCausalLM, BlenderbotPreTrainedModel, BlenderbotModel, BlenderbotForConditionalGeneration, BlenderbotSmallPreTrainedModel, BlenderbotSmallModel, BlenderbotSmallForConditionalGeneration, RobertaPreTrainedModel, RobertaModel, RobertaForMaskedLM, RobertaForSequenceClassification, RobertaForTokenClassification, RobertaForQuestionAnswering, XLMPreTrainedModel, XLMModel, XLMWithLMHeadModel, XLMForSequenceClassification, XLMForTokenClassification, XLMForQuestionAnswering, XLMRobertaPreTrainedModel, XLMRobertaModel, XLMRobertaForMaskedLM, XLMRobertaForSequenceClassification, XLMRobertaForTokenClassification, XLMRobertaForQuestionAnswering, ASTPreTrainedModel, ASTModel, ASTForAudioClassification, WhisperPreTrainedModel, WhisperModel, WhisperForConditionalGeneration, VisionEncoderDecoderModel, CLIPPreTrainedModel, CLIPModel, CLIPTextModelWithProjection, CLIPVisionModelWithProjection, SiglipPreTrainedModel, SiglipModel, SiglipTextModel, SiglipVisionModel, ChineseCLIPPreTrainedModel, ChineseCLIPModel, CLIPSegPreTrainedModel, CLIPSegModel, CLIPSegForImageSegmentation, GPT2PreTrainedModel, GPT2Model, GPT2LMHeadModel, GPTNeoPreTrainedModel, GPTNeoModel, GPTNeoForCausalLM, GPTNeoXPreTrainedModel, GPTNeoXModel, GPTNeoXForCausalLM, GPTJPreTrainedModel, GPTJModel, GPTJForCausalLM, GPTBigCodePreTrainedModel, GPTBigCodeModel, GPTBigCodeForCausalLM, CodeGenPreTrainedModel, CodeGenModel, CodeGenForCausalLM, LlamaPreTrainedModel, LlamaModel, LlamaForCausalLM, Qwen2PreTrainedModel, Qwen2Model, Qwen2ForCausalLM, PhiPreTrainedModel, PhiModel, PhiForCausalLM, BloomPreTrainedModel, BloomModel, BloomForCausalLM, MptPreTrainedModel, MptModel, MptForCausalLM, OPTPreTrainedModel, OPTModel, OPTForCausalLM, ViTPreTrainedModel, ViTModel, ViTForImageClassification, FastViTPreTrainedModel, FastViTModel, FastViTForImageClassification, VitMattePreTrainedModel, VitMatteForImageMatting, MobileViTPreTrainedModel, MobileViTModel, MobileViTForImageClassification, MobileViTV2PreTrainedModel, MobileViTV2Model, MobileViTV2ForImageClassification, OwlViTPreTrainedModel, OwlViTModel, OwlViTForObjectDetection, Owlv2PreTrainedModel, Owlv2Model, Owlv2ForObjectDetection, BeitPreTrainedModel, BeitModel, BeitForImageClassification, DetrPreTrainedModel, DetrModel, DetrForObjectDetection, DetrForSegmentation, DetrObjectDetectionOutput, DetrSegmentationOutput, TableTransformerPreTrainedModel, TableTransformerModel, TableTransformerForObjectDetection, TableTransformerObjectDetectionOutput, DeiTPreTrainedModel, DeiTModel, DeiTForImageClassification, ResNetPreTrainedModel, ResNetModel, ResNetForImageClassification, SwinPreTrainedModel, SwinModel, SwinForImageClassification, Swin2SRPreTrainedModel, Swin2SRModel, Swin2SRForImageSuperResolution, DPTPreTrainedModel, DPTModel, DPTForDepthEstimation, DepthAnythingPreTrainedModel, DepthAnythingForDepthEstimation, GLPNPreTrainedModel, GLPNModel, GLPNForDepthEstimation, DonutSwinPreTrainedModel, DonutSwinModel, ConvNextPreTrainedModel, ConvNextModel, ConvNextForImageClassification, ConvNextV2PreTrainedModel, ConvNextV2Model, ConvNextV2ForImageClassification, Dinov2PreTrainedModel, Dinov2Model, Dinov2ForImageClassification, YolosPreTrainedModel, YolosModel, YolosForObjectDetection, YolosObjectDetectionOutput, SamPreTrainedModel, SamModel, SamImageSegmentationOutput, MarianPreTrainedModel, MarianModel, MarianMTModel, M2M100PreTrainedModel, M2M100Model, M2M100ForConditionalGeneration, Wav2Vec2PreTrainedModel, Wav2Vec2Model, Wav2Vec2ForCTC, Wav2Vec2ForSequenceClassification, Wav2Vec2ForAudioFrameClassification, UniSpeechPreTrainedModel, UniSpeechModel, UniSpeechForCTC, UniSpeechForSequenceClassification, UniSpeechSatPreTrainedModel, UniSpeechSatModel, UniSpeechSatForCTC, UniSpeechSatForSequenceClassification, UniSpeechSatForAudioFrameClassification, Wav2Vec2BertPreTrainedModel, Wav2Vec2BertModel, Wav2Vec2BertForCTC, Wav2Vec2BertForSequenceClassification, HubertPreTrainedModel, HubertModel, HubertForCTC, HubertForSequenceClassification, WavLMPreTrainedModel, WavLMModel, WavLMForCTC, WavLMForSequenceClassification, WavLMForXVector, WavLMForAudioFrameClassification, SpeechT5PreTrainedModel, SpeechT5Model, SpeechT5ForSpeechToText, SpeechT5ForTextToSpeech, SpeechT5HifiGan, TrOCRPreTrainedModel, TrOCRForCausalLM, MistralPreTrainedModel, MistralModel, MistralForCausalLM, Starcoder2PreTrainedModel, Starcoder2Model, Starcoder2ForCausalLM, FalconPreTrainedModel, FalconModel, FalconForCausalLM, ClapPreTrainedModel, ClapModel, ClapTextModelWithProjection, ClapAudioModelWithProjection, VitsPreTrainedModel, VitsModel, SegformerPreTrainedModel, SegformerModel, SegformerForImageClassification, SegformerForSemanticSegmentation, StableLmPreTrainedModel, StableLmModel, StableLmForCausalLM, EfficientNetPreTrainedModel, EfficientNetModel, EfficientNetForImageClassification, PretrainedMixin, MODEL_MAPPING_NAMES_ENCODER_ONLY, MODEL_MAPPING_NAMES_ENCODER_DECODER, MODEL_MAPPING_NAMES_DECODER_ONLY, MODEL_FOR_SPEECH_SEQ_2_SEQ_MAPPING_NAMES, MODEL_FOR_TEXT_TO_SPECTROGRAM_MAPPING_NAMES, MODEL_FOR_TEXT_TO_WAVEFORM_MAPPING_NAMES, MODEL_FOR_SEQUENCE_CLASSIFICATION_MAPPING_NAMES, MODEL_FOR_TOKEN_CLASSIFICATION_MAPPING_NAMES, MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES, MODEL_WITH_LM_HEAD_MAPPING_NAMES, MODEL_FOR_MASKED_LM_MAPPING_NAMES, MODEL_FOR_QUESTION_ANSWERING_MAPPING_NAMES, MODEL_FOR_VISION_2_SEQ_MAPPING_NAMES, MODEL_FOR_DOCUMENT_QUESTION_ANSWERING_MAPPING_NAMES, MODEL_FOR_IMAGE_CLASSIFICATION_MAPPING_NAMES, MODEL_FOR_OBJECT_DETECTION_MAPPING_NAMES, MODEL_FOR_ZERO_SHOT_OBJECT_DETECTION_MAPPING_NAMES, MODEL_FOR_IMAGE_SEGMENTATION_MAPPING_NAMES, MODEL_FOR_SEMANTIC_SEGMENTATION_MAPPING_NAMES, MODEL_FOR_MASK_GENERATION_MAPPING_NAMES, MODEL_FOR_CTC_MAPPING_NAMES, MODEL_FOR_AUDIO_CLASSIFICATION_MAPPING_NAMES, MODEL_FOR_AUDIO_XVECTOR_MAPPING_NAMES, MODEL_FOR_AUDIO_FRAME_CLASSIFICATION_MAPPING_NAMES, MODEL_FOR_IMAGE_MATTING_MAPPING_NAMES, MODEL_FOR_IMAGE_TO_IMAGE_MAPPING_NAMES, MODEL_FOR_DEPTH_ESTIMATION_MAPPING_NAMES, MODEL_FOR_IMAGE_FEATURE_EXTRACTION_MAPPING_NAMES, MODEL_CLASS_TYPE_MAPPING, CUSTOM_MAPPING, AutoModel, AutoModelForSequenceClassification, AutoModelForTokenClassification, AutoModelForSeq2SeqLM, AutoModelForSpeechSeq2Seq, AutoModelForTextToSpectrogram, AutoModelForTextToWaveform, AutoModelForCausalLM, AutoModelForMaskedLM, AutoModelForQuestionAnswering, AutoModelForVision2Seq, AutoModelForImageClassification, AutoModelForImageSegmentation, AutoModelForSemanticSegmentation, AutoModelForObjectDetection, AutoModelForZeroShotObjectDetection, AutoModelForMaskGeneration, AutoModelForCTC, AutoModelForAudioClassification, AutoModelForXVector, AutoModelForAudioFrameClassification, AutoModelForDocumentQuestionAnswering, AutoModelForImageMatting, AutoModelForImageToImage, AutoModelForDepthEstimation, AutoModelForImageFeatureExtraction, Seq2SeqLMOutput, SequenceClassifierOutput, XVectorOutput, TokenClassifierOutput, MaskedLMOutput, QuestionAnsweringModelOutput, CausalLMOutput, CausalLMOutputWithPast, ImageMattingOutput, VitsModelOutput;
 var init_models = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/models.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/models.js"() {
     init_configs();
     init_core();
     init_hub();
@@ -25059,20 +25059,21 @@ var init_models = __esm({
   }
 });
 
-// (disabled):node_modules/.pnpm/sharp@0.32.6/node_modules/sharp/lib/index.js
-var require_lib = __commonJS({
-  "(disabled):node_modules/.pnpm/sharp@0.32.6/node_modules/sharp/lib/index.js"() {
+// stub-node-modules:sharp
+var require_sharp = __commonJS({
+  "stub-node-modules:sharp"(exports2, module2) {
+    module2.exports = {};
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/image.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/image.js
 var import_sharp, BROWSER_ENV, WEBWORKER_ENV, createCanvasFunction, ImageDataClass, loadImageFunction, RESAMPLING_MAPPING, CONTENT_TYPE_MAP, RawImage;
 var init_image = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/image.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/image.js"() {
     init_hub();
     init_env();
     init_tensor();
-    import_sharp = __toESM(require_lib(), 1);
+    import_sharp = __toESM(require_sharp(), 1);
     BROWSER_ENV = typeof self !== "undefined";
     WEBWORKER_ENV = BROWSER_ENV && self.constructor.name === "DedicatedWorkerGlobalScope";
     if (BROWSER_ENV) {
@@ -25631,7 +25632,7 @@ var init_image = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/audio.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/audio.js
 async function read_audio(url2, sampling_rate) {
   if (typeof AudioContext === "undefined") {
     throw Error(
@@ -25967,7 +25968,7 @@ function window_function(window_length, name2, {
 }
 var HERTZ_TO_MEL_MAPPING, MEL_TO_HERTZ_MAPPING;
 var init_audio = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/utils/audio.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/utils/audio.js"() {
     init_hub();
     init_maths();
     init_core();
@@ -25984,7 +25985,7 @@ var init_audio = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/processors.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/processors.js
 function center_to_corners_format([centerX, centerY, width, height]) {
   return [
     centerX - width / 2,
@@ -26071,7 +26072,7 @@ function enforce_size_divisibility([width, height], divisor) {
 }
 var FeatureExtractor, ImageFeatureExtractor, SegformerFeatureExtractor, DPTFeatureExtractor, DPTImageProcessor, BitImageProcessor, GLPNFeatureExtractor, CLIPFeatureExtractor, ChineseCLIPFeatureExtractor, SiglipImageProcessor, ConvNextFeatureExtractor, ConvNextImageProcessor, ViTFeatureExtractor, ViTImageProcessor, EfficientNetImageProcessor, MobileViTFeatureExtractor, MobileViTImageProcessor, OwlViTFeatureExtractor, Owlv2ImageProcessor, DeiTFeatureExtractor, BeitFeatureExtractor, DonutFeatureExtractor, NougatImageProcessor, DetrFeatureExtractor, YolosFeatureExtractor, SamImageProcessor, Swin2SRImageProcessor, VitMatteImageProcessor, WhisperFeatureExtractor, Wav2Vec2FeatureExtractor, SeamlessM4TFeatureExtractor, ASTFeatureExtractor, ClapFeatureExtractor, SpeechT5FeatureExtractor, Processor, SamProcessor, WhisperProcessor, Wav2Vec2ProcessorWithLM, SpeechT5Processor, OwlViTProcessor, AutoProcessor;
 var init_processors = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/processors.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/processors.js"() {
     init_core();
     init_hub();
     init_maths();
@@ -27674,7 +27675,7 @@ var init_processors = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/pipelines.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/pipelines.js
 async function prepareImages(images) {
   if (!Array.isArray(images)) {
     images = [images];
@@ -27784,7 +27785,7 @@ async function loadItems(mapping, model, pretrainedOptions) {
 }
 var Pipeline, TextClassificationPipeline, TokenClassificationPipeline, QuestionAnsweringPipeline, FillMaskPipeline, Text2TextGenerationPipeline, SummarizationPipeline, TranslationPipeline, TextGenerationPipeline, ZeroShotClassificationPipeline, FeatureExtractionPipeline, ImageFeatureExtractionPipeline, AudioClassificationPipeline, ZeroShotAudioClassificationPipeline, AutomaticSpeechRecognitionPipeline, ImageToTextPipeline, ImageClassificationPipeline, ImageSegmentationPipeline, ZeroShotImageClassificationPipeline, ObjectDetectionPipeline, ZeroShotObjectDetectionPipeline, DocumentQuestionAnsweringPipeline, TextToAudioPipeline, ImageToImagePipeline, DepthEstimationPipeline, SUPPORTED_TASKS, TASK_ALIASES;
 var init_pipelines = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/pipelines.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/pipelines.js"() {
     init_tokenizers();
     init_models();
     init_processors();
@@ -29253,7 +29254,7 @@ var init_pipelines = __esm({
   }
 });
 
-// node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/transformers.js
+// node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/transformers.js
 var transformers_exports = {};
 __export(transformers_exports, {
   ASTFeatureExtractor: () => ASTFeatureExtractor,
@@ -29759,7 +29760,7 @@ __export(transformers_exports, {
   window_function: () => window_function
 });
 var init_transformers = __esm({
-  "node_modules/.pnpm/@xenova+transformers@2.17.2/node_modules/@xenova/transformers/src/transformers.js"() {
+  "node_modules/.pnpm/@xenova+transformers@2.17.2_@types+node@25.9.1/node_modules/@xenova/transformers/src/transformers.js"() {
     init_pipelines();
     init_env();
     init_models();
@@ -29779,7 +29780,7 @@ __export(main_exports, {
   default: () => LinkLinkPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // indexing.ts
 var import_obsidian = require("obsidian");
@@ -30215,6 +30216,322 @@ var InterlinkService = class {
   }
 };
 
+// linksuggest.ts
+var import_obsidian3 = require("obsidian");
+var import_view = require("@codemirror/view");
+var MAX_PHRASE_WORDS = 6;
+var WORD_BOUNDARY_RE = /[\s.,;:!?()[\]{}"'`]/;
+var TRIGGER_DEBOUNCE_MS = 150;
+var TitleAliasIndex = class {
+  constructor(app) {
+    this.byKey = /* @__PURE__ */ new Map();
+    this.byPath = /* @__PURE__ */ new Map();
+    // file path -> lowercased keys it owns
+    // Shortest title/alias currently in the vault, used as an automatic noise
+    // gate instead of a user-configured minimum length — matches shorter than
+    // this can't correspond to any real note anyway.
+    this.minKeyLength = Infinity;
+    this.app = app;
+  }
+  build() {
+    this.byKey.clear();
+    this.byPath.clear();
+    this.minKeyLength = Infinity;
+    for (const file of this.app.vault.getMarkdownFiles()) this.addFile(file);
+  }
+  keysForFile(file) {
+    var _a2, _b2, _c2;
+    const out = [{ key: file.basename.toLowerCase(), displayAs: file.basename, isTitle: true }];
+    const fm = (_b2 = (_a2 = this.app.metadataCache.getFileCache(file)) == null ? void 0 : _a2.frontmatter) != null ? _b2 : null;
+    const aliases = (_c2 = (0, import_obsidian3.parseFrontMatterAliases)(fm)) != null ? _c2 : [];
+    for (const alias of aliases) {
+      const trimmed = alias.trim();
+      if (trimmed) out.push({ key: trimmed.toLowerCase(), displayAs: trimmed, isTitle: false });
+    }
+    return out;
+  }
+  addFile(file) {
+    const keys = this.keysForFile(file);
+    for (const { key, displayAs, isTitle } of keys) {
+      if (key.length < this.minKeyLength) this.minKeyLength = key.length;
+      const list = this.byKey.get(key);
+      const entry = { file, displayAs, isTitle };
+      if (list) list.push(entry);
+      else this.byKey.set(key, [entry]);
+    }
+    this.byPath.set(file.path, keys.map((k) => k.key));
+  }
+  removeFile(path3) {
+    const keys = this.byPath.get(path3);
+    if (!keys) return;
+    let mayShrinkMin = false;
+    for (const key of keys) {
+      if (key.length === this.minKeyLength) mayShrinkMin = true;
+      const list = this.byKey.get(key);
+      if (!list) continue;
+      const filtered = list.filter((e) => e.file.path !== path3);
+      if (filtered.length > 0) this.byKey.set(key, filtered);
+      else this.byKey.delete(key);
+    }
+    this.byPath.delete(path3);
+    if (mayShrinkMin) this.recomputeMinKeyLength();
+  }
+  recomputeMinKeyLength() {
+    let min2 = Infinity;
+    for (const key of this.byKey.keys()) if (key.length < min2) min2 = key.length;
+    this.minKeyLength = min2;
+  }
+  updateFile(file) {
+    this.removeFile(file.path);
+    this.addFile(file);
+  }
+  renameFile(file, oldPath) {
+    this.removeFile(oldPath);
+    this.addFile(file);
+  }
+  lookup(phrase) {
+    return this.byKey.get(phrase.toLowerCase());
+  }
+};
+function findPhraseMatch(line, boundaryCh, index, minLength) {
+  const words = [];
+  const starts = [];
+  let i = boundaryCh;
+  while (words.length < MAX_PHRASE_WORDS && i > 0) {
+    while (i > 0 && WORD_BOUNDARY_RE.test(line[i - 1])) i--;
+    const wordEnd = i;
+    while (i > 0 && !WORD_BOUNDARY_RE.test(line[i - 1])) i--;
+    const wordStart = i;
+    if (wordStart === wordEnd) break;
+    words.unshift(line.slice(wordStart, wordEnd));
+    starts.unshift(wordStart);
+  }
+  if (words.length === 0) return null;
+  for (let k = words.length; k >= 1; k--) {
+    const startCh = starts[words.length - k];
+    const phrase = words.slice(words.length - k).join(" ");
+    if (phrase.length < minLength) continue;
+    const entries = index.lookup(phrase);
+    if (entries && entries.length > 0) return { startCh, endCh: boundaryCh, phrase, entries };
+  }
+  return null;
+}
+function isInsideLinkOrCode(line, ch) {
+  var _a2, _b2, _c2;
+  const before = line.slice(0, ch);
+  const opens = ((_a2 = before.match(/\[\[/g)) != null ? _a2 : []).length;
+  const closes = ((_b2 = before.match(/\]\]/g)) != null ? _b2 : []).length;
+  if (opens > closes) return true;
+  const backticks = ((_c2 = before.match(/`/g)) != null ? _c2 : []).length;
+  return backticks % 2 === 1;
+}
+function overlapsClosedLink(line, startCh, endCh) {
+  const linkRe = /\[\[.*?\]\]/g;
+  let m;
+  while (m = linkRe.exec(line)) {
+    if (startCh < m.index + m[0].length && endCh > m.index) return true;
+  }
+  return false;
+}
+function resolveTarget(app, entries, phrase, sourcePath) {
+  var _a2;
+  if (entries.length === 1) return entries[0];
+  const titleMatch = entries.find((e) => e.isTitle);
+  const dest = app.metadataCache.getFirstLinkpathDest(phrase, sourcePath);
+  const destMatch = dest && entries.find((e) => e.file.path === dest.path);
+  return (_a2 = destMatch != null ? destMatch : titleMatch) != null ? _a2 : entries[0];
+}
+function buildLinkText(entry, asTyped) {
+  if (entry.isTitle && entry.displayAs === asTyped) return `[[${entry.displayAs}]]`;
+  return `[[${entry.displayAs}|${asTyped}]]`;
+}
+function buildLinkSuggestExtension(app, plugin, index) {
+  class LinkSuggestPlugin {
+    constructor(view) {
+      this.suggestions = [];
+      this.triggerTimer = null;
+      this.onResize = () => this.scheduleReposition();
+      this.onScroll = () => this.scheduleReposition();
+      this.onKeydownCapture = (event) => this.handleKeydownCapture(event);
+      this.view = view;
+      window.addEventListener("resize", this.onResize);
+      view.dom.addEventListener("keydown", this.onKeydownCapture, true);
+      view.scrollDOM.addEventListener("scroll", this.onScroll, { passive: true });
+    }
+    update(update) {
+      if (!plugin.settings.linkSuggestEnabled) {
+        this.dismissAll();
+        return;
+      }
+      if (update.docChanged) this.remapSuggestions(update);
+      if (this.suggestions.length > 0 && (update.docChanged || update.viewportChanged || update.geometryChanged)) {
+        this.scheduleReposition();
+      }
+      if (update.docChanged) {
+        if (this.triggerTimer !== null) window.clearTimeout(this.triggerTimer);
+        this.triggerTimer = window.setTimeout(() => {
+          this.triggerTimer = null;
+          this.tryTrigger();
+        }, TRIGGER_DEBOUNCE_MS);
+      }
+    }
+    destroy() {
+      window.removeEventListener("resize", this.onResize);
+      this.view.dom.removeEventListener("keydown", this.onKeydownCapture, true);
+      this.view.scrollDOM.removeEventListener("scroll", this.onScroll);
+      if (this.triggerTimer !== null) window.clearTimeout(this.triggerTimer);
+      this.dismissAll();
+    }
+    // Remaps every active suggestion's anchor through the just-applied edit so
+    // typing anywhere else in the document (e.g. further paragraphs below)
+    // never invalidates suggestions earlier in the text. Only drops a
+    // suggestion when its own anchored text was actually edited.
+    remapSuggestions(update) {
+      const kept = [];
+      for (const s of this.suggestions) {
+        const from = update.changes.mapPos(s.from, -1);
+        const to = update.changes.mapPos(s.to, 1);
+        if (from >= to || to > update.state.doc.length) {
+          this.removeTooltip(s);
+          continue;
+        }
+        if (update.state.sliceDoc(from, to).toLowerCase() !== s.phrase.toLowerCase()) {
+          this.removeTooltip(s);
+          continue;
+        }
+        s.from = from;
+        s.to = to;
+        kept.push(s);
+      }
+      this.suggestions = kept;
+    }
+    // Positioning must go through requestMeasure rather than reading
+    // coordsAtPos synchronously inside update() — CM6 doesn't guarantee
+    // layout is settled at that point, and a premature read can spuriously
+    // return null for text that is genuinely still on-screen. A suggestion
+    // scrolling out of view is only ever hidden (and reshown once back in
+    // view), never removed — removal is reserved for actual dismissal
+    // (timeout, accept, Esc, toggle off) or the underlying text being edited.
+    scheduleReposition() {
+      this.view.requestMeasure({
+        key: this,
+        // coordsAtPos can return real (non-null) coordinates for a position
+        // that's outside the pane's visible area but still within CM6's
+        // internal render buffer — e.g. scrolled just above the editor,
+        // behind the tab bar. Compare against the pane's own visible rect
+        // rather than trusting non-null as "on screen".
+        read: (view) => ({
+          paneRect: view.scrollDOM.getBoundingClientRect(),
+          items: this.suggestions.map((s) => ({
+            s,
+            start: view.coordsAtPos(s.from),
+            end: view.coordsAtPos(s.to, -1)
+          }))
+        }),
+        write: ({ paneRect, items }) => {
+          for (const { s, start, end } of items) {
+            if (!start || !end || start.top < paneRect.top || start.top > paneRect.bottom) {
+              s.tooltipEl.setCssStyles({ display: "none" });
+              continue;
+            }
+            const midX = (start.left + end.right) / 2;
+            s.tooltipEl.setCssStyles({ display: "", left: midX + "px", top: start.top - 6 + "px" });
+          }
+        }
+      });
+    }
+    tryTrigger() {
+      var _a2;
+      if (!plugin.settings.linkSuggestEnabled) return;
+      const info = this.view.state.field(import_obsidian3.editorInfoField, false);
+      const sourceFile = (_a2 = info == null ? void 0 : info.file) != null ? _a2 : null;
+      if (!sourceFile) return;
+      const pos = this.view.state.selection.main.head;
+      const line = this.view.state.doc.lineAt(pos);
+      const ch = pos - line.from;
+      if (ch === 0) return;
+      if (!WORD_BOUNDARY_RE.test(line.text[ch - 1])) return;
+      if (isInsideLinkOrCode(line.text, ch - 1)) return;
+      if (this.isInFrontmatter(sourceFile, pos)) return;
+      const minLength = Number.isFinite(index.minKeyLength) ? index.minKeyLength : 1;
+      const match = findPhraseMatch(line.text, ch - 1, index, minLength);
+      if (!match) return;
+      if (overlapsClosedLink(line.text, match.startCh, match.endCh)) return;
+      const candidates = match.entries.filter((e) => e.file.path !== sourceFile.path);
+      if (candidates.length === 0) return;
+      const from = line.from + match.startCh;
+      const to = line.from + match.endCh;
+      if (this.suggestions.some((s) => s.from === from && s.to === to)) return;
+      const target = resolveTarget(app, candidates, match.phrase, sourceFile.path);
+      const linkText = buildLinkText(target, match.phrase);
+      this.show(from, to, match.phrase, linkText);
+    }
+    isInFrontmatter(file, pos) {
+      var _a2;
+      const fmPos = (_a2 = app.metadataCache.getFileCache(file)) == null ? void 0 : _a2.frontmatterPosition;
+      if (!fmPos) return false;
+      return pos >= fmPos.start.offset && pos <= fmPos.end.offset;
+    }
+    show(from, to, phrase, linkText) {
+      const tooltipEl = activeDocument.body.createDiv({ cls: "ll-linksuggest-tip" });
+      tooltipEl.setText(`Link ${linkText}`);
+      const dismissSec = plugin.settings.linkSuggestDismissSec;
+      const suggestion = {
+        from,
+        to,
+        phrase,
+        linkText,
+        tooltipEl,
+        dismissTimer: dismissSec > 0 ? window.setTimeout(() => this.dismiss(suggestion), dismissSec * 1e3) : null
+      };
+      tooltipEl.addEventListener("mousedown", (e) => {
+        e.preventDefault();
+        this.accept(suggestion);
+      });
+      this.suggestions.push(suggestion);
+      this.scheduleReposition();
+    }
+    accept(s) {
+      if (!this.suggestions.includes(s)) return;
+      this.view.dispatch({ changes: { from: s.from, to: s.to, insert: s.linkText } });
+      this.dismiss(s);
+    }
+    removeTooltip(s) {
+      if (s.dismissTimer !== null) window.clearTimeout(s.dismissTimer);
+      s.tooltipEl.remove();
+    }
+    dismiss(s) {
+      const idx = this.suggestions.indexOf(s);
+      if (idx === -1) return;
+      this.removeTooltip(s);
+      this.suggestions.splice(idx, 1);
+    }
+    dismissAll() {
+      for (const s of this.suggestions) this.removeTooltip(s);
+      this.suggestions = [];
+    }
+    // Registered on the capture phase directly (rather than via CM6's
+    // PluginSpec.eventHandlers) so it runs before Obsidian/CM6's own Enter
+    // (new line) and Escape keymaps, regardless of their extension precedence.
+    handleKeydownCapture(event) {
+      if (event.key === "Escape" && this.suggestions.length > 0) {
+        this.dismissAll();
+        event.preventDefault();
+        event.stopPropagation();
+        return;
+      }
+      if (event.key !== "Enter") return;
+      const pos = this.view.state.selection.main.head;
+      const match = this.suggestions.find((s) => pos >= s.from && pos <= s.to + 1);
+      if (!match) return;
+      event.preventDefault();
+      event.stopPropagation();
+      this.accept(match);
+    }
+  }
+  return import_view.ViewPlugin.fromClass(LinkSuggestPlugin);
+}
+
 // main.ts
 var VIEW_TYPE = "link-link-view";
 var RESERVED_FM_KEYS = /* @__PURE__ */ new Set(["tags", "aliases", "title", "cssclass", "cssclasses", "publish", "created", "modified", "date"]);
@@ -30270,7 +30587,9 @@ var DEFAULT_SETTINGS = {
   liveModeUpdateDelaySec: 1.5,
   liveModeUseMainParams: true,
   liveModeTopN: 15,
-  liveModeThreshold: 0.5
+  liveModeThreshold: 0.5,
+  linkSuggestEnabled: true,
+  linkSuggestDismissSec: 0
 };
 var WARNING_COLOR = "#f59e0b";
 var EmbeddingNotFoundError = class extends Error {
@@ -30320,7 +30639,7 @@ function getIconPrimitives(name2) {
   const cached = iconPrimitiveCache.get(name2);
   if (cached) return cached;
   const tempEl = createDiv();
-  (0, import_obsidian3.setIcon)(tempEl, name2);
+  (0, import_obsidian4.setIcon)(tempEl, name2);
   const svg = tempEl.querySelector("svg");
   const primitives = [];
   if (svg) {
@@ -30951,11 +31270,20 @@ var GraphSimulation = class {
     ctx.restore();
   }
 };
-var LinkLinkView = class extends import_obsidian3.ItemView {
+var LinkLinkView = class extends import_obsidian4.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.simulation = null;
     this.resizeObserver = null;
+    // Bumped whenever any render path takes ownership of contentEl (empties and
+    // repaints it) — refresh(), the selection/live panels, the ad-hoc search
+    // loading state. refresh() captures the value at its start and bails after
+    // each await (and before painting in its catch) if it changed, instead of
+    // appending a second header/canvas under content another path already
+    // painted — e.g. when several active-leaf-change events fire in quick
+    // succession while Obsidian restores the workspace layout on startup and
+    // one of them throws EmbeddingNotFoundError mid-flight.
+    this.renderId = 0;
     this.listUpdateFn = null;
     this.textSearchState = null;
     this.selectionBtn = null;
@@ -31006,7 +31334,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   }
   mkIconBtn(parent, icon, tipTitle, tipBody, tipAlign, onClick) {
     const btn = parent.createDiv({ cls: "ll-icon-btn" });
-    (0, import_obsidian3.setIcon)(btn, icon);
+    (0, import_obsidian4.setIcon)(btn, icon);
     let hideTip = null;
     btn.addEventListener("mouseenter", () => {
       hideTip = showListTip(btn, tipTitle, tipBody, tipAlign);
@@ -31031,7 +31359,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
     var _a2;
     const btn = this.selectionBtn;
     if (!btn) return;
-    (0, import_obsidian3.setIcon)(btn, "highlighter");
+    (0, import_obsidian4.setIcon)(btn, "highlighter");
     if (((_a2 = this.textSearchState) == null ? void 0 : _a2.origin) === "manual") {
       btn.addClass("ll-sel-icon-active");
       btn.removeClass("ll-sel-icon-dim");
@@ -31066,7 +31394,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   }
   createSelectionBtn(parent) {
     const btn = parent.createDiv({ cls: "ll-icon-btn ll-sel-icon-btn" });
-    (0, import_obsidian3.setIcon)(btn, "highlighter");
+    (0, import_obsidian4.setIcon)(btn, "highlighter");
     this.selectionBtn = btn;
     let hideTip = null;
     btn.addEventListener("mouseenter", () => {
@@ -31088,7 +31416,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   async handleSelectionBtnClick() {
     var _a2;
     if (this.plugin.settings.embeddingSource === "existing") {
-      new import_obsidian3.Notice("Selection search requires Built-in or Ollama embedding. Switch in Settings \u2192 Embedding.");
+      new import_obsidian4.Notice("Selection search requires Built-in or Ollama embedding. Switch in Settings \u2192 Embedding.");
       return;
     }
     const { text, valid, wordCount } = this.getEditorSelection();
@@ -31098,9 +31426,9 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
     } else if (((_a2 = this.textSearchState) == null ? void 0 : _a2.origin) === "manual") {
       this.deactivateSelectionMode();
     } else if (text && wordCount > 0) {
-      new import_obsidian3.Notice(`Select at least 5 words to use Selection Mode (${wordCount} word${wordCount === 1 ? "" : "s"} selected).`);
+      new import_obsidian4.Notice(`Select at least 5 words to use Selection Mode (${wordCount} word${wordCount === 1 ? "" : "s"} selected).`);
     } else {
-      new import_obsidian3.Notice("No text selected.");
+      new import_obsidian4.Notice("No text selected.");
     }
   }
   deactivateSelectionMode() {
@@ -31110,7 +31438,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   async activateSelectionMode(text) {
     const found = this.getFocusedEditor();
     if (!found) {
-      new import_obsidian3.Notice("No active note.");
+      new import_obsidian4.Notice("No active note.");
       return;
     }
     await this.runAdHocSearch(text, found.file, found.editor.getCursor("from").line, "manual");
@@ -31140,12 +31468,14 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
     var _a2, _b2, _c2;
     const firstWord = (_a2 = text.trim().split(/\s+/)[0]) != null ? _a2 : "";
     let loadingEl = null;
+    let myRenderId = this.renderId;
     if (origin === "manual") {
       (_b2 = this.simulation) == null ? void 0 : _b2.stop();
       this.simulation = null;
       (_c2 = this.resizeObserver) == null ? void 0 : _c2.disconnect();
       this.resizeObserver = null;
       this.listUpdateFn = null;
+      myRenderId = ++this.renderId;
       const el = this.contentEl;
       el.empty();
       el.addClass("ll-container");
@@ -31166,7 +31496,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
         index = await this.plugin.loadAnyIndex();
       } catch (e) {
         if (origin === "manual") {
-          new import_obsidian3.Notice("No index found. Run Index Vault first.");
+          new import_obsidian4.Notice("No index found. Run Index Vault first.");
           void this.refresh();
         }
         return;
@@ -31197,6 +31527,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
     } catch (e) {
       if (origin === "manual") {
         this.textSearchState = null;
+        if (myRenderId !== this.renderId) return;
         const el = this.contentEl;
         el.empty();
         el.addClass("ll-container");
@@ -31233,7 +31564,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   updateLiveModeBtn() {
     const btn = this.liveModeBtn;
     if (!btn) return;
-    (0, import_obsidian3.setIcon)(btn, "text-search");
+    (0, import_obsidian4.setIcon)(btn, "text-search");
     btn.toggleClass("ll-sel-icon-active", this.liveModeActive);
   }
   createLiveModeBtn(parent) {
@@ -31260,7 +31591,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   handleLiveModeBtnClick() {
     var _a2;
     if (this.plugin.settings.embeddingSource === "existing") {
-      new import_obsidian3.Notice("Live Mode requires Built-in or Ollama embedding. Switch in Settings \u2192 Embedding.");
+      new import_obsidian4.Notice("Live Mode requires Built-in or Ollama embedding. Switch in Settings \u2192 Embedding.");
       return;
     }
     if (this.liveModeActive) {
@@ -31285,6 +31616,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   }
   renderLiveModeIdle() {
     var _a2, _b2;
+    this.renderId++;
     (_a2 = this.simulation) == null ? void 0 : _a2.stop();
     this.simulation = null;
     (_b2 = this.resizeObserver) == null ? void 0 : _b2.disconnect();
@@ -31352,6 +31684,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   renderSelectionModePanel() {
     var _a2, _b2;
     const state = this.textSearchState;
+    this.renderId++;
     (_a2 = this.simulation) == null ? void 0 : _a2.stop();
     this.simulation = null;
     (_b2 = this.resizeObserver) == null ? void 0 : _b2.disconnect();
@@ -31378,7 +31711,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       title: isGraph ? "Switch to list" : "Switch to graph"
     });
     const knob = toggle.createDiv({ cls: "ll-view-toggle-knob" });
-    (0, import_obsidian3.setIcon)(knob, isGraph ? "network" : "list");
+    (0, import_obsidian4.setIcon)(knob, isGraph ? "network" : "list");
     toggle.addEventListener("click", () => void (async () => {
       this.plugin.settings.viewMode = isGraph ? "list" : "graph";
       await this.plugin.saveData(this.plugin.settings);
@@ -31400,6 +31733,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
     this.simulation = null;
     this.listUpdateFn = null;
     this.selectionBtn = null;
+    const myRenderId = ++this.renderId;
     const el = this.contentEl;
     el.empty();
     el.addClass("ll-container");
@@ -31413,11 +31747,13 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       const { outgoingPaths, backlinkPaths } = this.plugin.getOutgoingAndBacklinkPaths(activeFile);
       const naturalPaths = /* @__PURE__ */ new Set([...outgoingPaths, ...backlinkPaths]);
       const baseResults = await this.plugin.getRelated(activeFile, naturalPaths);
+      if (myRenderId !== this.renderId) return;
       el.empty();
       el.addClass("ll-container");
       const header = el.createDiv({ cls: "ll-header" });
       const isGraph = this.plugin.settings.viewMode === "graph";
       const extra = await this.plugin.getLinkedResults(activeFile, baseResults);
+      if (myRenderId !== this.renderId) return;
       const allResults = extra.length > 0 ? [...baseResults, ...extra] : baseResults;
       const results = allResults.map((r) => ({
         ...r,
@@ -31435,11 +31771,11 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
             const index = await this.plugin.loadAnyIndex();
             const result = await this.plugin.interlinkService.runForFile(activeFile, index);
             const field = this.plugin.settings.relatedFieldName || "related";
-            new import_obsidian3.Notice(
+            new import_obsidian4.Notice(
               result === false ? `"${activeFile.basename}" is not in the index \u2014 run indexing first.` : result === 0 ? `Updated related links for "${activeFile.basename}". No similar notes found.` : `Updated related links for "${activeFile.basename}". ${result} similar note${result === 1 ? "" : "s"} added to "${field}:"`
             );
           } catch (e) {
-            new import_obsidian3.Notice(`Error: ${e instanceof Error ? e.message : String(e)}`);
+            new import_obsidian4.Notice(`Error: ${e instanceof Error ? e.message : String(e)}`);
           }
         }
       );
@@ -31466,7 +31802,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
             }
             await this.refresh();
           } catch (e) {
-            new import_obsidian3.Notice(`Update failed: ${e instanceof Error ? e.message : String(e)}`);
+            new import_obsidian4.Notice(`Update failed: ${e instanceof Error ? e.message : String(e)}`);
           }
         }
       );
@@ -31475,7 +31811,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
         title: isGraph ? "Switch to list" : "Switch to graph"
       });
       const knob = toggle.createDiv({ cls: "ll-view-toggle-knob" });
-      (0, import_obsidian3.setIcon)(knob, isGraph ? "network" : "list");
+      (0, import_obsidian4.setIcon)(knob, isGraph ? "network" : "list");
       toggle.addEventListener("click", () => void (async () => {
         this.plugin.settings.viewMode = isGraph ? "list" : "graph";
         await this.plugin.saveData(this.plugin.settings);
@@ -31491,6 +31827,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       if (isGraph) this.renderGraph(el, activeFile, results);
       else this.renderList(el, results, activeFile);
     } catch (e) {
+      if (myRenderId !== this.renderId) return;
       el.empty();
       el.addClass("ll-container");
       if (e instanceof EmbeddingNotFoundError) {
@@ -31523,7 +31860,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       title: isGraph ? "Switch to list" : "Switch to graph"
     });
     const knob = toggle.createDiv({ cls: "ll-view-toggle-knob" });
-    (0, import_obsidian3.setIcon)(knob, isGraph ? "network" : "list");
+    (0, import_obsidian4.setIcon)(knob, isGraph ? "network" : "list");
     toggle.addEventListener("click", () => void (async () => {
       this.plugin.settings.viewMode = isGraph ? "list" : "graph";
       await this.plugin.saveData(this.plugin.settings);
@@ -31566,7 +31903,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       void this.refresh();
     } catch (e) {
       onError();
-      new import_obsidian3.Notice(`Indexing failed: ${e instanceof Error ? e.message : String(e)}`);
+      new import_obsidian4.Notice(`Indexing failed: ${e instanceof Error ? e.message : String(e)}`);
     }
   }
   // Inserts [[link]] at the visual drop coordinates using CM6's posAtCoords,
@@ -31574,7 +31911,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
   insertLinkAtDrop(text, dropTarget, dropX, dropY) {
     for (const leaf of this.app.workspace.getLeavesOfType("markdown")) {
       const view = leaf.view;
-      if (!(view instanceof import_obsidian3.MarkdownView)) continue;
+      if (!(view instanceof import_obsidian4.MarkdownView)) continue;
       if (dropTarget && !view.containerEl.contains(dropTarget)) continue;
       const editor = view.editor;
       const cm = editor.cm;
@@ -31585,7 +31922,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       editor.replaceSelection(text);
       return;
     }
-    new import_obsidian3.Notice("Open a note first, then drop the link.");
+    new import_obsidian4.Notice("Open a note first, then drop the link.");
   }
   updateBadges(activeFile) {
     var _a2, _b2, _c2;
@@ -31661,7 +31998,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       const entry = list.createDiv({ cls: "ll-sel-entry expanded" });
       let expanded = true;
       const iconEl = entry.createSpan({ cls: "ll-sel-entry-icon" });
-      (0, import_obsidian3.setIcon)(iconEl, state.origin === "live" ? "text-search" : "highlighter");
+      (0, import_obsidian4.setIcon)(iconEl, state.origin === "live" ? "text-search" : "highlighter");
       entry.createSpan({ text: state.sourceFile.basename, cls: "ll-sel-entry-source" });
       const previewEl = entry.createSpan({ cls: "ll-sel-entry-preview" });
       const preview = state.text.length > 120 ? state.text.slice(0, 120) + "\u2026" : state.text;
@@ -31686,13 +32023,13 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
         new SelectionTextPopup(this.app, state).open();
       });
       const collapseBtn = entry.createSpan({ cls: "ll-sel-entry-collapse", title: "Collapse" });
-      (0, import_obsidian3.setIcon)(collapseBtn, "chevron-up");
+      (0, import_obsidian4.setIcon)(collapseBtn, "chevron-up");
       collapseBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         expanded = false;
         entry.removeClass("expanded");
         previewEl.hide();
-        (0, import_obsidian3.setIcon)(collapseBtn, "chevron-down");
+        (0, import_obsidian4.setIcon)(collapseBtn, "chevron-down");
         collapseBtn.title = "Expand";
       });
     }
@@ -31736,7 +32073,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       attachTip(badgeB, "Backlink", "The current note is referenced by this note.");
       item.createSpan({ text: file.basename, cls: "ll-link" }).addEventListener("contextmenu", (e) => {
         e.preventDefault();
-        const menu = new import_obsidian3.Menu();
+        const menu = new import_obsidian4.Menu();
         this.app.workspace.trigger("file-menu", menu, file, "link-link-view");
         menu.showAtMouseEvent(e);
       });
@@ -31752,11 +32089,11 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
       const refreshBtn = () => {
         linkBtn.empty();
         if (isInFrontmatter) {
-          (0, import_obsidian3.setIcon)(linkBtn, "unlink");
+          (0, import_obsidian4.setIcon)(linkBtn, "unlink");
           linkBtn.toggleClass("is-connected", true);
           linkBtn.toggleClass("is-natural", false);
         } else {
-          (0, import_obsidian3.setIcon)(linkBtn, "link");
+          (0, import_obsidian4.setIcon)(linkBtn, "link");
           linkBtn.toggleClass("is-connected", false);
           linkBtn.toggleClass("is-natural", isOutgoing || isBacklink);
         }
@@ -31783,14 +32120,14 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
             if (updated.length > 0) fm[field] = updated;
             else delete fm[field];
           });
-          new import_obsidian3.Notice(`Removed "${file.basename}" from ${field}:`);
+          new import_obsidian4.Notice(`Removed "${file.basename}" from ${field}:`);
           isInFrontmatter = false;
           refreshBtn();
         } else {
           await this.app.fileManager.processFrontMatter(activeFile, (fm) => {
             fm[field] = [...getRelated(), `[[${file.basename}]]`];
           });
-          new import_obsidian3.Notice(`Added "${file.basename}" to ${field}:`);
+          new import_obsidian4.Notice(`Added "${file.basename}" to ${field}:`);
           isInFrontmatter = true;
           refreshBtn();
         }
@@ -31884,7 +32221,7 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
         this.insertLinkAtDrop(`[[${f.basename}]]`, dropTarget, dropX, dropY);
       },
       (f, e) => {
-        const menu = new import_obsidian3.Menu();
+        const menu = new import_obsidian4.Menu();
         this.app.workspace.trigger("file-menu", menu, f, "link-link-view");
         menu.showAtMouseEvent(e);
       },
@@ -31910,13 +32247,13 @@ var LinkLinkView = class extends import_obsidian3.ItemView {
             else delete fm[field];
           });
           (_c2 = this.simulation) == null ? void 0 : _c2.toggleNodeLink(f, isOutgoing || isBacklink);
-          new import_obsidian3.Notice(`Removed "${f.basename}" from ${field}:`);
+          new import_obsidian4.Notice(`Removed "${f.basename}" from ${field}:`);
         } else {
           await this.app.fileManager.processFrontMatter(currentFile, (fm) => {
             fm[field] = [...getRelated(), `[[${f.basename}]]`];
           });
           (_d = this.simulation) == null ? void 0 : _d.toggleNodeLink(f, true);
-          new import_obsidian3.Notice(`Added "${f.basename}" to ${field}:`);
+          new import_obsidian4.Notice(`Added "${f.basename}" to ${field}:`);
         }
       },
       selInfo,
@@ -32038,7 +32375,7 @@ var INTERLINK_PHRASES = [
   "The web grows",
   "Every note deserves a neighbour"
 ];
-var SelectionTextPopup = class extends import_obsidian3.Modal {
+var SelectionTextPopup = class extends import_obsidian4.Modal {
   constructor(app, state) {
     super(app);
     this.state = state;
@@ -32070,7 +32407,7 @@ var SelectionTextPopup = class extends import_obsidian3.Modal {
       var _a2;
       const file = this.app.vault.getFileByPath(this.state.sourceFile.path);
       if (!file) {
-        new import_obsidian3.Notice("Source note not found (may have been renamed or deleted).");
+        new import_obsidian4.Notice("Source note not found (may have been renamed or deleted).");
         return;
       }
       const mdLeaves = this.app.workspace.getLeavesOfType("markdown");
@@ -32132,7 +32469,7 @@ var IndexProgressPopup = class {
     const closeBtn = header.createEl("button", { cls: "ll-idx-popup-close", text: "\xD7" });
     closeBtn.addEventListener("click", () => {
       this.dismissed = true;
-      if (!this.isFinished) new import_obsidian3.Notice("Indexing continues in the background.", 3e3);
+      if (!this.isFinished) new import_obsidian4.Notice("Indexing continues in the background.", 3e3);
       this.close();
     });
     this.phraseEl = this.el.createDiv({ cls: "ll-idx-popup-phrase" });
@@ -32167,7 +32504,7 @@ var IndexProgressPopup = class {
     this.el.remove();
   }
 };
-var LinkLinkPlugin = class _LinkLinkPlugin extends import_obsidian3.Plugin {
+var LinkLinkPlugin = class _LinkLinkPlugin extends import_obsidian4.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
@@ -32189,7 +32526,7 @@ var LinkLinkPlugin = class _LinkLinkPlugin extends import_obsidian3.Plugin {
           secondary == null ? void 0 : secondary(msg, pct);
         },
         onDone: (summary) => {
-          if (popup.dismissed) new import_obsidian3.Notice(`Link Link! \u2713  ${summary}`, t > 0 ? t * 1e3 : 0);
+          if (popup.dismissed) new import_obsidian4.Notice(`Link Link! \u2713  ${summary}`, t > 0 ? t * 1e3 : 0);
           else popup.finish(summary, t);
         },
         onError: () => {
@@ -32198,7 +32535,7 @@ var LinkLinkPlugin = class _LinkLinkPlugin extends import_obsidian3.Plugin {
         }
       };
     } else if (mode === "notification") {
-      const notice = new import_obsidian3.Notice("", 0);
+      const notice = new import_obsidian4.Notice("", 0);
       let phraseIdx = Math.floor(Math.random() * INDEX_PHRASES.length);
       let lastPct = 0;
       let lastMsg = "";
@@ -32231,7 +32568,7 @@ ${msg}`);
       return {
         onProgress: (msg, pct) => secondary == null ? void 0 : secondary(msg, pct),
         onDone: (summary) => {
-          new import_obsidian3.Notice(`Link Link! \u2713  ${summary}`, t > 0 ? t * 1e3 : 0);
+          new import_obsidian4.Notice(`Link Link! \u2713  ${summary}`, t > 0 ? t * 1e3 : 0);
         },
         onError: () => {
         }
@@ -32242,6 +32579,8 @@ ${msg}`);
     await this.loadSettings();
     this.indexingService = new IndexingService(this.app, this);
     this.interlinkService = new InterlinkService(this.app, this);
+    this.titleAliasIndex = new TitleAliasIndex(this.app);
+    this.registerEditorExtension(buildLinkSuggestExtension(this.app, this, this.titleAliasIndex));
     this.registerView(VIEW_TYPE, (leaf) => new LinkLinkView(leaf, this));
     this.addRibbonIcon("link", "Link Link!", () => this.activateView());
     this.addCommand({ id: "open", name: "Open related notes panel", callback: () => this.activateView() });
@@ -32250,11 +32589,11 @@ ${msg}`);
       name: "Index Vault",
       callback: async () => {
         if (this.settings.embeddingSource === "existing") {
-          new import_obsidian3.Notice("Index Vault is not available when using an existing index file. Switch to Built-in or Local model (Ollama) in Settings \u2192 Embedding.");
+          new import_obsidian4.Notice("Index Vault is not available when using an existing index file. Switch to Built-in or Local model (Ollama) in Settings \u2192 Embedding.");
           return;
         }
         if (this.settings.embeddingSource === "local" && !this.settings.ollamaModels.some((m) => m.active)) {
-          new import_obsidian3.Notice("No Ollama model is active. Add and activate one in Settings \u2192 Embedding.");
+          new import_obsidian4.Notice("No Ollama model is active. Add and activate one in Settings \u2192 Embedding.");
           return;
         }
         const { onProgress, onDone, onError } = this.createProgressDisplay();
@@ -32265,7 +32604,7 @@ ${msg}`);
           this.refreshView();
         } catch (e) {
           onError();
-          new import_obsidian3.Notice(`Index Vault failed: ${e instanceof Error ? e.message : String(e)}`);
+          new import_obsidian4.Notice(`Index Vault failed: ${e instanceof Error ? e.message : String(e)}`);
         }
       }
     });
@@ -32281,11 +32620,11 @@ ${msg}`);
             const index = await this.loadAnyIndex();
             const result = await this.interlinkService.runForFile(file, index);
             const field = this.settings.relatedFieldName || "related";
-            new import_obsidian3.Notice(
+            new import_obsidian4.Notice(
               result === false ? `"${file.basename}" is not in the index \u2014 run Index Vault first.` : result === 0 ? `Updated related links for "${file.basename}". No similar notes found.` : `Updated related links for "${file.basename}". ${result} similar note${result === 1 ? "" : "s"} added to "${field}:"`
             );
           } catch (e) {
-            new import_obsidian3.Notice(`Interlink failed: ${e instanceof Error ? e.message : String(e)}`);
+            new import_obsidian4.Notice(`Interlink failed: ${e instanceof Error ? e.message : String(e)}`);
           }
         })();
         return true;
@@ -32303,7 +32642,7 @@ ${msg}`);
           this.refreshView();
         } catch (e) {
           onError();
-          new import_obsidian3.Notice(`Interlink Vault failed: ${e instanceof Error ? e.message : String(e)}`);
+          new import_obsidian4.Notice(`Interlink Vault failed: ${e instanceof Error ? e.message : String(e)}`);
         }
       }
     });
@@ -32332,10 +32671,22 @@ ${msg}`);
       if (file.path !== activeFile.path && !((_a2 = resolved[file.path]) == null ? void 0 : _a2[activeFile.path]) && !((_b2 = resolved[activeFile.path]) == null ? void 0 : _b2[file.path])) return;
       this.updateViewBadges(activeFile);
     }));
+    this.registerEvent(this.app.vault.on("create", (file) => {
+      if (file instanceof import_obsidian4.TFile && file.extension === "md") this.titleAliasIndex.addFile(file);
+    }));
+    this.registerEvent(this.app.vault.on("delete", (file) => {
+      if (file instanceof import_obsidian4.TFile && file.extension === "md") this.titleAliasIndex.removeFile(file.path);
+    }));
+    this.registerEvent(this.app.vault.on("rename", (file, oldPath) => {
+      if (file instanceof import_obsidian4.TFile && file.extension === "md") this.titleAliasIndex.renameFile(file, oldPath);
+    }));
+    this.registerEvent(this.app.metadataCache.on("changed", (file) => {
+      this.titleAliasIndex.updateFile(file);
+    }));
     let fileSaveTimer = null;
     const pendingFiles = /* @__PURE__ */ new Set();
     this.registerEvent(this.app.vault.on("modify", (file) => {
-      if (!(file instanceof import_obsidian3.TFile) || file.extension !== "md") return;
+      if (!(file instanceof import_obsidian4.TFile) || file.extension !== "md") return;
       if (this.settings.autoIndexMode !== "file-save") return;
       if (this.settings.embeddingSource === "existing") return;
       pendingFiles.add(file);
@@ -32359,6 +32710,7 @@ ${msg}`);
     this.addSettingTab(new LinkLinkSettingTab(this.app, this));
     this.app.workspace.onLayoutReady(() => {
       void this.activateView();
+      this.titleAliasIndex.build();
       if (this.settings.autoIndexMode === "startup" && this.settings.embeddingSource !== "existing") {
         window.setTimeout(() => {
           const { onProgress, onDone, onError } = this.createProgressDisplay();
@@ -32617,7 +32969,7 @@ ${msg}`);
     this.refreshView();
   }
 };
-var PathSuggestModal = class extends import_obsidian3.FuzzySuggestModal {
+var PathSuggestModal = class extends import_obsidian4.FuzzySuggestModal {
   constructor(app, onChoose) {
     super(app);
     this.onChoose = onChoose;
@@ -32626,7 +32978,7 @@ var PathSuggestModal = class extends import_obsidian3.FuzzySuggestModal {
     const addFolders = (f) => {
       if (f.path) folders.push(f.path + "/");
       for (const child of f.children) {
-        if (child instanceof import_obsidian3.TFolder) addFolders(child);
+        if (child instanceof import_obsidian4.TFolder) addFolders(child);
       }
     };
     addFolders(app.vault.getRoot());
@@ -32659,7 +33011,7 @@ function filterSection(parent, app, title, desc, values, onChange) {
       for (const v of values) {
         const chip = chipZone.createSpan({ cls: "ll-chip" });
         const iconEl = chip.createSpan({ cls: "ll-chip-icon" });
-        (0, import_obsidian3.setIcon)(iconEl, v.endsWith("/") ? "folder" : "file-text");
+        (0, import_obsidian4.setIcon)(iconEl, v.endsWith("/") ? "folder" : "file-text");
         chip.createSpan({ text: v, cls: "ll-chip-text" });
         const x = chip.createEl("button", { cls: "ll-chip-x", text: "\xD7" });
         x.addEventListener("click", () => void (async () => {
@@ -32673,7 +33025,7 @@ function filterSection(parent, app, title, desc, values, onChange) {
   renderChips();
   const addRow = right.createDiv({ cls: "ll-filter-add-row" });
   const addBtn = addRow.createEl("button", { cls: "ll-filter-add" });
-  (0, import_obsidian3.setIcon)(addBtn, "plus");
+  (0, import_obsidian4.setIcon)(addBtn, "plus");
   addBtn.createSpan({ text: "Add\u2026" });
   addBtn.addEventListener("click", () => {
     new PathSuggestModal(app, (path3) => {
@@ -32684,7 +33036,7 @@ function filterSection(parent, app, title, desc, values, onChange) {
     }).open();
   });
 }
-var OllamaModelModal = class extends import_obsidian3.Modal {
+var OllamaModelModal = class extends import_obsidian4.Modal {
   constructor(app, existing, onSave) {
     super(app);
     this.existing = existing;
@@ -32746,7 +33098,7 @@ var OllamaModelModal = class extends import_obsidian3.Modal {
     this.contentEl.empty();
   }
 };
-var SetupWizardModal = class extends import_obsidian3.Modal {
+var SetupWizardModal = class extends import_obsidian4.Modal {
   constructor(app, plugin) {
     super(app);
     this.step = 0;
@@ -32893,7 +33245,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
       connBadge.setText("");
       try {
         const base = (urlInput.value.trim() || "http://localhost:11434").replace(/\/$/, "");
-        const resp = await (0, import_obsidian3.requestUrl)(`${base}/api/tags`);
+        const resp = await (0, import_obsidian4.requestUrl)(`${base}/api/tags`);
         if (resp.status !== 200) throw new Error();
         const data = resp.json;
         const found = ((_a2 = data.models) != null ? _a2 : []).some((m) => m.name === mn || m.name.startsWith(mn + ":"));
@@ -33023,7 +33375,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
     const detectedHeader = detectedWrap.createDiv({ cls: "ll-detected-header" });
     detectedHeader.createSpan({ text: "Auto-detected index files", cls: "ll-detected-title" });
     const scanBtn = detectedHeader.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-    (0, import_obsidian3.setIcon)(scanBtn.createSpan({ cls: "ll-btn-icon" }), "search");
+    (0, import_obsidian4.setIcon)(scanBtn.createSpan({ cls: "ll-btn-icon" }), "search");
     scanBtn.createSpan({ text: "Scan" });
     const detectedList = detectedWrap.createDiv({ cls: "ll-detected-list" });
     let pathInput;
@@ -33063,7 +33415,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
     const readyNote = body.createEl("p", { cls: "ll-wiz-ready-note" });
     readyNote.setCssStyles({ display: S.existingIndexPath ? "" : "none" });
     if (S.existingIndexPath) readyNote.setText("\u2713 Index file ready \u2014 no additional indexing needed.");
-    new import_obsidian3.Setting(body).setName("Index file path").addText((t) => {
+    new import_obsidian4.Setting(body).setName("Index file path").addText((t) => {
       t.setPlaceholder(`${this.app.vault.configDir}/<path-to-your-index-file>`).setValue(S.existingIndexPath).onChange((v) => {
         void (async () => {
           S.existingIndexPath = v;
@@ -33122,7 +33474,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
     const doneNote = body.createEl("p", { cls: "ll-wiz-ready-note" });
     doneNote.setCssStyles({ display: "none" });
     const idxBtn = body.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-    (0, import_obsidian3.setIcon)(idxBtn.createSpan({ cls: "ll-btn-icon" }), "database");
+    (0, import_obsidian4.setIcon)(idxBtn.createSpan({ cls: "ll-btn-icon" }), "database");
     idxBtn.createSpan({ text: "Index Vault" });
     let isIndexing = false;
     let controller = null;
@@ -33240,7 +33592,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
     const doneWrap = body.createDiv({ cls: "ll-wiz-done-wrap" });
     doneWrap.setCssStyles({ display: "none" });
     const ilBtn = body.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-    (0, import_obsidian3.setIcon)(ilBtn.createSpan({ cls: "ll-btn-icon" }), "git-branch");
+    (0, import_obsidian4.setIcon)(ilBtn.createSpan({ cls: "ll-btn-icon" }), "git-branch");
     ilBtn.createSpan({ text: "Interlink Vault" });
     ilBtn.disabled = true;
     const footerRow = this.mkFooter(body);
@@ -33499,7 +33851,7 @@ var SetupWizardModal = class extends import_obsidian3.Modal {
     });
   }
 };
-var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
+var LinkLinkSettingTab = class extends import_obsidian4.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.tooltipEl = null;
@@ -33566,7 +33918,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
     }
     tabBar.createDiv({ cls: "ll-tab-spacer" });
     const wizBtn = tabBar.createEl("button", { cls: "ll-action-btn ll-action-btn-accent ll-tab-wizard-btn" });
-    (0, import_obsidian3.setIcon)(wizBtn.createSpan({ cls: "ll-btn-icon" }), "wand-sparkles");
+    (0, import_obsidian4.setIcon)(wizBtn.createSpan({ cls: "ll-btn-icon" }), "wand-sparkles");
     wizBtn.createSpan({ text: "Run the wizard" });
     wizBtn.addEventListener("click", () => new SetupWizardModal(this.app, this.plugin).open());
     const makeProgress = (parent, phrases = INDEX_PHRASES) => {
@@ -33600,7 +33952,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         cls: "ll-reset-btn",
         title: "Reset to default"
       });
-      (0, import_obsidian3.setIcon)(btn, "rotate-ccw");
+      (0, import_obsidian4.setIcon)(btn, "rotate-ccw");
       btn.addEventListener("click", () => void (async () => {
         var _a3;
         S[key] = DEFAULT_SETTINGS[key];
@@ -33614,7 +33966,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       })());
     };
     const slider = (parent, name2, desc, key, min2, max2, step) => {
-      const s = new import_obsidian3.Setting(parent).setName(name2).setDesc(desc).addSlider((sl) => sl.setLimits(min2, max2, step).setValue(S[key]).setDynamicTooltip().onChange((v) => {
+      const s = new import_obsidian4.Setting(parent).setName(name2).setDesc(desc).addSlider((sl) => sl.setLimits(min2, max2, step).setValue(S[key]).setDynamicTooltip().onChange((v) => {
         void (async () => {
           S[key] = v;
           await save();
@@ -33628,8 +33980,8 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       };
       let hideProg = () => {
       };
-      new import_obsidian3.Setting(body).setName("Model source").setHeading();
-      const embSetting = new import_obsidian3.Setting(body).setName("Embedding model").addDropdown(
+      new import_obsidian4.Setting(body).setName("Model source").setHeading();
+      const embSetting = new import_obsidian4.Setting(body).setName("Embedding model").addDropdown(
         (d) => d.addOptions({
           builtin: "Built-in (lightweight)",
           local: "Local model (Ollama)",
@@ -33680,7 +34032,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           const mh = modelArea.createDiv({ cls: "ll-model-header" });
           mh.createSpan({ text: "Embedding Models", cls: "ll-model-header-title" });
           const ab = mh.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-          (0, import_obsidian3.setIcon)(ab.createSpan({ cls: "ll-btn-icon" }), "plus");
+          (0, import_obsidian4.setIcon)(ab.createSpan({ cls: "ll-btn-icon" }), "plus");
           ab.createSpan({ text: "Add Model" });
           ab.addEventListener("click", () => {
             new OllamaModelModal(app, void 0, async (mn, dn, bu) => {
@@ -33728,7 +34080,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
                   var _a4;
                   try {
                     const base = (model.baseUrl || "http://localhost:11434").replace(/\/$/, "");
-                    const resp = await (0, import_obsidian3.requestUrl)(`${base}/api/tags`);
+                    const resp = await (0, import_obsidian4.requestUrl)(`${base}/api/tags`);
                     if (resp.status !== 200) return null;
                     const data = resp.json;
                     return ((_a4 = data.models) != null ? _a4 : []).some(
@@ -33758,7 +34110,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
                 }
               })());
               const editBtn = row.createEl("button", { cls: "ll-model-icon-btn", title: "Edit model" });
-              (0, import_obsidian3.setIcon)(editBtn, "pencil");
+              (0, import_obsidian4.setIcon)(editBtn, "pencil");
               editBtn.addEventListener("click", () => {
                 new OllamaModelModal(app, model, async (mn, dn, bu) => {
                   model.modelName = mn;
@@ -33769,7 +34121,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
                 }).open();
               });
               const delBtn = row.createEl("button", { cls: "ll-action-btn ll-action-btn-danger", title: "Delete model" });
-              (0, import_obsidian3.setIcon)(delBtn.createSpan({ cls: "ll-btn-icon" }), "trash-2");
+              (0, import_obsidian4.setIcon)(delBtn.createSpan({ cls: "ll-btn-icon" }), "trash-2");
               delBtn.addEventListener("click", () => {
                 new ConfirmModal(
                   app,
@@ -33800,7 +34152,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         const detectedHeader = detectedWrap.createDiv({ cls: "ll-detected-header" });
         detectedHeader.createSpan({ text: "Auto-detected index files", cls: "ll-detected-title" });
         const scanBtn = detectedHeader.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-        (0, import_obsidian3.setIcon)(scanBtn.createSpan({ cls: "ll-btn-icon" }), "search");
+        (0, import_obsidian4.setIcon)(scanBtn.createSpan({ cls: "ll-btn-icon" }), "search");
         scanBtn.createSpan({ text: "Scan" });
         const detectedList = detectedWrap.createDiv({ cls: "ll-detected-list" });
         let pathInput = null;
@@ -33872,7 +34224,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           }
         };
         void initList();
-        new import_obsidian3.Setting(body).setName("Index file path").addText((t) => {
+        new import_obsidian4.Setting(body).setName("Index file path").addText((t) => {
           t.setPlaceholder(`${this.app.vault.configDir}/<path-to-your-index-file>`).setValue(S.existingIndexPath).onChange((v) => {
             void (async () => {
               S.existingIndexPath = v;
@@ -33889,7 +34241,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         validationEl.setCssStyles({ display: S.existingIndexPath.trim() ? "none" : "" });
       }
       if (S.embeddingSource !== "existing") {
-        new import_obsidian3.Setting(body).setName("Indexing target").setHeading();
+        new import_obsidian4.Setting(body).setName("Indexing target").setHeading();
         const targetSection = body.createDiv({ cls: "ll-action-section ll-action-section-flat" });
         const modeHeader = targetSection.createDiv({ cls: "ll-filter-mode-header" });
         modeHeader.createSpan({ text: "Targeting mode", cls: "ll-filter-mode-label" });
@@ -33933,13 +34285,13 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         }
       }
       if (S.embeddingSource !== "existing") {
-        new import_obsidian3.Setting(body).setName("Index vault").setHeading();
+        new import_obsidian4.Setting(body).setName("Index vault").setHeading();
         const idxSection = body.createDiv({ cls: "ll-action-section" });
         idxSection.createEl("p", {
           cls: "ll-idx-desc",
           text: "Embeddings help your device understand the meaning of your notes \u2014 not just keywords, but context and intent. Index your vault before using the plugin. Notes that were added or heavily modified post-indexing will not appear or won't have a relevant similarity score."
         });
-        const autoIdxSetting = new import_obsidian3.Setting(idxSection).setName("Auto-index").addDropdown(
+        const autoIdxSetting = new import_obsidian4.Setting(idxSection).setName("Auto-index").addDropdown(
           (d) => d.addOptions({
             "manual": "Only manually",
             "startup": "On startup (recommended)",
@@ -33998,7 +34350,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           autoIdxTip.classList.add("visible");
         });
         autoIdxHelpBtn.addEventListener("mouseleave", () => autoIdxTip.classList.remove("visible"));
-        const mtimeSetting = new import_obsidian3.Setting(idxSection).setName("Changes detection").addDropdown(
+        const mtimeSetting = new import_obsidian4.Setting(idxSection).setName("Changes detection").addDropdown(
           (d) => d.addOptions({
             "os": "OS file modification time",
             "frontmatter": "Custom frontmatter field"
@@ -34033,7 +34385,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         mtimeHelpBtn.addEventListener("mouseleave", () => mtimeTip.classList.remove("visible"));
         const fieldWrap = idxSection.createDiv({ cls: "ll-mtime-field-wrap" });
         fieldWrap.setCssStyles({ display: S.mtimeSource === "frontmatter" ? "" : "none" });
-        new import_obsidian3.Setting(fieldWrap).setName("Frontmatter field").setDesc("Name of the date field written by your Linter plugin.").addText(
+        new import_obsidian4.Setting(fieldWrap).setName("Frontmatter field").setDesc("Name of the date field written by your Linter plugin.").addText(
           (t) => t.setPlaceholder("updated").setValue(S.mtimeField).onChange((v) => {
             void (async () => {
               S.mtimeField = v;
@@ -34041,7 +34393,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
             })();
           })
         );
-        const progDispSetting = new import_obsidian3.Setting(idxSection).setName("Indexing progress display").addDropdown(
+        const progDispSetting = new import_obsidian4.Setting(idxSection).setName("Indexing progress display").addDropdown(
           (d) => d.addOptions({
             "popup": "Pop-up window",
             "notification": "Obsidian notifications",
@@ -34085,7 +34437,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         const idxRow = idxSection.createDiv({ cls: "ll-idx-row" });
         const idxBtn = idxRow.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
         const idxIcon = idxBtn.createSpan({ cls: "ll-btn-icon" });
-        (0, import_obsidian3.setIcon)(idxIcon, "database");
+        (0, import_obsidian4.setIcon)(idxIcon, "database");
         idxBtn.createSpan({ text: "Index vault" });
         const deleteSlot = idxRow.createDiv();
         const rebuildDeleteGroup = async () => {
@@ -34130,7 +34482,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           }
           const delBtn = group.createEl("button", { cls: "ll-action-btn ll-action-btn-danger" });
           delBtn.disabled = true;
-          (0, import_obsidian3.setIcon)(delBtn.createSpan({ cls: "ll-btn-icon" }), "trash-2");
+          (0, import_obsidian4.setIcon)(delBtn.createSpan({ cls: "ll-btn-icon" }), "trash-2");
           delBtn.createSpan({ text: "Delete" });
           sel.addEventListener("change", () => {
             var _a3, _b3;
@@ -34154,26 +34506,35 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         void rebuildDeleteGroup();
         ({ show: showProg, hide: hideProg } = makeProgress(idxSection));
         body.createDiv({ cls: "ll-restore-sep" });
-        new import_obsidian3.Setting(body).setName("Restore indexing defaults").setDesc("Reset all indexing settings to their defaults.").addButton((btn) => {
+        new import_obsidian4.Setting(body).setName("Restore indexing defaults").setDesc("Reset all indexing settings to their defaults.").addButton((btn) => {
           btn.setButtonText("Restore defaults");
           btn.buttonEl.classList.add("ll-action-btn", "ll-action-btn-danger");
-          btn.onClick(() => void (async () => {
-            const keys = [
-              "autoIndexMode",
-              "mtimeSource",
-              "mtimeField",
-              "progressDisplay",
-              "notificationTimeout",
-              "indexMode"
-            ];
-            const sr = S;
-            for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
-            S.excludePaths = [];
-            S.includePaths = [];
-            await save();
-            body.empty();
-            renderEmbedding();
-          })());
+          btn.onClick(() => {
+            new ConfirmModal(
+              app,
+              "Restore indexing defaults?",
+              "This resets all indexing settings, including include/exclude paths, to their defaults.",
+              async () => {
+                const keys = [
+                  "autoIndexMode",
+                  "mtimeSource",
+                  "mtimeField",
+                  "progressDisplay",
+                  "notificationTimeout",
+                  "indexMode"
+                ];
+                const sr = S;
+                for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
+                S.excludePaths = [];
+                S.includePaths = [];
+                await save();
+                body.empty();
+                renderEmbedding();
+              },
+              "Restore defaults",
+              true
+            ).open();
+          });
         });
         idxBtn.addEventListener("click", () => void (async () => {
           idxBtn.disabled = true;
@@ -34227,7 +34588,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       }
     };
     const renderInterlink = () => {
-      new import_obsidian3.Setting(body).setName("Exceptions").setHeading();
+      new import_obsidian4.Setting(body).setName("Exceptions").setHeading();
       filterSection(
         body.createDiv({ cls: "ll-action-section ll-action-section-flat" }),
         app,
@@ -34250,7 +34611,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           await save();
         }
       );
-      new import_obsidian3.Setting(body).setName("Search parameters").setHeading();
+      new import_obsidian4.Setting(body).setName("Search parameters").setHeading();
       slider(
         body,
         "Top N results",
@@ -34269,9 +34630,9 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         1,
         0.05
       );
-      new import_obsidian3.Setting(body).setName("Frontmatter field").setHeading();
+      new import_obsidian4.Setting(body).setName("Frontmatter field").setHeading();
       let lastValidRelatedField = S.relatedFieldName;
-      const fieldSetting = new import_obsidian3.Setting(body).setName("Related field name").setDesc('The frontmatter field where related links are written. Rename if you already use "related" for something else.').addText((t) => {
+      const fieldSetting = new import_obsidian4.Setting(body).setName("Related field name").setDesc('The frontmatter field where related links are written. Rename if you already use "related" for something else.').addText((t) => {
         t.setPlaceholder("related").setValue(S.relatedFieldName);
         const input = t.inputEl;
         input.addEventListener("input", () => {
@@ -34331,7 +34692,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         fieldErrEl.setCssStyles({ display: "none" });
         fieldConfirmRow.setCssStyles({ display: "none" });
       })());
-      new import_obsidian3.Setting(body).setName("Run interlink").setHeading();
+      new import_obsidian4.Setting(body).setName("Run interlink").setHeading();
       const ilSection = body.createDiv({ cls: "ll-action-section" });
       ilSection.createDiv({
         cls: "ll-interlink-lead",
@@ -34348,10 +34709,10 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       ilSection.createDiv({ cls: "ll-section-sep" });
       const ilRow = ilSection.createDiv({ cls: "ll-il-btn-row" });
       const ilBtn = ilRow.createEl("button", { cls: "ll-action-btn ll-action-btn-accent" });
-      (0, import_obsidian3.setIcon)(ilBtn.createSpan({ cls: "ll-btn-icon" }), "git-branch");
+      (0, import_obsidian4.setIcon)(ilBtn.createSpan({ cls: "ll-btn-icon" }), "git-branch");
       ilBtn.createSpan({ text: "Interlink Vault" });
       const clearBtn = ilRow.createEl("button", { cls: "ll-action-btn ll-action-btn-danger" });
-      (0, import_obsidian3.setIcon)(clearBtn.createSpan({ cls: "ll-btn-icon" }), "eraser");
+      (0, import_obsidian4.setIcon)(clearBtn.createSpan({ cls: "ll-btn-icon" }), "eraser");
       clearBtn.createSpan({ text: "Clear related field" });
       const { show: showProg, hide: hideProg } = makeProgress(ilSection, INTERLINK_PHRASES);
       const { show: showClearProg, hide: hideClearProg } = makeProgress(ilSection, CLEAR_PHRASES);
@@ -34415,28 +34776,37 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         ).open();
       });
       body.createDiv({ cls: "ll-restore-sep" });
-      new import_obsidian3.Setting(body).setName("Restore interlink defaults").setDesc("Reset all interlink settings and exceptions to their defaults.").addButton((btn) => {
+      new import_obsidian4.Setting(body).setName("Restore interlink defaults").setDesc("Reset all interlink settings and exceptions to their defaults.").addButton((btn) => {
         btn.setButtonText("Restore defaults");
         btn.buttonEl.classList.add("ll-action-btn", "ll-action-btn-danger");
-        btn.onClick(() => void (async () => {
-          const keys = [
-            "topN",
-            "threshold",
-            "relatedFieldName"
-          ];
-          const sr = S;
-          for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
-          S.ignoredPaths = [];
-          S.readOnlyPaths = [];
-          await save();
-          body.empty();
-          renderInterlink();
-        })());
+        btn.onClick(() => {
+          new ConfirmModal(
+            app,
+            "Restore interlink defaults?",
+            "This resets all interlink settings, including ignored and read-only paths, to their defaults.",
+            async () => {
+              const keys = [
+                "topN",
+                "threshold",
+                "relatedFieldName"
+              ];
+              const sr = S;
+              for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
+              S.ignoredPaths = [];
+              S.readOnlyPaths = [];
+              await save();
+              body.empty();
+              renderInterlink();
+            },
+            "Restore defaults",
+            true
+          ).open();
+        });
       });
     };
     const renderGraph = () => {
-      new import_obsidian3.Setting(body).setName("Display").setHeading();
-      new import_obsidian3.Setting(body).setName("View mode").setDesc("Show related notes as a scrollable list or a force-directed graph.").addDropdown(
+      new import_obsidian4.Setting(body).setName("Display").setHeading();
+      new import_obsidian4.Setting(body).setName("View mode").setDesc("Show related notes as a scrollable list or a force-directed graph.").addDropdown(
         (d) => d.addOptions({ list: "List", graph: "Graph" }).setValue(S.viewMode).onChange((v) => {
           void (async () => {
             S.viewMode = v;
@@ -34444,7 +34814,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           })();
         })
       );
-      new import_obsidian3.Setting(body).setName("Open notes in").setDesc("Where to open a note when you click it in the panel.").addDropdown(
+      new import_obsidian4.Setting(body).setName("Open notes in").setDesc("Where to open a note when you click it in the panel.").addDropdown(
         (d) => d.addOptions({
           "new-tab": "New tab",
           "current": "Current tab",
@@ -34457,7 +34827,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         })
       );
       const addColor = (name2, desc, key) => {
-        const s = new import_obsidian3.Setting(body).setName(name2).setDesc(desc);
+        const s = new import_obsidian4.Setting(body).setName(name2).setDesc(desc);
         const inp = s.controlEl.createEl("input");
         inp.type = "color";
         inp.value = S[key];
@@ -34474,7 +34844,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       addColor("High similarity color", "Top third of the score range above threshold.", "colorHigh");
       addColor("Mid similarity color", "Middle third.", "colorMid");
       addColor("Low similarity color", "Bottom third.", "colorLow");
-      new import_obsidian3.Setting(body).setName("Auto-fit graph").setDesc("Returns to fit-all 5sec after manual zoom or pan.").addToggle((t) => t.setValue(S.autoFit).onChange((v) => {
+      new import_obsidian4.Setting(body).setName("Auto-fit graph").setDesc("Returns to fit-all 5sec after manual zoom or pan.").addToggle((t) => t.setValue(S.autoFit).onChange((v) => {
         void (async () => {
           S.autoFit = v;
           await save();
@@ -34483,45 +34853,54 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       slider(body, "Text fade threshold", "Zoom below which labels fade out.", "textFadeThreshold", 0.1, 2, 0.05);
       slider(body, "Node size", "Multiplier for all node sizes.", "nodeSizeMultiplier", 0.5, 3, 0.1);
       slider(body, "Link thickness", "Multiplier for edge thickness.", "lineSizeMultiplier", 0.5, 5, 0.25);
-      new import_obsidian3.Setting(body).setName("Forces").setHeading();
+      new import_obsidian4.Setting(body).setName("Forces").setHeading();
       slider(body, "Center force", "How strongly notes are pulled toward the center.", "centerStrength", 0, 1, 0.05);
       slider(body, "Repel force", "How strongly notes push away from each other.", "repelStrength", 0, 20, 0.5);
       slider(body, "Link force", "Spring strength for linked notes.", "linkStrength", 0, 1, 0.05);
       slider(body, "Link distance", "Inner ring rest distance.", "linkDistance", 1, 10, 0.5);
       body.createDiv({ cls: "ll-restore-sep" });
-      new import_obsidian3.Setting(body).setName("Restore graph defaults").setDesc("Reset all graph display and force settings to their defaults.").addButton((btn) => {
+      new import_obsidian4.Setting(body).setName("Restore graph defaults").setDesc("Reset all graph display and force settings to their defaults.").addButton((btn) => {
         btn.setButtonText("Restore defaults");
         btn.buttonEl.classList.add("ll-action-btn", "ll-action-btn-danger");
-        btn.onClick(() => void (async () => {
-          const keys = [
-            "viewMode",
-            "colorCenter",
-            "colorHigh",
-            "colorMid",
-            "colorLow",
-            "autoFit",
-            "textFadeThreshold",
-            "nodeSizeMultiplier",
-            "lineSizeMultiplier",
-            "centerStrength",
-            "repelStrength",
-            "linkStrength",
-            "linkDistance"
-          ];
-          const sr = S;
-          for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
-          await save();
-          body.empty();
-          renderGraph();
-        })());
+        btn.onClick(() => {
+          new ConfirmModal(
+            app,
+            "Restore graph defaults?",
+            "This resets all graph display and force settings to their defaults.",
+            async () => {
+              const keys = [
+                "viewMode",
+                "colorCenter",
+                "colorHigh",
+                "colorMid",
+                "colorLow",
+                "autoFit",
+                "textFadeThreshold",
+                "nodeSizeMultiplier",
+                "lineSizeMultiplier",
+                "centerStrength",
+                "repelStrength",
+                "linkStrength",
+                "linkDistance"
+              ];
+              const sr = S;
+              for (const k of keys) sr[k] = DEFAULT_SETTINGS[k];
+              await save();
+              body.empty();
+              renderGraph();
+            },
+            "Restore defaults",
+            true
+          ).open();
+        });
       });
     };
     const renderSelectionSettings = () => {
-      new import_obsidian3.Setting(body).setName("Selection Mode").setHeading();
+      new import_obsidian4.Setting(body).setName("Selection Mode").setHeading();
       const howBox = body.createDiv({ cls: "ll-how-box" });
       const howHeader = howBox.createDiv({ cls: "ll-how-header" });
       const chevronEl = howHeader.createSpan({ cls: "ll-how-chevron" });
-      (0, import_obsidian3.setIcon)(chevronEl, "chevron-right");
+      (0, import_obsidian4.setIcon)(chevronEl, "chevron-right");
       howHeader.createSpan({ text: "How it works", cls: "ll-how-title" });
       const howBody = howBox.createDiv({ cls: "ll-how-body" });
       howBody.createEl("p", { text: "Only works in Editor mode.", cls: "ll-how-editor-note" });
@@ -34539,10 +34918,10 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       addDesc("Minimum length:", "Requires at least 5 words in the selected text to perform effective semantic search.");
       howHeader.addEventListener("click", () => {
         const open = howBody.classList.toggle("ll-how-body-open");
-        (0, import_obsidian3.setIcon)(chevronEl, open ? "chevron-down" : "chevron-right");
+        (0, import_obsidian4.setIcon)(chevronEl, open ? "chevron-down" : "chevron-right");
       });
       let settingsWrap;
-      new import_obsidian3.Setting(body).setName("Enable").setDesc("Shows a highlighter button in the panel header. Only works in Obsidian Editor mode (source editing view \u2014 not reading mode). Highlight 5+ words, click to search by that passage; click again to return to note view.").addToggle((t) => t.setValue(S.selectionModeEnabled).onChange((v) => {
+      new import_obsidian4.Setting(body).setName("Enable").setDesc("Shows a highlighter button in the panel header. Only works in Obsidian Editor mode (source editing view \u2014 not reading mode). Highlight 5+ words, click to search by that passage; click again to return to note view.").addToggle((t) => t.setValue(S.selectionModeEnabled).onChange((v) => {
         void (async () => {
           S.selectionModeEnabled = v;
           await save();
@@ -34551,9 +34930,9 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       }));
       settingsWrap = body.createDiv();
       settingsWrap.setCssStyles({ display: S.selectionModeEnabled ? "" : "none" });
-      new import_obsidian3.Setting(settingsWrap).setName("Search parameters").setHeading();
+      new import_obsidian4.Setting(settingsWrap).setName("Search parameters").setHeading();
       let ownParamsWrap;
-      new import_obsidian3.Setting(settingsWrap).setName("Use Interlink search parameters").setDesc("When on, uses the same Top N and Similarity threshold as Interlink Vault. Turn off to set separate values.").addToggle((t) => t.setValue(S.selectionUseMainParams).onChange((v) => {
+      new import_obsidian4.Setting(settingsWrap).setName("Use Interlink search parameters").setDesc("When on, uses the same Top N and Similarity threshold as Interlink Vault. Turn off to set separate values.").addToggle((t) => t.setValue(S.selectionUseMainParams).onChange((v) => {
         void (async () => {
           S.selectionUseMainParams = v;
           await save();
@@ -34580,11 +34959,11 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         1,
         0.05
       );
-      new import_obsidian3.Setting(body).setName("Live Mode").setHeading();
+      new import_obsidian4.Setting(body).setName("Live Mode").setHeading();
       const liveHowBox = body.createDiv({ cls: "ll-how-box" });
       const liveHowHeader = liveHowBox.createDiv({ cls: "ll-how-header" });
       const liveChevronEl = liveHowHeader.createSpan({ cls: "ll-how-chevron" });
-      (0, import_obsidian3.setIcon)(liveChevronEl, "chevron-right");
+      (0, import_obsidian4.setIcon)(liveChevronEl, "chevron-right");
       liveHowHeader.createSpan({ text: "How it works", cls: "ll-how-title" });
       const liveHowBody = liveHowBox.createDiv({ cls: "ll-how-body" });
       liveHowBody.createEl("p", { text: "Only works in Editor mode.", cls: "ll-how-editor-note" });
@@ -34600,10 +34979,10 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       addLiveDesc("Minimum length:", "Requires at least 5 words in the tracked text to perform effective semantic search.");
       liveHowHeader.addEventListener("click", () => {
         const open = liveHowBody.classList.toggle("ll-how-body-open");
-        (0, import_obsidian3.setIcon)(liveChevronEl, open ? "chevron-down" : "chevron-right");
+        (0, import_obsidian4.setIcon)(liveChevronEl, open ? "chevron-down" : "chevron-right");
       });
       let liveSettingsWrap;
-      new import_obsidian3.Setting(body).setName("Enable").setDesc("Shows a text-search button in the panel header. Only works in Obsidian Editor mode (source editing view \u2014 not reading mode).").addToggle((t) => t.setValue(S.liveModeEnabled).onChange((v) => {
+      new import_obsidian4.Setting(body).setName("Enable").setDesc("Shows a text-search button in the panel header. Only works in Obsidian Editor mode (source editing view \u2014 not reading mode).").addToggle((t) => t.setValue(S.liveModeEnabled).onChange((v) => {
         void (async () => {
           S.liveModeEnabled = v;
           await save();
@@ -34612,9 +34991,9 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
       }));
       liveSettingsWrap = body.createDiv();
       liveSettingsWrap.setCssStyles({ display: S.liveModeEnabled ? "" : "none" });
-      new import_obsidian3.Setting(liveSettingsWrap).setName("Search parameters").setHeading();
+      new import_obsidian4.Setting(liveSettingsWrap).setName("Search parameters").setHeading();
       let liveOwnParamsWrap;
-      new import_obsidian3.Setting(liveSettingsWrap).setName("Use Interlink search parameters").setDesc("When on, uses the same Top N and Similarity threshold as Interlink Vault. Turn off to set separate values.").addToggle((t) => t.setValue(S.liveModeUseMainParams).onChange((v) => {
+      new import_obsidian4.Setting(liveSettingsWrap).setName("Use Interlink search parameters").setDesc("When on, uses the same Top N and Similarity threshold as Interlink Vault. Turn off to set separate values.").addToggle((t) => t.setValue(S.liveModeUseMainParams).onChange((v) => {
         void (async () => {
           S.liveModeUseMainParams = v;
           await save();
@@ -34641,10 +35020,10 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         1,
         0.05
       );
-      new import_obsidian3.Setting(liveSettingsWrap).setName("Tracking").setHeading();
+      new import_obsidian4.Setting(liveSettingsWrap).setName("Tracking").setHeading();
       let wordCountSetting;
       let wordCountWarning;
-      new import_obsidian3.Setting(liveSettingsWrap).setName("Text window").setDesc("What to track as you write.").addDropdown(
+      new import_obsidian4.Setting(liveSettingsWrap).setName("Text window").setDesc("What to track as you write.").addDropdown(
         (d) => d.addOptions({ paragraph: "Current paragraph", words: "Last N words" }).setValue(S.liveModeWindowType).onChange((v) => {
           void (async () => {
             S.liveModeWindowType = v;
@@ -34655,7 +35034,7 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
           })();
         })
       );
-      wordCountSetting = new import_obsidian3.Setting(liveSettingsWrap).setName("Word count (N)").setDesc(createFragment((frag) => {
+      wordCountSetting = new import_obsidian4.Setting(liveSettingsWrap).setName("Word count (N)").setDesc(createFragment((frag) => {
         frag.appendText("Minimum 5 words.");
         frag.createEl("br");
         frag.appendText("Shorter windows produce unreliable embeddings.");
@@ -34690,6 +35069,43 @@ var LinkLinkSettingTab = class extends import_obsidian3.PluginSettingTab {
         0.5,
         5,
         0.5
+      );
+      new import_obsidian4.Setting(body).setName("Link Suggester").setHeading();
+      const suggestHowBox = body.createDiv({ cls: "ll-how-box" });
+      const suggestHowHeader = suggestHowBox.createDiv({ cls: "ll-how-header" });
+      const suggestChevronEl = suggestHowHeader.createSpan({ cls: "ll-how-chevron" });
+      (0, import_obsidian4.setIcon)(suggestChevronEl, "chevron-right");
+      suggestHowHeader.createSpan({ text: "How it works", cls: "ll-how-title" });
+      const suggestHowBody = suggestHowBox.createDiv({ cls: "ll-how-body" });
+      suggestHowBody.createEl("p", { text: "Only works in Editor mode.", cls: "ll-how-editor-note" });
+      const suggestUl = suggestHowBody.createEl("ul", { cls: "ll-how-list" });
+      suggestUl.createEl("li", { text: "As you type, a small tooltip appears above a word or phrase that matches an existing note's title or alias." });
+      suggestUl.createEl("li", { text: "Click the tooltip, or press Enter while your cursor is right after the matched text, to turn it into a [[link]]." });
+      suggestUl.createEl("li", { text: "Multiple suggestions can be on screen at once \u2014 write a full paragraph and go back to accept any of them later." });
+      suggestUl.createEl("li", { text: "Press Esc to dismiss all visible suggestions at once." });
+      suggestUl.createEl("li", { text: "Each suggestion stays up for the delay set below." });
+      suggestHowHeader.addEventListener("click", () => {
+        const open = suggestHowBody.classList.toggle("ll-how-body-open");
+        (0, import_obsidian4.setIcon)(suggestChevronEl, open ? "chevron-down" : "chevron-right");
+      });
+      let suggestSettingsWrap;
+      new import_obsidian4.Setting(body).setName("Enable").setDesc("Suggests turning typed text into [[links]] when it matches an existing note's title or alias.").addToggle((t) => t.setValue(S.linkSuggestEnabled).onChange((v) => {
+        void (async () => {
+          S.linkSuggestEnabled = v;
+          await save();
+          suggestSettingsWrap.setCssStyles({ display: v ? "" : "none" });
+        })();
+      }));
+      suggestSettingsWrap = body.createDiv();
+      suggestSettingsWrap.setCssStyles({ display: S.linkSuggestEnabled ? "" : "none" });
+      slider(
+        suggestSettingsWrap,
+        "Dismiss after (seconds)",
+        "How long an unclicked suggestion stays on screen before disappearing. Set to 0 to keep suggestions on screen indefinitely (until clicked, accepted, or dismissed with Esc).",
+        "linkSuggestDismissSec",
+        0,
+        15,
+        1
       );
     };
     switchTab("embedding");

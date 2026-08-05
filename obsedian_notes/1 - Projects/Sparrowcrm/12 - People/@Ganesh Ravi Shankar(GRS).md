@@ -38,3 +38,11 @@ Website tracker
 - Metrics for the product [@Nayan Jain](https://surveysparrow.slack.com/team/U08TMQ9K664)
 - Website tracker [@GRS](https://surveysparrow.slack.com/team/U01BHKKRKFC) [@Sakthi](https://surveysparrow.slack.com/team/U01FVA10LCA)
 - Handover Integrations [@Divi](https://surveysparrow.slack.com/team/U08UZQZ7P0C) [@Supraja](https://surveysparrow.slack.com/team/U09DACRT1CH)
+
+
+
+04-Aug-2026
+Deal ai tags 
+task agents  - 
+Custmize the page 
+

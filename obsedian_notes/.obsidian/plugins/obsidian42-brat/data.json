@@ -1,9 +1,14 @@
 {
   "pluginList": [
+    "Hipst3rMusic/obsidian-third-mind-reader",
     "Dekimori/PersonalCapital-plugin",
     "StepanKropachev/obsidian-pm"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "Hipst3rMusic/obsidian-third-mind-reader",
+      "version": ""
+    },
     {
       "repo": "Dekimori/PersonalCapital-plugin",
       "version": ""

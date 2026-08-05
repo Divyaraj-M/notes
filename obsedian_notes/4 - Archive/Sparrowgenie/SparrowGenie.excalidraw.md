@@ -31,7 +31,7 @@ Document ^KCxT8T39
 
 [[Go - No- Go]] ^3bl2kMAM
 
-[[Knowledge Hub]] ^kTaVPX6k
+[[4 - Archive/Sparrowgenie/Knowledge Hub/Knowledge Hub]] ^kTaVPX6k
 
 Hubs  ^6vnAIEUd
 

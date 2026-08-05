@@ -24,7 +24,8 @@
       "feature",
       "learning",
       "coding-session",
-      "uat"
+      "uat",
+      "porfolio"
     ],
     "projectRegistry": [
       "1layerx.com",
@@ -34,7 +35,7 @@
       "SparrowCRM"
     ],
     "archivedProjects": [],
-    "sortMode": "priority",
+    "sortMode": "due",
     "groupBy": "none",
     "defaultOverdueRange": "last7",
     "uiFont": "system",

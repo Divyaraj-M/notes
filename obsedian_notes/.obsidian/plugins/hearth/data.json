@@ -2,6 +2,7 @@
   "title": "Obsidian",
   "showTitle": true,
   "logo": "",
+  "themeColorTarget": "none",
   "searchPlaceholder": "Search or command",
   "showNewNoteButton": true,
   "newNoteButtonMode": "newNote",
@@ -13,6 +14,8 @@
   "backgroundBlur": 2,
   "openOnStartup": true,
   "replaceNewTabs": true,
+  "focusSearchOnOpen": false,
+  "liveRefresh": false,
   "mobileSearchOnly": false,
   "showMobileActionBar": true,
   "mobileActionButtons": [
@@ -126,17 +129,6 @@
           "fh": 133
         }
       ]
-    },
-    {
-      "id": "dash-mrj2kk69-1323",
-      "name": "Dashboard 2",
-      "cards": [],
-      "background": {
-        "kind": "hdefault",
-        "value": "",
-        "opacity": 0.35,
-        "blur": 2
-      }
     }
   ],
   "activeDashboardId": "dash-mrj2k9sa-3745",
@@ -150,5 +142,5 @@
   "taskNotesPriorityField": "priority",
   "taskNotesDoneValue": "done",
   "maxWidth": 1600,
-  "lastSeenVersion": "1.13.0"
+  "lastSeenVersion": "1.17.0"
 }

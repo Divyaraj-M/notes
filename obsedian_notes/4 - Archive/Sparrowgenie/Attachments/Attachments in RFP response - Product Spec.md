@@ -15,7 +15,7 @@ This feature adds **[[Attachments in RFP response - Product Spec]]**. Users can 
 	- Import behaviour of the attachments  
 	- Export behaviour of the attachments 
 - UX
-	- We have let the users to select the attachments from both [[Knowledge Hub]]  and from the device 
+	- We have let the users to select the attachments from both [[4 - Archive/Sparrowgenie/Knowledge Hub/Knowledge Hub]]  and from the device 
 	- We have to let the users to decide how the export behaviour should be if the 
 		- Mark the area as inline like `{</File_Name/>}` and download it as zip
 

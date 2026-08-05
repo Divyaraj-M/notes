@@ -45,6 +45,13 @@
         "type": "DIRECTORIES",
         "pattern": "3 - Resources/PM Prompts Library/storytelling",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "1 - Projects/Sparrowcrm/Thinking.md",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [
@@ -71,13 +78,6 @@
       {
         "name": "",
         "active": true,
-        "type": "FILES_AND_DIRECTORIES",
-        "pattern": "",
-        "patternType": "WILDCARD"
-      },
-      {
-        "name": "",
-        "active": true,
         "type": "DIRECTORIES",
         "pattern": "_belki_files",
         "patternType": "STRICT"
@@ -87,6 +87,13 @@
         "active": true,
         "type": "FILES",
         "pattern": "README",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "FILES",
+        "pattern": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v2.md",
         "patternType": "STRICT"
       }
     ],
