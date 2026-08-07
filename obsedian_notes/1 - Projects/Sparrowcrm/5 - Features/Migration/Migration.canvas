@@ -33,20 +33,10 @@
 		{
 			"id":"ed6a090ca8e10a2a",
 			"type":"text",
-			"text":"Run",
+			"text":"Validate \n",
 			"styleAttributes":{"textAlign":"center"},
 			"x":60,
 			"y":200,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f9b99ac5770f9bd0",
-			"type":"text",
-			"text":"JTBS for conenct \n",
-			"styleAttributes":{},
-			"x":-1120,
-			"y":460,
 			"width":260,
 			"height":60
 		},
@@ -60,6 +50,46 @@
 			"width":260,
 			"height":60,
 			"color":"1"
+		},
+		{
+			"id":"f9b99ac5770f9bd0",
+			"type":"text",
+			"text":"==JTBD== for this step \n- As a Super Admin in SparrowCRM, I connect my HubSpot with OAuth alone — no API key, no third-party account, no copy-pasting tokens.\n- As a Super Admin in SparrowCRM, I pick which HubSpot portal to migrate from (HubSpot's native account picker) and see SparrowCRM confirm exactly which one it got — name, Hub ID, tier.\n- As a Super Admin in SparrowCRM, I am certain this cannot touch my HubSpot data — read-only, zero write scopes, disconnect at any time.\n- As a Super Admin in SparrowCRM, I know before the OAuth jump that I need HubSpot Super Admin, and if I'm not one, I get a link I can send to whoever is.",
+			"styleAttributes":{},
+			"x":-1530,
+			"y":480,
+			"width":580,
+			"height":500
+		},
+		{
+			"id":"0e66a1737e4fde38",
+			"type":"text",
+			"text":"Migrate",
+			"styleAttributes":{},
+			"x":440,
+			"y":200,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"41c8c1d5683aea13",
+			"type":"text",
+			"text":"---\n~\n---\n[[Objects]], [[Fields]], [[Users]] ",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-740,
+			"y":340,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8b7b19f867fb5a41",
+			"type":"text",
+			"text":"==JTBD== for this step \n- ",
+			"styleAttributes":{},
+			"x":-905,
+			"y":480,
+			"width":670,
+			"height":520
 		}
 	],
 	"edges":[
@@ -107,6 +137,33 @@
 			"fromSide":"right",
 			"toNode":"71433fffcc36f979",
 			"toSide":"left"
+		},
+		{
+			"id":"6e8f412633fb65e8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"71433fffcc36f979",
+			"fromSide":"bottom",
+			"toNode":"41c8c1d5683aea13",
+			"toSide":"top"
+		},
+		{
+			"id":"669e3faa10266ea3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ed6a090ca8e10a2a",
+			"fromSide":"right",
+			"toNode":"0e66a1737e4fde38",
+			"toSide":"left"
+		},
+		{
+			"id":"58f50d73cc9ff16f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"71433fffcc36f979",
+			"fromSide":"bottom",
+			"toNode":"8b7b19f867fb5a41",
+			"toSide":"top"
 		}
 	],
 	"metadata":{

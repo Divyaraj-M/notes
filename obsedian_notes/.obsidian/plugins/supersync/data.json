@@ -17,26 +17,6 @@
     "ignorePatterns": ".git/**\n.trash/**\n.obsidian/workspace*.json\n.obsidian/plugins/supersync/data.json\n.DS_Store"
   },
   "manifest": {
-    "Operon/Demo Workspace/Set Up Your Obsidian Vault with Operon.md": {
-      "sha": "de29311d1f94220184943a5be1e9e40632e2c9f5",
-      "remoteSha": "de29311d1f94220184943a5be1e9e40632e2c9f5",
-      "size": 22340
-    },
-    "Operon/Demo Workspace/Operon Command Palette.md": {
-      "sha": "7c7cac9d4a391703856c2dae864657e127164a0e",
-      "remoteSha": "7c7cac9d4a391703856c2dae864657e127164a0e",
-      "size": 6984
-    },
-    "Operon/Demo Workspace/Operon Basics Project.md": {
-      "sha": "d1d10516e20e6c958e878a8317f3ec986c4e0cd3",
-      "remoteSha": "d1d10516e20e6c958e878a8317f3ec986c4e0cd3",
-      "size": 20962
-    },
-    "Operon/Tables/Default table.table": {
-      "sha": "5eb29054423d3116e866c5f44f7896cf8269f47c",
-      "remoteSha": "5eb29054423d3116e866c5f44f7896cf8269f47c",
-      "size": 3145
-    },
     "_belki_files/main.md": {
       "sha": "faf911f32fbc26cfd9bf96b0066dcedf266b7a0e",
       "remoteSha": "faf911f32fbc26cfd9bf96b0066dcedf266b7a0e",
@@ -202,11 +182,6 @@
       "remoteSha": "287fd6516407de81b4e76c2fefa4a769db59a451",
       "size": 754
     },
-    "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas": {
-      "sha": "c1a4bf1b622cb7c7156405130a5dccd13ab88d93",
-      "remoteSha": "c1a4bf1b622cb7c7156405130a5dccd13ab88d93",
-      "size": 5839
-    },
     "1 - Projects/Sparrowcrm/9 - Product Wins/9 - Product Wins.md": {
       "sha": "efd675dcaac2817f43d70bd0a07e943fd8361b23",
       "remoteSha": "efd675dcaac2817f43d70bd0a07e943fd8361b23",
@@ -247,10 +222,15 @@
       "remoteSha": "1ed8fa63d207390bfc42e57ea8e0d787cda12241",
       "size": 82
     },
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/HubSpot_Migration_v1.md": {
+      "sha": "4662257ae970fd4128f0d3a35a23f40a1978f466",
+      "remoteSha": "4662257ae970fd4128f0d3a35a23f40a1978f466",
+      "size": 93153
+    },
     "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas": {
-      "sha": "9bb97df62879b0c21f00f2ffa48dc41c078a43d8",
-      "remoteSha": "9bb97df62879b0c21f00f2ffa48dc41c078a43d8",
-      "size": 2744
+      "sha": "52738d01ceb57dfe441f5c8b185f47160a29b138",
+      "remoteSha": "52738d01ceb57dfe441f5c8b185f47160a29b138",
+      "size": 4510
     },
     "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.md": {
       "sha": "d773618946e2bc8e79558c35a9b5a82f0224a2a4",
@@ -258,9 +238,9 @@
       "size": 109
     },
     "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md": {
-      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "remoteSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-      "size": 0
+      "sha": "ec153726cff6b75cd08346122d0d285c62e51a95",
+      "remoteSha": "ec153726cff6b75cd08346122d0d285c62e51a95",
+      "size": 45075
     },
     "1 - Projects/Sparrowcrm/5 - Features/Meetings/Meetings_v1.md": {
       "sha": "82437afa358f84d220b34650a819d3884a9f284a",
@@ -522,6 +502,11 @@
       "remoteSha": "697c5a9d9b135a77c9ae0997c726caf0feb5b7b6",
       "size": 4676
     },
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas": {
+      "sha": "c1a4bf1b622cb7c7156405130a5dccd13ab88d93",
+      "remoteSha": "c1a4bf1b622cb7c7156405130a5dccd13ab88d93",
+      "size": 5839
+    },
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md": {
       "sha": "1e24bd87b5f69dcdd8c8e882da2d835f16f52e3b",
       "remoteSha": "1e24bd87b5f69dcdd8c8e882da2d835f16f52e3b",
@@ -688,9 +673,9 @@
       "size": 0
     },
     "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md": {
-      "sha": "485d50dfb58902460f901a47dc5516dc711aa6e8",
-      "remoteSha": "485d50dfb58902460f901a47dc5516dc711aa6e8",
-      "size": 3436
+      "sha": "088496ce6d9f4dd0f901c36041fcb651200c111a",
+      "remoteSha": "088496ce6d9f4dd0f901c36041fcb651200c111a",
+      "size": 3437
     },
     "1 - Projects/Sparrowcrm/12 - People/@Divyaraj Murugan.md": {
       "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
@@ -2860,44 +2845,8 @@
   },
   "syncLog": [
     {
-      "startedAt": "2026-08-05T09:21:56.789Z",
-      "endedAt": "2026-08-05T09:22:02.402Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "ea016a36031e34e0e8b5d6f78b530bda85ee8784"
-    },
-    {
-      "startedAt": "2026-08-05T09:18:11.594Z",
-      "endedAt": "2026-08-05T09:18:17.123Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "6dae81dc779290ec39bb74774620272368cde2d7"
-    },
-    {
-      "startedAt": "2026-08-05T09:18:02.106Z",
-      "endedAt": "2026-08-05T09:18:09.999Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "8fe660108ab11ccede1b8e4cc35e8426e9c71ffc"
-    },
-    {
-      "startedAt": "2026-08-05T09:17:26.861Z",
-      "endedAt": "2026-08-05T09:17:29.876Z",
+      "startedAt": "2026-08-07T00:35:05.653Z",
+      "endedAt": "2026-08-07T00:35:12.031Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -2907,8 +2856,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T09:12:16.878Z",
-      "endedAt": "2026-08-05T09:12:20.308Z",
+      "startedAt": "2026-08-06T23:50:31.738Z",
+      "endedAt": "2026-08-06T23:50:34.664Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -2918,175 +2867,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T09:07:16.882Z",
-      "endedAt": "2026-08-05T09:07:20.275Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T09:02:14.270Z",
-      "endedAt": "2026-08-05T09:02:17.778Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T08:57:01.541Z",
-      "endedAt": "2026-08-05T08:57:10.379Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T08:15:56.075Z",
-      "endedAt": "2026-08-05T08:15:59.622Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T08:10:01.950Z",
-      "endedAt": "2026-08-05T08:10:05.487Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T08:04:55.956Z",
-      "endedAt": "2026-08-05T08:05:00.751Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:59:31.952Z",
-      "endedAt": "2026-08-05T07:59:35.067Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:54:31.953Z",
-      "endedAt": "2026-08-05T07:54:35.122Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:49:29.841Z",
-      "endedAt": "2026-08-05T07:49:34.856Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:44:22.158Z",
-      "endedAt": "2026-08-05T07:44:27.307Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "2d079b9e93d7a1c43a08b2efb0c835eddb9fae3e"
-    },
-    {
-      "startedAt": "2026-08-05T07:43:56.011Z",
-      "endedAt": "2026-08-05T07:43:59.112Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:38:41.957Z",
-      "endedAt": "2026-08-05T07:38:45.721Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:33:41.368Z",
-      "endedAt": "2026-08-05T07:33:44.240Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:28:31.925Z",
-      "endedAt": "2026-08-05T07:28:35.083Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:23:26.292Z",
-      "endedAt": "2026-08-05T07:23:31.822Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0,
-      "commitSha": "53fe05464b6d17abea8889b12b22b4a627aba2f3"
-    },
-    {
-      "startedAt": "2026-08-05T07:22:41.412Z",
-      "endedAt": "2026-08-05T07:22:56.036Z",
+      "startedAt": "2026-08-06T23:33:49.832Z",
+      "endedAt": "2026-08-06T23:34:00.159Z",
       "reason": "interval",
       "status": "error",
       "changes": 0,
@@ -3097,131 +2879,32 @@
       "error": "net::ERR_NETWORK_CHANGED"
     },
     {
-      "startedAt": "2026-08-05T07:17:01.708Z",
-      "endedAt": "2026-08-05T07:17:07.545Z",
+      "startedAt": "2026-08-06T22:32:53.061Z",
+      "endedAt": "2026-08-06T22:33:00.965Z",
       "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:11:43.250Z",
-      "endedAt": "2026-08-05T07:11:48.099Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 1,
-      "conflicts": 0,
-      "commitSha": "472d74ad742de33a4d52cfcd044eb1decf09695c"
-    },
-    {
-      "startedAt": "2026-08-05T07:08:09.038Z",
-      "endedAt": "2026-08-05T07:08:12.101Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T07:03:09.034Z",
-      "endedAt": "2026-08-05T07:03:12.179Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:57:59.034Z",
-      "endedAt": "2026-08-05T06:58:02.099Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:52:58.999Z",
-      "endedAt": "2026-08-05T06:53:02.247Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:47:48.999Z",
-      "endedAt": "2026-08-05T06:47:52.233Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:42:39.004Z",
-      "endedAt": "2026-08-05T06:42:42.158Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:37:33.625Z",
-      "endedAt": "2026-08-05T06:37:36.940Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:32:19.878Z",
-      "endedAt": "2026-08-05T06:32:22.718Z",
-      "reason": "queued",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T06:32:14.102Z",
-      "endedAt": "2026-08-05T06:32:19.878Z",
-      "reason": "file change",
-      "status": "success",
-      "changes": 220,
-      "uploads": 220,
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
       "downloads": 0,
       "deletes": 0,
       "conflicts": 0,
-      "commitSha": "0bdf1f8b0b12f933730dc11ab9e450412a2474bb"
+      "error": "net::ERR_NETWORK_CHANGED"
     },
     {
-      "startedAt": "2026-08-05T06:29:33.827Z",
-      "endedAt": "2026-08-05T06:29:39.569Z",
+      "startedAt": "2026-08-06T22:20:18.410Z",
+      "endedAt": "2026-08-06T22:24:25.192Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "startedAt": "2026-08-06T21:31:44.202Z",
+      "endedAt": "2026-08-06T21:31:58.120Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3231,8 +2914,20 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T06:23:33.666Z",
-      "endedAt": "2026-08-05T06:23:47.903Z",
+      "startedAt": "2026-08-06T20:30:46.353Z",
+      "endedAt": "2026-08-06T20:30:59.225Z",
+      "reason": "interval",
+      "status": "error",
+      "changes": 0,
+      "uploads": 0,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "error": "net::ERR_NETWORK_CHANGED"
+    },
+    {
+      "startedAt": "2026-08-06T19:29:50.551Z",
+      "endedAt": "2026-08-06T19:30:01.363Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3242,8 +2937,52 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T06:09:33.745Z",
-      "endedAt": "2026-08-05T06:10:03.928Z",
+      "startedAt": "2026-08-06T18:28:54.067Z",
+      "endedAt": "2026-08-06T18:28:57.538Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T17:27:57.300Z",
+      "endedAt": "2026-08-06T17:28:01.868Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T16:47:48.996Z",
+      "endedAt": "2026-08-06T16:47:58.475Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T15:58:41.672Z",
+      "endedAt": "2026-08-06T15:58:57.406Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T15:30:28.403Z",
+      "endedAt": "2026-08-06T15:58:29.985Z",
       "reason": "interval",
       "status": "error",
       "changes": 0,
@@ -3254,8 +2993,8 @@
       "error": "net::ERR_INTERNET_DISCONNECTED"
     },
     {
-      "startedAt": "2026-08-05T04:46:30.129Z",
-      "endedAt": "2026-08-05T04:46:40.081Z",
+      "startedAt": "2026-08-06T14:51:57.058Z",
+      "endedAt": "2026-08-06T14:52:00.573Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3265,8 +3004,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:40:16.613Z",
-      "endedAt": "2026-08-05T04:40:20.221Z",
+      "startedAt": "2026-08-06T14:20:27.277Z",
+      "endedAt": "2026-08-06T14:20:30.779Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3276,8 +3015,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:34:16.723Z",
-      "endedAt": "2026-08-05T04:34:21.176Z",
+      "startedAt": "2026-08-06T14:15:23.305Z",
+      "endedAt": "2026-08-06T14:15:26.487Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3287,8 +3026,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:28:16.771Z",
-      "endedAt": "2026-08-05T04:28:21.285Z",
+      "startedAt": "2026-08-06T14:09:23.274Z",
+      "endedAt": "2026-08-06T14:09:27.151Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3298,8 +3037,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:23:16.650Z",
-      "endedAt": "2026-08-05T04:23:20.617Z",
+      "startedAt": "2026-08-06T14:03:23.257Z",
+      "endedAt": "2026-08-06T14:03:27.438Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3309,8 +3048,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:18:16.634Z",
-      "endedAt": "2026-08-05T04:18:19.822Z",
+      "startedAt": "2026-08-06T13:57:23.253Z",
+      "endedAt": "2026-08-06T13:57:26.520Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3320,8 +3059,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:12:16.721Z",
-      "endedAt": "2026-08-05T04:12:20.152Z",
+      "startedAt": "2026-08-06T13:51:38.534Z",
+      "endedAt": "2026-08-06T13:51:41.774Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3331,8 +3070,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:06:16.755Z",
-      "endedAt": "2026-08-05T04:06:23.002Z",
+      "startedAt": "2026-08-06T13:46:34.050Z",
+      "endedAt": "2026-08-06T13:46:36.942Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3342,8 +3081,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T04:00:17.876Z",
-      "endedAt": "2026-08-05T04:00:24.958Z",
+      "startedAt": "2026-08-06T13:41:34.052Z",
+      "endedAt": "2026-08-06T13:41:37.028Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3353,8 +3092,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:55:16.789Z",
-      "endedAt": "2026-08-05T03:55:20.382Z",
+      "startedAt": "2026-08-06T13:36:34.047Z",
+      "endedAt": "2026-08-06T13:36:37.263Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3364,8 +3103,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:50:16.680Z",
-      "endedAt": "2026-08-05T03:50:19.840Z",
+      "startedAt": "2026-08-06T13:31:32.544Z",
+      "endedAt": "2026-08-06T13:31:35.779Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3375,8 +3114,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:44:16.682Z",
-      "endedAt": "2026-08-05T03:44:20.415Z",
+      "startedAt": "2026-08-06T13:26:32.542Z",
+      "endedAt": "2026-08-06T13:26:35.756Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3386,8 +3125,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:38:16.644Z",
-      "endedAt": "2026-08-05T03:38:19.925Z",
+      "startedAt": "2026-08-06T13:21:32.541Z",
+      "endedAt": "2026-08-06T13:21:35.732Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3397,8 +3136,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:33:16.618Z",
-      "endedAt": "2026-08-05T03:33:19.936Z",
+      "startedAt": "2026-08-06T13:16:32.528Z",
+      "endedAt": "2026-08-06T13:16:35.686Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3408,8 +3147,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:27:16.770Z",
-      "endedAt": "2026-08-05T03:27:20.123Z",
+      "startedAt": "2026-08-06T13:11:32.527Z",
+      "endedAt": "2026-08-06T13:11:35.536Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3419,8 +3158,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:11:15.664Z",
-      "endedAt": "2026-08-05T03:11:19.327Z",
+      "startedAt": "2026-08-06T13:06:32.526Z",
+      "endedAt": "2026-08-06T13:06:35.498Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3430,8 +3169,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T03:05:15.674Z",
-      "endedAt": "2026-08-05T03:05:18.865Z",
+      "startedAt": "2026-08-06T13:01:27.232Z",
+      "endedAt": "2026-08-06T13:01:39.013Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3441,8 +3180,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T02:59:50.840Z",
-      "endedAt": "2026-08-05T02:59:54.075Z",
+      "startedAt": "2026-08-06T12:28:43.690Z",
+      "endedAt": "2026-08-06T12:28:47.516Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3452,8 +3191,96 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T02:54:00.478Z",
-      "endedAt": "2026-08-05T02:58:52.989Z",
+      "startedAt": "2026-08-06T12:22:49.023Z",
+      "endedAt": "2026-08-06T12:22:52.193Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T12:17:43.699Z",
+      "endedAt": "2026-08-06T12:17:46.775Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T12:11:43.743Z",
+      "endedAt": "2026-08-06T12:11:46.871Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T12:05:43.696Z",
+      "endedAt": "2026-08-06T12:05:46.685Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:59:49.009Z",
+      "endedAt": "2026-08-06T11:59:52.200Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:54:39.009Z",
+      "endedAt": "2026-08-06T11:54:41.892Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:49:34.270Z",
+      "endedAt": "2026-08-06T11:49:37.762Z",
+      "reason": "interval",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:44:34.003Z",
+      "endedAt": "2026-08-06T11:44:37.378Z",
+      "reason": "panel",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:44:13.856Z",
+      "endedAt": "2026-08-06T11:44:27.936Z",
       "reason": "interval",
       "status": "error",
       "changes": 0,
@@ -3464,31 +3291,245 @@
       "error": "net::ERR_NETWORK_CHANGED"
     },
     {
-      "startedAt": "2026-08-05T02:40:10.769Z",
-      "endedAt": "2026-08-05T02:40:14.087Z",
-      "reason": "interval",
+      "startedAt": "2026-08-06T11:26:56.915Z",
+      "endedAt": "2026-08-06T11:27:02.669Z",
+      "reason": "file change",
       "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-05T02:25:51.947Z",
-      "endedAt": "2026-08-05T02:26:02.241Z",
-      "reason": "interval",
-      "status": "error",
-      "changes": 0,
-      "uploads": 0,
+      "changes": 220,
+      "uploads": 220,
       "downloads": 0,
       "deletes": 0,
       "conflicts": 0,
-      "error": "net::ERR_SOCKET_NOT_CONNECTED"
+      "commitSha": "31f337d569c5fb03c61b6b58021ab4fc92269cfe"
     },
     {
-      "startedAt": "2026-08-05T01:16:32.090Z",
-      "endedAt": "2026-08-05T01:16:35.693Z",
+      "startedAt": "2026-08-06T11:26:43.646Z",
+      "endedAt": "2026-08-06T11:26:49.701Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "af73f60b93f351d50e34117dd22b01dade6f2dc9"
+    },
+    {
+      "startedAt": "2026-08-06T11:23:02.122Z",
+      "endedAt": "2026-08-06T11:23:07.225Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 223,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 4,
+      "conflicts": 0,
+      "commitSha": "118118be73a7eab68017087b357c93cd66a1634f"
+    },
+    {
+      "startedAt": "2026-08-06T11:22:29.716Z",
+      "endedAt": "2026-08-06T11:22:35.279Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "0ea4b99098a1b0fdbf1b011d89c3ff97cac73c29"
+    },
+    {
+      "startedAt": "2026-08-06T11:22:19.996Z",
+      "endedAt": "2026-08-06T11:22:23.051Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:22:14.186Z",
+      "endedAt": "2026-08-06T11:22:19.995Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "a033fb233161a44b13d2314de7268a67f9f08f9b"
+    },
+    {
+      "startedAt": "2026-08-06T11:21:49.116Z",
+      "endedAt": "2026-08-06T11:21:55.165Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "3917f8ae964c5c609005cb30e596108f629b621a"
+    },
+    {
+      "startedAt": "2026-08-06T11:18:17.669Z",
+      "endedAt": "2026-08-06T11:18:23.713Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "a6724b476ac2a8181b86a22015ffb45b9d519b9b"
+    },
+    {
+      "startedAt": "2026-08-06T11:18:09.919Z",
+      "endedAt": "2026-08-06T11:18:16.656Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "13b3d89536973ffd28cce582e81626e89cb474b4"
+    },
+    {
+      "startedAt": "2026-08-06T11:18:03.405Z",
+      "endedAt": "2026-08-06T11:18:09.918Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "509fae64b487e70c1c4442f435e561c0fab1b85c"
+    },
+    {
+      "startedAt": "2026-08-06T11:17:39.656Z",
+      "endedAt": "2026-08-06T11:17:45.443Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "eb0b05d0b866c7adde5347b884405e18b5e9b234"
+    },
+    {
+      "startedAt": "2026-08-06T11:17:32.586Z",
+      "endedAt": "2026-08-06T11:17:35.692Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:17:26.758Z",
+      "endedAt": "2026-08-06T11:17:32.585Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "ca0b94b71244c83d62716121186d32d68bad69ff"
+    },
+    {
+      "startedAt": "2026-08-06T11:17:08.650Z",
+      "endedAt": "2026-08-06T11:17:14.020Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "b7b8d0cc9b141fd83ce883640cb0388ff6f2f33e"
+    },
+    {
+      "startedAt": "2026-08-06T11:16:57.825Z",
+      "endedAt": "2026-08-06T11:17:08.649Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "3637d9bc309cbb2ebf1d242779f1aa75618411ec"
+    },
+    {
+      "startedAt": "2026-08-06T11:16:50.708Z",
+      "endedAt": "2026-08-06T11:16:53.797Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T11:16:44.909Z",
+      "endedAt": "2026-08-06T11:16:50.707Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "0420ff2c240daefe0fa948aab1cd74121965f54a"
+    },
+    {
+      "startedAt": "2026-08-06T11:16:24.131Z",
+      "endedAt": "2026-08-06T11:16:29.930Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "e33101da57e0f8cd3acfbffc9fddbf4a39586849"
+    },
+    {
+      "startedAt": "2026-08-06T11:16:01.913Z",
+      "endedAt": "2026-08-06T11:16:08.087Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "7aab6c30d0e96f96a92ac7c3fa741244709df870"
+    },
+    {
+      "startedAt": "2026-08-06T11:15:52.596Z",
+      "endedAt": "2026-08-06T11:15:58.353Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "beac22426541124216b6d903122cc34b103a9e60"
+    },
+    {
+      "startedAt": "2026-08-06T11:10:56.713Z",
+      "endedAt": "2026-08-06T11:10:59.967Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3498,8 +3539,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-05T00:40:41.961Z",
-      "endedAt": "2026-08-05T00:40:47.774Z",
+      "startedAt": "2026-08-06T11:05:51.430Z",
+      "endedAt": "2026-08-06T11:05:54.678Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3509,8 +3550,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:48:10.252Z",
-      "endedAt": "2026-08-04T23:48:13.625Z",
+      "startedAt": "2026-08-06T10:59:51.451Z",
+      "endedAt": "2026-08-06T10:59:54.820Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3520,8 +3561,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:42:45.058Z",
-      "endedAt": "2026-08-04T23:42:47.969Z",
+      "startedAt": "2026-08-06T10:54:51.369Z",
+      "endedAt": "2026-08-06T10:54:55.194Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3531,8 +3572,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:37:45.056Z",
-      "endedAt": "2026-08-04T23:37:48.195Z",
+      "startedAt": "2026-08-06T10:49:51.336Z",
+      "endedAt": "2026-08-06T10:49:54.697Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3542,8 +3583,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:31:45.071Z",
-      "endedAt": "2026-08-04T23:31:47.975Z",
+      "startedAt": "2026-08-06T10:43:51.364Z",
+      "endedAt": "2026-08-06T10:43:54.864Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3553,8 +3594,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:25:45.142Z",
-      "endedAt": "2026-08-04T23:25:48.384Z",
+      "startedAt": "2026-08-06T10:38:51.348Z",
+      "endedAt": "2026-08-06T10:38:55.166Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3564,8 +3605,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:20:45.034Z",
-      "endedAt": "2026-08-04T23:20:47.921Z",
+      "startedAt": "2026-08-06T10:32:51.387Z",
+      "endedAt": "2026-08-06T10:32:54.791Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3575,8 +3616,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:15:40.478Z",
-      "endedAt": "2026-08-04T23:15:43.617Z",
+      "startedAt": "2026-08-06T10:27:51.325Z",
+      "endedAt": "2026-08-06T10:27:54.613Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3586,8 +3627,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:10:40.446Z",
-      "endedAt": "2026-08-04T23:10:43.710Z",
+      "startedAt": "2026-08-06T10:21:56.784Z",
+      "endedAt": "2026-08-06T10:21:59.873Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3597,8 +3638,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:05:40.428Z",
-      "endedAt": "2026-08-04T23:05:43.509Z",
+      "startedAt": "2026-08-06T10:13:25.870Z",
+      "endedAt": "2026-08-06T10:13:29.008Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3608,8 +3649,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T23:00:40.383Z",
-      "endedAt": "2026-08-04T23:00:43.466Z",
+      "startedAt": "2026-08-06T10:08:25.818Z",
+      "endedAt": "2026-08-06T10:08:28.870Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3619,8 +3660,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T22:55:40.358Z",
-      "endedAt": "2026-08-04T22:55:43.599Z",
+      "startedAt": "2026-08-06T10:02:25.824Z",
+      "endedAt": "2026-08-06T10:02:29.556Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3630,8 +3671,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T22:33:09.808Z",
-      "endedAt": "2026-08-04T22:33:16.497Z",
+      "startedAt": "2026-08-06T09:56:25.815Z",
+      "endedAt": "2026-08-06T09:56:29.170Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3641,8 +3682,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T21:34:50.242Z",
-      "endedAt": "2026-08-04T21:34:54.716Z",
+      "startedAt": "2026-08-06T09:50:25.855Z",
+      "endedAt": "2026-08-06T09:50:28.874Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3652,8 +3693,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T21:16:38.286Z",
-      "endedAt": "2026-08-04T21:16:41.807Z",
+      "startedAt": "2026-08-06T09:45:25.812Z",
+      "endedAt": "2026-08-06T09:45:29.002Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3663,8 +3704,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:48:19.087Z",
-      "endedAt": "2026-08-04T20:48:22.195Z",
+      "startedAt": "2026-08-06T09:39:45.528Z",
+      "endedAt": "2026-08-06T09:39:48.681Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3674,8 +3715,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:29:53.229Z",
-      "endedAt": "2026-08-04T20:29:56.458Z",
+      "startedAt": "2026-08-06T09:34:40.231Z",
+      "endedAt": "2026-08-06T09:34:43.838Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3685,8 +3726,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:23:53.257Z",
-      "endedAt": "2026-08-04T20:23:56.332Z",
+      "startedAt": "2026-08-06T09:28:40.224Z",
+      "endedAt": "2026-08-06T09:28:43.468Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3696,8 +3737,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:18:53.210Z",
-      "endedAt": "2026-08-04T20:18:56.857Z",
+      "startedAt": "2026-08-06T09:22:40.215Z",
+      "endedAt": "2026-08-06T09:22:43.634Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3707,8 +3748,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:13:53.195Z",
-      "endedAt": "2026-08-04T20:13:56.185Z",
+      "startedAt": "2026-08-06T09:16:40.223Z",
+      "endedAt": "2026-08-06T09:16:43.496Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3718,8 +3759,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:07:53.221Z",
-      "endedAt": "2026-08-04T20:07:56.276Z",
+      "startedAt": "2026-08-06T09:11:40.201Z",
+      "endedAt": "2026-08-06T09:11:43.360Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3729,8 +3770,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T20:01:53.227Z",
-      "endedAt": "2026-08-04T20:01:56.333Z",
+      "startedAt": "2026-08-06T09:05:55.136Z",
+      "endedAt": "2026-08-06T09:05:58.558Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3740,8 +3781,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:55:53.254Z",
-      "endedAt": "2026-08-04T19:55:56.455Z",
+      "startedAt": "2026-08-06T09:00:55.122Z",
+      "endedAt": "2026-08-06T09:00:59.073Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3751,8 +3792,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:49:53.203Z",
-      "endedAt": "2026-08-04T19:49:56.738Z",
+      "startedAt": "2026-08-06T08:55:01.031Z",
+      "endedAt": "2026-08-06T08:55:04.131Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3762,8 +3803,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:44:53.193Z",
-      "endedAt": "2026-08-04T19:44:56.347Z",
+      "startedAt": "2026-08-06T08:50:00.477Z",
+      "endedAt": "2026-08-06T08:50:03.795Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3773,8 +3814,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:39:53.186Z",
-      "endedAt": "2026-08-04T19:39:56.138Z",
+      "startedAt": "2026-08-06T08:44:50.483Z",
+      "endedAt": "2026-08-06T08:44:53.715Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3784,8 +3825,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:33:53.224Z",
-      "endedAt": "2026-08-04T19:33:56.610Z",
+      "startedAt": "2026-08-06T08:39:50.482Z",
+      "endedAt": "2026-08-06T08:39:53.680Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3795,8 +3836,55 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:28:53.187Z",
-      "endedAt": "2026-08-04T19:28:57.266Z",
+      "startedAt": "2026-08-06T08:34:41.635Z",
+      "endedAt": "2026-08-06T08:34:46.946Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "76824b6525331ffd151ed8d445f9b6c5d6480c5c"
+    },
+    {
+      "startedAt": "2026-08-06T08:34:33.358Z",
+      "endedAt": "2026-08-06T08:34:39.053Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "0c3aac7d45258ca5dc34f134d79b765a53746187"
+    },
+    {
+      "startedAt": "2026-08-06T08:34:24.887Z",
+      "endedAt": "2026-08-06T08:34:27.986Z",
+      "reason": "queued",
+      "status": "success",
+      "changes": 219,
+      "uploads": 219,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0
+    },
+    {
+      "startedAt": "2026-08-06T08:34:19.435Z",
+      "endedAt": "2026-08-06T08:34:24.887Z",
+      "reason": "file change",
+      "status": "success",
+      "changes": 220,
+      "uploads": 220,
+      "downloads": 0,
+      "deletes": 0,
+      "conflicts": 0,
+      "commitSha": "512cc6cf6a10cd3832ec7da41446ae5135abeefd"
+    },
+    {
+      "startedAt": "2026-08-06T08:33:55.097Z",
+      "endedAt": "2026-08-06T08:33:58.169Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3806,8 +3894,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:22:53.202Z",
-      "endedAt": "2026-08-04T19:22:56.535Z",
+      "startedAt": "2026-08-06T08:10:28.494Z",
+      "endedAt": "2026-08-06T08:10:31.786Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3817,8 +3905,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:17:53.171Z",
-      "endedAt": "2026-08-04T19:17:56.334Z",
+      "startedAt": "2026-08-06T08:02:16.982Z",
+      "endedAt": "2026-08-06T08:02:20.358Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3828,8 +3916,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:11:53.261Z",
-      "endedAt": "2026-08-04T19:11:56.333Z",
+      "startedAt": "2026-08-06T07:56:17.031Z",
+      "endedAt": "2026-08-06T07:56:20.248Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3839,8 +3927,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:05:59.046Z",
-      "endedAt": "2026-08-04T19:06:02.388Z",
+      "startedAt": "2026-08-06T07:50:17.076Z",
+      "endedAt": "2026-08-06T07:50:20.752Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3850,8 +3938,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T19:00:53.167Z",
-      "endedAt": "2026-08-04T19:00:56.187Z",
+      "startedAt": "2026-08-06T07:45:17.033Z",
+      "endedAt": "2026-08-06T07:45:20.375Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3861,8 +3949,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T18:54:53.256Z",
-      "endedAt": "2026-08-04T18:54:56.729Z",
+      "startedAt": "2026-08-06T07:39:17.106Z",
+      "endedAt": "2026-08-06T07:39:21.017Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,
@@ -3872,96 +3960,8 @@
       "conflicts": 0
     },
     {
-      "startedAt": "2026-08-04T18:48:53.216Z",
-      "endedAt": "2026-08-04T18:48:56.175Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:42:53.161Z",
-      "endedAt": "2026-08-04T18:42:56.272Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:36:53.186Z",
-      "endedAt": "2026-08-04T18:36:56.413Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:31:53.177Z",
-      "endedAt": "2026-08-04T18:31:56.423Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:25:53.219Z",
-      "endedAt": "2026-08-04T18:25:57.576Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:19:53.154Z",
-      "endedAt": "2026-08-04T18:19:56.222Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:13:53.162Z",
-      "endedAt": "2026-08-04T18:13:56.209Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:07:53.162Z",
-      "endedAt": "2026-08-04T18:07:56.687Z",
-      "reason": "interval",
-      "status": "success",
-      "changes": 219,
-      "uploads": 219,
-      "downloads": 0,
-      "deletes": 0,
-      "conflicts": 0
-    },
-    {
-      "startedAt": "2026-08-04T18:02:53.116Z",
-      "endedAt": "2026-08-04T18:03:01.071Z",
+      "startedAt": "2026-08-06T07:34:17.056Z",
+      "endedAt": "2026-08-06T07:34:20.898Z",
       "reason": "interval",
       "status": "success",
       "changes": 219,

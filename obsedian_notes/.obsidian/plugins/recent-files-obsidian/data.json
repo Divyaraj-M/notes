@@ -1,48 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "Migration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas"
-    },
-    {
-      "basename": "12-Month Objective — Build then ROI",
-      "path": "2 - Areas/Metrics and Goals/12-Month Objective — Build then ROI.md"
-    },
-    {
       "basename": "Migration Hubspot_v 1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md"
     },
     {
-      "basename": "Operon Basics Project",
-      "path": "Operon/Demo Workspace/Operon Basics Project.md"
+      "basename": "Custom Objects_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
+    },
+    {
+      "basename": "filters_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md"
+    },
+    {
+      "basename": "Filters for Objects",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md"
+    },
+    {
+      "basename": "HubSpot_Migration_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/HubSpot_Migration_v1.md"
+    },
+    {
+      "basename": "Migration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas"
+    },
+    {
+      "basename": "Email_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md"
+    },
+    {
+      "basename": "Deal_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
+    },
+    {
+      "basename": "SparrowDesk",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
+    },
+    {
+      "basename": "Sparrowdesk_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
+    },
+    {
+      "basename": "Companies_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
     },
     {
       "basename": "Migration",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.md"
     },
     {
-      "basename": "jobs-to-be-done",
-      "path": "3 - Resources/PM Prompts Library/prompts/jobs-to-be-done.md"
-    },
-    {
       "basename": "@Ganesh Ravi Shankar(GRS)",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
     },
     {
-      "basename": "AI CRM Visualization",
-      "path": "1 - Projects/Sparrowcrm/Diagrams/AI CRM Visualization.canvas"
-    },
-    {
-      "basename": "Help Article - Import data into SparrowCRM via CSV",
-      "path": "Help Article - Import data into SparrowCRM via CSV.md"
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
     {
       "basename": "5 - Features",
       "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
     },
     {
-      "basename": "Custom Objects_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
+      "basename": "Import_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
+    },
+    {
+      "basename": "Imports",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md"
+    },
+    {
+      "basename": "AI CRM Visualization",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas"
+    },
+    {
+      "basename": "Agents in CRM",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
+    },
+    {
+      "basename": "Ai Signals",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md"
+    },
+    {
+      "basename": "Zulie",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md"
+    },
+    {
+      "basename": "CRM Intelligence",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
+    },
+    {
+      "basename": "Sparrowcrm",
+      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
+    },
+    {
+      "basename": "Help Article - Import data into SparrowCRM via CSV",
+      "path": "Help Article - Import data into SparrowCRM via CSV.md"
+    },
+    {
+      "basename": "12-Month Objective — Build then ROI",
+      "path": "2 - Areas/Metrics and Goals/12-Month Objective — Build then ROI.md"
+    },
+    {
+      "basename": "jobs-to-be-done",
+      "path": "3 - Resources/PM Prompts Library/prompts/jobs-to-be-done.md"
     },
     {
       "basename": "framing-the-problem-statement",
@@ -61,10 +121,6 @@
       "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
     },
     {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
       "basename": "015 The Mental Models I Use to Work With AI",
       "path": "3 - Resources/Clippings/015 The Mental Models I Use to Work With AI.md"
     },
@@ -79,14 +135,6 @@
     {
       "basename": "Custom Objects",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md"
-    },
-    {
-      "basename": "Filters for Objects",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md"
-    },
-    {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
     },
     {
       "basename": "SparrowCRM-Entity-Relationships",
@@ -151,50 +199,6 @@
     {
       "basename": "3 - Customer Insights",
       "path": "1 - Projects/1layerx.com/3 - Customer Insights/3 - Customer Insights.md"
-    },
-    {
-      "basename": "2 - Product Strategy",
-      "path": "1 - Projects/1layerx.com/2 - Product Strategy/2 - Product Strategy.md"
-    },
-    {
-      "basename": "1 - Product Vision",
-      "path": "1 - Projects/1layerx.com/1 - Product Vision/1 - Product Vision.md"
-    },
-    {
-      "basename": "7 - Team OKRs & Goals",
-      "path": "1 - Projects/1layerx.com/7 - Team OKRs & Goals/7 - Team OKRs & Goals.md"
-    },
-    {
-      "basename": "6 - Metrics & Dashboards",
-      "path": "1 - Projects/1layerx.com/6 - Metrics & Dashboards/6 - Metrics & Dashboards.md"
-    },
-    {
-      "basename": "Agents in CRM",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
-    },
-    {
-      "basename": "laundry list",
-      "path": "4 - Archive/Sparrowgenie/laundry list.md"
-    },
-    {
-      "basename": "Integrations",
-      "path": "4 - Archive/Sparrowgenie/Integrations.md"
-    },
-    {
-      "basename": "The design language that makes your AI harness better at design.",
-      "path": "3 - Resources/Clippings/The design language that makes your AI harness better at design..md"
-    },
-    {
-      "basename": "agent-browserskillsagent-browserSKILL.md at main",
-      "path": "3 - Resources/Clippings/agent-browserskillsagent-browserSKILL.md at main.md"
-    },
-    {
-      "basename": "phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown",
-      "path": "3 - Resources/Clippings/phurynpm-brain PM Brain OS The Second Brain for Product Managers, Made of Markdown.md"
-    },
-    {
-      "basename": "grill-me — mattpocockskills",
-      "path": "3 - Resources/Clippings/grill-me — mattpocockskills.md"
     }
   ],
   "omittedPaths": [],
