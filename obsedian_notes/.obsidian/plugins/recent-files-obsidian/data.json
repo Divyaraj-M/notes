@@ -5,6 +5,14 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md"
     },
     {
+      "basename": "Product Spec Template 2",
+      "path": "3 - Resources/Templates/Product Spec Template 2.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "3 - Resources/Templates/Untitled.md"
+    },
+    {
       "basename": "Custom Objects_v1",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "@Ganesh Ravi Shankar(GRS)",
       "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
     },
     {
       "basename": "5 - Features",
@@ -195,10 +199,6 @@
     {
       "basename": "5 - Product Specs",
       "path": "1 - Projects/1layerx.com/5 - Product Specs/5 - Product Specs.md"
-    },
-    {
-      "basename": "3 - Customer Insights",
-      "path": "1 - Projects/1layerx.com/3 - Customer Insights/3 - Customer Insights.md"
     }
   ],
   "omittedPaths": [],

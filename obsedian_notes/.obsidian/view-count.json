@@ -628,21 +628,9 @@
     },
     {
       "path": "3 - Resources/Templates/Product Spec Template 2.md",
-      "uniqueDaysOpened": 14,
-      "totalTimesOpened": 33,
+      "uniqueDaysOpened": 15,
+      "totalTimesOpened": 35,
       "openLogs": [
-        {
-          "timestampMillis": 1783500143871
-        },
-        {
-          "timestampMillis": 1783500498499
-        },
-        {
-          "timestampMillis": 1783508747341
-        },
-        {
-          "timestampMillis": 1783511791995
-        },
         {
           "timestampMillis": 1784019995481
         },
@@ -681,6 +669,12 @@
         },
         {
           "timestampMillis": 1786014510703
+        },
+        {
+          "timestampMillis": 1786341667033
+        },
+        {
+          "timestampMillis": 1786342126366
         }
       ]
     },
@@ -6331,8 +6325,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 18,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 19,
       "openLogs": [
         {
           "timestampMillis": 1785827130423
@@ -6387,6 +6381,9 @@
         },
         {
           "timestampMillis": 1786022707149
+        },
+        {
+          "timestampMillis": 1786342127660
         }
       ]
     },
@@ -6663,6 +6660,16 @@
       "openLogs": [
         {
           "timestampMillis": 1786015438771
+        }
+      ]
+    },
+    {
+      "path": "3 - Resources/Templates/Untitled.md",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 1,
+      "openLogs": [
+        {
+          "timestampMillis": 1786342077257
         }
       ]
     }

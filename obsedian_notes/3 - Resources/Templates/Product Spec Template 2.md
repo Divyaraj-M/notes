@@ -26,13 +26,13 @@ Two failure modes to avoid:
 
 Do not assert pain — source it. Build an evidence table and mark the status of each source honestly. Visible gaps beat fake confidence in a review.
 
-|Source|Status|What it gives us|
-|---|---|---|
-|[e.g. our own instance / internal usage]|✅ Confirmed|First-hand proof + urgency|
-|[e.g. lost-deal analysis, win/loss notes]|⚠️ To validate|Converts "they want it" into "we lost revenue over it"|
-|[e.g. user interviews]|⚠️ To validate|Confirms the _shape_ of the pain, not just its existence|
-|[e.g. support tickets, call recordings, search logs]|⚠️ To validate|Zero-prep corroboration|
-|[e.g. product analytics / funnel drop-off]|❌ Not available|Would size frequency and severity|
+| Source                                               | Status          | What it gives us                                         |
+| ---------------------------------------------------- | --------------- | -------------------------------------------------------- |
+| [e.g. our own instance / internal usage]             | ✅ Confirmed     | First-hand proof + urgency                               |
+| [e.g. lost-deal analysis, win/loss notes]            | ⚠️ To validate  | Converts "they want it" into "we lost revenue over it"   |
+| [e.g. user interviews]                               | ⚠️ To validate  | Confirms the _shape_ of the pain, not just its existence |
+| [e.g. support tickets, call recordings, search logs] | ⚠️ To validate  | Zero-prep corroboration                                  |
+| [e.g. product analytics / funnel drop-off]           | ❌ Not available | Would size frequency and severity                        |
 
 Status legend: ✅ confirmed · ⚠️ to validate · ❌ unavailable or not yet gathered.
 
