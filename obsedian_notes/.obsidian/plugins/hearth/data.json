@@ -141,6 +141,8 @@
   "taskNotesDueField": "due",
   "taskNotesPriorityField": "priority",
   "taskNotesDoneValue": "done",
+  "customFileIcons": true,
+  "iconizeIconProperty": "icon",
   "maxWidth": 1600,
-  "lastSeenVersion": "1.17.0"
+  "lastSeenVersion": "1.18.0"
 }

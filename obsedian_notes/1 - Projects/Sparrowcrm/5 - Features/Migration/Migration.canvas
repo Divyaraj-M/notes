@@ -72,16 +72,6 @@
 			"height":60
 		},
 		{
-			"id":"41c8c1d5683aea13",
-			"type":"text",
-			"text":"---\n~\n---\n[[Objects]], [[Fields]], [[Users]] ",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-740,
-			"y":340,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"8b7b19f867fb5a41",
 			"type":"text",
 			"text":"==JTBD== for this step \n- ",
@@ -90,6 +80,16 @@
 			"y":480,
 			"width":670,
 			"height":520
+		},
+		{
+			"id":"41c8c1d5683aea13",
+			"type":"text",
+			"text":"---\n~\n---\n[[Objects]], [[Fields]], [[Users]] ",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-130,
+			"y":420,
+			"width":260,
+			"height":60
 		}
 	],
 	"edges":[

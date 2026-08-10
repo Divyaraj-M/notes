@@ -1,76 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Migration Hubspot_v 1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md"
-    },
-    {
-      "basename": "Product Spec Template 2",
-      "path": "3 - Resources/Templates/Product Spec Template 2.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "3 - Resources/Templates/Untitled.md"
-    },
-    {
-      "basename": "Custom Objects_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
-    },
-    {
-      "basename": "filters_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md"
-    },
-    {
-      "basename": "Filters for Objects",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md"
-    },
-    {
-      "basename": "HubSpot_Migration_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/HubSpot_Migration_v1.md"
-    },
-    {
-      "basename": "Migration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas"
-    },
-    {
-      "basename": "Email_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md"
-    },
-    {
-      "basename": "Deal_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md"
-    },
-    {
-      "basename": "SparrowDesk",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md"
-    },
-    {
-      "basename": "Sparrowdesk_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md"
-    },
-    {
-      "basename": "Companies_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md"
-    },
-    {
-      "basename": "Migration",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.md"
-    },
-    {
-      "basename": "@Ganesh Ravi Shankar(GRS)",
-      "path": "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md"
-    },
-    {
-      "basename": "5 - Features",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md"
-    },
-    {
-      "basename": "Import_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md"
-    },
-    {
-      "basename": "Imports",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md"
+      "basename": "AI Restructuring",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas"
     },
     {
       "basename": "AI CRM Visualization",
@@ -81,124 +13,40 @@
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md"
     },
     {
-      "basename": "Ai Signals",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md"
-    },
-    {
-      "basename": "Zulie",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md"
-    },
-    {
       "basename": "CRM Intelligence",
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md"
     },
     {
-      "basename": "Sparrowcrm",
-      "path": "1 - Projects/Sparrowcrm/Sparrowcrm.md"
-    },
-    {
-      "basename": "Help Article - Import data into SparrowCRM via CSV",
-      "path": "Help Article - Import data into SparrowCRM via CSV.md"
-    },
-    {
-      "basename": "12-Month Objective — Build then ROI",
-      "path": "2 - Areas/Metrics and Goals/12-Month Objective — Build then ROI.md"
-    },
-    {
-      "basename": "jobs-to-be-done",
-      "path": "3 - Resources/PM Prompts Library/prompts/jobs-to-be-done.md"
-    },
-    {
-      "basename": "framing-the-problem-statement",
-      "path": "3 - Resources/PM Prompts Library/prompts/framing-the-problem-statement.md"
-    },
-    {
-      "basename": "README",
-      "path": "3 - Resources/PM Prompts Library/prompts/README.md"
-    },
-    {
-      "basename": "Happyflow breakdown inputs",
-      "path": "4 - Archive/Screenshots/Happyflow breakdown inputs.png"
-    },
-    {
-      "basename": "Curious Geeks",
-      "path": "1 - Projects/Curious Geeks/Curious Geeks.md"
-    },
-    {
-      "basename": "015 The Mental Models I Use to Work With AI",
-      "path": "3 - Resources/Clippings/015 The Mental Models I Use to Work With AI.md"
-    },
-    {
-      "basename": "TO DO List - today",
-      "path": "4 - Archive/Sparrowgenie/TO DO List - today.md"
-    },
-    {
-      "basename": "To do list",
-      "path": "1 - Projects/Sparrowcrm/To do list.md"
+      "basename": "Contacts",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md"
     },
     {
       "basename": "Custom Objects",
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md"
     },
     {
-      "basename": "SparrowCRM-Entity-Relationships",
-      "path": "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw"
+      "basename": "Filters for Objects",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md"
     },
     {
-      "basename": "hybrid-thinking-product-framework",
-      "path": "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-product-framework.html"
+      "basename": "Migration",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas"
     },
     {
-      "basename": "Hybrid Thinking — Discovery Cycle Worksheet",
-      "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid Thinking — Discovery Cycle Worksheet.md"
+      "basename": "filters_v1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md"
     },
     {
-      "basename": "hybrid-thinking-worksheet",
-      "path": "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-worksheet.md"
+      "basename": "Untitled",
+      "path": "3 - Resources/Templates/Untitled.md"
     },
     {
-      "basename": "Hybrid thinking product framework",
-      "path": "3 - Resources/Learning/Thinking Frameworks/Hybrid thinking product framework.md"
+      "basename": "Migration Hubspot_v 1",
+      "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md"
     },
     {
-      "basename": "Hygiene Agent_v2",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v2.md"
-    },
-    {
-      "basename": "Goals and Metrics",
-      "path": "2 - Areas/Metrics and Goals/Goals and Metrics.canvas"
-    },
-    {
-      "basename": "Audit Report R126022026",
-      "path": "4 - Archive/Sparrowgenie/Audit Report/Audit Report R126022026.md"
-    },
-    {
-      "basename": "How to find edge cases before they become expensive issues",
-      "path": "3 - Resources/Clippings/How to find edge cases before they become expensive issues.md"
-    },
-    {
-      "basename": "1layerx.com",
-      "path": "1 - Projects/1layerx.com/1layerx.com.md"
-    },
-    {
-      "basename": "Roadmap for Agents",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md"
-    },
-    {
-      "basename": "Teams",
-      "path": "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas"
-    },
-    {
-      "basename": "Hygiene Agent_v1",
-      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v1.md"
-    },
-    {
-      "basename": "4 - Product Roadmap",
-      "path": "1 - Projects/1layerx.com/4 - Product Roadmap/4 - Product Roadmap.md"
-    },
-    {
-      "basename": "5 - Product Specs",
-      "path": "1 - Projects/1layerx.com/5 - Product Specs/5 - Product Specs.md"
+      "basename": "To do list",
+      "path": "1 - Projects/Sparrowcrm/To do list.md"
     }
   ],
   "omittedPaths": [],

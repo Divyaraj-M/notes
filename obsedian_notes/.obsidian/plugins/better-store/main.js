@@ -23,7 +23,7 @@ __export(main_exports, {
   default: () => BetterStorePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian7 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/data/registry.ts
 function isRegistryPlugin(v) {
@@ -110,6 +110,9 @@ function computeDeltas(history) {
   }
   return out;
 }
+function historyFor(history, id) {
+  return history.filter((s) => id in s.downloads).map((s) => ({ ts: s.ts, downloads: s.downloads[id] }));
+}
 
 // src/data/newness.ts
 function updateKnownIds(known, currentIds, now) {
@@ -129,6 +132,23 @@ function newIdsWithin(known, days, now) {
   );
 }
 
+// src/data/scan.ts
+function pendingRepos(repos, cache, now, maxAgeMs) {
+  const seen = /* @__PURE__ */ new Set();
+  const ranked = [];
+  for (const repo of repos) {
+    if (seen.has(repo)) continue;
+    seen.add(repo);
+    const entry = cache[repo];
+    if (entry == null) {
+      ranked.push({ repo, key: -Infinity });
+    } else if (now - entry.scannedAt >= maxAgeMs) {
+      ranked.push({ repo, key: entry.scannedAt });
+    }
+  }
+  return ranked.map((r, i) => ({ ...r, i })).sort((a, b) => a.key - b.key || a.i - b.i).map((r) => r.repo);
+}
+
 // src/data/service.ts
 var REGISTRY_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/HEAD/community-plugins.json";
 var STATS_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/HEAD/community-plugin-stats.json";
@@ -138,6 +158,11 @@ var RateLimitError = class extends Error {
     this.name = "RateLimitError";
   }
 };
+function parseTimestamp(value) {
+  if (typeof value !== "string") return 0;
+  const ms = Date.parse(value);
+  return Number.isNaN(ms) ? 0 : ms;
+}
 var DataService = class {
   constructor(io, cacheDir, opts) {
     this.io = io;
@@ -146,6 +171,20 @@ var DataService = class {
   }
   readmes = /* @__PURE__ */ new Map();
   enrichments = /* @__PURE__ */ new Map();
+  /** Persistent stars/open-issues cache, loaded lazily from repostats.json. */
+  repoStatsCache = null;
+  /** Serializes read-modify-write operations on the local snapshot files. */
+  writeLock = Promise.resolve();
+  /**
+   * Run a read-modify-write task after any previous one finishes, so overlapping
+   * catalog refreshes can't interleave their updates to history.json/known.json.
+   */
+  serialize(task) {
+    const run3 = this.writeLock.then(task, task);
+    this.writeLock = run3.catch(() => {
+    });
+    return run3;
+  }
   async readJson(name) {
     const raw = await this.io.readFile(`${this.cacheDir}/${name}`);
     if (raw == null) return null;
@@ -183,32 +222,139 @@ var DataService = class {
       throw e;
     }
   }
-  async recordSnapshot(entries) {
-    const history = await this.readJson("history.json") ?? [];
-    const snap = {
-      ts: this.io.now(),
-      downloads: Object.fromEntries(entries.map((e) => [e.id, e.downloads]))
-    };
-    const next2 = appendSnapshot(history, snap);
-    if (next2 !== history) await this.writeJson("history.json", next2);
+  recordSnapshot(entries) {
+    return this.serialize(async () => {
+      const history = await this.readJson("history.json") ?? [];
+      const snap = {
+        ts: this.io.now(),
+        downloads: Object.fromEntries(entries.map((e) => [e.id, e.downloads]))
+      };
+      const next2 = appendSnapshot(history, snap);
+      if (next2 !== history) await this.writeJson("history.json", next2);
+    });
   }
   async getTrendingDeltas() {
     return computeDeltas(await this.readJson("history.json") ?? []);
   }
-  async recordKnownIds(entries) {
-    const known = await this.readJson("known.json");
-    const next2 = updateKnownIds(
-      known != null && typeof known.firstSeen === "object" ? known : null,
-      entries.map((e) => e.id),
-      this.io.now()
-    );
-    await this.writeJson("known.json", next2);
+  recordKnownIds(entries) {
+    return this.serialize(async () => {
+      const known = await this.readJson("known.json");
+      const next2 = updateKnownIds(
+        known != null && typeof known.firstSeen === "object" ? known : null,
+        entries.map((e) => e.id),
+        this.io.now()
+      );
+      await this.writeJson("known.json", next2);
+    });
   }
   /** Ids of plugins that first appeared in the registry within the last N days. */
   async getNewIds(days) {
     const known = await this.readJson("known.json");
     if (known == null || typeof known.firstSeen !== "object") return /* @__PURE__ */ new Set();
     return newIdsWithin(known, days, this.io.now());
+  }
+  /** True when requests carry a GitHub token (raised rate limit). */
+  hasGithubToken() {
+    return Boolean(this.opts.githubToken);
+  }
+  async ensureRepoStats() {
+    if (this.repoStatsCache == null) {
+      const stored = await this.readJson("repostats.json");
+      const entries = Object.entries(stored?.stats ?? {}).map(([repo, s]) => {
+        const hasCreated = typeof s?.createdAt === "number";
+        return [
+          repo,
+          {
+            stars: typeof s?.stars === "number" ? s.stars : 0,
+            openIssues: typeof s?.openIssues === "number" ? s.openIssues : 0,
+            createdAt: hasCreated ? s.createdAt : 0,
+            scannedAt: hasCreated && typeof s?.scannedAt === "number" ? s.scannedAt : 0
+          }
+        ];
+      });
+      this.repoStatsCache = new Map(entries);
+    }
+    return this.repoStatsCache;
+  }
+  /**
+   * Stars + open issues for one repo — a single API call. Reads through the
+   * persistent scan cache first, then any already-fetched enrichment, so cards
+   * and sorts reuse scanned data without re-hitting the API.
+   */
+  async getRepoStats(repo) {
+    const cache = await this.ensureRepoStats();
+    const hit = cache.get(repo);
+    if (hit != null) return hit;
+    const enriched = this.enrichments.get(repo);
+    if (enriched) {
+      const stats2 = {
+        stars: enriched.stars,
+        openIssues: enriched.openIssues,
+        createdAt: enriched.createdAt,
+        scannedAt: this.io.now()
+      };
+      cache.set(repo, stats2);
+      return stats2;
+    }
+    const raw = await this.githubFetch(`https://api.github.com/repos/${repo}`);
+    const data = JSON.parse(raw);
+    const stats = {
+      stars: data.stargazers_count ?? 0,
+      openIssues: data.open_issues_count ?? 0,
+      createdAt: parseTimestamp(data.created_at),
+      scannedAt: this.io.now()
+    };
+    cache.set(repo, stats);
+    return stats;
+  }
+  /** Snapshot of all scanned repo stats, keyed by repo. */
+  async getAllRepoStats() {
+    return Object.fromEntries(await this.ensureRepoStats());
+  }
+  persistRepoStats() {
+    const cache = this.repoStatsCache;
+    if (cache == null) return Promise.resolve();
+    return this.serialize(() => this.writeJson("repostats.json", { stats: Object.fromEntries(cache) }));
+  }
+  /**
+   * Scan the given repos for stars/open issues, filling the persistent cache.
+   * Resumable and incremental (skips repos scanned within maxAgeMs), cancellable,
+   * and rate-limit aware: on a rate-limit error it stops cleanly with progress saved.
+   */
+  async scanRepos(repos, opts) {
+    const cache = await this.ensureRepoStats();
+    const now = this.io.now();
+    const queue = pendingRepos(repos, Object.fromEntries(cache), now, opts.maxAgeMs);
+    const total = queue.length;
+    let done = 0;
+    let rateLimited = false;
+    let cancelled = false;
+    const worker = async () => {
+      while (queue.length > 0) {
+        if (rateLimited || cancelled) return;
+        if (opts.isCancelled?.()) {
+          cancelled = true;
+          return;
+        }
+        const repo = queue.shift();
+        if (repo == null) return;
+        try {
+          await this.getRepoStats(repo);
+        } catch (e) {
+          if (e instanceof RateLimitError) {
+            rateLimited = true;
+            return;
+          }
+        }
+        done++;
+        opts.onProgress?.(done, total);
+        if (done % 25 === 0) await this.persistRepoStats();
+      }
+    };
+    const workers = Math.max(1, Math.min(opts.concurrency ?? 5, 8));
+    await Promise.all(Array.from({ length: workers }, () => worker()));
+    await this.persistRepoStats();
+    return { scanned: done, total, rateLimited, cancelled };
   }
   githubHeaders() {
     return this.opts.githubToken ? { Authorization: `Bearer ${this.opts.githubToken}` } : void 0;
@@ -225,9 +371,21 @@ var DataService = class {
   async getReadme(repo) {
     const hit = this.readmes.get(repo);
     if (hit != null) return hit;
-    const text2 = await this.io.fetchText(`https://raw.githubusercontent.com/${repo}/HEAD/README.md`);
-    this.readmes.set(repo, text2);
-    return text2;
+    let lastError = new Error(`no README found for ${repo}`);
+    for (const name of ["README.md", "readme.md", "Readme.md"]) {
+      try {
+        const text2 = await this.io.fetchText(`https://raw.githubusercontent.com/${repo}/HEAD/${name}`);
+        this.readmes.set(repo, text2);
+        return text2;
+      } catch (e) {
+        lastError = e;
+      }
+    }
+    throw lastError;
+  }
+  /** One plugin's download series from the stored trending snapshots. */
+  async getDownloadHistory(id) {
+    return historyFor(await this.readJson("history.json") ?? [], id);
   }
   async getEnrichment(repo) {
     const hit = this.enrichments.get(repo);
@@ -238,7 +396,12 @@ var DataService = class {
       this.io.fetchText(`https://raw.githubusercontent.com/${repo}/HEAD/manifest.json`).catch(() => null)
     ]);
     const repoData = JSON.parse(repoRaw);
-    const releasesData = JSON.parse(releasesRaw);
+    let releasesData;
+    try {
+      releasesData = JSON.parse(releasesRaw);
+    } catch {
+      releasesData = [];
+    }
     let manifest = {};
     if (manifestRaw != null) {
       try {
@@ -258,7 +421,8 @@ var DataService = class {
       })),
       latestVersion: typeof manifest.version === "string" ? manifest.version : null,
       minAppVersion: typeof manifest.minAppVersion === "string" ? manifest.minAppVersion : null,
-      fundingUrl: typeof manifest.fundingUrl === "string" && /^https?:\/\//i.test(manifest.fundingUrl) ? manifest.fundingUrl : null
+      fundingUrl: typeof manifest.fundingUrl === "string" && /^https?:\/\//i.test(manifest.fundingUrl) ? manifest.fundingUrl : null,
+      createdAt: parseTimestamp(repoData.created_at)
     };
     this.enrichments.set(repo, enrichment);
     return enrichment;
@@ -275,144 +439,634 @@ var DataService = class {
 };
 
 // src/data/versions.ts
+function splitPrerelease(v) {
+  const i = v.indexOf("-");
+  return i === -1 ? [v, null] : [v.slice(0, i), v.slice(i + 1)];
+}
 function compareVersions(a, b) {
-  const pa = a.split(".").map((s) => parseInt(s, 10) || 0);
-  const pb = b.split(".").map((s) => parseInt(s, 10) || 0);
+  const [coreA, preA] = splitPrerelease(a);
+  const [coreB, preB] = splitPrerelease(b);
+  const pa = coreA.split(".").map((s) => parseInt(s, 10) || 0);
+  const pb = coreB.split(".").map((s) => parseInt(s, 10) || 0);
   const len = Math.max(pa.length, pb.length);
   for (let i = 0; i < len; i++) {
     const d = (pa[i] ?? 0) - (pb[i] ?? 0);
     if (d !== 0) return d;
   }
-  return 0;
+  if (preA === null && preB === null) return 0;
+  if (preA === null) return 1;
+  if (preB === null) return -1;
+  return preA < preB ? -1 : preA > preB ? 1 : 0;
+}
+
+// src/data/token.ts
+function resolveLegacySecret(legacyValue, legacyId, existingIds) {
+  if (!legacyValue) return { secretId: "", scrubLegacy: false };
+  if (legacyValue === legacyId) return { secretId: "", scrubLegacy: true };
+  if (existingIds.includes(legacyValue)) return { secretId: legacyValue, scrubLegacy: true };
+  return { secretId: legacyId, scrubLegacy: false };
+}
+function summarizeTokenCheck(hasToken, status, body) {
+  if (status === 401) return { valid: false, message: "GitHub token is invalid or expired." };
+  if (status >= 400) return { valid: false, message: `GitHub API returned HTTP ${status} \u2014 try again later.` };
+  let limit;
+  let remaining;
+  try {
+    const parsed = JSON.parse(body);
+    const core = parsed.resources?.core ?? parsed.rate;
+    limit = core?.limit;
+    remaining = core?.remaining;
+  } catch {
+  }
+  if (limit == null || remaining == null) {
+    return { valid: false, message: "GitHub API responded, but the rate limit could not be read." };
+  }
+  const quota = `${remaining.toLocaleString()} of ${limit.toLocaleString()} requests remaining this hour`;
+  if (!hasToken) return { valid: false, message: `No token set \u2014 using the anonymous limit (${quota}).` };
+  if (limit <= 60) return { valid: false, message: `Token was not accepted \u2014 still on the anonymous limit (${quota}).` };
+  return { valid: true, message: `GitHub token is valid \u2014 ${quota}.` };
+}
+
+// src/data/updates.ts
+var DURATION_MS = {
+  "1h": 36e5,
+  "8h": 8 * 36e5,
+  "1d": 24 * 36e5,
+  "3d": 3 * 24 * 36e5,
+  "1w": 7 * 24 * 36e5
+};
+var MUTE_OPTIONS = [
+  { value: "1h", label: "1 hour" },
+  { value: "8h", label: "8 hours" },
+  { value: "1d", label: "1 day" },
+  { value: "3d", label: "3 days" },
+  { value: "1w", label: "1 week" }
+];
+function muteDeadline(choice, now) {
+  return now + DURATION_MS[choice];
+}
+function isMuted(prefs, now) {
+  return prefs.muteUntil > now;
+}
+function isUpdateActionable(id, latest, prefs) {
+  if (prefs.ignored.includes(id)) return false;
+  const skipped = prefs.skipped[id];
+  if (skipped != null && compareVersions(latest, skipped) <= 0) return false;
+  return true;
+}
+function muteRemaining(prefs, now) {
+  const ms = prefs.muteUntil - now;
+  if (ms <= 0) return null;
+  const hours = Math.ceil(ms / 36e5);
+  if (hours < 24) return `${hours}h`;
+  const days = Math.floor(hours / 24);
+  const rem = hours % 24;
+  return rem > 0 ? `${days}d ${rem}h` : `${days}d`;
+}
+
+// src/data/brat.ts
+var BRAT_PLUGIN_ID = "obsidian42-brat";
+var BRAT_COMMANDS = {
+  addBetaPlugin: `${BRAT_PLUGIN_ID}:AddBetaPlugin`,
+  checkAndUpdate: `${BRAT_PLUGIN_ID}:checkForUpdatesAndUpdate`,
+  checkOnly: `${BRAT_PLUGIN_ID}:checkForUpdatesAndDontUpdate`
+};
+function parseBratPlugins(raw) {
+  if (raw == null || typeof raw !== "object") return [];
+  const data = raw;
+  const byRepo = /* @__PURE__ */ new Map();
+  if (Array.isArray(data.pluginList)) {
+    for (const repo of data.pluginList) {
+      if (typeof repo === "string" && repo.trim()) {
+        byRepo.set(repo, { repo, frozenVersion: null });
+      }
+    }
+  }
+  if (Array.isArray(data.pluginSubListFrozenVersion)) {
+    for (const item of data.pluginSubListFrozenVersion) {
+      if (item == null || typeof item !== "object") continue;
+      const { repo, version } = item;
+      if (typeof repo !== "string" || !repo.trim()) continue;
+      const frozenVersion = typeof version === "string" && version !== "latest" ? version : null;
+      byRepo.set(repo, { repo, frozenVersion });
+    }
+  }
+  return [...byRepo.values()].sort((a, b) => a.repo.localeCompare(b.repo));
+}
+
+// src/data/portability.ts
+function buildExportList(manifests, enabledIds) {
+  return Object.values(manifests).map((m) => ({ id: m.id, name: m.name, version: m.version, enabled: enabledIds.has(m.id) })).sort((a, b) => a.name.localeCompare(b.name));
+}
+function exportJson(list) {
+  return JSON.stringify({ type: "better-store-plugin-list", plugins: list }, null, 2);
+}
+function exportMarkdown(list, date) {
+  const rows = list.map((p) => `| ${p.name} | \`${p.id}\` | ${p.version} | ${p.enabled ? "Yes" : "No"} |`);
+  return [
+    `# Obsidian plugins \u2014 exported ${date}`,
+    "",
+    "| Plugin | ID | Version | Enabled |",
+    "| --- | --- | --- | --- |",
+    ...rows,
+    ""
+  ].join("\n");
+}
+function parseImport(text2) {
+  const seen = /* @__PURE__ */ new Set();
+  const push2 = (id) => {
+    if (typeof id === "string" && id.trim()) seen.add(id.trim());
+  };
+  try {
+    const parsed = JSON.parse(text2);
+    if (Array.isArray(parsed)) {
+      for (const item of parsed) push2(typeof item === "object" && item !== null ? item.id : item);
+    } else if (typeof parsed === "object" && parsed !== null) {
+      const plugins = parsed.plugins;
+      if (Array.isArray(plugins)) for (const item of plugins) push2(item.id);
+    }
+    return [...seen];
+  } catch {
+    for (const match of text2.matchAll(/`([A-Za-z0-9._-]+)`/g)) push2(match[1]);
+    return [...seen];
+  }
+}
+function diffImport(imported, installed) {
+  return {
+    present: imported.filter((id) => installed.has(id)),
+    missing: imported.filter((id) => !installed.has(id))
+  };
+}
+
+// src/data/profiles.ts
+function diffProfile(profileIds, enabled, installed, selfId) {
+  const target = new Set(profileIds);
+  return {
+    toEnable: profileIds.filter((id) => id !== selfId && installed.has(id) && !enabled.has(id)),
+    toDisable: [...enabled].filter((id) => id !== selfId && installed.has(id) && !target.has(id)),
+    missing: profileIds.filter((id) => !installed.has(id))
+  };
 }
 
 // src/settings.ts
+var import_obsidian2 = require("obsidian");
+
+// src/ui/modals.ts
 var import_obsidian = require("obsidian");
+
+// src/ui/store-context.ts
+var EMPTY_PLUGINS_API = {
+  manifests: {},
+  enabledPlugins: /* @__PURE__ */ new Set(),
+  enablePluginAndSave: async () => {
+  },
+  disablePluginAndSave: async () => {
+  }
+};
+var warnedMissingPlugins = false;
+function getPluginsApi(app) {
+  const api = app.plugins;
+  if (api == null || typeof api.enablePluginAndSave !== "function" || typeof api.disablePluginAndSave !== "function" || api.manifests == null || !(api.enabledPlugins instanceof Set)) {
+    if (!warnedMissingPlugins) {
+      console.warn("Better Store: Obsidian's internal plugins API was not the expected shape; installed-plugin features are disabled.");
+      warnedMissingPlugins = true;
+    }
+    return EMPTY_PLUGINS_API;
+  }
+  return api;
+}
+function getInstalledIds(app) {
+  return new Set(Object.keys(getPluginsApi(app).manifests));
+}
+function getBratStatus(app) {
+  const api = getPluginsApi(app);
+  return { installed: BRAT_PLUGIN_ID in api.manifests, enabled: api.enabledPlugins.has(BRAT_PLUGIN_ID) };
+}
+function runCommand(app, id) {
+  const commands = app.commands;
+  if (typeof commands?.executeCommandById !== "function") {
+    console.warn(`Better Store: could not run command "${id}" \u2014 Obsidian's command API was unavailable.`);
+    return false;
+  }
+  return commands.executeCommandById(id);
+}
+
+// src/ui/modals.ts
+var NameModal = class extends import_obsidian.Modal {
+  constructor(app, promptTitle, onSubmit) {
+    super(app);
+    this.promptTitle = promptTitle;
+    this.onSubmit = onSubmit;
+  }
+  onOpen() {
+    this.titleEl.setText(this.promptTitle);
+    let value = "";
+    const submit = () => {
+      const name = value.trim();
+      if (!name) {
+        new import_obsidian.Notice("Enter a name.");
+        return;
+      }
+      this.close();
+      this.onSubmit(name);
+    };
+    new import_obsidian.Setting(this.contentEl).setName("Name").addText((text2) => {
+      text2.onChange((v) => value = v);
+      text2.inputEl.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          submit();
+        }
+      });
+      window.setTimeout(() => text2.inputEl.focus(), 0);
+    });
+    new import_obsidian.Setting(this.contentEl).addButton((btn) => btn.setButtonText("Save").setCta().onClick(submit));
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+var ImportModal = class extends import_obsidian.Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+  }
+  onOpen() {
+    this.titleEl.setText("Import plugin list");
+    const { contentEl } = this;
+    contentEl.createEl("p", {
+      text: "Paste a plugin list exported from Better Store (Markdown or JSON).",
+      cls: "setting-item-description"
+    });
+    const textarea = contentEl.createEl("textarea", {
+      cls: "bs-import-textarea",
+      attr: { rows: "10", placeholder: "Paste the exported list here\u2026", "aria-label": "Exported plugin list" }
+    });
+    const results = contentEl.createDiv();
+    new import_obsidian.Setting(contentEl).addButton(
+      (btn) => btn.setButtonText("Analyze").setCta().onClick(() => void this.analyze(textarea.value, results))
+    );
+  }
+  async analyze(text2, out) {
+    out.empty();
+    const ids = parseImport(text2);
+    if (ids.length === 0) {
+      out.createEl("p", { text: "No plugin ids found in the pasted text." });
+      return;
+    }
+    const installed = new Set(Object.keys(getPluginsApi(this.app).manifests));
+    const { present, missing } = diffImport(ids, installed);
+    out.createEl("p", {
+      text: `${ids.length} plugins in the list \u2014 ${present.length} already installed, ${missing.length} missing.`
+    });
+    if (missing.length === 0) return;
+    let names = /* @__PURE__ */ new Map();
+    try {
+      const catalog = await this.plugin.service.loadCatalog();
+      names = new Map(catalog.entries.map((e) => [e.id, e.name]));
+    } catch {
+    }
+    const list = out.createEl("ul");
+    for (const id of missing) list.createEl("li", { text: names.get(id) ?? id });
+    new import_obsidian.Setting(out).addButton(
+      (btn) => btn.setButtonText(`Star ${missing.length} missing`).onClick(async () => {
+        const favorites = new Set(this.plugin.settings.favoritePlugins);
+        for (const id of missing) favorites.add(id);
+        this.plugin.settings.favoritePlugins = [...favorites];
+        await this.plugin.saveSettings();
+        new import_obsidian.Notice(`Starred ${missing.length} plugins \u2014 use the "Starred only" filter to install them.`);
+        this.close();
+      })
+    );
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+var ProfileSuggestModal = class extends import_obsidian.FuzzySuggestModal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
+    this.setPlaceholder("Apply plugin profile\u2026");
+    this.emptyStateText = "No profiles yet \u2014 save one from Better Store's Installed tab.";
+  }
+  getItems() {
+    return this.plugin.settings.profiles;
+  }
+  getItemText(profile) {
+    return `${profile.name} (${profile.pluginIds.length} plugins)`;
+  }
+  onChooseItem(profile) {
+    void this.plugin.applyProfile(profile);
+  }
+};
+
+// src/settings.ts
 var DEFAULT_SETTINGS = {
-  githubToken: "",
+  githubSecretId: "",
   cacheTtlHours: 12,
   defaultSort: "downloads",
+  openLocation: "tab",
   hideInstalledByDefault: false,
   ignoredPlugins: [],
   ignoredAuthors: [],
   ignoredCategories: [],
   favoritePlugins: [],
   showNewBadges: true,
+  showCardStars: true,
+  scanMaxAgeDays: 7,
   backgroundUpdateCheck: true,
-  updateNotice: true
+  updateNotice: true,
+  showHealth: true,
+  showSimilar: true,
+  showSparkline: true,
+  trackRecentlyViewed: true,
+  profiles: [],
+  filterPresets: [],
+  updateIgnored: [],
+  updateSkipped: {},
+  muteUpdatesUntil: 0,
+  ui: { layout: "grid", detailWidth: 380, treeExpanded: {}, recentlyViewed: [], lastTab: "all" }
 };
 var NEW_WINDOW_DAYS = 14;
-var BetterStoreSettingTab = class extends import_obsidian.PluginSettingTab {
+var BetterStoreSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
   }
-  removableList(containerEl, heading, emptyText, items, remove) {
-    new import_obsidian.Setting(containerEl).setName(heading).setHeading();
-    if (items.length === 0) {
-      containerEl.createEl("p", { text: emptyText, cls: "setting-item-description" });
-      return;
-    }
-    for (const item of [...items]) {
-      new import_obsidian.Setting(containerEl).setName(item).addExtraButton(
-        (btn) => btn.setIcon("x").setTooltip("Remove").onClick(async () => {
-          remove(item);
-          await this.plugin.saveSettings();
-          this.display();
-        })
-      );
-    }
+  muteLabel() {
+    return muteRemaining(
+      { ignored: [], skipped: {}, muteUntil: this.plugin.settings.muteUpdatesUntil },
+      Date.now()
+    );
   }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("GitHub token").setDesc(
-      "Optional. Raises the GitHub API rate limit (60/hour without a token) used for stars, issues, and release data. A classic token with no scopes is enough."
-    ).addText((text2) => {
-      text2.inputEl.type = "password";
-      text2.setPlaceholder("ghp_...").setValue(this.plugin.settings.githubToken).onChange(async (value) => {
-        this.plugin.settings.githubToken = value.trim();
-        await this.plugin.saveSettings();
-      });
-    });
-    new import_obsidian.Setting(containerEl).setName("Cache lifetime (hours)").setDesc("How long the plugin catalog is cached before refetching. Use the refresh button in the store for an immediate update.").addSlider(
-      (slider) => slider.setLimits(1, 72, 1).setValue(this.plugin.settings.cacheTtlHours).setDynamicTooltip().onChange(async (value) => {
-        this.plugin.settings.cacheTtlHours = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Default sort").addDropdown(
-      (dd) => dd.addOptions({ downloads: "Downloads", updated: "Recently updated", name: "Name", trending: "Trending" }).setValue(this.plugin.settings.defaultSort).onChange(async (value) => {
-        this.plugin.settings.defaultSort = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Hide installed plugins by default").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.hideInstalledByDefault).onChange(async (value) => {
-        this.plugin.settings.hideInstalledByDefault = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName(`Show "New" badges`).setDesc(`Highlight plugins that entered the registry within the last ${NEW_WINDOW_DAYS} days.`).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.showNewBadges).onChange(async (value) => {
-        this.plugin.settings.showNewBadges = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Updates").setHeading();
-    new import_obsidian.Setting(containerEl).setName("Check for updates in the background").setDesc("Checks your installed plugins against their repositories on the cache-lifetime cadence and marks the ribbon icon when updates are available.").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.backgroundUpdateCheck).onChange(async (value) => {
-        this.plugin.settings.backgroundUpdateCheck = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Notify when updates are found").setDesc("Shows a notice when the background check finds plugin updates.").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.updateNotice).onChange(async (value) => {
-        this.plugin.settings.updateNotice = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    this.removableList(
-      containerEl,
-      "Starred plugins",
-      "No starred plugins. Use the star action on a plugin card or detail view.",
-      this.plugin.settings.favoritePlugins,
-      (id) => {
-        this.plugin.settings.favoritePlugins = this.plugin.settings.favoritePlugins.filter((p) => p !== id);
+  getControlValue(key2) {
+    return this.plugin.settings[key2];
+  }
+  async setControlValue(key2, value) {
+    this.plugin.settings[key2] = value;
+    await this.plugin.saveSettings();
+  }
+  removableList(heading, emptyState, key2) {
+    return {
+      type: "list",
+      heading,
+      emptyState,
+      items: this.plugin.settings[key2].map((name) => ({ name })),
+      onDelete: (index2) => {
+        const next2 = [...this.plugin.settings[key2]];
+        next2.splice(index2, 1);
+        this.plugin.settings[key2] = next2;
+        void this.plugin.saveSettings();
+        this.update();
       }
-    );
-    this.removableList(
-      containerEl,
-      "Ignored plugins",
-      "No ignored plugins. Use the ignore action on a plugin card to hide it from browsing.",
-      this.plugin.settings.ignoredPlugins,
-      (id) => {
-        this.plugin.settings.ignoredPlugins = this.plugin.settings.ignoredPlugins.filter((p) => p !== id);
-      }
-    );
-    this.removableList(
-      containerEl,
-      "Ignored authors",
-      "No ignored authors. Use a plugin card's ignore menu to hide everything by an author.",
-      this.plugin.settings.ignoredAuthors,
-      (author) => {
-        this.plugin.settings.ignoredAuthors = this.plugin.settings.ignoredAuthors.filter((a) => a !== author);
-      }
-    );
-    this.removableList(
-      containerEl,
-      "Ignored categories",
-      "No ignored categories. Use a plugin card's ignore menu to hide a whole category.",
-      this.plugin.settings.ignoredCategories,
-      (cat) => {
-        this.plugin.settings.ignoredCategories = this.plugin.settings.ignoredCategories.filter((c) => c !== cat);
-      }
-    );
+    };
+  }
+  getSettingDefinitions() {
+    return [
+      {
+        name: "GitHub token",
+        desc: "Optional. Link a secret holding a GitHub personal access token \u2014 it raises the API rate limit (60/hour without) used for stars, issues, and release data. A classic token with no scopes is enough. Only the secret's name is stored in plugin data; the token stays in Obsidian's secret storage.",
+        render: (setting) => {
+          setting.addComponent((el) => {
+            const secret = new import_obsidian2.SecretComponent(this.app, el);
+            secret.setValue(this.plugin.settings.githubSecretId);
+            secret.onChange((id) => {
+              void (async () => {
+                const next2 = (id ?? "").trim();
+                await this.plugin.setGithubSecretId(next2);
+                if (next2 && await this.plugin.testGithubToken()) this.plugin.onTokenLinked();
+              })();
+            });
+            return secret;
+          });
+          setting.addButton(
+            (btn) => btn.setButtonText("Test").setTooltip("Verify the linked token against the GitHub API").onClick(async () => {
+              btn.setDisabled(true).setButtonText("Testing\u2026");
+              try {
+                await this.plugin.testGithubToken();
+              } finally {
+                btn.setDisabled(false).setButtonText("Test");
+              }
+            })
+          );
+        }
+      },
+      {
+        name: "Cache lifetime (hours)",
+        desc: "How long the plugin catalog is cached before refetching. Use the refresh button in the store for an immediate update.",
+        control: { type: "slider", key: "cacheTtlHours", min: 1, max: 72, step: 1, defaultValue: 12 }
+      },
+      {
+        name: "Default sort",
+        control: {
+          type: "dropdown",
+          key: "defaultSort",
+          options: { downloads: "Downloads", updated: "Recently updated", name: "Name", trending: "Trending" },
+          defaultValue: "downloads"
+        }
+      },
+      {
+        name: "Open the store in",
+        desc: "Where the store opens from the ribbon and commands. A new window is desktop-only and falls back to a tab on mobile.",
+        control: {
+          type: "dropdown",
+          key: "openLocation",
+          options: { tab: "A tab", split: "A split", window: "A new window" },
+          defaultValue: "tab"
+        }
+      },
+      {
+        name: "Hide installed plugins by default",
+        control: { type: "toggle", key: "hideInstalledByDefault", defaultValue: false }
+      },
+      {
+        name: `Show "New" badges`,
+        desc: `Highlight plugins that entered the registry within the last ${NEW_WINDOW_DAYS} days.`,
+        control: { type: "toggle", key: "showNewBadges", defaultValue: true }
+      },
+      {
+        name: "Show GitHub stars on cards",
+        desc: "With a token linked, fetches star counts for the cards on screen (one API request per plugin, cached for the session). Without a token this stays inactive so the anonymous rate limit is saved for the detail pane.",
+        control: { type: "toggle", key: "showCardStars", defaultValue: true }
+      },
+      {
+        type: "group",
+        heading: "GitHub catalog scan",
+        items: [
+          {
+            name: "Scan the catalog for stars & open issues",
+            desc: "Fetches GitHub stars and open-issue counts for every plugin (one request each) so the whole catalog can be sorted and filtered by them. Requires a linked token; the scan is resumable and only re-fetches stale entries. Progress and a cancel button appear in the store header.",
+            action: () => void this.plugin.startCatalogScan()
+          },
+          {
+            name: "Rescan stats older than (days)",
+            desc: "During a scan, entries fetched within this many days are considered fresh and skipped.",
+            control: { type: "slider", key: "scanMaxAgeDays", min: 1, max: 30, step: 1, defaultValue: 7 }
+          }
+        ]
+      },
+      {
+        name: "Track recently viewed plugins",
+        desc: "Ranks plugins you've opened recently at the top of the quick-jump search.",
+        control: { type: "toggle", key: "trackRecentlyViewed", defaultValue: true }
+      },
+      {
+        type: "group",
+        heading: "Detail pane",
+        items: [
+          {
+            name: "Show maintenance health",
+            desc: "A healthy / aging / at-risk chip based on update recency and release cadence.",
+            control: { type: "toggle", key: "showHealth", defaultValue: true }
+          },
+          {
+            name: "Show similar plugins",
+            desc: "Related plugins by shared categories and keywords.",
+            control: { type: "toggle", key: "showSimilar", defaultValue: true }
+          },
+          {
+            name: "Show download history chart",
+            desc: "A small sparkline built from your catalog-refresh snapshots.",
+            control: { type: "toggle", key: "showSparkline", defaultValue: true }
+          }
+        ]
+      },
+      {
+        type: "group",
+        heading: "Updates",
+        items: [
+          {
+            name: "Check for updates in the background",
+            desc: "Checks your installed plugins against their repositories on the cache-lifetime cadence and marks the ribbon icon when updates are available.",
+            control: { type: "toggle", key: "backgroundUpdateCheck", defaultValue: true }
+          },
+          {
+            name: "Notify when updates are found",
+            desc: "Shows a notice when the background check finds plugin updates.",
+            control: { type: "toggle", key: "updateNotice", defaultValue: true }
+          },
+          {
+            name: "Update nags are muted",
+            desc: "Proactive update notices and the ribbon badge are silenced for now. The Installed tab still shows what's available.",
+            visible: () => this.muteLabel() != null,
+            action: () => {
+              this.plugin.settings.muteUpdatesUntil = 0;
+              void this.plugin.saveSettings();
+              void this.plugin.checkForUpdates();
+              this.update();
+            }
+          }
+        ]
+      },
+      {
+        type: "list",
+        heading: "Update checks disabled",
+        emptyState: `No plugins excluded. Use "Don't check for updates" on an installed plugin's card.`,
+        items: this.plugin.settings.updateIgnored.map((id) => ({ name: id })),
+        onDelete: (index2) => {
+          const next2 = [...this.plugin.settings.updateIgnored];
+          next2.splice(index2, 1);
+          this.plugin.settings.updateIgnored = next2;
+          void this.plugin.saveSettings();
+          this.update();
+        }
+      },
+      {
+        type: "list",
+        heading: "Skipped update versions",
+        emptyState: `No skipped versions. Use "Skip this version" on an installed plugin's update.`,
+        items: Object.entries(this.plugin.settings.updateSkipped).map(([id, version]) => ({
+          name: id,
+          desc: `skipped v${version}`
+        })),
+        onDelete: (index2) => {
+          const ids = Object.keys(this.plugin.settings.updateSkipped);
+          const id = ids[index2];
+          if (id == null) return;
+          const next2 = { ...this.plugin.settings.updateSkipped };
+          delete next2[id];
+          this.plugin.settings.updateSkipped = next2;
+          void this.plugin.saveSettings();
+          this.update();
+        }
+      },
+      {
+        type: "group",
+        heading: "Portability",
+        items: [
+          {
+            name: "Export plugin list (Markdown)",
+            desc: "Copies a Markdown table of your installed plugins to the clipboard.",
+            action: () => void this.plugin.exportPluginList("markdown")
+          },
+          {
+            name: "Export plugin list (JSON)",
+            desc: "Copies a JSON export of your installed plugins to the clipboard.",
+            action: () => void this.plugin.exportPluginList("json")
+          },
+          {
+            name: "Import plugin list\u2026",
+            desc: "Paste an exported list to see what's missing from this vault.",
+            action: () => new ImportModal(this.app, this.plugin).open()
+          }
+        ]
+      },
+      {
+        type: "list",
+        heading: "Profiles",
+        emptyState: "No profiles. Save one from Better Store's Installed tab.",
+        items: this.plugin.settings.profiles.map((p) => ({
+          name: p.name,
+          desc: `${p.pluginIds.length} plugins`
+        })),
+        onDelete: (index2) => {
+          const next2 = [...this.plugin.settings.profiles];
+          next2.splice(index2, 1);
+          this.plugin.settings.profiles = next2;
+          void this.plugin.saveSettings();
+          this.update();
+        }
+      },
+      {
+        type: "list",
+        heading: "Filter presets",
+        emptyState: "No presets. Save one from the browse sidebar.",
+        items: this.plugin.settings.filterPresets.map((p) => ({ name: p.name })),
+        onDelete: (index2) => {
+          const next2 = [...this.plugin.settings.filterPresets];
+          next2.splice(index2, 1);
+          this.plugin.settings.filterPresets = next2;
+          void this.plugin.saveSettings();
+          this.update();
+        }
+      },
+      this.removableList(
+        "Starred plugins",
+        "No starred plugins. Use the star action on a plugin card or detail view.",
+        "favoritePlugins"
+      ),
+      this.removableList(
+        "Ignored plugins",
+        "No ignored plugins. Use the ignore menu on a plugin card to hide it from browsing.",
+        "ignoredPlugins"
+      ),
+      this.removableList(
+        "Ignored authors",
+        "No ignored authors. Use a plugin card's ignore menu to hide everything by an author.",
+        "ignoredAuthors"
+      ),
+      this.removableList(
+        "Ignored categories",
+        "No ignored categories. Use a plugin card's ignore menu to hide a whole category.",
+        "ignoredCategories"
+      )
+    ];
   }
 };
 
 // src/view.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // node_modules/esm-env/dev-fallback.js
 var node_env = globalThis.process?.env?.NODE_ENV;
@@ -914,18 +1568,24 @@ var tracing_mode_flag = false;
 
 // node_modules/svelte/src/internal/client/dev/tracing.js
 var tracing_expressions = null;
-function tag(source2, label) {
-  source2.label = label;
-  tag_proxy(source2.v, label);
+function tag(source2, label2) {
+  source2.label = label2;
+  tag_proxy(source2.v, label2);
   return source2;
 }
-function tag_proxy(value, label) {
-  value?.[PROXY_PATH_SYMBOL]?.(label);
+function tag_proxy(value, label2) {
+  value?.[PROXY_PATH_SYMBOL]?.(label2);
   return value;
+}
+function label(value) {
+  if (typeof value === "symbol") return `Symbol(${value.description})`;
+  if (typeof value === "function") return "<function>";
+  if (typeof value === "object" && value) return "<object>";
+  return String(value);
 }
 
 // node_modules/svelte/src/internal/shared/dev.js
-function get_error(label) {
+function get_error(label2) {
   const error = new Error();
   const stack2 = get_stack();
   if (stack2.length === 0) {
@@ -936,7 +1596,7 @@ function get_error(label) {
     value: stack2.join("\n")
   });
   define_property(error, "name", {
-    value: label
+    value: label2
   });
   return (
     /** @type {Error & { stack: string }} */
@@ -1752,7 +2412,7 @@ function derived(fn) {
 }
 var OBSOLETE = Symbol("obsolete");
 // @__NO_SIDE_EFFECTS__
-function async_derived(fn, label, location) {
+function async_derived(fn, label2, location) {
   let parent = (
     /** @type {Effect | null} */
     active_effect
@@ -1769,7 +2429,7 @@ function async_derived(fn, label, location) {
     /** @type {V} */
     UNINITIALIZED
   );
-  if (dev_fallback_default) signal.label = label ?? fn.toString();
+  if (dev_fallback_default) signal.label = label2 ?? fn.toString();
   var should_suspend = !active_reaction;
   var deferreds = /* @__PURE__ */ new Set();
   async_effect(() => {
@@ -2177,11 +2837,11 @@ var Batch = class _Batch {
     var effects = collected_effects = [];
     var render_effects = [];
     var updates = legacy_updates = [];
-    for (const root8 of roots) {
+    for (const root9 of roots) {
       try {
-        this.#traverse(root8, effects, render_effects);
+        this.#traverse(root9, effects, render_effects);
       } catch (e) {
-        reset_all(root8);
+        reset_all(root9);
         if (!this.#is_deferred()) this.discard();
         throw e;
       }
@@ -2254,9 +2914,9 @@ var Batch = class _Batch {
    * @param {Effect[]} effects
    * @param {Effect[]} render_effects
    */
-  #traverse(root8, effects, render_effects) {
-    root8.f ^= CLEAN;
-    var effect2 = root8.first;
+  #traverse(root9, effects, render_effects) {
+    root9.f ^= CLEAN;
+    var effect2 = root9.first;
     while (effect2 !== null) {
       var flags2 = effect2.f;
       var is_branch = (flags2 & (BRANCH_EFFECT | ROOT_EFFECT)) !== 0;
@@ -2498,8 +3158,8 @@ var Batch = class _Batch {
         }
         if (batch.#roots.length > 0 && !batch.#decrement_queued) {
           batch.apply();
-          for (var root8 of batch.#roots) {
-            batch.#traverse(root8, [], []);
+          for (var root9 of batch.#roots) {
+            batch.#traverse(root9, [], []);
           }
           batch.#roots = [];
         }
@@ -3983,7 +4643,7 @@ function is_dirty(reaction) {
   }
   return false;
 }
-function schedule_possible_effect_self_invalidation(signal, effect2, root8 = true) {
+function schedule_possible_effect_self_invalidation(signal, effect2, root9 = true) {
   var reactions = signal.reactions;
   if (reactions === null) return;
   if (!async_mode_flag && current_sources !== null && current_sources.has(signal)) {
@@ -3999,7 +4659,7 @@ function schedule_possible_effect_self_invalidation(signal, effect2, root8 = tru
         false
       );
     } else if (effect2 === reaction) {
-      if (root8) {
+      if (root9) {
         set_signal_status(reaction, DIRTY);
       } else if ((reaction.f & CLEAN) !== 0) {
         set_signal_status(reaction, MAYBE_DIRTY);
@@ -6626,32 +7286,358 @@ if (typeof window !== "undefined") {
   ((window.__svelte ??= {}).v ??= /* @__PURE__ */ new Set()).add(PUBLIC_VERSION);
 }
 
+// node_modules/svelte/src/reactivity/map.js
+var SvelteMap = class extends Map {
+  /** @type {Map<K, Source<number>>} */
+  #sources = /* @__PURE__ */ new Map();
+  #version = state(0);
+  #size = state(0);
+  #update_version = update_version || -1;
+  /**
+   * @param {Iterable<readonly [K, V]> | null | undefined} [value]
+   */
+  constructor(value) {
+    super();
+    if (dev_fallback_default) {
+      value = new Map(value);
+      tag(this.#version, "SvelteMap version");
+      tag(this.#size, "SvelteMap.size");
+    }
+    if (value) {
+      for (var [key2, v] of value) {
+        super.set(key2, v);
+      }
+      this.#size.v = super.size;
+    }
+  }
+  /**
+   * If the source is being created inside the same reaction as the SvelteMap instance,
+   * we use `state` so that it will not be a dependency of the reaction. Otherwise we
+   * use `source` so it will be.
+   *
+   * @template T
+   * @param {T} value
+   * @returns {Source<T>}
+   */
+  #source(value) {
+    return update_version === this.#update_version ? state(value) : source(value);
+  }
+  /** @param {K} key */
+  has(key2) {
+    var sources = this.#sources;
+    var s = sources.get(key2);
+    if (s === void 0) {
+      if (super.has(key2)) {
+        s = this.#source(0);
+        if (dev_fallback_default) {
+          tag(s, `SvelteMap get(${label(key2)})`);
+        }
+        sources.set(key2, s);
+      } else {
+        get2(this.#version);
+        return false;
+      }
+    }
+    get2(s);
+    return true;
+  }
+  /**
+   * @param {(value: V, key: K, map: Map<K, V>) => void} callbackfn
+   * @param {any} [this_arg]
+   */
+  forEach(callbackfn, this_arg) {
+    this.#read_all();
+    super.forEach(callbackfn, this_arg);
+  }
+  /** @param {K} key */
+  get(key2) {
+    var sources = this.#sources;
+    var s = sources.get(key2);
+    if (s === void 0) {
+      if (super.has(key2)) {
+        s = this.#source(0);
+        if (dev_fallback_default) {
+          tag(s, `SvelteMap get(${label(key2)})`);
+        }
+        sources.set(key2, s);
+      } else {
+        get2(this.#version);
+        return void 0;
+      }
+    }
+    get2(s);
+    return super.get(key2);
+  }
+  /**
+   * @param {K} key
+   * @param {V} value
+   * */
+  set(key2, value) {
+    var sources = this.#sources;
+    var s = sources.get(key2);
+    var prev_res = super.get(key2);
+    var res = super.set(key2, value);
+    var version = this.#version;
+    if (s === void 0) {
+      s = this.#source(0);
+      if (dev_fallback_default) {
+        tag(s, `SvelteMap get(${label(key2)})`);
+      }
+      sources.set(key2, s);
+      set(this.#size, super.size);
+      increment(version);
+    } else if (prev_res !== value) {
+      increment(s);
+      var v_reactions = version.reactions === null ? null : new Set(version.reactions);
+      var needs_version_increase = v_reactions === null || !s.reactions?.every(
+        (r) => (
+          /** @type {NonNullable<typeof v_reactions>} */
+          v_reactions.has(r)
+        )
+      );
+      if (needs_version_increase) {
+        increment(version);
+      }
+    }
+    return res;
+  }
+  /** @param {K} key */
+  delete(key2) {
+    var sources = this.#sources;
+    var s = sources.get(key2);
+    var res = super.delete(key2);
+    if (s !== void 0) {
+      sources.delete(key2);
+      set(s, -1);
+    }
+    if (res) {
+      set(this.#size, super.size);
+      increment(this.#version);
+    }
+    return res;
+  }
+  clear() {
+    if (super.size === 0) {
+      return;
+    }
+    super.clear();
+    var sources = this.#sources;
+    set(this.#size, 0);
+    for (var s of sources.values()) {
+      set(s, -1);
+    }
+    increment(this.#version);
+    sources.clear();
+  }
+  #read_all() {
+    get2(this.#version);
+    var sources = this.#sources;
+    if (this.#size.v !== sources.size) {
+      for (var key2 of super.keys()) {
+        if (!sources.has(key2)) {
+          var s = this.#source(0);
+          if (dev_fallback_default) {
+            tag(s, `SvelteMap get(${label(key2)})`);
+          }
+          sources.set(key2, s);
+        }
+      }
+    }
+    for ([, s] of this.#sources) {
+      get2(s);
+    }
+  }
+  keys() {
+    get2(this.#version);
+    return super.keys();
+  }
+  values() {
+    this.#read_all();
+    return super.values();
+  }
+  entries() {
+    this.#read_all();
+    return super.entries();
+  }
+  [Symbol.iterator]() {
+    return this.entries();
+  }
+  get size() {
+    get2(this.#size);
+    return super.size;
+  }
+};
+
+// node_modules/svelte/src/reactivity/url-search-params.js
+var REPLACE = Symbol("replace");
+var SvelteURLSearchParams = class extends URLSearchParams {
+  #version = dev_fallback_default ? tag(state(0), "SvelteURLSearchParams version") : state(0);
+  #url = get_current_url();
+  #updating = false;
+  #update_url() {
+    if (!this.#url || this.#updating) return;
+    this.#updating = true;
+    const search = this.toString();
+    this.#url.search = search && `?${search}`;
+    this.#updating = false;
+  }
+  /**
+   * @param {URLSearchParams} params
+   * @internal
+   */
+  [REPLACE](params) {
+    if (this.#updating) return;
+    if (params.toString() === super.toString()) return;
+    this.#updating = true;
+    for (const key2 of [...super.keys()]) {
+      super.delete(key2);
+    }
+    for (const [key2, value] of params) {
+      super.append(key2, value);
+    }
+    increment(this.#version);
+    this.#updating = false;
+  }
+  /**
+   * @param {string} name
+   * @param {string} value
+   * @returns {void}
+   */
+  append(name, value) {
+    super.append(name, value);
+    this.#update_url();
+    increment(this.#version);
+  }
+  /**
+   * @param {string} name
+   * @param {string=} value
+   * @returns {void}
+   */
+  delete(name, value) {
+    var has_value = super.has(name, value);
+    super.delete(name, value);
+    if (has_value) {
+      this.#update_url();
+      increment(this.#version);
+    }
+  }
+  /**
+   * @param {string} name
+   * @returns {string|null}
+   */
+  get(name) {
+    get2(this.#version);
+    return super.get(name);
+  }
+  /**
+   * @param {string} name
+   * @returns {string[]}
+   */
+  getAll(name) {
+    get2(this.#version);
+    return super.getAll(name);
+  }
+  /**
+   * @param {string} name
+   * @param {string=} value
+   * @returns {boolean}
+   */
+  has(name, value) {
+    get2(this.#version);
+    return super.has(name, value);
+  }
+  keys() {
+    get2(this.#version);
+    return super.keys();
+  }
+  /**
+   * @param {(value: string, key: string, parent: URLSearchParams) => void} callback
+   * @param {any} [this_arg]
+   * @returns {void}
+   */
+  forEach(callback, this_arg) {
+    get2(this.#version);
+    super.forEach(callback, this_arg);
+  }
+  /**
+   * @param {string} name
+   * @param {string} value
+   * @returns {void}
+   */
+  set(name, value) {
+    var previous = super.getAll(name);
+    super.set(name, value);
+    var current = super.getAll(name);
+    if (previous.length !== current.length || previous.some((value2, i) => value2 !== current[i])) {
+      this.#update_url();
+      increment(this.#version);
+    }
+  }
+  sort() {
+    super.sort();
+    this.#update_url();
+    increment(this.#version);
+  }
+  toString() {
+    get2(this.#version);
+    return super.toString();
+  }
+  values() {
+    get2(this.#version);
+    return super.values();
+  }
+  entries() {
+    get2(this.#version);
+    return super.entries();
+  }
+  [Symbol.iterator]() {
+    return this.entries();
+  }
+  get size() {
+    get2(this.#version);
+    return super.size;
+  }
+};
+
+// node_modules/svelte/src/reactivity/url.js
+var current_url = null;
+function get_current_url() {
+  return current_url;
+}
+
 // src/ui/StoreView.svelte
-var import_obsidian4 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/data/filter.ts
 var EMPTY_FILTER = {
   query: "",
   categories: [],
   sort: "downloads",
-  updatedWithinMonths: null,
+  updatedWithinDays: null,
   minDownloads: 0,
+  minStars: 0,
   hideInstalled: false,
   starredOnly: false,
-  newOnly: false
+  newOnly: false,
+  author: ""
 };
-var MONTH_MS = 30 * 864e5;
+var DAY_MS = 864e5;
 function filterPlugins(entries, state2, ctx) {
   const q = state2.query.trim().toLowerCase();
-  const cutoff = state2.updatedWithinMonths == null ? null : ctx.now - state2.updatedWithinMonths * MONTH_MS;
+  const cutoff = state2.updatedWithinDays == null ? null : ctx.now - state2.updatedWithinDays * DAY_MS;
+  const stars = (e) => ctx.repoStats[e.repo]?.stars ?? -1;
+  const issues = (e) => ctx.repoStats[e.repo]?.openIssues ?? -1;
+  const created = (e) => ctx.repoStats[e.repo]?.createdAt ?? -1;
   const filtered = entries.filter((e) => {
     if (ctx.ignoredIds.has(e.id)) return false;
     if (ctx.ignoredAuthors.has(e.author)) return false;
     if (e.categories.some((c) => ctx.ignoredCategories.has(c))) return false;
     if (state2.starredOnly && !ctx.favoriteIds.has(e.id)) return false;
     if (state2.newOnly && !ctx.newIds.has(e.id)) return false;
+    if (state2.author && e.author !== state2.author) return false;
     if (state2.hideInstalled && ctx.installedIds.has(e.id)) return false;
     if (e.downloads < state2.minDownloads) return false;
+    if (state2.minStars > 0 && (ctx.repoStats[e.repo]?.stars ?? 0) < state2.minStars) return false;
     if (cutoff != null && e.updated < cutoff) return false;
     if (state2.categories.length > 0 && !state2.categories.some((c) => e.categories.includes(c))) return false;
     if (q && !e.name.toLowerCase().includes(q) && !e.description.toLowerCase().includes(q) && !e.author.toLowerCase().includes(q)) {
@@ -6663,109 +7649,204 @@ function filterPlugins(entries, state2, ctx) {
     downloads: (a, b) => b.downloads - a.downloads,
     updated: (a, b) => b.updated - a.updated,
     name: (a, b) => a.name.localeCompare(b.name),
-    trending: (a, b) => (ctx.trendingDeltas[b.id] ?? 0) - (ctx.trendingDeltas[a.id] ?? 0)
+    trending: (a, b) => (ctx.trendingDeltas[b.id] ?? 0) - (ctx.trendingDeltas[a.id] ?? 0),
+    // Unscanned plugins (-1) sort to the bottom of a stars/issues/added sort.
+    stars: (a, b) => stars(b) - stars(a),
+    issues: (a, b) => issues(b) - issues(a),
+    added: (a, b) => created(b) - created(a)
   };
   return filtered.sort(comparators[state2.sort]);
 }
 
-// src/ui/store-context.ts
-function getPluginsApi(app) {
-  return app.plugins;
+// src/data/similar.ts
+var STOP_WORDS = /* @__PURE__ */ new Set([
+  "the",
+  "and",
+  "for",
+  "with",
+  "your",
+  "from",
+  "that",
+  "this",
+  "into",
+  "obsidian",
+  "plugin",
+  "plugins",
+  "note",
+  "notes",
+  "vault",
+  "files",
+  "file"
+]);
+function tokens(entry) {
+  return new Set(
+    `${entry.name} ${entry.description}`.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 3 && !STOP_WORDS.has(w))
+  );
 }
-function getInstalledIds(app) {
-  return new Set(Object.keys(getPluginsApi(app).manifests));
+function similarPlugins(target, all, limit = 5) {
+  const targetTokens = tokens(target);
+  const targetCats = new Set(target.categories.filter((c) => c !== "Other"));
+  return all.filter((e) => e.id !== target.id).map((e) => {
+    const sharedCats = e.categories.filter((c) => targetCats.has(c)).length;
+    let sharedTokens = 0;
+    for (const t of tokens(e)) if (targetTokens.has(t)) sharedTokens++;
+    return { entry: e, score: sharedCats * 3 + Math.min(sharedTokens, 5) };
+  }).filter((s) => s.score > 0).sort((a, b) => b.score - a.score || b.entry.downloads - a.entry.downloads).slice(0, limit).map((s) => s.entry);
+}
+
+// src/ui/Icon.svelte
+var import_obsidian3 = require("obsidian");
+var root = from_html(`<span class="bs-icon" aria-hidden="true"></span>`);
+function Icon($$anchor, $$props) {
+  push($$props, true);
+  let el = state(void 0);
+  user_effect(() => {
+    if (get2(el)) (0, import_obsidian3.setIcon)(get2(el), $$props.name);
+  });
+  var span = root();
+  bind_this(span, ($$value) => set(el, $$value), () => get2(el));
+  append($$anchor, span);
+  pop();
 }
 
 // src/ui/FilterSidebar.svelte
-var root = from_html(`<option> </option>`);
-var root_1 = from_html(`<label class="bs-field"><span class="bs-field-label">Sort by</span> <select class="dropdown"></select></label>`);
-var root_2 = from_html(`<button> </button>`);
-var root_3 = from_html(`<aside class="bs-sidebar"><input type="search" class="bs-search" placeholder="Search plugins\u2026" aria-label="Search plugins"/> <!> <label class="bs-field"><span class="bs-field-label">Updated</span> <select class="dropdown"></select></label> <label class="bs-field"><span class="bs-field-label">Min downloads</span> <input type="number" min="0" step="1000"/></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>Hide installed</span></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>Starred only</span></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>New only</span></label> <div class="bs-field"><span class="bs-field-label">Categories</span> <div class="bs-cats"></div></div></aside>`);
+var root2 = from_html(`<option> </option>`);
+var root_1 = from_html(`<select class="dropdown" aria-label="Apply filter preset"><option selected="" disabled="">Apply preset\u2026</option><!></select>`);
+var root_2 = from_html(`<label class="bs-field"><span class="bs-field-label">Sort by</span> <select class="dropdown"></select></label>`);
+var root_3 = from_html(`<button> </button>`);
+var root_4 = from_html(`<aside class="bs-sidebar"><input type="search" class="bs-search" placeholder="Search plugins\u2026" aria-label="Search plugins"/> <div class="bs-field"><span class="bs-field-label">Presets</span> <div class="bs-preset-row"><!> <button class="bs-preset-save" title="Save current filters as a preset" aria-label="Save current filters as a preset"><!></button></div></div> <!> <label class="bs-field"><span class="bs-field-label">Updated within</span> <select class="dropdown"></select></label> <label class="bs-field"><span class="bs-field-label">Min downloads</span> <input type="number" min="0" step="1000"/></label> <label class="bs-field"><span class="bs-field-label">Min stars (scanned)</span> <input type="number" min="0" step="100"/></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>Hide installed</span></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>Starred only</span></label> <label class="bs-field bs-field-row"><input type="checkbox"/> <span>New only</span></label> <div class="bs-field"><span class="bs-field-label">Categories</span> <div class="bs-cats"></div></div></aside>`);
 function FilterSidebar($$anchor, $$props) {
   push($$props, true);
+  function applyPreset(name) {
+    const preset = $$props.presets.find((p) => p.name === name);
+    if (preset) $$props.onChange({ ...EMPTY_FILTER, ...preset.state });
+  }
   const SORTS = [
     { key: "downloads", label: "Downloads" },
     { key: "updated", label: "Recently updated" },
     { key: "name", label: "Name" },
-    { key: "trending", label: "Trending" }
+    { key: "trending", label: "Trending" },
+    { key: "stars", label: "GitHub stars (scanned)" },
+    { key: "issues", label: "Open issues (scanned)" },
+    { key: "added", label: "Recently added (scanned)" }
   ];
   const UPDATED_OPTIONS = [
     { value: null, label: "Any time" },
-    { value: 3, label: "Last 3 months" },
-    { value: 6, label: "Last 6 months" },
-    { value: 12, label: "Last 12 months" }
+    { value: 1, label: "Last 24 hours" },
+    { value: 7, label: "Last 7 days" },
+    { value: 30, label: "Last 30 days" },
+    { value: 90, label: "Last 3 months" },
+    { value: 365, label: "Last year" }
   ];
   function toggleCategory(cat) {
     const categories = $$props.filters.categories.includes(cat) ? $$props.filters.categories.filter((c) => c !== cat) : [...$$props.filters.categories, cat];
     $$props.onChange({ ...$$props.filters, categories });
   }
-  var aside = root_3();
+  var aside = root_4();
   var input = child(aside);
   remove_input_defaults(input);
-  var node = sibling(input, 2);
+  var div = sibling(input, 2);
+  var div_1 = sibling(child(div), 2);
+  var node = child(div_1);
   {
     var consequent = ($$anchor2) => {
-      var label = root_1();
-      var select = sibling(child(label), 2);
-      each(select, 21, () => SORTS, (s) => s.key, ($$anchor3, s) => {
-        var option = root();
-        var text2 = child(option, true);
-        reset(option);
-        var option_value = {};
+      var select = root_1();
+      var option = child(select);
+      option.value = option.__value = "";
+      var node_1 = sibling(option);
+      each(node_1, 17, () => $$props.presets, (p) => p.name, ($$anchor3, p) => {
+        var option_1 = root2();
+        var text2 = child(option_1, true);
+        reset(option_1);
+        var option_1_value = {};
         template_effect(() => {
-          set_text(text2, get2(s).label);
-          if (option_value !== (option_value = get2(s).key)) {
-            option.value = (option.__value = get2(s).key) ?? "";
+          set_text(text2, get2(p).name);
+          if (option_1_value !== (option_1_value = get2(p).name)) {
+            option_1.value = (option_1.__value = get2(p).name) ?? "";
           }
         });
-        append($$anchor3, option);
+        append($$anchor3, option_1);
       });
       reset(select);
-      var select_value;
-      init_select(select);
-      reset(label);
-      template_effect(() => {
-        if (select_value !== (select_value = $$props.filters.sort)) {
-          select.value = (select.__value = $$props.filters.sort) ?? "", select_option(select, $$props.filters.sort);
-        }
+      delegated("change", select, (e) => {
+        applyPreset(e.currentTarget.value);
+        e.currentTarget.value = "";
       });
-      delegated("change", select, (e) => $$props.onChange({ ...$$props.filters, sort: e.currentTarget.value }));
-      append($$anchor2, label);
+      append($$anchor2, select);
     };
     if_block(node, ($$render) => {
-      if ($$props.showSort) $$render(consequent);
+      if ($$props.presets.length > 0) $$render(consequent);
     });
   }
-  var label_1 = sibling(node, 2);
-  var select_1 = sibling(child(label_1), 2);
-  each(select_1, 21, () => UPDATED_OPTIONS, (o) => String(o.value), ($$anchor2, o) => {
-    var option_1 = root();
-    var text_1 = child(option_1, true);
-    reset(option_1);
-    var option_1_value = {};
+  var button = sibling(node, 2);
+  var node_2 = child(button);
+  Icon(node_2, { name: "save" });
+  reset(button);
+  reset(div_1);
+  reset(div);
+  var node_3 = sibling(div, 2);
+  {
+    var consequent_1 = ($$anchor2) => {
+      var label2 = root_2();
+      var select_1 = sibling(child(label2), 2);
+      each(select_1, 21, () => SORTS, (s) => s.key, ($$anchor3, s) => {
+        var option_2 = root2();
+        var text_1 = child(option_2, true);
+        reset(option_2);
+        var option_2_value = {};
+        template_effect(() => {
+          set_text(text_1, get2(s).label);
+          if (option_2_value !== (option_2_value = get2(s).key)) {
+            option_2.value = (option_2.__value = get2(s).key) ?? "";
+          }
+        });
+        append($$anchor3, option_2);
+      });
+      reset(select_1);
+      var select_1_value;
+      init_select(select_1);
+      reset(label2);
+      template_effect(() => {
+        if (select_1_value !== (select_1_value = $$props.filters.sort)) {
+          select_1.value = (select_1.__value = $$props.filters.sort) ?? "", select_option(select_1, $$props.filters.sort);
+        }
+      });
+      delegated("change", select_1, (e) => $$props.onChange({ ...$$props.filters, sort: e.currentTarget.value }));
+      append($$anchor2, label2);
+    };
+    if_block(node_3, ($$render) => {
+      if ($$props.showSort) $$render(consequent_1);
+    });
+  }
+  var label_1 = sibling(node_3, 2);
+  var select_2 = sibling(child(label_1), 2);
+  each(select_2, 21, () => UPDATED_OPTIONS, (o) => String(o.value), ($$anchor2, o) => {
+    var option_3 = root2();
+    var text_2 = child(option_3, true);
+    reset(option_3);
+    var option_3_value = {};
     template_effect(
       ($0) => {
-        set_text(text_1, get2(o).label);
-        if (option_1_value !== (option_1_value = $0)) {
-          option_1.value = (option_1.__value = $0) ?? "";
+        set_text(text_2, get2(o).label);
+        if (option_3_value !== (option_3_value = $0)) {
+          option_3.value = (option_3.__value = $0) ?? "";
         }
       },
       [() => String(get2(o).value)]
     );
-    append($$anchor2, option_1);
+    append($$anchor2, option_3);
   });
-  reset(select_1);
-  var select_1_value;
-  init_select(select_1);
+  reset(select_2);
+  var select_2_value;
+  init_select(select_2);
   reset(label_1);
   var label_2 = sibling(label_1, 2);
   var input_1 = sibling(child(label_2), 2);
   remove_input_defaults(input_1);
   reset(label_2);
   var label_3 = sibling(label_2, 2);
-  var input_2 = child(label_3);
+  var input_2 = sibling(child(label_3), 2);
   remove_input_defaults(input_2);
-  next(2);
   reset(label_3);
   var label_4 = sibling(label_3, 2);
   var input_3 = child(label_4);
@@ -6777,56 +7858,69 @@ function FilterSidebar($$anchor, $$props) {
   remove_input_defaults(input_4);
   next(2);
   reset(label_5);
-  var div = sibling(label_5, 2);
-  var div_1 = sibling(child(div), 2);
-  each(div_1, 20, () => ALL_CATEGORIES, (cat) => cat, ($$anchor2, cat) => {
-    var button = root_2();
+  var label_6 = sibling(label_5, 2);
+  var input_5 = child(label_6);
+  remove_input_defaults(input_5);
+  next(2);
+  reset(label_6);
+  var div_2 = sibling(label_6, 2);
+  var div_3 = sibling(child(div_2), 2);
+  each(div_3, 20, () => ALL_CATEGORIES, (cat) => cat, ($$anchor2, cat) => {
+    var button_1 = root_3();
     let classes;
-    var text_2 = child(button, true);
-    reset(button);
+    var text_3 = child(button_1, true);
+    reset(button_1);
     template_effect(
       ($0) => {
-        classes = set_class(button, 1, "bs-chip", null, classes, $0);
-        set_text(text_2, cat);
+        classes = set_class(button_1, 1, "bs-chip", null, classes, $0);
+        set_text(text_3, cat);
       },
       [
         () => ({ "bs-chip-active": $$props.filters.categories.includes(cat) })
       ]
     );
-    delegated("click", button, () => toggleCategory(cat));
-    append($$anchor2, button);
+    delegated("click", button_1, () => toggleCategory(cat));
+    append($$anchor2, button_1);
   });
-  reset(div_1);
-  reset(div);
+  reset(div_3);
+  reset(div_2);
   reset(aside);
   template_effect(
     ($0) => {
       set_value(input, $$props.filters.query);
-      if (select_1_value !== (select_1_value = $0)) {
-        select_1.value = (select_1.__value = $0) ?? "", select_option(select_1, $0);
+      if (select_2_value !== (select_2_value = $0)) {
+        select_2.value = (select_2.__value = $0) ?? "", select_option(select_2, $0);
       }
       set_value(input_1, $$props.filters.minDownloads);
-      set_checked(input_2, $$props.filters.hideInstalled);
-      set_checked(input_3, $$props.filters.starredOnly);
-      set_checked(input_4, $$props.filters.newOnly);
+      set_value(input_2, $$props.filters.minStars);
+      set_checked(input_3, $$props.filters.hideInstalled);
+      set_checked(input_4, $$props.filters.starredOnly);
+      set_checked(input_5, $$props.filters.newOnly);
     },
-    [() => String($$props.filters.updatedWithinMonths)]
+    [() => String($$props.filters.updatedWithinDays)]
   );
   delegated("input", input, (e) => $$props.onChange({ ...$$props.filters, query: e.currentTarget.value }));
-  delegated("change", select_1, (e) => {
+  delegated("click", button, function(...$$args) {
+    $$props.onSavePreset?.apply(this, $$args);
+  });
+  delegated("change", select_2, (e) => {
     const v = e.currentTarget.value;
     $$props.onChange({
       ...$$props.filters,
-      updatedWithinMonths: v === "null" ? null : Number(v)
+      updatedWithinDays: v === "null" ? null : Number(v)
     });
   });
   delegated("input", input_1, (e) => $$props.onChange({
     ...$$props.filters,
     minDownloads: Number(e.currentTarget.value) || 0
   }));
-  delegated("change", input_2, (e) => $$props.onChange({ ...$$props.filters, hideInstalled: e.currentTarget.checked }));
-  delegated("change", input_3, (e) => $$props.onChange({ ...$$props.filters, starredOnly: e.currentTarget.checked }));
-  delegated("change", input_4, (e) => $$props.onChange({ ...$$props.filters, newOnly: e.currentTarget.checked }));
+  delegated("input", input_2, (e) => $$props.onChange({
+    ...$$props.filters,
+    minStars: Number(e.currentTarget.value) || 0
+  }));
+  delegated("change", input_3, (e) => $$props.onChange({ ...$$props.filters, hideInstalled: e.currentTarget.checked }));
+  delegated("change", input_4, (e) => $$props.onChange({ ...$$props.filters, starredOnly: e.currentTarget.checked }));
+  delegated("change", input_5, (e) => $$props.onChange({ ...$$props.filters, newOnly: e.currentTarget.checked }));
   append($$anchor, aside);
   pop();
 }
@@ -6847,29 +7941,15 @@ function formatAge(ts, now) {
   return `${Math.floor(days / 365)}y ago`;
 }
 
-// src/ui/Icon.svelte
-var import_obsidian2 = require("obsidian");
-var root2 = from_html(`<span class="bs-icon" aria-hidden="true"></span>`);
-function Icon($$anchor, $$props) {
-  push($$props, true);
-  let el = state(void 0);
-  user_effect(() => {
-    if (get2(el)) (0, import_obsidian2.setIcon)(get2(el), $$props.name);
-  });
-  var span = root2();
-  bind_this(span, ($$value) => set(el, $$value), () => get2(el));
-  append($$anchor, span);
-  pop();
-}
-
 // src/ui/PluginCard.svelte
 var root3 = from_html(`<span class="bs-badge bs-badge-new">New</span>`);
-var root_12 = from_html(`<span class="bs-badge bs-badge-installed">Installed</span>`);
+var root_12 = from_html(`<span title="GitHub stars"><!> </span>`);
 var root_22 = from_html(`<span class="bs-chip bs-chip-small"> </span>`);
-var root_32 = from_html(`<div role="button" tabindex="0"><div class="bs-card-top"><span class="bs-card-name"> </span> <!> <!> <button><!></button> <button class="bs-ignore" title="Ignore options"><!></button></div> <div class="bs-card-meta"><span title="Downloads"><!> </span> <span> </span> <span> </span></div> <p class="bs-card-desc"> </p> <div class="bs-card-cats"></div></div>`);
+var root_32 = from_html(`<span class="bs-badge bs-badge-installed">Installed</span>`);
+var root_42 = from_html(`<div role="button" tabindex="0"><div class="bs-card-top"><span class="bs-card-name"> </span> <!> <button><!></button> <button class="bs-ignore" title="Ignore options"><!></button></div> <div class="bs-card-meta"><span title="Downloads"><!> </span> <!> <button class="bs-author-link"> </button> <span> </span></div> <p class="bs-card-desc"> </p> <div class="bs-card-footer"><div class="bs-card-cats"></div> <!></div></div>`);
 function PluginCard($$anchor, $$props) {
   push($$props, true);
-  var div = root_32();
+  var div = root_42();
   let classes;
   var div_1 = child(div);
   var span = child(div_1);
@@ -6885,55 +7965,72 @@ function PluginCard($$anchor, $$props) {
       if ($$props.isNew) $$render(consequent);
     });
   }
-  var node_1 = sibling(node, 2);
-  {
-    var consequent_1 = ($$anchor2) => {
-      var span_2 = root_12();
-      append($$anchor2, span_2);
-    };
-    if_block(node_1, ($$render) => {
-      if ($$props.installed) $$render(consequent_1);
-    });
-  }
-  var button = sibling(node_1, 2);
+  var button = sibling(node, 2);
   let classes_1;
-  var node_2 = child(button);
-  Icon(node_2, { name: "star" });
+  var node_1 = child(button);
+  Icon(node_1, { name: "star" });
   reset(button);
   var button_1 = sibling(button, 2);
-  var node_3 = child(button_1);
-  Icon(node_3, { name: "x" });
+  var node_2 = child(button_1);
+  Icon(node_2, { name: "x" });
   reset(button_1);
   reset(div_1);
   var div_2 = sibling(div_1, 2);
-  var span_3 = child(div_2);
-  var node_4 = child(span_3);
-  Icon(node_4, { name: "download" });
-  var text_1 = sibling(node_4, 1, true);
-  reset(span_3);
-  var span_4 = sibling(span_3, 2);
-  var text_2 = child(span_4, true);
+  var span_2 = child(div_2);
+  var node_3 = child(span_2);
+  Icon(node_3, { name: "download" });
+  var text_1 = sibling(node_3, 1, true);
+  reset(span_2);
+  var node_4 = sibling(span_2, 2);
+  {
+    var consequent_1 = ($$anchor2) => {
+      var span_3 = root_12();
+      var node_5 = child(span_3);
+      Icon(node_5, { name: "star" });
+      var text_2 = sibling(node_5, 1, true);
+      reset(span_3);
+      template_effect(($0) => set_text(text_2, $0), [() => formatCount($$props.stars)]);
+      append($$anchor2, span_3);
+    };
+    if_block(node_4, ($$render) => {
+      if ($$props.stars != null && $$props.stars > 0) $$render(consequent_1);
+    });
+  }
+  var button_2 = sibling(node_4, 2);
+  var text_3 = child(button_2, true);
+  reset(button_2);
+  var span_4 = sibling(button_2, 2);
+  var text_4 = child(span_4, true);
   reset(span_4);
-  var span_5 = sibling(span_4, 2);
-  var text_3 = child(span_5, true);
-  reset(span_5);
   reset(div_2);
   var p = sibling(div_2, 2);
-  var text_4 = child(p, true);
+  var text_5 = child(p, true);
   reset(p);
   var div_3 = sibling(p, 2);
-  each(div_3, 20, () => $$props.entry.categories, (cat) => cat, ($$anchor2, cat) => {
-    var span_6 = root_22();
-    var text_5 = child(span_6, true);
-    reset(span_6);
-    template_effect(() => set_text(text_5, cat));
-    append($$anchor2, span_6);
+  var div_4 = child(div_3);
+  each(div_4, 20, () => $$props.entry.categories, (cat) => cat, ($$anchor2, cat) => {
+    var span_5 = root_22();
+    var text_6 = child(span_5, true);
+    reset(span_5);
+    template_effect(() => set_text(text_6, cat));
+    append($$anchor2, span_5);
   });
+  reset(div_4);
+  var node_6 = sibling(div_4, 2);
+  {
+    var consequent_2 = ($$anchor2) => {
+      var span_6 = root_32();
+      append($$anchor2, span_6);
+    };
+    if_block(node_6, ($$render) => {
+      if ($$props.installed) $$render(consequent_2);
+    });
+  }
   reset(div_3);
   reset(div);
   template_effect(
     ($0, $1) => {
-      classes = set_class(div, 1, "bs-card", null, classes, { "bs-card-selected": $$props.selected });
+      classes = set_class(div, 1, "bs-card bs-card-browse", null, classes, { "bs-card-selected": $$props.selected });
       set_text(text2, $$props.entry.name);
       classes_1 = set_class(button, 1, "bs-star", null, classes_1, { "bs-star-active": $$props.starred });
       set_attribute2(button, "title", $$props.starred ? "Unstar" : "Star");
@@ -6941,9 +8038,10 @@ function PluginCard($$anchor, $$props) {
       set_attribute2(button, "aria-pressed", $$props.starred);
       set_attribute2(button_1, "aria-label", `Ignore options for ${$$props.entry.name}`);
       set_text(text_1, $0);
-      set_text(text_2, $$props.entry.author);
-      set_text(text_3, $1);
-      set_text(text_4, $$props.entry.description);
+      set_attribute2(button_2, "title", `Show all plugins by ${$$props.entry.author}`);
+      set_text(text_3, $$props.entry.author);
+      set_text(text_4, $1);
+      set_text(text_5, $$props.entry.description);
     },
     [
       () => formatCount($$props.entry.downloads),
@@ -6968,13 +8066,17 @@ function PluginCard($$anchor, $$props) {
     e.stopPropagation();
     $$props.onIgnore(e);
   });
+  delegated("click", button_2, (e) => {
+    e.stopPropagation();
+    $$props.onAuthor();
+  });
   append($$anchor, div);
   pop();
 }
 delegate(["click", "keydown"]);
 
 // src/ui/DetailPane.svelte
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/data/readme.ts
 var ABSOLUTE = /^(?:https?:)?\/\/|^#|^mailto:|^data:|^obsidian:/i;
@@ -6996,48 +8098,133 @@ function rewriteReadmeUrls(markdown, repo) {
   );
 }
 
+// src/data/health.ts
+var DAY = 864e5;
+function assessHealth(input) {
+  const recentReleases = input.releases.filter(
+    (r) => r.publishedAt && input.now - Date.parse(r.publishedAt) < 365 * DAY
+  ).length;
+  const reasons = [];
+  let level;
+  if (input.updated <= 0) {
+    level = "aging";
+    reasons.push("last update date unknown");
+  } else {
+    const days = (input.now - input.updated) / DAY;
+    if (days <= 120) level = "healthy";
+    else if (days <= 365) level = "aging";
+    else level = "at-risk";
+    reasons.push(`updated ${formatAge(input.updated, input.now)}`);
+  }
+  if (level === "aging" && recentReleases >= 3) {
+    level = "healthy";
+  }
+  reasons.push(`${recentReleases} release${recentReleases === 1 ? "" : "s"} in the last year`);
+  return { level, reasons };
+}
+
+// src/ui/Sparkline.svelte
+var root4 = from_html(`<div class="bs-spark"><svg aria-hidden="true"><path fill="none" stroke="var(--interactive-accent)" stroke-width="1.5"></path></svg> <span class="bs-spark-label"> </span></div>`);
+function Sparkline($$anchor, $$props) {
+  push($$props, true);
+  const W = 180;
+  const H = 40;
+  const PAD = 3;
+  let path = user_derived(() => {
+    if ($$props.points.length < 2) return "";
+    const xs = $$props.points.map((p) => p.ts);
+    const ys = $$props.points.map((p) => p.downloads);
+    const minX = Math.min(...xs);
+    const maxX = Math.max(...xs);
+    const minY = Math.min(...ys);
+    const maxY = Math.max(...ys);
+    const sx = (x) => maxX === minX ? W / 2 : PAD + (x - minX) / (maxX - minX) * (W - PAD * 2);
+    const sy = (y) => maxY === minY ? H / 2 : H - PAD - (y - minY) / (maxY - minY) * (H - PAD * 2);
+    return $$props.points.map((p, i) => `${i === 0 ? "M" : "L"}${sx(p.ts).toFixed(1)},${sy(p.downloads).toFixed(1)}`).join(" ");
+  });
+  let delta = user_derived(() => $$props.points.length >= 2 ? $$props.points[$$props.points.length - 1].downloads - $$props.points[0].downloads : 0);
+  var fragment = comment();
+  var node = first_child(fragment);
+  {
+    var consequent = ($$anchor2) => {
+      var div = root4();
+      var svg = child(div);
+      set_attribute2(svg, "viewBox", "0 0 180 40");
+      set_attribute2(svg, "width", W);
+      set_attribute2(svg, "height", H);
+      var path_1 = child(svg);
+      reset(svg);
+      var span = sibling(svg, 2);
+      var text2 = child(span);
+      reset(span);
+      reset(div);
+      template_effect(
+        ($0) => {
+          set_attribute2(path_1, "d", get2(path));
+          set_text(text2, `${get2(delta) >= 0 ? "+" : "\u2212"}${$0 ?? ""} downloads across ${$$props.points.length ?? ""} snapshots`);
+        },
+        [() => formatCount(Math.abs(get2(delta)))]
+      );
+      append($$anchor2, div);
+    };
+    if_block(node, ($$render) => {
+      if ($$props.points.length >= 2) $$render(consequent);
+    });
+  }
+  append($$anchor, fragment);
+  pop();
+}
+
 // src/ui/DetailPane.svelte
-var root4 = from_html(`<span class="bs-badge bs-badge-installed">Installed</span>`);
+var root5 = from_html(`<span class="bs-badge bs-badge-installed">Installed</span>`);
 var root_13 = from_html(`<span title="GitHub stars"><!> </span> <span title="Open issues"><!> </span>`, 1);
-var root_23 = from_html(`<div class="bs-compat-warning"><!> </div>`);
-var root_33 = from_html(`<a target="_blank" rel="noopener">Support author</a>`);
-var root_4 = from_html(`<div class="bs-detail-note"> </div>`);
-var root_5 = from_html(`<details class="bs-release"><summary><a target="_blank" rel="noopener"> </a> <span class="bs-release-date"> </span></summary> <div class="bs-release-notes"></div></details>`);
-var root_6 = from_html(`<details class="bs-releases"><summary>Recent releases</summary> <div class="bs-release-list"></div></details>`);
-var root_7 = from_html(`<div class="bs-status">Loading README\u2026</div>`);
-var root_8 = from_html(`<aside class="bs-detail"><div class="bs-detail-resize" role="separator" aria-orientation="vertical" aria-label="Resize details panel" title="Drag to resize"></div> <div class="bs-detail-header"><div class="bs-detail-title"><h3> <!></h3> <span class="bs-detail-author"> </span></div> <div class="bs-detail-header-actions"><button><!></button> <button class="bs-detail-close" title="Close" aria-label="Close details"><!></button></div></div> <div class="bs-detail-stats"><span title="Downloads"><!> </span> <span title="Last updated"><!> </span> <!></div> <!> <div class="bs-detail-actions"><button class="mod-cta"> </button> <a target="_blank" rel="noopener">Repository</a> <!></div> <!> <!> <!> <div class="bs-readme"></div></aside>`);
+var root_23 = from_html(`<div><!> </div>`);
+var root_33 = from_html(`<div class="bs-compat-warning"><!> </div>`);
+var root_43 = from_html(`<a target="_blank" rel="noopener">Support author</a>`);
+var root_5 = from_html(`<span class="bs-chip bs-chip-small"> </span>`);
+var root_6 = from_html(`<div class="bs-detail-note"> </div>`);
+var root_7 = from_html(`<button class="bs-chip"> </button>`);
+var root_8 = from_html(`<div class="bs-similar"><span class="bs-field-label">Similar plugins</span> <div class="bs-cats"></div></div>`);
+var root_9 = from_html(`<details class="bs-release"><summary><a target="_blank" rel="noopener"> </a> <span class="bs-release-date"> </span></summary> <div class="bs-release-notes"></div></details>`);
+var root_10 = from_html(`<details class="bs-releases"><summary>Recent releases</summary> <div class="bs-release-list"></div></details>`);
+var root_11 = from_html(`<div class="bs-status">Loading README\u2026</div>`);
+var root_122 = from_html(`<aside class="bs-detail"><div class="bs-detail-resize" role="separator" aria-orientation="vertical" aria-label="Resize details panel" title="Drag to resize"></div> <div class="bs-detail-header"><div class="bs-detail-title"><h3> <!></h3> <span class="bs-detail-author">by <button class="bs-author-link"> </button></span></div> <div class="bs-detail-header-actions"><button><!></button> <button class="bs-detail-close" title="Close" aria-label="Close details"><!></button></div></div> <div class="bs-detail-stats"><span title="Downloads"><!> </span> <span title="Last updated"><!> </span> <!></div> <!> <!> <!> <div class="bs-detail-actions"><button class="mod-cta"> </button> <a target="_blank" rel="noopener">Repository</a> <!> <span class="bs-copy-actions"><button class="bs-copy-btn" title="Copy repository URL" aria-label="Copy repository URL"><!></button> <button class="bs-copy-btn" title="Copy BRAT string" aria-label="Copy BRAT string"><!></button></span></div> <div class="bs-card-cats"></div> <!> <!> <!> <!> <div class="bs-readme"></div></aside>`);
 function DetailPane($$anchor, $$props) {
   push($$props, true);
+  let plugin = prop($$props, "plugin", 7), refreshTick = prop($$props, "refreshTick", 3, 0);
   let readmeEl = state(void 0);
   let enrichment = state(null);
   let enrichError = state(null);
   let readmeLoading = state(true);
-  const WIDTH_KEY = "better-store-detail-width";
+  let sparkPoints = state(proxy([]));
   const MIN_WIDTH = 300;
   const MAX_WIDTH = 900;
   function loadWidth() {
-    const stored = Number(localStorage.getItem(WIDTH_KEY));
+    const stored = plugin().settings.ui.detailWidth;
     return stored >= MIN_WIDTH && stored <= MAX_WIDTH ? stored : 380;
   }
   let width = state(proxy(loadWidth()));
   function startResize(e) {
     e.preventDefault();
+    const win = e.currentTarget.ownerDocument.defaultView ?? window;
     const startX = e.clientX;
     const startWidth = get2(width);
     const onMove = (ev) => {
       set(width, Math.min(MAX_WIDTH, Math.max(MIN_WIDTH, startWidth + (startX - ev.clientX))), true);
     };
     const onUp = () => {
-      window.removeEventListener("pointermove", onMove);
-      window.removeEventListener("pointerup", onUp);
-      localStorage.setItem(WIDTH_KEY, String(Math.round(get2(width))));
+      win.removeEventListener("pointermove", onMove);
+      win.removeEventListener("pointerup", onUp);
+      plugin().settings.ui.detailWidth = Math.round(get2(width));
+      void plugin().saveSettings();
     };
-    window.addEventListener("pointermove", onMove);
-    window.addEventListener("pointerup", onUp);
+    win.addEventListener("pointermove", onMove);
+    win.addEventListener("pointerup", onUp);
   }
   user_effect(() => {
     const current = $$props.entry;
     const el = get2(readmeEl);
+    void refreshTick();
     if (!el) return;
     untrack(() => void loadDetails(current, el));
   });
@@ -7045,22 +8232,30 @@ function DetailPane($$anchor, $$props) {
     set(readmeLoading, true);
     set(enrichment, null);
     set(enrichError, null);
+    set(sparkPoints, [], true);
     el.empty();
     try {
-      const md = rewriteReadmeUrls(await $$props.plugin.service.getReadme(current.repo), current.repo);
+      const md = rewriteReadmeUrls(await plugin().service.getReadme(current.repo), current.repo);
       if (current.id !== $$props.entry.id) return;
-      await import_obsidian3.MarkdownRenderer.render($$props.plugin.app, md, el, "", $$props.view);
+      await import_obsidian4.MarkdownRenderer.render(plugin().app, md, el, "", $$props.view);
       if (current.id !== $$props.entry.id) return;
       const rendered = el.innerHTML;
       el.empty();
-      el.appendChild((0, import_obsidian3.sanitizeHTMLToDom)(rendered));
+      el.appendChild((0, import_obsidian4.sanitizeHTMLToDom)(rendered));
     } catch {
       if (current.id === $$props.entry.id) el.createEl("p", { text: current.description });
     } finally {
       if (current.id === $$props.entry.id) set(readmeLoading, false);
     }
+    if (plugin().settings.showSparkline) {
+      try {
+        const points = await plugin().service.getDownloadHistory(current.id);
+        if (current.id === $$props.entry.id) set(sparkPoints, points, true);
+      } catch {
+      }
+    }
     try {
-      const e = await $$props.plugin.service.getEnrichment(current.repo);
+      const e = await plugin().service.getEnrichment(current.repo);
       if (current.id === $$props.entry.id) set(enrichment, e, true);
     } catch (err) {
       if (current.id === $$props.entry.id) {
@@ -7071,28 +8266,47 @@ function DetailPane($$anchor, $$props) {
   function openNative() {
     window.open(`obsidian://show-plugin?id=${encodeURIComponent($$props.entry.id)}`);
   }
-  let incompatible = user_derived(() => get2(enrichment)?.minAppVersion != null && compareVersions(get2(enrichment).minAppVersion, import_obsidian3.apiVersion) > 0);
+  async function copyText(text2, label2) {
+    await navigator.clipboard.writeText(text2);
+    new import_obsidian4.Notice(`Copied ${label2}.`);
+  }
+  let incompatible = user_derived(() => get2(enrichment)?.minAppVersion != null && compareVersions(get2(enrichment).minAppVersion, import_obsidian4.apiVersion) > 0);
+  let health = user_derived(() => plugin().settings.showHealth && get2(enrichment) ? assessHealth({
+    updated: $$props.entry.updated,
+    releases: get2(enrichment).releases,
+    now: Date.now()
+  }) : null);
+  const HEALTH_LABEL = {
+    healthy: "Actively maintained",
+    aging: "Aging",
+    "at-risk": "At risk"
+  };
+  const HEALTH_ICON = {
+    healthy: "check-circle",
+    aging: "clock",
+    "at-risk": "alert-triangle"
+  };
   function releaseNotes(node, body) {
     if (!body.trim()) {
       node.createEl("p", { text: "No release notes provided.", cls: "bs-detail-note" });
       return;
     }
-    void import_obsidian3.MarkdownRenderer.render($$props.plugin.app, rewriteReadmeUrls(body, $$props.entry.repo), node, "", $$props.view).then(() => {
+    void import_obsidian4.MarkdownRenderer.render(plugin().app, rewriteReadmeUrls(body, $$props.entry.repo), node, "", $$props.view).then(() => {
       const rendered = node.innerHTML;
       node.empty();
-      node.appendChild((0, import_obsidian3.sanitizeHTMLToDom)(rendered));
+      node.appendChild((0, import_obsidian4.sanitizeHTMLToDom)(rendered));
     });
   }
-  var aside = root_8();
+  var aside = root_122();
   var div = child(aside);
   var div_1 = sibling(div, 2);
   var div_2 = child(div_1);
   var h3 = child(div_2);
-  var text2 = child(h3);
-  var node_1 = sibling(text2);
+  var text_1 = child(h3);
+  var node_1 = sibling(text_1);
   {
     var consequent = ($$anchor2) => {
-      var span = root4();
+      var span = root5();
       append($$anchor2, span);
     };
     if_block(node_1, ($$render) => {
@@ -7101,31 +8315,33 @@ function DetailPane($$anchor, $$props) {
   }
   reset(h3);
   var span_1 = sibling(h3, 2);
-  var text_1 = child(span_1);
+  var button = sibling(child(span_1));
+  var text_2 = child(button, true);
+  reset(button);
   reset(span_1);
   reset(div_2);
   var div_3 = sibling(div_2, 2);
-  var button = child(div_3);
+  var button_1 = child(div_3);
   let classes;
-  var node_2 = child(button);
+  var node_2 = child(button_1);
   Icon(node_2, { name: "star" });
-  reset(button);
-  var button_1 = sibling(button, 2);
-  var node_3 = child(button_1);
-  Icon(node_3, { name: "x" });
   reset(button_1);
+  var button_2 = sibling(button_1, 2);
+  var node_3 = child(button_2);
+  Icon(node_3, { name: "x" });
+  reset(button_2);
   reset(div_3);
   reset(div_1);
   var div_4 = sibling(div_1, 2);
   var span_2 = child(div_4);
   var node_4 = child(span_2);
   Icon(node_4, { name: "download" });
-  var text_2 = sibling(node_4, 1, true);
+  var text_3 = sibling(node_4, 1, true);
   reset(span_2);
   var span_3 = sibling(span_2, 2);
   var node_5 = child(span_3);
   Icon(node_5, { name: "clock" });
-  var text_3 = sibling(node_5, 1, true);
+  var text_4 = sibling(node_5, 1, true);
   reset(span_3);
   var node_6 = sibling(span_3, 2);
   {
@@ -7134,17 +8350,17 @@ function DetailPane($$anchor, $$props) {
       var span_4 = first_child(fragment);
       var node_7 = child(span_4);
       Icon(node_7, { name: "star" });
-      var text_4 = sibling(node_7, 1, true);
+      var text_5 = sibling(node_7, 1, true);
       reset(span_4);
       var span_5 = sibling(span_4, 2);
       var node_8 = child(span_5);
       Icon(node_8, { name: "circle-dot" });
-      var text_5 = sibling(node_8, 1, true);
+      var text_6 = sibling(node_8, 1, true);
       reset(span_5);
       template_effect(
         ($0, $1) => {
-          set_text(text_4, $0);
-          set_text(text_5, $1);
+          set_text(text_5, $0);
+          set_text(text_6, $1);
         },
         [
           () => formatCount(get2(enrichment).stars),
@@ -7163,108 +8379,188 @@ function DetailPane($$anchor, $$props) {
     var consequent_2 = ($$anchor2) => {
       var div_5 = root_23();
       var node_10 = child(div_5);
-      Icon(node_10, { name: "alert-triangle" });
-      var text_6 = sibling(node_10);
+      Icon(node_10, {
+        get name() {
+          return HEALTH_ICON[get2(health).level];
+        }
+      });
+      var text_7 = sibling(node_10);
       reset(div_5);
-      template_effect(() => set_text(text_6, ` Requires Obsidian ${get2(enrichment).minAppVersion ?? ""} or newer \u2014 you're on ${import_obsidian3.apiVersion ?? ""}.`));
+      template_effect(
+        ($0) => {
+          set_class(div_5, 1, `bs-health bs-health-${get2(health).level}`);
+          set_attribute2(div_5, "title", $0);
+          set_text(text_7, ` ${HEALTH_LABEL[get2(health).level] ?? ""}`);
+        },
+        [() => get2(health).reasons.join(" \xB7 ")]
+      );
       append($$anchor2, div_5);
     };
     if_block(node_9, ($$render) => {
-      if (get2(incompatible) && get2(enrichment)) $$render(consequent_2);
+      if (get2(health)) $$render(consequent_2);
     });
   }
-  var div_6 = sibling(node_9, 2);
-  var button_2 = child(div_6);
-  var text_7 = child(button_2, true);
-  reset(button_2);
-  var a = sibling(button_2, 2);
-  var node_11 = sibling(a, 2);
+  var node_11 = sibling(node_9, 2);
   {
     var consequent_3 = ($$anchor2) => {
-      var a_1 = root_33();
+      Sparkline($$anchor2, {
+        get points() {
+          return get2(sparkPoints);
+        }
+      });
+    };
+    if_block(node_11, ($$render) => {
+      if (get2(sparkPoints).length >= 2) $$render(consequent_3);
+    });
+  }
+  var node_12 = sibling(node_11, 2);
+  {
+    var consequent_4 = ($$anchor2) => {
+      var div_6 = root_33();
+      var node_13 = child(div_6);
+      Icon(node_13, { name: "alert-triangle" });
+      var text_8 = sibling(node_13);
+      reset(div_6);
+      template_effect(() => set_text(text_8, ` Requires Obsidian ${get2(enrichment).minAppVersion ?? ""} or newer \u2014 you're on ${import_obsidian4.apiVersion ?? ""}.`));
+      append($$anchor2, div_6);
+    };
+    if_block(node_12, ($$render) => {
+      if (get2(incompatible) && get2(enrichment)) $$render(consequent_4);
+    });
+  }
+  var div_7 = sibling(node_12, 2);
+  var button_3 = child(div_7);
+  var text_9 = child(button_3, true);
+  reset(button_3);
+  var a = sibling(button_3, 2);
+  var node_14 = sibling(a, 2);
+  {
+    var consequent_5 = ($$anchor2) => {
+      var a_1 = root_43();
       template_effect(() => set_attribute2(a_1, "href", get2(enrichment).fundingUrl));
       append($$anchor2, a_1);
     };
-    if_block(node_11, ($$render) => {
-      if (get2(enrichment)?.fundingUrl) $$render(consequent_3);
+    if_block(node_14, ($$render) => {
+      if (get2(enrichment)?.fundingUrl) $$render(consequent_5);
     });
   }
-  reset(div_6);
-  var node_12 = sibling(div_6, 2);
+  var span_6 = sibling(node_14, 2);
+  var button_4 = child(span_6);
+  var node_15 = child(button_4);
+  Icon(node_15, { name: "link" });
+  reset(button_4);
+  var button_5 = sibling(button_4, 2);
+  var node_16 = child(button_5);
+  Icon(node_16, { name: "clipboard-copy" });
+  reset(button_5);
+  reset(span_6);
+  reset(div_7);
+  var div_8 = sibling(div_7, 2);
+  each(div_8, 20, () => $$props.entry.categories, (cat) => cat, ($$anchor2, cat) => {
+    var span_7 = root_5();
+    var text_10 = child(span_7, true);
+    reset(span_7);
+    template_effect(() => set_text(text_10, cat));
+    append($$anchor2, span_7);
+  });
+  reset(div_8);
+  var node_17 = sibling(div_8, 2);
   {
-    var consequent_4 = ($$anchor2) => {
-      var div_7 = root_4();
-      var text_8 = child(div_7, true);
-      reset(div_7);
-      template_effect(() => set_text(text_8, get2(enrichError)));
-      append($$anchor2, div_7);
+    var consequent_6 = ($$anchor2) => {
+      var div_9 = root_6();
+      var text_11 = child(div_9, true);
+      reset(div_9);
+      template_effect(() => set_text(text_11, get2(enrichError)));
+      append($$anchor2, div_9);
     };
-    if_block(node_12, ($$render) => {
-      if (get2(enrichError)) $$render(consequent_4);
+    if_block(node_17, ($$render) => {
+      if (get2(enrichError)) $$render(consequent_6);
     });
   }
-  var node_13 = sibling(node_12, 2);
+  var node_18 = sibling(node_17, 2);
   {
-    var consequent_5 = ($$anchor2) => {
-      var details = root_6();
-      var div_8 = sibling(child(details), 2);
-      each(div_8, 21, () => get2(enrichment).releases, index, ($$anchor3, r) => {
-        var details_1 = root_5();
+    var consequent_7 = ($$anchor2) => {
+      var div_10 = root_8();
+      var div_11 = sibling(child(div_10), 2);
+      each(div_11, 21, () => $$props.similar, (s) => s.id, ($$anchor3, s) => {
+        var button_6 = root_7();
+        var text_12 = child(button_6, true);
+        reset(button_6);
+        template_effect(() => set_text(text_12, get2(s).name));
+        delegated("click", button_6, () => $$props.onSelectEntry(get2(s)));
+        append($$anchor3, button_6);
+      });
+      reset(div_11);
+      reset(div_10);
+      append($$anchor2, div_10);
+    };
+    if_block(node_18, ($$render) => {
+      if ($$props.similar.length > 0) $$render(consequent_7);
+    });
+  }
+  var node_19 = sibling(node_18, 2);
+  {
+    var consequent_8 = ($$anchor2) => {
+      var details = root_10();
+      var div_12 = sibling(child(details), 2);
+      each(div_12, 21, () => get2(enrichment).releases, index, ($$anchor3, r) => {
+        var details_1 = root_9();
         var summary = child(details_1);
         var a_2 = child(summary);
-        var text_9 = child(a_2, true);
+        var text_13 = child(a_2, true);
         reset(a_2);
-        var span_6 = sibling(a_2, 2);
-        var text_10 = child(span_6, true);
-        reset(span_6);
+        var span_8 = sibling(a_2, 2);
+        var text_14 = child(span_8, true);
+        reset(span_8);
         reset(summary);
-        var div_9 = sibling(summary, 2);
-        action(div_9, ($$node, $$action_arg) => releaseNotes?.($$node, $$action_arg), () => get2(r).body);
+        var div_13 = sibling(summary, 2);
+        action(div_13, ($$node, $$action_arg) => releaseNotes?.($$node, $$action_arg), () => get2(r).body);
         reset(details_1);
         template_effect(
           ($0) => {
             set_attribute2(a_2, "href", get2(r).url);
-            set_text(text_9, get2(r).tag);
-            set_text(text_10, $0);
+            set_text(text_13, get2(r).tag);
+            set_text(text_14, $0);
           },
           [() => get2(r).publishedAt.slice(0, 10)]
         );
         delegated("click", a_2, (e) => e.stopPropagation());
         append($$anchor3, details_1);
       });
-      reset(div_8);
+      reset(div_12);
       reset(details);
       append($$anchor2, details);
     };
-    if_block(node_13, ($$render) => {
-      if (get2(enrichment) && get2(enrichment).releases.length > 0) $$render(consequent_5);
+    if_block(node_19, ($$render) => {
+      if (get2(enrichment) && get2(enrichment).releases.length > 0) $$render(consequent_8);
     });
   }
-  var node_14 = sibling(node_13, 2);
+  var node_20 = sibling(node_19, 2);
   {
-    var consequent_6 = ($$anchor2) => {
-      var div_10 = root_7();
-      append($$anchor2, div_10);
+    var consequent_9 = ($$anchor2) => {
+      var div_14 = root_11();
+      append($$anchor2, div_14);
     };
-    if_block(node_14, ($$render) => {
-      if (get2(readmeLoading)) $$render(consequent_6);
+    if_block(node_20, ($$render) => {
+      if (get2(readmeLoading)) $$render(consequent_9);
     });
   }
-  var div_11 = sibling(node_14, 2);
-  bind_this(div_11, ($$value) => set(readmeEl, $$value), () => get2(readmeEl));
+  var div_15 = sibling(node_20, 2);
+  bind_this(div_15, ($$value) => set(readmeEl, $$value), () => get2(readmeEl));
   reset(aside);
   template_effect(
     ($0, $1) => {
       set_style(aside, `width:${get2(width)}px`);
-      set_text(text2, `${$$props.entry.name ?? ""} `);
-      set_text(text_1, `by ${$$props.entry.author ?? ""}`);
-      classes = set_class(button, 1, "bs-star", null, classes, { "bs-star-active": $$props.starred });
-      set_attribute2(button, "title", $$props.starred ? "Unstar" : "Star");
-      set_attribute2(button, "aria-label", $$props.starred ? `Unstar ${$$props.entry.name}` : `Star ${$$props.entry.name}`);
-      set_attribute2(button, "aria-pressed", $$props.starred);
-      set_text(text_2, $0);
-      set_text(text_3, $1);
-      set_text(text_7, $$props.installed ? "Open in Community Plugins" : "Install via Community Plugins");
+      set_text(text_1, `${$$props.entry.name ?? ""} `);
+      set_attribute2(button, "title", `Show all plugins by ${$$props.entry.author}`);
+      set_text(text_2, $$props.entry.author);
+      classes = set_class(button_1, 1, "bs-star", null, classes, { "bs-star-active": $$props.starred });
+      set_attribute2(button_1, "title", $$props.starred ? "Unstar" : "Star");
+      set_attribute2(button_1, "aria-label", $$props.starred ? `Unstar ${$$props.entry.name}` : `Star ${$$props.entry.name}`);
+      set_attribute2(button_1, "aria-pressed", $$props.starred);
+      set_text(text_3, $0);
+      set_text(text_4, $1);
+      set_text(text_9, $$props.installed ? "Open in Community Plugins" : "Install via Community Plugins");
       set_attribute2(a, "href", `https://github.com/${$$props.entry.repo}`);
     },
     [
@@ -7273,17 +8569,23 @@ function DetailPane($$anchor, $$props) {
     ]
   );
   delegated("pointerdown", div, startResize);
-  delegated("click", button, function(...$$args) {
+  delegated("click", button, () => $$props.onDrillAuthor($$props.entry.author));
+  delegated("click", button_1, function(...$$args) {
     $$props.onToggleStar?.apply(this, $$args);
   });
-  delegated("click", button_1, function(...$$args) {
+  delegated("click", button_2, function(...$$args) {
     $$props.onClose?.apply(this, $$args);
   });
-  delegated("click", button_2, openNative);
+  delegated("click", button_3, openNative);
+  delegated("click", button_4, () => void copyText(`https://github.com/${$$props.entry.repo}`, "repository URL"));
+  delegated("click", button_5, () => void copyText($$props.entry.repo, "BRAT string"));
   append($$anchor, aside);
   pop();
 }
 delegate(["pointerdown", "click"]);
+
+// src/ui/InstalledTab.svelte
+var import_obsidian5 = require("obsidian");
 
 // src/data/installed.ts
 var ABANDONED_MS = 365 * 864e5;
@@ -7307,18 +8609,31 @@ function buildInstalledInfo(manifests, enabledIds, catalog, latestVersions, now)
 }
 
 // src/ui/InstalledTab.svelte
-var root5 = from_html(`<span class="bs-bulk-actions"><span class="bs-bulk-count"> </span> <button class="bs-bulk-btn">Enable</button> <button class="bs-bulk-btn">Disable</button> <button class="bs-bulk-btn bs-bulk-clear">Clear</button></span>`);
-var root_14 = from_html(`<div class="bs-status bs-error"> </div>`);
-var root_24 = from_html(`<input type="checkbox"/>`);
-var root_34 = from_html(`<span class="bs-badge bs-badge-warn" title="No update in over a year">stale</span>`);
-var root_42 = from_html(`<p class="bs-card-desc"> </p>`);
-var root_52 = from_html(`<button class="bs-update-btn" title="Open in Community Plugins to update"><!> </button>`);
-var root_62 = from_html(`<a class="bs-installed-changelog" target="_blank" rel="noopener" title="Changelog"><!></a>`);
-var root_72 = from_html(`<div><div class="bs-card-top"><!> <span class="bs-card-name"> </span> <!> <div role="switch"><input type="checkbox" tabindex="-1"/></div></div> <div class="bs-card-meta"><span> </span> <span> </span></div> <!> <div class="bs-installed-actions"><!> <!></div></div>`);
-var root_82 = from_html(`<div class="bs-status"> </div>`);
-var root_9 = from_html(`<div class="bs-installed"><div class="bs-installed-toolbar"><input type="search" class="bs-installed-search" placeholder="Filter installed plugins\u2026" aria-label="Filter installed plugins"/> <button>Updates<!></button> <!> <span class="bs-installed-summary"><!></span></div> <!> <div class="bs-grid bs-installed-grid"></div></div>`);
+var root6 = from_html(`<option> </option>`);
+var root_14 = from_html(`<select class="dropdown bs-profile-select" aria-label="Apply plugin profile"><option selected="" disabled="">Profiles\u2026</option><!></select>`);
+var root_24 = from_html(`<button class="bs-chip bs-chip-active" title="Update notices are muted"><!> </button>`);
+var root_34 = from_html(`<select class="dropdown bs-mute-select" aria-label="Mute update notices"><option selected="" disabled="">Mute updates\u2026</option><!></select>`);
+var root_44 = from_html(`<span class="bs-bulk-actions"><span class="bs-bulk-count"> </span> <button class="bs-bulk-btn">Enable</button> <button class="bs-bulk-btn">Disable</button> <button class="bs-bulk-btn bs-bulk-clear">Clear</button></span>`);
+var root_52 = from_html(`<div class="bs-status bs-error"> </div>`);
+var root_62 = from_html(`<span class="bs-brat-count"> </span>`);
+var root_72 = from_html(`<p>BRAT installs and auto-updates plugins straight from GitHub, before they reach the community store. Better Store hands off to BRAT \u2014 it never manages beta files itself.</p> <button class="bs-chip"><!>Install BRAT</button>`, 1);
+var root_82 = from_html(`<p>BRAT is installed but disabled. Enable it to manage beta plugins here.</p>`);
+var root_92 = from_html(`<p class="bs-brat-empty">No beta plugins tracked yet. Use "Add beta plugin" to start testing one from GitHub.</p>`);
+var root_102 = from_html(`<span class="bs-badge"> </span>`);
+var root_112 = from_html(`<li><a target="_blank" rel="noopener"> </a> <!></li>`);
+var root_123 = from_html(`<ul class="bs-brat-list"></ul>`);
+var root_132 = from_html(`<div class="bs-brat-actions"><button class="bs-chip"><!>Add beta plugin</button> <button class="bs-chip"><!>Check for updates</button> <button class="bs-chip" title="Reload the BRAT list"><!>Refresh</button></div> <!>`, 1);
+var root_142 = from_html(`<input type="checkbox"/>`);
+var root_15 = from_html(`<span class="bs-badge bs-badge-warn" title="No update in over a year">stale</span>`);
+var root_16 = from_html(`<p class="bs-card-desc"> </p>`);
+var root_17 = from_html(`<button class="bs-update-btn" title="Open in Community Plugins to update"><!> </button> <button class="bs-update-skip">Skip this version</button> <button class="bs-update-skip" title="Never check this plugin for updates">Don't check</button>`, 1);
+var root_18 = from_html(`<a class="bs-installed-changelog" target="_blank" rel="noopener" title="Changelog"><!></a>`);
+var root_19 = from_html(`<div><div class="bs-card-top"><!> <span class="bs-card-name"> </span> <!> <div role="switch"><input type="checkbox" tabindex="-1"/></div></div> <div class="bs-card-meta"><span> </span> <span> </span></div> <!> <div class="bs-installed-actions"><!> <!></div></div>`);
+var root_20 = from_html(`<div class="bs-status"> </div>`);
+var root_21 = from_html(`<div class="bs-installed"><div class="bs-installed-toolbar"><input type="search" class="bs-installed-search" placeholder="Filter installed plugins\u2026" aria-label="Filter installed plugins"/> <button>Updates<!></button> <!> <button class="bs-chip" title="Save the currently enabled plugins as a profile">Save profile</button> <!> <!> <span class="bs-installed-summary"><!></span></div> <!> <details class="bs-brat"><summary><!> <span>Beta plugins (BRAT)</span> <!></summary> <div class="bs-brat-body"><!></div></details> <div class="bs-grid bs-installed-grid"></div></div>`);
 function InstalledTab($$anchor, $$props) {
   push($$props, true);
+  let plugin = prop($$props, "plugin", 7);
   let infos = state(proxy([]));
   let checking = state(true);
   let toggleError = state(null);
@@ -7326,14 +8641,58 @@ function InstalledTab($$anchor, $$props) {
   let updatesOnly = state(false);
   let selectedIds = state(proxy(/* @__PURE__ */ new Set()));
   let bulkBusy = state(false);
-  const api = getPluginsApi($$props.plugin.app);
+  const api = getPluginsApi(plugin().app);
   const byId = user_derived(() => new Map($$props.entries.map((e) => [e.id, e])));
-  let updateCount = user_derived(() => get2(infos).filter((i) => i.updateAvailable).length);
-  let visible = user_derived(() => {
-    const q = get2(query).trim().toLowerCase();
-    const filtered = get2(infos).filter((i) => (!get2(updatesOnly) || i.updateAvailable) && (q === "" || i.name.toLowerCase().includes(q) || i.id.toLowerCase().includes(q)));
-    return filtered.sort((a, b) => Number(b.updateAvailable) - Number(a.updateAvailable) || a.name.localeCompare(b.name));
+  let prefsTick = state(0);
+  function actionable(info) {
+    void get2(prefsTick);
+    return info.updateAvailable && info.latestVersion != null && isUpdateActionable(info.id, info.latestVersion, plugin().updatePrefs());
+  }
+  let updateCount = user_derived(() => {
+    void get2(prefsTick);
+    return get2(infos).filter(actionable).length;
   });
+  let muteLabel = user_derived(() => {
+    void get2(prefsTick);
+    return muteRemaining(plugin().updatePrefs(), Date.now());
+  });
+  let visible = user_derived(() => {
+    void get2(prefsTick);
+    const q = get2(query).trim().toLowerCase();
+    const filtered = get2(infos).filter((i) => (!get2(updatesOnly) || actionable(i)) && (q === "" || i.name.toLowerCase().includes(q) || i.id.toLowerCase().includes(q)));
+    return filtered.sort((a, b) => Number(actionable(b)) - Number(actionable(a)) || a.name.localeCompare(b.name));
+  });
+  async function skipUpdate(info) {
+    if (info.latestVersion == null) return;
+    await plugin().skipUpdate(info.id, info.latestVersion);
+    set(prefsTick, get2(prefsTick) + 1);
+  }
+  async function ignoreUpdates(info) {
+    await plugin().ignorePluginUpdates(info.id);
+    set(prefsTick, get2(prefsTick) + 1);
+  }
+  async function muteUpdates(choice) {
+    await plugin().muteUpdates(choice);
+    set(prefsTick, get2(prefsTick) + 1);
+  }
+  async function unmuteUpdates() {
+    await plugin().unmuteUpdates();
+    set(prefsTick, get2(prefsTick) + 1);
+  }
+  let brat = state(proxy(getBratStatus(plugin().app)));
+  let betaPlugins = state(proxy([]));
+  async function loadBrat() {
+    set(brat, getBratStatus(plugin().app), true);
+    set(betaPlugins, get2(brat).enabled ? parseBratPlugins(await plugin().readBratData()) : [], true);
+  }
+  onMount(() => void loadBrat());
+  function runBrat(commandId) {
+    runCommand(plugin().app, commandId);
+    window.setTimeout(() => void loadBrat(), 1500);
+  }
+  function installBrat() {
+    window.open(`obsidian://show-plugin?id=${BRAT_PLUGIN_ID}`);
+  }
   let lastLatest = {};
   function rebuild(latestVersions) {
     set(infos, buildInstalledInfo(api.manifests, new Set(api.enabledPlugins), $$props.entries, latestVersions, Date.now()), true);
@@ -7341,8 +8700,8 @@ function InstalledTab($$anchor, $$props) {
   onMount(async () => {
     rebuild({});
     const latest = {};
-    await Promise.all(get2(infos).filter((i) => i.repo != null && i.id !== $$props.plugin.manifest.id).map(async (i) => {
-      latest[i.id] = await $$props.plugin.service.getLatestVersion(i.repo);
+    await Promise.all(get2(infos).filter((i) => i.repo != null && i.id !== plugin().manifest.id).map(async (i) => {
+      latest[i.id] = await plugin().service.getLatestVersion(i.repo);
     }));
     lastLatest = latest;
     rebuild(latest);
@@ -7354,13 +8713,15 @@ function InstalledTab($$anchor, $$props) {
         const ids = Object.keys(api.manifests);
         const changed = ids.length !== get2(infos).length || ids.some((id) => !get2(infos).some((i) => i.id === id)) || get2(infos).some((i) => i.enabled !== api.enabledPlugins.has(i.id));
         if (changed) rebuild(lastLatest);
+        const s = getBratStatus(plugin().app);
+        if (s.installed !== get2(brat).installed || s.enabled !== get2(brat).enabled) void loadBrat();
       },
       2e3
     );
     return () => window.clearInterval(poll);
   });
   async function toggle(info) {
-    if (info.id === $$props.plugin.manifest.id) return;
+    if (info.id === plugin().manifest.id) return;
     set(toggleError, null);
     try {
       if (info.enabled) await api.disablePluginAndSave(info.id);
@@ -7373,8 +8734,25 @@ function InstalledTab($$anchor, $$props) {
   function openNative(id) {
     window.open(`obsidian://show-plugin?id=${encodeURIComponent(id)}`);
   }
+  let profileNames = state(proxy(plugin().settings.profiles.map((p) => p.name)));
+  function saveProfile() {
+    new NameModal(plugin().app, "Save plugin profile", (name) => {
+      const pluginIds = [...api.enabledPlugins].filter((id) => id !== plugin().manifest.id && id in api.manifests);
+      const withoutSameName = plugin().settings.profiles.filter((p) => p.name !== name);
+      plugin().settings.profiles = [...withoutSameName, { name, pluginIds }];
+      void plugin().saveSettings();
+      set(profileNames, plugin().settings.profiles.map((p) => p.name), true);
+      new import_obsidian5.Notice(`Profile "${name}" saved (${pluginIds.length} plugins).`);
+    }).open();
+  }
+  async function applyProfileByName(name) {
+    const profile = plugin().settings.profiles.find((p) => p.name === name);
+    if (!profile) return;
+    await plugin().applyProfile(profile);
+    rebuild(lastLatest);
+  }
   function toggleSelect(id) {
-    if (id === $$props.plugin.manifest.id) return;
+    if (id === plugin().manifest.id) return;
     const next2 = new Set(get2(selectedIds));
     if (next2.has(id)) next2.delete(id);
     else next2.add(id);
@@ -7385,7 +8763,7 @@ function InstalledTab($$anchor, $$props) {
     set(toggleError, null);
     try {
       for (const id of get2(selectedIds)) {
-        if (id === $$props.plugin.manifest.id) continue;
+        if (id === plugin().manifest.id) continue;
         const isEnabled = api.enabledPlugins.has(id);
         if (enable && !isEnabled) await api.enablePluginAndSave(id);
         if (!enable && isEnabled) await api.disablePluginAndSave(id);
@@ -7398,7 +8776,7 @@ function InstalledTab($$anchor, $$props) {
       rebuild(lastLatest);
     }
   }
-  var div = root_9();
+  var div = root_21();
   var div_1 = child(div);
   var input = child(div_1);
   remove_input_defaults(input);
@@ -7419,76 +8797,260 @@ function InstalledTab($$anchor, $$props) {
   var node_1 = sibling(button, 2);
   {
     var consequent_1 = ($$anchor2) => {
-      var span = root5();
-      var span_1 = child(span);
-      var text_1 = child(span_1);
-      reset(span_1);
-      var button_1 = sibling(span_1, 2);
-      var button_2 = sibling(button_1, 2);
-      var button_3 = sibling(button_2, 2);
-      reset(span);
-      template_effect(() => {
-        set_text(text_1, `${get2(selectedIds).size ?? ""} selected`);
-        button_1.disabled = get2(bulkBusy);
-        button_2.disabled = get2(bulkBusy);
-        button_3.disabled = get2(bulkBusy);
+      var select = root_14();
+      var option = child(select);
+      option.value = option.__value = "";
+      var node_2 = sibling(option);
+      each(node_2, 16, () => get2(profileNames), (name) => name, ($$anchor3, name) => {
+        var option_1 = root6();
+        var text_1 = child(option_1, true);
+        reset(option_1);
+        var option_1_value = {};
+        template_effect(() => {
+          set_text(text_1, name);
+          if (option_1_value !== (option_1_value = name)) {
+            option_1.value = (option_1.__value = name) ?? "";
+          }
+        });
+        append($$anchor3, option_1);
       });
-      delegated("click", button_1, () => void bulkToggle(true));
-      delegated("click", button_2, () => void bulkToggle(false));
-      delegated("click", button_3, () => set(selectedIds, /* @__PURE__ */ new Set(), true));
-      append($$anchor2, span);
+      reset(select);
+      delegated("change", select, (e) => {
+        const name = e.currentTarget.value;
+        e.currentTarget.value = "";
+        void applyProfileByName(name);
+      });
+      append($$anchor2, select);
     };
     if_block(node_1, ($$render) => {
-      if (get2(selectedIds).size > 0) $$render(consequent_1);
+      if (get2(profileNames).length > 0) $$render(consequent_1);
     });
   }
-  var span_2 = sibling(node_1, 2);
-  var node_2 = child(span_2);
+  var button_1 = sibling(node_1, 2);
+  var node_3 = sibling(button_1, 2);
   {
     var consequent_2 = ($$anchor2) => {
-      var text_2 = text("Checking for updates\u2026");
-      append($$anchor2, text_2);
+      var button_2 = root_24();
+      var node_4 = child(button_2);
+      Icon(node_4, { name: "bell-off" });
+      var text_2 = sibling(node_4);
+      reset(button_2);
+      template_effect(() => set_text(text_2, `Muted (${get2(muteLabel) ?? ""}) \xB7 Unmute`));
+      delegated("click", button_2, () => void unmuteUpdates());
+      append($$anchor2, button_2);
     };
     var alternate = ($$anchor2) => {
-      var text_3 = text();
-      template_effect(() => set_text(text_3, `${get2(infos).length ?? ""} installed \xB7 ${get2(updateCount) ?? ""} ${get2(updateCount) === 1 ? "update" : "updates"} available`));
-      append($$anchor2, text_3);
+      var select_1 = root_34();
+      var option_2 = child(select_1);
+      option_2.value = option_2.__value = "";
+      var node_5 = sibling(option_2);
+      each(node_5, 17, () => MUTE_OPTIONS, (opt) => opt.value, ($$anchor3, opt) => {
+        var option_3 = root6();
+        var text_3 = child(option_3, true);
+        reset(option_3);
+        var option_3_value = {};
+        template_effect(() => {
+          set_text(text_3, get2(opt).label);
+          if (option_3_value !== (option_3_value = get2(opt).value)) {
+            option_3.value = (option_3.__value = get2(opt).value) ?? "";
+          }
+        });
+        append($$anchor3, option_3);
+      });
+      reset(select_1);
+      delegated("change", select_1, (e) => {
+        const choice = e.currentTarget.value;
+        e.currentTarget.value = "";
+        if (choice) void muteUpdates(choice);
+      });
+      append($$anchor2, select_1);
     };
-    if_block(node_2, ($$render) => {
-      if (get2(checking)) $$render(consequent_2);
+    if_block(node_3, ($$render) => {
+      if (get2(muteLabel)) $$render(consequent_2);
       else $$render(alternate, -1);
+    });
+  }
+  var node_6 = sibling(node_3, 2);
+  {
+    var consequent_3 = ($$anchor2) => {
+      var span = root_44();
+      var span_1 = child(span);
+      var text_4 = child(span_1);
+      reset(span_1);
+      var button_3 = sibling(span_1, 2);
+      var button_4 = sibling(button_3, 2);
+      var button_5 = sibling(button_4, 2);
+      reset(span);
+      template_effect(() => {
+        set_text(text_4, `${get2(selectedIds).size ?? ""} selected`);
+        button_3.disabled = get2(bulkBusy);
+        button_4.disabled = get2(bulkBusy);
+        button_5.disabled = get2(bulkBusy);
+      });
+      delegated("click", button_3, () => void bulkToggle(true));
+      delegated("click", button_4, () => void bulkToggle(false));
+      delegated("click", button_5, () => set(selectedIds, /* @__PURE__ */ new Set(), true));
+      append($$anchor2, span);
+    };
+    if_block(node_6, ($$render) => {
+      if (get2(selectedIds).size > 0) $$render(consequent_3);
+    });
+  }
+  var span_2 = sibling(node_6, 2);
+  var node_7 = child(span_2);
+  {
+    var consequent_4 = ($$anchor2) => {
+      var text_5 = text("Checking for updates\u2026");
+      append($$anchor2, text_5);
+    };
+    var alternate_1 = ($$anchor2) => {
+      var text_6 = text();
+      template_effect(() => set_text(text_6, `${get2(infos).length ?? ""} installed \xB7 ${get2(updateCount) ?? ""} ${get2(updateCount) === 1 ? "update" : "updates"} available`));
+      append($$anchor2, text_6);
+    };
+    if_block(node_7, ($$render) => {
+      if (get2(checking)) $$render(consequent_4);
+      else $$render(alternate_1, -1);
     });
   }
   reset(span_2);
   reset(div_1);
-  var node_3 = sibling(div_1, 2);
+  var node_8 = sibling(div_1, 2);
   {
-    var consequent_3 = ($$anchor2) => {
-      var div_2 = root_14();
-      var text_4 = child(div_2, true);
+    var consequent_5 = ($$anchor2) => {
+      var div_2 = root_52();
+      var text_7 = child(div_2, true);
       reset(div_2);
-      template_effect(() => set_text(text_4, get2(toggleError)));
+      template_effect(() => set_text(text_7, get2(toggleError)));
       append($$anchor2, div_2);
     };
-    if_block(node_3, ($$render) => {
-      if (get2(toggleError)) $$render(consequent_3);
+    if_block(node_8, ($$render) => {
+      if (get2(toggleError)) $$render(consequent_5);
     });
   }
-  var div_3 = sibling(node_3, 2);
+  var details = sibling(node_8, 2);
+  var summary = child(details);
+  var node_9 = child(summary);
+  Icon(node_9, { name: "flask-conical" });
+  var node_10 = sibling(node_9, 4);
+  {
+    var consequent_6 = ($$anchor2) => {
+      var span_3 = root_62();
+      var text_8 = child(span_3, true);
+      reset(span_3);
+      template_effect(() => set_text(text_8, get2(betaPlugins).length));
+      append($$anchor2, span_3);
+    };
+    if_block(node_10, ($$render) => {
+      if (get2(brat).enabled) $$render(consequent_6);
+    });
+  }
+  reset(summary);
+  var div_3 = sibling(summary, 2);
+  var node_11 = child(div_3);
+  {
+    var consequent_7 = ($$anchor2) => {
+      var fragment_2 = root_72();
+      var button_6 = sibling(first_child(fragment_2), 2);
+      var node_12 = child(button_6);
+      Icon(node_12, { name: "download" });
+      next();
+      reset(button_6);
+      delegated("click", button_6, installBrat);
+      append($$anchor2, fragment_2);
+    };
+    var consequent_8 = ($$anchor2) => {
+      var p_1 = root_82();
+      append($$anchor2, p_1);
+    };
+    var alternate_3 = ($$anchor2) => {
+      var fragment_3 = root_132();
+      var div_4 = first_child(fragment_3);
+      var button_7 = child(div_4);
+      var node_13 = child(button_7);
+      Icon(node_13, { name: "plus" });
+      next();
+      reset(button_7);
+      var button_8 = sibling(button_7, 2);
+      var node_14 = child(button_8);
+      Icon(node_14, { name: "refresh-cw" });
+      next();
+      reset(button_8);
+      var button_9 = sibling(button_8, 2);
+      var node_15 = child(button_9);
+      Icon(node_15, { name: "rotate-cw" });
+      next();
+      reset(button_9);
+      reset(div_4);
+      var node_16 = sibling(div_4, 2);
+      {
+        var consequent_9 = ($$anchor3) => {
+          var p_2 = root_92();
+          append($$anchor3, p_2);
+        };
+        var alternate_2 = ($$anchor3) => {
+          var ul = root_123();
+          each(ul, 21, () => get2(betaPlugins), (bp) => bp.repo, ($$anchor4, bp) => {
+            var li = root_112();
+            var a_1 = child(li);
+            var text_9 = child(a_1, true);
+            reset(a_1);
+            var node_17 = sibling(a_1, 2);
+            {
+              var consequent_10 = ($$anchor5) => {
+                var span_4 = root_102();
+                var text_10 = child(span_4);
+                reset(span_4);
+                template_effect(() => set_text(text_10, `pinned v${get2(bp).frozenVersion ?? ""}`));
+                append($$anchor5, span_4);
+              };
+              if_block(node_17, ($$render) => {
+                if (get2(bp).frozenVersion) $$render(consequent_10);
+              });
+            }
+            reset(li);
+            template_effect(() => {
+              set_attribute2(a_1, "href", `https://github.com/${get2(bp).repo}`);
+              set_text(text_9, get2(bp).repo);
+            });
+            append($$anchor4, li);
+          });
+          reset(ul);
+          append($$anchor3, ul);
+        };
+        if_block(node_16, ($$render) => {
+          if (get2(betaPlugins).length === 0) $$render(consequent_9);
+          else $$render(alternate_2, -1);
+        });
+      }
+      delegated("click", button_7, () => runBrat(BRAT_COMMANDS.addBetaPlugin));
+      delegated("click", button_8, () => runBrat(BRAT_COMMANDS.checkAndUpdate));
+      delegated("click", button_9, () => void loadBrat());
+      append($$anchor2, fragment_3);
+    };
+    if_block(node_11, ($$render) => {
+      if (!get2(brat).installed) $$render(consequent_7);
+      else if (!get2(brat).enabled) $$render(consequent_8, 1);
+      else $$render(alternate_3, -1);
+    });
+  }
+  reset(div_3);
+  reset(details);
+  var div_5 = sibling(details, 2);
   each(
-    div_3,
+    div_5,
     21,
     () => get2(visible),
     (info) => info.id,
     ($$anchor2, info) => {
       const entry = user_derived(() => get2(byId).get(get2(info).id));
-      var div_4 = root_72();
+      var div_6 = root_19();
       let classes_1;
-      var div_5 = child(div_4);
-      var node_4 = child(div_5);
+      var div_7 = child(div_6);
+      var node_18 = child(div_7);
       {
-        var consequent_4 = ($$anchor3) => {
-          var input_1 = root_24();
+        var consequent_11 = ($$anchor3) => {
+          var input_1 = root_142();
           remove_input_defaults(input_1);
           let classes_2;
           template_effect(
@@ -7506,117 +9068,132 @@ function InstalledTab($$anchor, $$props) {
           delegated("change", input_1, () => toggleSelect(get2(info).id));
           append($$anchor3, input_1);
         };
-        if_block(node_4, ($$render) => {
-          if (get2(info).id !== $$props.plugin.manifest.id) $$render(consequent_4);
+        if_block(node_18, ($$render) => {
+          if (get2(info).id !== plugin().manifest.id) $$render(consequent_11);
         });
       }
-      var span_3 = sibling(node_4, 2);
-      var text_5 = child(span_3, true);
-      reset(span_3);
-      var node_5 = sibling(span_3, 2);
-      {
-        var consequent_5 = ($$anchor3) => {
-          var span_4 = root_34();
-          append($$anchor3, span_4);
-        };
-        if_block(node_5, ($$render) => {
-          if (get2(info).abandoned) $$render(consequent_5);
-        });
-      }
-      var div_6 = sibling(node_5, 2);
-      let classes_3;
-      var input_2 = child(div_6);
-      remove_input_defaults(input_2);
-      reset(div_6);
-      reset(div_5);
-      var div_7 = sibling(div_5, 2);
-      var span_5 = child(div_7);
-      var text_6 = child(span_5);
+      var span_5 = sibling(node_18, 2);
+      var text_11 = child(span_5, true);
       reset(span_5);
-      var span_6 = sibling(span_5, 2);
-      var text_7 = child(span_6, true);
-      reset(span_6);
-      reset(div_7);
-      var node_6 = sibling(div_7, 2);
+      var node_19 = sibling(span_5, 2);
       {
-        var consequent_6 = ($$anchor3) => {
-          var p = root_42();
-          var text_8 = child(p, true);
-          reset(p);
-          template_effect(() => set_text(text_8, get2(entry).description));
-          append($$anchor3, p);
+        var consequent_12 = ($$anchor3) => {
+          var span_6 = root_15();
+          append($$anchor3, span_6);
         };
-        if_block(node_6, ($$render) => {
-          if (get2(entry)) $$render(consequent_6);
+        if_block(node_19, ($$render) => {
+          if (get2(info).abandoned) $$render(consequent_12);
         });
       }
-      var div_8 = sibling(node_6, 2);
-      var node_7 = child(div_8);
+      var div_8 = sibling(node_19, 2);
+      let classes_3;
+      var input_2 = child(div_8);
+      remove_input_defaults(input_2);
+      reset(div_8);
+      reset(div_7);
+      var div_9 = sibling(div_7, 2);
+      var span_7 = child(div_9);
+      var text_12 = child(span_7);
+      reset(span_7);
+      var span_8 = sibling(span_7, 2);
+      var text_13 = child(span_8, true);
+      reset(span_8);
+      reset(div_9);
+      var node_20 = sibling(div_9, 2);
       {
-        var consequent_7 = ($$anchor3) => {
-          var button_4 = root_52();
-          var node_8 = child(button_4);
-          Icon(node_8, { name: "arrow-up" });
-          var text_9 = sibling(node_8);
-          reset(button_4);
-          template_effect(() => set_text(text_9, `Update to ${get2(info).latestVersion ?? ""}`));
-          delegated("click", button_4, (e) => {
+        var consequent_13 = ($$anchor3) => {
+          var p_3 = root_16();
+          var text_14 = child(p_3, true);
+          reset(p_3);
+          template_effect(() => set_text(text_14, get2(entry).description));
+          append($$anchor3, p_3);
+        };
+        if_block(node_20, ($$render) => {
+          if (get2(entry)) $$render(consequent_13);
+        });
+      }
+      var div_10 = sibling(node_20, 2);
+      var node_21 = child(div_10);
+      {
+        var consequent_14 = ($$anchor3) => {
+          var fragment_4 = root_17();
+          var button_10 = first_child(fragment_4);
+          var node_22 = child(button_10);
+          Icon(node_22, { name: "arrow-up" });
+          var text_15 = sibling(node_22);
+          reset(button_10);
+          var button_11 = sibling(button_10, 2);
+          var button_12 = sibling(button_11, 2);
+          template_effect(() => {
+            set_text(text_15, `Update to ${get2(info).latestVersion ?? ""}`);
+            set_attribute2(button_11, "title", `Skip v${get2(info).latestVersion} \u2014 you'll be notified again on the next version`);
+          });
+          delegated("click", button_10, (e) => {
             e.stopPropagation();
             openNative(get2(info).id);
           });
-          append($$anchor3, button_4);
-        };
-        if_block(node_7, ($$render) => {
-          if (get2(info).updateAvailable) $$render(consequent_7);
-        });
-      }
-      var node_9 = sibling(node_7, 2);
-      {
-        var consequent_8 = ($$anchor3) => {
-          var a_1 = root_62();
-          var node_10 = child(a_1);
-          Icon(node_10, { name: "scroll-text" });
-          reset(a_1);
-          template_effect(() => {
-            set_attribute2(a_1, "href", `https://github.com/${get2(info).repo}/releases`);
-            set_attribute2(a_1, "aria-label", `Changelog for ${get2(info).name}`);
+          delegated("click", button_11, (e) => {
+            e.stopPropagation();
+            void skipUpdate(get2(info));
           });
-          delegated("click", a_1, (e) => e.stopPropagation());
-          append($$anchor3, a_1);
+          delegated("click", button_12, (e) => {
+            e.stopPropagation();
+            void ignoreUpdates(get2(info));
+          });
+          append($$anchor3, fragment_4);
         };
-        if_block(node_9, ($$render) => {
-          if (get2(info).repo) $$render(consequent_8);
+        var d = user_derived(() => actionable(get2(info)));
+        if_block(node_21, ($$render) => {
+          if (get2(d)) $$render(consequent_14);
         });
       }
-      reset(div_8);
-      reset(div_4);
+      var node_23 = sibling(node_21, 2);
+      {
+        var consequent_15 = ($$anchor3) => {
+          var a_2 = root_18();
+          var node_24 = child(a_2);
+          Icon(node_24, { name: "scroll-text" });
+          reset(a_2);
+          template_effect(() => {
+            set_attribute2(a_2, "href", `https://github.com/${get2(info).repo}/releases`);
+            set_attribute2(a_2, "aria-label", `Changelog for ${get2(info).name}`);
+          });
+          delegated("click", a_2, (e) => e.stopPropagation());
+          append($$anchor3, a_2);
+        };
+        if_block(node_23, ($$render) => {
+          if (get2(info).repo) $$render(consequent_15);
+        });
+      }
+      reset(div_10);
+      reset(div_6);
       template_effect(
         ($0) => {
-          classes_1 = set_class(div_4, 1, "bs-card bs-installed-card", null, classes_1, { "bs-installed-off": !get2(info).enabled });
-          set_attribute2(div_4, "role", get2(entry) ? "button" : void 0);
-          set_attribute2(div_4, "tabindex", get2(entry) ? 0 : void 0);
-          set_text(text_5, get2(info).name);
-          classes_3 = set_class(div_6, 1, "checkbox-container bs-installed-toggle", null, classes_3, {
+          classes_1 = set_class(div_6, 1, "bs-card bs-installed-card", null, classes_1, { "bs-installed-off": !get2(info).enabled });
+          set_attribute2(div_6, "role", get2(entry) ? "button" : void 0);
+          set_attribute2(div_6, "tabindex", get2(entry) ? 0 : void 0);
+          set_text(text_11, get2(info).name);
+          classes_3 = set_class(div_8, 1, "checkbox-container bs-installed-toggle", null, classes_3, {
             "is-enabled": get2(info).enabled,
-            "bs-toggle-locked": get2(info).id === $$props.plugin.manifest.id
+            "bs-toggle-locked": get2(info).id === plugin().manifest.id
           });
-          set_attribute2(div_6, "aria-checked", get2(info).enabled);
-          set_attribute2(div_6, "aria-label", `Enable ${get2(info).name}`);
-          set_attribute2(div_6, "tabindex", get2(info).id === $$props.plugin.manifest.id ? -1 : 0);
-          set_attribute2(div_6, "title", get2(info).id === $$props.plugin.manifest.id ? "Better Store cannot disable itself" : get2(info).enabled ? "Disable" : "Enable");
+          set_attribute2(div_8, "aria-checked", get2(info).enabled);
+          set_attribute2(div_8, "aria-label", `Enable ${get2(info).name}`);
+          set_attribute2(div_8, "tabindex", get2(info).id === plugin().manifest.id ? -1 : 0);
+          set_attribute2(div_8, "title", get2(info).id === plugin().manifest.id ? "Better Store cannot disable itself" : get2(info).enabled ? "Disable" : "Enable");
           set_checked(input_2, get2(info).enabled);
-          input_2.disabled = get2(info).id === $$props.plugin.manifest.id;
-          set_text(text_6, `v${get2(info).version ?? ""}`);
-          set_text(text_7, $0);
+          input_2.disabled = get2(info).id === plugin().manifest.id;
+          set_text(text_12, `v${get2(info).version ?? ""}`);
+          set_text(text_13, $0);
         },
         [
           () => get2(info).updated ? `updated ${formatAge(get2(info).updated, Date.now())}` : "not in catalog"
         ]
       );
-      delegated("click", div_4, function(...$$args) {
+      delegated("click", div_6, function(...$$args) {
         (get2(entry) ? () => $$props.onSelect(get2(entry)) : void 0)?.apply(this, $$args);
       });
-      delegated("keydown", div_4, function(...$$args) {
+      delegated("keydown", div_6, function(...$$args) {
         (get2(entry) ? (e) => {
           if (e.target !== e.currentTarget) return;
           if (e.key === "Enter" || e.key === " ") {
@@ -7625,49 +9202,50 @@ function InstalledTab($$anchor, $$props) {
           }
         } : void 0)?.apply(this, $$args);
       });
-      delegated("click", div_6, (e) => {
+      delegated("click", div_8, (e) => {
         e.stopPropagation();
         void toggle(get2(info));
       });
-      delegated("keydown", div_6, (e) => {
+      delegated("keydown", div_8, (e) => {
         e.stopPropagation();
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           void toggle(get2(info));
         }
       });
-      append($$anchor2, div_4);
+      append($$anchor2, div_6);
     },
     ($$anchor2) => {
-      var div_9 = root_82();
-      var text_10 = child(div_9, true);
-      reset(div_9);
-      template_effect(() => set_text(text_10, get2(updatesOnly) ? "Everything is up to date." : "No installed plugins match."));
-      append($$anchor2, div_9);
+      var div_11 = root_20();
+      var text_16 = child(div_11, true);
+      reset(div_11);
+      template_effect(() => set_text(text_16, get2(updatesOnly) ? "Everything is up to date." : "No installed plugins match."));
+      append($$anchor2, div_11);
     }
   );
-  reset(div_3);
+  reset(div_5);
   reset(div);
   template_effect(() => classes = set_class(button, 1, "bs-chip", null, classes, { "bs-chip-active": get2(updatesOnly) }));
   bind_value(input, () => get2(query), ($$value) => set(query, $$value));
   delegated("click", button, () => set(updatesOnly, !get2(updatesOnly)));
+  delegated("click", button_1, saveProfile);
   append($$anchor, div);
   pop();
 }
-delegate(["click", "keydown", "change"]);
+delegate(["click", "change", "keydown"]);
 
 // src/ui/TreeView.svelte
-var root6 = from_html(`<span class="bs-badge bs-badge-installed">Installed</span>`);
-var root_15 = from_html(`<div data-row="" role="button" tabindex="0"><!> <span class="bs-tree-name"> </span> <!> <span class="bs-tree-meta"><!> </span></div>`);
+var root7 = from_html(`<span class="bs-sr-only">installed</span>`);
+var root_110 = from_html(`<div data-row="" role="button" tabindex="0"><!> <span class="bs-tree-name"> </span> <!> <span class="bs-tree-meta"><!> </span></div>`);
 var root_25 = from_html(`<div class="bs-tree-more" data-row="" role="button" tabindex="0"> </div>`);
 var root_35 = from_html(`<!> <!>`, 1);
-var root_43 = from_html(`<div class="bs-tree-folder" data-row="" role="button" tabindex="0"><!> <span class="bs-tree-label"> </span> <span class="bs-tree-count"> </span></div> <!>`, 1);
+var root_45 = from_html(`<div class="bs-tree-folder" data-row="" role="button" tabindex="0"><!> <span class="bs-tree-label"> </span> <span class="bs-tree-count"> </span></div> <!>`, 1);
 var root_53 = from_html(`<div class="bs-tree-folder bs-tree-stale" style="--bs-depth:0" data-row="" data-key="__stale__" role="button" tabindex="0"><!> <span class="bs-tree-label">Stale (12+ months)</span> <span class="bs-tree-count"> </span></div> <!>`, 1);
-var root_63 = from_html(`<div class="bs-tree"><!> <!></div>`);
+var root_63 = from_html(`<div class="bs-tree"><div class="bs-tree-tools"><button class="bs-tree-tool"><!>Expand all</button> <button class="bs-tree-tool"><!>Collapse all</button></div> <!> <!></div>`);
 function TreeView($$anchor, $$props) {
   push($$props, true);
   const folder = ($$anchor2, group = noop, key2 = noop, depth = noop) => {
-    var fragment = root_43();
+    var fragment = root_45();
     var div = first_child(fragment);
     var node_1 = child(div);
     {
@@ -7691,7 +9269,7 @@ function TreeView($$anchor, $$props) {
         var fragment_1 = root_35();
         var node_3 = first_child(fragment_1);
         each(node_3, 17, () => group().entries.slice(0, get2(folderLimits)[key2()] ?? FOLDER_PAGE), (entry) => entry.id, ($$anchor4, entry) => {
-          var div_1 = root_15();
+          var div_1 = root_110();
           let classes;
           var node_4 = child(div_1);
           Icon(node_4, { name: "puzzle" });
@@ -7701,7 +9279,7 @@ function TreeView($$anchor, $$props) {
           var node_5 = sibling(span_2, 2);
           {
             var consequent = ($$anchor5) => {
-              var span_3 = root6();
+              var span_3 = root7();
               append($$anchor5, span_3);
             };
             var d = user_derived(() => $$props.installedIds.has(get2(entry).id));
@@ -7716,16 +9294,22 @@ function TreeView($$anchor, $$props) {
           reset(span_4);
           reset(div_1);
           template_effect(
-            ($0) => {
-              classes = set_class(div_1, 1, "bs-tree-item", null, classes, {
-                "bs-tree-item-selected": $$props.selected?.id === get2(entry).id
-              });
+            ($0, $1, $2) => {
+              classes = set_class(div_1, 1, "bs-tree-item", null, classes, $0);
               set_style(div_1, `--bs-depth:${depth() + 1}`);
               set_attribute2(div_1, "data-depth", depth() + 1);
+              set_attribute2(div_1, "title", $1);
               set_text(text_2, get2(entry).name);
-              set_text(text_3, $0);
+              set_text(text_3, $2);
             },
-            [() => formatCount(get2(entry).downloads)]
+            [
+              () => ({
+                "bs-tree-item-selected": $$props.selected?.id === get2(entry).id,
+                "bs-tree-item-installed": $$props.installedIds.has(get2(entry).id)
+              }),
+              () => $$props.installedIds.has(get2(entry).id) ? `${get2(entry).name} (installed)` : get2(entry).name,
+              () => formatCount(get2(entry).downloads)
+            ]
           );
           delegated("click", div_1, () => $$props.onSelect(get2(entry)));
           delegated("keydown", div_1, (e) => activate(e, () => $$props.onSelect(get2(entry))));
@@ -7776,25 +9360,16 @@ function TreeView($$anchor, $$props) {
     delegated("keydown", div, (e) => activate(e, () => toggleFolder(key2())));
     append($$anchor2, fragment);
   };
+  let plugin = prop($$props, "plugin", 7);
   const FOLDER_PAGE = 150;
-  const EXPANDED_KEY = "better-store-tree-expanded";
-  function loadExpanded() {
-    try {
-      const all = JSON.parse(localStorage.getItem(EXPANDED_KEY) ?? "{}");
-      return new Set(Array.isArray(all[$$props.sort]) ? all[$$props.sort] : []);
-    } catch {
-      return /* @__PURE__ */ new Set();
-    }
-  }
-  let expanded = state(proxy(loadExpanded()));
+  let expanded = state(proxy(new Set(plugin().settings.ui.treeExpanded[$$props.sort] ?? [])));
   let folderLimits = state(proxy({}));
   function persistExpanded() {
-    try {
-      const all = JSON.parse(localStorage.getItem(EXPANDED_KEY) ?? "{}");
-      all[$$props.sort] = [...get2(expanded)];
-      localStorage.setItem(EXPANDED_KEY, JSON.stringify(all));
-    } catch {
-    }
+    plugin().settings.ui.treeExpanded = {
+      ...plugin().settings.ui.treeExpanded,
+      [$$props.sort]: [...get2(expanded)]
+    };
+    void plugin().saveSettings();
   }
   function toggleFolder(key2) {
     const next2 = new Set(get2(expanded));
@@ -7824,7 +9399,7 @@ function TreeView($$anchor, $$props) {
     const handler = (e) => {
       if (!["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)) return;
       const rows = Array.from(node.querySelectorAll("[data-row]"));
-      const idx = rows.indexOf(document.activeElement);
+      const idx = rows.indexOf(node.ownerDocument.activeElement);
       if (idx === -1) return;
       e.preventDefault();
       if (e.key === "ArrowUp" || e.key === "ArrowDown") {
@@ -7840,63 +9415,93 @@ function TreeView($$anchor, $$props) {
     return { destroy: () => node.removeEventListener("keydown", handler) };
   }
   let staleTotal = user_derived(() => $$props.model.stale.reduce((n, g) => n + g.entries.length, 0));
+  function allKeys() {
+    const keys = $$props.model.groups.map((g) => g.label);
+    if (get2(staleTotal) > 0) {
+      keys.push("__stale__");
+      for (const g of $$props.model.stale) keys.push(`stale:${g.label}`);
+    }
+    return keys;
+  }
+  function expandAll() {
+    set(expanded, new Set(allKeys()), true);
+    persistExpanded();
+  }
+  function collapseAll() {
+    set(expanded, /* @__PURE__ */ new Set(), true);
+    persistExpanded();
+  }
   var div_3 = root_63();
-  var node_8 = child(div_3);
-  each(node_8, 17, () => $$props.model.groups, (group) => group.label, ($$anchor2, group) => {
+  var div_4 = child(div_3);
+  var button = child(div_4);
+  var node_8 = child(button);
+  Icon(node_8, { name: "chevrons-up-down" });
+  next();
+  reset(button);
+  var button_1 = sibling(button, 2);
+  var node_9 = child(button_1);
+  Icon(node_9, { name: "chevrons-down-up" });
+  next();
+  reset(button_1);
+  reset(div_4);
+  var node_10 = sibling(div_4, 2);
+  each(node_10, 17, () => $$props.model.groups, (group) => group.label, ($$anchor2, group) => {
     folder($$anchor2, () => get2(group), () => get2(group).label, () => 0);
   });
-  var node_9 = sibling(node_8, 2);
+  var node_11 = sibling(node_10, 2);
   {
     var consequent_4 = ($$anchor2) => {
       var fragment_3 = root_53();
-      var div_4 = first_child(fragment_3);
-      var node_10 = child(div_4);
+      var div_5 = first_child(fragment_3);
+      var node_12 = child(div_5);
       {
         let $0 = user_derived(() => get2(expanded).has("__stale__") ? "folder-open" : "folder");
-        Icon(node_10, {
+        Icon(node_12, {
           get name() {
             return get2($0);
           }
         });
       }
-      var span_5 = sibling(node_10, 4);
+      var span_5 = sibling(node_12, 4);
       var text_5 = child(span_5, true);
       reset(span_5);
-      reset(div_4);
-      var node_11 = sibling(div_4, 2);
+      reset(div_5);
+      var node_13 = sibling(div_5, 2);
       {
         var consequent_3 = ($$anchor3) => {
           var fragment_4 = comment();
-          var node_12 = first_child(fragment_4);
-          each(node_12, 17, () => $$props.model.stale, (group) => group.label, ($$anchor4, group) => {
+          var node_14 = first_child(fragment_4);
+          each(node_14, 17, () => $$props.model.stale, (group) => group.label, ($$anchor4, group) => {
             folder($$anchor4, () => get2(group), () => `stale:${get2(group).label}`, () => 1);
           });
           append($$anchor3, fragment_4);
         };
         var d_2 = user_derived(() => get2(expanded).has("__stale__"));
-        if_block(node_11, ($$render) => {
+        if_block(node_13, ($$render) => {
           if (get2(d_2)) $$render(consequent_3);
         });
       }
       template_effect(($0) => set_text(text_5, $0), [() => get2(staleTotal).toLocaleString()]);
-      delegated("click", div_4, () => toggleFolder("__stale__"));
-      delegated("keydown", div_4, (e) => activate(e, () => toggleFolder("__stale__")));
+      delegated("click", div_5, () => toggleFolder("__stale__"));
+      delegated("keydown", div_5, (e) => activate(e, () => toggleFolder("__stale__")));
       append($$anchor2, fragment_3);
     };
-    if_block(node_9, ($$render) => {
+    if_block(node_11, ($$render) => {
       if (get2(staleTotal) > 0) $$render(consequent_4);
     });
   }
   reset(div_3);
   action(div_3, ($$node) => treeNav?.($$node));
+  delegated("click", button, expandAll);
+  delegated("click", button_1, collapseAll);
   append($$anchor, div_3);
   pop();
 }
 delegate(["click", "keydown"]);
 
 // src/data/tree.ts
-var DAY = 864e5;
-var STALE_MS = 365 * DAY;
+var DAY2 = 864e5;
+var STALE_MS = 365 * DAY2;
 var DOWNLOAD_BUCKETS = [
   { min: 3e6, label: "3M+" },
   { min: 2e6, label: "2M+" },
@@ -7924,13 +9529,33 @@ var TRENDING_BUCKETS = [
   { min: -Infinity, label: "No recent growth" }
 ];
 var NAME_ORDER = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ", "#"];
+var STAR_BUCKETS = [
+  { min: 1e4, label: "10k+ stars" },
+  { min: 1e3, label: "1k+ stars" },
+  { min: 100, label: "100+ stars" },
+  { min: 1, label: "Under 100 stars" },
+  { min: 0, label: "No stars" }
+];
+var ISSUE_BUCKETS = [
+  { min: 100, label: "100+ open issues" },
+  { min: 10, label: "10+ open issues" },
+  { min: 1, label: "1+ open issues" },
+  { min: 0, label: "No open issues" }
+];
+var ADDED_BUCKETS = [
+  { maxDays: 30, label: "Added this month" },
+  { maxDays: 90, label: "Added last 3 months" },
+  { maxDays: 365, label: "Added this year" },
+  { maxDays: Infinity, label: "Added over a year ago" }
+];
+var NOT_SCANNED = "Not scanned yet";
 function labelFor(entry, sort, ctx) {
   switch (sort) {
     case "downloads":
       return DOWNLOAD_BUCKETS.find((b) => entry.downloads >= b.min).label;
     case "updated": {
       if (!entry.updated) return "Unknown";
-      const days = (ctx.now - entry.updated) / DAY;
+      const days = (ctx.now - entry.updated) / DAY2;
       return UPDATED_BUCKETS.find((b) => days <= b.maxDays).label;
     }
     case "trending": {
@@ -7940,6 +9565,24 @@ function labelFor(entry, sort, ctx) {
     case "name": {
       const first = entry.name.trim().charAt(0).toUpperCase();
       return /[A-Z]/.test(first) ? first : "#";
+    }
+    case "stars": {
+      const stat = ctx.repoStats[entry.repo];
+      if (stat == null) return NOT_SCANNED;
+      const stars = typeof stat.stars === "number" ? stat.stars : 0;
+      return STAR_BUCKETS.find((b) => stars >= b.min).label;
+    }
+    case "issues": {
+      const stat = ctx.repoStats[entry.repo];
+      if (stat == null) return NOT_SCANNED;
+      const issues = typeof stat.openIssues === "number" ? stat.openIssues : 0;
+      return ISSUE_BUCKETS.find((b) => issues >= b.min).label;
+    }
+    case "added": {
+      const stat = ctx.repoStats[entry.repo];
+      if (stat == null || !stat.createdAt) return NOT_SCANNED;
+      const days = (ctx.now - stat.createdAt) / DAY2;
+      return ADDED_BUCKETS.find((b) => days <= b.maxDays).label;
     }
   }
 }
@@ -7953,17 +9596,23 @@ function bucketOrder(sort) {
       return TRENDING_BUCKETS.map((b) => b.label);
     case "name":
       return NAME_ORDER;
+    case "stars":
+      return [...STAR_BUCKETS.map((b) => b.label), NOT_SCANNED];
+    case "issues":
+      return [...ISSUE_BUCKETS.map((b) => b.label), NOT_SCANNED];
+    case "added":
+      return [...ADDED_BUCKETS.map((b) => b.label), NOT_SCANNED];
   }
 }
 function groupInOrder(entries, sort, ctx) {
   const byLabel = /* @__PURE__ */ new Map();
   for (const e of entries) {
-    const label = labelFor(e, sort, ctx);
-    const bucket = byLabel.get(label);
+    const label2 = labelFor(e, sort, ctx);
+    const bucket = byLabel.get(label2);
     if (bucket) bucket.push(e);
-    else byLabel.set(label, [e]);
+    else byLabel.set(label2, [e]);
   }
-  return bucketOrder(sort).filter((label) => byLabel.has(label)).map((label) => ({ label, entries: byLabel.get(label) }));
+  return bucketOrder(sort).filter((label2) => byLabel.has(label2)).map((label2) => ({ label: label2, entries: byLabel.get(label2) }));
 }
 function buildTree(entries, sort, ctx) {
   if (sort === "updated") {
@@ -7981,17 +9630,22 @@ function buildTree(entries, sort, ctx) {
 }
 
 // src/ui/StoreView.svelte
-var root7 = from_html(`<button> </button>`);
-var root_16 = from_html(`<button class="bs-refresh"><!> </button>`);
-var root_26 = from_html(`<div class="bs-banner">Showing cached data \u2014 the registry could not be refreshed.</div>`);
-var root_36 = from_html(`<div class="bs-banner bs-banner-info">Trending compares download counts across catalog refreshes, so it needs a couple of days of history \u2014 sorted by downloads for now.</div>`);
-var root_44 = from_html(`<div class="bs-status">Loading plugin catalog\u2026</div>`);
-var root_54 = from_html(`<div class="bs-status bs-error"> </div>`);
-var root_64 = from_html(`<div class="bs-body"><main class="bs-main"><!></main> <!></div>`);
-var root_73 = from_html(`<div class="bs-load-more"> </div>`);
-var root_83 = from_html(`<div class="bs-grid"></div> <!>`, 1);
-var root_92 = from_html(`<div class="bs-body"><!> <main class="bs-main"><div class="bs-count"> </div> <!></main> <!></div>`);
-var root_10 = from_html(`<div class="bs-root"><header class="bs-header"><nav class="bs-tabs"></nav> <div class="bs-header-actions"><!> <button class="bs-refresh" title="Refresh catalog"><!>Refresh</button></div></header> <!> <!> <!></div>`);
+var root8 = from_html(`<button> </button>`);
+var root_111 = from_html(`<button class="bs-refresh bs-scan-progress" title="Cancel the GitHub scan"><!> </button>`);
+var root_26 = from_html(`<button class="bs-refresh"><!>Scan GitHub</button>`);
+var root_36 = from_html(`<button title="Show or hide filters"><!>Filters</button> <!> <button class="bs-refresh"><!> </button>`, 1);
+var root_46 = from_html(`<div class="bs-banner">Showing cached data \u2014 the registry could not be refreshed.</div>`);
+var root_54 = from_html(`<div class="bs-banner bs-banner-info">Trending compares download counts across catalog refreshes, so it needs a couple of days of history \u2014 sorted by downloads for now.</div>`);
+var root_64 = from_html(`<div class="bs-card bs-skeleton-card"><div class="bs-skel" style="width:55%"></div> <div class="bs-skel bs-skel-thin" style="width:90%"></div> <div class="bs-skel bs-skel-thin" style="width:70%"></div> <div class="bs-skel bs-skel-chip"></div></div>`);
+var root_73 = from_html(`<div class="bs-body" aria-label="Loading plugin catalog"><main class="bs-main"><div class="bs-grid" aria-hidden="true"></div></main></div>`);
+var root_83 = from_html(`<div class="bs-status bs-error"> </div>`);
+var root_93 = from_html(`<div class="bs-body"><main class="bs-main"><!></main> <!></div>`);
+var root_103 = from_html(`<div class="bs-author-filter"><!> <span>Plugins by <strong> </strong></span> <button class="bs-author-clear" title="Clear author filter" aria-label="Clear author filter"><!></button></div>`);
+var root_113 = from_html(`<div class="bs-empty"><!> <p>No plugins match the current filters.</p> <button class="bs-empty-clear">Clear filters</button></div>`);
+var root_124 = from_html(`<div class="bs-load-more"> </div>`);
+var root_133 = from_html(`<div class="bs-grid"></div> <!>`, 1);
+var root_143 = from_html(`<div><!> <main class="bs-main"><!> <div class="bs-count"> </div> <!></main> <!></div>`);
+var root_152 = from_html(`<div class="bs-root"><header class="bs-header"><nav class="bs-tabs"></nav> <div class="bs-header-actions"><!> <button class="bs-refresh" title="Refresh catalog"><!>Refresh</button></div></header> <!> <!> <!></div>`);
 function StoreView($$anchor, $$props) {
   push($$props, true);
   let plugin = prop($$props, "plugin", 7);
@@ -7999,12 +9653,15 @@ function StoreView($$anchor, $$props) {
   let loading = state(true);
   let stale = state(false);
   let error = state(null);
-  let tab = state("all");
+  let tab = state(proxy(plugin().settings.ui.lastTab ?? "all"));
   let trendingDeltas = state(proxy({}));
   let installedIds = state(proxy(/* @__PURE__ */ new Set()));
   let newIds = state(proxy(/* @__PURE__ */ new Set()));
   let selected = state(null);
   let settingsTick = state(0);
+  let tokenTick = state(0);
+  let repoStats = state(proxy({}));
+  let scanState = state(proxy(plugin().scanState));
   let filters = state(proxy({
     ...EMPTY_FILTER,
     sort: plugin().settings.defaultSort,
@@ -8012,12 +9669,16 @@ function StoreView($$anchor, $$props) {
   }));
   const TABS = [
     { id: "all", label: "All" },
-    { id: "updated", label: "Recently updated" },
     { id: "trending", label: "Trending" },
     { id: "installed", label: "Installed" }
   ];
   let trendingReady = user_derived(() => Object.keys(get2(trendingDeltas)).length > 0);
-  let requestedSort = user_derived(() => get2(tab) === "updated" ? "updated" : get2(tab) === "trending" ? "trending" : get2(filters).sort);
+  let hasToken = user_derived(() => {
+    void get2(tokenTick);
+    void get2(settingsTick);
+    return plugin().service.hasGithubToken();
+  });
+  let requestedSort = user_derived(() => get2(tab) === "trending" ? "trending" : get2(filters).sort);
   let effectiveFilters = user_derived(() => ({
     ...get2(filters),
     sort: get2(requestedSort) === "trending" && !get2(trendingReady) ? "downloads" : get2(requestedSort)
@@ -8030,31 +9691,85 @@ function StoreView($$anchor, $$props) {
     void get2(settingsTick);
     return plugin().settings.showNewBadges;
   });
+  let filterPresets = user_derived(() => {
+    void get2(settingsTick);
+    return plugin().settings.filterPresets;
+  });
+  let similar = user_derived(() => {
+    void get2(settingsTick);
+    return get2(selected) && plugin().settings.showSimilar ? similarPlugins(get2(selected), get2(entries), 5) : [];
+  });
+  user_effect(() => {
+    const id = get2(selected)?.id;
+    if (!id) return;
+    untrack(() => {
+      if (!plugin().settings.trackRecentlyViewed) return;
+      const current = plugin().settings.ui.recentlyViewed;
+      if (current[0] === id) return;
+      plugin().settings.ui.recentlyViewed = [id, ...current.filter((r) => r !== id)].slice(0, 20);
+      void plugin().saveSettings();
+    });
+  });
+  const NO_INSTALLED = /* @__PURE__ */ new Set();
   let visible = user_derived(() => {
     void get2(settingsTick);
     return filterPlugins(get2(entries), get2(effectiveFilters), {
-      installedIds: get2(installedIds),
+      installedIds: get2(effectiveFilters).hideInstalled ? get2(installedIds) : NO_INSTALLED,
       ignoredIds: new Set(plugin().settings.ignoredPlugins),
       ignoredAuthors: new Set(plugin().settings.ignoredAuthors),
       ignoredCategories: new Set(plugin().settings.ignoredCategories),
       favoriteIds: get2(favoriteIds),
       newIds: get2(newIds),
       trendingDeltas: get2(trendingDeltas),
+      repoStats: get2(repoStats),
       now: Date.now()
     });
   });
   const PAGE_SIZE = 60;
   let renderLimit = state(PAGE_SIZE);
   let shown = user_derived(() => get2(visible).slice(0, get2(renderLimit)));
-  const LAYOUT_KEY = "better-store-layout";
-  let layout = state(proxy(localStorage.getItem(LAYOUT_KEY) === "tree" ? "tree" : "grid"));
+  const cardStars = new SvelteMap();
+  const requestedStars = /* @__PURE__ */ new Set();
+  let starsHalted = false;
+  let starsEnabled = user_derived(() => {
+    void get2(settingsTick);
+    void get2(tokenTick);
+    return plugin().settings.showCardStars && plugin().service.hasGithubToken();
+  });
+  user_effect(() => {
+    const targets = get2(starsEnabled) && get2(layout) === "grid" && get2(tab) !== "installed" ? get2(shown) : [];
+    untrack(() => void prefetchStars(targets));
+  });
+  async function prefetchStars(targets) {
+    if (starsHalted) return;
+    const queue = targets.filter((e) => !requestedStars.has(e.id));
+    for (const e of queue) requestedStars.add(e.id);
+    await Promise.all(Array.from({ length: 4 }, async () => {
+      let entry;
+      while (!starsHalted && (entry = queue.shift())) {
+        try {
+          cardStars.set(entry.id, (await plugin().service.getRepoStats(entry.repo)).stars);
+        } catch {
+          starsHalted = true;
+        }
+      }
+    }));
+  }
+  let layout = state(proxy(plugin().settings.ui.layout));
+  let showFilters = state(false);
   function toggleLayout() {
     set(layout, get2(layout) === "grid" ? "tree" : "grid", true);
-    localStorage.setItem(LAYOUT_KEY, get2(layout));
+    plugin().settings.ui.layout = get2(layout);
+    void plugin().saveSettings();
   }
-  let tree = user_derived(() => get2(layout) === "tree" ? buildTree(get2(visible), get2(effectiveFilters).sort, { now: Date.now(), trendingDeltas: get2(trendingDeltas) }) : null);
+  let tree = user_derived(() => get2(layout) === "tree" ? buildTree(get2(visible), get2(effectiveFilters).sort, {
+    now: Date.now(),
+    trendingDeltas: get2(trendingDeltas),
+    repoStats: get2(repoStats)
+  }) : null);
   function loadMoreSentinel(node) {
-    const observer = new IntersectionObserver(
+    const win = node.ownerDocument.defaultView ?? window;
+    const observer = new win.IntersectionObserver(
       (intersections) => {
         if (intersections.some((i) => i.isIntersecting) && get2(renderLimit) < get2(visible).length) {
           set(renderLimit, get2(renderLimit) + PAGE_SIZE);
@@ -8069,7 +9784,7 @@ function StoreView($$anchor, $$props) {
     const handler = (e) => {
       if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
       const cards = Array.from(node.querySelectorAll(".bs-card"));
-      const idx = cards.indexOf(document.activeElement);
+      const idx = cards.indexOf(node.ownerDocument.activeElement);
       if (idx === -1) return;
       e.preventDefault();
       let target;
@@ -8104,12 +9819,19 @@ function StoreView($$anchor, $$props) {
       set(trendingDeltas, await plugin().service.getTrendingDeltas(), true);
       set(newIds, await plugin().service.getNewIds(NEW_WINDOW_DAYS), true);
       set(installedIds, getInstalledIds(plugin().app), true);
+      set(repoStats, await plugin().service.getAllRepoStats(), true);
     } catch (e) {
       set(error, e instanceof Error ? e.message : String(e), true);
     } finally {
       set(loading, false);
       if (plugin().pendingDetailId) showDetail(plugin().pendingDetailId);
     }
+  }
+  async function refreshRepoStats() {
+    set(repoStats, await plugin().service.getAllRepoStats(), true);
+  }
+  function startScan() {
+    void plugin().startCatalogScan();
   }
   function showDetail(id) {
     const entry = get2(entries).find((e) => e.id === id);
@@ -8118,7 +9840,7 @@ function StoreView($$anchor, $$props) {
     set(selected, entry, true);
   }
   function openIgnoreMenu(e, entry) {
-    const menu = new import_obsidian4.Menu();
+    const menu = new import_obsidian6.Menu();
     menu.addItem((item) => item.setTitle(`Ignore "${entry.name}"`).setIcon("x").onClick(async () => {
       if (!plugin().settings.ignoredPlugins.includes(entry.id)) {
         plugin().settings.ignoredPlugins = [...plugin().settings.ignoredPlugins, entry.id];
@@ -8143,6 +9865,34 @@ function StoreView($$anchor, $$props) {
       }));
     }
     menu.showAtMouseEvent(e);
+  }
+  function savePreset() {
+    new NameModal(plugin().app, "Save filter preset", (name) => {
+      const withoutSameName = plugin().settings.filterPresets.filter((p) => p.name !== name);
+      plugin().settings.filterPresets = [...withoutSameName, { name, state: { ...get2(filters) } }];
+      void plugin().saveSettings();
+      new import_obsidian6.Notice(`Preset "${name}" saved.`);
+    }).open();
+  }
+  function resetFilters() {
+    set(filters, { ...EMPTY_FILTER, sort: plugin().settings.defaultSort }, true);
+    set(renderLimit, PAGE_SIZE);
+  }
+  function setTab(next2) {
+    set(tab, next2, true);
+    set(selected, null);
+    set(renderLimit, PAGE_SIZE);
+    plugin().settings.ui.lastTab = next2;
+    void plugin().saveSettings();
+  }
+  function drillAuthor(author) {
+    set(filters, { ...EMPTY_FILTER, sort: get2(filters).sort, author }, true);
+    set(renderLimit, PAGE_SIZE);
+    setTab("all");
+  }
+  function clearAuthor() {
+    set(filters, { ...get2(filters), author: "" }, true);
+    set(renderLimit, PAGE_SIZE);
   }
   async function toggleFavorite(id) {
     plugin().settings.favoritePlugins = plugin().settings.favoritePlugins.includes(id) ? plugin().settings.favoritePlugins.filter((f) => f !== id) : [...plugin().settings.favoritePlugins, id];
@@ -8175,6 +9925,20 @@ function StoreView($$anchor, $$props) {
       set(settingsTick, get2(settingsTick) + 1);
     });
     const unsubscribeDetail = plugin().registerDetailListener((id) => showDetail(id));
+    const unsubscribeToken = plugin().registerTokenListener(() => {
+      requestedStars.clear();
+      starsHalted = false;
+      set(tokenTick, get2(tokenTick) + 1);
+    });
+    let lastStatsRefresh = 0;
+    const unsubscribeScan = plugin().registerScanListener(() => {
+      set(scanState, { ...plugin().scanState }, true);
+      const now = Date.now();
+      if (!plugin().scanState.running || now - lastStatsRefresh >= 5e3) {
+        lastStatsRefresh = now;
+        void refreshRepoStats();
+      }
+    });
     const onEscape = (e) => {
       if (e.key === "Escape" && get2(selected)) {
         set(selected, null);
@@ -8186,14 +9950,16 @@ function StoreView($$anchor, $$props) {
       window.clearInterval(installedPoll);
       unsubscribeSettings();
       unsubscribeDetail();
+      unsubscribeToken();
+      unsubscribeScan();
       $$props.view.contentEl.removeEventListener("keydown", onEscape);
     };
   });
-  var div = root_10();
+  var div = root_152();
   var header = child(div);
   var nav = child(header);
   each(nav, 21, () => TABS, (t) => t.id, ($$anchor2, t) => {
-    var button = root7();
+    var button = root8();
     let classes;
     var text2 = child(button, true);
     reset(button);
@@ -8202,87 +9968,135 @@ function StoreView($$anchor, $$props) {
       set_attribute2(button, "aria-pressed", get2(tab) === get2(t).id);
       set_text(text2, get2(t).label);
     });
-    delegated("click", button, () => {
-      set(tab, get2(t).id, true);
-      set(selected, null);
-      set(renderLimit, PAGE_SIZE);
-    });
+    delegated("click", button, () => setTab(get2(t).id));
     append($$anchor2, button);
   });
   reset(nav);
   var div_1 = sibling(nav, 2);
   var node_1 = child(div_1);
   {
-    var consequent = ($$anchor2) => {
-      var button_1 = root_16();
+    var consequent_1 = ($$anchor2) => {
+      var fragment = root_36();
+      var button_1 = first_child(fragment);
+      let classes_1;
       var node_2 = child(button_1);
+      Icon(node_2, { name: "sliders-horizontal" });
+      next();
+      reset(button_1);
+      var node_3 = sibling(button_1, 2);
+      {
+        var consequent = ($$anchor3) => {
+          var button_2 = root_111();
+          var node_4 = child(button_2);
+          Icon(node_4, { name: "loader" });
+          var text_1 = sibling(node_4);
+          reset(button_2);
+          template_effect(($0, $1) => set_text(text_1, `Scanning ${$0 ?? ""}/${$1 ?? ""} \xB7 Cancel`), [
+            () => get2(scanState).done.toLocaleString(),
+            () => get2(scanState).total.toLocaleString()
+          ]);
+          delegated("click", button_2, () => plugin().cancelCatalogScan());
+          append($$anchor3, button_2);
+        };
+        var alternate = ($$anchor3) => {
+          var button_3 = root_26();
+          var node_5 = child(button_3);
+          Icon(node_5, { name: "github" });
+          next();
+          reset(button_3);
+          template_effect(() => {
+            set_attribute2(button_3, "title", get2(hasToken) ? "Fetch GitHub stars & open issues for the whole catalog so you can sort by them" : "Link a GitHub token in settings to scan the catalog (the 60/hour anonymous limit is too low)");
+            button_3.disabled = !get2(hasToken);
+          });
+          delegated("click", button_3, startScan);
+          append($$anchor3, button_3);
+        };
+        if_block(node_3, ($$render) => {
+          if (get2(scanState).running) $$render(consequent);
+          else $$render(alternate, -1);
+        });
+      }
+      var button_4 = sibling(node_3, 2);
+      var node_6 = child(button_4);
       {
         let $0 = user_derived(() => get2(layout) === "grid" ? "list-tree" : "layout-grid");
-        Icon(node_2, {
+        Icon(node_6, {
           get name() {
             return get2($0);
           }
         });
       }
-      var text_1 = sibling(node_2, 1, true);
-      reset(button_1);
+      var text_2 = sibling(node_6, 1, true);
+      reset(button_4);
       template_effect(() => {
-        set_attribute2(button_1, "title", get2(layout) === "grid" ? "Switch to tree view" : "Switch to grid view");
-        set_attribute2(button_1, "aria-label", get2(layout) === "grid" ? "Switch to tree view" : "Switch to grid view");
-        set_text(text_1, get2(layout) === "grid" ? "Tree" : "Grid");
+        classes_1 = set_class(button_1, 1, "bs-refresh bs-filters-toggle", null, classes_1, { "bs-tab-active": get2(showFilters) });
+        set_attribute2(button_1, "aria-pressed", get2(showFilters));
+        set_attribute2(button_4, "title", get2(layout) === "grid" ? "Switch to tree view" : "Switch to grid view");
+        set_attribute2(button_4, "aria-label", get2(layout) === "grid" ? "Switch to tree view" : "Switch to grid view");
+        set_text(text_2, get2(layout) === "grid" ? "Tree" : "Grid");
       });
-      delegated("click", button_1, toggleLayout);
-      append($$anchor2, button_1);
+      delegated("click", button_1, () => set(showFilters, !get2(showFilters)));
+      delegated("click", button_4, toggleLayout);
+      append($$anchor2, fragment);
     };
     if_block(node_1, ($$render) => {
-      if (get2(tab) !== "installed") $$render(consequent);
+      if (get2(tab) !== "installed") $$render(consequent_1);
     });
   }
-  var button_2 = sibling(node_1, 2);
-  var node_3 = child(button_2);
-  Icon(node_3, { name: "refresh-cw" });
+  var button_5 = sibling(node_1, 2);
+  var node_7 = child(button_5);
+  Icon(node_7, { name: "refresh-cw" });
   next();
-  reset(button_2);
+  reset(button_5);
   reset(div_1);
   reset(header);
-  var node_4 = sibling(header, 2);
-  {
-    var consequent_1 = ($$anchor2) => {
-      var div_2 = root_26();
-      append($$anchor2, div_2);
-    };
-    if_block(node_4, ($$render) => {
-      if (get2(stale)) $$render(consequent_1);
-    });
-  }
-  var node_5 = sibling(node_4, 2);
+  var node_8 = sibling(header, 2);
   {
     var consequent_2 = ($$anchor2) => {
-      var div_3 = root_36();
-      append($$anchor2, div_3);
+      var div_2 = root_46();
+      append($$anchor2, div_2);
     };
-    if_block(node_5, ($$render) => {
-      if (get2(requestedSort) === "trending" && !get2(loading) && !get2(trendingReady)) $$render(consequent_2);
+    if_block(node_8, ($$render) => {
+      if (get2(stale)) $$render(consequent_2);
     });
   }
-  var node_6 = sibling(node_5, 2);
+  var node_9 = sibling(node_8, 2);
   {
     var consequent_3 = ($$anchor2) => {
-      var div_4 = root_44();
+      var div_3 = root_54();
+      append($$anchor2, div_3);
+    };
+    if_block(node_9, ($$render) => {
+      if (get2(requestedSort) === "trending" && !get2(loading) && !get2(trendingReady)) $$render(consequent_3);
+    });
+  }
+  var node_10 = sibling(node_9, 2);
+  {
+    var consequent_4 = ($$anchor2) => {
+      var div_4 = root_73();
+      var main = child(div_4);
+      var div_5 = child(main);
+      each(div_5, 20, () => Array(12), index, ($$anchor3, _) => {
+        var div_6 = root_64();
+        append($$anchor3, div_6);
+      });
+      reset(div_5);
+      reset(main);
+      reset(div_4);
       append($$anchor2, div_4);
     };
-    var consequent_4 = ($$anchor2) => {
-      var div_5 = root_54();
-      var text_2 = child(div_5);
-      reset(div_5);
-      template_effect(() => set_text(text_2, `Failed to load the plugin catalog: ${get2(error) ?? ""}`));
-      append($$anchor2, div_5);
+    var consequent_5 = ($$anchor2) => {
+      var div_7 = root_83();
+      var text_3 = child(div_7);
+      reset(div_7);
+      template_effect(() => set_text(text_3, `Failed to load the plugin catalog: ${get2(error) ?? ""}`));
+      append($$anchor2, div_7);
     };
-    var consequent_6 = ($$anchor2) => {
-      var div_6 = root_64();
-      var main = child(div_6);
-      var node_7 = child(main);
-      InstalledTab(node_7, {
+    var consequent_7 = ($$anchor2) => {
+      var div_8 = root_93();
+      var main_1 = child(div_8);
+      var node_11 = child(main_1);
+      InstalledTab(node_11, {
         get plugin() {
           return plugin();
         },
@@ -8291,10 +10105,10 @@ function StoreView($$anchor, $$props) {
         },
         onSelect: (entry) => set(selected, entry, true)
       });
-      reset(main);
-      var node_8 = sibling(main, 2);
+      reset(main_1);
+      var node_12 = sibling(main_1, 2);
       {
-        var consequent_5 = ($$anchor3) => {
+        var consequent_6 = ($$anchor3) => {
           {
             let $0 = user_derived(() => get2(installedIds).has(get2(selected).id));
             let $1 = user_derived(() => get2(favoriteIds).has(get2(selected).id));
@@ -8305,6 +10119,9 @@ function StoreView($$anchor, $$props) {
               get view() {
                 return $$props.view;
               },
+              get refreshTick() {
+                return get2(tokenTick);
+              },
               get entry() {
                 return get2(selected);
               },
@@ -8314,52 +10131,98 @@ function StoreView($$anchor, $$props) {
               get starred() {
                 return get2($1);
               },
+              get similar() {
+                return get2(similar);
+              },
+              onSelectEntry: (entry) => set(selected, entry, true),
               onToggleStar: () => void toggleFavorite(get2(selected).id),
+              onDrillAuthor: drillAuthor,
               onClose: () => set(selected, null)
             });
           }
         };
-        if_block(node_8, ($$render) => {
-          if (get2(selected)) $$render(consequent_5);
+        if_block(node_12, ($$render) => {
+          if (get2(selected)) $$render(consequent_6);
         });
       }
-      reset(div_6);
-      append($$anchor2, div_6);
+      reset(div_8);
+      append($$anchor2, div_8);
     };
-    var alternate_1 = ($$anchor2) => {
-      var div_7 = root_92();
-      var node_9 = child(div_7);
+    var alternate_2 = ($$anchor2) => {
+      var div_9 = root_143();
+      let classes_2;
+      var node_13 = child(div_9);
       {
         let $0 = user_derived(() => get2(tab) === "all");
-        FilterSidebar(node_9, {
+        FilterSidebar(node_13, {
           get filters() {
             return get2(filters);
           },
           get showSort() {
             return get2($0);
           },
+          get presets() {
+            return get2(filterPresets);
+          },
           onChange: (next2) => {
             set(filters, next2, true);
             set(renderLimit, PAGE_SIZE);
-          }
+          },
+          onSavePreset: savePreset
         });
       }
-      var main_1 = sibling(node_9, 2);
-      var div_8 = child(main_1);
-      var text_3 = child(div_8);
-      reset(div_8);
-      var node_10 = sibling(div_8, 2);
+      var main_2 = sibling(node_13, 2);
+      var node_14 = child(main_2);
       {
-        var consequent_7 = ($$anchor3) => {
-          var fragment_1 = comment();
-          var node_11 = first_child(fragment_1);
-          key(node_11, () => get2(effectiveFilters).sort, ($$anchor4) => {
+        var consequent_8 = ($$anchor3) => {
+          var div_10 = root_103();
+          var node_15 = child(div_10);
+          Icon(node_15, { name: "user" });
+          var span = sibling(node_15, 2);
+          var strong = sibling(child(span));
+          var text_4 = child(strong, true);
+          reset(strong);
+          reset(span);
+          var button_6 = sibling(span, 2);
+          var node_16 = child(button_6);
+          Icon(node_16, { name: "x" });
+          reset(button_6);
+          reset(div_10);
+          template_effect(() => set_text(text_4, get2(filters).author));
+          delegated("click", button_6, clearAuthor);
+          append($$anchor3, div_10);
+        };
+        if_block(node_14, ($$render) => {
+          if (get2(filters).author) $$render(consequent_8);
+        });
+      }
+      var div_11 = sibling(node_14, 2);
+      var text_5 = child(div_11);
+      reset(div_11);
+      var node_17 = sibling(div_11, 2);
+      {
+        var consequent_9 = ($$anchor3) => {
+          var div_12 = root_113();
+          var node_18 = child(div_12);
+          Icon(node_18, { name: "search-x" });
+          var button_7 = sibling(node_18, 4);
+          reset(div_12);
+          delegated("click", button_7, resetFilters);
+          append($$anchor3, div_12);
+        };
+        var consequent_10 = ($$anchor3) => {
+          var fragment_2 = comment();
+          var node_19 = first_child(fragment_2);
+          key(node_19, () => get2(effectiveFilters).sort, ($$anchor4) => {
             TreeView($$anchor4, {
               get model() {
                 return get2(tree);
               },
               get sort() {
                 return get2(effectiveFilters).sort;
+              },
+              get plugin() {
+                return plugin();
               },
               get selected() {
                 return get2(selected);
@@ -8370,17 +10233,18 @@ function StoreView($$anchor, $$props) {
               onSelect: (entry) => set(selected, entry, true)
             });
           });
-          append($$anchor3, fragment_1);
+          append($$anchor3, fragment_2);
         };
-        var alternate = ($$anchor3) => {
-          var fragment_3 = root_83();
-          var div_9 = first_child(fragment_3);
-          each(div_9, 21, () => get2(shown), (entry) => entry.id, ($$anchor4, entry) => {
+        var alternate_1 = ($$anchor3) => {
+          var fragment_4 = root_133();
+          var div_13 = first_child(fragment_4);
+          each(div_13, 21, () => get2(shown), (entry) => entry.id, ($$anchor4, entry) => {
             {
               let $0 = user_derived(() => get2(installedIds).has(get2(entry).id));
               let $1 = user_derived(() => get2(selected)?.id === get2(entry).id);
               let $2 = user_derived(() => get2(favoriteIds).has(get2(entry).id));
               let $3 = user_derived(() => get2(showNewBadges) && get2(newIds).has(get2(entry).id));
+              let $4 = user_derived(() => cardStars.get(get2(entry).id) ?? get2(repoStats)[get2(entry).repo]?.stars);
               PluginCard($$anchor4, {
                 get entry() {
                   return get2(entry);
@@ -8397,42 +10261,47 @@ function StoreView($$anchor, $$props) {
                 get isNew() {
                   return get2($3);
                 },
+                get stars() {
+                  return get2($4);
+                },
                 onSelect: () => set(selected, get2(entry), true),
                 onToggleStar: () => void toggleFavorite(get2(entry).id),
-                onIgnore: (e) => openIgnoreMenu(e, get2(entry))
+                onIgnore: (e) => openIgnoreMenu(e, get2(entry)),
+                onAuthor: () => drillAuthor(get2(entry).author)
               });
             }
           });
-          reset(div_9);
-          action(div_9, ($$node) => gridNav?.($$node));
-          var node_12 = sibling(div_9, 2);
+          reset(div_13);
+          action(div_13, ($$node) => gridNav?.($$node));
+          var node_20 = sibling(div_13, 2);
           {
-            var consequent_8 = ($$anchor4) => {
-              var div_10 = root_73();
-              var text_4 = child(div_10);
-              reset(div_10);
-              action(div_10, ($$node) => loadMoreSentinel?.($$node));
-              template_effect(($0, $1) => set_text(text_4, `Showing ${$0 ?? ""} of ${$1 ?? ""} \u2014 scroll for more`), [
+            var consequent_11 = ($$anchor4) => {
+              var div_14 = root_124();
+              var text_6 = child(div_14);
+              reset(div_14);
+              action(div_14, ($$node) => loadMoreSentinel?.($$node));
+              template_effect(($0, $1) => set_text(text_6, `Showing ${$0 ?? ""} of ${$1 ?? ""} \u2014 scroll for more`), [
                 () => get2(renderLimit).toLocaleString(),
                 () => get2(visible).length.toLocaleString()
               ]);
-              append($$anchor4, div_10);
+              append($$anchor4, div_14);
             };
-            if_block(node_12, ($$render) => {
-              if (get2(renderLimit) < get2(visible).length) $$render(consequent_8);
+            if_block(node_20, ($$render) => {
+              if (get2(renderLimit) < get2(visible).length) $$render(consequent_11);
             });
           }
-          append($$anchor3, fragment_3);
+          append($$anchor3, fragment_4);
         };
-        if_block(node_10, ($$render) => {
-          if (get2(tree)) $$render(consequent_7);
-          else $$render(alternate, -1);
+        if_block(node_17, ($$render) => {
+          if (get2(visible).length === 0) $$render(consequent_9);
+          else if (get2(tree)) $$render(consequent_10, 1);
+          else $$render(alternate_1, -1);
         });
       }
-      reset(main_1);
-      var node_13 = sibling(main_1, 2);
+      reset(main_2);
+      var node_21 = sibling(main_2, 2);
       {
-        var consequent_9 = ($$anchor3) => {
+        var consequent_12 = ($$anchor3) => {
           {
             let $0 = user_derived(() => get2(installedIds).has(get2(selected).id));
             let $1 = user_derived(() => get2(favoriteIds).has(get2(selected).id));
@@ -8443,6 +10312,9 @@ function StoreView($$anchor, $$props) {
               get view() {
                 return $$props.view;
               },
+              get refreshTick() {
+                return get2(tokenTick);
+              },
               get entry() {
                 return get2(selected);
               },
@@ -8452,29 +10324,40 @@ function StoreView($$anchor, $$props) {
               get starred() {
                 return get2($1);
               },
+              get similar() {
+                return get2(similar);
+              },
+              onSelectEntry: (entry) => set(selected, entry, true),
               onToggleStar: () => void toggleFavorite(get2(selected).id),
+              onDrillAuthor: drillAuthor,
               onClose: () => set(selected, null)
             });
           }
         };
-        if_block(node_13, ($$render) => {
-          if (get2(selected)) $$render(consequent_9);
+        if_block(node_21, ($$render) => {
+          if (get2(selected)) $$render(consequent_12);
         });
       }
-      reset(div_7);
-      template_effect(($0) => set_text(text_3, `${$0 ?? ""} plugins`), [() => get2(visible).length.toLocaleString()]);
-      append($$anchor2, div_7);
+      reset(div_9);
+      template_effect(
+        ($0) => {
+          classes_2 = set_class(div_9, 1, "bs-body", null, classes_2, { "bs-filters-open": get2(showFilters) });
+          set_text(text_5, `${$0 ?? ""} plugins`);
+        },
+        [() => get2(visible).length.toLocaleString()]
+      );
+      append($$anchor2, div_9);
     };
-    if_block(node_6, ($$render) => {
-      if (get2(loading)) $$render(consequent_3);
-      else if (get2(error)) $$render(consequent_4, 1);
-      else if (get2(tab) === "installed") $$render(consequent_6, 2);
-      else $$render(alternate_1, -1);
+    if_block(node_10, ($$render) => {
+      if (get2(loading)) $$render(consequent_4);
+      else if (get2(error)) $$render(consequent_5, 1);
+      else if (get2(tab) === "installed") $$render(consequent_7, 2);
+      else $$render(alternate_2, -1);
     });
   }
   reset(div);
-  template_effect(() => button_2.disabled = get2(loading));
-  delegated("click", button_2, () => void load(true));
+  template_effect(() => button_5.disabled = get2(loading));
+  delegated("click", button_5, () => void load(true));
   append($$anchor, div);
   pop();
 }
@@ -8482,7 +10365,7 @@ delegate(["click"]);
 
 // src/view.ts
 var VIEW_TYPE_BETTER_STORE = "better-store-view";
-var BetterStoreView = class extends import_obsidian5.ItemView {
+var BetterStoreView = class extends import_obsidian7.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.plugin = plugin;
@@ -8515,8 +10398,8 @@ var BetterStoreView = class extends import_obsidian5.ItemView {
 };
 
 // src/ui/QuickJumpModal.ts
-var import_obsidian6 = require("obsidian");
-var QuickJumpModal = class extends import_obsidian6.FuzzySuggestModal {
+var import_obsidian8 = require("obsidian");
+var QuickJumpModal = class extends import_obsidian8.FuzzySuggestModal {
   constructor(app, entries, onChoose) {
     super(app);
     this.entries = entries;
@@ -8541,13 +10424,25 @@ var QuickJumpModal = class extends import_obsidian6.FuzzySuggestModal {
 };
 
 // src/main.ts
-var BetterStorePlugin = class extends import_obsidian7.Plugin {
+var GITHUB_TOKEN_SECRET = "better-store-github-token";
+var BetterStorePlugin = class extends import_obsidian9.Plugin {
   settings = DEFAULT_SETTINGS;
   service;
   /** Set when a detail view is requested before the store view has loaded. */
   pendingDetailId = null;
   settingsListeners = [];
   detailListeners = [];
+  tokenListeners = [];
+  scanListeners = [];
+  /** Live progress of a catalog-wide GitHub stats scan. */
+  scanState = {
+    running: false,
+    done: 0,
+    total: 0,
+    rateLimited: false
+  };
+  scanCancelled = false;
+  lastScanNotify = 0;
   serviceKey = "";
   ribbonEl = null;
   lastNotifiedUpdateCount = 0;
@@ -8564,6 +10459,31 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
       name: "Search plugins",
       callback: () => void this.openQuickJump()
     });
+    this.addCommand({
+      id: "export-plugin-list",
+      name: "Export plugin list (Markdown)",
+      callback: () => void this.exportPluginList("markdown")
+    });
+    this.addCommand({
+      id: "export-plugin-list-json",
+      name: "Export plugin list (JSON)",
+      callback: () => void this.exportPluginList("json")
+    });
+    this.addCommand({
+      id: "import-plugin-list",
+      name: "Import plugin list",
+      callback: () => new ImportModal(this.app, this).open()
+    });
+    this.addCommand({
+      id: "apply-profile",
+      name: "Apply plugin profile",
+      callback: () => new ProfileSuggestModal(this.app, this).open()
+    });
+    this.addCommand({
+      id: "scan-catalog",
+      name: "Scan catalog for GitHub stars & issues",
+      callback: () => void this.startCatalogScan()
+    });
     this.app.workspace.onLayoutReady(() => {
       if (this.settings.backgroundUpdateCheck) {
         void this.checkForUpdates();
@@ -8575,12 +10495,46 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
       );
     });
   }
+  onunload() {
+    this.scanCancelled = true;
+  }
   async openQuickJump() {
     try {
       const catalog = await this.service.loadCatalog();
-      new QuickJumpModal(this.app, catalog.entries, (entry) => void this.openPluginDetail(entry.id)).open();
+      const rank = new Map(this.settings.ui.recentlyViewed.map((id, i) => [id, i]));
+      const entries = this.settings.trackRecentlyViewed ? [...catalog.entries].sort((a, b) => (rank.get(a.id) ?? Infinity) - (rank.get(b.id) ?? Infinity)) : catalog.entries;
+      new QuickJumpModal(this.app, entries, (entry) => void this.openPluginDetail(entry.id)).open();
     } catch {
-      new import_obsidian7.Notice("Better Store: could not load the plugin catalog.");
+      new import_obsidian9.Notice("Better Store: could not load the plugin catalog.");
+    }
+  }
+  async exportPluginList(format) {
+    const api = getPluginsApi(this.app);
+    const list = buildExportList(api.manifests, new Set(api.enabledPlugins));
+    const text2 = format === "json" ? exportJson(list) : exportMarkdown(list, (/* @__PURE__ */ new Date()).toISOString().slice(0, 10));
+    try {
+      await navigator.clipboard.writeText(text2);
+      new import_obsidian9.Notice(`Better Store: copied ${list.length} plugins to the clipboard as ${format === "json" ? "JSON" : "Markdown"}.`);
+    } catch {
+      new import_obsidian9.Notice("Better Store: could not write to the clipboard \u2014 click into Obsidian and try again.");
+    }
+  }
+  /** Enable/disable installed plugins to match a saved profile. */
+  async applyProfile(profile) {
+    const api = getPluginsApi(this.app);
+    const diff = diffProfile(
+      profile.pluginIds,
+      new Set(api.enabledPlugins),
+      new Set(Object.keys(api.manifests)),
+      this.manifest.id
+    );
+    try {
+      for (const id of diff.toEnable) await api.enablePluginAndSave(id);
+      for (const id of diff.toDisable) await api.disablePluginAndSave(id);
+      const missing = diff.missing.length > 0 ? `, ${diff.missing.length} not installed` : "";
+      new import_obsidian9.Notice(`Profile "${profile.name}": ${diff.toEnable.length} enabled, ${diff.toDisable.length} disabled${missing}.`);
+    } catch (e) {
+      new import_obsidian9.Notice(`Profile "${profile.name}" failed: ${e instanceof Error ? e.message : String(e)}`);
     }
   }
   /** Open (or reveal) the store and show the given plugin's detail pane. */
@@ -8595,12 +10549,13 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
       this.detailListeners = this.detailListeners.filter((c) => c !== cb);
     };
   }
-  /** Count installed catalog plugins with newer upstream versions; badge the ribbon. */
+  /** Count installed catalog plugins with actionable upstream updates; badge the ribbon. */
   async checkForUpdates() {
     try {
       const catalog = await this.service.loadCatalog();
       const byId = new Map(catalog.entries.map((e) => [e.id, e]));
       const manifests = getPluginsApi(this.app).manifests;
+      const prefs = this.updatePrefs();
       let count = 0;
       await Promise.all(
         Object.values(manifests).map(async (m) => {
@@ -8608,16 +10563,20 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
           const entry = byId.get(m.id);
           if (!entry) return;
           const latest = await this.service.getLatestVersion(entry.repo);
-          if (latest != null && compareVersions(latest, m.version) > 0) count++;
+          if (latest != null && compareVersions(latest, m.version) > 0 && isUpdateActionable(m.id, latest, prefs)) {
+            count++;
+          }
         })
       );
-      this.ribbonEl?.toggleClass("bs-ribbon-updates", count > 0);
+      const muted = isMuted(prefs, Date.now());
+      const shown = muted ? 0 : count;
+      this.ribbonEl?.toggleClass("bs-ribbon-updates", shown > 0);
       this.ribbonEl?.setAttribute(
         "aria-label",
-        count > 0 ? `Better Store \u2014 ${count} update${count === 1 ? "" : "s"} available` : "Open Better Store"
+        shown > 0 ? `Better Store \u2014 ${shown} update${shown === 1 ? "" : "s"} available` : "Open Better Store"
       );
-      if (this.settings.updateNotice && count > this.lastNotifiedUpdateCount) {
-        new import_obsidian7.Notice(`Better Store: ${count} plugin update${count === 1 ? "" : "s"} available.`);
+      if (this.settings.updateNotice && !muted && count > this.lastNotifiedUpdateCount) {
+        new import_obsidian9.Notice(`Better Store: ${count} plugin update${count === 1 ? "" : "s"} available.`);
       }
       this.lastNotifiedUpdateCount = count;
       return count;
@@ -8625,15 +10584,64 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
       return 0;
     }
   }
+  /** Current update-suppression preferences from settings. */
+  updatePrefs() {
+    return {
+      ignored: this.settings.updateIgnored,
+      skipped: this.settings.updateSkipped,
+      muteUntil: this.settings.muteUpdatesUntil
+    };
+  }
+  /** Suppress this specific version; it resurfaces once a newer one ships. */
+  async skipUpdate(id, version) {
+    this.settings.updateSkipped = { ...this.settings.updateSkipped, [id]: version };
+    await this.saveSettings();
+    await this.checkForUpdates();
+  }
+  /** Never flag updates for this plugin again. */
+  async ignorePluginUpdates(id) {
+    if (!this.settings.updateIgnored.includes(id)) {
+      this.settings.updateIgnored = [...this.settings.updateIgnored, id];
+      await this.saveSettings();
+      await this.checkForUpdates();
+    }
+  }
+  /** Silence all proactive update nags until the chosen duration elapses. */
+  async muteUpdates(choice) {
+    this.settings.muteUpdatesUntil = muteDeadline(choice, Date.now());
+    await this.saveSettings();
+    await this.checkForUpdates();
+  }
+  async unmuteUpdates() {
+    this.settings.muteUpdatesUntil = 0;
+    await this.saveSettings();
+    await this.checkForUpdates();
+  }
+  /**
+   * Read BRAT's own data file (read-only) to list the beta plugins it tracks.
+   * Better Store never writes another plugin's files — beta actions hand off to
+   * BRAT's own commands. Returns null when BRAT hasn't stored anything.
+   */
+  async readBratData() {
+    const path = `${this.app.vault.configDir}/plugins/${BRAT_PLUGIN_ID}/data.json`;
+    try {
+      const adapter = this.app.vault.adapter;
+      if (!await adapter.exists(path)) return null;
+      return JSON.parse(await adapter.read(path));
+    } catch {
+      return null;
+    }
+  }
   async activateView() {
     const existing = this.app.workspace.getLeavesOfType(VIEW_TYPE_BETTER_STORE)[0];
     if (existing) {
-      this.app.workspace.revealLeaf(existing);
+      await this.app.workspace.revealLeaf(existing);
       return;
     }
-    const leaf = this.app.workspace.getLeaf("tab");
+    const location = this.settings.openLocation === "window" && !import_obsidian9.Platform.isDesktopApp ? "tab" : this.settings.openLocation;
+    const leaf = this.app.workspace.getLeaf(location);
     await leaf.setViewState({ type: VIEW_TYPE_BETTER_STORE, active: true });
-    this.app.workspace.revealLeaf(leaf);
+    await this.app.workspace.revealLeaf(leaf);
   }
   createService() {
     const adapter = this.app.vault.adapter;
@@ -8641,7 +10649,7 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
       readFile: async (path) => await adapter.exists(path) ? adapter.read(path) : null,
       writeFile: (path, data) => adapter.write(path, data),
       fetchText: async (url, headers) => {
-        const res = await (0, import_obsidian7.requestUrl)({ url, headers, throw: false });
+        const res = await (0, import_obsidian9.requestUrl)({ url, headers, throw: false });
         if (res.status >= 400) throw new Error(`HTTP ${res.status} for ${url}`);
         return res.text;
       },
@@ -8649,8 +10657,120 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
     };
     return new DataService(io, this.manifest.dir ?? ".", {
       ttlMs: this.settings.cacheTtlHours * 36e5,
-      githubToken: this.settings.githubToken || void 0
+      githubToken: this.getGithubToken() || void 0
     });
+  }
+  /** Resolve the GitHub token from the secret the user linked in settings. */
+  getGithubToken() {
+    const id = this.settings.githubSecretId;
+    return id ? this.app.secretStorage.getSecret(id) ?? "" : "";
+  }
+  /** Store which secret holds the GitHub token and refresh the service. */
+  async setGithubSecretId(id) {
+    this.settings.githubSecretId = id;
+    await this.saveSettings();
+    this.service = this.createService();
+  }
+  /**
+   * Check the linked token against the GitHub API and report the result in a
+   * notice. Returns whether the token was accepted.
+   */
+  async testGithubToken() {
+    const id = this.settings.githubSecretId;
+    if (id && this.app.secretStorage.getSecret(id) == null) {
+      new import_obsidian9.Notice(`The linked secret "${id}" no longer exists \u2014 link another one.`);
+      return false;
+    }
+    const token = this.getGithubToken();
+    try {
+      const res = await (0, import_obsidian9.requestUrl)({
+        url: "https://api.github.com/rate_limit",
+        headers: token ? { Authorization: `Bearer ${token}` } : void 0,
+        throw: false
+      });
+      const check = summarizeTokenCheck(token !== "", res.status, res.text);
+      new import_obsidian9.Notice(check.message);
+      return check.valid;
+    } catch {
+      new import_obsidian9.Notice("Could not reach the GitHub API \u2014 check your connection.");
+      return false;
+    }
+  }
+  /**
+   * A token was just linked and verified: put it to work right away.
+   * Open views re-fetch GitHub data that may have failed on the anonymous
+   * rate limit, and the update check reruns now that it can afford to.
+   */
+  onTokenLinked() {
+    for (const cb of this.tokenListeners) cb();
+    if (this.settings.backgroundUpdateCheck) void this.checkForUpdates();
+  }
+  registerTokenListener(cb) {
+    this.tokenListeners.push(cb);
+    return () => {
+      this.tokenListeners = this.tokenListeners.filter((c) => c !== cb);
+    };
+  }
+  registerScanListener(cb) {
+    this.scanListeners.push(cb);
+    return () => {
+      this.scanListeners = this.scanListeners.filter((c) => c !== cb);
+    };
+  }
+  notifyScan() {
+    for (const cb of this.scanListeners) cb();
+  }
+  /**
+   * Scan every catalog plugin's GitHub repo for stars + open issues, filling the
+   * persistent cache so the whole catalog can be sorted/filtered by those metrics.
+   * Requires a token (60/hour is impractical for thousands of repos); resumable and
+   * incremental, so a paused or cancelled scan continues where it left off.
+   */
+  async startCatalogScan() {
+    if (this.scanState.running) {
+      new import_obsidian9.Notice("Better Store: a catalog scan is already running.");
+      return;
+    }
+    if (!this.service.hasGithubToken()) {
+      new import_obsidian9.Notice("Better Store: link a GitHub token in settings before scanning the catalog.");
+      return;
+    }
+    let repos;
+    try {
+      repos = (await this.service.loadCatalog()).entries.map((e) => e.repo);
+    } catch {
+      new import_obsidian9.Notice("Better Store: could not load the catalog to scan.");
+      return;
+    }
+    new import_obsidian9.Notice("Better Store: catalog scan started. Progress and a Cancel button are in the store header.");
+    this.scanCancelled = false;
+    this.scanState = { running: true, done: 0, total: 0, rateLimited: false };
+    this.notifyScan();
+    const maxAgeMs = Math.max(1, this.settings.scanMaxAgeDays) * 864e5;
+    const res = await this.service.scanRepos(repos, {
+      maxAgeMs,
+      onProgress: (done, total) => {
+        this.scanState = { running: true, done, total, rateLimited: false };
+        const now = Date.now();
+        if (now - this.lastScanNotify >= 500) {
+          this.lastScanNotify = now;
+          this.notifyScan();
+        }
+      },
+      isCancelled: () => this.scanCancelled
+    });
+    this.scanState = { running: false, done: res.scanned, total: res.total, rateLimited: res.rateLimited };
+    this.notifyScan();
+    if (res.rateLimited) {
+      new import_obsidian9.Notice(`Better Store: scan paused at GitHub's rate limit \u2014 ${res.scanned} of ${res.total} done. Resume later to continue.`);
+    } else if (res.cancelled) {
+      new import_obsidian9.Notice(`Better Store: scan cancelled \u2014 ${res.scanned} scanned this run.`);
+    } else {
+      new import_obsidian9.Notice(`Better Store: scan complete \u2014 refreshed ${res.scanned} plugin${res.scanned === 1 ? "" : "s"}.`);
+    }
+  }
+  cancelCatalogScan() {
+    this.scanCancelled = true;
   }
   registerSettingsListener(cb) {
     this.settingsListeners.push(cb);
@@ -8659,10 +10779,33 @@ var BetterStorePlugin = class extends import_obsidian7.Plugin {
     };
   }
   async loadSettings() {
-    this.settings = { ...structuredClone(DEFAULT_SETTINGS), ...await this.loadData() ?? {} };
+    const raw = await this.loadData() ?? {};
+    this.settings = { ...structuredClone(DEFAULT_SETTINGS), ...raw };
+    this.settings.ui = { ...structuredClone(DEFAULT_SETTINGS.ui), ...raw.ui ?? {} };
+    if (this.settings.ui.lastTab === "updated") this.settings.ui.lastTab = "all";
+    if (typeof raw.githubToken === "string") {
+      if (raw.githubToken && !this.app.secretStorage.getSecret(GITHUB_TOKEN_SECRET)) {
+        this.app.secretStorage.setSecret(GITHUB_TOKEN_SECRET, raw.githubToken);
+        this.settings.githubSecretId = GITHUB_TOKEN_SECRET;
+      }
+      delete this.settings.githubToken;
+      await this.saveData(this.settings);
+    }
+    if (!this.settings.githubSecretId) {
+      const resolved = resolveLegacySecret(
+        this.app.secretStorage.getSecret(GITHUB_TOKEN_SECRET),
+        GITHUB_TOKEN_SECRET,
+        this.app.secretStorage.listSecrets()
+      );
+      if (resolved.secretId || resolved.scrubLegacy) {
+        this.settings.githubSecretId = resolved.secretId;
+        if (resolved.scrubLegacy) this.app.secretStorage.setSecret(GITHUB_TOKEN_SECRET, "");
+        await this.saveData(this.settings);
+      }
+    }
   }
   currentServiceKey() {
-    return `${this.settings.githubToken}|${this.settings.cacheTtlHours}`;
+    return `${this.settings.cacheTtlHours}`;
   }
   async saveSettings() {
     await this.saveData(this.settings);

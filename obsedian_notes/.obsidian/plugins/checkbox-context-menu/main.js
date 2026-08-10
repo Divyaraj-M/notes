@@ -117,6 +117,14 @@ var CheckboxPluginSettingTab = class extends import_obsidian.PluginSettingTab {
     this.plugin = plugin;
   }
   display() {
+    this.render();
+  }
+  /**
+   * Build the pane. Internal re-renders call this directly rather than the
+   * deprecated display() (the marketplace scan flags every display() call
+   * site). Never call from a text input's onChange — see docs/settings-tab.md.
+   */
+  render() {
     const { containerEl } = this;
     containerEl.empty();
     const settings = this.plugin.settings;
@@ -206,13 +214,13 @@ var CheckboxPluginSettingTab = class extends import_obsidian.PluginSettingTab {
       }));
     });
     if (isCustom) {
-      setting.addButton((btn) => btn.setButtonText("Remove").setWarning().onClick(() => __async(this, null, function* () {
+      setting.addButton((btn) => btn.setButtonText("Remove").setDestructive().onClick(() => __async(this, null, function* () {
         settings.customStates = settings.customStates.filter((s) => s.char !== state.char);
         settings.enabledStates = settings.enabledStates.filter((c) => c !== state.char);
         settings.stateOrder = settings.stateOrder.filter((c) => c !== state.char);
         delete settings.stateOverrides[state.char];
         yield this.plugin.saveSettings();
-        this.display();
+        this.render();
       })));
     }
   }
@@ -269,7 +277,7 @@ var CheckboxPluginSettingTab = class extends import_obsidian.PluginSettingTab {
       order.splice(to, 0, draggedChar);
       settings.stateOrder = order;
       yield this.plugin.saveSettings();
-      this.display();
+      this.render();
     });
   }
   addCustomStatesSection(containerEl, settings) {
@@ -306,7 +314,7 @@ var CheckboxPluginSettingTab = class extends import_obsidian.PluginSettingTab {
         settings.stateOrder = normalizeStateOrder(settings);
       }
       yield this.plugin.saveSettings();
-      this.display();
+      this.render();
     })));
   }
 };

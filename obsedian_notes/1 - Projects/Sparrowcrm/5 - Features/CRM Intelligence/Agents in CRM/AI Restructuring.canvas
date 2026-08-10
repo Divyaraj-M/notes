@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"8941a6257ab4454a",
+			"type":"text",
+			"text":"- List of all ai \n\t- OUt of Box \n\t- Search bar - all objects even custom objects \n\t- Record summary - All objects \n\t- AI tags - all objects \n\t- FIT score - ai \n\t- Enaggement score \n\t- key insights \n\t- Task created using ai \n\t- Eamil Draft ai \n\t- Calls Trancript to summary and ai tags \n\t- Meetings \n\t\t  Pre \n\t\t\t  Meetings Sygessted \n\t\t  Post prep\n\t\t\t  Insgiths \n\t\t\t  post meeting summary \n\t\t\t  \n\t  Meeting Tags \n\t  - task in meetings - objects , meetings transc , call , emails \n\t- meeting score \n\t- Buying signal \n\t- Red flag Detector \n\t- Deal loss analysis \n\t- AI scores\n\t  Wiret with ai , dynamic email \n\t  - Ai fileds ",
+			"styleAttributes":{},
+			"x":-740,
+			"y":-700,
+			"width":460,
+			"height":400
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

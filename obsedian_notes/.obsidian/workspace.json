@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Help Article - Import data into SparrowCRM via CSV.md",
-                "mode": "preview",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Help Article - Import data into SparrowCRM via CSV"
+              "title": "Custom Objects_v1"
             }
           },
           {
@@ -92,27 +92,13 @@
             }
           },
           {
-            "id": "50bfcba69773b280",
+            "id": "a2e0a6fb7d8ba72c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Resources/Templates/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
             }
           },
           {
@@ -121,15 +107,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
                 "viewState": {
-                  "x": -276.3611443294969,
-                  "y": 156.3539634341057,
-                  "zoom": -0.49883193875312654
+                  "x": -333.2278175496858,
+                  "y": -325.1099331474346,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Migration"
+              "title": "AI Restructuring"
             }
           },
           {
@@ -157,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -367,7 +353,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -485,16 +471,23 @@
       "operon:Open Pinned Tasks": false
     }
   },
-  "active": "8faac6dd5b481fd0",
+  "active": "b0467e156c90b0f3",
   "lastOpenFiles": [
-    "3 - Resources/Templates/Product Spec Template 2.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
     "3 - Resources/Templates/Untitled.md",
     "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
+    "Help Article - Import data into SparrowCRM via CSV.md",
+    "3 - Resources/Templates/Product Spec Template 2.md",
     "1 - Projects/Sparrowcrm/5 - Features/Migration/HubSpot_Migration_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
@@ -507,14 +500,7 @@
     "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Zulie/Zulie.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "Help Article - Import data into SparrowCRM via CSV.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Untitled.md",
     "Operon/Demo Workspace",
     "Operon/Tasks",
     "Operon/Tables/Default table.table",

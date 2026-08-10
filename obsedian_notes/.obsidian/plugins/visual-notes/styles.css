@@ -44,75 +44,6 @@ body.theme-dark {
   --visual-notes-shadow-high: 0 8px 28px rgba(0,0,0,0.45), 0 2px 8px rgba(0,0,0,0.30);
 }
 
-/* ── Board appearance (per-board light/dark) ───────────────────────
-   A board can pin its own surface light or dark regardless of Obsidian's
-   theme — a dark moodboard in a light vault. `board.appearance` drives the
-   class; unset means "follow Obsidian" and neither class is present, which
-   is how every board behaved before this existed.
-
-   These are the one deliberate exception to the rule stated above, that the
-   plugin never hardcodes light/dark pairs and instead derives everything from
-   Obsidian's own variables. Pinning a surface against the active theme is
-   precisely a request for fixed values, so the tier the canvas and cards
-   derive from is redeclared here.
-
-   Scoped to .visual-notes-canvas-outer, NOT the whole container: the
-   toolbars, context bar, pen panel and minimap are siblings of it inside
-   .visual-notes-container, and they keep following Obsidian's theme so the
-   pane's chrome stays consistent with the rest of the app. */
-.visual-notes-canvas-outer.visual-notes-appearance-light {
-  --background-primary: #ffffff;
-  --background-primary-alt: #f8f8f8;
-  --background-secondary: #f2f3f5;
-  --background-secondary-alt: #e8eaed;
-  --background-modifier-border: #dcddde;
-  --background-modifier-hover: rgba(0, 0, 0, 0.05);
-  --background-modifier-active-hover: rgba(0, 0, 0, 0.08);
-  --text-normal: #2e3338;
-  --text-muted: #6e7681;
-  --text-faint: #999da3;
-  --text-on-accent: #ffffff;
-}
-
-.visual-notes-canvas-outer.visual-notes-appearance-dark {
-  --background-primary: #1e1e1e;
-  --background-primary-alt: #1a1a1a;
-  --background-secondary: #161616;
-  --background-secondary-alt: #111111;
-  --background-modifier-border: #333333;
-  --background-modifier-hover: rgba(255, 255, 255, 0.075);
-  --background-modifier-active-hover: rgba(255, 255, 255, 0.12);
-  --text-normal: #dadada;
-  --text-muted: #999999;
-  --text-faint: #6e6e6e;
-  --text-on-accent: #ffffff;
-  /* Shadows are near-invisible over a dark surface at the light-theme
-     opacities, so the canvas takes the dark set even in a light vault. */
-  --visual-notes-shadow-low:  0 1px 3px rgba(0,0,0,0.28), 0 1px 6px rgba(0,0,0,0.18);
-  --visual-notes-shadow-mid:  0 3px 10px rgba(0,0,0,0.35), 0 1px 4px rgba(0,0,0,0.22);
-  --visual-notes-shadow-high: 0 8px 28px rgba(0,0,0,0.45), 0 2px 8px rgba(0,0,0,0.30);
-}
-
-/* Re-derive the plugin's own surface vars on the same element. Overriding the
-   base tier above is not enough on its own: these were already computed up on
-   `body`, and a custom property inherits its *computed* value — so without
-   redeclaring them here the canvas backdrop and card fills would keep whatever
-   they resolved to under Obsidian's theme, and only the odd detail that reads a
-   theme var directly would actually flip.
-
-   This also means a pinned appearance takes precedence over the global "Canvas
-   background colour" setting (applied inline on body). That's the intended
-   order: a board-specific choice should beat a global default, the same way a
-   per-card text size beats the global scale. */
-.visual-notes-canvas-outer.visual-notes-appearance-light,
-.visual-notes-canvas-outer.visual-notes-appearance-dark {
-  --visual-notes-card-bg: var(--background-primary);
-  --visual-notes-card-text: var(--text-normal);
-  --visual-notes-column-bg: var(--background-primary);
-  --visual-notes-canvas-bg: var(--background-secondary);
-  --visual-notes-dot-color: var(--background-modifier-border);
-}
-
 /* Container */
 .visual-notes-container {
   display: flex;
@@ -1045,11 +976,6 @@ path.is-marquee-selected {
   .visual-notes-content.mobile-fab-top-left .visual-notes-zoom-pill ~ .visual-notes-snap-toggle-btn {
     left: 88px;
   }
-  .visual-notes-content.mobile-fab-bottom-right .visual-notes-theme-toggle-btn,
-  .visual-notes-content.mobile-fab-top-right .visual-notes-theme-toggle-btn,
-  .visual-notes-content.mobile-fab-top-left .visual-notes-theme-toggle-btn {
-    right: auto; left: 124px;
-  }
   .visual-notes-content.mobile-fab-bottom-right .visual-notes-minimap,
   .visual-notes-content.mobile-fab-top-right .visual-notes-minimap,
   .visual-notes-content.mobile-fab-top-left .visual-notes-minimap {
@@ -1059,7 +985,6 @@ path.is-marquee-selected {
 
   .visual-notes-zoom-pill.is-hidden-for-ctx-bar,
   .visual-notes-snap-toggle-btn.is-hidden-for-ctx-bar,
-  .visual-notes-theme-toggle-btn.is-hidden-for-ctx-bar,
   .visual-notes-minimap.is-hidden-for-ctx-bar {
     display: none;
   }
@@ -1498,6 +1423,43 @@ path.is-marquee-selected {
   color: #ffffff;
 }
 
+/* Font picker — same mechanics as the size row, but each button is set in the
+   face it selects, so the choice is legible without applying it first. */
+.visual-notes-ctx-font-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 2px;
+}
+
+.visual-notes-ctx-font-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  transition: background 80ms ease, color 80ms ease;
+}
+
+.visual-notes-ctx-font-btn:hover,
+.visual-notes-ctx-font-btn:focus-visible {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+  outline: none;
+}
+
+.visual-notes-ctx-font-btn.is-active {
+  background: var(--interactive-accent);
+  color: #ffffff;
+}
+
 /* Custom color wheel input — invisible, triggered by its sibling button */
 .visual-notes-ctx-color-wheel-input {
   position: absolute;
@@ -1698,37 +1660,6 @@ path.is-marquee-selected {
 .visual-notes-zoom-pill:hover {
   color: var(--interactive-accent);
   border-color: var(--interactive-accent);
-}
-
-/* Third in the bottom-right row, continuing from the zoom pill (right: 16)
-   and the snap toggle (right: 80). */
-.visual-notes-theme-toggle-btn {
-  position: absolute;
-  bottom: 16px;
-  right: 116px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  background: var(--background-secondary);
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 2px;
-  color: var(--text-muted);
-  cursor: pointer;
-  z-index: 100;
-  box-shadow: var(--visual-notes-shadow-low);
-  transition: color 80ms ease, border-color 80ms ease, background 80ms ease;
-}
-
-.visual-notes-theme-toggle-btn:hover {
-  color: var(--text-normal);
-  border-color: var(--interactive-accent);
-}
-
-.visual-notes-theme-toggle-btn svg {
-  width: 16px;
-  height: 16px;
 }
 
 .visual-notes-snap-toggle-btn {
@@ -2900,6 +2831,15 @@ input.visual-notes-table-date-input {
   transition: background 0.12s, border-color 0.12s;
 }
 
+/* An unfilled circle with a muted border reads as a bullet, not a control —
+   the transition above never had anything to trigger it while unchecked, so
+   pointing at it gave no signal it was clickable. This was very likely why it
+   got reported as "you can't tick items" rather than "clicking does nothing". */
+.visual-notes-kanban-item-cb:hover {
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
 .visual-notes-kanban-item-cb.is-checked {
   background: var(--interactive-accent);
   border-color: var(--interactive-accent);
@@ -2908,13 +2848,19 @@ input.visual-notes-table-date-input {
 .visual-notes-kanban-item-cb.is-checked::after {
   content: '';
   position: absolute;
-  top: 3px;
-  left: 4px;
+  left: 50%;
+  top: 50%;
   width: 5px;
   height: 3px;
   border-left: 1.5px solid white;
   border-bottom: 1.5px solid white;
-  transform: rotate(-45deg);
+  /* Centred by percentage rather than the fixed top/left this used to carry,
+     which was tuned for the 16px circle and so sat off-centre in the 19px
+     "large item" one. The extra nudge is because the tick's ink is only the
+     left and bottom borders, putting its visual centre down-left of the
+     element's box centre; after the -45° rotation that lands it about 1px low
+     and 1px left of where it should be. */
+  transform: translate(calc(-50% + 0.9px), calc(-50% - 1.4px)) rotate(-45deg);
 }
 
 .visual-notes-kanban-item-body {
@@ -3355,6 +3301,9 @@ input.visual-notes-table-date-input {
 .visual-notes-sticky-text {
   font-size: calc(14px * var(--vn-text-mult, 1));
   line-height: 1.5;
+  /* --vn-card-font is set on the card element, so the rendered text and the
+     editor below both pick it up. Unset falls through to the pane font. */
+  font-family: var(--vn-card-font, inherit);
   color: var(--visual-notes-card-text);
   word-break: break-word;
   cursor: text;
@@ -3386,16 +3335,53 @@ input.visual-notes-table-date-input {
 }
 .visual-notes-sticky-text ul:last-child,
 .visual-notes-sticky-editor ul:last-child { margin-bottom: 0; }
+/* Hanging indent, so every line of an item lines up under its text rather
+   than under its marker. Without it only the *first* line box of an <li>
+   cleared the bullet, which showed up three ways: a <br> from Shift+Enter,
+   naturally wrapped text, and a block child (Obsidian's markdown renderer
+   emits <p> inside a loose list item, as do notes written before bullets
+   existed) — that last one couldn't share a line with the inline marker at
+   all, stranding the bullet on a line of its own.
+
+   Deliberately NOT flex or grid on the <li>: those wrap every bare text run
+   and inline element in its own anonymous item, so <br>, <strong> and the
+   colour/size spans this editor produces would each become a separate box. */
+.visual-notes-sticky-text ul,
+.visual-notes-sticky-editor ul {
+  /* The two knobs. --vn-bullet-w is the marker's own box; --vn-bullet-gap is
+     the distance from it to the text, tuned by eye. */
+  --vn-bullet-w: 0.5em;
+  --vn-bullet-gap: 0.3em;
+  --vn-bullet-indent: calc(var(--vn-bullet-w) + var(--vn-bullet-gap));
+}
 .visual-notes-sticky-text li,
-.visual-notes-sticky-editor li { margin: 0 0 2px; padding-left: 0; }
+.visual-notes-sticky-editor li {
+  margin: 0 0 2px;
+  padding-left: var(--vn-bullet-indent);
+}
+/* The first child is inlined so the marker keeps its company on line one. */
+.visual-notes-sticky-text li > p:first-child,
+.visual-notes-sticky-editor li > p:first-child,
+.visual-notes-sticky-text li > div:first-child,
+.visual-notes-sticky-editor li > div:first-child { display: inline; }
 /* No font-size here on purpose: inheriting the <li> is what makes the bullet
    grow with a resized item (see hoistListItemSizes, which puts whole-item
-   sizes on the <li> rather than a nested span). Tune the gap with
-   margin-right alone. */
+   sizes on the <li> rather than a nested span). */
 .visual-notes-sticky-text li::before,
 .visual-notes-sticky-editor li::before {
   content: '•';
-  margin-right: 0.3em;
+  /* Explicit box, so the hanging indent above is exact rather than a guess at
+     the glyph's advance width. */
+  display: inline-block;
+  width: var(--vn-bullet-w);
+  /* The marker alone is pulled back out of the padding, which is what creates
+     the hang. A negative text-indent on the <li> does the same job in one
+     line, but Obsidian's health check flags `text-indent` wholesale — the
+     caniuse entry is "partial" over the `hanging`/`each-line` keywords, not
+     over the plain length we were using. This is in-flow either way, so the
+     marker still baseline-aligns with the first line for free. */
+  margin-left: calc(-1 * var(--vn-bullet-indent));
+  margin-right: var(--vn-bullet-gap);
   line-height: inherit;
 }
 .visual-notes-sticky-editor p { margin: 0 0 4px; }
@@ -3409,7 +3395,7 @@ input.visual-notes-table-date-input {
   outline: none;
   font-size: calc(14px * var(--vn-text-mult, 1));
   line-height: 1.5;
-  font-family: var(--font-text);
+  font-family: var(--vn-card-font, var(--font-text));
   color: var(--visual-notes-card-text);
   padding: 0;
   word-break: break-word;
@@ -3418,7 +3404,11 @@ input.visual-notes-table-date-input {
 
 .visual-notes-sticky-editor:empty::before {
   content: 'Start typing…';
-  color: var(--visual-notes-card-text);
+  /* inherit, not --visual-notes-card-text: the editor carries the card's own
+     auto-contrast colour inline (see editStickyInline), and hard-coding the
+     theme colour here left the placeholder unreadable on a pale sticky under a
+     dark theme. Falls back to the same var via the editor when none is set. */
+  color: inherit;
   opacity: 0.4;
   font-style: italic;
   pointer-events: none;
@@ -4908,7 +4898,19 @@ input.visual-notes-accent-pop-hex {
   font-size: 13px;
   color: var(--text-normal);
   margin-right: 10px;
-  word-break: break-all;
+  /* break-word, never break-all: this span is a flex item sharing its row
+     with the Browse/Create buttons, and break-all puts its min-content width
+     at a single character — so once the buttons claimed the row, the flex
+     auto-minimum let the text collapse into a one-letter-per-line column.
+     break-word leaves min-content at the longest word, which the same
+     auto-minimum then protects, while a deep vault path still wraps rather
+     than overflowing the modal. (overflow-wrap: anywhere would reintroduce
+     the bug — unlike break-word it *does* shrink min-content.) */
+  overflow-wrap: break-word;
+  /* Take the space the buttons don't need instead of being squeezed out,
+     staying right-aligned beside them like every other Obsidian control. */
+  flex: 1 1 auto;
+  text-align: right;
 }
 
 .visual-notes-modal-path-display.is-empty {
@@ -5642,6 +5644,42 @@ input.visual-notes-accent-pop-hex {
   pointer-events: none;
 }
 
+/* ── Text card ──────────────────────────────────────────────────
+   Bare text on the canvas: no fill, border or shadow, and no wrapping. The
+   box is exactly as wide as the longest line — `white-space: pre` plus
+   width/height left unset by positionCardEl — which is also what lets a
+   resize compute the new box size instead of measuring it. */
+.visual-notes-freeform-text-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: max-content;
+  height: max-content;
+}
+
+.visual-notes-text-body,
+.visual-notes-text-editor {
+  white-space: pre;
+  line-height: 1.25;
+  color: var(--visual-notes-card-text);
+  font-family: var(--font-text);
+  /* Padding gives the resize handles something to sit on and stops a
+     descender clipping; kept small so the box still reads as "just text". */
+  padding: 2px 4px;
+  cursor: text;
+}
+
+.visual-notes-text-editor {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+.visual-notes-text-body.is-placeholder {
+  opacity: 0.4;
+  font-style: italic;
+}
+
 /* ── Card shapes (blank cards only) ─────────────────────────── */
 
 .visual-notes-sticky-shape-fill {
@@ -5667,6 +5705,17 @@ input.visual-notes-accent-pop-hex {
 }
 
 .visual-notes-freeform-sticky-card.is-shape-round {
+  box-shadow: none;
+}
+
+/* The "Text" tool, and any note switched to "No background": bare text sitting
+   on the canvas. The fill layer is simply left unpainted (see
+   renderStickyContent), so only the card's own chrome needs clearing here.
+   The selection outline and resize handles are deliberately untouched — with
+   no fill drawn they are the only way to tell where the card actually is. */
+.visual-notes-freeform-sticky-card.is-transparent {
+  background: transparent;
+  border: none;
   box-shadow: none;
 }
 
@@ -7132,10 +7181,56 @@ input.visual-notes-calendar-month-input {
   box-shadow: var(--visual-notes-shadow-mid);
 }
 
+.visual-notes-cal-daybody,
+.visual-notes-cal-chips {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
 .visual-notes-cal-more {
   font-size: calc(9px * var(--vn-text-mult, 1));
   color: var(--text-faint);
   padding-left: 4px;
+}
+
+.visual-notes-cal-more.is-clickable {
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.visual-notes-cal-more.is-clickable:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+/* An expanded day lifts its list out of the cell's clipped box and floats it
+   over the days below, which is the only way items past the cap can be read
+   and right-clicked. The cell keeps its grid slot and only the panel
+   overflows, so opening a day never reflows the month around it.
+   Must stay after the .visual-notes-cal-cell:hover rule above: the two have
+   equal specificity, and this one has to win the z-index. */
+.visual-notes-cal-cell.is-day-expanded {
+  overflow: visible;
+  z-index: 20;
+}
+
+.visual-notes-cal-cell.is-day-expanded .visual-notes-cal-daybody {
+  position: relative;
+  z-index: 1;
+  /* Without this the flex parent compresses the panel back inside the cell
+     rather than letting it overflow, which is the entire point of opening. */
+  flex: 0 0 auto;
+  padding: 3px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background: var(--background-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+  /* A day with dozens of items scrolls inside the panel instead of running
+     off the bottom of the board. */
+  max-height: 220px;
+  overflow-y: auto;
 }
 
 /* ── Table database views ───────────────────────────────────── */

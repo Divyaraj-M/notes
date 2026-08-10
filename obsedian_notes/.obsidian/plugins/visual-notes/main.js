@@ -1,4 +1,4 @@
-/* Visual Notes v1.1.16 — bundled file, do not edit. Source: https://github.com/dandersondev/visual-notes */
+/* Visual Notes v1.1.25 — bundled file, do not edit. Source: https://github.com/dandersondev/visual-notes */
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
@@ -483,6 +483,9 @@ function readStash(o2) {
   if (!o2) return void 0;
   return (_a = o2.vn) != null ? _a : o2.ib;
 }
+function stripHtmlToText(html) {
+  return html.replace(/<br\s*\/?>/gi, "\n").replace(/<\/(p|div|li)\s*>/gi, "\n").replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">").replace(/&amp;/gi, "&").trim();
+}
 var VN_FORMAT_VERSION = 1;
 function hasRootMarker(data) {
   const meta = readStash(data);
@@ -531,6 +534,9 @@ var DEFAULT_SIZE = {
   "column": { w: 260, h: 320 },
   "map": { w: 480, h: 360 },
   "swatch": { w: 160, h: 160 },
+  // Only a fallback for a text card whose measured size hasn't been written
+  // yet; the real size is derived from its font size on render.
+  "text": { w: 120, h: 40 },
   "file": { w: 260, h: 300 },
   "callout": { w: 320, h: 100 },
   "group": { w: 400, h: 300 },
@@ -630,6 +636,10 @@ ${t2.subtitle}` : ""}`, color: t2.color, vn: stashable(t2) }];
     case "swatch": {
       const s2 = card;
       return [{ ...base, type: "text", text: `${s2.color.toUpperCase()} \u2014 ${nearestColorName(s2.color)}`, color: s2.color, vn: stashable(s2) }];
+    }
+    case "text": {
+      const t2 = card;
+      return [{ ...base, type: "text", text: stripHtmlToText(t2.text), vn: stashable(t2) }];
     }
     case "file": {
       const f2 = card;
@@ -1612,9 +1622,10 @@ var TileModal = class extends import_obsidian4.Modal {
       }
     } else if (this.targetKind !== "board") {
       const label = this.targetKind === "folder" ? "Folder" : this.targetKind === "canvas" ? "Canvas file" : "Note";
-      const pathSetting = new import_obsidian4.Setting(contentEl).setName("Target").setDesc(`Choose the ${label.toLowerCase()} to open when clicked`);
+      const createsOnSave = this.targetKind === "canvas";
+      const pathSetting = new import_obsidian4.Setting(contentEl).setName("Target").setDesc(createsOnSave ? "Leave empty to create a new canvas named after the label, or choose an existing one." : `Choose the ${label.toLowerCase()} to open when clicked`);
       const pathDisplay = pathSetting.controlEl.createSpan("visual-notes-modal-path-display" + (this.targetPath ? "" : " is-empty"));
-      pathDisplay.setText(this.targetPath || "None selected");
+      pathDisplay.setText(this.targetPath || (createsOnSave ? "New canvas from label" : "None selected"));
       pathSetting.addButton(
         (btn) => btn.setButtonText("Browse\u2026").onClick(() => {
           const paths = this.getPathsForKind(this.targetKind);
@@ -1667,9 +1678,9 @@ var TileModal = class extends import_obsidian4.Modal {
       );
     } else {
       const boardPaths = this.getBoardPaths();
-      const pathSetting = new import_obsidian4.Setting(contentEl).setName("Target board").setDesc(boardPaths.length > 0 ? "Choose an existing board or create a new nested one" : "No other boards exist yet \u2014 create a new nested one below");
+      const pathSetting = new import_obsidian4.Setting(contentEl).setName("Target board").setDesc(boardPaths.length > 0 ? "Leave empty to create a new nested board named after the label, or choose an existing one." : "Leave empty to create a new nested board named after the label.");
       const pathDisplay = pathSetting.controlEl.createSpan("visual-notes-modal-path-display" + (this.targetPath ? "" : " is-empty"));
-      pathDisplay.setText(this.targetPath || "None selected");
+      pathDisplay.setText(this.targetPath || "New board from label");
       if (boardPaths.length > 0) {
         pathSetting.addButton(
           (btn) => btn.setButtonText("Browse\u2026").onClick(() => {
@@ -1684,25 +1695,10 @@ var TileModal = class extends import_obsidian4.Modal {
         (btn) => btn.setButtonText("Create new\u2026").onClick(() => {
           new NamePromptModal(this.app, "New nested board", "Board name", (name) => {
             void (async () => {
-              let folderPath = "";
-              if (this.currentFile) {
-                folderPath = this.currentFile.path.replace(/\.canvas$/, "");
-              }
-              if (folderPath && !this.app.vault.getAbstractFileByPath(folderPath)) {
-                try {
-                  await this.app.vault.createFolder(folderPath);
-                } catch (e2) {
-                }
-              }
-              const folderAbstract = folderPath ? this.app.vault.getAbstractFileByPath(folderPath) : null;
-              const folder = folderAbstract instanceof import_obsidian4.TFolder ? folderAbstract : null;
-              try {
-                const newFile = await createBoardFile(this.app, name, folder, "freeform");
-                this.targetPath = newFile.path;
-                this.render();
-              } catch (e2) {
-                new import_obsidian4.Notice("Failed to create board.");
-              }
+              const newFile = await this.createNestedBoard(name);
+              if (!newFile) return;
+              this.targetPath = newFile.path;
+              this.render();
             })();
           }).open();
         })
@@ -1710,10 +1706,72 @@ var TileModal = class extends import_obsidian4.Modal {
     }
     const btnRow = contentEl.createDiv("visual-notes-modal-buttons");
     btnRow.createEl("button", { text: "Cancel", cls: "visual-notes-modal-cancel" }).addEventListener("click", () => this.close());
-    const saveBtn = btnRow.createEl("button", { text: "Save", cls: "mod-cta visual-notes-modal-save" });
-    saveBtn.addEventListener("click", () => {
-      this.trySave();
+    const saveBtn = btnRow.createEl("button", {
+      text: this.isEditing ? "Save" : "Create",
+      cls: "mod-cta visual-notes-modal-save"
     });
+    saveBtn.addEventListener("click", () => {
+      void this.handleSaveClick();
+    });
+  }
+  // Creating the target is the default action rather than an error case: the
+  // label almost always IS the name the new board should get, so demanding a
+  // separate "Create new…" trip through NamePromptModal asked for the same
+  // name twice. Browsing to an existing target still overrides this.
+  async handleSaveClick() {
+    var _a;
+    const label = (_a = this.tile.label) == null ? void 0 : _a.trim();
+    if (!label) {
+      new import_obsidian4.Notice("Please enter a label.");
+      return;
+    }
+    if (!this.targetPath && (this.targetKind === "board" || this.targetKind === "canvas")) {
+      const path = await this.createTargetFromLabel(label);
+      if (!path) return;
+      this.targetPath = path;
+    }
+    this.trySave();
+  }
+  // Returns the new file's path, or null if creation failed (the failure is
+  // reported to the user here, so callers just bail).
+  async createTargetFromLabel(name) {
+    var _a, _b, _c, _d;
+    if (this.targetKind === "board") {
+      const file = await this.createNestedBoard(name);
+      return (_a = file == null ? void 0 : file.path) != null ? _a : null;
+    }
+    const basePath = (_d = (_c = (_b = this.currentFile) == null ? void 0 : _b.parent) == null ? void 0 : _c.path) != null ? _d : "";
+    const sep = basePath ? "/" : "";
+    try {
+      const f2 = await this.app.vault.create(basePath + sep + name + ".canvas", '{"nodes":[],"edges":[]}');
+      return f2.path;
+    } catch (e2) {
+      new import_obsidian4.Notice("Failed to create canvas.");
+      return null;
+    }
+  }
+  // Nested boards live in a folder named after the current board's stem, so a
+  // board and the boards reached from it stay together. Shared by the
+  // "Create new…" button and the create-on-save path so the two can't drift.
+  async createNestedBoard(name) {
+    let folderPath = "";
+    if (this.currentFile) {
+      folderPath = this.currentFile.path.replace(/\.canvas$/, "");
+    }
+    if (folderPath && !this.app.vault.getAbstractFileByPath(folderPath)) {
+      try {
+        await this.app.vault.createFolder(folderPath);
+      } catch (e2) {
+      }
+    }
+    const folderAbstract = folderPath ? this.app.vault.getAbstractFileByPath(folderPath) : null;
+    const folder = folderAbstract instanceof import_obsidian4.TFolder ? folderAbstract : null;
+    try {
+      return await createBoardFile(this.app, name, folder, "freeform");
+    } catch (e2) {
+      new import_obsidian4.Notice("Failed to create board.");
+      return null;
+    }
   }
   // Validation + save, extracted from the button handler so the self-link
   // guard is directly testable. Returns whether the tile was saved.
@@ -1765,6 +1823,7 @@ var TileModal = class extends import_obsidian4.Modal {
 // src/file-io.ts
 var CORRUPT_BAK_SUFFIX = ".bak";
 var NATIVE_BAK_SUFFIX = ".native-backup.bak";
+var EMPTIED_BAK_SUFFIX = ".before-empty.bak";
 async function writeBackup(app, path, raw, overwrite) {
   try {
     const existing = app.vault.getAbstractFileByPath(path);
@@ -1790,7 +1849,13 @@ async function backupBeforeNativeEdit(app, file) {
   }
 }
 async function readBoardFile(app, file) {
-  const raw = await app.vault.read(file);
+  let raw;
+  try {
+    raw = await app.vault.read(file);
+  } catch (e2) {
+    new import_obsidian5.Notice(`Visual Notes: Could not open "${file.name}". The file has been left untouched.`, 8e3);
+    return unreadableBoard();
+  }
   try {
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object") throw new Error("Not a valid canvas/board file");
@@ -1813,25 +1878,55 @@ async function readBoardFile(app, file) {
     } catch (e3) {
     }
     new import_obsidian5.Notice(
-      `Visual Notes: Could not read "${file.name}" \u2014 it may be corrupted. A backup was saved as "${file.name}${CORRUPT_BAK_SUFFIX}".`,
+      `Visual Notes: Could not read "${file.name}" \u2014 it may be corrupted. A backup was saved as "${file.name}${CORRUPT_BAK_SUFFIX}", and the file has been left untouched.`,
       8e3
     );
-    return emptyBoard("grid");
+    return unreadableBoard();
+  }
+}
+function unreadableBoard() {
+  const board = emptyBoard("grid");
+  board.unreadable = true;
+  return board;
+}
+async function classifyCanvasFile(app, file) {
+  let raw;
+  try {
+    raw = await app.vault.read(file);
+  } catch (e2) {
+    return "unreadable";
+  }
+  try {
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") return "unreadable";
+    return isVisualNotesCanvas(parsed) ? "ours" : "foreign";
+  } catch (e2) {
+    return "unreadable";
   }
 }
 async function isVisualNotesOwnedFile(app, file) {
+  return await classifyCanvasFile(app, file) === "ours";
+}
+async function writeBoardFile(app, file, board) {
+  if (board.unreadable) return;
+  await snapshotIfEmptying(app, file, board);
+  const data = visualNotesToCanvas(board);
+  await app.vault.modify(file, JSON.stringify(data, null, 2));
+}
+async function snapshotIfEmptying(app, file, board) {
+  if (board.cards.length > 0) return;
   try {
     const raw = await app.vault.read(file);
     const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== "object") return false;
-    return isVisualNotesCanvas(parsed);
+    const nodes = parsed == null ? void 0 : parsed.nodes;
+    if (!Array.isArray(nodes) || nodes.length === 0) return;
+    await writeBackup(app, file.path + EMPTIED_BAK_SUFFIX, raw, true);
+    new import_obsidian5.Notice(
+      `Visual Notes: "${file.basename}" just went from ${nodes.length} item${nodes.length === 1 ? "" : "s"} to empty. If that wasn't deliberate, the previous version is saved as "${file.name}${EMPTIED_BAK_SUFFIX}".`,
+      12e3
+    );
   } catch (e2) {
-    return false;
   }
-}
-async function writeBoardFile(app, file, board) {
-  const data = visualNotesToCanvas(board);
-  await app.vault.modify(file, JSON.stringify(data, null, 2));
 }
 async function createBoardFile(app, name, folder, layout) {
   return writeNewBoardFile(app, name, folder, emptyBoard(layout));
@@ -2051,6 +2146,15 @@ var STICKY_TEXT_SCALES = {
   xxxl: 2.8,
   huge: 3.6
 };
+var STICKY_FONT_FAMILIES = {
+  text: "var(--font-text)",
+  interface: "var(--font-interface)",
+  monospace: "var(--font-monospace)"
+};
+var TEXT_CARD_MIN_FONT = 4;
+var TEXT_CARD_MAX_FONT = 800;
+var TEXT_CARD_DEFAULT_FONT = 32;
+var TEXT_CARD_FONT_PRESETS = [16, 24, 32, 48, 64, 96, 128];
 
 // node_modules/sortablejs/modular/sortable.esm.js
 function _defineProperty(e2, r3, t2) {
@@ -4797,6 +4901,7 @@ var KANBAN_COLORS = [
 var COLUMN_CHILD_KINDS = /* @__PURE__ */ new Set([
   "tile",
   "sticky",
+  "text",
   "checklist",
   "table",
   "image",
@@ -4819,6 +4924,7 @@ function formatCommentTime(ts) {
 }
 var KANBAN_BOARD_MIN_W = 320;
 function cardMinSize(kind) {
+  if (kind === "text") return { w: 12, h: 10 };
   if (kind === "sticky") return { w: STICKY_MIN_W, h: STICKY_MIN_H };
   if (kind === "checklist") return { w: CHECKLIST_MIN_W, h: CHECKLIST_MIN_H };
   if (kind === "comment") return { w: COMMENT_MIN_W, h: COMMENT_MIN_H };
@@ -6086,6 +6192,43 @@ function hoistListItemSizes(editor) {
   }
 }
 
+// src/floating-placement.ts
+var overlaps = (a2, b2, pad) => a2.left < b2.right + pad && a2.right > b2.left - pad && a2.top < b2.bottom + pad && a2.bottom > b2.top - pad;
+function placeFloatingPanel(o2) {
+  var _a, _b, _c, _d;
+  const gap = (_a = o2.gap) != null ? _a : 8;
+  const margin = (_b = o2.margin) != null ? _b : 4;
+  const contW = o2.container.right - o2.container.left;
+  const contH = o2.container.bottom - o2.container.top;
+  const above = o2.anchor.top - o2.container.top - o2.panelH - gap;
+  const below = o2.anchor.bottom - o2.container.top + gap;
+  const fits = (t2) => t2 >= margin && t2 + o2.panelH <= contH - margin;
+  let top = o2.prefer === "above" ? above : below;
+  if (!fits(top)) {
+    const other = o2.prefer === "above" ? below : above;
+    if (fits(other)) top = other;
+  }
+  const center2 = (_c = o2.centerOn) != null ? _c : (o2.anchor.left + o2.anchor.right) / 2;
+  let left = center2 - o2.container.left - o2.panelW / 2;
+  left = Math.max(margin, Math.min(left, contW - margin - o2.panelW));
+  top = Math.max(margin, Math.min(top, contH - margin - o2.panelH));
+  for (const zone of (_d = o2.avoid) != null ? _d : []) {
+    const asViewport = {
+      left: left + o2.container.left,
+      right: left + o2.container.left + o2.panelW,
+      top: top + o2.container.top,
+      bottom: top + o2.container.top + o2.panelH
+    };
+    if (!overlaps(asViewport, zone, margin)) continue;
+    const clearAbove = zone.top - o2.container.top - o2.panelH - gap;
+    const clearBelow = zone.bottom - o2.container.top + gap;
+    const order = o2.prefer === "above" ? [clearAbove, clearBelow] : [clearBelow, clearAbove];
+    const pick = order.find(fits);
+    if (pick !== void 0) top = pick;
+  }
+  return { top, left };
+}
+
 // src/text-format-toolbar.ts
 var TEXT_COLORS = [
   null,
@@ -6277,28 +6420,21 @@ var TextFormatToolbar = class {
     window.requestAnimationFrame(() => {
       if (!this.popover || !this.savedRange) return;
       const rects = this.savedRange.getClientRects();
-      const contRect = this.container.getBoundingClientRect();
-      const popW = pop.offsetWidth;
-      const popH = pop.offsetHeight;
-      const contW = this.container.clientWidth;
-      let selLeft, selRight, selTop, selBottom;
-      if (rects.length > 0) {
-        selLeft = rects[0].left;
-        selRight = rects[rects.length - 1].right;
-        selTop = Math.min(...Array.from(rects).map((r3) => r3.top));
-        selBottom = Math.max(...Array.from(rects).map((r3) => r3.bottom));
-      } else {
-        const fb = this.cardEl.getBoundingClientRect();
-        selLeft = fb.left;
-        selRight = fb.right;
-        selTop = fb.top;
-        selBottom = fb.bottom;
+      const centerOn = rects.length > 0 ? (rects[0].left + rects[rects.length - 1].right) / 2 : void 0;
+      const avoid = [];
+      const ctxBar = this.container.querySelector(".visual-notes-ctx-bar-panel");
+      if (ctxBar && !ctxBar.hasClass("visual-notes-invisible")) {
+        avoid.push(ctxBar.getBoundingClientRect());
       }
-      let left = (selLeft + selRight) / 2 - contRect.left - popW / 2;
-      let top = selTop - contRect.top - popH - 8;
-      if (top < 4) top = selBottom - contRect.top + 8;
-      if (left < 4) left = 4;
-      if (left + popW > contW - 4) left = contW - 4 - popW;
+      const { top, left } = placeFloatingPanel({
+        anchor: this.cardEl.getBoundingClientRect(),
+        container: this.container.getBoundingClientRect(),
+        panelW: pop.offsetWidth,
+        panelH: pop.offsetHeight,
+        prefer: "below",
+        centerOn,
+        avoid
+      });
       pop.style.top = `${top}px`;
       pop.style.left = `${left}px`;
       pop.removeClass("visual-notes-invisible");
@@ -7398,6 +7534,10 @@ var canvasMethods = {
         e2.preventDefault();
         this.openQuickAdd();
       }
+      if ((e2.key === "t" || e2.key === "T") && !e2.ctrlKey && !e2.metaKey && !e2.altKey && activeDocument.activeElement === this.outer) {
+        e2.preventDefault();
+        if (this.textToolBtn) this.activateTool("text", this.textToolBtn);
+      }
     };
     this.docKeyUp = (e2) => {
       if (e2.code === "Space") {
@@ -7898,7 +8038,7 @@ var canvasMethods = {
     this.marqueeConnectionIds.clear();
   },
   refreshSelectionVisuals(keepMarqueeConnections = false) {
-    var _a, _b, _c, _d, _e, _f, _g, _h;
+    var _a, _b, _c, _d, _e, _f, _g;
     if (!keepMarqueeConnections) this.clearMarqueeConnections();
     for (const [id, el] of this.cardEls) el.toggleClass("is-selected", this.selection.has(id));
     (_a = this.alignBarEl) == null ? void 0 : _a.toggleClass("is-visible", this.selection.getIds().length > 1);
@@ -7915,8 +8055,7 @@ var canvasMethods = {
     }
     (_e = this.zoomPill) == null ? void 0 : _e.toggleClass("is-hidden-for-ctx-bar", ctxBarActive);
     (_f = this.snapToggleBtn) == null ? void 0 : _f.toggleClass("is-hidden-for-ctx-bar", ctxBarActive);
-    (_g = this.themeToggleBtn) == null ? void 0 : _g.toggleClass("is-hidden-for-ctx-bar", ctxBarActive);
-    (_h = this.minimapEl) == null ? void 0 : _h.toggleClass("is-hidden-for-ctx-bar", ctxBarActive);
+    (_g = this.minimapEl) == null ? void 0 : _g.toggleClass("is-hidden-for-ctx-bar", ctxBarActive);
   },
   // Single delegated listener set on the canvas content container instead
   // of one pointerdown/dblclick/contextmenu (+ 4 resize-handle pointerdowns)
@@ -8244,6 +8383,9 @@ var canvasMethods = {
           case "sticky":
             this.editStickyInline(el, card);
             break;
+          case "text":
+            this.editTextInline(el, card);
+            break;
           case "note-link":
             await this.activateNoteLink(card);
             break;
@@ -8297,6 +8439,7 @@ var canvasMethods = {
     const startX = (_b = card.x) != null ? _b : 0, startY = (_c = card.y) != null ? _c : 0;
     const startW = (_d = card.w) != null ? _d : TILE_DEFAULT_W, startH = (_e = card.h) != null ? _e : TILE_DEFAULT_H;
     const { w: minW, h: minH } = cardMinSize(card.kind);
+    const startFontSize = card.kind === "text" ? card.fontSize : TEXT_CARD_DEFAULT_FONT;
     el.setPointerCapture(e2.pointerId);
     let imgAspect = null;
     if (card.kind === "image") {
@@ -8315,7 +8458,20 @@ var canvasMethods = {
       const wSign = corner === "se" || corner === "ne" ? 1 : -1;
       const hSign = corner === "se" || corner === "sw" ? 1 : -1;
       const newW = Math.max(minW, this.applySnap(startW + wSign * cdx));
-      if (card.kind === "sticky" && !card.blank) {
+      if (card.kind === "text") {
+        const ratio = startW > 0 ? (startW + wSign * cdx) / startW : 1;
+        const next = Math.min(TEXT_CARD_MAX_FONT, Math.max(TEXT_CARD_MIN_FONT, startFontSize * ratio));
+        const grew = next / startFontSize;
+        card.fontSize = next;
+        card.w = startW * grew;
+        card.h = startH * grew;
+        card.x = corner === "sw" || corner === "nw" ? startX + startW - card.w : startX;
+        card.y = corner === "nw" || corner === "ne" ? startY + startH - card.h : startY;
+        const inner = el.querySelector(".visual-notes-text-body");
+        if (inner) inner.style.fontSize = `${next}px`;
+        el.style.left = `${card.x}px`;
+        el.style.top = `${card.y}px`;
+      } else if (card.kind === "sticky" && !card.blank) {
         card.w = newW;
         if (corner === "sw" || corner === "nw") card.x = this.applySnap(startX + startW - newW);
         el.style.width = `${card.w}px`;
@@ -8377,6 +8533,7 @@ var canvasMethods = {
         applyResize(latestEv);
       }
       this.renderCardContent(el, card);
+      if (card.kind === "text") this.syncTextCardSize(el, card);
       this.updateConnectionsForCard(card.id);
       this.scheduleSave();
     };
@@ -8728,6 +8885,9 @@ var canvasMethods = {
         break;
       case "blank-card":
         this.addBlankCardAt(s2(cx - STICKY_DEFAULT_W / 2), s2(cy - STICKY_DEFAULT_H / 2));
+        break;
+      case "text":
+        this.addTextCardAt(s2(cx - STICKY_DEFAULT_W / 2), s2(cy - STICKY_DEFAULT_H / 2));
         break;
       case "sticky":
         this.addStickyAt(s2(cx - STICKY_DEFAULT_W / 2), s2(cy - STICKY_DEFAULT_H / 2));
@@ -9668,8 +9828,8 @@ var canvasMethods = {
     if (!trash) return;
     pRect = picker.getBoundingClientRect();
     const tRect = trash.getBoundingClientRect();
-    const overlaps = pRect.left < tRect.right + margin && pRect.right > tRect.left - margin && pRect.top < tRect.bottom + margin && pRect.bottom > tRect.top - margin;
-    if (overlaps) {
+    const overlaps2 = pRect.left < tRect.right + margin && pRect.right > tRect.left - margin && pRect.top < tRect.bottom + margin && pRect.bottom > tRect.top - margin;
+    if (overlaps2) {
       const flippedTop = Math.max(margin, tRect.top - cRect.top - pRect.height - margin);
       picker.setCssStyles({ top: `${flippedTop}px` });
     }
@@ -10874,8 +11034,10 @@ var cardsBasicMethods = {
     el.addClass("visual-notes-freeform-sticky-card");
     if (card.blank) el.addClass("is-blank-card");
     if (card.shape === "round") el.addClass("is-shape-round");
+    if (card.transparent) el.addClass("is-transparent");
+    if (card.fontFamily) el.style.setProperty("--vn-card-font", STICKY_FONT_FAMILIES[card.fontFamily]);
     const shapeFill = el.createDiv("visual-notes-sticky-shape-fill");
-    shapeFill.style.backgroundColor = card.color;
+    if (!card.transparent) shapeFill.style.backgroundColor = card.color;
     if (card.shape === "round") shapeFill.addClass("is-shape-round");
     if (card.topColor) {
       const strip = el.createDiv("visual-notes-card-top-strip");
@@ -10884,7 +11046,7 @@ var cardsBasicMethods = {
     applyStickyTextScale(el, card.textScale);
     const inner = el.createDiv("visual-notes-sticky-inner");
     const textEl = inner.createDiv("visual-notes-sticky-text");
-    const autoTextColor = (_a = card.textColor) != null ? _a : isHexColor(card.color) ? contrastColor(card.color) : void 0;
+    const autoTextColor = (_a = card.textColor) != null ? _a : !card.transparent && isHexColor(card.color) ? contrastColor(card.color) : void 0;
     if (autoTextColor) textEl.style.color = autoTextColor;
     if (card.textAlign) textEl.style.textAlign = card.textAlign;
     const placeholder = card.blank ? "*Start Typing\u2026*" : "*Double-click to edit\u2026*";
@@ -10897,6 +11059,7 @@ var cardsBasicMethods = {
     if (!textEl || el.querySelector(".visual-notes-sticky-editor")) return;
     const inner = (_a = el.querySelector(".visual-notes-sticky-inner")) != null ? _a : el;
     const editor = inner.createDiv("visual-notes-sticky-editor");
+    editor.style.color = textEl.style.color;
     editor.contentEditable = "true";
     editor.empty();
     if (card.text) editor.appendChild((0, import_obsidian13.sanitizeHTMLToDom)(textEl.innerHTML));
@@ -12041,6 +12204,87 @@ var cardsBasicMethods = {
     this.refreshSelectionVisuals();
     this.editStickyInline(el, card);
   },
+  addTextCardAt(x2, y2) {
+    const card = {
+      id: crypto.randomUUID(),
+      kind: "text",
+      x: x2,
+      y: y2,
+      z: this.nextZ(),
+      text: "",
+      fontSize: TEXT_CARD_DEFAULT_FONT
+    };
+    this.pushUndo();
+    this.board.cards.push(card);
+    void this.saveNow();
+    const el = this.createCardEl(card);
+    this.selection.select(card.id);
+    this.refreshSelectionVisuals();
+    this.editTextInline(el, card);
+  },
+  renderTextContent(el, card) {
+    el.addClass("visual-notes-freeform-text-card");
+    const body = el.createDiv("visual-notes-text-body");
+    this.styleTextBody(body, card);
+    if (card.text) body.appendChild((0, import_obsidian13.sanitizeHTMLToDom)(card.text));
+    else {
+      body.addClass("is-placeholder");
+      body.setText("Text");
+    }
+    this.appendResizeHandles(el);
+    this.syncTextCardSize(el, card);
+  },
+  // A text card's on-screen size comes from CSS (content width at the current
+  // font size), not from card.w/h. But connection anchors, the minimap,
+  // marquee hit-testing and export bounds all read w/h, so they're kept in
+  // step here. Only ever called once the content has settled — never during a
+  // drag, which is what keeps resizing free of layout reads.
+  syncTextCardSize(el, card) {
+    const w2 = Math.ceil(el.offsetWidth), h2 = Math.ceil(el.offsetHeight);
+    if (w2 > 0 && h2 > 0) {
+      card.w = w2;
+      card.h = h2;
+    }
+  },
+  editTextInline(el, card) {
+    const body = el.querySelector(".visual-notes-text-body");
+    if (!body || el.querySelector(".visual-notes-text-editor")) return;
+    body.hide();
+    const editor = el.createDiv("visual-notes-text-editor");
+    editor.contentEditable = "true";
+    this.styleTextBody(editor, card);
+    if (card.text) editor.appendChild((0, import_obsidian13.sanitizeHTMLToDom)(card.text));
+    editor.addEventListener("pointerdown", (e2) => e2.stopPropagation());
+    editor.addEventListener("keydown", (e2) => {
+      if (e2.key === "Escape") {
+        e2.preventDefault();
+        editor.blur();
+      }
+      e2.stopPropagation();
+    });
+    new TextFormatToolbar(editor, el, this.container);
+    editor.focus();
+    const r3 = activeDocument.createRange();
+    r3.selectNodeContents(editor);
+    r3.collapse(false);
+    const sel = window.getSelection();
+    sel == null ? void 0 : sel.removeAllRanges();
+    sel == null ? void 0 : sel.addRange(r3);
+    let committed = false;
+    editor.addEventListener("blur", () => {
+      if (committed) return;
+      committed = true;
+      card.text = editor.innerHTML;
+      this.renderCardContent(el, card);
+      this.scheduleSave();
+    });
+  },
+  styleTextBody(target, card) {
+    target.style.fontSize = `${card.fontSize}px`;
+    if (card.color) target.style.color = card.color;
+    if (card.fontFamily) target.style.fontFamily = STICKY_FONT_FAMILIES[card.fontFamily];
+    if (card.align) target.style.textAlign = card.align;
+  },
   addChecklist() {
     const p2 = this.centerPos(CHECKLIST_DEFAULT_W, CHECKLIST_DEFAULT_H);
     this.addChecklistAt(p2.x, p2.y);
@@ -12270,7 +12514,8 @@ function collectBoardDatedItems(board) {
 var WEEKDAY_LABELS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 function renderCalendarGrid(body, anchor, mode, items, opts) {
   var _a, _b;
-  const { app, onDrop, onDayAdd, onDayContextMenu, onItemContextMenu, dayStyle, onDayBadgeClick } = opts;
+  const { app, onDrop, onDayAdd, onDayContextMenu, onItemContextMenu, dayStyle, onDayBadgeClick, expandDay } = opts;
+  let collapseOpenDay = null;
   const byDay = /* @__PURE__ */ new Map();
   for (const it of items) {
     const list = (_a = byDay.get(it.start)) != null ? _a : [];
@@ -12347,11 +12592,41 @@ function renderCalendarGrid(body, anchor, mode, items, opts) {
     }
     const dayItems = (_b = byDay.get(date)) != null ? _b : [];
     const maxChips = mode === "week" ? dayItems.length : 3;
-    for (const it of dayItems.slice(0, maxChips)) {
-      appendCalendarChip(app, cell, it, grid, onDrop, onItemContextMenu);
-    }
-    if (dayItems.length > maxChips) {
-      cell.createDiv({ cls: "visual-notes-cal-more", text: `+${dayItems.length - maxChips} more` });
+    const hiddenCount = dayItems.length - maxChips;
+    const dayBody = cell.createDiv("visual-notes-cal-daybody");
+    const chipWrap = dayBody.createDiv("visual-notes-cal-chips");
+    const moreEl = hiddenCount > 0 ? dayBody.createDiv("visual-notes-cal-more") : null;
+    const paintDay = (expanded) => {
+      chipWrap.empty();
+      for (const it of expanded ? dayItems : dayItems.slice(0, maxChips)) {
+        appendCalendarChip(app, chipWrap, it, grid, onDrop, onItemContextMenu);
+      }
+      cell.toggleClass("is-day-expanded", expanded);
+      moreEl == null ? void 0 : moreEl.setText(expanded ? "Show less" : `+${hiddenCount} more`);
+    };
+    const setDayExpanded = (expanded) => {
+      if (expanded && collapseOpenDay) collapseOpenDay();
+      paintDay(expanded);
+      collapseOpenDay = expanded ? () => paintDay(false) : null;
+    };
+    if (moreEl && expandDay === date) setDayExpanded(true);
+    else paintDay(false);
+    if (moreEl) {
+      moreEl.addClass("is-clickable");
+      moreEl.setAttribute("role", "button");
+      moreEl.setAttribute("tabindex", "0");
+      moreEl.setAttribute("aria-label", `Show all ${dayItems.length} items on ${date}`);
+      moreEl.addEventListener("pointerdown", (e2) => e2.stopPropagation());
+      moreEl.addEventListener("click", (e2) => {
+        e2.stopPropagation();
+        setDayExpanded(!cell.hasClass("is-day-expanded"));
+      });
+      moreEl.addEventListener("keydown", (e2) => {
+        if (e2.key !== "Enter" && e2.key !== " ") return;
+        e2.preventDefault();
+        e2.stopPropagation();
+        setDayExpanded(!cell.hasClass("is-day-expanded"));
+      });
     }
   }
 }
@@ -14226,6 +14501,8 @@ var cardsKanbanMethods = {
     };
     const cb = itemEl.createDiv("visual-notes-kanban-item-cb");
     cb.toggleClass("is-checked", (_b = item.done) != null ? _b : false);
+    cb.setAttribute("aria-label", "Mark done");
+    cb.addEventListener("pointerdown", (e2) => e2.stopPropagation());
     cb.addEventListener("click", (e2) => {
       e2.stopPropagation();
       this.pushUndo();
@@ -15604,8 +15881,11 @@ var cardsCalendarMethods = {
       b2.toggleClass("is-active", mode === m2);
     }
     const body = el.createDiv("visual-notes-calendar-body");
+    const expandDay = el.dataset.vnExpandDay;
+    delete el.dataset.vnExpandDay;
     renderCalendarGrid(body, anchor, mode, items, {
       app: this.app,
+      expandDay,
       onDrop: (item, date) => {
         this.pushUndo();
         item.move(date);
@@ -15676,6 +15956,7 @@ var cardsCalendarMethods = {
       const note = { id: crypto.randomUUID(), date, text };
       card.notes = [...(_a = card.notes) != null ? _a : [], note];
       this.scheduleSave();
+      el.dataset.vnExpandDay = date;
       this.rerenderCard(el, card);
     }).open();
   },
@@ -15907,6 +16188,7 @@ var cardsCalendarMethods = {
         var _a;
         this.pushUndo();
         card.notes = ((_a = card.notes) != null ? _a : []).filter((n2) => n2.id !== note.id);
+        el.dataset.vnExpandDay = item.start;
         commit();
       }));
     } else {
@@ -16329,26 +16611,18 @@ var ContextBar = class {
     const cardEl = this.currentCardEl;
     if (!cardEl) return;
     const cardRect = cardEl.getBoundingClientRect();
-    const contRect = this.container.getBoundingClientRect();
-    const panelW = this.ctxPanelEl.offsetWidth;
-    const panelH = this.ctxPanelEl.offsetHeight;
-    const gap = 8;
-    let left = (cardRect.left + cardRect.right) / 2 - contRect.left - panelW / 2;
-    let top = cardRect.top - contRect.top - panelH - gap;
-    if (top < 4) top = cardRect.bottom - contRect.top + gap;
-    const margin = 4;
-    left = Math.max(margin, Math.min(left, contRect.width - margin - panelW));
-    top = Math.max(margin, Math.min(top, contRect.height - margin - panelH));
-    this.ctxPanelEl.setCssStyles({ top: `${top}px`, left: `${left}px`, right: "", bottom: "" });
+    const avoid = [cardRect];
     const trash = this.getTrashZoneEl();
-    if (!trash) return;
-    const pRect = this.ctxPanelEl.getBoundingClientRect();
-    const tRect = trash.getBoundingClientRect();
-    const overlaps = pRect.left < tRect.right + margin && pRect.right > tRect.left - margin && pRect.top < tRect.bottom + margin && pRect.bottom > tRect.top - margin;
-    if (overlaps) {
-      const flippedTop = Math.max(margin, tRect.top - contRect.top - panelH - margin);
-      this.ctxPanelEl.setCssStyles({ top: `${flippedTop}px` });
-    }
+    if (trash) avoid.push(trash.getBoundingClientRect());
+    const { top, left } = placeFloatingPanel({
+      anchor: cardRect,
+      container: this.container.getBoundingClientRect(),
+      panelW: this.ctxPanelEl.offsetWidth,
+      panelH: this.ctxPanelEl.offsetHeight,
+      prefer: "above",
+      avoid
+    });
+    this.ctxPanelEl.setCssStyles({ top: `${top}px`, left: `${left}px`, right: "", bottom: "" });
   }
   // Sub-panels (color grid, bg/strip tabs) resize the already-visible panel
   // well beyond its initial icon-row footprint — re-measure in place so it
@@ -16372,14 +16646,34 @@ var ContextBar = class {
         this.mkBtn(p2, "Edit", "edit-2", () => this.emit({ type: "edit-card" }));
         this.mkBtn(p2, "Bullet", "list", () => this.emit({ type: "sticky-bullet" })).addEventListener("pointerdown", (e2) => e2.preventDefault());
         this.mkBtn(p2, "Size", "a-large-small", () => this.openTextScaleSub(p2, card));
-        this.mkBtn(p2, "Color", "palette", () => this.openBgTopColorSub(
-          p2,
-          card,
-          BG_COLORS(this.isDark()),
-          (hex) => this.emit({ type: "sticky-color", hex }),
-          STRIP_COLORS,
-          (hex) => this.emit({ type: "sticky-top-color", hex })
-        ));
+        this.mkBtn(p2, "Font", "type", () => this.openFontSub(p2, card));
+        this.mkBtn(p2, "Color", "palette", () => {
+          var _a;
+          return this.openBgTopColorSub(
+            p2,
+            card,
+            BG_COLORS(this.isDark()),
+            (hex) => this.emit({ type: "sticky-color", hex }),
+            STRIP_COLORS,
+            (hex) => this.emit({ type: "sticky-top-color", hex }),
+            "Top strip",
+            {
+              value: (_a = card.transparent) != null ? _a : false,
+              // "No background" rather than the group frame's "Transparent":
+              // the request this came from was phrased as not wanting the
+              // background at all, and a note has no see-through tint state to
+              // distinguish it from.
+              label: "No background",
+              onChange: (transparent) => this.emit({ type: "sticky-transparent", transparent })
+            }
+          );
+        });
+        break;
+      case "text":
+        this.mkBtn(p2, "Edit", "edit-2", () => this.emit({ type: "edit-card" }));
+        this.mkBtn(p2, "Size", "a-large-small", () => this.openTextSizeSub(p2, card));
+        this.mkBtn(p2, "Font", "type", () => this.openFontSub(p2, card));
+        this.mkBtn(p2, "Color", "palette", () => this.openColorSub(p2, ACCENT_COLORS, (hex) => this.emit({ type: "text-color", hex }), card));
         break;
       case "checklist":
         this.mkBtn(p2, "Color", "palette", () => this.openBgTopColorSub(
@@ -16480,9 +16774,10 @@ var ContextBar = class {
     stripTab.setText(stripLabel);
     const swatchArea = p2.createDiv("visual-notes-ctx-swatch-area");
     const renderSwatches = (tab) => {
+      var _a;
       swatchArea.empty();
       if (tab === "bg") {
-        if (bgTransparent) this.mkToggleRow(swatchArea, "Transparent", bgTransparent.value, (v2) => {
+        if (bgTransparent) this.mkToggleRow(swatchArea, (_a = bgTransparent.label) != null ? _a : "Transparent", bgTransparent.value, (v2) => {
           bgTransparent.value = v2;
           bgTransparent.onChange(v2);
           renderSwatches("bg");
@@ -16557,6 +16852,80 @@ var ContextBar = class {
       const choose = () => {
         this.emit({ type: "sticky-text-scale", scale: key });
         this.openTextScaleSub(p2, card);
+      };
+      btn.addEventListener("click", choose);
+      btn.addEventListener("keydown", (e2) => {
+        if (e2.key === "Enter" || e2.key === " ") {
+          e2.preventDefault();
+          choose();
+        }
+      });
+    }
+    this.mkTrash(p2);
+    this.syncPos();
+  }
+  // ── Text card size sub-panel ─────────────────────────────────────────────────
+  // Absolute px, the same unit dragging a corner writes. That's the whole
+  // point: an earlier version had presets as multipliers while the drag was
+  // open-ended, so picking a preset after dragging something large silently
+  // shrank it.
+  openTextSizeSub(p2, card) {
+    p2.empty();
+    this.cancelTrashConfirm();
+    this.mkBack(p2, () => this.fill(card));
+    const current = card.kind === "text" ? card.fontSize : void 0;
+    const row = p2.createDiv("visual-notes-ctx-size-row");
+    for (const size of TEXT_CARD_FONT_PRESETS) {
+      const btn = row.createDiv("visual-notes-ctx-size-btn");
+      btn.setText(String(size));
+      btn.setAttribute("tabindex", "0");
+      btn.setAttribute("aria-label", `Font size ${size}`);
+      (0, import_obsidian21.setTooltip)(btn, `Font size ${size}px`);
+      if (current === size) btn.addClass("is-active");
+      const choose = () => {
+        this.emit({ type: "text-font-size", size });
+        this.openTextSizeSub(p2, card);
+      };
+      btn.addEventListener("click", choose);
+      btn.addEventListener("keydown", (e2) => {
+        if (e2.key === "Enter" || e2.key === " ") {
+          e2.preventDefault();
+          choose();
+        }
+      });
+    }
+    this.mkTrash(p2);
+    this.syncPos();
+  }
+  // ── Font sub-panel ───────────────────────────────────────────────────────────
+  // Obsidian's own three fonts plus a Default reset. Deliberately not a free
+  // font-name field: these are the faces the user already configured under
+  // Appearance → Font, so they exist on every platform the plugin runs on and
+  // a board doesn't render differently on iPad than on desktop.
+  openFontSub(p2, card) {
+    p2.empty();
+    this.cancelTrashConfirm();
+    this.mkBack(p2, () => this.fill(card));
+    const current = card.kind === "sticky" || card.kind === "text" ? card.fontFamily : void 0;
+    const emitFont = (font) => this.emit(card.kind === "text" ? { type: "text-font", font } : { type: "sticky-font", font });
+    const options = [
+      { key: null, label: "Default" },
+      { key: "text", label: "Text" },
+      { key: "interface", label: "Interface" },
+      { key: "monospace", label: "Mono" }
+    ];
+    const row = p2.createDiv("visual-notes-ctx-font-row");
+    for (const { key, label } of options) {
+      const btn = row.createDiv("visual-notes-ctx-font-btn");
+      btn.setText(label);
+      if (key) btn.style.fontFamily = STICKY_FONT_FAMILIES[key];
+      btn.setAttribute("tabindex", "0");
+      btn.setAttribute("aria-label", `Font ${label}`);
+      (0, import_obsidian21.setTooltip)(btn, `Font ${label}`);
+      if ((current != null ? current : null) === key) btn.addClass("is-active");
+      const choose = () => {
+        emitFont(key);
+        this.openFontSub(p2, card);
       };
       btn.addEventListener("click", choose);
       btn.addEventListener("keydown", (e2) => {
@@ -18354,6 +18723,7 @@ var overlaysMethods = {
       }
       return btn;
     };
+    this.textToolBtn = mkBtn("Text", "type", "text");
     mkBtn("Note", "square", "blank-card");
     mkBtn("Tile", "layout-template", "tile-board");
     mkBtn("Sticky", "sticky-note", "sticky");
@@ -18391,28 +18761,15 @@ var overlaysMethods = {
     });
     this.contextBar = new ContextBar(tb, this.container, () => this.trashZoneEl, () => this.boardIsDark(), (e2) => this.handleCtxEvent(e2));
   },
-  // ── Board appearance (own light/dark, independent of Obsidian's theme) ──
-  // An unset `appearance` means "follow Obsidian", which is how every board
-  // behaved before this existed — so untouched boards keep tracking the theme
-  // and only an explicit toggle pins them.
+  // ── Board appearance ──
+  // Whether the board's surface reads as dark. Sourced from Obsidian's theme
+  // alone: boards could previously pin their own light/dark surface via a
+  // canvas toggle, but two independent places to change appearance confused
+  // people more than the flexibility helped, so the toggle was removed and the
+  // theme is now the single source of truth. A legacy `appearance` value on an
+  // existing board is preserved in the file (see canvas-format) but not read.
   boardIsDark() {
-    return this.board.appearance ? this.board.appearance === "dark" : isDarkTheme();
-  },
-  // The class goes on `outer` (the canvas viewport), not `container`: the
-  // toolbars, context bar, pen panel and minimap are siblings of outer inside
-  // container, and they deliberately keep following Obsidian's theme so the
-  // pane's chrome stays consistent with the rest of the app.
-  applyBoardAppearance() {
-    const dark = this.boardIsDark();
-    this.outer.toggleClass("visual-notes-appearance-dark", dark);
-    this.outer.toggleClass("visual-notes-appearance-light", !dark);
-  },
-  toggleBoardAppearance() {
-    this.pushUndo();
-    this.board.appearance = this.boardIsDark() ? "light" : "dark";
-    this.applyBoardAppearance();
-    this.refreshThemeToggleIcon();
-    this.scheduleSave();
+    return isDarkTheme();
   },
   renderTrashZone() {
     const zone = this.container.createDiv("visual-notes-trash-zone");
@@ -18607,21 +18964,6 @@ var overlaysMethods = {
     (0, import_obsidian23.setIcon)(this.snapToggleBtn, "magnet");
     this.snapToggleBtn.toggleClass("is-active", this.snapToGridEnabled);
     this.snapToggleBtn.addEventListener("click", () => this.toggleSnapToGrid());
-    this.themeToggleBtn = this.container.createDiv("visual-notes-theme-toggle-btn");
-    this.refreshThemeToggleIcon();
-    this.themeToggleBtn.addEventListener("click", () => this.toggleBoardAppearance());
-  },
-  // Shows what a click will do: a sun while the board is dark (click for
-  // light), a moon while it's light.
-  refreshThemeToggleIcon() {
-    const btn = this.themeToggleBtn;
-    if (!btn) return;
-    const dark = this.boardIsDark();
-    btn.empty();
-    (0, import_obsidian23.setIcon)(btn, dark ? "sun" : "moon");
-    const label = dark ? "Board appearance: dark \u2014 switch to light" : "Board appearance: light \u2014 switch to dark";
-    btn.setAttribute("title", label);
-    btn.setAttribute("aria-label", label);
   },
   renderMinimap() {
     const wrap = this.minimapEl = this.container.createDiv("visual-notes-minimap");
@@ -18919,6 +19261,9 @@ var overlaysMethods = {
       case "map":
         parts.push(card.url);
         break;
+      case "text":
+        parts.push(this.stripHtml(card.text));
+        break;
       case "swatch":
         parts.push(card.color, nearestColorName(card.color));
         break;
@@ -19131,6 +19476,7 @@ var overlaysMethods = {
   },
   openQuickAdd() {
     const entries = [
+      { label: "Text", tool: "text" },
       { label: "Note", tool: "blank-card" },
       { label: "Tile", tool: "tile-board" },
       { label: "Sticky note", tool: "sticky" },
@@ -19191,7 +19537,7 @@ var overlaysMethods = {
     for (const { icon, title, mode } of VALIGN_BTNS) makeBtn(vGroup, icon, title, mode);
   },
   handleCtxEvent(e2) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l;
     const cardId = this.selection.getIds()[0];
     const card = cardId ? this.board.cards.find((c2) => c2.id === cardId) : null;
     const el = cardId ? (_a = this.cardEls.get(cardId)) != null ? _a : null : null;
@@ -19228,6 +19574,9 @@ var overlaysMethods = {
         switch (card.kind) {
           case "sticky":
             this.editStickyInline(el, card);
+            break;
+          case "text":
+            this.editTextInline(el, card);
             break;
           case "callout":
             this.editCalloutInline(el, card);
@@ -19305,6 +19654,61 @@ var overlaysMethods = {
         this.scheduleSave();
         break;
       }
+      case "sticky-transparent": {
+        if ((card == null ? void 0 : card.kind) !== "sticky" || !el) return;
+        this.pushUndo();
+        card.transparent = e2.transparent;
+        el.toggleClass("is-transparent", e2.transparent);
+        const fillEl = el.querySelector(".visual-notes-sticky-shape-fill");
+        if (fillEl) fillEl.style.backgroundColor = e2.transparent ? "" : card.color;
+        const stickyTextEl = el.querySelector(".visual-notes-sticky-text");
+        if (stickyTextEl) {
+          stickyTextEl.style.color = (_d = card.textColor) != null ? _d : !e2.transparent && isHexColor(card.color) ? contrastColor(card.color) : "";
+        }
+        this.scheduleSave();
+        break;
+      }
+      case "sticky-font": {
+        if ((card == null ? void 0 : card.kind) !== "sticky" || !el) return;
+        this.pushUndo();
+        if (e2.font) {
+          card.fontFamily = e2.font;
+          el.style.setProperty("--vn-card-font", STICKY_FONT_FAMILIES[e2.font]);
+        } else {
+          delete card.fontFamily;
+          el.style.removeProperty("--vn-card-font");
+        }
+        this.scheduleSave();
+        break;
+      }
+      case "text-font-size": {
+        if ((card == null ? void 0 : card.kind) !== "text" || !el) return;
+        this.pushUndo();
+        card.fontSize = e2.size;
+        this.renderCardContent(el, card);
+        this.updateConnectionsForCard(card.id);
+        this.scheduleSave();
+        break;
+      }
+      case "text-font": {
+        if ((card == null ? void 0 : card.kind) !== "text" || !el) return;
+        this.pushUndo();
+        if (e2.font) card.fontFamily = e2.font;
+        else delete card.fontFamily;
+        this.renderCardContent(el, card);
+        this.updateConnectionsForCard(card.id);
+        this.scheduleSave();
+        break;
+      }
+      case "text-color": {
+        if ((card == null ? void 0 : card.kind) !== "text" || !el) return;
+        this.pushUndo();
+        card.color = e2.hex;
+        const textBody = el.querySelector(".visual-notes-text-body");
+        if (textBody) textBody.style.color = e2.hex;
+        this.scheduleSave();
+        break;
+      }
       case "checklist-accent": {
         if ((card == null ? void 0 : card.kind) !== "checklist" || !el) return;
         this.pushUndo();
@@ -19325,7 +19729,7 @@ var overlaysMethods = {
       case "checklist-top-color": {
         if ((card == null ? void 0 : card.kind) !== "checklist" || !el) return;
         this.pushUndo();
-        card.accentColor = (_d = e2.hex) != null ? _d : void 0;
+        card.accentColor = (_e = e2.hex) != null ? _e : void 0;
         let bar = el.querySelector(".visual-notes-checklist-accent");
         if (card.accentColor) {
           if (!bar) {
@@ -19372,7 +19776,7 @@ var overlaysMethods = {
         card.color = e2.hex;
         el.style.borderColor = e2.hex;
         if (!card.bgColor) {
-          el.style.backgroundColor = ((_e = card.transparent) != null ? _e : true) ? `${e2.hex}14` : e2.hex;
+          el.style.backgroundColor = ((_f = card.transparent) != null ? _f : true) ? `${e2.hex}14` : e2.hex;
         }
         const groupLabel = el.querySelector(".visual-notes-group-label");
         if (groupLabel) {
@@ -19386,7 +19790,7 @@ var overlaysMethods = {
         if ((card == null ? void 0 : card.kind) !== "group" || !el) return;
         this.pushUndo();
         card.bgColor = e2.hex;
-        el.style.backgroundColor = ((_f = card.transparent) != null ? _f : true) ? `${e2.hex}14` : e2.hex;
+        el.style.backgroundColor = ((_g = card.transparent) != null ? _g : true) ? `${e2.hex}14` : e2.hex;
         this.scheduleSave();
         break;
       }
@@ -19394,7 +19798,7 @@ var overlaysMethods = {
         if ((card == null ? void 0 : card.kind) !== "group" || !el) return;
         this.pushUndo();
         card.transparent = e2.transparent;
-        const fill = (_h = card.bgColor) != null ? _h : (_g = card.color) != null ? _g : "#6b7280";
+        const fill = (_i = card.bgColor) != null ? _i : (_h = card.color) != null ? _h : "#6b7280";
         el.style.backgroundColor = e2.transparent ? `${fill}14` : fill;
         this.scheduleSave();
         break;
@@ -19485,15 +19889,15 @@ var overlaysMethods = {
       case "kanban-bg": {
         if ((card == null ? void 0 : card.kind) !== "kanban-column" || !el) return;
         this.pushUndo();
-        card.bgColor = (_i = e2.hex) != null ? _i : void 0;
-        el.style.backgroundColor = (_j = card.bgColor) != null ? _j : "";
+        card.bgColor = (_j = e2.hex) != null ? _j : void 0;
+        el.style.backgroundColor = (_k = card.bgColor) != null ? _k : "";
         this.scheduleSave();
         break;
       }
       case "kanban-top-color": {
         if ((card == null ? void 0 : card.kind) !== "kanban-column" || !el) return;
         this.pushUndo();
-        card.topColor = (_k = e2.hex) != null ? _k : void 0;
+        card.topColor = (_l = e2.hex) != null ? _l : void 0;
         let strip = el.querySelector(".visual-notes-card-top-strip");
         if (card.topColor) {
           if (!strip) {
@@ -19991,7 +20395,6 @@ var FreeformRenderer = class extends import_obsidian27.Component {
     this.onPenDrawOptionsChange = onPenDrawOptionsChange;
     this.panButton = panButton;
     this.snapToggleBtn = null;
-    this.themeToggleBtn = null;
     this.fabEl = null;
     // Bottom-left drop target — anything draggable (cards, kanban items,
     // column children, sketches) dropped onto it gets deleted.
@@ -20033,6 +20436,9 @@ var FreeformRenderer = class extends import_obsidian27.Component {
     this.connectSourceId = null;
     this.ghostPath = null;
     this.connectToolBtn = null;
+    // Held so the "T" shortcut can arm the tool *and* light its button up, the
+    // same as clicking it would.
+    this.textToolBtn = null;
     this.connectMoveListener = null;
     this.connectionHitPaths = /* @__PURE__ */ new Map();
     this.connectionLabelEls = /* @__PURE__ */ new Map();
@@ -20172,7 +20578,6 @@ var FreeformRenderer = class extends import_obsidian27.Component {
     for (const evt of ["touchstart", "touchmove", "touchend"]) {
       this.outer.addEventListener(evt, (e2) => e2.stopPropagation(), { passive: true });
     }
-    this.applyBoardAppearance();
     this.inner = this.outer.createDiv("visual-notes-canvas-inner");
     this.marqueeEl = this.outer.createDiv("visual-notes-marquee");
     this.marqueeEl.hide();
@@ -20257,8 +20662,8 @@ var FreeformRenderer = class extends import_obsidian27.Component {
     var _a, _b, _c, _d, _e;
     el.style.left = `${(_a = card.x) != null ? _a : 0}px`;
     el.style.top = `${(_b = card.y) != null ? _b : 0}px`;
-    el.style.width = `${(_c = card.w) != null ? _c : TILE_DEFAULT_W}px`;
-    el.style.height = card.kind === "sticky" && !card.blank ? "" : `${(_d = card.h) != null ? _d : TILE_DEFAULT_H}px`;
+    el.style.width = card.kind === "text" ? "" : `${(_c = card.w) != null ? _c : TILE_DEFAULT_W}px`;
+    el.style.height = card.kind === "text" || card.kind === "sticky" && !card.blank ? "" : `${(_d = card.h) != null ? _d : TILE_DEFAULT_H}px`;
     el.setCssProps({ "--card-z": String((_e = card.z) != null ? _e : 0) });
   }
   // ── Content dispatch ───────────────────────────────────────────
@@ -20274,7 +20679,8 @@ var FreeformRenderer = class extends import_obsidian27.Component {
       "visual-notes-freeform-notelink-card",
       "visual-notes-freeform-image-card",
       "visual-notes-freeform-audio-card",
-      "visual-notes-freeform-bookmark-card"
+      "visual-notes-freeform-bookmark-card",
+      "visual-notes-freeform-text-card"
     );
     switch (card.kind) {
       case "tile":
@@ -20315,6 +20721,9 @@ var FreeformRenderer = class extends import_obsidian27.Component {
         break;
       case "map":
         this.renderMapContent(el, card);
+        break;
+      case "text":
+        this.renderTextContent(el, card);
         break;
       case "swatch":
         this.renderSwatchContent(el, card);
@@ -20878,6 +21287,11 @@ var FolderSuggestModal = class extends import_obsidian28.FuzzySuggestModal {
     this.onChoose(item);
   }
 };
+function resolveFolderPath(app, path) {
+  if (!path) return null;
+  const f2 = app.vault.getAbstractFileByPath(path);
+  return f2 instanceof import_obsidian28.TFolder ? f2 : null;
+}
 var TemplatePickerModal = class extends import_obsidian28.FuzzySuggestModal {
   constructor(app, choices) {
     super(app);
@@ -20906,7 +21320,7 @@ var CreateBoardModal = class extends import_obsidian28.Modal {
     this.targetFolder = null;
     this.plugin = plugin;
     this.onCreated = onCreated;
-    this.targetFolder = initialFolder;
+    this.targetFolder = initialFolder != null ? initialFolder : resolveFolderPath(app, plugin.settings.defaultNewBoardFolder);
     this.modalEl.addClass("visual-notes-create-modal");
   }
   onOpen() {
@@ -20968,7 +21382,7 @@ var CreateBoardModal = class extends import_obsidian28.Modal {
       })
     ).addButton(
       (btn) => btn.setButtonText("Reset").onClick(() => {
-        this.targetFolder = null;
+        this.targetFolder = resolveFolderPath(this.app, this.plugin.settings.defaultNewBoardFolder);
         this.render();
       })
     );
@@ -21013,7 +21427,7 @@ var VisualNotesView = class extends import_obsidian29.FileView {
   }
   // Obsidian calls this when it assigns a file to the view.
   async onLoadFile(file) {
-    if (file.extension === "canvas" && !await isVisualNotesOwnedFile(this.app, file)) {
+    if (file.extension === "canvas" && await classifyCanvasFile(this.app, file) === "foreign") {
       await this.leaf.setViewState({ type: NATIVE_CANVAS_VIEW_TYPE, state: { file: file.path } });
       return;
     }
@@ -21258,7 +21672,7 @@ function normalizeSettings(s2) {
   for (const key of Object.keys(ENUMS)) {
     if (out[key] !== void 0 && !ENUMS[key].includes(out[key])) delete out[key];
   }
-  for (const key of ["defaultBoardPath", "defaultStickyColor", "commentAuthorName", "dotColor", "canvasBgColor"]) {
+  for (const key of ["defaultBoardPath", "defaultNewBoardFolder", "defaultStickyColor", "commentAuthorName", "dotColor", "canvasBgColor"]) {
     if (out[key] !== void 0 && typeof out[key] !== "string") delete out[key];
   }
   for (const key of ["v2migrationDone", "autoRelinkOnOpen", "cardDragAnimation", "largeKanbanItems", "snapToGrid"]) {
@@ -21278,7 +21692,7 @@ function normalizeSettings(s2) {
 }
 
 // src/settings.ts
-var BUILD_VERSION = true ? "1.1.16" : "unknown";
+var BUILD_VERSION = true ? "1.1.25" : "unknown";
 var BoardPickerModal = class extends import_obsidian30.FuzzySuggestModal {
   constructor(app, onChoose) {
     super(app);
@@ -21325,6 +21739,11 @@ var VisualNotesSettingsTab = class extends import_obsidian30.PluginSettingTab {
         name: "Default board",
         desc: 'Board opened when you click the ribbon icon or use the "Open" command.',
         render: (s2) => this.buildDefaultBoard(s2)
+      },
+      {
+        name: "Default folder for new boards",
+        desc: "Folder pre-selected as the location when you create a board. Creating a board inside a folder you right-clicked still uses that folder.",
+        render: (s2) => this.buildDefaultNewBoardFolder(s2)
       },
       { type: "group", heading: "Freeform canvas", items: [
         {
@@ -21467,6 +21886,7 @@ var VisualNotesSettingsTab = class extends import_obsidian30.PluginSettingTab {
     this.buildVersionNotice(containerEl);
     this.buildOpenOnStartup(new import_obsidian30.Setting(containerEl));
     this.buildDefaultBoard(new import_obsidian30.Setting(containerEl));
+    this.buildDefaultNewBoardFolder(new import_obsidian30.Setting(containerEl));
     new import_obsidian30.Setting(containerEl).setName("Freeform canvas").setHeading();
     this.buildPanButton(new import_obsidian30.Setting(containerEl));
     this.buildToolbarPosition(new import_obsidian30.Setting(containerEl));
@@ -21527,6 +21947,38 @@ var VisualNotesSettingsTab = class extends import_obsidian30.PluginSettingTab {
         (btn) => btn.setButtonText("Clear").onClick(() => {
           void (async () => {
             this.plugin.settings.defaultBoardPath = void 0;
+            await this.plugin.saveSettings();
+            this.refresh();
+          })();
+        })
+      );
+    }
+  }
+  // Stores a folder path rather than a TFolder: settings are serialised to
+  // data.json, and the folder can be renamed or deleted between sessions.
+  // Every read goes through resolveFolderPath, which turns a stale path back
+  // into null (= vault root) instead of failing.
+  buildDefaultNewBoardFolder(setting) {
+    setting.setName("Default folder for new boards").setDesc("Folder pre-selected as the location when you create a board. Creating a board inside a folder you right-clicked still uses that folder.");
+    const folder = this.plugin.settings.defaultNewBoardFolder;
+    const pathDisplay = setting.controlEl.createSpan("visual-notes-modal-path-display" + (folder ? "" : " is-empty"));
+    pathDisplay.setText(folder || "Vault root");
+    setting.addButton(
+      (btn) => btn.setButtonText("Browse\u2026").onClick(() => {
+        new FolderSuggestModal(this.app, (chosen) => {
+          void (async () => {
+            this.plugin.settings.defaultNewBoardFolder = (chosen == null ? void 0 : chosen.path) || void 0;
+            await this.plugin.saveSettings();
+            this.refresh();
+          })();
+        }).open();
+      })
+    );
+    if (folder) {
+      setting.addButton(
+        (btn) => btn.setButtonText("Clear").onClick(() => {
+          void (async () => {
+            this.plugin.settings.defaultNewBoardFolder = void 0;
             await this.plugin.saveSettings();
             this.refresh();
           })();

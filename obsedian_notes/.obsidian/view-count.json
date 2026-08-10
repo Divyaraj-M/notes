@@ -1674,8 +1674,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 8,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 9,
       "openLogs": [
         {
           "timestampMillis": 1784029022251
@@ -1694,16 +1694,22 @@
         },
         {
           "timestampMillis": 1786017016662
+        },
+        {
+          "timestampMillis": 1786362336900
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
-      "uniqueDaysOpened": 5,
-      "totalTimesOpened": 6,
+      "uniqueDaysOpened": 6,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1786017018212
+        },
+        {
+          "timestampMillis": 1786362319130
         }
       ]
     },
@@ -1777,11 +1783,14 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-      "uniqueDaysOpened": 4,
-      "totalTimesOpened": 11,
+      "uniqueDaysOpened": 5,
+      "totalTimesOpened": 12,
       "openLogs": [
         {
           "timestampMillis": 1784033250238
+        },
+        {
+          "timestampMillis": 1786362351449
         }
       ]
     },
@@ -2725,111 +2734,9 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
-      "uniqueDaysOpened": 9,
-      "totalTimesOpened": 62,
+      "uniqueDaysOpened": 10,
+      "totalTimesOpened": 66,
       "openLogs": [
-        {
-          "timestampMillis": 1783486747940
-        },
-        {
-          "timestampMillis": 1783492508498
-        },
-        {
-          "timestampMillis": 1783492605837
-        },
-        {
-          "timestampMillis": 1783493268148
-        },
-        {
-          "timestampMillis": 1783493268313
-        },
-        {
-          "timestampMillis": 1783494491660
-        },
-        {
-          "timestampMillis": 1783494495195
-        },
-        {
-          "timestampMillis": 1783494495452
-        },
-        {
-          "timestampMillis": 1783494500235
-        },
-        {
-          "timestampMillis": 1783495124416
-        },
-        {
-          "timestampMillis": 1783495130290
-        },
-        {
-          "timestampMillis": 1783498015492
-        },
-        {
-          "timestampMillis": 1783498017150
-        },
-        {
-          "timestampMillis": 1783498121667
-        },
-        {
-          "timestampMillis": 1783498122786
-        },
-        {
-          "timestampMillis": 1783498361231
-        },
-        {
-          "timestampMillis": 1783498363548
-        },
-        {
-          "timestampMillis": 1783498759234
-        },
-        {
-          "timestampMillis": 1783499292516
-        },
-        {
-          "timestampMillis": 1783499579751
-        },
-        {
-          "timestampMillis": 1783499581467
-        },
-        {
-          "timestampMillis": 1783499682132
-        },
-        {
-          "timestampMillis": 1783499686899
-        },
-        {
-          "timestampMillis": 1783499691099
-        },
-        {
-          "timestampMillis": 1783499695055
-        },
-        {
-          "timestampMillis": 1783499700730
-        },
-        {
-          "timestampMillis": 1783499730969
-        },
-        {
-          "timestampMillis": 1783500496987
-        },
-        {
-          "timestampMillis": 1783515186909
-        },
-        {
-          "timestampMillis": 1783575788022
-        },
-        {
-          "timestampMillis": 1783582668181
-        },
-        {
-          "timestampMillis": 1783582739347
-        },
-        {
-          "timestampMillis": 1783582760231
-        },
-        {
-          "timestampMillis": 1783582760482
-        },
         {
           "timestampMillis": 1783939014763
         },
@@ -2913,377 +2820,26 @@
         },
         {
           "timestampMillis": 1785925524208
+        },
+        {
+          "timestampMillis": 1786362346600
+        },
+        {
+          "timestampMillis": 1786362346932
+        },
+        {
+          "timestampMillis": 1786362354787
+        },
+        {
+          "timestampMillis": 1786362355125
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
-      "uniqueDaysOpened": 16,
-      "totalTimesOpened": 280,
+      "uniqueDaysOpened": 17,
+      "totalTimesOpened": 282,
       "openLogs": [
-        {
-          "timestampMillis": 1783493251919
-        },
-        {
-          "timestampMillis": 1783494487688
-        },
-        {
-          "timestampMillis": 1783494498064
-        },
-        {
-          "timestampMillis": 1783494854935
-        },
-        {
-          "timestampMillis": 1783494910565
-        },
-        {
-          "timestampMillis": 1783495163893
-        },
-        {
-          "timestampMillis": 1783495183360
-        },
-        {
-          "timestampMillis": 1783496406674
-        },
-        {
-          "timestampMillis": 1783496418243
-        },
-        {
-          "timestampMillis": 1783496424794
-        },
-        {
-          "timestampMillis": 1783496572048
-        },
-        {
-          "timestampMillis": 1783496579524
-        },
-        {
-          "timestampMillis": 1783496659777
-        },
-        {
-          "timestampMillis": 1783496671707
-        },
-        {
-          "timestampMillis": 1783496728178
-        },
-        {
-          "timestampMillis": 1783496889712
-        },
-        {
-          "timestampMillis": 1783496935830
-        },
-        {
-          "timestampMillis": 1783496943790
-        },
-        {
-          "timestampMillis": 1783496950956
-        },
-        {
-          "timestampMillis": 1783497062704
-        },
-        {
-          "timestampMillis": 1783497085233
-        },
-        {
-          "timestampMillis": 1783497089931
-        },
-        {
-          "timestampMillis": 1783497091876
-        },
-        {
-          "timestampMillis": 1783497098503
-        },
-        {
-          "timestampMillis": 1783497104707
-        },
-        {
-          "timestampMillis": 1783497110542
-        },
-        {
-          "timestampMillis": 1783497115719
-        },
-        {
-          "timestampMillis": 1783497125754
-        },
-        {
-          "timestampMillis": 1783497132609
-        },
-        {
-          "timestampMillis": 1783497139513
-        },
-        {
-          "timestampMillis": 1783497164825
-        },
-        {
-          "timestampMillis": 1783497166020
-        },
-        {
-          "timestampMillis": 1783497170656
-        },
-        {
-          "timestampMillis": 1783497183923
-        },
-        {
-          "timestampMillis": 1783497186484
-        },
-        {
-          "timestampMillis": 1783497190754
-        },
-        {
-          "timestampMillis": 1783497201156
-        },
-        {
-          "timestampMillis": 1783497508627
-        },
-        {
-          "timestampMillis": 1783497532003
-        },
-        {
-          "timestampMillis": 1783497534051
-        },
-        {
-          "timestampMillis": 1783497536128
-        },
-        {
-          "timestampMillis": 1783497537628
-        },
-        {
-          "timestampMillis": 1783497543406
-        },
-        {
-          "timestampMillis": 1783497548095
-        },
-        {
-          "timestampMillis": 1783497555927
-        },
-        {
-          "timestampMillis": 1783497560293
-        },
-        {
-          "timestampMillis": 1783497561460
-        },
-        {
-          "timestampMillis": 1783497562655
-        },
-        {
-          "timestampMillis": 1783497563443
-        },
-        {
-          "timestampMillis": 1783497566682
-        },
-        {
-          "timestampMillis": 1783497577401
-        },
-        {
-          "timestampMillis": 1783497581920
-        },
-        {
-          "timestampMillis": 1783497586848
-        },
-        {
-          "timestampMillis": 1783497590524
-        },
-        {
-          "timestampMillis": 1783497605284
-        },
-        {
-          "timestampMillis": 1783497606944
-        },
-        {
-          "timestampMillis": 1783497608890
-        },
-        {
-          "timestampMillis": 1783497695184
-        },
-        {
-          "timestampMillis": 1783497698827
-        },
-        {
-          "timestampMillis": 1783497778294
-        },
-        {
-          "timestampMillis": 1783497808362
-        },
-        {
-          "timestampMillis": 1783498005947
-        },
-        {
-          "timestampMillis": 1783498109164
-        },
-        {
-          "timestampMillis": 1783498115984
-        },
-        {
-          "timestampMillis": 1783498218134
-        },
-        {
-          "timestampMillis": 1783498219617
-        },
-        {
-          "timestampMillis": 1783498275502
-        },
-        {
-          "timestampMillis": 1783498360538
-        },
-        {
-          "timestampMillis": 1783498364458
-        },
-        {
-          "timestampMillis": 1783498376514
-        },
-        {
-          "timestampMillis": 1783498393631
-        },
-        {
-          "timestampMillis": 1783498398926
-        },
-        {
-          "timestampMillis": 1783498898785
-        },
-        {
-          "timestampMillis": 1783499012486
-        },
-        {
-          "timestampMillis": 1783499566226
-        },
-        {
-          "timestampMillis": 1783499575284
-        },
-        {
-          "timestampMillis": 1783499621004
-        },
-        {
-          "timestampMillis": 1783499625361
-        },
-        {
-          "timestampMillis": 1783499647716
-        },
-        {
-          "timestampMillis": 1783499659718
-        },
-        {
-          "timestampMillis": 1783499719717
-        },
-        {
-          "timestampMillis": 1783499734686
-        },
-        {
-          "timestampMillis": 1783499763199
-        },
-        {
-          "timestampMillis": 1783499769664
-        },
-        {
-          "timestampMillis": 1783500501416
-        },
-        {
-          "timestampMillis": 1783500504218
-        },
-        {
-          "timestampMillis": 1783511814375
-        },
-        {
-          "timestampMillis": 1783511830347
-        },
-        {
-          "timestampMillis": 1783511861636
-        },
-        {
-          "timestampMillis": 1783511863430
-        },
-        {
-          "timestampMillis": 1783511927078
-        },
-        {
-          "timestampMillis": 1783511933661
-        },
-        {
-          "timestampMillis": 1783511942018
-        },
-        {
-          "timestampMillis": 1783513909800
-        },
-        {
-          "timestampMillis": 1783513915302
-        },
-        {
-          "timestampMillis": 1783515203022
-        },
-        {
-          "timestampMillis": 1783515215156
-        },
-        {
-          "timestampMillis": 1783515226319
-        },
-        {
-          "timestampMillis": 1783520186744
-        },
-        {
-          "timestampMillis": 1783520419168
-        },
-        {
-          "timestampMillis": 1783520420789
-        },
-        {
-          "timestampMillis": 1783520423934
-        },
-        {
-          "timestampMillis": 1783520427283
-        },
-        {
-          "timestampMillis": 1783575789550
-        },
-        {
-          "timestampMillis": 1783575890853
-        },
-        {
-          "timestampMillis": 1783576463215
-        },
-        {
-          "timestampMillis": 1783576529238
-        },
-        {
-          "timestampMillis": 1783576538835
-        },
-        {
-          "timestampMillis": 1783576566706
-        },
-        {
-          "timestampMillis": 1783577605287
-        },
-        {
-          "timestampMillis": 1783577637960
-        },
-        {
-          "timestampMillis": 1783580772487
-        },
-        {
-          "timestampMillis": 1783580786619
-        },
-        {
-          "timestampMillis": 1783582432821
-        },
-        {
-          "timestampMillis": 1783582462388
-        },
-        {
-          "timestampMillis": 1783582470683
-        },
-        {
-          "timestampMillis": 1783582474552
-        },
-        {
-          "timestampMillis": 1783582671935
-        },
-        {
-          "timestampMillis": 1783582691355
-        },
-        {
-          "timestampMillis": 1783582765681
-        },
-        {
-          "timestampMillis": 1783582804323
-        },
         {
           "timestampMillis": 1783668974503
         },
@@ -3760,122 +3316,20 @@
         },
         {
           "timestampMillis": 1785925578369
+        },
+        {
+          "timestampMillis": 1786362487327
+        },
+        {
+          "timestampMillis": 1786362524772
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-      "uniqueDaysOpened": 9,
-      "totalTimesOpened": 73,
+      "uniqueDaysOpened": 10,
+      "totalTimesOpened": 74,
       "openLogs": [
-        {
-          "timestampMillis": 1783495153275
-        },
-        {
-          "timestampMillis": 1783495166317
-        },
-        {
-          "timestampMillis": 1783495166477
-        },
-        {
-          "timestampMillis": 1783496670303
-        },
-        {
-          "timestampMillis": 1783496783006
-        },
-        {
-          "timestampMillis": 1783496868163
-        },
-        {
-          "timestampMillis": 1783496883722
-        },
-        {
-          "timestampMillis": 1783497016415
-        },
-        {
-          "timestampMillis": 1783497025497
-        },
-        {
-          "timestampMillis": 1783497048621
-        },
-        {
-          "timestampMillis": 1783497055292
-        },
-        {
-          "timestampMillis": 1783497058476
-        },
-        {
-          "timestampMillis": 1783497059078
-        },
-        {
-          "timestampMillis": 1783497602664
-        },
-        {
-          "timestampMillis": 1783497991051
-        },
-        {
-          "timestampMillis": 1783498110796
-        },
-        {
-          "timestampMillis": 1783498111853
-        },
-        {
-          "timestampMillis": 1783498112806
-        },
-        {
-          "timestampMillis": 1783499382671
-        },
-        {
-          "timestampMillis": 1783499385185
-        },
-        {
-          "timestampMillis": 1783499386145
-        },
-        {
-          "timestampMillis": 1783499389636
-        },
-        {
-          "timestampMillis": 1783499565437
-        },
-        {
-          "timestampMillis": 1783499622285
-        },
-        {
-          "timestampMillis": 1783499626507
-        },
-        {
-          "timestampMillis": 1783499685097
-        },
-        {
-          "timestampMillis": 1783499692843
-        },
-        {
-          "timestampMillis": 1783499733495
-        },
-        {
-          "timestampMillis": 1783511787729
-        },
-        {
-          "timestampMillis": 1783511788070
-        },
-        {
-          "timestampMillis": 1783511809257
-        },
-        {
-          "timestampMillis": 1783511809589
-        },
-        {
-          "timestampMillis": 1783515154648
-        },
-        {
-          "timestampMillis": 1783515154875
-        },
-        {
-          "timestampMillis": 1783520416442
-        },
-        {
-          "timestampMillis": 1783605422548
-        },
         {
           "timestampMillis": 1783933825582
         },
@@ -3986,6 +3440,9 @@
         },
         {
           "timestampMillis": 1785925570738
+        },
+        {
+          "timestampMillis": 1786362423245
         }
       ]
     },
@@ -5397,8 +4854,8 @@
     },
     {
       "path": "Help Article - Import data into SparrowCRM via CSV.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 17,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 18,
       "openLogs": [
         {
           "timestampMillis": 1784815916876
@@ -5450,6 +4907,9 @@
         },
         {
           "timestampMillis": 1785925142340
+        },
+        {
+          "timestampMillis": 1786346602870
         }
       ]
     },
@@ -6082,8 +5542,8 @@
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md",
-      "uniqueDaysOpened": 2,
-      "totalTimesOpened": 5,
+      "uniqueDaysOpened": 3,
+      "totalTimesOpened": 7,
       "openLogs": [
         {
           "timestampMillis": 1785417126593
@@ -6099,13 +5559,19 @@
         },
         {
           "timestampMillis": 1785491862967
+        },
+        {
+          "timestampMillis": 1786346605391
+        },
+        {
+          "timestampMillis": 1786362342680
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
-      "uniqueDaysOpened": 6,
-      "totalTimesOpened": 26,
+      "uniqueDaysOpened": 7,
+      "totalTimesOpened": 27,
       "openLogs": [
         {
           "timestampMillis": 1785417213651
@@ -6184,6 +5650,9 @@
         },
         {
           "timestampMillis": 1786022704477
+        },
+        {
+          "timestampMillis": 1786346606910
         }
       ]
     },
@@ -6326,7 +5795,7 @@
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
       "uniqueDaysOpened": 4,
-      "totalTimesOpened": 19,
+      "totalTimesOpened": 21,
       "openLogs": [
         {
           "timestampMillis": 1785827130423
@@ -6384,13 +5853,19 @@
         },
         {
           "timestampMillis": 1786342127660
+        },
+        {
+          "timestampMillis": 1786346601667
+        },
+        {
+          "timestampMillis": 1786362282196
         }
       ]
     },
     {
       "path": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
-      "uniqueDaysOpened": 3,
-      "totalTimesOpened": 81,
+      "uniqueDaysOpened": 4,
+      "totalTimesOpened": 85,
       "openLogs": [
         {
           "timestampMillis": 1785828589982
@@ -6634,6 +6109,18 @@
         },
         {
           "timestampMillis": 1786015462486
+        },
+        {
+          "timestampMillis": 1786362292994
+        },
+        {
+          "timestampMillis": 1786362311049
+        },
+        {
+          "timestampMillis": 1786362320871
+        },
+        {
+          "timestampMillis": 1786362322248
         }
       ]
     },
@@ -6666,10 +6153,56 @@
     {
       "path": "3 - Resources/Templates/Untitled.md",
       "uniqueDaysOpened": 1,
-      "totalTimesOpened": 1,
+      "totalTimesOpened": 2,
       "openLogs": [
         {
           "timestampMillis": 1786342077257
+        },
+        {
+          "timestampMillis": 1786362289757
+        }
+      ]
+    },
+    {
+      "path": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 12,
+      "openLogs": [
+        {
+          "timestampMillis": 1786362434626
+        },
+        {
+          "timestampMillis": 1786362487858
+        },
+        {
+          "timestampMillis": 1786362492315
+        },
+        {
+          "timestampMillis": 1786362495048
+        },
+        {
+          "timestampMillis": 1786362501268
+        },
+        {
+          "timestampMillis": 1786362504130
+        },
+        {
+          "timestampMillis": 1786362509042
+        },
+        {
+          "timestampMillis": 1786362513183
+        },
+        {
+          "timestampMillis": 1786362678141
+        },
+        {
+          "timestampMillis": 1786362679203
+        },
+        {
+          "timestampMillis": 1786362686383
+        },
+        {
+          "timestampMillis": 1786362939842
         }
       ]
     }

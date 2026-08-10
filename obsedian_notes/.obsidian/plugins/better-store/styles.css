@@ -9,6 +9,9 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  /* Query container so the layout responds to the pane's width — narrow
+     splits on desktop and phones alike — not just the viewport. */
+  container-type: inline-size;
 }
 
 .bs-header {
@@ -57,6 +60,11 @@
   cursor: pointer;
 }
 
+.bs-refresh:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .bs-banner {
   padding: 6px 12px;
   background: var(--background-modifier-error-hover, var(--background-secondary));
@@ -77,6 +85,13 @@
   display: flex;
   flex: 1;
   min-height: 0;
+  /* Positioning context for the mobile full-screen detail overlay. */
+  position: relative;
+}
+
+/* Filters drawer toggle — only shown at narrow widths (see the container query). */
+.bs-filters-toggle {
+  display: none;
 }
 
 .bs-main {
@@ -273,6 +288,26 @@
   flex-wrap: wrap;
   gap: 4px;
   margin-top: auto;
+}
+
+/* Browse-card footer: categories on the left, an "Installed" badge pinned
+   to the bottom-right corner. */
+.bs-card-footer {
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.bs-card-footer .bs-card-cats {
+  margin-top: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.bs-card-footer .bs-badge-installed {
+  flex-shrink: 0;
 }
 
 /* Detail pane (width set inline; user-resizable via drag handle) */
@@ -609,6 +644,23 @@
   color: var(--text-faint);
 }
 
+/* Installed plugins: tint the leading plugin icon (not the download icon). */
+.bs-tree-item-installed > .bs-icon {
+  color: var(--interactive-accent);
+}
+
+.bs-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .bs-tree-name {
   flex: 1;
   min-width: 0;
@@ -800,5 +852,456 @@
 @media (prefers-reduced-motion: reduce) {
   .bs-select {
     transition: none;
+  }
+}
+
+/* Health chip */
+.bs-health {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: var(--font-ui-small);
+  border: 1px solid var(--background-modifier-border);
+}
+
+.bs-health-healthy {
+  color: var(--interactive-accent);
+  border-color: color-mix(in srgb, var(--interactive-accent) 45%, var(--background-modifier-border));
+  background: color-mix(in srgb, var(--interactive-accent) 9%, transparent);
+}
+
+.bs-health-aging {
+  color: var(--color-yellow, #e0ac00);
+  border-color: color-mix(in srgb, var(--color-yellow, #e0ac00) 45%, var(--background-modifier-border));
+  background: color-mix(in srgb, var(--color-yellow, #e0ac00) 9%, transparent);
+}
+
+.bs-health-at-risk {
+  color: var(--color-red, #e05252);
+  border-color: color-mix(in srgb, var(--color-red, #e05252) 45%, var(--background-modifier-border));
+  background: color-mix(in srgb, var(--color-red, #e05252) 9%, transparent);
+}
+
+/* Sparkline */
+.bs-spark {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bs-spark svg {
+  display: block;
+}
+
+.bs-spark-label {
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+/* Copy actions */
+.bs-copy-actions {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.bs-copy-btn {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  padding: 2px 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bs-copy-btn:hover {
+  color: var(--text-normal);
+}
+
+/* Similar plugins */
+.bs-similar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Filter presets */
+.bs-preset-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.bs-preset-row select {
+  flex: 1;
+  min-width: 0;
+}
+
+.bs-preset-save {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px 7px;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bs-preset-save:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+/* Tree tools */
+.bs-tree-tools {
+  display: flex;
+  gap: 6px;
+  padding: 0 0 8px;
+}
+
+.bs-tree-tool {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: var(--radius-s);
+}
+
+.bs-tree-tool:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
+/* Profiles */
+.bs-profile-select {
+  max-width: 160px;
+}
+
+/* Skeleton loading */
+.bs-skeleton-card {
+  cursor: default;
+  pointer-events: none;
+}
+
+.bs-skel {
+  height: 10px;
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--background-modifier-hover) 25%,
+    var(--background-modifier-border) 50%,
+    var(--background-modifier-hover) 75%
+  );
+  background-size: 200% 100%;
+  animation: bs-shimmer 1.4s ease infinite;
+}
+
+.bs-skel-thin {
+  height: 7px;
+}
+
+.bs-skel-chip {
+  height: 14px;
+  width: 52px;
+  margin-top: auto;
+}
+
+@keyframes bs-shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bs-skel {
+    animation: none;
+  }
+}
+
+/* Empty state */
+.bs-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 64px 24px;
+  color: var(--text-muted);
+}
+
+.bs-empty .bs-icon svg {
+  width: 32px;
+  height: 32px;
+  color: var(--text-faint);
+}
+
+.bs-empty p {
+  margin: 0;
+}
+
+.bs-empty-clear {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 5px 14px;
+  border-radius: var(--radius-s);
+  font-size: var(--font-ui-small);
+}
+
+/* Import modal */
+.bs-import-textarea {
+  width: 100%;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-small);
+  resize: vertical;
+}
+
+/* Author drill-down */
+.bs-author-link {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+}
+
+.bs-author-link:hover {
+  color: var(--text-accent);
+  text-decoration: underline;
+}
+
+.bs-author-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 12px 0;
+  padding: 6px 10px;
+  border-radius: var(--radius-s);
+  background: var(--background-secondary);
+  border-left: 3px solid var(--interactive-accent);
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.bs-author-filter strong {
+  color: var(--text-normal);
+}
+
+.bs-author-clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: var(--text-faint);
+}
+
+.bs-author-clear:hover {
+  color: var(--text-normal);
+}
+
+/* Update control */
+.bs-update-skip {
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  padding: 3px 8px;
+  border-radius: var(--radius-s);
+  flex-shrink: 0;
+}
+
+.bs-update-skip:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+.bs-mute-select {
+  font-size: var(--font-ui-small);
+}
+
+/* GitHub catalog scan progress */
+.bs-scan-progress {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+}
+
+.bs-scan-progress:hover {
+  background: var(--interactive-accent-hover, var(--interactive-accent));
+}
+
+.bs-scan-progress .svg-icon {
+  animation: bs-spin 1s linear infinite;
+}
+
+@keyframes bs-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bs-scan-progress .svg-icon {
+    animation: none;
+  }
+}
+
+/* BRAT beta-plugin panel */
+.bs-brat {
+  margin: 0 12px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s);
+  background: var(--background-secondary);
+}
+
+.bs-brat > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.bs-brat-count {
+  background: var(--background-modifier-border);
+  color: var(--text-normal);
+  border-radius: 999px;
+  padding: 0 7px;
+  font-size: var(--font-ui-smaller);
+  letter-spacing: 0;
+}
+
+.bs-brat-body {
+  padding: 4px 12px 12px;
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+}
+
+.bs-brat-body p {
+  margin: 4px 0 10px;
+}
+
+.bs-brat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.bs-brat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bs-brat-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+}
+
+.bs-brat-empty {
+  font-style: italic;
+}
+
+/* ---- Responsive: narrow panes and phones ---- */
+@container (max-width: 640px) {
+  /* Header/toolbars wrap instead of overflowing. */
+  .bs-header,
+  .bs-installed-toolbar {
+    flex-wrap: wrap;
+  }
+
+  /* Filters become a drawer above the grid, toggled by the Filters button. */
+  .bs-filters-toggle {
+    display: inline-flex;
+  }
+
+  .bs-body {
+    flex-direction: column;
+  }
+
+  .bs-sidebar {
+    display: none;
+    width: auto;
+    max-height: 55vh;
+    border-right: none;
+    border-bottom: 1px solid var(--background-modifier-border);
+  }
+
+  .bs-body.bs-filters-open .bs-sidebar {
+    display: flex;
+  }
+
+  /* Single-column card grid. */
+  .bs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Detail pane covers the list as a full-screen sheet with its own close button. */
+  .bs-detail {
+    position: absolute;
+    inset: 0;
+    width: auto !important;
+    min-width: 0;
+    max-width: none;
+    border-left: none;
+    background: var(--background-primary);
+    z-index: 5;
+  }
+
+  /* Drag-to-resize is meaningless on touch. */
+  .bs-detail-resize {
+    display: none;
+  }
+
+  /* Comfortable touch targets. */
+  .bs-star,
+  .bs-ignore,
+  .bs-detail-close,
+  .bs-copy-btn {
+    min-width: 36px;
+    min-height: 36px;
+  }
+
+  .bs-tree-item,
+  .bs-tree-folder,
+  .bs-tree-more {
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
