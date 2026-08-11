@@ -20,111 +20,12 @@
             }
           },
           {
-            "id": "4182daae14bc11c5",
+            "id": "a5b1f0edc87513f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Migration Hubspot_v 1"
-            }
-          },
-          {
-            "id": "f319ba3429139061",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Custom Objects_v1"
-            }
-          },
-          {
-            "id": "8faac6dd5b481fd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Migration Hubspot_v 1"
-            }
-          },
-          {
-            "id": "a2e0a6fb7d8ba72c",
-            "type": "leaf",
-            "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "b0467e156c90b0f3",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
-                "viewState": {
-                  "x": -333.2278175496858,
-                  "y": -325.1099331474346,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "AI Restructuring"
-            }
-          },
-          {
-            "id": "eb5516e5b5a18bde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
+                "file": "3 - Resources/Sales Cycle/Sales Cycle.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -139,11 +40,45 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "filters_v1"
+              "title": "Sales Cycle"
+            }
+          },
+          {
+            "id": "f37160b60a8463ef",
+            "type": "leaf",
+            "state": {
+              "type": "hearth-home-view",
+              "state": {},
+              "icon": "hearth-crystal",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "0af97c898e06c5d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AI Features"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -286,10 +221,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md"
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Custom Objects_v1"
+              "title": "File properties"
             }
           },
           {
@@ -298,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Custom Objects_v1"
+              "title": "Outline"
             }
           },
           {
@@ -353,7 +288,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -376,7 +311,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.21370782989230996,
+                  "scale": 0.3521687111607264,
                   "close": true
                 }
               },
@@ -413,7 +348,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9140aa1d3d409719",
@@ -461,46 +397,40 @@
       "supersync:GitHub Sync": false,
       "peerdraft:Show my Peerdraft Shares": false,
       "belki:Open belki": false,
-      "visual-notes:Visual Notes": false,
-      "operon:Create New Operon Task": false,
-      "operon:Operon Filter View": false,
-      "operon:Task Finder": false,
-      "operon:Operon Calendar": false,
-      "operon:Operon Kanban": false,
-      "operon:Operon Table": false,
-      "operon:Open Pinned Tasks": false
+      "visual-notes:Visual Notes": false
     }
   },
-  "active": "b0467e156c90b0f3",
+  "active": "0af97c898e06c5d0",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/CRM Intelligence.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Contacts/Contacts.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/Filters for Objects.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
-    "3 - Resources/Templates/Untitled.md",
+    "3 - Resources/Sales Cycle/Sales Cycle.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.md",
+    "3 - Resources/Teardowns/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
+    "3 - Resources/Sales Cycle/Renewal, Expansion & Advocacy.md",
+    "3 - Resources/Sales Cycle/Qualification (MQL → SQL).md",
+    "3 - Resources/Sales Cycle/Handoff, Onboarding & Implementation.md",
+    "3 - Resources/Sales Cycle/Close & Contract Execution.md",
+    "3 - Resources/Sales Cycle/Security, Legal & Procurement.md",
+    "3 - Resources/Sales Cycle/Negotiation & Objection Handling.md",
+    "3 - Resources/Sales Cycle/Business Case & Proposal.md",
+    "3 - Resources/Sales Cycle/Trial, POC or Pilot.md",
+    "3 - Resources/Sales Cycle/Demo & Solution Design.md",
+    "3 - Resources/Sales Cycle/Discovery.md",
+    "3 - Resources/Sales Cycle/Prospecting.md",
+    "3 - Resources/Sales Cycle/ICP Planning.md",
+    "3 - Resources/Help Article - Import data into SparrowCRM via CSV.md",
+    "3 - Resources/Help Article Template.md",
+    "3 - Resources/Sales Cycle/Adoption & Value Realisation.md",
+    "3 - Resources/Sales Cycle",
     "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
     "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
-    "Help Article - Import data into SparrowCRM via CSV.md",
-    "3 - Resources/Templates/Product Spec Template 2.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/HubSpot_Migration_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Email/Email_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Deals/Deal_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
     "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.md",
-    "1 - Projects/Sparrowcrm/12 - People/@Ganesh Ravi Shankar(GRS).md",
-    "Operon/Demo Workspace/Set Up Your Obsidian Vault with Operon.md",
-    "Operon/Demo Workspace/Operon Basics Project.md",
-    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/Import_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Imports/Imports.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Ai Signals/Ai Signals.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
     "Operon/Demo Workspace",
     "Operon/Tasks",
     "Operon/Tables/Default table.table",
@@ -512,7 +442,6 @@
     "1 - Projects/Sparrowcrm/5 - Features/Custom Objects",
     "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
     "Clippings",
-    "3 - Resources/Learning/Thinking Frameworks/hybrid-thinking-product-framework.html",
     "2 - Areas/Metrics and Goals/Goals and Metrics.canvas",
     "Untitled.canvas",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
