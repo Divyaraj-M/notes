@@ -1,0 +1,61 @@
+---
+status: Draft
+created:
+updated:
+owner:
+tags:
+  - sparrowcrm/product_specs/template
+feature:
+---
+
+# SPEC — [Feature Name]
+
+## Status Tracker
+
+| Phase | Status | Date | Owner |
+|-------|--------|------|-------|
+| Draft | | | |
+| Reviewed | | | |
+| Design | | | |
+| Dev | | | |
+| Staging | | | |
+| In Production | | | |
+
+## Problem Statement
+
+
+## Goals & Non-Goals
+
+**Goals:**
+
+
+**Non-Goals:**
+
+
+## User Stories
+
+
+## Proposed Solution
+
+
+## Design / Wireframes
+
+
+## Technical Considerations
+
+
+## Success Metrics
+
+
+## Open Questions
+
+
+## Decision Log
+
+| Date | Decision | Rationale |
+|------|----------|-----------|
+|      |          |           |
+
+---
+
+**Related:** [[4 - Product Specs]] | [[5 - Features]]

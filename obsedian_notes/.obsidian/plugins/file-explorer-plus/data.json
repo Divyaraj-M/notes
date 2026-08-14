@@ -21,36 +21,8 @@
       {
         "name": "",
         "active": true,
-        "type": "FILES",
-        "pattern": "1 - Projects/Sparrowcrm/To do list.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "1 - Projects/Sparrowcrm/Issues Found.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "3 - Resources/PM Prompts Library/storytelling/README.md",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
         "type": "DIRECTORIES",
         "pattern": "3 - Resources/PM Prompts Library/storytelling",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "1 - Projects/Sparrowcrm/Thinking.md",
         "patternType": "STRICT"
       }
     ],
@@ -87,13 +59,6 @@
         "active": true,
         "type": "FILES",
         "pattern": "README",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "FILES",
-        "pattern": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Hygiene Agent_v2.md",
         "patternType": "STRICT"
       }
     ],

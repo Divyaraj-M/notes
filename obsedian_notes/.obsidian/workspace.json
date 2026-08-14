@@ -47,19 +47,9 @@
             "id": "f37160b60a8463ef",
             "type": "leaf",
             "state": {
-              "type": "hearth-home-view",
-              "state": {},
-              "icon": "hearth-crystal",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "0af97c898e06c5d0",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
+                "file": "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -74,11 +64,28 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI Features"
+              "title": "5 - Features"
+            }
+          },
+          {
+            "id": "5682b43a720c5b73",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "2 - Areas/Metrics and Goals/Goals and Metrics.canvas",
+                "viewState": {
+                  "x": 180,
+                  "y": -1550,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Goals and Metrics"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,16 +148,6 @@
         "type": "tabs",
         "dimension": 28.303152246814214,
         "children": [
-          {
-            "id": "ae0e989d3fd4e238",
-            "type": "leaf",
-            "state": {
-              "type": "private-github-sync-status",
-              "state": {},
-              "icon": "refresh-cw",
-              "title": "GitHub Sync"
-            }
-          },
           {
             "id": "6482f0009bd1ce8d",
             "type": "leaf",
@@ -397,63 +394,64 @@
       "supersync:GitHub Sync": false,
       "peerdraft:Show my Peerdraft Shares": false,
       "belki:Open belki": false,
-      "visual-notes:Visual Notes": false
+      "visual-notes:Visual Notes": false,
+      "third-mind-reader:Open Library": false
     }
   },
-  "active": "0af97c898e06c5d0",
+  "active": "5682b43a720c5b73",
   "lastOpenFiles": [
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
-    "3 - Resources/Sales Cycle/Sales Cycle.md",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
     "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI CRM Visualization.canvas",
-    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Roadmap for Agents.md",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Restructuring.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/Agents in CRM.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies_v1.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/Companies.md",
+    "1 - Projects/Sparrowcrm/5 - Features/Companies/whimsical_er_map_ticketing_template.html",
+    "3 - Resources/Sales Cycle/Sales Cycle.md",
+    "1 - Projects/Sparrowcrm/5 - Features/5 - Features.md",
+    "1 - Projects/Sparrowcrm/2 - Customer Insights/2 - Customer Insights.md",
     "1 - Projects/Sparrowcrm/Sparrowcrm.md",
-    "3 - Resources/Teardowns/EcoTrace — Real-Time Emissions Monitoring Platform (V 1 PRD).md",
-    "3 - Resources/Sales Cycle/Renewal, Expansion & Advocacy.md",
-    "3 - Resources/Sales Cycle/Qualification (MQL → SQL).md",
-    "3 - Resources/Sales Cycle/Handoff, Onboarding & Implementation.md",
-    "3 - Resources/Sales Cycle/Close & Contract Execution.md",
-    "3 - Resources/Sales Cycle/Security, Legal & Procurement.md",
-    "3 - Resources/Sales Cycle/Negotiation & Objection Handling.md",
-    "3 - Resources/Sales Cycle/Business Case & Proposal.md",
-    "3 - Resources/Sales Cycle/Trial, POC or Pilot.md",
-    "3 - Resources/Sales Cycle/Demo & Solution Design.md",
-    "3 - Resources/Sales Cycle/Discovery.md",
-    "3 - Resources/Sales Cycle/Prospecting.md",
-    "3 - Resources/Sales Cycle/ICP Planning.md",
-    "3 - Resources/Help Article - Import data into SparrowCRM via CSV.md",
-    "3 - Resources/Help Article Template.md",
-    "3 - Resources/Sales Cycle/Adoption & Value Realisation.md",
-    "3 - Resources/Sales Cycle",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration Hubspot_v 1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects/Custom Objects_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/Sparrowdesk_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Filters for Objects/filters_v1.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Integrations-CRM/SparrowDesk.md",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
-    "Operon/Demo Workspace",
-    "Operon/Tasks",
-    "Operon/Tables/Default table.table",
-    "Operon/Tables",
-    "Operon",
-    "1 - Projects/Sparrowcrm/5 - Features/Migration",
-    "New Visual Notes board.canvas",
-    "4 - Archive/Screenshots/Happyflow breakdown inputs.png",
-    "1 - Projects/Sparrowcrm/5 - Features/Custom Objects",
-    "1 - Projects/Sparrowcrm/SparrowCRM-Entity-Relationships.excalidraw",
-    "Clippings",
-    "2 - Areas/Metrics and Goals/Goals and Metrics.canvas",
-    "Untitled.canvas",
+    "1 - Projects/Sparrowcrm/5 - Features/CRM Intelligence/Agents in CRM/AI Features.md",
+    "_belki_files/Data/2026-12.md",
+    "_belki_files/Data/2026-11.md",
+    "_belki_files/Data/2026-10.md",
+    "_belki_files/Data/2026-09.md",
+    "_belki_files/Data/2026-08.md",
+    "_belki_files/Data/2026-07.md",
+    "4 - Archive/Sparrowgenie/laundry list.md",
+    "4 - Archive/Sparrowgenie/Year2026/Quarter2/Month04/Day27/2026-04-27 16-24-02.md",
+    "4 - Archive/Sparrowgenie/Users/Untitled.md",
+    "4 - Archive/Sparrowgenie/Users/Untitled.base",
+    "4 - Archive/Sparrowgenie/Users/Sep2.security.md",
+    "4 - Archive/Sparrowgenie/Users/Home page.md",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Users tab.md",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.48.54 PM.png",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.48.28 PM.png",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.47.56 PM.png",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Screenshot 2026-01-29 at 7.31.37 PM.png",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Roles and Permissions.md",
+    "4 - Archive/Sparrowgenie/Users and Teams (Settings)/Remove User from Workspace.md",
+    "4 - Archive/Sparrowgenie/User Roles/Project/Question card/Reviewer.md",
+    "4 - Archive/Sparrowgenie/User Roles/Project/Question card/Author.md",
+    "4 - Archive/Sparrowgenie/User Roles/Project/Project Watcher.md",
+    "4 - Archive/Sparrowgenie/UAT/Screenshot 2026-04-24 at 2.44.31 PM.png",
+    "4 - Archive/Sparrowgenie/UAT/Screenshot 2026-04-24 at 2.43.29 PM.png",
+    "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2026-02-02 at 12.16.52 PM.png",
+    "4 - Archive/Sparrowgenie/Top Deliverables/Screenshot 2025-12-15 at 11.51.50 AM.png",
     "4 - Archive/Sparrowgenie/Teams (Settings)/Teams.canvas",
-    "1 - Projects/Sparrowcrm/Pasted image 20260728151323.png",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/safari-na3_-uQk.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/playwright-logo.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-nightly-Cp5nfeDT.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-beta-k3eOH_eK.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/vite/dashboard/assets/firefox-1bWoP6pv.svg",
-    "playwright-import-tests/node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Screenshot 2026-02-09 at 7.28.33 PM.png",
+    "4 - Archive/Sparrowgenie/Rich Text Editor/Screenshot 2026-02-09 at 3.57.02 PM.png",
+    "4 - Archive/Sparrowgenie/Obligations/Screen Recording 2026-02-23 at 9.21.26 AM.mov",
+    "4 - Archive/Sparrowgenie/Misc/My Data.base",
+    "3 - Resources/Learning/Domain Design/Evans03.pdf",
+    "3 - Resources/Books/Read List/Analogy vs Analogical thinking.pdf",
+    "2 - Areas/Metrics and Goals/Goals and Metrics.canvas",
+    "1 - Projects/Sparrowcrm/Sparrowcrm.base",
+    "1 - Projects/Sparrowcrm/5 - Features/Migration/Migration.canvas",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "New Visual Notes board.canvas",
+    "Untitled.canvas",
     "Product/Settings/Teams/Teams.canvas",
     "1 - Projects/Teams (Settings)/Teams.canvas",
     "obsedian_notes/Product/Settings/Teams/Teams.canvas"
